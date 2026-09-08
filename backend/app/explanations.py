@@ -67,6 +67,10 @@ def _rule_phrase_en(
         return "land ownership requirement satisfied"
     if rule == "land_ownership_landless":
         return "profile indicates landless / no ownership"
+    if rule == "maternity_required":
+        return "maternity / recent delivery signal present (pregnant, lactating, or child ≤6 months)"
+    if rule == "primary_breadwinner_deceased_required":
+        return "primary breadwinner deceased flag set"
     return rule.replace("_", " ")
 
 
@@ -108,6 +112,10 @@ def _rule_phrase_ml(
         return f"സംസ്ഥാനം '{profile.state or 'Kerala'}' യോജിക്കുന്നു"
     if rule == "land_ownership":
         return "ഭൂമി ഉടമസ്ഥത നിബന്ധന നിറവേറ്റുന്നു"
+    if rule == "maternity_required":
+        return "ഗർഭം / മുലയൂട്ടൽ / 6 മാസത്തിനുള്ളിൽ കുട്ടി എന്ന സിഗ്നൽ ഉണ്ട്"
+    if rule == "primary_breadwinner_deceased_required":
+        return "പ്രധാന വരുമാനദാതാവ് മരിച്ചുവെന്ന ഫ്ലാഗ് സജ്ജമാണ്"
     return rule.replace("_", " ") + " [ML]"
 
 

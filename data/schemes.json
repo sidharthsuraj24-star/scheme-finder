@@ -565,7 +565,8 @@
       ],
       "notes": "BPL household; deceased primary breadwinner aged 18-59 as per recent PIB NSAP brief (some NSAP FAQ pages still say 18-64). Assistance Rs.20,000 lump sum per recent official PIB document.",
       "verify": true,
-      "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band."
+      "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band.",
+      "primary_breadwinner_deceased_required": true
     },
     "benefits": {
       "en": "One-time lump-sum financial assistance of Rs.20,000 (as stated in MoRD/PIB NSAP brief).",
@@ -847,7 +848,8 @@
       ],
       "notes": "Any ONE of listed disadvantaged criteria (SC/ST; disability >=40%; BPL ration; PMJAY; e-Shram; PM-KISAN; MGNREGA job card; net family income < Rs.8 lakh; AWW/AWH/ASHA; NFSA ration card). Age at childbirth: 18y7m to <55y per WCD FAQ. Excludes women in regular Central/State/PSU employment or receiving similar benefits under other law. Not implemented in Telangana and Odisha (own schemes).",
       "verify": false,
-      "verify_notes": ""
+      "verify_notes": "",
+      "maternity_required": true
     },
     "benefits": {
       "en": "First child: Rs.5,000 in two instalments (Rs.3,000 after ANC conditions; Rs.2,000 after birth registration + 14-week immunization). Second child if girl: Rs.6,000 in single instalment after birth + immunization. Also eligible for JSY after institutional delivery.",
@@ -982,7 +984,8 @@
       ],
       "notes": "Official page: differently abled mothers with 60% or more disability eligible (table lists specific % by disability type, some 50%). Annual family income not exceed Rs.1 lakh. Apply within 6 months of delivery. Benefit only twice. Priority if both parents PwD (husband >=40%). Caregiver certificate if needed.",
       "verify": true,
-      "verify_notes": "Page states '60 percent or more' in eligibility point 1, but disability-type table includes some categories at 50% (e.g., autism, muscular dystrophy). Matcher should prefer type-specific % from official table; set verify until type mapping is encoded."
+      "verify_notes": "Page states '60 percent or more' in eligibility point 1, but disability-type table includes some categories at 50% (e.g., autism, muscular dystrophy). Matcher should prefer type-specific % from official table; set verify until type mapping is encoded.",
+      "maternity_required": true
     },
     "benefits": {
       "en": "Financial assistance of Rs.2,000 to eligible PwD mothers until child turns 2 years.",
@@ -1119,7 +1122,8 @@
       ],
       "notes": "Per health.kerala.gov.in JSY page (dated content): financial assistance Rs.600 urban / Rs.700 rural institutional delivery; SC/ST mothers Rs.500 for home delivery regardless of financial status. Services at government hospitals and select accredited private institutions.",
       "verify": true,
-      "verify_notes": "Confirm whether Kerala still uses these exact cash amounts and age (>19) on current NHM circulars; page is an official health.kerala.gov.in financial-aid item."
+      "verify_notes": "Confirm whether Kerala still uses these exact cash amounts and age (>19) on current NHM circulars; page is an official health.kerala.gov.in financial-aid item.",
+      "maternity_required": true
     },
     "benefits": {
       "en": "Cash assistance for institutional delivery: Rs.600 (urban) / Rs.700 (rural); SC/ST home delivery Rs.500 as stated on Kerala Health page.",

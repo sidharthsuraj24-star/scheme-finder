@@ -340,6 +340,43 @@ def test_pregnant_sc_matches_pmmvy(schemes, profiles):
     hit = next(m for m in resp.matched if m.scheme_id == "pmmvy")
     assert "gender" in hit.matched_rules
     assert "categories" in hit.matched_rules
+    assert "maternity_required" in hit.matched_rules
+    assert "janani-suraksha-yojana-kerala" in _matched_ids(resp)
+
+
+def test_non_pregnant_female_excludes_maternity_schemes(schemes, profiles):
+    """BPL widow who is not pregnant must not get likely PMMVY/JSY."""
+    profile = _profile_from_sample(profiles["profile-widow-low-income"])
+    profile = profile.model_copy(update={"is_pregnant": False, "is_lactating": False})
+    resp = match_schemes(schemes, profile)
+    assert "pmmvy" not in _matched_ids(resp)
+    assert "janani-suraksha-yojana-kerala" not in _matched_ids(resp)
+    assert any(
+        e.scheme_id == "pmmvy" and "maternity_required" in e.reasons for e in resp.excluded
+    )
+
+
+def test_nfbs_requires_breadwinner_flag(schemes, profiles):
+    bereaved = _profile_from_sample(profiles["profile-bereaved-bpl"])
+    resp = match_schemes(schemes, bereaved)
+    assert "nsap-nfbs" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "nsap-nfbs")
+    assert "primary_breadwinner_deceased_required" in hit.matched_rules
+
+    widow = _profile_from_sample(profiles["profile-widow-low-income"])
+    widow = widow.model_copy(update={"primary_breadwinner_deceased": False})
+    resp2 = match_schemes(schemes, widow)
+    assert "nsap-nfbs" not in _matched_ids(resp2)
+
+
+def test_likely_eligible_sorted_before_uncertain(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    profile = profile.model_copy(update={"disability": False, "occupations": ["other"]})
+    resp = match_schemes(schemes, profile)
+    assert resp.matched
+    statuses = [m.status for m in resp.matched]
+    if "likely_eligible" in statuses and "uncertain" in statuses:
+        assert statuses.index("likely_eligible") < statuses.index("uncertain")
 
 
 def test_api_match_endpoint():

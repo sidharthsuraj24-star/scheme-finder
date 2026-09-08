@@ -11,6 +11,9 @@ export interface ProfileAnswers {
   district: string | null;
   gender: string | null;
   marital_status: string | null;
+  /** female-only: pregnant | lactating | neither */
+  maternity: "pregnant" | "lactating" | "neither" | null;
+  primary_breadwinner_deceased: "yes" | "no" | null;
 }
 
 export interface LocalizedText {
@@ -64,6 +67,9 @@ export interface MatchRequestBody {
     disability_percent?: number | null;
     land_ownership: string;
     is_student?: boolean;
+    is_pregnant?: boolean;
+    is_lactating?: boolean;
+    primary_breadwinner_deceased?: boolean;
   };
   options: {
     include_verify_uncertain: boolean;

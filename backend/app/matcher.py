@@ -332,8 +332,46 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
             # Landed but may still be homeless (incomplete house) — leave to categories
             pass
 
-    # Soft pregnancy / student helpers (only when scheme tags suggest it — never invent)
-    # Encoded via occupations/categories already; optional soft boosts below in scoring.
+    # --- maternity (from structured eligibility_rules only; seed notes/tags) ---
+    if rules.get("maternity_required"):
+        pregnant = profile.is_pregnant
+        lactating = profile.is_lactating
+        child_months = profile.child_age_months
+        positive = (
+            pregnant is True
+            or lactating is True
+            or (child_months is not None and int(child_months) >= 0 and int(child_months) <= 6)
+        )
+        explicit_negative = (
+            pregnant is False
+            and lactating is not True
+            and child_months is None
+        )
+        all_unknown = pregnant is None and lactating is None and child_months is None
+        if positive:
+            result.ok("maternity_required")
+        elif explicit_negative:
+            result.fail("maternity_required")
+        elif all_unknown:
+            result.miss("is_pregnant")
+        else:
+            # Partial negatives / unknowns without a positive maternity signal
+            if pregnant is False and lactating is False and (
+                child_months is None or int(child_months) > 6
+            ):
+                result.fail("maternity_required")
+            else:
+                result.miss("is_pregnant")
+
+    # --- NFBS-style breadwinner death (structured flag only) ---
+    if rules.get("primary_breadwinner_deceased_required"):
+        flag = profile.primary_breadwinner_deceased
+        if flag is True:
+            result.ok("primary_breadwinner_deceased_required")
+        elif flag is False:
+            result.fail("primary_breadwinner_deceased_required")
+        else:
+            result.miss("primary_breadwinner_deceased")
 
     return result
 
@@ -427,7 +465,14 @@ def match_schemes(
                 )
             )
 
-    matched.sort(key=lambda m: (-m.score, m.scheme_id))
+    # Prefer likely_eligible over uncertain when scores tie (better mobile UX).
+    matched.sort(
+        key=lambda m: (
+            0 if m.status == "likely_eligible" else 1,
+            -m.score,
+            m.scheme_id,
+        )
+    )
     if options.max_results and len(matched) > options.max_results:
         matched = matched[: options.max_results]
 

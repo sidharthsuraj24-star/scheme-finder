@@ -24,6 +24,8 @@ const emptyAnswers = (): ProfileAnswers => ({
   district: null,
   gender: null,
   marital_status: null,
+  maternity: null,
+  primary_breadwinner_deceased: null,
 });
 
 interface Props {
@@ -60,8 +62,13 @@ export default function Wizard({ lang, onSubmit }: Props) {
         return answers.land_ownership === "yes" || answers.land_ownership === "no";
       case 6:
         return answers.disability === "yes" || answers.disability === "no";
-      case 7:
-        return !!(answers.district && answers.gender && answers.marital_status);
+      case 7: {
+        const base = !!(answers.district && answers.gender && answers.marital_status);
+        const maternityOk =
+          answers.gender !== "female" || answers.maternity != null;
+        const breadwinnerOk = answers.primary_breadwinner_deceased != null;
+        return base && maternityOk && breadwinnerOk;
+      }
       default:
         return true;
     }
@@ -314,7 +321,13 @@ export default function Wizard({ lang, onSubmit }: Props) {
                   key={g}
                   type="button"
                   className={choiceBtn(answers.gender === g)}
-                  onClick={() => setAnswers((a) => ({ ...a, gender: g }))}
+                  onClick={() =>
+                    setAnswers((a) => ({
+                      ...a,
+                      gender: g,
+                      maternity: g === "female" ? a.maternity : null,
+                    }))
+                  }
                   aria-pressed={answers.gender === g}
                 >
                   {t(lang, `gen_${g}`)}
@@ -335,6 +348,55 @@ export default function Wizard({ lang, onSubmit }: Props) {
                   {t(lang, `mar_${m}`)}
                 </button>
               ))}
+            </fieldset>
+
+            {answers.gender === "female" ? (
+              <fieldset className="space-y-2">
+                <legend className="text-xl font-bold text-slate-900">{t(lang, "qMaternity")}</legend>
+                <p className="text-sm text-slate-600">{t(lang, "qMaternityHint")}</p>
+                {(
+                  [
+                    ["pregnant", "mat_pregnant"],
+                    ["lactating", "mat_lactating"],
+                    ["neither", "mat_neither"],
+                  ] as const
+                ).map(([val, key]) => (
+                  <button
+                    key={val}
+                    type="button"
+                    className={choiceBtn(answers.maternity === val)}
+                    onClick={() => setAnswers((a) => ({ ...a, maternity: val }))}
+                    aria-pressed={answers.maternity === val}
+                  >
+                    {t(lang, key)}
+                  </button>
+                ))}
+              </fieldset>
+            ) : null}
+
+            <fieldset className="space-y-2">
+              <legend className="text-xl font-bold text-slate-900">{t(lang, "qBreadwinner")}</legend>
+              <p className="text-sm text-slate-600">{t(lang, "qBreadwinnerHint")}</p>
+              <button
+                type="button"
+                className={choiceBtn(answers.primary_breadwinner_deceased === "yes")}
+                onClick={() =>
+                  setAnswers((a) => ({ ...a, primary_breadwinner_deceased: "yes" }))
+                }
+                aria-pressed={answers.primary_breadwinner_deceased === "yes"}
+              >
+                {t(lang, "yes")}
+              </button>
+              <button
+                type="button"
+                className={choiceBtn(answers.primary_breadwinner_deceased === "no")}
+                onClick={() =>
+                  setAnswers((a) => ({ ...a, primary_breadwinner_deceased: "no" }))
+                }
+                aria-pressed={answers.primary_breadwinner_deceased === "no"}
+              >
+                {t(lang, "no")}
+              </button>
             </fieldset>
           </div>
         );

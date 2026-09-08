@@ -8,6 +8,10 @@ function baseUrl(): string {
 export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequestBody {
   const occupations: string[] = [];
   if (answers.occupation) occupations.push(answers.occupation);
+  // Seed PM-KISAN accepts farmer | landholding_farmer
+  if (answers.occupation === "farmer" && answers.land_ownership === "yes") {
+    occupations.push("landholding_farmer");
+  }
 
   const categories = answers.categories.filter((c) => c && c !== "none");
 
@@ -26,6 +30,9 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
         ? null
         : 0;
 
+  const is_pregnant = answers.maternity === "pregnant";
+  const is_lactating = answers.maternity === "lactating";
+
   return {
     profile: {
       age: answers.age ?? 0,
@@ -40,6 +47,9 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
       disability_percent: answers.disability === "yes" ? disability_percent : answers.disability === "no" ? 0 : undefined,
       land_ownership: land,
       is_student: answers.occupation === "student",
+      is_pregnant: answers.gender === "female" ? is_pregnant : false,
+      is_lactating: answers.gender === "female" ? is_lactating : false,
+      primary_breadwinner_deceased: answers.primary_breadwinner_deceased === "yes",
     },
     options: {
       include_verify_uncertain: true,
