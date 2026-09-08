@@ -4,10 +4,20 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
-.env
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+
+# Secrets / env (never commit)
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.p12
+credentials.json
+secrets/
+**/secrets/
 
 # Backend local DB
 backend/scheme_finder.db
@@ -24,4 +34,6 @@ frontend/.next/
 frontend/out/
 frontend/.env
 frontend/.env.local
+frontend/.env*.local
 frontend/*.tsbuildinfo
+frontend/.vercel/

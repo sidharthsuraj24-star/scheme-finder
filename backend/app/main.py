@@ -23,24 +23,46 @@ from .models import (
     SchemeListResponse,
     SchemeSummary,
 )
+from .security import (
+    MatchRateLimitMiddleware,
+    RequestSizeLimitMiddleware,
+    SecurityHeadersMiddleware,
+)
+
+_ENV = os.environ.get("ENV", os.environ.get("ENVIRONMENT", "development")).strip().lower()
+_IS_PROD = _ENV == "production"
+
+# CORS: production defaults to no browser origins until CORS_ORIGINS is set.
+# Non-production keeps * for local demo. Env override always wins.
+_cors_raw = os.environ.get("CORS_ORIGINS", "").strip()
+if _cors_raw:
+    _cors = [o.strip() for o in _cors_raw.split(",") if o.strip()]
+elif _IS_PROD:
+    _cors = []
+else:
+    _cors = ["*"]
+_allow_creds = bool(_cors) and "*" not in _cors
 
 app = FastAPI(
     title="Scheme Finder API",
     version=__version__,
     description="Deterministic Kerala/India welfare scheme matcher (Phase 2).",
+    docs_url=None if _IS_PROD else "/docs",
+    redoc_url=None if _IS_PROD else "/redoc",
+    openapi_url=None if _IS_PROD else "/openapi.json",
 )
 
-# CORS: default * for demo. Set CORS_ORIGINS=https://your-app.vercel.app,... in prod.
-# allow_credentials must be False when origins is *.
-_cors = [o.strip() for o in os.environ.get("CORS_ORIGINS", "*").split(",") if o.strip()]
-_allow_creds = _cors != ["*"] and "*" not in _cors
+# Middleware order: last added runs first on request.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors,
     allow_credentials=_allow_creds,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Accept", "Authorization"],
 )
+app.add_middleware(MatchRateLimitMiddleware)
+app.add_middleware(RequestSizeLimitMiddleware)
+app.add_middleware(SecurityHeadersMiddleware)
 
 
 @app.get("/health", response_model=HealthResponse)
@@ -53,8 +75,8 @@ def health() -> HealthResponse:
 @app.get("/api/v1/schemes", response_model=SchemeListResponse)
 def list_schemes(
     lang: str | None = Query(default=None, pattern="^(en|ml)$"),
-    state: str | None = None,
-    tag: str | None = None,
+    state: str | None = Query(default=None, max_length=64),
+    tag: str | None = Query(default=None, max_length=64),
     verify: bool | None = None,
 ) -> SchemeListResponse:
     store = get_store()
@@ -81,6 +103,13 @@ def list_schemes(
 @app.get("/schemes/{scheme_id}")
 @app.get("/api/v1/schemes/{scheme_id}")
 def get_scheme(scheme_id: str) -> dict[str, Any]:
+    if len(scheme_id) > 128:
+        raise HTTPException(
+            status_code=400,
+            detail=ErrorResponse(
+                error=ErrorBody(code="invalid_scheme_id", message="scheme_id too long")
+            ).model_dump(),
+        )
     store = get_store()
     scheme = store.get(scheme_id)
     if scheme is None:

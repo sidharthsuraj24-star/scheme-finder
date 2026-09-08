@@ -6,8 +6,33 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, Field, field_validator, model_validator
 
-
 StatusLiteral = Literal["likely_eligible", "uncertain", "not_eligible"]
+
+# Sanity caps — reject absurd vibe-coded / DoS-y profile payloads.
+_AGE_MIN, _AGE_MAX = 0, 120
+_INCOME_ANNUAL_MAX = 100_000_000.0  # ₹10 crore
+_INCOME_MONTHLY_MAX = 10_000_000.0
+_LIST_MAX = 32
+_STR_MAX = 64
+_FLAGS_MAX_KEYS = 20
+
+
+def _coerce_str_list(v: Any) -> list[str]:
+    if v is None:
+        return []
+    if isinstance(v, str):
+        parts = [p.strip() for p in v.replace(";", ",").split(",")]
+        items = [p for p in parts if p]
+    elif isinstance(v, list):
+        items = [str(x) for x in v]
+    else:
+        items = [str(v)]
+    if len(items) > _LIST_MAX:
+        raise ValueError(f"list longer than {_LIST_MAX} items")
+    for item in items:
+        if len(item) > _STR_MAX:
+            raise ValueError(f"list item longer than {_STR_MAX} chars")
+    return items
 
 
 class LocalizedText(BaseModel):
@@ -18,62 +43,80 @@ class LocalizedText(BaseModel):
 class MatchProfile(BaseModel):
     """User profile used for deterministic matching."""
 
-    age: int | None = None
-    gender: str | None = None
-    state: str = "Kerala"
-    district: str | None = None
-    marital_status: str | None = None
-    annual_income: float | None = None
-    monthly_household_income: float | None = None
+    age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
+    gender: str | None = Field(default=None, max_length=_STR_MAX)
+    state: str = Field(default="Kerala", max_length=_STR_MAX)
+    district: str | None = Field(default=None, max_length=_STR_MAX)
+    marital_status: str | None = Field(default=None, max_length=_STR_MAX)
+    annual_income: float | None = Field(default=None, ge=0, le=_INCOME_ANNUAL_MAX)
+    monthly_household_income: float | None = Field(default=None, ge=0, le=_INCOME_MONTHLY_MAX)
     occupations: list[str] = Field(default_factory=list)
     categories: list[str] = Field(default_factory=list)
     disability: bool | None = None
-    disability_percent: float | None = None
+    disability_percent: float | None = Field(default=None, ge=0, le=100)
     land_ownership: bool | str | None = None
-    language: str | None = None
+    language: str | None = Field(default=None, max_length=16)
     is_student: bool | None = None
     is_pregnant: bool | None = None
-    pregnancy_order: int | None = None
+    pregnancy_order: int | None = Field(default=None, ge=0, le=20)
     is_lactating: bool | None = None
-    child_age_months: int | None = None
-    housing_status: str | None = None
-    residence_type: str | None = None
+    child_age_months: int | None = Field(default=None, ge=0, le=216)
+    housing_status: str | None = Field(default=None, max_length=_STR_MAX)
+    residence_type: str | None = Field(default=None, max_length=_STR_MAX)
     income_tax_payer: bool | None = None
     kawwf_member: bool | None = None
-    agri_labour_years: int | None = None
+    agri_labour_years: int | None = Field(default=None, ge=0, le=80)
     primary_breadwinner_deceased: bool | None = None
-    deceased_breadwinner_age: int | None = None
+    deceased_breadwinner_age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
     flags: dict[str, Any] = Field(default_factory=dict)
 
     @field_validator("occupations", mode="before")
     @classmethod
     def _coerce_occupations(cls, v: Any) -> list[str]:
-        if v is None:
-            return []
-        if isinstance(v, str):
-            parts = [p.strip() for p in v.replace(";", ",").split(",")]
-            return [p for p in parts if p]
-        if isinstance(v, list):
-            return [str(x) for x in v]
-        return [str(v)]
+        return _coerce_str_list(v)
 
     @field_validator("categories", mode="before")
     @classmethod
     def _coerce_categories(cls, v: Any) -> list[str]:
+        return _coerce_str_list(v)
+
+    @field_validator("land_ownership", mode="before")
+    @classmethod
+    def _land_str_len(cls, v: Any) -> Any:
+        if isinstance(v, str) and len(v) > _STR_MAX:
+            raise ValueError(f"land_ownership longer than {_STR_MAX} chars")
+        return v
+
+    @field_validator("flags", mode="before")
+    @classmethod
+    def _limit_flags(cls, v: Any) -> dict[str, Any]:
         if v is None:
-            return []
-        if isinstance(v, str):
-            parts = [p.strip() for p in v.replace(";", ",").split(",")]
-            return [p for p in parts if p]
-        if isinstance(v, list):
-            return [str(x) for x in v]
-        return [str(v)]
+            return {}
+        if not isinstance(v, dict):
+            raise ValueError("flags must be an object")
+        if len(v) > _FLAGS_MAX_KEYS:
+            raise ValueError(f"flags has more than {_FLAGS_MAX_KEYS} keys")
+        out: dict[str, Any] = {}
+        for k, val in v.items():
+            key = str(k)
+            if len(key) > _STR_MAX:
+                raise ValueError("flags key too long")
+            # Keep values shallow / small — reject nested containers for DoS.
+            if isinstance(val, (dict, list)):
+                raise ValueError("flags values must be scalars")
+            if isinstance(val, str) and len(val) > 256:
+                raise ValueError("flags string value too long")
+            out[key] = val
+        return out
 
     @model_validator(mode="after")
     def _derive_income_and_disability(self) -> MatchProfile:
         # Derive annual from monthly*12 when only monthly provided.
         if self.annual_income is None and self.monthly_household_income is not None:
-            self.annual_income = float(self.monthly_household_income) * 12
+            derived = float(self.monthly_household_income) * 12
+            if derived > _INCOME_ANNUAL_MAX:
+                raise ValueError("derived annual_income exceeds cap")
+            self.annual_income = derived
         # Derive monthly from annual/12 when only annual provided (for monthly-cap schemes).
         if self.monthly_household_income is None and self.annual_income is not None:
             self.monthly_household_income = float(self.annual_income) / 12
@@ -94,8 +137,8 @@ class MatchProfile(BaseModel):
 
 class MatchOptions(BaseModel):
     include_verify_uncertain: bool = True
-    lang: str = "en"
-    max_results: int = 50
+    lang: str = Field(default="en", max_length=8)
+    max_results: int = Field(default=50, ge=1, le=100)
 
 
 class MatchRequest(BaseModel):
@@ -105,33 +148,33 @@ class MatchRequest(BaseModel):
     options: MatchOptions | None = None
 
     # Flat aliases (Phase 2 user contract)
-    age: int | None = None
-    gender: str | None = None
-    state: str | None = None
-    district: str | None = None
-    marital_status: str | None = None
-    annual_income: float | None = None
-    monthly_household_income: float | None = None
+    age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
+    gender: str | None = Field(default=None, max_length=_STR_MAX)
+    state: str | None = Field(default=None, max_length=_STR_MAX)
+    district: str | None = Field(default=None, max_length=_STR_MAX)
+    marital_status: str | None = Field(default=None, max_length=_STR_MAX)
+    annual_income: float | None = Field(default=None, ge=0, le=_INCOME_ANNUAL_MAX)
+    monthly_household_income: float | None = Field(default=None, ge=0, le=_INCOME_MONTHLY_MAX)
     occupations: list[str] | str | None = None
     categories: list[str] | str | None = None
     disability: bool | None = None
-    disability_percent: float | None = None
+    disability_percent: float | None = Field(default=None, ge=0, le=100)
     land_ownership: bool | str | None = None
-    language: str | None = None
+    language: str | None = Field(default=None, max_length=16)
     is_student: bool | None = None
     is_pregnant: bool | None = None
-    pregnancy_order: int | None = None
+    pregnancy_order: int | None = Field(default=None, ge=0, le=20)
     is_lactating: bool | None = None
-    child_age_months: int | None = None
-    housing_status: str | None = None
-    residence_type: str | None = None
+    child_age_months: int | None = Field(default=None, ge=0, le=216)
+    housing_status: str | None = Field(default=None, max_length=_STR_MAX)
+    residence_type: str | None = Field(default=None, max_length=_STR_MAX)
     income_tax_payer: bool | None = None
     kawwf_member: bool | None = None
-    agri_labour_years: int | None = None
+    agri_labour_years: int | None = Field(default=None, ge=0, le=80)
     primary_breadwinner_deceased: bool | None = None
-    deceased_breadwinner_age: int | None = None
+    deceased_breadwinner_age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
     flags: dict[str, Any] | None = None
-    lang: str | None = None
+    lang: str | None = Field(default=None, max_length=8)
 
     def resolved_profile(self) -> MatchProfile:
         if self.profile is not None:
@@ -251,9 +294,9 @@ class ErrorResponse(BaseModel):
 
 
 class ExplainRequest(BaseModel):
-    scheme_id: str
+    scheme_id: str = Field(max_length=128)
     profile: MatchProfile
-    lang: str = "en"
+    lang: str = Field(default="en", max_length=8)
 
 
 class ExplainResponse(BaseModel):

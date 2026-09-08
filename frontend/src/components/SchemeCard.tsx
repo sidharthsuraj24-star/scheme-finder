@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { safeHttpUrl } from "@/lib/api";
 import { pickLocalized, pickLocalizedList, t } from "@/lib/i18n";
 import type { Lang, MatchedScheme } from "@/lib/types";
 
@@ -16,6 +17,9 @@ export default function SchemeCard({ lang, scheme }: Props) {
   const benefits = pickLocalized(lang, scheme.benefits as { en?: string; ml?: string });
   const docs = pickLocalizedList(lang, scheme.documents);
   const how = pickLocalized(lang, scheme.how_to_apply);
+
+  const applyUrl = safeHttpUrl(scheme.apply_url);
+  const sourceUrl = safeHttpUrl(scheme.official_source_url);
 
   const badge =
     scheme.verify || scheme.status === "uncertain"
@@ -87,9 +91,9 @@ export default function SchemeCard({ lang, scheme }: Props) {
           ) : null}
 
           <div className="flex flex-col gap-2 pt-1">
-            {scheme.apply_url ? (
+            {applyUrl ? (
               <a
-                href={scheme.apply_url}
+                href={applyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-tap items-center justify-center rounded-xl bg-brand-700 px-4 py-3 text-center font-semibold text-white"
@@ -97,9 +101,9 @@ export default function SchemeCard({ lang, scheme }: Props) {
                 {t(lang, "applyLink")}
               </a>
             ) : null}
-            {scheme.official_source_url ? (
+            {sourceUrl ? (
               <a
-                href={scheme.official_source_url}
+                href={sourceUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-tap items-center justify-center rounded-xl border-2 border-brand-700 px-4 py-3 text-center font-semibold text-brand-800"

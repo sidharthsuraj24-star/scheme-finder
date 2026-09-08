@@ -1,8 +1,42 @@
 import type { Lang, MatchRequestBody, MatchResponse, ProfileAnswers } from "./types";
 
+const FALLBACK_API = "http://127.0.0.1:8000";
+
+/** Accept only http(s) absolute API bases; never javascript: or relative junk. */
+export function resolveApiBase(raw: string | undefined | null): string {
+  const candidate = (raw || FALLBACK_API).trim().replace(/\/$/, "");
+  try {
+    const u = new URL(candidate);
+    if (u.protocol !== "http:" && u.protocol !== "https:") {
+      return FALLBACK_API;
+    }
+    // Block obvious userinfo / credential-in-URL footguns in public builds.
+    if (u.username || u.password) {
+      return FALLBACK_API;
+    }
+    return candidate;
+  } catch {
+    return FALLBACK_API;
+  }
+}
+
 function baseUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
-  return raw.replace(/\/$/, "");
+  return resolveApiBase(process.env.NEXT_PUBLIC_API_URL);
+}
+
+/** Only render http(s) links from API/scheme data as markup hrefs. */
+export function safeHttpUrl(url: string | null | undefined): string | null {
+  if (!url || typeof url !== "string") return null;
+  const trimmed = url.trim();
+  try {
+    const u = new URL(trimmed);
+    if (u.protocol === "http:" || u.protocol === "https:") {
+      return trimmed;
+    }
+  } catch {
+    /* ignore */
+  }
+  return null;
 }
 
 export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequestBody {
@@ -33,14 +67,18 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
   const is_pregnant = answers.maternity === "pregnant";
   const is_lactating = answers.maternity === "lactating";
 
+  // Clamp absurd client-side values (server also validates).
+  const age = Math.min(120, Math.max(0, answers.age ?? 0));
+  const monthly = Math.min(10_000_000, Math.max(0, answers.monthly_household_income ?? 0));
+
   return {
     profile: {
-      age: answers.age ?? 0,
+      age,
       gender: answers.gender || undefined,
       state: "Kerala",
       district: answers.district || undefined,
       marital_status: answers.marital_status || undefined,
-      monthly_household_income: answers.monthly_household_income ?? 0,
+      monthly_household_income: monthly,
       occupations,
       categories,
       disability: answers.disability === null ? undefined : disability,
@@ -82,6 +120,7 @@ export async function postMatch(body: MatchRequestBody): Promise<MatchResponse> 
         if (res.status === 404) continue;
         throw lastError;
       }
+      // Trust JSON shape only; never treat response fields as HTML markup.
       return (await res.json()) as MatchResponse;
     } catch (err) {
       lastError = err instanceof Error ? err : new Error(String(err));

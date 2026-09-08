@@ -52,7 +52,8 @@ export default function Wizard({ lang, onSubmit }: Props) {
       case 2:
         return (
           answers.monthly_household_income != null &&
-          answers.monthly_household_income >= 0
+          answers.monthly_household_income >= 0 &&
+          answers.monthly_household_income <= 10_000_000
         );
       case 3:
         return !!answers.occupation;
