@@ -1,0 +1,281 @@
+[
+  {
+    "id": "profile-senior-destitute",
+    "label": "Senior citizen, low income",
+    "age": 68,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 45000,
+    "monthly_household_income": 4000,
+    "occupations": [],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Destitute elderly; should match old-age pension"
+  },
+  {
+    "id": "profile-widow-low-income",
+    "label": "Widow, low income",
+    "age": 52,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "widow",
+    "annual_income": 60000,
+    "monthly_household_income": 5000,
+    "occupations": [],
+    "categories": [
+      "BPL"
+    ],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Should match widow pension; possibly KASP if SECC/RSBY flags later"
+  },
+  {
+    "id": "profile-pwd-physical",
+    "label": "Person with physical disability 55%",
+    "age": 34,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "unmarried",
+    "annual_income": 80000,
+    "monthly_household_income": 7000,
+    "occupations": [],
+    "categories": [],
+    "disability_percent": 55,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Should match Kerala disability pension physical + ADIP income check"
+  },
+  {
+    "id": "profile-pwd-mental-child",
+    "label": "Child with intellectual disability",
+    "age": 12,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "unmarried",
+    "annual_income": 90000,
+    "monthly_household_income": 7500,
+    "occupations": [],
+    "categories": [],
+    "disability_percent": 70,
+    "land_ownership": "none",
+    "is_student": true,
+    "notes": "Mental disability pension (verify age rules) + possible SwD scholarship later"
+  },
+  {
+    "id": "profile-unmarried-woman-55",
+    "label": "Unmarried woman above 50",
+    "age": 55,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "unmarried",
+    "annual_income": 50000,
+    "monthly_household_income": 4000,
+    "occupations": [],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Should match unmarried women pension"
+  },
+  {
+    "id": "profile-agri-labourer",
+    "label": "Aged agricultural labourer",
+    "age": 63,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 70000,
+    "monthly_household_income": 5500,
+    "occupations": [
+      "agricultural_labour"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "kawwf_member": true,
+    "agri_labour_years": 15,
+    "notes": "Should match agri labour pension; not PM-KISAN without land"
+  },
+  {
+    "id": "profile-small-farmer",
+    "label": "Landholding farmer",
+    "age": 45,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 180000,
+    "monthly_household_income": 15000,
+    "occupations": [
+      "farmer",
+      "landholding_farmer"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "cultivable_own",
+    "is_student": false,
+    "income_tax_payer": false,
+    "notes": "Should match PM-KISAN if not in exclusion categories"
+  },
+  {
+    "id": "profile-sc-student",
+    "label": "SC post-matric student",
+    "age": 19,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "unmarried",
+    "annual_income": 120000,
+    "monthly_household_income": 10000,
+    "occupations": [
+      "student"
+    ],
+    "categories": [
+      "SC"
+    ],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": true,
+    "notes": "Should match e-Grantz SC schemes"
+  },
+  {
+    "id": "profile-pwd-student",
+    "label": "Student with disability 45%",
+    "age": 17,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "unmarried",
+    "annual_income": 200000,
+    "monthly_household_income": 16000,
+    "occupations": [
+      "student"
+    ],
+    "categories": [],
+    "disability_percent": 45,
+    "land_ownership": "none",
+    "is_student": true,
+    "notes": "Should match DEPwD Pre/Post Matric scholarship (income under 2.5L)"
+  },
+  {
+    "id": "profile-pregnant-sc",
+    "label": "Pregnant SC woman",
+    "age": 26,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 150000,
+    "monthly_household_income": 12000,
+    "occupations": [],
+    "categories": [
+      "SC"
+    ],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "is_pregnant": true,
+    "pregnancy_order": 1,
+    "notes": "Should match PMMVY and possibly JSY"
+  },
+  {
+    "id": "profile-pwd-mother",
+    "label": "PwD mother recently delivered",
+    "age": 30,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 90000,
+    "monthly_household_income": 7500,
+    "occupations": [],
+    "categories": [],
+    "disability_percent": 65,
+    "land_ownership": "none",
+    "is_student": false,
+    "is_lactating": true,
+    "child_age_months": 3,
+    "notes": "Should match Matru Jyothi + possibly PMMVY"
+  },
+  {
+    "id": "profile-urban-jobseeker",
+    "label": "Urban adult seeking manual work",
+    "age": 28,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 100000,
+    "monthly_household_income": 8000,
+    "occupations": [
+      "unskilled_manual_labour"
+    ],
+    "categories": [
+      "urban_household"
+    ],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "residence_type": "urban",
+    "notes": "Should match Ayyankali UEGS"
+  },
+  {
+    "id": "profile-homeless-family",
+    "label": "Landless homeless household",
+    "age": 40,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 50000,
+    "monthly_household_income": 4000,
+    "occupations": [],
+    "categories": [
+      "homeless",
+      "landless",
+      "BPL"
+    ],
+    "disability_percent": null,
+    "land_ownership": "landless",
+    "is_student": false,
+    "housing_status": "homeless",
+    "notes": "LIFE Mission candidate — verify survey process"
+  },
+  {
+    "id": "profile-high-income-no-match",
+    "label": "High-income professional (expected few/no matches)",
+    "age": 42,
+    "gender": "male",
+    "state": "Kerala",
+    "marital_status": "married",
+    "annual_income": 1800000,
+    "monthly_household_income": 150000,
+    "occupations": [
+      "professional_engineer"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "owns_house_and_land",
+    "is_student": false,
+    "income_tax_payer": true,
+    "notes": "Control profile: should not match income-capped pensions; PM-KISAN excluded if tax payer / professional"
+  },
+  {
+    "id": "profile-bereaved-bpl",
+    "label": "BPL household after breadwinner death",
+    "age": 35,
+    "gender": "female",
+    "state": "Kerala",
+    "marital_status": "widow",
+    "annual_income": 40000,
+    "monthly_household_income": 3000,
+    "occupations": [],
+    "categories": [
+      "BPL"
+    ],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "primary_breadwinner_deceased": true,
+    "deceased_breadwinner_age": 42,
+    "notes": "Should match NFBS + widow pension"
+  }
+]
