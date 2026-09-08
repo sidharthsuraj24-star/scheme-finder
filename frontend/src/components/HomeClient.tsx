@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { answersToRequest, postMatch } from "@/lib/api";
 import { t } from "@/lib/i18n";
 import type { Lang, MatchResponse, ProfileAnswers } from "@/lib/types";
+import CatalogueBadge from "./CatalogueBadge";
 import Disclaimer from "./Disclaimer";
 import LanguageToggle from "./LanguageToggle";
 import Results from "./Results";
@@ -91,6 +92,8 @@ export default function HomeClient() {
         <LanguageToggle lang={lang} onChange={changeLang} />
       </header>
 
+      <CatalogueBadge lang={lang} />
+
       {phase === "wizard" ? <Wizard lang={lang} onSubmit={onSubmit} /> : null}
 
       {phase === "loading" ? (
@@ -138,6 +141,10 @@ export default function HomeClient() {
       ) : null}
 
       {phase === "wizard" ? <Disclaimer lang={lang} /> : null}
+
+      <footer className="pt-2 text-center text-[11px] text-slate-400">
+        {t(lang, "dataUpdatedShort")}
+      </footer>
     </main>
   );
 }

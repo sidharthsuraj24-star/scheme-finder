@@ -1,22 +1,27 @@
 import type { Lang, MatchRequestBody, MatchResponse, ProfileAnswers } from "./types";
 
-const FALLBACK_API = "http://127.0.0.1:8000";
+/**
+ * Default: empty string → same-origin `/api/...` (Next.js App Router on Vercel).
+ * Set NEXT_PUBLIC_API_URL to a FastAPI base (e.g. https://api.example.com) to override.
+ */
+const SAME_ORIGIN = "";
 
-/** Accept only http(s) absolute API bases; never javascript: or relative junk. */
+/** Accept only http(s) absolute API bases, or empty for same-origin. */
 export function resolveApiBase(raw: string | undefined | null): string {
-  const candidate = (raw || FALLBACK_API).trim().replace(/\/$/, "");
+  const candidate = (raw ?? "").trim().replace(/\/$/, "");
+  if (!candidate) return SAME_ORIGIN;
   try {
     const u = new URL(candidate);
     if (u.protocol !== "http:" && u.protocol !== "https:") {
-      return FALLBACK_API;
+      return SAME_ORIGIN;
     }
     // Block obvious userinfo / credential-in-URL footguns in public builds.
     if (u.username || u.password) {
-      return FALLBACK_API;
+      return SAME_ORIGIN;
     }
     return candidate;
   } catch {
-    return FALLBACK_API;
+    return SAME_ORIGIN;
   }
 }
 
@@ -82,7 +87,12 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
       occupations,
       categories,
       disability: answers.disability === null ? undefined : disability,
-      disability_percent: answers.disability === "yes" ? disability_percent : answers.disability === "no" ? 0 : undefined,
+      disability_percent:
+        answers.disability === "yes"
+          ? disability_percent
+          : answers.disability === "no"
+            ? 0
+            : undefined,
       land_ownership: land,
       is_student: answers.occupation === "student",
       is_pregnant: answers.gender === "female" ? is_pregnant : false,
@@ -98,12 +108,14 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
 }
 
 /**
- * Backend exposes both /match and /api/v1/match (see backend/app/main.py).
- * Prefer /api/v1/match (contract); fall back to /match if needed.
+ * Same-origin Next API: POST /api/match
+ * External FastAPI: POST {base}/api/v1/match then {base}/match
  */
 export async function postMatch(body: MatchRequestBody): Promise<MatchResponse> {
   const base = baseUrl();
-  const paths = [`${base}/api/v1/match`, `${base}/match`];
+  const paths = base
+    ? [`${base}/api/v1/match`, `${base}/match`]
+    : ["/api/match", "/api/v1/match"];
   let lastError: Error | null = null;
 
   for (const url of paths) {
@@ -116,15 +128,12 @@ export async function postMatch(body: MatchRequestBody): Promise<MatchResponse> 
       if (!res.ok) {
         const text = await res.text().catch(() => "");
         lastError = new Error(`HTTP ${res.status} from ${url}: ${text.slice(0, 200)}`);
-        // 404 on first path → try alternate prefix
         if (res.status === 404) continue;
         throw lastError;
       }
-      // Trust JSON shape only; never treat response fields as HTML markup.
       return (await res.json()) as MatchResponse;
     } catch (err) {
       lastError = err instanceof Error ? err : new Error(String(err));
-      // network error on first path → try second
       continue;
     }
   }

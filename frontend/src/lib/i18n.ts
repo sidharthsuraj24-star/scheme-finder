@@ -15,7 +15,7 @@ const en: Dict = {
   loading: "Searching schemes…",
   errorTitle: "Could not reach the server",
   errorRetry: "Try again",
-  errorHint: "Check that the backend is running, then try again.",
+  errorHint: "Check your connection and try again. (API is served from this site.)",
   zeroTitle: "No matching schemes right now",
   zeroBody:
     "Based on what you shared, we did not find a clear match. You can change your answers and try again, or ask your local panchayat / municipality for help.",
@@ -79,6 +79,9 @@ const en: Dict = {
   mat_neither: "Neither",
   qBreadwinner: "Has the main earning member of your household died?",
   qBreadwinnerHint: "Used for bereavement schemes such as NFBS",
+  dataUpdated:
+    "Scheme data updated as of 8 Sep 2026 · Curated central + Kerala set (not every scheme in India)",
+  dataUpdatedShort: "Scheme data updated as of 8 Sep 2026",
   welcomeTitle: "Welcome",
   welcomeBody:
     "Answer a few simple questions. We will suggest government schemes that may help you.",
@@ -98,7 +101,7 @@ const ml: Dict = {
   loading: "പദ്ധതികൾ തിരയുന്നു…",
   errorTitle: "സെർവറുമായി ബന്ധപ്പെടാനായില്ല",
   errorRetry: "വീണ്ടും ശ്രമിക്കുക",
-  errorHint: "ബാക്കെൻഡ് പ്രവർത്തിക്കുന്നുണ്ടെന്ന് ഉറപ്പാക്കി വീണ്ടും ശ്രമിക്കുക.",
+  errorHint: "കണക്ഷൻ പരിശോധിച്ച് വീണ്ടും ശ്രമിക്കുക. (API ഈ സൈറ്റിൽ നിന്ന് തന്നെ.)",
   zeroTitle: "ഇപ്പോൾ യോജിക്കുന്ന പദ്ധതികളില്ല",
   zeroBody:
     "നൽകിയ വിവരങ്ങൾ അനുസരിച്ച് വ്യക്തമായ പൊരുത്തം കണ്ടെത്തിയില്ല. ഉത്തരങ്ങൾ മാറ്റി വീണ്ടും ശ്രമിക്കാം, അല്ലെങ്കിൽ നിങ്ങളുടെ പഞ്ചായത്ത് / മുനിസിപ്പാലിറ്റിയിൽ ചോദിക്കുക.",
@@ -162,6 +165,9 @@ const ml: Dict = {
   mat_neither: "അല്ല",
   qBreadwinner: "കുടുംബത്തിലെ പ്രധാന വരുമാനദാതാവ് മരിച്ചിട്ടുണ്ടോ?",
   qBreadwinnerHint: "NFBS പോലുള്ള പദ്ധതികൾക്ക്",
+  dataUpdated:
+    "പദ്ധതി ഡാറ്റ 8 സെപ് 2026 വരെ അപ്ഡേറ്റ് ചെയ്തത് · ക്യൂറേറ്റഡ് കേന്ദ്ര + കേരള പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല)",
+  dataUpdatedShort: "പദ്ധതി ഡാറ്റ 8 സെപ് 2026 വരെ അപ്ഡേറ്റ് ചെയ്തത്",
   welcomeTitle: "സ്വാഗതം",
   welcomeBody:
     "കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകുക. സഹായിക്കാവുന്ന സർക്കാർ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",

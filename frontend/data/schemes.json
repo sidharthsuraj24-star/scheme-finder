@@ -1,0 +1,1225 @@
+[
+  {
+    "id": "kerala-old-age-pension",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Kerala Sevana)",
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വയോജന പെൻഷൻ പദ്ധതി (സേവന)"
+    },
+    "description": {
+      "en": "Kerala social security pension for destitute elderly (60+) delivered through Local Self Government Institutions via Sevana. Combines NSAP IGNOAPS central assistance with state top-up.",
+      "ml": "കേരളത്തിലെ തദ്ദേശ സ്ഥാപനങ്ങൾ വഴി സേവന പോർട്ടലിലൂടെ വിതരണം ചെയ്യുന്ന 60 വയസ്സിനു മുകളിലുള്ള പാവപ്പെട്ട വയോജനർക്കുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "family_land_not_more_than_2_acres_except_st",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Destitute; not under anyone's protection; not income-tax payer; family land ≤2 acres (ST excluded); Kerala residence ≥3 years continuous; not service/family pensioner (ex-gratia/NPS up to Rs.4000 excluded); not Central/State salary/pension; not PSU pensioner; not habitual beggar; not admitted to poor home; vehicle/building exclusions (building not more than 2000 sq ft); other welfare pensions barred except disability; max two pensions including EPF; apply at local body of permanent residence.",
+      "verify": false,
+      "verify_notes": "Hard filters age≥60 and income≤1 lakh are UI-collectable (verify=false). Sevana criteria table lists Rs.2000/month; page also mentions 75+ special amount Rs.1500 — do NOT invent whether special amount is additive or replacement; confirm interpretation before quoting. Disqualifiers (IT payer, land, residence years, pensioner/salary/vehicle/building) are not fully collected in questionnaire yet."
+    },
+    "benefits": {
+      "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08). Page also notes 75+ special amount Rs.1500 — amount meaning (additive vs replacement) unverified; do not invent. Paid via DBT through local bodies.",
+      "ml": "സേവന മാനദണ്ഡ പട്ടികയിൽ പ്രതിമാസ രൂ.2000 (2026-09-08). 75+ പ്രത്യേക തുക രൂ.1500 — അർത്ഥം സ്ഥിരീകരിക്കുക."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "Age proof",
+        "Income certificate (family annual income <= Rs.1 lakh)",
+        "Bank passbook / account details",
+        "Ration card / residence proof",
+        "Passport-size photograph"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "Age proof [ML copy pending native review]",
+        "Income certificate (family annual income <= Rs.1 lakh) [ML copy pending native review]",
+        "Bank passbook / account details [ML copy pending native review]",
+        "Ration card / residence proof [ML copy pending native review]",
+        "Passport-size photograph [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at the Grama Panchayat / Municipality / Corporation of permanent residence, or via Sevana e-filing where available. Forms: welfarepension.lsgkerala.gov.in.",
+      "ml": "സ്ഥിര താമസ സ്ഥലത്തെ ഗ്രാമപഞ്ചായത്ത്/മുനിസിപ്പാലിറ്റി/കോർപ്പറേഷനിൽ അപേക്ഷിക്കുക; സേവന ഇ-ഫയലിംഗ് ലഭ്യമെങ്കിൽ ഉപയോഗിക്കുക."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution (Grama Panchayat / Municipality / Corporation)",
+    "official_source_url": "https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-widow-pension",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Kerala Sevana)",
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വിധവാ പെൻഷൻ പദ്ധതി (സേവന)"
+    },
+    "description": {
+      "en": "Kerala social security pension for widows (and specified deserted/missing-spouse cases) through Sevana / LSGIs, combining NSAP IGNWPS with state support.",
+      "ml": "വിധവകൾക്കും നിർദ്ദിഷ്ട ഉപേക്ഷിത/കാണാതായ ഭർത്താവ് സാഹചര്യങ്ങളിലുള്ള സ്ത്രീകൾക്കും സേവന വഴിയുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "husband_missing_7_years",
+        "deserted_7_years_over_50"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "family_land_not_more_than_2_acres_except_st",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Must not have remarried; widow OR husband missing >7 years OR woman over 50 deserted >7 years; destitute; Kerala residence ≥2 years continuous; family land ≤2 acres (ST excl); not income-tax payer; Sevana pensioner/salary/vehicle/building exclusions; other welfare pensions barred except disability; max two pensions including EPF. No age limit on Sevana FAQ for widow/missing cases; deserted case requires woman over 50. Note: Central NSAP IGNWPS historically targets BPL widows 40-59; Kerala Sevana is broader — use Sevana for Kerala residents.",
+      "verify": false,
+      "verify_notes": "Hard filters gender=female, marital_status in {widow, husband_missing_7_years, deserted_7_years_over_50}, income≤1 lakh are UI-collectable (verify=false). Matcher must encode deserted case as age≥50 + deserted >7 years (token deserted_7_years_over_50). Residence ≥2 years, remarriage, land, and other Sevana exclusions not fully in questionnaire."
+    },
+    "benefits": {
+      "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08).",
+      "ml": "സേവന പട്ടികയിൽ പ്രതിമാസ രൂ.2000 (2026-09-08)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "Death certificate of husband / proof of missing or desertion as applicable",
+        "Income certificate",
+        "Bank account details",
+        "Ration card / residence proof",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "Death certificate of husband / proof of missing or desertion as applicable [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Ration card / residence proof [ML copy pending native review]",
+        "Photograph [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit application to local body of permanent residence or through Sevana portal e-filing.",
+      "ml": "സ്ഥിര താമസ സ്ഥലത്തെ തദ്ദേശ സ്ഥാപനത്തിലോ സേവന പോർട്ടലിലോ അപേക്ഷിക്കുക."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution",
+    "official_source_url": "https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "nsap",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-disability-pension-physical",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension – Physically Challenged (Kerala Sevana)",
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ ഭിന്നശേഷി പെൻഷൻ – ശാരീരികമായി വെല്ലുവിളി നേരിടുന്നവർ"
+    },
+    "description": {
+      "en": "Kerala disability pension for persons with physical disability, implemented by LSGIs. Official LSGD page states persons with more than 40% incapability are eligible.",
+      "ml": "40%ത്തിലധികം ശാരീരിക അശക്തതയുള്ളവർക്ക് തദ്ദേശ സ്ഥാപനങ്ങൾ വഴി നൽകുന്ന ഭിന്നശേഷി പെൻഷൻ."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": "family_land_not_more_than_2_acres_except_st",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Sevana: no age limit. LSGD ipcp: >40% incapability; medical certificate + Social Security Mission ID card; apply to Grama Panchayat / Municipality / Corporation Secretary; enquiry within 45 days; income ≤1 lakh; family land ≤2 acres (ST excl) per common Sevana rules. CONFLICT: Sevana allows an additional pension (max two including EPF); LSGD ipcp says must not receive/apply for another social-welfare pension — flagged verify.",
+      "verify": true,
+      "verify_notes": "CONFLICT flagged: Sevana FAQ allows max two pensions (disability may be additional); LSGD https://lsgkerala.gov.in/en/welfarepension/ipcp says must not receive/apply for another social-welfare pension. Also: Sevana criteria table Rs.2000; 80%+ special amount Rs.1100 — do NOT invent additive vs replacement. Keep verify=true until dual-pension rule and special-amount meaning are reconciled with a GO."
+    },
+    "benefits": {
+      "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08). Page also notes 80%+ special amount Rs.1100 — amount meaning (additive vs replacement) unverified; do not invent.",
+      "ml": "സേവന പട്ടികയിൽ രൂ.2000; 80%+ പ്രത്യേക തുക രൂ.1100 — അർത്ഥം സ്ഥിരീകരിക്കുക."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate / medical board certificate (>=40%)",
+        "Aadhaar card",
+        "Income certificate",
+        "Bank passbook",
+        "Ration card / domicile proof",
+        "Photograph"
+      ],
+      "ml": [
+        "Disability certificate / medical board certificate (>=40%) [ML copy pending native review]",
+        "Aadhaar card [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Bank passbook [ML copy pending native review]",
+        "Ration card / domicile proof [ML copy pending native review]",
+        "Photograph [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to the Secretary of Grama Panchayat / Municipality / Corporation of permanent residence; enquiry within 45 days per LSGD. Sevana e-filing where available. Forms list 'Disabled Pension for Mentally/Physically challenged'.",
+      "ml": "ഗ്രാമപഞ്ചായത്ത്/മുനിസിപ്പാലിറ്റി/കോർപ്പറേഷൻ സെക്രട്ടറിക്ക് അപേക്ഷ; LSGD പ്രകാരം 45 ദിവസത്തിനുള്ളിൽ അന്വേഷണം."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution",
+    "official_source_url": "https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "nsap",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-unmarried-women-pension",
+    "scheme_name": {
+      "en": "Pension for Unmarried Women above 50 years (Kerala Sevana)",
+      "ml": "50 വയസ്സിനു മുകളിലുള്ള അവിവാഹിത സ്ത്രീകൾക്കുള്ള പെൻഷൻ"
+    },
+    "description": {
+      "en": "Kerala state social security pension for unmarried women aged 50 and above (including unmarried mothers 50+), administered through Sevana / LSGIs.",
+      "ml": "50 വയസ്സും അതിനു മുകളിലുമുള്ള അവിവാഹിത സ്ത്രീകൾക്ക് (അവിവാഹിത അമ്മമാർ ഉൾപ്പെടെ) സേവന വഴിയുള്ള പെൻഷൻ."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "family_land_not_more_than_2_acres_except_st",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Unmarried women 50+; unmarried mothers 50+ allowed; permanent Kerala resident; not under protection of anyone else; not income-tax payer; family land ≤2 acres (ST excl); same Sevana pensioner/salary/vehicle/building exclusions; other welfare pensions barred except disability; max two pensions including EPF.",
+      "verify": false,
+      "verify_notes": "Hard filters age≥50, gender=female, marital_status=unmarried, income≤1 lakh are UI-collectable (verify=false). Land, protection, pensioner/vehicle/building exclusions not fully in questionnaire — retained in notes."
+    },
+    "benefits": {
+      "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08).",
+      "ml": "സേവന പട്ടികയിൽ പ്രതിമാസ രൂ.2000 (2026-09-08)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "Age proof",
+        "Income certificate",
+        "Proof of unmarried status as required by local body",
+        "Bank account details",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "Age proof [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Proof of unmarried status as required by local body [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Residence proof [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at local body of permanent residence / Sevana e-filing.",
+      "ml": "സ്ഥിര താമസ സ്ഥലത്തെ തദ്ദേശ സ്ഥാപനം / സേവന ഇ-ഫയലിംഗ്."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution",
+    "official_source_url": "https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx",
+    "tags": [
+      "pension",
+      "women",
+      "unmarried",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-agri-labour-pension",
+    "scheme_name": {
+      "en": "Agricultural Labour Pension (Kerala Sevana)",
+      "ml": "കാർഷിക തൊഴിലാളി പെൻഷൻ"
+    },
+    "description": {
+      "en": "Kerala social security pension for aged agricultural labourers who worked under landowners for 10+ years and are members of Kerala Agricultural Workers Welfare Fund.",
+      "ml": "10 വർഷത്തിലധികം കാർഷിക തൊഴിൽ ചെയ്ത് കേരള കാർഷിക തൊഴിലാളി ക്ഷേമനിധി അംഗങ്ങളായ വയോജന കാർഷിക തൊഴിലാളികൾക്കുള്ള പെൻഷൻ."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "agricultural_labour"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "family_land_not_more_than_2_acres_except_st",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Destitute; worked as agricultural labour ≥10 years under landowners; member of Kerala Agricultural Workers Welfare Fund; Kerala residence ≥10 years continuous; family land ≤2 acres (ST excluded); not income-tax payer; not plantation labourer; not service/family pensioner; not Central/State salary/pension; not PSU pensioner; vehicle/building exclusions apply; max two pensions including EPF; other welfare pensions barred except disability pension.",
+      "verify": false,
+      "verify_notes": "Hard filters age≥60, income≤1 lakh, occupation=agricultural_labour are UI-collectable (verify=false). UI does not yet collect KAWWF membership, ≥10 years agri work under landowners, ≥10 years Kerala residence, plantation-labour exclusion, or vehicle/building exclusions — keep those in notes for display/manual check."
+    },
+    "benefits": {
+      "en": "Monthly agricultural labour pension (Sevana criteria table lists Rs.2000). Confirm latest GO before quoting exact disbursement.",
+      "ml": "പ്രതിമാസ കാർഷിക തൊഴിലാളി പെൻഷൻ (സേവന മാനദണ്ഡ പട്ടികയിൽ രൂ.2000)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "Age proof",
+        "Income certificate",
+        "Kerala Agricultural Workers Welfare Fund membership proof",
+        "Evidence of agricultural labour work period",
+        "Bank account details",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "Age proof [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Kerala Agricultural Workers Welfare Fund membership proof [ML copy pending native review]",
+        "Evidence of agricultural labour work period [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Residence proof [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at the local body (Grama Panchayat / Municipality / Corporation) of permanent residence, or via Sevana e-filing where available.",
+      "ml": "സ്ഥിര താമസ സ്ഥലത്തെ തദ്ദേശ സ്ഥാപനത്തിൽ (ഗ്രാമപഞ്ചായത്ത്/മുനിസിപ്പാലിറ്റി/കോർപ്പറേഷൻ) അപേക്ഷിക്കുക; സേവന ഇ-ഫയലിംഗ് ലഭ്യമെങ്കിൽ ഉപയോഗിക്കുക."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution",
+    "official_source_url": "https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx",
+    "tags": [
+      "pension",
+      "agriculture",
+      "labour",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-disability-pension-mental",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension – Mentally Challenged (Kerala)",
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ ഭിന്നശേഷി പെൻഷൻ – മാനസികമായി വെല്ലുവിളി നേരിടുന്നവർ"
+    },
+    "description": {
+      "en": "Distinct LSGD/KSSP listing for pension to mentally challenged persons under the Kerala disability pension framework; >40% incapability stated on official LSGD page. Sevana application forms group Mentally/Physically challenged together.",
+      "ml": "മാനസികമായി വെല്ലുവിളി നേരിടുന്നവർക്കുള്ള ഭിന്നശേഷി പെൻഷൻ; LSGD പേജ് 40%ത്തിലധികം അശക്തത പറയുന്നു."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Prefer aligning with physical IGNDPS / Sevana disability rules (no age limit; ≥40% incapability; income ≤1 lakh) plus separate LSGD imcp page if still cited. Sevana application forms group Mentally/Physically challenged together. LSGD imcp criteria block historically had copy-paste age-60 conflict — prefer Sevana no-age-limit + 40% rule.",
+      "verify": true,
+      "verify_notes": "Browser Sevana pass 2026-09-08: FAQ table had blank names for some rows — do NOT invent a distinct mental scheme name from blank rows. Could not confirm a distinct Sevana scheme name for mental vs physical; HPWC various-pension-details page timed out. Keep this entry as LSGD imcp-aligned category tag; prefer shared physical IGNDPS hard filters (no age limit, disability≥40%, income≤1 lakh) until Sevana type code is confirmed. Dual-pension Sevana vs LSGD conflict also applies (see physical entry)."
+    },
+    "benefits": {
+      "en": "Monthly disability pension via LSGI/Sevana (same framework as physical disability pension; Sevana criteria table lists Rs.2000 for listed pensions — confirm mental row separately; do not invent from blank FAQ rows).",
+      "ml": "തദ്ദേശ സ്ഥാപനം/സേവന വഴി പ്രതിമാസ ഭിന്നശേഷി പെൻഷൻ (ശാരീരിക പെൻഷൻ ചട്ടക്കൂട്; തുക സ്ഥിരീകരിക്കുക)."
+    },
+    "required_documents": {
+      "en": [
+        "Medical certificate of mental disability from competent medical board",
+        "Aadhaar card",
+        "Income certificate",
+        "Bank account details",
+        "Residence proof"
+      ],
+      "ml": [
+        "Medical certificate of mental disability from competent medical board [ML copy pending native review]",
+        "Aadhaar card [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Residence proof [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Grama Panchayat / Municipality / Corporation; PHC Medical Officer verifies. Sevana form: Disabled Pension for Mentally/Physically challenged.",
+      "ml": "തദ്ദേശ സ്ഥാപനത്തിൽ അപേക്ഷ; PHC മെഡിക്കൽ ഓഫീസർ പരിശോധന."
+    },
+    "apply_url": "https://welfarepension.lsgkerala.gov.in/",
+    "office_type": "Local Self Government Institution",
+    "official_source_url": "https://lsgkerala.gov.in/en/welfarepension/imcp",
+    "tags": [
+      "pension",
+      "disability",
+      "mental",
+      "pwd",
+      "sevana",
+      "kerala"
+    ]
+  },
+  {
+    "id": "pm-kisan",
+    "scheme_name": {
+      "en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "ml": "പ്രധാനമന്ത്രി കിസാൻ സമ്മാൻ നിധി"
+    },
+    "description": {
+      "en": "Central Sector Scheme providing income support of Rs.6,000 per year in three equal instalments to all landholding farmer families, subject to exclusion categories.",
+      "ml": "ഭൂമിയുള്ള കർഷക കുടുംബങ്ങൾക്ക് വർഷം രൂ.6,000 (മൂന്ന് തവണ) നൽകുന്ന കേന്ദ്ര പദ്ധതി; ഒഴിവാക്കൽ വിഭാഗങ്ങൾ ബാധകം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "landholding_farmer"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "cultivable_landholding_required",
+      "states": [
+        "Kerala",
+        "India"
+      ],
+      "notes": "Family = husband, wife and minor children. Exclusions: institutional landholders; constitutional post holders; ministers/MPs/MLAs etc.; serving/retired govt officers (excl. MTS/Class IV/Group D); pensioners with monthly pension >=Rs.10,000 (same excl.); income-tax payers in last assessment year; registered professionals (doctors, engineers, lawyers, CAs, architects). e-KYC mandatory. Older FAQ mentioned land up to 2 ha; current portal text says all landholding farmer families subject to exclusions.",
+      "verify": true,
+      "verify_notes": "Reconcile historical 'upto 2 hectare' FAQ wording with current pmkisan.gov.in homepage text 'all land holding farmer families'. Exclusions are clear from official portal."
+    },
+    "benefits": {
+      "en": "Rs.6,000 per year in three equal instalments of Rs.2,000, transferred to bank account.",
+      "ml": "വർഷം രൂ.6,000; മൂന്ന് തവണ രൂ.2,000 വീതം ബാങ്ക് അക്കൗണ്ടിലേക്ക്."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Land records / ownership proof as per State land records",
+        "Bank account details",
+        "Self-declaration for exclusion categories as required"
+      ],
+      "ml": [
+        "Aadhaar [ML copy pending native review]",
+        "Land records / ownership proof as per State land records [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Self-declaration for exclusion categories as required [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register / check status on pmkisan.gov.in; State/UT identifies eligible families; complete e-KYC via portal/app/CSC.",
+      "ml": "pmkisan.gov.in-ൽ രജിസ്റ്റർ ചെയ്യുക; e-KYC പൂർത്തിയാക്കുക."
+    },
+    "apply_url": "https://pmkisan.gov.in/",
+    "office_type": "Agriculture Department / CSC / PM-KISAN portal",
+    "official_source_url": "https://pmkisan.gov.in/",
+    "tags": [
+      "agriculture",
+      "farmer",
+      "income-support",
+      "central",
+      "dbt"
+    ]
+  },
+  {
+    "id": "kerala-kasp-pmjay",
+    "scheme_name": {
+      "en": "Ayushman Bharat PM-JAY – Karunya Arogya Suraksha Padhathi (KASP)",
+      "ml": "ആയുഷ്മാൻ ഭാരത് പിഎം-ജെഎവൈ – കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി"
+    },
+    "description": {
+      "en": "Kerala implementation of Ayushman Bharat PM-JAY providing cashless health cover up to Rs.5 lakh per family per year for secondary and tertiary care at empanelled hospitals.",
+      "ml": "കുടുംബത്തിന് വർഷം രൂ.5 ലക്ഷം വരെ കാഷ്‌ലെസ് ചികിത്സാ പരിരക്ഷ നൽകുന്ന കേരളത്തിലെ ആയുഷ്മാൻ ഭാരത് നടത്തിപ്പ്."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SECC_deprivation",
+        "RSBY_CHIS_2018_19"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "SHA FAQ: eligible if RSBY/CHIS enrolled with valid card during 2018-19, or received letter based on SECC 2011. No age limit; no family size cap; pre-existing conditions covered. New registrations beyond listed categories not open as of FAQ text — verify current expansion.",
+      "verify": true,
+      "verify_notes": "SHA FAQ states new registrations other than Q1 categories had not started; confirm whether Kerala has since expanded beneficiary universe. Matching should treat SECC/RSBY/CHIS flags as primary signals rather than raw income."
+    },
+    "benefits": {
+      "en": "Cashless cover up to Rs.5 lakh per family per year for approved secondary/tertiary packages at empanelled hospitals.",
+      "ml": "അംഗീകൃത ആശുപത്രികളിൽ കുടുംബത്തിന് വർഷം രൂ.5 ലക്ഷം വരെ കാഷ്‌ലെസ് ചികിത്സ."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "Ration card",
+        "Existing RSBY/CHIS card or PM letter / SECC eligibility proof if applicable"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "Ration card [ML copy pending native review]",
+        "Existing RSBY/CHIS card or PM letter / SECC eligibility proof if applicable [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Visit empanelled hospital AB PMJAY-KASP kiosk with Aadhaar and ration card to register members and get card. Helpline DISHA 1056 / 0471-2551056.",
+      "ml": "എംപാനൽഡ് ആശുപത്രി കിയോസ്കിൽ ആധാർ, റേഷൻ കാർഡ് സഹിതം രജിസ്റ്റർ ചെയ്യുക."
+    },
+    "apply_url": "http://www.sha.kerala.gov.in/",
+    "office_type": "State Health Agency / Empanelled hospital kiosk",
+    "official_source_url": "http://www.sha.kerala.gov.in./?lang=en&page_id=742",
+    "tags": [
+      "health",
+      "insurance",
+      "pmjay",
+      "kasp",
+      "kerala"
+    ]
+  },
+  {
+    "id": "nsap-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (NFBS)",
+      "ml": "ദേശീയ കുടുംബ ആനുകൂല്യ പദ്ധതി"
+    },
+    "description": {
+      "en": "NSAP component providing one-time lump-sum assistance to BPL households on death of the primary breadwinner.",
+      "ml": "പ്രാഥമിക വരുമാനക്കാരന്റെ മരണത്തിൽ BPL കുടുംബങ്ങൾക്ക് ഒറ്റത്തവണ സാമ്പത്തിക സഹായം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala",
+        "India"
+      ],
+      "notes": "BPL household; deceased primary breadwinner aged 18-59 as per recent PIB NSAP brief (some NSAP FAQ pages still say 18-64). Assistance Rs.20,000 lump sum per recent official PIB document.",
+      "verify": true,
+      "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band.",
+      "primary_breadwinner_deceased_required": true
+    },
+    "benefits": {
+      "en": "One-time lump-sum financial assistance of Rs.20,000 (as stated in MoRD/PIB NSAP brief).",
+      "ml": "ഒറ്റത്തവണ രൂ.20,000 സഹായം (PIB/NSAP വിവരം)."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of primary breadwinner",
+        "BPL / poverty-line proof as prescribed",
+        "Aadhaar and bank details of claimant",
+        "Proof of relationship / household"
+      ],
+      "ml": [
+        "Death certificate of primary breadwinner [ML copy pending native review]",
+        "BPL / poverty-line proof as prescribed [ML copy pending native review]",
+        "Aadhaar and bank details of claimant [ML copy pending native review]",
+        "Proof of relationship / household [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through State/UT NSAP implementing agency / local body as notified; see nsap.nic.in for scheme status.",
+      "ml": "സംസ്ഥാന NSAP നടത്തിപ്പ് ഏജൻസി / തദ്ദേശ സ്ഥാപനം വഴി അപേക്ഷിക്കുക."
+    },
+    "apply_url": "https://nsap.nic.in/",
+    "office_type": "NSAP implementing agency / Local body",
+    "official_source_url": "https://nsap.nic.in/",
+    "tags": [
+      "nsap",
+      "bereavement",
+      "bpl",
+      "central"
+    ]
+  },
+  {
+    "id": "kerala-egrantz",
+    "scheme_name": {
+      "en": "e-Grantz – Post-Matric Educational Assistance (SC/ST/OBC Kerala)",
+      "ml": "ഇ-ഗ്രാന്റ്സ് – പോസ്റ്റ് മെട്രിക് വിദ്യാഭ്യാസ സഹായം"
+    },
+    "description": {
+      "en": "Kerala online system for disbursement of scholarships/fee concessions for pre-matric and post-matric students of SC, ST and OBC communities via DBT.",
+      "ml": "SC/ST/OBC വിദ്യാർഥികൾക്കുള്ള വിദ്യാഭ്യാസ സഹായം DBT വഴി നൽകുന്ന കേരളത്തിന്റെ ഓൺലൈൻ സംവിധാനം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST",
+        "OBC",
+        "OEC",
+        "SEBC"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Portal covers SC/ST/OBC department schemes. BCDD KPCR educational assistance for SEBC: income limit Rs.1 lakh; Govt/Aided institutions & self-financing engineering at govt rate. Multiple college notices state SC/ST/OEC no income limit; SEBC/FC below one lakh — treat as scheme-variant rules; set verify for exact OBC/SEBC income ceilings per department.",
+      "verify": true,
+      "verify_notes": "e-Grantz hosts multiple department schemes with different income ceilings. Do not apply a single income cap to all categories; verify per caste department circular for the academic year."
+    },
+    "benefits": {
+      "en": "Fee concession, lump-sum grant and/or stipend depending on community and course (e.g., KPCR SEBC: mandatory fees; PG & professional — mandatory fees, lump sum grant & monthly stipend).",
+      "ml": "കമ്മ്യൂണിറ്റി/കോഴ്സ് അനുസരിച്ച് ഫീസ് ഇളവ്, ലംപ് സം ഗ്രാന്റ്, സ്റ്റൈപ്പൻഡ്."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate (where required)",
+        "Bank account details",
+        "Admission / institution details",
+        "Previous qualification certificates"
+      ],
+      "ml": [
+        "Aadhaar [ML copy pending native review]",
+        "Caste certificate [ML copy pending native review]",
+        "Income certificate (where required) [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Admission / institution details [ML copy pending native review]",
+        "Previous qualification certificates [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "One-time registration on egrantz.kerala.gov.in, complete profile, add qualification, apply for eligible scholarship; institution verifies.",
+      "ml": "egrantz.kerala.gov.in-ൽ ഒറ്റത്തവണ രജിസ്ട്രേഷൻ, പ്രൊഫൈൽ, യോഗ്യത ചേർത്ത് അപേക്ഷിക്കുക."
+    },
+    "apply_url": "https://www.egrantz.kerala.gov.in/",
+    "office_type": "SC/ST/OBC Development Departments / Educational Institution",
+    "official_source_url": "https://www.egrantz.kerala.gov.in/",
+    "tags": [
+      "scholarship",
+      "education",
+      "sc",
+      "st",
+      "obc",
+      "kerala"
+    ]
+  },
+  {
+    "id": "adip-assistive-devices",
+    "scheme_name": {
+      "en": "ADIP – Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances",
+      "ml": "എഡിപ് – ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ"
+    },
+    "description": {
+      "en": "Central scheme of DEPwD providing aids and assistive devices (and corrective surgery where needed) to eligible persons with disabilities through implementing agencies / ARJUN portal.",
+      "ml": "ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ നൽകുന്ന കേന്ദ്ര പദ്ധതി."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": 30000,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Kerala",
+        "India"
+      ],
+      "notes": "Indian citizen any age; UDID or enrollment + disability certificate with >=40% disability; monthly income from all sources not exceeding Rs.30,000. Assistance: full cost if monthly income up to Rs.22,500; 50% if Rs.22,501–30,000 (per official ARJUN FAQ). Typically once in 3 years; children have shorter interval per FAQ.",
+      "verify": false,
+      "verify_notes": ""
+    },
+    "benefits": {
+      "en": "Aids/appliances at full or 50% subsidy depending on monthly income slab; corrective surgery where required before fitting.",
+      "ml": "വരുമാന ശ്രേണി അനുസരിച്ച് പൂർണ്ണ/50% സബ്സിഡിയിൽ സഹായ ഉപകരണങ്ങൾ."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar card",
+        "UDID card or UDID enrollment number with Disability Certificate (>=40%)",
+        "Income certificate",
+        "Photograph",
+        "Other documents as required by implementing agency"
+      ],
+      "ml": [
+        "Aadhaar card [ML copy pending native review]",
+        "UDID card or UDID enrollment number with Disability Certificate (>=40%) [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Photograph [ML copy pending native review]",
+        "Other documents as required by implementing agency [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register on ARJUN portal (adip.depwd.gov.in) or approach ALIMCO / National Institutes / CRCs / DDRCs / implementing agencies.",
+      "ml": "ARJUN പോർട്ടലിൽ രജിസ്റ്റർ ചെയ്യുക അല്ലെങ്കിൽ നടപ്പാക്കൽ ഏജൻസിയെ സമീപിക്കുക."
+    },
+    "apply_url": "https://adip.depwd.gov.in/",
+    "office_type": "DEPwD implementing agency / ALIMCO / CRC / DDRC",
+    "official_source_url": "https://www.adip.depwd.gov.in/faq_adip",
+    "tags": [
+      "disability",
+      "assistive-device",
+      "adip",
+      "central"
+    ]
+  },
+  {
+    "id": "kerala-life-mission",
+    "scheme_name": {
+      "en": "LIFE Mission (Livelihood Inclusion Financial Empowerment) – Kerala Housing",
+      "ml": "ലൈഫ് മിഷൻ – കേരള ഭവന പദ്ധതി"
+    },
+    "description": {
+      "en": "Kerala comprehensive housing mission for homeless and landless families, incomplete/uninhabitable houses, and temporary dwellings in puramboke/coastal/plantation areas; converges with PMAY and other housing schemes.",
+      "ml": "ഭൂരഹിത/ഭവനരഹിത കുടുംബങ്ങൾക്കും അപൂർണ്ണ/താത്കാലിക ഭവനമുള്ളവർക്കുമുള്ള കേരളത്തിന്റെ സമ്പൂർണ്ണ പാർപ്പിട ദൗത്യം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "homeless",
+        "landless",
+        "incomplete_house",
+        "temporary_shelter"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "landless_or_landed_homeless",
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Official LIFE pages list beneficiary types: landed homeless; incomplete/uninhabitable house; temporary house in puramboke/coastal/plantation; landless homeless. Survey-based identification via LSGIs and Kudumbashree. Exact income cut-offs not clearly stated on primary LIFE project page — do not invent.",
+      "verify": true,
+      "verify_notes": "HEAVY VERIFY: Primary lifemission.kerala.gov.in pages define beneficiary categories but do not publish a single clear numeric income ceiling. Secondary blogs cite varying income limits — ignore those. Confirm current PMAY-LIFE convergence rules, waitlist process, and whether open online application exists vs survey-only before enabling hard income filters."
+    },
+    "benefits": {
+      "en": "Support for construction / provision of safe housing and related livelihood/inclusion measures under LIFE mission components (details vary by beneficiary type and convergence scheme).",
+      "ml": "ഭവന നിർമ്മാണ/ലഭ്യമാക്കൽ പിന്തുണ; ഗുണഭോക്തൃ വിഭാഗം അനുസരിച്ച് വ്യത്യാസപ്പെടാം."
+    },
+    "required_documents": {
+      "en": [
+        "Ration card",
+        "Aadhaar",
+        "Income certificate (as demanded by LSGI)",
+        "Land/housing status documents",
+        "Caste certificate if applicable",
+        "Bank details"
+      ],
+      "ml": [
+        "Ration card [ML copy pending native review]",
+        "Aadhaar [ML copy pending native review]",
+        "Income certificate (as demanded by LSGI) [ML copy pending native review]",
+        "Land/housing status documents [ML copy pending native review]",
+        "Caste certificate if applicable [ML copy pending native review]",
+        "Bank details [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Beneficiary identification is primarily through LSGI/Kudumbashree survey processes described on LIFE portal. Contact Grama Panchayat / Municipality; check lifemission.kerala.gov.in / LIFE MIS for updates.",
+      "ml": "തദ്ദേശ സ്ഥാപനം/കുടുംബശ്രീ സർവേ അടിസ്ഥാനത്തിൽ ഗുണഭോക്താക്കളെ തിരിച്ചറിയുന്നു; പഞ്ചായത്ത്/മുനിസിപ്പാലിറ്റി ബന്ധപ്പെടുക."
+    },
+    "apply_url": "https://lifemission.kerala.gov.in/",
+    "office_type": "Local Self Government / LIFE Mission",
+    "official_source_url": "https://lifemission.kerala.gov.in/life-project",
+    "tags": [
+      "housing",
+      "life-mission",
+      "pmay",
+      "kerala",
+      "homeless"
+    ]
+  },
+  {
+    "id": "pmmvy",
+    "scheme_name": {
+      "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "ml": "പ്രധാനമന്ത്രി മാതൃ വന്ദന യോജന"
+    },
+    "description": {
+      "en": "Centrally sponsored maternity benefit under Mission Shakti / NFSA Section 4: cash incentive for pregnant and lactating women from disadvantaged sections for first child, and for second child if girl.",
+      "ml": "ഗർഭിണി/മുലയൂട്ടുന്ന അമ്മമാർക്ക് ആദ്യ കുട്ടിക്കും (രണ്ടാമത്തെ കുട്ടി പെൺകുട്ടിയാണെങ്കിൽ) നൽകുന്ന കേന്ദ്ര മാതൃത്വ ആനുകൂല്യം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 800000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC",
+        "ST",
+        "BPL",
+        "PMJAY",
+        "EShram",
+        "PMKISAN",
+        "MGNREGA",
+        "NFSA_ration",
+        "AWW_AWH_ASHA"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala",
+        "India"
+      ],
+      "notes": "Any ONE of listed disadvantaged criteria (SC/ST; disability >=40%; BPL ration; PMJAY; e-Shram; PM-KISAN; MGNREGA job card; net family income < Rs.8 lakh; AWW/AWH/ASHA; NFSA ration card). Age at childbirth: 18y7m to <55y per WCD FAQ. Excludes women in regular Central/State/PSU employment or receiving similar benefits under other law. Not implemented in Telangana and Odisha (own schemes).",
+      "verify": false,
+      "verify_notes": "",
+      "maternity_required": true
+    },
+    "benefits": {
+      "en": "First child: Rs.5,000 in two instalments (Rs.3,000 after ANC conditions; Rs.2,000 after birth registration + 14-week immunization). Second child if girl: Rs.6,000 in single instalment after birth + immunization. Also eligible for JSY after institutional delivery.",
+      "ml": "ആദ്യ കുട്ടി: രൂ.5,000 (രണ്ട് തവണ). രണ്ടാമത്തെ കുട്ടി പെൺകുട്ടിയാണെങ്കിൽ: രൂ.6,000."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar (mandatory)",
+        "Aadhaar-seeded bank/post office account",
+        "Mobile number",
+        "Eligibility proof (any one category document)",
+        "MCP/RCHI card, LMP/ANC details",
+        "Child birth certificate and immunization details for later instalments"
+      ],
+      "ml": [
+        "Aadhaar (mandatory) [ML copy pending native review]",
+        "Aadhaar-seeded bank/post office account [ML copy pending native review]",
+        "Mobile number [ML copy pending native review]",
+        "Eligibility proof (any one category document) [ML copy pending native review]",
+        "MCP/RCHI card, LMP/ANC details [ML copy pending native review]",
+        "Child birth certificate and immunization details for later instalments [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Self-register at https://pmmvy.wcd.gov.in or via Anganwadi Worker / ASHA using portal/mobile app.",
+      "ml": "pmmvy.wcd.gov.in-ൽ സ്വയം രജിസ്റ്റർ ചെയ്യുക അല്ലെങ്കിൽ അംഗൻവാടി/ആശാ വഴി."
+    },
+    "apply_url": "https://pmmvy.wcd.gov.in/",
+    "office_type": "Anganwadi / ASHA / Women & Child Development",
+    "official_source_url": "https://wcd.gov.in/women/pradhan-mantri-matru-vandana-yojna",
+    "tags": [
+      "maternity",
+      "women",
+      "nutrition",
+      "central",
+      "pmmvy"
+    ]
+  },
+  {
+    "id": "depwd-scholarship-swd",
+    "scheme_name": {
+      "en": "Scholarships for Students with Disabilities (DEPwD / NSP)",
+      "ml": "ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്കുള്ള സ്കോളർഷിപ്പ്"
+    },
+    "description": {
+      "en": "Central Sector umbrella scholarships (Pre-Matric, Post-Matric, Top Class, etc.) for students with benchmark disability, applied through National Scholarship Portal.",
+      "ml": "ബെഞ്ച്മാർക്ക് ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്ക് NSP വഴി ലഭ്യമായ കേന്ദ്ര സ്കോളർഷിപ്പുകൾ."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 250000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Kerala",
+        "India"
+      ],
+      "notes": "Indian national; benchmark disability >=40% with valid certificate; UDID/UDID enrollment. Pre-Matric (IX-X) and Post-Matric parental income ceiling Rs.2.5 lakh p.a. Top Class / Overseas use Rs.8 lakh ceiling per guidelines PDFs. 50% slots reserved for females in several components. Apply via scholarships.gov.in with OTR.",
+      "verify": true,
+      "verify_notes": "Guidelines revised Sept 2024/2025 on depwd.gov.in — confirm latest income ceilings and component names from current PDF before hard-coding Top Class vs Pre/Post Matric distinctions in matcher."
+    },
+    "benefits": {
+      "en": "Maintenance allowance, disability allowance, fee reimbursement, book allowance as per component (Pre-Matric / Post-Matric / Top Class).",
+      "ml": "ഘടകം അനുസരിച്ച് മെയിന്റനൻസ് അലവൻസ്, ഭിന്നശേഷി അലവൻസ്, ഫീസ് റീഇംബേഴ്സ്മെന്റ് മുതലായവ."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate / UDID",
+        "Aadhaar",
+        "Income certificate of parent/guardian",
+        "Previous academic certificates",
+        "Fee receipt / institution verification",
+        "Bank account linked with Aadhaar"
+      ],
+      "ml": [
+        "Disability certificate / UDID [ML copy pending native review]",
+        "Aadhaar [ML copy pending native review]",
+        "Income certificate of parent/guardian [ML copy pending native review]",
+        "Previous academic certificates [ML copy pending native review]",
+        "Fee receipt / institution verification [ML copy pending native review]",
+        "Bank account linked with Aadhaar [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete One Time Registration (OTR) on scholarships.gov.in, then apply for the relevant DEPwD scholarship; institute and state nodal officers verify.",
+      "ml": "scholarships.gov.in-ൽ OTR പൂർത്തിയാക്കി അപേക്ഷിക്കുക."
+    },
+    "apply_url": "https://scholarships.gov.in/",
+    "office_type": "Educational Institution / DEPwD / State Nodal Officer",
+    "official_source_url": "https://depwd.gov.in/en/scholarship/",
+    "tags": [
+      "scholarship",
+      "disability",
+      "education",
+      "nsp",
+      "central"
+    ]
+  },
+  {
+    "id": "kerala-matru-jyothi",
+    "scheme_name": {
+      "en": "Matru Jyothi – Financial Assistance for PwD Mothers (Kerala)",
+      "ml": "മാതൃ ജ്യോതി – ഭിന്നശേഷിയുള്ള അമ്മമാർക്കുള്ള സാമ്പത്തിക സഹായം"
+    },
+    "description": {
+      "en": "Kerala Social Justice Department scheme providing Rs.2,000 financial assistance to differently-abled mothers (RPwD Act 2016) until the child turns 2 years.",
+      "ml": "ഭിന്നശേഷിയുള്ള അമ്മമാർക്ക് കുട്ടിക്ക് 2 വയസ്സാകുന്നതുവരെ രൂ.2,000 സഹായം നൽകുന്ന സാമൂഹ്യ നീതി വകുപ്പ് പദ്ധതി."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 60,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Official page: differently abled mothers with 60% or more disability eligible (table lists specific % by disability type, some 50%). Annual family income not exceed Rs.1 lakh. Apply within 6 months of delivery. Benefit only twice. Priority if both parents PwD (husband >=40%). Caregiver certificate if needed.",
+      "verify": true,
+      "verify_notes": "Page states '60 percent or more' in eligibility point 1, but disability-type table includes some categories at 50% (e.g., autism, muscular dystrophy). Matcher should prefer type-specific % from official table; set verify until type mapping is encoded.",
+      "maternity_required": true
+    },
+    "benefits": {
+      "en": "Financial assistance of Rs.2,000 to eligible PwD mothers until child turns 2 years.",
+      "ml": "കുട്ടിക്ക് 2 വയസ്സാകുന്നതുവരെ രൂ.2,000 സഹായം."
+    },
+    "required_documents": {
+      "en": [
+        "Hospital discharge certificate",
+        "Disability certificate from Medical Board",
+        "Income certificate",
+        "Bank passbook",
+        "Caregiver certificate from Gynecologist/Paediatrician if applicable",
+        "Spouse disability certificate if claiming dual-PwD priority"
+      ],
+      "ml": [
+        "Hospital discharge certificate [ML copy pending native review]",
+        "Disability certificate from Medical Board [ML copy pending native review]",
+        "Income certificate [ML copy pending native review]",
+        "Bank passbook [ML copy pending native review]",
+        "Caregiver certificate from Gynecologist/Paediatrician if applicable [ML copy pending native review]",
+        "Spouse disability certificate if claiming dual-PwD priority [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Suneethi portal (suneethi.sjd.kerala.gov.in) within 6 months of delivery.",
+      "ml": "പ്രസവത്തിന് ശേഷം 6 മാസത്തിനുള്ളിൽ suneethi.sjd.kerala.gov.in വഴി അപേക്ഷിക്കുക."
+    },
+    "apply_url": "https://suneethi.sjd.kerala.gov.in/",
+    "office_type": "Social Justice Department, Kerala",
+    "official_source_url": "https://sjd.kerala.gov.in/scheme-info.php?scheme_id=IDExOA%3D%3D",
+    "tags": [
+      "maternity",
+      "disability",
+      "women",
+      "kerala",
+      "social-justice"
+    ]
+  },
+  {
+    "id": "ayyankali-uegs",
+    "scheme_name": {
+      "en": "Ayyankali Urban Employment Guarantee Scheme (Kerala)",
+      "ml": "അയ്യൻകാളി നഗര തൊഴിൽ ഉറപ്പ് പദ്ധതി"
+    },
+    "description": {
+      "en": "Kerala state scheme patterned on MGNREGS to provide at least 100 days of wage employment to urban households whose adult members are willing to do unskilled manual labour; at least 50% beneficiaries women.",
+      "ml": "നഗര മേഖലയിൽ മുതിർന്ന അംഗങ്ങൾക്ക് കുറഞ്ഞത് 100 ദിവസം കൂലി തൊഴിൽ ഉറപ്പാക്കുന്ന പദ്ധതി; ഗുണഭോക്താക്കളിൽ കുറഞ്ഞത് 50% സ്ത്രീകൾ."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "unskilled_manual_labour"
+      ],
+      "categories": [
+        "urban_household"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Urban households; adult members willing to do unskilled manual labour; register and demand work. Convergence with PMAY-LIFE noted on LSGD page. Detailed wage rates and registration steps on auegskerala.gov.in.",
+      "verify": true,
+      "verify_notes": "LSGD page is high-level; fetch auegskerala.gov.in operational guidelines for exact registration age, residency, and exclusion rules before tightening matcher fields."
+    },
+    "benefits": {
+      "en": "At least 100 days of wage employment per household; durable community assets; tools/machines support; works in water conservation, waste management, afforestation, etc.",
+      "ml": "കുടുംബത്തിന് കുറഞ്ഞത് 100 ദിവസം കൂലി തൊഴിൽ; കമ്മ്യൂണിറ്റി ആസ്തി സൃഷ്ടി."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residence proof in urban local body",
+        "Job card / registration documents as prescribed",
+        "Bank account details",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar [ML copy pending native review]",
+        "Residence proof in urban local body [ML copy pending native review]",
+        "Job card / registration documents as prescribed [ML copy pending native review]",
+        "Bank account details [ML copy pending native review]",
+        "Photograph [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register and demand work through Urban Local Government / scheme portal http://www.auegskerala.gov.in/",
+      "ml": "നഗര തദ്ദേശ സ്ഥാപനം / auegskerala.gov.in വഴി രജിസ്റ്റർ ചെയ്ത് തൊഴിൽ ആവശ്യപ്പെടുക."
+    },
+    "apply_url": "http://www.auegskerala.gov.in/",
+    "office_type": "Urban Local Government / LSGD",
+    "official_source_url": "https://lsgd.kerala.gov.in/en/state-sponsored-schemes-under-lsgd/ayyankali-uegs/",
+    "tags": [
+      "employment",
+      "urban",
+      "labour",
+      "kerala"
+    ]
+  },
+  {
+    "id": "janani-suraksha-yojana-kerala",
+    "scheme_name": {
+      "en": "Janani Suraksha Yojana (JSY) – Kerala",
+      "ml": "ജനനി സുരക്ഷ യോജന (കേരളം)"
+    },
+    "description": {
+      "en": "Safe motherhood intervention promoting institutional delivery. Kerala Health Department page: pregnant women over 19 from BPL families; all SC/ST pregnant women eligible even without BPL certificate.",
+      "ml": "സ്ഥാപന പ്രസവം പ്രോത്സാഹിപ്പിക്കുന്ന പദ്ധതി; BPL ഗർഭിണികൾ (19+), SC/ST ഗർഭിണികൾക്ക് BPL ഇല്ലാതെയും യോഗ്യത."
+    },
+    "eligibility_rules": {
+      "min_age": 19,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "SC",
+        "ST"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Per health.kerala.gov.in JSY page (dated content): financial assistance Rs.600 urban / Rs.700 rural institutional delivery; SC/ST mothers Rs.500 for home delivery regardless of financial status. Services at government hospitals and select accredited private institutions.",
+      "verify": true,
+      "verify_notes": "Confirm whether Kerala still uses these exact cash amounts and age (>19) on current NHM circulars; page is an official health.kerala.gov.in financial-aid item.",
+      "maternity_required": true
+    },
+    "benefits": {
+      "en": "Cash assistance for institutional delivery: Rs.600 (urban) / Rs.700 (rural); SC/ST home delivery Rs.500 as stated on Kerala Health page.",
+      "ml": "സ്ഥാപന പ്രസവത്തിന് രൂ.600 (നഗരം) / രൂ.700 (ഗ്രാമം); SC/ST വീട്ടുപ്രസവം രൂ.500."
+    },
+    "required_documents": {
+      "en": [
+        "MCP card / pregnancy records",
+        "BPL / income certificate as applicable",
+        "Caste certificate for SC/ST",
+        "Aadhaar and bank details",
+        "Institutional delivery proof"
+      ],
+      "ml": [
+        "MCP card / pregnancy records [ML copy pending native review]",
+        "BPL / income certificate as applicable [ML copy pending native review]",
+        "Caste certificate for SC/ST [ML copy pending native review]",
+        "Aadhaar and bank details [ML copy pending native review]",
+        "Institutional delivery proof [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Access via government hospitals / accredited private hospitals; for approved private hospitals obtain cheque via social health centre coordinator with income/caste certificates as applicable.",
+      "ml": "സർക്കാർ/അംഗീകൃത സ്വകാര്യ ആശുപത്രി വഴി; ആവശ്യമായ സർട്ടിഫിക്കറ്റുകൾ സമർപ്പിക്കുക."
+    },
+    "apply_url": "http://health.kerala.gov.in/",
+    "office_type": "Health facility / NHM / Social health centre",
+    "official_source_url": "http://health.kerala.gov.in/financialaiditemPDF/eyJpdiI6IjJ3YVJ5TTJuK3VxTWIvaUMyWS8yU3c9PSIsInZhbHVlIjoiTnpzY3pGYzIrTUtHRU85NzVhNHl4QT09IiwibWFjIjoiMzU2YWYxZjFjZTNkYjM1ZmM5Nzk3ODhjYzhhNDA0MWZhNjJkZTZhYmFiNDZkMTZkNjNjNjEzNzFmNjVlM2E3YSIsInRhZyI6IiJ9",
+    "tags": [
+      "maternity",
+      "health",
+      "jsy",
+      "kerala"
+    ]
+  },
+  {
+    "id": "kerala-karunya-benevolent-fund",
+    "scheme_name": {
+      "en": "Karunya Benevolent Fund (KBF)",
+      "ml": "കാരുണ്യ ബെനവലന്റ് ഫണ്ട്"
+    },
+    "description": {
+      "en": "Kerala health financial assistance for families with annual income less than Rs.3 lakh who are not eligible for KASP benefits; medical assistance up to Rs.2 lakh (up to Rs.3 lakh for kidney-related diseases).",
+      "ml": "KASP യോഗ്യതയില്ലാത്ത, വാർഷിക വരുമാനം രൂ.3 ലക്ഷത്തിൽ താഴെയുള്ള കുടുംബങ്ങൾക്ക് ചികിത്സാ സഹായം."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 300000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kerala"
+      ],
+      "notes": "Must NOT be eligible for KASP. Annual income < Rs.3 lakh. Apply at Karunya/Arogya Suraksha kiosks in empanelled hospitals per health.kerala.gov.in.",
+      "verify": true,
+      "verify_notes": "Eligibility/benefits from Kerala Health Dept Karunya financial-aid item (KBF income < Rs.3 lakh, not KASP-eligible; up to Rs.2 lakh / Rs.3 lakh kidney). Encrypted financialaiditemPDF URL may rotate — re-verify permalink."
+    },
+    "benefits": {
+      "en": "Free medical assistance up to Rs.2 lakh per family (up to Rs.3 lakh for kidney/kidney-related diseases).",
+      "ml": "കുടുംബത്തിന് രൂ.2 ലക്ഷം വരെ (വൃക്ക രോഗങ്ങൾക്ക് രൂ.3 ലക്ഷം വരെ) ചികിത്സാ സഹായം."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Ration card",
+        "Income certificate (< Rs.3 lakh)",
+        "Medical documents as required at hospital kiosk",
+        "Proof of non-eligibility / non-enrollment under KASP as required"
+      ],
+      "ml": [
+        "Aadhaar [ML copy pending native review]",
+        "Ration card [ML copy pending native review]",
+        "Income certificate (< Rs.3 lakh) [ML copy pending native review]",
+        "Medical documents as required at hospital kiosk [ML copy pending native review]",
+        "Proof of non-eligibility / non-enrollment under KASP as required [ML copy pending native review]"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit applications at Karunya and Arogya Suraksha Scheme kiosks in empanelled government/private hospitals. State Health Agency, Thiruvananthapuram.",
+      "ml": "എംപാനൽഡ് ആശുപത്രികളിലെ കാരുണ്യ/ആരോഗ്യ സുരക്ഷാ കിയോസ്കിൽ അപേക്ഷിക്കുക."
+    },
+    "apply_url": "http://www.sha.kerala.gov.in/",
+    "office_type": "State Health Agency / Empanelled hospital kiosk",
+    "official_source_url": "http://health.kerala.gov.in/financialaiditemPDF/eyJpdiI6IkhVc1VwY1FMNTlTSlpkZ1E5ZHZKcnc9PSIsInZhbHVlIjoiLzVqUzVvMEs5a0pTYkRGSGNERjBGZz09IiwibWFjIjoiNDFkMmIzZWViMTY3MGU2YmRkZTg0NWUxMDMxY2ZhOTg0NjRjN2JiNzFlMzAzODhjZTUwOTY5ZmQ5MjcwNzU5OSIsInRhZyI6IiJ9",
+    "tags": [
+      "health",
+      "financial-assistance",
+      "kerala",
+      "karunya"
+    ]
+  }
+]
