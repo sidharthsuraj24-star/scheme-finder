@@ -35,3 +35,10 @@ Therefore this repo **never** treats scraped text as authoritative eligibility w
 The frontend shows: *Scheme data updated as of 8 Sep 2026 · Curated central + Kerala set (not every scheme in India)*.
 
 Do not inflate `scheme_count` with invented schemes. Add schemes only with citable official sources documented in `docs/SOURCES.md` / the PR.
+
+## GitHub Actions workflow file
+
+The workflow lives at `.github/workflows/scheme-freshness.yml` in this repo.
+Pushing it requires a GitHub credential with the **`workflow` scope** (the default `gh` OAuth app token with only `repo` is rejected with: *refusing to allow an OAuth App to create or update workflow … without `workflow` scope*).
+
+Once you have a PAT/`gh auth` with `workflow`, push the pending commit (or re-add the file) from a machine that can update Actions workflows.
