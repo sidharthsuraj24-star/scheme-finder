@@ -1,0 +1,11 @@
+.git
+frontend/node_modules
+frontend/.next
+backend/.venv
+backend/.pytest_cache
+**/__pycache__
+**/*.pyc
+**/.env
+**/.env.local
+docs
+PHASE1_READY.md

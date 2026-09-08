@@ -1,0 +1,20 @@
+# fly.io config (login required: fly auth login)
+# Deploy: fly launch --no-deploy && fly deploy
+app = "scheme-finder-api"
+primary_region = "bom"
+
+[build]
+  dockerfile = "backend/Dockerfile"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1

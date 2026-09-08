@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query
@@ -29,10 +30,14 @@ app = FastAPI(
     description="Deterministic Kerala/India welfare scheme matcher (Phase 2).",
 )
 
+# CORS: default * for demo. Set CORS_ORIGINS=https://your-app.vercel.app,... in prod.
+# allow_credentials must be False when origins is *.
+_cors = [o.strip() for o in os.environ.get("CORS_ORIGINS", "*").split(",") if o.strip()]
+_allow_creds = _cors != ["*"] and "*" not in _cors
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=_cors,
+    allow_credentials=_allow_creds,
     allow_methods=["*"],
     allow_headers=["*"],
 )

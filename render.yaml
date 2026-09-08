@@ -1,0 +1,20 @@
+# Render Blueprint — free web service for Scheme Finder API
+# Dashboard: New + > Blueprint > connect this repo
+# Free tier may sleep after inactivity; Render account login required.
+services:
+  - type: web
+    name: scheme-finder-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: bash -c "cd backend && uvicorn app.main:app --host 0.0.0.0 --port \$PORT"
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.0"
+      - key: DATABASE_URL
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
