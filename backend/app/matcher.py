@@ -1,0 +1,449 @@
+"""Deterministic eligibility matcher.
+
+Hard filters ONLY from structured eligibility_rules — never invent thresholds.
+LLM must never decide eligibility.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from typing import Any
+
+from .explanations import build_explanation
+from .models import (
+    ExcludedScheme,
+    MatchedScheme,
+    MatchOptions,
+    MatchProfile,
+    MatchResponse,
+    NeedsVerificationItem,
+)
+
+# Categories that cannot be inferred from typical UI fields alone.
+SECC_STYLE_CATEGORIES = {
+    "secc_deprivation",
+    "rsby_chis_2018_19",
+    "pmjay",
+    "eshram",
+    "pmkisan",
+    "mgnrega",
+    "nfsa_ration",
+    "aww_awh_asha",
+}
+
+# land_ownership scheme values that REQUIRE the profile to own cultivable land
+LAND_REQUIRED_TOKENS = {
+    "cultivable_landholding_required",
+    "landholding_required",
+    "requires_land",
+    "cultivable_own",
+}
+
+# Profile land values meaning "has land / ownership"
+LAND_POSITIVE = {
+    "true",
+    "yes",
+    "1",
+    "cultivable_own",
+    "owns_house_and_land",
+    "owned",
+    "owner",
+    "landholding",
+    "has_land",
+    "own",
+    "cultivable",
+}
+
+# Profile land values meaning "no land"
+LAND_NEGATIVE = {
+    "false",
+    "no",
+    "0",
+    "none",
+    "landless",
+    "nil",
+    "n/a",
+    "na",
+}
+
+
+def _norm(value: str | None) -> str:
+    if value is None:
+        return ""
+    return str(value).strip().lower().replace("-", "_").replace(" ", "_")
+
+
+def _norm_set(values: list[str] | None) -> set[str]:
+    return {_norm(v) for v in (values or []) if _norm(v)}
+
+
+def profile_has_land(land_ownership: bool | str | None) -> bool | None:
+    """Return True/False if known, None if unknown."""
+    if land_ownership is None:
+        return None
+    if isinstance(land_ownership, bool):
+        return land_ownership
+    token = _norm(str(land_ownership))
+    if token in LAND_POSITIVE:
+        return True
+    if token in LAND_NEGATIVE:
+        return False
+    # Unknown string — treat as uncertain
+    return None
+
+
+def scheme_requires_land(rule_land: Any) -> bool:
+    if rule_land is None or rule_land is False:
+        return False
+    if rule_land is True:
+        return True
+    token = _norm(str(rule_land))
+    if not token:
+        return False
+    if token in LAND_REQUIRED_TOKENS:
+        return True
+    if "landholding_required" in token or "cultivable_landholding" in token:
+        return True
+    # Max-land caps like family_land_not_more_than_2_acres are NOT requirements.
+    return False
+
+
+def scheme_land_is_homeless_style(rule_land: Any) -> bool:
+    if rule_land is None:
+        return False
+    token = _norm(str(rule_land))
+    return "landless" in token or "homeless" in token
+
+
+@dataclass
+class RuleResult:
+    matched: list[str] = field(default_factory=list)
+    unmatched: list[str] = field(default_factory=list)
+    missing: list[str] = field(default_factory=list)
+    hard_fail: bool = False
+    uncertain: bool = False
+
+    def fail(self, rule: str) -> None:
+        self.unmatched.append(rule)
+        self.hard_fail = True
+
+    def ok(self, rule: str) -> None:
+        self.matched.append(rule)
+
+    def miss(self, field_name: str, *, make_uncertain: bool = True) -> None:
+        self.missing.append(field_name)
+        if make_uncertain:
+            self.uncertain = True
+
+
+def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult:
+    rules = scheme.get("eligibility_rules") or {}
+    result = RuleResult()
+
+    # --- states ---
+    scheme_states = rules.get("states") or []
+    if scheme_states:
+        profile_state = (profile.state or "Kerala").strip()
+        # "India" means national scheme open to all states in seed data.
+        allowed = {_norm(s) for s in scheme_states}
+        if _norm(profile_state) in allowed or "india" in allowed:
+            result.ok("states")
+        else:
+            result.fail("states")
+
+    # --- age ---
+    min_age = rules.get("min_age")
+    max_age = rules.get("max_age")
+    if min_age is not None or max_age is not None:
+        if profile.age is None:
+            result.miss("age")
+        else:
+            age_ok = True
+            if min_age is not None and profile.age < int(min_age):
+                age_ok = False
+                result.fail("min_age")
+            elif min_age is not None:
+                result.ok("min_age")
+            if max_age is not None and profile.age > int(max_age):
+                age_ok = False
+                result.fail("max_age")
+            elif max_age is not None and age_ok:
+                result.ok("max_age")
+
+    # --- income ---
+    max_annual = rules.get("max_annual_income")
+    max_monthly = rules.get("max_monthly_household_income")
+    if max_annual is not None:
+        if profile.annual_income is None:
+            result.miss("annual_income")
+        elif float(profile.annual_income) > float(max_annual):
+            result.fail("max_annual_income")
+        else:
+            result.ok("max_annual_income")
+    if max_monthly is not None:
+        if profile.monthly_household_income is None:
+            result.miss("monthly_household_income")
+        elif float(profile.monthly_household_income) > float(max_monthly):
+            result.fail("max_monthly_household_income")
+        else:
+            result.ok("max_monthly_household_income")
+
+    # --- disability ---
+    disability_required = bool(rules.get("disability_required"))
+    min_disability = rules.get("min_disability_percent")
+    if disability_required or min_disability is not None:
+        has_disability = profile.disability
+        if has_disability is None and profile.disability_percent is not None:
+            has_disability = float(profile.disability_percent) > 0
+
+        if disability_required:
+            if has_disability is None and profile.disability_percent is None:
+                result.miss("disability")
+            elif has_disability is False or (
+                profile.disability_percent is not None and float(profile.disability_percent) <= 0
+            ):
+                result.fail("disability_required")
+            else:
+                result.ok("disability_required")
+
+        if min_disability is not None:
+            if profile.disability_percent is None:
+                result.miss("disability_percent")
+            elif float(profile.disability_percent) < float(min_disability):
+                result.fail("min_disability_percent")
+            else:
+                result.ok("min_disability_percent")
+
+    # --- gender ---
+    gender_rule = rules.get("gender")
+    if gender_rule:
+        if not profile.gender:
+            result.miss("gender")
+        elif _norm(profile.gender) != _norm(gender_rule):
+            result.fail("gender")
+        else:
+            result.ok("gender")
+
+    # --- marital_status ---
+    marital_allowed = rules.get("marital_status") or []
+    if marital_allowed:
+        if not profile.marital_status:
+            result.miss("marital_status")
+        else:
+            profile_ms = _norm(profile.marital_status)
+            allowed_norm = [_norm(m) for m in marital_allowed]
+            matched_token = None
+            for token in allowed_norm:
+                if profile_ms == token:
+                    matched_token = token
+                    break
+                # Allow profile "widow" to match token widow; also deserted aliases
+                if profile_ms == "deserted" and token.startswith("deserted"):
+                    matched_token = token
+                    break
+                if profile_ms in {"missing_husband", "husband_missing"} and "husband_missing" in token:
+                    matched_token = token
+                    break
+
+            if matched_token is None:
+                result.fail("marital_status")
+            elif matched_token == "deserted_7_years_over_50":
+                if profile.age is None:
+                    result.miss("age")
+                elif profile.age < 50:
+                    result.fail("deserted_7_years_over_50")
+                else:
+                    result.ok("marital_status")
+                    result.ok("deserted_7_years_over_50")
+            else:
+                result.ok("marital_status")
+
+    # --- occupations ---
+    scheme_occs = rules.get("occupations") or []
+    if scheme_occs:
+        profile_occs = _norm_set(profile.occupations)
+        scheme_occs_n = _norm_set(scheme_occs)
+        if not profile_occs:
+            result.miss("occupations")
+        elif profile_occs & scheme_occs_n:
+            result.ok("occupations")
+        else:
+            result.fail("occupations")
+
+    # --- categories ---
+    scheme_cats = rules.get("categories") or []
+    if scheme_cats:
+        scheme_cats_n = _norm_set(scheme_cats)
+        profile_cats = _norm_set(profile.categories)
+        # Also pull flag-based SECC-style signals into profile categories
+        flags = profile.flags or {}
+        if flags.get("secc_eligible") or flags.get("secc_deprivation"):
+            profile_cats.add("secc_deprivation")
+        if flags.get("rsby_chis_2018_19"):
+            profile_cats.add("rsby_chis_2018_19")
+        if profile.housing_status:
+            profile_cats.add(_norm(profile.housing_status))
+        if profile.residence_type:
+            # urban → urban_household soft alias
+            rt = _norm(profile.residence_type)
+            profile_cats.add(rt)
+            if rt == "urban":
+                profile_cats.add("urban_household")
+
+        secc_only = scheme_cats_n <= SECC_STYLE_CATEGORIES or all(
+            c in SECC_STYLE_CATEGORIES or c.startswith("secc") for c in scheme_cats_n
+        )
+        intersection = profile_cats & scheme_cats_n
+        if intersection:
+            result.ok("categories")
+        elif not profile_cats:
+            if secc_only:
+                # Missing SECC-style categories → uncertain, not auto-match / not hard fail
+                result.miss("categories")
+                result.uncertain = True
+            else:
+                result.miss("categories")
+        else:
+            # Profile has categories but none intersect
+            if secc_only:
+                result.miss("categories")
+                result.uncertain = True
+                # Do not hard-fail SECC-only schemes solely on missing SECC flags;
+                # mark uncertain instead of not_eligible when no intersection.
+            else:
+                result.fail("categories")
+
+    # --- land_ownership ---
+    rule_land = rules.get("land_ownership")
+    if scheme_requires_land(rule_land):
+        has_land = profile_has_land(profile.land_ownership)
+        if has_land is None:
+            result.miss("land_ownership")
+        elif has_land is False:
+            result.fail("land_ownership_required")
+        else:
+            result.ok("land_ownership")
+    elif scheme_land_is_homeless_style(rule_land):
+        # Soft signal — categories usually carry homeless/landless; don't hard fail.
+        has_land = profile_has_land(profile.land_ownership)
+        if has_land is False:
+            result.ok("land_ownership_landless")
+        elif has_land is True:
+            # Landed but may still be homeless (incomplete house) — leave to categories
+            pass
+
+    # Soft pregnancy / student helpers (only when scheme tags suggest it — never invent)
+    # Encoded via occupations/categories already; optional soft boosts below in scoring.
+
+    return result
+
+
+def _score(result: RuleResult) -> float:
+    if result.hard_fail:
+        return 0.0
+    total = len(result.matched) + len(result.unmatched) + len(result.missing)
+    if total == 0:
+        return 0.5  # no hard rules — weak match / open scheme
+    return len(result.matched) / total
+
+
+def match_schemes(
+    schemes: list[dict[str, Any]],
+    profile: MatchProfile,
+    options: MatchOptions | None = None,
+) -> MatchResponse:
+    options = options or MatchOptions()
+    matched: list[MatchedScheme] = []
+    excluded: list[ExcludedScheme] = []
+    needs_verification: list[NeedsVerificationItem] = []
+
+    for scheme in schemes:
+        rules = scheme.get("eligibility_rules") or {}
+        verify = bool(rules.get("verify"))
+        verify_notes = rules.get("verify_notes") or ""
+        result = evaluate_scheme(scheme, profile)
+
+        if result.hard_fail:
+            excluded.append(
+                ExcludedScheme(
+                    scheme_id=scheme["id"],
+                    status="not_eligible",
+                    reasons=list(dict.fromkeys(result.unmatched)),
+                )
+            )
+            continue
+
+        # Status determination
+        if verify or result.uncertain or result.missing:
+            status = "uncertain"
+        else:
+            status = "likely_eligible"
+
+        if status == "uncertain" and not options.include_verify_uncertain:
+            needs_verification.append(
+                NeedsVerificationItem(
+                    scheme_id=scheme["id"],
+                    status="uncertain",
+                    verify_notes=verify_notes,
+                )
+            )
+            continue
+
+        explanation = build_explanation(
+            scheme=scheme,
+            profile=profile,
+            matched_rules=result.matched,
+            unmatched_rules=result.unmatched,
+            missing_fields=result.missing,
+            status=status,
+        )
+
+        item = MatchedScheme(
+            scheme_id=scheme["id"],
+            score=round(_score(result), 4),
+            status=status,
+            matched_rules=list(dict.fromkeys(result.matched)),
+            unmatched_rules=list(dict.fromkeys(result.unmatched)),
+            missing_profile_fields=list(dict.fromkeys(result.missing)),
+            verify=verify,
+            verify_notes=verify_notes if verify else "",
+            explanation=explanation,
+            scheme_name=scheme.get("scheme_name") or {},
+            description=scheme.get("description"),
+            benefits=scheme.get("benefits"),
+            documents=scheme.get("required_documents"),
+            how_to_apply=scheme.get("how_to_apply"),
+            apply_url=scheme.get("apply_url"),
+            official_source_url=scheme.get("official_source_url"),
+            tags=scheme.get("tags") or [],
+        )
+        matched.append(item)
+        if status == "uncertain" and verify:
+            needs_verification.append(
+                NeedsVerificationItem(
+                    scheme_id=scheme["id"],
+                    status="uncertain",
+                    verify_notes=verify_notes,
+                )
+            )
+
+    matched.sort(key=lambda m: (-m.score, m.scheme_id))
+    if options.max_results and len(matched) > options.max_results:
+        matched = matched[: options.max_results]
+
+    message = None
+    if not matched:
+        message = (
+            "No schemes matched this profile based on published eligibility rules. "
+            "Try adjusting income, occupation, category, or disability fields, "
+            "or browse GET /schemes for the full catalogue. Always verify with the "
+            "implementing office before applying."
+        )
+
+    return MatchResponse(
+        matched=matched,
+        excluded=excluded,
+        needs_verification=needs_verification,
+        message=message,
+        count=len(matched),
+    )
