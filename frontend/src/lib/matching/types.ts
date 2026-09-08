@@ -91,6 +91,7 @@ export interface MatchResponse {
   needs_verification: NeedsVerificationItem[];
   message: string | null;
   count: number;
+  district?: string | null;
 }
 
 export interface SchemeRecord {

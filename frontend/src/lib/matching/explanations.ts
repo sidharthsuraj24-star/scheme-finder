@@ -47,6 +47,12 @@ function rulePhraseEn(rule: string, scheme: SchemeRecord, profile: MatchProfile)
       return "maternity / recent delivery signal present (pregnant, lactating, or child ≤6 months)";
     case "primary_breadwinner_deceased_required":
       return "primary breadwinner deceased flag set";
+    case "kawwf_member_required":
+      return "KAWWF membership requirement satisfied";
+    case "min_agri_labour_years":
+      return `agri labour years ${profile.agri_labour_years} meets minimum ${rules.min_agri_labour_years}`;
+    case "districts":
+      return `district '${profile.district}' is in scheme district list`;
     default:
       return rule.replace(/_/g, " ");
   }
@@ -125,6 +131,10 @@ export function buildExplanation(args: {
   }
   if (unmatched_rules.length) {
     extra_en += ` Unmatched: ${unmatched_rules.join(", ")}.`;
+  }
+  if (profile.district) {
+    extra_en += ` District on profile: ${profile.district}.`;
+    extra_ml += ` ജില്ല: ${profile.district}.`;
   }
   const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
   if (rules.verify) {

@@ -12,7 +12,7 @@ Scheme count: 18.
 | Suite | Pass | Fail |
 |-------|------|------|
 | Live API profiles | 14 | 0 |
-| Backend pytest | 23 | 0 |
+| Backend pytest | 31 | 0 |
 
 ## Cases
 
@@ -140,7 +140,7 @@ Scheme count: 18.
 ## Known limitations
 
 - verify=true schemes stay uncertain.
-- District unused in matcher.
+- District soft-passthrough in explanation/response; hard filter only when scheme lists `districts`.
 - PMMVY pregnancy-order / employment exclusions not fully structured.
 - NFBS deceased age band still verify_notes.
 - ML copy may need native review.
@@ -153,3 +153,34 @@ Scheme count: 18.
 - More structured PMMVY rules from WCD FAQ only
 - Native ML review
 - PWA offline shell
+
+
+## Accuracy hardening (2026-09-08 evening IST)
+
+Matcher rules tightened in `backend/app/matcher.py` + `frontend/src/lib/matching/matcher.ts` (kept in sync).
+
+| Case | Result |
+|------|--------|
+| occupation=`other` → NOT `kerala-agri-labour-pension` | PASS (hard exclude) |
+| empty occupations → NOT agri labour / ayyankali soft match | PASS (hard exclude; no wildcard) |
+| farmer+land → `pm-kisan` uncertain (verify) | PASS |
+| farmer → NOT agri labour pension | PASS |
+| senior low income → old age `likely_eligible` | PASS |
+| no housing flags → LIFE not `likely_eligible` | PASS (uncertain / missing housing_status) |
+| deserted age&lt;50 → not widow deserted path | PASS |
+| agri labour without kawwf/years → uncertain not likely | PASS |
+| KASP without SECC/RSBY → stays uncertain | PASS |
+| district echoed in explanation + MatchResponse; filter only if `eligibility_rules.districts` | PASS |
+| TS smoke `frontend/scripts/matcher-smoke.mts` | PASS (10 checks) |
+
+### Before / after — occupation=`other` (age 65, income 45k, Ernakulam)
+
+- **Before:** empty occupations could soft-match agri labour / ayyankali as `uncertain`; `other` correctly failed occupations but LIFE/KASP still soft-listed.
+- **After:** `other` and empty occupations **hard-exclude** schemes with non-empty occupation allowlists (`kerala-agri-labour-pension`, `ayyankali-uegs`). LIFE stays not likely without housing_status. District shown on results.
+
+### Bugs fixed (this pass)
+
+5. Empty profile occupations treated as wildcard soft-match for occupation allowlists — now hard fail.
+6. Agri labour pension `likely` without KAWWF / 10-year flags — structured `kawwf_member_required` + `min_agri_labour_years`.
+7. LIFE housing categories matched too loosely without housing_status — housing-only schemes miss `housing_status` (uncertain, never likely from blank).
+8. District collected but unused — soft passthrough in explanation/response; optional `districts` filter.

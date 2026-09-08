@@ -300,7 +300,9 @@
       ],
       "notes": "Destitute; worked as agricultural labour ≥10 years under landowners; member of Kerala Agricultural Workers Welfare Fund; Kerala residence ≥10 years continuous; family land ≤2 acres (ST excluded); not income-tax payer; not plantation labourer; not service/family pensioner; not Central/State salary/pension; not PSU pensioner; vehicle/building exclusions apply; max two pensions including EPF; other welfare pensions barred except disability pension.",
       "verify": false,
-      "verify_notes": "Hard filters age≥60, income≤1 lakh, occupation=agricultural_labour are UI-collectable (verify=false). UI does not yet collect KAWWF membership, ≥10 years agri work under landowners, ≥10 years Kerala residence, plantation-labour exclusion, or vehicle/building exclusions — keep those in notes for display/manual check."
+      "verify_notes": "Hard filters age≥60, income≤1 lakh, occupation=agricultural_labour are UI-collectable. Structured kawwf_member_required + min_agri_labour_years=10 mark uncertain when flags missing (Sevana: KAWWF membership and ≥10 years agri labour). Residence ≥10 years, plantation exclusion, vehicle/building exclusions remain manual notes.",
+      "kawwf_member_required": true,
+      "min_agri_labour_years": 10
     },
     "benefits": {
       "en": "Monthly agricultural labour pension (Sevana criteria table lists Rs.2000). Confirm latest GO before quoting exact disbursement.",

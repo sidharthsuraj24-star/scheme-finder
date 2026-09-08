@@ -264,6 +264,7 @@ class MatchResponse(BaseModel):
     needs_verification: list[NeedsVerificationItem] = Field(default_factory=list)
     message: str | None = None
     count: int = 0
+    district: str | None = None
 
 
 class SchemeSummary(BaseModel):

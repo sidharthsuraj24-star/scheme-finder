@@ -51,6 +51,7 @@ export interface MatchResponse {
   }[];
   message?: string | null;
   count: number;
+  district?: string | null;
 }
 
 export interface MatchRequestBody {

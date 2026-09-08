@@ -23,6 +23,16 @@ const SECC_STYLE_CATEGORIES = new Set([
   "aww_awh_asha",
 ]);
 
+/** LIFE / housing beneficiary types — require explicit housing_status or category. */
+const HOUSING_STYLE_CATEGORIES = new Set([
+  "homeless",
+  "landless",
+  "incomplete_house",
+  "temporary_shelter",
+  "landed_homeless",
+  "landless_homeless",
+]);
+
 const LAND_REQUIRED_TOKENS = new Set([
   "cultivable_landholding_required",
   "landholding_required",
@@ -241,12 +251,15 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   }
 
   // --- occupations ---
+  // Real intersection only. Empty / missing profile occupations must NEVER
+  // satisfy a non-empty scheme occupation allowlist (not a wildcard).
   const schemeOccs = (rules.occupations as string[] | undefined) || [];
   if (schemeOccs.length) {
     const profileOccs = normSet(profile.occupations);
     const schemeOccsN = normSet(schemeOccs);
-    if (!profileOccs.size) result.miss("occupations");
-    else {
+    if (!profileOccs.size) {
+      result.fail("occupations");
+    } else {
       let hit = false;
       for (const o of profileOccs) {
         if (schemeOccsN.has(o)) {
@@ -276,17 +289,33 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
 
     const seccOnly =
       [...schemeCatsN].every((c) => SECC_STYLE_CATEGORIES.has(c) || c.startsWith("secc"));
+    const housingOnly =
+      schemeCatsN.size > 0 && [...schemeCatsN].every((c) => HOUSING_STYLE_CATEGORIES.has(c));
 
-    let intersection = false;
+    const intersectionSet = new Set<string>();
     for (const c of profileCats) {
-      if (schemeCatsN.has(c)) {
-        intersection = true;
-        break;
-      }
+      if (schemeCatsN.has(c)) intersectionSet.add(c);
+    }
+    const intersection = intersectionSet.size > 0;
+
+    const rawProfileCats = normSet(profile.categories);
+    let hasHousingSignal = false;
+    if (profile.housing_status && HOUSING_STYLE_CATEGORIES.has(norm(profile.housing_status))) {
+      hasHousingSignal = true;
+    }
+    for (const c of rawProfileCats) {
+      if (HOUSING_STYLE_CATEGORIES.has(c)) hasHousingSignal = true;
+    }
+    for (const c of intersectionSet) {
+      if (HOUSING_STYLE_CATEGORIES.has(c)) hasHousingSignal = true;
     }
 
     if (intersection) {
       result.ok("categories");
+    } else if (housingOnly && !hasHousingSignal) {
+      // Missing housing_status / housing category → uncertain; never likely via blank profile.
+      result.miss("housing_status");
+      result.uncertain = true;
     } else if (!profileCats.size) {
       result.miss("categories");
       if (seccOnly) result.uncertain = true;
@@ -342,6 +371,30 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
     if (flag === true) result.ok("primary_breadwinner_deceased_required");
     else if (flag === false) result.fail("primary_breadwinner_deceased_required");
     else result.miss("primary_breadwinner_deceased");
+  }
+
+  // --- KAWWF / agri labour tenure ---
+  if (rules.kawwf_member_required) {
+    const flag = profile.kawwf_member;
+    if (flag === true) result.ok("kawwf_member_required");
+    else if (flag === false) result.fail("kawwf_member_required");
+    else result.miss("kawwf_member");
+  }
+
+  const minAgriYears = rules.min_agri_labour_years as number | undefined | null;
+  if (minAgriYears != null) {
+    const years = profile.agri_labour_years;
+    if (years == null) result.miss("agri_labour_years");
+    else if (Number(years) < Number(minAgriYears)) result.fail("min_agri_labour_years");
+    else result.ok("min_agri_labour_years");
+  }
+
+  // --- districts (optional hard filter only when scheme lists districts) ---
+  const schemeDistricts = (rules.districts as string[] | undefined) || [];
+  if (schemeDistricts.length) {
+    if (!profile.district) result.miss("district");
+    else if (normSet(schemeDistricts).has(norm(profile.district))) result.ok("districts");
+    else result.fail("districts");
   }
 
   return result;
@@ -458,5 +511,6 @@ export function matchSchemes(
     needs_verification,
     message,
     count: truncated.length,
+    district: profile.district ?? null,
   };
 }

@@ -71,6 +71,15 @@ def _rule_phrase_en(
         return "maternity / recent delivery signal present (pregnant, lactating, or child ≤6 months)"
     if rule == "primary_breadwinner_deceased_required":
         return "primary breadwinner deceased flag set"
+    if rule == "kawwf_member_required":
+        return "KAWWF membership requirement satisfied"
+    if rule == "min_agri_labour_years":
+        return (
+            f"agri labour years {profile.agri_labour_years} meets minimum "
+            f"{rules.get('min_agri_labour_years')}"
+        )
+    if rule == "districts":
+        return f"district '{profile.district}' is in scheme district list"
     return rule.replace("_", " ")
 
 
@@ -154,6 +163,9 @@ def template_explanation(
         extra_ml += f" കുറവുള്ള ഫീൽഡുകൾ: {', '.join(missing_fields)}."
     if unmatched_rules:
         extra_en += f" Unmatched: {', '.join(unmatched_rules)}."
+    if profile.district:
+        extra_en += f" District on profile: {profile.district}."
+        extra_ml += f" ജില്ല: {profile.district}."
     verify = bool((scheme.get("eligibility_rules") or {}).get("verify"))
     if verify:
         notes = (scheme.get("eligibility_rules") or {}).get("verify_notes") or ""

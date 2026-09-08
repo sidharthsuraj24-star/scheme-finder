@@ -41,6 +41,11 @@ export default function Results({ lang, data, onRestart }: Props) {
         <p className="mt-1 text-base text-slate-600">
           {t(lang, "resultsCount", { count: matched.length })}
         </p>
+        {data.district ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {lang === "ml" ? "ജില്ല" : "District"}: {data.district}
+          </p>
+        ) : null}
       </div>
 
       <div className="space-y-3">

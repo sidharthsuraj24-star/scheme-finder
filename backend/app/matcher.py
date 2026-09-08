@@ -31,6 +31,16 @@ SECC_STYLE_CATEGORIES = {
     "aww_awh_asha",
 }
 
+# LIFE / housing beneficiary types — require explicit housing_status or category.
+HOUSING_STYLE_CATEGORIES = {
+    "homeless",
+    "landless",
+    "incomplete_house",
+    "temporary_shelter",
+    "landed_homeless",
+    "landless_homeless",
+}
+
 # land_ownership scheme values that REQUIRE the profile to own cultivable land
 LAND_REQUIRED_TOKENS = {
     "cultivable_landholding_required",
@@ -259,12 +269,14 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
                 result.ok("marital_status")
 
     # --- occupations ---
+    # Real intersection only. Empty / missing profile occupations must NEVER
+    # satisfy a non-empty scheme occupation allowlist (not a wildcard).
     scheme_occs = rules.get("occupations") or []
     if scheme_occs:
         profile_occs = _norm_set(profile.occupations)
         scheme_occs_n = _norm_set(scheme_occs)
         if not profile_occs:
-            result.miss("occupations")
+            result.fail("occupations")
         elif profile_occs & scheme_occs_n:
             result.ok("occupations")
         else:
@@ -293,9 +305,23 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
         secc_only = scheme_cats_n <= SECC_STYLE_CATEGORIES or all(
             c in SECC_STYLE_CATEGORIES or c.startswith("secc") for c in scheme_cats_n
         )
+        housing_only = bool(scheme_cats_n) and scheme_cats_n <= HOUSING_STYLE_CATEGORIES
         intersection = profile_cats & scheme_cats_n
+
+        # Explicit housing signal for LIFE-style schemes (not land_ownership alone).
+        has_housing_signal = bool(
+            (profile.housing_status and _norm(profile.housing_status) in HOUSING_STYLE_CATEGORIES)
+            or bool(_norm_set(profile.categories) & HOUSING_STYLE_CATEGORIES)
+            or bool(intersection & HOUSING_STYLE_CATEGORIES)
+        )
+
         if intersection:
             result.ok("categories")
+        elif housing_only and not has_housing_signal:
+            # Missing housing_status / housing category → uncertain or soft exclude path;
+            # never likely_eligible. Do not treat blank profile as homeless.
+            result.miss("housing_status")
+            result.uncertain = True
         elif not profile_cats:
             if secc_only:
                 # Missing SECC-style categories → uncertain, not auto-match / not hard fail
@@ -372,6 +398,39 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
             result.fail("primary_breadwinner_deceased_required")
         else:
             result.miss("primary_breadwinner_deceased")
+
+    # --- KAWWF / agri labour tenure (Sevana agricultural labour pension) ---
+    if rules.get("kawwf_member_required"):
+        flag = profile.kawwf_member
+        if flag is True:
+            result.ok("kawwf_member_required")
+        elif flag is False:
+            result.fail("kawwf_member_required")
+        else:
+            # Notes require KAWWF membership — missing → uncertain, not likely
+            result.miss("kawwf_member")
+
+    min_agri_years = rules.get("min_agri_labour_years")
+    if min_agri_years is not None:
+        years = profile.agri_labour_years
+        if years is None:
+            result.miss("agri_labour_years")
+        elif int(years) < int(min_agri_years):
+            result.fail("min_agri_labour_years")
+        else:
+            result.ok("min_agri_labour_years")
+
+    # --- districts (optional hard filter only when scheme lists districts) ---
+    scheme_districts = rules.get("districts") or []
+    if scheme_districts:
+        if not profile.district:
+            result.miss("district")
+        else:
+            allowed = _norm_set(scheme_districts)
+            if _norm(profile.district) in allowed:
+                result.ok("districts")
+            else:
+                result.fail("districts")
 
     return result
 
@@ -491,4 +550,5 @@ def match_schemes(
         needs_verification=needs_verification,
         message=message,
         count=len(matched),
+        district=profile.district,
     )

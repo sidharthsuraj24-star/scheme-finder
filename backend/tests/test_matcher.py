@@ -430,3 +430,168 @@ def test_api_match_endpoint():
     )
     assert r.status_code == 200
     assert any(m["scheme_id"] == "kerala-widow-pension" for m in r.json()["matched"])
+
+
+# ---------------------------------------------------------------------------
+# Accuracy hardening (occupation / housing / kawwf / deserted)
+# ---------------------------------------------------------------------------
+
+
+def test_other_occupation_not_agri_labour(schemes):
+    """occupation=other must hard-exclude agri labour (and not soft-match)."""
+    profile = MatchProfile(
+        age=65,
+        gender="male",
+        state="Kerala",
+        district="Ernakulam",
+        annual_income=45000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="none",
+        disability=False,
+    )
+    resp = match_schemes(schemes, profile)
+    assert "kerala-agri-labour-pension" not in _matched_ids(resp)
+    assert any(
+        e.scheme_id == "kerala-agri-labour-pension" and "occupations" in e.reasons
+        for e in resp.excluded
+    )
+    # Empty occupations also must NOT soft-match agri labour allowlist
+    empty = profile.model_copy(update={"occupations": []})
+    resp2 = match_schemes(schemes, empty)
+    assert "kerala-agri-labour-pension" not in _matched_ids(resp2)
+    assert any(
+        e.scheme_id == "kerala-agri-labour-pension" and "occupations" in e.reasons
+        for e in resp2.excluded
+    )
+    # District echoed on response
+    assert resp.district == "Ernakulam"
+    assert "District on profile: Ernakulam" in next(
+        m.explanation.en for m in resp.matched if m.scheme_id == "kerala-old-age-pension"
+    )
+
+
+def test_farmer_with_land_pm_kisan_uncertain_ok(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-small-farmer"])
+    resp = match_schemes(schemes, profile)
+    assert "pm-kisan" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "pm-kisan")
+    assert hit.status == "uncertain"
+    assert "occupations" in hit.matched_rules
+    assert "land_ownership" in hit.matched_rules
+    # Farmer must not match agri-labour pension
+    assert "kerala-agri-labour-pension" not in _matched_ids(resp)
+
+
+def test_senior_low_income_old_age_likely(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    profile = profile.model_copy(update={"occupations": ["other"], "district": "Ernakulam"})
+    resp = match_schemes(schemes, profile)
+    hit = next(m for m in resp.matched if m.scheme_id == "kerala-old-age-pension")
+    assert hit.status == "likely_eligible"
+
+
+def test_no_housing_flags_life_not_likely(schemes):
+    """LIFE Mission must not be likely_eligible without housing_status / housing category."""
+    profile = MatchProfile(
+        age=40,
+        gender="female",
+        state="Kerala",
+        annual_income=80_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="none",
+        housing_status=None,
+    )
+    resp = match_schemes(schemes, profile)
+    life = [m for m in resp.matched if m.scheme_id == "kerala-life-mission"]
+    if life:
+        assert life[0].status != "likely_eligible"
+        assert "housing_status" in life[0].missing_profile_fields or life[0].status == "uncertain"
+    # Explicit homeless → can match (still verify=true → uncertain)
+    housed = profile.model_copy(update={"housing_status": "homeless", "categories": ["homeless"]})
+    resp2 = match_schemes(schemes, housed)
+    assert "kerala-life-mission" in _matched_ids(resp2)
+    hit = next(m for m in resp2.matched if m.scheme_id == "kerala-life-mission")
+    assert hit.status == "uncertain"
+    assert "categories" in hit.matched_rules
+
+
+def test_deserted_under_50_not_widow_path(schemes):
+    profile = MatchProfile(
+        age=45,
+        gender="female",
+        state="Kerala",
+        marital_status="deserted",
+        annual_income=50_000,
+    )
+    resp = match_schemes(schemes, profile)
+    assert "kerala-widow-pension" not in _matched_ids(resp)
+    assert any(
+        e.scheme_id == "kerala-widow-pension"
+        and ("deserted_7_years_over_50" in e.reasons or "marital_status" in e.reasons)
+        for e in resp.excluded
+    )
+
+
+def test_agri_labour_without_kawwf_is_uncertain(schemes):
+    """Sevana agri labour notes require KAWWF — missing flag → uncertain not likely."""
+    profile = MatchProfile(
+        age=63,
+        state="Kerala",
+        annual_income=70_000,
+        occupations=["agricultural_labour"],
+        land_ownership="none",
+        kawwf_member=None,
+        agri_labour_years=None,
+    )
+    resp = match_schemes(schemes, profile)
+    hit = next(m for m in resp.matched if m.scheme_id == "kerala-agri-labour-pension")
+    assert hit.status == "uncertain"
+    assert "kawwf_member" in hit.missing_profile_fields
+    assert "agri_labour_years" in hit.missing_profile_fields
+
+    full = profile.model_copy(update={"kawwf_member": True, "agri_labour_years": 12})
+    resp2 = match_schemes(schemes, full)
+    hit2 = next(m for m in resp2.matched if m.scheme_id == "kerala-agri-labour-pension")
+    assert hit2.status == "likely_eligible"
+    assert "kawwf_member_required" in hit2.matched_rules
+    assert "min_agri_labour_years" in hit2.matched_rules
+
+
+def test_kasp_stays_uncertain_without_secc_flags(schemes):
+    profile = MatchProfile(
+        age=40,
+        state="Kerala",
+        annual_income=80_000,
+        occupations=["other"],
+        categories=[],
+    )
+    resp = match_schemes(schemes, profile)
+    hit = next(m for m in resp.matched if m.scheme_id == "kerala-kasp-pmjay")
+    assert hit.status == "uncertain"
+    assert hit.status != "likely_eligible"
+
+
+def test_district_filter_when_scheme_lists_districts(schemes):
+    """Optional districts array hard-filters; absent array → no hard filter."""
+    base = next(s for s in schemes if s["id"] == "kerala-old-age-pension")
+    scheme = {
+        **base,
+        "id": "kerala-old-age-pension-district-demo",
+        "eligibility_rules": {
+            **(base.get("eligibility_rules") or {}),
+            "districts": ["Ernakulam", "Thrissur"],
+        },
+    }
+    ok = MatchProfile(
+        age=65,
+        state="Kerala",
+        district="Ernakulam",
+        annual_income=40_000,
+        occupations=["other"],
+    )
+    bad = ok.model_copy(update={"district": "Wayanad"})
+    assert not evaluate_scheme(scheme, ok).hard_fail
+    assert "districts" in evaluate_scheme(scheme, ok).matched
+    assert evaluate_scheme(scheme, bad).hard_fail
