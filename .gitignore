@@ -17,3 +17,11 @@ backend/scheme_finder.db
 .DS_Store
 .idea/
 .vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+frontend/*.tsbuildinfo
