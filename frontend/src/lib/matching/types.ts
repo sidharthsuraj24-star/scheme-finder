@@ -70,6 +70,7 @@ export interface MatchedScheme {
   how_to_apply?: unknown;
   apply_url?: string | null;
   official_source_url?: string | null;
+  last_verified?: string | null;
   tags: string[];
 }
 
@@ -92,6 +93,16 @@ export interface MatchResponse {
   message: string | null;
   count: number;
   district?: string | null;
+  catalogue?: {
+    updated_as_of: string;
+    updated_as_of_iso?: string;
+    scheme_count?: number;
+    scope?: string;
+    auto_update?: string;
+    stale_after_days: number;
+    disclaimer: string;
+  };
+  is_stale?: boolean;
 }
 
 export interface SchemeRecord {
@@ -104,6 +115,7 @@ export interface SchemeRecord {
   how_to_apply?: unknown;
   apply_url?: string | null;
   official_source_url?: string | null;
+  last_verified?: string | null;
   tags?: string[];
   [key: string]: unknown;
 }

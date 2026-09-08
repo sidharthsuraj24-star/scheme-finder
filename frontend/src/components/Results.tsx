@@ -22,7 +22,7 @@ export default function Results({ lang, data, onRestart }: Props) {
         {data.message ? (
           <p className="rounded-xl bg-slate-50 p-3 text-sm text-slate-600">{data.message}</p>
         ) : null}
-        <Disclaimer lang={lang} />
+        <Disclaimer lang={lang} variant="results" />
         <button
           type="button"
           onClick={onRestart}
@@ -54,7 +54,7 @@ export default function Results({ lang, data, onRestart }: Props) {
         ))}
       </div>
 
-      <Disclaimer lang={lang} />
+      <Disclaimer lang={lang} variant="results" />
 
       <button
         type="button"

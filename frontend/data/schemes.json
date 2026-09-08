@@ -63,7 +63,8 @@
       "nsap",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-widow-pension",
@@ -134,7 +135,8 @@
       "nsap",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-disability-pension-physical",
@@ -201,7 +203,8 @@
       "nsap",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-unmarried-women-pension",
@@ -269,7 +272,8 @@
       "unmarried",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-agri-labour-pension",
@@ -341,7 +345,8 @@
       "labour",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-disability-pension-mental",
@@ -406,7 +411,8 @@
       "pwd",
       "sevana",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "pm-kisan",
@@ -472,7 +478,8 @@
       "income-support",
       "central",
       "dbt"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-kasp-pmjay",
@@ -535,7 +542,8 @@
       "pmjay",
       "kasp",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "nsap-nfbs",
@@ -600,7 +608,8 @@
       "bereavement",
       "bpl",
       "central"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-egrantz",
@@ -675,7 +684,8 @@
       "st",
       "obc",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "adip-assistive-devices",
@@ -739,7 +749,8 @@
       "assistive-device",
       "adip",
       "central"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-life-mission",
@@ -810,7 +821,8 @@
       "pmay",
       "kerala",
       "homeless"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "pmmvy",
@@ -888,7 +900,8 @@
       "nutrition",
       "central",
       "pmmvy"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "depwd-scholarship-swd",
@@ -957,7 +970,8 @@
       "education",
       "nsp",
       "central"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-matru-jyothi",
@@ -1024,7 +1038,8 @@
       "women",
       "kerala",
       "social-justice"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "ayyankali-uegs",
@@ -1091,7 +1106,8 @@
       "urban",
       "labour",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "janani-suraksha-yojana-kerala",
@@ -1159,7 +1175,8 @@
       "health",
       "jsy",
       "kerala"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   },
   {
     "id": "kerala-karunya-benevolent-fund",
@@ -1222,6 +1239,7 @@
       "financial-assistance",
       "kerala",
       "karunya"
-    ]
+    ],
+    "last_verified": "2026-09-08"
   }
 ]

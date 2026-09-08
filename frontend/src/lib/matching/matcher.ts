@@ -1,5 +1,6 @@
 /** Deterministic eligibility matcher — port of backend/app/matcher.py */
 
+import { cataloguePayload, resolveLastVerified } from "./catalogue";
 import { buildExplanation } from "./explanations";
 import type {
   ExcludedScheme,
@@ -475,6 +476,7 @@ export function matchSchemes(
       how_to_apply: scheme.how_to_apply ?? null,
       apply_url: scheme.apply_url ?? null,
       official_source_url: scheme.official_source_url ?? null,
+      last_verified: resolveLastVerified(scheme),
       tags: scheme.tags || [],
     });
 
@@ -505,6 +507,7 @@ export function matchSchemes(
       ? "No schemes matched this profile based on published eligibility rules. Try adjusting income, occupation, category, or disability fields, or browse GET /schemes for the full catalogue. Always verify with the implementing office before applying."
       : null;
 
+  const freshness = cataloguePayload();
   return {
     matched: truncated,
     excluded,
@@ -512,5 +515,7 @@ export function matchSchemes(
     message,
     count: truncated.length,
     district: profile.district ?? null,
+    catalogue: freshness.catalogue,
+    is_stale: freshness.is_stale,
   };
 }

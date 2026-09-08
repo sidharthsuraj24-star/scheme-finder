@@ -38,6 +38,7 @@ export interface MatchedScheme {
   how_to_apply?: LocalizedText | null;
   apply_url?: string | null;
   official_source_url?: string | null;
+  last_verified?: string | null;
   tags?: string[];
 }
 
@@ -52,6 +53,13 @@ export interface MatchResponse {
   message?: string | null;
   count: number;
   district?: string | null;
+  catalogue?: {
+    updated_as_of?: string;
+    stale_after_days?: number;
+    disclaimer?: string;
+    [key: string]: unknown;
+  };
+  is_stale?: boolean;
 }
 
 export interface MatchRequestBody {

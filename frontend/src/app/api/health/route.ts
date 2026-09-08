@@ -1,13 +1,14 @@
-import { jsonWithSecurity, schemeCount } from "@/lib/matching";
-import catalogueMeta from "../../../../data/catalogue_meta.json";
+import { cataloguePayload, jsonWithSecurity, schemeCount } from "@/lib/matching";
 
 export const runtime = "nodejs";
 
 export async function GET() {
+  const freshness = cataloguePayload();
   return jsonWithSecurity({
     status: "ok",
     version: "0.2.0",
     scheme_count: schemeCount(),
-    catalogue: catalogueMeta,
+    catalogue: freshness.catalogue,
+    is_stale: freshness.is_stale,
   });
 }

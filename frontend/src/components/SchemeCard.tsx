@@ -20,10 +20,14 @@ export default function SchemeCard({ lang, scheme }: Props) {
 
   const applyUrl = safeHttpUrl(scheme.apply_url);
   const sourceUrl = safeHttpUrl(scheme.official_source_url);
+  const confirmUrl = sourceUrl || applyUrl;
 
   const badge =
     scheme.verify || scheme.status === "uncertain"
-      ? { label: t(lang, scheme.verify ? "verifyBadge" : "uncertainBadge"), cls: "bg-amber-100 text-amber-900 border-amber-300" }
+      ? {
+          label: t(lang, scheme.verify ? "verifyBadge" : "uncertainBadge"),
+          cls: "bg-amber-100 text-amber-900 border-amber-300",
+        }
       : { label: t(lang, "likelyBadge"), cls: "bg-brand-100 text-brand-900 border-brand-300" };
 
   return (
@@ -35,10 +39,17 @@ export default function SchemeCard({ lang, scheme }: Props) {
         aria-expanded={open}
       >
         <div className="flex-1">
-          <div className="mb-2">
-            <span className={`inline-block rounded-full border px-2.5 py-0.5 text-xs font-semibold ${badge.cls}`}>
+          <div className="mb-2 flex flex-wrap items-center gap-2">
+            <span
+              className={`inline-block rounded-full border px-2.5 py-0.5 text-xs font-semibold ${badge.cls}`}
+            >
               {badge.label}
             </span>
+            {scheme.last_verified ? (
+              <span className="text-[11px] font-medium text-slate-500">
+                {t(lang, "lastVerified", { date: scheme.last_verified })}
+              </span>
+            ) : null}
           </div>
           <h3 className="text-lg font-bold leading-snug text-slate-900">{name}</h3>
           {reason ? (
@@ -87,28 +98,31 @@ export default function SchemeCard({ lang, scheme }: Props) {
             <section className="rounded-lg bg-amber-50 p-3 text-amber-950">
               <p className="font-semibold">{t(lang, "verifyBadge")}</p>
               <p className="mt-1">{scheme.verify_notes}</p>
+              <p className="mt-2 text-xs font-medium">
+                {t(lang, "dataFreshConfirm")}
+              </p>
             </section>
           ) : null}
 
           <div className="flex flex-col gap-2 pt-1">
-            {applyUrl ? (
+            {confirmUrl ? (
               <a
-                href={applyUrl}
+                href={confirmUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-tap items-center justify-center rounded-xl bg-brand-700 px-4 py-3 text-center font-semibold text-white"
               >
-                {t(lang, "applyLink")}
+                {t(lang, "officialSourceConfirm")}
               </a>
             ) : null}
-            {sourceUrl ? (
+            {applyUrl && sourceUrl && applyUrl !== sourceUrl ? (
               <a
-                href={sourceUrl}
+                href={applyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex min-h-tap items-center justify-center rounded-xl border-2 border-brand-700 px-4 py-3 text-center font-semibold text-brand-800"
               >
-                {t(lang, "officialSource")}
+                {t(lang, "applyLink")}
               </a>
             ) : null}
           </div>

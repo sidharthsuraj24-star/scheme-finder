@@ -1,0 +1,85 @@
+name: Scheme catalogue freshness check
+
+on:
+  schedule:
+    # Weekly Monday 09:00 UTC
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run freshness checklist
+        id: check
+        run: |
+          python3 scripts/scheme_freshness_check.py --check-urls | tee freshness-report.md
+
+      - name: Open or update GitHub Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const bodyCore = fs.readFileSync("freshness-report.md", "utf8");
+            const title = "Scheme catalogue freshness check";
+            const preamble = [
+              "> **Do not auto-edit eligibility.**",
+              "> A human must verify each official source, then open a PR.",
+              "> Never invent income/age caps or benefit amounts.",
+              "",
+              `Generated: ${new Date().toISOString()}`,
+              "",
+            ].join("\\n");
+            const body = preamble + bodyCore;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "catalogue-freshness",
+              per_page: 10,
+            });
+            const existing = issues.data.find((i) => i.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body,
+              });
+              core.info(`Commented on existing issue #${existing.number}`);
+            } else {
+              // Ensure label exists (ignore errors)
+              try {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: "catalogue-freshness",
+                  color: "FBCA04",
+                  description: "Weekly scheme catalogue human review",
+                });
+              } catch (e) {
+                /* label may already exist */
+              }
+              const created = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ["catalogue-freshness"],
+              });
+              core.info(`Opened issue #${created.data.number}`);
+            }
+

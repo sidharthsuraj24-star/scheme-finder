@@ -243,6 +243,7 @@ class MatchedScheme(BaseModel):
     how_to_apply: dict[str, Any] | None = None
     apply_url: str | None = None
     official_source_url: str | None = None
+    last_verified: str | None = None
     tags: list[str] = Field(default_factory=list)
 
 
@@ -265,6 +266,8 @@ class MatchResponse(BaseModel):
     message: str | None = None
     count: int = 0
     district: str | None = None
+    catalogue: dict[str, Any] | None = None
+    is_stale: bool | None = None
 
 
 class SchemeSummary(BaseModel):
@@ -283,6 +286,9 @@ class SchemeListResponse(BaseModel):
 class HealthResponse(BaseModel):
     status: str = "ok"
     version: str = "0.1.0"
+    scheme_count: int | None = None
+    catalogue: dict[str, Any] | None = None
+    is_stale: bool | None = None
 
 
 class ErrorBody(BaseModel):

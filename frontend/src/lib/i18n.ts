@@ -29,11 +29,22 @@ const en: Dict = {
   howToApply: "How to apply",
   applyLink: "Open apply / official page",
   officialSource: "Official source",
+  officialSourceConfirm: "Official source — confirm here",
+  lastVerified: "Last verified: {date}",
+  dataFreshConfirm:
+    "Confirm eligibility on the official source before you apply.",
+  dataStaleBanner:
+    "Scheme data may be outdated (last updated {date}). Always confirm on the official site before applying.",
+  dataFreshBanner:
+    "Scheme data updated as of {date} · Curated central + Kerala set (not every scheme in India). Confirm eligibility on the official source before you apply.",
+  resultsFooterDisclaimer:
+    "This tool does not guarantee eligibility. Always confirm on the official source and with your local body before applying. Needs-verification matches are uncertain — never treat them as approved.",
+
   reason: "Why this may fit",
   expand: "Show details",
   collapse: "Hide details",
   disclaimer:
-    "This is not legal advice. Always confirm eligibility with your local body (panchayat / municipality / corporation) or the official portal before applying.",
+    "This is not legal advice and does not guarantee eligibility. Always confirm with your local body (panchayat / municipality / corporation) and the official portal before applying.",
   qAge: "How old are you?",
   qAgeHint: "Enter your age in years",
   qIncome: "What is your monthly household income?",
@@ -115,11 +126,22 @@ const ml: Dict = {
   howToApply: "എങ്ങനെ അപേക്ഷിക്കാം",
   applyLink: "അപേക്ഷ / ഔദ്യോഗിക പേജ് തുറക്കുക",
   officialSource: "ഔദ്യോഗിക ഉറവിടം",
+  officialSourceConfirm: "ഔദ്യോഗിക ഉറവിടം — ഇവിടെ സ്ഥിരീകരിക്കുക",
+  lastVerified: "അവസാനം സ്ഥിരീകരിച്ചത്: {date}",
+  dataFreshConfirm:
+    "അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത സ്ഥിരീകരിക്കുക.",
+  dataStaleBanner:
+    "പദ്ധതി ഡാറ്റ കാലഹരണപ്പെട്ടിരിക്കാം (അവസാന അപ്ഡേറ്റ് {date}). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക സൈറ്റിൽ എല്ലായ്പ്പോഴും സ്ഥിരീകരിക്കുക.",
+  dataFreshBanner:
+    "പദ്ധതി ഡാറ്റ {date} വരെ അപ്ഡേറ്റ് ചെയ്തത് · ക്യൂറേറ്റഡ് കേന്ദ്ര + കേരള പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത സ്ഥിരീകരിക്കുക.",
+  resultsFooterDisclaimer:
+    "ഈ ടൂൾ യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിലും തദ്ദേശ സ്ഥാപനത്തിലും സ്ഥിരീകരിക്കുക. സ്ഥിരീകരണം വേണം എന്ന മാച്ചുകൾ അനിശ്ചിതമാണ് — അംഗീകരിച്ചതായി കരുതരുത്.",
+
   reason: "എന്തുകൊണ്ട് ഇത് യോജിച്ചേക്കാം",
   expand: "വിശദാംശങ്ങൾ കാണുക",
   collapse: "മറയ്ക്കുക",
   disclaimer:
-    "ഇത് നിയമോപദേശമല്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ തദ്ദേശ സ്ഥാപനത്തിലോ ഔദ്യോഗിക പോർട്ടലിലോ യോഗ്യത സ്ഥിരീകരിക്കുക.",
+    "ഇത് നിയമോപദേശമല്ല; യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് തദ്ദേശ സ്ഥാപനത്തിലും ഔദ്യോഗിക പോർട്ടലിലും സ്ഥിരീകരിക്കുക.",
   qAge: "നിങ്ങളുടെ പ്രായം എത്ര?",
   qAgeHint: "വയസ്സ് നൽകുക",
   qIncome: "മാസ കുടുംബ വരുമാനം എത്ര?",

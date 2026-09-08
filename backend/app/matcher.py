@@ -9,6 +9,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import Any
 
+from .catalogue import catalogue_payload, resolve_last_verified
 from .explanations import build_explanation
 from .models import (
     ExcludedScheme,
@@ -512,6 +513,7 @@ def match_schemes(
             how_to_apply=scheme.get("how_to_apply"),
             apply_url=scheme.get("apply_url"),
             official_source_url=scheme.get("official_source_url"),
+            last_verified=resolve_last_verified(scheme),
             tags=scheme.get("tags") or [],
         )
         matched.append(item)
@@ -544,6 +546,7 @@ def match_schemes(
             "implementing office before applying."
         )
 
+    freshness = catalogue_payload()
     return MatchResponse(
         matched=matched,
         excluded=excluded,
@@ -551,4 +554,6 @@ def match_schemes(
         message=message,
         count=len(matched),
         district=profile.district,
+        catalogue=freshness["catalogue"],
+        is_stale=freshness["is_stale"],
     )

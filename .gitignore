@@ -37,3 +37,4 @@ frontend/.env.local
 frontend/.env*.local
 frontend/*.tsbuildinfo
 frontend/.vercel/
+scripts/.freshness-report.md

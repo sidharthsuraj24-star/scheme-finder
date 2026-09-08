@@ -9,6 +9,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 
 from . import __version__
+from .catalogue import catalogue_payload
 from .db import get_store
 from .explanations import DISCLAIMER_EN, build_explanation, generator_mode
 from .matcher import evaluate_scheme, match_schemes
@@ -68,7 +69,15 @@ app.add_middleware(SecurityHeadersMiddleware)
 @app.get("/health", response_model=HealthResponse)
 @app.get("/api/v1/health", response_model=HealthResponse)
 def health() -> HealthResponse:
-    return HealthResponse(status="ok", version=__version__)
+    store = get_store()
+    freshness = catalogue_payload()
+    return HealthResponse(
+        status="ok",
+        version=__version__,
+        scheme_count=len(store.schemes),
+        catalogue=freshness["catalogue"],
+        is_stale=freshness["is_stale"],
+    )
 
 
 @app.get("/schemes", response_model=SchemeListResponse)
