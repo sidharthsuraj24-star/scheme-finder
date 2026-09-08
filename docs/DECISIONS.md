@@ -11,9 +11,10 @@
 
 ## Malayalam copy
 
-- Where confident short ML titles/descriptions were available or straightforward, ML was provided.
-- Otherwise `ml` fields reuse English with suffix ` [ML copy pending native review]`.
-- **Do not ship user-facing ML without native speaker review.**
+- UI chrome (welcome, questions, buttons, errors, freshness banners, disclaimers, share) has natural Malayalam strings in `frontend/src/lib/i18n.ts`.
+- Scheme `scheme_name` / `description` / `benefits` / `how_to_apply` ML for the main Sevana pensions and other catalogue entries were kept or improved where confident.
+- `required_documents.ml` pending suffixes (`[ML copy pending native review]`) were replaced with natural Malayalam for common document labels; if unsure we keep English rather than invent wrong ML.
+- **ML was improved for shipping but still welcome native speaker review** (tone, honorifics, and LSGD terminology).
 
 ## Planned stack fallbacks (Phase 2+)
 

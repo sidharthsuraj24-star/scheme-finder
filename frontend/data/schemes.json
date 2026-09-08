@@ -42,12 +42,12 @@
         "Passport-size photograph"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "Age proof [ML copy pending native review]",
-        "Income certificate (family annual income <= Rs.1 lakh) [ML copy pending native review]",
-        "Bank passbook / account details [ML copy pending native review]",
-        "Ration card / residence proof [ML copy pending native review]",
-        "Passport-size photograph [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "പ്രായം തെളിയിക്കുന്ന രേഖ",
+        "വരുമാന സർട്ടിഫിക്കറ്റ് (കുടുംബ വാർഷിക വരുമാനം ₹1 ലക്ഷം വരെ)",
+        "ബാങ്ക് പാസ്‌ബുക്ക് / അക്കൗണ്ട് വിവരങ്ങൾ",
+        "റേഷൻ കാർഡ് / താമസ സർട്ടിഫിക്കറ്റ്",
+        "പാസ്‌പോർട്ട് സൈസ് ഫോട്ടോ"
       ]
     },
     "how_to_apply": {
@@ -113,12 +113,12 @@
         "Photograph"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "Death certificate of husband / proof of missing or desertion as applicable [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Ration card / residence proof [ML copy pending native review]",
-        "Photograph [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "ഭർത്താവിന്റെ മരണ സർട്ടിഫിക്കറ്റ് / കാണാതാവുകയോ ഉപേക്ഷിക്കപ്പെടുകയോ ചെയ്തതിന്റെ തെളിവ് (ബാധകമെങ്കിൽ)",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "റേഷൻ കാർഡ് / താമസ സർട്ടിഫിക്കറ്റ്",
+        "ഫോട്ടോഗ്രാഫ്"
       ]
     },
     "how_to_apply": {
@@ -181,12 +181,12 @@
         "Photograph"
       ],
       "ml": [
-        "Disability certificate / medical board certificate (>=40%) [ML copy pending native review]",
-        "Aadhaar card [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Bank passbook [ML copy pending native review]",
-        "Ration card / domicile proof [ML copy pending native review]",
-        "Photograph [ML copy pending native review]"
+        "ഭിന്നശേഷി സർട്ടിഫിക്കറ്റ് / മെഡിക്കൽ ബോർഡ് സർട്ടിഫിക്കറ്റ് (40% അല്ലെങ്കിൽ അതിലധികം)",
+        "ആധാർ കാർഡ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ബാങ്ക് പാസ്‌ബുക്ക്",
+        "റേഷൻ കാർഡ് / സ്ഥിരതാമസ തെളിവ്",
+        "ഫോട്ടോഗ്രാഫ്"
       ]
     },
     "how_to_apply": {
@@ -251,12 +251,12 @@
         "Residence proof"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "Age proof [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Proof of unmarried status as required by local body [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Residence proof [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "പ്രായം തെളിയിക്കുന്ന രേഖ",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "അവിവാഹിത നില തെളിയിക്കുന്ന രേഖ (തദ്ദേശ സ്ഥാപനം ആവശ്യപ്പെടുന്നത്)",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "താമസ സർട്ടിഫിക്കറ്റ്"
       ]
     },
     "how_to_apply": {
@@ -323,13 +323,13 @@
         "Residence proof"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "Age proof [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Kerala Agricultural Workers Welfare Fund membership proof [ML copy pending native review]",
-        "Evidence of agricultural labour work period [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Residence proof [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "പ്രായം തെളിയിക്കുന്ന രേഖ",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "കേരള കാർഷിക തൊഴിലാളി ക്ഷേമനിധി അംഗത്വ തെളിവ്",
+        "കാർഷിക തൊഴിൽ കാലയളവിന്റെ തെളിവ്",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "താമസ സർട്ടിഫിക്കറ്റ്"
       ]
     },
     "how_to_apply": {
@@ -390,11 +390,11 @@
         "Residence proof"
       ],
       "ml": [
-        "Medical certificate of mental disability from competent medical board [ML copy pending native review]",
-        "Aadhaar card [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Residence proof [ML copy pending native review]"
+        "യോഗ്യതയുള്ള മെഡിക്കൽ ബോർഡിൽ നിന്നുള്ള മാനസിക ഭിന്നശേഷി മെഡിക്കൽ സർട്ടിഫിക്കറ്റ്",
+        "ആധാർ കാർഡ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "താമസ സർട്ടിഫിക്കറ്റ്"
       ]
     },
     "how_to_apply": {
@@ -459,10 +459,10 @@
         "Self-declaration for exclusion categories as required"
       ],
       "ml": [
-        "Aadhaar [ML copy pending native review]",
-        "Land records / ownership proof as per State land records [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Self-declaration for exclusion categories as required [ML copy pending native review]"
+        "ആധാർ",
+        "ഭൂരേഖകൾ / ഉടമസ്ഥാവകാശ തെളിവ് (സംസ്ഥാന ഭൂരേഖകൾ അനുസരിച്ച്)",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "ഒഴിവാക്കൽ വിഭാഗങ്ങൾക്കുള്ള സ്വയം പ്രഖ്യാപനം (ആവശ്യമെങ്കിൽ)"
       ]
     },
     "how_to_apply": {
@@ -524,9 +524,9 @@
         "Existing RSBY/CHIS card or PM letter / SECC eligibility proof if applicable"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "Ration card [ML copy pending native review]",
-        "Existing RSBY/CHIS card or PM letter / SECC eligibility proof if applicable [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "റേഷൻ കാർഡ്",
+        "നിലവിലുള്ള RSBY/CHIS കാർഡ് അല്ലെങ്കിൽ പ്രധാനമന്ത്രി കത്ത് / SECC യോഗ്യതാ തെളിവ് (ബാധകമെങ്കിൽ)"
       ]
     },
     "how_to_apply": {
@@ -590,10 +590,10 @@
         "Proof of relationship / household"
       ],
       "ml": [
-        "Death certificate of primary breadwinner [ML copy pending native review]",
-        "BPL / poverty-line proof as prescribed [ML copy pending native review]",
-        "Aadhaar and bank details of claimant [ML copy pending native review]",
-        "Proof of relationship / household [ML copy pending native review]"
+        "പ്രധാന വരുമാനദാതാവിന്റെ മരണ സർട്ടിഫിക്കറ്റ്",
+        "BPL / ദാരിദ്ര്യരേഖ തെളിവ് (നിശ്ചയിച്ചത് അനുസരിച്ച്)",
+        "അപേക്ഷകന്റെ ആധാറും ബാങ്ക് വിവരങ്ങളും",
+        "ബന്ധം / കുടുംബം തെളിയിക്കുന്ന രേഖ"
       ]
     },
     "how_to_apply": {
@@ -662,12 +662,12 @@
         "Previous qualification certificates"
       ],
       "ml": [
-        "Aadhaar [ML copy pending native review]",
-        "Caste certificate [ML copy pending native review]",
-        "Income certificate (where required) [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Admission / institution details [ML copy pending native review]",
-        "Previous qualification certificates [ML copy pending native review]"
+        "ആധാർ",
+        "ജാതി സർട്ടിഫിക്കറ്റ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ് (ആവശ്യമുള്ളിടത്ത്)",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "പ്രവേശനം / സ്ഥാപന വിവരങ്ങൾ",
+        "മുൻ യോഗ്യതാ സർട്ടിഫിക്കറ്റുകൾ"
       ]
     },
     "how_to_apply": {
@@ -730,11 +730,11 @@
         "Other documents as required by implementing agency"
       ],
       "ml": [
-        "Aadhaar card [ML copy pending native review]",
-        "UDID card or UDID enrollment number with Disability Certificate (>=40%) [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Photograph [ML copy pending native review]",
-        "Other documents as required by implementing agency [ML copy pending native review]"
+        "ആധാർ കാർഡ്",
+        "UDID കാർഡ് അല്ലെങ്കിൽ UDID എൻറോൾമെന്റ് നമ്പറും ഭിന്നശേഷി സർട്ടിഫിക്കറ്റും (40%+)",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ഫോട്ടോഗ്രാഫ്",
+        "നടത്തിപ്പ് ഏജൻസി ആവശ്യപ്പെടുന്ന മറ്റ് രേഖകൾ"
       ]
     },
     "how_to_apply": {
@@ -800,12 +800,12 @@
         "Bank details"
       ],
       "ml": [
-        "Ration card [ML copy pending native review]",
-        "Aadhaar [ML copy pending native review]",
-        "Income certificate (as demanded by LSGI) [ML copy pending native review]",
-        "Land/housing status documents [ML copy pending native review]",
-        "Caste certificate if applicable [ML copy pending native review]",
-        "Bank details [ML copy pending native review]"
+        "റേഷൻ കാർഡ്",
+        "ആധാർ",
+        "വരുമാന സർട്ടിഫിക്കറ്റ് (തദ്ദേശ സ്ഥാപനം ആവശ്യപ്പെടുന്നത്)",
+        "ഭൂമി/ഭവന നിലവാര രേഖകൾ",
+        "ജാതി സർട്ടിഫിക്കറ്റ് (ബാധകമെങ്കിൽ)",
+        "ബാങ്ക് വിവരങ്ങൾ"
       ]
     },
     "how_to_apply": {
@@ -879,12 +879,12 @@
         "Child birth certificate and immunization details for later instalments"
       ],
       "ml": [
-        "Aadhaar (mandatory) [ML copy pending native review]",
-        "Aadhaar-seeded bank/post office account [ML copy pending native review]",
-        "Mobile number [ML copy pending native review]",
-        "Eligibility proof (any one category document) [ML copy pending native review]",
-        "MCP/RCHI card, LMP/ANC details [ML copy pending native review]",
-        "Child birth certificate and immunization details for later instalments [ML copy pending native review]"
+        "ആധാർ (നിർബന്ധം)",
+        "ആധാർ ലിങ്ക് ചെയ്ത ബാങ്ക്/പോസ്റ്റ് ഓഫീസ് അക്കൗണ്ട്",
+        "മൊബൈൽ നമ്പർ",
+        "യോഗ്യതാ തെളിവ് (ഏതെങ്കിലും ഒരു വിഭാഗ രേഖ)",
+        "MCP/RCHI കാർഡ്, LMP/ANC വിവരങ്ങൾ",
+        "കുട്ടിയുടെ ജനന സർട്ടിഫിക്കറ്റും പ്രതിരോധ കുത്തിവയ്പ് വിവരങ്ങളും (പിന്നീടുള്ള തവണകൾക്ക്)"
       ]
     },
     "how_to_apply": {
@@ -949,12 +949,12 @@
         "Bank account linked with Aadhaar"
       ],
       "ml": [
-        "Disability certificate / UDID [ML copy pending native review]",
-        "Aadhaar [ML copy pending native review]",
-        "Income certificate of parent/guardian [ML copy pending native review]",
-        "Previous academic certificates [ML copy pending native review]",
-        "Fee receipt / institution verification [ML copy pending native review]",
-        "Bank account linked with Aadhaar [ML copy pending native review]"
+        "ഭിന്നശേഷി സർട്ടിഫിക്കറ്റ് / UDID",
+        "ആധാർ",
+        "രക്ഷിതാവിന്റെ/ഗാർഡിയന്റെ വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "മുൻ അക്കാദമിക് സർട്ടിഫിക്കറ്റുകൾ",
+        "ഫീസ് രസീത് / സ്ഥാപന സ്ഥിരീകരണം",
+        "ആധാറുമായി ബന്ധിപ്പിച്ച ബാങ്ക് അക്കൗണ്ട്"
       ]
     },
     "how_to_apply": {
@@ -1017,12 +1017,12 @@
         "Spouse disability certificate if claiming dual-PwD priority"
       ],
       "ml": [
-        "Hospital discharge certificate [ML copy pending native review]",
-        "Disability certificate from Medical Board [ML copy pending native review]",
-        "Income certificate [ML copy pending native review]",
-        "Bank passbook [ML copy pending native review]",
-        "Caregiver certificate from Gynecologist/Paediatrician if applicable [ML copy pending native review]",
-        "Spouse disability certificate if claiming dual-PwD priority [ML copy pending native review]"
+        "ആശുപത്രി ഡിസ്ചാർജ് സർട്ടിഫിക്കറ്റ്",
+        "മെഡിക്കൽ ബോർഡിൽ നിന്നുള്ള ഭിന്നശേഷി സർട്ടിഫിക്കറ്റ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ്",
+        "ബാങ്ക് പാസ്‌ബുക്ക്",
+        "ഗൈനക്കോളജിസ്റ്റ്/പീഡിയാട്രിഷ്യനിൽ നിന്നുള്ള പരിചാരക സർട്ടിഫിക്കറ്റ് (ബാധകമെങ്കിൽ)",
+        "ഇരട്ട ഭിന്നശേഷി മുൻഗണനയ്ക്ക് ഭർത്താവിന്റെ/ഭാര്യയുടെ ഭിന്നശേഷി സർട്ടിഫിക്കറ്റ്"
       ]
     },
     "how_to_apply": {
@@ -1087,11 +1087,11 @@
         "Photograph"
       ],
       "ml": [
-        "Aadhaar [ML copy pending native review]",
-        "Residence proof in urban local body [ML copy pending native review]",
-        "Job card / registration documents as prescribed [ML copy pending native review]",
-        "Bank account details [ML copy pending native review]",
-        "Photograph [ML copy pending native review]"
+        "ആധാർ",
+        "നഗര തദ്ദേശ സ്ഥാപന പരിധിയിലെ താമസ തെളിവ്",
+        "ജോബ് കാർഡ് / രജിസ്ട്രേഷൻ രേഖകൾ (നിശ്ചയിച്ചത് അനുസരിച്ച്)",
+        "ബാങ്ക് അക്കൗണ്ട് വിവരങ്ങൾ",
+        "ഫോട്ടോഗ്രാഫ്"
       ]
     },
     "how_to_apply": {
@@ -1156,11 +1156,11 @@
         "Institutional delivery proof"
       ],
       "ml": [
-        "MCP card / pregnancy records [ML copy pending native review]",
-        "BPL / income certificate as applicable [ML copy pending native review]",
-        "Caste certificate for SC/ST [ML copy pending native review]",
-        "Aadhaar and bank details [ML copy pending native review]",
-        "Institutional delivery proof [ML copy pending native review]"
+        "MCP കാർഡ് / ഗർഭകാല രേഖകൾ",
+        "BPL / വരുമാന സർട്ടിഫിക്കറ്റ് (ബാധകമെങ്കിൽ)",
+        "SC/ST ജാതി സർട്ടിഫിക്കറ്റ്",
+        "ആധാറും ബാങ്ക് വിവരങ്ങളും",
+        "ആശുപത്രി പ്രസവ തെളിവ്"
       ]
     },
     "how_to_apply": {
@@ -1220,11 +1220,11 @@
         "Proof of non-eligibility / non-enrollment under KASP as required"
       ],
       "ml": [
-        "Aadhaar [ML copy pending native review]",
-        "Ration card [ML copy pending native review]",
-        "Income certificate (< Rs.3 lakh) [ML copy pending native review]",
-        "Medical documents as required at hospital kiosk [ML copy pending native review]",
-        "Proof of non-eligibility / non-enrollment under KASP as required [ML copy pending native review]"
+        "ആധാർ",
+        "റേഷൻ കാർഡ്",
+        "വരുമാന സർട്ടിഫിക്കറ്റ് (₹3 ലക്ഷത്തിൽ താഴെ)",
+        "ആശുപത്രി കിയോസ്കിൽ ആവശ്യപ്പെടുന്ന മെഡിക്കൽ രേഖകൾ",
+        "KASP-യിൽ യോഗ്യത/എൻറോൾമെന്റ് ഇല്ലെന്ന തെളിവ് (ആവശ്യമെങ്കിൽ)"
       ]
     },
     "how_to_apply": {

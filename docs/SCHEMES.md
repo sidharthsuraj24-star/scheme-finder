@@ -78,6 +78,6 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 
 
 ## Notes
-- Malayalam (`ml`) fields: some entries have native ML; others append `[ML copy pending native review]` where English was reused.
+- Malayalam (`ml`) fields: UI + main scheme copy improved; document lists translated for catalogue entries. Still welcome native review (see DECISIONS).
 - Sevana pension amounts (browser pass 2026-09-08): criteria tables list **Rs.2000** base for listed pensions; special amounts noted for Old Age 75+ (Rs.1500) and Disability 80%+ (Rs.1100) — **do not invent** whether special amounts are additive or replacement; keep benefits.verify-style notes.
 - See `docs/BROWSER_SEVANA_NOTES.md` for the full 2026-09-08 Sevana FAQ research summary.

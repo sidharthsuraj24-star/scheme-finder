@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { t } from "@/lib/i18n";
 import type { Lang, MatchResponse } from "@/lib/types";
 import Disclaimer from "./Disclaimer";
@@ -9,9 +10,65 @@ interface Props {
   lang: Lang;
   data: MatchResponse;
   onRestart: () => void;
+  shareUrl?: string | null;
 }
 
-export default function Results({ lang, data, onRestart }: Props) {
+function ShareButtons({
+  lang,
+  shareUrl,
+}: {
+  lang: Lang;
+  shareUrl: string;
+}) {
+  const [copied, setCopied] = useState(false);
+
+  const copyLink = async () => {
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(shareUrl);
+      } else {
+        const ta = document.createElement("textarea");
+        ta.value = shareUrl;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "absolute";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        document.body.removeChild(ta);
+      }
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2000);
+    } catch {
+      window.alert(t(lang, "shareCopyFailed"));
+    }
+  };
+
+  const waText = `${t(lang, "shareMessage")} ${shareUrl}`;
+  const waHref = `https://wa.me/?text=${encodeURIComponent(waText)}`;
+
+  return (
+    <div className="flex flex-col gap-2 sm:flex-row">
+      <button
+        type="button"
+        onClick={() => void copyLink()}
+        className="min-h-tap flex-1 rounded-xl border-2 border-brand-600 bg-brand-50 px-4 py-3 text-base font-bold text-brand-900"
+      >
+        {copied ? t(lang, "shareCopied") : t(lang, "shareCopyLink")}
+      </button>
+      <a
+        href={waHref}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="min-h-tap flex-1 rounded-xl border-2 border-emerald-600 bg-emerald-50 px-4 py-3 text-center text-base font-bold text-emerald-900"
+      >
+        {t(lang, "shareWhatsApp")}
+      </a>
+    </div>
+  );
+}
+
+export default function Results({ lang, data, onRestart, shareUrl }: Props) {
   const matched = data.matched || [];
 
   if (matched.length === 0) {
@@ -22,6 +79,7 @@ export default function Results({ lang, data, onRestart }: Props) {
         {data.message ? (
           <p className="rounded-xl bg-slate-50 p-3 text-sm text-slate-600">{data.message}</p>
         ) : null}
+        {shareUrl ? <ShareButtons lang={lang} shareUrl={shareUrl} /> : null}
         <Disclaimer lang={lang} variant="results" />
         <button
           type="button"
@@ -48,6 +106,8 @@ export default function Results({ lang, data, onRestart }: Props) {
         ) : null}
       </div>
 
+      {shareUrl ? <ShareButtons lang={lang} shareUrl={shareUrl} /> : null}
+
       <div className="space-y-3">
         {matched.map((s) => (
           <SchemeCard key={s.scheme_id} lang={lang} scheme={s} />
@@ -55,6 +115,8 @@ export default function Results({ lang, data, onRestart }: Props) {
       </div>
 
       <Disclaimer lang={lang} variant="results" />
+
+      {shareUrl ? <ShareButtons lang={lang} shareUrl={shareUrl} /> : null}
 
       <button
         type="button"
