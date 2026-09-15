@@ -2,7 +2,7 @@
 
 **Stamp:** `updated_as_of` = **2026-09-08** (see `data/catalogue_meta.json`).  
 **Stale after:** `stale_after_days` = **30** (UI shows an amber warning when today − updated_as_of > 30).  
-**Scope:** Curated **multi-state + central** schemes — **not** a complete all-India catalogue (currently 28 schemes; Kerala fully curated, starter sets for TN/KA/MH/WB/UP).  
+**Scope:** Curated **multi-state + central** schemes — **not** a complete all-India catalogue (currently 44 schemes; Kerala fully curated; starter/flagship sets across 15+ states/UTs including GJ/RJ/BR/MP/OD/AP/TG/AS/GA/JH/HR/CG/DL and earlier TN/KA/MH/WB/UP).  
 **Disclaimer (also in meta):** Confirm with the official source before applying.
 
 ## Why we do not fully auto-scrape “all India”

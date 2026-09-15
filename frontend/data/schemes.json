@@ -1902,5 +1902,1042 @@
     ],
     "nationwide": true,
     "last_verified": "2026-09-15"
+  },
+  {
+    "id": "gj-mukhyamantri-amrutum",
+    "scheme_name": {
+      "en": "Mukhyamantri Amrutum / PMJAY-MA (Gujarat)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Amrutum / PMJAY-MA (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat state health assurance scheme (Mukhyamantri Amrutum / MA Vatsalya), integrated with Ayushman Bharat PM-JAY as PMJAY-MA, providing cashless secondary/tertiary care for eligible families at empaneled hospitals.",
+      "ml": "(EN — Malayalam review pending) Gujarat state health assurance (MA / PMJAY-MA) for eligible families at empaneled hospitals."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 400000,
+      "categories": [
+        "BPL",
+        "secc_deprivation",
+        "pmjay",
+        "nfsa_ration"
+      ],
+      "states": [
+        "Gujarat"
+      ],
+      "notes": "MA historically covered BPL and MA Vatsalya income groups (commonly cited up to Rs.4 lakh/year) and other notified categories; now co-branded with PM-JAY. Enrolment is list/centre-based — confirm live eligibility on myscheme / MA–PMJAY channels.",
+      "verify": true,
+      "verify_notes": "Beneficiary identification is database/centre-driven. Income ceiling and category expansions change — keep verify=true. Official myscheme page: https://www.myscheme.gov.in/schemes/ma ; state portal commonly cited as ma.gujarat.gov.in.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Cashless hospitalisation cover under PMJAY-MA packages (sum insured as notified — commonly cited Rs.5 lakh+ family floater; confirm current cover).",
+      "ml": "(EN — Malayalam review pending) Cashless hospitalisation under PMJAY-MA (confirm current sum insured)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Ration / income proof as required",
+        "MA / Ayushman card if issued",
+        "Mobile number"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Ration / income proof",
+        "MA / Ayushman card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check eligibility / e-card via PM-JAY beneficiary portal or authorised PMJAY-MA enrolment centres in Gujarat. See https://www.myscheme.gov.in/schemes/ma",
+      "ml": "(EN — Malayalam review pending) Check eligibility via PM-JAY / MA enrolment centres; see myscheme.gov.in/schemes/ma"
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/ma",
+    "office_type": "Health and Family Welfare Department, Government of Gujarat / State Health Agency",
+    "official_source_url": "https://www.myscheme.gov.in/schemes/ma",
+    "tags": [
+      "health",
+      "insurance",
+      "gujarat",
+      "pmjay",
+      "ma"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "gj-namo-lakshmi",
+    "scheme_name": {
+      "en": "Namo Lakshmi Yojana (Gujarat)",
+      "ml": "(EN — Malayalam review pending) Namo Lakshmi Yojana (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat girl-student assistance scheme listed on myScheme (Namo Lakshmi / NLY) supporting eligible girls studying in higher secondary stages through DBT, typically via school/CTS channels.",
+      "ml": "(EN — Malayalam review pending) Gujarat girl-student DBT assistance (Namo Lakshmi) for eligible higher-secondary students."
+    },
+    "eligibility_rules": {
+      "min_age": 13,
+      "max_age": 19,
+      "max_annual_income": null,
+      "occupations": [
+        "student"
+      ],
+      "gender": "female",
+      "states": [
+        "Gujarat"
+      ],
+      "notes": "Class 9–12 girl students of Gujarat as per Education Department / myScheme listing. Exact income and school-type filters are portal-driven — confirm on official myScheme page.",
+      "verify": true,
+      "verify_notes": "Age band approximated for wizard matching (Classes 9–12). Confirm instalment amounts and eligibility filters on https://www.myscheme.gov.in/schemes/nlygg2",
+      "max_monthly_household_income": null,
+      "categories": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Staged scholarship / DBT assistance for eligible girl students (amounts as notified on myScheme / Education Department).",
+      "ml": "(EN — Malayalam review pending) Staged scholarship / DBT for eligible girl students (confirm amounts on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "School enrolment proof",
+        "Bank account (DBT)",
+        "Parent / guardian documents as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "School proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Applications are generally processed through the school / CTS channel as notified; details on https://www.myscheme.gov.in/schemes/nlygg2",
+      "ml": "(EN — Malayalam review pending) Apply via school/CTS as notified; see myscheme.gov.in/schemes/nlygg2"
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/nlygg2",
+    "office_type": "Education Department, Government of Gujarat",
+    "official_source_url": "https://www.myscheme.gov.in/schemes/nlygg2",
+    "tags": [
+      "girl-child",
+      "education",
+      "gujarat",
+      "scholarship",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "rj-vridhjan-samman-pension",
+    "scheme_name": {
+      "en": "Mukhyamantri Vridhjan Samman Pension Yojana (Rajasthan)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Vridhjan Samman Pension Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan Social Justice & Empowerment old-age pension (Mukhyamantri Vridhjan Samman) delivered via RajSSP / SSO with Jan Aadhaar-linked DBT for eligible elderly residents.",
+      "ml": "(EN — Malayalam review pending) Rajasthan old-age pension via RajSSP / Jan Aadhaar DBT."
+    },
+    "eligibility_rules": {
+      "min_age": 55,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "states": [
+        "Rajasthan"
+      ],
+      "notes": "State rules commonly set women age 55+ and men 58+ with annual family income ceilings (often cited Rs.48,000 rural / Rs.60,000 urban). Jan Aadhaar required. Confirm live age/income on ssp.rajasthan.gov.in / SJED.",
+      "verify": true,
+      "verify_notes": "min_age=55 is the lower (women) threshold; male applicants may need 58+. Income ceiling rural/urban differs — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age pension via DBT (amount as revised by SJED / RajSSP — confirm current rate on portal).",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension via DBT (confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Bank account",
+        "Age / domicile proofs as required"
+      ],
+      "ml": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via RajSSP / Rajasthan SSO or e-Mitra as notified: https://ssp.rajasthan.gov.in/ (SJED: https://sje.rajasthan.gov.in/Default.aspx?PageID=288)",
+      "ml": "(EN — Malayalam review pending) Apply via ssp.rajasthan.gov.in / SSO / e-Mitra"
+    },
+    "apply_url": "https://ssp.rajasthan.gov.in/",
+    "office_type": "Social Justice and Empowerment Department, Government of Rajasthan",
+    "official_source_url": "https://sje.rajasthan.gov.in/Default.aspx?PageID=288",
+    "tags": [
+      "pension",
+      "elderly",
+      "rajasthan",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "br-kanya-utthan",
+    "scheme_name": {
+      "en": "Mukhyamantri Kanya Utthan Yojana (Bihar)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Kanya Utthan Yojana (Bihar)"
+    },
+    "description": {
+      "en": "Bihar flagship girl-child scheme providing staged financial assistance from early childhood through intermediate and graduation milestones. Higher-education instalments are processed on the Medhasoft portal.",
+      "ml": "(EN — Malayalam review pending) Bihar girl-child staged assistance (birth to graduation) via Medhasoft / ICDS channels."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 25,
+      "max_annual_income": null,
+      "occupations": [
+        "student"
+      ],
+      "gender": "female",
+      "states": [
+        "Bihar"
+      ],
+      "notes": "Girl students of Bihar for intermediate / graduation components on medhasoft.bihar.gov.in; early-age components via ICDS/Anganwadi. Family limits (e.g. two daughters) and windows apply — confirm on portal.",
+      "verify": true,
+      "verify_notes": "Age band approximated across early-childhood + education components. Occupations=student suits education instalments; birth components may not require student flag — keep verify=true.",
+      "max_monthly_household_income": null,
+      "categories": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Staged DBT (early childhood grants; intermediate and graduation incentives as notified — commonly cited up to Rs.25,000 / Rs.50,000 for higher stages).",
+      "ml": "(EN — Malayalam review pending) Staged DBT across milestones (confirm amounts on Medhasoft)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Board / university roll details for education stages",
+        "Bank account in girl's name (Aadhaar-seeded)",
+        "Institution verification"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Roll / university details",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Education stages: register on https://medhasoft.bihar.gov.in/ when the window is open. Early childhood: through Anganwadi / ICDS as notified.",
+      "ml": "(EN — Malayalam review pending) Apply on medhasoft.bihar.gov.in for education stages; Anganwadi for early stages."
+    },
+    "apply_url": "https://medhasoft.bihar.gov.in/",
+    "office_type": "Education / Women & Child Development, Government of Bihar",
+    "official_source_url": "https://medhasoft.bihar.gov.in/",
+    "tags": [
+      "girl-child",
+      "education",
+      "bihar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "mp-ladli-behna",
+    "scheme_name": {
+      "en": "Mukhyamantri Ladli Behna Yojana (Madhya Pradesh)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Ladli Behna Yojana (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh Women & Child Development monthly DBT scheme for eligible married / widowed / divorced / deserted women aged 21–60 who meet income and exclusion rules on the official Ladli Behna portal.",
+      "ml": "(EN — Malayalam review pending) MP monthly DBT for eligible women (21–60) under Ladli Behna."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": 60,
+      "max_annual_income": 250000,
+      "gender": "female",
+      "marital_status": [
+        "married",
+        "widow",
+        "divorced",
+        "deserted"
+      ],
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "notes": "Official portal: local resident of MP; married including widow/divorced/deserted; age 21–under 60 as on 1 Jan of application year; self-declared family income ≤ Rs.2.5 lakh; exclusions include IT payers, regular govt employees, >5 acre land, four-wheeler, etc. Samagra ID + Aadhaar e-KYC required.",
+      "verify": true,
+      "verify_notes": "Many exclusion rules cannot be encoded in wizard fields — keep verify=true. Source: https://cmladlibahna.mp.gov.in/",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Rs.1,500 per month DBT to the woman's own Aadhaar-linked bank account (confirm current rate on portal).",
+      "ml": "(EN — Malayalam review pending) Rs.1,500 per month DBT (confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Samagra family / member ID",
+        "Aadhaar",
+        "Own bank account (Aadhaar-linked DBT)",
+        "Mobile number linked to Samagra"
+      ],
+      "ml": [
+        "Samagra ID",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via camps / Gram Panchayat / ward / Anganwadi / portal as notified: https://cmladlibahna.mp.gov.in/",
+      "ml": "(EN — Malayalam review pending) Apply via notified camps/portal: cmladlibahna.mp.gov.in"
+    },
+    "apply_url": "https://cmladlibahna.mp.gov.in/",
+    "office_type": "Women and Child Development Department, Government of Madhya Pradesh",
+    "official_source_url": "https://cmladlibahna.mp.gov.in/",
+    "tags": [
+      "women",
+      "income-support",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "od-madhu-babu-pension",
+    "scheme_name": {
+      "en": "Madhu Babu Pension Yojana (Odisha)",
+      "ml": "(EN — Malayalam review pending) Madhu Babu Pension Yojana (Odisha)"
+    },
+    "description": {
+      "en": "Odisha social security pension for eligible elderly (and other notified vulnerable categories under MBPY) administered by the Social Security & Empowerment of Persons with Disabilities Department.",
+      "ml": "(EN — Malayalam review pending) Odisha Madhu Babu social security pension for eligible elderly / notified categories."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "categories": [
+        "BPL"
+      ],
+      "states": [
+        "Odisha"
+      ],
+      "notes": "Commonly cited: age 60+ with BPL / annual income below Rs.60,000 for the old-age component; higher rates for 80+. Other MBPY categories (widow, PwD, etc.) have separate criteria — this catalogue row targets the old-age path.",
+      "verify": true,
+      "verify_notes": "Confirm live eligibility and amounts on SSEPD Odisha / myScheme. Official scheme path: https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana ; myScheme: https://www.myscheme.gov.in/schemes/mbypvy",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (commonly cited Rs.1,000; higher for 80+ — confirm current SSEPD rates).",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (confirm current SSEPD rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL / income proof",
+        "Bank account",
+        "Age proof",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL / income proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block / ULBs / Mo Seva as notified by SSEPD Odisha. Scheme info: https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana",
+      "ml": "(EN — Malayalam review pending) Apply via Block/ULB/Mo Seva as notified by SSEPD Odisha."
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/mbypvy",
+    "office_type": "Social Security & Empowerment of Persons with Disabilities Department, Government of Odisha",
+    "official_source_url": "https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana",
+    "tags": [
+      "pension",
+      "elderly",
+      "odisha",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ap-ntr-bharosa-oap",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Old Age (Andhra Pradesh)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Old Age (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh social security pension under NTR Bharosa covering old age and other notified categories, with enhanced monthly amounts notified by the state (G.O.Ms.No.43 dated 13.06.2024 referenced on the official portal).",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa social security pensions including old-age pension."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "notes": "Old Age Pension is one of multiple NTR Bharosa pension types (widow, weavers, PwD, etc.). Exact income/BPL and exclusion rules are enforced at sanction — confirm on https://abdg.aptonline.in/SSP",
+      "verify": true,
+      "verify_notes": "Portal confirms Old Age Pension type and enhanced amounts from July 2024; detailed income filters not fully listed on landing page — verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension DBT — old-age category commonly enhanced to Rs.4,000/month from July 2024 per portal G.O. note (confirm live amount).",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension DBT (confirm live amount on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Bank account",
+        "Age / residence proofs",
+        "Volunteer / secretariat verification as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "Age / residence proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply / track via NTR Bharosa portal and Village/Ward Secretariat channels: https://abdg.aptonline.in/SSP",
+      "ml": "(EN — Malayalam review pending) Apply via abdg.aptonline.in/SSP and local secretariat."
+    },
+    "apply_url": "https://abdg.aptonline.in/SSP",
+    "office_type": "Government of Andhra Pradesh – NTR Bharosa Pension Scheme",
+    "official_source_url": "https://abdg.aptonline.in/SSP",
+    "tags": [
+      "pension",
+      "elderly",
+      "andhra-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "tg-aasara-pension",
+    "scheme_name": {
+      "en": "Aasara Pension Scheme (Telangana)",
+      "ml": "(EN — Malayalam review pending) Aasara Pension Scheme (Telangana)"
+    },
+    "description": {
+      "en": "Telangana social safety-net pension (Aasara) for vulnerable groups including the elderly, widows, persons with disabilities, weavers, toddy tappers and other notified categories, as described on official district / Aasara portals.",
+      "ml": "(EN — Malayalam review pending) Telangana Aasara pensions for elderly, widows, PwD and other notified vulnerable groups."
+    },
+    "eligibility_rules": {
+      "min_age": 57,
+      "max_age": null,
+      "max_annual_income": null,
+      "states": [
+        "Telangana"
+      ],
+      "notes": "Official Hyderabad District page describes Aasara for old and infirm, widows, PwD, weavers, toddy tappers, etc. Age thresholds differ by category (elderly vs widow vs PwD). This row uses a conservative elderly-oriented min_age; confirm category rules on aasara.telangana.gov.in / MeeSeva.",
+      "verify": true,
+      "verify_notes": "min_age=57 is an approximate elderly threshold used historically in Telangana pensions; widows/PwD may have different ages — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension DBT (amounts enhanced vs earlier NSAP levels — confirm current rates for each category on Aasara portal).",
+      "ml": "(EN — Malayalam review pending) Monthly pension DBT (confirm current category rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Bank / post office account",
+        "Age / category proofs",
+        "MeeSeva application as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "Category proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MeeSeva / Aasara channels. Overview: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ (portal referenced: http://www.aasara.telangana.gov.in)",
+      "ml": "(EN — Malayalam review pending) Apply via MeeSeva / Aasara portal."
+    },
+    "apply_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "office_type": "Government of Telangana – Aasara Pensions",
+    "official_source_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "tags": [
+      "pension",
+      "elderly",
+      "telangana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "as-orunodoi",
+    "scheme_name": {
+      "en": "Orunodoi 3.0 (Assam)",
+      "ml": "(EN — Malayalam review pending) Orunodoi 3.0 (Assam)"
+    },
+    "description": {
+      "en": "Assam flagship monthly DBT scheme (Orunodoi 3.0) for financially vulnerable women (and priority Divyangjan nominees) in NFSA households, per Finance Department guidelines (notification ECF 337737/88).",
+      "ml": "(EN — Malayalam review pending) Assam Orunodoi 3.0 monthly DBT for eligible NFSA women / priority Divyangjan."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "gender": "female",
+      "categories": [
+        "nfsa_ration"
+      ],
+      "states": [
+        "Assam"
+      ],
+      "notes": "Mandatory NFSA enrolment; household nominates adult woman 18+ (Divyangjan must be nominated regardless of gender). Inclusion pathways include widow/divorced/deserted, PwD, AAY, income < Rs.2 lakh, etc. Extensive exclusions (govt employees, IT payers, four-wheelers, etc.).",
+      "verify": true,
+      "verify_notes": "Gender=female approximates primary path; PwD any-gender exception not fully encoded. Selection is district-administered — keep verify=true. Source: finance.assam.gov.in Orunodoi 3.0 guidelines PDF.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly cash assistance via DBT to Aadhaar-seeded account (amount as notified under Orunodoi 3.0 — confirm current rate).",
+      "ml": "(EN — Malayalam review pending) Monthly DBT cash assistance (confirm current Orunodoi 3.0 amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar-seeded ration card (NFSA)",
+        "Aadhaar",
+        "KYC-verified savings bank account in beneficiary name",
+        "Mobile number"
+      ],
+      "ml": [
+        "NFSA ration card",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Beneficiary selection / updation through district administration under Orunodoi 3.0 guidelines. Info: https://finance.assam.gov.in/portlets/orunodoi-30",
+      "ml": "(EN — Malayalam review pending) Through district administration per Orunodoi 3.0 guidelines (finance.assam.gov.in)."
+    },
+    "apply_url": "https://finance.assam.gov.in/portlets/orunodoi-30",
+    "office_type": "Finance (Institutional Finance) Department, Government of Assam",
+    "official_source_url": "https://finance.assam.gov.in/portlets/orunodoi-30",
+    "tags": [
+      "women",
+      "income-support",
+      "assam",
+      "dbt",
+      "nfsa"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ga-griha-aadhar",
+    "scheme_name": {
+      "en": "Griha Aadhar Scheme (Goa)",
+      "ml": "(EN — Malayalam review pending) Griha Aadhar Scheme (Goa)"
+    },
+    "description": {
+      "en": "Goa Directorate of Women & Child Development monthly financial assistance to eligible housewives/homemakers (married women including widows and divorcees) meeting residence and income conditions under the notified Griha Aadhar Scheme.",
+      "ml": "(EN — Malayalam review pending) Goa Griha Aadhar monthly assistance for eligible married women / widows / divorcees."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 300000,
+      "gender": "female",
+      "marital_status": [
+        "married",
+        "widow",
+        "divorced"
+      ],
+      "states": [
+        "Goa"
+      ],
+      "notes": "Official PDF: married woman 18+; 15 years Goa residence; combined husband+wife gross income ≤ Rs.3 lakh (widow/divorcee: beneficiary income ≤ Rs.3 lakh). Exclusion if beneficiary or husband receives Dayanand Social Security Scheme (with widow+child exception). Amount Rs.1,500/month in scheme text (confirm current).",
+      "verify": true,
+      "verify_notes": "Residence duration and DSSS exclusion not fully encoded. Source PDF: https://www.goa.gov.in/wp-content/uploads/2021/01/Griha-Aadhar-Scheme.pdf",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Rs.1,500 per month DBT (as per scheme PDF; confirm any later amendments on DWCD / Goa schemes portal).",
+      "ml": "(EN — Malayalam review pending) Rs.1,500 per month DBT (confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Marriage certificate",
+        "15-year residence certificate",
+        "Aadhaar",
+        "Income certificate",
+        "Bank passbook (Aadhaar-linked preferred)"
+      ],
+      "ml": [
+        "Marriage certificate",
+        "Residence certificate",
+        "Aadhaar",
+        "Income certificate",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Women & Child Development, Goa (forms/facilitation centres as notified). Scheme PDF: https://www.goa.gov.in/wp-content/uploads/2021/01/Griha-Aadhar-Scheme.pdf — listed on https://www.goa.gov.in/government/schemes/",
+      "ml": "(EN — Malayalam review pending) Apply via DWCD Goa; see goa.gov.in schemes / Griha Aadhar PDF."
+    },
+    "apply_url": "https://www.goa.gov.in/government/schemes/",
+    "office_type": "Directorate of Women and Child Development, Government of Goa",
+    "official_source_url": "https://www.goa.gov.in/wp-content/uploads/2021/01/Griha-Aadhar-Scheme.pdf",
+    "tags": [
+      "women",
+      "income-support",
+      "goa",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ga-laadli-laxmi",
+    "scheme_name": {
+      "en": "Laadli Laxmi Scheme (Goa)",
+      "ml": "(EN — Malayalam review pending) Laadli Laxmi Scheme (Goa)"
+    },
+    "description": {
+      "en": "Goa flagship girl-child scheme providing Rs.1 lakh financial assistance (FD at majority or cash on marriage) to eligible girls meeting birth/residence/parent and parental income conditions under the notified Laadli Laxmi Scheme.",
+      "ml": "(EN — Malayalam review pending) Goa Laadli Laxmi Rs.1 lakh assistance for eligible girls at 18 or on marriage."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 45,
+      "max_annual_income": 300000,
+      "gender": "female",
+      "states": [
+        "Goa"
+      ],
+      "notes": "Official scheme/amendment: girl born in Goa (or educated in Goa with residence conditions); 15-year residence; parental income ≤ Rs.3 lakh; benefit at age 18 (unmarried) or on marriage (19–45 per amendment). Complex parent birth/residence rules — confirm on PDF.",
+      "verify": true,
+      "verify_notes": "Parent domicile rules not encoded. Sources: https://www.goa.gov.in/wp-content/uploads/2021/01/Laadli-Laxmi-Scheme.pdf and amendment notification PDF on goa.gov.in",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Rs.1,00,000 — bank FD jointly with DWCD at age 18, or cash on marriage as per category rules.",
+      "ml": "(EN — Malayalam review pending) Rs.1,00,000 FD at 18 or cash on marriage (per rules)."
+    },
+    "required_documents": {
+      "en": [
+        "Birth certificate",
+        "Residence / school certificates",
+        "Aadhaar",
+        "Parent residence/birth proofs",
+        "Income certificate (unless waived)",
+        "Marriage certificate if applying on marriage"
+      ],
+      "ml": [
+        "Birth certificate",
+        "Residence proofs",
+        "Aadhaar",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Director, Women & Child Development, Panaji in prescribed form. Scheme listed at https://www.goa.gov.in/government/schemes/ — PDF: https://www.goa.gov.in/wp-content/uploads/2021/01/Laadli-Laxmi-Scheme.pdf",
+      "ml": "(EN — Malayalam review pending) Apply via DWCD Goa; see goa.gov.in Laadli Laxmi PDF."
+    },
+    "apply_url": "https://www.goa.gov.in/government/schemes/",
+    "office_type": "Directorate of Women and Child Development, Government of Goa",
+    "official_source_url": "https://www.goa.gov.in/wp-content/uploads/2021/01/Laadli-Laxmi-Scheme.pdf",
+    "tags": [
+      "girl-child",
+      "women",
+      "goa",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "jh-maiya-samman",
+    "scheme_name": {
+      "en": "Mukhyamantri Maiya Samman Yojana (Jharkhand)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Maiya Samman Yojana (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand monthly DBT scheme for eligible women (commonly aged 21–50 with family income ceiling) under Mukhyamantri Maiya Samman Yojana, with registration via designated Pragya Kendra / Anganwadi channels and state MMMSY portals.",
+      "ml": "(EN — Malayalam review pending) Jharkhand Maiya Samman monthly DBT for eligible women."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": 50,
+      "max_annual_income": 100000,
+      "gender": "female",
+      "states": [
+        "Jharkhand"
+      ],
+      "notes": "Widely notified: women 21–50 years, family income below Rs.1 lakh/year, Jharkhand resident; Aadhaar e-KYC at Pragya Kendra / designated centres. Confirm live rules on MMMSY / jharkhand.gov.in documents.",
+      "verify": true,
+      "verify_notes": "Eligibility summarised from Jharkhand government scheme documents / CM launch materials; re-verify on https://mmmsy1.jharkhand.gov.in/ or current MMMSY portal.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Rs.1,000 per month DBT (confirm current instalment amount on MMMSY portal).",
+      "ml": "(EN — Malayalam review pending) Rs.1,000 per month DBT (confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar (e-KYC)",
+        "Bank account",
+        "Income / residence proofs as required",
+        "Mobile number"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "Income / residence proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at Pragya Kendra / Anganwadi / designated centres or MMMSY portal: https://mmmsy1.jharkhand.gov.in/",
+      "ml": "(EN — Malayalam review pending) Register via Pragya Kendra / MMMSY portal."
+    },
+    "apply_url": "https://mmmsy1.jharkhand.gov.in/",
+    "office_type": "Government of Jharkhand – Mukhyamantri Maiya Samman Yojana",
+    "official_source_url": "https://www.jharkhand.gov.in/PDepartment/ViewDocument?id=D016DO005SD001505102024012753390",
+    "tags": [
+      "women",
+      "income-support",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "hr-old-age-samman",
+    "scheme_name": {
+      "en": "Old Age Samman Allowance Scheme (Haryana)",
+      "ml": "(EN — Malayalam review pending) Old Age Samman Allowance Scheme (Haryana)"
+    },
+    "description": {
+      "en": "Haryana social security allowance for residents aged 60+ whose combined income with spouse does not exceed the notified ceiling, administered by SEWA Department.",
+      "ml": "(EN — Malayalam review pending) Haryana Old Age Samman Allowance for eligible residents 60+."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 300000,
+      "states": [
+        "Haryana"
+      ],
+      "notes": "Official SEWA page: age 60+; domicile/resident of Haryana; combined income with spouse ≤ Rs.3,00,000/year (raised vide notification 05.04.2023). Excludes persons receiving pension from government/local body/substantially financed organisations.",
+      "verify": true,
+      "verify_notes": "Pensioner exclusion not fully encoded. Source: https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly Old Age Samman Allowance via PFMS DBT (rate revised over time — confirm current amount on SEWA page).",
+      "ml": "(EN — Malayalam review pending) Monthly allowance via DBT (confirm current SEWA rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Parivar Pehchan Patra / domicile proofs as required",
+        "Bank account",
+        "Income declaration"
+      ],
+      "ml": [
+        "Aadhaar",
+        "PPP / domicile",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels as notified. Scheme page: https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/",
+      "ml": "(EN — Malayalam review pending) Apply via SARAL / SEWA as notified."
+    },
+    "apply_url": "https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/old-age-samman-allowance-scheme/",
+    "tags": [
+      "pension",
+      "elderly",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "hr-widow-destitute-pension",
+    "scheme_name": {
+      "en": "Pension to Widows and Destitute Women (Haryana)",
+      "ml": "(EN — Malayalam review pending) Pension to Widows and Destitute Women (Haryana)"
+    },
+    "description": {
+      "en": "Haryana social security pension for eligible widows and destitute women aged 18+ who are domicile of Haryana and meet income and desertion/destitution conditions on the official SEWA scheme page.",
+      "ml": "(EN — Malayalam review pending) Haryana pension for eligible widows and destitute women."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 300000,
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "states": [
+        "Haryana"
+      ],
+      "notes": "Official criteria: woman 18+; domicile; residing in Haryana ≥1 year at application; own income < Rs.3 lakh; and widow OR destitute without husband/parents/sons OR destitute due to desertion or incapacity of husband/parents. Govt employees/pensioners excluded.",
+      "verify": true,
+      "verify_notes": "Destitute-without-family path not fully encoded (wizard has widow/deserted). Source: https://sewa.haryana.gov.in/pension-to-widows-and-destitute-women/",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly widow/destitute pension via DBT (confirm current SEWA rate).",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Domicile / residence proof",
+        "Widow / desertion proofs as applicable",
+        "Income proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Domicile",
+        "Widow/desertion proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA as notified: https://sewa.haryana.gov.in/pension-to-widows-and-destitute-women/",
+      "ml": "(EN — Malayalam review pending) Apply via SARAL / SEWA as notified."
+    },
+    "apply_url": "https://sewa.haryana.gov.in/pension-to-widows-and-destitute-women/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/pension-to-widows-and-destitute-women/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "cg-mahtari-vandan",
+    "scheme_name": {
+      "en": "Mahtari Vandan Yojana (Chhattisgarh)",
+      "ml": "(EN — Malayalam review pending) Mahtari Vandan Yojana (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh monthly DBT scheme for eligible married, widowed, divorced or deserted women, administered via the Mahtari Vandan state portal.",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh Mahtari Vandan monthly DBT for eligible women."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": null,
+      "max_annual_income": null,
+      "gender": "female",
+      "marital_status": [
+        "married",
+        "widow",
+        "divorced",
+        "deserted"
+      ],
+      "states": [
+        "Chhattisgarh"
+      ],
+      "notes": "State portal mahtarivandan.cgstate.gov.in — married/widow/divorced/deserted women residents of Chhattisgarh, commonly 21+. Confirm income/exclusion rules and current monthly amount on the portal.",
+      "verify": true,
+      "verify_notes": "Income ceiling and exact age cut-offs should be re-verified on https://mahtarivandan.cgstate.gov.in/ — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly DBT assistance (commonly cited Rs.1,000 — confirm current amount on official portal).",
+      "ml": "(EN — Malayalam review pending) Monthly DBT (confirm current amount on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Bank account",
+        "Residence / marital status proofs as required",
+        "e-KYC"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "e-KYC"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register / check status on https://mahtarivandan.cgstate.gov.in/",
+      "ml": "(EN — Malayalam review pending) Register on mahtarivandan.cgstate.gov.in"
+    },
+    "apply_url": "https://mahtarivandan.cgstate.gov.in/",
+    "office_type": "Government of Chhattisgarh – Mahtari Vandan Yojana",
+    "official_source_url": "https://mahtarivandan.cgstate.gov.in/",
+    "tags": [
+      "women",
+      "income-support",
+      "chhattisgarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "dl-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Assistance / Pension Scheme (Delhi)",
+      "ml": "(EN — Malayalam review pending) Old Age Assistance / Pension Scheme (Delhi)"
+    },
+    "description": {
+      "en": "NCT of Delhi financial assistance for eligible senior citizens administered by the Department of Social Welfare, with applications commonly through e-District Delhi.",
+      "ml": "(EN — Malayalam review pending) Delhi old-age financial assistance via Social Welfare / e-District."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "states": [
+        "Delhi"
+      ],
+      "notes": "Commonly cited official conditions: age 60+; resident of Delhi (often 5 years); family income below Rs.1 lakh/year; not receiving similar pension. Amounts differ for 60–69 vs 70+. Confirm on Social Welfare / e-District FAQ.",
+      "verify": true,
+      "verify_notes": "Residence-duration and SC/ST/minority top-ups not encoded. Sources: https://socialwelfare.delhi.gov.in/social/financials-assistance-schemes and e-District FAQ.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly financial assistance (commonly cited Rs.2,000 for 60–69 and Rs.2,500 for 70+ — confirm current rates).",
+      "ml": "(EN — Malayalam review pending) Monthly assistance (confirm current Delhi rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Proof of residence in Delhi",
+        "Income proof",
+        "Bank account (Delhi)",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Delhi residence proof",
+        "Income proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on e-District Delhi or through District Social Welfare Office. Scheme listing: https://socialwelfare.delhi.gov.in/social/financials-assistance-schemes",
+      "ml": "(EN — Malayalam review pending) Apply via e-District Delhi / District Social Welfare Office."
+    },
+    "apply_url": "https://edistrict.delhigovt.nic.in/",
+    "office_type": "Department of Social Welfare, Government of NCT of Delhi",
+    "official_source_url": "https://socialwelfare.delhi.gov.in/social/financials-assistance-schemes",
+    "tags": [
+      "pension",
+      "elderly",
+      "delhi",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
   }
 ]

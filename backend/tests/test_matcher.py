@@ -673,3 +673,145 @@ def test_match_response_includes_state(schemes):
     resp = match_schemes(schemes, profile)
     assert resp.state == "Maharashtra"
     assert resp.district == "Pune"
+
+
+# ---------------------------------------------------------------------------
+# Expanded state catalogue (Gujarat and other newly covered states)
+# ---------------------------------------------------------------------------
+
+
+def test_gujarat_user_does_not_get_kerala_sevana(schemes):
+    profile = MatchProfile(
+        age=68,
+        gender="male",
+        state="Gujarat",
+        annual_income=40_000,
+        occupations=["other"],
+        land_ownership="none",
+        categories=["BPL"],
+    )
+    resp = match_schemes(schemes, profile)
+    sevana = {
+        "kerala-old-age-pension",
+        "kerala-widow-pension",
+        "kerala-disability-pension-physical",
+        "kerala-disability-pension-mental",
+        "kerala-unmarried-women-pension",
+        "kerala-agri-labour-pension",
+    }
+    assert _matched_ids(resp) & sevana == set()
+    assert any(e.scheme_id == "kerala-old-age-pension" for e in resp.excluded)
+
+
+def test_gujarat_bpl_matches_mukhyamantri_amrutum(schemes):
+    profile = MatchProfile(
+        age=40,
+        gender="female",
+        state="Gujarat",
+        annual_income=150_000,
+        categories=["BPL"],
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "gj-mukhyamantri-amrutum" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "gj-mukhyamantri-amrutum")
+    assert "states" in hit.matched_rules
+    assert hit.verify is True
+
+
+def test_gujarat_girl_student_matches_namo_lakshmi(schemes):
+    profile = MatchProfile(
+        age=16,
+        gender="female",
+        state="Gujarat",
+        occupations=["student"],
+        annual_income=100_000,
+    )
+    resp = match_schemes(schemes, profile)
+    assert "gj-namo-lakshmi" in _matched_ids(resp)
+    assert "kerala-egrantz" not in _matched_ids(resp)
+
+
+def test_mp_woman_matches_ladli_behna_not_kerala(schemes):
+    profile = MatchProfile(
+        age=30,
+        gender="female",
+        state="Madhya Pradesh",
+        marital_status="married",
+        annual_income=180_000,
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "mp-ladli-behna" in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+    assert "mh-ladki-bahin" not in _matched_ids(resp)
+
+
+def test_nationwide_pm_kisan_still_matches_new_states(schemes):
+    pm = next(s for s in schemes if s["id"] == "pm-kisan")
+    for state in ("Gujarat", "Assam", "Odisha", "Delhi", "Goa", "Jharkhand"):
+        profile = MatchProfile(
+            age=40,
+            gender="male",
+            state=state,
+            occupations=["farmer", "landholding_farmer"],
+            land_ownership="cultivable_own",
+        )
+        result = evaluate_scheme(pm, profile)
+        assert not result.hard_fail, state
+        assert "states" in result.matched
+
+
+def test_assam_orunodoi_matches_nfsa_woman(schemes):
+    profile = MatchProfile(
+        age=35,
+        gender="female",
+        state="Assam",
+        annual_income=120_000,
+        categories=["nfsa_ration"],
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "as-orunodoi" in _matched_ids(resp)
+    assert "ga-griha-aadhar" not in _matched_ids(resp)
+
+
+def test_haryana_senior_matches_old_age_samman(schemes):
+    profile = MatchProfile(
+        age=65,
+        gender="male",
+        state="Haryana",
+        annual_income=80_000,
+        occupations=["other"],
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "hr-old-age-samman" in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+
+
+def test_catalogue_covers_new_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        for st in rules.get("states") or []:
+            if st not in {"All India", "India"}:
+                by_state.add(st)
+    for required in (
+        "Gujarat",
+        "Rajasthan",
+        "Bihar",
+        "Madhya Pradesh",
+        "Odisha",
+        "Andhra Pradesh",
+        "Telangana",
+        "Assam",
+        "Goa",
+        "Jharkhand",
+        "Haryana",
+        "Chhattisgarh",
+        "Delhi",
+    ):
+        assert required in by_state, required

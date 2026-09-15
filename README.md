@@ -8,7 +8,7 @@ Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
 - Frontend: Next.js 15, React 19, Tailwind
 - Backend: FastAPI, Pydantic v2, Uvicorn
-- Data: data/schemes.json (28 curated schemes — multi-state + central; in-memory; optional SQLite)
+- Data: data/schemes.json (44 curated schemes — multi-state + central; in-memory; optional SQLite)
 - Tests: pytest
 
 ## Run locally
@@ -47,7 +47,7 @@ npm run build
 
 ## Matching notes
 
-- Hard filters only from structured eligibility_rules (18 schemes).
+- Hard filters only from structured eligibility_rules (structured catalogue; see docs/SCHEMES.md).
 - verify=true never returns likely_eligible.
 - Maternity uses maternity_required; NFBS uses primary_breadwinner_deceased_required.
 - Zero matches return HTTP 200 with a helpful message.

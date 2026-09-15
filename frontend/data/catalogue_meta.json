@@ -1,8 +1,8 @@
 {
   "updated_as_of": "2026-09-15",
   "updated_as_of_iso": "2026-09-15T00:00:00+05:30",
-  "scheme_count": 28,
-  "scope": "Curated multi-state + central schemes (not every scheme in India)",
+  "scheme_count": 44,
+  "scope": "Curated multi-state + central schemes across 15+ states/UTs (not every scheme in India). Kerala remains fully curated; other states have flagship starter sets with official .gov.in / myScheme sources.",
   "auto_update": "semi-automatic \u2014 see docs/DATA_REFRESH.md",
   "stale_after_days": 30,
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated."
