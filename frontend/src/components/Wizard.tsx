@@ -11,6 +11,7 @@ import {
 } from "@/lib/constants";
 import { t } from "@/lib/i18n";
 import type { Lang, ProfileAnswers } from "@/lib/types";
+import AgeLifeStage from "./AgeLifeStage";
 import ProgressBar from "./ProgressBar";
 
 const emptyAnswers = (): ProfileAnswers => ({
@@ -39,11 +40,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
   const [error, setError] = useState<string | null>(null);
 
   const choiceBtn = (active: boolean) =>
-    `min-h-tap w-full rounded-xl border-2 px-4 py-3 text-left text-base font-semibold transition ${
-      active
-        ? "border-brand-700 bg-brand-100 text-brand-900"
-        : "border-slate-200 bg-white text-slate-800 hover:border-brand-500"
-    }`;
+    `choice-btn ${active ? "choice-btn--active" : "choice-btn--idle"}`;
 
   const validate = (s: number): boolean => {
     switch (s) {
@@ -128,7 +125,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
               inputMode="numeric"
               min={0}
               max={120}
-              className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg"
+              className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg transition focus:border-brand-600"
               value={answers.age ?? ""}
               onChange={(e) =>
                 setAnswers((a) => ({
@@ -137,6 +134,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
                 }))
               }
             />
+            <AgeLifeStage age={answers.age} lang={lang} />
           </div>
         );
       case 2:
@@ -156,7 +154,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
                 type="number"
                 inputMode="numeric"
                 min={0}
-                className="min-h-tap w-full rounded-xl border-2 border-slate-300 py-3 pl-10 pr-4 text-lg"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-300 py-3 pl-10 pr-4 text-lg transition focus:border-brand-600"
                 value={answers.monthly_household_income ?? ""}
                 onChange={(e) =>
                   setAnswers((a) => ({
@@ -273,7 +271,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
                   inputMode="numeric"
                   min={0}
                   max={100}
-                  className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg"
+                  className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg transition focus:border-brand-600"
                   value={answers.disability_percent ?? ""}
                   onChange={(e) =>
                     setAnswers((a) => ({
@@ -297,7 +295,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
               <select
                 id="district"
                 name="district"
-                className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
                 value={answers.district ?? ""}
                 onChange={(e) =>
                   setAnswers((a) => ({
@@ -408,18 +406,14 @@ export default function Wizard({ lang, onSubmit }: Props) {
 
   if (step === 0) {
     return (
-      <div className="space-y-6">
-        <div className="rounded-2xl bg-brand-50 p-5">
+      <div className="space-y-6 animate-pop-in">
+        <div className="wizard-card bg-gradient-to-br from-brand-50 via-white to-brand-100/60">
           <h2 className="text-2xl font-bold text-brand-900">{t(lang, "welcomeTitle")}</h2>
           <p className="mt-3 text-base leading-relaxed text-brand-900">
             {t(lang, "welcomeBody")}
           </p>
         </div>
-        <button
-          type="button"
-          onClick={goNext}
-          className="min-h-tap w-full rounded-xl bg-brand-700 px-4 py-3 text-lg font-bold text-white"
-        >
+        <button type="button" onClick={goNext} className="primary-btn w-full text-lg">
           {t(lang, "start")}
         </button>
       </div>
@@ -427,9 +421,9 @@ export default function Wizard({ lang, onSubmit }: Props) {
   }
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-5 animate-pop-in">
       <ProgressBar lang={lang} step={step} />
-      {field}
+      <div className="wizard-card">{field}</div>
       {error ? (
         <p className="rounded-lg bg-red-50 px-3 py-2 text-sm font-medium text-red-800" role="alert">
           {error}
@@ -439,14 +433,14 @@ export default function Wizard({ lang, onSubmit }: Props) {
         <button
           type="button"
           onClick={goBack}
-          className="min-h-tap flex-1 rounded-xl border-2 border-slate-300 px-4 py-3 text-base font-bold text-slate-800"
+          className="min-h-tap flex-1 rounded-xl border-2 border-slate-300 px-4 py-3 text-base font-bold text-slate-800 transition active:scale-95"
         >
           {t(lang, "back")}
         </button>
         <button
           type="button"
           onClick={goNext}
-          className="min-h-tap flex-[2] rounded-xl bg-brand-700 px-4 py-3 text-base font-bold text-white"
+          className="primary-btn flex-[2] text-base"
         >
           {step >= TOTAL_STEPS ? t(lang, "submit") : t(lang, "next")}
         </button>

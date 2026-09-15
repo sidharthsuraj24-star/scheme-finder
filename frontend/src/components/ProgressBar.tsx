@@ -17,9 +17,9 @@ export default function ProgressBar({ lang, step }: Props) {
         <span>{t(lang, "progress", { current: step, total: TOTAL_STEPS })}</span>
         <span>{pct}%</span>
       </div>
-      <div className="h-3 w-full overflow-hidden rounded-full bg-brand-100">
+      <div className="h-3 w-full overflow-hidden rounded-full bg-brand-100 shadow-inner">
         <div
-          className="h-full rounded-full bg-brand-600 transition-all duration-300"
+          className="h-full rounded-full bg-gradient-to-r from-brand-500 to-brand-700 transition-[width] duration-500 ease-out"
           style={{ width: `${pct}%` }}
           role="progressbar"
           aria-valuenow={pct}

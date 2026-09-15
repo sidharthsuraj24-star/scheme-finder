@@ -13,7 +13,9 @@ body {
 }
 
 body {
-  background: #f8fafc;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% -20%, #dcfce7 0%, transparent 55%),
+    linear-gradient(180deg, #f0fdf4 0%, #f8fafc 45%, #f1f5f9 100%);
   color: #0f172a;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,4 +32,145 @@ a,
 input,
 select {
   touch-action: manipulation;
+}
+
+/* Soft card surface used by wizard steps */
+@layer components {
+  .wizard-card {
+    @apply rounded-2xl border border-slate-200/80 bg-white/90 p-5 shadow-md backdrop-blur-sm;
+  }
+
+  .choice-btn {
+    @apply min-h-tap w-full rounded-xl border-2 px-4 py-3 text-left text-base font-semibold;
+    transition:
+      transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
+      background-color 0.15s ease,
+      border-color 0.15s ease,
+      color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  .choice-btn:active {
+    transform: scale(0.95);
+  }
+
+  .choice-btn--idle {
+    @apply border-slate-200 bg-white text-slate-800 hover:border-brand-500;
+  }
+
+  .choice-btn--active {
+    @apply scale-[1.02] border-brand-700 bg-brand-100 text-brand-900 shadow-sm;
+  }
+
+  .primary-btn {
+    @apply min-h-tap rounded-xl bg-brand-700 px-4 py-3 font-bold text-white shadow-sm;
+    transition:
+      transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1),
+      background-color 0.15s ease,
+      box-shadow 0.15s ease;
+  }
+
+  .primary-btn:active {
+    transform: scale(0.97);
+  }
+
+  .primary-btn:hover {
+    @apply bg-brand-800;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(6px);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(1.03) translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes stage-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.22);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes number-fade {
+  0% {
+    opacity: 0.55;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes click-pop {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 0.45s cubic-bezier(0.34, 1.4, 0.64, 1) both;
+}
+
+.animate-stage-pop {
+  animation: stage-pop 0.32s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.animate-number-fade {
+  animation: number-fade 0.2s ease-out both;
+}
+
+.scheme-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.scheme-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 20px -6px rgb(15 23 42 / 0.12),
+    0 2px 6px -2px rgb(15 23 42 / 0.06);
+  border-color: #bbf7d0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pop-in,
+  .animate-stage-pop,
+  .animate-number-fade {
+    animation: none !important;
+  }
+
+  .choice-btn,
+  .primary-btn,
+  .scheme-card {
+    transition: none !important;
+  }
+
+  .choice-btn:active,
+  .primary-btn:active,
+  .choice-btn--active,
+  .scheme-card:hover {
+    transform: none !important;
+  }
 }

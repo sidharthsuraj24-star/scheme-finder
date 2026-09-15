@@ -103,6 +103,12 @@ const en: Dict = {
   welcomeBody:
     "Answer a few simple questions. We will suggest government schemes that may help you.",
   start: "Start",
+  stage_baby: "Baby",
+  stage_child: "Child",
+  stage_teen: "Teen",
+  stage_young_adult: "Young adult",
+  stage_adult: "Adult",
+  stage_senior: "Senior",
 };
 
 const ml: Dict = {
@@ -206,6 +212,12 @@ const ml: Dict = {
   welcomeBody:
     "കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. നിങ്ങൾക്ക് സഹായകമായേക്കാവുന്ന സർക്കാർ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
   start: "തുടങ്ങുക",
+  stage_baby: "കുഞ്ഞ്",
+  stage_child: "കുട്ടി",
+  stage_teen: "കൗമാരം",
+  stage_young_adult: "യുവാവ്",
+  stage_adult: "മുതിർന്നവർ",
+  stage_senior: "മുതിർന്ന പൗരർ",
 };
 
 const TABLES: Record<Lang, Dict> = { en, ml };

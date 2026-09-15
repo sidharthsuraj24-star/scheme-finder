@@ -31,7 +31,7 @@ export default function SchemeCard({ lang, scheme }: Props) {
       : { label: t(lang, "likelyBadge"), cls: "bg-brand-100 text-brand-900 border-brand-300" };
 
   return (
-    <article className="rounded-2xl border border-slate-200 bg-white shadow-sm">
+    <article className="scheme-card rounded-2xl border border-slate-200 bg-white shadow-sm">
       <button
         type="button"
         className="flex w-full items-start gap-3 p-4 text-left min-h-tap"
