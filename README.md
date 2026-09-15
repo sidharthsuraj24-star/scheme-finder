@@ -1,6 +1,6 @@
 # Scheme Finder
 
-Bilingual (EN/ML) mobile-first Kerala/India welfare scheme wizard. Deterministic rules only.
+Bilingual (EN/ML) mobile-first India welfare scheme wizard (central + curated multi-state). Deterministic rules only.
 
 Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
@@ -8,7 +8,7 @@ Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
 - Frontend: Next.js 15, React 19, Tailwind
 - Backend: FastAPI, Pydantic v2, Uvicorn
-- Data: data/schemes.json (18 schemes, in-memory; optional SQLite)
+- Data: data/schemes.json (28 curated schemes — multi-state + central; in-memory; optional SQLite)
 - Tests: pytest
 
 ## Run locally

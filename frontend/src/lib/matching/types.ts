@@ -93,6 +93,7 @@ export interface MatchResponse {
   message: string | null;
   count: number;
   district?: string | null;
+  state?: string | null;
   catalogue?: {
     updated_as_of: string;
     updated_as_of_iso?: string;

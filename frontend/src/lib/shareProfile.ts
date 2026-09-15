@@ -1,16 +1,20 @@
 import {
   CATEGORIES,
+  DISTRICT_FREE_TEXT_MAX,
   GENDERS,
   KERALA_DISTRICTS,
   MARITAL_STATUSES,
   OCCUPATIONS,
 } from "./constants";
+import { DEFAULT_STATE, isKnownIndiaRegion } from "./indiaRegions";
 import type { Lang, ProfileAnswers } from "./types";
 
-/** Compact v1 payload stored in ?p= (base64url JSON). */
+/** Compact v1 payload stored in ?p= (base64url JSON). `st` added for multi-state. */
 export interface SharePayloadV1 {
   v: 1;
   l: Lang;
+  /** State / UT English name; omit → Kerala (backward compat). */
+  st?: string;
   a: number;
   i: number;
   o: string;
@@ -68,10 +72,18 @@ function isNumInRange(n: unknown, min: number, max: number): n is number {
   return typeof n === "number" && Number.isFinite(n) && n >= min && n <= max;
 }
 
+function validDistrict(state: string, district: string): boolean {
+  const d = district.trim();
+  if (!d || d.length > DISTRICT_FREE_TEXT_MAX) return false;
+  if (state === "Kerala") return DIST_SET.has(d);
+  return true;
+}
+
 export function answersToSharePayload(
   answers: ProfileAnswers,
   lang: Lang,
 ): SharePayloadV1 | null {
+  const state = answers.state || DEFAULT_STATE;
   if (
     answers.age == null ||
     answers.monthly_household_income == null ||
@@ -87,11 +99,14 @@ export function answersToSharePayload(
   ) {
     return null;
   }
+  if (!isKnownIndiaRegion(state)) return null;
+  if (!validDistrict(state, answers.district)) return null;
   if (answers.gender === "female" && answers.maternity == null) return null;
 
   return {
     v: 1,
     l: lang === "ml" ? "ml" : "en",
+    st: state,
     a: Math.min(120, Math.max(0, Math.floor(answers.age))),
     i: Math.min(10_000_000, Math.max(0, Math.floor(answers.monthly_household_income))),
     o: answers.occupation,
@@ -102,7 +117,7 @@ export function answersToSharePayload(
       answers.disability === "yes" && answers.disability_percent != null
         ? Math.min(100, Math.max(0, Math.floor(answers.disability_percent)))
         : null,
-    di: answers.district,
+    di: answers.district.trim(),
     g: answers.gender,
     m: answers.marital_status,
     mat: answers.gender === "female" ? answers.maternity : null,
@@ -112,6 +127,7 @@ export function answersToSharePayload(
 
 export function sharePayloadToAnswers(p: SharePayloadV1): ProfileAnswers {
   return {
+    state: p.st || DEFAULT_STATE,
     age: p.a,
     monthly_household_income: p.i,
     occupation: p.o,
@@ -132,6 +148,12 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
   const o = raw as Record<string, unknown>;
   if (o.v !== 1) return null;
   if (o.l !== "en" && o.l !== "ml") return null;
+  // Backward compat: missing st → Kerala
+  let st = DEFAULT_STATE;
+  if (o.st != null) {
+    if (typeof o.st !== "string" || !isKnownIndiaRegion(o.st)) return null;
+    st = o.st.trim();
+  }
   if (!isIntInRange(o.a, 0, 120)) return null;
   if (!isNumInRange(o.i, 0, 10_000_000)) return null;
   if (typeof o.o !== "string" || !OCC_SET.has(o.o)) return null;
@@ -146,7 +168,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
     if (!isIntInRange(o.dp, 0, 100)) return null;
     dp = o.dp;
   }
-  if (typeof o.di !== "string" || !DIST_SET.has(o.di)) return null;
+  if (typeof o.di !== "string" || !validDistrict(st, o.di)) return null;
   if (typeof o.g !== "string" || !GEN_SET.has(o.g)) return null;
   if (typeof o.m !== "string" || !MAR_SET.has(o.m)) return null;
   let mat: SharePayloadV1["mat"] = null;
@@ -161,6 +183,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
   return {
     v: 1,
     l: o.l,
+    st,
     a: o.a,
     i: Math.floor(o.i),
     o: o.o,
@@ -168,7 +191,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
     lo: o.lo,
     d: o.d,
     dp: o.d === "yes" ? dp : null,
-    di: o.di,
+    di: o.di.trim(),
     g: o.g,
     m: o.m,
     mat,

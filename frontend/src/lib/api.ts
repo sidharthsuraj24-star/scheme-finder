@@ -80,7 +80,7 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
     profile: {
       age,
       gender: answers.gender || undefined,
-      state: "Kerala",
+      state: answers.state || "Kerala",
       district: answers.district || undefined,
       marital_status: answers.marital_status || undefined,
       monthly_household_income: monthly,

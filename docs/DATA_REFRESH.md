@@ -2,7 +2,7 @@
 
 **Stamp:** `updated_as_of` = **2026-09-08** (see `data/catalogue_meta.json`).  
 **Stale after:** `stale_after_days` = **30** (UI shows an amber warning when today − updated_as_of > 30).  
-**Scope:** Curated **central + Kerala** schemes only — **not** a complete all-India catalogue (currently 18 schemes).  
+**Scope:** Curated **multi-state + central** schemes — **not** a complete all-India catalogue (currently 28 schemes; Kerala fully curated, starter sets for TN/KA/MH/WB/UP).  
 **Disclaimer (also in meta):** Confirm with the official source before applying.
 
 ## Why we do not fully auto-scrape “all India”
@@ -38,7 +38,7 @@ Therefore this repo **never** treats scraped text as authoritative eligibility w
 ## Monthly human steps (recommended full pass)
 
 1. **Fetch changelogs / listings** (read-only):
-   - [MyScheme](https://www.myscheme.gov.in/) search / scheme pages relevant to Kerala + central schemes already in the seed.
+   - [MyScheme](https://www.myscheme.gov.in/) search / scheme pages relevant to curated states + central schemes already in the seed.
    - Kerala Sevana / LSGD welfare pension FAQs: https://welfarepension.lsgkerala.gov.in/FAQsEng.aspx
    - Scheme-specific official URLs already stored in `data/schemes.json` → `official_source_url`.
 2. **Diff** against `data/schemes.json` (benefit text, age/income caps, apply URLs only when the official page clearly states them).

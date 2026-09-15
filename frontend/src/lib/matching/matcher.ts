@@ -124,16 +124,27 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
   const result = new RuleResult();
 
-  // --- states ---
+  // --- states / nationwide ---
+  // Nationwide if: nationwide flag, empty states, or states include India / All India.
+  // Profile state is required for a clean match; missing → uncertain (miss).
   const schemeStates = (rules.states as string[] | undefined) || [];
-  if (schemeStates.length) {
-    const profileState = (profile.state || "Kerala").trim();
-    const allowed = new Set(schemeStates.map(norm));
-    if (allowed.has(norm(profileState)) || allowed.has("india")) {
-      result.ok("states");
-    } else {
-      result.fail("states");
-    }
+  const nationwideFlag =
+    Boolean(rules.nationwide) || Boolean((scheme as { nationwide?: boolean }).nationwide);
+  const allowed = new Set(schemeStates.map(norm));
+  const isNationwide =
+    nationwideFlag ||
+    schemeStates.length === 0 ||
+    allowed.has("india") ||
+    allowed.has("all_india");
+  const profileState = (profile.state || "").trim();
+  if (!profileState) {
+    result.miss("state");
+  } else if (isNationwide) {
+    result.ok("states");
+  } else if (allowed.has(norm(profileState))) {
+    result.ok("states");
+  } else {
+    result.fail("states");
   }
 
   // --- age ---
@@ -515,6 +526,7 @@ export function matchSchemes(
     message,
     count: truncated.length,
     district: profile.district ?? null,
+    state: profile.state || null,
     catalogue: freshness.catalogue,
     is_stale: freshness.is_stale,
   };

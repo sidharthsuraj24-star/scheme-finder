@@ -277,5 +277,102 @@
     "primary_breadwinner_deceased": true,
     "deceased_breadwinner_age": 42,
     "notes": "Should match NFBS + widow pension"
+  },
+  {
+    "id": "profile-tn-girl-student",
+    "label": "Tamil Nadu girl student (Pudhumai Penn path)",
+    "age": 19,
+    "gender": "female",
+    "state": "Tamil Nadu",
+    "district": "Chennai",
+    "marital_status": "unmarried",
+    "annual_income": 90000,
+    "monthly_household_income": 7500,
+    "occupations": [
+      "student"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": true,
+    "is_pregnant": false,
+    "notes": "TN student should match tn-pudhumai-penn (uncertain/verify); must NOT match Kerala Sevana pensions"
+  },
+  {
+    "id": "profile-ka-woman-head",
+    "label": "Karnataka woman (Gruha Lakshmi path)",
+    "age": 35,
+    "gender": "female",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "marital_status": "married",
+    "annual_income": 120000,
+    "monthly_household_income": 10000,
+    "occupations": [
+      "other"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Should match ka-gruha-lakshmi (verify); not Kerala Sevana"
+  },
+  {
+    "id": "profile-mh-woman-ladki",
+    "label": "Maharashtra woman (Ladki Bahin path)",
+    "age": 30,
+    "gender": "female",
+    "state": "Maharashtra",
+    "district": "Pune",
+    "marital_status": "married",
+    "annual_income": 180000,
+    "monthly_household_income": 15000,
+    "occupations": [
+      "other"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": false,
+    "notes": "Should match mh-ladki-bahin; not Kerala Sevana"
+  },
+  {
+    "id": "profile-wb-kanyashree-girl",
+    "label": "West Bengal adolescent girl student",
+    "age": 16,
+    "gender": "female",
+    "state": "West Bengal",
+    "district": "Kolkata",
+    "marital_status": "unmarried",
+    "annual_income": 80000,
+    "monthly_household_income": 6500,
+    "occupations": [
+      "student"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "none",
+    "is_student": true,
+    "notes": "Should match wb-kanyashree; not Kerala Sevana"
+  },
+  {
+    "id": "profile-up-farmer-pmkisan",
+    "label": "UP farmer with land (All-India PM-KISAN)",
+    "age": 42,
+    "gender": "male",
+    "state": "Uttar Pradesh",
+    "district": "Lucknow",
+    "marital_status": "married",
+    "annual_income": 150000,
+    "monthly_household_income": 12000,
+    "occupations": [
+      "farmer",
+      "landholding_farmer"
+    ],
+    "categories": [],
+    "disability_percent": null,
+    "land_ownership": "cultivable_own",
+    "is_student": false,
+    "notes": "Nationwide PM-KISAN should match; Kerala Sevana should not"
   }
 ]

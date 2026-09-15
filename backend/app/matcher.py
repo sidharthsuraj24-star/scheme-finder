@@ -151,16 +151,27 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
     rules = scheme.get("eligibility_rules") or {}
     result = RuleResult()
 
-    # --- states ---
+    # --- states / nationwide ---
+    # Nationwide if: nationwide flag, empty states, or states include India / All India.
+    # Profile state is required for a clean match; missing → uncertain (miss).
     scheme_states = rules.get("states") or []
-    if scheme_states:
-        profile_state = (profile.state or "Kerala").strip()
-        # "India" means national scheme open to all states in seed data.
-        allowed = {_norm(s) for s in scheme_states}
-        if _norm(profile_state) in allowed or "india" in allowed:
-            result.ok("states")
-        else:
-            result.fail("states")
+    nationwide_flag = bool(rules.get("nationwide") or scheme.get("nationwide"))
+    allowed = {_norm(s) for s in scheme_states}
+    is_nationwide = (
+        nationwide_flag
+        or not scheme_states
+        or "india" in allowed
+        or "all_india" in allowed
+    )
+    profile_state = (profile.state or "").strip()
+    if not profile_state:
+        result.miss("state")
+    elif is_nationwide:
+        result.ok("states")
+    elif _norm(profile_state) in allowed:
+        result.ok("states")
+    else:
+        result.fail("states")
 
     # --- age ---
     min_age = rules.get("min_age")
@@ -554,6 +565,7 @@ def match_schemes(
         message=message,
         count=len(matched),
         district=profile.district,
+        state=profile.state or None,
         catalogue=freshness["catalogue"],
         is_stale=freshness["is_stale"],
     )

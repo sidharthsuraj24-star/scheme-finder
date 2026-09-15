@@ -4,7 +4,7 @@ type Dict = Record<string, string>;
 
 const en: Dict = {
   appTitle: "Scheme Finder",
-  appSubtitle: "Find Kerala welfare schemes you may be eligible for",
+  appSubtitle: "Find India welfare schemes you may be eligible for",
   langEn: "English",
   langMl: "മലയാളം",
   progress: "Step {current} of {total}",
@@ -19,7 +19,7 @@ const en: Dict = {
   shareCopyLink: "Copy link",
   shareCopied: "Link copied",
   shareWhatsApp: "Share on WhatsApp",
-  shareMessage: "I found Kerala welfare schemes that may fit me on Scheme Finder:",
+  shareMessage: "I found India welfare schemes that may fit me on Scheme Finder:",
   shareCopyFailed: "Could not copy — copy the address bar link instead",
 
   zeroTitle: "No matching schemes right now",
@@ -42,7 +42,7 @@ const en: Dict = {
   dataStaleBanner:
     "Scheme data may be outdated (last updated {date}). Always confirm on the official site before applying.",
   dataFreshBanner:
-    "Scheme data updated as of {date} · Curated central + Kerala set (not every scheme in India). Confirm eligibility on the official source before you apply.",
+    "Scheme data updated as of {date} · Curated multi-state + central set (not every scheme in India). Confirm eligibility on the official source before you apply.",
   resultsFooterDisclaimer:
     "This tool does not guarantee eligibility. Always confirm on the official source and with your local body before applying. Needs-verification matches are uncertain — never treat them as approved.",
 
@@ -63,6 +63,11 @@ const en: Dict = {
   qDisabilityPercent: "Disability percentage (if known)",
   qDisabilityPercentHint: "Optional — leave blank if unsure",
   qDistrict: "Which district do you live in?",
+  qDistrictFreeHint: "Type your district name (free text for states other than Kerala).",
+  qDistrictPlaceholder: "District name",
+  qState: "Which state or UT do you live in?",
+  qStateHint: "Central schemes apply nationwide; state schemes appear for your selection.",
+  resultsState: "State",
   qGender: "Gender",
   qMarital: "Marital status",
   yes: "Yes",
@@ -97,11 +102,11 @@ const en: Dict = {
   qBreadwinner: "Has the main earning member of your household died?",
   qBreadwinnerHint: "Used for bereavement schemes such as NFBS",
   dataUpdated:
-    "Scheme data updated as of 8 Sep 2026 · Curated central + Kerala set (not every scheme in India)",
-  dataUpdatedShort: "Scheme data updated as of 8 Sep 2026",
+    "Scheme data updated as of 15 Sep 2026 · Curated multi-state + central set (not every scheme in India)",
+  dataUpdatedShort: "Scheme data updated as of 15 Sep 2026",
   welcomeTitle: "Welcome",
   welcomeBody:
-    "Answer a few simple questions. We will suggest government schemes that may help you.",
+    "Pick your state, then answer a few simple questions. We suggest central and curated state welfare schemes that may help you.",
   start: "Start",
   stage_baby: "Baby",
   stage_child: "Child",
@@ -113,7 +118,7 @@ const en: Dict = {
 
 const ml: Dict = {
   appTitle: "പദ്ധതി കണ്ടെത്തൽ",
-  appSubtitle: "നിങ്ങൾക്ക് യോഗ്യമായേക്കാവുന്ന കേരള ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തുക",
+  appSubtitle: "നിങ്ങൾക്ക് യോഗ്യമായേക്കാവുന്ന ഇന്ത്യൻ ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തുക",
   langEn: "English",
   langMl: "മലയാളം",
   progress: "ഘട്ടം {current} / {total}",
@@ -128,7 +133,7 @@ const ml: Dict = {
   shareCopyLink: "ലിങ്ക് പകർത്തുക",
   shareCopied: "ലിങ്ക് പകർത്തി",
   shareWhatsApp: "വാട്ട്‌സ്ആപ്പിൽ പങ്കിടുക",
-  shareMessage: "സ്കീം ഫൈൻഡറിൽ എനിക്ക് യോജിച്ചേക്കാവുന്ന കേരള ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തി:",
+  shareMessage: "സ്കീം ഫൈൻഡറിൽ എനിക്ക് യോജിച്ചേക്കാവുന്ന ഇന്ത്യൻ ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തി:",
   shareCopyFailed: "പകർത്താനായില്ല — അഡ്രസ് ബാറിലെ ലിങ്ക് പകർത്തുക",
 
   zeroTitle: "ഇപ്പോൾ യോജിക്കുന്ന പദ്ധതികളില്ല",
@@ -151,7 +156,7 @@ const ml: Dict = {
   dataStaleBanner:
     "പദ്ധതി വിവരങ്ങൾ കാലഹരണപ്പെട്ടിരിക്കാം (അവസാനം പുതുക്കിയത് {date}). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക സൈറ്റിൽ എല്ലായ്പ്പോഴും ഉറപ്പാക്കുക.",
   dataFreshBanner:
-    "പദ്ധതി വിവരങ്ങൾ {date} വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത കേന്ദ്ര + കേരള പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത ഉറപ്പാക്കുക.",
+    "പദ്ധതി വിവരങ്ങൾ {date} വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത ബഹു-സംസ്ഥാന + കേന്ദ്ര പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത ഉറപ്പാക്കുക.",
   resultsFooterDisclaimer:
     "ഈ ഉപകരണം യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിലും തദ്ദേശ സ്ഥാപനത്തിലും ഉറപ്പാക്കുക. «സ്ഥിരീകരണം വേണം» എന്ന പൊരുത്തങ്ങൾ അനിശ്ചിതമാണ് — അംഗീകരിച്ചതായി കരുതരുത്.",
 
@@ -172,6 +177,11 @@ const ml: Dict = {
   qDisabilityPercent: "വൈകല്യ ശതമാനം (അറിയാമെങ്കിൽ)",
   qDisabilityPercentHint: "ഓപ്ഷണൽ — അറിയില്ലെങ്കിൽ ശൂന്യമാക്കി വയ്ക്കുക",
   qDistrict: "ജില്ല ഏതാണ്?",
+  qDistrictFreeHint: "ജില്ലയുടെ പേര് ടൈപ്പ് ചെയ്യുക (കേരളം ഒഴികെയുള്ള സംസ്ഥാനങ്ങൾക്ക്).",
+  qDistrictPlaceholder: "ജില്ലയുടെ പേര്",
+  qState: "നിങ്ങൾ താമസിക്കുന്ന സംസ്ഥാനം / കേന്ദ്രഭരണ പ്രദേശം ഏത്?",
+  qStateHint: "കേന്ദ്ര പദ്ധതികൾ രാജ്യവ്യാപകം; സംസ്ഥാന പദ്ധതികൾ നിങ്ങളുടെ തിരഞ്ഞെടുപ്പിന് അനുസരിച്ച്.",
+  resultsState: "സംസ്ഥാനം",
   qGender: "ലിംഗം",
   qMarital: "വൈവാഹിക നില",
   yes: "ഉണ്ട്",
@@ -206,11 +216,11 @@ const ml: Dict = {
   qBreadwinner: "കുടുംബത്തിലെ പ്രധാന വരുമാനദാതാവ് മരിച്ചിട്ടുണ്ടോ?",
   qBreadwinnerHint: "NFBS പോലുള്ള പദ്ധതികൾക്ക്",
   dataUpdated:
-    "പദ്ധതി വിവരങ്ങൾ 8 സെപ് 2026 വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത കേന്ദ്ര + കേരള പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല)",
-  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 8 സെപ് 2026 വരെ പുതുക്കിയത്",
+    "പദ്ധതി വിവരങ്ങൾ 15 സെപ് 2026 വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത ബഹു-സംസ്ഥാന + കേന്ദ്ര പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല)",
+  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 15 സെപ് 2026 വരെ പുതുക്കിയത്",
   welcomeTitle: "സ്വാഗതം",
   welcomeBody:
-    "കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. നിങ്ങൾക്ക് സഹായകമായേക്കാവുന്ന സർക്കാർ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
+    "സംസ്ഥാനം തിരഞ്ഞെടുക്കുക, പിന്നെ കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. കേന്ദ്ര–സംസ്ഥാന ക്ഷേമ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
   start: "തുടങ്ങുക",
   stage_baby: "കുഞ്ഞ്",
   stage_child: "കുട്ടി",

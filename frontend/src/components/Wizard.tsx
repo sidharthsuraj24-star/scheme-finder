@@ -3,18 +3,21 @@
 import { useMemo, useState } from "react";
 import {
   CATEGORIES,
+  DISTRICT_FREE_TEXT_MAX,
   GENDERS,
   KERALA_DISTRICTS,
   MARITAL_STATUSES,
   OCCUPATIONS,
   TOTAL_STEPS,
 } from "@/lib/constants";
+import { DEFAULT_STATE, INDIA_REGIONS } from "@/lib/indiaRegions";
 import { t } from "@/lib/i18n";
 import type { Lang, ProfileAnswers } from "@/lib/types";
 import AgeLifeStage from "./AgeLifeStage";
 import ProgressBar from "./ProgressBar";
 
 const emptyAnswers = (): ProfileAnswers => ({
+  state: null,
   age: null,
   monthly_household_income: null,
   occupation: null,
@@ -39,29 +42,43 @@ export default function Wizard({ lang, onSubmit }: Props) {
   const [answers, setAnswers] = useState<ProfileAnswers>(emptyAnswers);
   const [error, setError] = useState<string | null>(null);
 
+  const isKerala = answers.state === "Kerala";
+
   const choiceBtn = (active: boolean) =>
     `choice-btn ${active ? "choice-btn--active" : "choice-btn--idle"}`;
+
+  const validateDistrict = (): boolean => {
+    const d = (answers.district || "").trim();
+    if (!d) return false;
+    if (d.length > DISTRICT_FREE_TEXT_MAX) return false;
+    if (isKerala) {
+      return (KERALA_DISTRICTS as readonly string[]).includes(d);
+    }
+    return true;
+  };
 
   const validate = (s: number): boolean => {
     switch (s) {
       case 1:
-        return answers.age != null && answers.age >= 0 && answers.age <= 120;
+        return !!answers.state;
       case 2:
+        return answers.age != null && answers.age >= 0 && answers.age <= 120;
+      case 3:
         return (
           answers.monthly_household_income != null &&
           answers.monthly_household_income >= 0 &&
           answers.monthly_household_income <= 10_000_000
         );
-      case 3:
-        return !!answers.occupation;
       case 4:
-        return answers.categories.length > 0;
+        return !!answers.occupation;
       case 5:
-        return answers.land_ownership === "yes" || answers.land_ownership === "no";
+        return answers.categories.length > 0;
       case 6:
+        return answers.land_ownership === "yes" || answers.land_ownership === "no";
+      case 7:
         return answers.disability === "yes" || answers.disability === "no";
-      case 7: {
-        const base = !!(answers.district && answers.gender && answers.marital_status);
+      case 8: {
+        const base = validateDistrict() && !!(answers.gender && answers.marital_status);
         const maternityOk =
           answers.gender !== "female" || answers.maternity != null;
         const breadwinnerOk = answers.primary_breadwinner_deceased != null;
@@ -84,7 +101,11 @@ export default function Wizard({ lang, onSubmit }: Props) {
     }
     setError(null);
     if (step >= TOTAL_STEPS) {
-      onSubmit(answers);
+      onSubmit({
+        ...answers,
+        district: answers.district ? answers.district.trim() : null,
+        state: answers.state || DEFAULT_STATE,
+      });
       return;
     }
     setStep((s) => s + 1);
@@ -109,9 +130,56 @@ export default function Wizard({ lang, onSubmit }: Props) {
     });
   };
 
+  const setState = (name: string) => {
+    setAnswers((a) => ({
+      ...a,
+      state: name,
+      // Clear district when leaving Kerala select list / entering free-text
+      district: a.state === name ? a.district : null,
+    }));
+  };
+
   const field = useMemo(() => {
     switch (step) {
       case 1:
+        return (
+          <div className="space-y-3">
+            <label htmlFor="state" className="block text-xl font-bold text-slate-900">
+              {t(lang, "qState")}
+            </label>
+            <p className="text-sm text-slate-600">{t(lang, "qStateHint")}</p>
+            <select
+              id="state"
+              name="state"
+              className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
+              value={answers.state ?? ""}
+              onChange={(e) => {
+                const v = e.target.value;
+                if (v) setState(v);
+                else setAnswers((a) => ({ ...a, state: null, district: null }));
+              }}
+            >
+              <option value="">—</option>
+              <optgroup label={lang === "ml" ? "സംസ്ഥാനങ്ങൾ" : "States"}>
+                {INDIA_REGIONS.filter((r) => r.kind === "state").map((r) => (
+                  <option key={r.name} value={r.name}>
+                    {r.short && lang === "ml" && r.name === "Kerala"
+                      ? `${r.name} (${r.short})`
+                      : r.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label={lang === "ml" ? "കേന്ദ്രഭരണ പ്രദേശങ്ങൾ" : "Union Territories"}>
+                {INDIA_REGIONS.filter((r) => r.kind === "ut").map((r) => (
+                  <option key={r.name} value={r.name}>
+                    {r.short ? `${r.name} (${r.short})` : r.name}
+                  </option>
+                ))}
+              </optgroup>
+            </select>
+          </div>
+        );
+      case 2:
         return (
           <div className="space-y-3">
             <label htmlFor="age" className="block text-xl font-bold text-slate-900">
@@ -137,7 +205,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             <AgeLifeStage age={answers.age} lang={lang} />
           </div>
         );
-      case 2:
+      case 3:
         return (
           <div className="space-y-3">
             <label htmlFor="income" className="block text-xl font-bold text-slate-900">
@@ -167,7 +235,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </div>
         );
-      case 3:
+      case 4:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qOccupation")}</legend>
@@ -186,7 +254,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 4:
+      case 5:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qCategory")}</legend>
@@ -206,7 +274,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 5:
+      case 6:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qLand")}</legend>
@@ -230,7 +298,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 6:
+      case 7:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qDisability")}</legend>
@@ -285,32 +353,54 @@ export default function Wizard({ lang, onSubmit }: Props) {
             ) : null}
           </fieldset>
         );
-      case 7:
+      case 8:
         return (
           <div className="space-y-6">
             <div className="space-y-2">
               <label htmlFor="district" className="block text-xl font-bold text-slate-900">
                 {t(lang, "qDistrict")}
               </label>
-              <select
-                id="district"
-                name="district"
-                className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
-                value={answers.district ?? ""}
-                onChange={(e) =>
-                  setAnswers((a) => ({
-                    ...a,
-                    district: e.target.value || null,
-                  }))
-                }
-              >
-                <option value="">—</option>
-                {KERALA_DISTRICTS.map((d) => (
-                  <option key={d} value={d}>
-                    {d}
-                  </option>
-                ))}
-              </select>
+              {isKerala ? (
+                <select
+                  id="district"
+                  name="district"
+                  className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
+                  value={answers.district ?? ""}
+                  onChange={(e) =>
+                    setAnswers((a) => ({
+                      ...a,
+                      district: e.target.value || null,
+                    }))
+                  }
+                >
+                  <option value="">—</option>
+                  {KERALA_DISTRICTS.map((d) => (
+                    <option key={d} value={d}>
+                      {d}
+                    </option>
+                  ))}
+                </select>
+              ) : (
+                <>
+                  <p className="text-sm text-slate-600">{t(lang, "qDistrictFreeHint")}</p>
+                  <input
+                    id="district"
+                    name="district"
+                    type="text"
+                    maxLength={DISTRICT_FREE_TEXT_MAX}
+                    autoComplete="address-level2"
+                    placeholder={t(lang, "qDistrictPlaceholder")}
+                    className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg transition focus:border-brand-600"
+                    value={answers.district ?? ""}
+                    onChange={(e) =>
+                      setAnswers((a) => ({
+                        ...a,
+                        district: e.target.value === "" ? null : e.target.value,
+                      }))
+                    }
+                  />
+                </>
+              )}
             </div>
 
             <fieldset className="space-y-2">
@@ -402,7 +492,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
       default:
         return null;
     }
-  }, [step, answers, lang]);
+  }, [step, answers, lang, isKerala]);
 
   if (step === 0) {
     return (
@@ -437,11 +527,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
         >
           {t(lang, "back")}
         </button>
-        <button
-          type="button"
-          onClick={goNext}
-          className="primary-btn flex-[2] text-base"
-        >
+        <button type="button" onClick={goNext} className="primary-btn flex-[2] text-base">
           {step >= TOTAL_STEPS ? t(lang, "submit") : t(lang, "next")}
         </button>
       </div>

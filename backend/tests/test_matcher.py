@@ -595,3 +595,81 @@ def test_district_filter_when_scheme_lists_districts(schemes):
     assert not evaluate_scheme(scheme, ok).hard_fail
     assert "districts" in evaluate_scheme(scheme, ok).matched
     assert evaluate_scheme(scheme, bad).hard_fail
+
+
+# ---------------------------------------------------------------------------
+# Multi-state / nationwide matching
+# ---------------------------------------------------------------------------
+
+
+def test_tn_user_does_not_get_kerala_sevana(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-tn-girl-student"])
+    resp = match_schemes(schemes, profile)
+    sevana = {
+        "kerala-old-age-pension",
+        "kerala-widow-pension",
+        "kerala-disability-pension-physical",
+        "kerala-disability-pension-mental",
+        "kerala-unmarried-women-pension",
+        "kerala-agri-labour-pension",
+    }
+    assert _matched_ids(resp) & sevana == set()
+    assert any(e.scheme_id == "kerala-old-age-pension" for e in resp.excluded)
+    assert "tn-pudhumai-penn" in _matched_ids(resp)
+
+
+def test_kerala_user_still_gets_sevana_old_age(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    resp = match_schemes(schemes, profile)
+    assert "kerala-old-age-pension" in _matched_ids(resp)
+
+
+def test_all_india_pm_kisan_matches_up_farmer_with_land(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-up-farmer-pmkisan"])
+    resp = match_schemes(schemes, profile)
+    assert "pm-kisan" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "pm-kisan")
+    assert "states" in hit.matched_rules
+    assert "land_ownership" in hit.matched_rules
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+
+
+def test_nationwide_flag_matches_any_state(schemes):
+    pm = next(s for s in schemes if s["id"] == "pm-kisan")
+    rules = pm.get("eligibility_rules") or {}
+    assert rules.get("nationwide") is True
+    assert "All India" in (rules.get("states") or [])
+    for state in ("Tamil Nadu", "Karnataka", "Maharashtra", "West Bengal", "Delhi", "Ladakh"):
+        profile = MatchProfile(
+            age=40,
+            gender="male",
+            state=state,
+            occupations=["farmer", "landholding_farmer"],
+            land_ownership="cultivable_own",
+        )
+        result = evaluate_scheme(pm, profile)
+        assert not result.hard_fail, state
+        assert "states" in result.matched
+
+
+def test_state_specific_scheme_rejects_other_state(schemes):
+    scheme = next(s for s in schemes if s["id"] == "ka-gruha-lakshmi")
+    ok = MatchProfile(age=35, gender="female", state="Karnataka")
+    bad = MatchProfile(age=35, gender="female", state="Kerala")
+    assert not evaluate_scheme(scheme, ok).hard_fail
+    assert evaluate_scheme(scheme, bad).hard_fail
+    assert "states" in evaluate_scheme(scheme, bad).unmatched
+
+
+def test_match_response_includes_state(schemes):
+    profile = MatchProfile(
+        age=30,
+        gender="female",
+        state="Maharashtra",
+        district="Pune",
+        annual_income=150000,
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert resp.state == "Maharashtra"
+    assert resp.district == "Pune"

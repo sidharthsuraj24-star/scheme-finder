@@ -266,6 +266,7 @@ class MatchResponse(BaseModel):
     message: str | None = None
     count: int = 0
     district: str | None = None
+    state: str | None = None
     catalogue: dict[str, Any] | None = None
     is_stale: bool | None = None
 

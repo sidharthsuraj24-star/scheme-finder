@@ -99,7 +99,12 @@ export default function Results({ lang, data, onRestart, shareUrl }: Props) {
         <p className="mt-1 text-base text-slate-600">
           {t(lang, "resultsCount", { count: matched.length })}
         </p>
-        {data.district ? (
+        {data.state ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t(lang, "resultsState")}: {data.state}
+            {data.district ? ` · ${lang === "ml" ? "ജില്ല" : "District"}: ${data.district}` : ""}
+          </p>
+        ) : data.district ? (
           <p className="mt-1 text-sm text-slate-500">
             {lang === "ml" ? "ജില്ല" : "District"}: {data.district}
           </p>

@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Scheme Finder | Kerala",
+  title: "Scheme Finder | India",
   description:
-    "Simple bilingual helper to find Kerala / India welfare schemes you may be eligible for.",
+    "Simple bilingual helper to find India welfare schemes (central + curated states) you may be eligible for.",
 };
 
 export const viewport: Viewport = {

@@ -1,6 +1,8 @@
 export type Lang = "en" | "ml";
 
 export interface ProfileAnswers {
+  /** Canonical India state/UT English name */
+  state: string | null;
   age: number | null;
   monthly_household_income: number | null;
   occupation: string | null;
@@ -53,6 +55,7 @@ export interface MatchResponse {
   message?: string | null;
   count: number;
   district?: string | null;
+  state?: string | null;
   catalogue?: {
     updated_as_of?: string;
     stale_after_days?: number;
