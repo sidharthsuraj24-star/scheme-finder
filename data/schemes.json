@@ -3344,5 +3344,946 @@
       "dbt"
     ],
     "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ar-cmaay",
+    "scheme_name": {
+      "en": "Chief Minister Arogya Arunachal Yojana (CMAAY)",
+      "ml": "(EN — Malayalam review pending) Chief Minister Arogya Arunachal Yojana (CMAAY)"
+    },
+    "description": {
+      "en": "Arunachal Pradesh flagship health assurance scheme (CMAAY), converged with AB PM-JAY, providing cashless secondary/tertiary hospitalisation cover through the official CMAAY portal for eligible APST members, state government employees/pensioners and notified resident categories.",
+      "ml": "(EN — Malayalam review pending) Arunachal CMAAY cashless health cover via cmaay.arunachal.gov.in."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "APST",
+        "pmjay",
+        "secc_deprivation"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arunachal Pradesh"
+      ],
+      "notes": "Official CMAAY portal: cashless cover commonly ₹5 lakh per family per year in convergence with AB PM-JAY. Primary eligible groups commonly include Arunachal Pradesh Scheduled Tribe (APST) card holders, state government employees/pensioners & dependents, and notified permanent residents (e.g. Changlang/Lohit/Namsai with valid Resident Certificate). Exact category lists and SECC/PM-JAY overlap on https://cmaay.arunachal.gov.in/",
+      "verify": true,
+      "verify_notes": "APST / employee / district-resident branches are not fully encoded in wizard categories — keep verify=true. Confirm enrolment rules on https://cmaay.arunachal.gov.in/",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Cashless hospitalisation cover commonly cited as up to ₹5 lakh per family per year for empaneled secondary/tertiary care — confirm current package/cover on the CMAAY portal.",
+      "ml": "(EN — Malayalam review pending) Cashless health cover (confirm current CMAAY package/cover)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "APST / tribe certificate or Resident Certificate (as applicable)",
+        "Ration card / family details",
+        "Government employee ID or PPO (if employee/pensioner path)",
+        "Mobile number"
+      ],
+      "ml": [
+        "Aadhaar",
+        "APST / residence proof",
+        "Family / ration proof",
+        "Employee/PPO if applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol / check status on the official CMAAY portal https://cmaay.arunachal.gov.in/ (toll-free commonly 1800 233 5558). AB PM-JAY convergence details also on the same portal.",
+      "ml": "(EN — Malayalam review pending) Enrol on cmaay.arunachal.gov.in"
+    },
+    "apply_url": "https://cmaay.arunachal.gov.in/",
+    "office_type": "State Health Agency / CMAAY, Government of Arunachal Pradesh",
+    "official_source_url": "https://cmaay.arunachal.gov.in/",
+    "tags": [
+      "health",
+      "insurance",
+      "arunachal-pradesh",
+      "pmjay"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "mn-old-age-pension",
+    "scheme_name": {
+      "en": "Manipur Old Age Pension Scheme (MOAPS)",
+      "ml": "(EN — Malayalam review pending) Manipur Old Age Pension Scheme (MOAPS)"
+    },
+    "description": {
+      "en": "State-sponsored Manipur Old Age Pension Scheme administered by the Social Welfare Department for destitute elderly residents (and related widow pathways under the same rules page), distinct from central NSAP IGNOAPS.",
+      "ml": "(EN — Malayalam review pending) Manipur state old-age pension via Social Welfare (mn.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 55,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Manipur"
+      ],
+      "notes": "Official Social Welfare rules page: destitute elderly without adequate means; men aged 60+ and women aged 55+; Manipur residence exceeding 10 years and Indian citizenship; if both spouses destitute, each may apply. Encoded min_age uses the lower (women) threshold — male age 60+ must be re-checked. Historical rules text cites a low monthly amount; Assembly Social Welfare report cites ongoing MOAPS disbursement (commonly state top-up ~₹200/month) — confirm current rate with the department.",
+      "verify": true,
+      "verify_notes": "Gender-specific ages (women 55 / men 60), 10-year domicile, and current benefit amount are not fully encoded. Sources: https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/ and https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/ — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly state pension via Social Welfare DBT — confirm current MOAPS amount with the department (rules page historically ₹60; recent administrative reports cite higher ongoing assistance).",
+      "ml": "(EN — Malayalam review pending) Monthly Manipur state pension (confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Medical/age certificate",
+        "Photograph",
+        "Income certificate (DC/SDO/SDC)",
+        "Residence proof (Manipur)",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Age proof",
+        "Income certificate",
+        "Manipur residence proof",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Collector / SDO channels to Director, Social Welfare, Government of Manipur. Scheme pages: https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/ and rules https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/",
+      "ml": "(EN — Malayalam review pending) Apply via DC/SDO → Social Welfare Manipur (socialwelfare.mn.gov.in)."
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/",
+    "tags": [
+      "pension",
+      "elderly",
+      "manipur",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ml-nsap-old-age-pension",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Meghalaya NSAP)",
+      "ml": "(EN — Malayalam review pending) IGNOAPS (Meghalaya NSAP)"
+    },
+    "description": {
+      "en": "Meghalaya implementation of NSAP Indira Gandhi National Old Age Pension for BPL elderly, as published on the Meghalaya Government Portal schemes listing (Community & Rural Development).",
+      "ml": "(EN — Malayalam review pending) Meghalaya NSAP old-age pension for BPL elderly (meghalaya.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Meghalaya"
+      ],
+      "notes": "Official Meghalaya schemes page: IGNOAPS for BPL persons aged 60+ (higher central rate commonly from age 80+). Amounts quoted on the portal page may lag current NSAP + state top-up rates — confirm with District Social Welfare / C&RD before applying.",
+      "verify": true,
+      "verify_notes": "Current combined pension amount and village-council recommendation practice should be re-verified on https://meghalaya.gov.in/schemes/content/37326 — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age pension under NSAP IGNOAPS (portal text historically cites central rates; confirm current Meghalaya disbursed amount including any state top-up).",
+      "ml": "(EN — Malayalam review pending) Monthly IGNOAPS pension (confirm current Meghalaya amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL / NFSA ration proof",
+        "Aadhaar",
+        "Bank account",
+        "Meghalaya residence / local certificate"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Social Welfare / Block / village council channels as directed locally. Official listing: https://meghalaya.gov.in/schemes/content/37326 ; form also linked from meghalaya.gov.in application-form pages.",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / local council (meghalaya.gov.in)."
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "office_type": "Community & Rural Development / Social Welfare, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "tags": [
+      "pension",
+      "elderly",
+      "meghalaya",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "mz-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension Scheme (Mizoram Social Welfare)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Scheme (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram Social Welfare Department old-age pension support (NSAP IGNOAPS with state implementation) for eligible senior citizens, listed on the official Social Welfare Mizoram portal under Old Age Pension / Old Age Home.",
+      "ml": "(EN — Malayalam review pending) Mizoram Social Welfare old-age pension (socialwelfare.mizoram.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mizoram"
+      ],
+      "notes": "Administered by Social Welfare & Tribal Affairs, Government of Mizoram. Typical NSAP path: age 60+, BPL / destitute criteria as applied in the state; higher support often from age 80+. Confirm current income/BPL tests, ILP/residence rules and monthly rate with District Social Welfare Officer.",
+      "verify": true,
+      "verify_notes": "Detailed income ceilings and exact state top-up amounts were not fully extractable from the public page at verification time (portal may intermittently return 403). Re-check https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT under Mizoram Social Welfare / NSAP implementation — confirm current rate with the department.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Mizoram rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL / income proof",
+        "Aadhaar",
+        "Bank account",
+        "Mizoram residence / ILP as required"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL/income proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Social Welfare Officer / CDPO / Village Council channels. Official page: https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / Village Council (socialwelfare.mizoram.gov.in)."
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home",
+    "office_type": "Social Welfare & Tribal Affairs Department, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home",
+    "tags": [
+      "pension",
+      "elderly",
+      "mizoram",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "nl-cmhis",
+    "scheme_name": {
+      "en": "Chief Minister Health Insurance Scheme (CMHIS) – Nagaland",
+      "ml": "(EN — Malayalam review pending) Chief Minister Health Insurance Scheme (CMHIS) – Nagaland"
+    },
+    "description": {
+      "en": "Nagaland flagship public health insurance (CMHIS), converged with AB PM-JAY, providing cashless treatment for eligible Indigenous Inhabitants / Permanent Residents and government employees & pensioners via the official CMHIS portal.",
+      "ml": "(EN — Malayalam review pending) Nagaland CMHIS cashless health insurance (cmhis.nagaland.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "pmjay",
+        "secc_deprivation"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nagaland"
+      ],
+      "notes": "Official CMHIS portal: bridges coverage for Indigenous Inhabitant Certificate / PRC holders and government employees & pensioners not already covered under AB PM-JAY; scheme referred to as AB PM-JAY CMHIS in convergence. Commonly cited covers: CMHIS (GEN) ~₹5 lakh and CMHIS (EP) ~₹20 lakh per family — confirm current category rules on https://cmhis.nagaland.gov.in/",
+      "verify": true,
+      "verify_notes": "Indigenous Inhabitant / PRC vs employee-pensioner (EP) tracks and SECC/PM-JAY overlap are not fully encoded — keep verify=true. Source: https://cmhis.nagaland.gov.in/",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Cashless treatment at empaneled hospitals — commonly ₹5 lakh (General) / ₹20 lakh (Employee & Pensioner) per family; confirm current covers and Health Benefit Packages on the CMHIS portal.",
+      "ml": "(EN — Malayalam review pending) Cashless CMHIS cover (confirm current GEN/EP amounts)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Indigenous Inhabitant Certificate or Permanent Resident Certificate (General path)",
+        "PIMS / PPO documents (Employee & Pensioner path)",
+        "Mobile number / email for portal registration"
+      ],
+      "ml": [
+        "Aadhaar",
+        "IIC / PRC or employee PPO",
+        "Mobile / email"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register on https://cmhis.nagaland.gov.in/register and follow CMHIS (GEN) or CMHIS (EP) instructions. Helpline commonly 1800 202 3380.",
+      "ml": "(EN — Malayalam review pending) Register on cmhis.nagaland.gov.in"
+    },
+    "apply_url": "https://cmhis.nagaland.gov.in/register",
+    "office_type": "Nagaland Health Protection Society / Department of Health & Family Welfare, Government of Nagaland",
+    "official_source_url": "https://cmhis.nagaland.gov.in/",
+    "tags": [
+      "health",
+      "insurance",
+      "nagaland",
+      "pmjay"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "sk-unmarried-women-pension",
+    "scheme_name": {
+      "en": "Sikkim Unmarried Women Pension Scheme (SUWPS)",
+      "ml": "(EN — Malayalam review pending) Sikkim Unmarried Women Pension Scheme (SUWPS)"
+    },
+    "description": {
+      "en": "Sikkim state innovative social-security pension for eligible unmarried women, administered via the official Women & Child Welfare pension portal alongside NSAP pensions.",
+      "ml": "(EN — Malayalam review pending) Sikkim unmarried women pension (pensionscheme.sikkim.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 45,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Sikkim"
+      ],
+      "notes": "Official pensionscheme.sikkim.gov.in eligibility: general criteria include SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. SUWPS-specific: age 45+ and Unmarried Certificate.",
+      "verify": true,
+      "verify_notes": "COI/SSC vs residential certificate branches and exact ration-card type must be confirmed on https://pensionscheme.sikkim.gov.in/ — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension under Sikkim Unmarried Women Pension Scheme (state innovative) — confirm current amount on the official pension portal.",
+      "ml": "(EN — Malayalam review pending) Monthly SUWPS pension (confirm current Sikkim amount)."
+    },
+    "required_documents": {
+      "en": [
+        "SSC / COI / Residential Certificate",
+        "BPL / Priority or AAY ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Unmarried Certificate",
+        "Age proof"
+      ],
+      "ml": [
+        "Residence / COI proof",
+        "Ration card",
+        "Aadhaar",
+        "Bank account",
+        "Unmarried certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/ (Women & Child Welfare Department, Government of Sikkim).",
+      "ml": "(EN — Malayalam review pending) Apply on pensionscheme.sikkim.gov.in"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "pension",
+      "women",
+      "unmarried",
+      "sikkim",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "tr-mssp-old-infirm",
+    "scheme_name": {
+      "en": "Mukhyamantri Samajik Sahayata Prakalpa – Old and Infirm (Tripura)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Samajik Sahayata Prakalpa – Old and Infirm (Tripura)"
+    },
+    "description": {
+      "en": "Tripura state social assistance (MSSP) providing monthly financial support to poor elderly (and separately notified infirm/disease categories), administered by the Directorate of Social Welfare and Social Education.",
+      "ml": "(EN — Malayalam review pending) Tripura MSSP old/infirm monthly assistance (socialwelfare.tripura.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tripura"
+      ],
+      "notes": "Commonly published eligibility for Old applicants: resident of Tripura; annual family income not more than ₹1,00,000; age 60+; school-enrolment condition if household has children aged 6–14. Infirm (cancer/AIDS/leprosy) path has no age floor and is not separately encoded. Exclusions include government job in family / income exceeding limit. Application form hosted on socialwelfare.tripura.gov.in.",
+      "verify": true,
+      "verify_notes": "Infirm (disease) path and school-enrolment condition are not fully encoded — keep verify=true. Confirm on https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly financial assistance commonly cited as ₹2,000 under MSSP Old and Infirm — confirm current rate with the Directorate / CDPO.",
+      "ml": "(EN — Malayalam review pending) Monthly MSSP assistance (confirm current Tripura amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate",
+        "Age proof",
+        "Residence proof (Tripura)",
+        "Bank account",
+        "Prescribed MSSP application form",
+        "School enrolment proof for children 6–14 where applicable"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate",
+        "Age/residence proof",
+        "Bank account",
+        "MSSP form"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Offline application at the Office of the Child Development Project Officer (CDPO) using the prescribed MSSP form from https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "ml": "(EN — Malayalam review pending) Apply at CDPO with MSSP form (socialwelfare.tripura.gov.in)."
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "tags": [
+      "pension",
+      "elderly",
+      "tripura",
+      "income-support",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "an-old-age-assistance",
+    "scheme_name": {
+      "en": "Andaman and Nicobar Islands Old Age Assistance Scheme",
+      "ml": "(EN — Malayalam review pending) Andaman and Nicobar Islands Old Age Assistance Scheme"
+    },
+    "description": {
+      "en": "UT social-security scheme providing monthly financial assistance to destitute senior citizens of the Andaman and Nicobar Islands through the Directorate of Social Welfare.",
+      "ml": "(EN — Malayalam review pending) A&N Islands old-age assistance via Directorate of Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": 4000,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andaman and Nicobar Islands"
+      ],
+      "notes": "Published eligibility: permanent resident of A&N Islands or residence >10 years; age 60+; household income not exceeding ₹4,000/month; not receiving any other government pension/assistance. Benefit commonly ₹2,500/month (60–79) and ₹3,000 (80+).",
+      "verify": true,
+      "verify_notes": "10-year residence alternative and 80+ amount tier not fully encoded. Confirm on http://andssw1.and.nic.in/socialwelfare/ — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age assistance commonly ₹2,500 (ages 60–79) and ₹3,000 (age 80+) — confirm current rates with Directorate of Social Welfare, Port Blair.",
+      "ml": "(EN — Malayalam review pending) Monthly A&N old-age assistance (confirm current rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Passport-size photograph",
+        "Aadhaar / identity proof",
+        "Age proof",
+        "Local / domicile certificate",
+        "Income certificate (Revenue authority)",
+        "Bank account details",
+        "Prescribed allowances application form"
+      ],
+      "ml": [
+        "Photo",
+        "Aadhaar",
+        "Age proof",
+        "Local certificate",
+        "Income certificate",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Collect/download the form from Directorate of Social Welfare, Port Blair or CDPO offices (form commonly at http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf) and submit to the concerned Child Development Project Officer. Department: http://andssw1.and.nic.in/socialwelfare/",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Directorate of Social Welfare (andssw1.and.nic.in)."
+    },
+    "apply_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "office_type": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "official_source_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "tags": [
+      "pension",
+      "elderly",
+      "andaman-nicobar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ch-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension Scheme (Chandigarh)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Scheme (Chandigarh)"
+    },
+    "description": {
+      "en": "Chandigarh Administration Old Age Pension administered by the Department of Social Welfare, Women and Child Development, with online applications via the Chandigarh ServiceOnline / e-District DBT service.",
+      "ml": "(EN — Malayalam review pending) Chandigarh old-age pension via Social Welfare / ServiceOnline."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chandigarh"
+      ],
+      "notes": "ServiceOnline Chandigarh lists Old Age Pension under Department of Social Welfare, Women and Child Development. Commonly cited conditions: age 60+; Chandigarh residence of 3+ years (residential proof of 3 years is a listed enclosure); annual family income ceiling commonly ₹1.5 lakh; monthly pension commonly ₹1,000. Confirm income ceiling and current rate with the department.",
+      "verify": true,
+      "verify_notes": "Income ceiling and exact residence-duration rule should be re-confirmed on the live ServiceOnline service page https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001 — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age pension via DBT (commonly cited ₹1,000 — confirm current Chandigarh rate).",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Chandigarh amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residential proof of 3 years (e.g. ration card / utility bill)",
+        "Age proof",
+        "Bank passbook",
+        "Prescribed application form"
+      ],
+      "ml": [
+        "Aadhaar",
+        "3-year residence proof",
+        "Age proof",
+        "Bank passbook"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Chandigarh ServiceOnline Old Age Pension service: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001 (Department of Social Welfare, Women and Child Development, Chandigarh Administration).",
+      "ml": "(EN — Malayalam review pending) Apply on ServiceOnline Chandigarh Old Age Pension service."
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001",
+    "tags": [
+      "pension",
+      "elderly",
+      "chandigarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "dh-old-age-pension",
+    "scheme_name": {
+      "en": "Pension Scheme to Old Age Persons (Senior Citizen) – DNH & DD",
+      "ml": "(EN — Malayalam review pending) Pension Scheme to Old Age Persons (DNH & DD)"
+    },
+    "description": {
+      "en": "Union Territory of Dadra and Nagar Haveli and Daman and Diu pension for eligible domiciled senior citizens, administered through District Panchayat / Municipal Council social-welfare channels.",
+      "ml": "(EN — Malayalam review pending) DNH & DD old-age pension via District Panchayat / Municipal Council."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Dadra and Nagar Haveli and Daman and Diu"
+      ],
+      "notes": "Published eligibility: domicile of Dadra & Nagar Haveli and Daman & Diu; age 60+; annual family income not more than ₹1,50,000; not receiving another old-age pension. Benefit commonly ₹1,500/month (60–69) and ₹2,000/month (70+). Application forms also linked from District Panchayat (dnhpanchayat.in).",
+      "verify": true,
+      "verify_notes": "Age-tier benefit amounts and domicile proof rules should be re-verified with District Panchayat / https://ddd.gov.in/schemes-programmes/ — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension commonly ₹1,500 (ages 60–69) and ₹2,000 (age 70+) — confirm current UT rates.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current DNH & DD rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate",
+        "Domicile / residence proof",
+        "Bank passbook",
+        "Prescribed NSAP/old-age application form"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate",
+        "Domicile proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Collect/download the form (e.g. https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf) and submit to Gram Panchayat / District Panchayat / Municipal Council. UT schemes index: https://ddd.gov.in/schemes-programmes/",
+      "ml": "(EN — Malayalam review pending) Apply via District Panchayat / Municipal Council (ddd.gov.in / dnhpanchayat.in)."
+    },
+    "apply_url": "https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf",
+    "office_type": "Social Welfare / District Panchayat & Municipal Councils, UT of Dadra and Nagar Haveli and Daman and Diu",
+    "official_source_url": "https://ddd.gov.in/schemes-programmes/",
+    "tags": [
+      "pension",
+      "elderly",
+      "dnh-dd",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "jk-ladli-beti",
+    "scheme_name": {
+      "en": "Ladli Beti Scheme (Jammu and Kashmir)",
+      "ml": "(EN — Malayalam review pending) Ladli Beti Scheme (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "J&K Social Welfare girl-child scheme providing government-funded recurring deposit support for newborn girls (born on/after 01/04/2015) to improve the child sex ratio, with applications via Jan Sugam / e-UNNAT service portals.",
+      "ml": "(EN — Malayalam review pending) J&K Ladli Beti girl-child RD support (jansugam.jk.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 14,
+      "max_annual_income": 75000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "notes": "J&K Government / J&K Bank published scheme: newborn girl child of UT of J&K (and historically also Ladakh pathway) born on or after 01/04/2015; annual income of parents from all sources less than ₹75,000; government contributes ₹1,000/month to a Phase-I RD (14 years) then cumulative term deposit. Apply via Jan Sugam service 'Application for obtaining Financial Assistance under Ladli Beti Scheme'.",
+      "verify": true,
+      "verify_notes": "Birth-date cutoff (01/04/2015), district CDPO sanction, and bank account opening steps are not fully encoded — keep verify=true. Sources: https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007 and https://www.jkb.bank.in/deposits/ladli-beti",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Government contribution commonly ₹1,000/month into a hybrid RD → cumulative deposit for the girl child until maturity — confirm current contribution and tenure on Jan Sugam / J&K Bank Ladli Beti pages.",
+      "ml": "(EN — Malayalam review pending) Monthly government RD contribution for girl child (confirm current terms)."
+    },
+    "required_documents": {
+      "en": [
+        "Birth proof of girl child",
+        "Aadhaar / KYC of parent or guardian",
+        "Income proof",
+        "Address proof",
+        "Ladli Beti bank account details",
+        "CDPO sanction as required"
+      ],
+      "ml": [
+        "Birth proof",
+        "Parent KYC",
+        "Income proof",
+        "Address proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open Ladli Beti account at J&K Bank as instructed, then apply on Jan Sugam https://jansugam.jk.gov.in/ (service: Financial Assistance under Ladli Beti Scheme) or e-UNNAT. Service page: https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007",
+      "ml": "(EN — Malayalam review pending) Apply via Jan Sugam Ladli Beti service (jansugam.jk.gov.in)."
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007",
+    "tags": [
+      "girl-child",
+      "women",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "la-old-age-pension",
+    "scheme_name": {
+      "en": "Integrated Social Security Scheme – Old Age Pension (Ladakh)",
+      "ml": "(EN — Malayalam review pending) Integrated Social Security Scheme – Old Age Pension (Ladakh)"
+    },
+    "description": {
+      "en": "UT of Ladakh Integrated Social Security / old-age pension support for eligible elderly residents, administered by the Department of Social & Tribal Welfare (Citizens Help Hub / district Social Welfare offices).",
+      "ml": "(EN — Malayalam review pending) Ladakh ISSS old-age pension via Social & Tribal Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": 55,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ladakh"
+      ],
+      "notes": "Department of Social & Tribal Welfare, UT Ladakh administers old-age pensions under Integrated Social Security / NSAP pathways. Commonly cited conditions: BPL / without adequate means; women aged 55+ and men aged 60+; monthly pension commonly ₹1,000. Encoded min_age uses the lower (women) threshold — male age 60+ must be re-checked. Confirm on https://socialwelfare.ladakh.gov.in/schemes.php and https://helphub.ladakh.gov.in/landing/pension",
+      "verify": true,
+      "verify_notes": "Gender-specific ages and exact BPL/income tests should be re-verified on Ladakh Social Welfare / Help Hub pages — keep verify=true.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age pension commonly cited as ₹1,000 via DBT — confirm current Ladakh rate with Tehsil / District Social Welfare Officer.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Ladakh amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Photograph",
+        "Aadhaar",
+        "BPL / ration card",
+        "Age proof",
+        "Bank account / IFSC",
+        "Address proof"
+      ],
+      "ml": [
+        "Photo",
+        "Aadhaar",
+        "BPL card",
+        "Age proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the concerned Tehsil Social Welfare Officer / district Social Welfare office. Scheme listings: https://socialwelfare.ladakh.gov.in/schemes.php ; Help Hub: https://helphub.ladakh.gov.in/landing/pension",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil Social Welfare Officer (socialwelfare.ladakh.gov.in)."
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "office_type": "Department of Social & Tribal Welfare, Administration of Union Territory of Ladakh",
+    "official_source_url": "https://socialwelfare.ladakh.gov.in/schemes.php",
+    "tags": [
+      "pension",
+      "elderly",
+      "ladakh",
+      "dbt",
+      "bpl"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "ld-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension / Social Security Scheme (Lakshadweep)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension / Social Security Scheme (Lakshadweep)"
+    },
+    "description": {
+      "en": "Lakshadweep UT Social Welfare & Tribal Affairs social-security support for eligible elderly residents (Social Security & Old Age sector), administered from Kavaratti and island Village Dweep Panchayat channels.",
+      "ml": "(EN — Malayalam review pending) Lakshadweep Social Welfare old-age / social-security pension."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Lakshadweep"
+      ],
+      "notes": "Department of Social Welfare & Tribal Affairs (established 1978) lists Social Security & Old Age among its core sectors on https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/. Typical island practice follows NSAP-style old-age support for permanent residents aged 60+ without regular income; publicly cited monthly assistance often around ₹1,500 — confirm current income ceiling and rate with the department (lk-dsw@nic.in / island SW offices).",
+      "verify": true,
+      "verify_notes": "Exact income ceiling and current monthly amount were not fully published on the department landing page at verification — keep verify=true. Source: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly old-age / social-security pension via DBT — confirm current Lakshadweep amount with Social Welfare & Tribal Affairs.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Lakshadweep amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Permanent residence / island certificate",
+        "Income / BPL proof as required",
+        "Bank account",
+        "Prescribed pension application"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Residence proof",
+        "Income proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Village Dweep Panchayat / island Social Welfare office under the Department of Social Welfare & Tribal Affairs. Department page: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "ml": "(EN — Malayalam review pending) Apply via Village Dweep Panchayat / SW&TA (lakshadweep.gov.in)."
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs, UT Administration of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "pension",
+      "elderly",
+      "lakshadweep",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "py-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Persons and Destitutes Pension (Puducherry)",
+      "ml": "(EN — Malayalam review pending) Old Age Persons and Destitutes Pension (Puducherry)"
+    },
+    "description": {
+      "en": "Puducherry social-security pension for eligible old-age persons and destitutes administered by the Department of Women and Child Development / Social Welfare, covering Puducherry, Karaikal, Mahe and Yanam.",
+      "ml": "(EN — Malayalam review pending) Puducherry old-age / destitute pension (wcd.py.gov.in)."
+    },
+    "eligibility_rules": {
+      "min_age": 55,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Puducherry"
+      ],
+      "notes": "Official WCD Puducherry scheme page covers Old Age Persons and Destitutes Pension. Commonly published age bands start from 55+ with tiered monthly assistance (often cited ₹2,000 / ₹2,500 / ₹3,500 by age band). Income, permanent residence in the UT, and non-receipt of other pensions typically apply — confirm exact income ceiling and current slabs on https://wcd.py.gov.in/old-age-persons-and-destitutes-pension",
+      "verify": true,
+      "verify_notes": "Exact income ceiling and age-band benefit slabs must be confirmed on the WCD page — keep verify=true. Related India.gov service listing also exists for broader widow/deserted/unmarried/transgender pension pathways.",
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension with age-band rates commonly cited for 55–59 / 60–79 / 80+ — confirm current Puducherry slabs on the official WCD page.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Puducherry age-band rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Residence proof (Puducherry UT)",
+        "Income proof",
+        "Ration card",
+        "Bank account",
+        "Prescribed pension application"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "UT residence proof",
+        "Income proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the designated Social Welfare / Women and Child Development offices in Puducherry, Karaikal, Mahe or Yanam. Scheme page: https://wcd.py.gov.in/old-age-persons-and-destitutes-pension ; forms also via https://socwelfare.py.gov.in/download-forms",
+      "ml": "(EN — Malayalam review pending) Apply via WCD / Social Welfare offices (wcd.py.gov.in)."
+    },
+    "apply_url": "https://wcd.py.gov.in/old-age-persons-and-destitutes-pension",
+    "office_type": "Department of Women and Child Development / Social Welfare, Government of Puducherry",
+    "official_source_url": "https://wcd.py.gov.in/old-age-persons-and-destitutes-pension",
+    "tags": [
+      "pension",
+      "elderly",
+      "puducherry",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
   }
 ]

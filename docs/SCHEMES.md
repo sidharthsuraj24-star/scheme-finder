@@ -1,11 +1,11 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 50 schemes
-**verify=true:** 44
+**Count:** 64 schemes
+**verify=true:** 58
 **verify=false:** 6
 
-**Scope:** Curated multi-state + central schemes across 18+ states/UTs (not every scheme in India). Kerala remains fully curated; additional states have flagship starter sets with official `.gov.in` / myScheme sources.
+**Scope:** Curated multi-state + central schemes across all 28 states + 8 UTs (not every scheme in India). Kerala remains fully curated; additional states/UTs have flagship starter sets with official `.gov.in` / myScheme / UT portal sources.
 
 | # | id | Name (EN) | States | Official source | Key eligibility | verify |
 |---|----|-----------|--------|-----------------|-----------------|--------|
@@ -19,7 +19,7 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 | 8 | `kerala-kasp-pmjay` | Ayushman Bharat PM-JAY – Karunya Arogya Suraksha Padhathi (KASP) | Kerala | http://www.sha.kerala.gov.in./?lang=en&page_id=742 | categories=SECC_deprivation,RSBY_CHIS_2018_19 | **YES** |
 | 9 | `nsap-nfbs` | National Family Benefit Scheme (NFBS) | All India | https://nsap.nic.in/ | categories=BPL | **YES** |
 | 10 | `kerala-egrantz` | e-Grantz – Post-Matric Educational Assistance (SC/ST/OBC Kerala) | Kerala | https://www.egrantz.kerala.gov.in/ | occupations=student; categories=SC,ST,OBC,OEC,SEBC | **YES** |
-| 11 | `adip-assistive-devices` | ADIP – Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances | All India | https://www.adip.depwd.gov.in/faq_adip | disability_required; disability>=40 | no |
+| 11 | `adip-assistive-devices` | ADIP – Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances | All India | https://www.adip.depwd.gov.in/faq_adip | max_monthly_household_income=30000; disability_required; disability>=40 | no |
 | 12 | `kerala-life-mission` | LIFE Mission (Livelihood Inclusion Financial Empowerment) – Kerala Housing | Kerala | https://lifemission.kerala.gov.in/life-project | categories=homeless,landless,incomplete_house,temporary_shelter; land=landless_or_landed_homeless | **YES** |
 | 13 | `pmmvy` | Pradhan Mantri Matru Vandana Yojana (PMMVY) | All India | https://wcd.gov.in/women/pradhan-mantri-matru-vandana-yojna | max_annual_income=800000; gender=female; categories=SC,ST,BPL,PMJAY,EShram,PMKISAN,MGNREGA,NFSA_ration,AWW_AWH_ASHA | no |
 | 14 | `depwd-scholarship-swd` | Scholarships for Students with Disabilities (DEPwD / NSP) | All India | https://depwd.gov.in/en/scholarship/ | max_annual_income=250000; occupations=student; disability_required; disability>=40 | **YES** |
@@ -59,6 +59,20 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 | 48 | `uk-nanda-gaura` | Nanda Gaura Yojana (Uttarakhand) | Uttarakhand | https://www.nandagaurauk.in/ | min_age=0; max_age=20; max_annual_income=72000; gender=female | **YES** |
 | 49 | `hp-old-age-pension` | Old Age Pension Scheme – Social Security Pension (Himachal Pradesh) | Himachal Pradesh | http://esomsa.hp.gov.in/?q=social-security-pension | min_age=60; max_annual_income=35000 | **YES** |
 | 50 | `hp-widow-deserted-pension` | Widow / Deserted / Single Women Pension Scheme (Himachal Pradesh) | Himachal Pradesh | http://esomsa.hp.gov.in/?q=social-security-pension | max_annual_income=35000; gender=female; marital=widow,deserted | **YES** |
+| 51 | `ar-cmaay` | Chief Minister Arogya Arunachal Yojana (CMAAY) | Arunachal Pradesh | https://cmaay.arunachal.gov.in/ | categories=APST,pmjay,secc_deprivation | **YES** |
+| 52 | `mn-old-age-pension` | Manipur Old Age Pension Scheme (MOAPS) | Manipur | https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/ | min_age=55 | **YES** |
+| 53 | `ml-nsap-old-age-pension` | Indira Gandhi National Old Age Pension Scheme (Meghalaya NSAP) | Meghalaya | https://meghalaya.gov.in/schemes/content/37326 | min_age=60; categories=BPL | **YES** |
+| 54 | `mz-old-age-pension` | Old Age Pension Scheme (Mizoram Social Welfare) | Mizoram | https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home | min_age=60; categories=BPL | **YES** |
+| 55 | `nl-cmhis` | Chief Minister Health Insurance Scheme (CMHIS) – Nagaland | Nagaland | https://cmhis.nagaland.gov.in/ | categories=pmjay,secc_deprivation | **YES** |
+| 56 | `sk-unmarried-women-pension` | Sikkim Unmarried Women Pension Scheme (SUWPS) | Sikkim | https://pensionscheme.sikkim.gov.in/ | min_age=45; gender=female; categories=BPL,nfsa_ration; marital=unmarried | **YES** |
+| 57 | `tr-mssp-old-infirm` | Mukhyamantri Samajik Sahayata Prakalpa – Old and Infirm (Tripura) | Tripura | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | min_age=60; max_annual_income=100000 | **YES** |
+| 58 | `an-old-age-assistance` | Andaman and Nicobar Islands Old Age Assistance Scheme | Andaman and Nicobar Islands | http://andssw1.and.nic.in/socialwelfare/ | min_age=60; max_monthly_household_income=4000 | **YES** |
+| 59 | `ch-old-age-pension` | Old Age Pension Scheme (Chandigarh) | Chandigarh | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001 | min_age=60; max_annual_income=150000 | **YES** |
+| 60 | `dh-old-age-pension` | Pension Scheme to Old Age Persons (Senior Citizen) – DNH & DD | Dadra and Nagar Haveli and Daman and Diu | https://ddd.gov.in/schemes-programmes/ | min_age=60; max_annual_income=150000 | **YES** |
+| 61 | `jk-ladli-beti` | Ladli Beti Scheme (Jammu and Kashmir) | Jammu and Kashmir | https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007 | min_age=0; max_age=14; max_annual_income=75000; gender=female | **YES** |
+| 62 | `la-old-age-pension` | Integrated Social Security Scheme – Old Age Pension (Ladakh) | Ladakh | https://socialwelfare.ladakh.gov.in/schemes.php | min_age=55; categories=BPL | **YES** |
+| 63 | `ld-old-age-pension` | Old Age Pension / Social Security Scheme (Lakshadweep) | Lakshadweep | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | min_age=60 | **YES** |
+| 64 | `py-old-age-pension` | Old Age Persons and Destitutes Pension (Puducherry) | Puducherry | https://wcd.py.gov.in/old-age-persons-and-destitutes-pension | min_age=55 | **YES** |
 
 ## Nationwide matching
 
@@ -68,6 +82,6 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 
 ## Notes
 - Catalogue is curated — not exhaustive for any state.
-- New multi-state entries use official `.gov.in` / myScheme portals; most are `verify=true` where wizard fields cannot prove full eligibility.
+- New multi-state entries use official `.gov.in` / myScheme / UT portals; most are `verify=true` where wizard fields cannot prove full eligibility.
 - Malayalam (`ml`) fields: UI + main scheme copy; some newer state rows reuse EN with an explicit pending-review note.
 - See `docs/DATA_REFRESH.md` and `docs/SOURCES.md`.

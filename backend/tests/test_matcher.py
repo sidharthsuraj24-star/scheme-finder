@@ -749,7 +749,7 @@ def test_mp_woman_matches_ladli_behna_not_kerala(schemes):
 
 def test_nationwide_pm_kisan_still_matches_new_states(schemes):
     pm = next(s for s in schemes if s["id"] == "pm-kisan")
-    for state in ("Gujarat", "Assam", "Odisha", "Delhi", "Goa", "Jharkhand", "Punjab", "Uttarakhand", "Himachal Pradesh"):
+    for state in ("Gujarat", "Assam", "Odisha", "Delhi", "Goa", "Jharkhand", "Punjab", "Uttarakhand", "Himachal Pradesh", "Manipur", "Ladakh", "Puducherry"):
         profile = MatchProfile(
             age=40,
             gender="male",
@@ -816,6 +816,9 @@ def test_catalogue_covers_new_states(schemes):
         "Punjab",
         "Uttarakhand",
         "Himachal Pradesh",
+        "Manipur",
+        "Nagaland",
+        "Puducherry",
     ):
         assert required in by_state, required
 
@@ -871,3 +874,91 @@ def test_catalogue_covers_punjab_uttarakhand_himachal(schemes):
                 by_state.add(st)
     for required in ("Punjab", "Uttarakhand", "Himachal Pradesh"):
         assert required in by_state, required
+
+def test_manipur_senior_not_kerala_sevana(schemes):
+    profile = MatchProfile(
+        age=66,
+        gender="male",
+        state="Manipur",
+        annual_income=40_000,
+        occupations=["other"],
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "mn-old-age-pension" in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+    assert "kerala-widow-pension" not in _matched_ids(resp)
+    assert "kerala-agri-labour-pension" not in _matched_ids(resp)
+    assert "kerala-egrantz" not in _matched_ids(resp)
+
+
+def test_northeast_and_ut_catalogue_coverage(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        for st in rules.get("states") or []:
+            if st not in {"All India", "India"}:
+                by_state.add(st)
+    for required in (
+        "Arunachal Pradesh",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Sikkim",
+        "Tripura",
+        "Andaman and Nicobar Islands",
+        "Chandigarh",
+        "Dadra and Nagar Haveli and Daman and Diu",
+        "Jammu and Kashmir",
+        "Ladakh",
+        "Lakshadweep",
+        "Puducherry",
+    ):
+        assert required in by_state, required
+
+
+def test_sikkim_unmarried_woman_not_kerala(schemes):
+    profile = MatchProfile(
+        age=48,
+        gender="female",
+        state="Sikkim",
+        marital_status="unmarried",
+        categories=["BPL"],
+        annual_income=50_000,
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "sk-unmarried-women-pension" in _matched_ids(resp)
+    assert "kerala-unmarried-women-pension" not in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+
+
+def test_nagaland_cmhis_not_kerala_health(schemes):
+    profile = MatchProfile(
+        age=40,
+        gender="female",
+        state="Nagaland",
+        categories=["pmjay"],
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "nl-cmhis" in _matched_ids(resp)
+    assert "kerala-kasp-pmjay" not in _matched_ids(resp)
+
+
+def test_jk_ladli_beti_girl_child(schemes):
+    profile = MatchProfile(
+        age=5,
+        gender="female",
+        state="Jammu and Kashmir",
+        annual_income=60_000,
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "jk-ladli-beti" in _matched_ids(resp)
+    assert "uk-nanda-gaura" not in _matched_ids(resp)
+    assert "wb-kanyashree" not in _matched_ids(resp)
+
