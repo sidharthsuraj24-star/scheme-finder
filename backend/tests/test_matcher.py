@@ -749,7 +749,7 @@ def test_mp_woman_matches_ladli_behna_not_kerala(schemes):
 
 def test_nationwide_pm_kisan_still_matches_new_states(schemes):
     pm = next(s for s in schemes if s["id"] == "pm-kisan")
-    for state in ("Gujarat", "Assam", "Odisha", "Delhi", "Goa", "Jharkhand"):
+    for state in ("Gujarat", "Assam", "Odisha", "Delhi", "Goa", "Jharkhand", "Punjab", "Uttarakhand", "Himachal Pradesh"):
         profile = MatchProfile(
             age=40,
             gender="male",
@@ -813,5 +813,61 @@ def test_catalogue_covers_new_states(schemes):
         "Haryana",
         "Chhattisgarh",
         "Delhi",
+        "Punjab",
+        "Uttarakhand",
+        "Himachal Pradesh",
     ):
+        assert required in by_state, required
+
+
+def test_punjab_senior_matches_old_age_not_kerala(schemes):
+    profile = MatchProfile(
+        age=66,
+        gender="male",
+        state="Punjab",
+        annual_income=50_000,
+        occupations=["other"],
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "pb-old-age-pension" in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+    assert "kerala-agri-labour-pension" not in _matched_ids(resp)
+
+
+def test_uttarakhand_and_himachal_not_kerala_only(schemes):
+    uk = MatchProfile(
+        age=65,
+        gender="female",
+        state="Uttarakhand",
+        annual_income=40_000,
+        occupations=["other"],
+    )
+    hp = MatchProfile(
+        age=62,
+        gender="male",
+        state="Himachal Pradesh",
+        annual_income=30_000,
+        occupations=["other"],
+    )
+    uk_resp = match_schemes(schemes, uk)
+    hp_resp = match_schemes(schemes, hp)
+    assert "uk-old-age-pension" in _matched_ids(uk_resp)
+    assert "hp-old-age-pension" in _matched_ids(hp_resp)
+    assert "kerala-old-age-pension" not in _matched_ids(uk_resp)
+    assert "kerala-old-age-pension" not in _matched_ids(hp_resp)
+    assert "kerala-widow-pension" not in _matched_ids(uk_resp)
+    assert "kerala-egrantz" not in _matched_ids(hp_resp)
+
+
+def test_catalogue_covers_punjab_uttarakhand_himachal(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        for st in rules.get("states") or []:
+            if st not in {"All India", "India"}:
+                by_state.add(st)
+    for required in ("Punjab", "Uttarakhand", "Himachal Pradesh"):
         assert required in by_state, required

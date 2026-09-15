@@ -8,7 +8,7 @@ Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
 - Frontend: Next.js 15, React 19, Tailwind
 - Backend: FastAPI, Pydantic v2, Uvicorn
-- Data: data/schemes.json (44 curated schemes — multi-state + central; in-memory; optional SQLite)
+- Data: data/schemes.json (50 curated schemes — multi-state + central; in-memory; optional SQLite)
 - Tests: pytest
 
 ## Run locally

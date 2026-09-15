@@ -2939,5 +2939,410 @@
       "dbt"
     ],
     "last_verified": "2026-09-15"
+  },
+  {
+    "id": "pb-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension Scheme (Punjab)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Scheme (Punjab)"
+    },
+    "description": {
+      "en": "Punjab social-security pension for eligible elderly residents administered by the Department of Social Security and Women & Child Development, with online/offline applications via Digital Punjab / Sewa Kendras.",
+      "ml": "(EN — Malayalam review pending) Punjab old-age pension via Social Security / Digital Punjab."
+    },
+    "eligibility_rules": {
+      "min_age": 58,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "states": [
+        "Punjab"
+      ],
+      "notes": "Commonly cited official conditions (myScheme oapsp / Punjab Social Security): permanent resident of Punjab; women aged 58+ and men aged 65+; annual family income not more than Rs.60,000; landholding caps (e.g. max ~2.5 acres irrigated / 5 acres barani); not receiving another government pension. Encoded min_age uses the lower (women) threshold — male age 65+ must be re-checked.",
+      "verify": true,
+      "verify_notes": "Gender-specific minimum ages (women 58 / men 65) and land caps are not fully expressible in the wizard. Confirm on https://www.myscheme.gov.in/schemes/oapsp and https://sswcd.punjab.gov.in/en — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (commonly cited Rs.1,500 — confirm current amount on official portal).",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current Punjab amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate / self-declaration",
+        "Residence proof (Punjab)",
+        "Bank passbook",
+        "Land report where required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income proof",
+        "Punjab residence proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Digital Punjab / Sewa Kendra or Social Security channels. Scheme listing: https://www.myscheme.gov.in/schemes/oapsp ; department: https://sswcd.punjab.gov.in/en",
+      "ml": "(EN — Malayalam review pending) Apply via Digital Punjab / Sewa Kendra (sswcd.punjab.gov.in)."
+    },
+    "apply_url": "https://connect.punjab.gov.in/",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://www.myscheme.gov.in/schemes/oapsp",
+    "tags": [
+      "pension",
+      "elderly",
+      "punjab",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "pb-widow-destitute-pension",
+    "scheme_name": {
+      "en": "Widow / Destitute Women Pension Scheme (Punjab)",
+      "ml": "(EN — Malayalam review pending) Widow / Destitute Women Pension Scheme (Punjab)"
+    },
+    "description": {
+      "en": "Punjab monthly pension for eligible widows, destitute women and unmarried women meeting state age and income conditions, applied through Digital Punjab (connect.punjab.gov.in).",
+      "ml": "(EN — Malayalam review pending) Punjab widow/destitute women pension via Digital Punjab."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 57,
+      "max_annual_income": 60000,
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted",
+        "divorced"
+      ],
+      "states": [
+        "Punjab"
+      ],
+      "notes": "Commonly cited conditions: permanent resident of Punjab; annual income not more than Rs.60,000; widow/destitute women below 58 years; unmarried women above 30 years (unmarried branch not fully encoded — see verify_notes). Benefit commonly Rs.1,500/month DBT.",
+      "verify": true,
+      "verify_notes": "Unmarried-women (30+) branch and exact destitute definitions should be re-verified on Digital Punjab / SSWCD. Sources: https://connect.punjab.gov.in/service/citizenservice/112 and https://sswcd.punjab.gov.in/en — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly financial assistance via DBT (commonly cited Rs.1,500 — confirm current amount).",
+      "ml": "(EN — Malayalam review pending) Monthly assistance (confirm current Punjab amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar / age proof",
+        "Husband death certificate (widow)",
+        "Divorce / court / panchayat order if divorced destitute",
+        "Bank passbook first page",
+        "Self-declaration",
+        "Income proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Death / marital status proof",
+        "Bank passbook",
+        "Self-declaration",
+        "Income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on Digital Punjab: https://connect.punjab.gov.in/service/citizenservice/112 or via Sewa Kendra. Department: https://sswcd.punjab.gov.in/en",
+      "ml": "(EN — Malayalam review pending) Apply on connect.punjab.gov.in / Sewa Kendra."
+    },
+    "apply_url": "https://connect.punjab.gov.in/service/citizenservice/112",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://sswcd.punjab.gov.in/en",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "punjab",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "uk-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension Scheme (Uttarakhand)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand social welfare old-age pension for eligible senior citizens (often combined with central NSAP share), applied through the state Social Security Pension portal ssp.uk.gov.in.",
+      "ml": "(EN — Malayalam review pending) Uttarakhand old-age pension via ssp.uk.gov.in."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 48000,
+      "states": [
+        "Uttarakhand"
+      ],
+      "categories": [],
+      "notes": "Commonly cited conditions: resident/domicile of Uttarakhand; age 60+; BPL or family monthly income up to about Rs.4,000 (≈ Rs.48,000/year encoded as max_annual_income); not receiving another pension. BPL is an alternate path (not hard-required in rules). Confirm on ssp.uk.gov.in.",
+      "verify": true,
+      "verify_notes": "Income ceiling figures vary across secondary summaries (monthly Rs.4,000 vs annual Rs.48,000). Re-verify on https://ssp.uk.gov.in/ — keep verify=true. Categories include BPL as an alternate path.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (commonly cited around Rs.1,200–1,500 with state top-up — confirm current rate on ssp.uk.gov.in).",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current UK rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Voter ID",
+        "Passport photo",
+        "Aadhaar-linked bank account",
+        "Income / BPL certificate",
+        "Family register (rural) / councillor certificate (urban)"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "Income / BPL proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on https://ssp.uk.gov.in/ (or Apuni Sarkar / CSC). Confirm scheme text on the Social Welfare pension portal.",
+      "ml": "(EN — Malayalam review pending) Apply on ssp.uk.gov.in / CSC."
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare / Social Security Pension, Government of Uttarakhand",
+    "official_source_url": "https://ssp.uk.gov.in/",
+    "tags": [
+      "pension",
+      "elderly",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "uk-nanda-gaura",
+    "scheme_name": {
+      "en": "Nanda Gaura Yojana (Uttarakhand)",
+      "ml": "(EN — Malayalam review pending) Nanda Gaura Yojana (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand girl-child financial assistance scheme (Department of Women Empowerment and Child Development) providing staged DBT support at institutional birth and after Class 12, via the official Nanda Gaura portal.",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Nanda Gaura girl-child assistance."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 20,
+      "max_annual_income": 72000,
+      "gender": "female",
+      "states": [
+        "Uttarakhand"
+      ],
+      "notes": "Commonly cited conditions: permanent resident of Uttarakhand; up to two girls per family; annual family income not more than Rs.72,000 (≈ Rs.6,000/month); birth installment after institutional delivery and Class-12 installment for eligible unmarried girls. Exact stage rules on https://www.nandagaurauk.in/",
+      "verify": true,
+      "verify_notes": "Two-installment lifecycle (birth vs Class 12), marital/education conditions, and annual window dates are not fully encoded. Confirm on https://www.nandagaurauk.in/ and https://wecd.uk.gov.in/ — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Staged financial assistance commonly cited as Rs.11,000 at birth and Rs.51,000 after Class 12 (total ~Rs.62,000) — confirm current amounts on the official portal.",
+      "ml": "(EN — Malayalam review pending) Staged girl-child DBT (confirm current amounts)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar (child/parents)",
+        "Birth registration / institutional delivery certificate",
+        "Income certificate",
+        "Permanent residence certificate",
+        "Bank account (Aadhaar-linked)",
+        "Class 12 marksheet (for second installment)"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Birth / education proof",
+        "Income certificate",
+        "Residence certificate",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register and apply only on https://www.nandagaurauk.in/ (Women Empowerment & Child Development, Uttarakhand). Related department site: https://wecd.uk.gov.in/",
+      "ml": "(EN — Malayalam review pending) Apply on nandagaurauk.in"
+    },
+    "apply_url": "https://www.nandagaurauk.in/",
+    "office_type": "Directorate of Women Empowerment and Child Development, Government of Uttarakhand",
+    "official_source_url": "https://www.nandagaurauk.in/",
+    "tags": [
+      "girl-child",
+      "women",
+      "education",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "hp-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age Pension Scheme – Social Security Pension (Himachal Pradesh)",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh Social Security Old Age Pension for eligible elderly residents administered by the Department for Empowerment of SCs, OBCs, Minorities and the Specially Abled (eSOMSA), with applications via e-Kalyan / welfare offices.",
+      "ml": "(EN — Malayalam review pending) HP Social Security old-age pension via eSOMSA / e-Kalyan."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 35000,
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "notes": "Official eSOMSA Social Security Pension page: age 60+ without adequate means of support; family annual income from all sources not more than Rs.35,000. Benefit commonly Rs.850/month (60–69) and Rs.1,500/month (70+). Apply via Gram Panchayat / Tehsil Welfare Officer / District Welfare Officer or e-Kalyan.",
+      "verify": true,
+      "verify_notes": "Means-of-support / adult-children exclusions and 70+ amount tiers should be re-verified on http://esomsa.hp.gov.in/?q=social-security-pension — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT — officially described as Rs.850 (ages 60–69) and Rs.1,500 (age 70+) on the eSOMSA Social Security Pension page; confirm current rates.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current HP rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "Income certificate",
+        "Residence proof (Himachal Pradesh)",
+        "Aadhaar",
+        "Bank account",
+        "Prescribed Social Security Pension application form"
+      ],
+      "ml": [
+        "Age proof",
+        "Income certificate",
+        "HP residence proof",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Gram Panchayat / Tehsil or District Welfare Officer, or online via Himachal e-Kalyan (https://himparivar.hp.gov.in/ekalyan). Scheme rules: http://esomsa.hp.gov.in/?q=social-security-pension",
+      "ml": "(EN — Malayalam review pending) Apply via e-Kalyan / District Welfare Officer (esomsa.hp.gov.in)."
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "Directorate for Empowerment of SCs, OBCs, Minorities & the Specially Abled (eSOMSA), Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "elderly",
+      "himachal-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
+  },
+  {
+    "id": "hp-widow-deserted-pension",
+    "scheme_name": {
+      "en": "Widow / Deserted / Single Women Pension Scheme (Himachal Pradesh)",
+      "ml": "(EN — Malayalam review pending) Widow / Deserted / Single Women Pension (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh Social Security pension for eligible widows, deserted women and single women, listed on the official eSOMSA Social Security Pension page alongside other state pensions.",
+      "ml": "(EN — Malayalam review pending) HP widow/deserted/single women Social Security pension."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 35000,
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "notes": "Official eSOMSA text: widow, deserted, or single woman (single women commonly 45+) without adequate means of support / adult son, with family annual income not more than Rs.35,000. Benefit commonly Rs.1,000/month (Rs.1,500 at 70+). Single-women age 45+ branch not fully encoded.",
+      "verify": true,
+      "verify_notes": "Single-woman age floor (45+) and adult-son exclusions should be re-verified on http://esomsa.hp.gov.in/?q=social-security-pension — keep verify=true.",
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT — commonly Rs.1,000 (Rs.1,500 for beneficiaries aged 70+) per eSOMSA Social Security Pension page; confirm current rates.",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current HP rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Marital status / widowhood proof",
+        "Income certificate",
+        "Residence proof (Himachal Pradesh)",
+        "Bank account",
+        "Prescribed pension application form"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Marital status proof",
+        "Income certificate",
+        "HP residence proof",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Tehsil or District Welfare Officer, or Himachal e-Kalyan. Official scheme page: http://esomsa.hp.gov.in/?q=social-security-pension",
+      "ml": "(EN — Malayalam review pending) Apply via e-Kalyan / District Welfare Officer."
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "Directorate for Empowerment of SCs, OBCs, Minorities & the Specially Abled (eSOMSA), Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "himachal-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-15"
   }
 ]
