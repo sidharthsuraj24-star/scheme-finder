@@ -208,3 +208,47 @@ Skipped (insufficient clear official eligibility or inactive/unclear): AP Amma V
 | `jh-mmrnspy` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
 | `jh-svnspy` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
 | `jh-sarvajan-pension` | https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+
+## Wave 3 source audit (2026-09-16)
+
+| id | official_source_url | domain | apply_url | apply domain | verify | verified |
+| --- | --- | --- | --- | --- | --- | --- |
+| `tn-magalir-urimai-thogai` | https://kmut.tn.gov.in/ | gov | https://kmut.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-ignoaps` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-ignwps` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-destitute-widow-pension` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-destitute-disabled-pension` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-deserted-wives-pension` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-unmarried-women-pension` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-igndps` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `tn-cmupt-oap` | https://kanniyakumari.nic.in/social-security-schemes/ | nic | https://oap.tn.gov.in/ | gov | `True` | 2026-09-16 |
+| `ka-sandhya-suraksha` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-widow-pension` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-disability-pension` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-ignoaps` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-manaswini` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-nfbs` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `ka-adarsha-vivaha` | https://chitradurga.nic.in/en/scheme/ssp-en/ | nic | https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx | gov | `True` | 2026-09-16 |
+| `mh-sanjay-gandhi-niradhar` | https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/ | gov | https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/ | gov | `True` | 2026-09-16 |
+| `mh-shravanbal-pension` | https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/ | gov | https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/ | gov | `True` | 2026-09-16 |
+| `mh-ignoaps` | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ | gov | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ | gov | `True` | 2026-09-16 |
+| `mh-ignwps` | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/ | gov | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/ | gov | `True` | 2026-09-16 |
+| `mh-igndps` | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/ | gov | https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/ | gov | `True` | 2026-09-16 |
+| `mh-mahadbt-scholarships` | https://mahadbt.maharashtra.gov.in/Home/Index | gov | https://mahadbt.maharashtra.gov.in/Home/Index | gov | `True` | 2026-09-16 |
+| `wb-rupashree` | https://malda.gov.in/rupashree-prakalpa/ | gov | https://wbrupashree.gov.in/ | gov | `True` | 2026-09-16 |
+| `wb-taposili-bandhu` | https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/ | gov | https://jaibangla.wb.gov.in/ | gov | `True` | 2026-09-16 |
+| `wb-jai-johar` | https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/ | gov | https://jaibangla.wb.gov.in/ | gov | `True` | 2026-09-16 |
+| `wb-manabik` | https://bankura.gov.in/form/manobik-form/ | gov | https://jaibangla.wb.gov.in/ | gov | `True` | 2026-09-16 |
+| `wb-st-old-age-pension` | https://bankura.gov.in/scheme/st-old-age-pension/ | gov | https://bankura.gov.in/scheme/st-old-age-pension/ | gov | `True` | 2026-09-16 |
+| `wb-sc-girl-meritorious-assist` | https://bankura.gov.in/scheme/additional-financial-assistance-benefit-to-sc-st-poor-meritorious-girl-students-reading-in-class-v-x/ | gov | https://bankura.gov.in/scheme/additional-financial-assistance-benefit-to-sc-st-poor-meritorious-girl-students-reading-in-class-v-x/ | gov | `True` | 2026-09-16 |
+| `wb-pre-matric-obc-scholarship` | https://bankura.gov.in/scheme/pre-matric-obc-scholarship/ | gov | https://bankura.gov.in/scheme/pre-matric-obc-scholarship/ | gov | `True` | 2026-09-16 |
+| `gj-niradhar-vriddha-pension` | https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English | gov | https://www.digitalgujarat.gov.in/ | gov | `True` | 2026-09-16 |
+| `gj-ganga-swarupa` | https://wcd.gujarat.gov.in/initiativedetails?id=231 | gov | https://wcd.gujarat.gov.in/initiativedetails?id=231 | gov | `True` | 2026-09-16 |
+| `gj-sant-surdas` | https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english | gov | https://esamajkalyan.gujarat.gov.in/ | gov | `True` | 2026-09-16 |
+| `gj-nfbs-sankatmochan` | https://sje.gujarat.gov.in/dsd/schemes/2210?lang=English | gov | https://sje.gujarat.gov.in/dsd/schemes/2210?lang=English | gov | `True` | 2026-09-16 |
+| `gj-vahli-dikri` | https://wcd.gujarat.gov.in/posts?id=328 | gov | https://wcd.gujarat.gov.in/posts?id=328 | gov | `True` | 2026-09-16 |
+| `gj-divyang-marriage-assist` | https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english | gov | https://esamajkalyan.gujarat.gov.in/ | gov | `True` | 2026-09-16 |
+| `gj-ignoaps-vayvandana` | https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English | gov | https://www.digitalgujarat.gov.in/ | gov | `True` | 2026-09-16 |
+
+Skipped (quality / official eligibility unclear from reachable pages): TN Sri Lankan refugee pension variants (niche); MH Mukhyamantri Vayoshree (SJSA category page lacked eligibility text); WB Swasthya Sathi / Krishak Bandhu (portals 403/unreachable from curator network — not invented); KA Shakti / Anna Bhagya / Gruha Jyothi (utility guarantees — weak wizard fit); GJ Namo Shakti (no clear official eligibility page confirmed in this pass). Magalir Urimai eligibility grounded in G.O.(Ms) No.15 / KMUT portal.
+

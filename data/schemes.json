@@ -11315,5 +11315,2917 @@
       "dbt"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-magalir-urimai-thogai",
+    "scheme_name": {
+      "en": "Kalaignar Magalir Urimai Thogai (Tamil Nadu)",
+      "hi": "कलैग्नर मगलिर उरिमाइ तोगै (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Kalaignar Magalir Urimai Thogai (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu monthly women’s rights grant (Magalir Urimai Thogai) of Rs.1,000 to one eligible woman head of family (age 21+) per family card, subject to income/land/electricity criteria and notified exclusions in G.O.(Ms) No.15 dated 10.07.2023.",
+      "hi": "तमिलनाडु की मासिक महिला अधिकार अनुदान योजना (मगलिर उरिमाइ तोगै) — पात्र महिला परिवार-प्रमुख (21+) को प्रति परिवार कार्ड एक लाभार्थी के रूप में ₹1,000 प्रति माह।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu monthly women’s rights grant (Magalir Urimai Thogai) of Rs.1,000 to one eligible woman head of family (age 21+) per family card, subject to income/land/electricity criteria and notified exclusions in G.O.(Ms) No.15 dated 10.07.2023."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": null,
+      "max_annual_income": 250000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official KMUT portal kmut.tn.gov.in; guidelines in G.O.(Ms) No.15 SPI Dept dated 10.07.2023: woman head of family 21+; one beneficiary per family card; annual family income below Rs.2.5 lakh; wetland <5 acres or dryland <10 acres; domestic electricity <3600 units/year; extensive exclusions (IT payers, govt employees, four-wheelers, other SSP pensions, etc.).",
+      "verify_notes": "2026-09-16: eligibility from official G.O.(Ms) No.15 (KMUT guidelines) and portal kmut.tn.gov.in. Land/electricity/exclusions not fully in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,000 per month DBT to eligible woman head of family (confirm live instalment status on KMUT portal).",
+      "hi": "पात्र महिला परिवार-प्रमुख को प्रति माह ₹1,000 DBT (वर्तमान किस्त KMUT पोर्टल पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Rs.1,000 per month DBT to eligible woman head of family (confirm live instalment status on KMUT portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Family / ration card",
+        "Bank account (DBT)",
+        "Mobile number linked to Aadhaar"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Family / ration card",
+        "Bank account (DBT)",
+        "Mobile number linked to Aadhaar"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Family / ration card",
+        "Bank account (DBT)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply / track on the official KMUT portal: https://kmut.tn.gov.in/",
+      "hi": "आधिकारिक KMUT पोर्टल https://kmut.tn.gov.in/ पर आवेदन / स्थिति जाँच करें।",
+      "ml": "(EN — Malayalam review pending) Apply / track on the official KMUT portal: https://kmut.tn.gov.in/"
+    },
+    "apply_url": "https://kmut.tn.gov.in/",
+    "office_type": "Special Programme Implementation / Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kmut.tn.gov.in/",
+    "tags": [
+      "women",
+      "income-support",
+      "tamil-nadu",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Tamil Nadu)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu social security old-age pension (IGNOAPS) for destitute BPL residents aged 60+ who are incapacitated to earn, subject to asset and support rules on district / OAP channels.",
+      "hi": "तमिलनाडु में 60+ वर्ष के निर्धन/बीपीएल वृद्धजनों के लिए इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu social security old-age pension (IGNOAPS) for destitute BPL residents aged 60+ who are incapacitated to earn, subject to asset and support rules on district / OAP channels."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari district NIC (official): age 60+; destitute; BPL; incapacitated to earn; fixed assets valuing less than Rs.50,000; no supporting relative 18+ living together (son/grandson etc.). Pension amount commonly Rs.1,000/month on district page — confirm current rate via oap.tn.gov.in / CSC.",
+      "verify_notes": "2026-09-16: eligibility from https://kanniyakumari.nic.in/social-security-schemes/ and oap.tn.gov.in listing. Destitute/relative rules not fully in wizard — verify=true. implies_low_income soft gate (no single rupee income ceiling published beyond BPL/destitute).",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (district page cites Rs.1,000 — confirm current amount on OAP/NSAP channels).",
+      "hi": "मासिक पेंशन DBT (जिले के पृष्ठ पर ₹1,000 उल्लिखित — वर्तमान दर OAP/NSAP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (district page cites Rs.1,000 — confirm current amount on OAP/NSAP channels)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Ration / BPL proof",
+        "Bank / postal account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Ration / BPL proof",
+        "Bank / postal account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Ration / BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai linked to Tamil Nadu OAP (https://oap.tn.gov.in/) or as guided by Village Administrative Officer / Tahsildar.",
+      "hi": "CSC / e-Sevai या VAO/तहसीलदार मार्गदर्शन से तमिलनाडु OAP (https://oap.tn.gov.in/) के अंतर्गत आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai linked to Tamil Nadu OAP (https://oap.tn.gov.in/) or as guided by Village Administrative Officer / Tahsildar."
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes / Revenue Department, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "elderly",
+      "tamil-nadu",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Tamil Nadu)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu IGNWPS widow pension for destitute BPL widows aged 40+, subject to asset and support rules published on district social-security pages.",
+      "hi": "तमिलनाडु में 40+ वर्ष की निर्धन/बीपीएल विधवाओं के लिए इंदिरा गांधी राष्ट्रीय विधवा पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu IGNWPS widow pension for destitute BPL widows aged 40+, subject to asset and support rules published on district social-security pages."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: widow 40+; destitute; BPL; fixed assets < Rs.50,000; no supporting relative 18+ living together. Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: https://kanniyakumari.nic.in/social-security-schemes/ ; oap.tn.gov.in. Destitute/relative tests not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension via DBT (commonly Rs.1,000 on district page — confirm current rate).",
+      "hi": "मासिक विधवा पेंशन DBT (जिले के पृष्ठ पर प्रायः ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension via DBT (commonly Rs.1,000 on district page — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / death certificate of spouse",
+        "Age proof",
+        "BPL / ration proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / death certificate of spouse",
+        "Age proof",
+        "BPL / ration proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / death certificate of spouse",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai OAP channel (https://oap.tn.gov.in/) with local revenue verification.",
+      "hi": "CSC / e-Sevai OAP चैनल (https://oap.tn.gov.in/) से स्थानीय राजस्व सत्यापन के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai OAP channel (https://oap.tn.gov.in/) with local revenue verification."
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "tamil-nadu",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-destitute-widow-pension",
+    "scheme_name": {
+      "en": "Destitute Widow Pension Scheme (Tamil Nadu)",
+      "hi": "निर्धन विधवा पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Destitute Widow Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu state Destitute Widow Pension for destitute widows aged 18+ (continuing until son attains 18 where applicable), with asset limits as on district social-security pages.",
+      "hi": "तमिलनाडु राज्य की निर्धन विधवा पेंशन — 18+ वर्ष की निर्धन विधवाओं के लिए (लागू नियमों के अनुसार)।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu state Destitute Widow Pension for destitute widows aged 18+ (continuing until son attains 18 where applicable), with asset limits as on district social-security pages."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: destitute widow 18+ (up to her son attaining age 18); fixed assets < Rs.50,000; no supporting relative 18+ living together. Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: district NIC eligibility. Son-age cessation and destitute tests not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow proof",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai linked to https://oap.tn.gov.in/",
+      "hi": "https://oap.tn.gov.in/ से जुड़े CSC / e-Sevai के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai linked to https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "tamil-nadu",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-destitute-disabled-pension",
+    "scheme_name": {
+      "en": "Destitute Differently Abled Pension Scheme (Tamil Nadu)",
+      "hi": "निर्धन दिव्यांग पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Destitute Differently Abled Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu Destitute Differently Abled Pension for destitute persons with disability level 40% and above (age 18+, with collector relaxation possible for ages 1–18).",
+      "hi": "तमिलनाडु में 40% या अधिक दिव्यांगता वाले निर्धन व्यक्तियों के लिए दिव्यांग पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu Destitute Differently Abled Pension for destitute persons with disability level 40% and above (age 18+, with collector relaxation possible for ages 1–18)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: destitute; 18+ (age 1–18 with District Collector relaxation); disability 40%+; fixed assets < Rs.50,000; no supporting relative 18+ living together. Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: https://kanniyakumari.nic.in/social-security-schemes/ . Destitute/relative rules not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक दिव्यांग पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (UDID / medical)",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (UDID / medical)",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (UDID / medical)",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai OAP channel https://oap.tn.gov.in/",
+      "hi": "CSC / e-Sevai OAP चैनल https://oap.tn.gov.in/ से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai OAP channel https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes / Differently Abled Welfare, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "disability",
+      "tamil-nadu",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-deserted-wives-pension",
+    "scheme_name": {
+      "en": "Destitute / Deserted Wives Pension Scheme (Tamil Nadu)",
+      "hi": "निर्धन / परित्यक्ता पत्नी पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Destitute / Deserted Wives Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu pension for destitute women aged 30+ who are legally divorced or deserted for not less than 5 years (or have legal separation certificate), with asset limits as notified.",
+      "hi": "तमिलनाडु में 30+ वर्ष की निर्धन परित्यक्ता/तलाकशुदा महिलाओं के लिए पेंशन (कम से कम 5 वर्ष परित्याग या कानूनी अलगाव)।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu pension for destitute women aged 30+ who are legally divorced or deserted for not less than 5 years (or have legal separation certificate), with asset limits as notified."
+    },
+    "eligibility_rules": {
+      "min_age": 30,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "divorced",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: destitute 30+; legally divorced or deserted ≥5 years (or legal separation certificate); fixed assets < Rs.50,000; no supporting relative 18+; not begging. Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: district NIC. Five-year desertion / court certificate not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Divorce / desertion / court separation proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Divorce / desertion / court separation proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Divorce / desertion / court separation proof",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/",
+      "hi": "CSC / e-Sevai OAP https://oap.tn.gov.in/ से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "women",
+      "tamil-nadu",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-unmarried-women-pension",
+    "scheme_name": {
+      "en": "Unmarried Poor Women Pension (Tamil Nadu)",
+      "hi": "अविवाहित निर्धन महिला पेंशन (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Unmarried Poor Women Pension (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu pension for destitute unmarried women aged 50+ with asset limits as per Social Welfare G.O. referenced on district pages.",
+      "hi": "तमिलनाडु में 50+ वर्ष की निर्धन अविवाहित महिलाओं के लिए पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu pension for destitute unmarried women aged 50+ with asset limits as per Social Welfare G.O. referenced on district pages."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: destitute unmarried woman aged 50+; assets not more than Rs.50,000; no other income sources (G.O.(Ms).No.80 Social Welfare Dept. Dated 01.07.2008 cited). Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: https://kanniyakumari.nic.in/social-security-schemes/ . Destitute/asset tests not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried declaration / certificate",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried declaration / certificate",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried declaration / certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/",
+      "hi": "CSC / e-Sevai OAP https://oap.tn.gov.in/ से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "women",
+      "tamil-nadu",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Tamil Nadu)",
+      "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu IGNDPS for destitute BPL persons aged 18+ with disability level 80% and above, subject to asset and support rules on district social-security pages.",
+      "hi": "तमिलनाडु में 18+ वर्ष एवं 80%+ दिव्यांगता वाले निर्धन/बीपीएल व्यक्तियों के लिए राष्ट्रीय दिव्यांग पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu IGNDPS for destitute BPL persons aged 18+ with disability level 80% and above, subject to asset and support rules on district social-security pages."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC: 18+; destitute; BPL; disability 80%+; fixed assets < Rs.50,000; no supporting relative 18+. Amount cited Rs.1,000/month. Distinct from state Destitute Differently Abled Pension (40%).",
+      "verify_notes": "2026-09-16: district NIC. Destitute/relative rules not in wizard — verify=true.",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक दिव्यांग पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate 80%+",
+        "BPL / ration proof",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate 80%+",
+        "BPL / ration proof",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate 80%+",
+        "BPL / ration proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/",
+      "hi": "CSC / e-Sevai OAP https://oap.tn.gov.in/ से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CSC / e-Sevai OAP https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Commissioner of Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "disability",
+      "tamil-nadu",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tn-cmupt-oap",
+    "scheme_name": {
+      "en": "Chief Minister’s Uzhavar Pathukappu Thittam – Old Age Pension (Tamil Nadu)",
+      "hi": "मुख्यमंत्री उझवर पथुकाप्पु तिट्टम – वृद्धावस्था पेंशन (तमिलनाडु)",
+      "ml": "(EN — Malayalam review pending) Chief Minister’s Uzhavar Pathukappu Thittam – Old Age Pension (Tamil Nadu)"
+    },
+    "description": {
+      "en": "Tamil Nadu CMUPT old-age pension for destitute farmers aged 60+ whose names are enrolled under Chief Minister’s Uzhavar Pathukappu Thittam, with asset limits as on district pages.",
+      "hi": "तमिलनाडु मुख्यमंत्री उझवर पथुकाप्पु तिट्टम के अंतर्गत नामांकित 60+ वर्ष के निर्धन किसानों के लिए वृद्धावस्था पेंशन।",
+      "ml": "(EN — Malayalam review pending) Tamil Nadu CMUPT old-age pension for destitute farmers aged 60+ whose names are enrolled under Chief Minister’s Uzhavar Pathukappu Thittam, with asset limits as on district pages."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "agricultural_labour"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Kanniyakumari NIC CMUPT–OAP: 60+ incapacitated to earn; destitute; name enrolled in CMUPT; fixed assets < Rs.50,000; no supporting relative 18+. Amount cited Rs.1,000/month.",
+      "verify_notes": "2026-09-16: CMUPT enrolment required — not in wizard — verify=true. Source: kanniyakumari.nic.in/social-security-schemes/",
+      "states": [
+        "Tamil Nadu"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly CMUPT old-age pension via DBT (district page cites Rs.1,000 — confirm current rate).",
+      "hi": "मासिक CMUPT वृद्धावस्था पेंशन DBT (जिले के पृष्ठ पर ₹1,000 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly CMUPT old-age pension via DBT (district page cites Rs.1,000 — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "CMUPT enrolment proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "CMUPT enrolment proof",
+        "Age proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "CMUPT enrolment proof",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CMUPT / OAP back-office channels linked from https://oap.tn.gov.in/",
+      "hi": "https://oap.tn.gov.in/ से जुड़े CMUPT / OAP चैनलों के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CMUPT / OAP back-office channels linked from https://oap.tn.gov.in/"
+    },
+    "apply_url": "https://oap.tn.gov.in/",
+    "office_type": "Agriculture / Social Security Schemes, Tamil Nadu",
+    "official_source_url": "https://kanniyakumari.nic.in/social-security-schemes/",
+    "tags": [
+      "pension",
+      "elderly",
+      "farmer",
+      "tamil-nadu",
+      "cmupt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-sandhya-suraksha",
+    "scheme_name": {
+      "en": "Sandhya Suraksha Yojana (Karnataka Social Security Pension)",
+      "hi": "संध्या सुरक्षा योजना (कर्नाटक सामाजिक सुरक्षा पेंशन)",
+      "ml": "(EN — Malayalam review pending) Sandhya Suraksha Yojana (Karnataka Social Security Pension)"
+    },
+    "description": {
+      "en": "Karnataka Social Security Pension scheme Sandhya Suraksha for eligible elderly / notified vulnerable categories under the Directorate of Social Security and Pensions, applied via Nadakacheri / Gram One / CSC with status on DSSP.",
+      "hi": "कर्नाटक सामाजिक सुरक्षा निदेशालय के अंतर्गत संध्या सुरक्षा पेंशन — पात्र वृद्ध/अधिसूचित वर्गों के लिए DSSP / नडाकचेरी चैनल।",
+      "ml": "(EN — Malayalam review pending) Karnataka Social Security Pension scheme Sandhya Suraksha for eligible elderly / notified vulnerable categories under the Directorate of Social Security and Pensions, applied via Nadakacheri / Gram One / CSC with status on DSSP."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga / Vijayanagara district NIC as a core SSP scheme under Directorate of Social Security and Pensions. Exact income/occupation bands vary by GO — confirm on dssp.karnataka.gov.in / Seva Sindhu before treating as likely. Age encoded as 60+ as common old-age track; some worker categories may differ.",
+      "verify_notes": "2026-09-16: scheme existence and apply centres from https://chitradurga.nic.in/en/scheme/ssp-en/ and https://vijayanagara.nic.in/en/service/social-security-pensions/ . Detailed income ceilings not reliably OCR’d from Kannada PDFs — verify=true; implies_low_income soft gate only.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT under Karnataka SSP (amount revised by GO — confirm current rate on DSSP).",
+      "hi": "कर्नाटक SSP के अंतर्गत मासिक पेंशन DBT (वर्तमान दर DSSP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT under Karnataka SSP (amount revised by GO — confirm current rate on DSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Income certificate",
+        "Age proof",
+        "Residence proof",
+        "Bank / postal account book",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Income certificate",
+        "Age proof",
+        "Residence proof",
+        "Bank / postal account book",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Income certificate",
+        "Age proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Atalji Janasnehi Kendras (Nadakacheri), Gram One, Karnataka One or CSC. Status: https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "hi": "नडाकचेरी / Gram One / Karnataka One / CSC पर आवेदन करें। स्थिति: https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "ml": "(EN — Malayalam review pending) Apply at Atalji Janasnehi Kendras (Nadakacheri), Gram One, Karnataka One or CSC. Status: https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx"
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "pension",
+      "elderly",
+      "karnataka",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-widow-pension",
+    "scheme_name": {
+      "en": "Widow’s Pension Scheme (Karnataka SSP)",
+      "hi": "विधवा पेंशन योजना (कर्नाटक SSP)",
+      "ml": "(EN — Malayalam review pending) Widow’s Pension Scheme (Karnataka SSP)"
+    },
+    "description": {
+      "en": "Karnataka Social Security widow pension for eligible destitute / economically weaker widows, administered under DSSP and applied via Nadakacheri / CSC centres.",
+      "hi": "कर्नाटक सामाजिक सुरक्षा विधवा पेंशन — पात्र निर्धन विधवाओं के लिए DSSP चैनल।",
+      "ml": "(EN — Malayalam review pending) Karnataka Social Security widow pension for eligible destitute / economically weaker widows, administered under DSSP and applied via Nadakacheri / CSC centres."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga NIC SSP page (Widow’s Pension Scheme). Documents typically include income, residence, age proofs and bank/postal passbook. Confirm current age/income bands on DSSP / Seva Sindhu.",
+      "verify_notes": "2026-09-16: https://chitradurga.nic.in/en/scheme/ssp-en/ . Numeric income ceiling not published in English district summary — implies_low_income + verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension via DBT (confirm current amount on DSSP).",
+      "hi": "मासिक विधवा पेंशन DBT (वर्तमान राशि DSSP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension via DBT (confirm current amount on DSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Income certificate",
+        "Widow / death certificate",
+        "Residence proof",
+        "Age proof",
+        "Bank / postal account",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Income certificate",
+        "Widow / death certificate",
+        "Residence proof",
+        "Age proof",
+        "Bank / postal account",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Income certificate",
+        "Widow / death certificate",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Nadakacheri / Gram One / Karnataka One / CSC; track on https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "hi": "नडाकचेरी / Gram One / CSC पर आवेदन; स्थिति https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "ml": "(EN — Malayalam review pending) Apply at Nadakacheri / Gram One / Karnataka One / CSC; track on https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx"
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "karnataka",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-disability-pension",
+    "scheme_name": {
+      "en": "Disability Welfare Pension Scheme (Karnataka SSP)",
+      "hi": "दिव्यांग कल्याण पेंशन योजना (कर्नाटक SSP)",
+      "ml": "(EN — Malayalam review pending) Disability Welfare Pension Scheme (Karnataka SSP)"
+    },
+    "description": {
+      "en": "Karnataka Social Security disability pension for eligible persons with disability, with medical certificate and income/residence proofs, under DSSP.",
+      "hi": "कर्नाटक सामाजिक सुरक्षा दिव्यांग पेंशन — चिकित्सा प्रमाणपत्र एवं आय/निवास साक्ष्य के साथ DSSP।",
+      "ml": "(EN — Malayalam review pending) Karnataka Social Security disability pension for eligible persons with disability, with medical certificate and income/residence proofs, under DSSP."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga NIC as Disability Welfare Pension Scheme. Medical certificate required. Confirm current disability % bands and amounts on DSSP (state guidelines historically distinguish 40–75% vs 75%+).",
+      "verify_notes": "2026-09-16: https://chitradurga.nic.in/en/scheme/ssp-en/ . Exact %/amount tiers verify on DSSP — min_disability_percent=40 as lower published band; verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (amount depends on disability percentage band — confirm on DSSP).",
+      "hi": "मासिक दिव्यांग पेंशन DBT (दिव्यांगता प्रतिशत बैंड के अनुसार — DSSP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (amount depends on disability percentage band — confirm on DSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Medical / disability certificate",
+        "Income certificate",
+        "Residence proof",
+        "Age proof",
+        "Bank / postal account",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Medical / disability certificate",
+        "Income certificate",
+        "Residence proof",
+        "Age proof",
+        "Bank / postal account",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Medical / disability certificate",
+        "Income certificate",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Nadakacheri / Gram One / Karnataka One / CSC; status https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "hi": "नडाकचेरी / CSC पर आवेदन; स्थिति DSSP Beneficiary Status।",
+      "ml": "(EN — Malayalam review pending) Apply at Nadakacheri / Gram One / Karnataka One / CSC; status https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx"
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "pension",
+      "disability",
+      "karnataka",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Karnataka)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (कर्नाटक)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Karnataka)"
+    },
+    "description": {
+      "en": "Karnataka implementation of IGNOAPS under Social Security and Pensions for eligible elderly (commonly 60+), applied via Nadakacheri / CSC with DSSP tracking.",
+      "hi": "कर्नाटक में IGNOAPS — पात्र वृद्धजनों (सामान्यतः 60+) के लिए DSSP / नडाकचेरी चैनल।",
+      "ml": "(EN — Malayalam review pending) Karnataka implementation of IGNOAPS under Social Security and Pensions for eligible elderly (commonly 60+), applied via Nadakacheri / CSC with DSSP tracking."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed first on Chitradurga NIC SSP schemes table. Confirm BPL/income and current central+state amount on DSSP / NSAP.",
+      "verify_notes": "2026-09-16: https://chitradurga.nic.in/en/scheme/ssp-en/ ; https://vijayanagara.nic.in/en/service/social-security-pensions/ . implies_low_income soft gate; verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly old-age pension via DBT (central + state components as notified — confirm live rate).",
+      "hi": "मासिक वृद्धावस्था पेंशन DBT (केंद्र+राज्य घटक — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension via DBT (central + state components as notified — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income / BPL proof",
+        "Residence proof",
+        "Bank / postal account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Income / BPL proof",
+        "Residence proof",
+        "Bank / postal account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income / BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Nadakacheri / Gram One / Karnataka One / CSC; track https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+      "hi": "नडाकचेरी / CSC पर आवेदन; DSSP पर स्थिति जाँच।",
+      "ml": "(EN — Malayalam review pending) Apply at Nadakacheri / Gram One / Karnataka One / CSC; track https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx"
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "pension",
+      "elderly",
+      "karnataka",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-manaswini",
+    "scheme_name": {
+      "en": "Manaswini Yojana (Karnataka SSP)",
+      "hi": "मनस्विनी योजना (कर्नाटक SSP)",
+      "ml": "(EN — Malayalam review pending) Manaswini Yojana (Karnataka SSP)"
+    },
+    "description": {
+      "en": "Karnataka Social Security Manaswini pension for eligible unmarried women in notified age bands under DSSP (district SSP listings).",
+      "hi": "कर्नाटक सामाजिक सुरक्षा मनस्विनी पेंशन — अधिसूचित आयु वर्ग की पात्र अविवाहित महिलाओं के लिए।",
+      "ml": "(EN — Malayalam review pending) Karnataka Social Security Manaswini pension for eligible unmarried women in notified age bands under DSSP (district SSP listings)."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 60,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga NIC SSP page (Manaswini Yojana). Age band commonly cited 40–60 for unmarried women — confirm live GO on DSSP before treating as certain.",
+      "verify_notes": "2026-09-16: scheme listed at https://chitradurga.nic.in/en/scheme/ssp-en/ . Age band encoded from SSP guideline materials linked on the same page; re-verify on DSSP — verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly Manaswini pension via DBT (confirm current amount on DSSP).",
+      "hi": "मासिक मनस्विनी पेंशन DBT (वर्तमान राशि DSSP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Manaswini pension via DBT (confirm current amount on DSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried certificate",
+        "Income certificate",
+        "Bank / postal account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried certificate",
+        "Income certificate",
+        "Bank / postal account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Unmarried certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Nadakacheri / Gram One / Karnataka One / CSC; status on DSSP Beneficiary Status.",
+      "hi": "नडाकचेरी / CSC पर आवेदन; DSSP Beneficiary Status पर जाँच।",
+      "ml": "(EN — Malayalam review pending) Apply at Nadakacheri / Gram One / Karnataka One / CSC; status on DSSP Beneficiary Status."
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "pension",
+      "women",
+      "karnataka",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Karnataka)",
+      "hi": "राष्ट्रीय परिवार लाभ योजना (कर्नाटक)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Karnataka)"
+    },
+    "description": {
+      "en": "Karnataka delivery of National Family Benefit Scheme (one-time assistance on death of primary breadwinner in eligible BPL households) under Social Security and Pensions.",
+      "hi": "कर्नाटक में राष्ट्रीय परिवार लाभ योजना — पात्र बीपीएल परिवार में मुख्य कमाने वाले की मृत्यु पर एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) Karnataka delivery of National Family Benefit Scheme (one-time assistance on death of primary breadwinner in eligible BPL households) under Social Security and Pensions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga NIC SSP table as National Family Assistance Scheme and on Vijayanagara NIC as NFBS. Confirm age-of-deceased and amount on DSSP / NSAP.",
+      "verify_notes": "2026-09-16: https://chitradurga.nic.in/en/scheme/ssp-en/ ; https://vijayanagara.nic.in/en/service/social-security-pensions/ . Death-of-breadwinner event not in wizard — verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time family benefit as notified under NFBS (confirm current amount on DSSP / NSAP).",
+      "hi": "NFBS के अंतर्गत अधिसूचित एकमुश्त पारिवारिक लाभ (वर्तमान राशि DSSP/NSAP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time family benefit as notified under NFBS (confirm current amount on DSSP / NSAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of breadwinner",
+        "BPL / income proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Death certificate of breadwinner",
+        "BPL / income proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Death certificate of breadwinner",
+        "BPL / income proof",
+        "Aadhaar of claimant"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Nadakacheri / CSC under SSP; track on DSSP.",
+      "hi": "SSP के अंतर्गत नडाकचेरी / CSC पर आवेदन; DSSP पर ट्रैक करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Nadakacheri / CSC under SSP; track on DSSP."
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "family-benefit",
+      "bpl",
+      "karnataka",
+      "nsap"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ka-adarsha-vivaha",
+    "scheme_name": {
+      "en": "Adarsha Vivaha Yojana (Karnataka SSP)",
+      "hi": "आदर्श विवाह योजना (कर्नाटक SSP)",
+      "ml": "(EN — Malayalam review pending) Adarsha Vivaha Yojana (Karnataka SSP)"
+    },
+    "description": {
+      "en": "Karnataka Social Security Adarsha / Ideal Wedding assistance listed under district SSP schemes for eligible couples meeting notified social-security criteria.",
+      "hi": "कर्नाटक सामाजिक सुरक्षा आदर्श विवाह सहायता — जिले की SSP सूची में अधिसूचित पात्र जोड़ों के लिए।",
+      "ml": "(EN — Malayalam review pending) Karnataka Social Security Adarsha / Ideal Wedding assistance listed under district SSP schemes for eligible couples meeting notified social-security criteria."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Chitradurga NIC as Adarsh Vivah Yojana and Vijayanagara as Ideal Wedding planning under SSP. Confirm caste/income/age rules on DSSP before applying.",
+      "verify_notes": "2026-09-16: scheme listed on official district NIC SSP pages; detailed eligibility not fully in English summary — verify=true.",
+      "states": [
+        "Karnataka"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Marriage assistance as notified under Adarsha Vivaha (confirm current grant on DSSP).",
+      "hi": "आदर्श विवाह के अंतर्गत अधिसूचित विवाह सहायता (वर्तमान अनुदान DSSP पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Marriage assistance as notified under Adarsha Vivaha (confirm current grant on DSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proofs of bride/groom",
+        "Income certificate",
+        "Marriage invitation / registration as required",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proofs of bride/groom",
+        "Income certificate",
+        "Marriage invitation / registration as required",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proofs of bride/groom",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Nadakacheri / CSC under SSP; see https://chitradurga.nic.in/en/scheme/ssp-en/",
+      "hi": "SSP के अंतर्गत नडाकचेरी / CSC पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Nadakacheri / CSC under SSP; see https://chitradurga.nic.in/en/scheme/ssp-en/"
+    },
+    "apply_url": "https://dssp.karnataka.gov.in/dssp/Beneficiary_Status.aspx",
+    "office_type": "Directorate of Social Security and Pensions, Karnataka",
+    "official_source_url": "https://chitradurga.nic.in/en/scheme/ssp-en/",
+    "tags": [
+      "marriage",
+      "women",
+      "karnataka",
+      "ssp"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-sanjay-gandhi-niradhar",
+    "scheme_name": {
+      "en": "Sanjay Gandhi Niradhar Anudan Yojana (Maharashtra)",
+      "hi": "संजय गांधी निराधार अनुदान योजना (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Sanjay Gandhi Niradhar Anudan Yojana (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra Social Justice monthly assistance (Rs.1,500) for destitute persons aged 18–65 and other notified vulnerable categories (widows, disabled, orphaned children, unmarried women 35+, etc.) whose name is on the BPL list or whose family annual income is up to Rs.21,000.",
+      "hi": "महाराष्ट्र सामाजिक न्याय विभाग की संजय गांधी निराधार अनुदान — पात्र निराधार/बीपीएल व्यक्तियों को प्रति माह ₹1,500।",
+      "ml": "(EN — Malayalam review pending) Maharashtra Social Justice monthly assistance (Rs.1,500) for destitute persons aged 18–65 and other notified vulnerable categories (widows, disabled, orphaned children, unmarried women 35+, etc.) whose name is on the BPL list or whose family annual income is up to Rs.21,000."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 65,
+      "max_annual_income": 21000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJSA page: eligible groups include destitute men/women 18–65, orphaned children, all disabled categories, persons with severe illness (TB/cancer/AIDS/leprosy), destitute widows, divorced/women in divorce proceedings without alimony, abuse survivors, transgender, Devadasis, unmarried women 35+, wives of prisoners, sickle-cell patients. BPL list OR family annual income up to Rs.21,000. Benefit Rs.1,500/month. Portal noted: sas.mahait.org; applications also via Collector/Tehsildar/Talathi; MahaDBT 2.0 migration notified for related pensions.",
+      "verify_notes": "2026-09-16: https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/ . Broad category list not fully encoded — age/income/BPL used as primary gates; verify=true.",
+      "states": [
+        "Maharashtra"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,500 per month financial assistance (as published on SJSA page).",
+      "hi": "प्रति माह ₹1,500 वित्तीय सहायता (SJSA पृष्ठ पर प्रकाशित)।",
+      "ml": "(EN — Malayalam review pending) Rs.1,500 per month financial assistance (as published on SJSA page)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL / income proof",
+        "Age proof",
+        "Category-specific certificates (widow/disability/illness as applicable)",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL / income proof",
+        "Age proof",
+        "Category-specific certificates (widow/disability/illness as applicable)",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL / income proof",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at District Collector / Tehsildar / Talathi (Sanjay Gandhi branch). See https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/ ; MahaDBT channels as notified.",
+      "hi": "जिला कलेक्टर / तहसीलदार / तलाठी कार्यालय में आवेदन करें; SJSA पृष्ठ देखें।",
+      "ml": "(EN — Malayalam review pending) Apply at District Collector / Tehsildar / Talathi (Sanjay Gandhi branch). See https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/ ; MahaDBT channels as notified."
+    },
+    "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/",
+    "office_type": "Social Justice & Special Assistance Department, Maharashtra",
+    "official_source_url": "https://sjsa.maharashtra.gov.in/en/scheme/sanjay-gandhi-niradhar-anudan-yojana/",
+    "tags": [
+      "pension",
+      "bpl",
+      "maharashtra",
+      "dbt",
+      "disability",
+      "widow"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-shravanbal-pension",
+    "scheme_name": {
+      "en": "Shravan Bal Seva Rajya Nivruttivetan Yojana (Maharashtra)",
+      "hi": "श्रवण बाल सेवा राज्य निवृत्तिवेतन योजना (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Shravan Bal Seva Rajya Nivruttivetan Yojana (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra state old-age pension (Shravanbal Seva) of Rs.1,500 per month for elderly aged 65+ on the BPL list or with annual income less than Rs.21,000.",
+      "hi": "महाराष्ट्र श्रवणबाल सेवा राज्य पेंशन — 65+ वर्ष के बीपीएल/कम आय वृद्धजनों को प्रति माह ₹1,500।",
+      "ml": "(EN — Malayalam review pending) Maharashtra state old-age pension (Shravanbal Seva) of Rs.1,500 per month for elderly aged 65+ on the BPL list or with annual income less than Rs.21,000."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": 21000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJSA: elderly 65+; BPL list OR annual income < Rs.21,000; benefit Rs.1,500/month. Apply via Collector/Tehsildar/Talathi. Often paired with IGNOAPS central share for overlapping beneficiaries.",
+      "verify_notes": "2026-09-16: https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/ . Income ceiling published — encoded. Keep verify=true for BPL-list vs income path and MahaDBT migration.",
+      "states": [
+        "Maharashtra"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,500 per month (as published on SJSA page).",
+      "hi": "प्रति माह ₹1,500 (SJSA पृष्ठ पर प्रकाशित)।",
+      "ml": "(EN — Malayalam review pending) Rs.1,500 per month (as published on SJSA page)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Collector / Tehsildar / Talathi office (Sanjay Gandhi–Shravanbal branch). Official page: https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/",
+      "hi": "कलेक्टर / तहसीलदार / तलाठी कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Collector / Tehsildar / Talathi office (Sanjay Gandhi–Shravanbal branch). Official page: https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/"
+    },
+    "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/",
+    "office_type": "Social Justice & Special Assistance Department, Maharashtra",
+    "official_source_url": "https://sjsa.maharashtra.gov.in/en/scheme/shravan-bal-rajya-nivruttivetan-yojana/",
+    "tags": [
+      "pension",
+      "elderly",
+      "maharashtra",
+      "bpl",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Maharashtra)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra IGNOAPS for BPL elderly aged 65+, with central contribution topped up under Shravanbal so total assistance is Rs.1,500 per month as published on SJSA.",
+      "hi": "महाराष्ट्र में IGNOAPS — 65+ बीपीएल वृद्धजन; केंद्र+श्रवणबाल टॉप-अप से कुल ₹1,500/माह (SJSA)।",
+      "ml": "(EN — Malayalam review pending) Maharashtra IGNOAPS for BPL elderly aged 65+, with central contribution topped up under Shravanbal so total assistance is Rs.1,500 per month as published on SJSA."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJSA IGNOAPS: BPL elderly 65+. Central: Rs.200 (65–79) / Rs.500 (80+); state Shravanbal top-up yields total Rs.1,500/month. Apply via Collector/Tehsildar/Talathi.",
+      "verify_notes": "2026-09-16: https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ . Overlaps operationally with mh-shravanbal-pension — both retained as official listings. implies_low_income (BPL without separate rupee ceiling on this page).",
+      "states": [
+        "Maharashtra"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Total Rs.1,500 per month combining central IGNOAPS and state Shravanbal components (as on SJSA page).",
+      "hi": "केंद्र IGNOAPS + राज्य श्रवणबाल मिलाकर कुल ₹1,500 प्रति माह (SJSA)।",
+      "ml": "(EN — Malayalam review pending) Total Rs.1,500 per month combining central IGNOAPS and state Shravanbal components (as on SJSA page)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Collector / Tehsildar / Talathi. See https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+      "hi": "कलेक्टर / तहसीलदार / तलाठी कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Collector / Tehsildar / Talathi. See https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/"
+    },
+    "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+    "office_type": "Social Justice & Special Assistance Department, Maharashtra",
+    "official_source_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+    "tags": [
+      "pension",
+      "elderly",
+      "maharashtra",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Maharashtra)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra IGNWPS for BPL widows aged 40–79, with central Rs.300 plus state Sanjay Gandhi top-up of Rs.1,200 (total Rs.1,500/month) as published on SJSA.",
+      "hi": "महाराष्ट्र में IGNWPS — 40–79 वर्ष की बीपीएल विधवाओं को केंद्र+संजय गांधी टॉप-अप से कुल ₹1,500/माह।",
+      "ml": "(EN — Malayalam review pending) Maharashtra IGNWPS for BPL widows aged 40–79, with central Rs.300 plus state Sanjay Gandhi top-up of Rs.1,200 (total Rs.1,500/month) as published on SJSA."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJSA: widow 40–79; BPL family; central Rs.300 + Sanjay Gandhi Rs.1,200 = Rs.1,500/month total.",
+      "verify_notes": "2026-09-16: https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/ . implies_low_income for BPL; verify=true.",
+      "states": [
+        "Maharashtra"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Total Rs.1,500 per month (central IGNWPS + Sanjay Gandhi state share) as on SJSA page.",
+      "hi": "कुल ₹1,500 प्रति माह (केंद्र IGNWPS + संजय गांधी राज्य हिस्सा)।",
+      "ml": "(EN — Malayalam review pending) Total Rs.1,500 per month (central IGNWPS + Sanjay Gandhi state share) as on SJSA page."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / spouse death certificate",
+        "Age proof",
+        "BPL proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / spouse death certificate",
+        "Age proof",
+        "BPL proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / spouse death certificate",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Collector / Tehsildar / Talathi (Sanjay Gandhi branch). https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/",
+      "hi": "कलेक्टर / तहसीलदार / तलाठी कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Collector / Tehsildar / Talathi (Sanjay Gandhi branch). https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/"
+    },
+    "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/",
+    "office_type": "Social Justice & Special Assistance Department, Maharashtra",
+    "official_source_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-widow-pension-scheme/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "maharashtra",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Maharashtra)",
+      "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra IGNDPS for persons with disability aged 18–79, with central Rs.300 plus Sanjay Gandhi state top-up of Rs.1,200 (total Rs.1,500/month) as published on SJSA.",
+      "hi": "महाराष्ट्र में IGNDPS — 18–79 वर्ष के दिव्यांग व्यक्तियों को केंद्र+संजय गांधी से कुल ₹1,500/माह।",
+      "ml": "(EN — Malayalam review pending) Maharashtra IGNDPS for persons with disability aged 18–79, with central Rs.300 plus Sanjay Gandhi state top-up of Rs.1,200 (total Rs.1,500/month) as published on SJSA."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJSA: disabled person aged 18–79; central Rs.300 + Sanjay Gandhi Rs.1,200 = Rs.1,500/month. Disability percentage / BPL linkage — confirm live NSAP/SJSA practice.",
+      "verify_notes": "2026-09-16: https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/ . Page does not state % disability — verify=true; implies_low_income retained as NSAP-style destitute track.",
+      "states": [
+        "Maharashtra"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Total Rs.1,500 per month (central IGNDPS + Sanjay Gandhi state share) as on SJSA page.",
+      "hi": "कुल ₹1,500 प्रति माह (केंद्र IGNDPS + संजय गांधी राज्य हिस्सा)।",
+      "ml": "(EN — Malayalam review pending) Total Rs.1,500 per month (central IGNDPS + Sanjay Gandhi state share) as on SJSA page."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof",
+        "BPL / income proof as required",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof",
+        "BPL / income proof as required",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Collector / Tehsildar / Talathi. https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/",
+      "hi": "कलेक्टर / तहसीलदार / तलाठी कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Collector / Tehsildar / Talathi. https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/"
+    },
+    "apply_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/",
+    "office_type": "Social Justice & Special Assistance Department, Maharashtra",
+    "official_source_url": "https://sjsa.maharashtra.gov.in/en/scheme/indira-gandhi-national-disability-pension-scheme/",
+    "tags": [
+      "pension",
+      "disability",
+      "maharashtra",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mh-mahadbt-scholarships",
+    "scheme_name": {
+      "en": "Post-Matric / Pre-Matric Scholarships via MahaDBT (Maharashtra)",
+      "hi": "मैट्रिकोत्तर / मैट्रिकपूर्व छात्रवृत्ति – MahaDBT (महाराष्ट्र)",
+      "ml": "(EN — Malayalam review pending) Post-Matric / Pre-Matric Scholarships via MahaDBT (Maharashtra)"
+    },
+    "description": {
+      "en": "Maharashtra Social Justice scholarships (post-matric and pre-matric clusters) for eligible SC/other notified category students, applied through the MahaDBT portal as notified by the department.",
+      "hi": "महाराष्ट्र सामाजिक न्याय विभाग की मैट्रिकपूर्व/मैट्रिकोत्तर छात्रवृत्तियाँ — पात्र छात्रों के लिए MahaDBT पोर्टल।",
+      "ml": "(EN — Malayalam review pending) Maharashtra Social Justice scholarships (post-matric and pre-matric clusters) for eligible SC/other notified category students, applied through the MahaDBT portal as notified by the department."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST",
+        "OBC"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SJSA / MahaDBT host large clusters of pre-matric and post-matric scholarships. Exact income ceilings and category lists differ by scheme code — confirm on MahaDBT before applying. From June 2026 applications via MahaDBT 2.0 as notified.",
+      "verify_notes": "2026-09-16: portal https://mahadbt.maharashtra.gov.in/ and SJSA education scheme listings. Category/income not single-valued — verify=true.",
+      "states": [
+        "Maharashtra"
+      ]
+    },
+    "benefits": {
+      "en": "Scholarship / fee reimbursement as per the specific MahaDBT scheme code selected (confirm live rates).",
+      "hi": "चयनित MahaDBT योजना कोड के अनुसार छात्रवृत्ति / शुल्क प्रतिपूर्ति (वर्तमान दरें सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Scholarship / fee reimbursement as per the specific MahaDBT scheme code selected (confirm live rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate",
+        "School / college enrolment",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate",
+        "School / college enrolment",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on https://mahadbt.maharashtra.gov.in/ for the relevant pre-/post-matric scheme.",
+      "hi": "संबंधित मैट्रिकपूर्व/मैट्रिकोत्तर योजना के लिए https://mahadbt.maharashtra.gov.in/ पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply on https://mahadbt.maharashtra.gov.in/ for the relevant pre-/post-matric scheme."
+    },
+    "apply_url": "https://mahadbt.maharashtra.gov.in/Home/Index",
+    "office_type": "Social Justice & Special Assistance Department / MahaDBT, Maharashtra",
+    "official_source_url": "https://mahadbt.maharashtra.gov.in/Home/Index",
+    "tags": [
+      "education",
+      "scholarship",
+      "maharashtra",
+      "student",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-rupashree",
+    "scheme_name": {
+      "en": "Rupashree Prakalpa (West Bengal)",
+      "hi": "रुपाश्री प्रकल्प (पश्चिम बंगाल)",
+      "ml": "(EN — Malayalam review pending) Rupashree Prakalpa (West Bengal)"
+    },
+    "description": {
+      "en": "West Bengal one-time marriage grant of Rs.25,000 for eligible unmarried women aged 18+ whose family income is not greater than Rs.1.50 lakh per year, with groom aged 21+ and first marriage, per district NIC eligibility pages.",
+      "hi": "पश्चिम बंगाल रुपाश्री — पात्र अविवाहित महिलाओं (18+) को विवाह हेतु एकमुश्त ₹25,000; पारिवारिक आय अधिकतम ₹1.50 लाख/वर्ष।",
+      "ml": "(EN — Malayalam review pending) West Bengal one-time marriage grant of Rs.25,000 for eligible unmarried women aged 18+ whose family income is not greater than Rs.1.50 lakh per year, with groom aged 21+ and first marriage, per district NIC eligibility pages."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Malda / South 24 Parganas district NIC: applicant 18+; unmarried on application date; first marriage; born in WB OR resident 5 years (or parents permanent residents); family income ≤ Rs.1.50 lakh/year; prospective groom ≥21; sole-holder NEFT bank account. Benefit Rs.25,000 one-time. Apply via BDO/SDO / wbrupashree.gov.in.",
+      "verify_notes": "2026-09-16: https://malda.gov.in/rupashree-prakalpa/ and https://s24pgs.gov.in/rupashree-prakalpa/ . Residency/groom-age nuances — verify=true.",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    "benefits": {
+      "en": "One-time grant of Rs.25,000 at the time of marriage (as published on district NIC / CM scheme summaries).",
+      "hi": "विवाह के समय एकमुश्त ₹25,000 अनुदान।",
+      "ml": "(EN — Malayalam review pending) One-time grant of Rs.25,000 at the time of marriage (as published on district NIC / CM scheme summaries)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate",
+        "Unmarried declaration",
+        "Groom age proof",
+        "Sole-holder bank account with IFSC/MICR",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate",
+        "Unmarried declaration",
+        "Groom age proof",
+        "Sole-holder bank account with IFSC/MICR",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Collect form free from BDO (rural) / SDO (municipal) or apply via https://wbrupashree.gov.in/ as guided locally.",
+      "hi": "BDO/SDO कार्यालय से निःशुल्क फॉर्म लें या स्थानीय मार्गदर्शन से https://wbrupashree.gov.in/ पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Collect form free from BDO (rural) / SDO (municipal) or apply via https://wbrupashree.gov.in/ as guided locally."
+    },
+    "apply_url": "https://wbrupashree.gov.in/",
+    "office_type": "Department of Women and Child Development and Social Welfare, West Bengal",
+    "official_source_url": "https://malda.gov.in/rupashree-prakalpa/",
+    "tags": [
+      "women",
+      "marriage",
+      "west-bengal",
+      "girl-child",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-taposili-bandhu",
+    "scheme_name": {
+      "en": "Taposili Bandhu Pension (Jai Bangla) – West Bengal",
+      "hi": "तपोशिलि बंधु पेंशन (जय बांग्ला) – पश्चिम बंगाल",
+      "ml": "(EN — Malayalam review pending) Taposili Bandhu Pension (Jai Bangla) – West Bengal"
+    },
+    "description": {
+      "en": "West Bengal Jai Bangla pension for Scheduled Caste senior citizens aged 60+ who are ordinary residents and not receiving any other social-security or government pension; Rs.1,000 per month.",
+      "hi": "पश्चिम बंगाल जय बांग्ला – अनुसूचित जाति वरिष्ठ नागरिक (60+) के लिए तपोशिलि बंधु पेंशन ₹1,000/माह।",
+      "ml": "(EN — Malayalam review pending) West Bengal Jai Bangla pension for Scheduled Caste senior citizens aged 60+ who are ordinary residents and not receiving any other social-security or government pension; Rs.1,000 per month."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Bankura / Paschim Bardhaman NIC: under Jai Bangla 2020 — Taposili Bandhu for SC. Eligibility: age 60+ (as on 01.01.2020 on older pages; confirm current age cut-off); ordinary resident of WB; not beneficiary of any other SSP / government pension. Benefit Rs.1,000/month. Apply at concerned BDO. Track: jaibangla.wb.gov.in.",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/ . Age-as-on-2020 wording may be historical — verify=true.",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.1,000 via Jai Bangla channels (confirm current rate).",
+      "hi": "जय बांग्ला चैनल से मासिक पेंशन ₹1,000 (वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.1,000 via Jai Bangla channels (confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Caste certificate (SC)",
+        "Residence proof",
+        "Bank account",
+        "Non-receipt of other pension declaration"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Caste certificate (SC)",
+        "Residence proof",
+        "Bank account",
+        "Non-receipt of other pension declaration"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Caste certificate (SC)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at concerned Block Development Officer; track on https://jaibangla.wb.gov.in/",
+      "hi": "संबंधित BDO कार्यालय में आवेदन; https://jaibangla.wb.gov.in/ पर ट्रैक करें।",
+      "ml": "(EN — Malayalam review pending) Apply at concerned Block Development Officer; track on https://jaibangla.wb.gov.in/"
+    },
+    "apply_url": "https://jaibangla.wb.gov.in/",
+    "office_type": "Department of Women and Child Development and Social Welfare / Jai Bangla, West Bengal",
+    "official_source_url": "https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/",
+    "tags": [
+      "pension",
+      "elderly",
+      "sc",
+      "west-bengal",
+      "jai-bangla"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-jai-johar",
+    "scheme_name": {
+      "en": "Jai Johar Pension (Jai Bangla) – West Bengal",
+      "hi": "जय जोहार पेंशन (जय बांग्ला) – पश्चिम बंगाल",
+      "ml": "(EN — Malayalam review pending) Jai Johar Pension (Jai Bangla) – West Bengal"
+    },
+    "description": {
+      "en": "West Bengal Jai Bangla pension for Scheduled Tribe senior citizens aged 60+ who are ordinary residents and not receiving any other social-security or government pension; Rs.1,000 per month.",
+      "hi": "पश्चिम बंगाल जय बांग्ला – अनुसूचित जनजाति वरिष्ठ नागरिक (60+) के लिए जय जोहार पेंशन ₹1,000/माह।",
+      "ml": "(EN — Malayalam review pending) West Bengal Jai Bangla pension for Scheduled Tribe senior citizens aged 60+ who are ordinary residents and not receiving any other social-security or government pension; Rs.1,000 per month."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "ST"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Same Jai Bangla page as Taposili Bandhu: Jai Johar for ST; age 60+; ordinary resident; not on other SSP/govt pension; Rs.1,000/month; apply at BDO.",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/ . verify=true for age cut-off currency.",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.1,000 via Jai Bangla channels (confirm current rate).",
+      "hi": "जय बांग्ला चैनल से मासिक पेंशन ₹1,000 (वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.1,000 via Jai Bangla channels (confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Caste / ST certificate",
+        "Residence proof",
+        "Bank account",
+        "Non-receipt of other pension declaration"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Caste / ST certificate",
+        "Residence proof",
+        "Bank account",
+        "Non-receipt of other pension declaration"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Caste / ST certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at concerned BDO; track https://jaibangla.wb.gov.in/",
+      "hi": "संबंधित BDO में आवेदन; https://jaibangla.wb.gov.in/ पर ट्रैक।",
+      "ml": "(EN — Malayalam review pending) Apply at concerned BDO; track https://jaibangla.wb.gov.in/"
+    },
+    "apply_url": "https://jaibangla.wb.gov.in/",
+    "office_type": "Department of Women and Child Development and Social Welfare / Jai Bangla, West Bengal",
+    "official_source_url": "https://bankura.gov.in/scheme/taposili-bandu-jai-johar-under-jai-bangla-prakalpa/",
+    "tags": [
+      "pension",
+      "elderly",
+      "st",
+      "west-bengal",
+      "jai-bangla"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-manabik",
+    "scheme_name": {
+      "en": "Manabik Pension Scheme (West Bengal)",
+      "hi": "मानबिक पेंशन योजना (पश्चिम बंगाल)",
+      "ml": "(EN — Malayalam review pending) Manabik Pension Scheme (West Bengal)"
+    },
+    "description": {
+      "en": "West Bengal Manabik disability pension of Rs.1,000 per month for persons with disability certificate of at least 50%, with no upper age limit, applied via BDO (rural) / SDO (municipal).",
+      "hi": "पश्चिम बंगाल मानबिक दिव्यांग पेंशन — कम से कम 50% दिव्यांगता प्रमाणपत्र पर ₹1,000/माह; ऊपरी आयु सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) West Bengal Manabik disability pension of Rs.1,000 per month for persons with disability certificate of at least 50%, with no upper age limit, applied via BDO (rural) / SDO (municipal)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 50,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Bankura NIC Manobik form page: monthly Rs.1,000; disability certificate must be 50%; no upper age limit; income certificate via BDO (rural) / SDO (municipality). Also listed on CM WB scheme master as Manabik Pension (WCD & Social Welfare).",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/form/manobik-form/ . Income threshold not numeric on form page — verify=true.",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.1,000 (as on Bankura NIC Manobik form page).",
+      "hi": "मासिक पेंशन ₹1,000 (बाँकुड़ा NIC मानबिक फॉर्म पृष्ठ)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.1,000 (as on Bankura NIC Manobik form page)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (≥50%)",
+        "Income certificate",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (≥50%)",
+        "Income certificate",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (≥50%)",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with Manobik form at BDO (rural) or SDO (municipality). See https://bankura.gov.in/form/manobik-form/",
+      "hi": "मानबिक फॉर्म के साथ BDO (ग्रामीण) या SDO (नगर) में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply with Manobik form at BDO (rural) or SDO (municipality). See https://bankura.gov.in/form/manobik-form/"
+    },
+    "apply_url": "https://jaibangla.wb.gov.in/",
+    "office_type": "Women and Child Development and Social Welfare Department, West Bengal",
+    "official_source_url": "https://bankura.gov.in/form/manobik-form/",
+    "tags": [
+      "pension",
+      "disability",
+      "west-bengal",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-st-old-age-pension",
+    "scheme_name": {
+      "en": "ST Old Age Pension (West Bengal)",
+      "hi": "अनुसूचित जनजाति वृद्धावस्था पेंशन (पश्चिम बंगाल)",
+      "ml": "(EN — Malayalam review pending) ST Old Age Pension (West Bengal)"
+    },
+    "description": {
+      "en": "West Bengal ST Old Age Pension for BPL Scheduled Tribe persons aged 60+, with monthly pension Rs.1,000 as published on Bankura district NIC.",
+      "hi": "पश्चिम बंगाल ST वृद्धावस्था पेंशन — 60+ बीपीएल अनुसूचित जनजाति व्यक्तियों को ₹1,000/माह।",
+      "ml": "(EN — Malayalam review pending) West Bengal ST Old Age Pension for BPL Scheduled Tribe persons aged 60+, with monthly pension Rs.1,000 as published on Bankura district NIC."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "ST",
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Bankura NIC: age 60+; BPL category ST male/female; benefit Rs.1,000/month; apply at concerned office as listed.",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/scheme/st-old-age-pension/ . May overlap with Jai Johar for some beneficiaries — verify local sanctioning — verify=true.",
+      "states": [
+        "West Bengal"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.1,000 (Bankura NIC).",
+      "hi": "मासिक पेंशन ₹1,000 (बाँकुड़ा NIC)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.1,000 (Bankura NIC)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "ST certificate",
+        "BPL proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "ST certificate",
+        "BPL proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "ST certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply as directed on https://bankura.gov.in/scheme/st-old-age-pension/ (district social welfare / BDO channels).",
+      "hi": "बाँकुड़ा NIC पृष्ठ / BDO सामाजिक कल्याण चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply as directed on https://bankura.gov.in/scheme/st-old-age-pension/ (district social welfare / BDO channels)."
+    },
+    "apply_url": "https://bankura.gov.in/scheme/st-old-age-pension/",
+    "office_type": "District Social Welfare / BCW, West Bengal",
+    "official_source_url": "https://bankura.gov.in/scheme/st-old-age-pension/",
+    "tags": [
+      "pension",
+      "elderly",
+      "st",
+      "west-bengal",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-sc-girl-meritorious-assist",
+    "scheme_name": {
+      "en": "Additional Financial Assistance to SC/ST Meritorious Girl Students (Classes V–X) – West Bengal",
+      "hi": "अनुसूचित जाति/जनजाति मेधावी बालिकाओं को अतिरिक्त वित्तीय सहायता (कक्षा V–X) – पश्चिम बंगाल",
+      "ml": "(EN — Malayalam review pending) Additional Financial Assistance to SC/ST Meritorious Girl Students (Classes V–X) – West Bengal"
+    },
+    "description": {
+      "en": "West Bengal district-listed additional financial assistance benefit for SC/ST poor meritorious girl students reading in Classes V–X (Bankura NIC scheme page).",
+      "hi": "पश्चिम बंगाल में कक्षा V–X की SC/ST निर्धन मेधावी बालिकाओं के लिए अतिरिक्त वित्तीय सहायता (जिला NIC)।",
+      "ml": "(EN — Malayalam review pending) West Bengal district-listed additional financial assistance benefit for SC/ST poor meritorious girl students reading in Classes V–X (Bankura NIC scheme page)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Bankura district NIC schemes index: Additional financial assistance benefit to SC/ST poor meritorious girl students reading in Class V–X. Confirm current marks/income thresholds on the scheme page / BCW office.",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/scheme/additional-financial-assistance-benefit-to-sc-st-poor-meritorious-girl-students-reading-in-class-v-x/ . Detailed marks/income not extracted in English blurb — verify=true.",
+      "states": [
+        "West Bengal"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Additional financial assistance as notified for meritorious SC/ST girl students (confirm amount locally).",
+      "hi": "मेधावी SC/ST बालिकाओं के लिए अधिसूचित अतिरिक्त वित्तीय सहायता (स्थानीय रूप से राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Additional financial assistance as notified for meritorious SC/ST girl students (confirm amount locally)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate",
+        "School enrolment / mark sheet",
+        "Income / BPL proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste certificate",
+        "School enrolment / mark sheet",
+        "Income / BPL proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste certificate",
+        "School enrolment / mark sheet"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via district BCW / school channels listed on the Bankura NIC scheme page.",
+      "hi": "बाँकुड़ा NIC योजना पृष्ठ पर सूचीबद्ध जिला BCW / स्कूल चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via district BCW / school channels listed on the Bankura NIC scheme page."
+    },
+    "apply_url": "https://bankura.gov.in/scheme/additional-financial-assistance-benefit-to-sc-st-poor-meritorious-girl-students-reading-in-class-v-x/",
+    "office_type": "Backward Classes Welfare Department, West Bengal",
+    "official_source_url": "https://bankura.gov.in/scheme/additional-financial-assistance-benefit-to-sc-st-poor-meritorious-girl-students-reading-in-class-v-x/",
+    "tags": [
+      "education",
+      "scholarship",
+      "women",
+      "sc",
+      "st",
+      "west-bengal"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "wb-pre-matric-obc-scholarship",
+    "scheme_name": {
+      "en": "Pre-Matric OBC Scholarship (West Bengal)",
+      "hi": "मैट्रिकपूर्व ओबीसी छात्रवृत्ति (पश्चिम बंगाल)",
+      "ml": "(EN — Malayalam review pending) Pre-Matric OBC Scholarship (West Bengal)"
+    },
+    "description": {
+      "en": "West Bengal pre-matric scholarship for eligible OBC students as listed on district NIC scheme pages; confirm income and class bands with the implementing office.",
+      "hi": "पश्चिम बंगाल मैट्रिकपूर्व ओबीसी छात्रवृत्ति — पात्र ओबीसी छात्रों के लिए (जिला NIC)।",
+      "ml": "(EN — Malayalam review pending) West Bengal pre-matric scholarship for eligible OBC students as listed on district NIC scheme pages; confirm income and class bands with the implementing office."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "OBC"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on Bankura NIC schemes index (Pre-Matric OBC Scholarship). Confirm current income ceiling and class coverage on the scheme detail page / BCW.",
+      "verify_notes": "2026-09-16: https://bankura.gov.in/scheme/pre-matric-obc-scholarship/ . Income ceiling not captured in index — verify=true.",
+      "states": [
+        "West Bengal"
+      ]
+    },
+    "benefits": {
+      "en": "Pre-matric scholarship amount as notified for OBC students (confirm current rates).",
+      "hi": "ओबीसी छात्रों के लिए अधिसूचित मैट्रिकपूर्व छात्रवृत्ति (वर्तमान दरें सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Pre-matric scholarship amount as notified for OBC students (confirm current rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "OBC certificate",
+        "School enrolment",
+        "Income certificate",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "OBC certificate",
+        "School enrolment",
+        "Income certificate",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "OBC certificate",
+        "School enrolment"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via district BCW / school channels on the Bankura NIC scheme page.",
+      "hi": "बाँकुड़ा NIC योजना पृष्ठ / BCW चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via district BCW / school channels on the Bankura NIC scheme page."
+    },
+    "apply_url": "https://bankura.gov.in/scheme/pre-matric-obc-scholarship/",
+    "office_type": "Backward Classes Welfare Department, West Bengal",
+    "official_source_url": "https://bankura.gov.in/scheme/pre-matric-obc-scholarship/",
+    "tags": [
+      "education",
+      "scholarship",
+      "obc",
+      "west-bengal",
+      "student"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-niradhar-vriddha-pension",
+    "scheme_name": {
+      "en": "Niradhar Vriddha / Destitute Older Persons Pension (Gujarat)",
+      "hi": "निराधार वृद्ध पेंशन योजना (गुजरात)",
+      "ml": "(EN — Malayalam review pending) Niradhar Vriddha / Destitute Older Persons Pension (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat state financial assistance to destitute older persons: age 60+ (or 45+ with >75% disability under income path), Gujarat resident 10+ years, annual income ≤ Rs.1.20 lakh (rural) / ≤ Rs.1.50 lakh (urban), OR BPL-score path; monthly Rs.1,000 (60–79) / Rs.1,250 (80+).",
+      "hi": "गुजरात निराधार वृद्ध सहायता — 60+ (आय पथ) या बीपीएल पथ; ग्रामीण ₹1.20 लाख / शहरी ₹1.50 लाख आय सीमा; मासिक ₹1,000/₹1,250।",
+      "ml": "(EN — Malayalam review pending) Gujarat state financial assistance to destitute older persons: age 60+ (or 45+ with >75% disability under income path), Gujarat resident 10+ years, annual income ≤ Rs.1.20 lakh (rural) / ≤ Rs.1.50 lakh (urban), OR BPL-score path; monthly Rs.1,000 (60–79) / Rs.1,250 (80+)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJE DSD: income path — 60+ (or disability >75% and age 45+); no son/grandson 21+ able to earn (exceptions for illness/disability); permanent resident of Gujarat ≥10 years; annual income ≤ Rs.1,20,000 rural / ≤ Rs.1,50,000 urban. OR BPL path (rural score 0–20 / urban BPL list). Matcher uses urban ceiling 1.50 lakh. Benefits: Rs.1,000 (60–79) / Rs.1,250 (80+). Apply via Digital Gujarat / Jan Seva / Mamlatdar.",
+      "verify_notes": "2026-09-16: https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English . Rural vs urban ceilings and son-alive rule not fully in wizard — verify=true.",
+      "states": [
+        "Gujarat"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly assistance Rs.1,000 (ages 60–79) or Rs.1,250 (80+) via DBT to post/bank account.",
+      "hi": "मासिक सहायता ₹1,000 (60–79) या ₹1,250 (80+) DBT।",
+      "ml": "(EN — Malayalam review pending) Monthly assistance Rs.1,000 (ages 60–79) or Rs.1,250 (80+) via DBT to post/bank account."
+    },
+    "required_documents": {
+      "en": [
+        "Age certificate",
+        "Income proof or BPL certificate",
+        "Aadhaar",
+        "Bank / post office account",
+        "Ration card",
+        "Disability certificate if applicable",
+        "Certificate regarding son above 21 if required"
+      ],
+      "hi": [
+        "Age certificate",
+        "Income proof or BPL certificate",
+        "Aadhaar",
+        "Bank / post office account",
+        "Ration card",
+        "Disability certificate if applicable",
+        "Certificate regarding son above 21 if required"
+      ],
+      "ml": [
+        "Age certificate",
+        "Income proof or BPL certificate",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Jan Seva Kendra / Mamlatdar / Gram Panchayat channels on https://www.digitalgujarat.gov.in/ (as linked from SJE page).",
+      "hi": "जन सेवा केंद्र / मामलतदार / ग्राम पंचायत चैनल से https://www.digitalgujarat.gov.in/ पर ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online via Jan Seva Kendra / Mamlatdar / Gram Panchayat channels on https://www.digitalgujarat.gov.in/ (as linked from SJE page)."
+    },
+    "apply_url": "https://www.digitalgujarat.gov.in/",
+    "office_type": "Director, Social Defense, Government of Gujarat",
+    "official_source_url": "https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English",
+    "tags": [
+      "pension",
+      "elderly",
+      "gujarat",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-ganga-swarupa",
+    "scheme_name": {
+      "en": "Ganga Swarupa Financial Aid Scheme (Gujarat widow assistance)",
+      "hi": "गंगा स्वरूपा वित्तीय सहायता योजना (गुजरात विधवा सहायता)",
+      "ml": "(EN — Malayalam review pending) Ganga Swarupa Financial Aid Scheme (Gujarat widow assistance)"
+    },
+    "description": {
+      "en": "Gujarat Women & Child Development Ganga Swarupa scheme providing Rs.1,250 per month to widow women aged 18+, with annual family income ≤ Rs.1.20 lakh (rural) / ≤ Rs.1.50 lakh (urban); lifetime aid (son-age stop condition removed).",
+      "hi": "गुजरात गंगा स्वरूपा — 18+ विधवा महिलाओं को प्रति माह ₹1,250; ग्रामीण ₹1.20 लाख / शहरी ₹1.50 लाख आय सीमा।",
+      "ml": "(EN — Malayalam review pending) Gujarat Women & Child Development Ganga Swarupa scheme providing Rs.1,250 per month to widow women aged 18+, with annual family income ≤ Rs.1.20 lakh (rural) / ≤ Rs.1.50 lakh (urban); lifetime aid (son-age stop condition removed)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official WCD Gujarat: widow women 18+; rural family income Rs.1,20,000 / urban Rs.1,50,000; aid Rs.1,250/month to post office account; lifetime (earlier stop when son turned 21 removed from 2019). Apply to Taluka Mamlatdar with prescribed proofs.",
+      "verify_notes": "2026-09-16: https://wcd.gujarat.gov.in/initiativedetails?id=231 and https://wcd.gujarat.gov.in/posts?id=328 . Urban ceiling encoded; rural applicants face lower ceiling — verify=true.",
+      "states": [
+        "Gujarat"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,250 per month credited to widow’s post office account.",
+      "hi": "विधवा के डाकघर खाते में प्रति माह ₹1,250 जमा।",
+      "ml": "(EN — Malayalam review pending) Rs.1,250 per month credited to widow’s post office account."
+    },
+    "required_documents": {
+      "en": [
+        "Photo",
+        "Ration card",
+        "School leaving / age proof",
+        "Income certificate",
+        "Husband’s death certificate",
+        "Aadhaar / voter ID",
+        "Widow certificate",
+        "Light bill / residence proof as required"
+      ],
+      "hi": [
+        "Photo",
+        "Ration card",
+        "School leaving / age proof",
+        "Income certificate",
+        "Husband’s death certificate",
+        "Aadhaar / voter ID",
+        "Widow certificate",
+        "Light bill / residence proof as required"
+      ],
+      "ml": [
+        "Photo",
+        "Ration card",
+        "School leaving / age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit prescribed form with proofs to Taluka Mamlatdar. See https://wcd.gujarat.gov.in/initiativedetails?id=231",
+      "hi": "निर्धारित फॉर्म प्रमाणों सहित तालुका मामलतदार को जमा करें।",
+      "ml": "(EN — Malayalam review pending) Submit prescribed form with proofs to Taluka Mamlatdar. See https://wcd.gujarat.gov.in/initiativedetails?id=231"
+    },
+    "apply_url": "https://wcd.gujarat.gov.in/initiativedetails?id=231",
+    "office_type": "Directorate of Women Welfare / WCD, Government of Gujarat",
+    "official_source_url": "https://wcd.gujarat.gov.in/initiativedetails?id=231",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "gujarat",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-sant-surdas",
+    "scheme_name": {
+      "en": "Sant Surdas Yojana (Gujarat disability assistance)",
+      "hi": "संत सूरदास योजना (गुजरात दिव्यांग सहायता)",
+      "ml": "(EN — Malayalam review pending) Sant Surdas Yojana (Gujarat disability assistance)"
+    },
+    "description": {
+      "en": "Gujarat Social Defense Sant Surdas scheme providing Rs.1,000 per month via DBT to persons with 60% or more disability; online via eSamajKalyan / Digital Seva Setu.",
+      "hi": "गुजरात संत सूरदास — 60% या अधिक दिव्यांगता पर प्रति माह ₹1,000 DBT; eSamajKalyan पोर्टल।",
+      "ml": "(EN — Malayalam review pending) Gujarat Social Defense Sant Surdas scheme providing Rs.1,000 per month via DBT to persons with 60% or more disability; online via eSamajKalyan / Digital Seva Setu."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 60,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJE DSD Sant Surdas page: person with 60% or more disability; monthly Rs.1,000 DBT to post/bank; apply on esamajkalyan.gujarat.gov.in or Digital Gujarat Digital Seva Setu at e-Gram; District Social Security Officer verifies.",
+      "verify_notes": "2026-09-16: https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english . Income ceiling not stated on English eligibility blurb — verify=true.",
+      "states": [
+        "Gujarat"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,000 per month via DBT to applicant’s post/bank account.",
+      "hi": "आवेदक के डाक/बैंक खाते में प्रति माह ₹1,000 DBT।",
+      "ml": "(EN — Malayalam review pending) Rs.1,000 per month via DBT to applicant’s post/bank account."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (≥60%)",
+        "Bank / post office account",
+        "Residence proof",
+        "Photo"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (≥60%)",
+        "Bank / post office account",
+        "Residence proof",
+        "Photo"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (≥60%)",
+        "Bank / post office account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://esamajkalyan.gujarat.gov.in/ or via Digital Seva Setu at e-Gram centres.",
+      "hi": "https://esamajkalyan.gujarat.gov.in/ पर ऑनलाइन या ई-ग्राम Digital Seva Setu से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://esamajkalyan.gujarat.gov.in/ or via Digital Seva Setu at e-Gram centres."
+    },
+    "apply_url": "https://esamajkalyan.gujarat.gov.in/",
+    "office_type": "Director, Social Defense, Government of Gujarat",
+    "official_source_url": "https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english",
+    "tags": [
+      "pension",
+      "disability",
+      "gujarat",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-nfbs-sankatmochan",
+    "scheme_name": {
+      "en": "National Family Support Scheme – SankatMochan (NFBS) Gujarat",
+      "hi": "राष्ट्रीय परिवार सहायता योजना – संकटमोचन (NFBS) गुजरात",
+      "ml": "(EN — Malayalam review pending) National Family Support Scheme – SankatMochan (NFBS) Gujarat"
+    },
+    "description": {
+      "en": "Gujarat NFBS (SankatMochan): one-time Rs.20,000 to BPL families on natural or accidental death of the main income earner aged 18–60, if applied within 2 years; sanctioned by Taluka Mamlatdar.",
+      "hi": "गुजरात संकटमोचन (NFBS) — बीपीएल परिवार में 18–60 वर्ष के मुख्य कमाने वाले की मृत्यु पर एकमुश्त ₹20,000।",
+      "ml": "(EN — Malayalam review pending) Gujarat NFBS (SankatMochan): one-time Rs.20,000 to BPL families on natural or accidental death of the main income earner aged 18–60, if applied within 2 years; sanctioned by Taluka Mamlatdar."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SJE DSD NFBS page: family on BPL list; natural/accidental death of main earner; deceased age >18 and <60; apply within 2 years; benefit Rs.20,000; apply to Taluka Mamlatdar.",
+      "verify_notes": "2026-09-16: https://sje.gujarat.gov.in/dsd/schemes/2210?lang=English . Death-of-breadwinner event not in wizard — verify=true.",
+      "states": [
+        "Gujarat"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time Rs.20,000 to the family.",
+      "hi": "परिवार को एकमुश्त ₹20,000।",
+      "ml": "(EN — Malayalam review pending) One-time Rs.20,000 to the family."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Proof of relationship / dependency"
+      ],
+      "hi": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Proof of relationship / dependency"
+      ],
+      "ml": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to respective Taluka Mamlatdar (appeal to Prant Officer within 60 days if rejected). See SJE NFBS page.",
+      "hi": "संबंधित तालुका मामलतदार को आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to respective Taluka Mamlatdar (appeal to Prant Officer within 60 days if rejected). See SJE NFBS page."
+    },
+    "apply_url": "https://sje.gujarat.gov.in/dsd/schemes/2210?lang=English",
+    "office_type": "Director, Social Defense, Government of Gujarat",
+    "official_source_url": "https://sje.gujarat.gov.in/dsd/schemes/2210?lang=English",
+    "tags": [
+      "family-benefit",
+      "bpl",
+      "gujarat",
+      "nfbs"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-vahli-dikri",
+    "scheme_name": {
+      "en": "Vahli Dikri Yojana (Gujarat)",
+      "hi": "वाहली दीकरी योजना (गुजरात)",
+      "ml": "(EN — Malayalam review pending) Vahli Dikri Yojana (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat WCD Vahli Dikri scheme for daughters born on/after 02.08.2019 (after 11:59 on 01.08.2019) where mother’s age is 18+, couple annual income ≤ Rs.2,00,000, covering daughters among the first three children, with staged assistance (e.g. Rs.4,000 at Class 1 admission, Rs.6,000 at Class 9 — confirm full schedule on WCD).",
+      "hi": "गुजरात वाहली दीकरी — 02.08.2019 या बाद जन्मी बेटियों के लिए (माता 18+, दंपति आय ≤ ₹2 लाख) चरणबद्ध सहायता।",
+      "ml": "(EN — Malayalam review pending) Gujarat WCD Vahli Dikri scheme for daughters born on/after 02.08.2019 (after 11:59 on 01.08.2019) where mother’s age is 18+, couple annual income ≤ Rs.2,00,000, covering daughters among the first three children, with staged assistance (e.g. Rs.4,000 at Class 1 admission, Rs.6,000 at Class 9 — confirm full schedule on WCD)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official WCD Gujarat posts page: daughter born on/after 02.08.2019; mother age ≥18 at birth; couple annual income ≤ Rs.2,00,000 (rural and urban); daughters among first 3 children eligible; staged aids at Class 1 (Rs.4,000), Class 9 (Rs.6,000) and further stages as notified — confirm full schedule on WCD before promising later instalments.",
+      "verify_notes": "2026-09-16: https://wcd.gujarat.gov.in/posts?id=328 . Birth-date and birth-order rules not in wizard — verify=true. min_age left null (child beneficiaries).",
+      "states": [
+        "Gujarat"
+      ]
+    },
+    "benefits": {
+      "en": "Staged financial assistance for eligible girl children (e.g. Rs.4,000 at Std.1 admission; Rs.6,000 at Std.9 — confirm full schedule on WCD).",
+      "hi": "पात्र बालिकाओं के लिए चरणबद्ध वित्तीय सहायता (कक्षा 1/9 आदि — पूरी अनुसूची WCD पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Staged financial assistance for eligible girl children (e.g. Rs.4,000 at Std.1 admission; Rs.6,000 at Std.9 — confirm full schedule on WCD)."
+    },
+    "required_documents": {
+      "en": [
+        "Birth certificate of daughter",
+        "Aadhaar",
+        "Income certificate of parents",
+        "Mother’s age proof",
+        "Bank account",
+        "School admission proof when claiming stage"
+      ],
+      "hi": [
+        "Birth certificate of daughter",
+        "Aadhaar",
+        "Income certificate of parents",
+        "Mother’s age proof",
+        "Bank account",
+        "School admission proof when claiming stage"
+      ],
+      "ml": [
+        "Birth certificate of daughter",
+        "Aadhaar",
+        "Income certificate of parents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow WCD Gujarat Vahli Dikri process (Mamlatdar / Digital Gujarat channels as notified). Info: https://wcd.gujarat.gov.in/posts?id=328",
+      "hi": "WCD गुजरात वाहली दीकरी प्रक्रिया / डिजिटल गुजरात चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Follow WCD Gujarat Vahli Dikri process (Mamlatdar / Digital Gujarat channels as notified). Info: https://wcd.gujarat.gov.in/posts?id=328"
+    },
+    "apply_url": "https://wcd.gujarat.gov.in/posts?id=328",
+    "office_type": "Women & Child Development Department, Government of Gujarat",
+    "official_source_url": "https://wcd.gujarat.gov.in/posts?id=328",
+    "tags": [
+      "girl-child",
+      "women",
+      "education",
+      "gujarat",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-divyang-marriage-assist",
+    "scheme_name": {
+      "en": "Divyang Marriage Assistance Scheme (Gujarat)",
+      "hi": "दिव्यांग विवाह सहायता योजना (गुजरात)",
+      "ml": "(EN — Malayalam review pending) Divyang Marriage Assistance Scheme (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat Social Defense marriage assistance for differently-abled persons meeting notified disability percentages; bride 18+ / groom 21+; one-time benefit; higher amount when both spouses are differently-abled (up to Rs.1,50,000 combined as published).",
+      "hi": "गुजरात दिव्यांग विवाह सहायता — अधिसूचित दिव्यांगता प्रतिशत पर एकमुश्त सहायता; दोनों दिव्यांग हों तो उच्च राशि।",
+      "ml": "(EN — Malayalam review pending) Gujarat Social Defense marriage assistance for differently-abled persons meeting notified disability percentages; bride 18+ / groom 21+; one-time benefit; higher amount when both spouses are differently-abled (up to Rs.1,50,000 combined as published)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Sant Surdas page also documents Divyang Marriage Assistance: girl >18, boy >21; once per beneficiary; apply within 2 years of marriage; disability % thresholds by type (often 40%+ locomotor/visual, higher for hearing/intellectual etc.). Assistance Rs.75,000 each when both differently-abled (total Rs.1,50,000) — confirm current rates and mixed-ability cases on SJE page.",
+      "verify_notes": "2026-09-16: https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english (includes Divyang Marriage Assistance). Disability-type % matrix not fully encoded — min 40% lower band; verify=true.",
+      "states": [
+        "Gujarat"
+      ]
+    },
+    "benefits": {
+      "en": "One-time marriage assistance (commonly Rs.75,000 per differently-abled spouse when both are PwD — confirm live amount on SJE).",
+      "hi": "एकमुश्त विवाह सहायता (दोनों दिव्यांग होने पर प्रायः प्रति व्यक्ति ₹75,000 — SJE पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time marriage assistance (commonly Rs.75,000 per differently-abled spouse when both are PwD — confirm live amount on SJE)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificates",
+        "Age proofs",
+        "Marriage certificate / proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificates",
+        "Age proofs",
+        "Marriage certificate / proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificates",
+        "Age proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Security Officer / eSamajKalyan channels linked from SJE Divyang schemes.",
+      "hi": "जिला सामाजिक सुरक्षा अधिकारी / eSamajKalyan चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Security Officer / eSamajKalyan channels linked from SJE Divyang schemes."
+    },
+    "apply_url": "https://esamajkalyan.gujarat.gov.in/",
+    "office_type": "Director, Social Defense, Government of Gujarat",
+    "official_source_url": "https://sje.gujarat.gov.in/dsd/scheme/sant-surdash-yojana?lang=english",
+    "tags": [
+      "marriage",
+      "disability",
+      "gujarat",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "gj-ignoaps-vayvandana",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension – Vayvandana (Gujarat)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन – वायवंदना (गुजरात)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension – Vayvandana (Gujarat)"
+    },
+    "description": {
+      "en": "Gujarat listing of Indira Gandhi National Old Age Pension (Vayvandana) under Director Social Defense old-age welfare schemes, alongside the state destitute older persons pension.",
+      "hi": "गुजरात सामाजिक सुरक्षा के अंतर्गत IGNOAPS (वायवंदना) वृद्ध कल्याण योजना।",
+      "ml": "(EN — Malayalam review pending) Gujarat listing of Indira Gandhi National Old Age Pension (Vayvandana) under Director Social Defense old-age welfare schemes, alongside the state destitute older persons pension."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on SJE DSD old-age welfare schemes menu as Indira Gandhi National old pension (vayvandana scheme). Confirm live NSAP amount and BPL linkage on SJE / NSAP; state Niradhar Vriddha remains the richer state top-up track for many beneficiaries.",
+      "verify_notes": "2026-09-16: scheme listed at https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English (sidebar). Detailed English eligibility blurb focuses on state scheme — IGNOAPS row kept with BPL+60 soft gates; verify=true.",
+      "states": [
+        "Gujarat"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly IGNOAPS pension as notified under NSAP / Vayvandana (confirm current central+state rates).",
+      "hi": "NSAP / वायवंदना के अंतर्गत मासिक पेंशन (वर्तमान दरें सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly IGNOAPS pension as notified under NSAP / Vayvandana (confirm current central+state rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank / post office account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank / post office account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Digital Gujarat / Mamlatdar / Jan Seva channels used for old-age pensions; see SJE DSD old-age schemes.",
+      "hi": "डिजिटल गुजरात / मामलतदार / जन सेवा चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Digital Gujarat / Mamlatdar / Jan Seva channels used for old-age pensions; see SJE DSD old-age schemes."
+    },
+    "apply_url": "https://www.digitalgujarat.gov.in/",
+    "office_type": "Director, Social Defense, Government of Gujarat",
+    "official_source_url": "https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English",
+    "tags": [
+      "pension",
+      "elderly",
+      "gujarat",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

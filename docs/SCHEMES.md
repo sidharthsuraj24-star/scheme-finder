@@ -1,7 +1,7 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 149 schemes
+**Count:** 185 schemes
 **verify=true:** 141
 **verify=false:** 8
 
@@ -158,6 +158,21 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 | 147 | `jh-mmrnspy` | Mukhya Mantri Rajya Nirasrit Samman Pension Yojana (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=18; gender=female; marital=widow,deserted,unmarried | **YES** |
 | 148 | `jh-svnspy` | Swami Vivekananda Nishakt Swawlamban Protsahan Yojana (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=5; disability_required | **YES** |
 | 149 | `jh-sarvajan-pension` | Sarvajan Pension Yojana (Jharkhand) | Jharkhand | https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ | (see notes) | **YES** |
+
+## Wave 3 deepen (Tamil Nadu, Karnataka, Maharashtra, West Bengal, Gujarat) — 2026-09-16
+
+Added **36** local schemes (official `.gov.in` / `.nic.in` only). Per-state totals including prior starters ≈8–11.
+
+| State | New ids |
+| --- | --- |
+| Tamil Nadu | `tn-magalir-urimai-thogai`, `tn-ignoaps`, `tn-ignwps`, `tn-destitute-widow-pension`, `tn-destitute-disabled-pension`, `tn-deserted-wives-pension`, `tn-unmarried-women-pension`, `tn-igndps`, `tn-cmupt-oap` |
+| Karnataka | `ka-sandhya-suraksha`, `ka-widow-pension`, `ka-disability-pension`, `ka-ignoaps`, `ka-manaswini`, `ka-nfbs`, `ka-adarsha-vivaha` |
+| Maharashtra | `mh-sanjay-gandhi-niradhar`, `mh-shravanbal-pension`, `mh-ignoaps`, `mh-ignwps`, `mh-igndps`, `mh-mahadbt-scholarships` |
+| West Bengal | `wb-rupashree`, `wb-taposili-bandhu`, `wb-jai-johar`, `wb-manabik`, `wb-st-old-age-pension`, `wb-sc-girl-meritorious-assist`, `wb-pre-matric-obc-scholarship` |
+| Gujarat | `gj-niradhar-vriddha-pension`, `gj-ganga-swarupa`, `gj-sant-surdas`, `gj-nfbs-sankatmochan`, `gj-vahli-dikri`, `gj-divyang-marriage-assist`, `gj-ignoaps-vayvandana` |
+
+All Wave 3 rows use `verify: true`, `countries: ["India"]`, `nationwide: false`, `last_verified: 2026-09-16`. Published income ceilings encoded only when cited on official pages (e.g. Magalir ₹2.5L, Rupashree ₹1.5L, MH Sanjay Gandhi/Shravanbal ₹21,000, GJ Ganga/Niradhar urban ₹1.5L). BPL/destitute tracks without a single rupee ceiling use `implies_low_income`.
+
 
 ## Country + nationwide matching
 
