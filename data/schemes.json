@@ -5370,5 +5370,2896 @@
       "disability",
       "nspa"
     ]
+  },
+  {
+    "id": "up-old-age-pension",
+    "scheme_name": {
+      "en": "Old Age / Farmer Pension Scheme (Uttar Pradesh SSPY)",
+      "hi": "वृद्धावस्था / किसान पेंशन योजना (उत्तर प्रदेश SSPY)",
+      "ml": "(EN — Malayalam review pending) Old Age / Farmer Pension Scheme (Uttar Pradesh SSPY)"
+    },
+    "description": {
+      "en": "Uttar Pradesh social security pension for elderly residents aged 60+ within notified rural/urban family income ceilings, applied online via the Integrated Social Pension Portal (SSPY).",
+      "hi": "उत्तर प्रदेश में 60 वर्ष या उससे अधिक आयु के वृद्धजनों के लिए एकीकृत सामाजिक पेंशन पोर्टल (SSPY) के माध्यम से दी जाने वाली वृद्धावस्था/किसान पेंशन।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh social security pension for elderly residents aged 60+ within notified rural/urban family income ceilings, applied online via the Integrated Social Pension Portal (SSPY)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 56460,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Official district NIC (Lalitpur/Mau): age 60+; annual family income ≤ Rs.46,080 (rural) / ≤ Rs.56,460 (urban). Matcher uses urban ceiling; rural applicants face the lower ceiling. Apply via sspy-up.gov.in.",
+      "verify": true,
+      "verify_notes": "Rural vs urban income ceilings differ (46080/56460). Pension amount cited variously as Rs.500–1000/month across district pages — confirm current rate on SSPY. Source: https://lalitpur.nic.in/scheme/वृद्धावस्था-पेंशन-योजना/ and https://mau.nic.in/en/scheme/national-old-age-pension-scheme/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT/NEFT through SSPY (amount revised over time — confirm current rate on portal).",
+      "hi": "SSPY के माध्यम से मासिक पेंशन (DBT) — वर्तमान दर पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT/NEFT through SSPY (amount revised over time — confirm current rate on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate (tehsil)",
+        "CBS bank passbook",
+        "Passport-size photo"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate (tehsil)",
+        "CBS bank passbook",
+        "Passport-size photo"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income certificate (tehsil)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://sspy-up.gov.in/ (Old Age Pension). Hard copy/documents may be verified by Block/Tehsil as notified.",
+      "hi": "https://sspy-up.gov.in/ पर ऑनलाइन आवेदन करें; ब्लॉक/तहसील सत्यापन प्रक्रिया का पालन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://sspy-up.gov.in/ (Old Age Pension). Hard copy/documents may be verified by Block/Tehsil as notified."
+    },
+    "apply_url": "https://sspy-up.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://lalitpur.nic.in/scheme/%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE-%E0%A4%AA%E0%A5%87%E0%A4%82%E0%A4%B6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/",
+    "tags": [
+      "pension",
+      "elderly",
+      "uttar-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-destitute-widow-pension",
+    "scheme_name": {
+      "en": "Destitute Widow Pension Scheme (Uttar Pradesh SSPY)",
+      "hi": "निराश्रित विधवा पेंशन योजना (उत्तर प्रदेश SSPY)",
+      "ml": "(EN — Malayalam review pending) Destitute Widow Pension Scheme (Uttar Pradesh SSPY)"
+    },
+    "description": {
+      "en": "Uttar Pradesh pension providing monthly financial support to widowed women above 18 years with annual family income below Rs.2 lakh, via SSPY.",
+      "hi": "उत्तर प्रदेश में 18 वर्ष से अधिक आयु की विधवा महिलाओं (पारिवारिक वार्षिक आय ₹2 लाख से कम) के लिए SSPY के माध्यम से मासिक पेंशन।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh pension providing monthly financial support to widowed women above 18 years with annual family income below Rs.2 lakh, via SSPY."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Saharanpur district NIC (gov): widowed women above 18 years with annual income below ₹2 lakh; benefit ₹1000/month; apply via SSPY.",
+      "verify": true,
+      "verify_notes": "Confirm whether deserted/divorced categories are covered under the same SSPY service and live income ceiling on sspy-up.gov.in / Women Welfare. Source: https://saharanpur.nic.in/scheme/destitute-widow-pension-scheme/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Rs.1000 per month pension via DBT (as stated on Saharanpur NIC scheme page; confirm current rate on SSPY).",
+      "hi": "प्रतिमाह ₹1000 पेंशन (DBT) — वर्तमान दर SSPY पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Rs.1000 per month pension via DBT (as stated on Saharanpur NIC scheme page; confirm current rate on SSPY)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income certificate",
+        "Bank passbook",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income certificate",
+        "Bank passbook",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through https://sspy-up.gov.in/HindiPages/index_h.aspx (Destitute / Widow Pension).",
+      "hi": "https://sspy-up.gov.in/HindiPages/index_h.aspx पर ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online through https://sspy-up.gov.in/HindiPages/index_h.aspx (Destitute / Widow Pension)."
+    },
+    "apply_url": "https://sspy-up.gov.in/",
+    "office_type": "Department of Social Welfare / Women Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://saharanpur.nic.in/scheme/destitute-widow-pension-scheme/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "uttar-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-disability-pension",
+    "scheme_name": {
+      "en": "Disability / Divyang Pension Scheme (Uttar Pradesh SSPY)",
+      "hi": "दिव्यांगजन पेंशन योजना (उत्तर प्रदेश SSPY)",
+      "ml": "(EN — Malayalam review pending) Disability / Divyang Pension Scheme (Uttar Pradesh SSPY)"
+    },
+    "description": {
+      "en": "Uttar Pradesh disability pension for residents with at least 40% disability within notified poverty-line income ceilings, applied via SSPY.",
+      "hi": "उत्तर प्रदेश में कम से कम 40% दिव्यांगता वाले निवासियों के लिए SSPY के माध्यम से दिव्यांग पेंशन (अधिसूचित आय सीमा के भीतर)।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh disability pension for residents with at least 40% disability within notified poverty-line income ceilings, applied via SSPY."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 56460,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Mau NIC service page: disability ≥40%; UP resident; income within BPL definition Rs.46,080 rural / Rs.56,460 urban; not receiving other listed pensions. Hamirpur Divyangjan page also references SSPY and 40%+ CMO certificate.",
+      "verify": true,
+      "verify_notes": "Income rural/urban ceilings 46080/56460. Excludes persons already on certain other pensions — not fully encoded. Sources: https://mau.nic.in/en/service/application-for-disability-grant-disability-pension/ and https://hamirpur.nic.in/hi/handicap-welfare-department/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability grant/pension via e-payment to bank account (rate revised over time — confirm on SSPY).",
+      "hi": "बैंक खाते में मासिक दिव्यांग पेंशन/अनुदान (वर्तमान दर SSPY पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability grant/pension via e-payment to bank account (rate revised over time — confirm on SSPY)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (40%+ by CMO)",
+        "Income certificate",
+        "Aadhaar",
+        "Bank passbook",
+        "Passport-size photo"
+      ],
+      "hi": [
+        "Disability certificate (40%+ by CMO)",
+        "Income certificate",
+        "Aadhaar",
+        "Bank passbook",
+        "Passport-size photo"
+      ],
+      "ml": [
+        "Disability certificate (40%+ by CMO)",
+        "Income certificate",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://sspy-up.gov.in/ (Disability / Divyang Pension) or via Jan Seva Kendra / Lokwani as notified.",
+      "hi": "https://sspy-up.gov.in/ पर ऑनलाइन आवेदन करें या जन सेवा केंद्र के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://sspy-up.gov.in/ (Disability / Divyang Pension) or via Jan Seva Kendra / Lokwani as notified."
+    },
+    "apply_url": "https://sspy-up.gov.in/",
+    "office_type": "Department for Empowerment of Persons with Disabilities / Social Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://mau.nic.in/en/service/application-for-disability-grant-disability-pension/",
+    "tags": [
+      "pension",
+      "disability",
+      "uttar-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-daughter-marriage-grant",
+    "scheme_name": {
+      "en": "Marriage Grant Scheme for Daughters (Uttar Pradesh Shadi Anudan)",
+      "hi": "पुत्री विवाह अनुदान योजना (उत्तर प्रदेश शादी अनुदान)",
+      "ml": "(EN — Malayalam review pending) Marriage Grant Scheme for Daughters (Uttar Pradesh Shadi Anudan)"
+    },
+    "description": {
+      "en": "Uttar Pradesh Social Welfare marriage grant for eligible parents (SC / general) within notified BPL-linked income ceilings for daughter’s marriage, applied via shadianudan.upsdc.gov.in.",
+      "hi": "उत्तर प्रदेश समाज कल्याण विभाग की पुत्री विवाह अनुदान योजना (अधिसूचित आय सीमा / बीपीएल से जुड़े पात्र अभिभावक) — shadianudan.upsdc.gov.in।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh Social Welfare marriage grant for eligible parents (SC / general) within notified BPL-linked income ceilings for daughter’s marriage, applied via shadianudan.upsdc.gov.in."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 56460,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "SC"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Hamirpur NIC Social Welfare: parents with annual income ≤ Rs.46,080 rural / ≤ Rs.56,460 urban; bride ≥18, groom ≥21; grant commonly cited Rs.20,000 for eligible daughter’s marriage; apply within ±90 days of marriage on shadianudan.upsdc.gov.in. Budget/availability based.",
+      "verify": true,
+      "verify_notes": "Matcher uses urban income ceiling. SC vs general quota/budget rules and exact grant components vary — confirm on portal. Source: https://hamirpur.nic.in/social-welfare-department/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "One-time marriage grant (commonly cited Rs.20,000 for eligible cases) via PFMS DBT — confirm current amount and components on portal.",
+      "hi": "एकमुश्त विवाह अनुदान (अक्सर ₹20,000 उल्लिखित) — वर्तमान राशि पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time marriage grant (commonly cited Rs.20,000 for eligible cases) via PFMS DBT — confirm current amount and components on portal."
+    },
+    "required_documents": {
+      "en": [
+        "Income certificate",
+        "Age proofs of bride and groom",
+        "Marriage card / registration as required",
+        "Aadhaar",
+        "Bank account",
+        "Caste certificate if SC"
+      ],
+      "hi": [
+        "Income certificate",
+        "Age proofs of bride and groom",
+        "Marriage card / registration as required",
+        "Aadhaar",
+        "Bank account",
+        "Caste certificate if SC"
+      ],
+      "ml": [
+        "Income certificate",
+        "Age proofs of bride and groom",
+        "Marriage card / registration as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at http://shadianudan.upsdc.gov.in within 90 days before or after the marriage date as notified.",
+      "hi": "http://shadianudan.upsdc.gov.in पर विवाह तिथि से 90 दिन पहले/बाद अधिसूचित अवधि में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at http://shadianudan.upsdc.gov.in within 90 days before or after the marriage date as notified."
+    },
+    "apply_url": "http://shadianudan.upsdc.gov.in",
+    "office_type": "Department of Social Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://hamirpur.nic.in/social-welfare-department/",
+    "tags": [
+      "women",
+      "marriage",
+      "uttar-pradesh",
+      "dbt",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-post-matric-scholarship",
+    "scheme_name": {
+      "en": "Post-Matric / Post-Graduate Scholarship (Uttar Pradesh)",
+      "hi": "उत्तर प्रदेश पोस्ट-मैट्रिक / स्नातकोत्तर छात्रवृत्ति",
+      "ml": "(EN — Malayalam review pending) Post-Matric / Post-Graduate Scholarship (Uttar Pradesh)"
+    },
+    "description": {
+      "en": "Uttar Pradesh scholarships for eligible SC/ST and general-category students with notified parental income ceilings, applied via the UP scholarship portal.",
+      "hi": "उत्तर प्रदेश में अधिसूचित आय सीमा वाले SC/ST एवं सामान्य वर्ग के छात्रों के लिए छात्रवृत्ति — scholarship.up.nic.in / संबंधित पोर्टल।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh scholarships for eligible SC/ST and general-category students with notified parental income ceilings, applied via the UP scholarship portal."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 250000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Hamirpur NIC: Post-graduate scholarship — SC parents annual income up to Rs.2.50 lakh; general category less than Rs.2 lakh. Pre-matric/other streams (e.g. East Sadasham SC/ST income < Rs.2 lakh) also via scholarship.up.nic.in. Matcher uses 2.5L SC/ST ceiling.",
+      "verify": true,
+      "verify_notes": "Income ceilings differ by category and scholarship stream (2L vs 2.5L). OBC/EBC streams may have separate rules — confirm on scholarship.up.gov.in / scholarship.up.nic.in. Source: https://hamirpur.nic.in/social-welfare-department/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Scholarship / fee support at rates notified for the relevant category and course level (DBT via PFMS).",
+      "hi": "श्रेणी व पाठ्यक्रम के अनुसार अधिसूचित दर पर छात्रवृत्ति / शुल्क सहायता (PFMS DBT)।",
+      "ml": "(EN — Malayalam review pending) Scholarship / fee support at rates notified for the relevant category and course level (DBT via PFMS)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate (if applicable)",
+        "Income certificate",
+        "School/college enrolment proof",
+        "Bank account seeded with Aadhaar"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste certificate (if applicable)",
+        "Income certificate",
+        "School/college enrolment proof",
+        "Bank account seeded with Aadhaar"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste certificate (if applicable)",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at http://scholarship.up.nic.in (or current scholarship.up.gov.in portal) during the notified window.",
+      "hi": "http://scholarship.up.nic.in (या वर्तमान scholarship.up.gov.in) पर अधिसूचित अवधि में ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at http://scholarship.up.nic.in (or current scholarship.up.gov.in portal) during the notified window."
+    },
+    "apply_url": "http://scholarship.up.nic.in",
+    "office_type": "Department of Social Welfare / Education, Government of Uttar Pradesh",
+    "official_source_url": "https://hamirpur.nic.in/social-welfare-department/",
+    "tags": [
+      "scholarship",
+      "education",
+      "student",
+      "uttar-pradesh",
+      "sc",
+      "st"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-cm-comprehensive-marriage",
+    "scheme_name": {
+      "en": "Chief Minister’s Comprehensive Marriage Plan (Uttar Pradesh)",
+      "hi": "मुख्यमंत्री समग्र विवाह योजना (उत्तर प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Chief Minister’s Comprehensive Marriage Plan (Uttar Pradesh)"
+    },
+    "description": {
+      "en": "Uttar Pradesh marriage assistance scheme for eligible parents with annual income up to Rs.2 lakh for daughter’s marriage (components as notified by Social Welfare).",
+      "hi": "उत्तर प्रदेश में वार्षिक आय ₹2 लाख तक के पात्र अभिभावकों की पुत्री विवाह हेतु मुख्यमंत्री समग्र विवाह सहायता (अधिसूचित घटक)।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh marriage assistance scheme for eligible parents with annual income up to Rs.2 lakh for daughter’s marriage (components as notified by Social Welfare)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Hamirpur NIC: parents annual income up to Rs.2.00 lakh; bride ≥18, groom ≥21; total assistance commonly cited Rs.35,000 (components e.g. 20,000 + 10,000 + 5,000). Apply via Block (rural) or Municipality/Nagar Panchayat (urban).",
+      "verify": true,
+      "verify_notes": "Exact component breakup and caste coverage (SC/OBC etc.) should be confirmed on Social Welfare / district notices. Source: https://hamirpur.nic.in/social-welfare-department/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Marriage assistance commonly cited totaling about Rs.35,000 in notified components via DBT — confirm live amounts.",
+      "hi": "अधिसूचित घटकों में लगभग ₹35,000 विवाह सहायता (DBT) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Marriage assistance commonly cited totaling about Rs.35,000 in notified components via DBT — confirm live amounts."
+    },
+    "required_documents": {
+      "en": [
+        "Income certificate",
+        "Age proofs",
+        "Residence proof",
+        "Aadhaar",
+        "Bank account",
+        "Marriage related proofs as required"
+      ],
+      "hi": [
+        "Income certificate",
+        "Age proofs",
+        "Residence proof",
+        "Aadhaar",
+        "Bank account",
+        "Marriage related proofs as required"
+      ],
+      "ml": [
+        "Income certificate",
+        "Age proofs",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit application at the related development block (rural) or Municipality / Nagar Panchayat (urban) as notified by Social Welfare.",
+      "hi": "ग्रामीण क्षेत्र में संबंधित विकास खंड या शहरी क्षेत्र में नगर पालिका/नगर पंचायत में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Submit application at the related development block (rural) or Municipality / Nagar Panchayat (urban) as notified by Social Welfare."
+    },
+    "apply_url": "https://sspy-up.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://hamirpur.nic.in/social-welfare-department/",
+    "tags": [
+      "women",
+      "marriage",
+      "uttar-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "up-scst-prematric-scholarship",
+    "scheme_name": {
+      "en": "Pre-Matric / School Scholarship for SC/ST Students (Uttar Pradesh)",
+      "hi": "अनुसूचित जाति/जनजाति प्री-मैट्रिक / विद्यालय छात्रवृत्ति (उत्तर प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Pre-Matric / School Scholarship for SC/ST Students (Uttar Pradesh)"
+    },
+    "description": {
+      "en": "Uttar Pradesh school-level scholarship support for SC/ST students whose parents’ annual income is below Rs.2 lakh (e.g. East Sadasham stream cited on district Social Welfare pages).",
+      "hi": "उत्तर प्रदेश में माता-पिता की वार्षिक आय ₹2 लाख से कम वाले SC/ST छात्रों के लिए विद्यालय-स्तरीय छात्रवृत्ति सहायता।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh school-level scholarship support for SC/ST students whose parents’ annual income is below Rs.2 lakh (e.g. East Sadasham stream cited on district Social Welfare pages)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Hamirpur NIC cites East Sadasham scholarship for SC/ST students with parental annual income less than Rs.2 lakh (amount cited Rs.2250/student — confirm). Apply via scholarship.up.nic.in.",
+      "verify": true,
+      "verify_notes": "Stream names/amounts vary by year; confirm live eligibility on scholarship portal. Source: https://hamirpur.nic.in/social-welfare-department/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Scholarship amount as notified for the stream (district page cites about Rs.2,250 per student for one SC/ST stream — confirm current rate).",
+      "hi": "अधिसूचित छात्रवृत्ति राशि (एक धारा में लगभग ₹2250 उल्लिखित — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Scholarship amount as notified for the stream (district page cites about Rs.2,250 per student for one SC/ST stream — confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate (SC/ST)",
+        "Income certificate",
+        "School enrolment proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste certificate (SC/ST)",
+        "Income certificate",
+        "School enrolment proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste certificate (SC/ST)",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at http://scholarship.up.nic.in during the notified application window.",
+      "hi": "http://scholarship.up.nic.in पर अधिसूचित अवधि में ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at http://scholarship.up.nic.in during the notified application window."
+    },
+    "apply_url": "http://scholarship.up.nic.in",
+    "office_type": "Department of Social Welfare, Government of Uttar Pradesh",
+    "official_source_url": "https://hamirpur.nic.in/social-welfare-department/",
+    "tags": [
+      "scholarship",
+      "education",
+      "student",
+      "uttar-pradesh",
+      "sc",
+      "st"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-mukhyamantri-vridhjan-pension",
+    "scheme_name": {
+      "en": "Mukhyamantri Vridhjan Pension Yojana (Bihar)",
+      "hi": "मुख्यमंत्री वृद्धजन पेंशन योजना (बिहार)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Vridhjan Pension Yojana (Bihar)"
+    },
+    "description": {
+      "en": "Bihar state old-age pension administered via SSPMIS / Social Welfare for residents aged 60+, with monthly pension paid through DBT.",
+      "hi": "बिहार सरकार की राज्य वृद्धावस्था पेंशन (SSPMIS) — 60 वर्ष या उससे अधिक आयु के निवासियों के लिए DBT पेंशन।",
+      "ml": "(EN — Malayalam review pending) Bihar state old-age pension administered via SSPMIS / Social Welfare for residents aged 60+, with monthly pension paid through DBT."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "SSPMIS About Us (Social Welfare Bihar): minimum age 60 years; EPIC and Aadhaar mandatory; Aadhaar consent and bank account for DBT mandatory. Monthly pension stated as Rs.1100 on SSPMIS.",
+      "verify": true,
+      "verify_notes": "No explicit rupee income ceiling on SSPMIS About page for MVPY — keep income null. Confirm exclusions (other pensions) on portal. Source: https://www.sspmis.bihar.gov.in/aboutUs",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.1100 via DBT as stated on SSPMIS (confirm current rate).",
+      "hi": "SSPMIS पर उल्लिखित प्रतिमाह ₹1100 पेंशन (DBT) — वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.1100 via DBT as stated on SSPMIS (confirm current rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "EPIC (voter ID)",
+        "Bank account with DBT consent",
+        "Age / residence proofs as required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "EPIC (voter ID)",
+        "Bank account with DBT consent",
+        "Age / residence proofs as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "EPIC (voter ID)",
+        "Bank account with DBT consent"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register/apply via SSPMIS (https://www.sspmis.bihar.gov.in/) through Block/district Social Welfare channels as notified.",
+      "hi": "SSPMIS (https://www.sspmis.bihar.gov.in/) / ब्लॉक सामाजिक कल्याण चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Register/apply via SSPMIS (https://www.sspmis.bihar.gov.in/) through Block/district Social Welfare channels as notified."
+    },
+    "apply_url": "https://www.sspmis.bihar.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Bihar",
+    "official_source_url": "https://www.sspmis.bihar.gov.in/aboutUs",
+    "tags": [
+      "pension",
+      "elderly",
+      "bihar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-laxmi-bai-pension",
+    "scheme_name": {
+      "en": "Laxmi Bai Social Security Pension (Bihar)",
+      "hi": "लक्ष्मी बाई सामाजिक सुरक्षा पेंशन (बिहार)",
+      "ml": "(EN — Malayalam review pending) Laxmi Bai Social Security Pension (Bihar)"
+    },
+    "description": {
+      "en": "Bihar state widow pension covering widows aged 18+ whose annual family income is below Rs.60,000, administered via SSPMIS / Social Welfare.",
+      "hi": "बिहार राज्य विधवा पेंशन — 18 वर्ष से अधिक आयु की विधवाएँ जिनकी पारिवारिक वार्षिक आय ₹60,000 से कम हो (SSPMIS)।",
+      "ml": "(EN — Malayalam review pending) Bihar state widow pension covering widows aged 18+ whose annual family income is below Rs.60,000, administered via SSPMIS / Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "SSPMIS About Us and Siwan NIC: Lakshmi/Laxmi Bai Pension covers widows above 18 years with annual family income below Rs.60,000 (fills gap relative to IGNWPS age band).",
+      "verify": true,
+      "verify_notes": "Confirm overlap rules with IGNWPS and current pension amount on SSPMIS/e-Labharthi. Sources: https://www.sspmis.bihar.gov.in/aboutUs ; https://siwan.nic.in/scheme-category/social-security-schemes/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly social security pension via DBT (amount as revised by Social Welfare — confirm on SSPMIS/e-Labharthi).",
+      "hi": "DBT के माध्यम से मासिक पेंशन (वर्तमान राशि SSPMIS पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly social security pension via DBT (amount as revised by Social Welfare — confirm on SSPMIS/e-Labharthi)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / death certificate of husband",
+        "Income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through SSPMIS / Block Social Welfare / e-Labharthi channels as notified: https://www.sspmis.bihar.gov.in/",
+      "hi": "SSPMIS / ब्लॉक सामाजिक कल्याण / e-Labharthi के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through SSPMIS / Block Social Welfare / e-Labharthi channels as notified: https://www.sspmis.bihar.gov.in/"
+    },
+    "apply_url": "https://www.sspmis.bihar.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Bihar",
+    "official_source_url": "https://www.sspmis.bihar.gov.in/aboutUs",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "bihar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-state-disability-pension",
+    "scheme_name": {
+      "en": "Bihar State Disability Pension Scheme",
+      "hi": "बिहार राज्य दिव्यांग पेंशन योजना",
+      "ml": "(EN — Malayalam review pending) Bihar State Disability Pension Scheme"
+    },
+    "description": {
+      "en": "Bihar state disability pension for persons with ≥40% disability who are not covered under IGNDPS; no upper income limit stated on SSPMIS; Bihar residence (or 10 years’ residence) required.",
+      "hi": "बिहार राज्य दिव्यांग पेंशन — ≥40% दिव्यांगता, IGNDPS में शामिल नहीं; SSPMIS पर आय की ऊपरी सीमा नहीं बताई गई; राज्य निवास शर्त।",
+      "ml": "(EN — Malayalam review pending) Bihar state disability pension for persons with ≥40% disability who are not covered under IGNDPS; no upper income limit stated on SSPMIS; Bihar residence (or 10 years’ residence) required."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "SSPMIS About Us / Siwan NIC: (1) disability certificate minimum 40%; (2) no min/max age; (3) no upper annual income limit defined; (4) resident of Bihar or residing ≥10 years. Covers those not under IGNDPS.",
+      "verify": true,
+      "verify_notes": "No income ceiling published — do not invent. Confirm current monthly amount and IGNDPS mutual exclusion on SSPMIS. Sources: https://www.sspmis.bihar.gov.in/aboutUs ; https://siwan.nic.in/scheme-category/social-security-schemes/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (amount as revised — confirm on SSPMIS/e-Labharthi).",
+      "hi": "DBT मासिक दिव्यांग पेंशन (वर्तमान राशि SSPMIS पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (amount as revised — confirm on SSPMIS/e-Labharthi)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (40%+)",
+        "Aadhaar",
+        "Residence proof (Bihar / 10-year residence)",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate (40%+)",
+        "Aadhaar",
+        "Residence proof (Bihar / 10-year residence)",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate (40%+)",
+        "Aadhaar",
+        "Residence proof (Bihar / 10-year residence)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via SSPMIS / district Social Welfare channels: https://www.sspmis.bihar.gov.in/",
+      "hi": "SSPMIS / जिला सामाजिक कल्याण चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via SSPMIS / district Social Welfare channels: https://www.sspmis.bihar.gov.in/"
+    },
+    "apply_url": "https://www.sspmis.bihar.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Bihar",
+    "official_source_url": "https://www.sspmis.bihar.gov.in/aboutUs",
+    "tags": [
+      "pension",
+      "disability",
+      "bihar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Bihar SSPMIS)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (बिहार SSPMIS)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Bihar SSPMIS)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Widow Pension as implemented in Bihar via SSPMIS for BPL widows in the notified age band.",
+      "hi": "बिहार में SSPMIS के माध्यम से लागू NSAP इंदिरा गांधी राष्ट्रीय विधवा पेंशन (बीपीएल विधवाएँ)।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Widow Pension as implemented in Bihar via SSPMIS for BPL widows in the notified age band."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "SSPMIS About Us: widow age between 40–79 years; household below poverty line as per GoI criteria. Siwan NIC similarly cites BPL and age band (page text varies 40–59 vs 40–79 — keep 40–79 per SSPMIS).",
+      "verify": true,
+      "verify_notes": "Age band differs across district mirrors (40–59 vs 40–79); SSPMIS About states 40–79. Amount revised over time. Source: https://www.sspmis.bihar.gov.in/aboutUs",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly NSAP widow pension via DBT (SSPMIS cites revised rates such as Rs.1100 in places — confirm current amount).",
+      "hi": "NSAP विधवा पेंशन (DBT) — वर्तमान राशि SSPMIS पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly NSAP widow pension via DBT (SSPMIS cites revised rates such as Rs.1100 in places — confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL / poverty-line proof as required",
+        "Widow certificate",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL / poverty-line proof as required",
+        "Widow certificate",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL / poverty-line proof as required",
+        "Widow certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through SSPMIS / Block Social Welfare as notified: https://www.sspmis.bihar.gov.in/",
+      "hi": "SSPMIS / ब्लॉक सामाजिक कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through SSPMIS / Block Social Welfare as notified: https://www.sspmis.bihar.gov.in/"
+    },
+    "apply_url": "https://www.sspmis.bihar.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Bihar (NSAP)",
+    "official_source_url": "https://www.sspmis.bihar.gov.in/aboutUs",
+    "tags": [
+      "pension",
+      "widow",
+      "bihar",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Bihar SSPMIS)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (बिहार SSPMIS)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Bihar SSPMIS)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Old Age Pension as implemented in Bihar via SSPMIS for older persons aged 60+ (BPL criteria as applicable under NSAP).",
+      "hi": "बिहार में SSPMIS के माध्यम से लागू NSAP वृद्धावस्था पेंशन (60+)।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Old Age Pension as implemented in Bihar via SSPMIS for older persons aged 60+ (BPL criteria as applicable under NSAP)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "SSPMIS: scheme for older persons aged 60+. NSAP nationally targets BPL households — encoded as BPL + implies_low_income with verify.",
+      "verify": true,
+      "verify_notes": "SSPMIS About excerpt states age 60+; BPL framing follows NSAP — confirm live Bihar operational criteria on SSPMIS. Source: https://www.sspmis.bihar.gov.in/aboutUs",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly NSAP old-age pension via DBT (confirm current Bihar rate on SSPMIS/e-Labharthi).",
+      "hi": "NSAP वृद्धावस्था पेंशन (DBT) — वर्तमान दर SSPMIS पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly NSAP old-age pension via DBT (confirm current Bihar rate on SSPMIS/e-Labharthi)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty-line proof as required",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty-line proof as required",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty-line proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through SSPMIS / Block Social Welfare: https://www.sspmis.bihar.gov.in/",
+      "hi": "SSPMIS / ब्लॉक सामाजिक कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through SSPMIS / Block Social Welfare: https://www.sspmis.bihar.gov.in/"
+    },
+    "apply_url": "https://www.sspmis.bihar.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Bihar (NSAP)",
+    "official_source_url": "https://www.sspmis.bihar.gov.in/aboutUs",
+    "tags": [
+      "pension",
+      "elderly",
+      "bihar",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-ayushman-biswass",
+    "scheme_name": {
+      "en": "Ayushman Bharat PM-JAY (Bihar – BISWASS)",
+      "hi": "आयुष्मान भारत PM-JAY (बिहार – BISWASS)",
+      "ml": "(EN — Malayalam review pending) Ayushman Bharat PM-JAY (Bihar – BISWASS)"
+    },
+    "description": {
+      "en": "Ayushman Bharat – PM-JAY health cover as implemented in Bihar by Bihar Swasthya Suraksha Samiti (BISWASS), providing cashless secondary/tertiary care up to Rs.5 lakh per eligible family per year.",
+      "hi": "बिहार स्वास्थ्य सुरक्षा समिति (BISWASS) द्वारा लागू आयुष्मान भारत PM-JAY — पात्र परिवार को प्रति वर्ष ₹5 लाख तक कैशलेस इलाज।",
+      "ml": "(EN — Malayalam review pending) Ayushman Bharat – PM-JAY health cover as implemented in Bihar by Bihar Swasthya Suraksha Samiti (BISWASS), providing cashless secondary/tertiary care up to Rs.5 lakh per eligible family per year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "secc_deprivation",
+        "pmjay",
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "BISWASS portal: cover of Rs.5 lakh per family per year for secondary and tertiary care; entitlement-based scheme for poor and vulnerable families (PM-JAY/SECC framework).",
+      "verify": true,
+      "verify_notes": "Exact Bihar expansion lists beyond SECC/PM-JAY entitlement should be confirmed on biswass.bihar.gov.in. Source: https://biswass.bihar.gov.in/",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Cashless hospitalisation cover up to Rs.5 lakh per family per year at empaneled hospitals (portable across India under PM-JAY rules).",
+      "hi": "पात्र परिवार को प्रति वर्ष ₹5 लाख तक कैशलेस अस्पताल उपचार (PM-JAY नियमों के अनुसार)।",
+      "ml": "(EN — Malayalam review pending) Cashless hospitalisation cover up to Rs.5 lakh per family per year at empaneled hospitals (portable across India under PM-JAY rules)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Ration / SECC / eligibility proof as required",
+        "Ayushman card creation via BIS/CSC/hospital as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Ration / SECC / eligibility proof as required",
+        "Ayushman card creation via BIS/CSC/hospital as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Ration / SECC / eligibility proof as required",
+        "Ayushman card creation via BIS/CSC/hospital as notified"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check eligibility and create Ayushman card via BISWASS / empaneled hospitals / CSC as guided on https://biswass.bihar.gov.in/",
+      "hi": "https://biswass.bihar.gov.in/ पर पात्रता जाँच व आयुष्मान कार्ड बनवाएँ।",
+      "ml": "(EN — Malayalam review pending) Check eligibility and create Ayushman card via BISWASS / empaneled hospitals / CSC as guided on https://biswass.bihar.gov.in/"
+    },
+    "apply_url": "https://biswass.bihar.gov.in/",
+    "office_type": "Bihar Swasthya Suraksha Samiti (Health Department), Government of Bihar",
+    "official_source_url": "https://biswass.bihar.gov.in/",
+    "tags": [
+      "health",
+      "insurance",
+      "pmjay",
+      "bihar"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "br-post-matric-scholarship",
+    "scheme_name": {
+      "en": "Post-Matric Scholarship (Bihar PMS Online)",
+      "hi": "पोस्ट-मैट्रिक छात्रवृत्ति (बिहार PMS ऑनलाइन)",
+      "ml": "(EN — Malayalam review pending) Post-Matric Scholarship (Bihar PMS Online)"
+    },
+    "description": {
+      "en": "Bihar Post-Matric Scholarship for eligible SC/ST and BC/EBC students, applied through the official PMS Online portals of the Education Department.",
+      "hi": "बिहार शिक्षा विभाग की पोस्ट-मैट्रिक छात्रवृत्ति (SC/ST एवं BC/EBC) — आधिकारिक PMS ऑनलाइन पोर्टल।",
+      "ml": "(EN — Malayalam review pending) Bihar Post-Matric Scholarship for eligible SC/ST and BC/EBC students, applied through the official PMS Online portals of the Education Department."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST",
+        "OBC",
+        "EBC"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "nationwide": false,
+      "notes": "Official PMS portals (pmsonline.bihar.gov.in / scstpmsonline.bihar.gov.in): Post-Matric Scholarship for SC/ST and BC-EBC streams; requires caste, income, residence certificates and Aadhaar-linked DBT bank account. Income ceilings vary by category/year — left null with verify.",
+      "verify": true,
+      "verify_notes": "Do not invent income ceilings; confirm live category-wise income limits and course eligibility on PMS portal for the academic year. Source: https://pmsonline.bihar.gov.in/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Post-matric scholarship and related education assistance as notified for the category/course (DBT).",
+      "hi": "श्रेणी/कोर्स के अनुसार अधिसूचित पोस्ट-मैट्रिक छात्रवृत्ति (DBT)।",
+      "ml": "(EN — Malayalam review pending) Post-matric scholarship and related education assistance as notified for the category/course (DBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate",
+        "Residence certificate",
+        "Bonafide / enrolment certificate",
+        "Aadhaar-seeded bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate",
+        "Residence certificate",
+        "Bonafide / enrolment certificate",
+        "Aadhaar-seeded bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste certificate",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on the Bihar PMS portal during the notified window: https://pmsonline.bihar.gov.in/ (use SC-ST or BC-EBC portal as applicable).",
+      "hi": "अधिसूचित अवधि में https://pmsonline.bihar.gov.in/ पर ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online on the Bihar PMS portal during the notified window: https://pmsonline.bihar.gov.in/ (use SC-ST or BC-EBC portal as applicable)."
+    },
+    "apply_url": "https://pmsonline.bihar.gov.in/",
+    "office_type": "Education Department / Directorate of Secondary Education, Government of Bihar",
+    "official_source_url": "https://pmsonline.bihar.gov.in/",
+    "tags": [
+      "scholarship",
+      "education",
+      "student",
+      "bihar",
+      "sc",
+      "st",
+      "obc"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-samagra-social-security-oap",
+    "scheme_name": {
+      "en": "Samagra Social Security Pension – Old Age (Madhya Pradesh)",
+      "hi": "समग्र सामाजिक सुरक्षा पेंशन – वृद्धावस्था (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Samagra Social Security Pension – Old Age (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh Samagra Social Security Pension for destitute elderly aged 60+ who cannot maintain themselves, paid from state funds via Social Justice Department.",
+      "hi": "मध्य प्रदेश समग्र सामाजिक सुरक्षा पेंशन — 60+ निराश्रित वृद्ध जिन्हें स्वयं भरण-पोषण की क्षमता नहीं।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh Samagra Social Security Pension for destitute elderly aged 60+ who cannot maintain themselves, paid from state funds via Social Justice Department."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "socialjustice.mp.gov.in / CM Helpline Schemeid=355: destitute elderly aged 60+ who lack means of subsistence; state share Rs.600/month cited. Destitute framing → implies_low_income.",
+      "verify": true,
+      "verify_notes": "No single rupee income ceiling on the scheme page for old-age path (destitute). Confirm current amount and exclusions (IT payer etc.) on https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (state share commonly cited Rs.600/beneficiary/month — confirm current rate) via DBT to bank account.",
+      "hi": "मासिक पेंशन (राज्यांश अक्सर ₹600/माह उल्लिखित — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (state share commonly cited Rs.600/beneficiary/month — confirm current rate) via DBT to bank account."
+    },
+    "required_documents": {
+      "en": [
+        "Photo",
+        "BPL / destitute-poor certificate as required",
+        "Age proof",
+        "Bank account",
+        "Samagra ID as notified"
+      ],
+      "hi": [
+        "Photo",
+        "BPL / destitute-poor certificate as required",
+        "Age proof",
+        "Bank account",
+        "Samagra ID as notified"
+      ],
+      "ml": [
+        "Photo",
+        "BPL / destitute-poor certificate as required",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Gram Panchayat/Janpad (rural) or Municipal body (urban), Lok Seva Kendra, or online on the pension portal https://socialsecurity.mp.gov.in/Home.aspx as notified.",
+      "hi": "ग्राम/जनपद पंचायत, नगरीय निकाय, लोक सेवा केंद्र या https://socialsecurity.mp.gov.in/Home.aspx पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Gram Panchayat/Janpad (rural) or Municipal body (urban), Lok Seva Kendra, or online on the pension portal https://socialsecurity.mp.gov.in/Home.aspx as notified."
+    },
+    "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+    "tags": [
+      "pension",
+      "elderly",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-kalyani-widow-pension",
+    "scheme_name": {
+      "en": "Samagra Social Security Pension – Kalyani / Widow (Madhya Pradesh)",
+      "hi": "समग्र सामाजिक सुरक्षा पेंशन – कल्याणी / विधवा (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Samagra Social Security Pension – Kalyani / Widow (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh social security pension for Kalyani (widow) women aged 18+ who are not income-tax payers / government employees / family pensioners (as per Social Justice rules).",
+      "hi": "मध्य प्रदेश में 18+ कल्याणी (विधवा) महिलाओं के लिए सामाजिक सुरक्षा पेंशन (आयकरदाता/शासकीय कर्मचारी/परिवार पेंशन अपवर्जन सहित)।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh social security pension for Kalyani (widow) women aged 18+ who are not income-tax payers / government employees / family pensioners (as per Social Justice rules)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "CM Helpline 355 / socialjustice.mp.gov.in: widow (Kalyani) aged 18+; must not be income-tax payer, government employee/officer, or receiving family pension. State pension Rs.600/month cited.",
+      "verify": true,
+      "verify_notes": "Exclusion rules not fully collectable in wizard — verify=true. Source: https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (commonly cited Rs.600/month state share — confirm current rate) via DBT.",
+      "hi": "मासिक पेंशन (अक्सर ₹600/माह — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (commonly cited Rs.600/month state share — confirm current rate) via DBT."
+    },
+    "required_documents": {
+      "en": [
+        "Widow / Kalyani certificate",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID",
+        "Non-IT / non-govt declarations as required"
+      ],
+      "hi": [
+        "Widow / Kalyani certificate",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID",
+        "Non-IT / non-govt declarations as required"
+      ],
+      "ml": [
+        "Widow / Kalyani certificate",
+        "Age proof",
+        "Photo"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / ULBs / Lok Seva Kendra or pension portal https://socialsecurity.mp.gov.in/Home.aspx",
+      "hi": "ग्राम पंचायत / नगरीय निकाय / लोक सेवा केंद्र या पेंशन पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / ULBs / Lok Seva Kendra or pension portal https://socialsecurity.mp.gov.in/Home.aspx"
+    },
+    "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-deserted-women-pension",
+    "scheme_name": {
+      "en": "Samagra Social Security Pension – Deserted Women (Madhya Pradesh)",
+      "hi": "समग्र सामाजिक सुरक्षा पेंशन – परित्यक्ता महिलाएँ (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Samagra Social Security Pension – Deserted Women (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh pension for deserted (parityakta) women aged 18–59 living below the poverty line, with joint certificate/court order as proof of desertion.",
+      "hi": "मध्य प्रदेश में 18–59 वर्ष की परित्यक्ता महिलाएँ जो गरीबी रेखा से नीचे जीवन यापन करती हों — सामाजिक सुरक्षा पेंशन।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh pension for deserted (parityakta) women aged 18–59 living below the poverty line, with joint certificate/court order as proof of desertion."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 59,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "socialjustice.mp.gov.in: deserted women aged above 18 but up to 59 years living below poverty line; desertion via joint certificate of Sarpanch & Secretary / Ward Councillor & Asst. Revenue Inspector or court order.",
+      "verify": true,
+      "verify_notes": "BPL framing without numeric ceiling on page → implies_low_income. Source: https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (commonly cited Rs.600/month — confirm current rate) via DBT.",
+      "hi": "मासिक पेंशन (अक्सर ₹600/माह — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (commonly cited Rs.600/month — confirm current rate) via DBT."
+    },
+    "required_documents": {
+      "en": [
+        "Desertion certificate / court order",
+        "BPL proof",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "hi": [
+        "Desertion certificate / court order",
+        "BPL proof",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "ml": [
+        "Desertion certificate / court order",
+        "BPL proof",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx",
+      "hi": "ग्राम पंचायत/नगरीय निकाय या पेंशन पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx"
+    },
+    "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+    "tags": [
+      "pension",
+      "women",
+      "deserted",
+      "madhya-pradesh",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-disability-pension",
+    "scheme_name": {
+      "en": "Samagra Social Security Pension – Disability (Madhya Pradesh)",
+      "hi": "समग्र सामाजिक सुरक्षा पेंशन – दिव्यांगजन (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Samagra Social Security Pension – Disability (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh social security pension / education encouragement for persons with ≥40% disability (children 6–18 education assistance; adults 18+ pension) subject to notified exclusions.",
+      "hi": "मध्य प्रदेश में ≥40% दिव्यांगता वाले व्यक्तियों हेतु सामाजिक सुरक्षा पेंशन / शिक्षा प्रोत्साहन।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh social security pension / education encouragement for persons with ≥40% disability (children 6–18 education assistance; adults 18+ pension) subject to notified exclusions."
+    },
+    "eligibility_rules": {
+      "min_age": 6,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "socialjustice.mp.gov.in / CM Helpline 355: disability ≥40%; ages 6–18 education encouragement assistance; 18+ disability pension; adult path excludes IT payers, govt employees, family pensioners. BPL bondage removed for PwD pension per departmental orders listed on scheme page.",
+      "verify": true,
+      "verify_notes": "Child vs adult benefit types differ; exclusions not fully encoded. Source: https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability pension / education encouragement assistance (state share commonly cited Rs.600/month for pensioners — confirm current rates).",
+      "hi": "मासिक दिव्यांग पेंशन / शिक्षा प्रोत्साहन (अक्सर ₹600/माह — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension / education encouragement assistance (state share commonly cited Rs.600/month for pensioners — confirm current rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (40%+)",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "hi": [
+        "Disability certificate (40%+)",
+        "Age proof",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "ml": [
+        "Disability certificate (40%+)",
+        "Age proof",
+        "Photo"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx",
+      "hi": "ग्राम पंचायत/नगरीय निकाय या पेंशन पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx"
+    },
+    "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09",
+    "tags": [
+      "pension",
+      "disability",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-unmarried-women-pension",
+    "scheme_name": {
+      "en": "Samagra Social Security Pension – Unmarried Women 50+ (Madhya Pradesh)",
+      "hi": "समग्र सामाजिक सुरक्षा पेंशन – अविवाहिता महिलाएँ 50+ (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Samagra Social Security Pension – Unmarried Women 50+ (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh social security pension path for unmarried women aged above 50 who are not income-tax payers (as listed on CM Helpline Samagra pension scheme page).",
+      "hi": "मध्य प्रदेश में 50 वर्ष से अधिक आयु की अविवाहिता महिलाएँ (आयकरदाता न हों) हेतु सामाजिक सुरक्षा पेंशन।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh social security pension path for unmarried women aged above 50 who are not income-tax payers (as listed on CM Helpline Samagra pension scheme page)."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "CM Helpline Schemeid=355 eligibility list: unmarried women aged above 50 who are not income-tax payers.",
+      "verify": true,
+      "verify_notes": "Confirm live operational status and amount on Social Justice / pension portal. Source: https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (commonly cited Rs.600/month — confirm current rate) via DBT.",
+      "hi": "मासिक पेंशन (अक्सर ₹600/माह — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (commonly cited Rs.600/month — confirm current rate) via DBT."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "Unmarried status declaration/certificate as required",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "hi": [
+        "Age proof",
+        "Unmarried status declaration/certificate as required",
+        "Photo",
+        "Bank account",
+        "Samagra ID"
+      ],
+      "ml": [
+        "Age proof",
+        "Unmarried status declaration/certificate as required",
+        "Photo"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx",
+      "hi": "ग्राम पंचायत/नगरीय निकाय या पेंशन पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat/ULB / Lok Seva Kendra or https://socialsecurity.mp.gov.in/Home.aspx"
+    },
+    "apply_url": "https://socialsecurity.mp.gov.in/Home.aspx",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355",
+    "tags": [
+      "pension",
+      "women",
+      "unmarried",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-ladli-laxmi",
+    "scheme_name": {
+      "en": "Mukhyamantri Ladli Laxmi Yojana (Madhya Pradesh)",
+      "hi": "मुख्यमंत्री लाड़ली लक्ष्मी योजना (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Ladli Laxmi Yojana (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh girl-child scheme providing a registration certificate and staged education scholarships/incentives for eligible girls born on/after 1 Jan 2006 whose parents are MP residents and non-income-tax payers (family-size/conditions as notified).",
+      "hi": "मध्य प्रदेश की बालिका योजना — 1 जनवरी 2006 या बाद जन्मी पात्र बालिकाओं के लिए पंजीयन प्रमाण-पत्र व शिक्षा-लिंक्ड प्रोत्साहन।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh girl-child scheme providing a registration certificate and staged education scholarships/incentives for eligible girls born on/after 1 Jan 2006 whose parents are MP residents and non-income-tax payers (family-size/conditions as notified)."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 21,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "CM Helpline Schemeid=246: girl born on/after 1 Jan 2006; parents native residents of MP; ≤2 children with family planning after second child (with notified exceptions); parents not income-tax payers. Benefits include Rs.1,43,000 certificate on registration and stage scholarships (Class 6/9/11/12) plus higher-education incentive Rs.25,000 for eligible courses.",
+      "verify": true,
+      "verify_notes": "Age band approximated for matching across childhood+education stages. Many exception clauses (orphan, triplets, etc.). Non-IT-payer is not a numeric income ceiling. Source: https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=246",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Registration certificate of Rs.1,43,000 face value plus stage scholarships (e.g. Class 6: ₹2000, 9: ₹4000, 11: ₹6000, 12: ₹6000) and higher-education incentive ₹25,000 in eligible cases — confirm live schedule on ladlilaxmi.mp.gov.in.",
+      "hi": "₹1,43,000 का पंजीयन प्रमाण-पत्र तथा कक्षा-वार छात्रवृत्ति / उच्च शिक्षा प्रोत्साहन — वर्तमान अनुसूची पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Registration certificate of Rs.1,43,000 face value plus stage scholarships (e.g. Class 6: ₹2000, 9: ₹4000, 11: ₹6000, 12: ₹6000) and higher-education incentive ₹25,000 in eligible cases — confirm live schedule on ladlilaxmi.mp.gov.in."
+    },
+    "required_documents": {
+      "en": [
+        "Girl’s birth proof",
+        "Parents’ domicile / Samagra",
+        "Non-IT-payer declaration",
+        "School enrolment proofs for later stages",
+        "Bank account"
+      ],
+      "hi": [
+        "Girl’s birth proof",
+        "Parents’ domicile / Samagra",
+        "Non-IT-payer declaration",
+        "School enrolment proofs for later stages",
+        "Bank account"
+      ],
+      "ml": [
+        "Girl’s birth proof",
+        "Parents’ domicile / Samagra",
+        "Non-IT-payer declaration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://ladlilaxmi.mp.gov.in or via Anganwadi / Lok Seva Kendra / internet cafe as notified (generally within 1 year of birth for registration).",
+      "hi": "https://ladlilaxmi.mp.gov.in या आंगनवाड़ी / लोक सेवा केंद्र के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://ladlilaxmi.mp.gov.in or via Anganwadi / Lok Seva Kendra / internet cafe as notified (generally within 1 year of birth for registration)."
+    },
+    "apply_url": "https://ladlilaxmi.mp.gov.in",
+    "office_type": "Women and Child Development Department, Government of Madhya Pradesh",
+    "official_source_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=246",
+    "tags": [
+      "girl-child",
+      "women",
+      "education",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-niramayam-ayushman",
+    "scheme_name": {
+      "en": "Ayushman Bharat Niramayam (Madhya Pradesh)",
+      "hi": "आयुष्मान भारत निरामयम् (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Ayushman Bharat Niramayam (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "Madhya Pradesh implementation of Ayushman Bharat providing free health cover up to Rs.5 lakh per identified family per year for eligible SECC/BPL, Mukhyamantri Sambal, and Mukhyamantri Khadya Suraksha slipholder families.",
+      "hi": "मध्य प्रदेश में आयुष्मान भारत निरामयम् — पात्र परिवारों को प्रति वर्ष ₹5 लाख तक निःशुल्क स्वास्थ्य कवर।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh implementation of Ayushman Bharat providing free health cover up to Rs.5 lakh per identified family per year for eligible SECC/BPL, Mukhyamantri Sambal, and Mukhyamantri Khadya Suraksha slipholder families."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "secc_deprivation",
+        "pmjay",
+        "nfsa_ration"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Betul NIC Niramayam page: free health benefits up to Rs.5 lakh/year; beneficiaries include Census 2011 BPL households, Mukhyamantri Sambal families, and Mukhya Mantri Khadya Suraksha Karyakram slipholders. Card via Samagra ID + Aadhaar at hospitals/CSC. Portal: ayushmanbharat.mp.gov.in.",
+      "verify": true,
+      "verify_notes": "Confirm live eligibility expansion lists on ayushmanbharat.mp.gov.in. Source: https://betul.nic.in/en/scheme/niramayam-ayushman-bharat-scheme/",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Cashless health cover up to Rs.5 lakh per family per year at empaneled facilities.",
+      "hi": "पात्र परिवार को प्रति वर्ष ₹5 लाख तक कैशलेस स्वास्थ्य कवर।",
+      "ml": "(EN — Malayalam review pending) Cashless health cover up to Rs.5 lakh per family per year at empaneled facilities."
+    },
+    "required_documents": {
+      "en": [
+        "Samagra ID",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Samagra ID",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Samagra ID",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Create Ayushman/Niramayam card at government/empaneled private hospitals or CSC using Samagra ID and Aadhaar. Info: http://ayushmanbharat.mp.gov.in/",
+      "hi": "सरकारी/सूचीबद्ध अस्पताल या CSC पर समग्र ID व आधार से कार्ड बनवाएँ।",
+      "ml": "(EN — Malayalam review pending) Create Ayushman/Niramayam card at government/empaneled private hospitals or CSC using Samagra ID and Aadhaar. Info: http://ayushmanbharat.mp.gov.in/"
+    },
+    "apply_url": "http://ayushmanbharat.mp.gov.in/",
+    "office_type": "Public Health and Family Welfare / State Health Agency, Government of Madhya Pradesh",
+    "official_source_url": "https://betul.nic.in/en/scheme/niramayam-ayushman-bharat-scheme/",
+    "tags": [
+      "health",
+      "insurance",
+      "pmjay",
+      "madhya-pradesh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mp-kalyani-vivah-sahayata",
+    "scheme_name": {
+      "en": "Mukhyamantri Kalyani Vivah Sahayata Yojana (Madhya Pradesh)",
+      "hi": "मुख्यमंत्री कल्याणी विवाह सहायता योजना (मध्य प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Kalyani Vivah Sahayata Yojana (Madhya Pradesh)"
+    },
+    "description": {
+      "en": "One-time remarriage assistance for eligible Kalyani (widow) women in Madhya Pradesh (bride ≥18, groom ≥21; non-IT-payer; other exclusions as notified).",
+      "hi": "मध्य प्रदेश में पात्र कल्याणी (विधवा) महिलाओं के पुनर्विवाह हेतु एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) One-time remarriage assistance for eligible Kalyani (widow) women in Madhya Pradesh (bride ≥18, groom ≥21; non-IT-payer; other exclusions as notified)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "CM Helpline Schemeid=573: Kalyani and husband must be native residents of MP; Kalyani age ≥18 and husband ≥21 at marriage; Kalyani not IT payer / not govt employee / not receiving family pension; no BPL bondage; apply within 1 year of marriage; assistance Rs.2 lakh to applicant’s bank account.",
+      "verify": true,
+      "verify_notes": "Many conditions (spouse must not have living wife, mutual exclusion with other marriage schemes). Source: https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=573",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "One-time assistance of Rs.2 lakh credited to the applicant’s bank account (as per CM Helpline page).",
+      "hi": "आवेदिका के बैंक खाते में एकमुश्त ₹2 लाख सहायता।",
+      "ml": "(EN — Malayalam review pending) One-time assistance of Rs.2 lakh credited to the applicant’s bank account (as per CM Helpline page)."
+    },
+    "required_documents": {
+      "en": [
+        "MP domicile of Kalyani and husband",
+        "Samagra IDs",
+        "Age proofs",
+        "Bank passbook of Kalyani",
+        "Marriage certificate",
+        "Other declarations as listed"
+      ],
+      "hi": [
+        "MP domicile of Kalyani and husband",
+        "Samagra IDs",
+        "Age proofs",
+        "Bank passbook of Kalyani",
+        "Marriage certificate",
+        "Other declarations as listed"
+      ],
+      "ml": [
+        "MP domicile of Kalyani and husband",
+        "Samagra IDs",
+        "Age proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit application with documents to the Collector / Joint or Deputy Director, Social Justice office of the district that issued the marriage certificate (within 1 year of marriage). Portal: http://socialjustice.mp.gov.in",
+      "hi": "विवाह प्रमाण-पत्र जारी करने वाले जिले के कलेक्टर / सामाजिक न्याय कार्यालय में 1 वर्ष के भीतर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Submit application with documents to the Collector / Joint or Deputy Director, Social Justice office of the district that issued the marriage certificate (within 1 year of marriage). Portal: http://socialjustice.mp.gov.in"
+    },
+    "apply_url": "http://socialjustice.mp.gov.in",
+    "office_type": "Social Justice and Disabled Persons Welfare Department, Government of Madhya Pradesh",
+    "official_source_url": "https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=573",
+    "tags": [
+      "women",
+      "widow",
+      "marriage",
+      "madhya-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-ekal-nari-samman-pension",
+    "scheme_name": {
+      "en": "Mukhyamantri Ekal Nari Samman Pension Yojana (Rajasthan)",
+      "hi": "मुख्यमंत्री एकल नारी सम्मान पेंशन योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Ekal Nari Samman Pension Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan state pension for single women (widow / divorced / deserted) aged 18+, delivered via RajSSP / Jan Aadhaar-linked DBT.",
+      "hi": "राजस्थान में 18+ एकल महिलाएँ (विधवा/तलाकशुदा/परित्यक्ता) हेतु राज्य पेंशन — RajSSP / जन आधार DBT।",
+      "ml": "(EN — Malayalam review pending) Rajasthan state pension for single women (widow / divorced / deserted) aged 18+, delivered via RajSSP / Jan Aadhaar-linked DBT."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 48000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "divorced",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "RajSSP Pension Schemes flow: eligibility — widow/divorced/deserted women aged 18+; annual income limit shown as Rs.48,000 on the scheme-flow table (confirm rural/urban revisions). Benefits commonly ₹1300/month (<75) / ₹1500 (75+).",
+      "verify": true,
+      "verify_notes": "Income ceiling on RajSSP flow table listed as Rs.48000 for this column — confirm if urban differs. Source: https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx ; SJED https://sje.rajasthan.gov.in/Default.aspx?PageID=288",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension via Jan Aadhaar DBT (RajSSP cites about ₹1300/month under 75 and ₹1500 at 75+ — confirm current rates).",
+      "hi": "जन आधार DBT मासिक पेंशन (अक्सर ₹1300/₹1500 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via Jan Aadhaar DBT (RajSSP cites about ₹1300/month under 75 and ₹1500 at 75+ — confirm current rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Bank account",
+        "Widow/divorce/desertion proof",
+        "Income declaration as required"
+      ],
+      "hi": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Bank account",
+        "Widow/divorce/desertion proof",
+        "Income declaration as required"
+      ],
+      "ml": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via RajSSP / Rajasthan SSO / e-Mitra: https://ssp.rajasthan.gov.in/",
+      "hi": "https://ssp.rajasthan.gov.in/ या SSO / ई-मित्र से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via RajSSP / Rajasthan SSO / e-Mitra: https://ssp.rajasthan.gov.in/"
+    },
+    "apply_url": "https://ssp.rajasthan.gov.in/",
+    "office_type": "Social Justice and Empowerment Department, Government of Rajasthan",
+    "official_source_url": "https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "rajasthan",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-vishesh-yogyajan-samman-pension",
+    "scheme_name": {
+      "en": "Mukhyamantri Vishesh Yogyajan Samman Pension Yojana (Rajasthan)",
+      "hi": "मुख्यमंत्री विशेष योग्यजन सम्मान पेंशन योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Vishesh Yogyajan Samman Pension Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan state pension for persons with disabilities (generally ≥40% disability; also notified categories such as dwarfism / hijra) via RajSSP.",
+      "hi": "राजस्थान में विशेष योग्यजन (सामान्यतः ≥40% निशक्तता; अधिसूचित अन्य श्रेणियाँ) हेतु राज्य पेंशन — RajSSP।",
+      "ml": "(EN — Malayalam review pending) Rajasthan state pension for persons with disabilities (generally ≥40% disability; also notified categories such as dwarfism / hijra) via RajSSP."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "RajSSP scheme flow: any-age Vishesh Yogyajan with disability 40%+ (also lists natural dwarfism below 3 ft 6 in and hijra). Annual income limit column shows Rs.60,000. Special higher rates for leprosy-cured / silicosis cited on flow page.",
+      "verify": true,
+      "verify_notes": "Confirm income ceiling and special-category amounts on live RajSSP. Source: https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (base rates commonly ₹1300; higher for some notified conditions — confirm on RajSSP).",
+      "hi": "DBT मासिक दिव्यांग पेंशन (आधार दर अक्सर ₹1300 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (base rates commonly ₹1300; higher for some notified conditions — confirm on RajSSP)."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Disability certificate (40%+)",
+        "Bank account",
+        "Income declaration as required"
+      ],
+      "hi": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Disability certificate (40%+)",
+        "Bank account",
+        "Income declaration as required"
+      ],
+      "ml": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Disability certificate (40%+)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via https://ssp.rajasthan.gov.in/ (SSO / e-Mitra).",
+      "hi": "https://ssp.rajasthan.gov.in/ पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via https://ssp.rajasthan.gov.in/ (SSO / e-Mitra)."
+    },
+    "apply_url": "https://ssp.rajasthan.gov.in/",
+    "office_type": "Social Justice and Empowerment Department, Government of Rajasthan",
+    "official_source_url": "https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx",
+    "tags": [
+      "pension",
+      "disability",
+      "rajasthan",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-laghu-simant-farmer-pension",
+    "scheme_name": {
+      "en": "Laghu evam Simant Krishak Vridhjan Pension Yojana (Rajasthan)",
+      "hi": "लघु एवं सीमांत कृषक वृद्धजन पेंशन योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Laghu evam Simant Krishak Vridhjan Pension Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan old-age pension path for small and marginal farmers (women 55+ / men 58+) as defined under NFSA-linked state circulars, via RajSSP.",
+      "hi": "राजस्थान में लघु एवं सीमांत कृषकों के लिए वृद्धजन पेंशन (महिला 55+/पुरुष 58+) — RajSSP।",
+      "ml": "(EN — Malayalam review pending) Rajasthan old-age pension path for small and marginal farmers (women 55+ / men 58+) as defined under NFSA-linked state circulars, via RajSSP."
+    },
+    "eligibility_rules": {
+      "min_age": 55,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "landholding_farmer"
+      ],
+      "categories": [
+        "small_marginal_farmer"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "RajSSP: women 55+ / men 58+ who are small & marginal farmers as defined under NFSA ordinance 2013 / Food & Civil Supplies circular 31.08.2013. Income ceiling column on flow page incomplete in scrape — left null with verify.",
+      "verify": true,
+      "verify_notes": "Male applicants may need age 58+. Confirm income ceiling and farmer definition documents on RajSSP/SJED. Source: https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT (commonly cited around ₹1300/month — confirm current RajSSP rate).",
+      "hi": "DBT मासिक पेंशन (अक्सर लगभग ₹1300 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT (commonly cited around ₹1300/month — confirm current RajSSP rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Farmer / landholding proof as small or marginal farmer",
+        "Age proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Farmer / landholding proof as small or marginal farmer",
+        "Age proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Jan Aadhaar",
+        "Aadhaar",
+        "Farmer / landholding proof as small or marginal farmer"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via https://ssp.rajasthan.gov.in/ (SSO / e-Mitra).",
+      "hi": "https://ssp.rajasthan.gov.in/ पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via https://ssp.rajasthan.gov.in/ (SSO / e-Mitra)."
+    },
+    "apply_url": "https://ssp.rajasthan.gov.in/",
+    "office_type": "Social Justice and Empowerment Department, Government of Rajasthan",
+    "official_source_url": "https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx",
+    "tags": [
+      "pension",
+      "elderly",
+      "farmer",
+      "rajasthan",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-palanhar",
+    "scheme_name": {
+      "en": "Palanhar Yojana (Rajasthan)",
+      "hi": "पालनहार योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Palanhar Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan foster-care support scheme providing monthly grants to a Palanhar family caring for eligible orphan / vulnerable children, subject to annual income ≤ Rs.1.20 lakh.",
+      "hi": "राजस्थान पालनहार योजना — पात्र अनाथ/कमजोर बच्चों के पालन-पोषण हेतु पालनहार परिवार को मासिक अनुदान (वार्षिक आय ≤ ₹1.20 लाख)।",
+      "ml": "(EN — Malayalam review pending) Rajasthan foster-care support scheme providing monthly grants to a Palanhar family caring for eligible orphan / vulnerable children, subject to annual income ≤ Rs.1.20 lakh."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 18,
+      "max_annual_income": 120000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "SJED Palanhar page: Palanhar family annual income must not exceed Rs.1.20 lakh; categories include orphans, children of destitute-pension widows (max 3), divorced/deserted mother’s children, children of disabled/AIDS/leprosy-affected parents, etc. Grant Rs.500/month up to age 5 and Rs.1000/month after school enrolment until age 18, plus annual clothing grant (exceptions apply).",
+      "verify": true,
+      "verify_notes": "Complex category list — matcher uses age≤18 and income≤1.2L only. Confirm category documents on https://sje.rajasthan.gov.in/schemes/palanhar.html",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly grant to Palanhar: Rs.500 (child under 5) / Rs.1000 (after school entry until 18) plus annual grant Rs.2000 for clothes etc. (widow/nata categories excluded from annual grant) — confirm live rates.",
+      "hi": "पालनहार को मासिक ₹500/₹1000 अनुदान एवं वार्षिक सहायता — वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly grant to Palanhar: Rs.500 (child under 5) / Rs.1000 (after school entry until 18) plus annual grant Rs.2000 for clothes etc. (widow/nata categories excluded from annual grant) — confirm live rates."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar / Bhamashah as required",
+        "Aadhaar of child and Palanhar",
+        "Income certificate",
+        "Category-wise certificates",
+        "School enrolment proof"
+      ],
+      "hi": [
+        "Jan Aadhaar / Bhamashah as required",
+        "Aadhaar of child and Palanhar",
+        "Income certificate",
+        "Category-wise certificates",
+        "School enrolment proof"
+      ],
+      "ml": [
+        "Jan Aadhaar / Bhamashah as required",
+        "Aadhaar of child and Palanhar",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via SSO Palanhar icon / e-Mitra / district SJED as notified. Info: https://sje.rajasthan.gov.in/schemes/palanhar.html",
+      "hi": "SSO पालनहार / ई-मित्र / जिला SJED के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via SSO Palanhar icon / e-Mitra / district SJED as notified. Info: https://sje.rajasthan.gov.in/schemes/palanhar.html"
+    },
+    "apply_url": "https://sje.rajasthan.gov.in/schemes/palanhar.html",
+    "office_type": "Social Justice and Empowerment Department, Government of Rajasthan",
+    "official_source_url": "https://sje.rajasthan.gov.in/schemes/palanhar.html",
+    "tags": [
+      "child",
+      "orphan",
+      "women",
+      "rajasthan",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-mukhyamantri-ayushman-arogya",
+    "scheme_name": {
+      "en": "Mukhyamantri Ayushman Arogya Yojana (Rajasthan)",
+      "hi": "मुख्यमंत्री आयुष्मान आरोग्य योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Ayushman Arogya Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan health insurance scheme (successor expansion of AB-MGRSBY) providing IPD package cover for Jan Aadhaar-linked families in the free category (NFSA, SECC 2011, state contract workers, small/marginal farmers, notified COVID ex-gratia destitute families) or via premium payment for other non-government-employee families.",
+      "hi": "राजस्थान मुख्यमंत्री आयुष्मान आरोग्य योजना — निःशुल्क श्रेणी (NFSA/SECC/संविदाकर्मी/लघु-सीमांत कृषक आदि) या प्रीमियम भुगतान से जन आधार जुड़े परिवारों हेतु स्वास्थ्य बीमा।",
+      "ml": "(EN — Malayalam review pending) Rajasthan health insurance scheme (successor expansion of AB-MGRSBY) providing IPD package cover for Jan Aadhaar-linked families in the free category (NFSA, SECC 2011, state contract workers, small/marginal farmers, notified COVID ex-gratia destitute families) or via premium payment for other non-government-employee families."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer"
+      ],
+      "categories": [
+        "nfsa_ration",
+        "secc_deprivation",
+        "pmjay",
+        "small_marginal_farmer"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "rajswasthya.rajasthan.gov.in schemes (MAAY): free category includes NFSA eligible families, SECC 2011 eligible families, contract workers of state depts/boards/corporations, small & marginal farmers, and prior-year COVID-19 ex-gratia destitute families. Other non-govt-employee families may join by paying notified premium. IPD packages only.",
+      "verify": true,
+      "verify_notes": "Premium path not encoded. Cover amount/packages change — confirm on https://maayojana.rajasthan.gov.in/ and https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Cashless IPD treatment under notified packages for registered Jan Aadhaar families (free category or premium enrollees).",
+      "hi": "पंजीकृत जन आधार परिवारों हेतु अधिसूचित पैकेजों में कैशलेस IPD उपचार।",
+      "ml": "(EN — Malayalam review pending) Cashless IPD treatment under notified packages for registered Jan Aadhaar families (free category or premium enrollees)."
+    },
+    "required_documents": {
+      "en": [
+        "Jan Aadhaar",
+        "Aadhaar-linked mobile for OTP",
+        "SSO ID for registration as notified"
+      ],
+      "hi": [
+        "Jan Aadhaar",
+        "Aadhaar-linked mobile for OTP",
+        "SSO ID for registration as notified"
+      ],
+      "ml": [
+        "Jan Aadhaar",
+        "Aadhaar-linked mobile for OTP",
+        "SSO ID for registration as notified"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register/check via Jan Aadhaar–linked channels / SSO / e-Mitra and https://maayojana.rajasthan.gov.in/ as notified by Medical & Health Department.",
+      "hi": "जन आधार / SSO / ई-मित्र तथा https://maayojana.rajasthan.gov.in/ के माध्यम से पंजीकरण/पात्रता जाँच करें।",
+      "ml": "(EN — Malayalam review pending) Register/check via Jan Aadhaar–linked channels / SSO / e-Mitra and https://maayojana.rajasthan.gov.in/ as notified by Medical & Health Department."
+    },
+    "apply_url": "https://maayojana.rajasthan.gov.in/",
+    "office_type": "Medical, Health & Family Welfare Department, Government of Rajasthan",
+    "official_source_url": "https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+    "tags": [
+      "health",
+      "insurance",
+      "rajasthan",
+      "jan-aadhaar"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-janani-suraksha",
+    "scheme_name": {
+      "en": "Janani Suraksha Yojana (Rajasthan)",
+      "hi": "जननी सुरक्षा योजना (राजस्थान)",
+      "ml": "(EN — Malayalam review pending) Janani Suraksha Yojana (Rajasthan)"
+    },
+    "description": {
+      "en": "Rajasthan implementation of Janani Suraksha Yojana providing cash incentives for institutional deliveries (rural/urban rates as notified) to promote safe motherhood.",
+      "hi": "राजस्थान में जननी सुरक्षा योजना — संस्थागत प्रसव हेतु अधिसूचित प्रोत्साहन राशि।",
+      "ml": "(EN — Malayalam review pending) Rajasthan implementation of Janani Suraksha Yojana providing cash incentives for institutional deliveries (rural/urban rates as notified) to promote safe motherhood."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "rajswasthya.rajasthan.gov.in JSY tab: institutional delivery incentives — mother Rs.1400 rural / Rs.1000 urban (plus ASHA incentives). Page also references BPL pregnant women for certain ASHA advance processes. Exact beneficiary targeting follows NHM/JSY norms — keep BPL soft gate + verify.",
+      "verify": true,
+      "verify_notes": "National JSY eligibility nuances (LPS/HPS states, parity) not fully restated — verify=true. Source: https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": true,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash incentive to mother for institutional delivery (Rs.1400 rural / Rs.1000 urban as stated on state health schemes page) via DBT/OJAS as notified.",
+      "hi": "संस्थागत प्रसव पर माता को प्रोत्साहन (ग्रामीण ₹1400 / शहरी ₹1000 — पृष्ठ अनुसार) ।",
+      "ml": "(EN — Malayalam review pending) Cash incentive to mother for institutional delivery (Rs.1400 rural / Rs.1000 urban as stated on state health schemes page) via DBT/OJAS as notified."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "ANC / MCP card",
+        "Bank account",
+        "Institutional delivery proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "ANC / MCP card",
+        "Bank account",
+        "Institutional delivery proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "ANC / MCP card",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Avail through public health facilities / ASHA as per JSY process; payments via OJAS/DBT as notified by Medical & Health Department.",
+      "hi": "सार्वजनिक स्वास्थ्य संस्थान / आशा के माध्यम से JSY प्रक्रिया अपनाएँ।",
+      "ml": "(EN — Malayalam review pending) Avail through public health facilities / ASHA as per JSY process; payments via OJAS/DBT as notified by Medical & Health Department."
+    },
+    "apply_url": "https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+    "office_type": "Medical, Health & Family Welfare Department, Government of Rajasthan",
+    "official_source_url": "https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+    "tags": [
+      "maternity",
+      "health",
+      "women",
+      "rajasthan",
+      "jsy"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "rj-nirirogi-free-medicine",
+    "scheme_name": {
+      "en": "Mukhyamantri Nishulk Nirogi Rajasthan (Free Medicines) Scheme",
+      "hi": "मुख्यमंत्री निःशुल्क निरोगी राजस्थान (दवा) योजना",
+      "ml": "(EN — Malayalam review pending) Mukhyamantri Nishulk Nirogi Rajasthan (Free Medicines) Scheme"
+    },
+    "description": {
+      "en": "Rajasthan free essential medicines scheme providing notified drugs/surgicals free of cost at government health facilities under the Mukhyamantri Nishulk Nirogi Rajasthan / free drug programme.",
+      "hi": "राजस्थान मुख्यमंत्री निःशुल्क निरोगी/दवा योजना — राजकीय स्वास्थ्य संस्थानों में अधिसूचित औषधियाँ निःशुल्क।",
+      "ml": "(EN — Malayalam review pending) Rajasthan free essential medicines scheme providing notified drugs/surgicals free of cost at government health facilities under the Mukhyamantri Nishulk Nirogi Rajasthan / free drug programme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "nationwide": false,
+      "notes": "rajswasthya.rajasthan.gov.in: free medicines scheme operational statewide at government facilities (EDL expanded under Nirogi Rajasthan). Generally available to patients seeking care in government institutions — no separate income ceiling stated on the scheme tab.",
+      "verify": true,
+      "verify_notes": "Universal at govt facilities rather than means-tested; still useful for Rajasthan health discovery. Confirm facility-level EDL on health department pages. Source: https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Free supply of notified essential medicines and surgicals at government hospitals/PHCs as per Essential Drug List.",
+      "hi": "राजकीय अस्पतालों/PHC में अधिसूचित आवश्यक दवाएँ व सर्जिकल्स निःशुल्क।",
+      "ml": "(EN — Malayalam review pending) Free supply of notified essential medicines and surgicals at government hospitals/PHCs as per Essential Drug List."
+    },
+    "required_documents": {
+      "en": [
+        "OPD/IPD registration at government facility",
+        "Aadhaar / Jan Aadhaar as required by facility"
+      ],
+      "hi": [
+        "OPD/IPD registration at government facility",
+        "Aadhaar / Jan Aadhaar as required by facility"
+      ],
+      "ml": [
+        "OPD/IPD registration at government facility",
+        "Aadhaar / Jan Aadhaar as required by facility"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Avail free medicines at government health institutions in Rajasthan under the scheme; details on https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+      "hi": "राजकीय स्वास्थ्य संस्थानों में योजना के अंतर्गत निःशुल्क दवाएँ प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Avail free medicines at government health institutions in Rajasthan under the scheme; details on https://rajswasthya.rajasthan.gov.in/schemes.php?id=1"
+    },
+    "apply_url": "https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+    "office_type": "Medical, Health & Family Welfare Department / RMSC, Government of Rajasthan",
+    "official_source_url": "https://rajswasthya.rajasthan.gov.in/schemes.php?id=1",
+    "tags": [
+      "health",
+      "medicines",
+      "rajasthan"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-mbpy-widow",
+    "scheme_name": {
+      "en": "Madhu Babu Pension Yojana – Widow (Odisha)",
+      "hi": "मधु बाबू पेंशन योजना – विधवा (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) Madhu Babu Pension Yojana – Widow (Odisha)"
+    },
+    "description": {
+      "en": "Odisha Madhu Babu Pension Yojana path for widows of any age who are permanent residents with family income not exceeding Rs.60,000/year and not receiving another government pension (as per SSEPD scheme description).",
+      "hi": "ओडिशा मधु बाबू पेंशन — किसी भी आयु की विधवाएँ (पारिवारिक आय ≤ ₹60,000/वर्ष, अन्य सरकारी पेंशन न हो)।",
+      "ml": "(EN — Malayalam review pending) Odisha Madhu Babu Pension Yojana path for widows of any age who are permanent residents with family income not exceeding Rs.60,000/year and not receiving another government pension (as per SSEPD scheme description)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "SSEPD Madhu Babu Pension Yojana (official scheme page / myScheme): permanent resident of Odisha; family income ≤ Rs.60,000 p.a.; not receiving any other government pension; widows of any age eligible among listed categories.",
+      "verify": true,
+      "verify_notes": "Confirm live category list and pension rates on https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana and https://www.myscheme.gov.in/schemes/mbypvy",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT under MBPY (commonly cited around Rs.1,000; higher for some age bands — confirm SSEPD rates).",
+      "hi": "MBPY के अंतर्गत मासिक पेंशन (DBT) — वर्तमान दर SSEPD पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT under MBPY (commonly cited around Rs.1,000; higher for some age bands — confirm SSEPD rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residence proof",
+        "Income / BPL proof",
+        "Widow certificate",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residence proof",
+        "Income / BPL proof",
+        "Widow certificate",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residence proof",
+        "Income / BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block / ULB / Mo Seva as notified by SSEPD Odisha.",
+      "hi": "ब्लॉक / ULB / मो सेवा के माध्यम से SSEPD अधिसूचना अनुसार आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Block / ULB / Mo Seva as notified by SSEPD Odisha."
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/mbypvy",
+    "office_type": "Social Security & Empowerment of Persons with Disabilities Department, Government of Odisha",
+    "official_source_url": "https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana",
+    "tags": [
+      "pension",
+      "widow",
+      "odisha",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-mbpy-disability",
+    "scheme_name": {
+      "en": "Madhu Babu Pension Yojana – Disability (Odisha)",
+      "hi": "मधु बाबू पेंशन योजना – दिव्यांगता (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) Madhu Babu Pension Yojana – Disability (Odisha)"
+    },
+    "description": {
+      "en": "Odisha Madhu Babu Pension Yojana path for eligible persons with notified disabilities (e.g. blindness, orthopaedic handicap, intellectual disability) subject to residence, income ≤ Rs.60,000 and no other government pension.",
+      "hi": "ओडिशा मधु बाबू पेंशन — अधिसूचित दिव्यांगता श्रेणियों हेतु (आय ≤ ₹60,000, अन्य सरकारी पेंशन न हो)।",
+      "ml": "(EN — Malayalam review pending) Odisha Madhu Babu Pension Yojana path for eligible persons with notified disabilities (e.g. blindness, orthopaedic handicap, intellectual disability) subject to residence, income ≤ Rs.60,000 and no other government pension."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "SSEPD MBPY: eligible disability categories include blindness, orthopaedic handicap, intellectual disability and other notified conditions; permanent Odisha resident; family income ≤ Rs.60,000; not on other government pension. AIDS patients/widows of AIDS patients may have relaxed income rules — verify separately.",
+      "verify": true,
+      "verify_notes": "Disability percentage thresholds and special AIDS exemptions should be confirmed on SSEPD page. Source: https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT under MBPY (confirm current SSEPD rates).",
+      "hi": "MBPY दिव्यांग पेंशन (DBT) — वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT under MBPY (confirm current SSEPD rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar",
+        "Residence proof",
+        "Income proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar",
+        "Residence proof",
+        "Income proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block / ULB / Mo Seva as notified by SSEPD Odisha.",
+      "hi": "ब्लॉक / ULB / मो सेवा के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Block / ULB / Mo Seva as notified by SSEPD Odisha."
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/mbypvy",
+    "office_type": "Social Security & Empowerment of Persons with Disabilities Department, Government of Odisha",
+    "official_source_url": "https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana",
+    "tags": [
+      "pension",
+      "disability",
+      "odisha",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-bsky",
+    "scheme_name": {
+      "en": "Biju Swasthya Kalyan Yojana / Gopabandhu Jana Arogya Yojana (Odisha)",
+      "hi": "बिजु स्वास्थ्य कल्याण योजना / गोपाबंधु जन आरोग्य योजना (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) Biju Swasthya Kalyan Yojana / Gopabandhu Jana Arogya Yojana (Odisha)"
+    },
+    "description": {
+      "en": "Odisha universal health coverage programme: free care in all state government health facilities for residents, plus cashless cover in empaneled private hospitals for economically vulnerable families holding BSKY Smart Health Card / NFSA / SFSS cards (Rs.5 lakh per family + additional Rs.5 lakh for women members after initial limit, as per guidelines).",
+      "hi": "ओडिशा बिजु स्वास्थ्य कल्याण / गोपाबंधु जन आरोग्य — राजकीय सुविधाओं में निःशुल्क सेवा; NFSA/SFSS/BSKY कार्डधारकों हेतु निजी अस्पतालों में कैशलेस कवर।",
+      "ml": "(EN — Malayalam review pending) Odisha universal health coverage programme: free care in all state government health facilities for residents, plus cashless cover in empaneled private hospitals for economically vulnerable families holding BSKY Smart Health Card / NFSA / SFSS cards (Rs.5 lakh per family + additional Rs.5 lakh for women members after initial limit, as per guidelines)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "nfsa_ration",
+        "BPL",
+        "pmjay"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "BSKY guidelines / GJAY About: Component-1 free care in all state govt facilities for all Odisha patients; Component-2 cashless private-hospital cover for BSKY Smart Card and NFSA/SFSS holders — Rs.5 lakh/family/year plus additional Rs.5 lakh for women members after exhausting initial limit.",
+      "verify": true,
+      "verify_notes": "Universal Component-1 vs targeted Component-2 — matcher soft-gates on NFSA/BPL for discovery of private-cover path. Confirm card issuance on bsky.odisha.gov.in / gjaydashboard.odisha.gov.in. Sources cited from official BSKY guidelines PDF and GJAY About page.",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Free treatment in government facilities; for cardholders, cashless private care up to Rs.5 lakh/family/year (+ additional Rs.5 lakh for women after initial limit) as per BSKY guidelines.",
+      "hi": "राजकीय सुविधाओं में निःशुल्क उपचार; कार्डधारकों हेतु निजी अस्पतालों में कैशलेस कवर (दिशानिर्देश अनुसार)।",
+      "ml": "(EN — Malayalam review pending) Free treatment in government facilities; for cardholders, cashless private care up to Rs.5 lakh/family/year (+ additional Rs.5 lakh for women after initial limit) as per BSKY guidelines."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "NFSA / SFSS / BSKY Smart Health Card",
+        "Residence proof as required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "NFSA / SFSS / BSKY Smart Health Card",
+        "Residence proof as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "NFSA / SFSS / BSKY Smart Health Card",
+        "Residence proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Avail government facility care statewide; for private empaneled care ensure BSKY/NFSA/SFSS card. Info: https://gjaydashboard.odisha.gov.in/About and https://bsky.odisha.gov.in/ ; helpline 104.",
+      "hi": "राजकीय अस्पताल सेवाएँ सर्वत्र; निजी सूचीबद्ध अस्पताल हेतु BSKY/NFSA/SFSS कार्ड सुनिश्चित करें।",
+      "ml": "(EN — Malayalam review pending) Avail government facility care statewide; for private empaneled care ensure BSKY/NFSA/SFSS card. Info: https://gjaydashboard.odisha.gov.in/About and https://bsky.odisha.gov.in/ ; helpline 104."
+    },
+    "apply_url": "https://gjaydashboard.odisha.gov.in/About",
+    "office_type": "Health & Family Welfare Department, Government of Odisha",
+    "official_source_url": "https://gjaydashboard.odisha.gov.in/About",
+    "tags": [
+      "health",
+      "insurance",
+      "odisha",
+      "bsky"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-mission-shakti-loan",
+    "scheme_name": {
+      "en": "Mission Shakti Loan – Interest Subvention (Odisha)",
+      "hi": "मिशन शक्ति ऋण – ब्याज अनुदान (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) Mission Shakti Loan – Interest Subvention (Odisha)"
+    },
+    "description": {
+      "en": "Odisha Mission Shakti interest-subvention scheme providing effective 0% interest on prompt-repayment SHG bank loans up to Rs.3 lakh for women Self Help Groups (rural and urban).",
+      "hi": "ओडिशा मिशन शक्ति — महिला स्वयं सहायता समूहों के बैंक ऋण (₹3 लाख तक) पर समय पर चुकौती हेतु प्रभावी 0% ब्याज।",
+      "ml": "(EN — Malayalam review pending) Odisha Mission Shakti interest-subvention scheme providing effective 0% interest on prompt-repayment SHG bank loans up to Rs.3 lakh for women Self Help Groups (rural and urban)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "missionshakti.odisha.gov.in: from 1 April 2019, effective 0% interest for women SHGs on loans up to Rs.3 lakh on prompt repayment; applicable to rural & urban SHGs irrespective of promoting agency; banks on CBS may participate.",
+      "verify": true,
+      "verify_notes": "Requires active SHG membership and bank linkage — not fully captured in wizard. Source: https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Interest subvention making eligible SHG loans up to Rs.3 lakh effectively interest-free on timely repayment.",
+      "hi": "पात्र SHG ऋण (₹3 लाख तक) पर समय पर चुकौती हेतु प्रभावी ब्याज-मुक्त सुविधा।",
+      "ml": "(EN — Malayalam review pending) Interest subvention making eligible SHG loans up to Rs.3 lakh effectively interest-free on timely repayment."
+    },
+    "required_documents": {
+      "en": [
+        "SHG registration / passbook",
+        "Bank loan documents",
+        "Aadhaar of members as required"
+      ],
+      "hi": [
+        "SHG registration / passbook",
+        "Bank loan documents",
+        "Aadhaar of members as required"
+      ],
+      "ml": [
+        "SHG registration / passbook",
+        "Bank loan documents",
+        "Aadhaar of members as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Access via Mission Shakti / bank SHG linkage channels; programme info: https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention",
+      "hi": "मिशन शक्ति / बैंक SHG लिंकेज चैनलों के माध्यम से लाभ लें।",
+      "ml": "(EN — Malayalam review pending) Access via Mission Shakti / bank SHG linkage channels; programme info: https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention"
+    },
+    "apply_url": "https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention",
+    "office_type": "Directorate of Mission Shakti / Department of W&CD and Mission Shakti, Government of Odisha",
+    "official_source_url": "https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention",
+    "tags": [
+      "women",
+      "shg",
+      "livelihood",
+      "odisha",
+      "credit"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-mamata",
+    "scheme_name": {
+      "en": "MAMATA Maternity Benefit Scheme (Odisha)",
+      "hi": "ममता मातृत्व लाभ योजना (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) MAMATA Maternity Benefit Scheme (Odisha)"
+    },
+    "description": {
+      "en": "Odisha conditional maternity cash-transfer scheme (MAMATA) for pregnant and lactating women, implemented via WCD / Anganwadi (increasingly converged with PMMVY on state portals).",
+      "hi": "ओडिशा ममता मातृत्व नकद सहायता — गर्भवती/स्तनपान कराने वाली महिलाओं हेतु (WCD / आंगनवाड़ी; PMMVY अभिसरण संभव)।",
+      "ml": "(EN — Malayalam review pending) Odisha conditional maternity cash-transfer scheme (MAMATA) for pregnant and lactating women, implemented via WCD / Anganwadi (increasingly converged with PMMVY on state portals)."
+    },
+    "eligibility_rules": {
+      "min_age": 19,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "WCD Odisha MAMATA programme (women schemes): typically targets pregnant & lactating women aged 19+ for early live births with ANC/IFA/TT conditionalities; government/PSU employee exclusions often apply. Amounts and PMMVY convergence have been revised in recent budgets — leave amounts to verify_notes.",
+      "verify": true,
+      "verify_notes": "Live instalment amounts and PMMVY convergence (mamata-pmmvy.odisha.gov.in / e-MAMATA) must be confirmed on WCD Odisha circulars before quoting rupees. Official programme home: https://wcd.odisha.gov.in/about-us/department-works/for-women ; e-MAMATA https://emamata.odisha.gov.in/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": true
+    },
+    "benefits": {
+      "en": "Conditional cash transfers for pregnant/lactating women in instalments tied to ANC/immunisation milestones (confirm current MAMATA/PMMVY combined amounts on WCD Odisha).",
+      "hi": "ANC/टीकाकरण मीलपत्थरों से जुड़ी किश्तों में मातृत्व नकद सहायता — वर्तमान राशि WCD पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Conditional cash transfers for pregnant/lactating women in instalments tied to ANC/immunisation milestones (confirm current MAMATA/PMMVY combined amounts on WCD Odisha)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar-linked bank account in woman’s name",
+        "MCP / ANC card",
+        "Residence proof",
+        "Anganwadi registration"
+      ],
+      "hi": [
+        "Aadhaar-linked bank account in woman’s name",
+        "MCP / ANC card",
+        "Residence proof",
+        "Anganwadi registration"
+      ],
+      "ml": [
+        "Aadhaar-linked bank account in woman’s name",
+        "MCP / ANC card",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at Anganwadi / via e-MAMATA or Mamata-PMMVY state channels as notified by WCD Odisha.",
+      "hi": "आंगनवाड़ी / e-MAMATA या राज्य ममता-PMMVY चैनल पर पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Register at Anganwadi / via e-MAMATA or Mamata-PMMVY state channels as notified by WCD Odisha."
+    },
+    "apply_url": "https://emamata.odisha.gov.in/",
+    "office_type": "Department of Women and Child Development, Government of Odisha",
+    "official_source_url": "https://wcd.odisha.gov.in/about-us/department-works/for-women",
+    "tags": [
+      "maternity",
+      "women",
+      "odisha",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Odisha SSEPD)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (ओडिशा SSEPD)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Odisha SSEPD)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Widow Pension as listed under Odisha SSEPD schemes for eligible BPL widows in the NSAP age band.",
+      "hi": "ओडिशा SSEPD के अंतर्गत सूचीबद्ध NSAP इंदिरा गांधी राष्ट्रीय विधवा पेंशन।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Widow Pension as listed under Odisha SSEPD schemes for eligible BPL widows in the NSAP age band."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "SSEPD hosts Indira Gandhi National Widow Pension scheme page under its schemes programme. NSAP criteria: BPL widow in notified age band (commonly 40–79).",
+      "verify": true,
+      "verify_notes": "Confirm Odisha operational age/amount on https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0",
+      "countries": [
+        "India"
+      ],
+      "implies_low_income": true,
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly NSAP widow pension via DBT (confirm current Odisha rate on SSEPD).",
+      "hi": "NSAP विधवा पेंशन (DBT) — वर्तमान दर SSEPD पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly NSAP widow pension via DBT (confirm current Odisha rate on SSEPD)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL proof",
+        "Widow certificate",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL proof",
+        "Widow certificate",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL proof",
+        "Widow certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Block/ULB / SSEPD channels as notified.",
+      "hi": "ब्लॉक/ULB / SSEPD चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Block/ULB / SSEPD channels as notified."
+    },
+    "apply_url": "https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0",
+    "office_type": "Social Security & Empowerment of Persons with Disabilities Department, Government of Odisha",
+    "official_source_url": "https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0",
+    "tags": [
+      "pension",
+      "widow",
+      "odisha",
+      "nsap",
+      "bpl"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "od-mission-shakti",
+    "scheme_name": {
+      "en": "Mission Shakti – Women SHG Empowerment (Odisha)",
+      "hi": "मिशन शक्ति – महिला SHG सशक्तिकरण (ओडिशा)",
+      "ml": "(EN — Malayalam review pending) Mission Shakti – Women SHG Empowerment (Odisha)"
+    },
+    "description": {
+      "en": "Odisha’s flagship Mission Shakti programme for social and economic empowerment of women through Self Help Groups, including bank linkage, livelihoods, and institutional support under the Directorate of Mission Shakti.",
+      "hi": "ओडिशा मिशन शक्ति — स्वयं सहायता समूहों के माध्यम से महिलाओं का सामाजिक-आर्थिक सशक्तिकरण।",
+      "ml": "(EN — Malayalam review pending) Odisha’s flagship Mission Shakti programme for social and economic empowerment of women through Self Help Groups, including bank linkage, livelihoods, and institutional support under the Directorate of Mission Shakti."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "nationwide": false,
+      "notes": "missionshakti.odisha.gov.in FAQs: state programme since 2001 for women empowerment via SHGs; supports skills, funds, bank linkage, interest subvention, market linkages. Implemented via Directorate of Mission Shakti under W&CD.",
+      "verify": true,
+      "verify_notes": "Programme umbrella rather than a single cash transfer — useful for women livelihood matching. Source: https://missionshakti.odisha.gov.in/en/more/msd-FAQs",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "SHG formation/support, bank linkage, livelihood promotion and related Mission Shakti entitlements (including access to Mission Shakti Loan interest subvention where eligible).",
+      "hi": "SHG गठन/सहायता, बैंक लिंकेज, आजीविका संवर्धन एवं संबंधित मिशन शक्ति लाभ।",
+      "ml": "(EN — Malayalam review pending) SHG formation/support, bank linkage, livelihood promotion and related Mission Shakti entitlements (including access to Mission Shakti Loan interest subvention where eligible)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "SHG membership details",
+        "Bank passbook"
+      ],
+      "hi": [
+        "Aadhaar",
+        "SHG membership details",
+        "Bank passbook"
+      ],
+      "ml": [
+        "Aadhaar",
+        "SHG membership details",
+        "Bank passbook"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Join/operate through local Mission Shakti / ICDS / block Mission Shakti units; portal: https://missionshakti.odisha.gov.in/",
+      "hi": "स्थानीय मिशन शक्ति / ICDS इकाई के माध्यम से जुड़ें।",
+      "ml": "(EN — Malayalam review pending) Join/operate through local Mission Shakti / ICDS / block Mission Shakti units; portal: https://missionshakti.odisha.gov.in/"
+    },
+    "apply_url": "https://missionshakti.odisha.gov.in/",
+    "office_type": "Directorate of Mission Shakti, Government of Odisha",
+    "official_source_url": "https://missionshakti.odisha.gov.in/en/more/msd-FAQs",
+    "tags": [
+      "women",
+      "shg",
+      "livelihood",
+      "odisha"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

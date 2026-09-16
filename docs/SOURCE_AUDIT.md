@@ -1,7 +1,7 @@
 # Source audit — Scheme Finder catalogue
 
 **Audit date:** 2026-09-16 (Asia/Calcutta / IST)
-**Schemes audited:** 76
+**Schemes audited:** 112
 
 ## Policy
 
@@ -13,9 +13,9 @@
 ## Summary
 
 - URL field replacements this pass: **12** (across **8** schemes)
-- `eligibility_rules.verify=true`: **68**
+- `eligibility_rules.verify=true`: **104**
 - `eligibility_rules.verify=false`: **8**
-- Official source domain types: gov=76
+- Official source domain types: gov=112
 
 ### Schemes whose `official_source_url` is not a `*.gov.*` / `*.nic.in` host
 
@@ -145,4 +145,59 @@ _None._ Every scheme has at least one gov-domain URL (usually `official_source_u
 - Some gov sites return SSL/timeout errors from automated checkers; domain grounding still counts as gov.
 - `nsap.nic.in` may fail DNS from some resolvers; URL retained as the MoRD NSAP official site.
 - `last_verified` bumped to 2026-09-16 for the full catalogue after this grounding pass.
+
+## Wave 1 deepen (2026-09-16 IST) — UP / Bihar / MP / Rajasthan / Odisha
+
+Added **36** new local schemes (catalogue now **112**). All new `official_source_url` values are on `.gov.in` / `.nic.in` (or myScheme.gov.in). Eligibility encoded only from cited official pages; uncertain ceilings left null or marked `verify=true`.
+
+### New scheme ids + sources
+
+| id | official_source_url |
+|----|---------------------|
+| `up-old-age-pension` | https://lalitpur.nic.in/scheme/%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE-%E0%A4%AA%E0%A5%87%E0%A4%82%E0%A4%B6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/ |
+| `up-destitute-widow-pension` | https://saharanpur.nic.in/scheme/destitute-widow-pension-scheme/ |
+| `up-disability-pension` | https://mau.nic.in/en/service/application-for-disability-grant-disability-pension/ |
+| `up-daughter-marriage-grant` | https://hamirpur.nic.in/social-welfare-department/ |
+| `up-post-matric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ |
+| `up-cm-comprehensive-marriage` | https://hamirpur.nic.in/social-welfare-department/ |
+| `up-scst-prematric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ |
+| `br-mukhyamantri-vridhjan-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
+| `br-laxmi-bai-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
+| `br-state-disability-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
+| `br-ignwps` | https://www.sspmis.bihar.gov.in/aboutUs |
+| `br-ignoaps` | https://www.sspmis.bihar.gov.in/aboutUs |
+| `br-ayushman-biswass` | https://biswass.bihar.gov.in/ |
+| `br-post-matric-scholarship` | https://pmsonline.bihar.gov.in/ |
+| `mp-samagra-social-security-oap` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
+| `mp-kalyani-widow-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 |
+| `mp-deserted-women-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
+| `mp-disability-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
+| `mp-unmarried-women-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 |
+| `mp-ladli-laxmi` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=246 |
+| `mp-niramayam-ayushman` | https://betul.nic.in/en/scheme/niramayam-ayushman-bharat-scheme/ |
+| `mp-kalyani-vivah-sahayata` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=573 |
+| `rj-ekal-nari-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
+| `rj-vishesh-yogyajan-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
+| `rj-laghu-simant-farmer-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
+| `rj-palanhar` | https://sje.rajasthan.gov.in/schemes/palanhar.html |
+| `rj-mukhyamantri-ayushman-arogya` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
+| `rj-janani-suraksha` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
+| `rj-nirirogi-free-medicine` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
+| `od-mbpy-widow` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana |
+| `od-mbpy-disability` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana |
+| `od-bsky` | https://gjaydashboard.odisha.gov.in/About |
+| `od-mission-shakti-loan` | https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention |
+| `od-mamata` | https://wcd.odisha.gov.in/about-us/department-works/for-women |
+| `od-ignwps` | https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0 |
+| `od-mission-shakti` | https://missionshakti.odisha.gov.in/en/more/msd-FAQs |
+
+### Skipped (no solid official eligibility page reachable this pass)
+
+- UP Ayushman state portal mirrors that are non-`.gov.in` only (kept national `ab-pmjay-national`).
+
+- Odisha Biju Pucca Ghar / Nirman Shramik housing (rh.odisha.gov.in unreachable from research host; eligibility not safely encodable).
+
+- Bihar Satat Jeevikoparjan (brlps.in non-gov host without accompanying `.gov.in` eligibility page in hand).
+
+- Rajasthan RGHS (employee/pensioner medical scheme — out of scope for general welfare matching).
 
