@@ -14227,5 +14227,3228 @@
       "bpl"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-disability-pension",
+    "scheme_name": {
+      "en": "Financial Assistance to Disabled Persons (Punjab)",
+      "hi": "दिव्यांग व्यक्तियों को वित्तीय सहायता (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Disabled Persons (Punjab)"
+    },
+    "description": {
+      "en": "Punjab Social Security financial assistance for persons with disabilities who are unable to earn their livelihood, subject to the notified disability percentage and annual income ceiling in the state PwD policy / Social Security channels.",
+      "hi": "पंजाब सामाजिक सुरक्षा के अंतर्गत आजीविका कमाने में असमर्थ दिव्यांग व्यक्तियों के लिए वित्तीय सहायता (अधिसूचित दिव्यांगता प्रतिशत एवं आय सीमा के अधीन)।",
+      "ml": "(EN — Malayalam review pending) Punjab Social Security financial assistance for persons with disabilities who are unable to earn their livelihood, subject to the notified disability percentage and annual income ceiling in the state PwD policy / Social Security channels."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 60000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 50,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Punjab PwD policy (NIC S3WAAS PDF): financial assistance to persons with various disabilities unable to earn livelihood with annual income less than Rs.60,000; persons with less than 50% disability not eligible, except mentally disabled persons who are eligible irrespective of extent of disability. Mentally disabled covered on priority.",
+      "verify_notes": "2026-09-16: eligibility from official Punjab PwD policy PDF https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf (para on Financial Assistance to Disabled Persons). Mental-disability exception not fully expressible — verify=true. Apply via Digital Punjab / Sewa Kendra / SSWCD.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly financial assistance via DBT (confirm current Punjab disability pension rate on SSWCD / Digital Punjab).",
+      "hi": "मासिक वित्तीय सहायता DBT के माध्यम से (वर्तमान दर SSWCD / डिजिटल पंजाब पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly financial assistance via DBT (confirm current Punjab disability pension rate on SSWCD / Digital Punjab)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate / self-declaration",
+        "Residence proof (Punjab)",
+        "Bank passbook",
+        "Age proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate / self-declaration",
+        "Residence proof (Punjab)",
+        "Bank passbook",
+        "Age proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate / self-declaration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Digital Punjab / Sewa Kendra or Department of Social Security and Women & Child Development channels. Policy text: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf ; department: https://sswcd.punjab.gov.in/en",
+      "hi": "डिजिटल पंजाब / सेवा केंद्र या सामाजिक सुरक्षा विभाग चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Digital Punjab / Sewa Kendra or Department of Social Security and Women & Child Development channels. Policy text: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf ; department: https://sswcd.punjab.gov.in/en"
+    },
+    "apply_url": "https://connect.punjab.gov.in/",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf",
+    "tags": [
+      "pension",
+      "disability",
+      "punjab",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-acid-attack-assistance",
+    "scheme_name": {
+      "en": "Financial Assistance to Acid Attack Victims (Punjab)",
+      "hi": "एसिड हमला पीड़ितों को वित्तीय सहायता (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Acid Attack Victims (Punjab)"
+    },
+    "description": {
+      "en": "Punjab state scheme providing monthly financial assistance to female acid-attack victims rendered 40% or more disabled, administered by Social Security and Women & Child Development.",
+      "hi": "पंजाब की राज्य योजना — 40% या अधिक दिव्यांगता वाली महिला एसिड हमला पीड़ितों को मासिक वित्तीय सहायता।",
+      "ml": "(EN — Malayalam review pending) Punjab state scheme providing monthly financial assistance to female acid-attack victims rendered 40% or more disabled, administered by Social Security and Women & Child Development."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SSWCD state-schemes page: scheme since 2017; monthly financial assistance to females rendered 40% disabled due to acid attack; assistance commonly cited as Rs.8,000/month on the same page — confirm current rate.",
+      "verify_notes": "2026-09-16: eligibility summary from https://sswcd.punjab.gov.in/en/wcd/state-schemes (SSWCD portal). Residence/income exclusions if any not fully listed on the summary page — verify=true.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly financial assistance (commonly Rs.8,000/month on SSWCD state-schemes page — confirm current amount).",
+      "hi": "मासिक वित्तीय सहायता (SSWCD पृष्ठ पर सामान्यतः ₹8,000/माह — वर्तमान राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly financial assistance (commonly Rs.8,000/month on SSWCD state-schemes page — confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Acid attack / medical records",
+        "Disability certificate (≥40%)",
+        "Aadhaar",
+        "Residence proof (Punjab)",
+        "Bank passbook"
+      ],
+      "hi": [
+        "Acid attack / medical records",
+        "Disability certificate (≥40%)",
+        "Aadhaar",
+        "Residence proof (Punjab)",
+        "Bank passbook"
+      ],
+      "ml": [
+        "Acid attack / medical records",
+        "Disability certificate (≥40%)",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Social Security / Digital Punjab / Sewa Kendra channels. Scheme listed at https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+      "hi": "सामाजिक सुरक्षा / डिजिटल पंजाब / सेवा केंद्र के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Social Security / Digital Punjab / Sewa Kendra channels. Scheme listed at https://sswcd.punjab.gov.in/en/wcd/state-schemes"
+    },
+    "apply_url": "https://connect.punjab.gov.in/",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+    "tags": [
+      "women",
+      "disability",
+      "acid-attack",
+      "punjab",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-attendance-scholarship-disabled-girls",
+    "scheme_name": {
+      "en": "Attendance Scholarship for Girl Students with Disabilities (Rural Areas, Punjab)",
+      "hi": "ग्रामीण क्षेत्रों की दिव्यांग बालिकाओं के लिए उपस्थिति छात्रवृत्ति (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Attendance Scholarship for Girl Students with Disabilities (Rural Areas, Punjab)"
+    },
+    "description": {
+      "en": "Punjab state-sponsored attendance scholarship for rural girl students with disabilities to encourage schooling, administered by Social Security and Women & Child Development.",
+      "hi": "पंजाब की राज्य प्रायोजित उपस्थिति छात्रवृत्ति — ग्रामीण क्षेत्रों की दिव्यांग बालिका विद्यार्थियों के लिए।",
+      "ml": "(EN — Malayalam review pending) Punjab state-sponsored attendance scholarship for rural girl students with disabilities to encourage schooling, administered by Social Security and Women & Child Development."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SSWCD state-schemes page: fully state-sponsored since 2005; Rs.2,500/year up to Class 10 and Rs.3,000/year from 10+1 onward for rural girl students with disabilities. Detailed % disability / attendance / income rules on application channels should be re-checked (commonly ≥40% disability under RPwD categories).",
+      "verify_notes": "2026-09-16: amount and rural-girl focus from https://sswcd.punjab.gov.in/en/wcd/state-schemes . Exact disability %, attendance %, and income ceilings not fully restated on that summary page — verify=true; min_disability_percent=40 and categories=rural are soft gates from commonly cited scheme rules.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.2,500 per annum up to Class 10; Rs.3,000 per annum from 10+1 onward (SSWCD state-schemes page).",
+      "hi": "कक्षा 10 तक ₹2,500 प्रति वर्ष; 10+1 से आगे ₹3,000 प्रति वर्ष (SSWCD)।",
+      "ml": "(EN — Malayalam review pending) Rs.2,500 per annum up to Class 10; Rs.3,000 per annum from 10+1 onward (SSWCD state-schemes page)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "School enrolment / attendance proof",
+        "Aadhaar",
+        "Rural residence proof",
+        "Bank account",
+        "Income proof if required"
+      ],
+      "hi": [
+        "Disability certificate",
+        "School enrolment / attendance proof",
+        "Aadhaar",
+        "Rural residence proof",
+        "Bank account",
+        "Income proof if required"
+      ],
+      "ml": [
+        "Disability certificate",
+        "School enrolment / attendance proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the educational institution / Social Security channels as notified. Scheme listing: https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+      "hi": "विद्यालय / सामाजिक सुरक्षा चैनल के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through the educational institution / Social Security channels as notified. Scheme listing: https://sswcd.punjab.gov.in/en/wcd/state-schemes"
+    },
+    "apply_url": "https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+    "tags": [
+      "education",
+      "scholarship",
+      "disability",
+      "girl-child",
+      "punjab"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-pwd-student-scholarship",
+    "scheme_name": {
+      "en": "Scholarships to Students with Disabilities (Punjab)",
+      "hi": "दिव्यांग विद्यार्थियों के लिए छात्रवृत्ति (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Scholarships to Students with Disabilities (Punjab)"
+    },
+    "description": {
+      "en": "Punjab fully state-sponsored scholarship scheme (since 1996) to assist students with disabilities to secure education, academic, technical or professional training.",
+      "hi": "पंजाब की पूर्णतः राज्य प्रायोजित छात्रवृत्ति (1996 से) — दिव्यांग विद्यार्थियों की शिक्षा/प्रशिक्षण हेतु।",
+      "ml": "(EN — Malayalam review pending) Punjab fully state-sponsored scholarship scheme (since 1996) to assist students with disabilities to secure education, academic, technical or professional training."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SSWCD state-schemes page: Scholarships to Students with Disabilities Scheme since 1996; fully state sponsored; objective is educational/technical/professional training for PwD students. Detailed income/marks/course rules — confirm on application form / SSWCD before treating ceilings as hard.",
+      "verify_notes": "2026-09-16: scheme existence and objective from https://sswcd.punjab.gov.in/en/wcd/state-schemes . Numeric income/marks ceilings not published on that summary page — verify=true.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Scholarship support for eligible students with disabilities (confirm current rates and course slabs on SSWCD / Digital Punjab).",
+      "hi": "पात्र दिव्यांग विद्यार्थियों के लिए छात्रवृत्ति (वर्तमान दरें SSWCD पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Scholarship support for eligible students with disabilities (confirm current rates and course slabs on SSWCD / Digital Punjab)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Enrolment / marksheet",
+        "Aadhaar",
+        "Income proof if required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Enrolment / marksheet",
+        "Aadhaar",
+        "Income proof if required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Enrolment / marksheet",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Social Security / educational institution channels as notified. Listing: https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+      "hi": "सामाजिक सुरक्षा / शैक्षणिक संस्थान चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Social Security / educational institution channels as notified. Listing: https://sswcd.punjab.gov.in/en/wcd/state-schemes"
+    },
+    "apply_url": "https://connect.punjab.gov.in/",
+    "office_type": "Department of Social Security and Women & Child Development, Government of Punjab",
+    "official_source_url": "https://sswcd.punjab.gov.in/en/wcd/state-schemes",
+    "tags": [
+      "education",
+      "scholarship",
+      "disability",
+      "punjab"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-ashirwad-marriage",
+    "scheme_name": {
+      "en": "Ashirwad Scheme – Marriage Assistance (Punjab)",
+      "hi": "आशीर्वाद योजना – विवाह सहायता (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Ashirwad Scheme – Marriage Assistance (Punjab)"
+    },
+    "description": {
+      "en": "Punjab marriage assistance of Rs.21,000 at the time of marriage of eligible girls belonging to SC and BC families, with priority coverage for physically or intellectually disabled girls who meet Ashirwad criteria (Punjab PwD policy).",
+      "hi": "पंजाब आशीर्वाद योजना — SC/BC परिवारों की पात्र बालिकाओं के विवाह पर ₹21,000 सहायता (दिव्यांग बालिकाओं को प्राथमिकता)।",
+      "ml": "(EN — Malayalam review pending) Punjab marriage assistance of Rs.21,000 at the time of marriage of eligible girls belonging to SC and BC families, with priority coverage for physically or intellectually disabled girls who meet Ashirwad criteria (Punjab PwD policy)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC",
+        "BC"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Punjab PwD policy PDF: under Ashirwad scheme Rs.21,000 is given at marriage of girls belonging to SC and BC families; all physically or intellectually disabled girls who fulfil Ashirwad eligibility shall be covered on priority. Action department noted as Social Justice & Empowerment of Minorities in the PDF — confirm live application channel.",
+      "verify_notes": "2026-09-16: amount and SC/BC marriage assistance from https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf . Full Ashirwad income/age rules beyond SC/BC girl-marriage not fully restated in that paragraph — verify=true.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.21,000 marriage assistance (as stated in the Punjab PwD policy PDF; confirm current amount on the implementing department portal).",
+      "hi": "विवाह पर ₹21,000 सहायता (पंजाब दिव्यांगजन नीति PDF; वर्तमान राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Rs.21,000 marriage assistance (as stated in the Punjab PwD policy PDF; confirm current amount on the implementing department portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Caste certificate (SC/BC)",
+        "Marriage invitation / certificate as required",
+        "Aadhaar",
+        "Residence proof",
+        "Bank account",
+        "Disability certificate if claiming PwD priority"
+      ],
+      "hi": [
+        "Caste certificate (SC/BC)",
+        "Marriage invitation / certificate as required",
+        "Aadhaar",
+        "Residence proof",
+        "Bank account",
+        "Disability certificate if claiming PwD priority"
+      ],
+      "ml": [
+        "Caste certificate (SC/BC)",
+        "Marriage invitation / certificate as required",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the notified Social Justice / Social Security / Sewa Kendra channels for Ashirwad. Policy reference: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf",
+      "hi": "अधिसूचित सामाजिक न्याय / सामाजिक सुरक्षा / सेवा केंद्र चैनल से आशीर्वाद हेतु आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through the notified Social Justice / Social Security / Sewa Kendra channels for Ashirwad. Policy reference: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf"
+    },
+    "apply_url": "https://connect.punjab.gov.in/",
+    "office_type": "Department of Social Justice / Social Security, Government of Punjab",
+    "official_source_url": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf",
+    "tags": [
+      "marriage",
+      "women",
+      "sc",
+      "bc",
+      "punjab",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "pb-mai-bhago-vidya",
+    "scheme_name": {
+      "en": "Mai Bhago Vidya Scheme (Punjab)",
+      "hi": "मई भागो विद्या योजना (पंजाब)",
+      "ml": "(EN — Malayalam review pending) Mai Bhago Vidya Scheme (Punjab)"
+    },
+    "description": {
+      "en": "Punjab scheme providing free bicycles to girl students of Classes 9–10 in Government schools to encourage enrolment and reduce dropout, with special focus / modern tricycles for disabled girl students (Punjab PwD policy).",
+      "hi": "पंजाब मई भागो विद्या — सरकारी विद्यालयों की कक्षा 9–10 की बालिकाओं को निःशुल्क साइकिल (दिव्यांग बालिकाओं पर विशेष ध्यान)।",
+      "ml": "(EN — Malayalam review pending) Punjab scheme providing free bicycles to girl students of Classes 9–10 in Government schools to encourage enrolment and reduce dropout, with special focus / modern tricycles for disabled girl students (Punjab PwD policy)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Punjab PwD policy PDF: free bicycles to all girl students from 9 to 10 classes studying in Government schools; special focus on disabled girl students; modern tricycles for all disabled girl students.",
+      "verify_notes": "2026-09-16: in-kind education support from https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf (Mai Bhago Vidya Scheme). Class 9–10 government-school constraint not fully in wizard — verify=true.",
+      "states": [
+        "Punjab"
+      ]
+    },
+    "benefits": {
+      "en": "Free bicycle (or modern tricycle for eligible disabled girl students) for Classes 9–10 government school girls.",
+      "hi": "कक्षा 9–10 सरकारी स्कूल बालिकाओं के लिए निःशुल्क साइकिल (पात्र दिव्यांग बालिकाओं के लिए ट्राइसाइकिल)।",
+      "ml": "(EN — Malayalam review pending) Free bicycle (or modern tricycle for eligible disabled girl students) for Classes 9–10 government school girls."
+    },
+    "required_documents": {
+      "en": [
+        "School enrolment proof (Govt school Class 9/10)",
+        "Aadhaar",
+        "Residence proof",
+        "Disability certificate if claiming tricycle"
+      ],
+      "hi": [
+        "School enrolment proof (Govt school Class 9/10)",
+        "Aadhaar",
+        "Residence proof",
+        "Disability certificate if claiming tricycle"
+      ],
+      "ml": [
+        "School enrolment proof (Govt school Class 9/10)",
+        "Aadhaar",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Benefit is typically routed through government schools / Education and Social Security channels as notified in the Punjab PwD policy. PDF: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf",
+      "hi": "सामान्यतः सरकारी विद्यालय / शिक्षा एवं सामाजिक सुरक्षा चैनल के माध्यम से लाभ।",
+      "ml": "(EN — Malayalam review pending) Benefit is typically routed through government schools / Education and Social Security channels as notified in the Punjab PwD policy. PDF: https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf"
+    },
+    "apply_url": "https://sswcd.punjab.gov.in/en",
+    "office_type": "Department of Social Security and Women & Child Development / School Education, Government of Punjab",
+    "official_source_url": "https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf",
+    "tags": [
+      "education",
+      "girl-child",
+      "punjab",
+      "in-kind"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-divyang-pension",
+    "scheme_name": {
+      "en": "Haryana Divyang Pension Schemes",
+      "hi": "हरियाणा दिव्यांग पेंशन योजनाएँ",
+      "ml": "(EN — Malayalam review pending) Haryana Divyang Pension Schemes"
+    },
+    "description": {
+      "en": "Haryana Disabled Persons Pension Schemes providing monthly social-security pension to eligible persons with 60–100% notified disabilities who are domicile/residents and whose self-income does not exceed the notified unskilled minimum-wage ceiling.",
+      "hi": "हरियाणा दिव्यांग पेंशन — 60–100% अधिसूचित दिव्यांगता वाले पात्र निवासियों को मासिक सामाजिक सुरक्षा पेंशन।",
+      "ml": "(EN — Malayalam review pending) Haryana Disabled Persons Pension Schemes providing monthly social-security pension to eligible persons with 60–100% notified disabilities who are domicile/residents and whose self-income does not exceed the notified unskilled minimum-wage ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 60,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: age 18+; domicile of Haryana and residing in Haryana for last 3 years at application; self income from all sources should not exceed minimum wages of unskilled labour as notified by Labour Department; disability 60–100% (listed categories include blindness, low vision, leprosy cured, hearing impairment, locomotor, mental retardation, mental illness). Pension rate revised over time (page cites Rs.3,000 w.e.f. 01.01.2024 among historical revisions — confirm current).",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/ . Minimum-wage income cap is not a fixed rupee ceiling in the wizard — leave max_annual_income null; verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Divyang pension via DBT (historical page rate Rs.3,000 w.e.f. 01.01.2024 — confirm current SEWA rate).",
+      "hi": "मासिक दिव्यांग पेंशन DBT (पृष्ठ पर ऐतिहासिक दर ₹3,000 — वर्तमान SEWA दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Divyang pension via DBT (historical page rate Rs.3,000 w.e.f. 01.01.2024 — confirm current SEWA rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (60–100%)",
+        "Aadhaar / PPP as required",
+        "Domicile / residence proof",
+        "Income declaration",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate (60–100%)",
+        "Aadhaar / PPP as required",
+        "Domicile / residence proof",
+        "Income declaration",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate (60–100%)",
+        "Aadhaar / PPP as required",
+        "Domicile / residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/",
+    "tags": [
+      "pension",
+      "disability",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-ladli-social-security",
+    "scheme_name": {
+      "en": "Ladli Social Security Allowance Scheme (Haryana)",
+      "hi": "लाडली सामाजिक सुरक्षा भत्ता योजना (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Ladli Social Security Allowance Scheme (Haryana)"
+    },
+    "description": {
+      "en": "Haryana social-security allowance for families with only daughter/daughters (no biological or adopted son), paid for 15 years from when either parent completes age 45, subject to the notified family income ceiling.",
+      "hi": "हरियाणा लाडली भत्ता — केवल पुत्रियों वाले परिवारों के लिए (कोई पुत्र नहीं), माता/पिता के 45 वर्ष पूरे होने से 15 वर्ष तक, अधिसूचित आय सीमा के अधीन।",
+      "ml": "(EN — Malayalam review pending) Haryana social-security allowance for families with only daughter/daughters (no biological or adopted son), paid for 15 years from when either parent completes age 45, subject to the notified family income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": 45,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: family of biological parent(s) domicile of Haryana (or working for Govt of Haryana) with no son (biological or adopted) but only daughter/daughters; gross annual family income from all sources must not exceed Rs.2,00,000; benefit for 15 years from date either parent completes 45 years; paid to mother if surviving else father. Encoded min_age=45 as parent age gate.",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/ . Daughter-only / no-son rule and 15-year window not fully in wizard — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Ladli allowance via DBT (page cites rate revisions up to Rs.3,200 w.e.f. 01.11.2025 — confirm current).",
+      "hi": "मासिक लाडली भत्ता DBT (पृष्ठ पर दर संशोधन — वर्तमान राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Ladli allowance via DBT (page cites rate revisions up to Rs.3,200 w.e.f. 01.11.2025 — confirm current)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar / PPP",
+        "Proof of daughters only (no son)",
+        "Age proof of parent",
+        "Income proof",
+        "Bank account",
+        "Domicile proof"
+      ],
+      "hi": [
+        "Aadhaar / PPP",
+        "Proof of daughters only (no son)",
+        "Age proof of parent",
+        "Income proof",
+        "Bank account",
+        "Domicile proof"
+      ],
+      "ml": [
+        "Aadhaar / PPP",
+        "Proof of daughters only (no son)",
+        "Age proof of parent"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/",
+    "tags": [
+      "girl-child",
+      "women",
+      "haryana",
+      "dbt",
+      "pension"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-destitute-children",
+    "scheme_name": {
+      "en": "Financial Assistance to Destitute Children Scheme (Haryana)",
+      "hi": "निराश्रित बच्चों को वित्तीय सहायता योजना (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Destitute Children Scheme (Haryana)"
+    },
+    "description": {
+      "en": "Haryana state scheme providing monthly financial assistance for up to two children under 21 years who are deprived of parental support as defined in the SEWA scheme text, subject to parent/guardian income ceiling.",
+      "hi": "हरियाणा निराश्रित बाल सहायता — 21 वर्ष से कम आयु के अधिकतम दो बच्चों के लिए, अभिभावक आय सीमा के अधीन।",
+      "ml": "(EN — Malayalam review pending) Haryana state scheme providing monthly financial assistance for up to two children under 21 years who are deprived of parental support as defined in the SEWA scheme text, subject to parent/guardian income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 21,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: child under 21 deprived of parental support/care by reason of death, continued absence of father for last 2 years, or parent sentenced to imprisonment ≥1 year, or physical/mental incapacity of a parent; income of parents/guardians should not exceed Rs.2,00,000/year; benefits for maximum two children of one family. Rate revised over time (historical slabs listed on page).",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/ . Destitution grounds not fully in wizard — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly financial assistance per eligible child (confirm current rate on SEWA; historical revisions listed on the scheme page).",
+      "hi": "प्रति पात्र बालक मासिक सहायता (वर्तमान दर SEWA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly financial assistance per eligible child (confirm current rate on SEWA; historical revisions listed on the scheme page)."
+    },
+    "required_documents": {
+      "en": [
+        "Child age proof",
+        "Proof of parental deprivation / death / incapacity as applicable",
+        "Income certificate of guardian",
+        "Aadhaar",
+        "Bank account",
+        "PPP / residence proof"
+      ],
+      "hi": [
+        "Child age proof",
+        "Proof of parental deprivation / death / incapacity as applicable",
+        "Income certificate of guardian",
+        "Aadhaar",
+        "Bank account",
+        "PPP / residence proof"
+      ],
+      "ml": [
+        "Child age proof",
+        "Proof of parental deprivation / death / incapacity as applicable",
+        "Income certificate of guardian"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/",
+    "tags": [
+      "children",
+      "pension",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-nonschool-disabled-children",
+    "scheme_name": {
+      "en": "Financial Assistance to Non-School Going Disabled Children (Haryana)",
+      "hi": "स्कूल न जाने वाले दिव्यांग बच्चों को वित्तीय सहायता (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Non-School Going Disabled Children (Haryana)"
+    },
+    "description": {
+      "en": "Haryana assistance for mentally retarded and multiple-disabled children aged 0–18 who cannot attend formal education/training due to disability, with monthly DBT as notified on the SEWA page.",
+      "hi": "हरियाणा — 0–18 वर्ष के मानसिक/बहु-दिव्यांग बच्चे जो औपचारिक शिक्षा नहीं ले सकते, उन्हें मासिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Haryana assistance for mentally retarded and multiple-disabled children aged 0–18 who cannot attend formal education/training due to disability, with monthly DBT as notified on the SEWA page."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: started 2008-09; financial assistance to mentally retarded and multiple disabled children aged 0–18 unable to attend formal education/training due to disability; assistance @ Rs.2,600 p.m. w.e.f. November 2025 to every such disabled child in the applicant family. Detailed income/domicile rules if any — confirm on SARAL forms.",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/ . Income ceiling not stated on the summary page — left null; verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.2,600 per month per eligible disabled child w.e.f. November 2025 (SEWA page).",
+      "hi": "प्रति पात्र दिव्यांग बालक ₹2,600 प्रति माह (नवंबर 2025 से — SEWA)।",
+      "ml": "(EN — Malayalam review pending) Rs.2,600 per month per eligible disabled child w.e.f. November 2025 (SEWA page)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (MR / multiple disability)",
+        "Age proof",
+        "Aadhaar / PPP",
+        "Bank account",
+        "Parent/guardian details"
+      ],
+      "hi": [
+        "Disability certificate (MR / multiple disability)",
+        "Age proof",
+        "Aadhaar / PPP",
+        "Bank account",
+        "Parent/guardian details"
+      ],
+      "ml": [
+        "Disability certificate (MR / multiple disability)",
+        "Age proof",
+        "Aadhaar / PPP"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/",
+    "tags": [
+      "children",
+      "disability",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-ddlly",
+    "scheme_name": {
+      "en": "Deen Dayal Lado Lakshmi Yojana (DDLLY) – Haryana",
+      "hi": "दीन दयाल लाडो लक्ष्मी योजना (DDLLY) – हरियाणा",
+      "ml": "(EN — Malayalam review pending) Deen Dayal Lado Lakshmi Yojana (DDLLY) – Haryana"
+    },
+    "description": {
+      "en": "Haryana women’s empowerment DBT of Rs.2,100 per month to eligible women aged 23+ whose verified annual family income (FIDR) is not more than Rs.1 lakh and who meet the 15-year Haryana residence rule, subject to exclusions from overlapping SEWA pensions.",
+      "hi": "हरियाणा दीन दयाल लाडो लक्ष्मी — पात्र महिलाओं (23+) को ₹2,100 प्रति माह, परिवार आय ≤ ₹1 लाख एवं निवास शर्तों के अधीन।",
+      "ml": "(EN — Malayalam review pending) Haryana women’s empowerment DBT of Rs.2,100 per month to eligible women aged 23+ whose verified annual family income (FIDR) is not more than Rs.1 lakh and who meet the 15-year Haryana residence rule, subject to exclusions from overlapping SEWA pensions."
+    },
+    "eligibility_rules": {
+      "min_age": 23,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA DDLLY page: woman age 23+; verified annual family income as per FIDR not more than Rs.1.00 lakh; woman or husband (if married into Haryana) resident of Haryana for last 15+ years; no restriction on number of eligible women in a family. Exclusions if already receiving listed SEWA pensions (Old Age Samman, Widow/Destitute, Divyang FA Rules 2025, Ladli SSA, Dwarf, Acid Attack, Widower & Unmarried 2023, Gaurav Samman, etc.). Cancer/rare-disease FA may be concurrent.",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/ . Residence duration and pension exclusions not fully in wizard — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.2,100 per month per eligible woman (unless she voluntarily opts for a lesser amount).",
+      "hi": "प्रति पात्र महिला ₹2,100 प्रति माह (कम राशि स्वैच्छिक विकल्प संभव)।",
+      "ml": "(EN — Malayalam review pending) Rs.2,100 per month per eligible woman (unless she voluntarily opts for a lesser amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar / PPP (FIDR)",
+        "Age proof",
+        "Residence proof (15 years)",
+        "Bank account",
+        "Income as per FIDR"
+      ],
+      "hi": [
+        "Aadhaar / PPP (FIDR)",
+        "Age proof",
+        "Residence proof (15 years)",
+        "Bank account",
+        "Income as per FIDR"
+      ],
+      "ml": [
+        "Aadhaar / PPP (FIDR)",
+        "Age proof",
+        "Residence proof (15 years)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA / PPP channels as notified. Scheme page: https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/",
+      "hi": "अंत्योदय-SARAL / SEWA / PPP चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA / PPP channels as notified. Scheme page: https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/",
+    "tags": [
+      "women",
+      "income-support",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-widower-unmarried-assist",
+    "scheme_name": {
+      "en": "Financial Assistance to Widower and Unmarried Persons Scheme, 2023 (Haryana)",
+      "hi": "विधुर एवं अविवाहित व्यक्तियों को वित्तीय सहायता योजना, 2023 (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Widower and Unmarried Persons Scheme, 2023 (Haryana)"
+    },
+    "description": {
+      "en": "Haryana 2023 social-security financial assistance for eligible widowers (40+) and unmarried persons (45+) meeting domicile, residence and income conditions, typically until age 60 when Old Age Samman may apply.",
+      "hi": "हरियाणा 2023 — पात्र विधुर (40+) एवं अविवाहित (45+) को वित्तीय सहायता (आय/निवास शर्तों के अधीन)।",
+      "ml": "(EN — Malayalam review pending) Haryana 2023 social-security financial assistance for eligible widowers (40+) and unmarried persons (45+) meeting domicile, residence and income conditions, typically until age 60 when Old Age Samman may apply."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 60,
+      "max_annual_income": 300000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Justice Haryana / Gazette: (a) widower age 40+ with own verified annual income up to Rs.3.00 lakh; domicile; residing in Haryana (notification text varies 1 vs 15 years — re-check); divorcee/live-in not eligible as widower track. (b) unmarried male/female age 45+ with verified annual family income up to Rs.1.80 lakh; domicile; residing ≥1 year. Assistance till age 60 then Old Age Samman if eligible. Encoded min_age uses lower widower threshold; unmarried 45+ and family-income 1.8L branch must be re-checked.",
+      "verify_notes": "2026-09-16: https://socialjusticehry.gov.in/financial-assistance-to-widower-and-unmarried-persons-scheme-2023/ and SEWA SSP index. Dual track (widower vs unmarried) not fully expressible — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly financial assistance until age 60 (confirm current rate on SEWA / SARAL); thereafter Old Age Samman if eligible.",
+      "hi": "60 वर्ष की आयु तक मासिक सहायता (वर्तमान दर SEWA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly financial assistance until age 60 (confirm current rate on SEWA / SARAL); thereafter Old Age Samman if eligible."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar / PPP",
+        "Age proof",
+        "Marital status proof (widower) or unmarried declaration",
+        "Income proof",
+        "Domicile / residence proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar / PPP",
+        "Age proof",
+        "Marital status proof (widower) or unmarried declaration",
+        "Income proof",
+        "Domicile / residence proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar / PPP",
+        "Age proof",
+        "Marital status proof (widower) or unmarried declaration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Eligibility data often via Parivar Pehchan Patra / SEWA monthly lists; see https://socialjusticehry.gov.in/financial-assistance-to-widower-and-unmarried-persons-scheme-2023/ and https://sewa.haryana.gov.in/social-security-pension-schemes/",
+      "hi": "PPP / SEWA चैनल से पात्रता; आधिकारिक पृष्ठ देखें।",
+      "ml": "(EN — Malayalam review pending) Eligibility data often via Parivar Pehchan Patra / SEWA monthly lists; see https://socialjusticehry.gov.in/financial-assistance-to-widower-and-unmarried-persons-scheme-2023/ and https://sewa.haryana.gov.in/social-security-pension-schemes/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/social-security-pension-schemes/",
+    "office_type": "SEWA / Directorate of Social Justice & Empowerment, Government of Haryana",
+    "official_source_url": "https://socialjusticehry.gov.in/financial-assistance-to-widower-and-unmarried-persons-scheme-2023/",
+    "tags": [
+      "pension",
+      "widower",
+      "unmarried",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-acid-attack-assist",
+    "scheme_name": {
+      "en": "Financial Assistance to Women and Girls Acid Attack Victims (Haryana)",
+      "hi": "महिला एवं बालिका एसिड हमला पीड़ितों को वित्तीय सहायता (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Women and Girls Acid Attack Victims (Haryana)"
+    },
+    "description": {
+      "en": "Haryana monthly financial assistance for women and girls facing acid attack who reside in the State, scaled as a multiple of Divyang pension by disability percentage band (40%+).",
+      "hi": "हरियाणा — राज्य में निवासरत महिला/बालिका एसिड हमला पीड़ितों को दिव्यांग पेंशन के गुणक के रूप में मासिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Haryana monthly financial assistance for women and girls facing acid attack who reside in the State, scaled as a multiple of Divyang pension by disability percentage band (40%+)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page (notifications 2019/2020): any woman or girl acid-attack victim residing in Haryana is eligible; assistance from application date (no arrears). Disability bands: 40–50% → 2.5× Divyang pension; 51–60% → 3.5×; 61%+ → 4.5×.",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/ . Multiplier bands not in wizard — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly assistance as multiple of current Divyang pension by disability band (2.5× / 3.5× / 4.5× per SEWA table).",
+      "hi": "दिव्यांग पेंशन के 2.5× / 3.5× / 4.5× के रूप में मासिक सहायता (SEWA तालिका)।",
+      "ml": "(EN — Malayalam review pending) Monthly assistance as multiple of current Divyang pension by disability band (2.5× / 3.5× / 4.5× per SEWA table)."
+    },
+    "required_documents": {
+      "en": [
+        "Acid attack medical records",
+        "Disability percentage certificate",
+        "Aadhaar / PPP",
+        "Residence proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Acid attack medical records",
+        "Disability percentage certificate",
+        "Aadhaar / PPP",
+        "Residence proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Acid attack medical records",
+        "Disability percentage certificate",
+        "Aadhaar / PPP"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/",
+    "tags": [
+      "women",
+      "disability",
+      "acid-attack",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-cancer-stage-iii-iv",
+    "scheme_name": {
+      "en": "Financial Assistance for Stage III & IV Cancer Patients (Haryana)",
+      "hi": "स्टेज III एवं IV कैंसर रोगियों को वित्तीय सहायता (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance for Stage III & IV Cancer Patients (Haryana)"
+    },
+    "description": {
+      "en": "Haryana financial assistance for Stage III and IV cancer patients who are bonafide residents with Parivar Pehchan Patra and family income less than Rs.3 lakh per annum (excluding other social-security pension amounts).",
+      "hi": "हरियाणा — स्टेज III/IV कैंसर रोगियों के लिए वित्तीय सहायता (PPP; परिवार आय < ₹3 लाख/वर्ष)।",
+      "ml": "(EN — Malayalam review pending) Haryana financial assistance for Stage III and IV cancer patients who are bonafide residents with Parivar Pehchan Patra and family income less than Rs.3 lakh per annum (excluding other social-security pension amounts)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 300000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: citizen of India and bonafide resident of Haryana; must have Parivar Pehchan Patra (Family ID); all Stage III & IV patients eligible; family income less than Rs.3 lakh per annum except amount of other Social Security Pension Schemes.",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/ . Cancer stage and PPP requirements not in wizard — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Financial assistance for eligible Stage III/IV cancer patients (confirm current quantum on SEWA / SARAL).",
+      "hi": "पात्र स्टेज III/IV कैंसर रोगियों को वित्तीय सहायता (राशि SEWA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Financial assistance for eligible Stage III/IV cancer patients (confirm current quantum on SEWA / SARAL)."
+    },
+    "required_documents": {
+      "en": [
+        "Medical proof of Stage III/IV cancer",
+        "Parivar Pehchan Patra",
+        "Aadhaar",
+        "Income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Medical proof of Stage III/IV cancer",
+        "Parivar Pehchan Patra",
+        "Aadhaar",
+        "Income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Medical proof of Stage III/IV cancer",
+        "Parivar Pehchan Patra",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/",
+    "tags": [
+      "health",
+      "cancer",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hr-allowance-eunuchs",
+    "scheme_name": {
+      "en": "Allowance to Eunuchs (Haryana)",
+      "hi": "किन्नर/नपुंसक भत्ता (हरियाणा)",
+      "ml": "(EN — Malayalam review pending) Allowance to Eunuchs (Haryana)"
+    },
+    "description": {
+      "en": "Haryana monthly allowance for eligible eunuch applicants who are permanent residents/domicile, aged 18+, with Civil Surgeon certificate, and not involved in unlawful activity.",
+      "hi": "हरियाणा किन्नर भत्ता — 18+ स्थायी निवासी, सिविल सर्जन प्रमाण पत्र सहित पात्र आवेदकों के लिए मासिक भत्ता।",
+      "ml": "(EN — Malayalam review pending) Haryana monthly allowance for eligible eunuch applicants who are permanent residents/domicile, aged 18+, with Civil Surgeon certificate, and not involved in unlawful activity."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "transgender"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SEWA page: permanent resident/domicile of Haryana and residing in Haryana for last 5 years at application; age not less than 18; Civil Surgeon certificate in support of being an eunuch; must not be involved in any unlawful activity. Allowance rate revised over time (page lists historical rates up to Rs.3,200).",
+      "verify_notes": "2026-09-16: https://sewa.haryana.gov.in/allowance-to-eunuchs/ . categories=transgender used as soft identity gate; Civil Surgeon certificate path — verify=true.",
+      "states": [
+        "Haryana"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly allowance via DBT (confirm current rate on SEWA; historical revisions listed on page).",
+      "hi": "मासिक भत्ता DBT (वर्तमान दर SEWA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly allowance via DBT (confirm current rate on SEWA; historical revisions listed on page)."
+    },
+    "required_documents": {
+      "en": [
+        "Civil Surgeon certificate",
+        "Aadhaar / PPP",
+        "Domicile / 5-year residence proof",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Civil Surgeon certificate",
+        "Aadhaar / PPP",
+        "Domicile / 5-year residence proof",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Civil Surgeon certificate",
+        "Aadhaar / PPP",
+        "Domicile / 5-year residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/allowance-to-eunuchs/",
+      "hi": "अंत्योदय-SARAL / SEWA चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Antyodaya-SARAL / SEWA channels. Scheme page: https://sewa.haryana.gov.in/allowance-to-eunuchs/"
+    },
+    "apply_url": "https://sewa.haryana.gov.in/allowance-to-eunuchs/",
+    "office_type": "SEWA Department, Government of Haryana",
+    "official_source_url": "https://sewa.haryana.gov.in/allowance-to-eunuchs/",
+    "tags": [
+      "transgender",
+      "pension",
+      "haryana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-disability-relief-allowance",
+    "scheme_name": {
+      "en": "Disability Relief Allowance (Himachal Pradesh)",
+      "hi": "दिव्यांग राहत भत्ता (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Disability Relief Allowance (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh Social Security Disability Relief Allowance for persons with 40%+ permanent disability certified under the RPwD Act medical board, generally subject to family annual income ≤ Rs.35,000 (with notified waivers for higher disability / mental disability).",
+      "hi": "हिमाचल दिव्यांग राहत भत्ता — 40%+ स्थायी दिव्यांगता पर सामाजिक सुरक्षा भत्ता (सामान्यतः परिवार आय ≤ ₹35,000)।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh Social Security Disability Relief Allowance for persons with 40%+ permanent disability certified under the RPwD Act medical board, generally subject to family annual income ≤ Rs.35,000 (with notified waivers for higher disability / mental disability)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 35000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA Hindi Social Security Pension page: 40%+ permanent disability certificate from medical board under RPwD Act 2016; no adult children and family annual income from all sources not more than Rs.35,000. Mentally undeveloped persons and persons with 70%+ disability get pension without income limit. Benefits commonly Rs.1,000/month (40–69%) and Rs.1,500/month (70%+ or age 70+).",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=hi/सामाजिक-सुरक्षा-पैंशन and district DWO pages (e.g. https://hphamirpur.nic.in/district-welfare-office/). Income waiver branches not fully in wizard — verify=true.",
+      "states": [
+        "Himachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly DRA via DBT — commonly Rs.1,000 (40–69% disability) and Rs.1,500 (70%+ or age 70+) on eSOMSA; confirm current rates.",
+      "hi": "मासिक दिव्यांग राहत भत्ता (सामान्यतः ₹1,000 / ₹1,500 — वर्तमान दर eSOMSA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly DRA via DBT — commonly Rs.1,000 (40–69% disability) and Rs.1,500 (70%+ or age 70+) on eSOMSA; confirm current rates."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (≥40%)",
+        "Income certificate (unless waived)",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Sabha recommendation where required"
+      ],
+      "hi": [
+        "Disability certificate (≥40%)",
+        "Income certificate (unless waived)",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Sabha recommendation where required"
+      ],
+      "ml": [
+        "Disability certificate (≥40%)",
+        "Income certificate (unless waived)",
+        "Parivar Register copy"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Tehsil or District Welfare Officer or Himachal e-Kalyan. Rules: http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "ग्राम पंचायत / तहसील या जिला कल्याण अधिकारी / ई-कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Tehsil or District Welfare Officer or Himachal e-Kalyan. Rules: http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "Directorate for Empowerment of SCs, OBCs, Minorities & the Specially Abled (eSOMSA), Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "disability",
+      "himachal-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Himachal Pradesh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Old Age Pension as implemented in Himachal Pradesh for BPL elderly aged 60+, with state top-up amounts described on the eSOMSA Social Security Pension page.",
+      "hi": "हिमाचल में NSAP IGNOAPS — 60+ बीपीएल वृद्धजनों के लिए राष्ट्रीय वृद्धावस्था पेंशन (राज्य टॉप-अप सहित)।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Old Age Pension as implemented in Himachal Pradesh for BPL elderly aged 60+, with state top-up amounts described on the eSOMSA Social Security Pension page."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA: age 60+ elderly who are members of selected BPL families. Benefits described as Rs.1,000/month (60–79) with central+state shares and higher rates for older cohorts (70+/80+ rules on page). Apply via Gram Panchayat / Welfare Officer / e-Kalyan.",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=social-security-pension (Hindi IGNOAPS section) and https://hpshimla.nic.in/dwo-shimla/. implies_low_income soft gate (BPL without separate rupee ceiling).",
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly IGNOAPS pension with HP state top-up (commonly Rs.1,000–1,500 by age band on eSOMSA — confirm current).",
+      "hi": "मासिक IGNOAPS पेंशन (राज्य टॉप-अप सहित — वर्तमान दर eSOMSA पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly IGNOAPS pension with HP state top-up (commonly Rs.1,000–1,500 by age band on eSOMSA — confirm current)."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL certificate",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Panchayat recommendation"
+      ],
+      "hi": [
+        "Age proof",
+        "BPL certificate",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Panchayat recommendation"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL certificate",
+        "Parivar Register copy"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Tehsil or District Welfare Officer or e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "ग्राम पंचायत / कल्याण अधिकारी / ई-कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Tehsil or District Welfare Officer or e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "eSOMSA / Social Justice & Empowerment, Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "elderly",
+      "himachal-pradesh",
+      "nsap",
+      "bpl",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Himachal Pradesh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Widow Pension as implemented in Himachal Pradesh for BPL widows in the notified age band (commonly 40–79), with state top-up.",
+      "hi": "हिमाचल में NSAP IGNWPS — अधिसूचित आयु वर्ग की बीपीएल विधवाओं के लिए राष्ट्रीय विधवा पेंशन।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Widow Pension as implemented in Himachal Pradesh for BPL widows in the notified age band (commonly 40–79), with state top-up."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA / district DWO: widow aged 40–79 who is member of selected BPL family. Benefit commonly Rs.1,000/month (with higher rate for 70+ widow pensioners as described on eSOMSA).",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=social-security-pension and https://hphamirpur.nic.in/district-welfare-office/. implies_low_income (BPL).",
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly IGNWPS pension with HP state top-up (commonly Rs.1,000; Rs.1,500 for older cohorts on eSOMSA — confirm current).",
+      "hi": "मासिक IGNWPS पेंशन (राज्य टॉप-अप — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly IGNWPS pension with HP state top-up (commonly Rs.1,000; Rs.1,500 for older cohorts on eSOMSA — confirm current)."
+    },
+    "required_documents": {
+      "en": [
+        "Husband’s death certificate",
+        "BPL certificate",
+        "Age proof",
+        "Aadhaar",
+        "Bank account",
+        "Parivar Register / Gram Panchayat recommendation"
+      ],
+      "hi": [
+        "Husband’s death certificate",
+        "BPL certificate",
+        "Age proof",
+        "Aadhaar",
+        "Bank account",
+        "Parivar Register / Gram Panchayat recommendation"
+      ],
+      "ml": [
+        "Husband’s death certificate",
+        "BPL certificate",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Welfare Officer / e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "ग्राम पंचायत / कल्याण अधिकारी / ई-कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Welfare Officer / e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "eSOMSA / Social Justice & Empowerment, Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "widow",
+      "himachal-pradesh",
+      "nsap",
+      "bpl",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Himachal Pradesh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांगता पेंशन योजना (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "NSAP Indira Gandhi National Disability Pension as implemented in Himachal Pradesh for BPL persons aged 18–79 with severe disability (80%+) certified under RPwD medical board rules.",
+      "hi": "हिमाचल में NSAP IGNDPS — 18–79 वर्ष के बीपीएल गंभीर दिव्यांग (80%+) व्यक्तियों के लिए राष्ट्रीय दिव्यांगता पेंशन।",
+      "ml": "(EN — Malayalam review pending) NSAP Indira Gandhi National Disability Pension as implemented in Himachal Pradesh for BPL persons aged 18–79 with severe disability (80%+) certified under RPwD medical board rules."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA: persons aged 18–79 who are members of selected BPL families with 80% or more severe disability certificate from medical board under RPwD Act 2016. Benefit commonly Rs.1,500/month (central+state shares on page).",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=social-security-pension (IGNDPS section). implies_low_income (BPL).",
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly IGNDPS pension commonly Rs.1,500 (central+state shares on eSOMSA — confirm current).",
+      "hi": "मासिक IGNDPS पेंशन सामान्यतः ₹1,500 (वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly IGNDPS pension commonly Rs.1,500 (central+state shares on eSOMSA — confirm current)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (≥80%)",
+        "BPL certificate",
+        "Age proof",
+        "Aadhaar",
+        "Bank account",
+        "Parivar Register / Gram Panchayat recommendation"
+      ],
+      "hi": [
+        "Disability certificate (≥80%)",
+        "BPL certificate",
+        "Age proof",
+        "Aadhaar",
+        "Bank account",
+        "Parivar Register / Gram Panchayat recommendation"
+      ],
+      "ml": [
+        "Disability certificate (≥80%)",
+        "BPL certificate",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Welfare Officer / e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "ग्राम पंचायत / कल्याण अधिकारी / ई-कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Welfare Officer / e-Kalyan. http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "eSOMSA / Social Justice & Empowerment, Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "disability",
+      "himachal-pradesh",
+      "nsap",
+      "bpl",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-transgender-pension",
+    "scheme_name": {
+      "en": "Transgender Pension Scheme (Himachal Pradesh)",
+      "hi": "ट्रांसजेंडर पेंशन योजना (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Transgender Pension Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh Social Security pension for transgender persons identified by the notified State/District medical board, without age or income limit as stated on eSOMSA.",
+      "hi": "हिमाचल ट्रांसजेंडर पेंशन — अधिसूचित चिकित्सा बोर्ड द्वारा पहचाने गए ट्रांसजेंडर व्यक्तियों के लिए (आयु/आय सीमा नहीं — eSOMSA)।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh Social Security pension for transgender persons identified by the notified State/District medical board, without age or income limit as stated on eSOMSA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "transgender"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA: transgender persons identified by State/District medical board notified by Health & Family Welfare Department are eligible for transgender pension without any age or income limit. Benefit commonly Rs.850/month and Rs.1,500/month at age 70+. Must not be receiving another pension (district DWO notes).",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=social-security-pension (Transgender Pension section) and https://hpshimla.nic.in/dwo-shimla/.",
+      "states": [
+        "Himachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly pension via DBT — commonly Rs.850 (Rs.1,500 at age 70+) on eSOMSA; confirm current rates.",
+      "hi": "मासिक पेंशन (सामान्यतः ₹850 / 70+ पर ₹1,500 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension via DBT — commonly Rs.850 (Rs.1,500 at age 70+) on eSOMSA; confirm current rates."
+    },
+    "required_documents": {
+      "en": [
+        "Medical board transgender identity certificate",
+        "Self-declaration affidavit",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Certificate of not receiving other pension"
+      ],
+      "hi": [
+        "Medical board transgender identity certificate",
+        "Self-declaration affidavit",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Certificate of not receiving other pension"
+      ],
+      "ml": [
+        "Medical board transgender identity certificate",
+        "Self-declaration affidavit",
+        "Parivar Register copy"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil / District Welfare Officer / e-Kalyan with medical-board certificate. http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "चिकित्सा बोर्ड प्रमाण पत्र के साथ तहसील/जिला कल्याण अधिकारी / ई-कल्याण से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil / District Welfare Officer / e-Kalyan with medical-board certificate. http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "eSOMSA, Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "transgender",
+      "himachal-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-leprosy-rehab-allowance",
+    "scheme_name": {
+      "en": "Rehabilitation Allowance to Lepers (Himachal Pradesh)",
+      "hi": "कुष्ठ रोगियों को पुनर्वास भत्ता (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Rehabilitation Allowance to Lepers (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh rehabilitation allowance for persons with leprosy under Health Department treatment who are not employed in government/semi-government/corporations/boards; no age or income limit as per eSOMSA.",
+      "hi": "हिमाचल कुष्ठ पुनर्वास भत्ता — उपचारधीन कुष्ठ रोगियों के लिए (सरकारी सेवा में न हों; आयु/आय सीमा नहीं)।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh rehabilitation allowance for persons with leprosy under Health Department treatment who are not employed in government/semi-government/corporations/boards; no age or income limit as per eSOMSA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official eSOMSA: leprosy patients under Health Department treatment who are not serving in government/semi-government/corporations/boards etc.; age and income limits not applicable. Benefit commonly Rs.850/month and Rs.1,500/month at age 70+.",
+      "verify_notes": "2026-09-16: http://esomsa.hp.gov.in/?q=social-security-pension (Rehabilitation Allowance to Lepers) and https://hphamirpur.nic.in/district-welfare-office/.",
+      "states": [
+        "Himachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly rehabilitation allowance — commonly Rs.850 (Rs.1,500 at age 70+) on eSOMSA; confirm current rates.",
+      "hi": "मासिक पुनर्वास भत्ता (सामान्यतः ₹850 / 70+ पर ₹1,500 — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly rehabilitation allowance — commonly Rs.850 (Rs.1,500 at age 70+) on eSOMSA; confirm current rates."
+    },
+    "required_documents": {
+      "en": [
+        "Leprosy treatment certificate from Health Department",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Panchayat recommendation as required"
+      ],
+      "hi": [
+        "Leprosy treatment certificate from Health Department",
+        "Parivar Register copy",
+        "Aadhaar",
+        "Bank account",
+        "Gram Panchayat recommendation as required"
+      ],
+      "ml": [
+        "Leprosy treatment certificate from Health Department",
+        "Parivar Register copy",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply in prescribed form with Health Department certificate via Tehsil / District Welfare Officer. http://esomsa.hp.gov.in/?q=social-security-pension",
+      "hi": "स्वास्थ्य विभाग प्रमाण पत्र के साथ तहसील/जिला कल्याण अधिकारी से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply in prescribed form with Health Department certificate via Tehsil / District Welfare Officer. http://esomsa.hp.gov.in/?q=social-security-pension"
+    },
+    "apply_url": "https://himparivar.hp.gov.in/ekalyan",
+    "office_type": "eSOMSA, Government of Himachal Pradesh",
+    "official_source_url": "http://esomsa.hp.gov.in/?q=social-security-pension",
+    "tags": [
+      "pension",
+      "health",
+      "leprosy",
+      "himachal-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-intercaste-marriage",
+    "scheme_name": {
+      "en": "Inter-Caste Marriage Scheme (Himachal Pradesh)",
+      "hi": "अंतर-जाति विवाह योजना (हिमाचल प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Inter-Caste Marriage Scheme (Himachal Pradesh)"
+    },
+    "description": {
+      "en": "Himachal Pradesh welfare incentive/support scheme for inter-caste marriages of bonafide Himachalis, administered through District Welfare Offices (document checklist on district NIC DWO pages).",
+      "hi": "हिमाचल अंतर-जाति विवाह योजना — मूल निवासी हिमाचली दंपति के लिए जिला कल्याण कार्यालयों के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh welfare incentive/support scheme for inter-caste marriages of bonafide Himachalis, administered through District Welfare Offices (document checklist on district NIC DWO pages)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "District DWO pages (e.g. Shimla/Hamirpur NIC): Inter-cast Marriage Scheme requires bonafide Himachali certificate of the couple, caste certificates, age certificates, marriage certificate, and NOC from concerned district if either spouse belongs to another district. Exact cash incentive amount — confirm on eSOMSA / DWO before promising a figure.",
+      "verify_notes": "2026-09-16: https://hpshimla.nic.in/dwo-shimla/ and https://hphamirpur.nic.in/district-welfare-office/. Benefit amount not clearly numeric on the checklist table — verify=true.",
+      "states": [
+        "Himachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Inter-caste marriage incentive / assistance as notified (confirm current amount with District Welfare Officer / eSOMSA).",
+      "hi": "अंतर-जाति विवाह प्रोत्साहन/सहायता (वर्तमान राशि जिला कल्याण अधिकारी से सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Inter-caste marriage incentive / assistance as notified (confirm current amount with District Welfare Officer / eSOMSA)."
+    },
+    "required_documents": {
+      "en": [
+        "Bonafide Himachali certificates",
+        "Caste certificates of both spouses",
+        "Age proofs",
+        "Marriage certificate",
+        "District NOC if applicable"
+      ],
+      "hi": [
+        "Bonafide Himachali certificates",
+        "Caste certificates of both spouses",
+        "Age proofs",
+        "Marriage certificate",
+        "District NOC if applicable"
+      ],
+      "ml": [
+        "Bonafide Himachali certificates",
+        "Caste certificates of both spouses",
+        "Age proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at District Welfare Office with prescribed documents. See https://hpshimla.nic.in/dwo-shimla/ ; department http://esomsa.hp.gov.in/",
+      "hi": "निर्धारित दस्तावेजों के साथ जिला कल्याण कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at District Welfare Office with prescribed documents. See https://hpshimla.nic.in/dwo-shimla/ ; department http://esomsa.hp.gov.in/"
+    },
+    "apply_url": "http://esomsa.hp.gov.in/",
+    "office_type": "eSOMSA / District Welfare Office, Government of Himachal Pradesh",
+    "official_source_url": "https://hpshimla.nic.in/dwo-shimla/",
+    "tags": [
+      "marriage",
+      "intercaste",
+      "himachal-pradesh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "hp-house-subsidy-sc-obc",
+    "scheme_name": {
+      "en": "House Subsidy Scheme (Himachal Pradesh eSOMSA)",
+      "hi": "आवास सब्सिडी योजना (हिमाचल प्रदेश eSOMSA)",
+      "ml": "(EN — Malayalam review pending) House Subsidy Scheme (Himachal Pradesh eSOMSA)"
+    },
+    "description": {
+      "en": "Himachal Pradesh housing subsidy of Rs.1,30,000 for construction of a house for eligible persons from Scheduled Caste, OBC, Minority, Single Women or handicapped categories, subject to income and prior-subsidy exclusions on district DWO pages.",
+      "hi": "हिमाचल आवास सब्सिडी — SC/OBC/अल्पसंख्यक/एकल महिला/दिव्यांग पात्र व्यक्तियों को मकान निर्माण हेतु ₹1,30,000।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh housing subsidy of Rs.1,30,000 for construction of a house for eligible persons from Scheduled Caste, OBC, Minority, Single Women or handicapped categories, subject to income and prior-subsidy exclusions on district DWO pages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC",
+        "OBC",
+        "minority"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "District DWO (Shimla NIC): subsidy of Rs.1,30,000 for construction of house for persons from SC, OBC, Minority Community, Single Women or handicapped. Documents include bonafide Himachali, category/single-woman/handicapped certificate, income certificate, revenue papers, Gram Panchayat recommendation, and affidavit of not having availed such subsidy earlier. Single-women and disability branches also eligible beyond SC/OBC/minority soft categories encoded here.",
+      "verify_notes": "2026-09-16: https://hpshimla.nic.in/dwo-shimla/ . Income ceiling numeric value not stated on the checklist — left null; verify=true.",
+      "states": [
+        "Himachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Housing construction subsidy of Rs.1,30,000 (district DWO page).",
+      "hi": "मकान निर्माण सब्सिडी ₹1,30,000 (जिला DWO पृष्ठ)।",
+      "ml": "(EN — Malayalam review pending) Housing construction subsidy of Rs.1,30,000 (district DWO page)."
+    },
+    "required_documents": {
+      "en": [
+        "Bonafide Himachali certificate",
+        "SC/OBC/Minority/Single Woman/Disability certificate",
+        "Income certificate",
+        "Revenue papers (Parcha & Tatima)",
+        "Gram Panchayat recommendation",
+        "Prior-subsidy non-availment certificate",
+        "Photos of present house"
+      ],
+      "hi": [
+        "Bonafide Himachali certificate",
+        "SC/OBC/Minority/Single Woman/Disability certificate",
+        "Income certificate",
+        "Revenue papers (Parcha & Tatima)",
+        "Gram Panchayat recommendation",
+        "Prior-subsidy non-availment certificate",
+        "Photos of present house"
+      ],
+      "ml": [
+        "Bonafide Himachali certificate",
+        "SC/OBC/Minority/Single Woman/Disability certificate",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at District Welfare Office with prescribed documents. https://hpshimla.nic.in/dwo-shimla/",
+      "hi": "निर्धारित दस्तावेजों के साथ जिला कल्याण कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at District Welfare Office with prescribed documents. https://hpshimla.nic.in/dwo-shimla/"
+    },
+    "apply_url": "https://hpshimla.nic.in/dwo-shimla/",
+    "office_type": "eSOMSA / District Welfare Office, Government of Himachal Pradesh",
+    "official_source_url": "https://hpshimla.nic.in/dwo-shimla/",
+    "tags": [
+      "housing",
+      "sc",
+      "obc",
+      "himachal-pradesh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-widow-pension",
+    "scheme_name": {
+      "en": "Widow Pension Scheme (Uttarakhand)",
+      "hi": "विधवा पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Widow Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand Social Welfare widow pension for women aged 18+ with monthly income not more than Rs.4,000 from all sources or BPL card, selected in Gram Sabha open meeting, applied via ssp.uk.gov.in.",
+      "hi": "उत्तराखंड विधवा पेंशन — 18+ महिलाएँ, मासिक आय ≤ ₹4,000 या बीपीएल, ग्राम सभा चयन; ssp.uk.gov.in से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Social Welfare widow pension for women aged 18+ with monthly income not more than Rs.4,000 from all sources or BPL card, selected in Gram Sabha open meeting, applied via ssp.uk.gov.in."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 48000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK page: age not less than 18; monthly income not more than Rs.4,000 or BPL card holder; selected in Gram Sabha open meeting; husband’s death certificate required. Encoded max_annual_income=48000 as 12×4000.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/widow-pension/ . Gram Sabha selection not in wizard — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly widow pension via DBT (confirm current Uttarakhand rate on ssp.uk.gov.in).",
+      "hi": "मासिक विधवा पेंशन DBT (वर्तमान दर ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension via DBT (confirm current Uttarakhand rate on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Income certificate (≤Rs.4,000/month) or BPL card",
+        "Husband’s death certificate",
+        "Family register / ration card",
+        "Gram Sabha selection proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "hi": [
+        "Income certificate (≤Rs.4,000/month) or BPL card",
+        "Husband’s death certificate",
+        "Family register / ration card",
+        "Gram Sabha selection proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "ml": [
+        "Income certificate (≤Rs.4,000/month) or BPL card",
+        "Husband’s death certificate",
+        "Family register / ration card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://ssp.uk.gov.in/OnlineRegistration/FrmWidowOnlineApplicationForm.aspx or via Apni Sarkar / CSC. Info: https://socialwelfare.uk.gov.in/service/widow-pension/",
+      "hi": "ssp.uk.gov.in पर ऑनलाइन आवेदन करें या अपनी सरकार / CSC के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://ssp.uk.gov.in/OnlineRegistration/FrmWidowOnlineApplicationForm.aspx or via Apni Sarkar / CSC. Info: https://socialwelfare.uk.gov.in/service/widow-pension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/widow-pension/",
+    "tags": [
+      "pension",
+      "widow",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-disability-pension",
+    "scheme_name": {
+      "en": "Divyang / Disability Pension Scheme (Uttarakhand)",
+      "hi": "दिव्यांग पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Divyang / Disability Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand Social Welfare disability pension for persons aged 18+ with disability not less than 40%, monthly income of applicant/guardian ≤ Rs.4,000 or BPL, with CMO-issued disability certificate.",
+      "hi": "उत्तराखंड दिव्यांग पेंशन — 18+, दिव्यांगता ≥40%, मासिक आय ≤ ₹4,000 या बीपीएल।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Social Welfare disability pension for persons aged 18+ with disability not less than 40%, monthly income of applicant/guardian ≤ Rs.4,000 or BPL, with CMO-issued disability certificate."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 48000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK Divyang pension page: age 18+; disability not less than 40%; monthly income of applicant or guardian not more than Rs.4,000 from all sources or BPL card; disability certificate by Chief Medical Officer / Government Medical Officer. Encoded max_annual_income=48000 as 12×4000.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%82%e0%a4%97-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/ . Gram Sabha selection path — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT (confirm current rate on ssp.uk.gov.in).",
+      "hi": "मासिक दिव्यांग पेंशन DBT (वर्तमान दर ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT (confirm current rate on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (>40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card",
+        "Gram Sabha proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "hi": [
+        "Disability certificate (>40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card",
+        "Gram Sabha proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "ml": [
+        "Disability certificate (>40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ssp.uk.gov.in disability/grant online forms or Apni Sarkar / CSC. Category listing: https://socialwelfare.uk.gov.in/service-category/pension/",
+      "hi": "ssp.uk.gov.in / अपनी सरकार / CSC से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via ssp.uk.gov.in disability/grant online forms or Apni Sarkar / CSC. Category listing: https://socialwelfare.uk.gov.in/service-category/pension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%82%e0%a4%97-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/",
+    "tags": [
+      "pension",
+      "disability",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-parityakta-pension",
+    "scheme_name": {
+      "en": "Parityakta / Destitute Pension Scheme (Uttarakhand)",
+      "hi": "परित्यक्ता / निराश्रित पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Parityakta / Destitute Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand Parityakta pension for abandoned/destitute women or spouses of mentally deranged persons (age >18 and <60, or husband missing/abandoned >1 year), with monthly income ≤ Rs.4,000 or BPL; includes a destitute unmarried women track (40–60).",
+      "hi": "उत्तराखंड परित्यक्ता पेंशन — परित्यक्त/निराश्रित महिलाएँ या मानसिक रूप से विक्षिप्त पति/पत्नी वाले, आय ≤ ₹4,000/माह या बीपीएल।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Parityakta pension for abandoned/destitute women or spouses of mentally deranged persons (age >18 and <60, or husband missing/abandoned >1 year), with monthly income ≤ Rs.4,000 or BPL; includes a destitute unmarried women track (40–60)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 60,
+      "max_annual_income": 48000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "deserted",
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK destitute-pension page: abandoned/destitute woman or mentally deranged wife/husband aged more than 18 and less than 60, or husband missing/abandoned period more than 1 year; monthly income not more than Rs.4,000 or BPL. Destitute unmarried woman track ages 40–60 with certified self-declaration. Encoded max_annual_income=48000 as 12×4000; gender soft-gate focuses on common woman beneficiary path.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/destitute-pension/ . Mentally-deranged-spouse and unmarried 40–60 branches not fully in wizard — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Parityakta / destitute pension via DBT (confirm current rate on ssp.uk.gov.in).",
+      "hi": "मासिक परित्यक्ता/निराश्रित पेंशन (वर्तमान दर ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Parityakta / destitute pension via DBT (confirm current rate on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Self-declaration of abandonment / missing husband (≥1 year) certified by village head",
+        "Income certificate or BPL card",
+        "Age proof",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "hi": [
+        "Self-declaration of abandonment / missing husband (≥1 year) certified by village head",
+        "Income certificate or BPL card",
+        "Age proof",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "ml": [
+        "Self-declaration of abandonment / missing husband (≥1 year) certified by village head",
+        "Income certificate or BPL card",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via ssp.uk.gov.in destitute registration form linked from https://socialwelfare.uk.gov.in/service/destitute-pension/",
+      "hi": "ssp.uk.gov.in परित्यक्ता पंजीकरण फॉर्म से ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online via ssp.uk.gov.in destitute registration form linked from https://socialwelfare.uk.gov.in/service/destitute-pension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/destitute-pension/",
+    "tags": [
+      "pension",
+      "women",
+      "deserted",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-kisan-pension",
+    "scheme_name": {
+      "en": "Kisan Pension Scheme (Uttarakhand)",
+      "hi": "किसान पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Kisan Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand farmer pension for cultivators aged over 60 years farming their own land up to 2 hectares (or lawful leasehold cultivators), with no income-limit restriction, who are not already sanctioned another Social Welfare / government pension.",
+      "hi": "उत्तराखंड किसान पेंशन — 60+ वर्ष, स्वयं की ≤2 हेक्टेयर भूमि पर खेती (या वैध पट्टा), आय सीमा नहीं; अन्य पेंशन न हो।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand farmer pension for cultivators aged over 60 years farming their own land up to 2 hectares (or lawful leasehold cultivators), with no income-limit restriction, who are not already sanctioned another Social Welfare / government pension."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "landholding_farmer"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK Hindi Kisan Pension page: farmers above 60 years in Uttarakhand cultivating own land up to 2 hectares, or lawful leasehold cultivators cultivating themselves; no income-limit restriction; must not already have any pension sanctioned by Social Welfare/government; land certificate from revenue/agriculture officer; applications routed via BDO (rural) or SDM (urban).",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/hi/service/%e0%a4%95%e0%a4%bf%e0%a4%b8%e0%a4%be%e0%a4%a8-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/ . 2-hectare land cap not in wizard — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Kisan pension via DBT (confirm current rate on ssp.uk.gov.in reports).",
+      "hi": "मासिक किसान पेंशन DBT (वर्तमान दर ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Kisan pension via DBT (confirm current rate on ssp.uk.gov.in reports)."
+    },
+    "required_documents": {
+      "en": [
+        "Certified copy of Khatauni",
+        "Affidavit of own cultivation ≤2 ha on stamp paper",
+        "Land certificate from revenue/agriculture officer",
+        "CBS bank passbook",
+        "Certified photo",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Certified copy of Khatauni",
+        "Affidavit of own cultivation ≤2 ha on stamp paper",
+        "Land certificate from revenue/agriculture officer",
+        "CBS bank passbook",
+        "Certified photo",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Certified copy of Khatauni",
+        "Affidavit of own cultivation ≤2 ha on stamp paper",
+        "Land certificate from revenue/agriculture officer"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ssp.uk.gov.in / Apni Sarkar; forward through BDO (rural) or SDM (urban) as per scheme text. https://socialwelfare.uk.gov.in/service-category/pension/",
+      "hi": "ssp.uk.gov.in / अपनी सरकार से आवेदन; ग्रामीण क्षेत्र में बीडीओ / शहरी में एसडीएम के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Apply via ssp.uk.gov.in / Apni Sarkar; forward through BDO (rural) or SDM (urban) as per scheme text. https://socialwelfare.uk.gov.in/service-category/pension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/hi/service/%e0%a4%95%e0%a4%bf%e0%a4%b8%e0%a4%be%e0%a4%a8-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/",
+    "tags": [
+      "pension",
+      "farmer",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-bauna-pension",
+    "scheme_name": {
+      "en": "Bauna Pension Scheme (Uttarakhand)",
+      "hi": "बौना पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Bauna Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand Bauna pension for persons of height 4 feet or less, aged 21+, with no monthly income-limit restriction under the scheme text.",
+      "hi": "उत्तराखंड बौना पेंशन — ऊँचाई 4 फीट या कम, आयु 21+; आय सीमा प्रतिबंध नहीं।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Bauna pension for persons of height 4 feet or less, aged 21+, with no monthly income-limit restriction under the scheme text."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK Bauna Pension page: height of applicant 4 feet or less; age 21+; no restriction on monthly income limit. Height certificate from Medical Officer and ASWO verification consent required.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/bauna-pension/ . Height rule not in wizard — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Bauna pension via DBT (confirm current rate on ssp.uk.gov.in).",
+      "hi": "मासिक बौना पेंशन DBT (वर्तमान दर ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Bauna pension via DBT (confirm current rate on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Height certificate (≤4 feet) from Medical Officer",
+        "ASWO verification consent",
+        "Family register / ration card",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "hi": [
+        "Height certificate (≤4 feet) from Medical Officer",
+        "ASWO verification consent",
+        "Family register / ration card",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "ml": [
+        "Height certificate (≤4 feet) from Medical Officer",
+        "ASWO verification consent",
+        "Family register / ration card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via ssp.uk.gov.in, Umang app, or Apni Sarkar (eservices.uk.gov.in). Info: https://socialwelfare.uk.gov.in/service/bauna-pension/",
+      "hi": "ssp.uk.gov.in / उमंग / अपनी सरकार से ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online via ssp.uk.gov.in, Umang app, or Apni Sarkar (eservices.uk.gov.in). Info: https://socialwelfare.uk.gov.in/service/bauna-pension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/bauna-pension/",
+    "tags": [
+      "pension",
+      "disability",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-teelu-rauteli-pension",
+    "scheme_name": {
+      "en": "Teelu Rauteli Pension Scheme (Uttarakhand)",
+      "hi": "टीलू रौतेली पेंशन योजना (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Teelu Rauteli Pension Scheme (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand Teelu Rauteli pension for rural residents aged over 18 up to 60 who became disabled while doing agricultural work, with disability percentage between 20% and 40%, and no monthly income-limit restriction.",
+      "hi": "उत्तराखंड टीलू रौतेली पेंशन — ग्रामीण, 18–60 वर्ष, कृषि कार्य में दिव्यांग हुए, दिव्यांगता 20–40%; आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Teelu Rauteli pension for rural residents aged over 18 up to 60 who became disabled while doing agricultural work, with disability percentage between 20% and 40%, and no monthly income-limit restriction."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 60,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "agricultural_labour",
+        "farmer"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 20,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK Teelu Rauteli page: age more than 18 and up to 60; no monthly income limit; became disabled while doing agricultural work; disability percentage between 20 and 40; must reside in rural area; at age 60 shifts to old-age pension when sanctioned. Encoded min_disability_percent=20 with notes that upper band is 40%.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/teelurautelipension/ . Agricultural-injury causation and 20–40% band not fully in wizard — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly Teelu Rauteli pension via DBT until old-age pension is sanctioned at 60 (confirm current rate on ssp.uk.gov.in).",
+      "hi": "मासिक टीलू रौतेली पेंशन (60 पर वृद्धावस्था पेंशन स्वीकृत होने तक — दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly Teelu Rauteli pension via DBT until old-age pension is sanctioned at 60 (confirm current rate on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Family register (age/family)",
+        "Gram Panchayat open-meeting proposal",
+        "Disability certificate (20–40%)",
+        "CBS bank passbook",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Family register (age/family)",
+        "Gram Panchayat open-meeting proposal",
+        "Disability certificate (20–40%)",
+        "CBS bank passbook",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Family register (age/family)",
+        "Gram Panchayat open-meeting proposal",
+        "Disability certificate (20–40%)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ssp.uk.gov.in / Social Welfare channels. Info: https://socialwelfare.uk.gov.in/service/teelurautelipension/",
+      "hi": "ssp.uk.gov.in / समाज कल्याण चैनल से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via ssp.uk.gov.in / Social Welfare channels. Info: https://socialwelfare.uk.gov.in/service/teelurautelipension/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/teelurautelipension/",
+    "tags": [
+      "pension",
+      "disability",
+      "farmer",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-divyang-bharan-poshan",
+    "scheme_name": {
+      "en": "Divyang Bharan Poshan Anudaan (Uttarakhand)",
+      "hi": "दिव्यांग भरण पोषण अनुदान (उत्तराखंड)",
+      "ml": "(EN — Malayalam review pending) Divyang Bharan Poshan Anudaan (Uttarakhand)"
+    },
+    "description": {
+      "en": "Uttarakhand nutrition/maintenance grant for children with disabilities under age 18, with disability 40%+, who are BPL or have monthly income maximum Rs.4,000.",
+      "hi": "उत्तराखंड दिव्यांग भरण पोषण अनुदान — 18 वर्ष से कम आयु, दिव्यांगता ≥40%, बीपीएल या मासिक आय अधिकतम ₹4,000।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand nutrition/maintenance grant for children with disabilities under age 18, with disability 40%+, who are BPL or have monthly income maximum Rs.4,000."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": 48000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK page: applicant age less than 18; BPL card holder or monthly income maximum Rs.4,000; disability 40% or more. Encoded max_annual_income=48000 as 12×4000.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/divyang-bharan-poshan-anudaan/ . Gram Sabha selection — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "Divyang Bharan Poshan grant via DBT (confirm current amount on ssp.uk.gov.in).",
+      "hi": "दिव्यांग भरण पोषण अनुदान DBT (राशि ssp.uk.gov.in पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Divyang Bharan Poshan grant via DBT (confirm current amount on ssp.uk.gov.in)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (≥40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card",
+        "Gram Sabha proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "hi": [
+        "Disability certificate (≥40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card",
+        "Gram Sabha proposal",
+        "Aadhaar",
+        "CBS bank passbook",
+        "Certified photo"
+      ],
+      "ml": [
+        "Disability certificate (≥40%)",
+        "Income certificate or BPL card",
+        "Family register / ration card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via ssp.uk.gov.in Disability Grant form linked from the scheme page. https://socialwelfare.uk.gov.in/service/divyang-bharan-poshan-anudaan/",
+      "hi": "ssp.uk.gov.in दिव्यांग अनुदान फॉर्म से ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online via ssp.uk.gov.in Disability Grant form linked from the scheme page. https://socialwelfare.uk.gov.in/service/divyang-bharan-poshan-anudaan/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/divyang-bharan-poshan-anudaan/",
+    "tags": [
+      "children",
+      "disability",
+      "nutrition",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "uk-marriage-grant",
+    "scheme_name": {
+      "en": "Marriage Grant Scheme (Uttarakhand Social Welfare)",
+      "hi": "विवाह अनुदान योजना (उत्तराखंड समाज कल्याण)",
+      "ml": "(EN — Malayalam review pending) Marriage Grant Scheme (Uttarakhand Social Welfare)"
+    },
+    "description": {
+      "en": "Uttarakhand Social Welfare marriage grant scheme with online applications on ssp.uk.gov.in (Shaadi online form), covering notified categories such as daughters of dependent widows / SC marriage grants as operated by the department.",
+      "hi": "उत्तराखंड समाज कल्याण विवाह अनुदान — ssp.uk.gov.in शादी ऑनलाइन फॉर्म के माध्यम से अधिसूचित श्रेणियों हेतु।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Social Welfare marriage grant scheme with online applications on ssp.uk.gov.in (Shaadi online form), covering notified categories such as daughters of dependent widows / SC marriage grants as operated by the department."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare UK marriage-grant service page links to https://ssp.uk.gov.in/OnlineRegistration/FrmShaadiOnlineApplicationForm.aspx. DBT UK lists related services such as Marriage Grant for Girls of Scheduled Castes and Marriage Grant for Daughters of Dependent Widows. Exact income/caste ceilings vary by sub-grant — confirm on ssp.uk.gov.in / latest GO before treating as hard rules.",
+      "verify_notes": "2026-09-16: https://socialwelfare.uk.gov.in/service/marriage-grant-scheme/ confirms the online channel; detailed sub-scheme ceilings not fully on the short service card — verify=true.",
+      "states": [
+        "Uttarakhand"
+      ]
+    },
+    "benefits": {
+      "en": "One-time marriage grant as per the applicable Social Welfare sub-scheme (confirm current amount on ssp.uk.gov.in / GOs).",
+      "hi": "लागू उप-योजना के अनुसार एकमुश्त विवाह अनुदान (राशि ssp.uk.gov.in / शासनादेश पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time marriage grant as per the applicable Social Welfare sub-scheme (confirm current amount on ssp.uk.gov.in / GOs)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age / identity proof of bride",
+        "Caste / widow-mother proof as applicable",
+        "Income proof as required",
+        "Bank account",
+        "Marriage invitation / certificate as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age / identity proof of bride",
+        "Caste / widow-mother proof as applicable",
+        "Income proof as required",
+        "Bank account",
+        "Marriage invitation / certificate as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age / identity proof of bride",
+        "Caste / widow-mother proof as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online: https://ssp.uk.gov.in/OnlineRegistration/FrmShaadiOnlineApplicationForm.aspx — service card https://socialwelfare.uk.gov.in/service/marriage-grant-scheme/",
+      "hi": "ssp.uk.gov.in शादी ऑनलाइन फॉर्म से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online: https://ssp.uk.gov.in/OnlineRegistration/FrmShaadiOnlineApplicationForm.aspx — service card https://socialwelfare.uk.gov.in/service/marriage-grant-scheme/"
+    },
+    "apply_url": "https://ssp.uk.gov.in/OnlineRegistration/FrmShaadiOnlineApplicationForm.aspx",
+    "office_type": "Department of Social Welfare, Government of Uttarakhand",
+    "official_source_url": "https://socialwelfare.uk.gov.in/service/marriage-grant-scheme/",
+    "tags": [
+      "marriage",
+      "women",
+      "uttarakhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-dsss-senior",
+    "scheme_name": {
+      "en": "Dayanand Social Security Scheme – Senior Citizens (Goa)",
+      "hi": "दयानंद सामाजिक सुरक्षा योजना – वरिष्ठ नागरिक (गोवा)",
+      "ml": "(EN — Malayalam review pending) Dayanand Social Security Scheme – Senior Citizens (Goa)"
+    },
+    "description": {
+      "en": "Goa Dayanand Social Security Scheme (DSSS) monthly financial assistance track for senior citizens (age 60+ at application) who are bonafide residents of Goa by birth or 15-year domicile and not receiving conflicting outside financial assistance.",
+      "hi": "गोवा दयानंद सामाजिक सुरक्षा (DSSS) — 60+ वरिष्ठ नागरिकों के लिए मासिक सहायता (जन्म/15 वर्ष अधिवास)।",
+      "ml": "(EN — Malayalam review pending) Goa Dayanand Social Security Scheme (DSSS) monthly financial assistance track for senior citizens (age 60+ at application) who are bonafide residents of Goa by birth or 15-year domicile and not receiving conflicting outside financial assistance."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD / Social Welfare DSSS: Senior Citizen applied 60 years of age at application; bonafide resident of Goa by birth or domicile of 15 years; registration fee Rs.100; should not be in receipt of financial assistance from any other source except amalgamated state schemes. Pattern lists Rs.2,000 p.m. for Senior Citizens (confirm current).",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ and https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/ . Income is via certificate/self-declaration without a single published rupee ceiling on the scraped page — left null; verify=true.",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.2,000 per month for senior citizens under DSSS pattern text (confirm current rate on Social Welfare Goa).",
+      "hi": "वरिष्ठ नागरिकों के लिए ₹2,000 प्रति माह (DSSS पैटर्न — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Rs.2,000 per month for senior citizens under DSSS pattern text (confirm current rate on Social Welfare Goa)."
+    },
+    "required_documents": {
+      "en": [
+        "Birth / age proof",
+        "15-year residence certificate (if not by birth)",
+        "Income certificate or self-declaration on stamp paper",
+        "Aadhaar",
+        "Ration card copy",
+        "Bank account"
+      ],
+      "hi": [
+        "Birth / age proof",
+        "15-year residence certificate (if not by birth)",
+        "Income certificate or self-declaration on stamp paper",
+        "Aadhaar",
+        "Ration card copy",
+        "Bank account"
+      ],
+      "ml": [
+        "Birth / age proof",
+        "15-year residence certificate (if not by birth)",
+        "Income certificate or self-declaration on stamp paper"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare, Panaji or Deputy Director Margao (South Goa) in prescribed form. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण, पणजी / उप निदेशक मडगाँव में निर्धारित फॉर्म से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare, Panaji or Deputy Director Margao (South Goa) in prescribed form. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "pension",
+      "elderly",
+      "goa",
+      "dsss",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-dsss-disability",
+    "scheme_name": {
+      "en": "Dayanand Social Security Scheme – Persons with Disabilities (Goa)",
+      "hi": "दयानंद सामाजिक सुरक्षा योजना – दिव्यांगजन (गोवा)",
+      "ml": "(EN — Malayalam review pending) Dayanand Social Security Scheme – Persons with Disabilities (Goa)"
+    },
+    "description": {
+      "en": "Goa DSSS monthly assistance for eligible persons with notified disabilities (and higher rates for children / 90–100% disability), plus optional aids & appliances support for DSSS PwD beneficiaries.",
+      "hi": "गोवा DSSS दिव्यांगजन मासिक सहायता (बाल दिव्यांग / 90–100% हेतु उच्च दर; सहायक उपकरण सहायता संभव)।",
+      "ml": "(EN — Malayalam review pending) Goa DSSS monthly assistance for eligible persons with notified disabilities (and higher rates for children / 90–100% disability), plus optional aids & appliances support for DSSS PwD beneficiaries."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD DSSS: Person with Disability categories include blindness, hearing/speech impairment, locomotor, mental retardation, mental illness; Goa birth or 15-year domicile; registration fee; not receiving conflicting outside assistance. Pattern: Rs.2,000 p.m. adult PwD; Rs.2,500 p.m. disabled children; Rs.3,500 p.m. for 90–100% disability (continues after age 21). Up to Rs.1,00,000 for aids & appliances for PwD DSSS beneficiaries.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ . Disability % floors vary by benefit tier — verify=true.",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly DSSS assistance — commonly Rs.2,000 (adult PwD), Rs.2,500 (disabled children), Rs.3,500 (90–100% disability); plus up to Rs.1 lakh aids & appliances for eligible PwD beneficiaries.",
+      "hi": "मासिक DSSS सहायता (सामान्यतः ₹2,000 / ₹2,500 / ₹3,500) तथा पात्रों हेतु सहायक उपकरण तक ₹1 लाख।",
+      "ml": "(EN — Malayalam review pending) Monthly DSSS assistance — commonly Rs.2,000 (adult PwD), Rs.2,500 (disabled children), Rs.3,500 (90–100% disability); plus up to Rs.1 lakh aids & appliances for eligible PwD beneficiaries."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Birth / age proof",
+        "15-year residence certificate if required",
+        "Income certificate or self-declaration",
+        "Aadhaar",
+        "Legal guardianship certificate for intellectual disability/autism if applicable"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Birth / age proof",
+        "15-year residence certificate if required",
+        "Income certificate or self-declaration",
+        "Aadhaar",
+        "Legal guardianship certificate for intellectual disability/autism if applicable"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Birth / age proof",
+        "15-year residence certificate if required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण में निर्धारित फॉर्म से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "pension",
+      "disability",
+      "goa",
+      "dsss",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-dsss-single-widow",
+    "scheme_name": {
+      "en": "Dayanand Social Security Scheme – Single Women / Widows (Goa)",
+      "hi": "दयानंद सामाजिक सुरक्षा योजना – एकल महिला / विधवा (गोवा)",
+      "ml": "(EN — Malayalam review pending) Dayanand Social Security Scheme – Single Women / Widows (Goa)"
+    },
+    "description": {
+      "en": "Goa DSSS track for single women (including widows, divorcees, deserted or judicially separated women, and unmarried women above 50) who meet Goa residence rules.",
+      "hi": "गोवा DSSS एकल महिला ट्रैक — विधवा/तलाकशुदा/परित्यक्ता/न्यायिक पृथक्करण तथा 50+ अविवाहित महिलाएँ (अधिवास शर्तों सहित)।",
+      "ml": "(EN — Malayalam review pending) Goa DSSS track for single women (including widows, divorcees, deserted or judicially separated women, and unmarried women above 50) who meet Goa residence rules."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "divorced",
+        "deserted",
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD DSSS: Single Women — woman above 18 including those whose husband has expired, divorcees, deserted or judicially separated women and unmarried women above the age of 50; Goa birth or 15-year domicile; registration fee; not receiving conflicting outside assistance. Pattern text also cites Rs.2,500 p.m. for Single Woman & Widow below 60 on the Social Welfare DSSS page (confirm current slab).",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ and socialwelfare.goa.gov.in DSSS page. Unmarried age-50 floor vs widow-from-18 dual track — verify=true.",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly DSSS assistance for eligible single women/widows (commonly Rs.2,000–2,500 p.m. in scheme pattern texts — confirm current).",
+      "hi": "पात्र एकल महिला/विधवा हेतु मासिक DSSS सहायता (वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly DSSS assistance for eligible single women/widows (commonly Rs.2,000–2,500 p.m. in scheme pattern texts — confirm current)."
+    },
+    "required_documents": {
+      "en": [
+        "Death / divorce / desertion / unmarried self-declaration as applicable",
+        "Birth / age proof",
+        "15-year residence certificate if required",
+        "Income certificate or self-declaration",
+        "Aadhaar",
+        "Marriage certificate where relevant"
+      ],
+      "hi": [
+        "Death / divorce / desertion / unmarried self-declaration as applicable",
+        "Birth / age proof",
+        "15-year residence certificate if required",
+        "Income certificate or self-declaration",
+        "Aadhaar",
+        "Marriage certificate where relevant"
+      ],
+      "ml": [
+        "Death / divorce / desertion / unmarried self-declaration as applicable",
+        "Birth / age proof",
+        "15-year residence certificate if required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare, Panaji / Margao. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण, पणजी / मडगाँव में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare, Panaji / Margao. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "pension",
+      "women",
+      "widow",
+      "goa",
+      "dsss",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-stipend-disabled-students",
+    "scheme_name": {
+      "en": "Stipend to the Disabled Students (Goa)",
+      "hi": "दिव्यांग विद्यार्थियों को वजीफा (गोवा)",
+      "ml": "(EN — Malayalam review pending) Stipend to the Disabled Students (Goa)"
+    },
+    "description": {
+      "en": "Goa state stipend for bonafide resident handicapped students in recognised schools whose parents’/guardians’ combined income is not more than Rs.1,50,000 per annum, subject to non-duplication and non-repeater rules.",
+      "hi": "गोवा दिव्यांग विद्यार्थी वजीफा — मान्यता प्राप्त विद्यालय, अभिभावक संयुक्त आय ≤ ₹1.5 लाख/वर्ष।",
+      "ml": "(EN — Malayalam review pending) Goa state stipend for bonafide resident handicapped students in recognised schools whose parents’/guardians’ combined income is not more than Rs.1,50,000 per annum, subject to non-duplication and non-repeater rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD: applicant bonafide resident of Goa; regular student of recognised school; combined income of parents/guardian not more than Rs.1,50,000 p.a.; not residing/receiving maintenance in certain institutions; not receiving other stipend/scholarship; all handicapped children in a family eligible; repeater generally ineligible (one failure may be condoned). Assistance: Std I–VIII Rs.200/month; IX–XII Rs.300/month.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Stipend to the Disabled Students).",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly stipend — Std I–VIII Rs.200; Std IX–XII Rs.300 (scheme pattern on SCPWD page).",
+      "hi": "मासिक वजीफा — कक्षा 1–8 ₹200; 9–12 ₹300 (SCPWD)।",
+      "ml": "(EN — Malayalam review pending) Monthly stipend — Std I–VIII Rs.200; Std IX–XII Rs.300 (scheme pattern on SCPWD page)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Income certificate",
+        "DSW identity card",
+        "Report card / marksheet",
+        "Aadhaar",
+        "Head of institution recommendation"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Income certificate",
+        "DSW identity card",
+        "Report card / marksheet",
+        "Aadhaar",
+        "Head of institution recommendation"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Income certificate",
+        "DSW identity card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare in prescribed format with documents. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण में निर्धारित फॉर्म एवं दस्तावेजों के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare in prescribed format with documents. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://cmscholarship.goa.gov.in/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "education",
+      "scholarship",
+      "disability",
+      "goa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-scholarship-differently-abled",
+    "scheme_name": {
+      "en": "Scholarship to Differently Abled Persons (Goa)",
+      "hi": "दिव्यांगजनों के लिए छात्रवृत्ति (गोवा)",
+      "ml": "(EN — Malayalam review pending) Scholarship to Differently Abled Persons (Goa)"
+    },
+    "description": {
+      "en": "Goa scholarship for differently-abled students from Class 9 onward (and eligible vocational/music courses) with at least 45% in the previous exam and combined parental income not more than Rs.1,20,000, with 15-year domicile alternative to birth residence.",
+      "hi": "गोवा दिव्यांग छात्रवृत्ति — कक्षा 9 से आगे (45% अंक), अभिभावक आय ≤ ₹1.2 लाख; जन्म या 15 वर्ष अधिवास।",
+      "ml": "(EN — Malayalam review pending) Goa scholarship for differently-abled students from Class 9 onward (and eligible vocational/music courses) with at least 45% in the previous exam and combined parental income not more than Rs.1,20,000, with 15-year domicile alternative to birth residence."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 120000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD: bonafide resident by birth or continuous domicile of 15 years; scholarship from Ninth Standard onward with ≥45% in previous annual exam; vocational training courses also covered; no scholarship if combined income of parents/guardian more than Rs.1,20,000. Rates: IX–XII Rs.500/month; BA/B.Com/B.Sc Rs.650; MA/M.Com/M.Sc & other professional Rs.900.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Scholarship to differently Abled person).",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly scholarship — IX–XII Rs.500; graduate Rs.650; PG/professional Rs.900 (SCPWD pattern).",
+      "hi": "मासिक छात्रवृत्ति — 9–12 ₹500; स्नातक ₹650; स्नातकोत्तर/पेशेवर ₹900।",
+      "ml": "(EN — Malayalam review pending) Monthly scholarship — IX–XII Rs.500; graduate Rs.650; PG/professional Rs.900 (SCPWD pattern)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (Medical Board)",
+        "Income certificate",
+        "Marksheet (≥45%)",
+        "Residence / 15-year domicile proof",
+        "Aadhaar",
+        "Institution recommendation"
+      ],
+      "hi": [
+        "Disability certificate (Medical Board)",
+        "Income certificate",
+        "Marksheet (≥45%)",
+        "Residence / 15-year domicile proof",
+        "Aadhaar",
+        "Institution recommendation"
+      ],
+      "ml": [
+        "Disability certificate (Medical Board)",
+        "Income certificate",
+        "Marksheet (≥45%)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare through Head of Institution. https://scpwd.goa.gov.in/statesectorschemes/ ; portal https://cmscholarship.goa.gov.in/",
+      "hi": "संस्थान प्रमुख के माध्यम से निदेशालय समाज कल्याण में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare through Head of Institution. https://scpwd.goa.gov.in/statesectorschemes/ ; portal https://cmscholarship.goa.gov.in/"
+    },
+    "apply_url": "https://cmscholarship.goa.gov.in/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "education",
+      "scholarship",
+      "disability",
+      "goa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-bachpan",
+    "scheme_name": {
+      "en": "Bachpan Scheme (Goa)",
+      "hi": "बचपन योजना (गोवा)",
+      "ml": "(EN — Malayalam review pending) Bachpan Scheme (Goa)"
+    },
+    "description": {
+      "en": "Goa Bachpan scheme providing monthly financial assistance and annual education kit support to children below 18 years staying in Goa who do not have both parents and lack financial support for livelihood/education.",
+      "hi": "गोवा बचपन योजना — 18 वर्ष से कम आयु के वे बच्चे जिनके दोनों माता-पिता नहीं हैं और आजीविका/शिक्षा हेतु वित्तीय सहारा नहीं।",
+      "ml": "(EN — Malayalam review pending) Goa Bachpan scheme providing monthly financial assistance and annual education kit support to children below 18 years staying in Goa who do not have both parents and lack financial support for livelihood/education."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD Bachpan: all children below 18 years staying in Goa who do not have both parents and do not have any financial support for livelihood. Assistance Rs.2,000 p.m. (Rs.750 recurring deposit + Rs.1,250 savings) and Rs.2,000 for notes/books/school bag/raincoat/uniform.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Bachpan). Orphanhood condition not fully in wizard — verify=true.",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.2,000 per month (split RD + savings as per scheme) plus Rs.2,000 education kit support.",
+      "hi": "₹2,000 प्रति माह तथा शिक्षा सामग्री हेतु ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Rs.2,000 per month (split RD + savings as per scheme) plus Rs.2,000 education kit support."
+    },
+    "required_documents": {
+      "en": [
+        "Birth certificate",
+        "Income affidavit",
+        "Residence certificate",
+        "Ration card",
+        "Death certificates of both parents",
+        "School record extract",
+        "Bank passbook",
+        "Local guardian identification certificate"
+      ],
+      "hi": [
+        "Birth certificate",
+        "Income affidavit",
+        "Residence certificate",
+        "Ration card",
+        "Death certificates of both parents",
+        "School record extract",
+        "Bank passbook",
+        "Local guardian identification certificate"
+      ],
+      "ml": [
+        "Birth certificate",
+        "Income affidavit",
+        "Residence certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare in prescribed form. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण में निर्धारित फॉर्म से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare in prescribed form. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "children",
+      "orphan",
+      "goa",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-marriage-award-disabled",
+    "scheme_name": {
+      "en": "Awards for Marriage with the Disabled (Goa)",
+      "hi": "दिव्यांग व्यक्ति से विवाह हेतु पुरस्कार (गोवा)",
+      "ml": "(EN — Malayalam review pending) Awards for Marriage with the Disabled (Goa)"
+    },
+    "description": {
+      "en": "Goa award of Rs.50,000 to encourage marriage where at least one spouse is a person with disability, for bonafide 15-year Goa residents applying within three years of marriage, with family income not exceeding Rs.1,20,000.",
+      "hi": "गोवा — दिव्यांग जीवनसाथी के साथ विवाह हेतु ₹50,000 पुरस्कार (15 वर्ष निवास; परिवार आय ≤ ₹1.2 लाख; विवाह के 3 वर्षों में आवेदन)।",
+      "ml": "(EN — Malayalam review pending) Goa award of Rs.50,000 to encourage marriage where at least one spouse is a person with disability, for bonafide 15-year Goa residents applying within three years of marriage, with family income not exceeding Rs.1,20,000."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 120000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD: applicant bonafide resident of Goa for last 15 years; eligible only if applied within three years from date of marriage; at least one party to the marriage should be handicapped; total family income should not exceed Rs.1,20,000 p.a. Assistance Rs.50,000.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Awards for marriage with the disabled).",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "One-time award of Rs.50,000.",
+      "hi": "एकमुश्त पुरस्कार ₹50,000।",
+      "ml": "(EN — Malayalam review pending) One-time award of Rs.50,000."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Marriage certificate",
+        "Income certificate",
+        "15-year residence certificate",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Marriage certificate",
+        "Income certificate",
+        "15-year residence certificate",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Marriage certificate",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare through BDO in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "बीडीओ के माध्यम से निदेशालय समाज कल्याण में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare through BDO in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "marriage",
+      "disability",
+      "goa",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-severe-disability-fa",
+    "scheme_name": {
+      "en": "Financial Assistance to Persons with Severe Disabilities (Goa)",
+      "hi": "गंभीर दिव्यांगता वाले व्यक्तियों को वित्तीय सहायता (गोवा)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Persons with Severe Disabilities (Goa)"
+    },
+    "description": {
+      "en": "Goa scheme granting financial assistance to promote economic self-reliance among persons with severe (100%) disabilities aged 10+, Goa residents by birth/marriage/15-year domicile, with family income not exceeding Rs.1,20,000.",
+      "hi": "गोवा गंभीर दिव्यांगता सहायता — 10+ वर्ष, 100% दिव्यांगता, परिवार आय ≤ ₹1.2 लाख; गोवा अधिवास।",
+      "ml": "(EN — Malayalam review pending) Goa scheme granting financial assistance to promote economic self-reliance among persons with severe (100%) disabilities aged 10+, Goa residents by birth/marriage/15-year domicile, with family income not exceeding Rs.1,20,000."
+    },
+    "eligibility_rules": {
+      "min_age": 10,
+      "max_age": null,
+      "max_annual_income": 120000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 100,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD: bonafide resident by birth or marriage or continuous domicile of at least 15 years; suffering from severe disabilities as defined; completed 10 years of age; total family income not exceed Rs.1,20,000 p.a. Pattern: quarterly interest on fixed deposit of Rs.20,000 for 10 years, thereafter Rs.20,000 transferred to beneficiary. Documents require medical certificate showing 100% disability.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Grant of Financial assistance to persons with severe disabilities).",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Quarterly interest on Rs.20,000 FD for 10 years, then transfer of Rs.20,000 to beneficiary (scheme pattern).",
+      "hi": "₹20,000 की एफडी पर 10 वर्ष त्रैमासिक ब्याज, तत्पश्चात ₹20,000 लाभार्थी को हस्तांतरण।",
+      "ml": "(EN — Malayalam review pending) Quarterly interest on Rs.20,000 FD for 10 years, then transfer of Rs.20,000 to beneficiary (scheme pattern)."
+    },
+    "required_documents": {
+      "en": [
+        "Medical certificate showing 100% disability",
+        "Passport photos",
+        "Income certificate",
+        "DSW identity card",
+        "Residence proof",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Medical certificate showing 100% disability",
+        "Passport photos",
+        "Income certificate",
+        "DSW identity card",
+        "Residence proof",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Medical certificate showing 100% disability",
+        "Passport photos",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to Directorate of Social Welfare in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "निदेशालय समाज कल्याण में निर्धारित फॉर्म से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply to Directorate of Social Welfare in prescribed format. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "disability",
+      "goa",
+      "financial-assistance"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ga-traditional-occupation-assist",
+    "scheme_name": {
+      "en": "Monthly Financial Assistance to Traditional Occupations / Motorcycle Pilots (Goa)",
+      "hi": "पारंपरिक व्यवसाय / मोटरसाइकिल पायलट मासिक सहायता (गोवा)",
+      "ml": "(EN — Malayalam review pending) Monthly Financial Assistance to Traditional Occupations / Motorcycle Pilots (Goa)"
+    },
+    "description": {
+      "en": "Goa monthly assistance for persons of Goan origin aged 50+ engaged in traditional occupations/businesses (including motorcycle pilots and auto-rickshaw drivers), with family income not exceeding Rs.1.50 lakh per annum.",
+      "hi": "गोवा पारंपरिक व्यवसाय सहायता — गोवा मूल, 50+, परिवार आय ≤ ₹1.5 लाख; मोटरसाइकिल पायलट/ऑटो चालक हेतु उच्च दर।",
+      "ml": "(EN — Malayalam review pending) Goa monthly assistance for persons of Goan origin aged 50+ engaged in traditional occupations/businesses (including motorcycle pilots and auto-rickshaw drivers), with family income not exceeding Rs.1.50 lakh per annum."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official SCPWD: applicant of Goan Origin; family income from all sources not exceed Rs.1.50 lakh p.a.; age not less than 50 years; valid registration certificates of traditional business activity (or affidavit). Assistance Rs.1,000 p.m. generally and Rs.2,000 p.m. for motorcycle pilots & auto-rickshaw drivers.",
+      "verify_notes": "2026-09-16: https://scpwd.goa.gov.in/statesectorschemes/ (Traditional Occupation/Business including Motor-Cycle Pilots).",
+      "states": [
+        "Goa"
+      ]
+    },
+    "benefits": {
+      "en": "Rs.1,000 per month generally; Rs.2,000 per month for motorcycle pilots and auto-rickshaw drivers.",
+      "hi": "सामान्यतः ₹1,000 प्रति माह; मोटरसाइकिल पायलट/ऑटो चालक हेतु ₹2,000 प्रति माह।",
+      "ml": "(EN — Malayalam review pending) Rs.1,000 per month generally; Rs.2,000 per month for motorcycle pilots and auto-rickshaw drivers."
+    },
+    "required_documents": {
+      "en": [
+        "15-year residence certificate from Mamlatdar",
+        "Income certificate",
+        "Birth certificate",
+        "Traditional occupation registration / affidavit",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "15-year residence certificate from Mamlatdar",
+        "Income certificate",
+        "Birth certificate",
+        "Traditional occupation registration / affidavit",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "15-year residence certificate from Mamlatdar",
+        "Income certificate",
+        "Birth certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through BDO of Talukas as stated on SCPWD page. https://scpwd.goa.gov.in/statesectorschemes/",
+      "hi": "तालुका बीडीओ के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through BDO of Talukas as stated on SCPWD page. https://scpwd.goa.gov.in/statesectorschemes/"
+    },
+    "apply_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "office_type": "Directorate of Social Welfare, Government of Goa",
+    "official_source_url": "https://scpwd.goa.gov.in/statesectorschemes/",
+    "tags": [
+      "labour",
+      "traditional-occupation",
+      "goa",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

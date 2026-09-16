@@ -1,7 +1,7 @@
 # Source audit — Scheme Finder catalogue
 
 **Audit date:** 2026-09-16 (Asia/Calcutta / IST)
-**Schemes audited:** 149
+**Schemes audited:** 225
 
 ## Policy
 
@@ -13,7 +13,7 @@
 ## Summary
 
 - URL field replacements this pass: **12** (across **8** schemes)
-- `eligibility_rules.verify=true`: **141**
+- `eligibility_rules.verify=true`: **217**
 - `eligibility_rules.verify=false`: **8**
 - Official source domain types: gov=149
 
@@ -251,4 +251,51 @@ Skipped (insufficient clear official eligibility or inactive/unclear): AP Amma V
 | `gj-ignoaps-vayvandana` | https://sje.gujarat.gov.in/dsd/schemes/2212?lang=English | gov | https://www.digitalgujarat.gov.in/ | gov | `True` | 2026-09-16 |
 
 Skipped (quality / official eligibility unclear from reachable pages): TN Sri Lankan refugee pension variants (niche); MH Mukhyamantri Vayoshree (SJSA category page lacked eligibility text); WB Swasthya Sathi / Krishak Bandhu (portals 403/unreachable from curator network — not invented); KA Shakti / Anna Bhagya / Gruha Jyothi (utility guarantees — weak wizard fit); GJ Namo Shakti (no clear official eligibility page confirmed in this pass). Magalir Urimai eligibility grounded in G.O.(Ms) No.15 / KMUT portal.
+
+## Wave 4 source audit (2026-09-16)
+
+| id | official_source_url | domain | apply_url | apply domain | verify | verified |
+| --- | --- | --- | --- | --- | --- | --- |
+| `pb-disability-pension` | https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf | gov | https://connect.punjab.gov.in/ | gov | `True` | 2026-09-16 |
+| `pb-acid-attack-assistance` | https://sswcd.punjab.gov.in/en/wcd/state-schemes | gov | https://connect.punjab.gov.in/ | gov | `True` | 2026-09-16 |
+| `pb-attendance-scholarship-disabled-girls` | https://sswcd.punjab.gov.in/en/wcd/state-schemes | gov | https://sswcd.punjab.gov.in/en/wcd/state-schemes | gov | `True` | 2026-09-16 |
+| `pb-pwd-student-scholarship` | https://sswcd.punjab.gov.in/en/wcd/state-schemes | gov | https://connect.punjab.gov.in/ | gov | `True` | 2026-09-16 |
+| `pb-ashirwad-marriage` | https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf | gov | https://connect.punjab.gov.in/ | gov | `True` | 2026-09-16 |
+| `pb-mai-bhago-vidya` | https://cdnbbsr.s3waas.gov.in/s3ec01512fc3c5227f637e41437c999a2d/uploads/2023/03/2023030494.pdf | gov | https://sswcd.punjab.gov.in/en | gov | `True` | 2026-09-16 |
+| `hr-divyang-pension` | https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/ | gov | https://sewa.haryana.gov.in/haryana-divyang-pension-schemes/ | gov | `True` | 2026-09-16 |
+| `hr-ladli-social-security` | https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/ | gov | https://sewa.haryana.gov.in/ladli-social-security-allowance-scheme/ | gov | `True` | 2026-09-16 |
+| `hr-destitute-children` | https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/ | gov | https://sewa.haryana.gov.in/financial-assistance-to-destitute-children-schemes/ | gov | `True` | 2026-09-16 |
+| `hr-nonschool-disabled-children` | https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/ | gov | https://sewa.haryana.gov.in/financial-assistance-to-non-school-going-disabled-children/ | gov | `True` | 2026-09-16 |
+| `hr-ddlly` | https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/ | gov | https://sewa.haryana.gov.in/deen-dayal-lado-lakshmi-yojana-ddlly/ | gov | `True` | 2026-09-16 |
+| `hr-widower-unmarried-assist` | https://socialjusticehry.gov.in/financial-assistance-to-widower-and-unmarried-persons-scheme-2023/ | gov | https://sewa.haryana.gov.in/social-security-pension-schemes/ | gov | `True` | 2026-09-16 |
+| `hr-acid-attack-assist` | https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/ | gov | https://sewa.haryana.gov.in/financial-assistance-to-women-and-girls-acid-attack-victims/ | gov | `True` | 2026-09-16 |
+| `hr-cancer-stage-iii-iv` | https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/ | gov | https://sewa.haryana.gov.in/financial-assistance-for-stage-iii-iv-cancer-patients/ | gov | `True` | 2026-09-16 |
+| `hr-allowance-eunuchs` | https://sewa.haryana.gov.in/allowance-to-eunuchs/ | gov | https://sewa.haryana.gov.in/allowance-to-eunuchs/ | gov | `True` | 2026-09-16 |
+| `hp-disability-relief-allowance` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-ignoaps` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-ignwps` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-igndps` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-transgender-pension` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-leprosy-rehab-allowance` | http://esomsa.hp.gov.in/?q=social-security-pension | gov | https://himparivar.hp.gov.in/ekalyan | gov | `True` | 2026-09-16 |
+| `hp-intercaste-marriage` | https://hpshimla.nic.in/dwo-shimla/ | nic | http://esomsa.hp.gov.in/ | gov | `True` | 2026-09-16 |
+| `hp-house-subsidy-sc-obc` | https://hpshimla.nic.in/dwo-shimla/ | nic | https://hpshimla.nic.in/dwo-shimla/ | nic | `True` | 2026-09-16 |
+| `uk-widow-pension` | https://socialwelfare.uk.gov.in/service/widow-pension/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-disability-pension` | https://socialwelfare.uk.gov.in/service/%e0%a4%a6%e0%a4%bf%e0%a4%b5%e0%a5%8d%e0%a4%af%e0%a4%be%e0%a4%82%e0%a4%97-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-parityakta-pension` | https://socialwelfare.uk.gov.in/service/destitute-pension/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-kisan-pension` | https://socialwelfare.uk.gov.in/hi/service/%e0%a4%95%e0%a4%bf%e0%a4%b8%e0%a4%be%e0%a4%a8-%e0%a4%aa%e0%a5%87%e0%a4%82%e0%a4%b6%e0%a4%a8/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-bauna-pension` | https://socialwelfare.uk.gov.in/service/bauna-pension/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-teelu-rauteli-pension` | https://socialwelfare.uk.gov.in/service/teelurautelipension/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-divyang-bharan-poshan` | https://socialwelfare.uk.gov.in/service/divyang-bharan-poshan-anudaan/ | gov | https://ssp.uk.gov.in/ | gov | `True` | 2026-09-16 |
+| `uk-marriage-grant` | https://socialwelfare.uk.gov.in/service/marriage-grant-scheme/ | gov | https://ssp.uk.gov.in/OnlineRegistration/FrmShaadiOnlineApplicationForm.aspx | gov | `True` | 2026-09-16 |
+| `ga-dsss-senior` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/ | gov | `True` | 2026-09-16 |
+| `ga-dsss-disability` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/ | gov | `True` | 2026-09-16 |
+| `ga-dsss-single-widow` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/ | gov | `True` | 2026-09-16 |
+| `ga-stipend-disabled-students` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://cmscholarship.goa.gov.in/ | gov | `True` | 2026-09-16 |
+| `ga-scholarship-differently-abled` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://cmscholarship.goa.gov.in/ | gov | `True` | 2026-09-16 |
+| `ga-bachpan` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://scpwd.goa.gov.in/statesectorschemes/ | gov | `True` | 2026-09-16 |
+| `ga-marriage-award-disabled` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://scpwd.goa.gov.in/statesectorschemes/ | gov | `True` | 2026-09-16 |
+| `ga-severe-disability-fa` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://scpwd.goa.gov.in/statesectorschemes/ | gov | `True` | 2026-09-16 |
+| `ga-traditional-occupation-assist` | https://scpwd.goa.gov.in/statesectorschemes/ | gov | https://scpwd.goa.gov.in/statesectorschemes/ | gov | `True` | 2026-09-16 |
+
+Skipped (quality / official eligibility unclear from reachable pages this pass): Punjab Bebe Nanki Laadli Beti Kalyan (india.gov.in 404; SSWCD portal timed out from curator network — income ceiling not re-verified on live HTML); Punjab Mai Bhago Widows Benefit myScheme page errored; HP Indira Gandhi Pyari Behna Sukh-Samman Nidhi (notification PDF scanned/image-only — eligibility not OCR-verified); Haryana Allowance to Dwarfs / Rare Diseases / Kashmiri Migrants (kept out for focus/quality); Goa NGO institutional grants (Mamta/Braille/Jeevan Jyot — not citizen matcher fits); UK marriage-grant sub-scheme rupee ceilings only partially published on the short service card.
 

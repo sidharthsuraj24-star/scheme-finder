@@ -1,11 +1,11 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 185 schemes
-**verify=true:** 141
+**Count:** 225 schemes
+**verify=true:** 217
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
 
 | # | id | Name (EN) | Country / States | Official source | Key eligibility | verify |
 |---|----|-----------|------------------|-----------------|-----------------|--------|
@@ -173,6 +173,22 @@ Added **36** local schemes (official `.gov.in` / `.nic.in` only). Per-state tota
 
 All Wave 3 rows use `verify: true`, `countries: ["India"]`, `nationwide: false`, `last_verified: 2026-09-16`. Published income ceilings encoded only when cited on official pages (e.g. Magalir ₹2.5L, Rupashree ₹1.5L, MH Sanjay Gandhi/Shravanbal ₹21,000, GJ Ganga/Niradhar urban ₹1.5L). BPL/destitute tracks without a single rupee ceiling use `implies_low_income`.
 
+
+
+
+## Wave 4 deepen (Punjab, Haryana, Himachal Pradesh, Uttarakhand, Goa) — 2026-09-16
+
+Added **40** local schemes (official `.gov.in` / `.nic.in` only). Per-state totals including prior starters ≈8–11.
+
+| State | New ids |
+| --- | --- |
+| Punjab | `pb-disability-pension`, `pb-acid-attack-assistance`, `pb-attendance-scholarship-disabled-girls`, `pb-pwd-student-scholarship`, `pb-ashirwad-marriage`, `pb-mai-bhago-vidya` |
+| Haryana | `hr-divyang-pension`, `hr-ladli-social-security`, `hr-destitute-children`, `hr-nonschool-disabled-children`, `hr-ddlly`, `hr-widower-unmarried-assist`, `hr-acid-attack-assist`, `hr-cancer-stage-iii-iv`, `hr-allowance-eunuchs` |
+| Himachal Pradesh | `hp-disability-relief-allowance`, `hp-ignoaps`, `hp-ignwps`, `hp-igndps`, `hp-transgender-pension`, `hp-leprosy-rehab-allowance`, `hp-intercaste-marriage`, `hp-house-subsidy-sc-obc` |
+| Uttarakhand | `uk-widow-pension`, `uk-disability-pension`, `uk-parityakta-pension`, `uk-kisan-pension`, `uk-bauna-pension`, `uk-teelu-rauteli-pension`, `uk-divyang-bharan-poshan`, `uk-marriage-grant` |
+| Goa | `ga-dsss-senior`, `ga-dsss-disability`, `ga-dsss-single-widow`, `ga-stipend-disabled-students`, `ga-scholarship-differently-abled`, `ga-bachpan`, `ga-marriage-award-disabled`, `ga-severe-disability-fa`, `ga-traditional-occupation-assist` |
+
+All Wave 4 rows use `verify: true`, `countries: ["India"]`, `nationwide: false`, `last_verified: 2026-09-16`, EN+HI (+ ml stub). Published income ceilings encoded only when cited on official pages (e.g. Haryana Ladli ₹2L / DDLLY ₹1L / Destitute Children ₹2L; HP DRA/widow ₹35k; UK pensions ₹4,000/month → ₹48,000/year; Goa stipend ₹1.5L / scholarship ₹1.2L). BPL NSAP tracks use `implies_low_income`.
 
 ## Country + nationwide matching
 
