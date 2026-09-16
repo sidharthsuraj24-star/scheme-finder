@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { currencySymbol } from "@/lib/countries";
 import { t } from "@/lib/i18n";
 import type { Lang, MatchResponse } from "@/lib/types";
 import Disclaimer from "./Disclaimer";
@@ -11,7 +12,7 @@ interface Props {
   data: MatchResponse;
   onRestart: () => void;
   shareUrl?: string | null;
-  /** Annual income used for matching (rupees), when the user provided income. */
+  /** Annual income used for matching (local currency units), when the user provided income. */
   filteredAnnualIncome?: number | null;
 }
 
@@ -81,6 +82,7 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
         {filteredAnnualIncome != null && filteredAnnualIncome >= 0 ? (
           <p className="mt-1 text-sm text-slate-500">
             {t(lang, "resultsIncomeFilter", {
+              currency: currencySymbol(data.country),
               amount: Math.round(filteredAnnualIncome).toLocaleString("en-IN"),
             })}
           </p>
@@ -123,6 +125,7 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
         {filteredAnnualIncome != null && filteredAnnualIncome >= 0 ? (
           <p className="mt-1 text-sm text-slate-500">
             {t(lang, "resultsIncomeFilter", {
+              currency: currencySymbol(data.country),
               amount: Math.round(filteredAnnualIncome).toLocaleString("en-IN"),
             })}
           </p>

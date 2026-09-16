@@ -314,8 +314,14 @@ export default function Wizard({ lang, onSubmit }: Props) {
         const conversion =
           amount != null && amount >= 0
             ? mode === "monthly"
-              ? t(lang, "qIncomeAboutYear").replace("{amount}", fmt(amount * 12))
-              : t(lang, "qIncomeAboutMonth").replace("{amount}", fmt(amount / 12))
+              ? t(lang, "qIncomeAboutYear", {
+                  currency,
+                  amount: fmt(amount * 12),
+                })
+              : t(lang, "qIncomeAboutMonth", {
+                  currency,
+                  amount: fmt(amount / 12),
+                })
             : null;
         const setMode = (next: "monthly" | "yearly") => {
           setAnswers((a) => ({
