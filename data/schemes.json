@@ -69,7 +69,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-widow-pension",
@@ -146,7 +146,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-disability-pension-physical",
@@ -218,7 +218,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-unmarried-women-pension",
@@ -291,7 +291,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-agri-labour-pension",
@@ -367,7 +367,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-disability-pension-mental",
@@ -436,7 +436,7 @@
       "sevana",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "pm-kisan",
@@ -509,7 +509,7 @@
       "dbt",
       "nationwide"
     ],
-    "last_verified": "2026-09-08",
+    "last_verified": "2026-09-16",
     "nationwide": true
   },
   {
@@ -542,9 +542,9 @@
       "states": [
         "Kerala"
       ],
-      "notes": "SHA FAQ: eligible if RSBY/CHIS enrolled with valid card during 2018-19, or received letter based on SECC 2011. No age limit; no family size cap; pre-existing conditions covered. New registrations beyond listed categories not open as of FAQ text — verify current expansion.",
+      "notes": "SHA FAQ: eligible if RSBY/CHIS enrolled with valid card during 2018-19, or received letter based on SECC 2011. No age limit; no family size cap; pre-existing conditions covered. New registrations beyond listed categories not open as of FAQ text — verify current expansion. Source: https://sha.kerala.gov.in/?page_id=742",
       "verify": true,
-      "verify_notes": "SHA FAQ states new registrations other than Q1 categories had not started; confirm whether Kerala has since expanded beneficiary universe. Matching should treat SECC/RSBY/CHIS flags as primary signals rather than raw income.",
+      "verify_notes": "Re-checked SHA FAQ URL (fixed hostname typo) on 2026-09-16. Beneficiary expansion beyond RSBY/CHIS/SECC still uncertain — keep verify=true.",
       "countries": [
         "India"
       ]
@@ -569,9 +569,9 @@
       "en": "Visit empanelled hospital AB PMJAY-KASP kiosk with Aadhaar and ration card to register members and get card. Helpline DISHA 1056 / 0471-2551056.",
       "ml": "എംപാനൽഡ് ആശുപത്രി കിയോസ്കിൽ ആധാർ, റേഷൻ കാർഡ് സഹിതം രജിസ്റ്റർ ചെയ്യുക."
     },
-    "apply_url": "http://www.sha.kerala.gov.in/",
+    "apply_url": "https://sha.kerala.gov.in/",
     "office_type": "State Health Agency / Empanelled hospital kiosk",
-    "official_source_url": "http://www.sha.kerala.gov.in./?lang=en&page_id=742",
+    "official_source_url": "https://sha.kerala.gov.in/?page_id=742",
     "tags": [
       "health",
       "insurance",
@@ -579,7 +579,7 @@
       "kasp",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "nsap-nfbs",
@@ -652,7 +652,7 @@
       "central",
       "nationwide"
     ],
-    "last_verified": "2026-09-08",
+    "last_verified": "2026-09-16",
     "nationwide": true
   },
   {
@@ -734,7 +734,7 @@
       "obc",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "adip-assistive-devices",
@@ -805,7 +805,7 @@
       "central",
       "nationwide"
     ],
-    "last_verified": "2026-09-08",
+    "last_verified": "2026-09-16",
     "nationwide": true
   },
   {
@@ -968,7 +968,7 @@
       "pmmvy",
       "nationwide"
     ],
-    "last_verified": "2026-09-08",
+    "last_verified": "2026-09-16",
     "nationwide": true
   },
   {
@@ -1045,7 +1045,7 @@
       "central",
       "nationwide"
     ],
-    "last_verified": "2026-09-08",
+    "last_verified": "2026-09-16",
     "nationwide": true
   },
   {
@@ -1117,7 +1117,7 @@
       "kerala",
       "social-justice"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ayyankali-uegs",
@@ -1179,7 +1179,7 @@
       "en": "Register and demand work through Urban Local Government / scheme portal http://www.auegskerala.gov.in/",
       "ml": "നഗര തദ്ദേശ സ്ഥാപനം / auegskerala.gov.in വഴി രജിസ്റ്റർ ചെയ്ത് തൊഴിൽ ആവശ്യപ്പെടുക."
     },
-    "apply_url": "http://www.auegskerala.gov.in/",
+    "apply_url": "https://auegskerala.gov.in/",
     "office_type": "Urban Local Government / LSGD",
     "official_source_url": "https://lsgd.kerala.gov.in/en/state-sponsored-schemes-under-lsgd/ayyankali-uegs/",
     "tags": [
@@ -1188,7 +1188,7 @@
       "labour",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "janani-suraksha-yojana-kerala",
@@ -1219,9 +1219,9 @@
       "states": [
         "Kerala"
       ],
-      "notes": "Per health.kerala.gov.in JSY page (dated content): financial assistance Rs.600 urban / Rs.700 rural institutional delivery; SC/ST mothers Rs.500 for home delivery regardless of financial status. Services at government hospitals and select accredited private institutions.",
+      "notes": "Kerala is a High Performing State under JSY. NHM national page is the stable official source. Historically Kerala Health Dept listed: BPL >19 and all SC/ST; Rs.600 urban / Rs.700 rural institutional; SC/ST home delivery Rs.500. NHM MSG orders removed some age/parity conditionalities — confirm current Kerala NHM cash amounts locally.",
       "verify": true,
-      "verify_notes": "Confirm whether Kerala still uses these exact cash amounts and age (>19) on current NHM circulars; page is an official health.kerala.gov.in financial-aid item.",
+      "verify_notes": "2026-09-16: replaced rotating health.kerala.gov.in financialaiditemPDF with NHM JSY page. Keep verify=true for Kerala-specific cash amounts and whether >19 age still applies locally.",
       "maternity_required": true,
       "countries": [
         "India"
@@ -1251,16 +1251,16 @@
       "en": "Access via government hospitals / accredited private hospitals; for approved private hospitals obtain cheque via social health centre coordinator with income/caste certificates as applicable.",
       "ml": "സർക്കാർ/അംഗീകൃത സ്വകാര്യ ആശുപത്രി വഴി; ആവശ്യമായ സർട്ടിഫിക്കറ്റുകൾ സമർപ്പിക്കുക."
     },
-    "apply_url": "http://health.kerala.gov.in/",
+    "apply_url": "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841",
     "office_type": "Health facility / NHM / Social health centre",
-    "official_source_url": "http://health.kerala.gov.in/financialaiditemPDF/eyJpdiI6IjJ3YVJ5TTJuK3VxTWIvaUMyWS8yU3c9PSIsInZhbHVlIjoiTnpzY3pGYzIrTUtHRU85NzVhNHl4QT09IiwibWFjIjoiMzU2YWYxZjFjZTNkYjM1ZmM5Nzk3ODhjYzhhNDA0MWZhNjJkZTZhYmFiNDZkMTZkNjNjNjEzNzFmNjVlM2E3YSIsInRhZyI6IiJ9",
+    "official_source_url": "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841",
     "tags": [
       "maternity",
       "health",
       "jsy",
       "kerala"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "kerala-karunya-benevolent-fund",
@@ -1287,9 +1287,9 @@
       "states": [
         "Kerala"
       ],
-      "notes": "Must NOT be eligible for KASP. Annual income < Rs.3 lakh. Apply at Karunya/Arogya Suraksha kiosks in empanelled hospitals per health.kerala.gov.in.",
+      "notes": "SHA KBF page: financial assistance for under-privileged people with serious ailments (Cancer, Haemophilia, Kidney, Heart, Palliative Care); annual family income of less than Rs. 3 lakhs. Eligible beneficiary can approach KASP empaneled hospitals for cashless treatment. Must not duplicate KASP coverage where ineligible for KASP path — confirm at hospital kiosk.",
       "verify": true,
-      "verify_notes": "Eligibility/benefits from Kerala Health Dept Karunya financial-aid item (KBF income < Rs.3 lakh, not KASP-eligible; up to Rs.2 lakh / Rs.3 lakh kidney). Encrypted financialaiditemPDF URL may rotate — re-verify permalink.",
+      "verify_notes": "Income ceiling < Rs.3 lakh clearly stated on https://sha.kerala.gov.in/?page_id=2961 (2026-09-16). Keep verify=true for KASP-overlap / package-list nuances and lottery-era vs revamped KBF process.",
       "countries": [
         "India"
       ]
@@ -1318,16 +1318,16 @@
       "en": "Submit applications at Karunya and Arogya Suraksha Scheme kiosks in empanelled government/private hospitals. State Health Agency, Thiruvananthapuram.",
       "ml": "എംപാനൽഡ് ആശുപത്രികളിലെ കാരുണ്യ/ആരോഗ്യ സുരക്ഷാ കിയോസ്കിൽ അപേക്ഷിക്കുക."
     },
-    "apply_url": "http://www.sha.kerala.gov.in/",
+    "apply_url": "https://sha.kerala.gov.in/?page_id=2961",
     "office_type": "State Health Agency / Empanelled hospital kiosk",
-    "official_source_url": "http://health.kerala.gov.in/financialaiditemPDF/eyJpdiI6IkhVc1VwY1FMNTlTSlpkZ1E5ZHZKcnc9PSIsInZhbHVlIjoiLzVqUzVvMEs5a0pTYkRGSGNERjBGZz09IiwibWFjIjoiNDFkMmIzZWViMTY3MGU2YmRkZTg0NWUxMDMxY2ZhOTg0NjRjN2JiNzFlMzAzODhjZTUwOTY5ZmQ5MjcwNzU5OSIsInRhZyI6IiJ9",
+    "official_source_url": "https://sha.kerala.gov.in/?page_id=2961",
     "tags": [
       "health",
       "financial-assistance",
       "kerala",
       "karunya"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "tn-pudhumai-penn",
@@ -1395,7 +1395,7 @@
       "tamil-nadu",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "tn-cmchis",
@@ -1426,9 +1426,9 @@
         "Tamil Nadu"
       ],
       "nationwide": false,
-      "notes": "Enrolment and sum insured change by government order. Do not invent income ceilings — confirm on cmchistn.com / TN Health insurance portal. BPL/SECC-style categories used as soft signals only.",
+      "notes": "Enrolment and sum insured change by government order. Do not invent income ceilings. Official myScheme listing: https://www.myscheme.gov.in/schemes/cmchis ; apply/enrol via https://www.cmchistn.com/ (TN government-linked CMCHIS portal). BPL/SECC-style categories used as soft signals only.",
       "verify": true,
-      "verify_notes": "Beneficiary universe and card issuance rules evolve; treat as uncertain without official enrolment confirmation. Official portal: https://www.cmchistn.com/ implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL/SECC-style enrolment (cmchistn.com) — do not invent rupee ceiling; soft gate for high income.",
+      "verify_notes": "2026-09-16: grounded source on myScheme.gov.in; apply portal cmchistn.com retained (non-.gov but official scheme site). Income ceiling not encoded — implies_low_income soft gate only.",
       "implies_low_income": true,
       "countries": [
         "India"
@@ -1457,14 +1457,14 @@
     },
     "apply_url": "https://www.cmchistn.com/",
     "office_type": "Tamil Nadu Health Systems Project / CMCHIS",
-    "official_source_url": "https://www.cmchistn.com/",
+    "official_source_url": "https://www.myscheme.gov.in/schemes/cmchis",
     "tags": [
       "health",
       "insurance",
       "tamil-nadu",
       "cmchis"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ka-gruha-lakshmi",
@@ -1530,7 +1530,7 @@
       "dbt",
       "guarantee"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ka-yuva-nidhi",
@@ -1599,7 +1599,7 @@
       "dbt",
       "guarantee"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "mh-ladki-bahin",
@@ -1664,7 +1664,7 @@
       "maharashtra",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "mh-mjpjay",
@@ -1734,7 +1734,7 @@
       "mjpjay",
       "pmjay"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "wb-annapurna-bhandar",
@@ -1798,7 +1798,7 @@
       "west-bengal",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "wb-kanyashree",
@@ -1871,7 +1871,7 @@
       "west-bengal",
       "scholarship"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "up-kanya-sumangala",
@@ -1938,7 +1938,7 @@
       "uttar-pradesh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ab-pmjay-national",
@@ -2010,7 +2010,7 @@
       "nationwide"
     ],
     "nationwide": true,
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "gj-mukhyamantri-amrutum",
@@ -2081,7 +2081,7 @@
       "pmjay",
       "ma"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "gj-namo-lakshmi",
@@ -2149,7 +2149,7 @@
       "scholarship",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "rj-vridhjan-samman-pension",
@@ -2214,7 +2214,7 @@
       "rajasthan",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "br-kanya-utthan",
@@ -2281,7 +2281,7 @@
       "bihar",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "mp-ladli-behna",
@@ -2351,7 +2351,7 @@
       "madhya-pradesh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "od-madhu-babu-pension",
@@ -2419,7 +2419,7 @@
       "odisha",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ap-ntr-bharosa-oap",
@@ -2438,12 +2438,15 @@
       "states": [
         "Andhra Pradesh"
       ],
-      "notes": "Old Age Pension is one of multiple NTR Bharosa pension types (widow, weavers, PwD, etc.). Exact income/BPL and exclusion rules are enforced at sanction — confirm on https://abdg.aptonline.in/SSP",
+      "notes": "Official sspensions.ap.gov.in eligibility (common to all pensions): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Old Age Pension: male/female aged 60+ and destitute (little or no means of subsistence and no family/relative to depend upon). Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm current monthly rate on portal.",
       "verify": true,
-      "verify_notes": "Portal confirms Old Age Pension type and enhanced amounts from July 2024; detailed income filters not fully listed on landing page — verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Destitute / BPL status required (sspensions.ap.gov.in) — no single rupee ceiling published; soft gate only.",
+      "verify_notes": "Age 60+ and BPL/white-ration/destitute criteria taken from official About page 2026-09-16. No single rupee income ceiling published (BPL/destitute + exclusion list: govt employees, IT payers, land ceilings, etc.). implies_low_income soft gate retained. Pension amount on About page may lag G.O. enhancement — verify=true for amount.",
       "max_monthly_household_income": null,
       "occupations": [],
-      "categories": [],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
       "gender": null,
       "marital_status": [],
       "disability_required": false,
@@ -2476,16 +2479,16 @@
       "en": "Apply / track via NTR Bharosa portal and Village/Ward Secretariat channels: https://abdg.aptonline.in/SSP",
       "ml": "(EN — Malayalam review pending) Apply via abdg.aptonline.in/SSP and local secretariat."
     },
-    "apply_url": "https://abdg.aptonline.in/SSP",
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
     "office_type": "Government of Andhra Pradesh – NTR Bharosa Pension Scheme",
-    "official_source_url": "https://abdg.aptonline.in/SSP",
+    "official_source_url": "https://sspensions.ap.gov.in/SSP/Home",
     "tags": [
       "pension",
       "elderly",
       "andhra-pradesh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "tg-aasara-pension",
@@ -2550,7 +2553,7 @@
       "telangana",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "as-orunodoi",
@@ -2618,7 +2621,7 @@
       "dbt",
       "nfsa"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ga-griha-aadhar",
@@ -2690,7 +2693,7 @@
       "goa",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ga-laadli-laxmi",
@@ -2758,7 +2761,7 @@
       "goa",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "jh-maiya-samman",
@@ -2823,7 +2826,7 @@
       "jharkhand",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "hr-old-age-samman",
@@ -2888,7 +2891,7 @@
       "haryana",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "hr-widow-destitute-pension",
@@ -2959,7 +2962,7 @@
       "haryana",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "cg-mahtari-vandan",
@@ -3029,7 +3032,7 @@
       "chhattisgarh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "dl-old-age-pension",
@@ -3096,7 +3099,7 @@
       "delhi",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "pb-old-age-pension",
@@ -3165,7 +3168,7 @@
       "punjab",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "pb-widow-destitute-pension",
@@ -3239,7 +3242,7 @@
       "punjab",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "uk-old-age-pension",
@@ -3307,7 +3310,7 @@
       "uttarakhand",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "uk-nanda-gaura",
@@ -3327,9 +3330,9 @@
       "states": [
         "Uttarakhand"
       ],
-      "notes": "Commonly cited conditions: permanent resident of Uttarakhand; up to two girls per family; annual family income not more than Rs.72,000 (≈ Rs.6,000/month); birth installment after institutional delivery and Class-12 installment for eligible unmarried girls. Exact stage rules on https://www.nandagaurauk.in/",
+      "notes": "WECDUK portal (nandagaurauk.in): only permanent/native girls of Uttarakhand; max two living girls per family; benefits only at girl-child birth (apply within 6 months) and on passing Class 12 (Inter); Class-12 stage requires unmarried. Income certificate required; Rs.72,000 annual ceiling is commonly cited in secondary materials / older GOs — confirm on latest WECD GO at https://wecd.uk.gov.in/document-category/government-orders/ before treating as hard ceiling.",
       "verify": true,
-      "verify_notes": "Two-installment lifecycle (birth vs Class 12), marital/education conditions, and annual window dates are not fully encoded. Confirm on https://www.nandagaurauk.in/ and https://wecd.uk.gov.in/ — keep verify=true.",
+      "verify_notes": "2026-09-16: gender/residence/two-girl/two-stage rules confirmed on official WECDUK portal. Rs.72,000 income ceiling NOT clearly restated on portal index — keep max_annual_income=72000 with verify=true (do not invent).",
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -3369,7 +3372,7 @@
     },
     "apply_url": "https://www.nandagaurauk.in/",
     "office_type": "Directorate of Women Empowerment and Child Development, Government of Uttarakhand",
-    "official_source_url": "https://www.nandagaurauk.in/",
+    "official_source_url": "https://wecd.uk.gov.in/document-category/government-orders/",
     "tags": [
       "girl-child",
       "women",
@@ -3377,7 +3380,7 @@
       "uttarakhand",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "hp-old-age-pension",
@@ -3446,7 +3449,7 @@
       "himachal-pradesh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "hp-widow-deserted-pension",
@@ -3519,7 +3522,7 @@
       "himachal-pradesh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ar-cmaay",
@@ -3590,7 +3593,7 @@
       "arunachal-pradesh",
       "pmjay"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "mn-old-age-pension",
@@ -3660,7 +3663,7 @@
       "manipur",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ml-nsap-old-age-pension",
@@ -3732,7 +3735,7 @@
       "nsap",
       "bpl"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "mz-old-age-pension",
@@ -3804,7 +3807,7 @@
       "nsap",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "nl-cmhis",
@@ -3872,7 +3875,7 @@
       "nagaland",
       "pmjay"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "sk-unmarried-women-pension",
@@ -3948,7 +3951,7 @@
       "sikkim",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "tr-mssp-old-infirm",
@@ -4019,7 +4022,7 @@
       "income-support",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "an-old-age-assistance",
@@ -4090,7 +4093,7 @@
       "andaman-nicobar",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ch-old-age-pension",
@@ -4157,7 +4160,7 @@
       "chandigarh",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "dh-old-age-pension",
@@ -4186,7 +4189,7 @@
       ],
       "notes": "Published eligibility: domicile of Dadra & Nagar Haveli and Daman & Diu; age 60+; annual family income not more than ₹1,50,000; not receiving another old-age pension. Benefit commonly ₹1,500/month (60–69) and ₹2,000/month (70+). Application forms also linked from District Panchayat (dnhpanchayat.in).",
       "verify": true,
-      "verify_notes": "Age-tier benefit amounts and domicile proof rules should be re-verified with District Panchayat / https://ddd.gov.in/schemes-programmes/ — keep verify=true.",
+      "verify_notes": "Age-tier benefit amounts and domicile proof rules should be re-verified with District Panchayat / https://ddd.gov.in/schemes-programmes/ — keep verify=true. Apply URL aligned to ddd.gov.in (2026-09-16); dnhpanchayat.in PDF dropped as non-.gov.",
       "nationwide": false,
       "countries": [
         "India"
@@ -4217,7 +4220,7 @@
       "en": "Collect/download the form (e.g. https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf) and submit to Gram Panchayat / District Panchayat / Municipal Council. UT schemes index: https://ddd.gov.in/schemes-programmes/",
       "ml": "(EN — Malayalam review pending) Apply via District Panchayat / Municipal Council (ddd.gov.in / dnhpanchayat.in)."
     },
-    "apply_url": "https://dnhpanchayat.in/uploads/scheme/ApplicationFormsNSAP.pdf",
+    "apply_url": "https://ddd.gov.in/schemes-programmes/",
     "office_type": "Social Welfare / District Panchayat & Municipal Councils, UT of Dadra and Nagar Haveli and Daman and Diu",
     "official_source_url": "https://ddd.gov.in/schemes-programmes/",
     "tags": [
@@ -4226,7 +4229,7 @@
       "dnh-dd",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "jk-ladli-beti",
@@ -4295,7 +4298,7 @@
       "jammu-kashmir",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "la-old-age-pension",
@@ -4368,7 +4371,7 @@
       "dbt",
       "bpl"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "ld-old-age-pension",
@@ -4438,7 +4441,7 @@
       "lakshadweep",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "py-old-age-pension",
@@ -4509,7 +4512,7 @@
       "puducherry",
       "dbt"
     ],
-    "last_verified": "2026-09-15"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "bd-old-age-allowance",

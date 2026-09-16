@@ -1,10 +1,11 @@
 {
   "updated_as_of": "2026-09-16",
-  "updated_as_of_iso": "2026-09-16T00:00:00+05:30",
+  "updated_as_of_iso": "2026-09-16T12:00:00+05:30",
   "scheme_count": 76,
   "scope": "India + selected other countries (curated; not worldwide). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, Maldives have starter official sets.",
-  "auto_update": "semi-automatic \u2014 see docs/DATA_REFRESH.md",
+  "auto_update": "semi-automatic — see docs/DATA_REFRESH.md",
   "stale_after_days": 30,
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated.",
-  "ui_languages": "en, ml, hi \u2014 Hindi UI complete; scheme body Hindi may fall back to English pending native review"
+  "ui_languages": "en, ml, hi — Hindi UI complete; scheme body Hindi may fall back to English pending native review",
+  "source_audit": "docs/SOURCE_AUDIT.md"
 }
