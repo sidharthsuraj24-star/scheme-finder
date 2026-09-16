@@ -193,19 +193,27 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
                 result.ok("max_age")
 
     # --- income ---
+    # Hard ceiling ALWAYS excludes when exceeded — including verify=true schemes.
+    # Derive annual↔monthly here so a missing derived field cannot soft-pass the gate.
     max_annual = rules.get("max_annual_income")
     max_monthly = rules.get("max_monthly_household_income")
     if max_annual is not None:
-        if profile.annual_income is None:
+        annual = profile.annual_income
+        if annual is None and profile.monthly_household_income is not None:
+            annual = float(profile.monthly_household_income) * 12
+        if annual is None:
             result.miss("annual_income")
-        elif float(profile.annual_income) > float(max_annual):
+        elif float(annual) > float(max_annual):
             result.fail("max_annual_income")
         else:
             result.ok("max_annual_income")
     if max_monthly is not None:
-        if profile.monthly_household_income is None:
+        monthly = profile.monthly_household_income
+        if monthly is None and profile.annual_income is not None:
+            monthly = float(profile.annual_income) / 12
+        if monthly is None:
             result.miss("monthly_household_income")
-        elif float(profile.monthly_household_income) > float(max_monthly):
+        elif float(monthly) > float(max_monthly):
             result.fail("max_monthly_household_income")
         else:
             result.ok("max_monthly_household_income")

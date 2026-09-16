@@ -165,6 +165,63 @@ function check(name: string, ok: boolean, detail = "") {
   check("agri_uncertain_no_kawwf", !!hit && hit.status === "uncertain");
 }
 
+
+// LIFE high monthly income (wizard 12.5L/mo → annual 1.5Cr) must NOT match
+{
+  const resp = matchSchemes(
+    schemes,
+    base({
+      age: 53,
+      gender: "female",
+      state: "Kerala",
+      district: "Palakkad",
+      marital_status: "married",
+      monthly_household_income: 1_250_000,
+      annual_income: null,
+      disability: false,
+      disability_percent: 0,
+      primary_breadwinner_deceased: false,
+      land_ownership: "none",
+      occupations: ["other"],
+      categories: [],
+      housing_status: null,
+    }),
+  );
+  check("life_high_income_excluded", !ids(resp).has("kerala-life-mission"));
+  check(
+    "life_high_income_hard_fail",
+    resp.excluded.some(
+      (e) => e.scheme_id === "kerala-life-mission" && e.reasons.includes("max_annual_income"),
+    ),
+  );
+}
+
+// LIFE low income + homeless/landless → uncertain (verify)
+{
+  const resp = matchSchemes(
+    schemes,
+    base({
+      age: 53,
+      gender: "female",
+      state: "Kerala",
+      district: "Palakkad",
+      marital_status: "married",
+      monthly_household_income: 20_000,
+      annual_income: null,
+      land_ownership: "none",
+      occupations: ["other"],
+      categories: ["landless", "homeless"],
+      housing_status: "homeless",
+    }),
+  );
+  const life = resp.matched.find((m) => m.scheme_id === "kerala-life-mission");
+  check("life_low_income_uncertain", !!life && life.status === "uncertain");
+  check(
+    "life_low_income_ceiling_ok",
+    !!life && life.matched_rules.includes("max_annual_income"),
+  );
+}
+
 if (failed) {
   console.error(`\n${failed} failed`);
   process.exit(1);

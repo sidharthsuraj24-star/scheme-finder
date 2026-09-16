@@ -184,3 +184,20 @@ Matcher rules tightened in `backend/app/matcher.py` + `frontend/src/lib/matching
 6. Agri labour pension `likely` without KAWWF / 10-year flags — structured `kawwf_member_required` + `min_agri_labour_years`.
 7. LIFE housing categories matched too loosely without housing_status — housing-only schemes miss `housing_status` (uncertain, never likely from blank).
 8. District collected but unused — soft passthrough in explanation/response; optional `districts` filter.
+
+## LIFE Mission income ceiling fix (2026-09-16 IST)
+
+**Bug:** High-income Kerala profile (monthly ₹12,50,000 entered in wizard → annual ₹1.5 Cr) soft-matched `kerala-life-mission` as Needs verification because `max_annual_income` was null and `verify=true`, so landless/housing category soft-path still listed the scheme.
+
+**Fix:**
+- Set `max_annual_income: 300000` on `kerala-life-mission` (both `data/` and `frontend/data/` catalogues); keep `verify=true` with notes that ₹3L/year ceiling is applied from LIFE eligibility summaries / LSGI materials; still confirm category details on official portal.
+- Matcher (Python + TS): income hard-fail always applies when ceiling is set (including verify=true); derive annual↔monthly inside evaluator so monthly-only wizard payloads cannot soft-pass.
+- Benefits note published ₹4L / ₹6L ST assistance figures with verify caveat.
+- catalogue_meta last touch → 2026-09-16.
+
+| Case | Result |
+|------|--------|
+| Kerala age 53 F married Palakkad, monthly 1250000 → LIFE excluded (`max_annual_income`) | PASS |
+| Monthly ~20000 (annual 2.4L) + homeless/landless → LIFE uncertain (verify) | PASS |
+| pytest + TS smoke + `npm run build` | (run this pass) |
+

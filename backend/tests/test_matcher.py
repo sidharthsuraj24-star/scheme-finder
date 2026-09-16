@@ -962,3 +962,77 @@ def test_jk_ladli_beti_girl_child(schemes):
     assert "uk-nanda-gaura" not in _matched_ids(resp)
     assert "wb-kanyashree" not in _matched_ids(resp)
 
+
+
+# ---------------------------------------------------------------------------
+# LIFE Mission income ceiling (₹3 lakh/year hard filter even if verify=true)
+# ---------------------------------------------------------------------------
+
+
+def test_life_excluded_for_high_monthly_income_kerala_profile(schemes):
+    """Production bug: age 53 F married Palakkad, monthly 12.5L → annual 1.5Cr must NOT match LIFE."""
+    profile = MatchProfile(
+        age=53,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="married",
+        monthly_household_income=1_250_000,  # wizard field → annual = 15_000_000
+        disability=False,
+        disability_percent=0,
+        primary_breadwinner_deceased=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=[],
+        housing_status=None,
+    )
+    assert profile.annual_income == 15_000_000
+    resp = match_schemes(schemes, profile)
+    assert "kerala-life-mission" not in _matched_ids(resp)
+    assert "kerala-life-mission" not in {n.scheme_id for n in resp.needs_verification}
+    excluded = next(e for e in resp.excluded if e.scheme_id == "kerala-life-mission")
+    assert excluded.status == "not_eligible"
+    assert "max_annual_income" in excluded.reasons
+
+
+def test_life_uncertain_for_low_income_landless_homeless(schemes):
+    """Monthly ~20k (annual 2.4L) + homeless/landless → LIFE may appear as uncertain (verify)."""
+    profile = MatchProfile(
+        age=53,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="married",
+        monthly_household_income=20_000,  # annual 240_000 < 300_000
+        disability=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["landless", "homeless"],
+        housing_status="homeless",
+    )
+    assert profile.annual_income == 240_000
+    resp = match_schemes(schemes, profile)
+    assert "kerala-life-mission" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "kerala-life-mission")
+    assert hit.status == "uncertain"
+    assert hit.verify is True
+    assert "max_annual_income" in hit.matched_rules
+    assert "categories" in hit.matched_rules
+
+
+def test_life_income_hard_fail_even_with_verify_and_housing(schemes):
+    """Exceeding ₹3L excludes LIFE even when housing categories would otherwise soft-match."""
+    profile = MatchProfile(
+        age=40,
+        gender="female",
+        state="Kerala",
+        monthly_household_income=50_000,  # annual 600_000 > 300_000
+        land_ownership="none",
+        categories=["homeless"],
+        housing_status="homeless",
+        occupations=["other"],
+    )
+    resp = match_schemes(schemes, profile)
+    assert "kerala-life-mission" not in _matched_ids(resp)
+    excluded = next(e for e in resp.excluded if e.scheme_id == "kerala-life-mission")
+    assert "max_annual_income" in excluded.reasons

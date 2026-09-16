@@ -68,7 +68,7 @@ Full structured write-up: `docs/BROWSER_SEVANA_NOTES.md`.
 | https://pmkisan.gov.in/ | WebFetch timeout | WebSearch of official homepage + FAQ PDF |
 | https://lifemission.kerala.gov.in/life-project | curl sometimes empty | WebFetch/WebSearch Malayalam/EN content used |
 | https://bcdd.kerala.gov.in/…kpcr/ | WebFetch timeout | WebSearch official BCDD page content |
-| Secondary blogs on LIFE income cut-offs | Not used for hard rules | Marked `verify=true` instead of inventing income |
+| Secondary blogs on LIFE income cut-offs | Not used alone | 2026-09-16: ₹3 lakh/year hard ceiling from LIFE eligibility summaries / LSGI materials; blogs still ignored |
 
 ## Deliberately not used for hard eligibility
 

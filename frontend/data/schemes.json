@@ -771,7 +771,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 300000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [
@@ -788,13 +788,13 @@
       "states": [
         "Kerala"
       ],
-      "notes": "Official LIFE pages list beneficiary types: landed homeless; incomplete/uninhabitable house; temporary house in puramboke/coastal/plantation; landless homeless. Survey-based identification via LSGIs and Kudumbashree. Exact income cut-offs not clearly stated on primary LIFE project page — do not invent.",
+      "notes": "Official LIFE pages list beneficiary types: landed homeless; incomplete/uninhabitable house; temporary house in puramboke/coastal/plantation; landless homeless. Survey-based identification via LSGIs and Kudumbashree. Annual household income ceiling ₹3 lakh/year applied from LIFE eligibility summaries / LSGI materials (hard filter). Confirm category details and current assistance amounts on the official portal.",
       "verify": true,
-      "verify_notes": "HEAVY VERIFY: Primary lifemission.kerala.gov.in pages define beneficiary categories but do not publish a single clear numeric income ceiling. Secondary blogs cite varying income limits — ignore those. Confirm current PMAY-LIFE convergence rules, waitlist process, and whether open online application exists vs survey-only before enabling hard income filters."
+      "verify_notes": "Income ceiling ₹3 lakh/year applied from LIFE eligibility summaries / LSGI materials as a hard filter (exceeding income excludes, even with verify=true). Still confirm on the official LIFE portal for beneficiary category details, PMAY-LIFE convergence, waitlist/survey process, and current assistance component amounts."
     },
     "benefits": {
-      "en": "Support for construction / provision of safe housing and related livelihood/inclusion measures under LIFE mission components (details vary by beneficiary type and convergence scheme).",
-      "ml": "ഭവന നിർമ്മാണ/ലഭ്യമാക്കൽ പിന്തുണ; ഗുണഭോക്തൃ വിഭാഗം അനുസരിച്ച് വ്യത്യാസപ്പെടാം."
+      "en": "Support for construction / provision of safe housing under LIFE mission components (details vary by beneficiary type and convergence scheme). Published assistance figures commonly cited in LSGI/LIFE materials include about ₹4 lakh (general) and ₹6 lakh (ST) — verify current component amounts on the official portal before relying on a figure.",
+      "ml": "ലൈഫ് മിഷൻ ഭവന നിർമ്മാണ/ലഭ്യമാക്കൽ പിന്തുണ; ഗുണഭോക്തൃ വിഭാഗം അനുസരിച്ച് വ്യത്യാസപ്പെടാം. പ്രസിദ്ധീകരിച്ച സഹായ തുകകൾ സാധാരണയായി ഏകദേശം ₹4 ലക്ഷം (പൊതു), ₹6 ലക്ഷം (ST) — ഔദ്യോഗിക പോർട്ടലിൽ നിലവിലെ തുക സ്ഥിരീകരിക്കുക."
     },
     "required_documents": {
       "en": [
@@ -828,7 +828,7 @@
       "kerala",
       "homeless"
     ],
-    "last_verified": "2026-09-08"
+    "last_verified": "2026-09-16"
   },
   {
     "id": "pmmvy",

@@ -171,17 +171,26 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   }
 
   // --- income ---
+  // Hard ceiling ALWAYS excludes when exceeded — including verify=true schemes.
+  // Derive annual↔monthly here so a missing derived field cannot soft-pass the gate.
   const maxAnnual = rules.max_annual_income as number | undefined | null;
   const maxMonthly = rules.max_monthly_household_income as number | undefined | null;
   if (maxAnnual != null) {
-    if (profile.annual_income == null) result.miss("annual_income");
-    else if (Number(profile.annual_income) > Number(maxAnnual)) result.fail("max_annual_income");
+    let annual = profile.annual_income;
+    if (annual == null && profile.monthly_household_income != null) {
+      annual = Number(profile.monthly_household_income) * 12;
+    }
+    if (annual == null) result.miss("annual_income");
+    else if (Number(annual) > Number(maxAnnual)) result.fail("max_annual_income");
     else result.ok("max_annual_income");
   }
   if (maxMonthly != null) {
-    if (profile.monthly_household_income == null) result.miss("monthly_household_income");
-    else if (Number(profile.monthly_household_income) > Number(maxMonthly))
-      result.fail("max_monthly_household_income");
+    let monthly = profile.monthly_household_income;
+    if (monthly == null && profile.annual_income != null) {
+      monthly = Number(profile.annual_income) / 12;
+    }
+    if (monthly == null) result.miss("monthly_household_income");
+    else if (Number(monthly) > Number(maxMonthly)) result.fail("max_monthly_household_income");
     else result.ok("max_monthly_household_income");
   }
 
