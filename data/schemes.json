@@ -8261,5 +8261,3059 @@
       "odisha"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-widow",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Widow (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – विधवा (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Widow (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa social security pension for widows aged 18+, under BPL/white-ration common criteria.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — 18 वर्ष या अधिक आयु की विधवाओं हेतु सामाजिक सुरक्षा पेंशन (BPL/सफेद राशन कार्ड).",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa social security pension for widows aged 18+, under BPL/white-ration common criteria."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Widow Pension: as per Marriage Act, 18 years and above.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension DBT — commonly enhanced to Rs.4,000/month from July 2024 per G.O. note (confirm live amount).",
+      "hi": "मासिक विधवा पेंशन (DBT) — प्रायः जुलाई 2024 से ₹4,000/माह (लाइव राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension DBT — commonly enhanced to Rs.4,000/month from July 2024 per G.O. note (confirm live amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Husband death certificate",
+        "White ration / rice card or income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Husband death certificate",
+        "White ration / rice card or income proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Husband death certificate",
+        "White ration / rice card or income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal as notified: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "स्वर्ण ग्रामम / स्वर्ण वार्ड केंद्रों या एनटीआर भरोसा पोर्टल के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal as notified: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-disability",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Disability (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – दिव्यांगता (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Disability (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa pension for persons with benchmark disability (minimum 40%), no age limit, under BPL/white-ration criteria; SADAREM certificate required.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — न्यूनतम 40% दिव्यांगता वाले व्यक्तियों हेतु पेंशन (आयु सीमा नहीं; SADAREM प्रमाणपत्र).",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa pension for persons with benchmark disability (minimum 40%), no age limit, under BPL/white-ration criteria; SADAREM certificate required."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Disabled Pension: minimum 40% disability; no age limit. Fully disabled / chronic-disease sub-rates differ — confirm category.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount. Disability amount commonly Rs.6,000/month (higher for fully disabled/chronic) per G.O.Ms.No.43.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension DBT — commonly Rs.6,000/month (higher slabs for fully disabled/chronic conditions per G.O.; confirm live amount).",
+      "hi": "मासिक दिव्यांग पेंशन — प्रायः ₹6,000/माह (पूर्ण दिव्यांग/दीर्घकालिक हेतु उच्च स्लैब; लाइव राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension DBT — commonly Rs.6,000/month (higher slabs for fully disabled/chronic conditions per G.O.; confirm live amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "SADAREM disability certificate (≥40%)",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "SADAREM disability certificate (≥40%)",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "SADAREM disability certificate (≥40%)",
+        "White ration / rice card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "स्वर्ण ग्रामम / स्वर्ण वार्ड केंद्रों या एनटीआर भरोसा पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-single-women",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Single Women (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – एकल महिला (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Single Women (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa pension for separated/deserted married women (35+, separation >1 year) and unmarried women (30+ rural / 35+ urban) under BPL/white-ration criteria.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — परित्यक्ता/अलग हुई विवाहित महिलाएँ (35+) तथा अविवाहित महिलाएँ (ग्रामीण 30+/शहरी 35+) हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa pension for separated/deserted married women (35+, separation >1 year) and unmarried women (30+ rural / 35+ urban) under BPL/white-ration criteria."
+    },
+    "eligibility_rules": {
+      "min_age": 30,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "unmarried",
+        "deserted",
+        "divorced"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Single Women: married separated/deserted above 35 years with separation >1 year; unmarried women 30+ rural / 35+ urban with no family support. Matcher min_age=30 is the lowest published unmarried rural threshold — urban unmarried and deserted paths have higher ages.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount. Age bands differ by marital path (deserted 35+ vs unmarried 30/35) — verify=true.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly single-women pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount).",
+      "hi": "मासिक एकल महिला पेंशन — प्रायः जुलाई 2024 से ₹4,000/माह (लाइव राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly single-women pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Divorce decree or unmarried certificate (Tahsildar) as applicable",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Divorce decree or unmarried certificate (Tahsildar) as applicable",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Divorce decree or unmarried certificate (Tahsildar) as applicable",
+        "White ration / rice card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "स्वर्ण ग्रामम / स्वर्ण वार्ड केंद्रों या एनटीआर भरोसा पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres or via NTR Bharosa portal: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "women",
+      "single-women",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-weavers",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Weavers (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – बुनकर (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Weavers (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa pension for destitute weavers aged 50+ under BPL/white-ration common criteria.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — 50 वर्ष या अधिक आयु के निर्धन बुनकरों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa pension for destitute weavers aged 50+ under BPL/white-ration common criteria."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "weaver",
+        "handloom_worker"
+      ],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Weavers Pension: weaver aged 50 years or above and destitute. Departmental weaver/handloom certificate typically required.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly weavers pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount).",
+      "hi": "मासिक बुनकर पेंशन — प्रायः जुलाई 2024 से ₹4,000/माह (लाइव राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly weavers pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Weaver / handloom departmental certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Age / residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Weaver / handloom departmental certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Age / residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Weaver / handloom departmental certificate",
+        "White ration / rice card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres with departmental certificate: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "विभागीय प्रमाणपत्र के साथ स्वर्ण ग्रामम / एनटीआर भरोसा पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres with departmental certificate: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "weaver",
+      "labour",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-fishermen",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Fishermen (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – मत्स्यकार (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Fishermen (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa pension for fishermen aged 50+ under BPL/white-ration common criteria.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — 50 वर्ष या अधिक आयु के मत्स्यकारों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa pension for fishermen aged 50+ under BPL/white-ration common criteria."
+    },
+    "eligibility_rules": {
+      "min_age": 50,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "fisherman",
+        "fisher"
+      ],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Fishermen Pension: fisherman aged 50 years or above. Fisheries departmental certificate typically required.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly fishermen pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount).",
+      "hi": "मासिक मत्स्यकार पेंशन — प्रायः जुलाई 2024 से ₹4,000/माह (लाइव राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly fishermen pension DBT — commonly enhanced to Rs.4,000/month from July 2024 (confirm live amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Fisheries departmental certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Age / residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Fisheries departmental certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Age / residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Fisheries departmental certificate",
+        "White ration / rice card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres with departmental certificate: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "विभागीय प्रमाणपत्र के साथ स्वर्ण ग्रामम / एनटीआर भरोसा पोर्टल पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres with departmental certificate: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "fisher",
+      "labour",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-bharosa-transgender",
+    "scheme_name": {
+      "en": "NTR Bharosa Pension Scheme – Transgender (Andhra Pradesh)",
+      "hi": "एनटीआर भरोसा पेंशन योजना – ट्रांसजेंडर (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) NTR Bharosa Pension Scheme – Transgender (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh NTR Bharosa pension for transgender persons aged 18+ under BPL/white-ration common criteria; District Medical Board certificate required.",
+      "hi": "आंध्र प्रदेश एनटीआर भरोसा — 18 वर्ष या अधिक आयु के ट्रांसजेंडर व्यक्तियों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh NTR Bharosa pension for transgender persons aged 18+ under BPL/white-ration common criteria; District Medical Board certificate required."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "white_ration_card",
+        "transgender"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Common NTR Bharosa criteria (official About): BPL family holding white ration card; local resident of the district; not covered under any other pension scheme. Amounts enhanced vide G.O.Ms.No.43 dated 13.06.2024 (payable from July 2024) — confirm live rate. Transgender Pension: transgender aged 18 years or above. District Medical Board certificate typically required. Gender field not forced in matcher — category transgender used.",
+      "verify": true,
+      "verify_notes": "Eligibility from https://sspensions.ap.gov.in/ssp/home/about (2026-09-16). No single rupee income ceiling published — BPL/white ration + exclusion list. About page pension amounts may lag G.O.Ms.No.43 enhancement; verify=true for amount. Confirm how transgender identity is certified for matching; keep verify=true.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly transgender pension DBT — amount revised under G.O.Ms.No.43 (confirm live category rate on portal).",
+      "hi": "मासिक ट्रांसजेंडर पेंशन — G.O.Ms.No.43 के अंतर्गत संशोधित (लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly transgender pension DBT — amount revised under G.O.Ms.No.43 (confirm live category rate on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "District Medical Board transgender certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "District Medical Board transgender certificate",
+        "White ration / rice card",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "District Medical Board transgender certificate",
+        "White ration / rice card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Swarna Gramam / Swarna Ward centres: https://sspensions.ap.gov.in/SSP/Home",
+      "hi": "स्वर्ण ग्रामम / स्वर्ण वार्ड केंद्रों पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Swarna Gramam / Swarna Ward centres: https://sspensions.ap.gov.in/SSP/Home"
+    },
+    "apply_url": "https://sspensions.ap.gov.in/SSP/Home",
+    "office_type": "SERP / Rural Development – NTR Bharosa Pensions, Government of Andhra Pradesh",
+    "official_source_url": "https://sspensions.ap.gov.in/ssp/home/about",
+    "tags": [
+      "pension",
+      "transgender",
+      "andhra-pradesh",
+      "dbt",
+      "ntr-bharosa"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-ntr-vaidya-seva",
+    "scheme_name": {
+      "en": "Dr. NTR Vaidya Seva / Aarogyasri (Andhra Pradesh)",
+      "hi": "डॉ. एनटीआर वैद्य सेवा / आरोग्यश्री (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Dr. NTR Vaidya Seva / Aarogyasri (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh flagship cashless health coverage for BPL families enumerated on white ration cards in the Civil Supplies database, delivered via Dr. NTR Vaidya Seva Trust / Aarogyasri network hospitals.",
+      "hi": "आंध्र प्रदेश — सफेद राशन कार्डधारक BPL परिवारों हेतु डॉ. एनटीआर वैद्य सेवा / आरोग्यश्री कैशलेस स्वास्थ्य कवर।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh flagship cashless health coverage for BPL families enumerated on white ration cards in the Civil Supplies database, delivered via Dr. NTR Vaidya Seva Trust / Aarogyasri network hospitals."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "white_ration_card"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Official HM&FW AP: beneficiaries are members of BPL families as enumerated and photographed in White Ration Card and available in Civil Supplies Department database. Coverage historically enhanced (e.g. Rs.2.5 lakh; district pages also cite up to Rs.5 lakh under Aarogyasri branding) — confirm current floater limit on trust portal.",
+      "verify": true,
+      "verify_notes": "Source: https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx (BPL/white ration). District Konaseema page cites Rs.5 lakh/family under Dr. YSR Aarogyasri branding — amount/name branding may have changed with governments; verify=true for coverage ceiling. Also https://konaseema.ap.gov.in/ysr-arogyasree/",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cashless secondary/tertiary care for identified procedures at network hospitals (coverage ceiling revised over time — confirm live limit on official trust portal).",
+      "hi": "नेटवर्क अस्पतालों में चिन्हित प्रक्रियाओं हेतु कैशलेस उपचार (कवर सीमा पोर्टल पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Cashless secondary/tertiary care for identified procedures at network hospitals (coverage ceiling revised over time — confirm live limit on official trust portal)."
+    },
+    "required_documents": {
+      "en": [
+        "White ration / Aarogyasri health card",
+        "Aadhaar",
+        "Referral as required at network hospital"
+      ],
+      "hi": [
+        "White ration / Aarogyasri health card",
+        "Aadhaar",
+        "Referral as required at network hospital"
+      ],
+      "ml": [
+        "White ration / Aarogyasri health card",
+        "Aadhaar",
+        "Referral as required at network hospital"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check eligibility / card status via Dr. NTR Vaidya Seva / Aarogyasri channels; treatment at empaneled network hospitals. Info: https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx",
+      "hi": "डॉ. एनटीआर वैद्य सेवा / आरोग्यश्री नेटवर्क अस्पतालों में उपचार हेतु पात्रता/कार्ड जाँच करें।",
+      "ml": "(EN — Malayalam review pending) Check eligibility / card status via Dr. NTR Vaidya Seva / Aarogyasri channels; treatment at empaneled network hospitals. Info: https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx"
+    },
+    "apply_url": "https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx",
+    "office_type": "Dr. NTR Vaidya Seva Trust / Health Medical & Family Welfare, Government of Andhra Pradesh",
+    "official_source_url": "https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx",
+    "tags": [
+      "health",
+      "insurance",
+      "aarogyasri",
+      "bpl",
+      "andhra-pradesh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ap-talliki-vandanam",
+    "scheme_name": {
+      "en": "Talliki Vandanam – Intermediate Education Assistance (Andhra Pradesh)",
+      "hi": "तल्लिकी वंदनम् – इंटरमीडिएट शिक्षा सहायता (आंध्र प्रदेश)",
+      "ml": "(EN — Malayalam review pending) Talliki Vandanam – Intermediate Education Assistance (Andhra Pradesh)"
+    },
+    "description": {
+      "en": "Andhra Pradesh education assistance of Rs.15,000 for Intermediate students of Government Junior Colleges under Talliki Vandanam, as notified on official district Intermediate Education pages.",
+      "hi": "आंध्र प्रदेश तल्लिकी वंदनम् — सरकारी जूनियर कॉलेजों के इंटरमीडिएट विद्यार्थियों हेतु ₹15,000 वित्तीय सहायता।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh education assistance of Rs.15,000 for Intermediate students of Government Junior Colleges under Talliki Vandanam, as notified on official district Intermediate Education pages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "nationwide": false,
+      "notes": "Tirupati District Intermediate Education page: Under Talliki Vandanam scheme, financial assistance of Rs.15,000 will be provided for all Intermediate students of Government Junior Colleges. Broader school-level Talliki Vandanam rules (if any) should be confirmed on CSE AP — this row encodes the published Intermediate/GJC path only.",
+      "verify": true,
+      "verify_notes": "Source: https://tirupati.ap.gov.in/intermediate-education/ (2026-09-16). Does not invent income/gender ceilings — none stated on this page for Intermediate GJC students. verify=true; confirm statewide GO/CSE guidelines and application channel.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Financial assistance of Rs.15,000 for eligible Intermediate students in Government Junior Colleges (confirm disbursement channel/frequency).",
+      "hi": "सरकारी जूनियर कॉलेजों के पात्र इंटरमीडिएट विद्यार्थियों हेतु ₹15,000 सहायता (वितरण माध्यम सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Financial assistance of Rs.15,000 for eligible Intermediate students in Government Junior Colleges (confirm disbursement channel/frequency)."
+    },
+    "required_documents": {
+      "en": [
+        "Student enrollment proof (Government Junior College / Intermediate)",
+        "Aadhaar",
+        "Bank account",
+        "Parent/guardian details as required"
+      ],
+      "hi": [
+        "Student enrollment proof (Government Junior College / Intermediate)",
+        "Aadhaar",
+        "Bank account",
+        "Parent/guardian details as required"
+      ],
+      "ml": [
+        "Student enrollment proof (Government Junior College / Intermediate)",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through Government Junior College / Intermediate Education channels as notified by the District Intermediate Education Officer / CSE AP. Info: https://tirupati.ap.gov.in/intermediate-education/",
+      "hi": "जिला इंटरमीडिएट शिक्षा अधिकारी / सरकारी जूनियर कॉलेज के माध्यम से आवेदन/लाभ।",
+      "ml": "(EN — Malayalam review pending) Through Government Junior College / Intermediate Education channels as notified by the District Intermediate Education Officer / CSE AP. Info: https://tirupati.ap.gov.in/intermediate-education/"
+    },
+    "apply_url": "https://tirupati.ap.gov.in/intermediate-education/",
+    "office_type": "Intermediate Education / Commissioner of School Education, Government of Andhra Pradesh",
+    "official_source_url": "https://tirupati.ap.gov.in/intermediate-education/",
+    "tags": [
+      "education",
+      "student",
+      "intermediate",
+      "andhra-pradesh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-aasara-widow",
+    "scheme_name": {
+      "en": "Aasara Pension Scheme – Widow (Telangana)",
+      "hi": "आसरा पेंशन योजना – विधवा (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Aasara Pension Scheme – Widow (Telangana)"
+    },
+    "description": {
+      "en": "Telangana Aasara widow pension for widows aged 18+, under state social safety-net guidelines administered via MeeSeva / district channels.",
+      "hi": "तेलंगाना आसरा — 18 वर्ष या अधिक आयु की विधवाओं हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Telangana Aasara widow pension for widows aged 18+, under state social safety-net guidelines administered via MeeSeva / district channels."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Telangana Aasara social security pensions for vulnerable groups. Official district pages describe coverage for old/infirm, widows, PwD, weavers, toddy tappers, HIV-AIDS patients, etc. Income exclusions historically cited (CAG): >₹1.50L rural / >₹2.00L urban annual household income. Encoded max_annual_income=200000 (urban absolute max). Widow category: age 18 years (G.O.Ms.No.17 Aasara guidelines / district pages).",
+      "verify": true,
+      "verify_notes": "Sources: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ ; Yadadri/district Aasara pages; G.O.Ms.No.17 (Aasara) age 18 for widows. Income ceiling from CAG Audit Report No.1 of 2023 (Telangana) exclusions — rural 1.5L may apply; verify=true.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly widow pension DBT (amounts enhanced vs original Aasara rates — confirm current rate on Aasara / MeeSeva).",
+      "hi": "मासिक विधवा पेंशन (DBT) — वर्तमान दर आसरा/MeeSeva पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension DBT (amounts enhanced vs original Aasara rates — confirm current rate on Aasara / MeeSeva)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Husband death certificate",
+        "Income / residence proofs",
+        "Bank / post office account",
+        "MeeSeva application"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Husband death certificate",
+        "Income / residence proofs",
+        "Bank / post office account",
+        "MeeSeva application"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Husband death certificate",
+        "Income / residence proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MeeSeva / MRO channels as notified for Aasara pensions. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+      "hi": "आसरा पेंशन हेतु MeeSeva / एमआरओ चैनलों के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via MeeSeva / MRO channels as notified for Aasara pensions. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/"
+    },
+    "apply_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "office_type": "Panchayat Raj & Rural Development / Aasara Pensions, Government of Telangana",
+    "official_source_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "telangana",
+      "dbt",
+      "aasara"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-aasara-disability",
+    "scheme_name": {
+      "en": "Aasara Pension Scheme – Disability (Telangana)",
+      "hi": "आसरा पेंशन योजना – दिव्यांगता (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Aasara Pension Scheme – Disability (Telangana)"
+    },
+    "description": {
+      "en": "Telangana Aasara disability pension for persons with benchmark disability (SADAREM), under Aasara social safety-net guidelines.",
+      "hi": "तेलंगाना आसरा — दिव्यांग व्यक्तियों हेतु पेंशन (SADAREM प्रमाणपत्र)।",
+      "ml": "(EN — Malayalam review pending) Telangana Aasara disability pension for persons with benchmark disability (SADAREM), under Aasara social safety-net guidelines."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Telangana Aasara social security pensions for vulnerable groups. Official district pages describe coverage for old/infirm, widows, PwD, weavers, toddy tappers, HIV-AIDS patients, etc. Income exclusions historically cited (CAG): >₹1.50L rural / >₹2.00L urban annual household income. Encoded max_annual_income=200000 (urban absolute max). Differently-abled category: irrespective of age in original G.O.; SADAREM certificate; hearing impairment historically required higher threshold (e.g. 51%) — confirm live rule.",
+      "verify": true,
+      "verify_notes": "Sources: district Aasara pages; G.O.Ms.No.17 Aasara guidelines. min_disability_percent=40 is the common benchmark; hearing-impairment threshold may be higher — verify=true.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly disability pension DBT (historically higher than old-age/widow Aasara rates — confirm current amount).",
+      "hi": "मासिक दिव्यांग पेंशन (DBT) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension DBT (historically higher than old-age/widow Aasara rates — confirm current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "SADAREM disability certificate",
+        "Income / residence proofs",
+        "Bank account",
+        "MeeSeva application"
+      ],
+      "hi": [
+        "Aadhaar",
+        "SADAREM disability certificate",
+        "Income / residence proofs",
+        "Bank account",
+        "MeeSeva application"
+      ],
+      "ml": [
+        "Aadhaar",
+        "SADAREM disability certificate",
+        "Income / residence proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MeeSeva / MRO channels for Aasara disability pension. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+      "hi": "आसरा दिव्यांग पेंशन हेतु MeeSeva / एमआरओ के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via MeeSeva / MRO channels for Aasara disability pension. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/"
+    },
+    "apply_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "office_type": "Panchayat Raj & Rural Development / Aasara Pensions, Government of Telangana",
+    "official_source_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "telangana",
+      "dbt",
+      "aasara"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-aasara-weavers",
+    "scheme_name": {
+      "en": "Aasara Pension Scheme – Weavers (Telangana)",
+      "hi": "आसरा पेंशन योजना – बुनकर (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Aasara Pension Scheme – Weavers (Telangana)"
+    },
+    "description": {
+      "en": "Telangana Aasara pension category for incapacitated weavers who have lost means of livelihood with age, under the state social safety-net.",
+      "hi": "तेलंगाना आसरा — वृद्धावस्था में आजीविका खो चुके बुनकरों हेतु पेंशन श्रेणी।",
+      "ml": "(EN — Malayalam review pending) Telangana Aasara pension category for incapacitated weavers who have lost means of livelihood with age, under the state social safety-net."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "weaver",
+        "handloom_worker"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Telangana Aasara social security pensions for vulnerable groups. Official district pages describe coverage for old/infirm, widows, PwD, weavers, toddy tappers, HIV-AIDS patients, etc. Income exclusions historically cited (CAG): >₹1.50L rural / >₹2.00L urban annual household income. Encoded max_annual_income=200000 (urban absolute max). Weavers are an explicit Aasara category on Hyderabad/Yadadri district pages and G.O.Ms.No.17. Exact minimum age for weavers should be confirmed on live guidelines.",
+      "verify": true,
+      "verify_notes": "Weaver age threshold not restated clearly on the Hyderabad district summary page — verify=true; do not invent min_age.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly weavers pension DBT (confirm current Aasara weaver rate).",
+      "hi": "मासिक बुनकर पेंशन (DBT) — वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly weavers pension DBT (confirm current Aasara weaver rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Weaver / handloom proof",
+        "Income / residence proofs",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Weaver / handloom proof",
+        "Income / residence proofs",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Weaver / handloom proof",
+        "Income / residence proofs"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MeeSeva / MRO for Aasara weaver pension. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+      "hi": "आसरा बुनकर पेंशन हेतु MeeSeva / एमआरओ पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via MeeSeva / MRO for Aasara weaver pension. Info: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/"
+    },
+    "apply_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "office_type": "Panchayat Raj & Rural Development / Aasara Pensions, Government of Telangana",
+    "official_source_url": "https://hyderabad.telangana.gov.in/scheme/aasara-pensions/",
+    "tags": [
+      "pension",
+      "weaver",
+      "labour",
+      "telangana",
+      "dbt",
+      "aasara"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-kalyana-lakshmi",
+    "scheme_name": {
+      "en": "Kalyana Lakshmi Pathakam (Telangana)",
+      "hi": "कल्याण लक्ष्मी पथकम् (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Kalyana Lakshmi Pathakam (Telangana)"
+    },
+    "description": {
+      "en": "Telangana one-time marriage financial assistance for eligible SC/ST/BC/EBC brides aged 18+, with parental income ceilings, via ePASS / Kalyana Lakshmi portal.",
+      "hi": "तेलंगाना कल्याण लक्ष्मी — 18+ SC/ST/BC/EBC वधुओं हेतु विवाह वित्तीय सहायता (अभिभावक आय सीमा सहित)।",
+      "ml": "(EN — Malayalam review pending) Telangana one-time marriage financial assistance for eligible SC/ST/BC/EBC brides aged 18+, with parental income ceilings, via ePASS / Kalyana Lakshmi portal."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC",
+        "ST",
+        "BC",
+        "OBC",
+        "EBC"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Yadadri district official page: Kalyana Lakshmi for SC/ST/BC/EBC — SC/ST income limit Rs.2,00,000; BC/EBC Urban Rs.2,00,000 / Rural Rs.1,50,000. Suryapet page also cites parental income not exceeding Rs.2,00,000 and bride 18+. Matcher uses max_annual_income=200000 (highest published); rural BC/EBC face lower 1.5L ceiling.",
+      "verify": true,
+      "verify_notes": "Sources: https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ ; https://suryapet.telangana.gov.in/scheme/kalyana-lakshmi-scheme/ ; apply https://telanganaepass.cgg.gov.in/KalyanLakshmi.do — verify=true for rural BC ceiling and current assistance amount (historically Rs.1,00,116).",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "One-time financial assistance at marriage (historically enhanced to Rs.1,00,116 — confirm current amount on ePASS).",
+      "hi": "विवाह पर एकमुश्त सहायता (ऐतिहासिक रूप से ₹1,00,116 — वर्तमान राशि ePASS पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time financial assistance at marriage (historically enhanced to Rs.1,00,116 — confirm current amount on ePASS)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Caste certificate (SC/ST/BC/EBC)",
+        "Income certificate",
+        "Bank account of bride/mother as required",
+        "Marriage documents as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Caste certificate (SC/ST/BC/EBC)",
+        "Income certificate",
+        "Bank account of bride/mother as required",
+        "Marriage documents as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Caste certificate (SC/ST/BC/EBC)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register via Telangana ePASS Kalyana Lakshmi: https://telanganaepass.cgg.gov.in/KalyanLakshmi.do",
+      "hi": "तेलंगाना ePASS कल्याण लक्ष्मी पोर्टल पर पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Register via Telangana ePASS Kalyana Lakshmi: https://telanganaepass.cgg.gov.in/KalyanLakshmi.do"
+    },
+    "apply_url": "https://telanganaepass.cgg.gov.in/KalyanLakshmi.do",
+    "office_type": "Backward Classes / SC / ST / Minority Welfare – Kalyana Lakshmi, Government of Telangana",
+    "official_source_url": "https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/",
+    "tags": [
+      "women",
+      "marriage",
+      "sc",
+      "st",
+      "bc",
+      "telangana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-shaadi-mubarak",
+    "scheme_name": {
+      "en": "Shaadi Mubarak (Telangana)",
+      "hi": "शादी मुबारक (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Shaadi Mubarak (Telangana)"
+    },
+    "description": {
+      "en": "Telangana one-time marriage financial assistance for eligible minority (notably Muslim) brides with parental income ceiling, administered alongside Kalyana Lakshmi via ePASS.",
+      "hi": "तेलंगाना शादी मुबारक — अल्पसंख्यक (विशेषकर मुस्लिम) वधुओं हेतु विवाह सहायता।",
+      "ml": "(EN — Malayalam review pending) Telangana one-time marriage financial assistance for eligible minority (notably Muslim) brides with parental income ceiling, administered alongside Kalyana Lakshmi via ePASS."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 200000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "minority"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Yadadri official page: Shaadi Mubarak for Muslim community brides; income limit Rs.2,00,000. Bride must be Telangana resident, 18+.",
+      "verify": true,
+      "verify_notes": "Source: https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ — verify=true for current assistance amount and exact minority definitions on ePASS.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "One-time marriage financial assistance (confirm current amount on ePASS Shaadi Mubarak service).",
+      "hi": "विवाह पर एकमुश्त सहायता (वर्तमान राशि ePASS पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time marriage financial assistance (confirm current amount on ePASS Shaadi Mubarak service)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Minority / community certificate as required",
+        "Income certificate",
+        "Bank account",
+        "Marriage documents as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Minority / community certificate as required",
+        "Income certificate",
+        "Bank account",
+        "Marriage documents as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age / residence proof",
+        "Minority / community certificate as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register via Telangana ePASS Shaadi Mubarak / Kalyana Lakshmi links: https://telanganaepass.cgg.gov.in/KalyanaLakshmiLinks.jsp",
+      "hi": "तेलंगाना ePASS शादी मुबारक / कल्याण लक्ष्मी लिंक के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Register via Telangana ePASS Shaadi Mubarak / Kalyana Lakshmi links: https://telanganaepass.cgg.gov.in/KalyanaLakshmiLinks.jsp"
+    },
+    "apply_url": "https://telanganaepass.cgg.gov.in/KalyanaLakshmiLinks.jsp",
+    "office_type": "Minorities Welfare – Shaadi Mubarak, Government of Telangana",
+    "official_source_url": "https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/",
+    "tags": [
+      "women",
+      "marriage",
+      "minority",
+      "telangana",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-rythu-bharosa",
+    "scheme_name": {
+      "en": "Rythu Bharosa / Rythu Bandhu – Farmer Investment Support (Telangana)",
+      "hi": "रैतु भरोसा / रैतु बंधु – किसान निवेश सहायता (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Rythu Bharosa / Rythu Bandhu – Farmer Investment Support (Telangana)"
+    },
+    "description": {
+      "en": "Telangana farmer investment-support scheme providing seasonal financial assistance to eligible landowning farmers residing in the state; current branding on district pages is Rythu Bharosa (successor to Rythu Bandhu).",
+      "hi": "तेलंगाना रैतु भरोसा/बंधु — राज्य के भूमिधारक किसानों हेतु मौसमी निवेश सहायता।",
+      "ml": "(EN — Malayalam review pending) Telangana farmer investment-support scheme providing seasonal financial assistance to eligible landowning farmers residing in the state; current branding on district pages is Rythu Bharosa (successor to Rythu Bandhu)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "landholding_farmer"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "owns_agricultural_land",
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Wanaparthy district page: all farmers residing in Telangana state and owning lands are eligible; apply/status via https://rythubharosa.telangana.gov.in/. Mahabubabad Rythu Bandhu page historically described per-acre investment support (e.g. Rs.4,000/acre/season — amounts revised over time). Tenant/leased-land rules and exclusions (non-cultivable plots) should be confirmed on the live portal.",
+      "verify": true,
+      "verify_notes": "Sources: https://wanaparthy.telangana.gov.in/scheme/rythu-bharosa-scheme/ ; https://mahabubabad.telangana.gov.in/scheme/rythu-bandhu/ — verify=true for current per-acre amount, tenant eligibility, and portal branding (Rythu Bharosa vs Bandhu).",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Seasonal per-acre investment support via DBT (historical Rythu Bandhu amounts cited Rs.4,000–5,000/acre/season — confirm live Rythu Bharosa rate).",
+      "hi": "प्रति एकड़ मौसमी निवेश सहायता (DBT) — वर्तमान दर रैतु भरोसा पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Seasonal per-acre investment support via DBT (historical Rythu Bandhu amounts cited Rs.4,000–5,000/acre/season — confirm live Rythu Bharosa rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Land ownership / pahani records",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Land ownership / pahani records",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Land ownership / pahani records",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check eligibility/status on https://rythubharosa.telangana.gov.in/ or Gram Panchayat as notified.",
+      "hi": "https://rythubharosa.telangana.gov.in/ या ग्राम पंचायत के माध्यम से पात्रता/स्थिति जाँचें।",
+      "ml": "(EN — Malayalam review pending) Check eligibility/status on https://rythubharosa.telangana.gov.in/ or Gram Panchayat as notified."
+    },
+    "apply_url": "https://rythubharosa.telangana.gov.in/",
+    "office_type": "Agriculture Department – Rythu Bharosa / Rythu Bandhu, Government of Telangana",
+    "official_source_url": "https://wanaparthy.telangana.gov.in/scheme/rythu-bharosa-scheme/",
+    "tags": [
+      "farmer",
+      "agriculture",
+      "telangana",
+      "dbt",
+      "rythu"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tg-aarogyasri",
+    "scheme_name": {
+      "en": "Aarogyasri Health Care Scheme (Telangana)",
+      "hi": "आरोग्यश्री स्वास्थ्य योजना (तेलंगाना)",
+      "ml": "(EN — Malayalam review pending) Aarogyasri Health Care Scheme (Telangana)"
+    },
+    "description": {
+      "en": "Telangana Aarogyasri cashless health coverage for Below Poverty Line (BPL) families for major surgeries and serious ailments through government and empaneled private hospitals.",
+      "hi": "तेलंगाना आरोग्यश्री — BPL परिवारों हेतु कैशलेस स्वास्थ्य कवर (गंभीर बीमारियाँ/सर्जरी)।",
+      "ml": "(EN — Malayalam review pending) Telangana Aarogyasri cashless health coverage for Below Poverty Line (BPL) families for major surgeries and serious ailments through government and empaneled private hospitals."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "nationwide": false,
+      "notes": "Official Aarogyasri Health Care Trust portal: scheme provides quality healthcare to the poor / BPL families for major surgeries and treatments for serious ailments, cashless at partner hospitals.",
+      "verify": true,
+      "verify_notes": "Source: https://aarogyasri.telangana.gov.in/ — BPL focus stated; exact card issuance rules and coverage ceiling should be confirmed on Trust portal (verify=true).",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cashless treatment for covered procedures at empaneled government and private hospitals (confirm current coverage limit on Aarogyasri Trust portal).",
+      "hi": "एम्पैनल्ड अस्पतालों में कैशलेस उपचार (कवर सीमा आरोग्यश्री ट्रस्ट पोर्टल पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Cashless treatment for covered procedures at empaneled government and private hospitals (confirm current coverage limit on Aarogyasri Trust portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Aarogyasri / BPL health card",
+        "Aadhaar",
+        "Referral as required"
+      ],
+      "hi": [
+        "Aarogyasri / BPL health card",
+        "Aadhaar",
+        "Referral as required"
+      ],
+      "ml": [
+        "Aarogyasri / BPL health card",
+        "Aadhaar",
+        "Referral as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Verify card / eligibility via Aarogyasri Health Care Trust: https://aarogyasri.telangana.gov.in/",
+      "hi": "आरोग्यश्री हेल्थ केयर ट्रस्ट पोर्टल पर पात्रता/कार्ड जाँचें।",
+      "ml": "(EN — Malayalam review pending) Verify card / eligibility via Aarogyasri Health Care Trust: https://aarogyasri.telangana.gov.in/"
+    },
+    "apply_url": "https://aarogyasri.telangana.gov.in/",
+    "office_type": "Aarogyasri Health Care Trust, Government of Telangana",
+    "official_source_url": "https://aarogyasri.telangana.gov.in/",
+    "tags": [
+      "health",
+      "insurance",
+      "aarogyasri",
+      "bpl",
+      "telangana"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Assam NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (असम NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Assam NSAP)"
+    },
+    "description": {
+      "en": "Assam implementation of IGNOAPS for elderly aged 60+ under NSAP, administered via Panchayat & Rural Development / Gaon Panchayat channels.",
+      "hi": "असम NSAP IGNOAPS — 60 वर्ष या अधिक आयु के वृद्धजनों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Assam implementation of IGNOAPS for elderly aged 60+ under NSAP, administered via Panchayat & Rural Development / Gaon Panchayat channels."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Assam P&RD NSAP implementation. Official page lists component eligibility and central assistance rates; state top-ups if any should be confirmed locally. BPL required per apply checklists for widow/disability. IGNOAPS: minimum age 60; central rates cited Rs.200 (60–79) / Rs.500 (80+) on P&RD page — state may top up.",
+      "verify": true,
+      "verify_notes": "Source: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 — verify=true for state top-up amount and BPL documentation.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly old-age pension via NSAP (central rates on P&RD page; confirm state top-up and DBT channel).",
+      "hi": "मासिक वृद्धावस्था पेंशन (NSAP) — राज्य टॉप-अप/DBT सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension via NSAP (central rates on P&RD page; confirm state top-up and DBT channel)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty proof as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty proof as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / poverty proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Gaon Panchayat / VCDC / VDC or Block Office with NSAP form. Info: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+      "hi": "गांव पंचायत / ब्लॉक कार्यालय में NSAP फॉर्म के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply at Gaon Panchayat / VCDC / VDC or Block Office with NSAP form. Info: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0"
+    },
+    "apply_url": "https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+    "office_type": "Panchayat & Rural Development Department, Government of Assam",
+    "official_source_url": "https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "assam",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Assam NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (असम NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Assam NSAP)"
+    },
+    "description": {
+      "en": "Assam IGNWPS for BPL widows aged 40+, applied via Gaon Panchayat / Block channels under NSAP.",
+      "hi": "असम IGNWPS — 40 वर्ष या अधिक आयु की BPL विधवाओं हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Assam IGNWPS for BPL widows aged 40+, applied via Gaon Panchayat / Block channels under NSAP."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Assam P&RD NSAP implementation. Official page lists component eligibility and central assistance rates; state top-ups if any should be confirmed locally. BPL required per apply checklists for widow/disability. IGNWPS checklist: widow; above 40 years; BPL with valid BPL id. Central rate cited Rs.300 p.m. (Rs.500 after 80).",
+      "verify": true,
+      "verify_notes": "Sources: https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0 and NSAP scheme page — verify=true for state top-up.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension via NSAP (confirm state top-up and current DBT amount).",
+      "hi": "मासिक विधवा पेंशन (NSAP) — राज्य टॉप-अप सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension via NSAP (confirm state top-up and current DBT amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "Valid BPL id",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "Valid BPL id",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "Valid BPL id"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Approach Gaon Panchayat / VCDC / VDC or Block Office with NSAP form: https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0",
+      "hi": "गांव पंचायत / ब्लॉक कार्यालय में NSAP फॉर्म जमा करें।",
+      "ml": "(EN — Malayalam review pending) Approach Gaon Panchayat / VCDC / VDC or Block Office with NSAP form: https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0"
+    },
+    "apply_url": "https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0",
+    "office_type": "Panchayat & Rural Development Department, Government of Assam",
+    "official_source_url": "https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "nsap",
+      "assam",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Assam NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना (असम NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Assam NSAP)"
+    },
+    "description": {
+      "en": "Assam IGNDPS for BPL persons aged 18+ with severe disability (80% or more), including dwarfs as an eligible category per P&RD.",
+      "hi": "असम IGNDPS — 18+ BPL व्यक्ति, न्यूनतम 80% गंभीर दिव्यांगता।",
+      "ml": "(EN — Malayalam review pending) Assam IGNDPS for BPL persons aged 18+ with severe disability (80% or more), including dwarfs as an eligible category per P&RD."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Assam P&RD NSAP implementation. Official page lists component eligibility and central assistance rates; state top-ups if any should be confirmed locally. BPL required per apply checklists for widow/disability. IGNDPS checklist: severe disability 80%+; age above 18; BPL. Dwarfs also eligible per P&RD page.",
+      "verify": true,
+      "verify_notes": "Sources: https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0 and NSAP page — 80% threshold is explicit; verify=true for state top-up.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension via NSAP (confirm state top-up and current amount).",
+      "hi": "मासिक दिव्यांग पेंशन (NSAP) — राज्य टॉप-अप सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via NSAP (confirm state top-up and current amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (severe / ≥80%)",
+        "Valid BPL id",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (severe / ≥80%)",
+        "Valid BPL id",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (severe / ≥80%)",
+        "Valid BPL id"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Approach Gaon Panchayat / VCDC / VDC or Block Office: https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0",
+      "hi": "गांव पंचायत / ब्लॉक कार्यालय में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Approach Gaon Panchayat / VCDC / VDC or Block Office: https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0"
+    },
+    "apply_url": "https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0",
+    "office_type": "Panchayat & Rural Development Department, Government of Assam",
+    "official_source_url": "https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "nsap",
+      "assam",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Assam NSAP)",
+      "hi": "राष्ट्रीय परिवार लाभ योजना (असम NSAP)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Assam NSAP)"
+    },
+    "description": {
+      "en": "Assam NSAP lump-sum assistance to bereaved BPL households on death of the bread-winner (including homemaker women treated as bread-winner for this purpose).",
+      "hi": "असम NFBS — कमाने वाले सदस्य की मृत्यु पर BPL परिवार को एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) Assam NSAP lump-sum assistance to bereaved BPL households on death of the bread-winner (including homemaker women treated as bread-winner for this purpose)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Assam P&RD NSAP implementation. Official page lists component eligibility and central assistance rates; state top-ups if any should be confirmed locally. NFBS: Rs.20,000 lump sum to bereaved household on death of bread-winner; any death (natural or otherwise); homemaker woman also considered bread-winner.",
+      "verify": true,
+      "verify_notes": "Source: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 — verify=true for application process and BPL documentation.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time lump-sum assistance of Rs.20,000 to the bereaved household (confirm current amount/process).",
+      "hi": "परिवार को एकमुश्त ₹20,000 सहायता (वर्तमान प्रक्रिया सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) One-time lump-sum assistance of Rs.20,000 to the bereaved household (confirm current amount/process)."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar / identity of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar / identity of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar / identity of claimant"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Gaon Panchayat / Block / NSAP channels as notified: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+      "hi": "गांव पंचायत / ब्लॉक / NSAP चैनलों के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through Gaon Panchayat / Block / NSAP channels as notified: https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0"
+    },
+    "apply_url": "https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+    "office_type": "Panchayat & Rural Development Department, Government of Assam",
+    "official_source_url": "https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "assam",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-atal-amrit-abhiyan",
+    "scheme_name": {
+      "en": "Atal Amrit Abhiyan (Assam)",
+      "hi": "अटल अमृत अभियान (असम)",
+      "ml": "(EN — Malayalam review pending) Atal Amrit Abhiyan (Assam)"
+    },
+    "description": {
+      "en": "Assam health assurance scheme providing cashless critical-care coverage for BPL families and APL families with annual family income up to Rs.5 lakh (government employee families excluded).",
+      "hi": "असम अटल अमृत अभियान — BPL तथा ₹5 लाख तक वार्षिक आय वाले APL परिवारों हेतु कैशलेस क्रिटिकल केयर (सरकारी कर्मचारी परिवार अपात्र)।",
+      "ml": "(EN — Malayalam review pending) Assam health assurance scheme providing cashless critical-care coverage for BPL families and APL families with annual family income up to Rs.5 lakh (government employee families excluded)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 500000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Official HFW Assam: open for all BPL families and APL families with annual family income up to Rs.5 lakh; families of government employees not eligible. Free for BPL; APL enrolment fee Rs.100 per member annually. Coverage up to Rs.2 lakh per individual per annum for listed critical procedures.",
+      "verify": true,
+      "verify_notes": "Source: https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan — verify=true for current procedure list, card issuance, and overlap with Ayushman Asom / PM-JAY.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Cashless inpatient critical care up to Rs.2 lakh per individual per year for covered procedures (confirm live benefits on AAA / related portals).",
+      "hi": "पात्र प्रक्रियाओं हेतु प्रति व्यक्ति प्रति वर्ष ₹2 लाख तक कैशलेस उपचार (लाइव लाभ सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Cashless inpatient critical care up to Rs.2 lakh per individual per year for covered procedures (confirm live benefits on AAA / related portals)."
+    },
+    "required_documents": {
+      "en": [
+        "EPIC / Voter ID or ID as required",
+        "Income certificate (APL)",
+        "NFSA / BPL proof if applicable",
+        "Enrolment fee for APL (Rs.100/member/year)"
+      ],
+      "hi": [
+        "EPIC / Voter ID or ID as required",
+        "Income certificate (APL)",
+        "NFSA / BPL proof if applicable",
+        "Enrolment fee for APL (Rs.100/member/year)"
+      ],
+      "ml": [
+        "EPIC / Voter ID or ID as required",
+        "Income certificate (APL)",
+        "NFSA / BPL proof if applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol via Atal Amrit Abhiyan enrolment centres / ISA as notified: https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan",
+      "hi": "अटल अमृत अभियान नामांकन केंद्रों के माध्यम से नामांकन करें।",
+      "ml": "(EN — Malayalam review pending) Enrol via Atal Amrit Abhiyan enrolment centres / ISA as notified: https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan"
+    },
+    "apply_url": "https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan",
+    "office_type": "Health & Family Welfare Department, Government of Assam",
+    "official_source_url": "https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan",
+    "tags": [
+      "health",
+      "insurance",
+      "assam",
+      "atal-amrit"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-ayushman-asom-mmjay",
+    "scheme_name": {
+      "en": "Ayushman Asom – Mukhya Mantri Jan Arogya Yojana (AA-MMJAY)",
+      "hi": "आयुष्मान असम – मुख्यमंत्री जन आरोग्य योजना (AA-MMJAY)",
+      "ml": "(EN — Malayalam review pending) Ayushman Asom – Mukhya Mantri Jan Arogya Yojana (AA-MMJAY)"
+    },
+    "description": {
+      "en": "Assam family-floater health assurance providing cashless medical benefit up to Rs.5 lakh per family per year for NFSA families left out above AB-PMJAY coverage, via empaneled hospitals.",
+      "hi": "असम आयुष्मान असम-MMJAY — AB-PMJAY से ऊपर बचे NFSA परिवारों हेतु प्रति परिवार ₹5 लाख कैशलेस कवर।",
+      "ml": "(EN — Malayalam review pending) Assam family-floater health assurance providing cashless medical benefit up to Rs.5 lakh per family per year for NFSA families left out above AB-PMJAY coverage, via empaneled hospitals."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "nfsa_ration",
+        "BPL",
+        "pmjay"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Official Atal Amrit Abhiyan portal AA-MMJAY page: family floater up to Rs.5 lakh/family/year; left-out National Food Security families over and above AB-PMJAY families included; e-KYC campaign ongoing.",
+      "verify": true,
+      "verify_notes": "Source: https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme — verify=true for exact NFSA inclusion rules and hospital list.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cashless cover up to Rs.5 lakh per family per year at empaneled hospitals (1949 procedures / 27 specialities as stated on portal).",
+      "hi": "एम्पैनल्ड अस्पतालों में प्रति परिवार प्रति वर्ष ₹5 लाख तक कैशलेस कवर।",
+      "ml": "(EN — Malayalam review pending) Cashless cover up to Rs.5 lakh per family per year at empaneled hospitals (1949 procedures / 27 specialities as stated on portal)."
+    },
+    "required_documents": {
+      "en": [
+        "NFSA / ration details",
+        "Aadhaar e-KYC",
+        "Family details as required"
+      ],
+      "hi": [
+        "NFSA / ration details",
+        "Aadhaar e-KYC",
+        "Family details as required"
+      ],
+      "ml": [
+        "NFSA / ration details",
+        "Aadhaar e-KYC",
+        "Family details as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "e-KYC / enrolment via authorised frontline workers and AA-MMJAY channels: https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme",
+      "hi": "अधिकृत फ्रंटलाइन वर्कर्स / AA-MMJAY चैनलों के माध्यम से e-KYC / नामांकन।",
+      "ml": "(EN — Malayalam review pending) e-KYC / enrolment via authorised frontline workers and AA-MMJAY channels: https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme"
+    },
+    "apply_url": "https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme",
+    "office_type": "Atal Amrit Abhiyan / Health & Family Welfare, Government of Assam",
+    "official_source_url": "https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme",
+    "tags": [
+      "health",
+      "insurance",
+      "nfsa",
+      "assam",
+      "ayushman"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "as-nijut-moina",
+    "scheme_name": {
+      "en": "Mukhya Mantrir Nijut Moina Scheme (Assam)",
+      "hi": "मुख्यमंत्रिर निजुत मोइना योजना (असम)",
+      "ml": "(EN — Malayalam review pending) Mukhya Mantrir Nijut Moina Scheme (Assam)"
+    },
+    "description": {
+      "en": "Assam admission-incentive DBT for eligible girl students domiciled in Assam enrolled in first year of Higher Secondary, Graduation, or Post-Graduation/B.Ed in government and listed venture institutions (private institutions excluded).",
+      "hi": "असम निजुत मोइना — सरकारी/सूचीबद्ध वेंचर संस्थानों में HS/स्नातक/स्नातकोत्तर प्रथम वर्ष की छात्राओं हेतु प्रवेश प्रोत्साहन DBT।",
+      "ml": "(EN — Malayalam review pending) Assam admission-incentive DBT for eligible girl students domiciled in Assam enrolled in first year of Higher Secondary, Graduation, or Post-Graduation/B.Ed in government and listed venture institutions (private institutions excluded)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "nationwide": false,
+      "notes": "Official Higher Education Department guideline PDF: for girl students domiciled in Assam irrespective of economic status; married girls not eligible except PG and B.Ed; in-service B.Ed deputation ineligible; daughters of Ministers/MPs/MLAs ineligible; private institutions excluded; Banikanta Kakati scooter awardees generally ineligible unless they opt out of scooter. Amounts: HS Rs.1,000/month (max 10 months); Graduation Rs.1,250/month; PG/B.Ed Rs.2,500/month.",
+      "verify": true,
+      "verify_notes": "Source: Directorate of Higher Education Assam Nijut Moina guideline PDF / https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25 — verify=true for latest academic-year SoP and portal; marital exception for PG/B.Ed means matcher unmarried filter is conservative for those courses.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly DBT admission incentive (HS Rs.10,000/year; Graduation Rs.12,500/year; PG/B.Ed Rs.25,000/year at published rates — confirm current year SoP).",
+      "hi": "मासिक DBT प्रोत्साहन (HS/स्नातक/PG प्रकाशित दरें — चालू सत्र SoP सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly DBT admission incentive (HS Rs.10,000/year; Graduation Rs.12,500/year; PG/B.Ed Rs.25,000/year at published rates — confirm current year SoP)."
+    },
+    "required_documents": {
+      "en": [
+        "Institution enrollment proof",
+        "Aadhaar",
+        "Bank account",
+        "Domicile / identity as required",
+        "Application via institution"
+      ],
+      "hi": [
+        "Institution enrollment proof",
+        "Aadhaar",
+        "Bank account",
+        "Domicile / identity as required",
+        "Application via institution"
+      ],
+      "ml": [
+        "Institution enrollment proof",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit prescribed form to the enrolled government/venture institution; institutions verify on portal. Guidelines: https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25",
+      "hi": "नामांकित संस्थान में निर्धारित फॉर्म जमा करें; संस्थान पोर्टल पर सत्यापन करता है।",
+      "ml": "(EN — Malayalam review pending) Submit prescribed form to the enrolled government/venture institution; institutions verify on portal. Guidelines: https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25"
+    },
+    "apply_url": "https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25",
+    "office_type": "Higher Education Department, Government of Assam",
+    "official_source_url": "https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25",
+    "tags": [
+      "education",
+      "girl-student",
+      "women",
+      "assam",
+      "dbt",
+      "nijut-moina"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Chhattisgarh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh IGNOAPS for BPL aged persons 60+, with published central+state monthly amounts on official district scheme pages.",
+      "hi": "छत्तीसगढ़ IGNOAPS — 60+ BPL वृद्धजनों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh IGNOAPS for BPL aged persons 60+, with published central+state monthly amounts on official district scheme pages."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Jashpur NIC: BPL aged persons 60+; benefits age 60–79 Rs.350/month (Central 200 + State 150); 80+ Rs.650/month (Central 500 + State 150). Apply via urban bodies / village panchayats → Janpad/ULB.",
+      "verify": true,
+      "verify_notes": "Source: https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ — verify=true for statewide amount revisions.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.350 (60–79) / Rs.650 (80+) as published on Jashpur district page (confirm live statewide rate).",
+      "hi": "मासिक पेंशन ₹350 (60–79) / ₹650 (80+) — राज्यव्यापी वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.350 (60–79) / Rs.650 (80+) as published on Jashpur district page (confirm live statewide rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / urban body; Social Welfare channels. Info: https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+      "hi": "ग्राम पंचायत / नगरीय निकाय / समाज कल्याण के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / urban body; Social Welfare channels. Info: https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/"
+    },
+    "apply_url": "https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "chhattisgarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-sukhad-sahara",
+    "scheme_name": {
+      "en": "Sukhad Sahara / Pleasant Support Scheme – Widow & Deserted Women (Chhattisgarh)",
+      "hi": "सुखद सहारा योजना – विधवा एवं परित्यक्ता महिलाएँ (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Sukhad Sahara / Pleasant Support Scheme – Widow & Deserted Women (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh state scheme providing financial assistance to BPL widows (18–39) and deserted women (18+), filling younger-widow coverage relative to IGNWPS.",
+      "hi": "छत्तीसगढ़ सुखद सहारा — BPL विधवाएँ (18–39) एवं परित्यक्ता महिलाएँ (18+) हेतु सहायता।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh state scheme providing financial assistance to BPL widows (18–39) and deserted women (18+), filling younger-widow coverage relative to IGNWPS."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 39,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Jashpur NIC Pleasant Support Scheme: BPL widows age 18–39; deserted women age 18 or above. Matcher max_age=39 reflects widow band; deserted women may be older — deserted applicants over 39 remain verify/uncertain.",
+      "verify": true,
+      "verify_notes": "Sources: https://jashpur.nic.in/en/scheme/pleasant-support-scheme/ and schemes listing — verify=true because deserted path has no upper age while widow band is 18–39.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly assistance Rs.350 (state scheme amount on Jashpur page — confirm live rate).",
+      "hi": "मासिक सहायता ₹350 (जिला पृष्ठ पर प्रकाशित — वर्तमान दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly assistance Rs.350 (state scheme amount on Jashpur page — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / desertion proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / desertion proof",
+        "BPL proof",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / desertion proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via village panchayat / urban body to Janpad/ULB. Info: https://jashpur.nic.in/en/scheme/pleasant-support-scheme/",
+      "hi": "ग्राम पंचायत / नगरीय निकाय के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via village panchayat / urban body to Janpad/ULB. Info: https://jashpur.nic.in/en/scheme/pleasant-support-scheme/"
+    },
+    "apply_url": "https://jashpur.nic.in/en/scheme/pleasant-support-scheme/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://jashpur.nic.in/en/scheme/pleasant-support-scheme/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "chhattisgarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-ssp-disability",
+    "scheme_name": {
+      "en": "Social Security Pension Scheme – Disability / Dwarf (Chhattisgarh)",
+      "hi": "सामाजिक सुरक्षा पेंशन योजना – दिव्यांग / बौने व्यक्ति (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Social Security Pension Scheme – Disability / Dwarf (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh social security pension for BPL persons with disabilities (40%+) and dwarf persons; also covers school-going children with disabilities in notified age bands.",
+      "hi": "छत्तीसगढ़ सामाजिक सुरक्षा पेंशन — BPL दिव्यांग (40%+) एवं बौने व्यक्ति।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh social security pension for BPL persons with disabilities (40%+) and dwarf persons; also covers school-going children with disabilities in notified age bands."
+    },
+    "eligibility_rules": {
+      "min_age": 6,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Jashpur NIC Social Security Pension Scheme: native residents; CwDs age 6–17 (6–14 should be school-going); PwDs age 18+ with disability 40%+; dwarf persons. Benefit cited Rs.350/month.",
+      "verify": true,
+      "verify_notes": "Source: https://jashpur.nic.in/en/scheme/social-security-pension-scheme/ and schemes listing — verify=true for amount revisions and child vs adult paths.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension Rs.350 as published on Jashpur district page (confirm live statewide rate).",
+      "hi": "मासिक पेंशन ₹350 (वर्तमान राज्य दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension Rs.350 as published on Jashpur district page (confirm live statewide rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (≥40%) / dwarf documentation",
+        "BPL proof",
+        "Bank account",
+        "School proof for child beneficiaries"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (≥40%) / dwarf documentation",
+        "BPL proof",
+        "Bank account",
+        "School proof for child beneficiaries"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (≥40%) / dwarf documentation",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Social Welfare / Janpad Panchayat / urban body channels: https://jashpur.nic.in/en/scheme/social-security-pension-scheme/",
+      "hi": "समाज कल्याण / जनपद पंचायत के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Social Welfare / Janpad Panchayat / urban body channels: https://jashpur.nic.in/en/scheme/social-security-pension-scheme/"
+    },
+    "apply_url": "https://jashpur.nic.in/en/scheme/social-security-pension-scheme/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://jashpur.nic.in/en/scheme/social-security-pension-scheme/",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "chhattisgarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-cm-pension-old-age",
+    "scheme_name": {
+      "en": "Chief Minister Pension Scheme – Old Age (Chhattisgarh)",
+      "hi": "मुख्यमंत्री पेंशन योजना – वृद्धावस्था (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Chief Minister Pension Scheme – Old Age (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh Chief Minister Pension Scheme covering citizens aged 60 or older, as described on official district scheme pages.",
+      "hi": "छत्तीसगढ़ मुख्यमंत्री पेंशन — 60 वर्ष या अधिक आयु के नागरिक।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh Chief Minister Pension Scheme covering citizens aged 60 or older, as described on official district scheme pages."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Korea district CM Pension Yojna page: beneficiary includes aged 60 years or older citizen of CG. Income/BPL filters not clearly restated on the short district card — treat as verify.",
+      "verify": true,
+      "verify_notes": "Source: https://korea.gov.in/en/scheme/cm-pension-yojna/ — verify=true for income/BPL rules and overlap with IGNOAPS; linked PDF on page should be re-checked when accessible.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (confirm current CM Pension amount on Social Welfare / e-District channels).",
+      "hi": "मासिक पेंशन (वर्तमान राशि समाज कल्याण / e-District पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current CM Pension amount on Social Welfare / e-District channels)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Residence proof",
+        "Bank account",
+        "Income / BPL documents if required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Residence proof",
+        "Bank account",
+        "Income / BPL documents if required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Janpad / urban body or e-District social security pension services as notified: https://korea.gov.in/en/scheme/cm-pension-yojna/",
+      "hi": "ग्राम पंचायत / e-District सामाजिक सुरक्षा पेंशन सेवाओं के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Janpad / urban body or e-District social security pension services as notified: https://korea.gov.in/en/scheme/cm-pension-yojna/"
+    },
+    "apply_url": "https://korea.gov.in/en/scheme/cm-pension-yojna/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://korea.gov.in/en/scheme/cm-pension-yojna/",
+    "tags": [
+      "pension",
+      "elderly",
+      "chhattisgarh",
+      "dbt",
+      "cm-pension"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-cm-pension-widow",
+    "scheme_name": {
+      "en": "Chief Minister Pension Scheme – Widow / Abandoned Women (Chhattisgarh)",
+      "hi": "मुख्यमंत्री पेंशन योजना – विधवा / परित्यक्ता महिलाएँ (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Chief Minister Pension Scheme – Widow / Abandoned Women (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh Chief Minister Pension Scheme covering abandoned widows or widows aged 18+, as described on official district scheme pages.",
+      "hi": "छत्तीसगढ़ मुख्यमंत्री पेंशन — 18+ विधवा / परित्यक्ता महिलाएँ।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh Chief Minister Pension Scheme covering abandoned widows or widows aged 18+, as described on official district scheme pages."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Korea district CM Pension Yojna page: beneficiary includes abandoned widow or widow of 18 years and over of CG state. Distinct from Mahtari Vandan (monthly DBT for married/widow/divorced/deserted women).",
+      "verify": true,
+      "verify_notes": "Source: https://korea.gov.in/en/scheme/cm-pension-yojna/ — verify=true for income rules and overlap with Sukhad Sahara / IGNWPS.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly pension (confirm current CM Pension amount on Social Welfare / e-District).",
+      "hi": "मासिक पेंशन (वर्तमान राशि समाज कल्याण / e-District पर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (confirm current CM Pension amount on Social Welfare / e-District)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / abandonment proof",
+        "Residence proof",
+        "Bank account",
+        "Income / BPL documents if required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / abandonment proof",
+        "Residence proof",
+        "Bank account",
+        "Income / BPL documents if required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / abandonment proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Gram Panchayat / Janpad / e-District as notified: https://korea.gov.in/en/scheme/cm-pension-yojna/",
+      "hi": "ग्राम पंचायत / e-District के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Gram Panchayat / Janpad / e-District as notified: https://korea.gov.in/en/scheme/cm-pension-yojna/"
+    },
+    "apply_url": "https://korea.gov.in/en/scheme/cm-pension-yojna/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://korea.gov.in/en/scheme/cm-pension-yojna/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "chhattisgarh",
+      "dbt",
+      "cm-pension"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-disabled-scholarship",
+    "scheme_name": {
+      "en": "Disabled Scholarship Scheme (Chhattisgarh)",
+      "hi": "दिव्यांग छात्रवृत्ति योजना (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Disabled Scholarship Scheme (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh scholarship assistance for resident students with disability (40%+) whose parents/guardian monthly income is below Rs.8,000, for school/college/technical courses.",
+      "hi": "छत्तीसगढ़ दिव्यांग छात्रवृत्ति — 40%+ दिव्यांग विद्यार्थी, अभिभावक आय ₹8,000/माह से कम।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh scholarship assistance for resident students with disability (40%+) whose parents/guardian monthly income is below Rs.8,000, for school/college/technical courses."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": 8000,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Jashpur NIC Disabled Scholarship Scheme: residents of Chhattisgarh; disability 40%+; regular student of school/college/technical course; income of parents/guardian must be less than Rs.8,000 per month. Benefits cited by class bands (Rs.150–190).",
+      "verify": true,
+      "verify_notes": "Source: https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/ — verify=true for current stipend rates.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Monthly/periodic scholarship by class band (Rs.150 class 1–5; Rs.170 class 6–8; Rs.190 class 9–12 on Jashpur page — confirm live rates).",
+      "hi": "कक्षा अनुसार छात्रवृत्ति (जिला पृष्ठ की दरें — वर्तमान राशि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly/periodic scholarship by class band (Rs.150 class 1–5; Rs.170 class 6–8; Rs.190 class 9–12 on Jashpur page — confirm live rates)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (≥40%)",
+        "Income proof of parents/guardian",
+        "School/college enrollment proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (≥40%)",
+        "Income proof of parents/guardian",
+        "School/college enrollment proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (≥40%)",
+        "Income proof of parents/guardian"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply in prescribed format to District Social Welfare / Janpad Panchayat office: https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/",
+      "hi": "जिला समाज कल्याण / जनपद पंचायत कार्यालय में निर्धारित प्रारूप में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply in prescribed format to District Social Welfare / Janpad Panchayat office: https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/"
+    },
+    "apply_url": "https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/",
+    "office_type": "Social Welfare Department, Government of Chhattisgarh",
+    "official_source_url": "https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/",
+    "tags": [
+      "education",
+      "scholarship",
+      "disability",
+      "pwd",
+      "chhattisgarh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "cg-rg-landless-labour",
+    "scheme_name": {
+      "en": "Rajiv Gandhi Rural Landless Agricultural Labour Justice Scheme (Chhattisgarh)",
+      "hi": "राजीव गांधी ग्रामीण भूमिहीन कृषि मजदूर न्याय योजना (छत्तीसगढ़)",
+      "ml": "(EN — Malayalam review pending) Rajiv Gandhi Rural Landless Agricultural Labour Justice Scheme (Chhattisgarh)"
+    },
+    "description": {
+      "en": "Chhattisgarh annual assistance for landless agricultural farmer labourers of the state under the Rajiv Gandhi Gramin Bhumiheen Kisan Majdoor Nyay Yojana.",
+      "hi": "छत्तीसगढ़ राजीव गांधी ग्रामीण भूमिहीन कृषि मजदूर न्याय योजना — भूमिहीन कृषि मजदूरों हेतु वार्षिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Chhattisgarh annual assistance for landless agricultural farmer labourers of the state under the Rajiv Gandhi Gramin Bhumiheen Kisan Majdoor Nyay Yojana."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "agricultural_labour",
+        "landless_labourer"
+      ],
+      "categories": [
+        "landless"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "none",
+      "states": [
+        "Chhattisgarh"
+      ],
+      "nationwide": false,
+      "notes": "Manendragarh-Chirmiri-Bharatpur district page: beneficiary — Landless Agricultural Farmer Laborers of Chhattisgarh State; benefit Rs.7,000 on annual basis.",
+      "verify": true,
+      "verify_notes": "Source: https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/ — verify=true for detailed eligibility (age, registration) and application portal.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false
+    },
+    "benefits": {
+      "en": "Rs.7,000 annual assistance (confirm live amount and instalments).",
+      "hi": "वार्षिक सहायता ₹7,000 (वर्तमान राशि/किस्तें सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Rs.7,000 annual assistance (confirm live amount and instalments)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Landless / labour proof as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Landless / labour proof as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Landless / labour proof as required",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow district / revenue department instructions; scheme page: https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/",
+      "hi": "जिला / राजस्व विभाग के निर्देशानुसार आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Follow district / revenue department instructions; scheme page: https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/"
+    },
+    "apply_url": "https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/",
+    "office_type": "Land Records / Revenue – Government of Chhattisgarh",
+    "official_source_url": "https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/",
+    "tags": [
+      "labour",
+      "landless",
+      "agriculture",
+      "chhattisgarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Jharkhand)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand IGNOAPS for BPL elderly (60+) meeting NSAP / 14-point exclusion manifesto conditions, with state-matched assistance via Social Security Cell.",
+      "hi": "झारखंड IGNOAPS — 60+ BPL वृद्धजन (NSAP/14-बिंदु अपवर्जन शर्तों सहित)।",
+      "ml": "(EN — Malayalam review pending) Jharkhand IGNOAPS for BPL elderly (60+) meeting NSAP / 14-point exclusion manifesto conditions, with state-matched assistance via Social Security Cell."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. IGNOAPS: BPL list + 14-point exclusion manifesto (vehicles, IT payer, salaried ≥10,000, land ceilings, etc.). Simdega NIC also cites rural/urban income figures — prefer BPL gate.",
+      "verify": true,
+      "verify_notes": "Sources: https://jamshedpur.nic.in/social-security-cell/ ; https://simdega.nic.in/en/social-security/ — verify=true for current income figures vs BPL list rules and Rs.1,000 pension amount.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension (page cites Rs.1,000 for NSAP/state schemes — confirm live rate on JharSewa / Social Security).",
+      "hi": "मासिक पेंशन (पृष्ठ पर ₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension (page cites Rs.1,000 for NSAP/state schemes — confirm live rate on JharSewa / Social Security)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / exclusion manifesto documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / exclusion manifesto documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / exclusion manifesto documents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via JharSewa / BDO (rural) / Circle Officer (urban) / Social Security Cell channels: https://jharsewa.jharkhand.gov.in/",
+      "hi": "JharSewa / बीडीओ / सर्कल ऑफिसर / सामाजिक सुरक्षा प्रकोष्ठ के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via JharSewa / BDO (rural) / Circle Officer (urban) / Social Security Cell channels: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Jharkhand)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand IGNWPS for BPL widows in the NSAP age band, administered via Social Security Cell / JharSewa.",
+      "hi": "झारखंड IGNWPS — NSAP आयु बैंड की BPL विधवाओं हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Jharkhand IGNWPS for BPL widows in the NSAP age band, administered via Social Security Cell / JharSewa."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. IGNWPS: BPL widows; Simdega page cites age 40–79 with rural/urban income figures; East Singhbhum emphasises BPL + 14-point exclusions.",
+      "verify": true,
+      "verify_notes": "Sources: https://jamshedpur.nic.in/social-security-cell/ ; https://simdega.nic.in/en/social-security/ — verify=true.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension (page cites Rs.1,000 — confirm live rate).",
+      "hi": "मासिक विधवा पेंशन (₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension (page cites Rs.1,000 — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "BPL documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "BPL documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / death certificate",
+        "BPL documents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via JharSewa / BDO / CO / Social Security Cell: https://jharsewa.jharkhand.gov.in/",
+      "hi": "JharSewa / बीडीओ / सीओ के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via JharSewa / BDO / CO / Social Security Cell: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "nsap",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Jharkhand)",
+      "hi": "इंदिरा गांधी राष्ट्रीय दिव्यांग पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand IGNDPS for BPL persons with severe/multiple disabilities in the NSAP age band.",
+      "hi": "झारखंड IGNDPS — गंभीर/बहु दिव्यांगता वाले BPL व्यक्तियों हेतु पेंशन।",
+      "ml": "(EN — Malayalam review pending) Jharkhand IGNDPS for BPL persons with severe/multiple disabilities in the NSAP age band."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. IGNDPS: BPL persons with severe and multiple disabilities; Simdega cites age 18–79. Exact disability % threshold follows NSAP severe disability norms — confirm on portal.",
+      "verify": true,
+      "verify_notes": "Sources: https://jamshedpur.nic.in/social-security-cell/ ; https://simdega.nic.in/en/social-security/ — verify=true; min_disability_percent not invented.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension (page cites Rs.1,000 — confirm live rate).",
+      "hi": "मासिक दिव्यांग पेंशन (₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension (page cites Rs.1,000 — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (severe/multiple)",
+        "BPL documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (severe/multiple)",
+        "BPL documents",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (severe/multiple)",
+        "BPL documents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via JharSewa / BDO / CO / Social Security Cell: https://jharsewa.jharkhand.gov.in/",
+      "hi": "JharSewa / बीडीओ / सीओ के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via JharSewa / BDO / CO / Social Security Cell: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "nsap",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Jharkhand NSAP)",
+      "hi": "राष्ट्रीय परिवार लाभ योजना (झारखंड NSAP)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Jharkhand NSAP)"
+    },
+    "description": {
+      "en": "Jharkhand NFBS lump-sum assistance of Rs.20,000 to surviving members of a BPL household on death of the primary bread-winner aged 18–59.",
+      "hi": "झारखंड NFBS — 18–59 वर्ष के मुख्य कमाने वाले की मृत्यु पर BPL परिवार को ₹20,000।",
+      "ml": "(EN — Malayalam review pending) Jharkhand NFBS lump-sum assistance of Rs.20,000 to surviving members of a BPL household on death of the primary bread-winner aged 18–59."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. NFBS: death of primary breadwinner (male/female) aged 18–59; lump sum Rs.20,000.",
+      "verify": true,
+      "verify_notes": "Source: https://jamshedpur.nic.in/social-security-cell/ — verify=true for process.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time lump-sum assistance of Rs.20,000 to the surviving household member.",
+      "hi": "उत्तरजीवी परिवार सदस्य को एकमुश्त ₹20,000 सहायता।",
+      "ml": "(EN — Malayalam review pending) One-time lump-sum assistance of Rs.20,000 to the surviving household member."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar of claimant"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Social Security Cell / BDO / CO / JharSewa as notified: https://jamshedpur.nic.in/social-security-cell/",
+      "hi": "सामाजिक सुरक्षा प्रकोष्ठ / JharSewa के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via Social Security Cell / BDO / CO / JharSewa as notified: https://jamshedpur.nic.in/social-security-cell/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-mmsoaps",
+    "scheme_name": {
+      "en": "Mukhya Mantri State Old Age Pension Scheme (Jharkhand)",
+      "hi": "मुख्यमंत्री राज्य वृद्धावस्था पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Mukhya Mantri State Old Age Pension Scheme (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand state old-age pension for destitute residents aged 60+ who lack adequate means of subsistence, covering persons otherwise outside NSAP where applicable (Sarvajan framework).",
+      "hi": "झारखंड मुख्यमंत्री राज्य वृद्धावस्था पेंशन — 60+ असहाय वृद्ध जिनके पास पर्याप्त भरण-पोषण साधन नहीं।",
+      "ml": "(EN — Malayalam review pending) Jharkhand state old-age pension for destitute residents aged 60+ who lack adequate means of subsistence, covering persons otherwise outside NSAP where applicable (Sarvajan framework)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. MMSOAPS: residents aged 60+ who are helpless/destitute with insufficient own income or family support. Common Sarvajan exclusions: applicant/spouse not permanent govt/PSU employee or pensioner; family not income-tax payer.",
+      "verify": true,
+      "verify_notes": "Source: https://jamshedpur.nic.in/social-security-cell/ — verify=true; no numeric income ceiling published on this page.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly state old-age pension (page cites Rs.1,000 — confirm live rate).",
+      "hi": "मासिक राज्य वृद्धावस्था पेंशन (₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly state old-age pension (page cites Rs.1,000 — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Income / destitution declaration as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Income / destitution declaration as required",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Income / destitution declaration as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via BDO (rural) / CO (urban) / JharSewa: https://jharsewa.jharkhand.gov.in/ ; also https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/",
+      "hi": "बीडीओ / सीओ / JharSewa के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via BDO (rural) / CO (urban) / JharSewa: https://jharsewa.jharkhand.gov.in/ ; also https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "elderly",
+      "jharkhand",
+      "dbt",
+      "sarvajan"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-mmrnspy",
+    "scheme_name": {
+      "en": "Mukhya Mantri Rajya Nirasrit Samman Pension Yojana (Jharkhand)",
+      "hi": "मुख्यमंत्री राज्य निरश्रित सम्मान पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Mukhya Mantri Rajya Nirasrit Samman Pension Yojana (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand state pension for destitute women: widows 18+, deserted women 18+, and single (unmarried) women 45+, under Social Security Cell / Sarvajan framework.",
+      "hi": "झारखंड MMRNSPY — विधवा 18+, परित्यक्ता 18+, एकल महिला 45+ हेतु राज्य पेंशन।",
+      "ml": "(EN — Malayalam review pending) Jharkhand state pension for destitute women: widows 18+, deserted women 18+, and single (unmarried) women 45+, under Social Security Cell / Sarvajan framework."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted",
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. MMRNSPY: (a) widow 18+; (b) deserted woman 18+; (c) single woman 45+. Matcher min_age=18 covers widow/deserted; unmarried path requires 45+ — unmarried under 45 remain verify/uncertain. Exclusions: not govt/PSU employee-pensioner household; not IT payer.",
+      "verify": true,
+      "verify_notes": "Source: https://jamshedpur.nic.in/social-security-cell/ — verify=true for unmarried age band handling.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly destitute-women pension (page cites Rs.1,000 — confirm live rate).",
+      "hi": "मासिक निरश्रित महिला पेंशन (₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly destitute-women pension (page cites Rs.1,000 — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / desertion / unmarried status proof",
+        "Income / exclusion declarations",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / desertion / unmarried status proof",
+        "Income / exclusion declarations",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / desertion / unmarried status proof",
+        "Income / exclusion declarations"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via BDO / CO / JharSewa Social Security Pension services: https://jharsewa.jharkhand.gov.in/",
+      "hi": "बीडीओ / सीओ / JharSewa के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via BDO / CO / JharSewa Social Security Pension services: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "jharkhand",
+      "dbt",
+      "sarvajan"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-svnspy",
+    "scheme_name": {
+      "en": "Swami Vivekananda Nishakt Swawlamban Protsahan Yojana (Jharkhand)",
+      "hi": "स्वामी विवेकानंद निशक्त स्वावलंबन प्रोत्साहन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Swami Vivekananda Nishakt Swawlamban Protsahan Yojana (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand state disability pension for resident persons with disabilities aged 5 years or above under Social Security Cell / Sarvajan framework.",
+      "hi": "झारखंड SVNSPY — 5 वर्ष या अधिक आयु के दिव्यांग निवासियों हेतु राज्य पेंशन।",
+      "ml": "(EN — Malayalam review pending) Jharkhand state disability pension for resident persons with disabilities aged 5 years or above under Social Security Cell / Sarvajan framework."
+    },
+    "eligibility_rules": {
+      "min_age": 5,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "East Singhbhum Social Security Cell (official NIC): NSAP + state Sarvajan-type pensions; monthly pension payable Rs.1,000 under central and state schemes as stated on the page. SVNSPY: provide social security to PwDs aged 5+ residing in the state. Seraikela Sarvajan page also lists disabled persons of 5 years or above. Disability % typically 40%+ in state practice — confirm; not invented as hard filter beyond disability_required.",
+      "verify": true,
+      "verify_notes": "Sources: https://jamshedpur.nic.in/social-security-cell/ ; https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ — verify=true for exact disability percentage and exclusions.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension (page cites Rs.1,000 — confirm live rate).",
+      "hi": "मासिक दिव्यांग पेंशन (₹1,000 उल्लिखित — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension (page cites Rs.1,000 — confirm live rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate",
+        "Residence proof",
+        "Bank account",
+        "Exclusion / income declarations as required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate",
+        "Residence proof",
+        "Bank account",
+        "Exclusion / income declarations as required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via BDO / CO / JharSewa: https://jharsewa.jharkhand.gov.in/",
+      "hi": "बीडीओ / सीओ / JharSewa के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via BDO / CO / JharSewa: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://jamshedpur.nic.in/social-security-cell/",
+    "tags": [
+      "pension",
+      "disability",
+      "pwd",
+      "jharkhand",
+      "dbt",
+      "sarvajan"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jh-sarvajan-pension",
+    "scheme_name": {
+      "en": "Sarvajan Pension Yojana (Jharkhand)",
+      "hi": "सर्वजन पेंशन योजना (झारखंड)",
+      "ml": "(EN — Malayalam review pending) Sarvajan Pension Yojana (Jharkhand)"
+    },
+    "description": {
+      "en": "Jharkhand Sarvajan Pension umbrella covering elderly 60+, destitute women 18+, persons with disabilities 5+, and HIV/AIDS-affected persons who are otherwise outside NSAP, via BDO/CO application.",
+      "hi": "झारखंड सर्वजन पेंशन — NSAP से बाहर पात्र वृद्ध 60+, निरश्रित महिला 18+, दिव्यांग 5+, HIV/AIDS पीड़ित।",
+      "ml": "(EN — Malayalam review pending) Jharkhand Sarvajan Pension umbrella covering elderly 60+, destitute women 18+, persons with disabilities 5+, and HIV/AIDS-affected persons who are otherwise outside NSAP, via BDO/CO application."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "nationwide": false,
+      "notes": "Seraikela NIC: beneficiaries — elderly 60+, destitute women 18+, disabled 5+, HIV/AIDS victims; apply to BDO (rural) / CO (urban). East Singhbhum details component schemes (MMSOAPS, MMRNSPY, SVNSPY, IDPS) and common exclusions (not govt employee-pensioner; not IT payer). This umbrella row is for discovery; prefer category-specific rows when profile fits.",
+      "verify": true,
+      "verify_notes": "Sources: https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ ; https://jamshedpur.nic.in/social-security-cell/ — verify=true; soft umbrella with limited hard filters.",
+      "countries": [
+        "India"
+      ],
+      "maternity_required": false,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension under applicable Sarvajan component (commonly cited Rs.1,000 — confirm live component rate).",
+      "hi": "लागू सर्वजन घटक के अंतर्गत मासिक पेंशन (प्रायः ₹1,000 — लाइव दर सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Monthly pension under applicable Sarvajan component (commonly cited Rs.1,000 — confirm live component rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age / category proofs",
+        "Disability / HIV documents if applicable",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age / category proofs",
+        "Disability / HIV documents if applicable",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age / category proofs",
+        "Disability / HIV documents if applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit application to BDO (rural) or Circle Officer (urban); JharSewa: https://jharsewa.jharkhand.gov.in/",
+      "hi": "ग्रामीण क्षेत्र में बीडीओ / शहरी क्षेत्र में सर्कल ऑफिसर के समक्ष आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Submit application to BDO (rural) or Circle Officer (urban); JharSewa: https://jharsewa.jharkhand.gov.in/"
+    },
+    "apply_url": "https://jharsewa.jharkhand.gov.in/",
+    "office_type": "Social Security Cell / Social Welfare, Government of Jharkhand",
+    "official_source_url": "https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/",
+    "tags": [
+      "pension",
+      "sarvajan",
+      "jharkhand",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

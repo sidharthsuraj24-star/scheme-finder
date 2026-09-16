@@ -1,7 +1,7 @@
 # Source audit — Scheme Finder catalogue
 
 **Audit date:** 2026-09-16 (Asia/Calcutta / IST)
-**Schemes audited:** 112
+**Schemes audited:** 149
 
 ## Policy
 
@@ -13,9 +13,9 @@
 ## Summary
 
 - URL field replacements this pass: **12** (across **8** schemes)
-- `eligibility_rules.verify=true`: **104**
+- `eligibility_rules.verify=true`: **141**
 - `eligibility_rules.verify=false`: **8**
-- Official source domain types: gov=112
+- Official source domain types: gov=149
 
 ### Schemes whose `official_source_url` is not a `*.gov.*` / `*.nic.in` host
 
@@ -46,6 +46,14 @@ _None._ Every scheme has at least one gov-domain URL (usually `official_source_u
 | `kerala-kasp-pmjay` | `official_source_url` | https://sha.kerala.gov.in/?page_id=742 | Fixed trailing-dot typo in hostname; prefer https SHA FAQ |
 | `tn-cmchis` | `official_source_url` | https://www.myscheme.gov.in/schemes/cmchis | Prefer myScheme.gov.in listing; cmchistn.com is non-.gov scheme portal |
 | `uk-nanda-gaura` | `official_source_url` | https://wecd.uk.gov.in/document-category/government-orders/ | Prefer WECD.uk.gov.in GOs over nandagaurauk.in (non-.gov host) |
+
+
+## Wave 2 deepen (2026-09-16 IST)
+
+Added curated local schemes for **Andhra Pradesh, Telangana, Assam, Chhattisgarh, Jharkhand** (official `.gov.in` / `.nic.in` sources only; all `verify=true`).
+New ids include NTR Bharosa category pensions + Dr NTR Vaidya Seva / Talliki Vandanam (AP); Aasara category pensions + Kalyana Lakshmi / Shaadi Mubarak + Rythu Bharosa + Aarogyasri (TG); Assam NSAP components + Atal Amrit / Ayushman Asom + Nijut Moina; CG IGNOAPS / Sukhad Sahara / SSP disability / CM Pension / disabled scholarship / landless labour; JH NSAP + Sarvajan component pensions.
+
+Skipped (insufficient clear official eligibility or inactive/unclear): AP Amma Vodi successor variants without stable GO page; Assam Annapurna (P&RD notes rice allocation not received); CG Godhan Nyay (participation model unclear for matcher); TG KCR Nutrition without clear eligibility page in this pass; JH Savitribai Kishori portal timeout this pass.
 
 ## Full catalogue
 
@@ -127,77 +135,76 @@ _None._ Every scheme has at least one gov-domain URL (usually `official_source_u
 | `lk-senior-citizens-allowance` | https://wbb.gov.lk/ | gov | https://wbb.gov.lk/ | gov | `True` | 2026-09-16 |
 | `lk-samurdhi` | https://www.samurdhi.gov.lk/ | gov | https://www.samurdhi.gov.lk/ | gov | `True` | 2026-09-16 |
 | `mv-disability-allowance` | https://www.nspa.gov.mv/v2/index.php/disability/ | gov | https://www.nspa.gov.mv/v2/index.php/disability/ | gov | `True` | 2026-09-16 |
-
-## Spot-checks (eligibility vs official page)
-
-| id | What was confirmed / left verify |
-|----|----------------------------------|
-| `ap-ntr-bharosa-oap` | sspensions.ap.gov.in About: OAP age **60+**, BPL white ration card, destitute, local resident, not on other pension. No rupee ceiling → `implies_low_income` + `verify=true`. |
-| `kerala-karunya-benevolent-fund` | SHA page: annual family income **< Rs.3 lakh** confirmed; ailments list confirmed. Keep `verify=true` for KASP overlap. |
-| `kerala-kasp-pmjay` | SHA FAQ URL repaired; RSBY/CHIS/SECC eligibility still `verify=true` (expansion uncertain). |
-| `uk-nanda-gaura` | WECDUK portal: UK girls only, max 2, birth + Class-12 stages. Income ₹72k **not** restated on portal index → keep ceiling with `verify=true`. |
-| `tn-cmchis` | Grounded on myScheme.gov.in; no income ceiling encoded → `verify=true`. |
-| `janani-suraksha-yojana-kerala` | Stable NHM JSY page; Kerala HPS cash amounts/`>19` age remain `verify=true`. |
-| Other 70 schemes | `official_source_url` already on gov/ok domains; eligibility left as previously curated with existing `verify` flags (no invention). |
-
-## Notes
-
-- Some gov sites return SSL/timeout errors from automated checkers; domain grounding still counts as gov.
-- `nsap.nic.in` may fail DNS from some resolvers; URL retained as the MoRD NSAP official site.
-- `last_verified` bumped to 2026-09-16 for the full catalogue after this grounding pass.
-
-## Wave 1 deepen (2026-09-16 IST) — UP / Bihar / MP / Rajasthan / Odisha
-
-Added **36** new local schemes (catalogue now **112**). All new `official_source_url` values are on `.gov.in` / `.nic.in` (or myScheme.gov.in). Eligibility encoded only from cited official pages; uncertain ceilings left null or marked `verify=true`.
-
-### New scheme ids + sources
-
-| id | official_source_url |
-|----|---------------------|
-| `up-old-age-pension` | https://lalitpur.nic.in/scheme/%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE-%E0%A4%AA%E0%A5%87%E0%A4%82%E0%A4%B6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/ |
-| `up-destitute-widow-pension` | https://saharanpur.nic.in/scheme/destitute-widow-pension-scheme/ |
-| `up-disability-pension` | https://mau.nic.in/en/service/application-for-disability-grant-disability-pension/ |
-| `up-daughter-marriage-grant` | https://hamirpur.nic.in/social-welfare-department/ |
-| `up-post-matric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ |
-| `up-cm-comprehensive-marriage` | https://hamirpur.nic.in/social-welfare-department/ |
-| `up-scst-prematric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ |
-| `br-mukhyamantri-vridhjan-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
-| `br-laxmi-bai-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
-| `br-state-disability-pension` | https://www.sspmis.bihar.gov.in/aboutUs |
-| `br-ignwps` | https://www.sspmis.bihar.gov.in/aboutUs |
-| `br-ignoaps` | https://www.sspmis.bihar.gov.in/aboutUs |
-| `br-ayushman-biswass` | https://biswass.bihar.gov.in/ |
-| `br-post-matric-scholarship` | https://pmsonline.bihar.gov.in/ |
-| `mp-samagra-social-security-oap` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
-| `mp-kalyani-widow-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 |
-| `mp-deserted-women-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
-| `mp-disability-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 |
-| `mp-unmarried-women-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 |
-| `mp-ladli-laxmi` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=246 |
-| `mp-niramayam-ayushman` | https://betul.nic.in/en/scheme/niramayam-ayushman-bharat-scheme/ |
-| `mp-kalyani-vivah-sahayata` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=573 |
-| `rj-ekal-nari-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
-| `rj-vishesh-yogyajan-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
-| `rj-laghu-simant-farmer-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx |
-| `rj-palanhar` | https://sje.rajasthan.gov.in/schemes/palanhar.html |
-| `rj-mukhyamantri-ayushman-arogya` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
-| `rj-janani-suraksha` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
-| `rj-nirirogi-free-medicine` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 |
-| `od-mbpy-widow` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana |
-| `od-mbpy-disability` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana |
-| `od-bsky` | https://gjaydashboard.odisha.gov.in/About |
-| `od-mission-shakti-loan` | https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention |
-| `od-mamata` | https://wcd.odisha.gov.in/about-us/department-works/for-women |
-| `od-ignwps` | https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0 |
-| `od-mission-shakti` | https://missionshakti.odisha.gov.in/en/more/msd-FAQs |
-
-### Skipped (no solid official eligibility page reachable this pass)
-
-- UP Ayushman state portal mirrors that are non-`.gov.in` only (kept national `ab-pmjay-national`).
-
-- Odisha Biju Pucca Ghar / Nirman Shramik housing (rh.odisha.gov.in unreachable from research host; eligibility not safely encodable).
-
-- Bihar Satat Jeevikoparjan (brlps.in non-gov host without accompanying `.gov.in` eligibility page in hand).
-
-- Rajasthan RGHS (employee/pensioner medical scheme — out of scope for general welfare matching).
-
+| `up-old-age-pension` | https://lalitpur.nic.in/scheme/%E0%A4%B5%E0%A5%83%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%B5%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE-%E0%A4%AA%E0%A5%87%E0%A4%82%E0%A4%B6%E0%A4%A8-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE/ | gov | https://sspy-up.gov.in/ | gov | `True` | 2026-09-16 |
+| `up-destitute-widow-pension` | https://saharanpur.nic.in/scheme/destitute-widow-pension-scheme/ | gov | https://sspy-up.gov.in/ | gov | `True` | 2026-09-16 |
+| `up-disability-pension` | https://mau.nic.in/en/service/application-for-disability-grant-disability-pension/ | gov | https://sspy-up.gov.in/ | gov | `True` | 2026-09-16 |
+| `up-daughter-marriage-grant` | https://hamirpur.nic.in/social-welfare-department/ | gov | http://shadianudan.upsdc.gov.in | gov | `True` | 2026-09-16 |
+| `up-post-matric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ | gov | http://scholarship.up.nic.in | gov | `True` | 2026-09-16 |
+| `up-cm-comprehensive-marriage` | https://hamirpur.nic.in/social-welfare-department/ | gov | https://sspy-up.gov.in/ | gov | `True` | 2026-09-16 |
+| `up-scst-prematric-scholarship` | https://hamirpur.nic.in/social-welfare-department/ | gov | http://scholarship.up.nic.in | gov | `True` | 2026-09-16 |
+| `br-mukhyamantri-vridhjan-pension` | https://www.sspmis.bihar.gov.in/aboutUs | gov | https://www.sspmis.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-laxmi-bai-pension` | https://www.sspmis.bihar.gov.in/aboutUs | gov | https://www.sspmis.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-state-disability-pension` | https://www.sspmis.bihar.gov.in/aboutUs | gov | https://www.sspmis.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-ignwps` | https://www.sspmis.bihar.gov.in/aboutUs | gov | https://www.sspmis.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-ignoaps` | https://www.sspmis.bihar.gov.in/aboutUs | gov | https://www.sspmis.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-ayushman-biswass` | https://biswass.bihar.gov.in/ | gov | https://biswass.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `br-post-matric-scholarship` | https://pmsonline.bihar.gov.in/ | gov | https://pmsonline.bihar.gov.in/ | gov | `True` | 2026-09-16 |
+| `mp-samagra-social-security-oap` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 | gov | https://socialsecurity.mp.gov.in/Home.aspx | gov | `True` | 2026-09-16 |
+| `mp-kalyani-widow-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 | gov | https://socialsecurity.mp.gov.in/Home.aspx | gov | `True` | 2026-09-16 |
+| `mp-deserted-women-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 | gov | https://socialsecurity.mp.gov.in/Home.aspx | gov | `True` | 2026-09-16 |
+| `mp-disability-pension` | https://www.socialjustice.mp.gov.in/schemes/view/WlFNUHFJc2dpRHFIcVI1RlEyb3Q1UT09 | gov | https://socialsecurity.mp.gov.in/Home.aspx | gov | `True` | 2026-09-16 |
+| `mp-unmarried-women-pension` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=355 | gov | https://socialsecurity.mp.gov.in/Home.aspx | gov | `True` | 2026-09-16 |
+| `mp-ladli-laxmi` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=246 | gov | https://ladlilaxmi.mp.gov.in | gov | `True` | 2026-09-16 |
+| `mp-niramayam-ayushman` | https://betul.nic.in/en/scheme/niramayam-ayushman-bharat-scheme/ | gov | http://ayushmanbharat.mp.gov.in/ | gov | `True` | 2026-09-16 |
+| `mp-kalyani-vivah-sahayata` | https://cmhelpline.mp.gov.in/Schmedetail.aspx?Schemeid=573 | gov | http://socialjustice.mp.gov.in | gov | `True` | 2026-09-16 |
+| `rj-ekal-nari-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx | gov | https://ssp.rajasthan.gov.in/ | gov | `True` | 2026-09-16 |
+| `rj-vishesh-yogyajan-samman-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx | gov | https://ssp.rajasthan.gov.in/ | gov | `True` | 2026-09-16 |
+| `rj-laghu-simant-farmer-pension` | https://ssp.rajasthan.gov.in/rajsspmob/forms/Reports/frmReportSchemeFlow.aspx | gov | https://ssp.rajasthan.gov.in/ | gov | `True` | 2026-09-16 |
+| `rj-palanhar` | https://sje.rajasthan.gov.in/schemes/palanhar.html | gov | https://sje.rajasthan.gov.in/schemes/palanhar.html | gov | `True` | 2026-09-16 |
+| `rj-mukhyamantri-ayushman-arogya` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gov | https://maayojana.rajasthan.gov.in/ | gov | `True` | 2026-09-16 |
+| `rj-janani-suraksha` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gov | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gov | `True` | 2026-09-16 |
+| `rj-nirirogi-free-medicine` | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gov | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gov | `True` | 2026-09-16 |
+| `od-mbpy-widow` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana | gov | https://www.myscheme.gov.in/schemes/mbypvy | gov | `True` | 2026-09-16 |
+| `od-mbpy-disability` | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana | gov | https://www.myscheme.gov.in/schemes/mbypvy | gov | `True` | 2026-09-16 |
+| `od-bsky` | https://gjaydashboard.odisha.gov.in/About | gov | https://gjaydashboard.odisha.gov.in/About | gov | `True` | 2026-09-16 |
+| `od-mission-shakti-loan` | https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention | gov | https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention | gov | `True` | 2026-09-16 |
+| `od-mamata` | https://wcd.odisha.gov.in/about-us/department-works/for-women | gov | https://emamata.odisha.gov.in/ | gov | `True` | 2026-09-16 |
+| `od-ignwps` | https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0 | gov | https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0 | gov | `True` | 2026-09-16 |
+| `od-mission-shakti` | https://missionshakti.odisha.gov.in/en/more/msd-FAQs | gov | https://missionshakti.odisha.gov.in/ | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-widow` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-disability` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-single-women` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-weavers` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-fishermen` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-bharosa-transgender` | https://sspensions.ap.gov.in/ssp/home/about | gov | https://sspensions.ap.gov.in/SSP/Home | gov | `True` | 2026-09-16 |
+| `ap-ntr-vaidya-seva` | https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx | gov | https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx | gov | `True` | 2026-09-16 |
+| `ap-talliki-vandanam` | https://tirupati.ap.gov.in/intermediate-education/ | gov | https://tirupati.ap.gov.in/intermediate-education/ | gov | `True` | 2026-09-16 |
+| `tg-aasara-widow` | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | `True` | 2026-09-16 |
+| `tg-aasara-disability` | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | `True` | 2026-09-16 |
+| `tg-aasara-weavers` | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | gov | `True` | 2026-09-16 |
+| `tg-kalyana-lakshmi` | https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ | gov | https://telanganaepass.cgg.gov.in/KalyanLakshmi.do | gov | `True` | 2026-09-16 |
+| `tg-shaadi-mubarak` | https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ | gov | https://telanganaepass.cgg.gov.in/KalyanaLakshmiLinks.jsp | gov | `True` | 2026-09-16 |
+| `tg-rythu-bharosa` | https://wanaparthy.telangana.gov.in/scheme/rythu-bharosa-scheme/ | gov | https://rythubharosa.telangana.gov.in/ | gov | `True` | 2026-09-16 |
+| `tg-aarogyasri` | https://aarogyasri.telangana.gov.in/ | gov | https://aarogyasri.telangana.gov.in/ | gov | `True` | 2026-09-16 |
+| `as-ignoaps` | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | gov | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | gov | `True` | 2026-09-16 |
+| `as-ignwps` | https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0 | gov | https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0 | gov | `True` | 2026-09-16 |
+| `as-igndps` | https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0 | gov | https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0 | gov | `True` | 2026-09-16 |
+| `as-nfbs` | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | gov | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | gov | `True` | 2026-09-16 |
+| `as-atal-amrit-abhiyan` | https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan | gov | https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan | gov | `True` | 2026-09-16 |
+| `as-ayushman-asom-mmjay` | https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme | gov | https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme | gov | `True` | 2026-09-16 |
+| `as-nijut-moina` | https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25 | gov | https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25 | gov | `True` | 2026-09-16 |
+| `cg-ignoaps` | https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ | gov | https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ | gov | `True` | 2026-09-16 |
+| `cg-sukhad-sahara` | https://jashpur.nic.in/en/scheme/pleasant-support-scheme/ | gov | https://jashpur.nic.in/en/scheme/pleasant-support-scheme/ | gov | `True` | 2026-09-16 |
+| `cg-ssp-disability` | https://jashpur.nic.in/en/scheme/social-security-pension-scheme/ | gov | https://jashpur.nic.in/en/scheme/social-security-pension-scheme/ | gov | `True` | 2026-09-16 |
+| `cg-cm-pension-old-age` | https://korea.gov.in/en/scheme/cm-pension-yojna/ | gov | https://korea.gov.in/en/scheme/cm-pension-yojna/ | gov | `True` | 2026-09-16 |
+| `cg-cm-pension-widow` | https://korea.gov.in/en/scheme/cm-pension-yojna/ | gov | https://korea.gov.in/en/scheme/cm-pension-yojna/ | gov | `True` | 2026-09-16 |
+| `cg-disabled-scholarship` | https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/ | gov | https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/ | gov | `True` | 2026-09-16 |
+| `cg-rg-landless-labour` | https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/ | gov | https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/ | gov | `True` | 2026-09-16 |
+| `jh-ignoaps` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-ignwps` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-igndps` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-nfbs` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-mmsoaps` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-mmrnspy` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-svnspy` | https://jamshedpur.nic.in/social-security-cell/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |
+| `jh-sarvajan-pension` | https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ | gov | https://jharsewa.jharkhand.gov.in/ | gov | `True` | 2026-09-16 |

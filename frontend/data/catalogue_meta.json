@@ -1,8 +1,8 @@
 {
   "updated_as_of": "2026-09-16",
-  "updated_as_of_iso": "2026-09-16T17:30:00+05:30",
-  "scheme_count": 112,
-  "scope": "India + selected other countries (curated; not worldwide). Wave 1 deepen: Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Odisha expanded toward Kerala-level local depth; Kerala remains fully curated; Bangladesh, Nepal, Sri Lanka, Maldives have starter official sets.",
+  "updated_as_of_iso": "2026-09-16T18:15:00+05:30",
+  "scheme_count": 149,
+  "scope": "India + selected other countries (curated; not worldwide). Wave 1 deepen: Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Odisha. Wave 2 deepen: Andhra Pradesh, Telangana, Assam, Chhattisgarh, Jharkhand expanded toward Kerala-level local depth; Kerala remains fully curated; Bangladesh, Nepal, Sri Lanka, Maldives have starter official sets.",
   "auto_update": "semi-automatic — see docs/DATA_REFRESH.md",
   "stale_after_days": 30,
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated.",

@@ -1,11 +1,11 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 112 schemes
-**verify=true:** 104
+**Count:** 149 schemes
+**verify=true:** 141
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha toward Kerala-level local depth. Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
 
 | # | id | Name (EN) | Country / States | Official source | Key eligibility | verify |
 |---|----|-----------|------------------|-----------------|-----------------|--------|
@@ -22,7 +22,7 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 | 11 | `adip-assistive-devices` | ADIP – Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances | All India | https://www.adip.depwd.gov.in/faq_adip | max_monthly=30000; disability_required | no |
 | 12 | `kerala-life-mission` | LIFE Mission (Livelihood Inclusion Financial Empowerment) – Kerala Housing | Kerala | https://lifemission.kerala.gov.in/life-project | max_annual_income=300000; categories=homeless,landless,incomplete_house,temporary_shelter | **YES** |
 | 13 | `pmmvy` | Pradhan Mantri Matru Vandana Yojana (PMMVY) | All India | https://wcd.gov.in/women/pradhan-mantri-matru-vandana-yojna | max_annual_income=800000; gender=female; categories=SC,ST,BPL,PMJAY,EShram,PMKISAN,MGNREGA,NFSA_ration,AWW_AWH_ASHA; maternity_required | no |
-| 14 | `depwd-scholarship-swd` | Scholarships for Students with Disabilities (DEPwD / NSP) | All India | https://depwd.gov.in/en/scholarship/ | max_annual_income=250000; disability_required; occupations=student | **YES** |
+| 14 | `depwd-scholarship-swd` | Scholarships for Students with Disabilities (DEPwD / NSP) | All India | https://depwd.gov.in/en/scholarship/ | max_annual_income=250000; occupations=student; disability_required | **YES** |
 | 15 | `kerala-matru-jyothi` | Matru Jyothi – Financial Assistance for PwD Mothers (Kerala) | Kerala | https://sjd.kerala.gov.in/scheme-info.php?scheme_id=IDExOA%3D%3D | max_annual_income=100000; gender=female; disability_required; maternity_required | **YES** |
 | 16 | `ayyankali-uegs` | Ayyankali Urban Employment Guarantee Scheme (Kerala) | Kerala | https://lsgd.kerala.gov.in/en/state-sponsored-schemes-under-lsgd/ayyankali-uegs/ | min_age=18; occupations=unskilled_manual_labour; categories=urban_household | **YES** |
 | 17 | `janani-suraksha-yojana-kerala` | Janani Suraksha Yojana (JSY) – Kerala | Kerala | https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841 | min_age=19; gender=female; categories=BPL,SC,ST; maternity_required | **YES** |
@@ -115,12 +115,49 @@ Curated from official government sources. **Do not treat as legal advice.** Re-v
 | 104 | `rj-janani-suraksha` | Janani Suraksha Yojana (Rajasthan) | Rajasthan | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | gender=female; categories=BPL; maternity_required | **YES** |
 | 105 | `rj-nirirogi-free-medicine` | Mukhyamantri Nishulk Nirogi Rajasthan (Free Medicines) Scheme | Rajasthan | https://rajswasthya.rajasthan.gov.in/schemes.php?id=1 | (see notes) | **YES** |
 | 106 | `od-mbpy-widow` | Madhu Babu Pension Yojana – Widow (Odisha) | Odisha | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana | max_annual_income=60000; gender=female; marital=widow; categories=BPL | **YES** |
-| 107 | `od-mbpy-disability` | Madhu Babu Pension Yojana – Disability (Odisha) | Odisha | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana | max_annual_income=60000; disability_required; categories=BPL | **YES** |
+| 107 | `od-mbpy-disability` | Madhu Babu Pension Yojana – Disability (Odisha) | Odisha | https://ssepd.odisha.gov.in/index.php/schemes-programmes/schemes/madhu-babu-pension-yojana | max_annual_income=60000; categories=BPL; disability_required | **YES** |
 | 108 | `od-bsky` | Biju Swasthya Kalyan Yojana / Gopabandhu Jana Arogya Yojana (Odisha) | Odisha | https://gjaydashboard.odisha.gov.in/About | categories=nfsa_ration,BPL,pmjay | **YES** |
 | 109 | `od-mission-shakti-loan` | Mission Shakti Loan – Interest Subvention (Odisha) | Odisha | https://missionshakti.odisha.gov.in/programme/mission-shakti-loan-state-interest-subvention | min_age=18; gender=female | **YES** |
 | 110 | `od-mamata` | MAMATA Maternity Benefit Scheme (Odisha) | Odisha | https://wcd.odisha.gov.in/about-us/department-works/for-women | min_age=19; gender=female; maternity_required | **YES** |
 | 111 | `od-ignwps` | Indira Gandhi National Widow Pension Scheme (Odisha SSEPD) | Odisha | https://ssepd.odisha.gov.in/schemes-programmes/schemes/indira-gandhi-national-widow-pension-0 | min_age=40; max_age=79; gender=female; marital=widow; categories=BPL | **YES** |
 | 112 | `od-mission-shakti` | Mission Shakti – Women SHG Empowerment (Odisha) | Odisha | https://missionshakti.odisha.gov.in/en/more/msd-FAQs | min_age=18; gender=female | **YES** |
+| 113 | `ap-ntr-bharosa-widow` | NTR Bharosa Pension Scheme – Widow (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | min_age=18; gender=female; marital=widow; categories=BPL,white_ration_card | **YES** |
+| 114 | `ap-ntr-bharosa-disability` | NTR Bharosa Pension Scheme – Disability (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | categories=BPL,white_ration_card; disability_required | **YES** |
+| 115 | `ap-ntr-bharosa-single-women` | NTR Bharosa Pension Scheme – Single Women (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | min_age=30; gender=female; marital=unmarried,deserted,divorced; categories=BPL,white_ration_card | **YES** |
+| 116 | `ap-ntr-bharosa-weavers` | NTR Bharosa Pension Scheme – Weavers (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | min_age=50; occupations=weaver,handloom_worker; categories=BPL,white_ration_card | **YES** |
+| 117 | `ap-ntr-bharosa-fishermen` | NTR Bharosa Pension Scheme – Fishermen (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | min_age=50; occupations=fisherman,fisher; categories=BPL,white_ration_card | **YES** |
+| 118 | `ap-ntr-bharosa-transgender` | NTR Bharosa Pension Scheme – Transgender (Andhra Pradesh) | Andhra Pradesh | https://sspensions.ap.gov.in/ssp/home/about | min_age=18; categories=BPL,white_ration_card,transgender | **YES** |
+| 119 | `ap-ntr-vaidya-seva` | Dr. NTR Vaidya Seva / Aarogyasri (Andhra Pradesh) | Andhra Pradesh | https://hmfw.ap.gov.in/ntr-aarogyaseva-org.aspx | categories=BPL,white_ration_card | **YES** |
+| 120 | `ap-talliki-vandanam` | Talliki Vandanam – Intermediate Education Assistance (Andhra Pradesh) | Andhra Pradesh | https://tirupati.ap.gov.in/intermediate-education/ | occupations=student | **YES** |
+| 121 | `tg-aasara-widow` | Aasara Pension Scheme – Widow (Telangana) | Telangana | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | min_age=18; max_annual_income=200000; gender=female; marital=widow | **YES** |
+| 122 | `tg-aasara-disability` | Aasara Pension Scheme – Disability (Telangana) | Telangana | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | max_annual_income=200000; disability_required | **YES** |
+| 123 | `tg-aasara-weavers` | Aasara Pension Scheme – Weavers (Telangana) | Telangana | https://hyderabad.telangana.gov.in/scheme/aasara-pensions/ | max_annual_income=200000; occupations=weaver,handloom_worker | **YES** |
+| 124 | `tg-kalyana-lakshmi` | Kalyana Lakshmi Pathakam (Telangana) | Telangana | https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ | min_age=18; max_annual_income=200000; gender=female; marital=unmarried; categories=SC,ST,BC,OBC,EBC | **YES** |
+| 125 | `tg-shaadi-mubarak` | Shaadi Mubarak (Telangana) | Telangana | https://yadadri.telangana.gov.in/scheme/kalyana-lakshmi-shaadi-mubarak/ | min_age=18; max_annual_income=200000; gender=female; marital=unmarried; categories=minority | **YES** |
+| 126 | `tg-rythu-bharosa` | Rythu Bharosa / Rythu Bandhu – Farmer Investment Support (Telangana) | Telangana | https://wanaparthy.telangana.gov.in/scheme/rythu-bharosa-scheme/ | occupations=farmer,landholding_farmer | **YES** |
+| 127 | `tg-aarogyasri` | Aarogyasri Health Care Scheme (Telangana) | Telangana | https://aarogyasri.telangana.gov.in/ | categories=BPL | **YES** |
+| 128 | `as-ignoaps` | Indira Gandhi National Old Age Pension Scheme (Assam NSAP) | Assam | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | min_age=60; categories=BPL | **YES** |
+| 129 | `as-ignwps` | Indira Gandhi National Widow Pension Scheme (Assam NSAP) | Assam | https://pnrd.assam.gov.in/how-to/apply-for-widow-pension-0 | min_age=40; gender=female; marital=widow; categories=BPL | **YES** |
+| 130 | `as-igndps` | Indira Gandhi National Disability Pension Scheme (Assam NSAP) | Assam | https://pnrd.assam.gov.in/how-to/apply-for-disability-pension-0 | min_age=18; categories=BPL; disability_required | **YES** |
+| 131 | `as-nfbs` | National Family Benefit Scheme (Assam NSAP) | Assam | https://pnrd.assam.gov.in/schemes/national-social-assistance-programme-0 | categories=BPL | **YES** |
+| 132 | `as-atal-amrit-abhiyan` | Atal Amrit Abhiyan (Assam) | Assam | https://hfw.assam.gov.in/schemes/detail/atal-amrit-abhiyan | max_annual_income=500000; categories=BPL | **YES** |
+| 133 | `as-ayushman-asom-mmjay` | Ayushman Asom – Mukhya Mantri Jan Arogya Yojana (AA-MMJAY) | Assam | https://atalamritabhiyan.assam.gov.in/schemes/atal-amrit-abhiyan-scheme | categories=nfsa_ration,BPL,pmjay | **YES** |
+| 134 | `as-nijut-moina` | Mukhya Mantrir Nijut Moina Scheme (Assam) | Assam | https://directorateofhighereducation.assam.gov.in/documents-detail/final-guideline-for-nijut-moina-scheme-2024-25 | gender=female; marital=unmarried; occupations=student | **YES** |
+| 135 | `cg-ignoaps` | Indira Gandhi National Old Age Pension Scheme (Chhattisgarh) | Chhattisgarh | https://jashpur.nic.in/en/scheme/indira-gandhi-national-old-age-pension-scheme/ | min_age=60; categories=BPL | **YES** |
+| 136 | `cg-sukhad-sahara` | Sukhad Sahara / Pleasant Support Scheme – Widow & Deserted Women (Chhattisgarh) | Chhattisgarh | https://jashpur.nic.in/en/scheme/pleasant-support-scheme/ | min_age=18; max_age=39; gender=female; marital=widow,deserted; categories=BPL | **YES** |
+| 137 | `cg-ssp-disability` | Social Security Pension Scheme – Disability / Dwarf (Chhattisgarh) | Chhattisgarh | https://jashpur.nic.in/en/scheme/social-security-pension-scheme/ | min_age=6; categories=BPL; disability_required | **YES** |
+| 138 | `cg-cm-pension-old-age` | Chief Minister Pension Scheme – Old Age (Chhattisgarh) | Chhattisgarh | https://korea.gov.in/en/scheme/cm-pension-yojna/ | min_age=60 | **YES** |
+| 139 | `cg-cm-pension-widow` | Chief Minister Pension Scheme – Widow / Abandoned Women (Chhattisgarh) | Chhattisgarh | https://korea.gov.in/en/scheme/cm-pension-yojna/ | min_age=18; gender=female; marital=widow,deserted | **YES** |
+| 140 | `cg-disabled-scholarship` | Disabled Scholarship Scheme (Chhattisgarh) | Chhattisgarh | https://jashpur.nic.in/en/scheme/disabled-scholarship-scheme/ | max_monthly=8000; occupations=student; disability_required | **YES** |
+| 141 | `cg-rg-landless-labour` | Rajiv Gandhi Rural Landless Agricultural Labour Justice Scheme (Chhattisgarh) | Chhattisgarh | https://manendragarh-chirmiri-bharatpur.cg.gov.in/en/scheme/rajiv-gandhi-gramin-bhumiheen-kisan-majdoor-nyan-yojna/ | occupations=agricultural_labour,landless_labourer; categories=landless | **YES** |
+| 142 | `jh-ignoaps` | Indira Gandhi National Old Age Pension Scheme (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=60; categories=BPL | **YES** |
+| 143 | `jh-ignwps` | Indira Gandhi National Widow Pension Scheme (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=40; max_age=79; gender=female; marital=widow; categories=BPL | **YES** |
+| 144 | `jh-igndps` | Indira Gandhi National Disability Pension Scheme (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=18; max_age=79; categories=BPL; disability_required | **YES** |
+| 145 | `jh-nfbs` | National Family Benefit Scheme (Jharkhand NSAP) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | categories=BPL | **YES** |
+| 146 | `jh-mmsoaps` | Mukhya Mantri State Old Age Pension Scheme (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=60 | **YES** |
+| 147 | `jh-mmrnspy` | Mukhya Mantri Rajya Nirasrit Samman Pension Yojana (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=18; gender=female; marital=widow,deserted,unmarried | **YES** |
+| 148 | `jh-svnspy` | Swami Vivekananda Nishakt Swawlamban Protsahan Yojana (Jharkhand) | Jharkhand | https://jamshedpur.nic.in/social-security-cell/ | min_age=5; disability_required | **YES** |
+| 149 | `jh-sarvajan-pension` | Sarvajan Pension Yojana (Jharkhand) | Jharkhand | https://seraikela.nic.in/scheme/sarv-jan-pension-yojna/ | (see notes) | **YES** |
 
 ## Country + nationwide matching
 
