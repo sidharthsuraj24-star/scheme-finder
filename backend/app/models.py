@@ -38,6 +38,7 @@ def _coerce_str_list(v: Any) -> list[str]:
 class LocalizedText(BaseModel):
     en: str = ""
     ml: str = ""
+    hi: str = ""
 
 
 class MatchProfile(BaseModel):

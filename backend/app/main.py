@@ -83,7 +83,7 @@ def health() -> HealthResponse:
 @app.get("/schemes", response_model=SchemeListResponse)
 @app.get("/api/v1/schemes", response_model=SchemeListResponse)
 def list_schemes(
-    lang: str | None = Query(default=None, pattern="^(en|ml)$"),
+    lang: str | None = Query(default=None, pattern="^(en|ml|hi)$"),
     state: str | None = Query(default=None, max_length=64),
     tag: str | None = Query(default=None, max_length=64),
     verify: bool | None = None,
@@ -93,10 +93,24 @@ def list_schemes(
     summaries: list[SchemeSummary] = []
     for s in schemes:
         name = dict(s.get("scheme_name") or {})
-        if lang == "ml" and name.get("ml"):
-            name = {"en": name.get("en", ""), "ml": name["ml"]}
+        if lang == "hi" and name.get("hi"):
+            name = {
+                "en": name.get("en", ""),
+                "ml": name.get("ml", ""),
+                "hi": name["hi"],
+            }
+        elif lang == "ml" and name.get("ml"):
+            name = {
+                "en": name.get("en", ""),
+                "ml": name["ml"],
+                "hi": name.get("hi", ""),
+            }
         elif lang == "en" and name.get("en"):
-            name = {"en": name["en"], "ml": name.get("ml", "")}
+            name = {
+                "en": name["en"],
+                "ml": name.get("ml", ""),
+                "hi": name.get("hi", ""),
+            }
         summaries.append(
             SchemeSummary(
                 id=s["id"],

@@ -6,6 +6,7 @@ const en: Dict = {
   appTitle: "Scheme Finder",
   appSubtitle: "Find India welfare schemes you may be eligible for",
   langEn: "English",
+  langHi: "हिंदी",
   langMl: "മലയാളം",
   progress: "Step {current} of {total}",
   next: "Next",
@@ -129,6 +130,7 @@ const ml: Dict = {
   appTitle: "പദ്ധതി കണ്ടെത്തൽ",
   appSubtitle: "നിങ്ങൾക്ക് യോഗ്യമായേക്കാവുന്ന ഇന്ത്യൻ ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തുക",
   langEn: "English",
+  langHi: "हिंदी",
   langMl: "മലയാളം",
   progress: "ഘട്ടം {current} / {total}",
   next: "അടുത്തത്",
@@ -248,7 +250,131 @@ const ml: Dict = {
   stage_senior: "മുതിർന്ന പൗരർ",
 };
 
-const TABLES: Record<Lang, Dict> = { en, ml };
+const hi: Dict = {
+  appTitle: "योजना खोजक",
+  appSubtitle: "वे भारतीय कल्याण योजनाएँ खोजें जिनके लिए आप पात्र हो सकते हैं",
+  langEn: "English",
+  langHi: "हिंदी",
+  langMl: "മലയാളം",
+  progress: "चरण {current} / {total}",
+  next: "आगे",
+  back: "पीछे",
+  submit: "योजनाएँ खोजें",
+  startOver: "फिर से शुरू करें",
+  loading: "योजनाएँ खोज रहे हैं…",
+  errorTitle: "सर्वर से संपर्क नहीं हो सका",
+  errorRetry: "फिर कोशिश करें",
+  errorHint: "कनेक्शन जाँचें, पेज हार्ड-रिफ़्रेश करें और फिर कोशिश करें। (API इसी साइट से मिलती है।)",
+  shareCopyLink: "लिंक कॉपी करें",
+  shareCopied: "लिंक कॉपी हो गया",
+  shareWhatsApp: "व्हाट्सऐप पर साझा करें",
+  shareMessage: "स्कीम फ़ाइंडर पर मुझे उपयुक्त लगने वाली भारतीय कल्याण योजनाएँ मिलीं:",
+  shareCopyFailed: "कॉपी नहीं हो सका — एड्रेस बार का लिंक कॉपी करें",
+
+  zeroTitle: "अभी कोई मिलान वाली योजना नहीं",
+  zeroBody:
+    "आपकी दी गई जानकारी के आधार पर स्पष्ट मिलान नहीं मिला। उत्तर बदलकर फिर कोशिश करें, या अपने स्थानीय पंचायत / नगरपालिका से मदद लें।",
+  resultsTitle: "आपके लिए उपयुक्त हो सकने वाली योजनाएँ",
+  resultsCount: "{count} योजना(एँ) मिलीं",
+  verifyBadge: "सत्यापन आवश्यक",
+  uncertainBadge: "अनिश्चित — स्थानीय रूप से पुष्टि करें",
+  likelyBadge: "संभवतः पात्र",
+  benefits: "लाभ",
+  documents: "आवश्यक दस्तावेज़",
+  howToApply: "आवेदन कैसे करें",
+  applyLink: "आवेदन / आधिकारिक पृष्ठ खोलें",
+  officialSource: "आधिकारिक स्रोत",
+  officialSourceConfirm: "आधिकारिक स्रोत — यहाँ पुष्टि करें",
+  lastVerified: "अंतिम सत्यापन: {date}",
+  dataFreshConfirm:
+    "आवेदन करने से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
+  dataStaleBanner:
+    "योजना डेटा पुराना हो सकता है (अंतिम अद्यतन {date})। आवेदन से पहले हमेशा आधिकारिक साइट पर पुष्टि करें।",
+  dataFreshBanner:
+    "योजना डेटा {date} तक अद्यतन · चुनिंदा बहु-राज्य + केंद्रीय सेट (भारत की हर योजना नहीं)। आवेदन से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
+  resultsFooterDisclaimer:
+    "यह उपकरण पात्रता की गारंटी नहीं देता। आवेदन से पहले आधिकारिक स्रोत और स्थानीय निकाय से पुष्टि करें। «सत्यापन आवश्यक» मिलान अनिश्चित हैं — उन्हें स्वीकृत न समझें।",
+
+  reason: "यह क्यों उपयुक्त हो सकता है",
+  expand: "विवरण दिखाएँ",
+  collapse: "विवरण छिपाएँ",
+  disclaimer:
+    "यह कानूनी सलाह नहीं है और पात्रता की गारंटी नहीं देता। आवेदन से पहले अपने स्थानीय निकाय (पंचायत / नगरपालिका / निगम) और आधिकारिक पोर्टल से पुष्टि करें।",
+  qAge: "आपकी आयु कितनी है?",
+  qAgeHint: "वर्षों में आयु दर्ज करें",
+  qIncome: "आपकी घरेलू आय कितनी है?",
+  qIncomeHint: "मासिक या वार्षिक चुनें, फिर लगभग राशि ₹ में दर्ज करें।",
+  qIncomeMonthly: "मासिक",
+  qIncomeYearly: "वार्षिक",
+  qIncomeMonthlyLabel: "मासिक घरेलू आय",
+  qIncomeYearlyLabel: "वार्षिक घरेलू आय",
+  qIncomeAboutYear: "लगभग ₹{amount} प्रति वर्ष",
+  qIncomeAboutMonth: "लगभग ₹{amount} प्रति माह",
+  qIncomeYearlyHelper: "मासिक दर्ज कर रहे हैं? मासिक चुनें, या वार्षिक के लिए 12 से गुणा करें।",
+  qIncomeMonthlyHelper: "वार्षिक दर्ज कर रहे हैं? वार्षिक चुनें, या मासिक के लिए 12 से भाग दें।",
+  qOccupation: "आप क्या काम करते हैं?",
+  qCategory: "क्या आप इनमें से किसी श्रेणी में आते हैं?",
+  qCategoryHint: "लागू सभी चुनें, या कोई नहीं",
+  qLand: "क्या आपके पास कृषि योग्य भूमि है?",
+  qDisability: "क्या आपको कोई दिव्यांगता है?",
+  qDisabilityPercent: "दिव्यांगता प्रतिशत (यदि ज्ञात हो)",
+  qDisabilityPercentHint: "वैकल्पिक — अनिश्चित होने पर खाली छोड़ें",
+  qDistrict: "आप किस ज़िले में रहते हैं?",
+  qDistrictFreeHint: "अपने ज़िले का नाम लिखें (केरल के अलावा अन्य राज्यों के लिए मुक्त पाठ)।",
+  qDistrictPlaceholder: "ज़िले का नाम",
+  qState: "आप किस राज्य या केंद्र शासित प्रदेश में रहते हैं?",
+  qStateHint: "केंद्रीय योजनाएँ पूरे देश में लागू; राज्य योजनाएँ आपके चयन के अनुसार दिखेंगी।",
+  resultsState: "राज्य",
+  resultsIncomeFilter: "वार्षिक आय ₹{amount} से फ़िल्टर किया गया",
+  qGender: "लिंग",
+  qMarital: "वैवाहिक स्थिति",
+  yes: "हाँ",
+  no: "नहीं",
+  rupee: "₹",
+  required: "आगे बढ़ने के लिए कृपया उत्तर दें",
+  occ_agricultural_labour: "कृषि मज़दूर",
+  occ_farmer: "किसान / भूमिधारक किसान",
+  occ_student: "विद्यार्थी",
+  occ_unemployed: "बेरोजगार",
+  occ_other: "अन्य",
+  cat_none: "कोई नहीं",
+  cat_General: "सामान्य",
+  cat_SC: "SC",
+  cat_ST: "ST",
+  cat_OBC: "OBC",
+  cat_BPL: "BPL",
+  gen_female: "महिला",
+  gen_male: "पुरुष",
+  gen_other: "अन्य",
+  mar_unmarried: "अविवाहित",
+  mar_married: "विवाहित",
+  mar_widow: "विधवा",
+  mar_widower: "विधुर",
+  mar_divorced: "तलाकशुदा",
+  mar_deserted: "परित्यक्त",
+  qMaternity: "क्या आप गर्भवती हैं या नई माँ हैं?",
+  qMaternityHint: "PMMVY / JSY जैसी मातृत्व योजनाओं के लिए आवश्यक",
+  mat_pregnant: "गर्भवती",
+  mat_lactating: "हाल ही में प्रसव / स्तनपान",
+  mat_neither: "न तो / न ही",
+  qBreadwinner: "क्या आपके परिवार का मुख्य कमाने वाला सदस्य निधन हो गया है?",
+  qBreadwinnerHint: "NFBS जैसी शोक-सहायता योजनाओं के लिए",
+  dataUpdated:
+    "योजना डेटा 15 सितं 2026 तक अद्यतन · चुनिंदा बहु-राज्य + केंद्रीय सेट (भारत की हर योजना नहीं)",
+  dataUpdatedShort: "योजना डेटा 15 सितं 2026 तक अद्यतन",
+  welcomeTitle: "स्वागत है",
+  welcomeBody:
+    "अपना राज्य चुनें, फिर कुछ आसान प्रश्नों के उत्तर दें। हम केंद्रीय और चुनिंदा राज्य कल्याण योजनाएँ सुझाते हैं जो आपकी मदद कर सकती हैं।",
+  start: "शुरू करें",
+  stage_baby: "शिशु",
+  stage_child: "बच्चा",
+  stage_teen: "किशोर",
+  stage_young_adult: "युवा",
+  stage_adult: "वयस्क",
+  stage_senior: "वरिष्ठ नागरिक",
+};
+
+const TABLES: Record<Lang, Dict> = { en, ml, hi };
 
 export function t(lang: Lang, key: string, vars?: Record<string, string | number>): string {
   const table = TABLES[lang] || en;
@@ -261,17 +387,22 @@ export function t(lang: Lang, key: string, vars?: Record<string, string | number
   return s;
 }
 
+export type LocalizedFields = { en?: string; ml?: string; hi?: string };
+
 export function pickLocalized(
   lang: Lang,
-  value: { en?: string; ml?: string } | string | string[] | null | undefined,
+  value: LocalizedFields | string | string[] | null | undefined,
 ): string {
   if (value == null) return "";
   if (typeof value === "string") return value;
   if (Array.isArray(value)) return value.join(", ");
   if (typeof value === "object") {
-    const o = value as { en?: string; ml?: string };
+    const o = value as LocalizedFields;
+    if (lang === "hi" && o.hi) return o.hi;
     if (lang === "ml" && o.ml) return o.ml;
-    return o.en || o.ml || "";
+    if (lang === "en" && o.en) return o.en;
+    // Prefer English when requested lang missing (legal/official names).
+    return o.en || o.ml || o.hi || "";
   }
   return String(value);
 }
@@ -284,7 +415,9 @@ export function pickLocalizedList(
   if (Array.isArray(value)) return value.map(String);
   if (typeof value === "object") {
     const o = value as Record<string, unknown>;
-    const list = (lang === "ml" ? o.ml : o.en) ?? o.en ?? o.ml;
+    const preferred =
+      lang === "hi" ? o.hi : lang === "ml" ? o.ml : o.en;
+    const list = preferred ?? o.en ?? o.ml ?? o.hi;
     if (Array.isArray(list)) return list.map(String);
     if (typeof list === "string") return [list];
   }

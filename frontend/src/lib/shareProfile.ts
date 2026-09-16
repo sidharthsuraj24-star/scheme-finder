@@ -113,7 +113,7 @@ export function answersToSharePayload(
 
   return {
     v: 1,
-    l: lang === "ml" ? "ml" : "en",
+    l: lang === "hi" ? "hi" : lang === "ml" ? "ml" : "en",
     st: state,
     a: Math.min(120, Math.max(0, Math.floor(answers.age))),
     i: Math.min(10_000_000, Math.max(0, Math.floor(monthlyEquiv))),
@@ -158,7 +158,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
   if (raw == null || typeof raw !== "object" || Array.isArray(raw)) return null;
   const o = raw as Record<string, unknown>;
   if (o.v !== 1) return null;
-  if (o.l !== "en" && o.l !== "ml") return null;
+  if (o.l !== "en" && o.l !== "ml" && o.l !== "hi") return null;
   // Backward compat: missing st → Kerala
   let st = DEFAULT_STATE;
   if (o.st != null) {

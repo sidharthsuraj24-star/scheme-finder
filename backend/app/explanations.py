@@ -187,7 +187,7 @@ def template_explanation(
 
     en = prefix_en + body_en + extra_en + " " + DISCLAIMER_EN
     ml = prefix_ml + body_ml + extra_ml + " " + DISCLAIMER_ML
-    return LocalizedText(en=en.strip(), ml=ml.strip())
+    return LocalizedText(en=en.strip(), ml=ml.strip(), hi=en.strip())
 
 
 def llm_explanation_stub(

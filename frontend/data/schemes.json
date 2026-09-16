@@ -3,11 +3,13 @@
     "id": "kerala-old-age-pension",
     "scheme_name": {
       "en": "Indira Gandhi National Old Age Pension Scheme (Kerala Sevana)",
-      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വയോജന പെൻഷൻ പദ്ധതി (സേവന)"
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വയോജന പെൻഷൻ പദ്ധതി (സേവന)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (केरल सेवना)"
     },
     "description": {
       "en": "Kerala social security pension for destitute elderly (60+) delivered through Local Self Government Institutions via Sevana. Combines NSAP IGNOAPS central assistance with state top-up.",
-      "ml": "കേരളത്തിലെ തദ്ദേശ സ്ഥാപനങ്ങൾ വഴി സേവന പോർട്ടലിലൂടെ വിതരണം ചെയ്യുന്ന 60 വയസ്സിനു മുകളിലുള്ള പാവപ്പെട്ട വയോജനർക്കുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ."
+      "ml": "കേരളത്തിലെ തദ്ദേശ സ്ഥാപനങ്ങൾ വഴി സേവന പോർട്ടലിലൂടെ വിതരണം ചെയ്യുന്ന 60 വയസ്സിനു മുകളിലുള്ള പാവപ്പെട്ട വയോജനർക്കുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ.",
+      "hi": "केरल में 60+ निर्धन वरिष्ठ नागरिकों के लिए सेवना के माध्यम से स्थानीय निकायों द्वारा दी जाने वाली सामाजिक सुरक्षा पेंशन। NSAP IGNOAPS केंद्रीय सहायता के साथ राज्य टॉप-अप।"
     },
     "eligibility_rules": {
       "min_age": 60,
@@ -70,11 +72,13 @@
     "id": "kerala-widow-pension",
     "scheme_name": {
       "en": "Indira Gandhi National Widow Pension Scheme (Kerala Sevana)",
-      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വിധവാ പെൻഷൻ പദ്ധതി (സേവന)"
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ വിധവാ പെൻഷൻ പദ്ധതി (സേവന)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (केरल सेवना)"
     },
     "description": {
       "en": "Kerala social security pension for widows (and specified deserted/missing-spouse cases) through Sevana / LSGIs, combining NSAP IGNWPS with state support.",
-      "ml": "വിധവകൾക്കും നിർദ്ദിഷ്ട ഉപേക്ഷിത/കാണാതായ ഭർത്താവ് സാഹചര്യങ്ങളിലുള്ള സ്ത്രീകൾക്കും സേവന വഴിയുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ."
+      "ml": "വിധവകൾക്കും നിർദ്ദിഷ്ട ഉപേക്ഷിത/കാണാതായ ഭർത്താവ് സാഹചര്യങ്ങളിലുള്ള സ്ത്രീകൾക്കും സേവന വഴിയുള്ള സാമൂഹ്യ സുരക്ഷാ പെൻഷൻ.",
+      "hi": "केरल सेवना के अंतर्गत विधवाओं के लिए सामाजिक सुरक्षा पेंशन।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -142,7 +146,8 @@
     "id": "kerala-disability-pension-physical",
     "scheme_name": {
       "en": "Indira Gandhi National Disability Pension – Physically Challenged (Kerala Sevana)",
-      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ ഭിന്നശേഷി പെൻഷൻ – ശാരീരികമായി വെല്ലുവിളി നേരിടുന്നവർ"
+      "ml": "ഇന്ദിരാഗാന്ധി ദേശീയ ഭിന്നശേഷി പെൻഷൻ – ശാരീരികമായി വെല്ലുവിളി നേരിടുന്നവർ",
+      "hi": "शारीरिक दिव्यांगता पेंशन (केरल सेवना)"
     },
     "description": {
       "en": "Kerala disability pension for persons with physical disability, implemented by LSGIs. Official LSGD page states persons with more than 40% incapability are eligible.",
@@ -210,7 +215,8 @@
     "id": "kerala-unmarried-women-pension",
     "scheme_name": {
       "en": "Pension for Unmarried Women above 50 years (Kerala Sevana)",
-      "ml": "50 വയസ്സിനു മുകളിലുള്ള അവിവാഹിത സ്ത്രീകൾക്കുള്ള പെൻഷൻ"
+      "ml": "50 വയസ്സിനു മുകളിലുള്ള അവിവാഹിത സ്ത്രീകൾക്കുള്ള പെൻഷൻ",
+      "hi": "अविवाहित महिला पेंशन (केरल सेवना)"
     },
     "description": {
       "en": "Kerala state social security pension for unmarried women aged 50 and above (including unmarried mothers 50+), administered through Sevana / LSGIs.",
@@ -418,11 +424,13 @@
     "id": "pm-kisan",
     "scheme_name": {
       "en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
-      "ml": "പ്രധാനമന്ത്രി കിസാൻ സമ്മാൻ നിധി"
+      "ml": "പ്രധാനമന്ത്രി കിസാൻ സമ്മാൻ നിധി",
+      "hi": "प्रधानमंत्री किसान सम्मान निधि (पीएम-किसान)"
     },
     "description": {
       "en": "Central Sector Scheme providing income support of Rs.6,000 per year in three equal instalments to all landholding farmer families, subject to exclusion categories.",
-      "ml": "ഭൂമിയുള്ള കർഷക കുടുംബങ്ങൾക്ക് വർഷം രൂ.6,000 (മൂന്ന് തവണ) നൽകുന്ന കേന്ദ്ര പദ്ധതി; ഒഴിവാക്കൽ വിഭാഗങ്ങൾ ബാധകം."
+      "ml": "ഭൂമിയുള്ള കർഷക കുടുംബങ്ങൾക്ക് വർഷം രൂ.6,000 (മൂന്ന് തവണ) നൽകുന്ന കേന്ദ്ര പദ്ധതി; ഒഴിവാക്കൽ വിഭാഗങ്ങൾ ബാധകം.",
+      "hi": "पात्र भूमिधारक किसान परिवारों को प्रति वर्ष ₹6,000 की आय सहायता (तीन किस्तों में)।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -487,11 +495,13 @@
     "id": "kerala-kasp-pmjay",
     "scheme_name": {
       "en": "Ayushman Bharat PM-JAY – Karunya Arogya Suraksha Padhathi (KASP)",
-      "ml": "ആയുഷ്മാൻ ഭാരത് പിഎം-ജെഎവൈ – കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി"
+      "ml": "ആയുഷ്മാൻ ഭാരത് പിഎം-ജെഎവൈ – കാരുണ്യ ആരോഗ്യ സുരക്ഷാ പദ്ധതി",
+      "hi": "आयुष्मान भारत पीएम-जेएवाई – करुण्या आरोग्य सुरक्षा पद्धति (केरल)"
     },
     "description": {
       "en": "Kerala implementation of Ayushman Bharat PM-JAY providing cashless health cover up to Rs.5 lakh per family per year for secondary and tertiary care at empanelled hospitals.",
-      "ml": "കുടുംബത്തിന് വർഷം രൂ.5 ലക്ഷം വരെ കാഷ്‌ലെസ് ചികിത്സാ പരിരക്ഷ നൽകുന്ന കേരളത്തിലെ ആയുഷ്മാൻ ഭാരത് നടത്തിപ്പ്."
+      "ml": "കുടുംബത്തിന് വർഷം രൂ.5 ലക്ഷം വരെ കാഷ്‌ലെസ് ചികിത്സാ പരിരക്ഷ നൽകുന്ന കേരളത്തിലെ ആയുഷ്മാൻ ഭാരത് നടത്തിപ്പ്.",
+      "hi": "केरल में आयुष्मान भारत पीएम-जेएवाई के अंतर्गत स्वास्थ्य बीमा कवरेज।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -551,11 +561,13 @@
     "id": "nsap-nfbs",
     "scheme_name": {
       "en": "National Family Benefit Scheme (NFBS)",
-      "ml": "ദേശീയ കുടുംബ ആനുകൂല്യ പദ്ധതി"
+      "ml": "ദേശീയ കുടുംബ ആനുകൂല്യ പദ്ധതി",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (एनएफबीएस)"
     },
     "description": {
       "en": "NSAP component providing one-time lump-sum assistance to BPL households on death of the primary breadwinner.",
-      "ml": "പ്രാഥമിക വരുമാനക്കാരന്റെ മരണത്തിൽ BPL കുടുംബങ്ങൾക്ക് ഒറ്റത്തവണ സാമ്പത്തിക സഹായം."
+      "ml": "പ്രാഥമിക വരുമാനക്കാരന്റെ മരണത്തിൽ BPL കുടുംബങ്ങൾക്ക് ഒറ്റത്തവണ സാമ്പത്തിക സഹായം.",
+      "hi": "मुख्य कमाने वाले की मृत्यु पर गरीबी रेखा से नीचे के परिवारों को एकमुश्त सहायता।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -620,11 +632,13 @@
     "id": "kerala-egrantz",
     "scheme_name": {
       "en": "e-Grantz – Post-Matric Educational Assistance (SC/ST/OBC Kerala)",
-      "ml": "ഇ-ഗ്രാന്റ്സ് – പോസ്റ്റ് മെട്രിക് വിദ്യാഭ്യാസ സഹായം"
+      "ml": "ഇ-ഗ്രാന്റ്സ് – പോസ്റ്റ് മെട്രിക് വിദ്യാഭ്യാസ സഹായം",
+      "hi": "ई-ग्रांट्ज – स्नातकोत्तर शैक्षिक सहायता (केरल SC/ST/OBC)"
     },
     "description": {
       "en": "Kerala online system for disbursement of scholarships/fee concessions for pre-matric and post-matric students of SC, ST and OBC communities via DBT.",
-      "ml": "SC/ST/OBC വിദ്യാർഥികൾക്കുള്ള വിദ്യാഭ്യാസ സഹായം DBT വഴി നൽകുന്ന കേരളത്തിന്റെ ഓൺലൈൻ സംവിധാനം."
+      "ml": "SC/ST/OBC വിദ്യാർഥികൾക്കുള്ള വിദ്യാഭ്യാസ സഹായം DBT വഴി നൽകുന്ന കേരളത്തിന്റെ ഓൺലൈൻ സംവിധാനം.",
+      "hi": "केरल में SC/ST/OBC छात्रों के लिए ई-ग्रांट्ज पोस्ट-मैट्रिक शैक्षिक सहायता।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -696,11 +710,13 @@
     "id": "adip-assistive-devices",
     "scheme_name": {
       "en": "ADIP – Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances",
-      "ml": "എഡിപ് – ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ"
+      "ml": "എഡിപ് – ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ",
+      "hi": "एडीआईपी – दिव्यांगजनों को सहायक उपकरण खरीदने/लगाने हेतु सहायता"
     },
     "description": {
       "en": "Central scheme of DEPwD providing aids and assistive devices (and corrective surgery where needed) to eligible persons with disabilities through implementing agencies / ARJUN portal.",
-      "ml": "ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ നൽകുന്ന കേന്ദ്ര പദ്ധതി."
+      "ml": "ഭിന്നശേഷിക്കാർക്ക് സഹായ ഉപകരണങ്ങൾ നൽകുന്ന കേന്ദ്ര പദ്ധതി.",
+      "hi": "पात्र दिव्यांगजनों को सहायक उपकरण खरीदने या लगाने के लिए सहायता।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -763,11 +779,13 @@
     "id": "kerala-life-mission",
     "scheme_name": {
       "en": "LIFE Mission (Livelihood Inclusion Financial Empowerment) – Kerala Housing",
-      "ml": "ലൈഫ് മിഷൻ – കേരള ഭവന പദ്ധതി"
+      "ml": "ലൈഫ് മിഷൻ – കേരള ഭവന പദ്ധതി",
+      "hi": "लाइफ मिशन (आजीविका समावेश वित्तीय सशक्तिकरण) – केरल"
     },
     "description": {
       "en": "Kerala comprehensive housing mission for homeless and landless families, incomplete/uninhabitable houses, and temporary dwellings in puramboke/coastal/plantation areas; converges with PMAY and other housing schemes.",
-      "ml": "ഭൂരഹിത/ഭവനരഹിത കുടുംബങ്ങൾക്കും അപൂർണ്ണ/താത്കാലിക ഭവനമുള്ളവർക്കുമുള്ള കേരളത്തിന്റെ സമ്പൂർണ്ണ പാർപ്പിട ദൗത്യം."
+      "ml": "ഭൂരഹിത/ഭവനരഹിത കുടുംബങ്ങൾക്കും അപൂർണ്ണ/താത്കാലിക ഭവനമുള്ളവർക്കുമുള്ള കേരളത്തിന്റെ സമ്പൂർണ്ണ പാർപ്പിട ദൗത്യം.",
+      "hi": "केरल में आवास/आजीविका समावेश हेतु लाइफ मिशन।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -835,11 +853,13 @@
     "id": "pmmvy",
     "scheme_name": {
       "en": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
-      "ml": "പ്രധാനമന്ത്രി മാതൃ വന്ദന യോജന"
+      "ml": "പ്രധാനമന്ത്രി മാതൃ വന്ദന യോജന",
+      "hi": "प्रधानमंत्री मातृ वंदना योजना (पीएमएमवीवाई)"
     },
     "description": {
       "en": "Centrally sponsored maternity benefit under Mission Shakti / NFSA Section 4: cash incentive for pregnant and lactating women from disadvantaged sections for first child, and for second child if girl.",
-      "ml": "ഗർഭിണി/മുലയൂട്ടുന്ന അമ്മമാർക്ക് ആദ്യ കുട്ടിക്കും (രണ്ടാമത്തെ കുട്ടി പെൺകുട്ടിയാണെങ്കിൽ) നൽകുന്ന കേന്ദ്ര മാതൃത്വ ആനുകൂല്യം."
+      "ml": "ഗർഭിണി/മുലയൂട്ടുന്ന അമ്മമാർക്ക് ആദ്യ കുട്ടിക്കും (രണ്ടാമത്തെ കുട്ടി പെൺകുട്ടിയാണെങ്കിൽ) നൽകുന്ന കേന്ദ്ര മാതൃത്വ ആനുകൂല്യം.",
+      "hi": "गर्भवती और स्तनपान कराने वाली माताओं के लिए सशर्त नकद प्रोत्साहन।"
     },
     "eligibility_rules": {
       "min_age": null,
@@ -916,11 +936,13 @@
     "id": "depwd-scholarship-swd",
     "scheme_name": {
       "en": "Scholarships for Students with Disabilities (DEPwD / NSP)",
-      "ml": "ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്കുള്ള സ്കോളർഷിപ്പ്"
+      "ml": "ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്കുള്ള സ്കോളർഷിപ്പ്",
+      "hi": "दिव्यांग छात्रों के लिए छात्रवृत्ति (डीईपीडब्ल्यूडी / एनएसपी)"
     },
     "description": {
       "en": "Central Sector umbrella scholarships (Pre-Matric, Post-Matric, Top Class, etc.) for students with benchmark disability, applied through National Scholarship Portal.",
-      "ml": "ബെഞ്ച്മാർക്ക് ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്ക് NSP വഴി ലഭ്യമായ കേന്ദ്ര സ്കോളർഷിപ്പുകൾ."
+      "ml": "ബെഞ്ച്മാർക്ക് ഭിന്നശേഷിയുള്ള വിദ്യാർഥികൾക്ക് NSP വഴി ലഭ്യമായ കേന്ദ്ര സ്കോളർഷിപ്പുകൾ.",
+      "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल के माध्यम से दिव्यांग छात्रों के लिए छात्रवृत्तियाँ।"
     },
     "eligibility_rules": {
       "min_age": null,

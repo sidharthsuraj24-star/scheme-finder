@@ -1,4 +1,4 @@
-export type Lang = "en" | "ml";
+export type Lang = "en" | "ml" | "hi";
 
 export type IncomeInputMode = "monthly" | "yearly";
 
@@ -33,6 +33,7 @@ export interface ProfileAnswers {
 export interface LocalizedText {
   en?: string;
   ml?: string;
+  hi?: string;
 }
 
 export interface MatchedScheme {

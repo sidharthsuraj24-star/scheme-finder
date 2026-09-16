@@ -16,6 +16,7 @@ export const RATE_LIMIT_MAX = 30;
 export interface LocalizedText {
   en: string;
   ml: string;
+  hi?: string;
 }
 
 export interface MatchProfile {

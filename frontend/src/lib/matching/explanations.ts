@@ -151,8 +151,11 @@ export function buildExplanation(args: {
     extra_ml += " ഔദ്യോഗിക നിബന്ധനകൾ verify=true ആയി അടയാളപ്പെടുത്തിയിരിക്കുന്നു.";
   }
 
+  const en_text = (prefix_en + body_en + extra_en + " " + DISCLAIMER_EN).trim();
   return {
-    en: (prefix_en + body_en + extra_en + " " + DISCLAIMER_EN).trim(),
+    en: en_text,
     ml: (prefix_ml + body_ml + extra_ml + " " + DISCLAIMER_ML).trim(),
+    // Hindi scheme-body explanations fall back to English pending native review.
+    hi: en_text,
   };
 }

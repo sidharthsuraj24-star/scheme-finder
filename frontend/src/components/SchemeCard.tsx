@@ -14,7 +14,7 @@ export default function SchemeCard({ lang, scheme }: Props) {
   const [open, setOpen] = useState(false);
   const name = pickLocalized(lang, scheme.scheme_name);
   const reason = pickLocalized(lang, scheme.explanation);
-  const benefits = pickLocalized(lang, scheme.benefits as { en?: string; ml?: string });
+  const benefits = pickLocalized(lang, scheme.benefits as { en?: string; ml?: string; hi?: string });
   const docs = pickLocalizedList(lang, scheme.documents);
   const how = pickLocalized(lang, scheme.how_to_apply);
 

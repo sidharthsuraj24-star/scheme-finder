@@ -16,6 +16,13 @@
 - `required_documents.ml` pending suffixes (`[ML copy pending native review]`) were replaced with natural Malayalam for common document labels; if unsure we keep English rather than invent wrong ML.
 - **ML was improved for shipping but still welcome native speaker review** (tone, honorifics, and LSGD terminology).
 
+
+## UI languages EN / ML / HI (2026-09-16)
+
+- UI languages: **English (en)**, **Malayalam (ml)**, **Hindi (hi)**.
+- Hindi UI chrome is complete in `frontend/src/lib/i18n.ts` (welcome, questions, buttons, errors, freshness banners, income labels, share, disclaimers, age life-stage labels, zero-match, filtered-using-income, etc.).
+- Scheme body fields (`scheme_name` / `description` / `benefits` / `how_to_apply` / `required_documents`) support an optional `hi` key; **where missing, the UI falls back to English** — do not invent unofficial Hindi legal names. A sample of major schemes has official-style Hindi names; full catalogue Hindi pending native review.
+
 ## Planned stack fallbacks (Phase 2+)
 
 | Concern | Preferred | Fallback |

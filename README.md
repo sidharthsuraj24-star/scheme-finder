@@ -1,6 +1,6 @@
 # Scheme Finder
 
-Bilingual (EN/ML) mobile-first India welfare scheme wizard (central + curated multi-state). Deterministic rules only.
+Trilingual (EN/ML/HI) mobile-first India welfare scheme wizard (central + curated multi-state). Deterministic rules only. Hindi UI complete; scheme body Hindi may fall back to English pending native review.
 
 Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
@@ -66,7 +66,7 @@ See docs/DEPLOY.md for steps and blockers.
 
 - District collected in UI but unused in matcher.
 - Several schemes verify=true; see verify_notes / docs/SCHEMES.md.
-- Malayalam may need native review.
+- Malayalam and Hindi scheme-body copy may need native review (UI chrome for both is shipped; missing `hi` scheme fields fall back to English).
 - Not legal advice; confirm with implementing office.
 - Substitutions: SQLite/in-memory not Supabase; template not LLM; local build not Cloud Agent.
 - See docs/TEST_LOG.md for Phase 4 results.

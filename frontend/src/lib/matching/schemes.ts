@@ -43,7 +43,9 @@ export function listSchemeSummaries(opts?: {
 
   return list.map((s) => {
     const name = { ...(s.scheme_name || {}) };
-    if (lang === "ml" && name.ml) {
+    if (lang === "hi" && name.hi) {
+      /* keep hi when present; UI falls back to en via pickLocalized */
+    } else if (lang === "ml" && name.ml) {
       /* keep both */
     } else if (lang === "en" && name.en) {
       /* keep both */

@@ -24,7 +24,7 @@ Schemes load from `../data/schemes.json` into memory (SQLite dump optional via `
 | Method | Path | Description |
 |--------|------|-------------|
 | GET | `/health` | Liveness `{status, version}` |
-| GET | `/schemes?lang=en\|ml` | Scheme summaries (`state`, `tag`, `verify` filters) |
+| GET | `/schemes?lang=en\|ml\|hi` | Scheme summaries (`state`, `tag`, `verify` filters) |
 | GET | `/schemes/{id}` | Full scheme record |
 | POST | `/match` | Deterministic eligibility match |
 | POST | `/explain` | Template (or LLM-stub) explanation |

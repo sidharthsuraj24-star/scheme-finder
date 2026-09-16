@@ -82,7 +82,7 @@ export default function HomeClient() {
     let initialLang: Lang = "en";
     try {
       const saved = localStorage.getItem(LANG_KEY);
-      if (saved === "en" || saved === "ml") initialLang = saved;
+      if (saved === "en" || saved === "ml" || saved === "hi") initialLang = saved;
     } catch {
       /* ignore */
     }

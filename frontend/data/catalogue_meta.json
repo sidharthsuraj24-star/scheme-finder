@@ -5,5 +5,6 @@
   "scope": "Curated multi-state + central schemes across all 28 states + 8 UTs (not every scheme in India). Kerala remains fully curated; other states/UTs have flagship starter sets with official .gov.in / myScheme / UT portal sources.",
   "auto_update": "semi-automatic — see docs/DATA_REFRESH.md",
   "stale_after_days": 30,
-  "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated."
+  "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated.",
+  "ui_languages": "en, ml, hi — Hindi UI complete; scheme body Hindi may fall back to English pending native review"
 }

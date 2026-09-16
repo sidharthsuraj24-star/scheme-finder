@@ -12,9 +12,9 @@ export async function GET(request: Request) {
   if (verifyParam === "true") verify = true;
   else if (verifyParam === "false") verify = false;
 
-  if (lang && lang !== "en" && lang !== "ml") {
+  if (lang && lang !== "en" && lang !== "ml" && lang !== "hi") {
     return jsonWithSecurity(
-      { error: { code: "bad_lang", message: "lang must be en or ml" } },
+      { error: { code: "bad_lang", message: "lang must be en, ml, or hi" } },
       { status: 400 },
     );
   }
