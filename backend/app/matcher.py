@@ -218,6 +218,22 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
         else:
             result.ok("max_monthly_household_income")
 
+    # Soft gate for BPL/destitute schemes with no numeric ceiling encoded.
+    # Prefer real max_annual_income / max_monthly when known; this only applies when both are null.
+    # Documented threshold: annual >= ₹5,00,000 → hard exclude (implies_low_income).
+    IMPLIES_LOW_INCOME_ANNUAL_GATE = 500_000
+    implies_low = bool(rules.get("implies_low_income"))
+    if implies_low and max_annual is None and max_monthly is None:
+        annual = profile.annual_income
+        if annual is None and profile.monthly_household_income is not None:
+            annual = float(profile.monthly_household_income) * 12
+        if annual is None:
+            result.miss("annual_income")
+        elif float(annual) >= float(IMPLIES_LOW_INCOME_ANNUAL_GATE):
+            result.fail("implies_low_income")
+        else:
+            result.ok("implies_low_income")
+
     # --- disability ---
     disability_required = bool(rules.get("disability_required"))
     min_disability = rules.get("min_disability_percent")

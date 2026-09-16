@@ -84,9 +84,17 @@ export function answersToSharePayload(
   lang: Lang,
 ): SharePayloadV1 | null {
   const state = answers.state || DEFAULT_STATE;
+  const monthlyEquiv = (() => {
+    if (answers.income_amount != null && Number.isFinite(answers.income_amount)) {
+      return answers.income_mode === "yearly"
+        ? answers.income_amount / 12
+        : answers.income_amount;
+    }
+    return answers.monthly_household_income;
+  })();
   if (
     answers.age == null ||
-    answers.monthly_household_income == null ||
+    monthlyEquiv == null ||
     !answers.occupation ||
     !answers.categories.length ||
     (answers.land_ownership !== "yes" && answers.land_ownership !== "no") ||
@@ -108,7 +116,7 @@ export function answersToSharePayload(
     l: lang === "ml" ? "ml" : "en",
     st: state,
     a: Math.min(120, Math.max(0, Math.floor(answers.age))),
-    i: Math.min(10_000_000, Math.max(0, Math.floor(answers.monthly_household_income))),
+    i: Math.min(10_000_000, Math.max(0, Math.floor(monthlyEquiv))),
     o: answers.occupation,
     c: answers.categories.slice(0, 8),
     lo: answers.land_ownership,
@@ -129,6 +137,9 @@ export function sharePayloadToAnswers(p: SharePayloadV1): ProfileAnswers {
   return {
     state: p.st || DEFAULT_STATE,
     age: p.a,
+    // Share links always store monthly equivalent; restore as monthly mode.
+    income_mode: "monthly",
+    income_amount: p.i,
     monthly_household_income: p.i,
     occupation: p.o,
     categories: [...p.c],

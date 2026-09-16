@@ -23,6 +23,8 @@ function rulePhraseEn(rule: string, scheme: SchemeRecord, profile: MatchProfile)
       return `annual income ${fmtIncome(profile.annual_income)} within cap ${fmtIncome(rules.max_annual_income as number)}`;
     case "max_monthly_household_income":
       return `monthly household income ${fmtIncome(profile.monthly_household_income)} within cap ${fmtIncome(rules.max_monthly_household_income as number)}`;
+    case "implies_low_income":
+      return `annual income ${fmtIncome(profile.annual_income)} within soft low-income gate (BPL/destitute; gate Rs.5,00,000)`;
     case "gender":
       return `gender '${profile.gender}' matches required '${rules.gender}'`;
     case "marital_status":
@@ -67,6 +69,8 @@ function rulePhraseMl(rule: string, scheme: SchemeRecord, profile: MatchProfile)
       return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income)} പരിധി ${fmtIncome(rules.max_annual_income as number)} യിൽ ഉൾപ്പെടുന്നു`;
     case "max_monthly_household_income":
       return `മാസ വരുമാനം ${fmtIncome(profile.monthly_household_income)} പരിധിക്കുള്ളിൽ`;
+    case "implies_low_income":
+      return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income)} താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; Rs.5,00,000)`;
     case "gender":
       return `ലിംഗം '${profile.gender}' യോജിക്കുന്നു`;
     case "marital_status":

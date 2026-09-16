@@ -1036,3 +1036,201 @@ def test_life_income_hard_fail_even_with_verify_and_housing(schemes):
     assert "kerala-life-mission" not in _matched_ids(resp)
     excluded = next(e for e in resp.excluded if e.scheme_id == "kerala-life-mission")
     assert "max_annual_income" in excluded.reasons
+
+
+# ---------------------------------------------------------------------------
+# Income differentiation: same demographics, three income bands
+# ---------------------------------------------------------------------------
+
+
+def _kerala_base(**income_kwargs) -> MatchProfile:
+    """Shared Kerala demographics — only income varies across the three bands."""
+    return MatchProfile(
+        age=53,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="married",
+        disability=False,
+        disability_percent=0,
+        primary_breadwinner_deceased=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["homeless", "landless"],
+        housing_status="homeless",
+        **income_kwargs,
+    )
+
+
+def test_three_income_bands_differ_for_life_and_pensions(schemes):
+    """Low ~3k/mo, mid ~40k/mo, high 12.5L/year → different LIFE/pension outcomes; high never gets LIFE."""
+    low = _kerala_base(monthly_household_income=3_000)  # annual 36_000
+    mid = _kerala_base(monthly_household_income=40_000)  # annual 480_000
+    high = _kerala_base(annual_income=1_250_000)  # 12.5L/year (yearly wizard mode)
+
+    assert low.annual_income == 36_000
+    assert mid.annual_income == 480_000
+    assert high.annual_income == 1_250_000
+    assert high.monthly_household_income == pytest.approx(1_250_000 / 12)
+
+    resp_low = match_schemes(schemes, low)
+    resp_mid = match_schemes(schemes, mid)
+    resp_high = match_schemes(schemes, high)
+
+    life = "kerala-life-mission"
+    # LIFE max_annual=300000: low under, mid/high over
+    assert life in _matched_ids(resp_low)
+    assert life not in _matched_ids(resp_mid)
+    assert life not in _matched_ids(resp_high)
+    assert any(
+        e.scheme_id == life and "max_annual_income" in e.reasons for e in resp_high.excluded
+    )
+    assert any(
+        e.scheme_id == life and "max_annual_income" in e.reasons for e in resp_mid.excluded
+    )
+
+    # Kerala Sevana-style pensions: max_annual=100000 — low may match age/gender/etc.;
+    # mid (4.8L) and high (12.5L) must be excluded on income.
+    pension = "kerala-old-age-pension"  # min_age 60 — age 53 will fail age, not income.
+    # Use widow pension path? age 53 married female — widow needs widow status.
+    # Disability / unmarried not applicable. agri labour needs occupation.
+    # So for this demographic, pensions may not match on age/marital — assert LIFE band
+    # differences above, and assert high income excludes LIFE + Karunya (3L) + Matru etc.
+    karunya = "kerala-karunya-benevolent-fund"  # max_annual 300000
+    assert karunya not in _matched_ids(resp_high)
+    assert karunya not in _matched_ids(resp_mid)
+    # low vs mid/high matched sets differ (LIFE present only on low)
+    assert _matched_ids(resp_low) != _matched_ids(resp_mid)
+    assert _matched_ids(resp_low) != _matched_ids(resp_high)
+    # Mid (4.8L) and high (12.5L) may share the same non-income-gated matches for this
+    # demographic; pension differentiation is covered below with a senior profile.
+
+    # Same demographics as seniors → pensions differ by income
+    senior_low = MatchProfile(
+        age=70,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="widow",
+        monthly_household_income=3_000,
+        disability=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["BPL"],
+    )
+    senior_mid = MatchProfile(
+        age=70,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="widow",
+        monthly_household_income=40_000,  # annual 4.8L > 1L Sevana + > 3L LIFE
+        disability=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["BPL"],
+    )
+    senior_high = MatchProfile(
+        age=70,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="widow",
+        annual_income=1_250_000,
+        disability=False,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["BPL"],
+    )
+    r_sl = match_schemes(schemes, senior_low)
+    r_sm = match_schemes(schemes, senior_mid)
+    r_sh = match_schemes(schemes, senior_high)
+    oap = "kerala-old-age-pension"
+    widow = "kerala-widow-pension"
+    assert oap in _matched_ids(r_sl)
+    assert widow in _matched_ids(r_sl)
+    assert oap not in _matched_ids(r_sm) and oap not in _matched_ids(r_sh)
+    assert widow not in _matched_ids(r_sm) and widow not in _matched_ids(r_sh)
+    assert _matched_ids(r_sl) != _matched_ids(r_sm)
+    assert _matched_ids(r_sl) != _matched_ids(r_sh)
+
+
+def test_high_annual_income_via_yearly_field_excludes_life(schemes):
+    """Wizard Yearly mode sends annual_income=1250000 directly — must exclude LIFE."""
+    profile = MatchProfile(
+        age=53,
+        gender="female",
+        state="Kerala",
+        district="Palakkad",
+        marital_status="married",
+        annual_income=1_250_000,
+        categories=["homeless"],
+        housing_status="homeless",
+        land_ownership="none",
+        occupations=["other"],
+    )
+    assert profile.annual_income == 1_250_000
+    resp = match_schemes(schemes, profile)
+    assert "kerala-life-mission" not in _matched_ids(resp)
+    excluded = next(e for e in resp.excluded if e.scheme_id == "kerala-life-mission")
+    assert "max_annual_income" in excluded.reasons
+
+
+def test_implies_low_income_soft_gate_excludes_high_earners(schemes):
+    """BPL/destitute schemes without numeric ceiling exclude annual >= 5L via implies_low_income."""
+    high = MatchProfile(
+        age=65,
+        gender="male",
+        state="Meghalaya",
+        annual_income=600_000,
+        categories=["BPL"],
+        occupations=["other"],
+        land_ownership="none",
+    )
+    low = MatchProfile(
+        age=65,
+        gender="male",
+        state="Meghalaya",
+        annual_income=80_000,
+        categories=["BPL"],
+        occupations=["other"],
+        land_ownership="none",
+    )
+    resp_high = match_schemes(schemes, high)
+    resp_low = match_schemes(schemes, low)
+    sid = "ml-nsap-old-age-pension"
+    assert sid not in _matched_ids(resp_high)
+    assert any(
+        e.scheme_id == sid and "implies_low_income" in e.reasons for e in resp_high.excluded
+    )
+    assert sid in _matched_ids(resp_low)
+
+
+def test_aasara_official_income_ceiling(schemes):
+    """Telangana Aasara: official urban max ₹2L encoded; over → exclude."""
+    over = MatchProfile(
+        age=65,
+        gender="male",
+        state="Telangana",
+        annual_income=250_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="none",
+    )
+    under = MatchProfile(
+        age=65,
+        gender="male",
+        state="Telangana",
+        annual_income=180_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="none",
+    )
+    resp_over = match_schemes(schemes, over)
+    resp_under = match_schemes(schemes, under)
+    sid = "tg-aasara-pension"
+    assert sid not in _matched_ids(resp_over)
+    assert any(
+        e.scheme_id == sid and "max_annual_income" in e.reasons for e in resp_over.excluded
+    )
+    assert sid in _matched_ids(resp_under)

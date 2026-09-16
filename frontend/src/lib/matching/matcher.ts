@@ -194,6 +194,21 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
     else result.ok("max_monthly_household_income");
   }
 
+  // Soft gate for BPL/destitute schemes with no numeric ceiling encoded.
+  // Prefer real max_annual_income / max_monthly when known; this only applies when both are null.
+  // Documented threshold: annual >= ₹5,00,000 → hard exclude (implies_low_income).
+  const IMPLIES_LOW_INCOME_ANNUAL_GATE = 500_000;
+  const impliesLow = Boolean(rules.implies_low_income);
+  if (impliesLow && maxAnnual == null && maxMonthly == null) {
+    let annual = profile.annual_income;
+    if (annual == null && profile.monthly_household_income != null) {
+      annual = Number(profile.monthly_household_income) * 12;
+    }
+    if (annual == null) result.miss("annual_income");
+    else if (Number(annual) >= IMPLIES_LOW_INCOME_ANNUAL_GATE) result.fail("implies_low_income");
+    else result.ok("implies_low_income");
+  }
+
   // --- disability ---
   const disabilityRequired = Boolean(rules.disability_required);
   const minDisability = rules.min_disability_percent as number | undefined | null;

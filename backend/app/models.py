@@ -111,14 +111,18 @@ class MatchProfile(BaseModel):
 
     @model_validator(mode="after")
     def _derive_income_and_disability(self) -> MatchProfile:
+        # Prefer annual_income when both are provided (Yearly wizard / explicit API).
+        # Re-derive monthly from annual so caps stay consistent.
+        if self.annual_income is not None and self.monthly_household_income is not None:
+            self.monthly_household_income = float(self.annual_income) / 12
         # Derive annual from monthly*12 when only monthly provided.
-        if self.annual_income is None and self.monthly_household_income is not None:
+        elif self.annual_income is None and self.monthly_household_income is not None:
             derived = float(self.monthly_household_income) * 12
             if derived > _INCOME_ANNUAL_MAX:
                 raise ValueError("derived annual_income exceeds cap")
             self.annual_income = derived
         # Derive monthly from annual/12 when only annual provided (for monthly-cap schemes).
-        if self.monthly_household_income is None and self.annual_income is not None:
+        elif self.monthly_household_income is None and self.annual_income is not None:
             self.monthly_household_income = float(self.annual_income) / 12
 
         # disability bool from percent if unset

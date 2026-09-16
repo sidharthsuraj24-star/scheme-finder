@@ -124,14 +124,16 @@ export function buildProfile(raw: Record<string, unknown>): MatchProfile {
     max: INCOME_MONTHLY_MAX,
   });
 
-  if (annual == null && monthly != null) {
+  // Prefer annual_income when both provided (Yearly wizard / explicit API).
+  if (annual != null && monthly != null) {
+    monthly = annual / 12;
+  } else if (annual == null && monthly != null) {
     const derived = monthly * 12;
     if (derived > INCOME_ANNUAL_MAX) {
       throw new ValidationError("derived_income", "derived annual_income exceeds cap");
     }
     annual = derived;
-  }
-  if (monthly == null && annual != null) {
+  } else if (monthly == null && annual != null) {
     monthly = annual / 12;
   }
 

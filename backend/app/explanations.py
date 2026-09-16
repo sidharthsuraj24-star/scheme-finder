@@ -44,6 +44,11 @@ def _rule_phrase_en(
             f"monthly household income {_fmt_income(profile.monthly_household_income)} "
             f"within cap {_fmt_income(rules.get('max_monthly_household_income'))}"
         )
+    if rule == "implies_low_income":
+        return (
+            f"annual income {_fmt_income(profile.annual_income)} within soft low-income gate "
+            f"(scheme implies BPL/destitute; no numeric ceiling encoded; gate Rs.5,00,000)"
+        )
     if rule == "gender":
         return f"gender '{profile.gender}' matches required '{rules.get('gender')}'"
     if rule == "marital_status":
@@ -101,6 +106,11 @@ def _rule_phrase_ml(
         return (
             f"മാസ വരുമാനം {_fmt_income(profile.monthly_household_income)} "
             f"പരിധിക്കുള്ളിൽ"
+        )
+    if rule == "implies_low_income":
+        return (
+            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income)} "
+            f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; Rs.5,00,000)"
         )
     if rule == "gender":
         return f"ലിംഗം '{profile.gender}' യോജിക്കുന്നു"

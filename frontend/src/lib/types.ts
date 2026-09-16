@@ -1,9 +1,21 @@
 export type Lang = "en" | "ml";
 
+export type IncomeInputMode = "monthly" | "yearly";
+
 export interface ProfileAnswers {
   /** Canonical India state/UT English name */
   state: string | null;
   age: number | null;
+  /**
+   * Amount the user typed in the wizard, in the units of income_mode.
+   * Prefer yearly mode for clarity (users often type annual figures).
+   */
+  income_amount: number | null;
+  /** Monthly vs yearly entry; API gets annual_income or monthly_household_income accordingly. */
+  income_mode: IncomeInputMode;
+  /**
+   * @deprecated Prefer income_amount + income_mode. Kept as monthly equivalent for share links.
+   */
   monthly_household_income: number | null;
   occupation: string | null;
   categories: string[];
@@ -72,7 +84,8 @@ export interface MatchRequestBody {
     state: string;
     district?: string;
     marital_status?: string;
-    monthly_household_income: number;
+    monthly_household_income?: number;
+    annual_income?: number;
     occupations: string[];
     categories: string[];
     disability?: boolean;

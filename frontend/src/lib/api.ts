@@ -73,8 +73,14 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
   const is_lactating = answers.maternity === "lactating";
 
   // Clamp absurd client-side values (server also validates).
+  // Prefer annual_income when wizard is in Yearly mode; Monthly sends monthly and API derives annual.
   const age = Math.min(120, Math.max(0, answers.age ?? 0));
-  const monthly = Math.min(10_000_000, Math.max(0, answers.monthly_household_income ?? 0));
+  const mode = answers.income_mode === "monthly" ? "monthly" : "yearly";
+  const raw = Math.max(0, answers.income_amount ?? answers.monthly_household_income ?? 0);
+  const incomeFields =
+    mode === "yearly"
+      ? { annual_income: Math.min(100_000_000, raw) }
+      : { monthly_household_income: Math.min(10_000_000, raw) };
 
   return {
     profile: {
@@ -83,7 +89,7 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
       state: answers.state || "Kerala",
       district: answers.district || undefined,
       marital_status: answers.marital_status || undefined,
-      monthly_household_income: monthly,
+      ...incomeFields,
       occupations,
       categories,
       disability: answers.disability === null ? undefined : disability,

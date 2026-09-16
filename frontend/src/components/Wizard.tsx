@@ -19,6 +19,8 @@ import ProgressBar from "./ProgressBar";
 const emptyAnswers = (): ProfileAnswers => ({
   state: null,
   age: null,
+  income_amount: null,
+  income_mode: "yearly",
   monthly_household_income: null,
   occupation: null,
   categories: [],
@@ -63,12 +65,12 @@ export default function Wizard({ lang, onSubmit }: Props) {
         return !!answers.state;
       case 2:
         return answers.age != null && answers.age >= 0 && answers.age <= 120;
-      case 3:
-        return (
-          answers.monthly_household_income != null &&
-          answers.monthly_household_income >= 0 &&
-          answers.monthly_household_income <= 10_000_000
-        );
+      case 3: {
+        const amount = answers.income_amount;
+        if (amount == null || amount < 0) return false;
+        const max = answers.income_mode === "yearly" ? 100_000_000 : 10_000_000;
+        return amount <= max;
+      }
       case 4:
         return !!answers.occupation;
       case 5:
@@ -205,13 +207,54 @@ export default function Wizard({ lang, onSubmit }: Props) {
             <AgeLifeStage age={answers.age} lang={lang} />
           </div>
         );
-      case 3:
+      case 3: {
+        const mode = answers.income_mode === "monthly" ? "monthly" : "yearly";
+        const amount = answers.income_amount;
+        const fmt = (n: number) =>
+          Math.round(n).toLocaleString("en-IN");
+        const conversion =
+          amount != null && amount >= 0
+            ? mode === "monthly"
+              ? t(lang, "qIncomeAboutYear").replace("{amount}", fmt(amount * 12))
+              : t(lang, "qIncomeAboutMonth").replace("{amount}", fmt(amount / 12))
+            : null;
+        const setMode = (next: "monthly" | "yearly") => {
+          setAnswers((a) => ({
+            ...a,
+            income_mode: next,
+            // Keep typed amount; only change unit interpretation.
+            monthly_household_income:
+              a.income_amount == null
+                ? null
+                : next === "monthly"
+                  ? a.income_amount
+                  : a.income_amount / 12,
+          }));
+        };
         return (
           <div className="space-y-3">
             <label htmlFor="income" className="block text-xl font-bold text-slate-900">
-              {t(lang, "qIncome")}
+              {t(lang, mode === "yearly" ? "qIncomeYearlyLabel" : "qIncomeMonthlyLabel")}
             </label>
             <p className="text-sm text-slate-600">{t(lang, "qIncomeHint")}</p>
+            <div className="flex gap-2" role="group" aria-label={t(lang, "qIncome")}>
+              <button
+                type="button"
+                className={choiceBtn(mode === "yearly")}
+                onClick={() => setMode("yearly")}
+                aria-pressed={mode === "yearly"}
+              >
+                {t(lang, "qIncomeYearly")}
+              </button>
+              <button
+                type="button"
+                className={choiceBtn(mode === "monthly")}
+                onClick={() => setMode("monthly")}
+                aria-pressed={mode === "monthly"}
+              >
+                {t(lang, "qIncomeMonthly")}
+              </button>
+            </div>
             <div className="relative">
               <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-lg font-bold text-slate-500">
                 {t(lang, "rupee")}
@@ -223,18 +266,31 @@ export default function Wizard({ lang, onSubmit }: Props) {
                 inputMode="numeric"
                 min={0}
                 className="min-h-tap w-full rounded-xl border-2 border-slate-300 py-3 pl-10 pr-4 text-lg transition focus:border-brand-600"
-                value={answers.monthly_household_income ?? ""}
-                onChange={(e) =>
+                value={answers.income_amount ?? ""}
+                onChange={(e) => {
+                  const v = e.target.value === "" ? null : Number(e.target.value);
                   setAnswers((a) => ({
                     ...a,
+                    income_amount: v,
                     monthly_household_income:
-                      e.target.value === "" ? null : Number(e.target.value),
-                  }))
-                }
+                      v == null
+                        ? null
+                        : a.income_mode === "monthly"
+                          ? v
+                          : v / 12,
+                  }));
+                }}
               />
             </div>
+            {conversion ? (
+              <p className="text-sm font-medium text-brand-700">{conversion}</p>
+            ) : null}
+            <p className="text-xs text-slate-500">
+              {t(lang, mode === "yearly" ? "qIncomeYearlyHelper" : "qIncomeMonthlyHelper")}
+            </p>
           </div>
         );
+      }
       case 4:
         return (
           <fieldset className="space-y-3">

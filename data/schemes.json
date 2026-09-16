@@ -576,9 +576,10 @@
       ],
       "notes": "BPL household; deceased primary breadwinner aged 18-59 as per recent PIB NSAP brief (some NSAP FAQ pages still say 18-64). Assistance Rs.20,000 lump sum per recent official PIB document.",
       "verify": true,
-      "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band.",
+      "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL household (NSAP NFBS) — no single national rupee ceiling encoded.",
       "primary_breadwinner_deceased_required": true,
-      "nationwide": true
+      "nationwide": true,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "One-time lump-sum financial assistance of Rs.20,000 (as stated in MoRD/PIB NSAP brief).",
@@ -1348,7 +1349,8 @@
       "nationwide": false,
       "notes": "Enrolment and sum insured change by government order. Do not invent income ceilings — confirm on cmchistn.com / TN Health insurance portal. BPL/SECC-style categories used as soft signals only.",
       "verify": true,
-      "verify_notes": "Beneficiary universe and card issuance rules evolve; treat as uncertain without official enrolment confirmation. Official portal: https://www.cmchistn.com/"
+      "verify_notes": "Beneficiary universe and card issuance rules evolve; treat as uncertain without official enrolment confirmation. Official portal: https://www.cmchistn.com/ implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL/SECC-style enrolment (cmchistn.com) — do not invent rupee ceiling; soft gate for high income.",
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Cashless inpatient treatment cover as per current CMCHIS package rates and sum insured notified by Government of Tamil Nadu.",
@@ -1605,7 +1607,8 @@
       "nationwide": false,
       "notes": "Eligibility tied to yellow/orange ration card categories and/or PM-JAY SECC lists as notified. Do not invent income thresholds.",
       "verify": true,
-      "verify_notes": "Confirm beneficiary categories and PM-JAY convergence on https://www.jeevandayee.gov.in/ or current MJPJAY portal before hard-matching."
+      "verify_notes": "Confirm beneficiary categories and PM-JAY convergence on https://www.jeevandayee.gov.in/ or current MJPJAY portal before hard-matching. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Yellow/orange ration / PM-JAY SECC (jeevandayee.gov.in) — historically low-income card holders; soft gate only.",
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Cashless cover for notified packages up to the sum insured published by the State Health Assurance Society.",
@@ -2313,7 +2316,7 @@
       ],
       "notes": "Old Age Pension is one of multiple NTR Bharosa pension types (widow, weavers, PwD, etc.). Exact income/BPL and exclusion rules are enforced at sanction — confirm on https://abdg.aptonline.in/SSP",
       "verify": true,
-      "verify_notes": "Portal confirms Old Age Pension type and enhanced amounts from July 2024; detailed income filters not fully listed on landing page — verify=true.",
+      "verify_notes": "Portal confirms Old Age Pension type and enhanced amounts from July 2024; detailed income filters not fully listed on landing page — verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Destitute / BPL status required (sspensions.ap.gov.in) — no single rupee ceiling published; soft gate only.",
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -2322,7 +2325,8 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly pension DBT — old-age category commonly enhanced to Rs.4,000/month from July 2024 per portal G.O. note (confirm live amount).",
@@ -2369,13 +2373,13 @@
     "eligibility_rules": {
       "min_age": 57,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 200000,
       "states": [
         "Telangana"
       ],
-      "notes": "Official Hyderabad District page describes Aasara for old and infirm, widows, PwD, weavers, toddy tappers, etc. Age thresholds differ by category (elderly vs widow vs PwD). This row uses a conservative elderly-oriented min_age; confirm category rules on aasara.telangana.gov.in / MeeSeva.",
+      "notes": "Official Hyderabad District page describes Aasara for old and infirm, widows, PwD, weavers, toddy tappers, etc. Age thresholds differ by category (elderly vs widow vs PwD). This row uses a conservative elderly-oriented min_age; confirm category rules on aasara.telangana.gov.in / MeeSeva. Official exclusion (CAG 2023): annual income >₹1.50L rural / >₹2.00L urban.",
       "verify": true,
-      "verify_notes": "min_age=57 is an approximate elderly threshold used historically in Telangana pensions; widows/PwD may have different ages — keep verify=true.",
+      "verify_notes": "min_age=57 is an approximate elderly threshold used historically in Telangana pensions; widows/PwD may have different ages — keep verify=true. Income ceiling from CAG Audit Report No.1 of 2023 (Telangana): annual household income more than ₹1.50 lakh (rural) / ₹2.00 lakh (urban) is an exclusion. Encoded max_annual_income=200000 (urban absolute max); rural applicants above 150000 remain verify/uncertain at district level.",
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -3440,8 +3444,9 @@
       ],
       "notes": "Official Social Welfare rules page: destitute elderly without adequate means; men aged 60+ and women aged 55+; Manipur residence exceeding 10 years and Indian citizenship; if both spouses destitute, each may apply. Encoded min_age uses the lower (women) threshold — male age 60+ must be re-checked. Historical rules text cites a low monthly amount; Assembly Social Welfare report cites ongoing MOAPS disbursement (commonly state top-up ~₹200/month) — confirm current rate with the department.",
       "verify": true,
-      "verify_notes": "Gender-specific ages (women 55 / men 60), 10-year domicile, and current benefit amount are not fully encoded. Sources: https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/ and https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/ — keep verify=true.",
-      "nationwide": false
+      "verify_notes": "Gender-specific ages (women 55 / men 60), 10-year domicile, and current benefit amount are not fully encoded. Sources: https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/ and https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/ — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Destitute elderly without adequate means (socialwelfare.mn.gov.in) — no numeric ceiling found.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly state pension via Social Welfare DBT — confirm current MOAPS amount with the department (rules page historically ₹60; recent administrative reports cite higher ongoing assistance).",
@@ -3508,8 +3513,9 @@
       ],
       "notes": "Official Meghalaya schemes page: IGNOAPS for BPL persons aged 60+ (higher central rate commonly from age 80+). Amounts quoted on the portal page may lag current NSAP + state top-up rates — confirm with District Social Welfare / C&RD before applying.",
       "verify": true,
-      "verify_notes": "Current combined pension amount and village-council recommendation practice should be re-verified on https://meghalaya.gov.in/schemes/content/37326 — keep verify=true.",
-      "nationwide": false
+      "verify_notes": "Current combined pension amount and village-council recommendation practice should be re-verified on https://meghalaya.gov.in/schemes/content/37326 — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. IGNOAPS for BPL persons (meghalaya.gov.in) — no separate rupee ceiling encoded.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly old-age pension under NSAP IGNOAPS (portal text historically cites central rates; confirm current Meghalaya disbursed amount including any state top-up).",
@@ -3576,8 +3582,9 @@
       ],
       "notes": "Administered by Social Welfare & Tribal Affairs, Government of Mizoram. Typical NSAP path: age 60+, BPL / destitute criteria as applied in the state; higher support often from age 80+. Confirm current income/BPL tests, ILP/residence rules and monthly rate with District Social Welfare Officer.",
       "verify": true,
-      "verify_notes": "Detailed income ceilings and exact state top-up amounts were not fully extractable from the public page at verification time (portal may intermittently return 403). Re-check https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home — keep verify=true.",
-      "nationwide": false
+      "verify_notes": "Detailed income ceilings and exact state top-up amounts were not fully extractable from the public page at verification time (portal may intermittently return 403). Re-check https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL / destitute NSAP-style (socialwelfare.mizoram.gov.in) — no numeric ceiling found.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly pension via DBT under Mizoram Social Welfare / NSAP implementation — confirm current rate with the department.",
@@ -3712,8 +3719,9 @@
       ],
       "notes": "Official pensionscheme.sikkim.gov.in eligibility: general criteria include SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. SUWPS-specific: age 45+ and Unmarried Certificate.",
       "verify": true,
-      "verify_notes": "COI/SSC vs residential certificate branches and exact ration-card type must be confirmed on https://pensionscheme.sikkim.gov.in/ — keep verify=true.",
-      "nationwide": false
+      "verify_notes": "COI/SSC vs residential certificate branches and exact ration-card type must be confirmed on https://pensionscheme.sikkim.gov.in/ — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL + Antyodaya/PHH ration card (pensionscheme.sikkim.gov.in) — no separate rupee ceiling.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly pension under Sikkim Unmarried Women Pension Scheme (state innovative) — confirm current amount on the official pension portal.",
@@ -4113,8 +4121,9 @@
       ],
       "notes": "Department of Social & Tribal Welfare, UT Ladakh administers old-age pensions under Integrated Social Security / NSAP pathways. Commonly cited conditions: BPL / without adequate means; women aged 55+ and men aged 60+; monthly pension commonly ₹1,000. Encoded min_age uses the lower (women) threshold — male age 60+ must be re-checked. Confirm on https://socialwelfare.ladakh.gov.in/schemes.php and https://helphub.ladakh.gov.in/landing/pension",
       "verify": true,
-      "verify_notes": "Gender-specific ages and exact BPL/income tests should be re-verified on Ladakh Social Welfare / Help Hub pages — keep verify=true.",
-      "nationwide": false
+      "verify_notes": "Gender-specific ages and exact BPL/income tests should be re-verified on Ladakh Social Welfare / Help Hub pages — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL / without adequate means (socialwelfare.ladakh.gov.in) — no numeric ceiling found.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly old-age pension commonly cited as ₹1,000 via DBT — confirm current Ladakh rate with Tehsil / District Social Welfare Officer.",
@@ -4180,8 +4189,9 @@
       ],
       "notes": "Department of Social Welfare & Tribal Affairs (established 1978) lists Social Security & Old Age among its core sectors on https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/. Typical island practice follows NSAP-style old-age support for permanent residents aged 60+ without regular income; publicly cited monthly assistance often around ₹1,500 — confirm current income ceiling and rate with the department (lk-dsw@nic.in / island SW offices).",
       "verify": true,
-      "verify_notes": "Exact income ceiling and current monthly amount were not fully published on the department landing page at verification — keep verify=true. Source: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
-      "nationwide": false
+      "verify_notes": "Exact income ceiling and current monthly amount were not fully published on the department landing page at verification — keep verify=true. Source: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. NSAP-style without regular income (lakshadweep.gov.in) — no numeric ceiling found.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly old-age / social-security pension via DBT — confirm current Lakshadweep amount with Social Welfare & Tribal Affairs.",
@@ -4246,8 +4256,9 @@
       ],
       "notes": "Official WCD Puducherry scheme page covers Old Age Persons and Destitutes Pension. Commonly published age bands start from 55+ with tiered monthly assistance (often cited ₹2,000 / ₹2,500 / ₹3,500 by age band). Income, permanent residence in the UT, and non-receipt of other pensions typically apply — confirm exact income ceiling and current slabs on https://wcd.py.gov.in/old-age-persons-and-destitutes-pension",
       "verify": true,
-      "verify_notes": "Exact income ceiling and age-band benefit slabs must be confirmed on the WCD page — keep verify=true. Related India.gov service listing also exists for broader widow/deserted/unmarried/transgender pension pathways.",
-      "nationwide": false
+      "verify_notes": "Exact income ceiling and age-band benefit slabs must be confirmed on the WCD page — keep verify=true. Related India.gov service listing also exists for broader widow/deserted/unmarried/transgender pension pathways. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Old Age Persons and Destitutes Pension (wcd.py.gov.in) — destitute framing; no numeric ceiling confirmed on public page.",
+      "nationwide": false,
+      "implies_low_income": true
     },
     "benefits": {
       "en": "Monthly pension with age-band rates commonly cited for 55–59 / 60–79 / 80+ — confirm current Puducherry slabs on the official WCD page.",
