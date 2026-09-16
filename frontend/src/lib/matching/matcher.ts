@@ -562,6 +562,7 @@ export function matchSchemes(
     count: truncated.length,
     district: profile.district ?? null,
     state: profile.state || null,
+    country: profile.country || "India",
     catalogue: freshness.catalogue,
     is_stale: freshness.is_stale,
   };
