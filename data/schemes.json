@@ -21115,5 +21115,2991 @@
       "cm-seva"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dl-women-distress-pension",
+    "scheme_name": {
+      "en": "Delhi Pension Scheme to Women in Distress (Widow Pension)",
+      "hi": "दिल्ली महिला संकट पेंशन योजना (विधवा पेंशन)",
+      "ml": "(EN — Malayalam review pending) Delhi Pension Scheme to Women in Distress (Widow Pension)"
+    },
+    "description": {
+      "en": "NCT of Delhi financial assistance for widows, divorced, separated, abandoned, deserted or destitute women administered by Women & Child Development via e-District.",
+      "hi": "एनसीटी दिल्ली — विधवा/तलाकशुदा/परित्यक्ता/निराश्रित महिलाओं हेतु वित्तीय सहायता (ई-डिस्ट्रिक्ट)।",
+      "ml": "(EN — Malayalam review pending) NCT of Delhi financial assistance for widows, divorced, separated, abandoned, deserted or destitute women administered by Women & Child Development via e-District."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "divorced",
+        "deserted",
+        "separated"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "WCD Delhi FAQ / myScheme rules: woman who is widow, divorced, separated, abandoned, deserted or destitute; age 18+ lifelong; annual income of applicant less than ₹1,00,000 from all sources; residence of minimum 5 years in Delhi (FAQ); Aadhaar; single-operated Aadhaar-linked bank account in NCT of Delhi; must not receive similar pension/assistance from Central/State/MCD/NDMC or other sources.",
+      "verify_notes": "2026-09-16: https://wcd.delhi.gov.in/faqs ; https://rules.myscheme.gov.in/en/check-eligibility/dpswdwp — 5-year residence and exact benefit rate confirm on e-District / WCD.",
+      "states": [
+        "Delhi"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly financial assistance via DBT — confirm current Delhi rate on e-District / WCD FAQ.",
+      "hi": "मासिक वित्तीय सहायता (डीबीटी) — वर्तमान दर ई-डिस्ट्रिक्ट/WCD से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly financial assistance via DBT — confirm current Delhi rate on e-District / WCD FAQ."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "Proof of widowhood / divorce / separation / desertion",
+        "5-year Delhi residence proof",
+        "Income proof",
+        "Delhi single-operated Aadhaar-linked bank account",
+        "Passport photo"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "Proof of widowhood / divorce / separation / desertion",
+        "5-year Delhi residence proof",
+        "Income proof",
+        "Delhi single-operated Aadhaar-linked bank account",
+        "Passport photo"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "Proof of widowhood / divorce / separation / desertion"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on e-District Delhi under Department of Women & Child Development. https://edistrict.delhigovt.nic.in/",
+      "hi": "ई-डिस्ट्रिक्ट दिल्ली पर ऑनलाइन आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply online on e-District Delhi under Department of Women & Child Development. https://edistrict.delhigovt.nic.in/"
+    },
+    "apply_url": "https://edistrict.delhigovt.nic.in/",
+    "office_type": "Department of Women and Child Development, Government of NCT of Delhi",
+    "official_source_url": "https://wcd.delhi.gov.in/faqs",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "delhi",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dl-fapsn-disability",
+    "scheme_name": {
+      "en": "Financial Assistance for Persons with Special Needs (Disability Pension) – Delhi",
+      "hi": "विशेष आवश्यकताओं वाले व्यक्तियों हेतु वित्तीय सहायता (दिव्यांग पेंशन) – दिल्ली",
+      "ml": "(EN — Malayalam review pending) Financial Assistance for Persons with Special Needs (Disability Pension) – Delhi"
+    },
+    "description": {
+      "en": "Delhi disability pension for persons with benchmark disabilities (including children), administered via e-District / Social Welfare.",
+      "hi": "दिल्ली दिव्यांग पेंशन — बेंचमार्क दिव्यांगता वाले व्यक्तियों (बच्चों सहित) हेतु ई-डिस्ट्रिक्ट।",
+      "ml": "(EN — Malayalam review pending) Delhi disability pension for persons with benchmark disabilities (including children), administered via e-District / Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "e-District / Social Welfare FAQ & DSLSA summary: minimum 40% disability irrespective of age; annual family income less than ₹1,00,000 (e-District FAQ definition of family); resident of Delhi for last 5 years (parent residence for minors); Aadhaar mandatory; must not receive similar pension/assistance from other government sources. myScheme eligibility quiz also asks family income ₹75,000 or less — treat as conflicting secondary cue; prefer e-District FAQ ₹1 lakh until reconciled.",
+      "verify_notes": "2026-09-16: e-District FAPSN FAQ; https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/ ; https://rules.myscheme.gov.in/en/check-eligibility/fafpwsn — income ceiling discrepancy (1 lakh vs 75k quiz) — verify=true.",
+      "states": [
+        "Delhi"
+      ]
+    },
+    "benefits": {
+      "en": "₹2,500 per month as published on e-District / DSLSA Social Welfare scheme summary — confirm current rate.",
+      "hi": "मासिक ₹2,500 (प्रकाशित) — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹2,500 per month as published on e-District / DSLSA Social Welfare scheme summary — confirm current rate."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate (40%+)",
+        "5-year Delhi residence proof",
+        "Income proof",
+        "Delhi bank account",
+        "Photograph"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate (40%+)",
+        "5-year Delhi residence proof",
+        "Income proof",
+        "Delhi bank account",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate (40%+)",
+        "5-year Delhi residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on e-District Delhi (Financial Assistance for Persons with Special Needs) or District Social Welfare Office. https://edistrict.delhigovt.nic.in/",
+      "hi": "ई-डिस्ट्रिक्ट दिल्ली / जिला समाज कल्याण कार्यालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online on e-District Delhi (Financial Assistance for Persons with Special Needs) or District Social Welfare Office. https://edistrict.delhigovt.nic.in/"
+    },
+    "apply_url": "https://edistrict.delhigovt.nic.in/",
+    "office_type": "Department of Social Welfare, Government of NCT of Delhi",
+    "official_source_url": "https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/",
+    "tags": [
+      "pension",
+      "disability",
+      "delhi",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dl-ladli-scheme",
+    "scheme_name": {
+      "en": "Delhi Ladli Scheme (2008)",
+      "hi": "दिल्ली लाड़ली योजना (2008)",
+      "ml": "(EN — Malayalam review pending) Delhi Ladli Scheme (2008)"
+    },
+    "description": {
+      "en": "Girl-child savings / financial assistance scheme of GNCTD Women & Child Development for eligible Delhi-born girls (up to two surviving girls per family).",
+      "hi": "दिल्ली में जन्मी पात्र बालिकाओं हेतु लाड़ली बचत/वित्तीय सहायता (प्रति परिवार अधिकतम दो जीवित बालिकाएँ)।",
+      "ml": "(EN — Malayalam review pending) Girl-child savings / financial assistance scheme of GNCTD Women & Child Development for eligible Delhi-born girls (up to two surviving girls per family)."
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 18,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "WCD Delhi Ladli pages/FAQ: girl born in Delhi; family residence in Delhi commonly cited as at least 3 years; combined annual family income not exceeding ₹1 lakh; benefit limited to two surviving girls; school-going girls must attend a recognised Delhi school; staged payments for births on/after 01/01/2008 (commonly cited ₹10,000 at birth / ₹11,000 for institutional birth toward ~₹1 lakh maturity path) — confirm current slabs on WCD FAQ.",
+      "verify_notes": "2026-09-16: https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme-2008 ; https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme ; WCD FAQs — exact maturity/stage amounts and application windows re-confirm on live FAQ.",
+      "states": [
+        "Delhi"
+      ]
+    },
+    "benefits": {
+      "en": "Staged financial assistance toward girl-child maturity amount as published on WCD Ladli / FAQ pages — confirm current stage amounts.",
+      "hi": "चरणबद्ध वित्तीय सहायता (WCD लाड़ली/FAQ) — वर्तमान किस्तें पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Staged financial assistance toward girl-child maturity amount as published on WCD Ladli / FAQ pages — confirm current stage amounts."
+    },
+    "required_documents": {
+      "en": [
+        "Birth certificate (Delhi)",
+        "Aadhaar (child/parent)",
+        "Residence proof (Delhi)",
+        "Income proof",
+        "School admission proof (where applicable)",
+        "Bank account details"
+      ],
+      "hi": [
+        "Birth certificate (Delhi)",
+        "Aadhaar (child/parent)",
+        "Residence proof (Delhi)",
+        "Income proof",
+        "School admission proof (where applicable)",
+        "Bank account details"
+      ],
+      "ml": [
+        "Birth certificate (Delhi)",
+        "Aadhaar (child/parent)",
+        "Residence proof (Delhi)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via e-District Delhi / WCD Ladli service within notified timelines. https://edistrict.delhigovt.nic.in/",
+      "hi": "ई-डिस्ट्रिक्ट दिल्ली / WCD लाड़ली सेवा पर अधिसूचित समय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online via e-District Delhi / WCD Ladli service within notified timelines. https://edistrict.delhigovt.nic.in/"
+    },
+    "apply_url": "https://edistrict.delhigovt.nic.in/",
+    "office_type": "Department of Women and Child Development, Government of NCT of Delhi",
+    "official_source_url": "https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme-2008",
+    "tags": [
+      "girl-child",
+      "women",
+      "education",
+      "delhi",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dl-sugamya-sahayak",
+    "scheme_name": {
+      "en": "Sugamya Sahayak Scheme – Assistive Devices for PwD (Delhi)",
+      "hi": "सुगम्य सहायक योजना – दिव्यांगजन हेतु सहायक उपकरण (दिल्ली)",
+      "ml": "(EN — Malayalam review pending) Sugamya Sahayak Scheme – Assistive Devices for PwD (Delhi)"
+    },
+    "description": {
+      "en": "Delhi Social Welfare scheme providing durable assistive devices (motorised tricycles, wheelchairs, hearing aids, crutches, callipers, walkers, Braille kits/smartphones for visually impaired, etc.) to persons with benchmark disabilities.",
+      "hi": "दिल्ली समाज कल्याण — बेंचमार्क दिव्यांगता वाले व्यक्तियों हेतु सहायक उपकरण वितरण।",
+      "ml": "(EN — Malayalam review pending) Delhi Social Welfare scheme providing durable assistive devices (motorised tricycles, wheelchairs, hearing aids, crutches, callipers, walkers, Braille kits/smartphones for visually impaired, etc.) to persons with benchmark disabilities."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "DSLSA page summarising Department of Social Welfare GNCTD schemes: Sugamya Sahayak facilitates mobility & empowerment of persons with benchmark disabilities (including children) with listed assistive devices. Exact income/residence tests not fully restated on the DSLSA summary — confirm with Social Welfare / e-District.",
+      "verify_notes": "2026-09-16: https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/ citing DSW GNCTD — income ceiling not encoded; verify=true.",
+      "states": [
+        "Delhi"
+      ]
+    },
+    "benefits": {
+      "en": "Assistive devices as sanctioned (motorised tricycle, wheelchair, hearing aid, crutches, callipers, walker, Braille kit/smartphone, etc.) — confirm current device list.",
+      "hi": "स्वीकृत सहायक उपकरण — वर्तमान सूची पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Assistive devices as sanctioned (motorised tricycle, wheelchair, hearing aid, crutches, callipers, walker, Braille kit/smartphone, etc.) — confirm current device list."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability / UDID certificate (benchmark disability)",
+        "Residence proof (Delhi)",
+        "Bank account",
+        "Photograph"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability / UDID certificate (benchmark disability)",
+        "Residence proof (Delhi)",
+        "Bank account",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability / UDID certificate (benchmark disability)",
+        "Residence proof (Delhi)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Department of Social Welfare / e-District pathways as notified. https://socialwelfare.delhi.gov.in/social/welfare-persons-disabilities",
+      "hi": "समाज कल्याण विभाग / ई-डिस्ट्रिक्ट के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Department of Social Welfare / e-District pathways as notified. https://socialwelfare.delhi.gov.in/social/welfare-persons-disabilities"
+    },
+    "apply_url": "https://socialwelfare.delhi.gov.in/social/welfare-persons-disabilities",
+    "office_type": "Department of Social Welfare, Government of NCT of Delhi",
+    "official_source_url": "https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/",
+    "tags": [
+      "disability",
+      "assistive-devices",
+      "delhi"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ch-widow-pension",
+    "scheme_name": {
+      "en": "Widow / Destitute Women Pension (Chandigarh)",
+      "hi": "विधवा / निराश्रित महिला पेंशन (चंडीगढ़)",
+      "ml": "(EN — Malayalam review pending) Widow / Destitute Women Pension (Chandigarh)"
+    },
+    "description": {
+      "en": "UT Chandigarh Social Welfare, Women and Child Development widow pension service on ServiceOnline (DBT).",
+      "hi": "चंडीगढ़ समाज कल्याण — विधवा/निराश्रित महिला पेंशन (ServiceOnline)।",
+      "ml": "(EN — Malayalam review pending) UT Chandigarh Social Welfare, Women and Child Development widow pension service on ServiceOnline (DBT)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "ServiceOnline service 'UT CHANDIGARH WIDOW PENSION' (serviceId=16400001): Department of Social Welfare, Women and Child Development. Enclosures include Aadhaar, residential proof of 3 years, bank passbook, age proof, husband death certificate (widow), un-traceability / 100% disability certificate in case of destitute. Income ceiling commonly aligned with other Chandigarh social pensions at ₹1.5 lakh/year and monthly pension commonly ₹1,000 — confirm on live service page.",
+      "verify_notes": "2026-09-16: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001 — numeric income ceiling and current rate not printed on enclosure summary; encoded 1.5 lakh / verify=true following existing Chandigarh OAP pattern.",
+      "states": [
+        "Chandigarh"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly widow/destitute pension via DBT (commonly cited ₹1,000 — confirm current Chandigarh rate).",
+      "hi": "मासिक पेंशन (सामान्यतः ₹1,000) — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow/destitute pension via DBT (commonly cited ₹1,000 — confirm current Chandigarh rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook",
+        "Age proof",
+        "Husband death certificate (widow) / un-traceability or 100% disability certificate (destitute)"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook",
+        "Age proof",
+        "Husband death certificate (widow) / un-traceability or 100% disability certificate (destitute)"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on ServiceOnline Chandigarh Widow Pension service. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001",
+      "hi": "ServiceOnline चंडीगढ़ विधवा पेंशन सेवा पर ऑनलाइन आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online on ServiceOnline Chandigarh Widow Pension service. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001"
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "chandigarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ch-disability-pension",
+    "scheme_name": {
+      "en": "Pension for Disabled Person (Chandigarh)",
+      "hi": "दिव्यांग व्यक्ति पेंशन (चंडीगढ़)",
+      "ml": "(EN — Malayalam review pending) Pension for Disabled Person (Chandigarh)"
+    },
+    "description": {
+      "en": "Chandigarh Social Welfare disability pension service on ServiceOnline requiring government-issued disability certificate.",
+      "hi": "चंडीगढ़ समाज कल्याण — दिव्यांग पेंशन (ServiceOnline)।",
+      "ml": "(EN — Malayalam review pending) Chandigarh Social Welfare disability pension service on ServiceOnline requiring government-issued disability certificate."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 150000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "ServiceOnline 'Pension for Disabled Person' (serviceId=15940001): enclosures include Aadhaar, 3-year residential proof, bank passbook, age proof, and Disability Certificate/Card issued by GMSH-16 / GMCH-32 / PGI / Govt. Hospital Manimajra / Govt. Hospital 22. Income ceiling commonly ₹1.5 lakh; published rates often ₹1,000 (40–70%) / ₹2,000 (>70%) on secondary summaries — confirm on department/ServiceOnline.",
+      "verify_notes": "2026-09-16: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001 — percent slabs and income ceiling not on enclosure HTML; verify=true.",
+      "states": [
+        "Chandigarh"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly disability pension via DBT — confirm current Chandigarh rate/slabs with Social Welfare.",
+      "hi": "मासिक दिव्यांग पेंशन — वर्तमान दर/स्लैब पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension via DBT — confirm current Chandigarh rate/slabs with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook",
+        "Age proof",
+        "Disability certificate / card from listed government hospitals"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook",
+        "Age proof",
+        "Disability certificate / card from listed government hospitals"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residential proof of 3 years",
+        "Bank passbook"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001",
+      "hi": "ServiceOnline पर ऑनलाइन आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001"
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001",
+    "tags": [
+      "pension",
+      "disability",
+      "chandigarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ch-dependent-children-widows",
+    "scheme_name": {
+      "en": "Financial Assistance to Dependent Children of Widows and Destitute Women (Chandigarh)",
+      "hi": "विधवा एवं निराश्रित महिलाओं के आश्रित बच्चों हेतु वित्तीय सहायता (चंडीगढ़)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Dependent Children of Widows and Destitute Women (Chandigarh)"
+    },
+    "description": {
+      "en": "Chandigarh Social Welfare DBT service providing monetary assistance for dependent children of widows and destitute women.",
+      "hi": "चंडीगढ़ — विधवा/निराश्रित महिलाओं के आश्रित बच्चों हेतु मौद्रिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Chandigarh Social Welfare DBT service providing monetary assistance for dependent children of widows and destitute women."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "ServiceOnline serviceId=14280001 under Department of Social Welfare, Women and Child Development. Enclosures include residential proof, Aadhaar, ration card, birth proof, photographs. Exact age/income ceilings and per-child amount not printed on the public enclosure summary — confirm with department.",
+      "verify_notes": "2026-09-16: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001 — eligibility numeric fields not on page; verify=true.",
+      "states": [
+        "Chandigarh"
+      ]
+    },
+    "benefits": {
+      "en": "Monetary assistance for dependent children via DBT — confirm current amount and child age limits with Social Welfare.",
+      "hi": "आश्रित बच्चों हेतु मौद्रिक सहायता — राशि/आयु सीमा पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monetary assistance for dependent children via DBT — confirm current amount and child age limits with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Residential proof",
+        "Aadhaar",
+        "Ration card",
+        "Birth proof of child",
+        "Photograph",
+        "Widow/destitute status proof"
+      ],
+      "hi": [
+        "Residential proof",
+        "Aadhaar",
+        "Ration card",
+        "Birth proof of child",
+        "Photograph",
+        "Widow/destitute status proof"
+      ],
+      "ml": [
+        "Residential proof",
+        "Aadhaar",
+        "Ration card"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001",
+      "hi": "ServiceOnline पर ऑनलाइन आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001"
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001",
+    "tags": [
+      "women",
+      "children",
+      "widow",
+      "chandigarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ch-marriage-sc-widows-daughter",
+    "scheme_name": {
+      "en": "Financial Assistance for Marriage of Daughters of Widows/Destitute Women (SC) – Chandigarh",
+      "hi": "विधवा/निराश्रित महिलाओं की पुत्रियों के विवाह हेतु वित्तीय सहायता (एससी) – चंडीगढ़",
+      "ml": "(EN — Malayalam review pending) Financial Assistance for Marriage of Daughters of Widows/Destitute Women (SC) – Chandigarh"
+    },
+    "description": {
+      "en": "Chandigarh Social Welfare marriage assistance for daughters of widows and destitute women belonging to Scheduled Castes.",
+      "hi": "चंडीगढ़ — एससी विधवा/निराश्रित महिलाओं की पुत्रियों हेतु विवाह सहायता।",
+      "ml": "(EN — Malayalam review pending) Chandigarh Social Welfare marriage assistance for daughters of widows and destitute women belonging to Scheduled Castes."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "SC"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "ServiceOnline serviceId=15700004: Financial Assistance for the Marriage of Daughters of Widows and Destitute Women belonging to SC. Enclosures include Aadhaar and caste proof. Exact grant amount and bride age/income rules not on enclosure summary — confirm with department.",
+      "verify_notes": "2026-09-16: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004 — amount not published on service card; verify=true.",
+      "states": [
+        "Chandigarh"
+      ]
+    },
+    "benefits": {
+      "en": "One-time marriage assistance (amount as sanctioned) — confirm current grant with Social Welfare Chandigarh.",
+      "hi": "एकमुश्त विवाह सहायता — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) One-time marriage assistance (amount as sanctioned) — confirm current grant with Social Welfare Chandigarh."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Caste (SC) proof",
+        "Widow/destitute mother proof",
+        "Marriage-related documents as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Caste (SC) proof",
+        "Widow/destitute mother proof",
+        "Marriage-related documents as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Caste (SC) proof",
+        "Widow/destitute mother proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online/by hand on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004",
+      "hi": "ServiceOnline पर आवेदन (ऑनलाइन/हस्तलिखित)।",
+      "ml": "(EN — Malayalam review pending) Apply online/by hand on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004"
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004",
+    "tags": [
+      "marriage",
+      "sc",
+      "women",
+      "chandigarh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ch-aids-disabled",
+    "scheme_name": {
+      "en": "Financial Assistance to Purchase Aids for Disabled Persons (Chandigarh)",
+      "hi": "दिव्यांग व्यक्तियों हेतु सहायक उपकरण खरीद सहायता (चंडीगढ़)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance to Purchase Aids for Disabled Persons (Chandigarh)"
+    },
+    "description": {
+      "en": "Chandigarh Social Welfare assistance to purchase aids/appliances for disabled persons (including two-wheeler where applicable).",
+      "hi": "चंडीगढ़ — दिव्यांगजन हेतु सहायक उपकरण खरीद हेतु वित्तीय सहायता।",
+      "ml": "(EN — Malayalam review pending) Chandigarh Social Welfare assistance to purchase aids/appliances for disabled persons (including two-wheeler where applicable)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "ServiceOnline serviceId=16210001: Financial Assistance to purchase aids for disabled persons. Enclosures include photographs, residence proof, Aadhaar, disability certificate, UDID, vendor quotation, and income certificate (format). Driving licence/quotation required for two-wheeler cases. Exact income ceiling and device list not fully restated on HTML summary.",
+      "verify_notes": "2026-09-16: https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001 — confirm income format ceiling and eligible devices; verify=true.",
+      "states": [
+        "Chandigarh"
+      ]
+    },
+    "benefits": {
+      "en": "Financial assistance toward purchase of approved aids/appliances (as sanctioned) — confirm current device list and ceilings.",
+      "hi": "स्वीकृत सहायक उपकरणों हेतु सहायता — सूची/सीमा पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Financial assistance toward purchase of approved aids/appliances (as sanctioned) — confirm current device list and ceilings."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residence proof",
+        "Disability certificate / UDID",
+        "Income certificate (prescribed format)",
+        "Vendor quotation",
+        "Photographs",
+        "Driving licence (two-wheeler cases)"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residence proof",
+        "Disability certificate / UDID",
+        "Income certificate (prescribed format)",
+        "Vendor quotation",
+        "Photographs",
+        "Driving licence (two-wheeler cases)"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residence proof",
+        "Disability certificate / UDID"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001",
+      "hi": "ServiceOnline पर ऑनलाइन आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply online on ServiceOnline. https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001"
+    },
+    "apply_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001",
+    "office_type": "Department of Social Welfare, Women and Child Development, Chandigarh Administration",
+    "official_source_url": "https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001",
+    "tags": [
+      "disability",
+      "assistive-devices",
+      "chandigarh"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Jammu and Kashmir)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "NSAP IGNOAPS in J&K for BPL elderly, applied via Jan Sugam JK-ISSS/GOI-NSAP pension service / Tehsil Social Welfare.",
+      "hi": "जम्मू-कश्मीर NSAP IGNOAPS — BPL वृद्धजन; Jan Sugam / तहसील समाज कल्याण।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNOAPS in J&K for BPL elderly, applied via Jan Sugam JK-ISSS/GOI-NSAP pension service / Tehsil Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Directorate of Social Welfare Kashmir NSAP page: centrally sponsored; financial assistance to persons aged 60+ living below poverty line (BPL); published rate ₹1,000 per month on IGNOAPS criteria table. Apply via DSWO/TSWO or Jan Sugam service 'Application for Sanction of Pension under JK-ISSS / GOI-NSAP'.",
+      "verify_notes": "2026-09-16: https://socialwelfarekashmir.jk.gov.in/IGNOAPS.html ; https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014 — confirm current rate and Jammu division mirror pages.",
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension commonly ₹1,000 as published on Social Welfare Kashmir IGNOAPS table — confirm current amount.",
+      "hi": "मासिक पेंशन सामान्यतः ₹1,000 — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension commonly ₹1,000 as published on Social Welfare Kashmir IGNOAPS table — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL / income proof",
+        "Address proof",
+        "Aadhaar",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "hi": [
+        "Age proof",
+        "BPL / income proof",
+        "Address proof",
+        "Aadhaar",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL / income proof",
+        "Address proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam JK-ISSS/GOI-NSAP service or Tehsil/District Social Welfare Office. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+      "hi": "Jan Sugam / तहसील समाज कल्याण कार्यालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam JK-ISSS/GOI-NSAP service or Tehsil/District Social Welfare Office. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://socialwelfarekashmir.jk.gov.in/IGNOAPS.html",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Jammu and Kashmir)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "NSAP IGNWPS component in J&K for eligible BPL widows via Jan Sugam JK-ISSS/GOI-NSAP.",
+      "hi": "जम्मू-कश्मीर NSAP IGNWPS — पात्र BPL विधवाएँ।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNWPS component in J&K for eligible BPL widows via Jan Sugam JK-ISSS/GOI-NSAP."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "NSAP widow pension administered under J&K Social Welfare; Jan Sugam pension service lists death certificate, non-remarriage certificate, maintenance affidavit among enclosures. National NSAP framing typically covers BPL widows in the 40–79 age band — confirm UT-specific age band on Social Welfare / e-UNNAT.",
+      "verify_notes": "2026-09-16: https://socialwelfarekashmir.jk.gov.in/welfareschemes.html ; Jan Sugam serviceId=18880014 — exact J&K age band/rate re-confirm; verify=true.",
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension under NSAP/ISSS pathway — confirm current J&K rate with Social Welfare.",
+      "hi": "मासिक विधवा पेंशन — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension under NSAP/ISSS pathway — confirm current J&K rate with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Ration card / BPL proof",
+        "Husband death certificate",
+        "Non-remarriage certificate",
+        "Age proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Ration card / BPL proof",
+        "Husband death certificate",
+        "Non-remarriage certificate",
+        "Age proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Ration card / BPL proof",
+        "Husband death certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+      "hi": "Jan Sugam JK-ISSS/GOI-NSAP पर आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://socialwelfarekashmir.jk.gov.in/welfareschemes.html",
+    "tags": [
+      "pension",
+      "widow",
+      "nsap",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Jammu and Kashmir)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "NSAP IGNDPS in J&K for BPL persons with severe disability via Jan Sugam JK-ISSS/GOI-NSAP (UDID among listed enclosures).",
+      "hi": "जम्मू-कश्मीर NSAP IGNDPS — गंभीर दिव्यांगता वाले BPL लाभार्थी।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNDPS in J&K for BPL persons with severe disability via Jan Sugam JK-ISSS/GOI-NSAP (UDID among listed enclosures)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "NSAP disability pension under J&K Social Welfare; Jan Sugam know-your-eligibility asks benchmark disability 40%+ while national IGNDPS typically requires severe/multiple disability (often 80%+). Encode national IGNDPS severe-disability framing; confirm J&K medical threshold on Social Welfare page.",
+      "verify_notes": "2026-09-16: Jan Sugam serviceId=18880014 (UDID enclosure); https://jansugam.jk.gov.in/knowYourEligibility.html — percent threshold conflict possible; verify=true.",
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension under NSAP pathway — confirm current J&K rate and disability % rule.",
+      "hi": "मासिक दिव्यांगता पेंशन — दर एवं प्रतिशत नियम पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension under NSAP pathway — confirm current J&K rate and disability % rule."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof",
+        "Age proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "hi": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof",
+        "Age proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "ml": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+      "hi": "Jan Sugam JK-ISSS/GOI-NSAP पर आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://socialwelfarekashmir.jk.gov.in/welfareschemes.html",
+    "tags": [
+      "pension",
+      "disability",
+      "nsap",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-isss-women-distress",
+    "scheme_name": {
+      "en": "Integrated Social Security Scheme – Widows / Women in Distress (Jammu and Kashmir)",
+      "hi": "एकीकृत सामाजिक सुरक्षा योजना – विधवा / संकटग्रस्त महिलाएँ (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Integrated Social Security Scheme – Widows / Women in Distress (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "J&K state-sponsored ISSS component for widows/women in distress, applied through the same Jan Sugam JK-ISSS/GOI-NSAP pension service.",
+      "hi": "जम्मू-कश्मीर राज्य प्रायोजित ISSS — विधवा/संकटग्रस्त महिला घटक।",
+      "ml": "(EN — Malayalam review pending) J&K state-sponsored ISSS component for widows/women in distress, applied through the same Jan Sugam JK-ISSS/GOI-NSAP pension service."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "divorced",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Social Welfare Kashmir lists ISSS components including Widows/Women in Distress (WID). Jan Sugam pension application lists divorce certificate, maintenance affidavit, non-remarriage certificate among enclosures. Exact age/income tests mirror destitute/BPL ISSS framing — confirm on Social Welfare ISSS pages.",
+      "verify_notes": "2026-09-16: https://socialwelfarekashmir.jk.gov.in/welfareschemes.html ; Jan Sugam 18880014 — age/rate not fully encoded; verify=true.",
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly ISSS women-in-distress pension — confirm current J&K amount with Social Welfare.",
+      "hi": "मासिक ISSS महिला पेंशन — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly ISSS women-in-distress pension — confirm current J&K amount with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Ration / BPL proof",
+        "Widow/divorce/desertion proof",
+        "Non-remarriage / maintenance affidavit as applicable",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Ration / BPL proof",
+        "Widow/divorce/desertion proof",
+        "Non-remarriage / maintenance affidavit as applicable",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Ration / BPL proof",
+        "Widow/divorce/desertion proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+      "hi": "Jan Sugam पर आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://socialwelfarekashmir.jk.gov.in/welfareschemes.html",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "isss",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-isss-pcp",
+    "scheme_name": {
+      "en": "Integrated Social Security Scheme – Physically Challenged Persons (Jammu and Kashmir)",
+      "hi": "एकीकृत सामाजिक सुरक्षा योजना – शारीरिक रूप से चुनौतीग्रस्त व्यक्ति (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Integrated Social Security Scheme – Physically Challenged Persons (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "J&K ISSS pension component for physically challenged persons (and related transgender ISSS pathway listed by Social Welfare).",
+      "hi": "जम्मू-कश्मीर ISSS — शारीरिक चुनौतीग्रस्त व्यक्तियों हेतु पेंशन घटक।",
+      "ml": "(EN — Malayalam review pending) J&K ISSS pension component for physically challenged persons (and related transgender ISSS pathway listed by Social Welfare)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Social Welfare Kashmir ISSS lists Pension for Physically Challenged Persons (PCP) and a Transgender Community pension pathway. Jan Sugam pension service lists UDID and transgender identity certificate among enclosures. Confirm disability % and BPL tests locally.",
+      "verify_notes": "2026-09-16: https://socialwelfarekashmir.jk.gov.in/welfareschemes.html ; Jan Sugam 18880014 — verify=true.",
+      "states": [
+        "Jammu and Kashmir"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly ISSS PCP pension — confirm current J&K amount and disability threshold.",
+      "hi": "मासिक ISSS PCP पेंशन — राशि/प्रतिशत पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly ISSS PCP pension — confirm current J&K amount and disability threshold."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "hi": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof",
+        "Bank passbook",
+        "Affidavit of no other pension"
+      ],
+      "ml": [
+        "Aadhaar",
+        "UDID / disability certificate",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+      "hi": "Jan Sugam पर आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam JK-ISSS/GOI-NSAP. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18880014",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://socialwelfarekashmir.jk.gov.in/welfareschemes.html",
+    "tags": [
+      "pension",
+      "disability",
+      "isss",
+      "jammu-kashmir",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "jk-motorized-tricycle",
+    "scheme_name": {
+      "en": "Grant of Motorized Tricycle to Specially Abled Person (Jammu and Kashmir)",
+      "hi": "विशेष रूप से सक्षम व्यक्ति को मोटर चालित ट्राइसाइकिल अनुदान (जम्मू और कश्मीर)",
+      "ml": "(EN — Malayalam review pending) Grant of Motorized Tricycle to Specially Abled Person (Jammu and Kashmir)"
+    },
+    "description": {
+      "en": "J&K Social Welfare Jan Sugam service granting motorized tricycle to specially abled persons with locomotor disability (benchmark 40%+), age 18–50.",
+      "hi": "जम्मू-कश्मीर — 40%+ लोकोमोटर दिव्यांगता वाले 18–50 आयु वर्ग हेतु मोटर ट्राइसाइकिल।",
+      "ml": "(EN — Malayalam review pending) J&K Social Welfare Jan Sugam service granting motorized tricycle to specially abled persons with locomotor disability (benchmark 40%+), age 18–50."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 50,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Jan Sugam serviceId=19560004: UDID Disability Certificate (benchmark 40% or more locomotor disability; note that upper limbs should not be involved); age proof for 18–50 years; domicile; Aadhaar; affidavit that applicant has not received motorized tricycle/scooty from Social Welfare or other govt dept.",
+      "verify_notes": "2026-09-16: https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004 — confirm medical board/UDID nuances; verify=true.",
+      "states": [
+        "Jammu and Kashmir"
+      ]
+    },
+    "benefits": {
+      "en": "Motorized tricycle grant as sanctioned — confirm current device specifications with Social Welfare.",
+      "hi": "मोटर चालित ट्राइसाइकिल अनुदान — विनिर्देश पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Motorized tricycle grant as sanctioned — confirm current device specifications with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Domicile certificate",
+        "Aadhaar",
+        "UDID (40%+ locomotor; upper limbs not involved)",
+        "Age proof (18–50)",
+        "Affidavit (no prior motorized tricycle/scooty from govt)",
+        "Medical certificate (prescribed format)"
+      ],
+      "hi": [
+        "Domicile certificate",
+        "Aadhaar",
+        "UDID (40%+ locomotor; upper limbs not involved)",
+        "Age proof (18–50)",
+        "Affidavit (no prior motorized tricycle/scooty from govt)",
+        "Medical certificate (prescribed format)"
+      ],
+      "ml": [
+        "Domicile certificate",
+        "Aadhaar",
+        "UDID (40%+ locomotor; upper limbs not involved)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on Jan Sugam. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004",
+      "hi": "Jan Sugam पर आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on Jan Sugam. https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004"
+    },
+    "apply_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004",
+    "office_type": "Department of Social Welfare, Government of Jammu and Kashmir",
+    "official_source_url": "https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004",
+    "tags": [
+      "disability",
+      "assistive-devices",
+      "jammu-kashmir"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "la-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Ladakh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (लद्दाख)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Ladakh)"
+    },
+    "description": {
+      "en": "NSAP IGNWPS in UT Ladakh for BPL widows aged 40+, administered by Social & Tribal Welfare (Help Hub).",
+      "hi": "लद्दाख NSAP IGNWPS — 40+ आयु की BPL विधवाएँ।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNWPS in UT Ladakh for BPL widows aged 40+, administered by Social & Tribal Welfare (Help Hub)."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Ladakh Citizens Help Hub / Social Welfare schemes: applicant should belong to BPL household; widows aged 40 years and above; incentive ₹1,000 p.m. Schemes.php also notes IGNWPS for widows 40–79 BPL.",
+      "verify_notes": "2026-09-16: https://helphub.ladakh.gov.in/landing/pension ; https://socialwelfare.ladakh.gov.in/schemes.php",
+      "states": [
+        "Ladakh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,000 per month as published on Ladakh Help Hub — confirm current amount.",
+      "hi": "मासिक ₹1,000 (Help Hub) — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,000 per month as published on Ladakh Help Hub — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow certificate",
+        "Bank account with IFSC",
+        "Photographs"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow certificate",
+        "Bank account with IFSC",
+        "Photographs"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil/District Social Welfare Officer or Help Hub guidance. https://helphub.ladakh.gov.in/landing/pension",
+      "hi": "तहसील/जिला समाज कल्याण अधिकारी / Help Hub के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil/District Social Welfare Officer or Help Hub guidance. https://helphub.ladakh.gov.in/landing/pension"
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "office_type": "Department of Social & Tribal Welfare, UT of Ladakh",
+    "official_source_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "tags": [
+      "pension",
+      "widow",
+      "nsap",
+      "ladakh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "la-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Ladakh)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (लद्दाख)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Ladakh)"
+    },
+    "description": {
+      "en": "NSAP IGNDPS in Ladakh for BPL persons aged 18+ with severe disability (80%+).",
+      "hi": "लद्दाख NSAP IGNDPS — 18+ आयु, 80%+ गंभीर दिव्यांगता, BPL।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNDPS in Ladakh for BPL persons aged 18+ with severe disability (80%+)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Help Hub: BPL household; age 18+; disability 80% or above; UDID with 80%+; incentive ₹1,000 p.m. Social Welfare schemes.php describes severe/multiple disabilities ages 18–79 BPL.",
+      "verify_notes": "2026-09-16: https://helphub.ladakh.gov.in/landing/pension ; https://socialwelfare.ladakh.gov.in/schemes.php",
+      "states": [
+        "Ladakh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,000 per month as published on Ladakh Help Hub — confirm current amount.",
+      "hi": "मासिक ₹1,000 — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,000 per month as published on Ladakh Help Hub — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (80%+)",
+        "Bank account with IFSC",
+        "Photograph"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (80%+)",
+        "Bank account with IFSC",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (80%+)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension",
+      "hi": "तहसील/जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension"
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "office_type": "Department of Social & Tribal Welfare, UT of Ladakh",
+    "official_source_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "tags": [
+      "pension",
+      "disability",
+      "nsap",
+      "ladakh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "la-women-distress",
+    "scheme_name": {
+      "en": "Integrated Social Security Scheme – Women in Distress (Ladakh)",
+      "hi": "एकीकृत सामाजिक सुरक्षा योजना – संकटग्रस्त महिलाएँ (लद्दाख)",
+      "ml": "(EN — Malayalam review pending) Integrated Social Security Scheme – Women in Distress (Ladakh)"
+    },
+    "description": {
+      "en": "UT Ladakh ISSS monthly pension for BPL women in distress (separated, divorced or widow) aged 40+.",
+      "hi": "लद्दाख ISSS — 40+ आयु की BPL संकटग्रस्त महिलाएँ (परित्यक्ता/तलाकशुदा/विधवा)।",
+      "ml": "(EN — Malayalam review pending) UT Ladakh ISSS monthly pension for BPL women in distress (separated, divorced or widow) aged 40+."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "divorced",
+        "deserted",
+        "separated"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Help Hub ISSS Women in Distress: BPL household; aged 40 years and above; widow/divorcee/separated certificate; incentive ₹1,000 p.m. Social Welfare schemes.php: destitute widows/divorced/deserted with no source of income; ₹1,000 p.m.",
+      "verify_notes": "2026-09-16: https://helphub.ladakh.gov.in/landing/pension ; https://socialwelfare.ladakh.gov.in/schemes.php",
+      "states": [
+        "Ladakh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,000 per month as published — confirm current Ladakh rate.",
+      "hi": "मासिक ₹1,000 — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,000 per month as published — confirm current Ladakh rate."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow/divorcee/separated certificate",
+        "Bank account with IFSC",
+        "Photographs"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow/divorcee/separated certificate",
+        "Bank account with IFSC",
+        "Photographs"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL ration card",
+        "Widow/divorcee/separated certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension",
+      "hi": "तहसील/जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension"
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "office_type": "Department of Social & Tribal Welfare, UT of Ladakh",
+    "official_source_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "isss",
+      "ladakh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "la-pcp",
+    "scheme_name": {
+      "en": "Integrated Social Security Scheme – Physically Challenged Person (Ladakh)",
+      "hi": "एकीकृत सामाजिक सुरक्षा योजना – शारीरिक रूप से चुनौतीग्रस्त व्यक्ति (लद्दाख)",
+      "ml": "(EN — Malayalam review pending) Integrated Social Security Scheme – Physically Challenged Person (Ladakh)"
+    },
+    "description": {
+      "en": "UT Ladakh ISSS pension for BPL persons with disability of 40% or above having no source of income.",
+      "hi": "लद्दाख ISSS — 40%+ दिव्यांगता वाले BPL व्यक्ति (आय स्रोत नहीं)।",
+      "ml": "(EN — Malayalam review pending) UT Ladakh ISSS pension for BPL persons with disability of 40% or above having no source of income."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Help Hub PCP: BPL household; disability 40% or above; UDID 40%+; incentive ₹1,000 p.m. Social Welfare schemes.php: poor physically handicapped (including blind/deaf/dumb) with handicap above 40%; ₹1,000 p.m.",
+      "verify_notes": "2026-09-16: https://helphub.ladakh.gov.in/landing/pension ; https://socialwelfare.ladakh.gov.in/schemes.php",
+      "states": [
+        "Ladakh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,000 per month as published — confirm current Ladakh rate.",
+      "hi": "मासिक ₹1,000 — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,000 per month as published — confirm current Ladakh rate."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (40%+)",
+        "Bank account with IFSC",
+        "Photograph"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (40%+)",
+        "Bank account with IFSC",
+        "Photograph"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL ration card",
+        "UDID (40%+)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension",
+      "hi": "तहसील/जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/pension"
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "office_type": "Department of Social & Tribal Welfare, UT of Ladakh",
+    "official_source_url": "https://helphub.ladakh.gov.in/landing/pension",
+    "tags": [
+      "pension",
+      "disability",
+      "isss",
+      "ladakh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "la-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Ladakh)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (लद्दाख)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Ladakh)"
+    },
+    "description": {
+      "en": "NSAP one-time cash assistance to BPL households in Ladakh on death of the primary bread-winner.",
+      "hi": "लद्दाख NSAP — कमाने वाले की मृत्यु पर BPL परिवार को एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) NSAP one-time cash assistance to BPL households in Ladakh on death of the primary bread-winner."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Help Hub NFBS page: ensure social security of BPL households; one-time lump-sum cash assistance on death of the primary bread-earner. Confirm current lump-sum amount and breadwinner age band with Social Welfare (national NFBS commonly ₹20,000 / revised figures — do not invent).",
+      "verify_notes": "2026-09-16: https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme — lump-sum amount not encoded from summary; verify=true.",
+      "states": [
+        "Ladakh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time family benefit as sanctioned under NSAP — confirm current Ladakh lump-sum with Social Welfare.",
+      "hi": "एकमुश्त पारिवारिक लाभ — वर्तमान राशि पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) One-time family benefit as sanctioned under NSAP — confirm current Ladakh lump-sum with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "BPL ration card",
+        "Death certificate of bread-winner",
+        "Bank account",
+        "Household proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "BPL ration card",
+        "Death certificate of bread-winner",
+        "Bank account",
+        "Household proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "BPL ration card",
+        "Death certificate of bread-winner"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme",
+      "hi": "तहसील/जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Tehsil/District Social Welfare Officer. https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme"
+    },
+    "apply_url": "https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme",
+    "office_type": "Department of Social & Tribal Welfare, UT of Ladakh",
+    "official_source_url": "https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "ladakh",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "py-disability-fa",
+    "scheme_name": {
+      "en": "Grant of Financial Assistance to Differently Abled Person (Puducherry)",
+      "hi": "दिव्यांगजन को वित्तीय सहायता अनुदान (पुदुच्चेरी)",
+      "ml": "(EN — Malayalam review pending) Grant of Financial Assistance to Differently Abled Person (Puducherry)"
+    },
+    "description": {
+      "en": "Puducherry Social Welfare monthly financial assistance to differently abled persons with 40%+ disability, income ceiling and residence conditions.",
+      "hi": "पुदुच्चेरी समाज कल्याण — 40%+ दिव्यांगता वाले व्यक्तियों हेतु मासिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Puducherry Social Welfare monthly financial assistance to differently abled persons with 40%+ disability, income ceiling and residence conditions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 75000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official Social Welfare Puducherry page: monthly assistance commonly ₹3,000 (40–65% disability), ₹3,500 (66–85%), ₹4,500 (86–100%); annual income up to ₹75,000; no age restriction; disability at least 40%; at least five years’ residence in Puducherry — confirm live slabs on socwelfare.py.gov.in.",
+      "verify_notes": "2026-09-16: https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person — page intermittently unreachable from curator network; eligibility taken from official page content via search index; verify=true.",
+      "states": [
+        "Puducherry"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly assistance by disability band (commonly ₹3,000 / ₹3,500 / ₹4,500) — confirm current Puducherry slabs.",
+      "hi": "दिव्यांगता स्लैब अनुसार मासिक सहायता — वर्तमान दरें पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly assistance by disability band (commonly ₹3,000 / ₹3,500 / ₹4,500) — confirm current Puducherry slabs."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (40%+)",
+        "Income certificate (≤ ₹75,000)",
+        "Residence proof (5 years in Puducherry)",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate (40%+)",
+        "Income certificate (≤ ₹75,000)",
+        "Residence proof (5 years in Puducherry)",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate (40%+)",
+        "Income certificate (≤ ₹75,000)",
+        "Residence proof (5 years in Puducherry)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Department of Social Welfare, Puducherry. https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person",
+      "hi": "पुदुच्चेरी समाज कल्याण विभाग में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Department of Social Welfare, Puducherry. https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person"
+    },
+    "apply_url": "https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person",
+    "office_type": "Department of Social Welfare, Government of Puducherry",
+    "official_source_url": "https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person",
+    "tags": [
+      "disability",
+      "pension",
+      "puducherry",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "py-widow-remarriage-incentive",
+    "scheme_name": {
+      "en": "Incentive to Widow’s Remarriage (Puducherry)",
+      "hi": "विधवा पुनर्विवाह प्रोत्साहन (पुदुच्चेरी)",
+      "ml": "(EN — Malayalam review pending) Incentive to Widow’s Remarriage (Puducherry)"
+    },
+    "description": {
+      "en": "WCD Puducherry incentive for widow remarriage via National Savings Certificate, subject to income and residence conditions.",
+      "hi": "पुदुच्चेरी WCD — विधवा पुनर्विवाह हेतु प्रोत्साहन (NSC)।",
+      "ml": "(EN — Malayalam review pending) WCD Puducherry incentive for widow remarriage via National Savings Certificate, subject to income and residence conditions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 75000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "WCD Puducherry Incentive to Widow Remarriage page: assistance ₹50,000 through National Savings Certificate; widow’s annual income must not exceed ₹75,000; Indian citizen and Puducherry native by birth or continuous residence of at least five years; bridegroom must be a bachelor or widower.",
+      "verify_notes": "2026-09-16: https://wcd.py.gov.in/incentive-widow-remarriage — page intermittently unreachable from curator network; eligibility from official page content via search index; verify=true.",
+      "states": [
+        "Puducherry"
+      ]
+    },
+    "benefits": {
+      "en": "₹50,000 incentive via National Savings Certificate as published — confirm current terms on WCD page.",
+      "hi": "₹50,000 प्रोत्साहन (NSC) — वर्तमान शर्तें पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹50,000 incentive via National Savings Certificate as published — confirm current terms on WCD page."
+    },
+    "required_documents": {
+      "en": [
+        "Widow proof",
+        "Remarriage proof",
+        "Income certificate (≤ ₹75,000)",
+        "Residence / nativity proof (5 years or birth)",
+        "Bridegroom status proof (bachelor/widower)",
+        "Aadhaar",
+        "Bank / NSC details"
+      ],
+      "hi": [
+        "Widow proof",
+        "Remarriage proof",
+        "Income certificate (≤ ₹75,000)",
+        "Residence / nativity proof (5 years or birth)",
+        "Bridegroom status proof (bachelor/widower)",
+        "Aadhaar",
+        "Bank / NSC details"
+      ],
+      "ml": [
+        "Widow proof",
+        "Remarriage proof",
+        "Income certificate (≤ ₹75,000)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Department of Women and Child Development, Puducherry. https://wcd.py.gov.in/incentive-widow-remarriage",
+      "hi": "पुदुच्चेरी WCD विभाग में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Department of Women and Child Development, Puducherry. https://wcd.py.gov.in/incentive-widow-remarriage"
+    },
+    "apply_url": "https://wcd.py.gov.in/incentive-widow-remarriage",
+    "office_type": "Department of Women and Child Development, Government of Puducherry",
+    "official_source_url": "https://wcd.py.gov.in/incentive-widow-remarriage",
+    "tags": [
+      "widow",
+      "marriage",
+      "women",
+      "puducherry"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "py-marriage-widow-daughter",
+    "scheme_name": {
+      "en": "Grant of Marriage Allowance to the Widow’s Daughter (Puducherry)",
+      "hi": "विधवा की पुत्री को विवाह भत्ता अनुदान (पुदुच्चेरी)",
+      "ml": "(EN — Malayalam review pending) Grant of Marriage Allowance to the Widow’s Daughter (Puducherry)"
+    },
+    "description": {
+      "en": "WCD Puducherry women-development scheme granting marriage allowance to the daughter of a widow.",
+      "hi": "पुदुच्चेरी WCD — विधवा की पुत्री हेतु विवाह भत्ता।",
+      "ml": "(EN — Malayalam review pending) WCD Puducherry women-development scheme granting marriage allowance to the daughter of a widow."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed on WCD Puducherry women development schemes menu as 'Grant of Marriage Allowances to the Widow's Daughter'. Exact grant amount, bride age and income ceiling were not fully retrieved from the live page this pass — confirm on official WCD scheme page before quoting amounts.",
+      "verify_notes": "2026-09-16: https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0 ; https://wcd.py.gov.in/ — amount/income not encoded; verify=true.",
+      "states": [
+        "Puducherry"
+      ]
+    },
+    "benefits": {
+      "en": "Marriage allowance as sanctioned by WCD Puducherry — confirm current grant amount on the official scheme page.",
+      "hi": "विवाह भत्ता — वर्तमान राशि आधिकारिक पृष्ठ पर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Marriage allowance as sanctioned by WCD Puducherry — confirm current grant amount on the official scheme page."
+    },
+    "required_documents": {
+      "en": [
+        "Widow mother proof",
+        "Daughter identity / age proof",
+        "Marriage-related documents",
+        "Residence proof",
+        "Aadhaar",
+        "Income proof as notified"
+      ],
+      "hi": [
+        "Widow mother proof",
+        "Daughter identity / age proof",
+        "Marriage-related documents",
+        "Residence proof",
+        "Aadhaar",
+        "Income proof as notified"
+      ],
+      "ml": [
+        "Widow mother proof",
+        "Daughter identity / age proof",
+        "Marriage-related documents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through WCD Puducherry. https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0",
+      "hi": "पुदुच्चेरी WCD में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through WCD Puducherry. https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0"
+    },
+    "apply_url": "https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0",
+    "office_type": "Department of Women and Child Development, Government of Puducherry",
+    "official_source_url": "https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0",
+    "tags": [
+      "marriage",
+      "widow",
+      "women",
+      "puducherry"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "py-funeral-assistance-pensioner",
+    "scheme_name": {
+      "en": "Grant of Financial Assistance for Funeral Expenses of Old Age/Destitute Pensioner (Puducherry)",
+      "hi": "वृद्ध/निराश्रित पेंशनधारी के अंतिम संस्कार व्यय हेतु वित्तीय सहायता (पुदुच्चेरी)",
+      "ml": "(EN — Malayalam review pending) Grant of Financial Assistance for Funeral Expenses of Old Age/Destitute Pensioner (Puducherry)"
+    },
+    "description": {
+      "en": "WCD Puducherry social-defence grant toward funeral expenses of an old-age/destitute pensioner.",
+      "hi": "पुदुच्चेरी WCD — वृद्ध/निराश्रित पेंशनधारी के अंतिम संस्कार हेतु सहायता।",
+      "ml": "(EN — Malayalam review pending) WCD Puducherry social-defence grant toward funeral expenses of an old-age/destitute pensioner."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Listed under WCD Puducherry Social Defence schemes alongside Old Age Persons and Destitutes Pension. Intended for families of old-age/destitute pensioners; exact grant amount and claimant rules confirm on the official scheme page.",
+      "verify_notes": "2026-09-16: https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner — amount not encoded this pass; verify=true.",
+      "states": [
+        "Puducherry"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Funeral expense assistance as sanctioned — confirm current grant on WCD page.",
+      "hi": "अंतिम संस्कार सहायता — वर्तमान अनुदान पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Funeral expense assistance as sanctioned — confirm current grant on WCD page."
+    },
+    "required_documents": {
+      "en": [
+        "Proof that deceased was old-age/destitute pensioner",
+        "Death certificate",
+        "Claimant identity / relationship proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Proof that deceased was old-age/destitute pensioner",
+        "Death certificate",
+        "Claimant identity / relationship proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Proof that deceased was old-age/destitute pensioner",
+        "Death certificate",
+        "Claimant identity / relationship proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through WCD Puducherry Social Defence. https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner",
+      "hi": "पुदुच्चेरी WCD सामाजिक रक्षा में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through WCD Puducherry Social Defence. https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner"
+    },
+    "apply_url": "https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner",
+    "office_type": "Department of Women and Child Development, Government of Puducherry",
+    "official_source_url": "https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner",
+    "tags": [
+      "funeral",
+      "pension",
+      "elderly",
+      "puducherry"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "py-widow-deserted-unmarried-pension",
+    "scheme_name": {
+      "en": "Pension for Widows, Deserted Women, Unmarried Women and Transgender (Puducherry)",
+      "hi": "विधवा, परित्यक्ता, अविवाहित महिला एवं ट्रांसजेंडर पेंशन (पुदुच्चेरी)",
+      "ml": "(EN — Malayalam review pending) Pension for Widows, Deserted Women, Unmarried Women and Transgender (Puducherry)"
+    },
+    "description": {
+      "en": "Puducherry social security pension pathway for widows, deserted women, unmarried women and transgender persons listed on the National Government Services Portal (linked to UT social defence / Rajiv Gandhi social security services).",
+      "hi": "पुदुच्चेरी — विधवा/परित्यक्ता/अविवाहित महिला/ट्रांसजेंडर हेतु सामाजिक सुरक्षा पेंशन मार्ग।",
+      "ml": "(EN — Malayalam review pending) Puducherry social security pension pathway for widows, deserted women, unmarried women and transgender persons listed on the National Government Services Portal (linked to UT social defence / Rajiv Gandhi social security services)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted",
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "India.gov / National Government Services Portal lists 'Pension for Old Age, Widows, Deserted Women, Unmarried Women and Transgender, Puducherry' and an online application service for Rajiv Gandhi Social Security Scheme, Puducherry. Secondary summaries cite ~₹1,500 monthly — confirm amount, age bands and transgender application pathway on WCD / Social Welfare pages; do not treat as identical to Old Age Persons and Destitutes Pension without local confirmation.",
+      "verify_notes": "2026-09-16: https://services.india.gov.in/service/detail/pension-for-old-age-widows-deserted-women-unmarried-women-and-transgender-puducherry ; https://services.india.gov.in/service/detail/online-application-for-rajiv-gandhi-social-security-scheme-puducherry — amount/age verify=true.",
+      "states": [
+        "Puducherry"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly social security pension as sanctioned — confirm current Puducherry rate and category rules on WCD/Social Welfare.",
+      "hi": "मासिक सामाजिक सुरक्षा पेंशन — वर्तमान दर/श्रेणी नियम पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly social security pension as sanctioned — confirm current Puducherry rate and category rules on WCD/Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residence proof (Puducherry)",
+        "Widow / desertion / unmarried / transgender identity proof as applicable",
+        "Income / destitute proof as notified",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residence proof (Puducherry)",
+        "Widow / desertion / unmarried / transgender identity proof as applicable",
+        "Income / destitute proof as notified",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residence proof (Puducherry)",
+        "Widow / desertion / unmarried / transgender identity proof as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via notified Rajiv Gandhi Social Security / WCD-Social Defence channels. https://wcd.py.gov.in/",
+      "hi": "राजीव गांधी सामाजिक सुरक्षा / WCD चैनलों से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via notified Rajiv Gandhi Social Security / WCD-Social Defence channels. https://wcd.py.gov.in/"
+    },
+    "apply_url": "https://wcd.py.gov.in/",
+    "office_type": "Department of Women and Child Development / Social Welfare, Government of Puducherry",
+    "official_source_url": "https://services.india.gov.in/service/detail/pension-for-old-age-widows-deserted-women-unmarried-women-and-transgender-puducherry",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "transgender",
+      "puducherry",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "an-widow-pension",
+    "scheme_name": {
+      "en": "Widow Pension (Andaman and Nicobar Islands)",
+      "hi": "विधवा पेंशन (अंडमान और निकोबार द्वीप समूह)",
+      "ml": "(EN — Malayalam review pending) Widow Pension (Andaman and Nicobar Islands)"
+    },
+    "description": {
+      "en": "A&N Directorate of Social Welfare widow pension (@ ₹2,500/month from April 2018) for residents with household income not exceeding ₹4,000/month.",
+      "hi": "अंडमान-निकोबार समाज कल्याण — विधवा पेंशन ₹2,500/माह (अप्रैल 2018 से); घरेलू आय ≤ ₹4,000/माह।",
+      "ml": "(EN — Malayalam review pending) A&N Directorate of Social Welfare widow pension (@ ₹2,500/month from April 2018) for residents with household income not exceeding ₹4,000/month."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": 4000,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "RTI citizen-charter style service list (Directorate of Social Welfare): Widow Pension provided @ ₹2,500 per month from April 2018 onwards. Documents: residence/domicile/local certificate/Islander Identity Card and bank passbook; monthly income certificate that income does not exceed ₹4,000 per month; prescribed application; death certificate or court certificate if husband whereabouts unknown >7 years. Application form revenue certificate also notes permanent resident >10 years and household income ceiling ₹4,000 PM for widow pension.",
+      "verify_notes": "2026-09-16: http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf ; http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf",
+      "states": [
+        "Andaman and Nicobar Islands"
+      ]
+    },
+    "benefits": {
+      "en": "₹2,500 per month as published from April 2018 — confirm current rate with Directorate of Social Welfare, Port Blair.",
+      "hi": "मासिक ₹2,500 (अप्रैल 2018 से प्रकाशित) — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹2,500 per month as published from April 2018 — confirm current rate with Directorate of Social Welfare, Port Blair."
+    },
+    "required_documents": {
+      "en": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Prescribed application form",
+        "Husband death certificate (or 7-year whereabouts court certificate)",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Prescribed application form",
+        "Husband death certificate (or 7-year whereabouts court certificate)",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Prescribed application form"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at Directorate of Social Welfare / notified camps with prescribed form. http://andssw1.and.nic.in/socialwelfare/",
+      "hi": "समाज कल्याण निदेशालय / अधिसूचित शिविर में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply at Directorate of Social Welfare / notified camps with prescribed form. http://andssw1.and.nic.in/socialwelfare/"
+    },
+    "apply_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "office_type": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "official_source_url": "http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf",
+    "tags": [
+      "pension",
+      "widow",
+      "andaman-nicobar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "an-destitute-allowance",
+    "scheme_name": {
+      "en": "Destitute Allowance (Andaman and Nicobar Islands)",
+      "hi": "निराश्रित भत्ता (अंडमान और निकोबार द्वीप समूह)",
+      "ml": "(EN — Malayalam review pending) Destitute Allowance (Andaman and Nicobar Islands)"
+    },
+    "description": {
+      "en": "A&N Social Welfare destitute allowance (@ ₹2,500/month from April 2018) with household income not exceeding ₹4,000/month.",
+      "hi": "अंडमान-निकोबार — निराश्रित भत्ता ₹2,500/माह; आय ≤ ₹4,000/माह।",
+      "ml": "(EN — Malayalam review pending) A&N Social Welfare destitute allowance (@ ₹2,500/month from April 2018) with household income not exceeding ₹4,000/month."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": 4000,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "RTI service list: Destitute Allowances provided @ ₹2,500 per month from April 2018 onwards. Documents: residence/domicile/local certificate/Islander ID and bank passbook; income certificate ≤ ₹4,000/month; affidavit stating eligibility. Beneficiary lists show separated/unmarried unemployed women among recipients — confirm current category rules with Welfare Officer (Women).",
+      "verify_notes": "2026-09-16: http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf ; http://andssw1.and.nic.in/socialwelfare/",
+      "states": [
+        "Andaman and Nicobar Islands"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹2,500 per month as published from April 2018 — confirm current rate.",
+      "hi": "मासिक ₹2,500 — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹2,500 per month as published from April 2018 — confirm current rate."
+    },
+    "required_documents": {
+      "en": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Affidavit of eligibility",
+        "Aadhaar"
+      ],
+      "hi": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Affidavit of eligibility",
+        "Aadhaar"
+      ],
+      "ml": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Income certificate (≤ ₹4,000/month)",
+        "Affidavit of eligibility"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Welfare Officer (Women) / Directorate of Social Welfare. http://andssw1.and.nic.in/socialwelfare/",
+      "hi": "महिला कल्याण अधिकारी / समाज कल्याण निदेशालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Welfare Officer (Women) / Directorate of Social Welfare. http://andssw1.and.nic.in/socialwelfare/"
+    },
+    "apply_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "office_type": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "official_source_url": "http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf",
+    "tags": [
+      "allowance",
+      "destitute",
+      "women",
+      "andaman-nicobar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "an-disability-allowance",
+    "scheme_name": {
+      "en": "Disability Allowance (Andaman and Nicobar Islands)",
+      "hi": "दिव्यांगता भत्ता (अंडमान और निकोबार द्वीप समूह)",
+      "ml": "(EN — Malayalam review pending) Disability Allowance (Andaman and Nicobar Islands)"
+    },
+    "description": {
+      "en": "A&N Social Welfare disability allowance (@ ₹2,500/month from April 2018) for persons with 40% or more disability; application form notes no income ceiling for PwDs.",
+      "hi": "अंडमान-निकोबार — 40%+ दिव्यांगता हेतु भत्ता ₹2,500/माह; फॉर्म में PwD हेतु आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) A&N Social Welfare disability allowance (@ ₹2,500/month from April 2018) for persons with 40% or more disability; application form notes no income ceiling for PwDs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "RTI service list: Disability Allowance provided @ ₹2,500 per month from April 2018 onwards. Documents: residence/domicile/Islander ID and bank passbook; prescribed form; medical certificate showing disability of 40% or more; disability identity card issued by Social Welfare. Application form revenue certificate: 'no income ceiling for Persons with disabilities'.",
+      "verify_notes": "2026-09-16: http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf ; http://andssw1.and.nic.in/socialwelfare/pdf/allowances_form.pdf",
+      "states": [
+        "Andaman and Nicobar Islands"
+      ]
+    },
+    "benefits": {
+      "en": "₹2,500 per month as published from April 2018 — confirm current rate.",
+      "hi": "मासिक ₹2,500 — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹2,500 per month as published from April 2018 — confirm current rate."
+    },
+    "required_documents": {
+      "en": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Prescribed application form",
+        "Medical certificate (40%+ disability)",
+        "Disability identity card (Social Welfare)",
+        "Aadhaar",
+        "SIE non-receipt certificate if applicant <18"
+      ],
+      "hi": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Prescribed application form",
+        "Medical certificate (40%+ disability)",
+        "Disability identity card (Social Welfare)",
+        "Aadhaar",
+        "SIE non-receipt certificate if applicant <18"
+      ],
+      "ml": [
+        "Residence/domicile/Islander ID + bank passbook",
+        "Prescribed application form",
+        "Medical certificate (40%+ disability)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Nodal Officer (Disability) / Directorate of Social Welfare. http://andssw1.and.nic.in/socialwelfare/",
+      "hi": "नोडल अधिकारी (दिव्यांगता) / समाज कल्याण निदेशालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Nodal Officer (Disability) / Directorate of Social Welfare. http://andssw1.and.nic.in/socialwelfare/"
+    },
+    "apply_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "office_type": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "official_source_url": "http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf",
+    "tags": [
+      "disability",
+      "allowance",
+      "andaman-nicobar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "an-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension (Andaman and Nicobar Islands)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन (अंडमान और निकोबार)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension (Andaman and Nicobar Islands)"
+    },
+    "description": {
+      "en": "NSAP IGNOAPS pathway listed separately on A&N Social Welfare portal alongside the UT Old Age Pension scheme.",
+      "hi": "अंडमान-निकोबार पोर्टल पर UT वृद्धावस्था पेंशन के साथ सूचीबद्ध NSAP IGNOAPS मार्ग।",
+      "ml": "(EN — Malayalam review pending) NSAP IGNOAPS pathway listed separately on A&N Social Welfare portal alongside the UT Old Age Pension scheme."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "A&N Social Welfare portal UT SCHEMES menu lists Indira Gandhi National Old Age Pension and IGNOAPS (Above 80 Yrs) separately from UT Old Age Pension (60–79 / Above 80). Treat as NSAP BPL pathway distinct from UT old-age assistance (which uses ₹4,000/month income ceiling). Confirm current NSAP rate and BPL test with Directorate.",
+      "verify_notes": "2026-09-16: http://andssw1.and.nic.in/socialwelfare/ — menu listing only; national NSAP rates apply unless UT notifies otherwise; verify=true.",
+      "states": [
+        "Andaman and Nicobar Islands"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly NSAP old-age pension as sanctioned — confirm current A&N disbursement rate with Directorate of Social Welfare.",
+      "hi": "मासिक NSAP वृद्धावस्था पेंशन — वर्तमान दर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly NSAP old-age pension as sanctioned — confirm current A&N disbursement rate with Directorate of Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL / ration proof",
+        "Residence proof",
+        "Aadhaar",
+        "Bank account",
+        "Prescribed pension form"
+      ],
+      "hi": [
+        "Age proof",
+        "BPL / ration proof",
+        "Residence proof",
+        "Aadhaar",
+        "Bank account",
+        "Prescribed pension form"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL / ration proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with Directorate of Social Welfare using pension form. http://andssw1.and.nic.in/socialwelfare/",
+      "hi": "समाज कल्याण निदेशालय में पेंशन फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply with Directorate of Social Welfare using pension form. http://andssw1.and.nic.in/socialwelfare/"
+    },
+    "apply_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "office_type": "Directorate of Social Welfare, Andaman and Nicobar Administration",
+    "official_source_url": "http://andssw1.and.nic.in/socialwelfare/",
+    "tags": [
+      "pension",
+      "elderly",
+      "nsap",
+      "andaman-nicobar",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dh-building-worker-child-education",
+    "scheme_name": {
+      "en": "Financial Assistance for Education of Children of Building Workers (DNH & DD)",
+      "hi": "भवन निर्माण श्रमिकों के बच्चों की शिक्षा हेतु वित्तीय सहायता (डीएनएच एवं डीडी)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance for Education of Children of Building Workers (DNH & DD)"
+    },
+    "description": {
+      "en": "UT circular scheme of financial assistance for education of children of workers engaged in building/construction-related activity (Daman & Diu Education / Labour pathway).",
+      "hi": "भवन/निर्माण कार्यों में लगे श्रमिकों के बच्चों की शिक्षा हेतु वित्तीय सहायता।",
+      "ml": "(EN — Malayalam review pending) UT circular scheme of financial assistance for education of children of workers engaged in building/construction-related activity (Daman & Diu Education / Labour pathway)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "construction_worker",
+        "building_worker"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Directorate of Education circular (2013) enclosing Labour Commissioner letter: financial assistance for education @ ₹100/month for standards I–VIII and ₹200/month for standards IX–XII for children of workers engaged in building activity (construction, alteration, repairs, maintenance, demolition, roads/streets, electrical works, etc.). Confirm whether the scheme remains active and current rates with Labour / Education departments.",
+      "verify_notes": "2026-09-16: https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/04/2023041949-2.pdf (hosted on ddd.gov.in document search) — 2013 circular; continuity/current rates verify=true.",
+      "states": [
+        "Dadra and Nagar Haveli and Daman and Diu"
+      ]
+    },
+    "benefits": {
+      "en": "₹100/month (classes I–VIII) or ₹200/month (classes IX–XII) as per 2013 circular — confirm current rates and active status.",
+      "hi": "₹100/₹200 प्रति माह (2013 परिपत्र) — वर्तमान दर/सक्रियता पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹100/month (classes I–VIII) or ₹200/month (classes IX–XII) as per 2013 circular — confirm current rates and active status."
+    },
+    "required_documents": {
+      "en": [
+        "School enrolment proof",
+        "Parent building/construction worker proof as notified",
+        "Aadhaar",
+        "Bank account",
+        "Application via Head Master/Principal as circular"
+      ],
+      "hi": [
+        "School enrolment proof",
+        "Parent building/construction worker proof as notified",
+        "Aadhaar",
+        "Bank account",
+        "Application via Head Master/Principal as circular"
+      ],
+      "ml": [
+        "School enrolment proof",
+        "Parent building/construction worker proof as notified",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through school HM/Principal consolidated proposals to Education / Labour channels as per circular. https://ddd.gov.in/?s=financial+assistance",
+      "hi": "विद्यालय प्रधान के माध्यम से शिक्षा/श्रम चैनलों पर प्रस्ताव।",
+      "ml": "(EN — Malayalam review pending) Through school HM/Principal consolidated proposals to Education / Labour channels as per circular. https://ddd.gov.in/?s=financial+assistance"
+    },
+    "apply_url": "https://ddd.gov.in/?s=financial+assistance",
+    "office_type": "Directorate of Education / Labour Department, UT of Dadra and Nagar Haveli and Daman and Diu",
+    "official_source_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/04/2023041949-2.pdf",
+    "tags": [
+      "education",
+      "labour",
+      "children",
+      "dnh-dd"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "dh-nsp-scholarships",
+    "scheme_name": {
+      "en": "NSP Scholarships for SC/ST/OBC/Disability/Minority/EBC Students (DNH & DD)",
+      "hi": "एससी/एसटी/ओबीसी/दिव्यांग/अल्पसंख्यक/ईबीसी छात्रों हेतु एनएसपी छात्रवृत्ति (डीएनएच एवं डीडी)",
+      "ml": "(EN — Malayalam review pending) NSP Scholarships for SC/ST/OBC/Disability/Minority/EBC Students (DNH & DD)"
+    },
+    "description": {
+      "en": "UT Social Welfare notice inviting fresh/renewal scholarship applications on National Scholarship Portal for SC/ST/OBC/Disability/Minority/EBC students studying in AISHE/UDISE-coded institutions in DNH & DD.",
+      "hi": "डीएनएच एवं डीडी — NSP पर एससी/एसटी/ओबीसी/दिव्यांग/अल्पसंख्यक/ईबीसी छात्रवृत्तियाँ।",
+      "ml": "(EN — Malayalam review pending) UT Social Welfare notice inviting fresh/renewal scholarship applications on National Scholarship Portal for SC/ST/OBC/Disability/Minority/EBC students studying in AISHE/UDISE-coded institutions in DNH & DD."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC",
+        "ST",
+        "OBC",
+        "EBC",
+        "minority"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Social Welfare Department notice 2023-24: scholarships for SC/ST/OBC/Disability/Minority/EBC via NSP 2.0 (scholarships.gov.in); students in schools/institutions with AISHE/UDISE code; compulsory documents include Aadhaar, caste/EBC certificate by Mamlatdar, domicile of DNHDD by Mamlatdar, income certificate. Scheme-specific guidelines/income ceilings are on NSP per scheme — not invent single ceiling here.",
+      "verify_notes": "2026-09-16: https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/10/202310191939831564.pdf — gateway notice; per-scheme NSP eligibility verify=true.",
+      "states": [
+        "Dadra and Nagar Haveli and Daman and Diu"
+      ]
+    },
+    "benefits": {
+      "en": "Scholarship amounts as per individual Ministry schemes on NSP — confirm on https://scholarships.gov.in/",
+      "hi": "छात्रवृत्ति राशि NSP योजना दिशानिर्देश अनुसार — पोर्टल पर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Scholarship amounts as per individual Ministry schemes on NSP — confirm on https://scholarships.gov.in/"
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar (or EID pathway for minors)",
+        "Caste / EBC / disability certificate as applicable",
+        "Domicile of DNHDD (Mamlatdar)",
+        "Income certificate",
+        "Institute AISHE/UDISE registration",
+        "Aadhaar-linked bank account"
+      ],
+      "hi": [
+        "Aadhaar (or EID pathway for minors)",
+        "Caste / EBC / disability certificate as applicable",
+        "Domicile of DNHDD (Mamlatdar)",
+        "Income certificate",
+        "Institute AISHE/UDISE registration",
+        "Aadhaar-linked bank account"
+      ],
+      "ml": [
+        "Aadhaar (or EID pathway for minors)",
+        "Caste / EBC / disability certificate as applicable",
+        "Domicile of DNHDD (Mamlatdar)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on National Scholarship Portal; institute verifies and forwards to District/State nodal. https://scholarships.gov.in/",
+      "hi": "NSP पर आवेदन; संस्थान सत्यापन के बाद जिला/राज्य नोडल को अग्रेषित।",
+      "ml": "(EN — Malayalam review pending) Apply on National Scholarship Portal; institute verifies and forwards to District/State nodal. https://scholarships.gov.in/"
+    },
+    "apply_url": "https://scholarships.gov.in/",
+    "office_type": "Social Welfare Department, UT of Dadra and Nagar Haveli and Daman and Diu",
+    "official_source_url": "https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/10/202310191939831564.pdf",
+    "tags": [
+      "education",
+      "scholarship",
+      "sc",
+      "st",
+      "obc",
+      "disability",
+      "dnh-dd"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-widow-pension",
+    "scheme_name": {
+      "en": "UTL State Pension Scheme – Widow / Abandoned (Lakshadweep)",
+      "hi": "यूटीएल राज्य पेंशन योजना – विधवा / परित्यक्त (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) UTL State Pension Scheme – Widow / Abandoned (Lakshadweep)"
+    },
+    "description": {
+      "en": "Lakshadweep UTL State Pension Scheme monthly pension (₹1,500) covering widows and abandoned individuals among eligible categories.",
+      "hi": "लक्षद्वीप यूटीएल राज्य पेंशन — विधवा/परित्यक्त सहित पात्र श्रेणियों हेतु मासिक ₹1,500।",
+      "ml": "(EN — Malayalam review pending) Lakshadweep UTL State Pension Scheme monthly pension (₹1,500) covering widows and abandoned individuals among eligible categories."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Department of Social Welfare & Tribal Affairs page: UTL State Pension Scheme — monthly pension of ₹1,500 for eligible categories: old age, widows, abandoned individuals, and persons with disabilities (as of May 2025, 3481 beneficiaries). Exact income ceiling not published on the landing page — confirm with SW&TA (lk-dsw@nic.in).",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ — income ceiling not on page; implies_low_income soft gate; verify=true.",
+      "states": [
+        "Lakshadweep"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,500 per month as published on SW&TA department page — confirm current amount and income test.",
+      "hi": "मासिक ₹1,500 — वर्तमान राशि/आय परीक्षा पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,500 per month as published on SW&TA department page — confirm current amount and income test."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow/abandonment proof",
+        "Residence proof (Lakshadweep)",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow/abandonment proof",
+        "Residence proof (Lakshadweep)",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow/abandonment proof",
+        "Residence proof (Lakshadweep)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Directorate of Social Welfare & Tribal Affairs / island SW offices. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "समाज कल्याण एवं जनजातीय मामले निदेशालय / द्वीप कार्यालयों में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Directorate of Social Welfare & Tribal Affairs / island SW offices. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "pension",
+      "widow",
+      "lakshadweep",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-disability-pension",
+    "scheme_name": {
+      "en": "UTL State Pension Scheme – Persons with Disabilities (Lakshadweep)",
+      "hi": "यूटीएल राज्य पेंशन योजना – दिव्यांगजन (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) UTL State Pension Scheme – Persons with Disabilities (Lakshadweep)"
+    },
+    "description": {
+      "en": "Lakshadweep UTL State Pension Scheme monthly pension (₹1,500) for eligible persons with disabilities.",
+      "hi": "लक्षद्वीप यूटीएल राज्य पेंशन — पात्र दिव्यांगजन हेतु मासिक ₹1,500।",
+      "ml": "(EN — Malayalam review pending) Lakshadweep UTL State Pension Scheme monthly pension (₹1,500) for eligible persons with disabilities."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SW&TA page lists persons with disabilities among UTL State Pension Scheme eligible categories at ₹1,500/month. Disability percentage / UDID rules and income ceiling not fully published on the department landing page — confirm with SW&TA.",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ — % disability and income ceiling not on page; verify=true.",
+      "states": [
+        "Lakshadweep"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹1,500 per month as published — confirm current amount and disability % rule.",
+      "hi": "मासिक ₹1,500 — राशि एवं दिव्यांगता प्रतिशत नियम पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹1,500 per month as published — confirm current amount and disability % rule."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Directorate of Social Welfare & Tribal Affairs / island SW offices. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "समाज कल्याण एवं जनजातीय मामले निदेशालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Directorate of Social Welfare & Tribal Affairs / island SW offices. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "pension",
+      "disability",
+      "lakshadweep",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-marriage-allowance-pwd",
+    "scheme_name": {
+      "en": "Marriage Allowance for Persons with Disabilities (Lakshadweep)",
+      "hi": "दिव्यांगजन हेतु विवाह भत्ता (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) Marriage Allowance for Persons with Disabilities (Lakshadweep)"
+    },
+    "description": {
+      "en": "Lakshadweep SW&TA financial assistance of ₹30,000 to support marriage-related expenses of persons with disabilities.",
+      "hi": "लक्षद्वीप — दिव्यांगजन के विवाह व्यय हेतु ₹30,000 सहायता।",
+      "ml": "(EN — Malayalam review pending) Lakshadweep SW&TA financial assistance of ₹30,000 to support marriage-related expenses of persons with disabilities."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SW&TA department page: Marriage Allowance for PwDs — financial assistance of ₹30,000 to support marriage-related expenses of PwDs. Exact disability %, income and application windows not detailed on landing page — confirm with department.",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "states": [
+        "Lakshadweep"
+      ]
+    },
+    "benefits": {
+      "en": "₹30,000 marriage assistance as published — confirm current amount and eligibility documents.",
+      "hi": "₹30,000 विवाह सहायता — वर्तमान राशि/दस्तावेज पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) ₹30,000 marriage assistance as published — confirm current amount and eligibility documents."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate / UDID",
+        "Marriage-related documents",
+        "Residence proof",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate / UDID",
+        "Marriage-related documents",
+        "Residence proof",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate / UDID",
+        "Marriage-related documents"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Directorate of Social Welfare & Tribal Affairs. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "समाज कल्याण एवं जनजातीय मामले निदेशालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through Directorate of Social Welfare & Tribal Affairs. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "marriage",
+      "disability",
+      "lakshadweep"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-adip-rvy-camps",
+    "scheme_name": {
+      "en": "ADIP / RVY Assistive Device Camps (Lakshadweep)",
+      "hi": "एडीआईपी / आरवीवाई सहायक उपकरण शिविर (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) ADIP / RVY Assistive Device Camps (Lakshadweep)"
+    },
+    "description": {
+      "en": "Free assistive devices (motorized tricycles, wheelchairs, crutches, hearing aids, smartphones, etc.) via ADIP/RVY camps with ALIMCO, implemented through NHM Kavaratti.",
+      "hi": "लक्षद्वीप — ALIMCO सहयोग से ADIP/RVY शिविरों में निःशुल्क सहायक उपकरण (NHM कavaratti)।",
+      "ml": "(EN — Malayalam review pending) Free assistive devices (motorized tricycles, wheelchairs, crutches, hearing aids, smartphones, etc.) via ADIP/RVY camps with ALIMCO, implemented through NHM Kavaratti."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SW&TA page: ADIP/RVY Camps in collaboration with ALIMCO Bangalore provide free assistive devices such as motorized tricycles, wheelchairs, crutches, hearing aids, and smartphones; implemented through National Health Mission, Kavaratti. Camp schedules and income/disability thresholds follow ADIP/RVY norms — confirm at camp notification.",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "states": [
+        "Lakshadweep"
+      ]
+    },
+    "benefits": {
+      "en": "Free assistive devices as per ADIP/RVY camp sanction — confirm device eligibility at notified camps.",
+      "hi": "ADIP/RVY शिविर अनुसार निःशुल्क उपकरण — शिविर अधिसूचना से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Free assistive devices as per ADIP/RVY camp sanction — confirm device eligibility at notified camps."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof",
+        "Camp application as notified"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof",
+        "Camp application as notified"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Attend notified ADIP/RVY camps via SW&TA / NHM Kavaratti. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "अधिसूचित ADIP/RVY शिविरों में भाग लें।",
+      "ml": "(EN — Malayalam review pending) Attend notified ADIP/RVY camps via SW&TA / NHM Kavaratti. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs / NHM, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "disability",
+      "assistive-devices",
+      "adip",
+      "lakshadweep"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-specialized-treatment-pwd",
+    "scheme_name": {
+      "en": "Financial Assistance for Specialized Treatment of PwDs (Lakshadweep)",
+      "hi": "दिव्यांगजन के विशिष्ट उपचार हेतु वित्तीय सहायता (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) Financial Assistance for Specialized Treatment of PwDs (Lakshadweep)"
+    },
+    "description": {
+      "en": "Lakshadweep SW&TA financial support and reimbursement for specialized medical treatment of persons with disabilities through NHM, Kavaratti.",
+      "hi": "लक्षद्वीप — NHM कavaratti के माध्यम से दिव्यांगजन के विशिष्ट चिकित्सा उपचार हेतु सहायता/प्रतिपूर्ति।",
+      "ml": "(EN — Malayalam review pending) Lakshadweep SW&TA financial support and reimbursement for specialized medical treatment of persons with disabilities through NHM, Kavaratti."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SW&TA page: Financial Assistance for Specialized Treatment — PwDs receive financial support and reimbursement for specialized medical treatment through NHM, Kavaratti. Exact package ceilings and referral rules not on landing page — confirm with SW&TA / NHM.",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "states": [
+        "Lakshadweep"
+      ]
+    },
+    "benefits": {
+      "en": "Financial support / reimbursement for specialized treatment as sanctioned via NHM Kavaratti — confirm current ceilings.",
+      "hi": "विशिष्ट उपचार हेतु सहायता/प्रतिपूर्ति — वर्तमान सीमा पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Financial support / reimbursement for specialized treatment as sanctioned via NHM Kavaratti — confirm current ceilings."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Medical referral / bills as notified",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Medical referral / bills as notified",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability / UDID certificate",
+        "Medical referral / bills as notified"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through SW&TA / NHM Kavaratti as notified. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "SW&TA / NHM कavaratti के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Through SW&TA / NHM Kavaratti as notified. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs / NHM, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "health",
+      "disability",
+      "lakshadweep"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ld-daycare-pwd-children",
+    "scheme_name": {
+      "en": "Day Care Centres for Children with Disabilities (Lakshadweep)",
+      "hi": "दिव्यांग बच्चों हेतु डे केयर केंद्र (लक्षद्वीप)",
+      "ml": "(EN — Malayalam review pending) Day Care Centres for Children with Disabilities (Lakshadweep)"
+    },
+    "description": {
+      "en": "Three day-care centres for children with disabilities (ages 6–16) at Kavaratti, Androth and Kadmat (10 AM–3 PM except Fridays).",
+      "hi": "लक्षद्वीप — कavaratti, अंद्रोत एवं कदमत में 6–16 आयु के दिव्यांग बच्चों हेतु डे केयर।",
+      "ml": "(EN — Malayalam review pending) Three day-care centres for children with disabilities (ages 6–16) at Kavaratti, Androth and Kadmat (10 AM–3 PM except Fridays)."
+    },
+    "eligibility_rules": {
+      "min_age": 6,
+      "max_age": 16,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "SW&TA page: Three day care centres for children with disabilities (ages 6–16) operated at Kavaratti, Androth, and Kadmat from 10 AM to 3 PM (except Fridays). Admission/seat criteria confirm with centre / SW&TA.",
+      "verify_notes": "2026-09-16: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "states": [
+        "Lakshadweep"
+      ]
+    },
+    "benefits": {
+      "en": "Day-care / rehabilitation support at notified centres — confirm admission with SW&TA.",
+      "hi": "अधिसूचित केंद्रों पर डे केयर — प्रवेश SW&TA से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Day-care / rehabilitation support at notified centres — confirm admission with SW&TA."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof (6–16)",
+        "Residence / island proof",
+        "Guardian details"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof (6–16)",
+        "Residence / island proof",
+        "Guardian details"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Disability certificate",
+        "Age proof (6–16)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact day-care centres / Directorate of SW&TA. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+      "hi": "डे केयर केंद्र / SW&TA निदेशालय से संपर्क करें।",
+      "ml": "(EN — Malayalam review pending) Contact day-care centres / Directorate of SW&TA. https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/"
+    },
+    "apply_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "office_type": "Department of Social Welfare & Tribal Affairs, UT of Lakshadweep",
+    "official_source_url": "https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/",
+    "tags": [
+      "disability",
+      "children",
+      "daycare",
+      "lakshadweep"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

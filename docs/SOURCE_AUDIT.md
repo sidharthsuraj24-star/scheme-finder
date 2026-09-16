@@ -354,3 +354,50 @@ Northeast deepen — Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, S
 | `ar-scholarship-cmseva` | https://cmeseva.arunachal.gov.in/all_services.php?category=Education | gov | https://cmeseva.arunachal.gov.in/all_services.php?category=Education | gov | `True` | 2026-09-16 |
 
 Skipped: Manipur unemployment-allowance PDF (image-heavy); Tripura many occupational social pensions (rate table only); Nagaland SOAP (DIPR list without eligibility page); Arunachal numeric NSAP rules pages not found — CM-SEVA gateways only; Mizoram live portal often 403 (content taken from official page HTML/snapshots).
+
+
+## Wave 6 source audit (2026-09-16 IST)
+
+Final India UT deepen — Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep. Official `.gov.in` / `.nic.in` / ServiceOnline / India.gov / UT Help Hub only; all new rows `verify=true`. India deepen waves 1–6 marked complete in catalogue_meta (quality over forced count).
+
+| id | official_source_url | verify |
+| --- | --- | --- |
+| `dl-women-distress-pension` | https://wcd.delhi.gov.in/faqs | true |
+| `dl-fapsn-disability` | https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/ | true |
+| `dl-ladli-scheme` | https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme-2008 | true |
+| `dl-sugamya-sahayak` | https://delhi.nalsa.gov.in/schemes-for-the-welfare-of-children-with-disabilities-run-by-department-of-social-welfare-gnctd/ | true |
+| `ch-widow-pension` | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16400001 | true |
+| `ch-disability-pension` | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15940001 | true |
+| `ch-dependent-children-widows` | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=14280001 | true |
+| `ch-marriage-sc-widows-daughter` | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15700004 | true |
+| `ch-aids-disabled` | https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=16210001 | true |
+| `jk-ignoaps` | https://socialwelfarekashmir.jk.gov.in/IGNOAPS.html | true |
+| `jk-ignwps` | https://socialwelfarekashmir.jk.gov.in/welfareschemes.html | true |
+| `jk-igndps` | https://socialwelfarekashmir.jk.gov.in/welfareschemes.html | true |
+| `jk-isss-women-distress` | https://socialwelfarekashmir.jk.gov.in/welfareschemes.html | true |
+| `jk-isss-pcp` | https://socialwelfarekashmir.jk.gov.in/welfareschemes.html | true |
+| `jk-motorized-tricycle` | https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=19560004 | true |
+| `la-ignwps` | https://helphub.ladakh.gov.in/landing/pension | true |
+| `la-igndps` | https://helphub.ladakh.gov.in/landing/pension | true |
+| `la-women-distress` | https://helphub.ladakh.gov.in/landing/pension | true |
+| `la-pcp` | https://helphub.ladakh.gov.in/landing/pension | true |
+| `la-nfbs` | https://helphub.ladakh.gov.in/landing/national-family-benefit-scheme | true |
+| `py-disability-fa` | https://socwelfare.py.gov.in/grant-financial-assistance-differently-abled-person | true |
+| `py-widow-remarriage-incentive` | https://wcd.py.gov.in/incentive-widow-remarriage | true |
+| `py-marriage-widow-daughter` | https://wcd.py.gov.in/grant-marriage-allowances-widows-daughter-0 | true |
+| `py-funeral-assistance-pensioner` | https://wcd.py.gov.in/grant-financial-assistance-funeral-expenses-old-agedestitute-pensioner | true |
+| `py-widow-deserted-unmarried-pension` | https://services.india.gov.in/service/detail/pension-for-old-age-widows-deserted-women-unmarried-women-and-transgender-puducherry | true |
+| `an-widow-pension` | http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf | true |
+| `an-destitute-allowance` | http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf | true |
+| `an-disability-allowance` | http://andssw1.and.nic.in/socialwelfare/pdf/RTI-DSW.pdf | true |
+| `an-ignoaps` | http://andssw1.and.nic.in/socialwelfare/ | true |
+| `dh-building-worker-child-education` | https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/04/2023041949-2.pdf | true |
+| `dh-nsp-scholarships` | https://cdnbbsr.s3waas.gov.in/s371e09b16e21f7b6919bbfc43f6a5b2f0/uploads/2023/10/202310191939831564.pdf | true |
+| `ld-widow-pension` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+| `ld-disability-pension` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+| `ld-marriage-allowance-pwd` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+| `ld-adip-rvy-camps` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+| `ld-specialized-treatment-pwd` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+| `ld-daycare-pwd-children` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
+
+Skipped: DNH&DD dedicated widow/disability pension eligibility pages not published with clear ceilings on ddd.gov.in this pass; J&K Marriage Assistance (18750017) and militancy pensions (eligibility incomplete); Puducherry live WCD/socwelfare HTML often connection-closed from curator network (used official URL + indexed page content / India.gov); Chandigarh numeric ceilings inferred cautiously from ServiceOnline enclosure pattern + existing OAP encoding.

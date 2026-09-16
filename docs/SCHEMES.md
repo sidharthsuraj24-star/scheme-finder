@@ -1,11 +1,11 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 270 schemes
-**verify=true:** 262
+**Count:** 307 schemes
+**verify=true:** 299
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
 
 | # | id | Name (EN) | Country / States | Official source | Key eligibility | verify |
 |---|----|-----------|------------------|-----------------|-----------------|--------|
@@ -218,3 +218,21 @@ All Wave 5 rows use `verify: true`, `countries: ["India"]`, `nationwide: false`,
 - Scheme `eligibility_rules.countries` must intersect profile country (explicit `countries` on all catalogue rows).
 - Within a matched country: `nationwide: true` / empty states / All India matches any region; otherwise `states` must include profile state/region.
 - Never invent eligibility thresholds; prefer `verify=true` when official rules are unclear.
+
+
+## Wave 6 — Final India UT deepen (2026-09-16 IST)
+
+Added **37** verified local schemes for **Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, Lakshadweep** (official `.gov.in` / `.nic.in` / India.gov / ServiceOnline / Help Hub only; all `verify=true`).
+
+| UT | New ids |
+|----|---------|
+| Delhi | `dl-women-distress-pension`, `dl-fapsn-disability`, `dl-ladli-scheme`, `dl-sugamya-sahayak` |
+| Chandigarh | `ch-widow-pension`, `ch-disability-pension`, `ch-dependent-children-widows`, `ch-marriage-sc-widows-daughter`, `ch-aids-disabled` |
+| Jammu and Kashmir | `jk-ignoaps`, `jk-ignwps`, `jk-igndps`, `jk-isss-women-distress`, `jk-isss-pcp`, `jk-motorized-tricycle` |
+| Ladakh | `la-ignwps`, `la-igndps`, `la-women-distress`, `la-pcp`, `la-nfbs` |
+| Puducherry | `py-disability-fa`, `py-widow-remarriage-incentive`, `py-marriage-widow-daughter`, `py-funeral-assistance-pensioner`, `py-widow-deserted-unmarried-pension` |
+| Andaman and Nicobar Islands | `an-widow-pension`, `an-destitute-allowance`, `an-disability-allowance`, `an-ignoaps` |
+| Dadra and Nagar Haveli and Daman and Diu | `dh-building-worker-child-education`, `dh-nsp-scholarships` |
+| Lakshadweep | `ld-widow-pension`, `ld-disability-pension`, `ld-marriage-allowance-pwd`, `ld-adip-rvy-camps`, `ld-specialized-treatment-pwd`, `ld-daycare-pwd-children` |
+
+Skipped / stopped short: DNH&DD separate widow/disability pension pages with clear numeric eligibility not found on ddd.gov.in this pass (only existing `dh-old-age-pension` plus education/NSP notices); Puducherry WCD live pages intermittently unreachable (eligibility taken from official page content via search index + India.gov service listings); J&K Marriage Assistance / militancy pension left out (eligibility incomplete on Jan Sugam cards); Chandigarh income/rate numbers not printed on ServiceOnline enclosure HTML (encoded cautiously with verify=true).
