@@ -17450,5 +17450,3670 @@
       "dbt"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Sikkim)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (सिक्किम)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Sikkim)"
+    },
+    "description": {
+      "en": "Sikkim NSAP IGNOAPS monthly pension for BPL elderly via the Women & Child Welfare pension portal.",
+      "hi": "सिक्किम NSAP IGNOAPS — BPL वृद्धजनों हेतु मासिक पेंशन।",
+      "ml": "(EN — Malayalam review pending) Sikkim NSAP IGNOAPS monthly pension for BPL elderly via the Women & Child Welfare pension portal."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. IGNOAPS-specific: age 60+. Portal rates: ₹1,500 (60–69), ₹2,000 (70+), ₹2,500 (80+) p.m. (central+state share as published).",
+      "verify_notes": "2026-09-16: https://pensionscheme.sikkim.gov.in/ — confirm current slab rates and COI/SSC branch.",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension as published on Sikkim portal (₹1,500 / ₹2,000 / ₹2,500 by age slab) — confirm current amount.",
+      "hi": "मासिक पेंशन (आयु स्लैब अनुसार पोर्टल दरें) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension as published on Sikkim portal (₹1,500 / ₹2,000 / ₹2,500 by age slab) — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "pension",
+      "elderly",
+      "sikkim",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Sikkim)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (सिक्किम)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Sikkim)"
+    },
+    "description": {
+      "en": "Sikkim NSAP IGNWPS for BPL widows via the official pension portal (portal-specific age 21+ with death certificate and non-marriage certificate).",
+      "hi": "सिक्किम NSAP IGNWPS — BPL विधवाओं हेतु पेंशन पोर्टल।",
+      "ml": "(EN — Malayalam review pending) Sikkim NSAP IGNWPS for BPL widows via the official pension portal (portal-specific age 21+ with death certificate and non-marriage certificate)."
+    },
+    "eligibility_rules": {
+      "min_age": 21,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. IGNWPS-specific on Sikkim portal: age 21+; Death Certificate of husband; Non-marriage Certificate. Published rate ₹2,000 p.m. (central+state).",
+      "verify_notes": "2026-09-16: Sikkim portal lists age 21+ (differs from typical national 40+ messaging) — confirm locally on https://pensionscheme.sikkim.gov.in/",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension ₹2,000 as published on Sikkim portal (central+state share) — confirm current amount.",
+      "hi": "मासिक विधवा पेंशन ₹2,000 (पोर्टल) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension ₹2,000 as published on Sikkim portal (central+state share) — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Husband death certificate",
+        "Non-marriage certificate",
+        "Age proof"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Husband death certificate",
+        "Non-marriage certificate",
+        "Age proof"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "sikkim",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Sikkim)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (सिक्किम)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Sikkim)"
+    },
+    "description": {
+      "en": "Sikkim NSAP IGNDPS for BPL persons with more than 80% disability (age 18+) via the pension portal.",
+      "hi": "सिक्किम NSAP IGNDPS — 80% से अधिक दिव्यांगता वाले BPL लाभार्थी।",
+      "ml": "(EN — Malayalam review pending) Sikkim NSAP IGNDPS for BPL persons with more than 80% disability (age 18+) via the pension portal."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. IGNDPS-specific: age 18+; Disability Certificate certifying more than 80% disabilities and Identity Card. Published rate ₹2,000 p.m.",
+      "verify_notes": "2026-09-16: https://pensionscheme.sikkim.gov.in/ — confirm medical authority certificate format.",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension ₹2,000 as published on Sikkim portal — confirm current amount.",
+      "hi": "मासिक दिव्यांगता पेंशन ₹2,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension ₹2,000 as published on Sikkim portal — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Disability certificate (>80%)",
+        "Disability identity card"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Disability certificate (>80%)",
+        "Disability identity card"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "pension",
+      "disability",
+      "sikkim",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Sikkim)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (सिक्किम)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Sikkim)"
+    },
+    "description": {
+      "en": "Sikkim NSAP one-time family benefit on death of the bread-winner (homemaker also treated as bread-winner) for eligible BPL households.",
+      "hi": "सिक्किम NSAP — कमाने वाले की मृत्यु पर एकमुश्त पारिवारिक सहायता।",
+      "ml": "(EN — Malayalam review pending) Sikkim NSAP one-time family benefit on death of the bread-winner (homemaker also treated as bread-winner) for eligible BPL households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. NFBS: death of bread-winner; homemaker also considered bread-winner; household includes spouse, minor children, unmarried daughters, dependent parents. Published one-time grant ₹30,000 (central+state).",
+      "verify_notes": "2026-09-16: https://pensionscheme.sikkim.gov.in/ — breadwinner age band not fully restated on portal summary; confirm with department.",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time grant ₹30,000 as published on Sikkim portal — confirm current amount.",
+      "hi": "एकमुश्त अनुदान ₹30,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time grant ₹30,000 as published on Sikkim portal — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Death certificate of bread-winner"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Death certificate of bread-winner"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "sikkim",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-cm-disability-pension",
+    "scheme_name": {
+      "en": "Chief Minister's State Disability Pension Scheme (Sikkim)",
+      "hi": "मुख्यमंत्री राज्य दिव्यांगता पेंशन योजना (सिक्किम)",
+      "ml": "(EN — Malayalam review pending) Chief Minister's State Disability Pension Scheme (Sikkim)"
+    },
+    "description": {
+      "en": "Sikkim 100% state innovative disability pension for persons with 40%+ disability who are not covered under IGNDPS.",
+      "hi": "सिक्किम राज्य दिव्यांगता पेंशन — 40%+ दिव्यांगता, IGNDPS से बाहर।",
+      "ml": "(EN — Malayalam review pending) Sikkim 100% state innovative disability pension for persons with 40%+ disability who are not covered under IGNDPS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 40,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. CMDPS: no age restriction; 40% and above disability certified; must not be covered under IGNDPS. Published rate ₹1,500 p.m. (100% state).",
+      "verify_notes": "2026-09-16: https://pensionscheme.sikkim.gov.in/ — confirm non-overlap with IGNDPS at sanction time.",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly state disability pension ₹1,500 as published — confirm current amount.",
+      "hi": "मासिक राज्य दिव्यांगता पेंशन ₹1,500 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly state disability pension ₹1,500 as published — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Disability certificate (40%+)"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Disability certificate (40%+)"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "pension",
+      "disability",
+      "sikkim",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "sk-transgender-grant",
+    "scheme_name": {
+      "en": "Sikkim Grant of Award to Transgender (SGATT)",
+      "hi": "सिक्किम ट्रांसजेंडर पुरस्कार अनुदान (SGATT)",
+      "ml": "(EN — Malayalam review pending) Sikkim Grant of Award to Transgender (SGATT)"
+    },
+    "description": {
+      "en": "Sikkim state innovative support for transgender persons (medical certificate path) with age-linked monthly support and education-related benefits as published on the pension portal.",
+      "hi": "सिक्किम ट्रांसजेंडर अनुदान — पोर्टल पर प्रकाशित आयु/शिक्षा लाभ।",
+      "ml": "(EN — Malayalam review pending) Sikkim state innovative support for transgender persons (medical certificate path) with age-linked monthly support and education-related benefits as published on the pension portal."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL",
+        "nfsa_ration",
+        "transgender"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "General criteria on pensionscheme.sikkim.gov.in: SSC/COI/Residential Certificate; BPL household with Antyodaya / Priority Household ration card; Aadhaar; PMJDY bank account. SGATT: Medical Certificate certified by HoD/Medicine, Gynecology, Pediatrics and Surgery of STNM Hospital or District Hospital. Published incentives include ₹12,000 p.m. (0–6 years), free education up to graduation, and ₹500 p.m. if unemployed after required qualification — confirm current branch rules.",
+      "verify_notes": "2026-09-16: https://pensionscheme.sikkim.gov.in/ — age-band and unemployment branch not fully wizard-encoded; verify=true.",
+      "states": [
+        "Sikkim"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Age/education-linked grants as published (e.g. ₹12,000 p.m. for 0–6; free education to graduation; ₹500 p.m. unemployed track) — confirm current package.",
+      "hi": "आयु/शिक्षा आधारित अनुदान (पोर्टल) — वर्तमान पैकेज सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Age/education-linked grants as published (e.g. ₹12,000 p.m. for 0–6; free education to graduation; ₹500 p.m. unemployed track) — confirm current package."
+    },
+    "required_documents": {
+      "en": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Medical certificate (STNM/District Hospital)"
+      ],
+      "hi": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar",
+        "PMJDY bank account",
+        "Medical certificate (STNM/District Hospital)"
+      ],
+      "ml": [
+        "SSC/COI/Residential Certificate",
+        "BPL / AAY or Priority ration card",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Online registration on https://pensionscheme.sikkim.gov.in/",
+      "hi": "https://pensionscheme.sikkim.gov.in/ पर ऑनलाइन पंजीकरण करें।",
+      "ml": "(EN — Malayalam review pending) Online registration on https://pensionscheme.sikkim.gov.in/"
+    },
+    "apply_url": "https://pensionscheme.sikkim.gov.in/",
+    "office_type": "Women & Child Welfare Department, Government of Sikkim",
+    "official_source_url": "https://pensionscheme.sikkim.gov.in/",
+    "tags": [
+      "transgender",
+      "sikkim",
+      "dbt",
+      "education"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Nagaland NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (नागालैंड NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Nagaland NSAP)"
+    },
+    "description": {
+      "en": "Nagaland NSAP IGNOAPS for BPL persons aged 60+ administered by the Department of Social Welfare.",
+      "hi": "नागालैंड NSAP IGNOAPS — 60+ BPL वृद्धजन।",
+      "ml": "(EN — Malayalam review pending) Nagaland NSAP IGNOAPS for BPL persons aged 60+ administered by the Department of Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW Nagaland NSAP page: age 60+ living below poverty line. Amounts historically cited ₹200 (60–79) / ₹500 (80+) — confirm current DBT rate with District Welfare Officer.",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ — amounts may lag; verify=true.",
+      "states": [
+        "Nagaland"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly old-age pension under NSAP (confirm current Nagaland disbursed amount including any state top-up).",
+      "hi": "मासिक वृद्धावस्था पेंशन (NSAP) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension under NSAP (confirm current Nagaland disbursed amount including any state top-up)."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Nagaland residence / local certificate"
+      ],
+      "hi": [
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Nagaland residence / local certificate"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Welfare Officer / village council channels under NSAP. Details: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "hi": "जिला कल्याण अधिकारी / ग्राम परिषद के माध्यम से NSAP आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Welfare Officer / village council channels under NSAP. Details: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "tags": [
+      "pension",
+      "elderly",
+      "nagaland",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Nagaland NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (नागालैंड NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Nagaland NSAP)"
+    },
+    "description": {
+      "en": "Nagaland NSAP IGNWPS for BPL widows aged 40+ via District Welfare Officers.",
+      "hi": "नागालैंड NSAP IGNWPS — 40+ BPL विधवाएँ।",
+      "ml": "(EN — Malayalam review pending) Nagaland NSAP IGNWPS for BPL widows aged 40+ via District Welfare Officers."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW page: widows 40+ living below poverty line. Historical amounts ₹300 p.m. (₹500 from age 80) — confirm current rate.",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "states": [
+        "Nagaland"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension under NSAP (confirm current Nagaland amount).",
+      "hi": "मासिक विधवा पेंशन (NSAP) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension under NSAP (confirm current Nagaland amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Widow / marital status proof",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Widow / marital status proof",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Widow / marital status proof",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Welfare Officer under NSAP. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "hi": "जिला कल्याण अधिकारी के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via District Welfare Officer under NSAP. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "nagaland",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Nagaland NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (नागालैंड NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Nagaland NSAP)"
+    },
+    "description": {
+      "en": "Nagaland NSAP IGNDPS for BPL persons aged 18+ with more than 80% disability.",
+      "hi": "नागालैंड NSAP IGNDPS — 18+ एवं 80% से अधिक दिव्यांगता, BPL।",
+      "ml": "(EN — Malayalam review pending) Nagaland NSAP IGNDPS for BPL persons aged 18+ with more than 80% disability."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW page: age 18+ with more than 80% disability and BPL. Historical amounts ₹300 p.m. (₹500 from age 80).",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "states": [
+        "Nagaland"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension under NSAP (confirm current Nagaland amount).",
+      "hi": "मासिक दिव्यांगता पेंशन (NSAP) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension under NSAP (confirm current Nagaland amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (>80%)",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate (>80%)",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate (>80%)",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Welfare Officer under NSAP. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "hi": "जिला कल्याण अधिकारी के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via District Welfare Officer under NSAP. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "tags": [
+      "pension",
+      "disability",
+      "nagaland",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Nagaland NSAP)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (नागालैंड NSAP)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Nagaland NSAP)"
+    },
+    "description": {
+      "en": "Nagaland NSAP one-time assistance to BPL households on death of the bread-winner aged 18–59 (homemaker also treated as bread-winner).",
+      "hi": "नागालैंड NSAP — कमाने वाले (18–59) की मृत्यु पर एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) Nagaland NSAP one-time assistance to BPL households on death of the bread-winner aged 18–59 (homemaker also treated as bread-winner)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW page: one-time ₹20,000; bread-winner death while more than 18 and less than 60; homemaker also bread-winner; household includes spouse, minor children, unmarried daughter, dependent parents.",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ — confirm current lump-sum.",
+      "states": [
+        "Nagaland"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time grant ₹20,000 as published on DSW NSAP page — confirm current amount.",
+      "hi": "एकमुश्त ₹20,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time grant ₹20,000 as published on DSW NSAP page — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Household head proof after local enquiry"
+      ],
+      "hi": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Household head proof after local enquiry"
+      ],
+      "ml": [
+        "Death certificate of bread-winner",
+        "BPL proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District-level NSAP committee / District Welfare Officer. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+      "hi": "जिला कल्याण अधिकारी / NSAP समिति के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District-level NSAP committee / District Welfare Officer. https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "nagaland",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-emrs",
+    "scheme_name": {
+      "en": "Eklavya Model Residential School (Nagaland)",
+      "hi": "एकलव्य मॉडल आवासीय विद्यालय (नागालैंड)",
+      "ml": "(EN — Malayalam review pending) Eklavya Model Residential School (Nagaland)"
+    },
+    "description": {
+      "en": "Residential schools for tribal students in Nagaland (EMRS) under Social Welfare / SONTWERI, providing quality middle and higher secondary education.",
+      "hi": "नागालैंड में आदिवासी छात्रों हेतु एकलव्य मॉडल आवासीय विद्यालय।",
+      "ml": "(EN — Malayalam review pending) Residential schools for tribal students in Nagaland (EMRS) under Social Welfare / SONTWERI, providing quality middle and higher secondary education."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "ST"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW EMRS page: quality middle/high education for tribal students; schools cited at Dihuphar (Dimapur), Tizit (Mon), Tuensang. Admission via state EMRS / SONTWERI processes — confirm current entrance criteria and age/class bands locally.",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/eklvya-model-residential-school/ — admission eligibility not fully encoded; verify=true.",
+      "states": [
+        "Nagaland"
+      ]
+    },
+    "benefits": {
+      "en": "Residential schooling with education, boarding and related support as per EMRS norms — confirm current facilities.",
+      "hi": "आवासीय शिक्षा एवं संबंधित सुविधाएँ — वर्तमान मानदंड सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Residential schooling with education, boarding and related support as per EMRS norms — confirm current facilities."
+    },
+    "required_documents": {
+      "en": [
+        "ST certificate",
+        "Age / class proof",
+        "Residence proof",
+        "Admission form as notified"
+      ],
+      "hi": [
+        "ST certificate",
+        "Age / class proof",
+        "Residence proof",
+        "Admission form as notified"
+      ],
+      "ml": [
+        "ST certificate",
+        "Age / class proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow EMRS admission notices via Department of Social Welfare / SONTWERI. https://dsw.nagaland.gov.in/eklvya-model-residential-school/",
+      "hi": "सामाजिक कल्याण विभाग / SONTWERI प्रवेश सूचनाओं का पालन करें।",
+      "ml": "(EN — Malayalam review pending) Follow EMRS admission notices via Department of Social Welfare / SONTWERI. https://dsw.nagaland.gov.in/eklvya-model-residential-school/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/eklvya-model-residential-school/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/eklvya-model-residential-school/",
+    "tags": [
+      "education",
+      "tribal",
+      "st",
+      "nagaland",
+      "residential-school"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "nl-st-hostels",
+    "scheme_name": {
+      "en": "Centrally Sponsored Scheme of Hostels for ST Boys and ST Girls (Nagaland)",
+      "hi": "अनुसूचित जनजाति छात्रावास योजना — बालक एवं बालिका (नागालैंड)",
+      "ml": "(EN — Malayalam review pending) Centrally Sponsored Scheme of Hostels for ST Boys and ST Girls (Nagaland)"
+    },
+    "description": {
+      "en": "Hostel infrastructure scheme for Scheduled Tribe boys and girls (including PTGs) to support education from middle school through college/university, implemented via State Government / Social Welfare.",
+      "hi": "एसटी बालक-बालिकाओं हेतु छात्रावास सहायता (मध्य विद्यालय से विश्वविद्यालय)।",
+      "ml": "(EN — Malayalam review pending) Hostel infrastructure scheme for Scheduled Tribe boys and girls (including PTGs) to support education from middle school through college/university, implemented via State Government / Social Welfare."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "ST"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official DSW page: scheme for ST boys and girls including Primitive Tribal Groups; hostels for middle, secondary, college, university and VTCs; preference for reducing ST girl dropout. Citizen eligibility is institutional/seat-based — confirm admission with implementing institution.",
+      "verify_notes": "2026-09-16: https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/ — seat allocation not wizard-encoded; verify=true.",
+      "states": [
+        "Nagaland"
+      ]
+    },
+    "benefits": {
+      "en": "Hostel boarding facility near educational institutions as sanctioned — confirm seat availability locally.",
+      "hi": "शैक्षणिक संस्थानों के निकट छात्रावास सुविधा — सीट उपलब्धता स्थानीय रूप से जाँचें।",
+      "ml": "(EN — Malayalam review pending) Hostel boarding facility near educational institutions as sanctioned — confirm seat availability locally."
+    },
+    "required_documents": {
+      "en": [
+        "ST certificate",
+        "School/college enrolment proof",
+        "Residence proof",
+        "Institution application as directed"
+      ],
+      "hi": [
+        "ST certificate",
+        "School/college enrolment proof",
+        "Residence proof",
+        "Institution application as directed"
+      ],
+      "ml": [
+        "ST certificate",
+        "School/college enrolment proof",
+        "Residence proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through State implementing agency / educational institution under Social Welfare. https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/",
+      "hi": "सामाजिक कल्याण / संस्थान के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Through State implementing agency / educational institution under Social Welfare. https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/"
+    },
+    "apply_url": "https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/",
+    "office_type": "Department of Social Welfare, Government of Nagaland",
+    "official_source_url": "https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/",
+    "tags": [
+      "education",
+      "tribal",
+      "st",
+      "hostel",
+      "nagaland"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Meghalaya NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (मेघालय NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Meghalaya NSAP)"
+    },
+    "description": {
+      "en": "Meghalaya NSAP IGNWPS for BPL widows aged 40–79 as published on the Meghalaya Government Portal schemes listing.",
+      "hi": "मेघालय NSAP IGNWPS — 40–79 वर्ष की BPL विधवाएँ।",
+      "ml": "(EN — Malayalam review pending) Meghalaya NSAP IGNWPS for BPL widows aged 40–79 as published on the Meghalaya Government Portal schemes listing."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in NSAP page: BPL widow between 40–79 years; ceiling for assistance cited Rs.500 per month per beneficiary (portal text may lag current combined rates).",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/37326 — confirm current Meghalaya disbursed amount.",
+      "states": [
+        "Meghalaya"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension under NSAP (portal cites up to ₹500; confirm current Meghalaya amount including any top-up).",
+      "hi": "मासिक विधवा पेंशन (NSAP) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension under NSAP (portal cites up to ₹500; confirm current Meghalaya amount including any top-up)."
+    },
+    "required_documents": {
+      "en": [
+        "Widow proof",
+        "Age proof",
+        "BPL / NFSA ration proof",
+        "Aadhaar",
+        "Bank account",
+        "Meghalaya residence proof"
+      ],
+      "hi": [
+        "Widow proof",
+        "Age proof",
+        "BPL / NFSA ration proof",
+        "Aadhaar",
+        "Bank account",
+        "Meghalaya residence proof"
+      ],
+      "ml": [
+        "Widow proof",
+        "Age proof",
+        "BPL / NFSA ration proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Social Welfare / Block / village council channels. Listing: https://meghalaya.gov.in/schemes/content/37326",
+      "hi": "जिला समाज कल्याण / ब्लॉक चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through District Social Welfare / Block / village council channels. Listing: https://meghalaya.gov.in/schemes/content/37326"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "office_type": "Community & Rural Development / Social Welfare, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "meghalaya",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Meghalaya NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (मेघालय NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Meghalaya NSAP)"
+    },
+    "description": {
+      "en": "Meghalaya NSAP IGNDPS for BPL persons aged 18–79 with severe or multiple disabilities.",
+      "hi": "मेघालय NSAP IGNDPS — गंभीर/बहु दिव्यांगता, BPL, आयु 18–79।",
+      "ml": "(EN — Malayalam review pending) Meghalaya NSAP IGNDPS for BPL persons aged 18–79 with severe or multiple disabilities."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in NSAP page: BPL with severe or multiple disabilities aged 18–79; ceiling cited Rs.500 per month. Exact % threshold follows NSAP/state practice — confirm locally.",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/37326 — min_disability_percent not separately stated on portal summary; verify=true.",
+      "states": [
+        "Meghalaya"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension under NSAP (portal cites up to ₹500; confirm current Meghalaya amount).",
+      "hi": "मासिक दिव्यांगता पेंशन (NSAP) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension under NSAP (portal cites up to ₹500; confirm current Meghalaya amount)."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (severe/multiple)",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability certificate (severe/multiple)",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability certificate (severe/multiple)",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Social Welfare / Block channels. https://meghalaya.gov.in/schemes/content/37326",
+      "hi": "जिला समाज कल्याण चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through District Social Welfare / Block channels. https://meghalaya.gov.in/schemes/content/37326"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "office_type": "Community & Rural Development / Social Welfare, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "tags": [
+      "pension",
+      "disability",
+      "meghalaya",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Meghalaya NSAP)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (मेघालय NSAP)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Meghalaya NSAP)"
+    },
+    "description": {
+      "en": "Meghalaya NSAP one-time assistance to BPL families on death of the primary bread winner aged 18–59.",
+      "hi": "मेघालय NSAP — प्राथमिक कमाने वाले (18–59) की मृत्यु पर एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) Meghalaya NSAP one-time assistance to BPL families on death of the primary bread winner aged 18–59."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in NSAP page: one-time Rs.20,000 to BPL families on death of primary bread winner between age 18–59 years.",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/37326",
+      "states": [
+        "Meghalaya"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time assistance ₹20,000 as published on Meghalaya portal — confirm current amount.",
+      "hi": "एकमुश्त ₹20,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time assistance ₹20,000 as published on Meghalaya portal — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Age proof of deceased"
+      ],
+      "hi": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Age proof of deceased"
+      ],
+      "ml": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Social Welfare / Block channels. https://meghalaya.gov.in/schemes/content/37326",
+      "hi": "जिला समाज कल्याण चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply through District Social Welfare / Block channels. https://meghalaya.gov.in/schemes/content/37326"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "office_type": "Community & Rural Development / Social Welfare, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37326",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "meghalaya",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-rehab-disabled",
+    "scheme_name": {
+      "en": "Rehabilitation Treatment for the Disabled (Meghalaya)",
+      "hi": "दिव्यांगजन पुनर्वास उपचार सहायता (मेघालय)",
+      "ml": "(EN — Malayalam review pending) Rehabilitation Treatment for the Disabled (Meghalaya)"
+    },
+    "description": {
+      "en": "Meghalaya state financial assistance to disabled persons who cannot afford treatment inside or outside the state, via District Social Welfare Officers.",
+      "hi": "मेघालय राज्य — उपचार वहन न कर सकने वाले दिव्यांगजनों को वित्तीय सहायता।",
+      "ml": "(EN — Malayalam review pending) Meghalaya state financial assistance to disabled persons who cannot afford treatment inside or outside the state, via District Social Welfare Officers."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in scheme page (Social Welfare): financial assistance to disabled persons who cannot afford to undergo treatment inside and outside state. Applications through District Social Welfare Officer of 11 Districts. Introduced 01 Apr 2007. No numeric income ceiling published on the scheme card.",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/15649 — amount/ceiling not on card; verify=true. implies_low_income soft gate.",
+      "states": [
+        "Meghalaya"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash assistance for rehabilitation treatment (amount as sanctioned) — confirm current norms with DSWO.",
+      "hi": "पुनर्वास उपचार हेतु नकद सहायता — वर्तमान मानदंड DSWO से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Cash assistance for rehabilitation treatment (amount as sanctioned) — confirm current norms with DSWO."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Medical treatment estimate / referral",
+        "Income / inability-to-afford proof as required",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Medical treatment estimate / referral",
+        "Income / inability-to-afford proof as required",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Medical treatment estimate / referral",
+        "Income / inability-to-afford proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Applications through the office of the District Social Welfare Officer. https://meghalaya.gov.in/schemes/content/15649",
+      "hi": "जिला समाज कल्याण अधिकारी कार्यालय में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Applications through the office of the District Social Welfare Officer. https://meghalaya.gov.in/schemes/content/15649"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/15649",
+    "office_type": "Social Welfare Department, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/15649",
+    "tags": [
+      "disability",
+      "health",
+      "meghalaya",
+      "rehabilitation"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-border-areas-scholarship",
+    "scheme_name": {
+      "en": "Border Areas Scholarship (Meghalaya)",
+      "hi": "सीमा क्षेत्र छात्रवृत्ति (मेघालय)",
+      "ml": "(EN — Malayalam review pending) Border Areas Scholarship (Meghalaya)"
+    },
+    "description": {
+      "en": "Meghalaya Border Areas Development Department scholarship for students from notified Indo-Bangladesh border areas facing economic hardship.",
+      "hi": "मेघालय सीमा क्षेत्र के आर्थिक रूप से कमजोर छात्रों हेतु छात्रवृत्ति।",
+      "ml": "(EN — Malayalam review pending) Meghalaya Border Areas Development Department scholarship for students from notified Indo-Bangladesh border areas facing economic hardship."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in: Border Areas Scholarship for students hailing from international border areas, introduced to address economic hardship after partition-era trade disruption. Exact class/income ceilings on departmental guidelines — confirm with Border Areas Development Department.",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/37489 — detailed marks/income ceilings not fully on scheme card; verify=true.",
+      "states": [
+        "Meghalaya"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Financial assistance / scholarship for eligible border-area students — confirm current rates with the department.",
+      "hi": "सीमा क्षेत्र छात्रों हेतु वित्तीय सहायता — वर्तमान दरें विभाग से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Financial assistance / scholarship for eligible border-area students — confirm current rates with the department."
+    },
+    "required_documents": {
+      "en": [
+        "Residence proof of notified border village/area",
+        "School enrolment / mark sheets",
+        "Income proof as required",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Residence proof of notified border village/area",
+        "School enrolment / mark sheets",
+        "Income proof as required",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Residence proof of notified border village/area",
+        "School enrolment / mark sheets",
+        "Income proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through Border Areas Development Department channels as notified. https://meghalaya.gov.in/schemes/content/37489",
+      "hi": "सीमा क्षेत्र विकास विभाग के अधिसूचित चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Through Border Areas Development Department channels as notified. https://meghalaya.gov.in/schemes/content/37489"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37489",
+    "office_type": "Border Areas Development Department, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37489",
+    "tags": [
+      "education",
+      "scholarship",
+      "border",
+      "meghalaya"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ml-primary-upper-scholarship",
+    "scheme_name": {
+      "en": "Primary School Scholarship and Upper Primary Scholarship (Meghalaya)",
+      "hi": "प्राथमिक एवं उच्च प्राथमिक छात्रवृत्ति (मेघालय)",
+      "ml": "(EN — Malayalam review pending) Primary School Scholarship and Upper Primary Scholarship (Meghalaya)"
+    },
+    "description": {
+      "en": "Meghalaya DERT scholarship examinations for Class V and Class VIII students; successful candidates receive scholarship for three years subject to good conduct and progress.",
+      "hi": "मेघालय में कक्षा V/VIII छात्रवृत्ति परीक्षा — सफल छात्रों को तीन वर्ष की छात्रवृत्ति।",
+      "ml": "(EN — Malayalam review pending) Meghalaya DERT scholarship examinations for Class V and Class VIII students; successful candidates receive scholarship for three years subject to good conduct and progress."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official meghalaya.gov.in: Scholarship Examinations for Primary (Class V) and Upper Primary (Class VIII) students since 2006; tenure three years subject to good conduct and satisfactory progress; held at centres under SDSEO supervision.",
+      "verify_notes": "2026-09-16: https://meghalaya.gov.in/schemes/content/37593 — stipend amount not on card; verify=true.",
+      "states": [
+        "Meghalaya"
+      ]
+    },
+    "benefits": {
+      "en": "Scholarship for three years after qualifying the state scholarship exam — confirm current stipend rates.",
+      "hi": "परीक्षा उत्तीर्ण पर तीन वर्ष की छात्रवृत्ति — वर्तमान दरें सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Scholarship for three years after qualifying the state scholarship exam — confirm current stipend rates."
+    },
+    "required_documents": {
+      "en": [
+        "School enrolment (Class V or VIII)",
+        "Exam application as advertised",
+        "Aadhaar / identity",
+        "Bank account if awarded"
+      ],
+      "hi": [
+        "School enrolment (Class V or VIII)",
+        "Exam application as advertised",
+        "Aadhaar / identity",
+        "Bank account if awarded"
+      ],
+      "ml": [
+        "School enrolment (Class V or VIII)",
+        "Exam application as advertised",
+        "Aadhaar / identity"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Appear for scholarship exam as advertised via newspapers / SDSEO. https://meghalaya.gov.in/schemes/content/37593",
+      "hi": "SDSEO / समाचार विज्ञप्ति के अनुसार छात्रवृत्ति परीक्षा में बैठें।",
+      "ml": "(EN — Malayalam review pending) Appear for scholarship exam as advertised via newspapers / SDSEO. https://meghalaya.gov.in/schemes/content/37593"
+    },
+    "apply_url": "https://meghalaya.gov.in/schemes/content/37593",
+    "office_type": "Directorate of Educational Research and Training, Government of Meghalaya",
+    "official_source_url": "https://meghalaya.gov.in/schemes/content/37593",
+    "tags": [
+      "education",
+      "scholarship",
+      "students",
+      "meghalaya"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Mizoram)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram Social Welfare IGNWPS for widows aged 40–79 with published central+state combined pension.",
+      "hi": "मिजोरम IGNWPS — 40–79 वर्ष विधवाएँ; केंद्रीय+राज्य पेंशन।",
+      "ml": "(EN — Malayalam review pending) Mizoram Social Welfare IGNWPS for widows aged 40–79 with published central+state combined pension."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": 79,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official socialwelfare.mizoram.gov.in IGNWP page: eligible age 40 to 79 years; pension Rs.300 central + Rs.1000 state = Rs.1300 per month. BPL/NSAP path as applied in state.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/ignwp-scheme (live portal may 403; content verified via official page snapshot). Confirm BPL test locally.",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension ₹1,300 as published (₹300 central + ₹1,000 state) — confirm current amount.",
+      "hi": "मासिक विधवा पेंशन ₹1,300 (प्रकाशित) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension ₹1,300 as published (₹300 central + ₹1,000 state) — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Widow proof",
+        "Age proof",
+        "BPL / income proof",
+        "Aadhaar",
+        "Bank account",
+        "Mizoram residence / ILP as required"
+      ],
+      "hi": [
+        "Widow proof",
+        "Age proof",
+        "BPL / income proof",
+        "Aadhaar",
+        "Bank account",
+        "Mizoram residence / ILP as required"
+      ],
+      "ml": [
+        "Widow proof",
+        "Age proof",
+        "BPL / income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare Officer / Village Council. https://socialwelfare.mizoram.gov.in/page/ignwp-scheme",
+      "hi": "जिला समाज कल्याण अधिकारी / ग्राम परिषद के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare Officer / Village Council. https://socialwelfare.mizoram.gov.in/page/ignwp-scheme"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/ignwp-scheme",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/ignwp-scheme",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "mizoram",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Mizoram)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram NSAP IGNDPS for eligible persons aged 18+ with published central+state pension.",
+      "hi": "मिजोरम IGNDPS — 18+ दिव्यांगजन; केंद्रीय+राज्य पेंशन।",
+      "ml": "(EN — Malayalam review pending) Mizoram NSAP IGNDPS for eligible persons aged 18+ with published central+state pension."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official pages: eligible age 18 years and above; Rs.300 central + Rs.100 state = Rs.400 per month (IGNDPS page). Disability page also cites NSAP IGNDPS for severe disability track — confirm % threshold locally (often 80% under NSAP).",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps and schemes-on-disability page.",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension ₹400 as published (₹300+₹100) — confirm current amount and disability % rule.",
+      "hi": "मासिक दिव्यांगता पेंशन ₹400 — वर्तमान राशि/% नियम सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension ₹400 as published (₹300+₹100) — confirm current amount and disability % rule."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Age proof",
+        "BPL / income proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence / ILP as required"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Age proof",
+        "BPL / income proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence / ILP as required"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Age proof",
+        "BPL / income proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare Officer. https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps",
+      "hi": "जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare Officer. https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps",
+    "tags": [
+      "pension",
+      "disability",
+      "mizoram",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Mizoram)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram NSAP family benefit on death of the primary bread winner (amounts as published on Social Welfare portal).",
+      "hi": "मिजोरम NSAP — कमाने वाले की मृत्यु पर पारिवारिक लाभ।",
+      "ml": "(EN — Malayalam review pending) Mizoram NSAP family benefit on death of the primary bread winner (amounts as published on Social Welfare portal)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official socialwelfare.mizoram.gov.in National Family Benefit page cites assistance of Rs.10,000 in case of death due to natural causes and accidental death of the primary bread winner (portal text; national NSAP often cites higher revised lump-sum — confirm current Mizoram disbursed amount).",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme — amount may lag national revision; verify=true.",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time family benefit as published (portal cites ₹10,000) — confirm current Mizoram amount with DSWO.",
+      "hi": "एकमुश्त पारिवारिक लाभ — वर्तमान राशि DSWO से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) One-time family benefit as published (portal cites ₹10,000) — confirm current Mizoram amount with DSWO."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Household head proof"
+      ],
+      "hi": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Household head proof"
+      ],
+      "ml": [
+        "Death certificate of bread winner",
+        "BPL proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare Officer. https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme",
+      "hi": "जिला समाज कल्याण अधिकारी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare Officer. https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "mizoram",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-state-disability-pension",
+    "scheme_name": {
+      "en": "State Disability Pension (Mizoram)",
+      "hi": "राज्य दिव्यांगता पेंशन (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) State Disability Pension (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram state disability pension for a limited number of totally blind and bedridden persons (state-funded).",
+      "hi": "मिजोरम राज्य पेंशन — पूर्णतः दृष्टिहीन एवं शैय्याग्रस्त सीमित लाभार्थी।",
+      "ml": "(EN — Malayalam review pending) Mizoram state disability pension for a limited number of totally blind and bedridden persons (state-funded)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official schemes-on-disability page: pension to 200 handicapped persons who are totally blind and bedridden @ Rs.350 per month (state fund). Seat-limited scheme.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 — limited seats; verify=true.",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly state disability pension ₹350 as published (limited to notified seats) — confirm availability.",
+      "hi": "मासिक राज्य दिव्यांगता पेंशन ₹350 (सीमित सीट) — उपलब्धता जाँचें।",
+      "ml": "(EN — Malayalam review pending) Monthly state disability pension ₹350 as published (limited to notified seats) — confirm availability."
+    },
+    "required_documents": {
+      "en": [
+        "Disability / medical certificate (totally blind or bedridden)",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability / medical certificate (totally blind or bedridden)",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability / medical certificate (totally blind or bedridden)",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Directorate / District Social Welfare as directed. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+      "hi": "निदेशालय / जिला समाज कल्याण के निर्देशानुसार आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Directorate / District Social Welfare as directed. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "tags": [
+      "pension",
+      "disability",
+      "mizoram",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-handicapped-students-stipend",
+    "scheme_name": {
+      "en": "Handicapped Students Stipend (Mizoram)",
+      "hi": "दिव्यांग छात्र वजीफा (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) Handicapped Students Stipend (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram state stipend for handicapped students enrolled in government or private schools for books, uniforms, etc.",
+      "hi": "मिजोरम — सरकारी/निजी स्कूलों में दिव्यांग छात्रों हेतु वजीफा।",
+      "ml": "(EN — Malayalam review pending) Mizoram state stipend for handicapped students enrolled in government or private schools for books, uniforms, etc."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official disability schemes page: stipend for purchase of books, uniforms, etc. Published rates: Class I–IV Rs.30 p.m.; Class V–VII Rs.40 p.m.; Class VIII–XII Rs.85 p.m.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+      "states": [
+        "Mizoram"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly stipend ₹30 / ₹40 / ₹85 by class band as published — confirm current rates.",
+      "hi": "कक्षा अनुसार मासिक वजीफा ₹30/₹40/₹85 — वर्तमान दरें सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly stipend ₹30 / ₹40 / ₹85 by class band as published — confirm current rates."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "School enrolment proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "School enrolment proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "School enrolment proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare / school channels. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+      "hi": "जिला समाज कल्याण / विद्यालय चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / school channels. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "tags": [
+      "education",
+      "disability",
+      "stipend",
+      "mizoram"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-pwd-unemployment-stipend",
+    "scheme_name": {
+      "en": "Stipend to Educated Unemployed Persons with Disabilities (Mizoram)",
+      "hi": "शिक्षित बेरोजगार दिव्यांगजन वजीफा (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) Stipend to Educated Unemployed Persons with Disabilities (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram stipend for educated persons with disabilities registered with an Employment Exchange for more than three years without gainful employment.",
+      "hi": "मिजोरम — 3+ वर्ष रोजगार कार्यालय पंजीकृत शिक्षित दिव्यांग बेरोजगारों हेतु वजीफा।",
+      "ml": "(EN — Malayalam review pending) Mizoram stipend for educated persons with disabilities registered with an Employment Exchange for more than three years without gainful employment."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "unemployed"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official disability schemes page: educated PwDs registered in any Employment Exchange for more than 3 years and not placed in gainful employment — stipend @ Rs.650 per month.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly stipend ₹650 as published — confirm current amount and registration proof rules.",
+      "hi": "मासिक वजीफा ₹650 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly stipend ₹650 as published — confirm current amount and registration proof rules."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Employment Exchange registration (>3 years)",
+        "Education proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Employment Exchange registration (>3 years)",
+        "Education proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Employment Exchange registration (>3 years)",
+        "Education proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare with Employment Exchange proof. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+      "hi": "रोजगार कार्यालय प्रमाण सहित जिला समाज कल्याण में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare with Employment Exchange proof. https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472",
+    "tags": [
+      "disability",
+      "unemployment",
+      "stipend",
+      "mizoram",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mz-economic-rehabilitation-pwd",
+    "scheme_name": {
+      "en": "State Economic Rehabilitation Scheme for Persons with Disabilities (Mizoram)",
+      "hi": "दिव्यांगजन आर्थिक पुनर्वास योजना (मिजोरम)",
+      "ml": "(EN — Malayalam review pending) State Economic Rehabilitation Scheme for Persons with Disabilities (Mizoram)"
+    },
+    "description": {
+      "en": "Mizoram one-time grant-in-aid / in-kind support for handicapped persons (e.g. piggery/poultry cash grant; sewing machines and cobbler tools in kind).",
+      "hi": "मिजोरम — दिव्यांगजनों हेतु एकमुश्त नकद/वस्तु पुनर्वास सहायता।",
+      "ml": "(EN — Malayalam review pending) Mizoram one-time grant-in-aid / in-kind support for handicapped persons (e.g. piggery/poultry cash grant; sewing machines and cobbler tools in kind)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official disability / Economic Rehabilitation pages: one-time grant-in-aid in cash for pig rearing and poultry farming @ Rs.4000; sewing machines and cobbler tools given in kind.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 and https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme",
+      "states": [
+        "Mizoram"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time cash grant ₹4,000 (piggery/poultry) and/or in-kind tools as published — confirm current package.",
+      "hi": "एकमुश्त ₹4,000 एवं/या वस्तु सहायता — वर्तमान पैकेज सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time cash grant ₹4,000 (piggery/poultry) and/or in-kind tools as published — confirm current package."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account",
+        "Project / trade preference as required",
+        "Residence proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account",
+        "Project / trade preference as required",
+        "Residence proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare / Directorate channels. https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme",
+      "hi": "जिला समाज कल्याण / निदेशालय चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / Directorate channels. https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme"
+    },
+    "apply_url": "https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme",
+    "office_type": "Social Welfare & Tribal Affairs, Government of Mizoram",
+    "official_source_url": "https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme",
+    "tags": [
+      "disability",
+      "livelihood",
+      "mizoram"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Manipur NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (मणिपुर NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Manipur NSAP)"
+    },
+    "description": {
+      "en": "Manipur NSAP IGNOAPS for elderly aged 60+ (Assembly Social Welfare administrative report cites DBT rates by age band).",
+      "hi": "मणिपुर NSAP IGNOAPS — 60+ वृद्धजन।",
+      "ml": "(EN — Malayalam review pending) Manipur NSAP IGNOAPS for elderly aged 60+ (Assembly Social Welfare administrative report cites DBT rates by age band)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Manipur Assembly Social Welfare AA Report 2025-26: IGNOAPS beneficiaries age group 60+; ₹200 p.m. (60–79) and ₹500 p.m. (80+). Older NSAP rules page on socialwelfare.mn.gov.in still shows legacy age 65 text — prefer current AA report practice and confirm with DSWO.",
+      "verify_notes": "2026-09-16: https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf and https://socialwelfare.mn.gov.in/en/centrally-sponsored-schemes/national-social-assistance-program-nsap/ — legacy rules vs current 60+ practice; verify=true.",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly IGNOAPS pension (AA report: ₹200 / ₹500 by age) — confirm current Manipur DBT amount.",
+      "hi": "मासिक IGNOAPS पेंशन — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly IGNOAPS pension (AA report: ₹200 / ₹500 by age) — confirm current Manipur DBT amount."
+    },
+    "required_documents": {
+      "en": [
+        "Age proof",
+        "BPL / destitute proof",
+        "Aadhaar",
+        "Bank account",
+        "Manipur residence proof"
+      ],
+      "hi": [
+        "Age proof",
+        "BPL / destitute proof",
+        "Aadhaar",
+        "Bank account",
+        "Manipur residence proof"
+      ],
+      "ml": [
+        "Age proof",
+        "BPL / destitute proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare / NSAP form on socialwelfare.mn.gov.in downloads. https://socialwelfare.mn.gov.in/en/centrally-sponsored-schemes/national-social-assistance-program-nsap/",
+      "hi": "जिला समाज कल्याण / NSAP फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / NSAP form on socialwelfare.mn.gov.in downloads. https://socialwelfare.mn.gov.in/en/centrally-sponsored-schemes/national-social-assistance-program-nsap/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/en/centrally-sponsored-schemes/national-social-assistance-program-nsap/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "pension",
+      "elderly",
+      "manipur",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Manipur NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (मणिपुर NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Manipur NSAP)"
+    },
+    "description": {
+      "en": "Manipur NSAP IGNWPS with state top-up as cited in the Social Welfare administrative report.",
+      "hi": "मणिपुर NSAP IGNWPS — राज्य टॉप-अप सहित विधवा पेंशन।",
+      "ml": "(EN — Malayalam review pending) Manipur NSAP IGNWPS with state top-up as cited in the Social Welfare administrative report."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "AA Report 2025-26: IGNWPS beneficiaries; central ₹300 with state top-up ₹200 from Nov 2021 making ₹500 p.m. Standard NSAP widow age typically 40+ (aligns with CMWPS covering 40–59 as complementary state scheme). Confirm current age band with department.",
+      "verify_notes": "2026-09-16: https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf; forms at socialwelfare.mn.gov.in/downloads/",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension commonly ₹500 with state top-up as per AA report — confirm current amount.",
+      "hi": "मासिक विधवा पेंशन (प्रायः ₹500 टॉप-अप सहित) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension commonly ₹500 with state top-up as per AA report — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Widow proof",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "hi": [
+        "Widow proof",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof"
+      ],
+      "ml": [
+        "Widow proof",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare using IGNWPS form from https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण में IGNWPS फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare using IGNWPS form from https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "manipur",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Manipur NSAP)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (मणिपुर NSAP)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Manipur NSAP)"
+    },
+    "description": {
+      "en": "Manipur NSAP IGNDPS with state top-up as cited in the Social Welfare administrative report.",
+      "hi": "मणिपुर NSAP IGNDPS — राज्य टॉप-अप सहित दिव्यांगता पेंशन।",
+      "ml": "(EN — Malayalam review pending) Manipur NSAP IGNDPS with state top-up as cited in the Social Welfare administrative report."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "AA Report 2025-26: IGNDPS beneficiaries; enhanced to ₹500 p.m. with state top-up ₹200 from Nov 2021. Disability % follows NSAP severe disability norms — confirm locally. socialwelfare.mn.gov.in notes a separate state disability pension since 2022-23 over and above IGNDPS.",
+      "verify_notes": "2026-09-16: https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf; https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension commonly ₹500 with state top-up as per AA report — confirm current amount.",
+      "hi": "मासिक दिव्यांगता पेंशन — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension commonly ₹500 with state top-up as per AA report — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Age proof",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Age proof",
+        "BPL proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare using IGNDPS form from https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण में IGNDPS फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare using IGNDPS form from https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "pension",
+      "disability",
+      "manipur",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-nfbs",
+    "scheme_name": {
+      "en": "National Family Benefit Scheme (Manipur NSAP)",
+      "hi": "राष्ट्रीय पारिवारिक लाभ योजना (मणिपुर NSAP)",
+      "ml": "(EN — Malayalam review pending) National Family Benefit Scheme (Manipur NSAP)"
+    },
+    "description": {
+      "en": "Manipur NSAP one-time assistance to bereaved households on death of the primary breadwinner (AA report cites ₹20,000).",
+      "hi": "मणिपुर NSAP — कमाने वाले की मृत्यु पर एकमुश्त सहायता।",
+      "ml": "(EN — Malayalam review pending) Manipur NSAP one-time assistance to bereaved households on death of the primary breadwinner (AA report cites ₹20,000)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "AA Report 2025-26: NFBS transferred @ ₹20,000 for death of primary breadwinner in age group 18–59 via PFMS. Application form on socialwelfare.mn.gov.in downloads.",
+      "verify_notes": "2026-09-16: https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time ₹20,000 as cited in AA report — confirm current amount.",
+      "hi": "एकमुश्त ₹20,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time ₹20,000 as cited in AA report — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Age proof of deceased (18–59)"
+      ],
+      "hi": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar",
+        "Bank account",
+        "Age proof of deceased (18–59)"
+      ],
+      "ml": [
+        "Death certificate",
+        "BPL proof",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare using NFBS form from https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण में NFBS फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare using NFBS form from https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "family-benefit",
+      "nsap",
+      "manipur",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-cmwps",
+    "scheme_name": {
+      "en": "Chief Minister Widow Pension Scheme (CMWPS) – Manipur",
+      "hi": "मुख्यमंत्री विधवा पेंशन योजना (CMWPS) – मणिपुर",
+      "ml": "(EN — Malayalam review pending) Chief Minister Widow Pension Scheme (CMWPS) – Manipur"
+    },
+    "description": {
+      "en": "Manipur state widow pension for BPL widows aged 40–59 (HIV-positive widows 18–59), complementary to IGNWPS.",
+      "hi": "मणिपुर राज्य विधवा पेंशन — BPL विधवा 40–59 (HIV+ 18–59)।",
+      "ml": "(EN — Malayalam review pending) Manipur state widow pension for BPL widows aged 40–59 (HIV-positive widows 18–59), complementary to IGNWPS."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 59,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "AA Report 2025-26 section (C): social security for widows below poverty line; covers widows aged 40–59; HIV-positive widows aged 18–59 also eligible; must not be retired government employees, receive family pension, or benefit from any other government beneficiary-oriented scheme; ₹500 per month. Application form on socialwelfare.mn.gov.in (age proof note 40–59). Encoded min_age uses HIV path floor (18); non-HIV applicants must meet 40–59.",
+      "verify_notes": "2026-09-16: https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf; form https://socialwelfare.mn.gov.in/media/filer_public/f3/85/f385a0fa-f9c5-413b-993e-500a2e755e5c/cmwps.pdf — gender-specific HIV branch not fully encoded.",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension ₹500 as per AA report — confirm current amount.",
+      "hi": "मासिक पेंशन ₹500 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension ₹500 as per AA report — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Bank account",
+        "Death certificate of husband",
+        "Income certificate / NFSA card",
+        "Age proof",
+        "HIV certificate if applicable",
+        "Passport photos"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Bank account",
+        "Death certificate of husband",
+        "Income certificate / NFSA card",
+        "Age proof",
+        "HIV certificate if applicable",
+        "Passport photos"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Bank account",
+        "Death certificate of husband"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit CMWPS form via District Social Welfare. Form: https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण में CMWPS फॉर्म जमा करें।",
+      "ml": "(EN — Malayalam review pending) Submit CMWPS form via District Social Welfare. Form: https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "manipur",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-caregiver-allowance-pwd",
+    "scheme_name": {
+      "en": "Care-Giver Allowance / Maintenance Grant for PwDs with High Support Needs (CMST) – Manipur",
+      "hi": "उच्च समर्थन आवश्यकता वाले दिव्यांगजन केयर-गिवर भत्ता (CMST) – मणिपुर",
+      "ml": "(EN — Malayalam review pending) Care-Giver Allowance / Maintenance Grant for PwDs with High Support Needs (CMST) – Manipur"
+    },
+    "description": {
+      "en": "Manipur CMST care-giver / maintenance grant for persons with disabilities with high support needs (detailed eligibility on official application PDF).",
+      "hi": "मणिपुर CMST — उच्च समर्थन आवश्यकता वाले दिव्यांगजन हेतु केयर-गिवर भत्ता।",
+      "ml": "(EN — Malayalam review pending) Manipur CMST care-giver / maintenance grant for persons with disabilities with high support needs (detailed eligibility on official application PDF)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Official care-giver application PDF (socialwelfare.mn.gov.in): domicile of Manipur with disability certificate; all persons with Intellectual Disabilities eligible irrespective of degree; for Mental Illness, Locomotor, MS, Parkinson's, Haemophilia, Thalassemia, Sickle cell — degree not less than 80% permanent and under constant care-giver supervision; not availing similar scheme/pension elsewhere. AA Report: ₹1,500 p.m. under CMST.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mn.gov.in/media/filer_public/e9/40/e940dbc8-1ea2-4a91-a3b4-3871f3f2f0b0/care_giver_1.pdf ; AA report amount ₹1500. Intellectual-disability branch has no % floor — encoded 80% is for listed conditions; verify=true.",
+      "states": [
+        "Manipur"
+      ]
+    },
+    "benefits": {
+      "en": "Monthly care-giver / maintenance grant ₹1,500 as per AA report — confirm current amount.",
+      "hi": "मासिक केयर-गिवर भत्ता ₹1,500 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly care-giver / maintenance grant ₹1,500 as per AA report — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar / voter ID",
+        "Bank passbook of guardian/care-taker",
+        "Passport photos",
+        "UDID if available"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar / voter ID",
+        "Bank passbook of guardian/care-taker",
+        "Passport photos",
+        "UDID if available"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar / voter ID",
+        "Bank passbook of guardian/care-taker"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit form to District Social Welfare Officer. PDF: https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण अधिकारी को फॉर्म जमा करें।",
+      "ml": "(EN — Malayalam review pending) Submit form to District Social Welfare Officer. PDF: https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://socialwelfare.mn.gov.in/media/filer_public/e9/40/e940dbc8-1ea2-4a91-a3b4-3871f3f2f0b0/care_giver_1.pdf",
+    "tags": [
+      "disability",
+      "caregiver",
+      "manipur",
+      "cmst",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-disability-pension-cmst",
+    "scheme_name": {
+      "en": "Disabled Pension under CMST (Manipur)",
+      "hi": "CMST के अंतर्गत दिव्यांग पेंशन (मणिपुर)",
+      "ml": "(EN — Malayalam review pending) Disabled Pension under CMST (Manipur)"
+    },
+    "description": {
+      "en": "Manipur state disability pension under Chief Ministergi Shotharabasingi Tengbang (CMST), over and above IGNDPS as noted on Social Welfare disability page / AA report.",
+      "hi": "मणिपुर राज्य दिव्यांग पेंशन (CMST) — IGNDPS के अतिरिक्त।",
+      "ml": "(EN — Malayalam review pending) Manipur state disability pension under Chief Ministergi Shotharabasingi Tengbang (CMST), over and above IGNDPS as noted on Social Welfare disability page / AA report."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "socialwelfare.mn.gov.in disabled page: State Govt launched a new Pension Scheme for persons with disabilities since 2022-23 over and above IGNDPS. AA Report: Disabled Pension under CMST to 1040 persons. Detailed rupee rate / % threshold not fully published on the short page — confirm with DSWO.",
+      "verify_notes": "2026-09-16: https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/ and AA report — amount/% not fully cited; verify=true.",
+      "states": [
+        "Manipur"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly state disability pension under CMST (amount as sanctioned) — confirm current rate with Social Welfare.",
+      "hi": "CMST मासिक दिव्यांग पेंशन — वर्तमान दर विभाग से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly state disability pension under CMST (amount as sanctioned) — confirm current rate with Social Welfare."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof",
+        "CMST application as notified"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account",
+        "Residence proof",
+        "CMST application as notified"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar",
+        "Bank account"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare / CMST channels. https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/",
+      "hi": "जिला समाज कल्याण / CMST चैनल से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare / CMST channels. https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/",
+    "tags": [
+      "pension",
+      "disability",
+      "manipur",
+      "cmst",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "mn-marriage-incentive-disabled",
+    "scheme_name": {
+      "en": "Incentive Award for Marriage with Disabled Person (Manipur)",
+      "hi": "दिव्यांग व्यक्ति से विवाह हेतु प्रोत्साहन पुरस्कार (मणिपुर)",
+      "ml": "(EN — Malayalam review pending) Incentive Award for Marriage with Disabled Person (Manipur)"
+    },
+    "description": {
+      "en": "Manipur award for marriage with a person with disability under Social Welfare / CMST-related programmes (AA report cites ₹30,000).",
+      "hi": "मणिपुर — दिव्यांग व्यक्ति से विवाह पर प्रोत्साहन (AA रिपोर्ट: ₹30,000)।",
+      "ml": "(EN — Malayalam review pending) Manipur award for marriage with a person with disability under Social Welfare / CMST-related programmes (AA report cites ₹30,000)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [
+        "married"
+      ],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "AA Report 2025-26: Marriage Incentive Award given @ Rs.30,000. Application form listed on socialwelfare.mn.gov.in downloads. Exact spouse/age conditions on form/notification — confirm locally.",
+      "verify_notes": "2026-09-16: AA report + https://socialwelfare.mn.gov.in/downloads/ — detailed eligibility on form; verify=true.",
+      "states": [
+        "Manipur"
+      ]
+    },
+    "benefits": {
+      "en": "One-time marriage incentive ₹30,000 as per AA report — confirm current amount and conditions.",
+      "hi": "एकमुश्त विवाह प्रोत्साहन ₹30,000 — शर्तें/राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) One-time marriage incentive ₹30,000 as per AA report — confirm current amount and conditions."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate of PwD spouse",
+        "Marriage certificate",
+        "Aadhaar",
+        "Bank account",
+        "Application form"
+      ],
+      "hi": [
+        "Disability certificate of PwD spouse",
+        "Marriage certificate",
+        "Aadhaar",
+        "Bank account",
+        "Application form"
+      ],
+      "ml": [
+        "Disability certificate of PwD spouse",
+        "Marriage certificate",
+        "Aadhaar"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via District Social Welfare using marriage incentive form from https://socialwelfare.mn.gov.in/downloads/",
+      "hi": "जिला समाज कल्याण में निर्धारित फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via District Social Welfare using marriage incentive form from https://socialwelfare.mn.gov.in/downloads/"
+    },
+    "apply_url": "https://socialwelfare.mn.gov.in/downloads/",
+    "office_type": "Social Welfare Department, Government of Manipur",
+    "official_source_url": "https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf",
+    "tags": [
+      "disability",
+      "marriage",
+      "manipur"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-ignoaps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (Tripura)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Old Age Pension Scheme (Tripura)"
+    },
+    "description": {
+      "en": "Tripura NSAP IGNOAPS listed under Social Welfare services; monthly rate revised to ₹2,000 in Sept 2022 notification (all age bands listed).",
+      "hi": "त्रिपुरा NSAP IGNOAPS — सितंबर 2022 अधिसूचना में मासिक दर ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura NSAP IGNOAPS listed under Social Welfare services; monthly rate revised to ₹2,000 in Sept 2022 notification (all age bands listed)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list includes IGNOAPS; rates table lists National Old Age Pension (60–79 and 80+).",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services and rates PDF on https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension (live site intermittently unreachable; notification verified).",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension ₹2,000 as per Sept 2022 revised rates notification — confirm current amount.",
+      "hi": "मासिक पेंशन ₹2,000 (सितंबर 2022 संशोधन) — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension ₹2,000 as per Sept 2022 revised rates notification — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate / AAY ration card",
+        "Age proof",
+        "PRTC / residence proof",
+        "Bank account",
+        "MSSP/NSAP form as directed"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Income certificate / AAY ration card",
+        "Age proof",
+        "PRTC / residence proof",
+        "Bank account",
+        "MSSP/NSAP form as directed"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate / AAY ration card",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO / Social Welfare channels using prescribed forms. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO / समाज कल्याण निर्धारित फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Social Welfare channels using prescribed forms. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "elderly",
+      "tripura",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-ignwps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Widow Pension Scheme (Tripura)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Widow Pension Scheme (Tripura)"
+    },
+    "description": {
+      "en": "Tripura NSAP IGNWPS listed on Social Welfare services; monthly rate revised to ₹2,000 (Sept 2022).",
+      "hi": "त्रिपुरा NSAP IGNWPS — संशोधित मासिक दर ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura NSAP IGNWPS listed on Social Welfare services; monthly rate revised to ₹2,000 (Sept 2022)."
+    },
+    "eligibility_rules": {
+      "min_age": 40,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list includes IGNWPS; rates table lists National Widow Pension.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension ₹2,000 as per Sept 2022 rates notification — confirm current amount.",
+      "hi": "मासिक विधवा पेंशन ₹2,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension ₹2,000 as per Sept 2022 rates notification — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow / death certificate",
+        "PRTC",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow / death certificate",
+        "PRTC",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow / death certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO / समाज कल्याण के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "tripura",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-igndps",
+    "scheme_name": {
+      "en": "Indira Gandhi National Disability Pension Scheme (Tripura)",
+      "hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Indira Gandhi National Disability Pension Scheme (Tripura)"
+    },
+    "description": {
+      "en": "Tripura NSAP IGNDPS (including 80%+ / 100% blind tracks listed in rates notification); monthly rate ₹2,000.",
+      "hi": "त्रिपुरा NSAP IGNDPS — संशोधित मासिक दर ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura NSAP IGNDPS (including 80%+ / 100% blind tracks listed in rates notification); monthly rate ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 80,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Rates notification lists IGNDPS for 80%+ disability and 100% blind tracks under NSAP disability pensions.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension; https://socialwelfare.tripura.gov.in/services",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability pension ₹2,000 as per Sept 2022 rates — confirm current amount.",
+      "hi": "मासिक दिव्यांगता पेंशन ₹2,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability pension ₹2,000 as per Sept 2022 rates — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account",
+        "Age proof"
+      ],
+      "hi": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account",
+        "Age proof"
+      ],
+      "ml": [
+        "Disability certificate",
+        "Aadhaar",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO / समाज कल्याण के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "disability",
+      "tripura",
+      "nsap",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-widow-deserted-pension",
+    "scheme_name": {
+      "en": "Widow & Deserted Woman Pension (Tripura)",
+      "hi": "विधवा एवं परित्यक्ता महिला पेंशन (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Widow & Deserted Woman Pension (Tripura)"
+    },
+    "description": {
+      "en": "Tripura state Widow & Deserted Woman Pension listed on Social Welfare services; monthly rate revised to ₹2,000.",
+      "hi": "त्रिपुरा राज्य विधवा एवं परित्यक्ता पेंशन — मासिक ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura state Widow & Deserted Woman Pension listed on Social Welfare services; monthly rate revised to ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list: Widow & Deserted Woman Pension (WDP); rates table: Widow & Deserted Pension. MSSP form lists widows and deserted/abandoned wives among vulnerable women categories.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension; MSSP form https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension ₹2,000 as per Sept 2022 rates — confirm current amount and exact age rules with CDPO.",
+      "hi": "मासिक पेंशन ₹2,000 — आयु नियम CDPO से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension ₹2,000 as per Sept 2022 rates — confirm current amount and exact age rules with CDPO."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow/desertion proof",
+        "PRTC",
+        "Bank account",
+        "Ration card"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow/desertion proof",
+        "PRTC",
+        "Bank account",
+        "Ration card"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate",
+        "Widow/desertion proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Offline MSSP / Social Pension application via CDPO. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO में MSSP/सामाजिक पेंशन आवेदन।",
+      "ml": "(EN — Malayalam review pending) Offline MSSP / Social Pension application via CDPO. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "widow",
+      "deserted",
+      "women",
+      "tripura",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-unmarried-women-pension",
+    "scheme_name": {
+      "en": "Pension for Un-married Women (Tripura)",
+      "hi": "अविवाहित महिलाओं हेतु पेंशन (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Pension for Un-married Women (Tripura)"
+    },
+    "description": {
+      "en": "Tripura pension for unmarried women aged 45+ listed on Social Welfare services / rates notification; monthly ₹2,000.",
+      "hi": "त्रिपुरा — 45+ अविवाहित महिलाओं हेतु पेंशन ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura pension for unmarried women aged 45+ listed on Social Welfare services / rates notification; monthly ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": 45,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list: Pension for Un-married women; rates table: Pension to Un-married women (45 years and above). MSSP form lists unmarried women aged 45+.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension ₹2,000 as per Sept 2022 rates — confirm current amount.",
+      "hi": "मासिक पेंशन ₹2,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension ₹2,000 as per Sept 2022 rates — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate",
+        "Unmarried certificate",
+        "Age proof",
+        "PRTC",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Income certificate",
+        "Unmarried certificate",
+        "Age proof",
+        "PRTC",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate",
+        "Unmarried certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO using MSSP form. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO में MSSP फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO using MSSP form. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "women",
+      "unmarried",
+      "tripura",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-disability-60-allowance",
+    "scheme_name": {
+      "en": "Social Pension for Persons with 60% and Above Disability (Tripura)",
+      "hi": "60% एवं अधिक दिव्यांगता सामाजिक पेंशन (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Social Pension for Persons with 60% and Above Disability (Tripura)"
+    },
+    "description": {
+      "en": "Tripura state disability allowance for persons with 60%+ disability listed on services / rates notification; monthly ₹2,000.",
+      "hi": "त्रिपुरा — 60%+ दिव्यांगता भत्ता ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura state disability allowance for persons with 60%+ disability listed on services / rates notification; monthly ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": 60,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list: Social pension for person with 60 percent Disability and above; rates table: 60% & above Disability Allowance.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly disability allowance ₹2,000 as per Sept 2022 rates — confirm current amount.",
+      "hi": "मासिक दिव्यांगता भत्ता ₹2,000 — वर्तमान राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly disability allowance ₹2,000 as per Sept 2022 rates — confirm current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Disability certificate (60%+)",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability certificate (60%+)",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability certificate (60%+)",
+        "Aadhaar",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO / समाज कल्याण के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "disability",
+      "tripura",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-blind-handicap-pension",
+    "scheme_name": {
+      "en": "Blind and Handicapped Pension (Tripura)",
+      "hi": "दृष्टिहीन एवं विकलांग पेंशन (त्रिपुरा)",
+      "ml": "(EN — Malayalam review pending) Blind and Handicapped Pension (Tripura)"
+    },
+    "description": {
+      "en": "Tripura Blind & Handicap Pension listed on Social Welfare services; monthly rate revised to ₹2,000.",
+      "hi": "त्रिपुरा Blind & Handicap पेंशन — मासिक ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura Blind & Handicap Pension listed on Social Welfare services; monthly rate revised to ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list: Blind and Handicapped Pension (BHP); rates table: Blind & Handicap Pension. Related separate tracks exist for 100% blind allowance — confirm which track applies.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension — overlap with other blindness pensions; verify=true.",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly pension ₹2,000 as per Sept 2022 rates — confirm track and current amount.",
+      "hi": "मासिक पेंशन ₹2,000 — ट्रैक/राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly pension ₹2,000 as per Sept 2022 rates — confirm track and current amount."
+    },
+    "required_documents": {
+      "en": [
+        "Disability / blindness certificate",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account"
+      ],
+      "hi": [
+        "Disability / blindness certificate",
+        "Aadhaar",
+        "Income certificate",
+        "PRTC",
+        "Bank account"
+      ],
+      "ml": [
+        "Disability / blindness certificate",
+        "Aadhaar",
+        "Income certificate"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO / समाज कल्याण के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO / Social Welfare. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "disability",
+      "blind",
+      "tripura",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "tr-state-old-age-pension",
+    "scheme_name": {
+      "en": "State Old Age Pension (SOAP) – Tripura",
+      "hi": "राज्य वृद्धावस्था पेंशन (SOAP) – त्रिपुरा",
+      "ml": "(EN — Malayalam review pending) State Old Age Pension (SOAP) – Tripura"
+    },
+    "description": {
+      "en": "Tripura State Old Age Pension listed on Social Welfare services; monthly rate revised to ₹2,000.",
+      "hi": "त्रिपुरा राज्य वृद्धावस्था पेंशन — मासिक ₹2,000।",
+      "ml": "(EN — Malayalam review pending) Tripura State Old Age Pension listed on Social Welfare services; monthly rate revised to ₹2,000."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": 100000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "Tripura social pensions commonly use annual family income not exceeding ₹1,00,000 and no government employee in family (as encoded on existing MSSP Old/Infirm entry and reflected on MSSP application form income/employment questions). Rates notification F.3(72)DSWE/PEN.CELL/2020 dated 09/09/2022 revises monthly rate to ₹2,000 for listed schemes; other terms remain as notified from time to time. Services list: State Old Age Pension (SOAP); rates table: State Old Age Pension. Distinct from NSAP IGNOAPS / MSSP Old tracks — confirm non-duplication rules with CDPO.",
+      "verify_notes": "2026-09-16: https://socialwelfare.tripura.gov.in/services; https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+      "states": [
+        "Tripura"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly state old-age pension ₹2,000 as per Sept 2022 rates — confirm current amount and overlap rules.",
+      "hi": "मासिक राज्य वृद्धावस्था पेंशन ₹2,000 — ओवरलैप नियम सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Monthly state old-age pension ₹2,000 as per Sept 2022 rates — confirm current amount and overlap rules."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Income certificate",
+        "Age proof",
+        "PRTC",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Income certificate",
+        "Age proof",
+        "PRTC",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Income certificate",
+        "Age proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CDPO using social pension / MSSP forms. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+      "hi": "CDPO में सामाजिक पेंशन/MSSP फॉर्म से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CDPO using social pension / MSSP forms. https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa"
+    },
+    "apply_url": "https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
+    "office_type": "Directorate of Social Welfare and Social Education, Government of Tripura",
+    "official_source_url": "https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension",
+    "tags": [
+      "pension",
+      "elderly",
+      "tripura",
+      "dbt"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ar-old-age-pension-cmseva",
+    "scheme_name": {
+      "en": "Old Age Pension Application (CM-SEVA) – Arunachal Pradesh",
+      "hi": "वृद्धावस्था पेंशन आवेदन (CM-SEVA) – अरुणाचल प्रदेश",
+      "ml": "(EN — Malayalam review pending) Old Age Pension Application (CM-SEVA) – Arunachal Pradesh"
+    },
+    "description": {
+      "en": "Arunachal Pradesh CM-SEVA Social Welfare service for old age pension applications (state digital gateway). Exact NSAP/state eligibility criteria must be confirmed at sanctioning office.",
+      "hi": "अरुणाचल CM-SEVA — वृद्धावस्था पेंशन आवेदन सेवा; पात्रता कार्यालय से पुष्टि आवश्यक।",
+      "ml": "(EN — Malayalam review pending) Arunachal Pradesh CM-SEVA Social Welfare service for old age pension applications (state digital gateway). Exact NSAP/state eligibility criteria must be confirmed at sanctioning office."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "CM-SEVA Social Welfare category lists 'Pension Application – Old age and widow pension applications' as an official G2C service. Detailed age/income ceilings were not extractable as a separate published rules page during Wave 5 curation — do not assume numeric thresholds without District/DSWO confirmation. Often aligned with NSAP IGNOAPS practice in other states, but not encoded here beyond BPL soft flag.",
+      "verify_notes": "2026-09-16: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare — eligibility not fully published on service card; verify=true. No min_age encoded to avoid invention.",
+      "states": [
+        "Arunachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly old-age pension as sanctioned after local eligibility check — confirm current rate with Social Welfare / CM-SEVA helpdesk.",
+      "hi": "स्वीकृत मासिक वृद्धावस्था पेंशन — वर्तमान दर स्थानीय कार्यालय से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly old-age pension as sanctioned after local eligibility check — confirm current rate with Social Welfare / CM-SEVA helpdesk."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof as required",
+        "APST / residence proof as applicable",
+        "Bank account",
+        "Mobile number"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof as required",
+        "APST / residence proof as applicable",
+        "Bank account",
+        "Mobile number"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Age proof",
+        "BPL / income proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CM-SEVA Social Welfare services: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+      "hi": "CM-SEVA सामाजिक कल्याण सेवाओं के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CM-SEVA Social Welfare services: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare"
+    },
+    "apply_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "office_type": "CM-SEVA / Social Welfare, Government of Arunachal Pradesh",
+    "official_source_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "tags": [
+      "pension",
+      "elderly",
+      "arunachal-pradesh",
+      "cm-seva"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ar-widow-pension-cmseva",
+    "scheme_name": {
+      "en": "Widow Pension (CM-SEVA) – Arunachal Pradesh",
+      "hi": "विधवा पेंशन (CM-SEVA) – अरुणाचल प्रदेश",
+      "ml": "(EN — Malayalam review pending) Widow Pension (CM-SEVA) – Arunachal Pradesh"
+    },
+    "description": {
+      "en": "Arunachal Pradesh CM-SEVA Social Welfare service explicitly listing Widow Pension applications. Confirm exact eligibility with the sanctioning authority.",
+      "hi": "अरुणाचल CM-SEVA — विधवा पेंशन आवेदन; पात्रता प्राधिकारी से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Arunachal Pradesh CM-SEVA Social Welfare service explicitly listing Widow Pension applications. Confirm exact eligibility with the sanctioning authority."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "CM-SEVA Social Welfare lists a distinct 'Widow Pension – Pension scheme for widows' service alongside combined old-age/widow pension applications. Numeric age/income ceilings not published on the service card during Wave 5 — not invented.",
+      "verify_notes": "2026-09-16: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare — verify=true; no min_age encoded.",
+      "states": [
+        "Arunachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly widow pension as sanctioned — confirm current rate and documents with CM-SEVA / District office.",
+      "hi": "स्वीकृत मासिक विधवा पेंशन — वर्तमान दर/दस्तावेज पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Monthly widow pension as sanctioned — confirm current rate and documents with CM-SEVA / District office."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Widow / husband death proof",
+        "BPL / income proof as required",
+        "Residence / APST proof as applicable",
+        "Bank account"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Widow / husband death proof",
+        "BPL / income proof as required",
+        "Residence / APST proof as applicable",
+        "Bank account"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Widow / husband death proof",
+        "BPL / income proof as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CM-SEVA Social Welfare: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+      "hi": "CM-SEVA सामाजिक कल्याण सेवा से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via CM-SEVA Social Welfare: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare"
+    },
+    "apply_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "office_type": "CM-SEVA / Social Welfare, Government of Arunachal Pradesh",
+    "official_source_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "tags": [
+      "pension",
+      "widow",
+      "women",
+      "arunachal-pradesh",
+      "cm-seva"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ar-bpl-certificate-cmseva",
+    "scheme_name": {
+      "en": "BPL Certificate (CM-SEVA) – Arunachal Pradesh",
+      "hi": "BPL प्रमाणपत्र (CM-SEVA) – अरुणाचल प्रदेश",
+      "ml": "(EN — Malayalam review pending) BPL Certificate (CM-SEVA) – Arunachal Pradesh"
+    },
+    "description": {
+      "en": "Arunachal CM-SEVA service to obtain Below Poverty Line certificate used as a gateway document for many welfare pensions and benefits.",
+      "hi": "अरुणाचल CM-SEVA — BPL प्रमाणपत्र सेवा (अन्य योजनाओं हेतु)।",
+      "ml": "(EN — Malayalam review pending) Arunachal CM-SEVA service to obtain Below Poverty Line certificate used as a gateway document for many welfare pensions and benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "CM-SEVA Social Welfare lists 'BPL Certificate – Below Poverty Line certificate' as an official online service. Certificate eligibility follows local BPL/SECC/NFSA practice — confirm with issuing office.",
+      "verify_notes": "2026-09-16: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+      "states": [
+        "Arunachal Pradesh"
+      ],
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Issuance of BPL certificate (document benefit) enabling access to income-linked schemes.",
+      "hi": "BPL प्रमाणपत्र जारी करना (दस्तावेजी लाभ)।",
+      "ml": "(EN — Malayalam review pending) Issuance of BPL certificate (document benefit) enabling access to income-linked schemes."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Residence proof",
+        "Family / ration details",
+        "Income-related proofs as required",
+        "Mobile number"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Residence proof",
+        "Family / ration details",
+        "Income-related proofs as required",
+        "Mobile number"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Residence proof",
+        "Family / ration details"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on CM-SEVA: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+      "hi": "CM-SEVA पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply on CM-SEVA: https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare"
+    },
+    "apply_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "office_type": "CM-SEVA / Government of Arunachal Pradesh",
+    "official_source_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare",
+    "tags": [
+      "bpl",
+      "certificate",
+      "arunachal-pradesh",
+      "cm-seva"
+    ],
+    "last_verified": "2026-09-16"
+  },
+  {
+    "id": "ar-scholarship-cmseva",
+    "scheme_name": {
+      "en": "Scholarship Application (CM-SEVA) – Arunachal Pradesh",
+      "hi": "छात्रवृत्ति आवेदन (CM-SEVA) – अरुणाचल प्रदेश",
+      "ml": "(EN — Malayalam review pending) Scholarship Application (CM-SEVA) – Arunachal Pradesh"
+    },
+    "description": {
+      "en": "Arunachal Pradesh CM-SEVA Education service for government scholarship applications for students. Scheme-specific eligibility (board/department) must be confirmed on the service workflow.",
+      "hi": "अरुणाचल CM-SEVA शिक्षा सेवा — छात्रों हेतु सरकारी छात्रवृत्ति आवेदन; पात्रता सेवा प्रवाह से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Arunachal Pradesh CM-SEVA Education service for government scholarship applications for students. Scheme-specific eligibility (board/department) must be confirmed on the service workflow."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "nationwide": false,
+      "countries": [
+        "India"
+      ],
+      "verify": true,
+      "notes": "CM-SEVA Education category lists 'Scholarship Application – Government scholarship application for students'. Individual scholarship streams (merit/means/ST etc.) are selected inside the service; numeric ceilings not published on the category card.",
+      "verify_notes": "2026-09-16: https://cmeseva.arunachal.gov.in/all_services.php?category=Education — verify=true.",
+      "states": [
+        "Arunachal Pradesh"
+      ]
+    },
+    "benefits": {
+      "en": "Access to government scholarship application workflow (benefit amount depends on selected scholarship stream) — confirm on CM-SEVA.",
+      "hi": "सरकारी छात्रवृत्ति आवेदन वर्कफ़्लो — चयनित योजना अनुसार राशि CM-SEVA पर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Access to government scholarship application workflow (benefit amount depends on selected scholarship stream) — confirm on CM-SEVA."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Student ID / enrolment proof",
+        "Mark sheets",
+        "Bank account",
+        "Caste/APST certificate if required",
+        "Income certificate if required"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Student ID / enrolment proof",
+        "Mark sheets",
+        "Bank account",
+        "Caste/APST certificate if required",
+        "Income certificate if required"
+      ],
+      "ml": [
+        "Aadhaar",
+        "Student ID / enrolment proof",
+        "Mark sheets"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CM-SEVA Education services: https://cmeseva.arunachal.gov.in/all_services.php?category=Education",
+      "hi": "CM-SEVA शिक्षा सेवाओं के माध्यम से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via CM-SEVA Education services: https://cmeseva.arunachal.gov.in/all_services.php?category=Education"
+    },
+    "apply_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Education",
+    "office_type": "CM-SEVA / Education, Government of Arunachal Pradesh",
+    "official_source_url": "https://cmeseva.arunachal.gov.in/all_services.php?category=Education",
+    "tags": [
+      "education",
+      "scholarship",
+      "students",
+      "arunachal-pradesh",
+      "cm-seva"
+    ],
+    "last_verified": "2026-09-16"
   }
 ]

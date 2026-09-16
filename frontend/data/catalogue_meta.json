@@ -1,8 +1,8 @@
 {
   "updated_as_of": "2026-09-16",
-  "updated_as_of_iso": "2026-09-16T18:45:00+05:30",
-  "scheme_count": 225,
-  "scope": "India + selected other countries (curated; not worldwide). Wave 1 deepen: Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Odisha. Wave 2 deepen: Andhra Pradesh, Telangana, Assam, Chhattisgarh, Jharkhand expanded toward Kerala-level local depth; Wave 3 deepen: Tamil Nadu, Karnataka, Maharashtra, West Bengal, Gujarat expanded toward Kerala-level local depth; Wave 4 deepen: Punjab, Haryana, Himachal Pradesh, Uttarakhand, Goa expanded toward Kerala-level local depth; Kerala remains fully curated; Bangladesh, Nepal, Sri Lanka, Maldives have starter official sets.",
+  "updated_as_of_iso": "2026-09-16T19:15:00+05:30",
+  "scheme_count": 270,
+  "scope": "India + selected other countries (curated; not worldwide). Wave 1 deepen: Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, Odisha. Wave 2 deepen: Andhra Pradesh, Telangana, Assam, Chhattisgarh, Jharkhand expanded toward Kerala-level local depth; Wave 3 deepen: Tamil Nadu, Karnataka, Maharashtra, West Bengal, Gujarat expanded toward Kerala-level local depth; Wave 4 deepen: Punjab, Haryana, Himachal Pradesh, Uttarakhand, Goa expanded toward Kerala-level local depth; Wave 5 deepen: Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura expanded with verified local pensions/welfare (quality over forced count; smaller NE states may have fewer clearly documented schemes); Kerala remains fully curated; Bangladesh, Nepal, Sri Lanka, Maldives have starter official sets.",
   "auto_update": "semi-automatic — see docs/DATA_REFRESH.md",
   "stale_after_days": 30,
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated.",

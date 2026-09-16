@@ -299,3 +299,58 @@ Skipped (quality / official eligibility unclear from reachable pages): TN Sri La
 
 Skipped (quality / official eligibility unclear from reachable pages this pass): Punjab Bebe Nanki Laadli Beti Kalyan (india.gov.in 404; SSWCD portal timed out from curator network — income ceiling not re-verified on live HTML); Punjab Mai Bhago Widows Benefit myScheme page errored; HP Indira Gandhi Pyari Behna Sukh-Samman Nidhi (notification PDF scanned/image-only — eligibility not OCR-verified); Haryana Allowance to Dwarfs / Rare Diseases / Kashmiri Migrants (kept out for focus/quality); Goa NGO institutional grants (Mamta/Braille/Jeevan Jyot — not citizen matcher fits); UK marriage-grant sub-scheme rupee ceilings only partially published on the short service card.
 
+
+
+## Wave 5 source audit (2026-09-16)
+
+Northeast deepen — Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura. Official `.gov.in` / `.nic.in` only; Tripura rates/MSSP form verified from Directorate PDF/notification (live site intermittently unreachable from curator network; URLs remain official).
+
+| id | official_source_url | domain | apply_url | apply domain | verify | verified |
+| --- | --- | --- | --- | --- | --- | --- |
+| `sk-ignoaps` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `sk-ignwps` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `sk-igndps` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `sk-nfbs` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `sk-cm-disability-pension` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `sk-transgender-grant` | https://pensionscheme.sikkim.gov.in/ | gov | https://pensionscheme.sikkim.gov.in/ | gov | `True` | 2026-09-16 |
+| `nl-ignoaps` | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | `True` | 2026-09-16 |
+| `nl-ignwps` | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | `True` | 2026-09-16 |
+| `nl-igndps` | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | `True` | 2026-09-16 |
+| `nl-nfbs` | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | https://dsw.nagaland.gov.in/about-the-national-social-assistance-programme-nsap/ | gov | `True` | 2026-09-16 |
+| `nl-emrs` | https://dsw.nagaland.gov.in/eklvya-model-residential-school/ | gov | https://dsw.nagaland.gov.in/eklvya-model-residential-school/ | gov | `True` | 2026-09-16 |
+| `nl-st-hostels` | https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/ | gov | https://dsw.nagaland.gov.in/centrally-sponsored-scheme-of-hostels-for-st-boys-and-st-girls/ | gov | `True` | 2026-09-16 |
+| `ml-ignwps` | https://meghalaya.gov.in/schemes/content/37326 | gov | https://meghalaya.gov.in/schemes/content/37326 | gov | `True` | 2026-09-16 |
+| `ml-igndps` | https://meghalaya.gov.in/schemes/content/37326 | gov | https://meghalaya.gov.in/schemes/content/37326 | gov | `True` | 2026-09-16 |
+| `ml-nfbs` | https://meghalaya.gov.in/schemes/content/37326 | gov | https://meghalaya.gov.in/schemes/content/37326 | gov | `True` | 2026-09-16 |
+| `ml-rehab-disabled` | https://meghalaya.gov.in/schemes/content/15649 | gov | https://meghalaya.gov.in/schemes/content/15649 | gov | `True` | 2026-09-16 |
+| `ml-border-areas-scholarship` | https://meghalaya.gov.in/schemes/content/37489 | gov | https://meghalaya.gov.in/schemes/content/37489 | gov | `True` | 2026-09-16 |
+| `ml-primary-upper-scholarship` | https://meghalaya.gov.in/schemes/content/37593 | gov | https://meghalaya.gov.in/schemes/content/37593 | gov | `True` | 2026-09-16 |
+| `mz-ignwps` | https://socialwelfare.mizoram.gov.in/page/ignwp-scheme | gov | https://socialwelfare.mizoram.gov.in/page/ignwp-scheme | gov | `True` | 2026-09-16 |
+| `mz-igndps` | https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps | gov | https://socialwelfare.mizoram.gov.in/page/indira-gandhi-national-disability-pension-scheme-igndps | gov | `True` | 2026-09-16 |
+| `mz-nfbs` | https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme | gov | https://socialwelfare.mizoram.gov.in/page/national-benefit-scheme | gov | `True` | 2026-09-16 |
+| `mz-state-disability-pension` | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | `True` | 2026-09-16 |
+| `mz-handicapped-students-stipend` | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | `True` | 2026-09-16 |
+| `mz-pwd-unemployment-stipend` | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | https://socialwelfare.mizoram.gov.in/page/schemes-on-disability1688554472 | gov | `True` | 2026-09-16 |
+| `mz-economic-rehabilitation-pwd` | https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme | gov | https://socialwelfare.mizoram.gov.in/page/economic-rehabilitation-scheme | gov | `True` | 2026-09-16 |
+| `mn-ignoaps` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/en/centrally-sponsored-schemes/national-social-assistance-program-nsap/ | gov | `True` | 2026-09-16 |
+| `mn-ignwps` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `mn-igndps` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `mn-nfbs` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `mn-cmwps` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `mn-caregiver-allowance-pwd` | https://socialwelfare.mn.gov.in/media/filer_public/e9/40/e940dbc8-1ea2-4a91-a3b4-3871f3f2f0b0/care_giver_1.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `mn-disability-pension-cmst` | https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/ | gov | https://socialwelfare.mn.gov.in/en/sctet-sckim/disabled/ | gov | `True` | 2026-09-16 |
+| `mn-marriage-incentive-disabled` | https://assembly.mn.gov.in/user/pages/files/administrative-reports/AA%20Report%20Social%20Welfare%202025-26.pdf | gov | https://socialwelfare.mn.gov.in/downloads/ | gov | `True` | 2026-09-16 |
+| `tr-ignoaps` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-ignwps` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-igndps` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-widow-deserted-pension` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-unmarried-women-pension` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-disability-60-allowance` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-blind-handicap-pension` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `tr-state-old-age-pension` | https://socialwelfare.tripura.gov.in/monthly-revised-rate-following-social-security-pension-schemes-including-nsap-state-social-pension | gov | https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa | gov | `True` | 2026-09-16 |
+| `ar-old-age-pension-cmseva` | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | `True` | 2026-09-16 |
+| `ar-widow-pension-cmseva` | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | `True` | 2026-09-16 |
+| `ar-bpl-certificate-cmseva` | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | https://cmeseva.arunachal.gov.in/all_services.php?category=Social+Welfare | gov | `True` | 2026-09-16 |
+| `ar-scholarship-cmseva` | https://cmeseva.arunachal.gov.in/all_services.php?category=Education | gov | https://cmeseva.arunachal.gov.in/all_services.php?category=Education | gov | `True` | 2026-09-16 |
+
+Skipped: Manipur unemployment-allowance PDF (image-heavy); Tripura many occupational social pensions (rate table only); Nagaland SOAP (DIPR list without eligibility page); Arunachal numeric NSAP rules pages not found — CM-SEVA gateways only; Mizoram live portal often 403 (content taken from official page HTML/snapshots).
