@@ -43,7 +43,7 @@ export const MARITAL_STATUSES = [
   "deserted",
 ] as const;
 
-/** Wizard question steps after welcome (state → … → details). */
-export const TOTAL_STEPS = 8;
+/** Wizard question steps after welcome (country → region/state → … → details). */
+export const TOTAL_STEPS = 9;
 
 export const DISTRICT_FREE_TEXT_MAX = 64;

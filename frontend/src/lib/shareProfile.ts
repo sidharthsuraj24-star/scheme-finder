@@ -6,6 +6,11 @@ import {
   MARITAL_STATUSES,
   OCCUPATIONS,
 } from "./constants";
+import {
+  DEFAULT_COUNTRY,
+  isSupportedCountry,
+  type SupportedCountry,
+} from "./countries";
 import { DEFAULT_STATE, isKnownIndiaRegion } from "./indiaRegions";
 import type { Lang, ProfileAnswers } from "./types";
 
@@ -13,7 +18,9 @@ import type { Lang, ProfileAnswers } from "./types";
 export interface SharePayloadV1 {
   v: 1;
   l: Lang;
-  /** State / UT English name; omit → Kerala (backward compat). */
+  /** Country English name; omit → India (backward compat). */
+  co?: string;
+  /** State / UT / region English name; omit → Kerala when country is India. */
   st?: string;
   a: number;
   i: number;
@@ -83,7 +90,10 @@ export function answersToSharePayload(
   answers: ProfileAnswers,
   lang: Lang,
 ): SharePayloadV1 | null {
-  const state = answers.state || DEFAULT_STATE;
+  const country = (answers.country || DEFAULT_COUNTRY) as SupportedCountry;
+  const state =
+    answers.state ||
+    (country === "India" ? DEFAULT_STATE : answers.state || "");
   const monthlyEquiv = (() => {
     if (answers.income_amount != null && Number.isFinite(answers.income_amount)) {
       return answers.income_mode === "yearly"
@@ -107,13 +117,19 @@ export function answersToSharePayload(
   ) {
     return null;
   }
-  if (!isKnownIndiaRegion(state)) return null;
+  if (!isSupportedCountry(country)) return null;
+  if (country === "India") {
+    if (!isKnownIndiaRegion(state)) return null;
+  } else if (!state || state.length > DISTRICT_FREE_TEXT_MAX) {
+    return null;
+  }
   if (!validDistrict(state, answers.district)) return null;
   if (answers.gender === "female" && answers.maternity == null) return null;
 
   return {
     v: 1,
     l: lang === "hi" ? "hi" : lang === "ml" ? "ml" : "en",
+    co: country,
     st: state,
     a: Math.min(120, Math.max(0, Math.floor(answers.age))),
     i: Math.min(10_000_000, Math.max(0, Math.floor(monthlyEquiv))),
@@ -134,8 +150,10 @@ export function answersToSharePayload(
 }
 
 export function sharePayloadToAnswers(p: SharePayloadV1): ProfileAnswers {
+  const country = p.co || DEFAULT_COUNTRY;
   return {
-    state: p.st || DEFAULT_STATE,
+    country,
+    state: p.st || (country === "India" ? DEFAULT_STATE : p.st || null),
     age: p.a,
     // Share links always store monthly equivalent; restore as monthly mode.
     income_mode: "monthly",
@@ -159,11 +177,21 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
   const o = raw as Record<string, unknown>;
   if (o.v !== 1) return null;
   if (o.l !== "en" && o.l !== "ml" && o.l !== "hi") return null;
-  // Backward compat: missing st → Kerala
-  let st = DEFAULT_STATE;
+  // Backward compat: missing co → India; missing st → Kerala (India only)
+  let co: SupportedCountry = DEFAULT_COUNTRY;
+  if (o.co != null) {
+    if (typeof o.co !== "string" || !isSupportedCountry(o.co)) return null;
+    co = o.co.trim() as SupportedCountry;
+  }
+  let st = co === "India" ? DEFAULT_STATE : "";
   if (o.st != null) {
-    if (typeof o.st !== "string" || !isKnownIndiaRegion(o.st)) return null;
+    if (typeof o.st !== "string" || !o.st.trim() || o.st.length > DISTRICT_FREE_TEXT_MAX) {
+      return null;
+    }
+    if (co === "India" && !isKnownIndiaRegion(o.st)) return null;
     st = o.st.trim();
+  } else if (co !== "India") {
+    return null;
   }
   if (!isIntInRange(o.a, 0, 120)) return null;
   if (!isNumInRange(o.i, 0, 10_000_000)) return null;
@@ -194,6 +222,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
   return {
     v: 1,
     l: o.l,
+    co,
     st,
     a: o.a,
     i: Math.floor(o.i),

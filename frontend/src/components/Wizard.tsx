@@ -10,6 +10,12 @@ import {
   OCCUPATIONS,
   TOTAL_STEPS,
 } from "@/lib/constants";
+import {
+  COUNTRY_REGIONS,
+  DEFAULT_COUNTRY,
+  SUPPORTED_COUNTRIES,
+  currencySymbol,
+} from "@/lib/countries";
 import { DEFAULT_STATE, INDIA_REGIONS } from "@/lib/indiaRegions";
 import { t } from "@/lib/i18n";
 import type { Lang, ProfileAnswers } from "@/lib/types";
@@ -17,6 +23,7 @@ import AgeLifeStage from "./AgeLifeStage";
 import ProgressBar from "./ProgressBar";
 
 const emptyAnswers = (): ProfileAnswers => ({
+  country: DEFAULT_COUNTRY,
   state: null,
   age: null,
   income_amount: null,
@@ -44,7 +51,9 @@ export default function Wizard({ lang, onSubmit }: Props) {
   const [answers, setAnswers] = useState<ProfileAnswers>(emptyAnswers);
   const [error, setError] = useState<string | null>(null);
 
-  const isKerala = answers.state === "Kerala";
+  const isIndia = (answers.country || DEFAULT_COUNTRY) === "India";
+  const isKerala = isIndia && answers.state === "Kerala";
+  const currency = currencySymbol(answers.country || DEFAULT_COUNTRY);
 
   const choiceBtn = (active: boolean) =>
     `choice-btn ${active ? "choice-btn--active" : "choice-btn--idle"}`;
@@ -62,24 +71,26 @@ export default function Wizard({ lang, onSubmit }: Props) {
   const validate = (s: number): boolean => {
     switch (s) {
       case 1:
-        return !!answers.state;
+        return !!answers.country;
       case 2:
+        return !!answers.state;
+      case 3:
         return answers.age != null && answers.age >= 0 && answers.age <= 120;
-      case 3: {
+      case 4: {
         const amount = answers.income_amount;
         if (amount == null || amount < 0) return false;
         const max = answers.income_mode === "yearly" ? 100_000_000 : 10_000_000;
         return amount <= max;
       }
-      case 4:
-        return !!answers.occupation;
       case 5:
-        return answers.categories.length > 0;
+        return !!answers.occupation;
       case 6:
-        return answers.land_ownership === "yes" || answers.land_ownership === "no";
+        return answers.categories.length > 0;
       case 7:
+        return answers.land_ownership === "yes" || answers.land_ownership === "no";
+      case 8:
         return answers.disability === "yes" || answers.disability === "no";
-      case 8: {
+      case 9: {
         const base = validateDistrict() && !!(answers.gender && answers.marital_status);
         const maternityOk =
           answers.gender !== "female" || answers.maternity != null;
@@ -106,7 +117,8 @@ export default function Wizard({ lang, onSubmit }: Props) {
       onSubmit({
         ...answers,
         district: answers.district ? answers.district.trim() : null,
-        state: answers.state || DEFAULT_STATE,
+        country: answers.country || DEFAULT_COUNTRY,
+        state: answers.state || (isIndia ? DEFAULT_STATE : answers.state),
       });
       return;
     }
@@ -132,6 +144,15 @@ export default function Wizard({ lang, onSubmit }: Props) {
     });
   };
 
+  const setCountry = (name: string) => {
+    setAnswers((a) => ({
+      ...a,
+      country: name,
+      state: a.country === name ? a.state : null,
+      district: a.country === name ? a.district : null,
+    }));
+  };
+
   const setState = (name: string) => {
     setAnswers((a) => ({
       ...a,
@@ -146,42 +167,120 @@ export default function Wizard({ lang, onSubmit }: Props) {
       case 1:
         return (
           <div className="space-y-3">
-            <label htmlFor="state" className="block text-xl font-bold text-slate-900">
-              {t(lang, "qState")}
+            <label htmlFor="country" className="block text-xl font-bold text-slate-900">
+              {t(lang, "qCountry")}
             </label>
-            <p className="text-sm text-slate-600">{t(lang, "qStateHint")}</p>
+            <p className="text-sm text-slate-600">{t(lang, "qCountryHint")}</p>
             <select
-              id="state"
-              name="state"
+              id="country"
+              name="country"
               className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
-              value={answers.state ?? ""}
+              value={answers.country ?? ""}
               onChange={(e) => {
                 const v = e.target.value;
-                if (v) setState(v);
-                else setAnswers((a) => ({ ...a, state: null, district: null }));
+                if (v) setCountry(v);
+                else setAnswers((a) => ({ ...a, country: null, state: null, district: null }));
               }}
             >
               <option value="">—</option>
-              <optgroup label={lang === "ml" ? "സംസ്ഥാനങ്ങൾ" : "States"}>
-                {INDIA_REGIONS.filter((r) => r.kind === "state").map((r) => (
-                  <option key={r.name} value={r.name}>
-                    {r.short && lang === "ml" && r.name === "Kerala"
-                      ? `${r.name} (${r.short})`
-                      : r.name}
-                  </option>
-                ))}
-              </optgroup>
-              <optgroup label={lang === "ml" ? "കേന്ദ്രഭരണ പ്രദേശങ്ങൾ" : "Union Territories"}>
-                {INDIA_REGIONS.filter((r) => r.kind === "ut").map((r) => (
-                  <option key={r.name} value={r.name}>
-                    {r.short ? `${r.name} (${r.short})` : r.name}
-                  </option>
-                ))}
-              </optgroup>
+              {SUPPORTED_COUNTRIES.map((c) => (
+                <option key={c} value={c}>
+                  {c}
+                </option>
+              ))}
             </select>
           </div>
         );
-      case 2:
+      case 2: {
+        const country = answers.country || DEFAULT_COUNTRY;
+        const regions = COUNTRY_REGIONS[country] || [];
+        if (country === "India") {
+          return (
+            <div className="space-y-3">
+              <label htmlFor="state" className="block text-xl font-bold text-slate-900">
+                {t(lang, "qState")}
+              </label>
+              <p className="text-sm text-slate-600">{t(lang, "qStateHint")}</p>
+              <select
+                id="state"
+                name="state"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
+                value={answers.state ?? ""}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  if (v) setState(v);
+                  else setAnswers((a) => ({ ...a, state: null, district: null }));
+                }}
+              >
+                <option value="">—</option>
+                <optgroup label={lang === "ml" ? "സംസ്ഥാനങ്ങൾ" : "States"}>
+                  {INDIA_REGIONS.filter((r) => r.kind === "state").map((r) => (
+                    <option key={r.name} value={r.name}>
+                      {r.short && lang === "ml" && r.name === "Kerala"
+                        ? `${r.name} (${r.short})`
+                        : r.name}
+                    </option>
+                  ))}
+                </optgroup>
+                <optgroup label={lang === "ml" ? "കേന്ദ്രഭരണ പ്രദേശങ്ങൾ" : "Union Territories"}>
+                  {INDIA_REGIONS.filter((r) => r.kind === "ut").map((r) => (
+                    <option key={r.name} value={r.name}>
+                      {r.short ? `${r.name} (${r.short})` : r.name}
+                    </option>
+                  ))}
+                </optgroup>
+              </select>
+            </div>
+          );
+        }
+        return (
+          <div className="space-y-3">
+            <label htmlFor="state" className="block text-xl font-bold text-slate-900">
+              {t(lang, "qRegion")}
+            </label>
+            <p className="text-sm text-slate-600">{t(lang, "qRegionHint")}</p>
+            {regions.length ? (
+              <select
+                id="state"
+                name="state"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-300 bg-white px-4 text-base transition focus:border-brand-600"
+                value={regions.includes(answers.state || "") ? answers.state ?? "" : ""}
+                onChange={(e) => {
+                  const v = e.target.value;
+                  if (v) setState(v);
+                  else setAnswers((a) => ({ ...a, state: null, district: null }));
+                }}
+              >
+                <option value="">—</option>
+                {regions.map((r) => (
+                  <option key={r} value={r}>
+                    {r}
+                  </option>
+                ))}
+              </select>
+            ) : null}
+            <input
+              id="state_free"
+              name="state_free"
+              type="text"
+              maxLength={DISTRICT_FREE_TEXT_MAX}
+              placeholder={t(lang, "qRegionPlaceholder")}
+              className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 text-lg transition focus:border-brand-600"
+              value={answers.state && !regions.includes(answers.state) ? answers.state : regions.includes(answers.state || "") ? "" : answers.state ?? ""}
+              onChange={(e) => {
+                const v = e.target.value.trim();
+                setAnswers((a) => ({
+                  ...a,
+                  state: v || null,
+                  district: a.state === v ? a.district : null,
+                }));
+              }}
+            />
+            <p className="text-xs text-slate-500">{t(lang, "qRegionOrType")}</p>
+          </div>
+        );
+      }
+      case 3:
         return (
           <div className="space-y-3">
             <label htmlFor="age" className="block text-xl font-bold text-slate-900">
@@ -207,7 +306,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             <AgeLifeStage age={answers.age} lang={lang} />
           </div>
         );
-      case 3: {
+      case 4: {
         const mode = answers.income_mode === "monthly" ? "monthly" : "yearly";
         const amount = answers.income_amount;
         const fmt = (n: number) =>
@@ -257,7 +356,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
             <div className="relative">
               <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-lg font-bold text-slate-500">
-                {t(lang, "rupee")}
+                {currency}
               </span>
               <input
                 id="income"
@@ -291,7 +390,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
           </div>
         );
       }
-      case 4:
+      case 5:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qOccupation")}</legend>
@@ -310,7 +409,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 5:
+      case 6:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qCategory")}</legend>
@@ -330,7 +429,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 6:
+      case 7:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qLand")}</legend>
@@ -354,7 +453,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             </div>
           </fieldset>
         );
-      case 7:
+      case 8:
         return (
           <fieldset className="space-y-3">
             <legend className="text-xl font-bold text-slate-900">{t(lang, "qDisability")}</legend>
@@ -409,7 +508,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             ) : null}
           </fieldset>
         );
-      case 8:
+      case 9:
         return (
           <div className="space-y-6">
             <div className="space-y-2">
@@ -548,7 +647,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
       default:
         return null;
     }
-  }, [step, answers, lang, isKerala]);
+  }, [step, answers, lang, isKerala, currency]);
 
   if (step === 0) {
     return (

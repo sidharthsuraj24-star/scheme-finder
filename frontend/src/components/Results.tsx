@@ -108,9 +108,11 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
         <p className="mt-1 text-base text-slate-600">
           {t(lang, "resultsCount", { count: matched.length })}
         </p>
-        {data.state ? (
+        {data.country || data.state ? (
           <p className="mt-1 text-sm text-slate-500">
-            {t(lang, "resultsState")}: {data.state}
+            {data.country ? `${t(lang, "resultsCountry")}: ${data.country}` : ""}
+            {data.country && data.state ? " · " : ""}
+            {data.state ? `${t(lang, "resultsState")}: ${data.state}` : ""}
             {data.district ? ` · ${lang === "ml" ? "ജില്ല" : "District"}: ${data.district}` : ""}
           </p>
         ) : data.district ? (

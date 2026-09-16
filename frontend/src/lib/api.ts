@@ -86,6 +86,7 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
     profile: {
       age,
       gender: answers.gender || undefined,
+      country: answers.country || "India",
       state: answers.state || "Kerala",
       district: answers.district || undefined,
       marital_status: answers.marital_status || undefined,

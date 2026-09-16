@@ -1386,3 +1386,100 @@ def test_low_income_pregnant_bpl_still_matches_maternity_and_list(schemes):
     resp2 = match_schemes(schemes, secc)
     assert "kerala-kasp-pmjay" in _matched_ids(resp2)
     assert "ab-pmjay-national" in _matched_ids(resp2)
+
+
+# ---------------------------------------------------------------------------
+# Cross-country matching
+# ---------------------------------------------------------------------------
+
+
+def test_india_profile_defaults_country_and_still_matches_sevana(schemes, profiles):
+    """Backward compat: missing country → India; Kerala Sevana still matches."""
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    assert profile.country == "India"
+    resp = match_schemes(schemes, profile)
+    assert "kerala-old-age-pension" in _matched_ids(resp)
+
+
+def test_bd_profile_does_not_get_kerala_sevana(schemes):
+    profile = MatchProfile(
+        country="Bangladesh",
+        age=70,
+        gender="male",
+        state="Dhaka",
+        district="Dhaka",
+        marital_status="married",
+        annual_income=5000,
+        occupations=["other"],
+        categories=["none"] if False else [],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+    # Country mismatch should hard-exclude Kerala schemes
+    excluded = {e.scheme_id: e for e in resp.excluded}
+    assert "kerala-old-age-pension" in excluded
+    assert "countries" in excluded["kerala-old-age-pension"].reasons
+
+
+def test_bd_scheme_matches_bd_profile(schemes):
+    profile = MatchProfile(
+        country="Bangladesh",
+        age=70,
+        gender="male",
+        state="Dhaka",
+        district="Dhaka",
+        marital_status="married",
+        annual_income=5000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "bd-old-age-allowance" in _matched_ids(resp)
+    hit = next(m for m in resp.matched if m.scheme_id == "bd-old-age-allowance")
+    assert "countries" in hit.matched_rules
+
+
+def test_nepal_senior_matches_np_scheme_not_india(schemes):
+    profile = MatchProfile(
+        country="Nepal",
+        age=72,
+        gender="female",
+        state="Bagmati",
+        district="Kathmandu",
+        marital_status="widow",
+        annual_income=100000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    assert "np-senior-citizen-allowance" in _matched_ids(resp)
+    assert "np-widow-allowance" in _matched_ids(resp)
+    assert "kerala-old-age-pension" not in _matched_ids(resp)
+
+
+def test_catalogue_includes_non_india_countries(schemes):
+    ids = {s["id"] for s in schemes}
+    for sid in (
+        "bd-old-age-allowance",
+        "bd-widow-allowance",
+        "np-senior-citizen-allowance",
+        "lk-aswesuma",
+        "mv-disability-allowance",
+    ):
+        assert sid in ids
+    countries = set()
+    for s in schemes:
+        for c in (s.get("eligibility_rules") or {}).get("countries") or []:
+            countries.add(c)
+    assert "India" in countries
+    assert "Bangladesh" in countries
+    assert "Nepal" in countries
+    assert "Sri Lanka" in countries

@@ -124,9 +124,22 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
   const result = new RuleResult();
 
-  // --- states / nationwide ---
+  // --- countries (default India for backward compat) ---
+  let schemeCountries = (rules.countries as string[] | undefined) || [];
+  if (!schemeCountries.length) {
+    schemeCountries = ["India"];
+  }
+  const allowedCountries = new Set(schemeCountries.map(norm));
+  const profileCountry = (profile.country || "India").trim() || "India";
+  if (!allowedCountries.has(norm(profileCountry))) {
+    result.fail("countries");
+  } else {
+    result.ok("countries");
+  }
+
+  // --- states / nationwide (within matched country) ---
   // Nationwide if: nationwide flag, empty states, or states include India / All India.
-  // Profile state is required for a clean match; missing → uncertain (miss).
+  // Profile state/region is required for a clean match; missing → uncertain (miss).
   const schemeStates = (rules.states as string[] | undefined) || [];
   const nationwideFlag =
     Boolean(rules.nationwide) || Boolean((scheme as { nationwide?: boolean }).nationwide);
@@ -137,7 +150,9 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
     allowed.has("india") ||
     allowed.has("all_india");
   const profileState = (profile.state || "").trim();
-  if (!profileState) {
+  if (result.hard_fail && result.unmatched.includes("countries")) {
+    // country mismatch already excludes
+  } else if (!profileState) {
     result.miss("state");
   } else if (isNationwide) {
     result.ok("states");

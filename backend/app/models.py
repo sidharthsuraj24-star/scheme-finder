@@ -46,6 +46,7 @@ class MatchProfile(BaseModel):
 
     age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
     gender: str | None = Field(default=None, max_length=_STR_MAX)
+    country: str = Field(default="India", max_length=_STR_MAX)
     state: str = Field(default="Kerala", max_length=_STR_MAX)
     district: str | None = Field(default=None, max_length=_STR_MAX)
     marital_status: str | None = Field(default=None, max_length=_STR_MAX)
@@ -155,6 +156,7 @@ class MatchRequest(BaseModel):
     # Flat aliases (Phase 2 user contract)
     age: int | None = Field(default=None, ge=_AGE_MIN, le=_AGE_MAX)
     gender: str | None = Field(default=None, max_length=_STR_MAX)
+    country: str | None = Field(default=None, max_length=_STR_MAX)
     state: str | None = Field(default=None, max_length=_STR_MAX)
     district: str | None = Field(default=None, max_length=_STR_MAX)
     marital_status: str | None = Field(default=None, max_length=_STR_MAX)
@@ -189,6 +191,7 @@ class MatchRequest(BaseModel):
         flat_keys = [
             "age",
             "gender",
+            "country",
             "state",
             "district",
             "marital_status",
@@ -218,6 +221,8 @@ class MatchRequest(BaseModel):
             val = getattr(self, key)
             if val is not None:
                 base[key] = val
+        if "country" not in base or not base.get("country"):
+            base["country"] = "India"
         if "state" not in base or base.get("state") is None:
             base["state"] = "Kerala"
         return MatchProfile(**base)
@@ -272,6 +277,7 @@ class MatchResponse(BaseModel):
     count: int = 0
     district: str | None = None
     state: str | None = None
+    country: str | None = None
     catalogue: dict[str, Any] | None = None
     is_stale: bool | None = None
 

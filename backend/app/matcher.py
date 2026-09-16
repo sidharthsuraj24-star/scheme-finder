@@ -151,9 +151,22 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
     rules = scheme.get("eligibility_rules") or {}
     result = RuleResult()
 
-    # --- states / nationwide ---
+    # --- countries (default India for backward compat) ---
+    scheme_countries = rules.get("countries") or []
+    if not scheme_countries:
+        # Prefer explicit countries on schemes; missing → treat as India-only.
+        scheme_countries = ["India"]
+    allowed_countries = {_norm(c) for c in scheme_countries}
+    profile_country = (getattr(profile, "country", None) or "India").strip() or "India"
+    if _norm(profile_country) not in allowed_countries:
+        result.fail("countries")
+    else:
+        result.ok("countries")
+
+    # --- states / nationwide (within matched country) ---
     # Nationwide if: nationwide flag, empty states, or states include India / All India.
-    # Profile state is required for a clean match; missing → uncertain (miss).
+    # Profile state/region is required for a clean match; missing → uncertain (miss).
+    # Skip further geo detail if country already hard-failed.
     scheme_states = rules.get("states") or []
     nationwide_flag = bool(rules.get("nationwide") or scheme.get("nationwide"))
     allowed = {_norm(s) for s in scheme_states}
@@ -164,7 +177,9 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
         or "all_india" in allowed
     )
     profile_state = (profile.state or "").strip()
-    if not profile_state:
+    if result.hard_fail and "countries" in result.unmatched:
+        pass  # country mismatch already excludes
+    elif not profile_state:
         result.miss("state")
     elif is_nationwide:
         result.ok("states")
@@ -575,6 +590,7 @@ def match_schemes(
         count=len(matched),
         district=profile.district,
         state=profile.state or None,
+        country=(getattr(profile, "country", None) or "India"),
         catalogue=freshness["catalogue"],
         is_stale=freshness["is_stale"],
     )

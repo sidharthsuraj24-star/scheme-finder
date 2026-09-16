@@ -4,7 +4,7 @@ type Dict = Record<string, string>;
 
 const en: Dict = {
   appTitle: "Scheme Finder",
-  appSubtitle: "Find India welfare schemes you may be eligible for",
+  appSubtitle: "Find welfare schemes you may be eligible for",
   langEn: "English",
   langHi: "हिंदी",
   langMl: "മലയാളം",
@@ -20,7 +20,7 @@ const en: Dict = {
   shareCopyLink: "Copy link",
   shareCopied: "Link copied",
   shareWhatsApp: "Share on WhatsApp",
-  shareMessage: "I found India welfare schemes that may fit me on Scheme Finder:",
+  shareMessage: "I found welfare schemes that may fit me on Scheme Finder:",
   shareCopyFailed: "Could not copy — copy the address bar link instead",
 
   zeroTitle: "No matching schemes right now",
@@ -43,7 +43,7 @@ const en: Dict = {
   dataStaleBanner:
     "Scheme data may be outdated (last updated {date}). Always confirm on the official site before applying.",
   dataFreshBanner:
-    "Scheme data updated as of {date} · Curated multi-state + central set (not every scheme in India). Confirm eligibility on the official source before you apply.",
+    "Scheme data updated as of {date} · India + selected other countries (curated; not worldwide). Confirm eligibility on the official source before you apply.",
   resultsFooterDisclaimer:
     "This tool does not guarantee eligibility. Always confirm on the official source and with your local body before applying. Needs-verification matches are uncertain — never treat them as approved.",
 
@@ -55,7 +55,7 @@ const en: Dict = {
   qAge: "How old are you?",
   qAgeHint: "Enter your age in years",
   qIncome: "What is your household income?",
-  qIncomeHint: "Choose Monthly or Yearly, then enter the approximate amount in ₹.",
+  qIncomeHint: "Choose Monthly or Yearly, then enter the approximate amount in local currency.",
   qIncomeMonthly: "Monthly",
   qIncomeYearly: "Yearly",
   qIncomeMonthlyLabel: "Monthly household income",
@@ -72,11 +72,18 @@ const en: Dict = {
   qDisabilityPercent: "Disability percentage (if known)",
   qDisabilityPercentHint: "Optional — leave blank if unsure",
   qDistrict: "Which district do you live in?",
-  qDistrictFreeHint: "Type your district name (free text for states other than Kerala).",
+  qDistrictFreeHint: "Type your district / locality (free text; Kerala uses a district list).",
   qDistrictPlaceholder: "District name",
+  qCountry: "Which country do you live in?",
+  qCountryHint: "Catalogue covers India plus a curated set of neighbouring countries — not worldwide.",
+  qRegion: "Which region / province do you live in?",
+  qRegionHint: "Pick from the list or type your region / province.",
+  qRegionPlaceholder: "Region / province",
+  qRegionOrType: "You can pick a listed region or type another name below.",
   qState: "Which state or UT do you live in?",
-  qStateHint: "Central schemes apply nationwide; state schemes appear for your selection.",
-  resultsState: "State",
+  qStateHint: "Central schemes apply nationwide within India; state schemes appear for your selection.",
+  resultsState: "State / region",
+  resultsCountry: "Country",
   resultsIncomeFilter: "Filtered using annual income ₹{amount}",
   qGender: "Gender",
   qMarital: "Marital status",
@@ -112,11 +119,11 @@ const en: Dict = {
   qBreadwinner: "Has the main earning member of your household died?",
   qBreadwinnerHint: "Used for bereavement schemes such as NFBS",
   dataUpdated:
-    "Scheme data updated as of 15 Sep 2026 · Curated multi-state + central set (not every scheme in India)",
-  dataUpdatedShort: "Scheme data updated as of 15 Sep 2026",
+    "Scheme data updated as of 16 Sep 2026 · India + selected other countries (curated; not worldwide)",
+  dataUpdatedShort: "Scheme data updated as of 16 Sep 2026",
   welcomeTitle: "Welcome",
   welcomeBody:
-    "Pick your state, then answer a few simple questions. We suggest central and curated state welfare schemes that may help you.",
+    "Pick your country (and region), then answer a few simple questions. We suggest curated welfare schemes that may help you.",
   start: "Start",
   stage_baby: "Baby",
   stage_child: "Child",
@@ -128,7 +135,7 @@ const en: Dict = {
 
 const ml: Dict = {
   appTitle: "പദ്ധതി കണ്ടെത്തൽ",
-  appSubtitle: "നിങ്ങൾക്ക് യോഗ്യമായേക്കാവുന്ന ഇന്ത്യൻ ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തുക",
+  appSubtitle: "നിങ്ങൾക്ക് യോഗ്യമായേക്കാവുന്ന ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തുക",
   langEn: "English",
   langHi: "हिंदी",
   langMl: "മലയാളം",
@@ -144,7 +151,7 @@ const ml: Dict = {
   shareCopyLink: "ലിങ്ക് പകർത്തുക",
   shareCopied: "ലിങ്ക് പകർത്തി",
   shareWhatsApp: "വാട്ട്‌സ്ആപ്പിൽ പങ്കിടുക",
-  shareMessage: "സ്കീം ഫൈൻഡറിൽ എനിക്ക് യോജിച്ചേക്കാവുന്ന ഇന്ത്യൻ ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തി:",
+  shareMessage: "സ്കീം ഫൈൻഡറിൽ എനിക്ക് യോജിച്ചേക്കാവുന്ന ക്ഷേമ പദ്ധതികൾ കണ്ടെത്തി:",
   shareCopyFailed: "പകർത്താനായില്ല — അഡ്രസ് ബാറിലെ ലിങ്ക് പകർത്തുക",
 
   zeroTitle: "ഇപ്പോൾ യോജിക്കുന്ന പദ്ധതികളില്ല",
@@ -167,7 +174,7 @@ const ml: Dict = {
   dataStaleBanner:
     "പദ്ധതി വിവരങ്ങൾ കാലഹരണപ്പെട്ടിരിക്കാം (അവസാനം പുതുക്കിയത് {date}). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക സൈറ്റിൽ എല്ലായ്പ്പോഴും ഉറപ്പാക്കുക.",
   dataFreshBanner:
-    "പദ്ധതി വിവരങ്ങൾ {date} വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത ബഹു-സംസ്ഥാന + കേന്ദ്ര പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത ഉറപ്പാക്കുക.",
+    "പദ്ധതി വിവരങ്ങൾ {date} വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ (ലോകവ്യാപകമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത ഉറപ്പാക്കുക.",
   resultsFooterDisclaimer:
     "ഈ ഉപകരണം യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിലും തദ്ദേശ സ്ഥാപനത്തിലും ഉറപ്പാക്കുക. «സ്ഥിരീകരണം വേണം» എന്ന പൊരുത്തങ്ങൾ അനിശ്ചിതമാണ് — അംഗീകരിച്ചതായി കരുതരുത്.",
 
@@ -198,9 +205,16 @@ const ml: Dict = {
   qDistrict: "ജില്ല ഏതാണ്?",
   qDistrictFreeHint: "ജില്ലയുടെ പേര് ടൈപ്പ് ചെയ്യുക (കേരളം ഒഴികെയുള്ള സംസ്ഥാനങ്ങൾക്ക്).",
   qDistrictPlaceholder: "ജില്ലയുടെ പേര്",
+  qCountry: "നിങ്ങൾ താമസിക്കുന്ന രാജ്യം ഏത്?",
+  qCountryHint: "കാറ്റലോഗ് ഇന്ത്യയും തിരഞ്ഞെടുത്ത അയൽരാജ്യങ്ങളും ഉൾക്കൊള്ളുന്നു — ലോകവ്യാപകമല്ല.",
+  qRegion: "നിങ്ങൾ താമസിക്കുന്ന പ്രദേശം / പ്രവിശ്യ ഏത്?",
+  qRegionHint: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ടൈപ്പ് ചെയ്യുക.",
+  qRegionPlaceholder: "പ്രദേശം / പ്രവിശ്യ",
+  qRegionOrType: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കാം അല്ലെങ്കിൽ താഴെ മറ്റൊരു പേര് ടൈപ്പ് ചെയ്യാം.",
   qState: "നിങ്ങൾ താമസിക്കുന്ന സംസ്ഥാനം / കേന്ദ്രഭരണ പ്രദേശം ഏത്?",
-  qStateHint: "കേന്ദ്ര പദ്ധതികൾ രാജ്യവ്യാപകം; സംസ്ഥാന പദ്ധതികൾ നിങ്ങളുടെ തിരഞ്ഞെടുപ്പിന് അനുസരിച്ച്.",
-  resultsState: "സംസ്ഥാനം",
+  qStateHint: "കേന്ദ്ര പദ്ധതികൾ ഇന്ത്യയിൽ രാജ്യവ്യാപകം; സംസ്ഥാന പദ്ധതികൾ നിങ്ങളുടെ തിരഞ്ഞെടുപ്പിന് അനുസരിച്ച്.",
+  resultsState: "സംസ്ഥാനം / പ്രദേശം",
+  resultsCountry: "രാജ്യം",
   resultsIncomeFilter: "വാർഷിക വരുമാനം ₹{amount} ഉപയോഗിച്ച് ഫിൽട്ടർ ചെയ്തു",
   qGender: "ലിംഗം",
   qMarital: "വൈവാഹിക നില",
@@ -236,11 +250,11 @@ const ml: Dict = {
   qBreadwinner: "കുടുംബത്തിലെ പ്രധാന വരുമാനദാതാവ് മരിച്ചിട്ടുണ്ടോ?",
   qBreadwinnerHint: "NFBS പോലുള്ള പദ്ധതികൾക്ക്",
   dataUpdated:
-    "പദ്ധതി വിവരങ്ങൾ 15 സെപ് 2026 വരെ പുതുക്കിയത് · തിരഞ്ഞെടുത്ത ബഹു-സംസ്ഥാന + കേന്ദ്ര പദ്ധതികൾ (ഇന്ത്യയിലെ എല്ലാ പദ്ധതികളുമല്ല)",
-  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 15 സെപ് 2026 വരെ പുതുക്കിയത്",
+    "പദ്ധതി വിവരങ്ങൾ 16 സെപ് 2026 വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ (ലോകവ്യാപകമല്ല)",
+  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 16 സെപ് 2026 വരെ പുതുക്കിയത്",
   welcomeTitle: "സ്വാഗതം",
   welcomeBody:
-    "സംസ്ഥാനം തിരഞ്ഞെടുക്കുക, പിന്നെ കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. കേന്ദ്ര–സംസ്ഥാന ക്ഷേമ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
+    "രാജ്യം (ഒപ്പം പ്രദേശം) തിരഞ്ഞെടുക്കുക, പിന്നെ കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. ക്ഷേമ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
   start: "തുടങ്ങുക",
   stage_baby: "കുഞ്ഞ്",
   stage_child: "കുട്ടി",
@@ -252,7 +266,7 @@ const ml: Dict = {
 
 const hi: Dict = {
   appTitle: "योजना खोजक",
-  appSubtitle: "वे भारतीय कल्याण योजनाएँ खोजें जिनके लिए आप पात्र हो सकते हैं",
+  appSubtitle: "वे कल्याण योजनाएँ खोजें जिनके लिए आप पात्र हो सकते हैं",
   langEn: "English",
   langHi: "हिंदी",
   langMl: "മലയാളം",
@@ -268,7 +282,7 @@ const hi: Dict = {
   shareCopyLink: "लिंक कॉपी करें",
   shareCopied: "लिंक कॉपी हो गया",
   shareWhatsApp: "व्हाट्सऐप पर साझा करें",
-  shareMessage: "स्कीम फ़ाइंडर पर मुझे उपयुक्त लगने वाली भारतीय कल्याण योजनाएँ मिलीं:",
+  shareMessage: "स्कीम फ़ाइंडर पर मुझे उपयुक्त लगने वाली कल्याण योजनाएँ मिलीं:",
   shareCopyFailed: "कॉपी नहीं हो सका — एड्रेस बार का लिंक कॉपी करें",
 
   zeroTitle: "अभी कोई मिलान वाली योजना नहीं",
@@ -291,7 +305,7 @@ const hi: Dict = {
   dataStaleBanner:
     "योजना डेटा पुराना हो सकता है (अंतिम अद्यतन {date})। आवेदन से पहले हमेशा आधिकारिक साइट पर पुष्टि करें।",
   dataFreshBanner:
-    "योजना डेटा {date} तक अद्यतन · चुनिंदा बहु-राज्य + केंद्रीय सेट (भारत की हर योजना नहीं)। आवेदन से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
+    "योजना डेटा {date} तक अद्यतन · भारत + चुनिंदा अन्य देश (दुनियाभर नहीं)। आवेदन से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
   resultsFooterDisclaimer:
     "यह उपकरण पात्रता की गारंटी नहीं देता। आवेदन से पहले आधिकारिक स्रोत और स्थानीय निकाय से पुष्टि करें। «सत्यापन आवश्यक» मिलान अनिश्चित हैं — उन्हें स्वीकृत न समझें।",
 
@@ -322,9 +336,16 @@ const hi: Dict = {
   qDistrict: "आप किस ज़िले में रहते हैं?",
   qDistrictFreeHint: "अपने ज़िले का नाम लिखें (केरल के अलावा अन्य राज्यों के लिए मुक्त पाठ)।",
   qDistrictPlaceholder: "ज़िले का नाम",
+  qCountry: "आप किस देश में रहते हैं?",
+  qCountryHint: "कैटलॉग भारत और चुनिंदा पड़ोसी देशों को कवर करता है — पूरी दुनिया नहीं।",
+  qRegion: "आप किस क्षेत्र / प्रांत में रहते हैं?",
+  qRegionHint: "सूची से चुनें या अपना क्षेत्र / प्रांत टाइप करें।",
+  qRegionPlaceholder: "क्षेत्र / प्रांत",
+  qRegionOrType: "सूची से चुन सकते हैं या नीचे दूसरा नाम टाइप कर सकते हैं।",
   qState: "आप किस राज्य या केंद्र शासित प्रदेश में रहते हैं?",
-  qStateHint: "केंद्रीय योजनाएँ पूरे देश में लागू; राज्य योजनाएँ आपके चयन के अनुसार दिखेंगी।",
-  resultsState: "राज्य",
+  qStateHint: "केंद्रीय योजनाएँ भारत में पूरे देश में लागू; राज्य योजनाएँ आपके चयन के अनुसार दिखेंगी।",
+  resultsState: "राज्य / क्षेत्र",
+  resultsCountry: "देश",
   resultsIncomeFilter: "वार्षिक आय ₹{amount} से फ़िल्टर किया गया",
   qGender: "लिंग",
   qMarital: "वैवाहिक स्थिति",
@@ -360,11 +381,11 @@ const hi: Dict = {
   qBreadwinner: "क्या आपके परिवार का मुख्य कमाने वाला सदस्य निधन हो गया है?",
   qBreadwinnerHint: "NFBS जैसी शोक-सहायता योजनाओं के लिए",
   dataUpdated:
-    "योजना डेटा 15 सितं 2026 तक अद्यतन · चुनिंदा बहु-राज्य + केंद्रीय सेट (भारत की हर योजना नहीं)",
-  dataUpdatedShort: "योजना डेटा 15 सितं 2026 तक अद्यतन",
+    "योजना डेटा 16 सितं 2026 तक अद्यतन · भारत + चुनिंदा अन्य देश (दुनियाभर नहीं)",
+  dataUpdatedShort: "योजना डेटा 16 सितं 2026 तक अद्यतन",
   welcomeTitle: "स्वागत है",
   welcomeBody:
-    "अपना राज्य चुनें, फिर कुछ आसान प्रश्नों के उत्तर दें। हम केंद्रीय और चुनिंदा राज्य कल्याण योजनाएँ सुझाते हैं जो आपकी मदद कर सकती हैं।",
+    "अपना देश (और क्षेत्र) चुनें, फिर कुछ सरल प्रश्नों के उत्तर दें। हम चुनिंदा कल्याण योजनाएँ सुझाएँगे।",
   start: "शुरू करें",
   stage_baby: "शिशु",
   stage_child: "बच्चा",

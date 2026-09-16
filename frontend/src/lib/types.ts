@@ -3,7 +3,9 @@ export type Lang = "en" | "ml" | "hi";
 export type IncomeInputMode = "monthly" | "yearly";
 
 export interface ProfileAnswers {
-  /** Canonical India state/UT English name */
+  /** ISO-ish country name; default India for share-link backward compat */
+  country: string | null;
+  /** State/UT (India) or region/province (other countries) */
   state: string | null;
   age: number | null;
   /**
@@ -69,6 +71,7 @@ export interface MatchResponse {
   count: number;
   district?: string | null;
   state?: string | null;
+  country?: string | null;
   catalogue?: {
     updated_as_of?: string;
     stale_after_days?: number;
@@ -82,6 +85,7 @@ export interface MatchRequestBody {
   profile: {
     age: number;
     gender?: string;
+    country?: string;
     state: string;
     district?: string;
     marital_status?: string;

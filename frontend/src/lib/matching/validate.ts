@@ -155,6 +155,7 @@ export function buildProfile(raw: Record<string, unknown>): MatchProfile {
   return {
     age,
     gender: optStr(raw.gender, "gender"),
+    country: optStr(raw.country, "country") || "India",
     state: optStr(raw.state, "state") || "Kerala",
     district: optStr(raw.district, "district"),
     marital_status: optStr(raw.marital_status, "marital_status"),

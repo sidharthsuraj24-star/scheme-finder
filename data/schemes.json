@@ -28,7 +28,10 @@
       ],
       "notes": "Destitute; not under anyone's protection; not income-tax payer; family land ≤2 acres (ST excluded); Kerala residence ≥3 years continuous; not service/family pensioner (ex-gratia/NPS up to Rs.4000 excluded); not Central/State salary/pension; not PSU pensioner; not habitual beggar; not admitted to poor home; vehicle/building exclusions (building not more than 2000 sq ft); other welfare pensions barred except disability; max two pensions including EPF; apply at local body of permanent residence.",
       "verify": false,
-      "verify_notes": "Hard filters age≥60 and income≤1 lakh are UI-collectable (verify=false). Sevana criteria table lists Rs.2000/month; page also mentions 75+ special amount Rs.1500 — do NOT invent whether special amount is additive or replacement; confirm interpretation before quoting. Disqualifiers (IT payer, land, residence years, pensioner/salary/vehicle/building) are not fully collected in questionnaire yet."
+      "verify_notes": "Hard filters age≥60 and income≤1 lakh are UI-collectable (verify=false). Sevana criteria table lists Rs.2000/month; page also mentions 75+ special amount Rs.1500 — do NOT invent whether special amount is additive or replacement; confirm interpretation before quoting. Disqualifiers (IT payer, land, residence years, pensioner/salary/vehicle/building) are not fully collected in questionnaire yet.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08). Page also notes 75+ special amount Rs.1500 — amount meaning (additive vs replacement) unverified; do not invent. Paid via DBT through local bodies.",
@@ -101,7 +104,10 @@
       ],
       "notes": "Must not have remarried; widow OR husband missing >7 years OR woman over 50 deserted >7 years; destitute; Kerala residence ≥2 years continuous; family land ≤2 acres (ST excl); not income-tax payer; Sevana pensioner/salary/vehicle/building exclusions; other welfare pensions barred except disability; max two pensions including EPF. No age limit on Sevana FAQ for widow/missing cases; deserted case requires woman over 50. Note: Central NSAP IGNWPS historically targets BPL widows 40-59; Kerala Sevana is broader — use Sevana for Kerala residents.",
       "verify": false,
-      "verify_notes": "Hard filters gender=female, marital_status in {widow, husband_missing_7_years, deserted_7_years_over_50}, income≤1 lakh are UI-collectable (verify=false). Matcher must encode deserted case as age≥50 + deserted >7 years (token deserted_7_years_over_50). Residence ≥2 years, remarriage, land, and other Sevana exclusions not fully in questionnaire."
+      "verify_notes": "Hard filters gender=female, marital_status in {widow, husband_missing_7_years, deserted_7_years_over_50}, income≤1 lakh are UI-collectable (verify=false). Matcher must encode deserted case as age≥50 + deserted >7 years (token deserted_7_years_over_50). Residence ≥2 years, remarriage, land, and other Sevana exclusions not fully in questionnaire.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08).",
@@ -170,7 +176,10 @@
       ],
       "notes": "Sevana: no age limit. LSGD ipcp: >40% incapability; medical certificate + Social Security Mission ID card; apply to Grama Panchayat / Municipality / Corporation Secretary; enquiry within 45 days; income ≤1 lakh; family land ≤2 acres (ST excl) per common Sevana rules. CONFLICT: Sevana allows an additional pension (max two including EPF); LSGD ipcp says must not receive/apply for another social-welfare pension — flagged verify.",
       "verify": true,
-      "verify_notes": "CONFLICT flagged: Sevana FAQ allows max two pensions (disability may be additional); LSGD https://lsgkerala.gov.in/en/welfarepension/ipcp says must not receive/apply for another social-welfare pension. Also: Sevana criteria table Rs.2000; 80%+ special amount Rs.1100 — do NOT invent additive vs replacement. Keep verify=true until dual-pension rule and special-amount meaning are reconciled with a GO."
+      "verify_notes": "CONFLICT flagged: Sevana FAQ allows max two pensions (disability may be additional); LSGD https://lsgkerala.gov.in/en/welfarepension/ipcp says must not receive/apply for another social-welfare pension. Also: Sevana criteria table Rs.2000; 80%+ special amount Rs.1100 — do NOT invent additive vs replacement. Keep verify=true until dual-pension rule and special-amount meaning are reconciled with a GO.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08). Page also notes 80%+ special amount Rs.1100 — amount meaning (additive vs replacement) unverified; do not invent.",
@@ -241,7 +250,10 @@
       ],
       "notes": "Unmarried women 50+; unmarried mothers 50+ allowed; permanent Kerala resident; not under protection of anyone else; not income-tax payer; family land ≤2 acres (ST excl); same Sevana pensioner/salary/vehicle/building exclusions; other welfare pensions barred except disability; max two pensions including EPF.",
       "verify": false,
-      "verify_notes": "Hard filters age≥50, gender=female, marital_status=unmarried, income≤1 lakh are UI-collectable (verify=false). Land, protection, pensioner/vehicle/building exclusions not fully in questionnaire — retained in notes."
+      "verify_notes": "Hard filters age≥50, gender=female, marital_status=unmarried, income≤1 lakh are UI-collectable (verify=false). Land, protection, pensioner/vehicle/building exclusions not fully in questionnaire — retained in notes.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.2000/month per Sevana criteria table (as of 2026-09-08).",
@@ -312,7 +324,10 @@
       "verify": false,
       "verify_notes": "Hard filters age≥60, income≤1 lakh, occupation=agricultural_labour are UI-collectable. Structured kawwf_member_required + min_agri_labour_years=10 mark uncertain when flags missing (Sevana: KAWWF membership and ≥10 years agri labour). Residence ≥10 years, plantation exclusion, vehicle/building exclusions remain manual notes.",
       "kawwf_member_required": true,
-      "min_agri_labour_years": 10
+      "min_agri_labour_years": 10,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly agricultural labour pension (Sevana criteria table lists Rs.2000). Confirm latest GO before quoting exact disbursement.",
@@ -381,7 +396,10 @@
       ],
       "notes": "Prefer aligning with physical IGNDPS / Sevana disability rules (no age limit; ≥40% incapability; income ≤1 lakh) plus separate LSGD imcp page if still cited. Sevana application forms group Mentally/Physically challenged together. LSGD imcp criteria block historically had copy-paste age-60 conflict — prefer Sevana no-age-limit + 40% rule.",
       "verify": true,
-      "verify_notes": "Browser Sevana pass 2026-09-08: FAQ table had blank names for some rows — do NOT invent a distinct mental scheme name from blank rows. Could not confirm a distinct Sevana scheme name for mental vs physical; HPWC various-pension-details page timed out. Keep this entry as LSGD imcp-aligned category tag; prefer shared physical IGNDPS hard filters (no age limit, disability≥40%, income≤1 lakh) until Sevana type code is confirmed. Dual-pension Sevana vs LSGD conflict also applies (see physical entry)."
+      "verify_notes": "Browser Sevana pass 2026-09-08: FAQ table had blank names for some rows — do NOT invent a distinct mental scheme name from blank rows. Could not confirm a distinct Sevana scheme name for mental vs physical; HPWC various-pension-details page timed out. Keep this entry as LSGD imcp-aligned category tag; prefer shared physical IGNDPS hard filters (no age limit, disability≥40%, income≤1 lakh) until Sevana type code is confirmed. Dual-pension Sevana vs LSGD conflict also applies (see physical entry).",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly disability pension via LSGI/Sevana (same framework as physical disability pension; Sevana criteria table lists Rs.2000 for listed pensions — confirm mental row separately; do not invent from blank FAQ rows).",
@@ -453,7 +471,10 @@
       "notes": "Family = husband, wife and minor children. Exclusions: institutional landholders; constitutional post holders; ministers/MPs/MLAs etc.; serving/retired govt officers (excl. MTS/Class IV/Group D); pensioners with monthly pension >=Rs.10,000 (same excl.); income-tax payers in last assessment year; registered professionals (doctors, engineers, lawyers, CAs, architects). e-KYC mandatory. Older FAQ mentioned land up to 2 ha; current portal text says all landholding farmer families subject to exclusions.",
       "verify": true,
       "verify_notes": "Reconcile historical 'upto 2 hectare' FAQ wording with current pmkisan.gov.in homepage text 'all land holding farmer families'. Exclusions are clear from official portal.",
-      "nationwide": true
+      "nationwide": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.6,000 per year in three equal instalments of Rs.2,000, transferred to bank account.",
@@ -523,7 +544,10 @@
       ],
       "notes": "SHA FAQ: eligible if RSBY/CHIS enrolled with valid card during 2018-19, or received letter based on SECC 2011. No age limit; no family size cap; pre-existing conditions covered. New registrations beyond listed categories not open as of FAQ text — verify current expansion.",
       "verify": true,
-      "verify_notes": "SHA FAQ states new registrations other than Q1 categories had not started; confirm whether Kerala has since expanded beneficiary universe. Matching should treat SECC/RSBY/CHIS flags as primary signals rather than raw income."
+      "verify_notes": "SHA FAQ states new registrations other than Q1 categories had not started; confirm whether Kerala has since expanded beneficiary universe. Matching should treat SECC/RSBY/CHIS flags as primary signals rather than raw income.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless cover up to Rs.5 lakh per family per year for approved secondary/tertiary packages at empanelled hospitals.",
@@ -591,7 +615,10 @@
       "verify_notes": "Age of deceased breadwinner differs across NSAP pages (18-59 in Nov 2025 PIB brief vs 18-64 on some nsap.nic.in FAQ text). Confirm Kerala implementation channel and current amount before matching on age band. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL household (NSAP NFBS) — no single national rupee ceiling encoded.",
       "primary_breadwinner_deceased_required": true,
       "nationwide": true,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "One-time lump-sum financial assistance of Rs.20,000 (as stated in MoRD/PIB NSAP brief).",
@@ -665,7 +692,10 @@
       ],
       "notes": "Portal covers SC/ST/OBC department schemes. BCDD KPCR educational assistance for SEBC: income limit Rs.1 lakh; Govt/Aided institutions & self-financing engineering at govt rate. Multiple college notices state SC/ST/OEC no income limit; SEBC/FC below one lakh — treat as scheme-variant rules; set verify for exact OBC/SEBC income ceilings per department.",
       "verify": true,
-      "verify_notes": "e-Grantz hosts multiple department schemes with different income ceilings. Do not apply a single income cap to all categories; verify per caste department circular for the academic year."
+      "verify_notes": "e-Grantz hosts multiple department schemes with different income ceilings. Do not apply a single income cap to all categories; verify per caste department circular for the academic year.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Fee concession, lump-sum grant and/or stipend depending on community and course (e.g., KPCR SEBC: mandatory fees; PG & professional — mandatory fees, lump sum grant & monthly stipend).",
@@ -736,7 +766,10 @@
       "notes": "Indian citizen any age; UDID or enrollment + disability certificate with >=40% disability; monthly income from all sources not exceeding Rs.30,000. Assistance: full cost if monthly income up to Rs.22,500; 50% if Rs.22,501–30,000 (per official ARJUN FAQ). Typically once in 3 years; children have shorter interval per FAQ.",
       "verify": false,
       "verify_notes": "",
-      "nationwide": true
+      "nationwide": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Aids/appliances at full or 50% subsidy depending on monthly income slab; corrective surgery where required before fitting.",
@@ -809,7 +842,10 @@
       ],
       "notes": "Official LIFE pages list beneficiary types: landed homeless; incomplete/uninhabitable house; temporary house in puramboke/coastal/plantation; landless homeless. Survey-based identification via LSGIs and Kudumbashree. Annual household income ceiling ₹3 lakh/year applied from LIFE eligibility summaries / LSGI materials (hard filter). Confirm category details and current assistance amounts on the official portal.",
       "verify": true,
-      "verify_notes": "Income ceiling ₹3 lakh/year applied from LIFE eligibility summaries / LSGI materials as a hard filter (exceeding income excludes, even with verify=true). Still confirm on the official LIFE portal for beneficiary category details, PMAY-LIFE convergence, waitlist/survey process, and current assistance component amounts."
+      "verify_notes": "Income ceiling ₹3 lakh/year applied from LIFE eligibility summaries / LSGI materials as a hard filter (exceeding income excludes, even with verify=true). Still confirm on the official LIFE portal for beneficiary category details, PMAY-LIFE convergence, waitlist/survey process, and current assistance component amounts.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Support for construction / provision of safe housing under LIFE mission components (details vary by beneficiary type and convergence scheme). Published assistance figures commonly cited in LSGI/LIFE materials include about ₹4 lakh (general) and ₹6 lakh (ST) — verify current component amounts on the official portal before relying on a figure.",
@@ -890,7 +926,10 @@
       "verify": false,
       "verify_notes": "",
       "maternity_required": true,
-      "nationwide": true
+      "nationwide": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "First child: Rs.5,000 in two instalments (Rs.3,000 after ANC conditions; Rs.2,000 after birth registration + 14-week immunization). Second child if girl: Rs.6,000 in single instalment after birth + immunization. Also eligible for JSY after institutional delivery.",
@@ -964,7 +1003,10 @@
       "notes": "Indian national; benchmark disability >=40% with valid certificate; UDID/UDID enrollment. Pre-Matric (IX-X) and Post-Matric parental income ceiling Rs.2.5 lakh p.a. Top Class / Overseas use Rs.8 lakh ceiling per guidelines PDFs. 50% slots reserved for females in several components. Apply via scholarships.gov.in with OTR.",
       "verify": true,
       "verify_notes": "Guidelines revised Sept 2024/2025 on depwd.gov.in — confirm latest income ceilings and component names from current PDF before hard-coding Top Class vs Pre/Post Matric distinctions in matcher.",
-      "nationwide": true
+      "nationwide": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Maintenance allowance, disability allowance, fee reimbursement, book allowance as per component (Pre-Matric / Post-Matric / Top Class).",
@@ -1034,7 +1076,10 @@
       "notes": "Official page: differently abled mothers with 60% or more disability eligible (table lists specific % by disability type, some 50%). Annual family income not exceed Rs.1 lakh. Apply within 6 months of delivery. Benefit only twice. Priority if both parents PwD (husband >=40%). Caregiver certificate if needed.",
       "verify": true,
       "verify_notes": "Page states '60 percent or more' in eligibility point 1, but disability-type table includes some categories at 50% (e.g., autism, muscular dystrophy). Matcher should prefer type-specific % from official table; set verify until type mapping is encoded.",
-      "maternity_required": true
+      "maternity_required": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Financial assistance of Rs.2,000 to eligible PwD mothers until child turns 2 years.",
@@ -1105,7 +1150,10 @@
       ],
       "notes": "Urban households; adult members willing to do unskilled manual labour; register and demand work. Convergence with PMAY-LIFE noted on LSGD page. Detailed wage rates and registration steps on auegskerala.gov.in.",
       "verify": true,
-      "verify_notes": "LSGD page is high-level; fetch auegskerala.gov.in operational guidelines for exact registration age, residency, and exclusion rules before tightening matcher fields."
+      "verify_notes": "LSGD page is high-level; fetch auegskerala.gov.in operational guidelines for exact registration age, residency, and exclusion rules before tightening matcher fields.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "At least 100 days of wage employment per household; durable community assets; tools/machines support; works in water conservation, waste management, afforestation, etc.",
@@ -1174,7 +1222,10 @@
       "notes": "Per health.kerala.gov.in JSY page (dated content): financial assistance Rs.600 urban / Rs.700 rural institutional delivery; SC/ST mothers Rs.500 for home delivery regardless of financial status. Services at government hospitals and select accredited private institutions.",
       "verify": true,
       "verify_notes": "Confirm whether Kerala still uses these exact cash amounts and age (>19) on current NHM circulars; page is an official health.kerala.gov.in financial-aid item.",
-      "maternity_required": true
+      "maternity_required": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cash assistance for institutional delivery: Rs.600 (urban) / Rs.700 (rural); SC/ST home delivery Rs.500 as stated on Kerala Health page.",
@@ -1238,7 +1289,10 @@
       ],
       "notes": "Must NOT be eligible for KASP. Annual income < Rs.3 lakh. Apply at Karunya/Arogya Suraksha kiosks in empanelled hospitals per health.kerala.gov.in.",
       "verify": true,
-      "verify_notes": "Eligibility/benefits from Kerala Health Dept Karunya financial-aid item (KBF income < Rs.3 lakh, not KASP-eligible; up to Rs.2 lakh / Rs.3 lakh kidney). Encrypted financialaiditemPDF URL may rotate — re-verify permalink."
+      "verify_notes": "Eligibility/benefits from Kerala Health Dept Karunya financial-aid item (KBF income < Rs.3 lakh, not KASP-eligible; up to Rs.2 lakh / Rs.3 lakh kidney). Encrypted financialaiditemPDF URL may rotate — re-verify permalink.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Free medical assistance up to Rs.2 lakh per family (up to Rs.3 lakh for kidney/kidney-related diseases).",
@@ -1305,7 +1359,10 @@
       "nationwide": false,
       "notes": "Must have studied Classes 6–12 in Tamil Nadu Government schools; benefit continues through first higher-education course (UG/diploma/ITI). Confirm current portal windows on penkalvi.tn.gov.in / Social Welfare page.",
       "verify": true,
-      "verify_notes": "School-type (govt Classes 6–12) not collected in wizard — keep verify=true. Confirm current monthly amount and registration status on official TN Social Welfare / Penkalvi pages."
+      "verify_notes": "School-type (govt Classes 6–12) not collected in wizard — keep verify=true. Confirm current monthly amount and registration status on official TN Social Welfare / Penkalvi pages.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,000 per month via DBT until completion of first UG/diploma/ITI course.",
@@ -1372,7 +1429,10 @@
       "notes": "Enrolment and sum insured change by government order. Do not invent income ceilings — confirm on cmchistn.com / TN Health insurance portal. BPL/SECC-style categories used as soft signals only.",
       "verify": true,
       "verify_notes": "Beneficiary universe and card issuance rules evolve; treat as uncertain without official enrolment confirmation. Official portal: https://www.cmchistn.com/ implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL/SECC-style enrolment (cmchistn.com) — do not invent rupee ceiling; soft gate for high income.",
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless inpatient treatment cover as per current CMCHIS package rates and sum insured notified by Government of Tamil Nadu.",
@@ -1434,7 +1494,10 @@
       "nationwide": false,
       "notes": "Woman head of household linked to ration card; exclusions (govt employees, income-tax payers, etc.) per Guarantee Scheme guidelines. Confirm exact exclusion list on Seva Sindhu / WCD before treating as likely.",
       "verify": true,
-      "verify_notes": "Head-of-household / ration-card linkage and exclusions not fully in wizard — verify=true. Official apply: https://sevasindhugs.karnataka.gov.in/"
+      "verify_notes": "Head-of-household / ration-card linkage and exclusions not fully in wizard — verify=true. Official apply: https://sevasindhugs.karnataka.gov.in/",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.2,000 per month DBT to eligible woman head of household.",
@@ -1500,7 +1563,10 @@
       "nationwide": false,
       "notes": "Graduation/diploma year windows, 6-month unemployment wait, and NAD certificate checks apply per current Seva Sindhu guidelines. Amounts and cohort years change — confirm officially.",
       "verify": true,
-      "verify_notes": "Exact pass-out year cohorts and allowance amounts must be confirmed on sevasindhugs.karnataka.gov.in; wizard only captures unemployed/student occupation."
+      "verify_notes": "Exact pass-out year cohorts and allowance amounts must be confirmed on sevasindhugs.karnataka.gov.in; wizard only captures unemployed/student occupation.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly unemployment allowance for eligible unemployed graduates/diploma holders for up to the notified period (commonly up to 24 months) — confirm current rates on Seva Sindhu.",
@@ -1563,7 +1629,10 @@
       "nationwide": false,
       "notes": "Family income ceiling commonly cited as Rs.2.5 lakh/year; exclusions include government employees / income-tax payers. Confirm live rules and eKYC requirements on ladakibahin.maharashtra.gov.in.",
       "verify": true,
-      "verify_notes": "Income cap and exclusions should be re-verified on official portal; registration windows open/close. Keep verify=true."
+      "verify_notes": "Income cap and exclusions should be re-verified on official portal; registration windows open/close. Keep verify=true.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,500 per month DBT (confirm current instalment amount on official portal).",
@@ -1630,7 +1699,10 @@
       "notes": "Eligibility tied to yellow/orange ration card categories and/or PM-JAY SECC lists as notified. Do not invent income thresholds.",
       "verify": true,
       "verify_notes": "Confirm beneficiary categories and PM-JAY convergence on https://www.jeevandayee.gov.in/ or current MJPJAY portal before hard-matching. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Yellow/orange ration / PM-JAY SECC (jeevandayee.gov.in) — historically low-income card holders; soft gate only.",
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless cover for notified packages up to the sum insured published by the State Health Assurance Society.",
@@ -1692,7 +1764,10 @@
       "nationwide": false,
       "notes": "Exclusions typically include government employees and income-tax payers. Monthly amount changed under Annapurna Bhandar (2026) — do not hard-code rupee amount as certain without portal confirmation.",
       "verify": true,
-      "verify_notes": "Scheme rename / amount change in 2026 — verify live benefit and enrolment on https://socialsecurity.wb.gov.in before quoting amounts."
+      "verify_notes": "Scheme rename / amount change in 2026 — verify live benefit and enrolment on https://socialsecurity.wb.gov.in before quoting amounts.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly DBT to eligible women — confirm current rupee amount on socialsecurity.wb.gov.in (Annapurna Bhandar / Lakshmir Bhandar records).",
@@ -1757,7 +1832,10 @@
       "nationwide": false,
       "notes": "K1 annual scholarship for ages ~13–18 in classes VIII–XII; K2 one-time grant around age 18. Income ceiling Rs.1.2 lakh with waivers (orphan, 40%+ disability, JJ home). Confirm component rules on wbkanyashree.gov.in.",
       "verify": true,
-      "verify_notes": "Component (K1 vs K2) age/class bands need institutional confirmation; income waiver categories not fully in wizard."
+      "verify_notes": "Component (K1 vs K2) age/class bands need institutional confirmation; income waiver categories not fully in wizard.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Annual scholarship (commonly Rs.500) and/or one-time grant (commonly Rs.25,000) per official Kanyashree components — confirm current amounts on portal.",
@@ -1823,7 +1901,10 @@
       "nationwide": false,
       "notes": "Income ceiling and instalment stages (birth, immunization, school admission, class milestones, graduation) per UP Women Welfare guidelines. Two-girl limit and other conditions may apply — confirm on official portal.",
       "verify": true,
-      "verify_notes": "Instalment schedule and exact income ceiling should be confirmed on https://mksy.up.gov.in/ (or current Women Welfare portal). Age band approximated for wizard matching."
+      "verify_notes": "Instalment schedule and exact income ceiling should be confirmed on https://mksy.up.gov.in/ (or current Women Welfare portal). Age band approximated for wizard matching.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Staged cash assistance across notified milestones (total benefit as per current UP guidelines) via DBT.",
@@ -1892,7 +1973,10 @@
       "nationwide": true,
       "notes": "Beneficiary identification is database-driven (SECC deprivation criteria, NFSA, and state expansions). Do not match solely on income. Card/status check on pmjay.gov.in / NHA apps.",
       "verify": true,
-      "verify_notes": "Nationwide PM-JAY eligibility is list-based; without SECC/PMJAY flags treat as uncertain. Kerala KASP remains a separate Kerala-scoped catalogue entry."
+      "verify_notes": "Nationwide PM-JAY eligibility is list-based; without SECC/PMJAY flags treat as uncertain. Kerala KASP remains a separate Kerala-scoped catalogue entry.",
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless cover up to the sum insured notified nationally (commonly cited Rs.5 lakh per family per year) for empaneled hospital care — confirm current cover on pmjay.gov.in.",
@@ -1961,7 +2045,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless hospitalisation cover under PMJAY-MA packages (sum insured as notified — commonly cited Rs.5 lakh+ family floater; confirm current cover).",
@@ -2026,7 +2113,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Staged scholarship / DBT assistance for eligible girl students (amounts as notified on myScheme / Education Department).",
@@ -2089,7 +2179,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age pension via DBT (amount as revised by SJED / RajSSP — confirm current rate on portal).",
@@ -2153,7 +2246,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Staged DBT (early childhood grants; intermediate and graduation incentives as notified — commonly cited up to Rs.25,000 / Rs.50,000 for higher stages).",
@@ -2220,7 +2316,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,500 per month DBT to the woman's own Aadhaar-linked bank account (confirm current rate on portal).",
@@ -2284,7 +2383,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT (commonly cited Rs.1,000; higher for 80+ — confirm current SSEPD rates).",
@@ -2348,7 +2450,10 @@
       "min_disability_percent": null,
       "land_ownership": null,
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension DBT — old-age category commonly enhanced to Rs.4,000/month from July 2024 per portal G.O. note (confirm live amount).",
@@ -2410,7 +2515,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension DBT (amounts enhanced vs earlier NSAP levels — confirm current rates for each category on Aasara portal).",
@@ -2474,7 +2582,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly cash assistance via DBT to Aadhaar-seeded account (amount as notified under Orunodoi 3.0 — confirm current rate).",
@@ -2541,7 +2652,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,500 per month DBT (as per scheme PDF; confirm any later amendments on DWCD / Goa schemes portal).",
@@ -2606,7 +2720,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,00,000 — bank FD jointly with DWCD at age 18, or cash on marriage as per category rules.",
@@ -2671,7 +2788,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Rs.1,000 per month DBT (confirm current instalment amount on MMMSY portal).",
@@ -2733,7 +2853,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly Old Age Samman Allowance via PFMS DBT (rate revised over time — confirm current amount on SEWA page).",
@@ -2798,7 +2921,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly widow/destitute pension via DBT (confirm current SEWA rate).",
@@ -2868,7 +2994,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly DBT assistance (commonly cited Rs.1,000 — confirm current amount on official portal).",
@@ -2930,7 +3059,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly financial assistance (commonly cited Rs.2,000 for 60–69 and Rs.2,500 for 70+ — confirm current rates).",
@@ -2994,7 +3126,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT (commonly cited Rs.1,500 — confirm current amount on official portal).",
@@ -3064,7 +3199,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly financial assistance via DBT (commonly cited Rs.1,500 — confirm current amount).",
@@ -3131,7 +3269,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT (commonly cited around Rs.1,200–1,500 with state top-up — confirm current rate on ssp.uk.gov.in).",
@@ -3196,7 +3337,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Staged financial assistance commonly cited as Rs.11,000 at birth and Rs.51,000 after Class 12 (total ~Rs.62,000) — confirm current amounts on the official portal.",
@@ -3263,7 +3407,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT — officially described as Rs.850 (ages 60–69) and Rs.1,500 (age 70+) on the eSOMSA Social Security Pension page; confirm current rates.",
@@ -3332,7 +3479,10 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT — commonly Rs.1,000 (Rs.1,500 for beneficiaries aged 70+) per eSOMSA Social Security Pension page; confirm current rates.",
@@ -3403,7 +3553,10 @@
       "notes": "Official CMAAY portal: cashless cover commonly ₹5 lakh per family per year in convergence with AB PM-JAY. Primary eligible groups commonly include Arunachal Pradesh Scheduled Tribe (APST) card holders, state government employees/pensioners & dependents, and notified permanent residents (e.g. Changlang/Lohit/Namsai with valid Resident Certificate). Exact category lists and SECC/PM-JAY overlap on https://cmaay.arunachal.gov.in/",
       "verify": true,
       "verify_notes": "APST / employee / district-resident branches are not fully encoded in wizard categories — keep verify=true. Confirm enrolment rules on https://cmaay.arunachal.gov.in/",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless hospitalisation cover commonly cited as up to ₹5 lakh per family per year for empaneled secondary/tertiary care — confirm current package/cover on the CMAAY portal.",
@@ -3468,7 +3621,10 @@
       "verify": true,
       "verify_notes": "Gender-specific ages (women 55 / men 60), 10-year domicile, and current benefit amount are not fully encoded. Sources: https://socialwelfare.mn.gov.in/en/rules-regulations/manipur-old-age-pension/ and https://socialwelfare.mn.gov.in/en/state-sponsored-schemes/manipur-old-age-pension-scheme/ — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Destitute elderly without adequate means (socialwelfare.mn.gov.in) — no numeric ceiling found.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly state pension via Social Welfare DBT — confirm current MOAPS amount with the department (rules page historically ₹60; recent administrative reports cite higher ongoing assistance).",
@@ -3537,7 +3693,10 @@
       "verify": true,
       "verify_notes": "Current combined pension amount and village-council recommendation practice should be re-verified on https://meghalaya.gov.in/schemes/content/37326 — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. IGNOAPS for BPL persons (meghalaya.gov.in) — no separate rupee ceiling encoded.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age pension under NSAP IGNOAPS (portal text historically cites central rates; confirm current Meghalaya disbursed amount including any state top-up).",
@@ -3606,7 +3765,10 @@
       "verify": true,
       "verify_notes": "Detailed income ceilings and exact state top-up amounts were not fully extractable from the public page at verification time (portal may intermittently return 403). Re-check https://socialwelfare.mizoram.gov.in/page/old-age-pension-old-age-home — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL / destitute NSAP-style (socialwelfare.mizoram.gov.in) — no numeric ceiling found.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension via DBT under Mizoram Social Welfare / NSAP implementation — confirm current rate with the department.",
@@ -3675,7 +3837,10 @@
       "notes": "Official CMHIS portal: bridges coverage for Indigenous Inhabitant Certificate / PRC holders and government employees & pensioners not already covered under AB PM-JAY; scheme referred to as AB PM-JAY CMHIS in convergence. Commonly cited covers: CMHIS (GEN) ~₹5 lakh and CMHIS (EP) ~₹20 lakh per family — confirm current category rules on https://cmhis.nagaland.gov.in/",
       "verify": true,
       "verify_notes": "Indigenous Inhabitant / PRC vs employee-pensioner (EP) tracks and SECC/PM-JAY overlap are not fully encoded — keep verify=true. Source: https://cmhis.nagaland.gov.in/",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Cashless treatment at empaneled hospitals — commonly ₹5 lakh (General) / ₹20 lakh (Employee & Pensioner) per family; confirm current covers and Health Benefit Packages on the CMHIS portal.",
@@ -3743,7 +3908,10 @@
       "verify": true,
       "verify_notes": "COI/SSC vs residential certificate branches and exact ration-card type must be confirmed on https://pensionscheme.sikkim.gov.in/ — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL + Antyodaya/PHH ration card (pensionscheme.sikkim.gov.in) — no separate rupee ceiling.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension under Sikkim Unmarried Women Pension Scheme (state innovative) — confirm current amount on the official pension portal.",
@@ -3810,7 +3978,10 @@
       "notes": "Commonly published eligibility for Old applicants: resident of Tripura; annual family income not more than ₹1,00,000; age 60+; school-enrolment condition if household has children aged 6–14. Infirm (cancer/AIDS/leprosy) path has no age floor and is not separately encoded. Exclusions include government job in family / income exceeding limit. Application form hosted on socialwelfare.tripura.gov.in.",
       "verify": true,
       "verify_notes": "Infirm (disease) path and school-enrolment condition are not fully encoded — keep verify=true. Confirm on https://socialwelfare.tripura.gov.in/application-form-mukhyamantri-samajik-sahayata-prakalpa",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly financial assistance commonly cited as ₹2,000 under MSSP Old and Infirm — confirm current rate with the Directorate / CDPO.",
@@ -3878,7 +4049,10 @@
       "notes": "Published eligibility: permanent resident of A&N Islands or residence >10 years; age 60+; household income not exceeding ₹4,000/month; not receiving any other government pension/assistance. Benefit commonly ₹2,500/month (60–79) and ₹3,000 (80+).",
       "verify": true,
       "verify_notes": "10-year residence alternative and 80+ amount tier not fully encoded. Confirm on http://andssw1.and.nic.in/socialwelfare/ — keep verify=true.",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age assistance commonly ₹2,500 (ages 60–79) and ₹3,000 (age 80+) — confirm current rates with Directorate of Social Welfare, Port Blair.",
@@ -3946,7 +4120,10 @@
       "notes": "ServiceOnline Chandigarh lists Old Age Pension under Department of Social Welfare, Women and Child Development. Commonly cited conditions: age 60+; Chandigarh residence of 3+ years (residential proof of 3 years is a listed enclosure); annual family income ceiling commonly ₹1.5 lakh; monthly pension commonly ₹1,000. Confirm income ceiling and current rate with the department.",
       "verify": true,
       "verify_notes": "Income ceiling and exact residence-duration rule should be re-confirmed on the live ServiceOnline service page https://serviceonline.gov.in/dbt/getServiceDesc.html?serviceId=15950001 — keep verify=true.",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age pension via DBT (commonly cited ₹1,000 — confirm current Chandigarh rate).",
@@ -4010,7 +4187,10 @@
       "notes": "Published eligibility: domicile of Dadra & Nagar Haveli and Daman & Diu; age 60+; annual family income not more than ₹1,50,000; not receiving another old-age pension. Benefit commonly ₹1,500/month (60–69) and ₹2,000/month (70+). Application forms also linked from District Panchayat (dnhpanchayat.in).",
       "verify": true,
       "verify_notes": "Age-tier benefit amounts and domicile proof rules should be re-verified with District Panchayat / https://ddd.gov.in/schemes-programmes/ — keep verify=true.",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension commonly ₹1,500 (ages 60–69) and ₹2,000 (age 70+) — confirm current UT rates.",
@@ -4076,7 +4256,10 @@
       "notes": "J&K Government / J&K Bank published scheme: newborn girl child of UT of J&K (and historically also Ladakh pathway) born on or after 01/04/2015; annual income of parents from all sources less than ₹75,000; government contributes ₹1,000/month to a Phase-I RD (14 years) then cumulative term deposit. Apply via Jan Sugam service 'Application for obtaining Financial Assistance under Ladli Beti Scheme'.",
       "verify": true,
       "verify_notes": "Birth-date cutoff (01/04/2015), district CDPO sanction, and bank account opening steps are not fully encoded — keep verify=true. Sources: https://jansugam.jk.gov.in/getServiceDesc.html?serviceId=18430007 and https://www.jkb.bank.in/deposits/ladli-beti",
-      "nationwide": false
+      "nationwide": false,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Government contribution commonly ₹1,000/month into a hybrid RD → cumulative deposit for the girl child until maturity — confirm current contribution and tenure on Jan Sugam / J&K Bank Ladli Beti pages.",
@@ -4145,7 +4328,10 @@
       "verify": true,
       "verify_notes": "Gender-specific ages and exact BPL/income tests should be re-verified on Ladakh Social Welfare / Help Hub pages — keep verify=true. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. BPL / without adequate means (socialwelfare.ladakh.gov.in) — no numeric ceiling found.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age pension commonly cited as ₹1,000 via DBT — confirm current Ladakh rate with Tehsil / District Social Welfare Officer.",
@@ -4213,7 +4399,10 @@
       "verify": true,
       "verify_notes": "Exact income ceiling and current monthly amount were not fully published on the department landing page at verification — keep verify=true. Source: https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. NSAP-style without regular income (lakshadweep.gov.in) — no numeric ceiling found.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly old-age / social-security pension via DBT — confirm current Lakshadweep amount with Social Welfare & Tribal Affairs.",
@@ -4280,7 +4469,10 @@
       "verify": true,
       "verify_notes": "Exact income ceiling and age-band benefit slabs must be confirmed on the WCD page — keep verify=true. Related India.gov service listing also exists for broader widow/deserted/unmarried/transgender pension pathways. implies_low_income soft gate: exclude if annual_income >= 500000 when no numeric ceiling. Old Age Persons and Destitutes Pension (wcd.py.gov.in) — destitute framing; no numeric ceiling confirmed on public page.",
       "nationwide": false,
-      "implies_low_income": true
+      "implies_low_income": true,
+      "countries": [
+        "India"
+      ]
     },
     "benefits": {
       "en": "Monthly pension with age-band rates commonly cited for 55–59 / 60–79 / 80+ — confirm current Puducherry slabs on the official WCD page.",
@@ -4318,5 +4510,862 @@
       "dbt"
     ],
     "last_verified": "2026-09-15"
+  },
+  {
+    "id": "bd-old-age-allowance",
+    "scheme_name": {
+      "en": "Old Age Allowance (Boyosko Bhata) – Bangladesh",
+      "ml": "ബംഗ്ലാദേശ് വയോജന അലവൻസ് (ബോയോസ്കോ ഭാത്താ)",
+      "hi": "बांग्लादेश वृद्धावस्था भत्ता (बयोस्को भाता)"
+    },
+    "description": {
+      "en": "Department of Social Services (DSS) social safety-net cash allowance for elderly Bangladesh citizens. Apply/track via DSS Bhata ISPMIS when applications are open.",
+      "ml": "Department of Social Services (DSS) social safety-net cash allowance for elderly Bangladesh citizens. Apply/track via DSS Bhata ISPMIS when applications are open.",
+      "hi": "Department of Social Services (DSS) social safety-net cash allowance for elderly Bangladesh citizens. Apply/track via DSS Bhata ISPMIS when applications are open."
+    },
+    "eligibility_rules": {
+      "min_age": 62,
+      "max_age": null,
+      "max_annual_income": 10000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Bangladesh"
+      ],
+      "nationwide": true,
+      "notes": "DSS FAQ (official DSS channels): minimum age commonly cited as 65 for men and 62 for women; permanent resident with NID; annual average income not exceeding Tk 10,000; priority for destitute/landless. Government employees/pensioners and regular other allowance holders typically excluded. Confirm current circular before applying.",
+      "verify": true,
+      "verify_notes": "Gender-specific ages (65M/62F) and exact income ceiling vary by circular; encoded min_age=62 and max_annual_income=10000 BDT as published in DSS citizen FAQ — always verify on dss.bhata.gov.bd / local DSS office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash allowance under DSS Old Age Allowance programme (rate set in annual budget/circular).",
+      "ml": "Monthly cash allowance under DSS Old Age Allowance programme (rate set in annual budget/circular).",
+      "hi": "Monthly cash allowance under DSS Old Age Allowance programme (rate set in annual budget/circular)."
+    },
+    "required_documents": {
+      "en": [
+        "National ID (NID)",
+        "Proof of age/residence",
+        "Application via DSS Bhata / local DSS office"
+      ],
+      "ml": [
+        "National ID (NID)",
+        "Proof of age/residence",
+        "Application via DSS Bhata / local DSS office"
+      ],
+      "hi": [
+        "National ID (NID)",
+        "Proof of age/residence",
+        "Application via DSS Bhata / local DSS office"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at dss.bhata.gov.bd when the selection window is open, or through the Upazila Social Services Officer / Union Parishad as directed.",
+      "ml": "Apply online at dss.bhata.gov.bd when the selection window is open, or through the Upazila Social Services Officer / Union Parishad as directed.",
+      "hi": "Apply online at dss.bhata.gov.bd when the selection window is open, or through the Upazila Social Services Officer / Union Parishad as directed."
+    },
+    "apply_url": "https://dss.bhata.gov.bd/",
+    "official_source_url": "https://dss.gov.bd/",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of Social Services, Ministry of Social Welfare, Bangladesh",
+    "tags": [
+      "bangladesh",
+      "old_age",
+      "dss",
+      "cash_allowance"
+    ]
+  },
+  {
+    "id": "bd-widow-allowance",
+    "scheme_name": {
+      "en": "Widow and Husband-Deserted Women Allowance – Bangladesh",
+      "ml": "ബംഗ്ലാദേശ് വിധവ / ഭർത്താവ് ഉപേക്ഷിച്ച സ്ത്രീ അലവൻസ്",
+      "hi": "बांग्लादेश विधवा एवं पति-परित्यक्ता महिला भत्ता"
+    },
+    "description": {
+      "en": "DSS social safety-net allowance for widows and husband-deserted women. Official application channel: DSS Bhata ISPMIS / local social services offices.",
+      "ml": "DSS social safety-net allowance for widows and husband-deserted women. Official application channel: DSS Bhata ISPMIS / local social services offices.",
+      "hi": "DSS social safety-net allowance for widows and husband-deserted women. Official application channel: DSS Bhata ISPMIS / local social services offices."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 12000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow",
+        "deserted"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Bangladesh"
+      ],
+      "nationwide": true,
+      "notes": "DSS FAQ: age above 18; permanent resident with NID; annual average income not exceeding Tk 12,000; priority for destitute widows/deserted women with young children. Confirm current circular.",
+      "verify": true,
+      "verify_notes": "Income ceiling Tk 12,000/year from DSS citizen FAQ; confirm latest rate and selection criteria on official DSS portals.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash allowance under DSS Widow and Husband-Deserted Women Allowance.",
+      "ml": "Monthly cash allowance under DSS Widow and Husband-Deserted Women Allowance.",
+      "hi": "Monthly cash allowance under DSS Widow and Husband-Deserted Women Allowance."
+    },
+    "required_documents": {
+      "en": [
+        "NID",
+        "Proof of widowhood / desertion",
+        "Application via DSS Bhata / local office"
+      ],
+      "ml": [
+        "NID",
+        "Proof of widowhood / desertion",
+        "Application via DSS Bhata / local office"
+      ],
+      "hi": [
+        "NID",
+        "Proof of widowhood / desertion",
+        "Application via DSS Bhata / local office"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Use dss.bhata.gov.bd online application when open, or apply via Upazila Social Services / Union Parishad.",
+      "ml": "Use dss.bhata.gov.bd online application when open, or apply via Upazila Social Services / Union Parishad.",
+      "hi": "Use dss.bhata.gov.bd online application when open, or apply via Upazila Social Services / Union Parishad."
+    },
+    "apply_url": "https://dss.bhata.gov.bd/",
+    "official_source_url": "https://dss.gov.bd/",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of Social Services, Bangladesh",
+    "tags": [
+      "bangladesh",
+      "widow",
+      "dss",
+      "cash_allowance"
+    ]
+  },
+  {
+    "id": "bd-disability-allowance",
+    "scheme_name": {
+      "en": "Allowances for Insolvent Persons with Disabilities – Bangladesh",
+      "ml": "ബംഗ്ലാദേശ് അസഹായ അംഗവൈകല്യ അലവൻസ്",
+      "hi": "बांग्लादेश दिव्यांग (असच्छल) भत्ता"
+    },
+    "description": {
+      "en": "DSS cash allowance for insolvent persons with disabilities under Bangladesh social safety-net programmes. Application via DSS Bhata ISPMIS.",
+      "ml": "DSS cash allowance for insolvent persons with disabilities under Bangladesh social safety-net programmes. Application via DSS Bhata ISPMIS.",
+      "hi": "DSS cash allowance for insolvent persons with disabilities under Bangladesh social safety-net programmes. Application via DSS Bhata ISPMIS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Bangladesh"
+      ],
+      "nationwide": true,
+      "notes": "Programme administered by DSS under Persons with Disabilities Rights and Protection Act framework; insolvency/means criteria and disability certification required. Confirm details with local DSS.",
+      "verify": true,
+      "verify_notes": "Exact disability grading and income thresholds not fully captured in structured fields — verify=true.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash allowance for eligible insolvent persons with disabilities.",
+      "ml": "Monthly cash allowance for eligible insolvent persons with disabilities.",
+      "hi": "Monthly cash allowance for eligible insolvent persons with disabilities."
+    },
+    "required_documents": {
+      "en": [
+        "NID",
+        "Disability certificate / identification",
+        "Application via DSS Bhata"
+      ],
+      "ml": [
+        "NID",
+        "Disability certificate / identification",
+        "Application via DSS Bhata"
+      ],
+      "hi": [
+        "NID",
+        "Disability certificate / identification",
+        "Application via DSS Bhata"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at dss.bhata.gov.bd or through Upazila Social Services Officer.",
+      "ml": "Apply at dss.bhata.gov.bd or through Upazila Social Services Officer.",
+      "hi": "Apply at dss.bhata.gov.bd or through Upazila Social Services Officer."
+    },
+    "apply_url": "https://dss.bhata.gov.bd/",
+    "official_source_url": "https://dss.gov.bd/site/page/6866eaa0-18c7-4e79-9113-0ac76c2590b1/-",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of Social Services, Bangladesh",
+    "tags": [
+      "bangladesh",
+      "disability",
+      "dss"
+    ]
+  },
+  {
+    "id": "bd-maternity-allowance",
+    "scheme_name": {
+      "en": "Maternity Allowance for Poor Mothers – Bangladesh",
+      "ml": "ബംഗ്ലാദേശ് ദരിദ്ര അമ്മമാർക്കുള്ള മാതൃത്വ അലവൻസ്",
+      "hi": "बांग्लादेश गरीब माताओं के लिए मातृत्व भत्ता"
+    },
+    "description": {
+      "en": "Maternity allowance programme for poor mothers administered under Bangladesh government social protection (Department of Women Affairs / related portals). Official forms published on Bangladesh Forms / MoWCA portals.",
+      "ml": "Maternity allowance programme for poor mothers administered under Bangladesh government social protection (Department of Women Affairs / related portals). Official forms published on Bangladesh Forms / MoWCA portals.",
+      "hi": "Maternity allowance programme for poor mothers administered under Bangladesh government social protection (Department of Women Affairs / related portals). Official forms published on Bangladesh Forms / MoWCA portals."
+    },
+    "eligibility_rules": {
+      "min_age": 20,
+      "max_age": 35,
+      "max_annual_income": null,
+      "max_monthly_household_income": 8000,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Bangladesh"
+      ],
+      "nationwide": true,
+      "notes": "Widely published programme rules for poor mothers: age often 20–35; typically first or second pregnancy; monthly family income ceiling commonly cited as Tk 8,000; apply via Union Parishad / municipality / women's affairs channels. Confirm current DWA circular.",
+      "verify": true,
+      "verify_notes": "Age/income/pregnancy-order rules vary by circular; structured filters use commonly published DWA-linked criteria — always confirm on official forms portal / local office.",
+      "maternity_required": true,
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash maternity allowance for eligible poor mothers (amount per current circular).",
+      "ml": "Cash maternity allowance for eligible poor mothers (amount per current circular).",
+      "hi": "Cash maternity allowance for eligible poor mothers (amount per current circular)."
+    },
+    "required_documents": {
+      "en": [
+        "NID",
+        "Pregnancy / maternity proof",
+        "Income / local recommendation as required"
+      ],
+      "ml": [
+        "NID",
+        "Pregnancy / maternity proof",
+        "Income / local recommendation as required"
+      ],
+      "hi": [
+        "NID",
+        "Pregnancy / maternity proof",
+        "Income / local recommendation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Use the official Maternity Allowance application form via Bangladesh Forms / myGov and local Union Parishad or women's affairs office.",
+      "ml": "Use the official Maternity Allowance application form via Bangladesh Forms / myGov and local Union Parishad or women's affairs office.",
+      "hi": "Use the official Maternity Allowance application form via Bangladesh Forms / myGov and local Union Parishad or women's affairs office."
+    },
+    "apply_url": "https://forms.portal.gov.bd/",
+    "official_source_url": "https://forms.portal.gov.bd/site/view/form-page/98393088-6626-4454-bd7e-1452a8f8f43d/-%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%BE%E0%A6%B2-%E0%A6%AD%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AE%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%AB%E0%A6%B0%E0%A6%AE",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of Women Affairs / MoWCA, Bangladesh",
+    "tags": [
+      "bangladesh",
+      "maternity",
+      "women"
+    ]
+  },
+  {
+    "id": "np-senior-citizen-allowance",
+    "scheme_name": {
+      "en": "Senior Citizen Social Security Allowance – Nepal",
+      "ml": "നേപ്പാൾ ജ്യേഷ്ഠ പൗര സാമൂഹിക സുരക്ഷാ അലവൻസ്",
+      "hi": "नेपाल जेष्ठ नागरिक सामाजिक सुरक्षा भत्ता"
+    },
+    "description": {
+      "en": "Nepal social security allowance for senior citizens administered via Department of National ID and Civil Registration (DoNIDCR) / local wards. Official rate table published by DoNIDCR.",
+      "ml": "Nepal social security allowance for senior citizens administered via Department of National ID and Civil Registration (DoNIDCR) / local wards. Official rate table published by DoNIDCR.",
+      "hi": "Nepal social security allowance for senior citizens administered via Department of National ID and Civil Registration (DoNIDCR) / local wards. Official rate table published by DoNIDCR."
+    },
+    "eligibility_rules": {
+      "min_age": 70,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Nepal"
+      ],
+      "nationwide": true,
+      "notes": "DoNIDCR Social Security Allowance Rate table: general senior citizens aged 70+ receive Rs 4,000/month. Dalit seniors and designated Karnali (ex-Karnali districts) citizens may qualify from age 60 at a different listed rate — not auto-matched here without category evidence.",
+      "verify": false,
+      "verify_notes": ""
+    },
+    "benefits": {
+      "en": "Rs 4,000 per month for general senior citizens aged 70+ (DoNIDCR published rate table).",
+      "ml": "Rs 4,000 per month for general senior citizens aged 70+ (DoNIDCR published rate table).",
+      "hi": "Rs 4,000 per month for general senior citizens aged 70+ (DoNIDCR published rate table)."
+    },
+    "required_documents": {
+      "en": [
+        "Citizenship certificate",
+        "Registration at local ward",
+        "Social security ID / bank account as required"
+      ],
+      "ml": [
+        "Citizenship certificate",
+        "Registration at local ward",
+        "Social security ID / bank account as required"
+      ],
+      "hi": [
+        "Citizenship certificate",
+        "Registration at local ward",
+        "Social security ID / bank account as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at your local ward office under the social security allowance programme; rates and categories are published by DoNIDCR.",
+      "ml": "Register at your local ward office under the social security allowance programme; rates and categories are published by DoNIDCR.",
+      "hi": "Register at your local ward office under the social security allowance programme; rates and categories are published by DoNIDCR."
+    },
+    "apply_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "official_source_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of National ID and Civil Registration, Nepal",
+    "tags": [
+      "nepal",
+      "senior",
+      "social_security"
+    ]
+  },
+  {
+    "id": "np-widow-allowance",
+    "scheme_name": {
+      "en": "Widow Social Security Allowance – Nepal",
+      "ml": "നേപ്പാൾ വിധവ സാമൂഹിക സുരക്ഷാ അലവൻസ്",
+      "hi": "नेपाल विधवा सामाजिक सुरक्षा भत्ता"
+    },
+    "description": {
+      "en": "Nepal social security allowance for widows (any age) as published in the DoNIDCR Social Security Allowance Rate table.",
+      "ml": "Nepal social security allowance for widows (any age) as published in the DoNIDCR Social Security Allowance Rate table.",
+      "hi": "Nepal social security allowance for widows (any age) as published in the DoNIDCR Social Security Allowance Rate table."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Nepal"
+      ],
+      "nationwide": true,
+      "notes": "DoNIDCR rate table: widows (husband deceased) of any age — Rs 2,660/month.",
+      "verify": false,
+      "verify_notes": ""
+    },
+    "benefits": {
+      "en": "Rs 2,660 per month (DoNIDCR published rate).",
+      "ml": "Rs 2,660 per month (DoNIDCR published rate).",
+      "hi": "Rs 2,660 per month (DoNIDCR published rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Citizenship certificate",
+        "Husband death certificate / legal proof",
+        "Ward registration"
+      ],
+      "ml": [
+        "Citizenship certificate",
+        "Husband death certificate / legal proof",
+        "Ward registration"
+      ],
+      "hi": [
+        "Citizenship certificate",
+        "Husband death certificate / legal proof",
+        "Ward registration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply/register at the local ward office for social security allowance.",
+      "ml": "Apply/register at the local ward office for social security allowance.",
+      "hi": "Apply/register at the local ward office for social security allowance."
+    },
+    "apply_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "official_source_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "last_verified": "2026-09-16",
+    "office_type": "DoNIDCR, Nepal",
+    "tags": [
+      "nepal",
+      "widow",
+      "social_security"
+    ]
+  },
+  {
+    "id": "np-single-women-allowance",
+    "scheme_name": {
+      "en": "Single Women Social Security Allowance – Nepal",
+      "ml": "നേപ്പാൾ ഏകക സ്ത്രീ സാമൂഹിക സുരക്ഷാ അലവൻസ്",
+      "hi": "नेपाल एकल महिला सामाजिक सुरक्षा भत्ता"
+    },
+    "description": {
+      "en": "Nepal social security allowance for single women aged 60+ (unmarried, divorced/judicially separated, or widowed per DoNIDCR table).",
+      "ml": "Nepal social security allowance for single women aged 60+ (unmarried, divorced/judicially separated, or widowed per DoNIDCR table).",
+      "hi": "Nepal social security allowance for single women aged 60+ (unmarried, divorced/judicially separated, or widowed per DoNIDCR table)."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [
+        "unmarried",
+        "divorced",
+        "widow"
+      ],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Nepal"
+      ],
+      "nationwide": true,
+      "notes": "DoNIDCR: single women 60+ who remained unmarried, divorced/judicially separated, or whose husband died — Rs 2,660/month.",
+      "verify": true,
+      "verify_notes": "Means/helplessness conditions in Social Security Act may apply beyond age/marital status — verify locally."
+    },
+    "benefits": {
+      "en": "Rs 2,660 per month (DoNIDCR published rate).",
+      "ml": "Rs 2,660 per month (DoNIDCR published rate).",
+      "hi": "Rs 2,660 per month (DoNIDCR published rate)."
+    },
+    "required_documents": {
+      "en": [
+        "Citizenship certificate",
+        "Proof of marital status",
+        "Ward registration"
+      ],
+      "ml": [
+        "Citizenship certificate",
+        "Proof of marital status",
+        "Ward registration"
+      ],
+      "hi": [
+        "Citizenship certificate",
+        "Proof of marital status",
+        "Ward registration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register at local ward for social security allowance; see DoNIDCR rate/FAQ pages.",
+      "ml": "Register at local ward for social security allowance; see DoNIDCR rate/FAQ pages.",
+      "hi": "Register at local ward for social security allowance; see DoNIDCR rate/FAQ pages."
+    },
+    "apply_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "official_source_url": "https://donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+    "last_verified": "2026-09-16",
+    "office_type": "DoNIDCR, Nepal",
+    "tags": [
+      "nepal",
+      "single_women",
+      "social_security"
+    ]
+  },
+  {
+    "id": "np-disability-allowance",
+    "scheme_name": {
+      "en": "Disability Social Security Allowance – Nepal",
+      "ml": "നേപ്പാൾ അംഗവൈകല്യ സാമൂഹിക സുരക്ഷാ അലവൻസ്",
+      "hi": "नेपाल अपाङ्गता सामाजिक सुरक्षा भत्ता"
+    },
+    "description": {
+      "en": "Nepal social security allowance for persons with complete (Red/Ka) or severe (Blue/Kha) disability ID cards, per DoNIDCR rate table.",
+      "ml": "Nepal social security allowance for persons with complete (Red/Ka) or severe (Blue/Kha) disability ID cards, per DoNIDCR rate table.",
+      "hi": "Nepal social security allowance for persons with complete (Red/Ka) or severe (Blue/Kha) disability ID cards, per DoNIDCR rate table."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Nepal"
+      ],
+      "nationwide": true,
+      "notes": "DoNIDCR: complete disability (Red card) Rs 3,990/month; severe disability (Blue card) Rs 2,128/month. Card class not collected in UI — match on disability flag only.",
+      "verify": true,
+      "verify_notes": "Requires official disability identity card class (Ka/Kha); UI only collects disability yes/percent — verify=true."
+    },
+    "benefits": {
+      "en": "Rs 3,990 (complete) or Rs 2,128 (severe) per month per DoNIDCR table.",
+      "ml": "Rs 3,990 (complete) or Rs 2,128 (severe) per month per DoNIDCR table.",
+      "hi": "Rs 3,990 (complete) or Rs 2,128 (severe) per month per DoNIDCR table."
+    },
+    "required_documents": {
+      "en": [
+        "Citizenship certificate",
+        "Disability identity card (Red/Blue)",
+        "Ward registration"
+      ],
+      "ml": [
+        "Citizenship certificate",
+        "Disability identity card (Red/Blue)",
+        "Ward registration"
+      ],
+      "hi": [
+        "Citizenship certificate",
+        "Disability identity card (Red/Blue)",
+        "Ward registration"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Obtain disability ID card from competent authority, then register at ward for social security allowance.",
+      "ml": "Obtain disability ID card from competent authority, then register at ward for social security allowance.",
+      "hi": "Obtain disability ID card from competent authority, then register at ward for social security allowance."
+    },
+    "apply_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "official_source_url": "https://donidcr.gov.np/pages/social-security-allowance-rate/",
+    "last_verified": "2026-09-16",
+    "office_type": "DoNIDCR, Nepal",
+    "tags": [
+      "nepal",
+      "disability",
+      "social_security"
+    ]
+  },
+  {
+    "id": "lk-aswesuma",
+    "scheme_name": {
+      "en": "Aswesuma Welfare Benefits Programme – Sri Lanka",
+      "ml": "ശ്രീലങ്ക അസ്വേസുമ ക്ഷേമ പദ്ധതി",
+      "hi": "श्रीलंका अस्वेसुमा कल्याण कार्यक्रम"
+    },
+    "description": {
+      "en": "National welfare benefits programme administered by the Welfare Benefits Board (WBB), Sri Lanka. Household eligibility is determined via the social registry / IWMS.",
+      "ml": "National welfare benefits programme administered by the Welfare Benefits Board (WBB), Sri Lanka. Household eligibility is determined via the social registry / IWMS.",
+      "hi": "National welfare benefits programme administered by the Welfare Benefits Board (WBB), Sri Lanka. Household eligibility is determined via the social registry / IWMS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "nationwide": true,
+      "notes": "Aswesuma eligibility is list/registry-based via WBB social registry — not a simple age/income self-declaration. Matching uses BPL/low-income signals as a weak proxy only.",
+      "verify": true,
+      "verify_notes": "Must appear on WBB Aswesuma / social registry lists. Confirm at iwms.wbb.gov.lk / Divisional Secretariat.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash welfare benefits under Aswesuma phases as determined by WBB (amounts vary by category/phase).",
+      "ml": "Cash welfare benefits under Aswesuma phases as determined by WBB (amounts vary by category/phase).",
+      "hi": "Cash welfare benefits under Aswesuma phases as determined by WBB (amounts vary by category/phase)."
+    },
+    "required_documents": {
+      "en": [
+        "National Identity Card",
+        "Household registration details as required by WBB"
+      ],
+      "ml": [
+        "National Identity Card",
+        "Household registration details as required by WBB"
+      ],
+      "hi": [
+        "National Identity Card",
+        "Household registration details as required by WBB"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check Social Registry / IWMS via Welfare Benefits Board channels; contact Divisional Secretariat for enumeration/appeals.",
+      "ml": "Check Social Registry / IWMS via Welfare Benefits Board channels; contact Divisional Secretariat for enumeration/appeals.",
+      "hi": "Check Social Registry / IWMS via Welfare Benefits Board channels; contact Divisional Secretariat for enumeration/appeals."
+    },
+    "apply_url": "https://eservices.wbb.gov.lk/aswesuma/2025",
+    "official_source_url": "https://wbb.gov.lk/",
+    "last_verified": "2026-09-16",
+    "office_type": "Welfare Benefits Board, Sri Lanka",
+    "tags": [
+      "sri_lanka",
+      "aswesuma",
+      "welfare"
+    ]
+  },
+  {
+    "id": "lk-senior-citizens-allowance",
+    "scheme_name": {
+      "en": "Senior Citizens / Elderly Allowance – Sri Lanka",
+      "ml": "ശ്രീലങ്ക മുതിർന്ന പൗര അലവൻസ്",
+      "hi": "श्रीलंका वरिष्ठ नागरिक / वृद्ध भत्ता"
+    },
+    "description": {
+      "en": "Elderly allowance for low-income senior citizens in Sri Lanka, delivered through welfare channels (historically Samurdhi/state ministry pages; payments also referenced under Aswesuma elderly support). Confirm current implementing agency locally.",
+      "ml": "Elderly allowance for low-income senior citizens in Sri Lanka, delivered through welfare channels (historically Samurdhi/state ministry pages; payments also referenced under Aswesuma elderly support). Confirm current implementing agency locally.",
+      "hi": "Elderly allowance for low-income senior citizens in Sri Lanka, delivered through welfare channels (historically Samurdhi/state ministry pages; payments also referenced under Aswesuma elderly support). Confirm current implementing agency locally."
+    },
+    "eligibility_rules": {
+      "min_age": 70,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "nationwide": true,
+      "notes": "Public official/ministry materials have described allowances for seniors over 70 with low monthly income. Exact income ceiling and monthly rate have changed across circulars (e.g. older Samurdhi ministry page vs newer Aswesuma elderly payments) — verify locally.",
+      "verify": true,
+      "verify_notes": "Income ceiling and benefit amount unclear across sources; age 70+ used as hard filter with low-income soft gate.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly elderly allowance (amount per current government circular / WBB payment schedule).",
+      "ml": "Monthly elderly allowance (amount per current government circular / WBB payment schedule).",
+      "hi": "Monthly elderly allowance (amount per current government circular / WBB payment schedule)."
+    },
+    "required_documents": {
+      "en": [
+        "National Identity Card",
+        "Proof of income / welfare registration as required"
+      ],
+      "ml": [
+        "National Identity Card",
+        "Proof of income / welfare registration as required"
+      ],
+      "hi": [
+        "National Identity Card",
+        "Proof of income / welfare registration as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact Grama Niladhari / Divisional Secretariat / Elderly Development Officer; check WBB Aswesuma channels for elderly payments.",
+      "ml": "Contact Grama Niladhari / Divisional Secretariat / Elderly Development Officer; check WBB Aswesuma channels for elderly payments.",
+      "hi": "Contact Grama Niladhari / Divisional Secretariat / Elderly Development Officer; check WBB Aswesuma channels for elderly payments."
+    },
+    "apply_url": "https://wbb.gov.lk/",
+    "official_source_url": "https://wbb.gov.lk/",
+    "last_verified": "2026-09-16",
+    "office_type": "Welfare Benefits Board / social security agencies, Sri Lanka",
+    "tags": [
+      "sri_lanka",
+      "elderly",
+      "senior"
+    ]
+  },
+  {
+    "id": "lk-samurdhi",
+    "scheme_name": {
+      "en": "Samurdhi / Community Empowerment Welfare Support – Sri Lanka",
+      "ml": "ശ്രീലങ്ക സമൃദ്ധി ക്ഷേമ പിന്തുണ",
+      "hi": "श्रीलंका समृद्धि कल्याण सहायता"
+    },
+    "description": {
+      "en": "Samurdhi / community empowerment welfare programmes under Sri Lanka's rural development and social security institutional framework. Related portals: Department of Samurdhi Development and state ministry pages.",
+      "ml": "Samurdhi / community empowerment welfare programmes under Sri Lanka's rural development and social security institutional framework. Related portals: Department of Samurdhi Development and state ministry pages.",
+      "hi": "Samurdhi / community empowerment welfare programmes under Sri Lanka's rural development and social security institutional framework. Related portals: Department of Samurdhi Development and state ministry pages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "BPL"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Sri Lanka"
+      ],
+      "nationwide": true,
+      "notes": "Samurdhi beneficiary status is programme/list based. Newer national cash welfare often routed via Aswesuma; Samurdhi institutions remain active for community banks/empowerment. Treat as uncertain without official beneficiary confirmation.",
+      "verify": true,
+      "verify_notes": "List-based programme; do not treat UI match as approval.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Welfare / empowerment support as per Samurdhi and related circulars.",
+      "ml": "Welfare / empowerment support as per Samurdhi and related circulars.",
+      "hi": "Welfare / empowerment support as per Samurdhi and related circulars."
+    },
+    "required_documents": {
+      "en": [
+        "NIC",
+        "Local GN / DS recommendations as required"
+      ],
+      "ml": [
+        "NIC",
+        "Local GN / DS recommendations as required"
+      ],
+      "hi": [
+        "NIC",
+        "Local GN / DS recommendations as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact local Samurdhi Development Officer / Divisional Secretariat; see official Samurdhi / WBB portals.",
+      "ml": "Contact local Samurdhi Development Officer / Divisional Secretariat; see official Samurdhi / WBB portals.",
+      "hi": "Contact local Samurdhi Development Officer / Divisional Secretariat; see official Samurdhi / WBB portals."
+    },
+    "apply_url": "https://www.samurdhi.gov.lk/",
+    "official_source_url": "https://www.samurdhi.gov.lk/",
+    "last_verified": "2026-09-16",
+    "office_type": "Department of Samurdhi Development, Sri Lanka",
+    "tags": [
+      "sri_lanka",
+      "samurdhi",
+      "welfare"
+    ]
+  },
+  {
+    "id": "mv-disability-allowance",
+    "scheme_name": {
+      "en": "Disability Allowance – Maldives (NSPA)",
+      "ml": "മാലദ്വീപ് അംഗവൈകല്യ അലവൻസ് (NSPA)",
+      "hi": "मालदीव दिव्यांगता भत्ता (NSPA)"
+    },
+    "description": {
+      "en": "Maldives disability allowance under the Disability Act (8/2010), administered by the National Social Protection Agency (NSPA). Provides financial assistance and related disability services.",
+      "ml": "Maldives disability allowance under the Disability Act (8/2010), administered by the National Social Protection Agency (NSPA). Provides financial assistance and related disability services.",
+      "hi": "Maldives disability allowance under the Disability Act (8/2010), administered by the National Social Protection Agency (NSPA). Provides financial assistance and related disability services."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "Maldives"
+      ],
+      "nationwide": true,
+      "notes": "NSPA: disability allowance introduced under Disability Act clauses 14 and 33. Requires medical documents and disability identification processes. Exact cash amount not stated on the fetched NSPA disability page — leave unstructured.",
+      "verify": true,
+      "verify_notes": "Benefit amount and detailed medical grading not on summary page; verify with NSPA (3005353/1402)."
+    },
+    "benefits": {
+      "en": "Financial assistance for eligible persons with disabilities; therapeutic support and assistive devices as listed by NSPA.",
+      "ml": "Financial assistance for eligible persons with disabilities; therapeutic support and assistive devices as listed by NSPA.",
+      "hi": "Financial assistance for eligible persons with disabilities; therapeutic support and assistive devices as listed by NSPA."
+    },
+    "required_documents": {
+      "en": [
+        "Medical documents",
+        "ID card of applicant",
+        "ID of parent/guardian if applicable",
+        "Bank account statement"
+      ],
+      "ml": [
+        "Medical documents",
+        "ID card of applicant",
+        "ID of parent/guardian if applicable",
+        "Bank account statement"
+      ],
+      "hi": [
+        "Medical documents",
+        "ID card of applicant",
+        "ID of parent/guardian if applicable",
+        "Bank account statement"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the NSPA disability form with required documents (see NSPA disability page).",
+      "ml": "Submit the NSPA disability form with required documents (see NSPA disability page).",
+      "hi": "Submit the NSPA disability form with required documents (see NSPA disability page)."
+    },
+    "apply_url": "https://www.nspa.gov.mv/v2/index.php/disability/",
+    "official_source_url": "https://www.nspa.gov.mv/v2/index.php/disability/",
+    "last_verified": "2026-09-16",
+    "office_type": "National Social Protection Agency, Maldives",
+    "tags": [
+      "maldives",
+      "disability",
+      "nspa"
+    ]
   }
 ]

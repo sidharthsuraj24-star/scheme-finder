@@ -22,6 +22,7 @@ export interface LocalizedText {
 export interface MatchProfile {
   age: number | null;
   gender: string | null;
+  country: string;
   state: string;
   district: string | null;
   marital_status: string | null;
@@ -95,6 +96,7 @@ export interface MatchResponse {
   count: number;
   district?: string | null;
   state?: string | null;
+  country?: string | null;
   catalogue?: {
     updated_as_of: string;
     updated_as_of_iso?: string;

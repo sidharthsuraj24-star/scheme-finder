@@ -1,6 +1,6 @@
 # Scheme Finder
 
-Trilingual (EN/ML/HI) mobile-first India welfare scheme wizard (central + curated multi-state). Deterministic rules only. Hindi UI complete; scheme body Hindi may fall back to English pending native review.
+Trilingual (EN/ML/HI) mobile-first welfare scheme wizard — India + selected neighbouring countries (curated; not worldwide). Deterministic rules only. Hindi UI complete; scheme body Hindi may fall back to English pending native review.
 
 Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
@@ -8,7 +8,7 @@ Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
 - Frontend: Next.js 15, React 19, Tailwind
 - Backend: FastAPI, Pydantic v2, Uvicorn
-- Data: data/schemes.json (64 curated schemes — multi-state + central; in-memory; optional SQLite)
+- Data: data/schemes.json (76 curated schemes — India multi-state/central + BD/NP/LK/MV starters; in-memory; optional SQLite)
 - Tests: pytest
 
 ## Run locally
