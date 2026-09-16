@@ -11,6 +11,8 @@ interface Props {
   data: MatchResponse;
   onRestart: () => void;
   shareUrl?: string | null;
+  /** Annual income used for matching (rupees), when the user provided income. */
+  filteredAnnualIncome?: number | null;
 }
 
 function ShareButtons({
@@ -68,7 +70,7 @@ function ShareButtons({
   );
 }
 
-export default function Results({ lang, data, onRestart, shareUrl }: Props) {
+export default function Results({ lang, data, onRestart, shareUrl, filteredAnnualIncome }: Props) {
   const matched = data.matched || [];
 
   if (matched.length === 0) {
@@ -76,6 +78,13 @@ export default function Results({ lang, data, onRestart, shareUrl }: Props) {
       <div className="space-y-4">
         <h2 className="text-2xl font-bold text-slate-900">{t(lang, "zeroTitle")}</h2>
         <p className="text-base leading-relaxed text-slate-700">{t(lang, "zeroBody")}</p>
+        {filteredAnnualIncome != null && filteredAnnualIncome >= 0 ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t(lang, "resultsIncomeFilter", {
+              amount: Math.round(filteredAnnualIncome).toLocaleString("en-IN"),
+            })}
+          </p>
+        ) : null}
         {data.message ? (
           <p className="rounded-xl bg-slate-50 p-3 text-sm text-slate-600">{data.message}</p>
         ) : null}
@@ -107,6 +116,13 @@ export default function Results({ lang, data, onRestart, shareUrl }: Props) {
         ) : data.district ? (
           <p className="mt-1 text-sm text-slate-500">
             {lang === "ml" ? "ജില്ല" : "District"}: {data.district}
+          </p>
+        ) : null}
+        {filteredAnnualIncome != null && filteredAnnualIncome >= 0 ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t(lang, "resultsIncomeFilter", {
+              amount: Math.round(filteredAnnualIncome).toLocaleString("en-IN"),
+            })}
           </p>
         ) : null}
       </div>

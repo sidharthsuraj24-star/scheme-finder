@@ -18,6 +18,15 @@ import Wizard from "./Wizard";
 
 const LANG_KEY = "scheme-finder-lang";
 
+function annualFromAnswers(answers: ProfileAnswers | null): number | null {
+  if (!answers) return null;
+  const raw = answers.income_amount ?? answers.monthly_household_income;
+  if (raw == null || Number.isNaN(raw) || raw < 0) return null;
+  const mode = answers.income_mode === "monthly" ? "monthly" : "yearly";
+  return mode === "yearly" ? raw : raw * 12;
+}
+
+
 type Phase = "wizard" | "loading" | "results" | "error";
 
 export default function HomeClient() {
@@ -197,6 +206,7 @@ export default function HomeClient() {
           data={result}
           onRestart={restart}
           shareUrl={shareUrl}
+          filteredAnnualIncome={annualFromAnswers(lastAnswers)}
         />
       ) : null}
 

@@ -325,6 +325,14 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
 
     const seccOnly =
       [...schemeCatsN].every((c) => SECC_STYLE_CATEGORIES.has(c) || c.startsWith("secc"));
+    // PMJAY / KASP-style list schemes often mix SECC tokens with BPL.
+    // Require a positive intersecting flag/category — never soft-list for random users.
+    const listEvidenceRequired =
+      schemeCatsN.size > 0 &&
+      [...schemeCatsN].every(
+        (c) => SECC_STYLE_CATEGORIES.has(c) || c === "bpl" || c.startsWith("secc"),
+      ) &&
+      [...schemeCatsN].some((c) => SECC_STYLE_CATEGORIES.has(c) || c.startsWith("secc"));
     const housingOnly =
       schemeCatsN.size > 0 && [...schemeCatsN].every((c) => HOUSING_STYLE_CATEGORIES.has(c));
 
@@ -352,12 +360,11 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
       // Missing housing_status / housing category → uncertain; never likely via blank profile.
       result.miss("housing_status");
       result.uncertain = true;
+    } else if (seccOnly || listEvidenceRequired) {
+      // No matching SECC/list evidence → hard exclude (verify_notes stay in catalogue).
+      result.fail("categories");
     } else if (!profileCats.size) {
       result.miss("categories");
-      if (seccOnly) result.uncertain = true;
-    } else if (seccOnly) {
-      result.miss("categories");
-      result.uncertain = true;
     } else {
       result.fail("categories");
     }
@@ -376,6 +383,8 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   }
 
   // --- maternity ---
+  // Hard fail unless positive pregnant/lactating/recent-child signal.
+  // false / null / absent must NOT soft-match as uncertain.
   if (rules.maternity_required) {
     const pregnant = profile.is_pregnant;
     const lactating = profile.is_lactating;
@@ -384,21 +393,8 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
       pregnant === true ||
       lactating === true ||
       (childMonths != null && Number(childMonths) >= 0 && Number(childMonths) <= 6);
-    const explicitNegative =
-      pregnant === false && lactating !== true && childMonths == null;
-    const allUnknown = pregnant == null && lactating == null && childMonths == null;
     if (positive) result.ok("maternity_required");
-    else if (explicitNegative) result.fail("maternity_required");
-    else if (allUnknown) result.miss("is_pregnant");
-    else if (
-      pregnant === false &&
-      lactating === false &&
-      (childMonths == null || Number(childMonths) > 6)
-    ) {
-      result.fail("maternity_required");
-    } else {
-      result.miss("is_pregnant");
-    }
+    else result.fail("maternity_required");
   }
 
   // --- NFBS breadwinner ---

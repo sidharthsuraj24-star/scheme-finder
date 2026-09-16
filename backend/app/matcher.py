@@ -341,6 +341,14 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
         secc_only = scheme_cats_n <= SECC_STYLE_CATEGORIES or all(
             c in SECC_STYLE_CATEGORIES or c.startswith("secc") for c in scheme_cats_n
         )
+        # PMJAY / KASP-style list schemes often mix SECC tokens with BPL.
+        # Require a positive intersecting flag/category — never soft-list for random users.
+        list_evidence_required = bool(scheme_cats_n) and all(
+            c in SECC_STYLE_CATEGORIES or c == "bpl" or c.startswith("secc")
+            for c in scheme_cats_n
+        ) and any(
+            c in SECC_STYLE_CATEGORIES or c.startswith("secc") for c in scheme_cats_n
+        )
         housing_only = bool(scheme_cats_n) and scheme_cats_n <= HOUSING_STYLE_CATEGORIES
         intersection = profile_cats & scheme_cats_n
 
@@ -358,22 +366,13 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
             # never likely_eligible. Do not treat blank profile as homeless.
             result.miss("housing_status")
             result.uncertain = True
+        elif secc_only or list_evidence_required:
+            # No matching SECC/list evidence → hard exclude (verify_notes stay in catalogue).
+            result.fail("categories")
         elif not profile_cats:
-            if secc_only:
-                # Missing SECC-style categories → uncertain, not auto-match / not hard fail
-                result.miss("categories")
-                result.uncertain = True
-            else:
-                result.miss("categories")
+            result.miss("categories")
         else:
-            # Profile has categories but none intersect
-            if secc_only:
-                result.miss("categories")
-                result.uncertain = True
-                # Do not hard-fail SECC-only schemes solely on missing SECC flags;
-                # mark uncertain instead of not_eligible when no intersection.
-            else:
-                result.fail("categories")
+            result.fail("categories")
 
     # --- land_ownership ---
     rule_land = rules.get("land_ownership")
@@ -395,6 +394,8 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
             pass
 
     # --- maternity (from structured eligibility_rules only; seed notes/tags) ---
+    # Hard fail unless there is a positive pregnant/lactating/recent-child signal.
+    # false / null / absent maternity must NOT soft-match as uncertain.
     if rules.get("maternity_required"):
         pregnant = profile.is_pregnant
         lactating = profile.is_lactating
@@ -404,26 +405,10 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
             or lactating is True
             or (child_months is not None and int(child_months) >= 0 and int(child_months) <= 6)
         )
-        explicit_negative = (
-            pregnant is False
-            and lactating is not True
-            and child_months is None
-        )
-        all_unknown = pregnant is None and lactating is None and child_months is None
         if positive:
             result.ok("maternity_required")
-        elif explicit_negative:
-            result.fail("maternity_required")
-        elif all_unknown:
-            result.miss("is_pregnant")
         else:
-            # Partial negatives / unknowns without a positive maternity signal
-            if pregnant is False and lactating is False and (
-                child_months is None or int(child_months) > 6
-            ):
-                result.fail("maternity_required")
-            else:
-                result.miss("is_pregnant")
+            result.fail("maternity_required")
 
     # --- NFBS-style breadwinner death (structured flag only) ---
     if rules.get("primary_breadwinner_deceased_required"):

@@ -269,8 +269,8 @@ def test_monthly_income_cap_adip(schemes, profiles):
     assert hit.status == "likely_eligible"  # verify=false
 
 
-def test_secc_categories_missing_uncertain_not_auto_fail(schemes):
-    """KASP has only SECC-style categories — missing → uncertain, not hard exclude."""
+def test_secc_categories_missing_hard_fail(schemes):
+    """KASP/PMJAY list schemes without SECC flags → hard exclude, never soft-matched."""
     profile = MatchProfile(
         age=40,
         gender="female",
@@ -281,13 +281,14 @@ def test_secc_categories_missing_uncertain_not_auto_fail(schemes):
         land_ownership="none",
     )
     resp = match_schemes(schemes, profile)
-    # Should appear as uncertain match (or in needs_verification), not excluded for categories
-    excluded_kasp = [e for e in resp.excluded if e.scheme_id == "kerala-kasp-pmjay"]
-    assert not excluded_kasp
-    assert _likely_or_uncertain(resp, "kerala-kasp-pmjay")
-    hit = next(m for m in resp.matched if m.scheme_id == "kerala-kasp-pmjay")
-    assert hit.status == "uncertain"
-    assert "categories" in hit.missing_profile_fields
+    assert "kerala-kasp-pmjay" not in _matched_ids(resp)
+    assert "ab-pmjay-national" not in _matched_ids(resp)
+    assert any(
+        e.scheme_id == "kerala-kasp-pmjay" and "categories" in e.reasons for e in resp.excluded
+    )
+    assert any(
+        e.scheme_id == "ab-pmjay-national" and "categories" in e.reasons for e in resp.excluded
+    )
 
 
 def test_derive_annual_from_monthly():
@@ -559,7 +560,7 @@ def test_agri_labour_without_kawwf_is_uncertain(schemes):
     assert "min_agri_labour_years" in hit2.matched_rules
 
 
-def test_kasp_stays_uncertain_without_secc_flags(schemes):
+def test_kasp_hard_fails_without_secc_flags(schemes):
     profile = MatchProfile(
         age=40,
         state="Kerala",
@@ -568,9 +569,10 @@ def test_kasp_stays_uncertain_without_secc_flags(schemes):
         categories=[],
     )
     resp = match_schemes(schemes, profile)
-    hit = next(m for m in resp.matched if m.scheme_id == "kerala-kasp-pmjay")
-    assert hit.status == "uncertain"
-    assert hit.status != "likely_eligible"
+    assert "kerala-kasp-pmjay" not in _matched_ids(resp)
+    assert any(
+        e.scheme_id == "kerala-kasp-pmjay" and "categories" in e.reasons for e in resp.excluded
+    )
 
 
 def test_district_filter_when_scheme_lists_districts(schemes):
@@ -1234,3 +1236,153 @@ def test_aasara_official_income_ceiling(schemes):
         e.scheme_id == sid and "max_annual_income" in e.reasons for e in resp_over.excluded
     )
     assert sid in _matched_ids(resp_under)
+
+
+# ---------------------------------------------------------------------------
+# Hard gates: maternity absent, SECC list schemes, any income amount
+# ---------------------------------------------------------------------------
+
+
+def test_maternity_absent_or_null_hard_excludes_jsy(schemes):
+    """Not pregnant / not lactating — including null/absent — must hard-fail maternity schemes."""
+    base = dict(
+        age=53,
+        gender="female",
+        state="Kerala",
+        marital_status="married",
+        annual_income=80_000,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["BPL", "SC"],
+    )
+    for update in (
+        {},  # maternity fields absent
+        {"is_pregnant": None, "is_lactating": None},
+        {"is_pregnant": False, "is_lactating": False},
+        {"is_pregnant": False, "is_lactating": None},
+    ):
+        profile = MatchProfile(**{**base, **update})
+        resp = match_schemes(schemes, profile)
+        assert "janani-suraksha-yojana-kerala" not in _matched_ids(resp), update
+        assert "pmmvy" not in _matched_ids(resp), update
+        assert any(
+            e.scheme_id == "janani-suraksha-yojana-kerala" and "maternity_required" in e.reasons
+            for e in resp.excluded
+        ), update
+
+
+def test_high_earner_kerala_female_excludes_poverty_and_list_schemes(schemes):
+    """Live bug: Kerala F 53 married, land none, annual 18.5L / 12.5L must not soft-match JSY/PMJAY/LIFE/Sevana."""
+    banned = {
+        "janani-suraksha-yojana-kerala",
+        "pmmvy",
+        "ab-pmjay-national",
+        "kerala-kasp-pmjay",
+        "kerala-life-mission",
+        "kerala-old-age-pension",
+        "kerala-widow-pension",
+        "kerala-agri-labour-pension",
+        "kerala-unmarried-women-pension",
+        "kerala-disability-pension-physical",
+        "kerala-disability-pension-mental",
+    }
+    for annual in (1_850_000, 1_250_000):
+        profile = MatchProfile(
+            age=53,
+            gender="female",
+            state="Kerala",
+            district="Palakkad",
+            marital_status="married",
+            annual_income=annual,
+            land_ownership="none",
+            occupations=["other"],
+            categories=[],
+            disability=False,
+            is_pregnant=False,
+            is_lactating=False,
+            primary_breadwinner_deceased=False,
+        )
+        resp = match_schemes(schemes, profile)
+        hit = _matched_ids(resp) & banned
+        assert hit == set(), f"annual={annual} unexpectedly matched {hit}"
+
+
+def test_income_amounts_numeric_ceilings_and_soft_gate(schemes):
+    """Any annual amount is compared numerically — 18.5L, 12.5L, 2.5L, 80k, 36k."""
+    # LIFE max_annual_income = 300000
+    for annual, expect_life in (
+        (1_850_000, False),
+        (1_250_000, False),
+        (250_000, True),  # under 3L with housing signal
+        (80_000, True),
+        (36_000, True),
+    ):
+        profile = MatchProfile(
+            age=40,
+            gender="female",
+            state="Kerala",
+            annual_income=annual,
+            land_ownership="none",
+            occupations=["other"],
+            categories=["homeless", "landless"],
+            housing_status="homeless",
+        )
+        resp = match_schemes(schemes, profile)
+        if expect_life:
+            assert "kerala-life-mission" in _matched_ids(resp), annual
+        else:
+            assert "kerala-life-mission" not in _matched_ids(resp), annual
+            assert any(
+                e.scheme_id == "kerala-life-mission" and "max_annual_income" in e.reasons
+                for e in resp.excluded
+            ), annual
+
+    # implies_low_income gate at 5L (Meghalaya NSAP)
+    for annual, expect in ((1_850_000, False), (250_000, True), (80_000, True), (36_000, True)):
+        profile = MatchProfile(
+            age=65,
+            gender="male",
+            state="Meghalaya",
+            annual_income=annual,
+            categories=["BPL"],
+            occupations=["other"],
+            land_ownership="none",
+        )
+        resp = match_schemes(schemes, profile)
+        sid = "ml-nsap-old-age-pension"
+        if expect:
+            assert sid in _matched_ids(resp), annual
+        else:
+            assert sid not in _matched_ids(resp), annual
+
+
+def test_low_income_pregnant_bpl_still_matches_maternity_and_list(schemes):
+    """Encoded low-income pregnant / BPL / SECC cases still work."""
+    pregnant = MatchProfile(
+        age=24,
+        gender="female",
+        state="Kerala",
+        marital_status="married",
+        annual_income=36_000,
+        land_ownership="none",
+        occupations=["other"],
+        categories=["SC", "BPL"],
+        is_pregnant=True,
+    )
+    resp = match_schemes(schemes, pregnant)
+    assert "pmmvy" in _matched_ids(resp)
+    assert "janani-suraksha-yojana-kerala" in _matched_ids(resp)
+
+    secc = MatchProfile(
+        age=40,
+        gender="female",
+        state="Kerala",
+        annual_income=80_000,
+        occupations=["other"],
+        categories=["secc_deprivation"],
+        land_ownership="none",
+        flags={"secc_eligible": True},
+    )
+    resp2 = match_schemes(schemes, secc)
+    assert "kerala-kasp-pmjay" in _matched_ids(resp2)
+    assert "ab-pmjay-national" in _matched_ids(resp2)

@@ -222,6 +222,109 @@ function check(name: string, ok: boolean, detail = "") {
   );
 }
 
+
+// High earner Kerala female — no JSY / PMJAY / LIFE soft matches
+{
+  const resp = matchSchemes(
+    schemes,
+    base({
+      age: 53,
+      gender: "female",
+      state: "Kerala",
+      marital_status: "married",
+      annual_income: 1_850_000,
+      land_ownership: "none",
+      occupations: ["other"],
+      categories: [],
+      is_pregnant: false,
+      is_lactating: false,
+      disability: false,
+      primary_breadwinner_deceased: false,
+    }),
+  );
+  const banned = [
+    "janani-suraksha-yojana-kerala",
+    "ab-pmjay-national",
+    "kerala-kasp-pmjay",
+    "kerala-life-mission",
+    "kerala-old-age-pension",
+  ];
+  for (const id of banned) {
+    check(`high_earner_excludes_${id}`, !ids(resp).has(id));
+  }
+}
+
+// Maternity absent → JSY hard fail
+{
+  const resp = matchSchemes(
+    schemes,
+    base({
+      age: 28,
+      gender: "female",
+      state: "Kerala",
+      annual_income: 50_000,
+      categories: ["BPL", "SC"],
+      occupations: ["other"],
+      land_ownership: "none",
+      // is_pregnant / is_lactating left null
+    }),
+  );
+  check("maternity_absent_excludes_jsy", !ids(resp).has("janani-suraksha-yojana-kerala"));
+  check(
+    "maternity_absent_hard_fail",
+    resp.excluded.some(
+      (e) => e.scheme_id === "janani-suraksha-yojana-kerala" && e.reasons.includes("maternity_required"),
+    ),
+  );
+}
+
+// SECC flag still matches KASP
+{
+  const resp = matchSchemes(
+    schemes,
+    base({
+      age: 40,
+      state: "Kerala",
+      annual_income: 80_000,
+      occupations: ["other"],
+      categories: ["secc_deprivation"],
+      flags: { secc_eligible: true },
+      land_ownership: "none",
+    }),
+  );
+  check("secc_flag_matches_kasp", ids(resp).has("kerala-kasp-pmjay"));
+}
+
+// Income ladder numeric ceilings
+{
+  for (const [annual, expectLife] of [
+    [1_850_000, false],
+    [1_250_000, false],
+    [250_000, true],
+    [80_000, true],
+    [36_000, true],
+  ] as const) {
+    const resp = matchSchemes(
+      schemes,
+      base({
+        age: 40,
+        gender: "female",
+        state: "Kerala",
+        annual_income: annual,
+        land_ownership: "none",
+        occupations: ["other"],
+        categories: ["homeless", "landless"],
+        housing_status: "homeless",
+      }),
+    );
+    check(
+      `life_income_${annual}`,
+      expectLife ? ids(resp).has("kerala-life-mission") : !ids(resp).has("kerala-life-mission"),
+    );
+  }
+}
+
+
 if (failed) {
   console.error(`\n${failed} failed`);
   process.exit(1);
