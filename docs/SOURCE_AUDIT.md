@@ -20,6 +20,20 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+## United States Wave 6 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged schemes for **Kentucky, Oregon, Oklahoma, Connecticut, Utah** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (chfs.ky.gov + kynect.ky.gov apply; oregon.gov ODHS/OHA/OHCS + one.oregon.gov apply; oklahoma.gov OKDHS/OHCA + OKDHSLive apply; portal.ct.gov DSS/OEC + connect.ct.gov apply; jobs.utah.gov / medicaid.utah.gov / chip.utah.gov + myCase apply). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| Kentucky | ky-snap, ky-ktap, ky-medicaid, ky-kchip, ky-liheap | chfs.ky.gov |
+| Oregon | or-snap, or-tanf, or-ohp, or-liheap, or-oeap | oregon.gov |
+| Oklahoma | ok-snap, ok-tanf, ok-soonercare, ok-liheap, ok-child-care-subsidy | oklahoma.gov |
+| Connecticut | ct-snap, ct-tfa, ct-husky, ct-ceap, ct-care-4-kids | portal.ct.gov |
+| Utah | ut-snap, ut-fep, ut-medicaid, ut-chip, ut-heat | jobs.utah.gov, medicaid.utah.gov, chip.utah.gov |
+
+**Skipped / deferred:** Standalone ConneCT portal-only catalogue row; inventing energy-assistance dollar caps; non-`.gov` aggregator mirrors as `official_source_url`; `us-ky-*` prefixes unnecessary (no India `ky-*` collision).
+
 ## United States Wave 5 state deepen (2026-09-17 IST)
 
 Added **25** state-tagged schemes for **Colorado, Minnesota, South Carolina, Alabama, Louisiana** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (cdhs/hcpf.colorado.gov + colorado.gov/peak apply; dcyf.mn.gov / mn.gov DHS & Commerce + mnbenefits.mn.gov apply; dss.sc.gov / scdhhs.gov / oeo.sc.gov + Benefits Portal / apply.scdhhs.gov; dhr.alabama.gov / medicaid.alabama.gov / alabamapublichealth.gov / adeca.alabama.gov + MyDHR; ldh.la.gov / lhc.la.gov + CAFÉ / MyMedicaid). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).

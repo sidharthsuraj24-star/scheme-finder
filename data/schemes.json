@@ -35293,5 +35293,1947 @@
       "utility",
       "lhc"
     ]
+  },
+  {
+    "id": "ky-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Kentucky kynect / CHFS",
+      "ml": "SNAP (Food Assistance) – Kentucky kynect / CHFS",
+      "hi": "SNAP – केंटकी"
+    },
+    "description": {
+      "en": "Kentucky Cabinet for Health and Family Services (CHFS) administers SNAP. Eligible low-income households apply through kynect benefits for monthly food benefits on an EBT card; DCBS determines eligibility.",
+      "ml": "Kentucky Cabinet for Health and Family Services (CHFS) administers SNAP. Eligible low-income households apply through kynect benefits for monthly food benefits on an EBT card; DCBS determines eligibility.",
+      "hi": "Kentucky Cabinet for Health and Family Services (CHFS) administers SNAP. Eligible low-income households apply through kynect benefits for monthly food benefits on an EBT card; DCBS determines eligibility."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KY SNAP via kynect: residency and income/resource rules; household-size charts and ABAWD/work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via chfs.ky.gov SNAP / kynect.ky.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Kentucky households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Kentucky households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Kentucky households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kentucky residency",
+        "Income and resource documentation",
+        "kynect benefits / DCBS SNAP application"
+      ],
+      "ml": [
+        "Identity and Kentucky residency",
+        "Income and resource documentation",
+        "kynect benefits / DCBS SNAP application"
+      ],
+      "hi": [
+        "Identity and Kentucky residency",
+        "Income and resource documentation",
+        "kynect benefits / DCBS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at kynect.ky.gov/benefits, by phone (DCBS Call Services 855-306-8959), or at a local DCBS office; see chfs.ky.gov SNAP.",
+      "ml": "Apply online at kynect.ky.gov/benefits, by phone (DCBS Call Services 855-306-8959), or at a local DCBS office; see chfs.ky.gov SNAP.",
+      "hi": "Apply online at kynect.ky.gov/benefits, by phone (DCBS Call Services 855-306-8959), or at a local DCBS office; see chfs.ky.gov SNAP."
+    },
+    "apply_url": "https://kynect.ky.gov/benefits",
+    "official_source_url": "https://www.chfs.ky.gov/agencies/dcbs/dfs/nab/Pages/snap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kentucky CHFS / DCBS / kynect benefits",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "snap",
+      "food",
+      "kynect"
+    ]
+  },
+  {
+    "id": "ky-ktap",
+    "scheme_name": {
+      "en": "Kentucky Transitional Assistance Program (KTAP / TANF) – CHFS",
+      "ml": "Kentucky Transitional Assistance Program (KTAP / TANF) – CHFS",
+      "hi": "KTAP (TANF) – केंटकी"
+    },
+    "description": {
+      "en": "KTAP is Kentucky’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with dependent children can receive time-limited monetary assistance plus Kentucky Works supportive services.",
+      "ml": "KTAP is Kentucky’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with dependent children can receive time-limited monetary assistance plus Kentucky Works supportive services.",
+      "hi": "KTAP is Kentucky’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with dependent children can receive time-limited monetary assistance plus Kentucky Works supportive services."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KTAP/TANF: low-income families with dependent children; lifetime time limits and work cooperation. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via chfs.ky.gov KTAP / kynect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work/support services for eligible Kentucky families with children.",
+      "ml": "Temporary cash assistance and work/support services for eligible Kentucky families with children.",
+      "hi": "Temporary cash assistance and work/support services for eligible Kentucky families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Proof of children / household",
+        "kynect benefits / DCBS KTAP application"
+      ],
+      "ml": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Proof of children / household",
+        "kynect benefits / DCBS KTAP application"
+      ],
+      "hi": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Proof of children / household",
+        "kynect benefits / DCBS KTAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at kynect.ky.gov/benefits, by phone (DCBS 855-306-8959), or at a local DCBS office; see chfs.ky.gov KTAP.",
+      "ml": "Apply online at kynect.ky.gov/benefits, by phone (DCBS 855-306-8959), or at a local DCBS office; see chfs.ky.gov KTAP.",
+      "hi": "Apply online at kynect.ky.gov/benefits, by phone (DCBS 855-306-8959), or at a local DCBS office; see chfs.ky.gov KTAP."
+    },
+    "apply_url": "https://kynect.ky.gov/benefits",
+    "official_source_url": "https://www.chfs.ky.gov/agencies/dcbs/dfs/fssb/Pages/ktap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kentucky CHFS / DCBS / KTAP",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "tanf",
+      "ktap",
+      "cash_assistance",
+      "kynect"
+    ]
+  },
+  {
+    "id": "ky-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Kentucky kynect / CHFS DMS",
+      "ml": "Medicaid – Kentucky kynect / CHFS DMS",
+      "hi": "Medicaid – केंटकी"
+    },
+    "description": {
+      "en": "Kentucky Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through kynect benefits (Department for Medicaid Services / CHFS).",
+      "ml": "Kentucky Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through kynect benefits (Department for Medicaid Services / CHFS).",
+      "hi": "Kentucky Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through kynect benefits (Department for Medicaid Services / CHFS)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KY Medicaid: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via chfs.ky.gov DMS / kynect.ky.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Kentuckians under Medicaid.",
+      "ml": "Health coverage for eligible Kentuckians under Medicaid.",
+      "hi": "Health coverage for eligible Kentuckians under Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "kynect benefits health coverage application"
+      ],
+      "ml": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "kynect benefits health coverage application"
+      ],
+      "hi": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "kynect benefits health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at kynect.ky.gov/benefits, by phone, or in person; see CHFS DMS how to apply for Medicaid.",
+      "ml": "Apply online at kynect.ky.gov/benefits, by phone, or in person; see CHFS DMS how to apply for Medicaid.",
+      "hi": "Apply online at kynect.ky.gov/benefits, by phone, or in person; see CHFS DMS how to apply for Medicaid."
+    },
+    "apply_url": "https://kynect.ky.gov/benefits",
+    "official_source_url": "https://chfs.ky.gov/agencies/dms/member/Pages/Apply.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kentucky CHFS Department for Medicaid Services / kynect",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "medicaid",
+      "health",
+      "kynect"
+    ]
+  },
+  {
+    "id": "ky-kchip",
+    "scheme_name": {
+      "en": "KCHIP (Kentucky Children’s Health Insurance Program) – CHFS",
+      "ml": "KCHIP (Kentucky Children’s Health Insurance Program) – CHFS",
+      "hi": "KCHIP – केंटकी"
+    },
+    "description": {
+      "en": "KCHIP is Kentucky’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage. One kynect application screens for Medicaid and KCHIP.",
+      "ml": "KCHIP is Kentucky’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage. One kynect application screens for Medicaid and KCHIP.",
+      "hi": "KCHIP is Kentucky’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage. One kynect application screens for Medicaid and KCHIP."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KCHIP: children under 19; income under a share of FPL when not Medicaid-eligible. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and cost-sharing change — verify=true via chfs.ky.gov KCHIP / kynect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Kentucky children under KCHIP.",
+      "ml": "Free or low-cost health coverage for eligible Kentucky children under KCHIP.",
+      "hi": "Free or low-cost health coverage for eligible Kentucky children under KCHIP."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Child information",
+        "kynect benefits health coverage application"
+      ],
+      "ml": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Child information",
+        "kynect benefits health coverage application"
+      ],
+      "hi": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Child information",
+        "kynect benefits health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at kynect.ky.gov/benefits or see CHFS DMS Medicaid/KCHIP apply pages; kynect screens for both Medicaid and KCHIP.",
+      "ml": "Apply online at kynect.ky.gov/benefits or see CHFS DMS Medicaid/KCHIP apply pages; kynect screens for both Medicaid and KCHIP.",
+      "hi": "Apply online at kynect.ky.gov/benefits or see CHFS DMS Medicaid/KCHIP apply pages; kynect screens for both Medicaid and KCHIP."
+    },
+    "apply_url": "https://kynect.ky.gov/benefits",
+    "official_source_url": "https://www.chfs.ky.gov/agencies/dms/dpo/Pages/stateplankchip.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kentucky CHFS DMS / KCHIP / kynect",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "chip",
+      "kchip",
+      "children",
+      "health",
+      "kynect"
+    ]
+  },
+  {
+    "id": "ky-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Home Energy Assistance) – Kentucky CHFS / Community Action",
+      "ml": "LIHEAP (Home Energy Assistance) – Kentucky CHFS / Community Action",
+      "hi": "LIHEAP – केंटकी"
+    },
+    "description": {
+      "en": "Kentucky LIHEAP helps eligible low-income households with home heating and/or cooling costs (subsidy, crisis, and when funded summer cooling). CHFS contracts with Community Action Agencies statewide to take applications and issue benefits.",
+      "ml": "Kentucky LIHEAP helps eligible low-income households with home heating and/or cooling costs (subsidy, crisis, and when funded summer cooling). CHFS contracts with Community Action Agencies statewide to take applications and issue benefits.",
+      "hi": "Kentucky LIHEAP helps eligible low-income households with home heating and/or cooling costs (subsidy, crisis, and when funded summer cooling). CHFS contracts with Community Action Agencies statewide to take applications and issue benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KY LIHEAP: income/resource guidelines and seasonal components (subsidy/crisis/cooling when funded). No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and open/close dates change — verify=true via chfs.ky.gov LIHEAP / local CAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home heating/cooling costs for eligible Kentucky households (via local Community Action Agencies).",
+      "ml": "Help toward home heating/cooling costs for eligible Kentucky households (via local Community Action Agencies).",
+      "hi": "Help toward home heating/cooling costs for eligible Kentucky households (via local Community Action Agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Utility account information / disconnect notice if crisis",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "ml": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Utility account information / disconnect notice if crisis",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "hi": [
+        "Identity and Kentucky residency",
+        "Income documentation",
+        "Utility account information / disconnect notice if crisis",
+        "LIHEAP application at local Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Community Action Agency during open subsidy/crisis/cooling windows; public inquiries 800-456-3452; see chfs.ky.gov LIHEAP.",
+      "ml": "Apply through your local Community Action Agency during open subsidy/crisis/cooling windows; public inquiries 800-456-3452; see chfs.ky.gov LIHEAP.",
+      "hi": "Apply through your local Community Action Agency during open subsidy/crisis/cooling windows; public inquiries 800-456-3452; see chfs.ky.gov LIHEAP."
+    },
+    "apply_url": "https://www.chfs.ky.gov/agencies/dcbs/dfs/pdb/Pages/liheap.aspx",
+    "official_source_url": "https://www.chfs.ky.gov/agencies/dcbs/dfs/pdb/Pages/liheap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kentucky CHFS / Community Action Agencies (LIHEAP)",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "liheap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "or-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Benefits) – Oregon ODHS / ONE",
+      "ml": "SNAP (Food Benefits) – Oregon ODHS / ONE",
+      "hi": "SNAP – ओरेगन"
+    },
+    "description": {
+      "en": "Oregon Department of Human Services (ODHS) administers SNAP. Eligible households apply through the ONE eligibility system for monthly food benefits on an Oregon Trail Card (EBT).",
+      "ml": "Oregon Department of Human Services (ODHS) administers SNAP. Eligible households apply through the ONE eligibility system for monthly food benefits on an Oregon Trail Card (EBT).",
+      "hi": "Oregon Department of Human Services (ODHS) administers SNAP. Eligible households apply through the ONE eligibility system for monthly food benefits on an Oregon Trail Card (EBT)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oregon"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OR SNAP via ONE: residency and income/resource rules; work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via oregon.gov/odhs SNAP / ONE.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Oregon households (via EBT / Oregon Trail Card).",
+      "ml": "Monthly SNAP food benefits for eligible Oregon households (via EBT / Oregon Trail Card).",
+      "hi": "Monthly SNAP food benefits for eligible Oregon households (via EBT / Oregon Trail Card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oregon residency",
+        "Income and resource documentation",
+        "ONE / ODHS SNAP application"
+      ],
+      "ml": [
+        "Identity and Oregon residency",
+        "Income and resource documentation",
+        "ONE / ODHS SNAP application"
+      ],
+      "hi": [
+        "Identity and Oregon residency",
+        "Income and resource documentation",
+        "ONE / ODHS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at ONE.Oregon.gov, by phone (ONE Customer Service 800-699-9075), or at a local ODHS office; see oregon.gov/odhs SNAP.",
+      "ml": "Apply online at ONE.Oregon.gov, by phone (ONE Customer Service 800-699-9075), or at a local ODHS office; see oregon.gov/odhs SNAP.",
+      "hi": "Apply online at ONE.Oregon.gov, by phone (ONE Customer Service 800-699-9075), or at a local ODHS office; see oregon.gov/odhs SNAP."
+    },
+    "apply_url": "https://one.oregon.gov/",
+    "official_source_url": "https://www.oregon.gov/odhs/food/pages/snap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Oregon Department of Human Services / ONE",
+    "tags": [
+      "united_states",
+      "oregon",
+      "snap",
+      "food",
+      "one",
+      "odhs"
+    ]
+  },
+  {
+    "id": "or-tanf",
+    "scheme_name": {
+      "en": "TANF Cash Benefits – Oregon ODHS / ONE",
+      "ml": "TANF Cash Benefits – Oregon ODHS / ONE",
+      "hi": "TANF – ओरेगन"
+    },
+    "description": {
+      "en": "Oregon TANF provides monthly cash assistance to eligible families with children (or pregnant people) who meet income and resource limits, plus JOBS employment services for many participants.",
+      "ml": "Oregon TANF provides monthly cash assistance to eligible families with children (or pregnant people) who meet income and resource limits, plus JOBS employment services for many participants.",
+      "hi": "Oregon TANF provides monthly cash assistance to eligible families with children (or pregnant people) who meet income and resource limits, plus JOBS employment services for many participants."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oregon"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OR TANF: families with children (or pregnant); income/resource and JOBS rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Grant amounts and eligibility tests — verify=true via oregon.gov/odhs TANF / ONE.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment supports for eligible Oregon families.",
+      "ml": "Temporary cash assistance and employment supports for eligible Oregon families.",
+      "hi": "Temporary cash assistance and employment supports for eligible Oregon families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Proof of children / pregnancy / household",
+        "ONE / ODHS TANF application"
+      ],
+      "ml": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Proof of children / pregnancy / household",
+        "ONE / ODHS TANF application"
+      ],
+      "hi": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Proof of children / pregnancy / household",
+        "ONE / ODHS TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or at a local ODHS office; see oregon.gov/odhs TANF.",
+      "ml": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or at a local ODHS office; see oregon.gov/odhs TANF.",
+      "hi": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or at a local ODHS office; see oregon.gov/odhs TANF."
+    },
+    "apply_url": "https://one.oregon.gov/",
+    "official_source_url": "https://www.oregon.gov/odhs/cash/Pages/tanf.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Oregon Department of Human Services / ONE",
+    "tags": [
+      "united_states",
+      "oregon",
+      "tanf",
+      "cash_assistance",
+      "one",
+      "odhs"
+    ]
+  },
+  {
+    "id": "or-ohp",
+    "scheme_name": {
+      "en": "Oregon Health Plan (OHP / Medicaid + CHIP) – OHA / ONE",
+      "ml": "Oregon Health Plan (OHP / Medicaid + CHIP) – OHA / ONE",
+      "hi": "Oregon Health Plan – ओरेगन"
+    },
+    "description": {
+      "en": "The Oregon Health Plan (OHP) is Oregon’s Medicaid and CHIP program, administered with Oregon Health Authority (OHA). It covers medical, dental, prescription, and behavioral health for eligible Oregonians. Apply through ONE.",
+      "ml": "The Oregon Health Plan (OHP) is Oregon’s Medicaid and CHIP program, administered with Oregon Health Authority (OHA). It covers medical, dental, prescription, and behavioral health for eligible Oregonians. Apply through ONE.",
+      "hi": "The Oregon Health Plan (OHP) is Oregon’s Medicaid and CHIP program, administered with Oregon Health Authority (OHA). It covers medical, dental, prescription, and behavioral health for eligible Oregonians. Apply through ONE."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oregon"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OHP: category-specific income/residency rules (Medicaid and CHIP tracks). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category limits and renewals — verify=true via oregon.gov/oha OHP / ONE.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Oregonians under the Oregon Health Plan (Medicaid/CHIP).",
+      "ml": "Health coverage for eligible Oregonians under the Oregon Health Plan (Medicaid/CHIP).",
+      "hi": "Health coverage for eligible Oregonians under the Oregon Health Plan (Medicaid/CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "ONE health coverage application"
+      ],
+      "ml": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "ONE health coverage application"
+      ],
+      "hi": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "ONE health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or with a local ODHS office / OHP community partner; see oregon.gov/oha OHP apply.",
+      "ml": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or with a local ODHS office / OHP community partner; see oregon.gov/oha OHP apply.",
+      "hi": "Apply online at ONE.Oregon.gov, by phone (800-699-9075), or with a local ODHS office / OHP community partner; see oregon.gov/oha OHP apply."
+    },
+    "apply_url": "https://one.oregon.gov/",
+    "official_source_url": "https://www.oregon.gov/oha/HSD/OHP/pages/apply.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Oregon Health Authority / ODHS / ONE",
+    "tags": [
+      "united_states",
+      "oregon",
+      "medicaid",
+      "chip",
+      "ohp",
+      "health",
+      "one"
+    ]
+  },
+  {
+    "id": "or-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Energy Assistance) – Oregon OHCS / Community Action",
+      "ml": "LIHEAP (Energy Assistance) – Oregon OHCS / Community Action",
+      "hi": "LIHEAP – ओरेगन"
+    },
+    "description": {
+      "en": "Oregon LIHEAP helps eligible households with home energy bill payment assistance and may help with heating-system repair/replacement. Oregon Housing and Community Services (OHCS) funds local Community Action Agencies that take applications.",
+      "ml": "Oregon LIHEAP helps eligible households with home energy bill payment assistance and may help with heating-system repair/replacement. Oregon Housing and Community Services (OHCS) funds local Community Action Agencies that take applications.",
+      "hi": "Oregon LIHEAP helps eligible households with home energy bill payment assistance and may help with heating-system repair/replacement. Oregon Housing and Community Services (OHCS) funds local Community Action Agencies that take applications."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oregon"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OR LIHEAP: income generally at or below a share of state median income; local CAA delivery. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI charts and agency windows change — verify=true via oregon.gov/ohcs energy assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Oregon households (via local Community Action Agencies).",
+      "ml": "Help toward home energy costs for eligible Oregon households (via local Community Action Agencies).",
+      "hi": "Help toward home energy costs for eligible Oregon households (via local Community Action Agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Utility / energy cost documentation",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "ml": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Utility / energy cost documentation",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "hi": [
+        "Identity and Oregon residency",
+        "Income documentation",
+        "Utility / energy cost documentation",
+        "LIHEAP application at local Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 2) during open intake; see oregon.gov/ohcs energy assistance.",
+      "ml": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 2) during open intake; see oregon.gov/ohcs energy assistance.",
+      "hi": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 2) during open intake; see oregon.gov/ohcs energy assistance."
+    },
+    "apply_url": "https://www.oregon.gov/ohcs/energy-weatherization/Pages/utility-bill-payment-assistance.aspx",
+    "official_source_url": "https://www.oregon.gov/ohcs/energy-weatherization/Pages/utility-bill-payment-assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Oregon Housing and Community Services / Local Community Action Agencies",
+    "tags": [
+      "united_states",
+      "oregon",
+      "liheap",
+      "energy",
+      "utility",
+      "ohcs"
+    ]
+  },
+  {
+    "id": "or-oeap",
+    "scheme_name": {
+      "en": "Oregon Energy Assistance Program (OEAP) – OHCS",
+      "ml": "Oregon Energy Assistance Program (OEAP) – OHCS",
+      "hi": "OEAP – ओरेगन"
+    },
+    "description": {
+      "en": "OEAP is Oregon’s low-income electric bill payment assistance program for eligible Pacific Power and Portland General Electric customers. OHCS funds Community Action Agencies that deliver OEAP locally to help prevent disconnections.",
+      "ml": "OEAP is Oregon’s low-income electric bill payment assistance program for eligible Pacific Power and Portland General Electric customers. OHCS funds Community Action Agencies that deliver OEAP locally to help prevent disconnections.",
+      "hi": "OEAP is Oregon’s low-income electric bill payment assistance program for eligible Pacific Power and Portland General Electric customers. OHCS funds Community Action Agencies that deliver OEAP locally to help prevent disconnections."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oregon"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OEAP: Pacific Power or PGE customers; income generally at or below a share of Oregon median income. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Utility eligibility and SMI charts change — verify=true via oregon.gov/ohcs OEAP / energy assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Electric bill payment assistance for eligible Pacific Power / PGE customers in Oregon (via local CAAs).",
+      "ml": "Electric bill payment assistance for eligible Pacific Power / PGE customers in Oregon (via local CAAs).",
+      "hi": "Electric bill payment assistance for eligible Pacific Power / PGE customers in Oregon (via local CAAs)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oregon residency",
+        "Pacific Power or PGE account information",
+        "Income documentation",
+        "OEAP application at local Community Action Agency"
+      ],
+      "ml": [
+        "Identity and Oregon residency",
+        "Pacific Power or PGE account information",
+        "Income documentation",
+        "OEAP application at local Community Action Agency"
+      ],
+      "hi": [
+        "Identity and Oregon residency",
+        "Pacific Power or PGE account information",
+        "Income documentation",
+        "OEAP application at local Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 1) or energyassistance@oregon.gov; see oregon.gov/ohcs energy assistance / OEAP.",
+      "ml": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 1) or energyassistance@oregon.gov; see oregon.gov/ohcs energy assistance / OEAP.",
+      "hi": "Contact your local Community Action Agency (toll-free 1-800-453-5511, option 1) or energyassistance@oregon.gov; see oregon.gov/ohcs energy assistance / OEAP."
+    },
+    "apply_url": "https://www.oregon.gov/ohcs/energy-weatherization/Pages/utility-bill-payment-assistance.aspx",
+    "official_source_url": "https://www.oregon.gov/ohcs/energy-weatherization/Pages/utility-bill-payment-assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Oregon Housing and Community Services / Local Community Action Agencies (OEAP)",
+    "tags": [
+      "united_states",
+      "oregon",
+      "oeap",
+      "energy",
+      "utility",
+      "ohcs"
+    ]
+  },
+  {
+    "id": "ok-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Benefits) – Oklahoma Human Services / OKDHSLive",
+      "ml": "SNAP (Food Benefits) – Oklahoma Human Services / OKDHSLive",
+      "hi": "SNAP – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma Human Services (OKDHS) administers SNAP. Eligible households apply online through OKDHSLive for monthly food benefits on an EBT card.",
+      "ml": "Oklahoma Human Services (OKDHS) administers SNAP. Eligible households apply online through OKDHSLive for monthly food benefits on an EBT card.",
+      "hi": "Oklahoma Human Services (OKDHS) administers SNAP. Eligible households apply online through OKDHSLive for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OK SNAP: residency and income/resource rules; work requirements may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via oklahoma.gov/okdhs SNAP / OKDHSLive.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Oklahoma households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Oklahoma households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Oklahoma households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income and resource documentation",
+        "OKDHSLive / OKDHS SNAP application"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income and resource documentation",
+        "OKDHSLive / OKDHS SNAP application"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income and resource documentation",
+        "OKDHSLive / OKDHS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via OKDHSLive (see oklahoma.gov/okdhs applyforservices), or submit a Request for Benefits at a local Human Services Center; see oklahoma.gov/okdhs SNAP.",
+      "ml": "Apply online via OKDHSLive (see oklahoma.gov/okdhs applyforservices), or submit a Request for Benefits at a local Human Services Center; see oklahoma.gov/okdhs SNAP.",
+      "hi": "Apply online via OKDHSLive (see oklahoma.gov/okdhs applyforservices), or submit a Request for Benefits at a local Human Services Center; see oklahoma.gov/okdhs SNAP."
+    },
+    "apply_url": "https://oklahoma.gov/okdhs/applyforservices/okdhslive.html",
+    "official_source_url": "https://oklahoma.gov/okdhs/services/snap.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Oklahoma Human Services (OKDHS) / OKDHSLive",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "snap",
+      "food",
+      "okdhslive"
+    ]
+  },
+  {
+    "id": "ok-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Oklahoma OKDHS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Oklahoma OKDHS",
+      "hi": "TANF – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma TANF provides time-limited cash assistance and TANF Work services for eligible families with minor children who meet income and cooperation requirements.",
+      "ml": "Oklahoma TANF provides time-limited cash assistance and TANF Work services for eligible families with minor children who meet income and cooperation requirements.",
+      "hi": "Oklahoma TANF provides time-limited cash assistance and TANF Work services for eligible families with minor children who meet income and cooperation requirements."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OK TANF: families with minor children; income standards, child-support and TANF Work cooperation. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Appendix income schedules and work rules — verify=true via oklahoma.gov/okdhs TANF.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work supports for eligible Oklahoma families with children.",
+      "ml": "Temporary cash assistance and work supports for eligible Oklahoma families with children.",
+      "hi": "Temporary cash assistance and work supports for eligible Oklahoma families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Proof of minor child in the home",
+        "OKDHSLive / OKDHS TANF application"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Proof of minor child in the home",
+        "OKDHSLive / OKDHS TANF application"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Proof of minor child in the home",
+        "OKDHSLive / OKDHS TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at OKDHSLive or submit Form 08MP001E (Request for Benefits) at a local Human Services Center; see oklahoma.gov/okdhs TANF.",
+      "ml": "Apply online at OKDHSLive or submit Form 08MP001E (Request for Benefits) at a local Human Services Center; see oklahoma.gov/okdhs TANF.",
+      "hi": "Apply online at OKDHSLive or submit Form 08MP001E (Request for Benefits) at a local Human Services Center; see oklahoma.gov/okdhs TANF."
+    },
+    "apply_url": "https://oklahoma.gov/okdhs/applyforservices/okdhslive.html",
+    "official_source_url": "https://oklahoma.gov/okdhs/services/tanf/tanfhome.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Oklahoma Human Services (OKDHS) / TANF",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "tanf",
+      "cash_assistance",
+      "okdhslive"
+    ]
+  },
+  {
+    "id": "ok-soonercare",
+    "scheme_name": {
+      "en": "SoonerCare (Medicaid) – Oklahoma Health Care Authority",
+      "ml": "SoonerCare (Medicaid) – Oklahoma Health Care Authority",
+      "hi": "SoonerCare – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "SoonerCare is Oklahoma’s Medicaid program, administered by the Oklahoma Health Care Authority (OHCA). It covers eligible children, pregnant people, parents/caretakers, seniors, and people with disabilities. Apply via My SoonerCare / OKDHS pathways.",
+      "ml": "SoonerCare is Oklahoma’s Medicaid program, administered by the Oklahoma Health Care Authority (OHCA). It covers eligible children, pregnant people, parents/caretakers, seniors, and people with disabilities. Apply via My SoonerCare / OKDHS pathways.",
+      "hi": "SoonerCare is Oklahoma’s Medicaid program, administered by the Oklahoma Health Care Authority (OHCA). It covers eligible children, pregnant people, parents/caretakers, seniors, and people with disabilities. Apply via My SoonerCare / OKDHS pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SoonerCare: category-specific income and coverage rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income guidelines and renewals — verify=true via oklahoma.gov/ohca SoonerCare.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Oklahomans under SoonerCare (Medicaid).",
+      "ml": "Health coverage for eligible Oklahomans under SoonerCare (Medicaid).",
+      "hi": "Health coverage for eligible Oklahomans under SoonerCare (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "My SoonerCare / OKDHS medical application"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "My SoonerCare / OKDHS medical application"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "My SoonerCare / OKDHS medical application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through My SoonerCare (oklahoma.gov/ohca) or get help at a local OKDHS Human Services Center; SoonerCare Helpline 1-800-987-7767.",
+      "ml": "Apply online through My SoonerCare (oklahoma.gov/ohca) or get help at a local OKDHS Human Services Center; SoonerCare Helpline 1-800-987-7767.",
+      "hi": "Apply online through My SoonerCare (oklahoma.gov/ohca) or get help at a local OKDHS Human Services Center; SoonerCare Helpline 1-800-987-7767."
+    },
+    "apply_url": "https://oklahoma.gov/ohca/individuals/mysoonercare.html",
+    "official_source_url": "https://oklahoma.gov/ohca/individuals/mysoonercare.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Oklahoma Health Care Authority (OHCA) / SoonerCare",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "medicaid",
+      "soonercare",
+      "health",
+      "ohca"
+    ]
+  },
+  {
+    "id": "ok-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Utility / Energy Assistance) – Oklahoma OKDHS",
+      "ml": "LIHEAP (Utility / Energy Assistance) – Oklahoma OKDHS",
+      "hi": "LIHEAP – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma LIHEAP helps eligible households with winter heating, summer cooling, and energy crisis assistance during scheduled enrollment periods. Apply through OKDHSLive when the program is open.",
+      "ml": "Oklahoma LIHEAP helps eligible households with winter heating, summer cooling, and energy crisis assistance during scheduled enrollment periods. Apply through OKDHSLive when the program is open.",
+      "hi": "Oklahoma LIHEAP helps eligible households with winter heating, summer cooling, and energy crisis assistance during scheduled enrollment periods. Apply through OKDHSLive when the program is open."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OK LIHEAP: income guidelines by household size; seasonal enrollment windows. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and enrollment dates change — verify=true via oklahoma.gov/okdhs LIHEAP / OKDHSLive.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Oklahoma households (heating/cooling/crisis when open).",
+      "ml": "Help toward home energy costs for eligible Oklahoma households (heating/cooling/crisis when open).",
+      "hi": "Help toward home energy costs for eligible Oklahoma households (heating/cooling/crisis when open)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Utility account information",
+        "OKDHSLive LIHEAP application (during open enrollment)"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Utility account information",
+        "OKDHSLive LIHEAP application (during open enrollment)"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Utility account information",
+        "OKDHSLive LIHEAP application (during open enrollment)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through OKDHSLive during open LIHEAP enrollment windows; see oklahoma.gov/okdhs LIHEAP. Life-threatening crises may be referred year-round.",
+      "ml": "Apply online through OKDHSLive during open LIHEAP enrollment windows; see oklahoma.gov/okdhs LIHEAP. Life-threatening crises may be referred year-round.",
+      "hi": "Apply online through OKDHSLive during open LIHEAP enrollment windows; see oklahoma.gov/okdhs LIHEAP. Life-threatening crises may be referred year-round."
+    },
+    "apply_url": "https://oklahoma.gov/okdhs/applyforservices/okdhslive.html",
+    "official_source_url": "https://oklahoma.gov/okdhs/services/liheap/utilityservicesliheapmain.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Oklahoma Human Services (OKDHS) / LIHEAP",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "liheap",
+      "energy",
+      "utility",
+      "okdhslive"
+    ]
+  },
+  {
+    "id": "ok-child-care-subsidy",
+    "scheme_name": {
+      "en": "Child Care Subsidy – Oklahoma OKDHS",
+      "ml": "Child Care Subsidy – Oklahoma OKDHS",
+      "hi": "Child Care Subsidy – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma Human Services provides Child Care Subsidy assistance for eligible families so parents can work or participate in approved activities. Apply and manage benefits through OKDHSLive; see the OKDHS Child Care Subsidy page for program details.",
+      "ml": "Oklahoma Human Services provides Child Care Subsidy assistance for eligible families so parents can work or participate in approved activities. Apply and manage benefits through OKDHSLive; see the OKDHS Child Care Subsidy page for program details.",
+      "hi": "Oklahoma Human Services provides Child Care Subsidy assistance for eligible families so parents can work or participate in approved activities. Apply and manage benefits through OKDHSLive; see the OKDHS Child Care Subsidy page for program details."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OK child care subsidy: work/activity and income rules; provider must be approved. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income and activity rules change — verify=true via oklahoma.gov/okdhs / OKDHSLive.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for child care for eligible Oklahoma families (subsidy via OKDHS).",
+      "ml": "Help paying for child care for eligible Oklahoma families (subsidy via OKDHS).",
+      "hi": "Help paying for child care for eligible Oklahoma families (subsidy via OKDHS)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child / provider information",
+        "OKDHSLive child care application"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child / provider information",
+        "OKDHSLive child care application"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child / provider information",
+        "OKDHSLive child care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply or renew online through OKDHSLive; see oklahoma.gov/okdhs Child Care Subsidy and applyforservices/ccs.",
+      "ml": "Apply or renew online through OKDHSLive; see oklahoma.gov/okdhs Child Care Subsidy and applyforservices/ccs.",
+      "hi": "Apply or renew online through OKDHSLive; see oklahoma.gov/okdhs Child Care Subsidy and applyforservices/ccs."
+    },
+    "apply_url": "https://oklahoma.gov/okdhs/applyforservices/okdhslive.html",
+    "official_source_url": "https://oklahoma.gov/okdhs/services/adult/ccsubsidy/child-care-subsidy.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Oklahoma Human Services (OKDHS) / Child Care Subsidy",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "child_care",
+      "subsidy",
+      "okdhslive"
+    ]
+  },
+  {
+    "id": "ct-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Connecticut DSS / ConneCT",
+      "ml": "SNAP (Food Assistance) – Connecticut DSS / ConneCT",
+      "hi": "SNAP – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Connecticut Department of Social Services (DSS) administers SNAP. Eligible households apply through ConneCT for monthly food benefits.",
+      "ml": "Connecticut Department of Social Services (DSS) administers SNAP. Eligible households apply through ConneCT for monthly food benefits.",
+      "hi": "Connecticut Department of Social Services (DSS) administers SNAP. Eligible households apply through ConneCT for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CT SNAP via ConneCT: residency and income rules; ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via portal.ct.gov/dss SNAP / ConneCT.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Connecticut households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Connecticut households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Connecticut households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / DSS SNAP application"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / DSS SNAP application"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / DSS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through ConneCT (connect.ct.gov), by mail, or at a DSS Resource Center; see portal.ct.gov/dss SNAP apply.",
+      "ml": "Apply online through ConneCT (connect.ct.gov), by mail, or at a DSS Resource Center; see portal.ct.gov/dss SNAP apply.",
+      "hi": "Apply online through ConneCT (connect.ct.gov), by mail, or at a DSS Resource Center; see portal.ct.gov/dss SNAP apply."
+    },
+    "apply_url": "https://connect.ct.gov/",
+    "official_source_url": "https://portal.ct.gov/dss/snap/supplemental-nutrition-assistance-program---snap/apply",
+    "last_verified": "2026-09-17",
+    "office_type": "Connecticut Department of Social Services / ConneCT",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "snap",
+      "food",
+      "connect"
+    ]
+  },
+  {
+    "id": "ct-tfa",
+    "scheme_name": {
+      "en": "Temporary Family Assistance (TFA / TANF) – Connecticut DSS",
+      "ml": "Temporary Family Assistance (TFA / TANF) – Connecticut DSS",
+      "hi": "TFA – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Temporary Family Assistance (TFA) is Connecticut’s TANF cash assistance program for eligible families with children (or pregnant individuals) who meet income and other DSS rules. Apply through ConneCT.",
+      "ml": "Temporary Family Assistance (TFA) is Connecticut’s TANF cash assistance program for eligible families with children (or pregnant individuals) who meet income and other DSS rules. Apply through ConneCT.",
+      "hi": "Temporary Family Assistance (TFA) is Connecticut’s TANF cash assistance program for eligible families with children (or pregnant individuals) who meet income and other DSS rules. Apply through ConneCT."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CT TFA: families with children or pregnant individuals; income/asset and program rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income/asset tests and time limits — verify=true via portal.ct.gov/dss TFA / ConneCT.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Connecticut families with children.",
+      "ml": "Temporary cash assistance for eligible Connecticut families with children.",
+      "hi": "Temporary cash assistance for eligible Connecticut families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ConneCT / DSS TFA application"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ConneCT / DSS TFA application"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ConneCT / DSS TFA application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through ConneCT or see portal.ct.gov/dss cash assistance / TFA; DSS Benefits Center 1-855-626-6632.",
+      "ml": "Apply online through ConneCT or see portal.ct.gov/dss cash assistance / TFA; DSS Benefits Center 1-855-626-6632.",
+      "hi": "Apply online through ConneCT or see portal.ct.gov/dss cash assistance / TFA; DSS Benefits Center 1-855-626-6632."
+    },
+    "apply_url": "https://connect.ct.gov/",
+    "official_source_url": "https://portal.ct.gov/dss/knowledge-base/articles/cash-assistance/temporary-family-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Connecticut Department of Social Services / TFA",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "tanf",
+      "tfa",
+      "cash_assistance",
+      "connect"
+    ]
+  },
+  {
+    "id": "ct-husky",
+    "scheme_name": {
+      "en": "HUSKY Health (Medicaid / CHIP) – Connecticut DSS",
+      "ml": "HUSKY Health (Medicaid / CHIP) – Connecticut DSS",
+      "hi": "HUSKY – कनेक्टिकट"
+    },
+    "description": {
+      "en": "HUSKY Health is Connecticut’s public health coverage (Medicaid and CHIP tracks such as HUSKY A/B/D). Eligible residents apply through ConneCT and/or Access Health CT pathways described by DSS.",
+      "ml": "HUSKY Health is Connecticut’s public health coverage (Medicaid and CHIP tracks such as HUSKY A/B/D). Eligible residents apply through ConneCT and/or Access Health CT pathways described by DSS.",
+      "hi": "HUSKY Health is Connecticut’s public health coverage (Medicaid and CHIP tracks such as HUSKY A/B/D). Eligible residents apply through ConneCT and/or Access Health CT pathways described by DSS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HUSKY: category-specific income rules (e.g. HUSKY A/B/D). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category FPL charts and renewals — verify=true via portal.ct.gov HUSKY / ConneCT.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Connecticut residents under HUSKY Health.",
+      "ml": "Health coverage for eligible Connecticut residents under HUSKY Health.",
+      "hi": "Health coverage for eligible Connecticut residents under HUSKY Health."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / Access Health CT health coverage application"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / Access Health CT health coverage application"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "ConneCT / Access Health CT health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ConneCT (connect.ct.gov) or follow portal.ct.gov/dss how-to-apply / HUSKY qualify guidance; Access Health CT phone pathway noted by DSS for some HUSKY enrollments.",
+      "ml": "Apply via ConneCT (connect.ct.gov) or follow portal.ct.gov/dss how-to-apply / HUSKY qualify guidance; Access Health CT phone pathway noted by DSS for some HUSKY enrollments.",
+      "hi": "Apply via ConneCT (connect.ct.gov) or follow portal.ct.gov/dss how-to-apply / HUSKY qualify guidance; Access Health CT phone pathway noted by DSS for some HUSKY enrollments."
+    },
+    "apply_url": "https://connect.ct.gov/",
+    "official_source_url": "https://portal.ct.gov/husky/how-to-qualify/",
+    "last_verified": "2026-09-17",
+    "office_type": "Connecticut DSS / HUSKY Health",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "medicaid",
+      "chip",
+      "husky",
+      "health",
+      "connect"
+    ]
+  },
+  {
+    "id": "ct-ceap",
+    "scheme_name": {
+      "en": "Connecticut Energy Assistance Program (CEAP / LIHEAP) – DSS",
+      "ml": "Connecticut Energy Assistance Program (CEAP / LIHEAP) – DSS",
+      "hi": "CEAP (LIHEAP) – कनेक्टिकट"
+    },
+    "description": {
+      "en": "CEAP is Connecticut’s LIHEAP heating assistance program for eligible households. DSS partners with Community Action Agencies; applications are taken during the heating season through the CEAP / Heating Help pathways.",
+      "ml": "CEAP is Connecticut’s LIHEAP heating assistance program for eligible households. DSS partners with Community Action Agencies; applications are taken during the heating season through the CEAP / Heating Help pathways.",
+      "hi": "CEAP is Connecticut’s LIHEAP heating assistance program for eligible households. DSS partners with Community Action Agencies; applications are taken during the heating season through the CEAP / Heating Help pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CEAP/LIHEAP: income guidelines and seasonal application windows; categorical links to other DSS benefits may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Benefit amounts and open dates change — verify=true via portal.ct.gov DSS CEAP / Heating Help.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward winter heating costs for eligible Connecticut households (CEAP / LIHEAP).",
+      "ml": "Help toward winter heating costs for eligible Connecticut households (CEAP / LIHEAP).",
+      "hi": "Help toward winter heating costs for eligible Connecticut households (CEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Heating / utility information",
+        "CEAP application (online Heating Help / local CAA)"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Heating / utility information",
+        "CEAP application (online Heating Help / local CAA)"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Heating / utility information",
+        "CEAP application (online Heating Help / local CAA)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Connecticut Heating Help / CEAP pathways on portal.ct.gov or your local Community Action Agency during the open season; see DSS Energy Assistance – Winter Heating.",
+      "ml": "Apply through Connecticut Heating Help / CEAP pathways on portal.ct.gov or your local Community Action Agency during the open season; see DSS Energy Assistance – Winter Heating.",
+      "hi": "Apply through Connecticut Heating Help / CEAP pathways on portal.ct.gov or your local Community Action Agency during the open season; see DSS Energy Assistance – Winter Heating."
+    },
+    "apply_url": "https://portal.ct.gov/dss/economic-security/winter-heating-assistance/energy-assistance---winter-heating",
+    "official_source_url": "https://portal.ct.gov/dss/economic-security/winter-heating-assistance/energy-assistance---winter-heating",
+    "last_verified": "2026-09-17",
+    "office_type": "Connecticut DSS / Community Action Agencies (CEAP)",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "liheap",
+      "ceap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "ct-care-4-kids",
+    "scheme_name": {
+      "en": "Care 4 Kids (Child Care Assistance) – Connecticut OEC",
+      "ml": "Care 4 Kids (Child Care Assistance) – Connecticut OEC",
+      "hi": "Care 4 Kids – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Care 4 Kids (C4K) helps eligible low- to moderate-income Connecticut families pay for child care so parents can work or participate in approved activities. The Office of Early Childhood (OEC) administers the program.",
+      "ml": "Care 4 Kids (C4K) helps eligible low- to moderate-income Connecticut families pay for child care so parents can work or participate in approved activities. The Office of Early Childhood (OEC) administers the program.",
+      "hi": "Care 4 Kids (C4K) helps eligible low- to moderate-income Connecticut families pay for child care so parents can work or participate in approved activities. The Office of Early Childhood (OEC) administers the program."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Care 4 Kids: low/moderate-income families; work/activity and provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income guidelines and open/closed status change — verify=true via portal.ct.gov/oec/care4kids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for child care costs for eligible Connecticut families (Care 4 Kids).",
+      "ml": "Help paying for child care costs for eligible Connecticut families (Care 4 Kids).",
+      "hi": "Help paying for child care costs for eligible Connecticut families (Care 4 Kids)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Child / provider information",
+        "Care 4 Kids application"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Child / provider information",
+        "Care 4 Kids application"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Child / provider information",
+        "Care 4 Kids application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Prescreen and apply via Care 4 Kids pathways linked from portal.ct.gov/oec/care4kids (Parent Portal / ctcare4kids.com as directed by OEC).",
+      "ml": "Prescreen and apply via Care 4 Kids pathways linked from portal.ct.gov/oec/care4kids (Parent Portal / ctcare4kids.com as directed by OEC).",
+      "hi": "Prescreen and apply via Care 4 Kids pathways linked from portal.ct.gov/oec/care4kids (Parent Portal / ctcare4kids.com as directed by OEC)."
+    },
+    "apply_url": "https://portal.ct.gov/oec/care4kids",
+    "official_source_url": "https://portal.ct.gov/oec/care4kids",
+    "last_verified": "2026-09-17",
+    "office_type": "Connecticut Office of Early Childhood / Care 4 Kids",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "child_care",
+      "care_4_kids",
+      "oec"
+    ]
+  },
+  {
+    "id": "ut-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Stamps) – Utah DWS / myCase",
+      "ml": "SNAP (Food Stamps) – Utah DWS / myCase",
+      "hi": "SNAP – यूटा"
+    },
+    "description": {
+      "en": "Utah Department of Workforce Services (DWS) Eligibility Services administers SNAP. Eligible households apply through myCase for monthly food benefits.",
+      "ml": "Utah Department of Workforce Services (DWS) Eligibility Services administers SNAP. Eligible households apply through myCase for monthly food benefits.",
+      "hi": "Utah Department of Workforce Services (DWS) Eligibility Services administers SNAP. Eligible households apply through myCase for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "UT SNAP via myCase: residency and income/resource rules; work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via jobs.utah.gov SNAP / myCase.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Utah households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Utah households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Utah households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / DWS SNAP application"
+      ],
+      "ml": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / DWS SNAP application"
+      ],
+      "hi": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / DWS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myCase from jobs.utah.gov/eligibility (or jobs.utah.gov assistance), by phone (1-866-435-7414), or with a paper multi-program application; see DWS SNAP pages.",
+      "ml": "Apply online via myCase from jobs.utah.gov/eligibility (or jobs.utah.gov assistance), by phone (1-866-435-7414), or with a paper multi-program application; see DWS SNAP pages.",
+      "hi": "Apply online via myCase from jobs.utah.gov/eligibility (or jobs.utah.gov assistance), by phone (1-866-435-7414), or with a paper multi-program application; see DWS SNAP pages."
+    },
+    "apply_url": "https://jobs.utah.gov/eligibility/index.html",
+    "official_source_url": "https://jobs.utah.gov/customereducation/services/foodstamps/index.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Utah Department of Workforce Services / myCase",
+    "tags": [
+      "united_states",
+      "utah",
+      "snap",
+      "food",
+      "mycase",
+      "dws"
+    ]
+  },
+  {
+    "id": "ut-fep",
+    "scheme_name": {
+      "en": "Family Employment Program (FEP / TANF) – Utah DWS",
+      "ml": "Family Employment Program (FEP / TANF) – Utah DWS",
+      "hi": "FEP – यूटा"
+    },
+    "description": {
+      "en": "Utah’s Family Employment Program (FEP) provides temporary cash assistance and employment supports for eligible families with minor children, generally with a lifetime month limit, while working toward self-sufficiency.",
+      "ml": "Utah’s Family Employment Program (FEP) provides temporary cash assistance and employment supports for eligible families with minor children, generally with a lifetime month limit, while working toward self-sufficiency.",
+      "hi": "Utah’s Family Employment Program (FEP) provides temporary cash assistance and employment supports for eligible families with minor children, generally with a lifetime month limit, while working toward self-sufficiency."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FEP/TANF: families with minor children; employment plan and time limits. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Grant amounts and month limits — verify=true via jobs.utah.gov FEP / myCase.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment services for eligible Utah families with children.",
+      "ml": "Temporary cash assistance and employment services for eligible Utah families with children.",
+      "hi": "Temporary cash assistance and employment services for eligible Utah families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myCase / DWS financial assistance application"
+      ],
+      "ml": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myCase / DWS financial assistance application"
+      ],
+      "hi": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myCase / DWS financial assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myCase (jobs.utah.gov/eligibility) or see the Family Employment Program page on jobs.utah.gov; call 1-866-435-7414 for help.",
+      "ml": "Apply online via myCase (jobs.utah.gov/eligibility) or see the Family Employment Program page on jobs.utah.gov; call 1-866-435-7414 for help.",
+      "hi": "Apply online via myCase (jobs.utah.gov/eligibility) or see the Family Employment Program page on jobs.utah.gov; call 1-866-435-7414 for help."
+    },
+    "apply_url": "https://jobs.utah.gov/eligibility/index.html",
+    "official_source_url": "https://jobs.utah.gov/customereducation/services/financialhelp/family/program.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Utah Department of Workforce Services / FEP",
+    "tags": [
+      "united_states",
+      "utah",
+      "tanf",
+      "fep",
+      "cash_assistance",
+      "mycase",
+      "dws"
+    ]
+  },
+  {
+    "id": "ut-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Utah DHHS / DWS myCase",
+      "ml": "Medicaid – Utah DHHS / DWS myCase",
+      "hi": "Medicaid – यूटा"
+    },
+    "description": {
+      "en": "Utah Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. DWS determines eligibility; apply through myCase or Medicaid apply pathways.",
+      "ml": "Utah Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. DWS determines eligibility; apply through myCase or Medicaid apply pathways.",
+      "hi": "Utah Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. DWS determines eligibility; apply through myCase or Medicaid apply pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "UT Medicaid: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via medicaid.utah.gov / myCase.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Utahns under Medicaid.",
+      "ml": "Health coverage for eligible Utahns under Medicaid.",
+      "hi": "Health coverage for eligible Utahns under Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / medical assistance application"
+      ],
+      "ml": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / medical assistance application"
+      ],
+      "hi": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "myCase / medical assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myCase (jobs.utah.gov/eligibility) or see medicaid.utah.gov/apply-medicaid; call 1-866-435-7414.",
+      "ml": "Apply online via myCase (jobs.utah.gov/eligibility) or see medicaid.utah.gov/apply-medicaid; call 1-866-435-7414.",
+      "hi": "Apply online via myCase (jobs.utah.gov/eligibility) or see medicaid.utah.gov/apply-medicaid; call 1-866-435-7414."
+    },
+    "apply_url": "https://jobs.utah.gov/eligibility/index.html",
+    "official_source_url": "https://medicaid.utah.gov/apply-medicaid/",
+    "last_verified": "2026-09-17",
+    "office_type": "Utah DHHS Medicaid / DWS Eligibility Services",
+    "tags": [
+      "united_states",
+      "utah",
+      "medicaid",
+      "health",
+      "mycase",
+      "dws"
+    ]
+  },
+  {
+    "id": "ut-chip",
+    "scheme_name": {
+      "en": "CHIP (Children’s Health Insurance Program) – Utah",
+      "ml": "CHIP (Children’s Health Insurance Program) – Utah",
+      "hi": "CHIP – यूटा"
+    },
+    "description": {
+      "en": "Utah CHIP provides health coverage for eligible uninsured children. Families can apply through myCase / DWS medical pathways; chip.utah.gov describes CHIP options and how they relate to Medicaid.",
+      "ml": "Utah CHIP provides health coverage for eligible uninsured children. Families can apply through myCase / DWS medical pathways; chip.utah.gov describes CHIP options and how they relate to Medicaid.",
+      "hi": "Utah CHIP provides health coverage for eligible uninsured children. Families can apply through myCase / DWS medical pathways; chip.utah.gov describes CHIP options and how they relate to Medicaid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "UT CHIP: uninsured children; income under a share of FPL when not Medicaid-eligible. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and enrollment status change — verify=true via chip.utah.gov / myCase.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Utah children under CHIP.",
+      "ml": "Health coverage for eligible Utah children under CHIP.",
+      "hi": "Health coverage for eligible Utah children under CHIP."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Child information",
+        "myCase / CHIP medical application"
+      ],
+      "ml": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Child information",
+        "myCase / CHIP medical application"
+      ],
+      "hi": [
+        "Identity and Utah residency",
+        "Income documentation",
+        "Child information",
+        "myCase / CHIP medical application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myCase or see chip.utah.gov and medicaid.utah.gov apply pathways; DWS phone 1-866-435-7414.",
+      "ml": "Apply online via myCase or see chip.utah.gov and medicaid.utah.gov apply pathways; DWS phone 1-866-435-7414.",
+      "hi": "Apply online via myCase or see chip.utah.gov and medicaid.utah.gov apply pathways; DWS phone 1-866-435-7414."
+    },
+    "apply_url": "https://jobs.utah.gov/eligibility/index.html",
+    "official_source_url": "https://chip.utah.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "Utah CHIP / DWS Eligibility Services",
+    "tags": [
+      "united_states",
+      "utah",
+      "chip",
+      "children",
+      "health",
+      "mycase"
+    ]
+  },
+  {
+    "id": "ut-heat",
+    "scheme_name": {
+      "en": "HEAT (Home Energy Assistance Target / LIHEAP) – Utah DWS",
+      "ml": "HEAT (Home Energy Assistance Target / LIHEAP) – Utah DWS",
+      "hi": "HEAT – यूटा"
+    },
+    "description": {
+      "en": "Utah’s HEAT program (LIHEAP) helps eligible low-income households pay home energy (power/gas) bills and may prioritize elderly, disabled, and households with young children. Apply through DWS HEAT / local HEAT offices.",
+      "ml": "Utah’s HEAT program (LIHEAP) helps eligible low-income households pay home energy (power/gas) bills and may prioritize elderly, disabled, and households with young children. Apply through DWS HEAT / local HEAT offices.",
+      "hi": "Utah’s HEAT program (LIHEAP) helps eligible low-income households pay home energy (power/gas) bills and may prioritize elderly, disabled, and households with young children. Apply through DWS HEAT / local HEAT offices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HEAT/LIHEAP: income generally at or below a share of FPL; seasonal priority groups. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and season dates change — verify=true via jobs.utah.gov HEAT / local HEAT office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Utah households (HEAT / LIHEAP).",
+      "ml": "Help toward home energy costs for eligible Utah households (HEAT / LIHEAP).",
+      "hi": "Help toward home energy costs for eligible Utah households (HEAT / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Utah residency",
+        "Income documentation (prior month)",
+        "Utility bills / account information",
+        "HEAT application (DWS / local HEAT office)"
+      ],
+      "ml": [
+        "Identity and Utah residency",
+        "Income documentation (prior month)",
+        "Utility bills / account information",
+        "HEAT application (DWS / local HEAT office)"
+      ],
+      "hi": [
+        "Identity and Utah residency",
+        "Income documentation (prior month)",
+        "Utility bills / account information",
+        "HEAT application (DWS / local HEAT office)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the DWS HEAT page (jobs.utah.gov/housing/scso/seal/heat.html) or your local HEAT office when the season is open; see also jobs.utah.gov/assistance for the HEAT link.",
+      "ml": "Apply via the DWS HEAT page (jobs.utah.gov/housing/scso/seal/heat.html) or your local HEAT office when the season is open; see also jobs.utah.gov/assistance for the HEAT link.",
+      "hi": "Apply via the DWS HEAT page (jobs.utah.gov/housing/scso/seal/heat.html) or your local HEAT office when the season is open; see also jobs.utah.gov/assistance for the HEAT link."
+    },
+    "apply_url": "https://jobs.utah.gov/housing/scso/seal/heat.html",
+    "official_source_url": "https://jobs.utah.gov/housing/scso/seal/heat.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Utah Department of Workforce Services / Local HEAT offices",
+    "tags": [
+      "united_states",
+      "utah",
+      "liheap",
+      "heat",
+      "energy",
+      "utility",
+      "dws"
+    ]
   }
 ]

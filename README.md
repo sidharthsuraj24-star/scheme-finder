@@ -8,7 +8,7 @@ Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 
 - Frontend: Next.js 15, React 19, Tailwind
 - Backend: FastAPI, Pydantic v2, Uvicorn
-- Data: data/schemes.json (curated schemes — India multi-state/central + BD/NP/LK/MV starters + US federal/state waves incl. Wave 5 CO/MN/SC/AL/LA; in-memory; optional SQLite)
+- Data: data/schemes.json (curated schemes — India multi-state/central + BD/NP/LK/MV starters + US federal/state waves incl. Wave 5 CO/MN/SC/AL/LA and Wave 6 KY/OR/OK/CT/UT; in-memory; optional SQLite)
 - Tests: pytest
 
 ## Run locally

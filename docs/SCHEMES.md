@@ -1,16 +1,32 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 453 schemes
-**verify=true:** 445
+**Count:** 478 schemes
+**verify=true:** 470
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count) and US Wave 5 state deepen (Colorado, Minnesota, South Carolina, Alabama, Louisiana — state-tagged programs; Minnesota IDs `us-mn-*` to avoid India Manipur `mn-*`; Louisiana IDs `us-la-*` to avoid India Ladakh `la-*`; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count) and US Wave 5 state deepen (Colorado, Minnesota, South Carolina, Alabama, Louisiana — state-tagged programs; Minnesota IDs `us-mn-*` to avoid India Manipur `mn-*`; Louisiana IDs `us-la-*` to avoid India Ladakh `la-*`; quality over forced count) and US Wave 6 state deepen (Kentucky, Oregon, Oklahoma, Connecticut, Utah — state-tagged programs; IDs `ky-*`/`or-*`/`ok-*`/`ct-*`/`ut-*` with no India collisions; quality over forced count).
 
 
 
 
 
+
+## US Wave 6 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged US schemes (`nationwide:false`) for Kentucky, Oregon, Oklahoma, Connecticut, and Utah. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `ky-*`, `or-*`, `ok-*`, `ct-*`, `ut-*` (no India collisions; bare prefixes used).
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| Kentucky | `ky-snap`, `ky-ktap`, `ky-medicaid`, `ky-kchip`, `ky-liheap` | chfs.ky.gov / kynect.ky.gov (kynect benefits; SNAP/KTAP/Medicaid/KCHIP); LIHEAP via CHFS / Community Action |
+| Oregon | `or-snap`, `or-tanf`, `or-ohp`, `or-liheap`, `or-oeap` | oregon.gov ODHS/OHA/OHCS; apply via one.oregon.gov; energy via OHCS CAAs |
+| Oklahoma | `ok-snap`, `ok-tanf`, `ok-soonercare`, `ok-liheap`, `ok-child-care-subsidy` | oklahoma.gov OKDHS / OHCA SoonerCare; apply via OKDHSLive |
+| Connecticut | `ct-snap`, `ct-tfa`, `ct-husky`, `ct-ceap`, `ct-care-4-kids` | portal.ct.gov DSS / OEC; apply via ConneCT; CEAP Heating Help; Care 4 Kids |
+| Utah | `ut-snap`, `ut-fep`, `ut-medicaid`, `ut-chip`, `ut-heat` | jobs.utah.gov myCase / DWS; medicaid.utah.gov; chip.utah.gov; HEAT |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (FPL/SMI notes only). **Collisions:** none for `ky-`/`or-`/`ok-`/`ct-`/`ut-` vs India catalogue.
+
+**Skipped / deferred:** Standalone portal-only ConneCT row (programs covered individually); inventing LIHEAP/CEAP/HEAT dollar caps; non-`.gov` apply mirrors (okdhslive.org, ctcare4kids.com) used only as how-to-apply notes where official `.gov` pages point to them; Kentucky “benefind” branding (superseded by kynect benefits).
 
 ## US Wave 5 state deepen (2026-09-17 IST)
 

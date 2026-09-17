@@ -2039,3 +2039,84 @@ def test_catalogue_covers_us_wave5_states(schemes):
     ):
         assert required in by_state, required
 
+
+# ---------------------------------------------------------------------------
+# US Wave 6 state deepen (KY / OR / OK / CT / UT)
+# ---------------------------------------------------------------------------
+
+
+def test_kentucky_profile_matches_ky_and_federal_us(schemes):
+    """Kentucky low-income senior matches ky-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="Kentucky",
+        district="Jefferson",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "ky-snap" in ids
+    assert "ky-medicaid" in ids
+    assert "ky-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "or-snap" not in ids
+    assert "ok-snap" not in ids
+    assert "ct-snap" not in ids
+    assert "ut-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_oregon_profile_does_not_match_kentucky_schemes(schemes):
+    """Oregon profile must not match Kentucky-only ky-* schemes; may match or-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Oregon",
+        district="Multnomah",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    ky_ids = {s["id"] for s in schemes if s["id"].startswith("ky-")}
+    assert ids & ky_ids == set()
+    assert any(e.scheme_id == "ky-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "or-snap" in ids or "or-ohp" in ids or "or-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_catalogue_covers_us_wave6_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "Kentucky",
+        "Oregon",
+        "Oklahoma",
+        "Connecticut",
+        "Utah",
+    ):
+        assert required in by_state, required
