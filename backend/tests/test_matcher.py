@@ -2226,3 +2226,85 @@ def test_catalogue_covers_us_wave7_states(schemes):
         "Kansas",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 8 state deepen (NM / NE / ID / HI / ME)
+# ---------------------------------------------------------------------------
+
+
+def test_new_mexico_profile_matches_nm_and_federal_us(schemes):
+    """New Mexico low-income senior matches nm-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="New Mexico",
+        district="Bernalillo",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "nm-snap" in ids
+    assert "nm-medicaid" in ids
+    assert "nm-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "ne-snap" not in ids
+    assert "id-snap" not in ids
+    assert "hi-snap" not in ids
+    assert "me-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_nebraska_profile_does_not_match_nm_schemes(schemes):
+    """Nebraska profile must not match New Mexico-only nm-* schemes; may match ne-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Nebraska",
+        district="Douglas",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    nm_ids = {s["id"] for s in schemes if s["id"].startswith("nm-")}
+    assert ids & nm_ids == set()
+    assert any(e.scheme_id == "nm-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "ne-snap" in ids or "ne-medicaid" in ids or "ne-adc" in ids
+    assert "us-snap" in ids
+
+
+def test_catalogue_covers_us_wave8_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "New Mexico",
+        "Nebraska",
+        "Idaho",
+        "Hawaii",
+        "Maine",
+    ):
+        assert required in by_state, required

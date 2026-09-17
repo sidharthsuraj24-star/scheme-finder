@@ -39178,5 +39178,1952 @@
       "utility",
       "dcf"
     ]
+  },
+  {
+    "id": "nm-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – New Mexico HCA",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – New Mexico HCA",
+      "hi": "SNAP – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico Health Care Authority (HCA) Income Support Division administers SNAP. Eligible low-income households apply through YES.NM.gov for monthly food benefits on an EBT card.",
+      "ml": "New Mexico Health Care Authority (HCA) Income Support Division administers SNAP. Eligible low-income households apply through YES.NM.gov for monthly food benefits on an EBT card.",
+      "hi": "New Mexico Health Care Authority (HCA) Income Support Division administers SNAP. Eligible low-income households apply through YES.NM.gov for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM SNAP via HCA/ISD: residency and income/resource rules; household-size FPL charts and ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via hca.nm.gov SNAP / YES.NM.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible New Mexico households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible New Mexico households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible New Mexico households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Income and resource documentation",
+        "YES NM / SNAP application"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Income and resource documentation",
+        "YES NM / SNAP application"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Income and resource documentation",
+        "YES NM / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at YES.NM.gov, at an ISD field office, by mail/fax, or call 1-800-283-4465; see hca.nm.gov SNAP and Apply for Benefits.",
+      "ml": "Apply online at YES.NM.gov, at an ISD field office, by mail/fax, or call 1-800-283-4465; see hca.nm.gov SNAP and Apply for Benefits.",
+      "hi": "Apply online at YES.NM.gov, at an ISD field office, by mail/fax, or call 1-800-283-4465; see hca.nm.gov SNAP and Apply for Benefits."
+    },
+    "apply_url": "https://yes.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/lookingforassistance/supplemental_nutrition_assistance_program__snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Mexico Health Care Authority / Income Support Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "snap",
+      "food",
+      "hca",
+      "yes_nm"
+    ]
+  },
+  {
+    "id": "nm-tanf",
+    "scheme_name": {
+      "en": "TANF / NMWorks (Temporary Assistance for Needy Families) – New Mexico HCA",
+      "ml": "TANF / NMWorks (Temporary Assistance for Needy Families) – New Mexico HCA",
+      "hi": "TANF / NMWorks – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico TANF (NMWorks) provides monthly cash assistance to eligible families with dependent children to help meet basic needs such as housing, utilities, and clothing. Apply through YES.NM.gov / HCA Income Support Division.",
+      "ml": "New Mexico TANF (NMWorks) provides monthly cash assistance to eligible families with dependent children to help meet basic needs such as housing, utilities, and clothing. Apply through YES.NM.gov / HCA Income Support Division.",
+      "hi": "New Mexico TANF (NMWorks) provides monthly cash assistance to eligible families with dependent children to help meet basic needs such as housing, utilities, and clothing. Apply through YES.NM.gov / HCA Income Support Division."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM TANF/NMWorks: residency, dependent children, income/resource limits, and work-program rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and NMWorks participation rules change — verify=true via hca.nm.gov TANF / YES.NM.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance (EBT) for eligible New Mexico families with children (NMWorks / TANF).",
+      "ml": "Monthly cash assistance (EBT) for eligible New Mexico families with children (NMWorks / TANF).",
+      "hi": "Monthly cash assistance (EBT) for eligible New Mexico families with children (NMWorks / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "YES NM / TANF application"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "YES NM / TANF application"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "YES NM / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov Temporary Assistance for Needy Families.",
+      "ml": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov Temporary Assistance for Needy Families.",
+      "hi": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov Temporary Assistance for Needy Families."
+    },
+    "apply_url": "https://yes.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/lookingforassistance/temporary_assistance_for_needy_families/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Mexico Health Care Authority / Income Support Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "tanf",
+      "nmworks",
+      "cash",
+      "hca"
+    ]
+  },
+  {
+    "id": "nm-medicaid",
+    "scheme_name": {
+      "en": "Medicaid (Turquoise Care; formerly Centennial Care) – New Mexico HCA",
+      "ml": "Medicaid (Turquoise Care; formerly Centennial Care) – New Mexico HCA",
+      "hi": "Medicaid / Turquoise Care – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico Medicaid provides free or low-cost health coverage for eligible low-income individuals and families. Most members enroll in Turquoise Care managed care (the Medicaid managed-care program that succeeded Centennial Care as of July 2024). Apply through YES.NM.gov.",
+      "ml": "New Mexico Medicaid provides free or low-cost health coverage for eligible low-income individuals and families. Most members enroll in Turquoise Care managed care (the Medicaid managed-care program that succeeded Centennial Care as of July 2024). Apply through YES.NM.gov.",
+      "hi": "New Mexico Medicaid provides free or low-cost health coverage for eligible low-income individuals and families. Most members enroll in Turquoise Care managed care (the Medicaid managed-care program that succeeded Centennial Care as of July 2024). Apply through YES.NM.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM Medicaid / Turquoise Care: MAGI and non-MAGI pathways; FPL-based income tests by category. Centennial Care was the prior managed-care brand. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and MCO enrollment rules change — verify=true via hca.nm.gov Turquoise Care / YES.NM.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage; most members enroll in a Turquoise Care managed care organization (MCO).",
+      "ml": "Medicaid health coverage; most members enroll in a Turquoise Care managed care organization (MCO).",
+      "hi": "Medicaid health coverage; most members enroll in a Turquoise Care managed care organization (MCO)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Income documentation / household size",
+        "YES NM / Medicaid application"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Income documentation / household size",
+        "YES NM / Medicaid application"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Income documentation / household size",
+        "YES NM / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at YES.NM.gov, by phone at 1-855-637-6574 / 1-800-283-4465, or at an ISD office; see hca.nm.gov Turquoise Care and Apply for Benefits.",
+      "ml": "Apply online at YES.NM.gov, by phone at 1-855-637-6574 / 1-800-283-4465, or at an ISD office; see hca.nm.gov Turquoise Care and Apply for Benefits.",
+      "hi": "Apply online at YES.NM.gov, by phone at 1-855-637-6574 / 1-800-283-4465, or at an ISD office; see hca.nm.gov Turquoise Care and Apply for Benefits."
+    },
+    "apply_url": "https://yes.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/turquoise-care/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Mexico Health Care Authority / Medical Assistance Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "medicaid",
+      "turquoise_care",
+      "centennial_care",
+      "hca"
+    ]
+  },
+  {
+    "id": "nm-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance Program) – New Mexico HCA",
+      "ml": "LIHEAP (Low Income Home Energy Assistance Program) – New Mexico HCA",
+      "hi": "LIHEAP – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico LIHEAP helps eligible low-income households with heating and cooling costs and energy emergencies. Apply through YES.NM.gov or with the LIHEAP application via HCA Income Support Division.",
+      "ml": "New Mexico LIHEAP helps eligible low-income households with heating and cooling costs and energy emergencies. Apply through YES.NM.gov or with the LIHEAP application via HCA Income Support Division.",
+      "hi": "New Mexico LIHEAP helps eligible low-income households with heating and cooling costs and energy emergencies. Apply through YES.NM.gov or with the LIHEAP application via HCA Income Support Division."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM LIHEAP: income generally tied to published FPL charts for the federal fiscal year; crisis pathways may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and seasonal/crisis rules change — verify=true via hca.nm.gov LIHEAP / YES.NM.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy/heating/cooling costs and crisis energy needs for eligible New Mexico households.",
+      "ml": "Help toward home energy/heating/cooling costs and crisis energy needs for eligible New Mexico households.",
+      "hi": "Help toward home energy/heating/cooling costs and crisis energy needs for eligible New Mexico households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Proof of responsibility for energy costs / crisis situation if applicable",
+        "YES NM or LIHEAP application"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Proof of responsibility for energy costs / crisis situation if applicable",
+        "YES NM or LIHEAP application"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Proof of responsibility for energy costs / crisis situation if applicable",
+        "YES NM or LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at YES.NM.gov, submit a LIHEAP application to ISD/CASA, or call 1-800-283-4465; see hca.nm.gov Low Income Home Energy Assistance Program.",
+      "ml": "Apply online at YES.NM.gov, submit a LIHEAP application to ISD/CASA, or call 1-800-283-4465; see hca.nm.gov Low Income Home Energy Assistance Program.",
+      "hi": "Apply online at YES.NM.gov, submit a LIHEAP application to ISD/CASA, or call 1-800-283-4465; see hca.nm.gov Low Income Home Energy Assistance Program."
+    },
+    "apply_url": "https://yes.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/lookingforassistance/low_income_home_energy_assistance_program/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Mexico Health Care Authority / Income Support Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "liheap",
+      "energy",
+      "utility",
+      "hca"
+    ]
+  },
+  {
+    "id": "nm-general-assistance",
+    "scheme_name": {
+      "en": "General Assistance – New Mexico HCA",
+      "ml": "General Assistance – New Mexico HCA",
+      "hi": "General Assistance – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico General Assistance provides cash assistance for certain disabled adults and unrelated children who meet Income Support Division eligibility rules. Apply through YES.NM.gov / HCA ISD alongside other benefits.",
+      "ml": "New Mexico General Assistance provides cash assistance for certain disabled adults and unrelated children who meet Income Support Division eligibility rules. Apply through YES.NM.gov / HCA ISD alongside other benefits.",
+      "hi": "New Mexico General Assistance provides cash assistance for certain disabled adults and unrelated children who meet Income Support Division eligibility rules. Apply through YES.NM.gov / HCA ISD alongside other benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM General Assistance: specific categorical rules (disabled adults / unrelated children); income/resource limits. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category and income rules change — verify=true via hca.nm.gov General Assistance / YES.NM.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible New Mexico General Assistance households (disabled adults / unrelated children pathways).",
+      "ml": "Monthly cash assistance for eligible New Mexico General Assistance households (disabled adults / unrelated children pathways).",
+      "hi": "Monthly cash assistance for eligible New Mexico General Assistance households (disabled adults / unrelated children pathways)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Disability or household composition documentation as applicable",
+        "Income and resource documentation",
+        "YES NM / General Assistance application"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Disability or household composition documentation as applicable",
+        "Income and resource documentation",
+        "YES NM / General Assistance application"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Disability or household composition documentation as applicable",
+        "Income and resource documentation",
+        "YES NM / General Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov General Assistance for Disabled Adults and Unrelated Children.",
+      "ml": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov General Assistance for Disabled Adults and Unrelated Children.",
+      "hi": "Apply online at YES.NM.gov, at an ISD field office, or call 1-800-283-4465; see hca.nm.gov General Assistance for Disabled Adults and Unrelated Children."
+    },
+    "apply_url": "https://yes.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/lookingforassistance/general-assistance-for-disabled-adults-and-unrelated-children/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Mexico Health Care Authority / Income Support Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "general_assistance",
+      "cash",
+      "hca"
+    ]
+  },
+  {
+    "id": "ne-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Nebraska DHHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Nebraska DHHS",
+      "hi": "SNAP – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska Department of Health and Human Services (DHHS) administers SNAP. Eligible low-income households apply through iServe Nebraska (ACCESSNebraska transformation) for monthly food benefits on an EBT card.",
+      "ml": "Nebraska Department of Health and Human Services (DHHS) administers SNAP. Eligible low-income households apply through iServe Nebraska (ACCESSNebraska transformation) for monthly food benefits on an EBT card.",
+      "hi": "Nebraska Department of Health and Human Services (DHHS) administers SNAP. Eligible low-income households apply through iServe Nebraska (ACCESSNebraska transformation) for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE SNAP via DHHS: residency and income/resource rules; ABAWD/work and verification rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work/verification rules change — verify=true via dhhs.ne.gov SNAP / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Nebraska households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Nebraska households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Nebraska households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Income and resource documentation",
+        "iServe Nebraska / SNAP application"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Income and resource documentation",
+        "iServe Nebraska / SNAP application"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Income and resource documentation",
+        "iServe Nebraska / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call Economic Assistance 1-800-383-4278; see dhhs.ne.gov SNAP.",
+      "ml": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call Economic Assistance 1-800-383-4278; see dhhs.ne.gov SNAP.",
+      "hi": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call Economic Assistance 1-800-383-4278; see dhhs.ne.gov SNAP."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/pages/snap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Nebraska Department of Health and Human Services",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "snap",
+      "food",
+      "dhhs",
+      "iserve",
+      "accessnebraska"
+    ]
+  },
+  {
+    "id": "ne-adc",
+    "scheme_name": {
+      "en": "ADC / TANF (Aid to Dependent Children) – Nebraska DHHS",
+      "ml": "ADC / TANF (Aid to Dependent Children) – Nebraska DHHS",
+      "hi": "ADC / TANF – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska’s Aid to Dependent Children (ADC) is the state’s TANF cash assistance program for eligible families with children. Apply for Economic Assistance through iServe Nebraska / ACCESSNebraska pathways.",
+      "ml": "Nebraska’s Aid to Dependent Children (ADC) is the state’s TANF cash assistance program for eligible families with children. Apply for Economic Assistance through iServe Nebraska / ACCESSNebraska pathways.",
+      "hi": "Nebraska’s Aid to Dependent Children (ADC) is the state’s TANF cash assistance program for eligible families with children. Apply for Economic Assistance through iServe Nebraska / ACCESSNebraska pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE ADC/TANF: residency, dependent children, income/resource limits, and work-program rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dhhs.ne.gov TANF / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Nebraska families with dependent children (ADC / TANF).",
+      "ml": "Monthly cash assistance for eligible Nebraska families with dependent children (ADC / TANF).",
+      "hi": "Monthly cash assistance for eligible Nebraska families with dependent children (ADC / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "iServe Nebraska / Economic Assistance application"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "iServe Nebraska / Economic Assistance application"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "iServe Nebraska / Economic Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov TANF and ACCESSNebraska.",
+      "ml": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov TANF and ACCESSNebraska.",
+      "hi": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov TANF and ACCESSNebraska."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/Pages/TANF.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Nebraska Department of Health and Human Services",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "tanf",
+      "adc",
+      "cash",
+      "dhhs",
+      "iserve"
+    ]
+  },
+  {
+    "id": "ne-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Nebraska DHHS",
+      "ml": "Medicaid – Nebraska DHHS",
+      "hi": "Medicaid – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska DHHS administers Medicaid for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through iServe Nebraska (Medicaid and Economic Assistance).",
+      "ml": "Nebraska DHHS administers Medicaid for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through iServe Nebraska (Medicaid and Economic Assistance).",
+      "hi": "Nebraska DHHS administers Medicaid for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through iServe Nebraska (Medicaid and Economic Assistance)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE Medicaid: MAGI and non-MAGI pathways; FPL-based income tests by category; work-requirement notices may apply for some adults. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via dhhs.ne.gov Medicaid Eligibility / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible Nebraska residents.",
+      "ml": "Medicaid health coverage for eligible Nebraska residents.",
+      "hi": "Medicaid health coverage for eligible Nebraska residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Income documentation / household size",
+        "iServe Nebraska / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Income documentation / household size",
+        "iServe Nebraska / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Income documentation / household size",
+        "iServe Nebraska / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call Medicaid contacts listed on dhhs.ne.gov ACCESSNebraska; see Medicaid Eligibility / Medicaid Services pages.",
+      "ml": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call Medicaid contacts listed on dhhs.ne.gov ACCESSNebraska; see Medicaid Eligibility / Medicaid Services pages.",
+      "hi": "Apply online at iserve.nebraska.gov, at a local DHHS office, or call Medicaid contacts listed on dhhs.ne.gov ACCESSNebraska; see Medicaid Eligibility / Medicaid Services pages."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/Pages/Medicaid-Eligibility.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Nebraska Department of Health and Human Services / Medicaid",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "medicaid",
+      "dhhs",
+      "iserve"
+    ]
+  },
+  {
+    "id": "ne-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance) – Nebraska DHHS",
+      "ml": "LIHEAP (Low Income Home Energy Assistance) – Nebraska DHHS",
+      "hi": "LIHEAP – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska LIHEAP helps eligible households pay heating and cooling costs and may include crisis help for shutoffs, reconnection, and deposits. Apply through iServe Nebraska / Economic Assistance.",
+      "ml": "Nebraska LIHEAP helps eligible households pay heating and cooling costs and may include crisis help for shutoffs, reconnection, and deposits. Apply through iServe Nebraska / Economic Assistance.",
+      "hi": "Nebraska LIHEAP helps eligible households pay heating and cooling costs and may include crisis help for shutoffs, reconnection, and deposits. Apply through iServe Nebraska / Economic Assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE LIHEAP: income generally at or below published % FPL charts for the program year; crisis pathways may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and crisis rules change — verify=true via dhhs.ne.gov Energy Assistance / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs and crisis energy needs for eligible Nebraska households.",
+      "ml": "Help toward home energy costs and crisis energy needs for eligible Nebraska households.",
+      "hi": "Help toward home energy costs and crisis energy needs for eligible Nebraska households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating/cooling costs",
+        "iServe Nebraska / LIHEAP application (everyone at the address may need to be included)"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating/cooling costs",
+        "iServe Nebraska / LIHEAP application (everyone at the address may need to be included)"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating/cooling costs",
+        "iServe Nebraska / LIHEAP application (everyone at the address may need to be included)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov (include LIHEAP), submit Economic Assistance forms, visit a DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Energy Assistance.",
+      "ml": "Apply online at iserve.nebraska.gov (include LIHEAP), submit Economic Assistance forms, visit a DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Energy Assistance.",
+      "hi": "Apply online at iserve.nebraska.gov (include LIHEAP), submit Economic Assistance forms, visit a DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Energy Assistance."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/Pages/Energy-Assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Nebraska Department of Health and Human Services",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "liheap",
+      "energy",
+      "utility",
+      "dhhs"
+    ]
+  },
+  {
+    "id": "ne-child-care",
+    "scheme_name": {
+      "en": "Child Care Subsidy – Nebraska DHHS",
+      "ml": "Child Care Subsidy – Nebraska DHHS",
+      "hi": "Child Care Subsidy – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska Child Care Subsidy helps eligible low-income parents and caretakers pay for child care while working, in school, or in approved activities. Apply through iServe Nebraska with other Economic Assistance programs.",
+      "ml": "Nebraska Child Care Subsidy helps eligible low-income parents and caretakers pay for child care while working, in school, or in approved activities. Apply through iServe Nebraska with other Economic Assistance programs.",
+      "hi": "Nebraska Child Care Subsidy helps eligible low-income parents and caretakers pay for child care while working, in school, or in approved activities. Apply through iServe Nebraska with other Economic Assistance programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE Child Care Subsidy: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dhhs.ne.gov Child Care Assistance / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Nebraska families.",
+      "ml": "Help paying for eligible child care costs for qualifying Nebraska families.",
+      "hi": "Help paying for eligible child care costs for qualifying Nebraska families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "iServe Nebraska / Child Care Subsidy application"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "iServe Nebraska / Child Care Subsidy application"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "iServe Nebraska / Child Care Subsidy application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Child Care Assistance / ACCESSNebraska.",
+      "ml": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Child Care Assistance / ACCESSNebraska.",
+      "hi": "Apply online at iserve.nebraska.gov (Apply for Benefits), at a local DHHS office, or call 1-800-383-4278; see dhhs.ne.gov Child Care Assistance / ACCESSNebraska."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/Pages/Child-Care-Assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Nebraska Department of Health and Human Services",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "child_care",
+      "ccdf",
+      "dhhs",
+      "iserve"
+    ]
+  },
+  {
+    "id": "id-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Idaho DHW",
+      "ml": "SNAP (Food Assistance) – Idaho DHW",
+      "hi": "SNAP – इडाहो"
+    },
+    "description": {
+      "en": "Idaho Department of Health and Welfare (DHW) administers SNAP food assistance. Eligible low-income households apply through idalink or Self-Reliance channels for monthly food benefits on an EBT card.",
+      "ml": "Idaho Department of Health and Welfare (DHW) administers SNAP food assistance. Eligible low-income households apply through idalink or Self-Reliance channels for monthly food benefits on an EBT card.",
+      "hi": "Idaho Department of Health and Welfare (DHW) administers SNAP food assistance. Eligible low-income households apply through idalink or Self-Reliance channels for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ID SNAP via DHW: residency and income/resource rules; work/E&T rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via healthandwelfare.idaho.gov SNAP / idalink.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Idaho households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Idaho households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Idaho households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Idaho residency",
+        "Income and resource documentation",
+        "Housing costs / expenses as requested",
+        "idalink / SNAP application"
+      ],
+      "ml": [
+        "Identity and Idaho residency",
+        "Income and resource documentation",
+        "Housing costs / expenses as requested",
+        "idalink / SNAP application"
+      ],
+      "hi": [
+        "Identity and Idaho residency",
+        "Income and resource documentation",
+        "Housing costs / expenses as requested",
+        "idalink / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for SNAP.",
+      "ml": "Apply online via idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for SNAP.",
+      "hi": "Apply online via idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for SNAP."
+    },
+    "apply_url": "https://idalink.idaho.gov/",
+    "official_source_url": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/apply-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Idaho Department of Health and Welfare",
+    "tags": [
+      "united_states",
+      "idaho",
+      "snap",
+      "food",
+      "dhw",
+      "idalink"
+    ]
+  },
+  {
+    "id": "id-tafi",
+    "scheme_name": {
+      "en": "TAFI (Temporary Assistance for Families in Idaho / TANF) – Idaho DHW",
+      "ml": "TAFI (Temporary Assistance for Families in Idaho / TANF) – Idaho DHW",
+      "hi": "TAFI – इडाहो"
+    },
+    "description": {
+      "en": "Temporary Assistance for Families in Idaho (TAFI) is Idaho’s TANF cash assistance program for eligible families. Apply through idalink / Self-Reliance Programs.",
+      "ml": "Temporary Assistance for Families in Idaho (TAFI) is Idaho’s TANF cash assistance program for eligible families. Apply through idalink / Self-Reliance Programs.",
+      "hi": "Temporary Assistance for Families in Idaho (TAFI) is Idaho’s TANF cash assistance program for eligible families. Apply through idalink / Self-Reliance Programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ID TAFI: residency, income/resource limits, and Employment & Training participation may apply. Published monthly income tables change — no single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and E&T rules change — verify=true via healthandwelfare.idaho.gov TAFI / idalink.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Idaho families (TAFI / TANF).",
+      "ml": "Monthly cash assistance for eligible Idaho families (TAFI / TANF).",
+      "hi": "Monthly cash assistance for eligible Idaho families (TAFI / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Idaho residency",
+        "Household income and resource documentation",
+        "idalink / TAFI application"
+      ],
+      "ml": [
+        "Identity and Idaho residency",
+        "Household income and resource documentation",
+        "idalink / TAFI application"
+      ],
+      "hi": [
+        "Identity and Idaho residency",
+        "Household income and resource documentation",
+        "idalink / TAFI application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via idalink.idaho.gov, call 1-877-456-1233, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for TAFI.",
+      "ml": "Apply via idalink.idaho.gov, call 1-877-456-1233, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for TAFI.",
+      "hi": "Apply via idalink.idaho.gov, call 1-877-456-1233, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for TAFI."
+    },
+    "apply_url": "https://idalink.idaho.gov/",
+    "official_source_url": "https://healthandwelfare.idaho.gov/services-programs/financial-assistance/apply-tafi",
+    "last_verified": "2026-09-17",
+    "office_type": "Idaho Department of Health and Welfare",
+    "tags": [
+      "united_states",
+      "idaho",
+      "tanf",
+      "tafi",
+      "cash",
+      "dhw",
+      "idalink"
+    ]
+  },
+  {
+    "id": "id-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Idaho DHW",
+      "ml": "Medicaid – Idaho DHW",
+      "hi": "Medicaid – इडाहो"
+    },
+    "description": {
+      "en": "Idaho DHW administers Medicaid health coverage for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through idalink.",
+      "ml": "Idaho DHW administers Medicaid health coverage for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through idalink.",
+      "hi": "Idaho DHW administers Medicaid health coverage for eligible low-income adults, children, pregnant women, seniors, and people with disabilities. Apply through idalink."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ID Medicaid: program-specific income and resource limits by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and category rules change — verify=true via healthandwelfare.idaho.gov Medicaid / idalink.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible Idaho residents.",
+      "ml": "Medicaid health coverage for eligible Idaho residents.",
+      "hi": "Medicaid health coverage for eligible Idaho residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for Medicaid.",
+      "ml": "Apply online at idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for Medicaid.",
+      "hi": "Apply online at idalink.idaho.gov, call 877-456-1233, visit a field office, or mail/email/fax Self-Reliance Programs; see healthandwelfare.idaho.gov Apply for Medicaid."
+    },
+    "apply_url": "https://idalink.idaho.gov/",
+    "official_source_url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/apply-medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "Idaho Department of Health and Welfare",
+    "tags": [
+      "united_states",
+      "idaho",
+      "medicaid",
+      "dhw",
+      "idalink"
+    ]
+  },
+  {
+    "id": "id-chip",
+    "scheme_name": {
+      "en": "CHIP (Children’s Health Insurance Program) – Idaho DHW",
+      "ml": "CHIP (Children’s Health Insurance Program) – Idaho DHW",
+      "hi": "CHIP – इडाहो"
+    },
+    "description": {
+      "en": "Idaho CHIP provides low-cost health coverage for eligible children under 19 whose household income is above Medicaid limits but within CHIP guidelines. Apply through Idaho Medicaid / idalink pathways.",
+      "ml": "Idaho CHIP provides low-cost health coverage for eligible children under 19 whose household income is above Medicaid limits but within CHIP guidelines. Apply through Idaho Medicaid / idalink pathways.",
+      "hi": "Idaho CHIP provides low-cost health coverage for eligible children under 19 whose household income is above Medicaid limits but within CHIP guidelines. Apply through Idaho Medicaid / idalink pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ID CHIP: children under 19; income above Medicaid but within CHIP charts; premiums may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts and premiums change — verify=true via healthandwelfare.idaho.gov CHIP / idalink.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost health coverage for eligible Idaho children (CHIP).",
+      "ml": "Low-cost health coverage for eligible Idaho children (CHIP).",
+      "hi": "Low-cost health coverage for eligible Idaho children (CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid-CHIP application"
+      ],
+      "ml": [
+        "Child identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid-CHIP application"
+      ],
+      "hi": [
+        "Child identity and Idaho residency",
+        "Household income documentation",
+        "idalink / Medicaid-CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via idalink.idaho.gov or Self-Reliance channels used for Medicaid; see healthandwelfare.idaho.gov Children’s Health Insurance Program (CHIP).",
+      "ml": "Apply via idalink.idaho.gov or Self-Reliance channels used for Medicaid; see healthandwelfare.idaho.gov Children’s Health Insurance Program (CHIP).",
+      "hi": "Apply via idalink.idaho.gov or Self-Reliance channels used for Medicaid; see healthandwelfare.idaho.gov Children’s Health Insurance Program (CHIP)."
+    },
+    "apply_url": "https://idalink.idaho.gov/",
+    "official_source_url": "https://healthandwelfare.idaho.gov/services-programs/medicaid-health/childrens-health-insurance-program-chip",
+    "last_verified": "2026-09-17",
+    "office_type": "Idaho Department of Health and Welfare",
+    "tags": [
+      "united_states",
+      "idaho",
+      "chip",
+      "children",
+      "health",
+      "dhw",
+      "idalink"
+    ]
+  },
+  {
+    "id": "id-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance) – Idaho DHW / Community Action",
+      "ml": "LIHEAP (Low Income Home Energy Assistance) – Idaho DHW / Community Action",
+      "hi": "LIHEAP – इडाहो"
+    },
+    "description": {
+      "en": "Idaho LIHEAP helps eligible families pay utility bills, may support weatherization pathways, and offers seasonal and crisis heating assistance. Benefits are delivered through Community Action Agencies serving every county.",
+      "ml": "Idaho LIHEAP helps eligible families pay utility bills, may support weatherization pathways, and offers seasonal and crisis heating assistance. Benefits are delivered through Community Action Agencies serving every county.",
+      "hi": "Idaho LIHEAP helps eligible families pay utility bills, may support weatherization pathways, and offers seasonal and crisis heating assistance. Benefits are delivered through Community Action Agencies serving every county."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ID LIHEAP: income limits; seasonal windows (priority groups earlier); crisis year-round while funds last. Delivered by CAAs. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and season dates change — verify=true via healthandwelfare.idaho.gov heating assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home heating/utility costs and crisis energy needs for eligible Idaho households.",
+      "ml": "Help toward home heating/utility costs and crisis energy needs for eligible Idaho households.",
+      "hi": "Help toward home heating/utility costs and crisis energy needs for eligible Idaho households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Idaho residency",
+        "Income documentation",
+        "Proof of heating/utility responsibility",
+        "Application through local Community Action Agency (LIHEAP season/crisis rules)"
+      ],
+      "ml": [
+        "Identity and Idaho residency",
+        "Income documentation",
+        "Proof of heating/utility responsibility",
+        "Application through local Community Action Agency (LIHEAP season/crisis rules)"
+      ],
+      "hi": [
+        "Identity and Idaho residency",
+        "Income documentation",
+        "Proof of heating/utility responsibility",
+        "Application through local Community Action Agency (LIHEAP season/crisis rules)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Community Action Agency (find via DHW heating assistance pages / 2-1-1); see healthandwelfare.idaho.gov About Heating Assistance and Apply for Heating Assistance.",
+      "ml": "Apply through your local Community Action Agency (find via DHW heating assistance pages / 2-1-1); see healthandwelfare.idaho.gov About Heating Assistance and Apply for Heating Assistance.",
+      "hi": "Apply through your local Community Action Agency (find via DHW heating assistance pages / 2-1-1); see healthandwelfare.idaho.gov About Heating Assistance and Apply for Heating Assistance."
+    },
+    "apply_url": "https://healthandwelfare.idaho.gov/services-programs/financial-assistance/home-heating-and-utility-assistance/apply-heating-assistance",
+    "official_source_url": "https://healthandwelfare.idaho.gov/services-programs/financial-assistance/home-heating-and-utility-assistance/about-heating-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Idaho DHW / Community Action Agencies (LIHEAP)",
+    "tags": [
+      "united_states",
+      "idaho",
+      "liheap",
+      "energy",
+      "utility",
+      "dhw",
+      "caa"
+    ]
+  },
+  {
+    "id": "hi-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Hawaii DHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Hawaii DHS",
+      "hi": "SNAP – हवाई"
+    },
+    "description": {
+      "en": "Hawaii Department of Human Services (DHS) Benefit, Employment & Support Services Division administers SNAP. Eligible low-income households apply through the PAIS portal for monthly food benefits.",
+      "ml": "Hawaii Department of Human Services (DHS) Benefit, Employment & Support Services Division administers SNAP. Eligible low-income households apply through the PAIS portal for monthly food benefits.",
+      "hi": "Hawaii Department of Human Services (DHS) Benefit, Employment & Support Services Division administers SNAP. Eligible low-income households apply through the PAIS portal for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI SNAP via DHS: residency and income/resource rules; interview required. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and interview rules change — verify=true via humanservices.hawaii.gov SNAP / PAIS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Hawaii households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Hawaii households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Hawaii households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Income and resource documentation",
+        "PAIS / SNAP application"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Income and resource documentation",
+        "PAIS / SNAP application"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Income and resource documentation",
+        "PAIS / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at pais-benefits.dhs.hawaii.gov, submit a paper DHS application to a processing center, or call the Public Assistance Information Line 1-855-643-1643; see humanservices.hawaii.gov BESSD SNAP.",
+      "ml": "Apply online at pais-benefits.dhs.hawaii.gov, submit a paper DHS application to a processing center, or call the Public Assistance Information Line 1-855-643-1643; see humanservices.hawaii.gov BESSD SNAP.",
+      "hi": "Apply online at pais-benefits.dhs.hawaii.gov, submit a paper DHS application to a processing center, or call the Public Assistance Information Line 1-855-643-1643; see humanservices.hawaii.gov BESSD SNAP."
+    },
+    "apply_url": "https://pais-benefits.dhs.hawaii.gov/",
+    "official_source_url": "https://humanservices.hawaii.gov/bessd/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Hawaii Department of Human Services / BESSD",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "snap",
+      "food",
+      "dhs",
+      "pais"
+    ]
+  },
+  {
+    "id": "hi-tanf",
+    "scheme_name": {
+      "en": "TANF / Financial Assistance – Hawaii DHS",
+      "ml": "TANF / Financial Assistance – Hawaii DHS",
+      "hi": "TANF – हवाई"
+    },
+    "description": {
+      "en": "Hawaii DHS administers TANF and related financial assistance for eligible families. Apply for financial assistance and SNAP together through PAIS or paper application DHS 1240.",
+      "ml": "Hawaii DHS administers TANF and related financial assistance for eligible families. Apply for financial assistance and SNAP together through PAIS or paper application DHS 1240.",
+      "hi": "Hawaii DHS administers TANF and related financial assistance for eligible families. Apply for financial assistance and SNAP together through PAIS or paper application DHS 1240."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI TANF/financial assistance: residency, household, income, and First-To-Work / child support cooperation rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via humanservices.hawaii.gov TANF / PAIS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash/financial assistance for eligible Hawaii families (TANF pathways).",
+      "ml": "Monthly cash/financial assistance for eligible Hawaii families (TANF pathways).",
+      "hi": "Monthly cash/financial assistance for eligible Hawaii families (TANF pathways)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Proof of household composition / children as applicable",
+        "Income documentation",
+        "PAIS / Financial Assistance application"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Proof of household composition / children as applicable",
+        "Income documentation",
+        "PAIS / Financial Assistance application"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Proof of household composition / children as applicable",
+        "Income documentation",
+        "PAIS / Financial Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at pais-benefits.dhs.hawaii.gov or submit DHS 1240 to a processing center; call 1-855-643-1643; see humanservices.hawaii.gov BESSD TANF.",
+      "ml": "Apply online at pais-benefits.dhs.hawaii.gov or submit DHS 1240 to a processing center; call 1-855-643-1643; see humanservices.hawaii.gov BESSD TANF.",
+      "hi": "Apply online at pais-benefits.dhs.hawaii.gov or submit DHS 1240 to a processing center; call 1-855-643-1643; see humanservices.hawaii.gov BESSD TANF."
+    },
+    "apply_url": "https://pais-benefits.dhs.hawaii.gov/",
+    "official_source_url": "https://humanservices.hawaii.gov/bessd/tanf/",
+    "last_verified": "2026-09-17",
+    "office_type": "Hawaii Department of Human Services / BESSD",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "tanf",
+      "cash",
+      "dhs",
+      "pais"
+    ]
+  },
+  {
+    "id": "hi-medquest",
+    "scheme_name": {
+      "en": "Med-QUEST (Hawaii Medicaid) – Hawaii DHS",
+      "ml": "Med-QUEST (Hawaii Medicaid) – Hawaii DHS",
+      "hi": "Med-QUEST – हवाई"
+    },
+    "description": {
+      "en": "Med-QUEST is Hawaii’s Medicaid program administered by the DHS Med-QUEST Division. Eligible residents apply online for medical assistance coverage.",
+      "ml": "Med-QUEST is Hawaii’s Medicaid program administered by the DHS Med-QUEST Division. Eligible residents apply online for medical assistance coverage.",
+      "hi": "Med-QUEST is Hawaii’s Medicaid program administered by the DHS Med-QUEST Division. Eligible residents apply online for medical assistance coverage."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI Med-QUEST: MAGI and non-MAGI pathways; FPL-based income tests by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via medquest.hawaii.gov / mybenefits portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid / Med-QUEST health coverage for eligible Hawaii residents.",
+      "ml": "Medicaid / Med-QUEST health coverage for eligible Hawaii residents.",
+      "hi": "Medicaid / Med-QUEST health coverage for eligible Hawaii residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Income documentation / household size",
+        "Med-QUEST / KOLEA online application (DHS 1100 pathways)"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Income documentation / household size",
+        "Med-QUEST / KOLEA online application (DHS 1100 pathways)"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Income documentation / household size",
+        "Med-QUEST / KOLEA online application (DHS 1100 pathways)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at medical.mybenefits.hawaii.gov, call Med-QUEST Customer Service 1-800-316-8005, or mail/fax DHS 1100 to a Med-QUEST Eligibility Office; see medquest.hawaii.gov How to Apply.",
+      "ml": "Apply online at medical.mybenefits.hawaii.gov, call Med-QUEST Customer Service 1-800-316-8005, or mail/fax DHS 1100 to a Med-QUEST Eligibility Office; see medquest.hawaii.gov How to Apply.",
+      "hi": "Apply online at medical.mybenefits.hawaii.gov, call Med-QUEST Customer Service 1-800-316-8005, or mail/fax DHS 1100 to a Med-QUEST Eligibility Office; see medquest.hawaii.gov How to Apply."
+    },
+    "apply_url": "https://medical.mybenefits.hawaii.gov/",
+    "official_source_url": "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Hawaii DHS Med-QUEST Division",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "medicaid",
+      "medquest",
+      "dhs"
+    ]
+  },
+  {
+    "id": "hi-hheap",
+    "scheme_name": {
+      "en": "H-HEAP (Hawaii Home Energy Assistance Program / LIHEAP) – Hawaii DHS",
+      "ml": "H-HEAP (Hawaii Home Energy Assistance Program / LIHEAP) – Hawaii DHS",
+      "hi": "H-HEAP / LIHEAP – हवाई"
+    },
+    "description": {
+      "en": "Hawaiʻi Home Energy Assistance Program (H-HEAP) is Hawaii’s LIHEAP-funded program providing a one-time payment toward electric or gas bills (Energy Credit in June; Energy Crisis Intervention year-round while slots last). Applications are processed by island Community Action Agencies — not DHS offices.",
+      "ml": "Hawaiʻi Home Energy Assistance Program (H-HEAP) is Hawaii’s LIHEAP-funded program providing a one-time payment toward electric or gas bills (Energy Credit in June; Energy Crisis Intervention year-round while slots last). Applications are processed by island Community Action Agencies — not DHS offices.",
+      "hi": "Hawaiʻi Home Energy Assistance Program (H-HEAP) is Hawaii’s LIHEAP-funded program providing a one-time payment toward electric or gas bills (Energy Credit in June; Energy Crisis Intervention year-round while slots last). Applications are processed by island Community Action Agencies — not DHS offices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI H-HEAP: one payment type per program year (Oct–Sep); Energy Credit typically June only; ECI for disconnect crisis. CAA-processed. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Application windows and income charts change — verify=true via humanservices.hawaii.gov H-HEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time help toward electric/gas bills for eligible Hawaii households (H-HEAP / LIHEAP).",
+      "ml": "One-time help toward electric/gas bills for eligible Hawaii households (H-HEAP / LIHEAP).",
+      "hi": "One-time help toward electric/gas bills for eligible Hawaii households (H-HEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Utility account / disconnect notice if crisis",
+        "H-HEAP application submitted to the Community Action Agency for your island"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Utility account / disconnect notice if crisis",
+        "H-HEAP application submitted to the Community Action Agency for your island"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Utility account / disconnect notice if crisis",
+        "H-HEAP application submitted to the Community Action Agency for your island"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Do not send H-HEAP applications to DHS offices. Apply through the Community Action Agency serving your island during the published window; see humanservices.hawaii.gov BESSD H-HEAP / LIHEAP.",
+      "ml": "Do not send H-HEAP applications to DHS offices. Apply through the Community Action Agency serving your island during the published window; see humanservices.hawaii.gov BESSD H-HEAP / LIHEAP.",
+      "hi": "Do not send H-HEAP applications to DHS offices. Apply through the Community Action Agency serving your island during the published window; see humanservices.hawaii.gov BESSD H-HEAP / LIHEAP."
+    },
+    "apply_url": "https://humanservices.hawaii.gov/bessd/liheap/",
+    "official_source_url": "https://humanservices.hawaii.gov/bessd/liheap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Hawaii DHS BESSD / Community Action Agencies (H-HEAP)",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "liheap",
+      "hheap",
+      "energy",
+      "utility",
+      "dhs",
+      "caa"
+    ]
+  },
+  {
+    "id": "hi-child-care",
+    "scheme_name": {
+      "en": "Child Care Connection Hawaii / Child Care Assistance – Hawaii DHS",
+      "ml": "Child Care Connection Hawaii / Child Care Assistance – Hawaii DHS",
+      "hi": "Child Care Assistance – हवाई"
+    },
+    "description": {
+      "en": "Hawaii DHS Child Care Program / Child Care Connection Hawaii helps eligible families with child care costs so parents/caretakers can work or participate in approved activities.",
+      "ml": "Hawaii DHS Child Care Program / Child Care Connection Hawaii helps eligible families with child care costs so parents/caretakers can work or participate in approved activities.",
+      "hi": "Hawaii DHS Child Care Program / Child Care Connection Hawaii helps eligible families with child care costs so parents/caretakers can work or participate in approved activities."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI child care assistance: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and program branding change — verify=true via humanservices.hawaii.gov BESSD Child Care Program.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Hawaii families.",
+      "ml": "Help paying for eligible child care costs for qualifying Hawaii families.",
+      "hi": "Help paying for eligible child care costs for qualifying Hawaii families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "DHS Child Care Program application as published"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "DHS Child Care Program application as published"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "DHS Child Care Program application as published"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow current instructions on humanservices.hawaii.gov BESSD Child Care Program / CCCH pages; Public Assistance Information Line 1-855-643-1643 may assist with related benefits.",
+      "ml": "Follow current instructions on humanservices.hawaii.gov BESSD Child Care Program / CCCH pages; Public Assistance Information Line 1-855-643-1643 may assist with related benefits.",
+      "hi": "Follow current instructions on humanservices.hawaii.gov BESSD Child Care Program / CCCH pages; Public Assistance Information Line 1-855-643-1643 may assist with related benefits."
+    },
+    "apply_url": "https://humanservices.hawaii.gov/bessd/child-care-program/",
+    "official_source_url": "https://humanservices.hawaii.gov/bessd/child-care-program/",
+    "last_verified": "2026-09-17",
+    "office_type": "Hawaii Department of Human Services / BESSD",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "child_care",
+      "ccdf",
+      "dhs",
+      "ccch"
+    ]
+  },
+  {
+    "id": "me-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Maine DHHS OFI",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Maine DHHS OFI",
+      "hi": "SNAP – मेन"
+    },
+    "description": {
+      "en": "Maine Department of Health and Human Services Office for Family Independence (OFI) administers SNAP. Eligible low-income households apply through My Maine Connection for monthly food benefits.",
+      "ml": "Maine Department of Health and Human Services Office for Family Independence (OFI) administers SNAP. Eligible low-income households apply through My Maine Connection for monthly food benefits.",
+      "hi": "Maine Department of Health and Human Services Office for Family Independence (OFI) administers SNAP. Eligible low-income households apply through My Maine Connection for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME SNAP via OFI: residency and income/resource rules; interview may be required. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and interview rules change — verify=true via maine.gov/dhhs/ofi SNAP / My Maine Connection.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Maine households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Maine households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Maine households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Income and resource documentation",
+        "My Maine Connection / SNAP application"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Income and resource documentation",
+        "My Maine Connection / SNAP application"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Income and resource documentation",
+        "My Maine Connection / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMaineConnection.gov, use OFI applications/forms, or call the OFI Eligibility Call Center 1-855-797-4357; see maine.gov/dhhs/ofi SNAP (food supplement).",
+      "ml": "Apply online at MyMaineConnection.gov, use OFI applications/forms, or call the OFI Eligibility Call Center 1-855-797-4357; see maine.gov/dhhs/ofi SNAP (food supplement).",
+      "hi": "Apply online at MyMaineConnection.gov, use OFI applications/forms, or call the OFI Eligibility Call Center 1-855-797-4357; see maine.gov/dhhs/ofi SNAP (food supplement)."
+    },
+    "apply_url": "https://www.mymaineconnection.gov/",
+    "official_source_url": "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement",
+    "last_verified": "2026-09-17",
+    "office_type": "Maine DHHS Office for Family Independence",
+    "tags": [
+      "united_states",
+      "maine",
+      "snap",
+      "food",
+      "dhhs",
+      "ofi",
+      "my_maine_connection"
+    ]
+  },
+  {
+    "id": "me-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Maine DHHS OFI",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Maine DHHS OFI",
+      "hi": "TANF – मेन"
+    },
+    "description": {
+      "en": "Maine TANF (including related pathways such as Parents as Scholars) provides cash assistance and supports for eligible families with children. Apply through My Maine Connection / OFI.",
+      "ml": "Maine TANF (including related pathways such as Parents as Scholars) provides cash assistance and supports for eligible families with children. Apply through My Maine Connection / OFI.",
+      "hi": "Maine TANF (including related pathways such as Parents as Scholars) provides cash assistance and supports for eligible families with children. Apply through My Maine Connection / OFI."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME TANF: residency, dependent children, income limits, and work/ASPIRE-related rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via maine.gov/dhhs/ofi TANF / My Maine Connection.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance and related TANF supports for eligible Maine families.",
+      "ml": "Monthly cash assistance and related TANF supports for eligible Maine families.",
+      "hi": "Monthly cash assistance and related TANF supports for eligible Maine families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "My Maine Connection / TANF application"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "My Maine Connection / TANF application"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "My Maine Connection / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMaineConnection.gov or use OFI SNAP/TANF/MaineCare application forms; call 1-855-797-4357; see maine.gov/dhhs/ofi TANF.",
+      "ml": "Apply online at MyMaineConnection.gov or use OFI SNAP/TANF/MaineCare application forms; call 1-855-797-4357; see maine.gov/dhhs/ofi TANF.",
+      "hi": "Apply online at MyMaineConnection.gov or use OFI SNAP/TANF/MaineCare application forms; call 1-855-797-4357; see maine.gov/dhhs/ofi TANF."
+    },
+    "apply_url": "https://www.mymaineconnection.gov/",
+    "official_source_url": "https://www.maine.gov/dhhs/ofi/programs-services/tanf/",
+    "last_verified": "2026-09-17",
+    "office_type": "Maine DHHS Office for Family Independence",
+    "tags": [
+      "united_states",
+      "maine",
+      "tanf",
+      "cash",
+      "dhhs",
+      "ofi"
+    ]
+  },
+  {
+    "id": "me-mainecare",
+    "scheme_name": {
+      "en": "MaineCare (Medicaid) – Maine DHHS OFI",
+      "ml": "MaineCare (Medicaid) – Maine DHHS OFI",
+      "hi": "MaineCare – मेन"
+    },
+    "description": {
+      "en": "MaineCare is Maine’s Medicaid program administered through DHHS Office for Family Independence. Eligible residents apply for health coverage through My Maine Connection.",
+      "ml": "MaineCare is Maine’s Medicaid program administered through DHHS Office for Family Independence. Eligible residents apply for health coverage through My Maine Connection.",
+      "hi": "MaineCare is Maine’s Medicaid program administered through DHHS Office for Family Independence. Eligible residents apply for health coverage through My Maine Connection."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME MaineCare: MAGI and non-MAGI pathways; FPL-based income tests by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via maine.gov/dhhs/ofi MaineCare / My Maine Connection.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "MaineCare / Medicaid health coverage for eligible Maine residents.",
+      "ml": "MaineCare / Medicaid health coverage for eligible Maine residents.",
+      "hi": "MaineCare / Medicaid health coverage for eligible Maine residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Income documentation / household size",
+        "My Maine Connection / MaineCare application"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Income documentation / household size",
+        "My Maine Connection / MaineCare application"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Income documentation / household size",
+        "My Maine Connection / MaineCare application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMaineConnection.gov, use MaineCare application forms, or contact OFI at 1-855-797-4357; see maine.gov/dhhs/ofi health care assistance (MaineCare).",
+      "ml": "Apply online at MyMaineConnection.gov, use MaineCare application forms, or contact OFI at 1-855-797-4357; see maine.gov/dhhs/ofi health care assistance (MaineCare).",
+      "hi": "Apply online at MyMaineConnection.gov, use MaineCare application forms, or contact OFI at 1-855-797-4357; see maine.gov/dhhs/ofi health care assistance (MaineCare)."
+    },
+    "apply_url": "https://www.mymaineconnection.gov/",
+    "official_source_url": "https://www.maine.gov/dhhs/ofi/programs-services/health-care-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Maine DHHS Office for Family Independence",
+    "tags": [
+      "united_states",
+      "maine",
+      "medicaid",
+      "mainecare",
+      "dhhs",
+      "ofi"
+    ]
+  },
+  {
+    "id": "me-heap",
+    "scheme_name": {
+      "en": "HEAP / LIHEAP (Home Energy Assistance Program) – Maine (MaineHousing / CAA)",
+      "ml": "HEAP / LIHEAP (Home Energy Assistance Program) – Maine (MaineHousing / CAA)",
+      "hi": "HEAP / LIHEAP – मेन"
+    },
+    "description": {
+      "en": "Maine’s Home Energy Assistance Program (HEAP; also called LIHEAP) helps eligible homeowners and renters pay heating costs. MaineHousing administers HEAP with Community Action Agencies. Official state overview is on maine.gov energy winter heating resources (apply via MaineHousing/CAA channels).",
+      "ml": "Maine’s Home Energy Assistance Program (HEAP; also called LIHEAP) helps eligible homeowners and renters pay heating costs. MaineHousing administers HEAP with Community Action Agencies. Official state overview is on maine.gov energy winter heating resources (apply via MaineHousing/CAA channels).",
+      "hi": "Maine’s Home Energy Assistance Program (HEAP; also called LIHEAP) helps eligible homeowners and renters pay heating costs. MaineHousing administers HEAP with Community Action Agencies. Official state overview is on maine.gov energy winter heating resources (apply via MaineHousing/CAA channels)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME HEAP/LIHEAP: income limits by household size; seasonal application window; delivered via MaineHousing/CAAs. mainehousing.org is the apply channel but official_source_url is maine.gov. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income charts change — verify=true via maine.gov/energy winter heating resources and MaineHousing HEAP guidance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/fuel costs and related energy assistance for eligible Maine households.",
+      "ml": "Help paying heating/fuel costs and related energy assistance for eligible Maine households.",
+      "hi": "Help paying heating/fuel costs and related energy assistance for eligible Maine households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "HEAP application via MaineHousing / local Community Action Agency (seasonal window)"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "HEAP application via MaineHousing / local Community Action Agency (seasonal window)"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "HEAP application via MaineHousing / local Community Action Agency (seasonal window)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through MaineHousing HEAP / your local Community Action Agency during the open season (see maine.gov winter heating resources for official overview and contacts). MaineHousing phone listed on that page: 1-800-452-4668.",
+      "ml": "Apply through MaineHousing HEAP / your local Community Action Agency during the open season (see maine.gov winter heating resources for official overview and contacts). MaineHousing phone listed on that page: 1-800-452-4668.",
+      "hi": "Apply through MaineHousing HEAP / your local Community Action Agency during the open season (see maine.gov winter heating resources for official overview and contacts). MaineHousing phone listed on that page: 1-800-452-4668."
+    },
+    "apply_url": "https://www.maine.gov/energy/winter-heating-resources",
+    "official_source_url": "https://www.maine.gov/energy/winter-heating-resources",
+    "last_verified": "2026-09-17",
+    "office_type": "Maine DOER overview / MaineHousing & CAAs (HEAP)",
+    "tags": [
+      "united_states",
+      "maine",
+      "liheap",
+      "heap",
+      "energy",
+      "utility",
+      "mainehousing"
+    ]
+  },
+  {
+    "id": "me-child-care",
+    "scheme_name": {
+      "en": "Child Care Subsidy / TANF-related Child Care – Maine DHHS OFI",
+      "ml": "Child Care Subsidy / TANF-related Child Care – Maine DHHS OFI",
+      "hi": "Child Care Subsidy – मेन"
+    },
+    "description": {
+      "en": "Maine OFI helps eligible families with child care costs, including TANF-related child care pathways. Families apply through My Maine Connection and OFI applications/forms.",
+      "ml": "Maine OFI helps eligible families with child care costs, including TANF-related child care pathways. Families apply through My Maine Connection and OFI applications/forms.",
+      "hi": "Maine OFI helps eligible families with child care costs, including TANF-related child care pathways. Families apply through My Maine Connection and OFI applications/forms."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME child care subsidy / TANF-related child care: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via maine.gov/dhhs/ofi applications-forms / My Maine Connection.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Maine families.",
+      "ml": "Help paying for eligible child care costs for qualifying Maine families.",
+      "hi": "Help paying for eligible child care costs for qualifying Maine families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "My Maine Connection / OFI child care application"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "My Maine Connection / OFI child care application"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "My Maine Connection / OFI child care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MyMaineConnection.gov or OFI applications (including TANF-related child care forms on maine.gov/dhhs/ofi applications-forms); call 1-855-797-4357.",
+      "ml": "Apply via MyMaineConnection.gov or OFI applications (including TANF-related child care forms on maine.gov/dhhs/ofi applications-forms); call 1-855-797-4357.",
+      "hi": "Apply via MyMaineConnection.gov or OFI applications (including TANF-related child care forms on maine.gov/dhhs/ofi applications-forms); call 1-855-797-4357."
+    },
+    "apply_url": "https://www.mymaineconnection.gov/",
+    "official_source_url": "https://www.maine.gov/dhhs/ofi/applications-forms",
+    "last_verified": "2026-09-17",
+    "office_type": "Maine DHHS Office for Family Independence",
+    "tags": [
+      "united_states",
+      "maine",
+      "child_care",
+      "ccdf",
+      "dhhs",
+      "ofi"
+    ]
   }
 ]

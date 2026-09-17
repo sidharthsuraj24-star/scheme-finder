@@ -22,6 +22,20 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+## United States Wave 8 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged schemes for **New Mexico, Nebraska, Idaho, Hawaii, Maine** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (hca.nm.gov + yes.nm.gov apply; dhhs.ne.gov + iserve.nebraska.gov; healthandwelfare.idaho.gov + idalink.idaho.gov; humanservices.hawaii.gov + medquest.hawaii.gov + pais-benefits.dhs.hawaii.gov; maine.gov/dhhs/ofi + maine.gov/energy for HEAP). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL notes only). IDs `nm-*`/`ne-*`/`id-*`/`hi-*`/`me-*` — no India collisions.
+
+| State | IDs | Primary .gov hosts |
+| --- | --- | --- |
+| New Mexico | nm-snap, nm-tanf, nm-medicaid, nm-liheap, nm-general-assistance | hca.nm.gov |
+| Nebraska | ne-snap, ne-adc, ne-medicaid, ne-liheap, ne-child-care | dhhs.ne.gov |
+| Idaho | id-snap, id-tafi, id-medicaid, id-chip, id-liheap | healthandwelfare.idaho.gov |
+| Hawaii | hi-snap, hi-tanf, hi-medquest, hi-hheap, hi-child-care | humanservices.hawaii.gov, medquest.hawaii.gov |
+| Maine | me-snap, me-tanf, me-mainecare, me-heap, me-child-care | maine.gov |
+
+**Skipped / deferred:** `nmececd.org` and `mainehousing.org` as `official_source_url` (not `.gov`); inventing energy-assistance dollar caps; standalone portal-only catalogue rows; separate Centennial Care row (superseded by Turquoise Care).
+
 ## United States Wave 7 state deepen (2026-09-17 IST)
 
 Added **25** state-tagged schemes for **Iowa, Nevada, Arkansas, Mississippi, Kansas** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (hhs.iowa.gov + hhsservices.iowa.gov apply; dss.nv.gov Access Nevada / SNAP/TANF/Medical/Check Up/EAP; humanservices.arkansas.gov + access.arkansas.gov + codeofarrules.arkansas.gov LIHEAP Part; mdhs.ms.gov + medicaid.ms.gov; dcf.ks.gov + cssp.kees.ks.gov KanCare Medical portal). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only). Arkansas IDs `us-ar-*` to avoid India Arunachal `ar-*`.
