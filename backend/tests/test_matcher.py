@@ -2120,3 +2120,109 @@ def test_catalogue_covers_us_wave6_states(schemes):
         "Utah",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 7 state deepen (IA / NV / AR / MS / KS)
+# ---------------------------------------------------------------------------
+
+
+def test_iowa_profile_matches_ia_and_federal_us(schemes):
+    """Iowa low-income senior matches ia-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="Iowa",
+        district="Polk",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "ia-snap" in ids
+    assert "ia-medicaid" in ids
+    assert "ia-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "nv-snap" not in ids
+    assert "us-ar-snap" not in ids
+    assert "ms-snap" not in ids
+    assert "ks-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_nevada_profile_does_not_match_iowa_schemes(schemes):
+    """Nevada profile must not match Iowa-only ia-* schemes; may match nv-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Nevada",
+        district="Clark",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    ia_ids = {s["id"] for s in schemes if s["id"].startswith("ia-")}
+    assert ids & ia_ids == set()
+    assert any(e.scheme_id == "ia-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "nv-snap" in ids or "nv-medicaid" in ids or "nv-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_india_arunachal_matches_ar_not_us_arkansas(schemes):
+    """India Arunachal Pradesh must still match India ar-* and must NOT match US Arkansas us-ar-*."""
+    profile = MatchProfile(
+        country="India",
+        age=70,
+        gender="female",
+        state="Arunachal Pradesh",
+        district="Itanagar",
+        marital_status="widow",
+        annual_income=30000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert any(i.startswith("ar-") and not i.startswith("us-ar-") for i in ids)
+    us_ar_ids = {s["id"] for s in schemes if s["id"].startswith("us-ar-")}
+    assert ids & us_ar_ids == set()
+    assert "us-ar-snap" not in ids
+    assert "us-snap" not in ids
+
+
+def test_catalogue_covers_us_wave7_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "Iowa",
+        "Nevada",
+        "Arkansas",
+        "Mississippi",
+        "Kansas",
+    ):
+        assert required in by_state, required

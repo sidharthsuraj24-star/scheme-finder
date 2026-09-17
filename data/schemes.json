@@ -37235,5 +37235,1948 @@
       "utility",
       "dws"
     ]
+  },
+  {
+    "id": "ia-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Iowa HHS",
+      "ml": "SNAP (Food Assistance) – Iowa HHS",
+      "hi": "SNAP – आयोवा"
+    },
+    "description": {
+      "en": "Iowa Department of Health and Human Services (HHS) administers SNAP. Eligible low-income households apply through the Iowa HHS Self-Service Portal for monthly food benefits on an EBT card.",
+      "ml": "Iowa Department of Health and Human Services (HHS) administers SNAP. Eligible low-income households apply through the Iowa HHS Self-Service Portal for monthly food benefits on an EBT card.",
+      "hi": "Iowa Department of Health and Human Services (HHS) administers SNAP. Eligible low-income households apply through the Iowa HHS Self-Service Portal for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IA SNAP via HHS: residency and income/resource rules; household-size charts and ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via hhs.iowa.gov SNAP / HHS portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Iowa households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Iowa households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Iowa households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Iowa residency",
+        "Income and resource documentation",
+        "HHS Self-Service Portal / SNAP application"
+      ],
+      "ml": [
+        "Identity and Iowa residency",
+        "Income and resource documentation",
+        "HHS Self-Service Portal / SNAP application"
+      ],
+      "hi": [
+        "Identity and Iowa residency",
+        "Income and resource documentation",
+        "HHS Self-Service Portal / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at the Iowa HHS Self-Service Portal (hhsservices.iowa.gov), at a local HHS office, or by paper Food and Financial Support application; see hhs.iowa.gov SNAP apply.",
+      "ml": "Apply online at the Iowa HHS Self-Service Portal (hhsservices.iowa.gov), at a local HHS office, or by paper Food and Financial Support application; see hhs.iowa.gov SNAP apply.",
+      "hi": "Apply online at the Iowa HHS Self-Service Portal (hhsservices.iowa.gov), at a local HHS office, or by paper Food and Financial Support application; see hhs.iowa.gov SNAP apply."
+    },
+    "apply_url": "https://hhsservices.iowa.gov/apspssp/ssp.portal",
+    "official_source_url": "https://hhs.iowa.gov/assistance-programs/food-assistance/snap/apply-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Iowa Department of Health and Human Services",
+    "tags": [
+      "united_states",
+      "iowa",
+      "snap",
+      "food",
+      "hhs"
+    ]
+  },
+  {
+    "id": "ia-fip",
+    "scheme_name": {
+      "en": "Family Investment Program (FIP / TANF) – Iowa HHS",
+      "ml": "Family Investment Program (FIP / TANF) – Iowa HHS",
+      "hi": "FIP (TANF) – आयोवा"
+    },
+    "description": {
+      "en": "FIP is Iowa’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with children can receive time-limited cash assistance and employment/training supports (including PROMISE JOBS cooperation).",
+      "ml": "FIP is Iowa’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with children can receive time-limited cash assistance and employment/training supports (including PROMISE JOBS cooperation).",
+      "hi": "FIP is Iowa’s Temporary Assistance for Needy Families (TANF) cash assistance program. Eligible families with children can receive time-limited cash assistance and employment/training supports (including PROMISE JOBS cooperation)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FIP/TANF: low-income families with children; lifetime time limits and work cooperation (PROMISE JOBS). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via hhs.iowa.gov FIP / HHS portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work/support services for eligible Iowa families with children.",
+      "ml": "Temporary cash assistance and work/support services for eligible Iowa families with children.",
+      "hi": "Temporary cash assistance and work/support services for eligible Iowa families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Proof of children / household",
+        "HHS Self-Service Portal / FIP application"
+      ],
+      "ml": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Proof of children / household",
+        "HHS Self-Service Portal / FIP application"
+      ],
+      "hi": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Proof of children / household",
+        "HHS Self-Service Portal / FIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the Iowa HHS Self-Service Portal, at a local HHS office, or by paper application (email/fax/mail to Imaging Center); see hhs.iowa.gov FIP.",
+      "ml": "Apply online via the Iowa HHS Self-Service Portal, at a local HHS office, or by paper application (email/fax/mail to Imaging Center); see hhs.iowa.gov FIP.",
+      "hi": "Apply online via the Iowa HHS Self-Service Portal, at a local HHS office, or by paper application (email/fax/mail to Imaging Center); see hhs.iowa.gov FIP."
+    },
+    "apply_url": "https://hhsservices.iowa.gov/apspssp/ssp.portal",
+    "official_source_url": "https://hhs.iowa.gov/assistance-programs/cash-assistance/fip-tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "Iowa Department of Health and Human Services / FIP",
+    "tags": [
+      "united_states",
+      "iowa",
+      "tanf",
+      "fip",
+      "cash_assistance",
+      "hhs"
+    ]
+  },
+  {
+    "id": "ia-medicaid",
+    "scheme_name": {
+      "en": "Iowa Medicaid – Iowa HHS",
+      "ml": "Iowa Medicaid – Iowa HHS",
+      "hi": "Medicaid – आयोवा"
+    },
+    "description": {
+      "en": "Iowa Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Iowa HHS (Self-Service Portal), Healthcare.gov, phone, or paper application.",
+      "ml": "Iowa Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Iowa HHS (Self-Service Portal), Healthcare.gov, phone, or paper application.",
+      "hi": "Iowa Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Iowa HHS (Self-Service Portal), Healthcare.gov, phone, or paper application."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IA Medicaid: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via hhs.iowa.gov Medicaid / HHS portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Iowans under Medicaid.",
+      "ml": "Health coverage for eligible Iowans under Medicaid.",
+      "hi": "Health coverage for eligible Iowans under Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Medicaid / medical assistance application"
+      ],
+      "ml": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Medicaid / medical assistance application"
+      ],
+      "hi": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Medicaid / medical assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at hhsservices.iowa.gov or Healthcare.gov, by phone (1-855-889-7985), at a local HHS office/FQHC, or by paper; see hhs.iowa.gov Apply for Medicaid.",
+      "ml": "Apply online at hhsservices.iowa.gov or Healthcare.gov, by phone (1-855-889-7985), at a local HHS office/FQHC, or by paper; see hhs.iowa.gov Apply for Medicaid.",
+      "hi": "Apply online at hhsservices.iowa.gov or Healthcare.gov, by phone (1-855-889-7985), at a local HHS office/FQHC, or by paper; see hhs.iowa.gov Apply for Medicaid."
+    },
+    "apply_url": "https://hhsservices.iowa.gov/apspssp/ssp.portal",
+    "official_source_url": "https://hhs.iowa.gov/medicaid/apply-medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "Iowa Department of Health and Human Services / Medicaid",
+    "tags": [
+      "united_states",
+      "iowa",
+      "medicaid",
+      "health",
+      "hhs"
+    ]
+  },
+  {
+    "id": "ia-hawki",
+    "scheme_name": {
+      "en": "HAWK-I (Healthy and Well Kids in Iowa / CHIP) – Iowa HHS",
+      "ml": "HAWK-I (Healthy and Well Kids in Iowa / CHIP) – Iowa HHS",
+      "hi": "HAWK-I – आयोवा"
+    },
+    "description": {
+      "en": "HAWK-I is Iowa’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage when not enrolled in Medicaid. Applications are coordinated with Medicaid screening.",
+      "ml": "HAWK-I is Iowa’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage when not enrolled in Medicaid. Applications are coordinated with Medicaid screening.",
+      "hi": "HAWK-I is Iowa’s Children’s Health Insurance Program for eligible uninsured children under 19 who need affordable coverage when not enrolled in Medicaid. Applications are coordinated with Medicaid screening."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HAWK-I: children under 19; income under a share of FPL when not Medicaid-eligible. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and premiums/cost-sharing change — verify=true via hhs.iowa.gov HAWK-I.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Iowa children under HAWK-I.",
+      "ml": "Free or low-cost health coverage for eligible Iowa children under HAWK-I.",
+      "hi": "Free or low-cost health coverage for eligible Iowa children under HAWK-I."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/HAWK-I application"
+      ],
+      "ml": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/HAWK-I application"
+      ],
+      "hi": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/HAWK-I application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Iowa HHS Self-Service Portal or Medicaid/HAWK-I application channels; children found Medicaid-eligible are enrolled in Medicaid first. See hhs.iowa.gov HAWK-I.",
+      "ml": "Apply via Iowa HHS Self-Service Portal or Medicaid/HAWK-I application channels; children found Medicaid-eligible are enrolled in Medicaid first. See hhs.iowa.gov HAWK-I.",
+      "hi": "Apply via Iowa HHS Self-Service Portal or Medicaid/HAWK-I application channels; children found Medicaid-eligible are enrolled in Medicaid first. See hhs.iowa.gov HAWK-I."
+    },
+    "apply_url": "https://hhsservices.iowa.gov/apspssp/ssp.portal",
+    "official_source_url": "https://hhs.iowa.gov/medicaid/plans-programs/hawki",
+    "last_verified": "2026-09-17",
+    "office_type": "Iowa Department of Health and Human Services / HAWK-I",
+    "tags": [
+      "united_states",
+      "iowa",
+      "chip",
+      "hawki",
+      "children",
+      "health",
+      "hhs"
+    ]
+  },
+  {
+    "id": "ia-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low-Income Home Energy Assistance) – Iowa HHS / Community Action",
+      "ml": "LIHEAP (Low-Income Home Energy Assistance) – Iowa HHS / Community Action",
+      "hi": "LIHEAP – आयोवा"
+    },
+    "description": {
+      "en": "Iowa LIHEAP helps eligible low-income households meet home heating costs with a one-time payment to the heating utility. Applications are taken through local Community Action outreach offices under Iowa HHS program administration.",
+      "ml": "Iowa LIHEAP helps eligible low-income households meet home heating costs with a one-time payment to the heating utility. Applications are taken through local Community Action outreach offices under Iowa HHS program administration.",
+      "hi": "Iowa LIHEAP helps eligible low-income households meet home heating costs with a one-time payment to the heating utility. Applications are taken through local Community Action outreach offices under Iowa HHS program administration."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IA LIHEAP: income generally at or below a share of FPL or SMI; seasonal heating assistance. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and season dates change — verify=true via hhs.iowa.gov Apply / local CAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home heating costs for eligible Iowa households (via local Community Action Agencies).",
+      "ml": "Help toward home heating costs for eligible Iowa households (via local Community Action Agencies).",
+      "hi": "Help toward home heating costs for eligible Iowa households (via local Community Action Agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Utility / heating account information",
+        "LIHEAP application at local Community Action outreach office"
+      ],
+      "ml": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Utility / heating account information",
+        "LIHEAP application at local Community Action outreach office"
+      ],
+      "hi": [
+        "Identity and Iowa residency",
+        "Income documentation",
+        "Utility / heating account information",
+        "LIHEAP application at local Community Action outreach office"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at your local Community Action outreach office during the heating season; see hhs.iowa.gov Apply for Services (LIHEAP section).",
+      "ml": "Apply at your local Community Action outreach office during the heating season; see hhs.iowa.gov Apply for Services (LIHEAP section).",
+      "hi": "Apply at your local Community Action outreach office during the heating season; see hhs.iowa.gov Apply for Services (LIHEAP section)."
+    },
+    "apply_url": "https://hhs.iowa.gov/assistance-programs/apply",
+    "official_source_url": "https://hhs.iowa.gov/assistance-programs/apply",
+    "last_verified": "2026-09-17",
+    "office_type": "Iowa HHS / Community Action Agencies (LIHEAP)",
+    "tags": [
+      "united_states",
+      "iowa",
+      "liheap",
+      "energy",
+      "utility",
+      "hhs"
+    ]
+  },
+  {
+    "id": "nv-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Nevada DSS / Access Nevada",
+      "ml": "SNAP (Food Assistance) – Nevada DSS / Access Nevada",
+      "hi": "SNAP – नेवादा"
+    },
+    "description": {
+      "en": "Nevada Division of Social Services (DSS; formerly DWSS) administers SNAP. Eligible households apply through Access Nevada for monthly food benefits on an EBT card.",
+      "ml": "Nevada Division of Social Services (DSS; formerly DWSS) administers SNAP. Eligible households apply through Access Nevada for monthly food benefits on an EBT card.",
+      "hi": "Nevada Division of Social Services (DSS; formerly DWSS) administers SNAP. Eligible households apply through Access Nevada for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NV SNAP via Access Nevada: residency and income/resource rules; expedited service may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dss.nv.gov SNAP / Access Nevada.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Nevada households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Nevada households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Nevada households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nevada residency",
+        "Income and resource documentation",
+        "Access Nevada / SNAP application"
+      ],
+      "ml": [
+        "Identity and Nevada residency",
+        "Income and resource documentation",
+        "Access Nevada / SNAP application"
+      ],
+      "hi": [
+        "Identity and Nevada residency",
+        "Income and resource documentation",
+        "Access Nevada / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access Nevada (dss.nv.gov/access-nv), by paper Application for Assistance, or at a local Social Services office; see dss.nv.gov SNAP.",
+      "ml": "Apply online at Access Nevada (dss.nv.gov/access-nv), by paper Application for Assistance, or at a local Social Services office; see dss.nv.gov SNAP.",
+      "hi": "Apply online at Access Nevada (dss.nv.gov/access-nv), by paper Application for Assistance, or at a local Social Services office; see dss.nv.gov SNAP."
+    },
+    "apply_url": "https://www.dss.nv.gov/access-nv/",
+    "official_source_url": "https://www.dss.nv.gov/programs/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Nevada Division of Social Services / Access Nevada",
+    "tags": [
+      "united_states",
+      "nevada",
+      "snap",
+      "food",
+      "access_nevada",
+      "dss"
+    ]
+  },
+  {
+    "id": "nv-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Nevada DSS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Nevada DSS",
+      "hi": "TANF – नेवादा"
+    },
+    "description": {
+      "en": "Nevada TANF provides temporary cash assistance and supportive services for eligible families with children. Apply through Access Nevada / DSS alongside SNAP and medical programs.",
+      "ml": "Nevada TANF provides temporary cash assistance and supportive services for eligible families with children. Apply through Access Nevada / DSS alongside SNAP and medical programs.",
+      "hi": "Nevada TANF provides temporary cash assistance and supportive services for eligible families with children. Apply through Access Nevada / DSS alongside SNAP and medical programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NV TANF: low-income families with dependent children; time limits and work cooperation. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via dss.nv.gov TANF / Access Nevada.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work/support services for eligible Nevada families with children.",
+      "ml": "Temporary cash assistance and work/support services for eligible Nevada families with children.",
+      "hi": "Temporary cash assistance and work/support services for eligible Nevada families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Access Nevada / TANF application"
+      ],
+      "ml": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Access Nevada / TANF application"
+      ],
+      "hi": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Access Nevada / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access Nevada or by paper Application for Assistance at a local Social Services office; see dss.nv.gov TANF.",
+      "ml": "Apply online at Access Nevada or by paper Application for Assistance at a local Social Services office; see dss.nv.gov TANF.",
+      "hi": "Apply online at Access Nevada or by paper Application for Assistance at a local Social Services office; see dss.nv.gov TANF."
+    },
+    "apply_url": "https://www.dss.nv.gov/access-nv/",
+    "official_source_url": "https://www.dss.nv.gov/programs/tanf/",
+    "last_verified": "2026-09-17",
+    "office_type": "Nevada Division of Social Services / TANF",
+    "tags": [
+      "united_states",
+      "nevada",
+      "tanf",
+      "cash_assistance",
+      "access_nevada",
+      "dss"
+    ]
+  },
+  {
+    "id": "nv-medicaid",
+    "scheme_name": {
+      "en": "Medicaid (Medical Assistance) – Nevada DSS",
+      "ml": "Medicaid (Medical Assistance) – Nevada DSS",
+      "hi": "Medicaid – नेवादा"
+    },
+    "description": {
+      "en": "Nevada Medical Assistance / Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Eligibility is determined by DSS; apply via Access Nevada.",
+      "ml": "Nevada Medical Assistance / Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Eligibility is determined by DSS; apply via Access Nevada.",
+      "hi": "Nevada Medical Assistance / Medicaid provides health coverage for eligible children, adults, pregnant people, seniors, and people with disabilities. Eligibility is determined by DSS; apply via Access Nevada."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NV Medicaid: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via dss.nv.gov Medical / Access Nevada.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Nevadans under Medicaid.",
+      "ml": "Health coverage for eligible Nevadans under Medicaid.",
+      "hi": "Health coverage for eligible Nevadans under Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Access Nevada medical / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Access Nevada medical / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Access Nevada medical / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access Nevada or see dss.nv.gov Medical Apply for Assistance; local Social Services offices also accept applications.",
+      "ml": "Apply online at Access Nevada or see dss.nv.gov Medical Apply for Assistance; local Social Services offices also accept applications.",
+      "hi": "Apply online at Access Nevada or see dss.nv.gov Medical Apply for Assistance; local Social Services offices also accept applications."
+    },
+    "apply_url": "https://www.dss.nv.gov/access-nv/",
+    "official_source_url": "https://www.dss.nv.gov/programs/medical/apply-for-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Nevada Division of Social Services / Medical Assistance",
+    "tags": [
+      "united_states",
+      "nevada",
+      "medicaid",
+      "health",
+      "access_nevada",
+      "dss"
+    ]
+  },
+  {
+    "id": "nv-check-up",
+    "scheme_name": {
+      "en": "Nevada Check Up (CHIP) – Nevada DSS",
+      "ml": "Nevada Check Up (CHIP) – Nevada DSS",
+      "hi": "Nevada Check Up – नेवादा"
+    },
+    "description": {
+      "en": "Nevada Check Up is Nevada’s Children’s Health Insurance Program (CHIP) for eligible low-income uninsured children (birth through 18) who are not covered by private insurance or Medicaid. DSS determines eligibility; apply via Access Nevada.",
+      "ml": "Nevada Check Up is Nevada’s Children’s Health Insurance Program (CHIP) for eligible low-income uninsured children (birth through 18) who are not covered by private insurance or Medicaid. DSS determines eligibility; apply via Access Nevada.",
+      "hi": "Nevada Check Up is Nevada’s Children’s Health Insurance Program (CHIP) for eligible low-income uninsured children (birth through 18) who are not covered by private insurance or Medicaid. DSS determines eligibility; apply via Access Nevada."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Nevada Check Up: children birth through 18; income under a share of FPL when not Medicaid-eligible; premiums may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and premiums change — verify=true via dss.nv.gov Nevada Check Up.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost comprehensive health coverage for eligible Nevada children under Nevada Check Up.",
+      "ml": "Low-cost comprehensive health coverage for eligible Nevada children under Nevada Check Up.",
+      "hi": "Low-cost comprehensive health coverage for eligible Nevada children under Nevada Check Up."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Child information",
+        "Access Nevada / Nevada Check Up application"
+      ],
+      "ml": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Child information",
+        "Access Nevada / Nevada Check Up application"
+      ],
+      "hi": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Child information",
+        "Access Nevada / Nevada Check Up application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access Nevada or see dss.nv.gov Nevada Check Up; DSS offices take applications in person.",
+      "ml": "Apply online at Access Nevada or see dss.nv.gov Nevada Check Up; DSS offices take applications in person.",
+      "hi": "Apply online at Access Nevada or see dss.nv.gov Nevada Check Up; DSS offices take applications in person."
+    },
+    "apply_url": "https://www.dss.nv.gov/access-nv/",
+    "official_source_url": "https://www.dss.nv.gov/programs/medical/nevada-check-up/",
+    "last_verified": "2026-09-17",
+    "office_type": "Nevada Division of Social Services / Nevada Check Up",
+    "tags": [
+      "united_states",
+      "nevada",
+      "chip",
+      "nevada_check_up",
+      "children",
+      "health",
+      "dss"
+    ]
+  },
+  {
+    "id": "nv-eap",
+    "scheme_name": {
+      "en": "Energy Assistance Program (EAP / LIHEAP) – Nevada DSS",
+      "ml": "Energy Assistance Program (EAP / LIHEAP) – Nevada DSS",
+      "hi": "EAP (LIHEAP) – नेवादा"
+    },
+    "description": {
+      "en": "Nevada’s Energy Assistance Program (EAP), funded by LIHEAP and related energy funds, helps eligible low-income households with home energy costs. Apply through DSS Energy Assistance / Access Nevada pathways.",
+      "ml": "Nevada’s Energy Assistance Program (EAP), funded by LIHEAP and related energy funds, helps eligible low-income households with home energy costs. Apply through DSS Energy Assistance / Access Nevada pathways.",
+      "hi": "Nevada’s Energy Assistance Program (EAP), funded by LIHEAP and related energy funds, helps eligible low-income households with home energy costs. Apply through DSS Energy Assistance / Access Nevada pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NV EAP/LIHEAP: income generally at or below a share of FPL; utility responsibility required. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and season/funding rules change — verify=true via dss.nv.gov Energy Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Nevada households (EAP / LIHEAP).",
+      "ml": "Help toward home energy costs for eligible Nevada households (EAP / LIHEAP).",
+      "hi": "Help toward home energy costs for eligible Nevada households (EAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Utility bills / account information",
+        "Energy Assistance application (Form 2824-EL or Access Nevada pathway)"
+      ],
+      "ml": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Utility bills / account information",
+        "Energy Assistance application (Form 2824-EL or Access Nevada pathway)"
+      ],
+      "hi": [
+        "Identity and Nevada residency",
+        "Income documentation",
+        "Utility bills / account information",
+        "Energy Assistance application (Form 2824-EL or Access Nevada pathway)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via dss.nv.gov Energy Apply for Assistance / Access Nevada Energy Assistance links, or submit Form 2824-EL to Energy Assistance offices.",
+      "ml": "Apply via dss.nv.gov Energy Apply for Assistance / Access Nevada Energy Assistance links, or submit Form 2824-EL to Energy Assistance offices.",
+      "hi": "Apply via dss.nv.gov Energy Apply for Assistance / Access Nevada Energy Assistance links, or submit Form 2824-EL to Energy Assistance offices."
+    },
+    "apply_url": "https://www.dss.nv.gov/programs/energy/apply-for-assistance/",
+    "official_source_url": "https://www.dss.nv.gov/programs/energy/apply-for-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Nevada Division of Social Services / Energy Assistance Program",
+    "tags": [
+      "united_states",
+      "nevada",
+      "liheap",
+      "eap",
+      "energy",
+      "utility",
+      "dss"
+    ]
+  },
+  {
+    "id": "us-ar-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Arkansas DHS / Access Arkansas",
+      "ml": "SNAP (Food Assistance) – Arkansas DHS / Access Arkansas",
+      "hi": "SNAP – अर्कांसस"
+    },
+    "description": {
+      "en": "Arkansas Department of Human Services (DHS) Division of County Operations (DCO) administers SNAP. Eligible households apply through Access Arkansas for monthly food benefits on an EBT card.",
+      "ml": "Arkansas Department of Human Services (DHS) Division of County Operations (DCO) administers SNAP. Eligible households apply through Access Arkansas for monthly food benefits on an EBT card.",
+      "hi": "Arkansas Department of Human Services (DHS) Division of County Operations (DCO) administers SNAP. Eligible households apply through Access Arkansas for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AR SNAP via Access Arkansas: residency and income/resource rules; work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via humanservices.arkansas.gov / Access Arkansas.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Arkansas households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Arkansas households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Arkansas households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income and resource documentation",
+        "Access Arkansas / SNAP application"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income and resource documentation",
+        "Access Arkansas / SNAP application"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income and resource documentation",
+        "Access Arkansas / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.Arkansas.gov, by mail/phone, or in person at a local DHS county office; see humanservices.arkansas.gov Apply for Services.",
+      "ml": "Apply online at Access.Arkansas.gov, by mail/phone, or in person at a local DHS county office; see humanservices.arkansas.gov Apply for Services.",
+      "hi": "Apply online at Access.Arkansas.gov, by mail/phone, or in person at a local DHS county office; see humanservices.arkansas.gov Apply for Services."
+    },
+    "apply_url": "https://access.arkansas.gov/Learn/Home",
+    "official_source_url": "https://humanservices.arkansas.gov/apply-for-services/",
+    "last_verified": "2026-09-17",
+    "office_type": "Arkansas DHS Division of County Operations / Access Arkansas",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "snap",
+      "food",
+      "access_arkansas",
+      "dhs"
+    ]
+  },
+  {
+    "id": "us-ar-tea",
+    "scheme_name": {
+      "en": "Transitional Employment Assistance (TEA / TANF) – Arkansas DHS",
+      "ml": "Transitional Employment Assistance (TEA / TANF) – Arkansas DHS",
+      "hi": "TEA (TANF) – अर्कांसस"
+    },
+    "description": {
+      "en": "TEA is Arkansas’s Temporary Assistance for Needy Families (TANF) cash and support program. Eligible families with a child under 18 can receive short-term financial help plus job training, childcare, and transportation supports.",
+      "ml": "TEA is Arkansas’s Temporary Assistance for Needy Families (TANF) cash and support program. Eligible families with a child under 18 can receive short-term financial help plus job training, childcare, and transportation supports.",
+      "hi": "TEA is Arkansas’s Temporary Assistance for Needy Families (TANF) cash and support program. Eligible families with a child under 18 can receive short-term financial help plus job training, childcare, and transportation supports."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TEA/TANF: low-income families with a child under 18; time limits and work participation. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via humanservices.arkansas.gov TEA / Access Arkansas.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work/support services for eligible Arkansas families with children.",
+      "ml": "Temporary cash assistance and work/support services for eligible Arkansas families with children.",
+      "hi": "Temporary cash assistance and work/support services for eligible Arkansas families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Proof of child under 18 in the home",
+        "Access Arkansas / TEA application"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Proof of child under 18 in the home",
+        "Access Arkansas / TEA application"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Proof of child under 18 in the home",
+        "Access Arkansas / TEA application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.Arkansas.gov or at a local DHS county office; see DHS TEA / Work Pays information.",
+      "ml": "Apply online at Access.Arkansas.gov or at a local DHS county office; see DHS TEA / Work Pays information.",
+      "hi": "Apply online at Access.Arkansas.gov or at a local DHS county office; see DHS TEA / Work Pays information."
+    },
+    "apply_url": "https://access.arkansas.gov/Learn/Home",
+    "official_source_url": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/temporary-assistance-for-needy-families/transitional-employment-assistance-tea-work-pays/",
+    "last_verified": "2026-09-17",
+    "office_type": "Arkansas DHS / TEA (TANF)",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "tanf",
+      "tea",
+      "cash_assistance",
+      "access_arkansas",
+      "dhs"
+    ]
+  },
+  {
+    "id": "us-ar-medicaid",
+    "scheme_name": {
+      "en": "Arkansas Medicaid / Health Care – Arkansas DHS",
+      "ml": "Arkansas Medicaid / Health Care – Arkansas DHS",
+      "hi": "Medicaid – अर्कांसस"
+    },
+    "description": {
+      "en": "Arkansas DHS provides Medicaid and related health coverage categories (including ARHOME and other Medicaid pathways) for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Access Arkansas.",
+      "ml": "Arkansas DHS provides Medicaid and related health coverage categories (including ARHOME and other Medicaid pathways) for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Access Arkansas.",
+      "hi": "Arkansas DHS provides Medicaid and related health coverage categories (including ARHOME and other Medicaid pathways) for eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Access Arkansas."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AR Medicaid: category-specific MAGI and non-MAGI rules (including ARHOME pathways). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via humanservices.arkansas.gov / Access Arkansas.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Arkansans under Medicaid / DHS health care programs.",
+      "ml": "Health coverage for eligible Arkansans under Medicaid / DHS health care programs.",
+      "hi": "Health coverage for eligible Arkansans under Medicaid / DHS health care programs."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Access Arkansas health care application"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Access Arkansas health care application"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Access Arkansas health care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.Arkansas.gov for Health Care / Medicaid categories, or at a local DHS county office; see humanservices.arkansas.gov Apply for Services.",
+      "ml": "Apply online at Access.Arkansas.gov for Health Care / Medicaid categories, or at a local DHS county office; see humanservices.arkansas.gov Apply for Services.",
+      "hi": "Apply online at Access.Arkansas.gov for Health Care / Medicaid categories, or at a local DHS county office; see humanservices.arkansas.gov Apply for Services."
+    },
+    "apply_url": "https://access.arkansas.gov/Learn/Home",
+    "official_source_url": "https://humanservices.arkansas.gov/apply-for-services/",
+    "last_verified": "2026-09-17",
+    "office_type": "Arkansas DHS / Medicaid & Health Care",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "medicaid",
+      "health",
+      "access_arkansas",
+      "dhs"
+    ]
+  },
+  {
+    "id": "us-ar-arkids",
+    "scheme_name": {
+      "en": "ARKids First (CHIP / children’s coverage) – Arkansas DHS",
+      "ml": "ARKids First (CHIP / children’s coverage) – Arkansas DHS",
+      "hi": "ARKids First – अर्कांसस"
+    },
+    "description": {
+      "en": "ARKids First provides health coverage for eligible Arkansas children. One Access Arkansas application screens for Medicaid and ARKids categories.",
+      "ml": "ARKids First provides health coverage for eligible Arkansas children. One Access Arkansas application screens for Medicaid and ARKids categories.",
+      "hi": "ARKids First provides health coverage for eligible Arkansas children. One Access Arkansas application screens for Medicaid and ARKids categories."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ARKids First: children’s coverage with income under a share of FPL by ARKids category. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and ARKids A/B rules change — verify=true via humanservices.arkansas.gov ARKids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Arkansas children under ARKids First.",
+      "ml": "Health coverage for eligible Arkansas children under ARKids First.",
+      "hi": "Health coverage for eligible Arkansas children under ARKids First."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Child information",
+        "Access Arkansas / ARKids application"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Child information",
+        "Access Arkansas / ARKids application"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Child information",
+        "Access Arkansas / ARKids application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.Arkansas.gov or see DHS ARKids First program page; local DHS county offices also assist.",
+      "ml": "Apply online at Access.Arkansas.gov or see DHS ARKids First program page; local DHS county offices also assist.",
+      "hi": "Apply online at Access.Arkansas.gov or see DHS ARKids First program page; local DHS county offices also assist."
+    },
+    "apply_url": "https://access.arkansas.gov/Learn/Home",
+    "official_source_url": "https://humanservices.arkansas.gov/divisions-shared-services/medical-services/healthcare-programs/arkids/",
+    "last_verified": "2026-09-17",
+    "office_type": "Arkansas DHS / ARKids First",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "chip",
+      "arkids",
+      "children",
+      "health",
+      "dhs"
+    ]
+  },
+  {
+    "id": "us-ar-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low-Income Home Energy Assistance) – Arkansas",
+      "ml": "LIHEAP (Low-Income Home Energy Assistance) – Arkansas",
+      "hi": "LIHEAP – अर्कांसस"
+    },
+    "description": {
+      "en": "Arkansas LIHEAP helps eligible low-income households with home heating and cooling costs. Applications are taken through local Community Action Agencies; the program is governed by Arkansas LIHEAP rules and administered with the state’s energy/community action network.",
+      "ml": "Arkansas LIHEAP helps eligible low-income households with home heating and cooling costs. Applications are taken through local Community Action Agencies; the program is governed by Arkansas LIHEAP rules and administered with the state’s energy/community action network.",
+      "hi": "Arkansas LIHEAP helps eligible low-income households with home heating and cooling costs. Applications are taken through local Community Action Agencies; the program is governed by Arkansas LIHEAP rules and administered with the state’s energy/community action network."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AR LIHEAP: income guidelines (often % of SMI/FPL) and heating/cooling/crisis components when funded. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and open/close dates change — verify=true via Arkansas LIHEAP rules / local CAA (not adeq.state.ar.us as official_source; .state.ar.us is not .gov).",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home heating/cooling costs for eligible Arkansas households (via local Community Action Agencies).",
+      "ml": "Help toward home heating/cooling costs for eligible Arkansas households (via local Community Action Agencies).",
+      "hi": "Help toward home heating/cooling costs for eligible Arkansas households (via local Community Action Agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local Community Action Agency"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the Community Action Agency serving your county (first-come, first-served when open). Official program rules: Arkansas Code of Rules LIHEAP (Part 862). CAA network overview: DHS Community Grant / CSBG page.",
+      "ml": "Apply through the Community Action Agency serving your county (first-come, first-served when open). Official program rules: Arkansas Code of Rules LIHEAP (Part 862). CAA network overview: DHS Community Grant / CSBG page.",
+      "hi": "Apply through the Community Action Agency serving your county (first-come, first-served when open). Official program rules: Arkansas Code of Rules LIHEAP (Part 862). CAA network overview: DHS Community Grant / CSBG page."
+    },
+    "apply_url": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/grant-programs/",
+    "official_source_url": "https://codeofarrules.arkansas.gov/Rules/Rule?chapterID=264&levelType=part&partID=1392&sectionID=&subChapterID=330&subPartID=&titleID=20",
+    "last_verified": "2026-09-17",
+    "office_type": "Arkansas LIHEAP / Community Action Agencies",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "liheap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "ms-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Mississippi MDHS",
+      "ml": "SNAP (Food Assistance) – Mississippi MDHS",
+      "hi": "SNAP – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi Department of Human Services (MDHS) administers SNAP. Eligible low-income households receive monthly food benefits on an EBT card through the Division of Economic Assistance.",
+      "ml": "Mississippi Department of Human Services (MDHS) administers SNAP. Eligible low-income households receive monthly food benefits on an EBT card through the Division of Economic Assistance.",
+      "hi": "Mississippi Department of Human Services (MDHS) administers SNAP. Eligible low-income households receive monthly food benefits on an EBT card through the Division of Economic Assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS SNAP via MDHS: residency and income/resource rules; work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via mdhs.ms.gov SNAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Mississippi households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Mississippi households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Mississippi households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "MDHS / SNAP application"
+      ],
+      "ml": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "MDHS / SNAP application"
+      ],
+      "hi": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "MDHS / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through MDHS / Access.MS.gov pathways or your MDHS county office; see mdhs.ms.gov SNAP. Customer service 800-948-3050.",
+      "ml": "Apply through MDHS / Access.MS.gov pathways or your MDHS county office; see mdhs.ms.gov SNAP. Customer service 800-948-3050.",
+      "hi": "Apply through MDHS / Access.MS.gov pathways or your MDHS county office; see mdhs.ms.gov SNAP. Customer service 800-948-3050."
+    },
+    "apply_url": "https://www.mdhs.ms.gov/help/snap/",
+    "official_source_url": "https://www.mdhs.ms.gov/help/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Mississippi Department of Human Services / Economic Assistance",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "snap",
+      "food",
+      "mdhs"
+    ]
+  },
+  {
+    "id": "ms-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Mississippi MDHS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Mississippi MDHS",
+      "hi": "TANF – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi TANF provides cash assistance and work program supports for eligible families with at least one child under 18. Administered by MDHS Division of Economic Assistance.",
+      "ml": "Mississippi TANF provides cash assistance and work program supports for eligible families with at least one child under 18. Administered by MDHS Division of Economic Assistance.",
+      "hi": "Mississippi TANF provides cash assistance and work program supports for eligible families with at least one child under 18. Administered by MDHS Division of Economic Assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS TANF: families with a child under 18; income/resource limits and work program rules; lifetime month caps. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts, resource limits, and time limits change — verify=true via mdhs.ms.gov TANF.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and TANF Work Program supports for eligible Mississippi families with children.",
+      "ml": "Temporary cash assistance and TANF Work Program supports for eligible Mississippi families with children.",
+      "hi": "Temporary cash assistance and TANF Work Program supports for eligible Mississippi families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "MDHS / TANF application"
+      ],
+      "ml": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "MDHS / TANF application"
+      ],
+      "hi": [
+        "Identity and Mississippi residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "MDHS / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through MDHS / county Economic Assistance offices; see mdhs.ms.gov TANF. Customer service 800-948-3050.",
+      "ml": "Apply through MDHS / county Economic Assistance offices; see mdhs.ms.gov TANF. Customer service 800-948-3050.",
+      "hi": "Apply through MDHS / county Economic Assistance offices; see mdhs.ms.gov TANF. Customer service 800-948-3050."
+    },
+    "apply_url": "https://www.mdhs.ms.gov/help/tanf/",
+    "official_source_url": "https://www.mdhs.ms.gov/help/tanf/",
+    "last_verified": "2026-09-17",
+    "office_type": "Mississippi Department of Human Services / TANF",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "tanf",
+      "cash_assistance",
+      "mdhs"
+    ]
+  },
+  {
+    "id": "ms-medicaid",
+    "scheme_name": {
+      "en": "Mississippi Medicaid – Division of Medicaid",
+      "ml": "Mississippi Medicaid – Division of Medicaid",
+      "hi": "Medicaid – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi Division of Medicaid provides health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Apply via Access.MS.gov or Division of Medicaid channels.",
+      "ml": "Mississippi Division of Medicaid provides health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Apply via Access.MS.gov or Division of Medicaid channels.",
+      "hi": "Mississippi Division of Medicaid provides health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Apply via Access.MS.gov or Division of Medicaid channels."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS Medicaid: category-specific MAGI and ABD rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via medicaid.ms.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Mississippians under Medicaid.",
+      "ml": "Health coverage for eligible Mississippians under Medicaid.",
+      "hi": "Health coverage for eligible Mississippians under Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Medicaid / health benefits application"
+      ],
+      "ml": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Medicaid / health benefits application"
+      ],
+      "hi": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Medicaid / health benefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.MS.gov, by mail/fax, at a regional Medicaid office, or call 800-421-2408; see medicaid.ms.gov How to Apply.",
+      "ml": "Apply online at Access.MS.gov, by mail/fax, at a regional Medicaid office, or call 800-421-2408; see medicaid.ms.gov How to Apply.",
+      "hi": "Apply online at Access.MS.gov, by mail/fax, at a regional Medicaid office, or call 800-421-2408; see medicaid.ms.gov How to Apply."
+    },
+    "apply_url": "https://medicaid.ms.gov/how-to-apply-2/",
+    "official_source_url": "https://medicaid.ms.gov/how-to-apply-2/",
+    "last_verified": "2026-09-17",
+    "office_type": "Mississippi Division of Medicaid",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "ms-chip",
+    "scheme_name": {
+      "en": "Mississippi CHIP (Children’s Health Insurance Program) – Division of Medicaid",
+      "ml": "Mississippi CHIP (Children’s Health Insurance Program) – Division of Medicaid",
+      "hi": "CHIP – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi CHIP provides health coverage for eligible uninsured children who are not eligible for Medicaid. One health benefits application screens for Medicaid and CHIP via Access.MS.gov / Division of Medicaid.",
+      "ml": "Mississippi CHIP provides health coverage for eligible uninsured children who are not eligible for Medicaid. One health benefits application screens for Medicaid and CHIP via Access.MS.gov / Division of Medicaid.",
+      "hi": "Mississippi CHIP provides health coverage for eligible uninsured children who are not eligible for Medicaid. One health benefits application screens for Medicaid and CHIP via Access.MS.gov / Division of Medicaid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS CHIP: uninsured children; income under a share of FPL when not Medicaid-eligible. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and CHIP rules change — verify=true via medicaid.ms.gov CHIP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Mississippi children under CHIP.",
+      "ml": "Health coverage for eligible Mississippi children under CHIP.",
+      "hi": "Health coverage for eligible Mississippi children under CHIP."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/CHIP health benefits application"
+      ],
+      "ml": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/CHIP health benefits application"
+      ],
+      "hi": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Child information",
+        "Medicaid/CHIP health benefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Access.MS.gov or via Division of Medicaid application channels; see medicaid.ms.gov CHIP program page.",
+      "ml": "Apply online at Access.MS.gov or via Division of Medicaid application channels; see medicaid.ms.gov CHIP program page.",
+      "hi": "Apply online at Access.MS.gov or via Division of Medicaid application channels; see medicaid.ms.gov CHIP program page."
+    },
+    "apply_url": "https://medicaid.ms.gov/how-to-apply-2/",
+    "official_source_url": "https://medicaid.ms.gov/programs/childrens-health-insurance-program-chip/",
+    "last_verified": "2026-09-17",
+    "office_type": "Mississippi Division of Medicaid / CHIP",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "chip",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "ms-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low-Income Home Energy Assistance) – Mississippi MDHS Community Services",
+      "ml": "LIHEAP (Low-Income Home Energy Assistance) – Mississippi MDHS Community Services",
+      "hi": "LIHEAP – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi LIHEAP helps eligible low-income households with home energy costs. MDHS Community Services works with local community action agencies to take applications and issue benefits.",
+      "ml": "Mississippi LIHEAP helps eligible low-income households with home energy costs. MDHS Community Services works with local community action agencies to take applications and issue benefits.",
+      "hi": "Mississippi LIHEAP helps eligible low-income households with home energy costs. MDHS Community Services works with local community action agencies to take applications and issue benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS LIHEAP: income guidelines and seasonal/crisis components when funded. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and open/close dates change — verify=true via mdhs.ms.gov LIHEAP / local CAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Mississippi households (via local community action agencies).",
+      "ml": "Help toward home energy costs for eligible Mississippi households (via local community action agencies).",
+      "hi": "Help toward home energy costs for eligible Mississippi households (via local community action agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local community action agency / MDHS Community Services pathway"
+      ],
+      "ml": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local community action agency / MDHS Community Services pathway"
+      ],
+      "hi": [
+        "Identity and Mississippi residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application at local community action agency / MDHS Community Services pathway"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local community action agency / MDHS Community Services LIHEAP pathway; see mdhs.ms.gov Community LIHEAP.",
+      "ml": "Apply through your local community action agency / MDHS Community Services LIHEAP pathway; see mdhs.ms.gov Community LIHEAP.",
+      "hi": "Apply through your local community action agency / MDHS Community Services LIHEAP pathway; see mdhs.ms.gov Community LIHEAP."
+    },
+    "apply_url": "https://www.mdhs.ms.gov/community/liheap/",
+    "official_source_url": "https://www.mdhs.ms.gov/community/liheap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Mississippi MDHS Community Services / LIHEAP",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "liheap",
+      "energy",
+      "utility",
+      "mdhs"
+    ]
+  },
+  {
+    "id": "ks-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Kansas DCF",
+      "ml": "SNAP (Food Assistance) – Kansas DCF",
+      "hi": "SNAP – कैनसस"
+    },
+    "description": {
+      "en": "Kansas Department for Children and Families (DCF) administers the Food Assistance Program (SNAP). Eligible households apply through the DCF Self-Service Portal (KEES) for monthly food benefits on an EBT card.",
+      "ml": "Kansas Department for Children and Families (DCF) administers the Food Assistance Program (SNAP). Eligible households apply through the DCF Self-Service Portal (KEES) for monthly food benefits on an EBT card.",
+      "hi": "Kansas Department for Children and Families (DCF) administers the Food Assistance Program (SNAP). Eligible households apply through the DCF Self-Service Portal (KEES) for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS SNAP via DCF: residency and income/resource rules; work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dcf.ks.gov Food Assistance / DCF portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Kansas households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Kansas households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Kansas households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "DCF Self-Service Portal / Food Assistance application"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "DCF Self-Service Portal / Food Assistance application"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "DCF Self-Service Portal / Food Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at the DCF Self-Service Portal (dcfapp.kees.ks.gov), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Food Assistance.",
+      "ml": "Apply online at the DCF Self-Service Portal (dcfapp.kees.ks.gov), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Food Assistance.",
+      "hi": "Apply online at the DCF Self-Service Portal (dcfapp.kees.ks.gov), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Food Assistance."
+    },
+    "apply_url": "https://www.dcfapp.kees.ks.gov/apspssp/sspNonMed.portal",
+    "official_source_url": "https://www.dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kansas Department for Children and Families / Food Assistance",
+    "tags": [
+      "united_states",
+      "kansas",
+      "snap",
+      "food",
+      "dcf",
+      "kees"
+    ]
+  },
+  {
+    "id": "ks-tanf",
+    "scheme_name": {
+      "en": "Successful Families Program (TANF Cash Assistance) – Kansas DCF",
+      "ml": "Successful Families Program (TANF Cash Assistance) – Kansas DCF",
+      "hi": "TANF – कैनसस"
+    },
+    "description": {
+      "en": "Kansas Successful Families Program provides TANF cash assistance and employment support services for eligible families with a child under 18. Administered by DCF Economic and Employment Services.",
+      "ml": "Kansas Successful Families Program provides TANF cash assistance and employment support services for eligible families with a child under 18. Administered by DCF Economic and Employment Services.",
+      "hi": "Kansas Successful Families Program provides TANF cash assistance and employment support services for eligible families with a child under 18. Administered by DCF Economic and Employment Services."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS TANF/Successful Families: families with a child under 18; income/resource and work rules; lifetime month caps. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards, time limits, and income tests — verify=true via dcf.ks.gov TANF / DCF portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment supports for eligible Kansas families with children.",
+      "ml": "Temporary cash assistance and employment supports for eligible Kansas families with children.",
+      "hi": "Temporary cash assistance and employment supports for eligible Kansas families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "DCF Self-Service Portal / TANF application"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "DCF Self-Service Portal / TANF application"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income and resource documentation",
+        "Proof of child under 18 in the home",
+        "DCF Self-Service Portal / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at the DCF Self-Service Portal, at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Successful Families / TANF.",
+      "ml": "Apply online at the DCF Self-Service Portal, at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Successful Families / TANF.",
+      "hi": "Apply online at the DCF Self-Service Portal, at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Successful Families / TANF."
+    },
+    "apply_url": "https://www.dcfapp.kees.ks.gov/apspssp/sspNonMed.portal",
+    "official_source_url": "https://www.dcf.ks.gov/services/ees/Pages/Cash/TANF.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kansas DCF / Successful Families Program (TANF)",
+    "tags": [
+      "united_states",
+      "kansas",
+      "tanf",
+      "cash_assistance",
+      "dcf",
+      "kees"
+    ]
+  },
+  {
+    "id": "ks-kancare",
+    "scheme_name": {
+      "en": "KanCare (Medicaid) – Kansas",
+      "ml": "KanCare (Medicaid) – Kansas",
+      "hi": "KanCare – कैनसस"
+    },
+    "description": {
+      "en": "KanCare is Kansas’s Medicaid program offering medical coverage for eligible children, pregnant women, families with children, adults 65+, and people with disabilities. Medical assistance is applied for through the KanCare / Medical Self-Service Portal (not the DCF non-medical portal).",
+      "ml": "KanCare is Kansas’s Medicaid program offering medical coverage for eligible children, pregnant women, families with children, adults 65+, and people with disabilities. Medical assistance is applied for through the KanCare / Medical Self-Service Portal (not the DCF non-medical portal).",
+      "hi": "KanCare is Kansas’s Medicaid program offering medical coverage for eligible children, pregnant women, families with children, adults 65+, and people with disabilities. Medical assistance is applied for through the KanCare / Medical Self-Service Portal (not the DCF non-medical portal)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KanCare/Medicaid: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via KanCare Medical portal / DCF Helpful Tips KanCare section.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Kansans under KanCare (Medicaid).",
+      "ml": "Health coverage for eligible Kansans under KanCare (Medicaid).",
+      "hi": "Health coverage for eligible Kansans under KanCare (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "KanCare / Medical Self-Service Portal application"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "KanCare / Medical Self-Service Portal application"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "KanCare / Medical Self-Service Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through the KanCare Medical Self-Service Portal (cssp.kees.ks.gov); see DCF Helpful Tips for KanCare vs DCF benefits guidance. Paper applications: call KanCare consumer assistance as listed on official portals.",
+      "ml": "Apply online through the KanCare Medical Self-Service Portal (cssp.kees.ks.gov); see DCF Helpful Tips for KanCare vs DCF benefits guidance. Paper applications: call KanCare consumer assistance as listed on official portals.",
+      "hi": "Apply online through the KanCare Medical Self-Service Portal (cssp.kees.ks.gov); see DCF Helpful Tips for KanCare vs DCF benefits guidance. Paper applications: call KanCare consumer assistance as listed on official portals."
+    },
+    "apply_url": "https://cssp.kees.ks.gov/apspssp/",
+    "official_source_url": "https://www.dcf.ks.gov/services/ees/Pages/HelpfulTips.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kansas KanCare / Medical Self-Service Portal (KEES)",
+    "tags": [
+      "united_states",
+      "kansas",
+      "medicaid",
+      "kancare",
+      "health",
+      "kees"
+    ]
+  },
+  {
+    "id": "ks-child-care",
+    "scheme_name": {
+      "en": "Child Care Assistance – Kansas DCF",
+      "ml": "Child Care Assistance – Kansas DCF",
+      "hi": "Child Care Assistance – कैनसस"
+    },
+    "description": {
+      "en": "Kansas DCF Child Care Assistance helps eligible families pay for child care so parents can work or participate in approved activities. Apply through the DCF Self-Service Portal with Food/Cash/Child Care combined applications.",
+      "ml": "Kansas DCF Child Care Assistance helps eligible families pay for child care so parents can work or participate in approved activities. Apply through the DCF Self-Service Portal with Food/Cash/Child Care combined applications.",
+      "hi": "Kansas DCF Child Care Assistance helps eligible families pay for child care so parents can work or participate in approved activities. Apply through the DCF Self-Service Portal with Food/Cash/Child Care combined applications."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS Child Care Assistance: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dcf.ks.gov / DCF portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for child care for eligible Kansas families.",
+      "ml": "Help paying for child care for eligible Kansas families.",
+      "hi": "Help paying for child care for eligible Kansas families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child care need / provider information",
+        "DCF Self-Service Portal / Child Care Assistance application"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child care need / provider information",
+        "DCF Self-Service Portal / Child Care Assistance application"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child care need / provider information",
+        "DCF Self-Service Portal / Child Care Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at the DCF Self-Service Portal (Food, Cash, and Child Care Assistance), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Helpful Tips.",
+      "ml": "Apply online at the DCF Self-Service Portal (Food, Cash, and Child Care Assistance), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Helpful Tips.",
+      "hi": "Apply online at the DCF Self-Service Portal (Food, Cash, and Child Care Assistance), at a local DCF office, or call 1-888-369-4777; see dcf.ks.gov Helpful Tips."
+    },
+    "apply_url": "https://www.dcfapp.kees.ks.gov/apspssp/sspNonMed.portal",
+    "official_source_url": "https://www.dcf.ks.gov/services/ees/Pages/HelpfulTips.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kansas DCF / Child Care Assistance",
+    "tags": [
+      "united_states",
+      "kansas",
+      "child_care",
+      "ccdf",
+      "dcf",
+      "kees"
+    ]
+  },
+  {
+    "id": "ks-lieap",
+    "scheme_name": {
+      "en": "LIEAP (Low Income Energy Assistance Program / LIHEAP) – Kansas DCF",
+      "ml": "LIEAP (Low Income Energy Assistance Program / LIHEAP) – Kansas DCF",
+      "hi": "LIEAP – कैनसस"
+    },
+    "description": {
+      "en": "Kansas LIEAP (Low Income Energy Assistance Program) is the state’s LIHEAP-funded program helping eligible households pay a portion of home energy costs with a once-per-year benefit. Apply through the DCF Self-Service Portal when the LIEAP season is open.",
+      "ml": "Kansas LIEAP (Low Income Energy Assistance Program) is the state’s LIHEAP-funded program helping eligible households pay a portion of home energy costs with a once-per-year benefit. Apply through the DCF Self-Service Portal when the LIEAP season is open.",
+      "hi": "Kansas LIEAP (Low Income Energy Assistance Program) is the state’s LIHEAP-funded program helping eligible households pay a portion of home energy costs with a once-per-year benefit. Apply through the DCF Self-Service Portal when the LIEAP season is open."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS LIEAP: income generally at or below 150% FPL per published charts; seasonal application window; one benefit per year. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and application season dates change — verify=true via dcf.ks.gov Energy Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time annual help toward home energy costs for eligible Kansas households (LIEAP / LIHEAP).",
+      "ml": "One-time annual help toward home energy costs for eligible Kansas households (LIEAP / LIHEAP).",
+      "hi": "One-time annual help toward home energy costs for eligible Kansas households (LIEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating costs",
+        "LIEAP application (DCF Self-Service Portal or paper during open season)"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating costs",
+        "LIEAP application (DCF Self-Service Portal or paper during open season)"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income documentation (gross household income)",
+        "Proof of responsibility for heating costs",
+        "LIEAP application (DCF Self-Service Portal or paper during open season)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "During the open LIEAP application period, apply online via the DCF Self-Service Portal or request a paper application from a local DCF Service Center; see dcf.ks.gov Energy Assistance. Benefits Assistance 1-888-369-4777.",
+      "ml": "During the open LIEAP application period, apply online via the DCF Self-Service Portal or request a paper application from a local DCF Service Center; see dcf.ks.gov Energy Assistance. Benefits Assistance 1-888-369-4777.",
+      "hi": "During the open LIEAP application period, apply online via the DCF Self-Service Portal or request a paper application from a local DCF Service Center; see dcf.ks.gov Energy Assistance. Benefits Assistance 1-888-369-4777."
+    },
+    "apply_url": "https://www.dcf.ks.gov/services/ees/pages/energyassistance.aspx",
+    "official_source_url": "https://www.dcf.ks.gov/services/ees/pages/energyassistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Kansas DCF / LIEAP",
+    "tags": [
+      "united_states",
+      "kansas",
+      "liheap",
+      "lieap",
+      "energy",
+      "utility",
+      "dcf"
+    ]
   }
 ]

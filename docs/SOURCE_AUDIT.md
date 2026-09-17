@@ -20,6 +20,22 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+
+
+## United States Wave 7 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged schemes for **Iowa, Nevada, Arkansas, Mississippi, Kansas** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (hhs.iowa.gov + hhsservices.iowa.gov apply; dss.nv.gov Access Nevada / SNAP/TANF/Medical/Check Up/EAP; humanservices.arkansas.gov + access.arkansas.gov + codeofarrules.arkansas.gov LIHEAP Part; mdhs.ms.gov + medicaid.ms.gov; dcf.ks.gov + cssp.kees.ks.gov KanCare Medical portal). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only). Arkansas IDs `us-ar-*` to avoid India Arunachal `ar-*`.
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| Iowa | ia-snap, ia-fip, ia-medicaid, ia-hawki, ia-liheap | hhs.iowa.gov |
+| Nevada | nv-snap, nv-tanf, nv-medicaid, nv-check-up, nv-eap | dss.nv.gov |
+| Arkansas | us-ar-snap, us-ar-tea, us-ar-medicaid, us-ar-arkids, us-ar-liheap | humanservices.arkansas.gov, codeofarrules.arkansas.gov |
+| Mississippi | ms-snap, ms-tanf, ms-medicaid, ms-chip, ms-liheap | mdhs.ms.gov, medicaid.ms.gov |
+| Kansas | ks-snap, ks-tanf, ks-kancare, ks-child-care, ks-lieap | dcf.ks.gov |
+
+**Skipped / deferred:** `adeq.state.ar.us` LIHEAP as `official_source_url` (not `.gov`); inventing energy-assistance dollar caps; bare `ar-*` for Arkansas; standalone portal-only catalogue rows.
+
 ## United States Wave 6 state deepen (2026-09-17 IST)
 
 Added **25** state-tagged schemes for **Kentucky, Oregon, Oklahoma, Connecticut, Utah** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (chfs.ky.gov + kynect.ky.gov apply; oregon.gov ODHS/OHA/OHCS + one.oregon.gov apply; oklahoma.gov OKDHS/OHCA + OKDHSLive apply; portal.ct.gov DSS/OEC + connect.ct.gov apply; jobs.utah.gov / medicaid.utah.gov / chip.utah.gov + myCase apply). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).

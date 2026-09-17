@@ -1,16 +1,34 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 478 schemes
-**verify=true:** 470
+**Count:** 503 schemes
+**verify=true:** 495
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count) and US Wave 5 state deepen (Colorado, Minnesota, South Carolina, Alabama, Louisiana — state-tagged programs; Minnesota IDs `us-mn-*` to avoid India Manipur `mn-*`; Louisiana IDs `us-la-*` to avoid India Ladakh `la-*`; quality over forced count) and US Wave 6 state deepen (Kentucky, Oregon, Oklahoma, Connecticut, Utah — state-tagged programs; IDs `ky-*`/`or-*`/`ok-*`/`ct-*`/`ut-*` with no India collisions; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count) and US Wave 5 state deepen (Colorado, Minnesota, South Carolina, Alabama, Louisiana — state-tagged programs; Minnesota IDs `us-mn-*` to avoid India Manipur `mn-*`; Louisiana IDs `us-la-*` to avoid India Ladakh `la-*`; quality over forced count) and US Wave 6 state deepen (Kentucky, Oregon, Oklahoma, Connecticut, Utah — state-tagged programs; IDs `ky-*`/`or-*`/`ok-*`/`ct-*`/`ut-*` with no India collisions; quality over forced count) and US Wave 7 state deepen (Iowa, Nevada, Arkansas, Mississippi, Kansas — state-tagged programs; Arkansas IDs `us-ar-*` to avoid India Arunachal `ar-*`; IDs `ia-*`/`nv-*`/`us-ar-*`/`ms-*`/`ks-*`; quality over forced count).
 
 
 
 
 
+
+
+
+## US Wave 7 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged US schemes (`nationwide:false`) for Iowa, Nevada, Arkansas, Mississippi, and Kansas. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `ia-*`, `nv-*`, `us-ar-*` (Arkansas; **not** bare `ar-*`, which is India Arunachal Pradesh), `ms-*`, `ks-*`.
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| Iowa | `ia-snap`, `ia-fip`, `ia-medicaid`, `ia-hawki`, `ia-liheap` | hhs.iowa.gov; apply via hhsservices.iowa.gov Self-Service Portal; LIHEAP via local Community Action |
+| Nevada | `nv-snap`, `nv-tanf`, `nv-medicaid`, `nv-check-up`, `nv-eap` | dss.nv.gov (Access Nevada; SNAP/TANF/Medical/Nevada Check Up/EAP) |
+| Arkansas | `us-ar-snap`, `us-ar-tea`, `us-ar-medicaid`, `us-ar-arkids`, `us-ar-liheap` | humanservices.arkansas.gov / access.arkansas.gov; ARKids; LIHEAP via Code of Arkansas Rules + CAA network |
+| Mississippi | `ms-snap`, `ms-tanf`, `ms-medicaid`, `ms-chip`, `ms-liheap` | mdhs.ms.gov; medicaid.ms.gov CHIP; Community LIHEAP |
+| Kansas | `ks-snap`, `ks-tanf`, `ks-kancare`, `ks-child-care`, `ks-lieap` | dcf.ks.gov Food/TANF/LIEAP; KanCare via Medical KEES portal; Child Care Assistance |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (FPL/SMI notes only). **Collisions avoided:** India `ar-*` Arunachal unchanged; US Arkansas uses `us-ar-*`. No India `ia-*`/`nv-*`/`ms-*`/`ks-*` collisions (Manipur remains `mn-*` / Minnesota `us-mn-*`).
+
+**Skipped / deferred:** Arkansas ADEQ `adeq.state.ar.us` LIHEAP pages (not `.gov` — used Code of Arkansas Rules LIHEAP Part + DHS CAA network instead); inventing SNAP/TANF/LIHEAP dollar caps; standalone Access Nevada / Access Arkansas portal-only catalogue rows (programs covered individually); Kansas CHIP as separate from KanCare (children covered under KanCare Medicaid pathways; child care added as fifth Kansas row); Iowa dedicated LIHEAP deep-link (covered on HHS Apply for Services).
 
 ## US Wave 6 state deepen (2026-09-17 IST)
 
