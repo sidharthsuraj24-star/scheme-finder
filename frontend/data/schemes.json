@@ -45632,5 +45632,230 @@
       "trump-accounts",
       "tax"
     ]
+  },
+  {
+    "id": "us-coverdell-esa",
+    "scheme_name": {
+      "en": "Coverdell Education Savings Account (ESA) – United States",
+      "ml": "(EN — Malayalam review pending) Coverdell ESA – United States",
+      "hi": "कवर्डेल शिक्षा बचत खाता (ESA) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal tax-advantaged education savings trust/custodial account (IRC §530) for a designated beneficiary’s qualified elementary, secondary, and higher-education expenses. When the account is established, the beneficiary must be under age 18 or be a special-needs beneficiary. Contributions are cash-only, not deductible, and total contributions across all Coverdell ESAs for one beneficiary can’t exceed $2,000 per year. Individual contributors are subject to modified AGI limits; organizations may contribute without an AGI limit.",
+      "ml": "(EN — Malayalam review pending) Federal Coverdell ESA for education; beneficiary generally under 18 when opened ($2,000/year contribution cap).",
+      "hi": "शिक्षा खर्चों के लिए संघीय कर-लाभ बचत खाता। खाता खोलते समय लाभार्थी आमतौर पर 18 वर्ष से कम (विशेष आवश्यकता अपवाद)। प्रति वर्ष कुल योगदान सीमा $2,000।"
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 17,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "IRS Topic 310: designated beneficiary must be under age 18 when the Coverdell ESA is established, or be a special-needs beneficiary (special-needs path not fully encodable — see verify). Not means-tested for the child beneficiary; contributor MAGI phase-outs apply to individual contributors and are not encoded as a household income ceiling. Remaining funds generally must be distributed by age 30 (except special needs). Source: https://www.irs.gov/taxtopics/tc310 (reviewed 2026-09-17).",
+      "verify": true,
+      "verify_notes": "Confirm contributor MAGI limits for the tax year, special-needs beneficiary exceptions, $2,000 aggregate contribution cap, and distribution timing on IRS Topic 310 / Publication 970. Profile age should be the child’s (beneficiary) age, not the parent’s.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tax-free earnings and tax-free distributions when used for qualified education expenses (K–12 and higher ed, subject to IRS rules); annual contribution room up to $2,000 per beneficiary across all Coverdell ESAs.",
+      "ml": "(EN — Malayalam review pending) Tax-free education savings growth/distributions when used for qualified expenses; $2,000/year contribution cap.",
+      "hi": "योग्य शिक्षा खर्चों पर कर-मुक्त आय/वितरण; प्रति लाभार्थी प्रति वर्ष अधिकतम $2,000 योगदान।"
+    },
+    "required_documents": {
+      "en": [
+        "Beneficiary’s SSN/TIN and date of birth",
+        "Account documents designating a Coverdell ESA",
+        "Contributor tax info if MAGI limits apply"
+      ],
+      "ml": [
+        "Beneficiary’s SSN/TIN and date of birth",
+        "Account documents designating a Coverdell ESA",
+        "Contributor tax info if MAGI limits apply"
+      ],
+      "hi": [
+        "लाभार्थी का SSN/TIN और जन्मतिथि",
+        "Coverdell ESA के रूप में नामित खाता दस्तावेज़",
+        "MAGI सीमा लागू हो तो योगदानकर्ता की कर जानकारी"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open a Coverdell ESA with a bank, brokerage, or other trustee that offers them; contributions must be designated as Coverdell ESA contributions. Confirm current IRS rules in Topic 310 and Publication 970 before contributing.",
+      "ml": "(EN — Malayalam review pending) Open via a Coverdell ESA trustee; confirm IRS Topic 310 / Pub. 970.",
+      "hi": "Coverdell ESA देने वाले बैंक/ब्रोकरेज में खाता खोलें। योगदान से पहले IRS Topic 310 / Publication 970 जाँचें।"
+    },
+    "official_source_url": "https://www.irs.gov/taxtopics/tc310",
+    "apply_url": "https://www.irs.gov/taxtopics/tc310",
+    "office_type": "federal",
+    "last_verified": "2026-09-17",
+    "tags": [
+      "united-states",
+      "federal",
+      "children",
+      "education",
+      "savings",
+      "coverdell",
+      "esa",
+      "tax"
+    ]
+  },
+  {
+    "id": "us-529-qtp",
+    "scheme_name": {
+      "en": "529 Qualified Tuition Program (QTP / 529 plan) – United States",
+      "ml": "(EN — Malayalam review pending) 529 QTP – United States",
+      "hi": "529 योग्य ट्यूशन कार्यक्रम (QTP / 529 प्लान) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal tax treatment under IRC §529 for qualified tuition programs (commonly called 529 plans). States (or state agencies/instrumentalities) establish and maintain most QTPs; eligible educational institutions may offer prepaid plans. Earnings grow tax-free and qualified distributions for eligible education expenses are generally tax-free. Contributions are not federally deductible. Plans may also allow limited K–12 tuition, apprenticeship, credentialing, and student-loan repayment uses under current IRS rules.",
+      "ml": "(EN — Malayalam review pending) Federal §529 tax treatment for state 529/QTP education savings or prepaid plans.",
+      "hi": "IRC §529 के तहत संघीय कर उपचार वाले राज्य 529/QTP शिक्षा बचत या प्रीपेड प्लान। योग्य शिक्षा खर्चों पर आम तौर पर कर-मुक्त आय/वितरण।"
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "IRS Topic 313: QTPs are established/maintained by a state (or agency/instrumentality) or, for prepaid only, by eligible educational institutions. No federal means test and no single federal age ceiling for being a designated beneficiary. Contribution limits are set by each program (amount necessary for qualified expenses). State tax deductions/credits vary by state and are not encoded here. Source: https://www.irs.gov/taxtopics/tc313 (reviewed 2026-09-17).",
+      "verify": true,
+      "verify_notes": "Pick a specific state 529/QTP and confirm that plan’s residency rules, fees, contribution limits, and qualified-expense definitions. Federal tax rules: IRS Topic 313 and Publication 970. This catalogue row is the federal QTP framework, not a single state plan.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tax-free earnings growth and generally tax-free qualified distributions for eligible education expenses; possible limited Roth IRA rollover from a long-held 529 under IRS rules; state incentives may apply depending on the plan.",
+      "ml": "(EN — Malayalam review pending) Tax-advantaged education savings via state 529/QTP; confirm plan details.",
+      "hi": "योग्य शिक्षा खर्चों के लिए कर-लाभ बचत; राज्य प्लान के अनुसार अतिरिक्त प्रोत्साहन संभव।"
+    },
+    "required_documents": {
+      "en": [
+        "Beneficiary and account owner identity/SSN or TIN",
+        "Chosen state 529/QTP enrollment forms",
+        "Funding source for contributions"
+      ],
+      "ml": [
+        "Beneficiary and account owner identity/SSN or TIN",
+        "Chosen state 529/QTP enrollment forms",
+        "Funding source for contributions"
+      ],
+      "hi": [
+        "लाभार्थी और खाताधारक की पहचान/SSN या TIN",
+        "चयनित राज्य 529/QTP नामांकन फॉर्म",
+        "योगदान के लिए धन स्रोत"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enroll in a state (or institution) 529/QTP through that program’s official site. Compare plans and confirm federal tax treatment on IRS Topic 313 / Publication 970 before opening or contributing.",
+      "ml": "(EN — Malayalam review pending) Enroll via a state 529/QTP; confirm IRS Topic 313 / Pub. 970.",
+      "hi": "राज्य (या संस्थान) के आधिकारिक 529/QTP पोर्टल पर नामांकन करें। IRS Topic 313 / Publication 970 जाँचें।"
+    },
+    "official_source_url": "https://www.irs.gov/taxtopics/tc313",
+    "apply_url": "https://www.irs.gov/newsroom/529-plans-questions-and-answers",
+    "office_type": "federal",
+    "last_verified": "2026-09-17",
+    "tags": [
+      "united-states",
+      "federal",
+      "education",
+      "savings",
+      "529",
+      "qtp",
+      "tax"
+    ]
+  },
+  {
+    "id": "us-able-accounts",
+    "scheme_name": {
+      "en": "ABLE Account (Achieving a Better Life Experience) – United States",
+      "ml": "(EN — Malayalam review pending) ABLE Account – United States",
+      "hi": "ABLE खाता (Achieving a Better Life Experience) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal tax-favored savings accounts under IRC §529A for eligible individuals who are blind or have a disability. Accounts are established through state ABLE programs. Earnings used for qualified disability expenses are generally tax-free. ABLE balances are generally disregarded for SSI and certain other means-tested federal benefits (subject to SSA rules). One ABLE account per designated beneficiary (with limited exceptions for rollovers/transfers).",
+      "ml": "(EN — Malayalam review pending) Federal §529A ABLE disability savings via state ABLE programs.",
+      "hi": "अंधता/विकलांगता वाले पात्र व्यक्तियों के लिए IRC §529A कर-लाभ बचत खाते (राज्य ABLE कार्यक्रमों के माध्यम से)। योग्य विकलांगता खर्चों पर आम तौर पर कर-मुक्त।"
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "IRS / §529A: eligible individual whose blindness or disability occurred before age 46 for tax years beginning after Dec. 31, 2025 (Secure 2.0; IRS Forms 1099-QA/5498-QA Dec 2026 instructions). Eligibility may be via SSDI/SSI blindness/disability entitlement or a disability certification meeting program rules. Not a general child IRA — disability onset timing is required and not fully encodable from a yes/no disability flag alone. Annual contribution limits are inflation-adjusted (e.g. gift-tax exclusion amount) and vary by year; not encoded as household income. Source: https://www.irs.gov/instructions/i1099qa and Pub. 907 / SSA ABLE materials (reviewed 2026-09-17).",
+      "verify": true,
+      "verify_notes": "Confirm onset-age rule for the current tax year (26 vs 46), disability certification vs SSI/SSDI pathway, annual/cumulative contribution limits, and SSI resource treatment on IRS instructions for Forms 1099-QA/5498-QA, Publication 907, and SSA ABLE pages. Choose a state ABLE program before applying.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tax-favored savings for qualified disability expenses; generally disregarded for SSI eligibility (SSA rules); possible saver’s credit on ABLE contributions if other credit rules are met.",
+      "ml": "(EN — Malayalam review pending) Tax-favored disability savings; often disregarded for SSI — confirm SSA/IRS rules.",
+      "hi": "योग्य विकलांगता खर्चों के लिए कर-लाभ बचत; SSI पात्रता के लिए आमतौर पर अनदेखा (SSA नियम)।"
+    },
+    "required_documents": {
+      "en": [
+        "Proof of disability/blindness pathway (SSI/SSDI or physician disability certification)",
+        "Identity/SSN of designated beneficiary",
+        "Chosen state ABLE program enrollment forms"
+      ],
+      "ml": [
+        "Proof of disability/blindness pathway (SSI/SSDI or physician disability certification)",
+        "Identity/SSN of designated beneficiary",
+        "Chosen state ABLE program enrollment forms"
+      ],
+      "hi": [
+        "विकलांगता/अंधता मार्ग का प्रमाण (SSI/SSDI या चिकित्सक प्रमाणन)",
+        "लाभार्थी की पहचान/SSN",
+        "चयनित राज्य ABLE नामांकन फॉर्म"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Compare and open an account through a state ABLE program. Confirm federal eligibility and contribution limits on IRS Forms 1099-QA/5498-QA instructions and Publication 907; see SSA ABLE spotlights for SSI treatment.",
+      "ml": "(EN — Malayalam review pending) Open via a state ABLE program; confirm IRS Pub. 907 / SSA ABLE rules.",
+      "hi": "राज्य ABLE कार्यक्रम के माध्यम से खाता खोलें। IRS Publication 907 और SSA ABLE पृष्ठों पर पात्रता जाँचें।"
+    },
+    "official_source_url": "https://www.irs.gov/instructions/i1099qa",
+    "apply_url": "https://www.ssa.gov/ssi/spotlights/spot-able.html",
+    "office_type": "federal",
+    "last_verified": "2026-09-17",
+    "tags": [
+      "united-states",
+      "federal",
+      "disability",
+      "savings",
+      "able",
+      "tax"
+    ]
   }
 ]

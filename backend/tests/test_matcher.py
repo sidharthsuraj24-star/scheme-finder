@@ -1476,6 +1476,9 @@ def test_catalogue_includes_non_india_countries(schemes):
         "us-snap",
         "us-ssi",
         "us-trump-accounts",
+        "us-coverdell-esa",
+        "us-529-qtp",
+        "us-able-accounts",
     ):
         assert sid in ids
     countries = set()
@@ -1583,6 +1586,66 @@ def test_us_child_matches_trump_accounts_adult_does_not(schemes):
     assert "us-trump-accounts" not in adult_ids
     trump = next(m for m in match_schemes(schemes, child).matched if m.scheme_id == "us-trump-accounts")
     assert trump.verify is True
+
+
+
+def test_us_child_matches_coverdell_and_529_not_able_without_disability(schemes):
+    """Coverdell ESA matches child beneficiary under 18; 529 QTP matches US profiles; ABLE needs disability."""
+    child = MatchProfile(
+        country="United States",
+        age=10,
+        gender="male",
+        state="California",
+        district="Los Angeles",
+        marital_status="single",
+        annual_income=80000,
+        monthly_household_income=6667,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    disabled = MatchProfile(
+        country="United States",
+        age=22,
+        gender="female",
+        state="Texas",
+        district="Harris",
+        marital_status="single",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=True,
+        disability_percent=60,
+        land_ownership="none",
+    )
+    adult = MatchProfile(
+        country="United States",
+        age=40,
+        gender="male",
+        state="California",
+        district="Los Angeles",
+        marital_status="married",
+        annual_income=80000,
+        monthly_household_income=6667,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    child_ids = _matched_ids(match_schemes(schemes, child))
+    disabled_ids = _matched_ids(match_schemes(schemes, disabled))
+    adult_ids = _matched_ids(match_schemes(schemes, adult))
+    assert "us-coverdell-esa" in child_ids
+    assert "us-coverdell-esa" not in adult_ids
+    assert "us-529-qtp" in child_ids
+    assert "us-529-qtp" in adult_ids
+    assert "us-able-accounts" not in child_ids
+    assert "us-able-accounts" in disabled_ids
+
 
 
 def test_india_profile_does_not_match_us_schemes(schemes, profiles):

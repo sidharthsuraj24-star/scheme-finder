@@ -551,3 +551,9 @@ Skipped: DNH&DD dedicated widow/disability pension eligibility pages not publish
 
 ## US Trump Accounts (2026-09-17)
 - `us-trump-accounts` — https://www.irs.gov/trumpaccounts (also TrumpAccounts.gov / Form 4547). Federal IRA for children under 18; pilot $1,000 for eligible U.S. citizen children born 2025–2028. Not means-tested. Profile age = child beneficiary.
+
+## US federal tax-favored savings accounts (2026-09-17)
+- `us-coverdell-esa` — https://www.irs.gov/taxtopics/tc310 — Coverdell ESA; beneficiary under 18 when established (or special needs).
+- `us-529-qtp` — https://www.irs.gov/taxtopics/tc313 — Federal §529 QTP / 529 plan framework (state-administered plans).
+- `us-able-accounts` — https://www.irs.gov/instructions/i1099qa (+ Pub. 907 / SSA ABLE) — ABLE §529A; disability/blindness onset before age 46 for tax years beginning after Dec. 31, 2025.
+- Skipped: custodial Roth/traditional IRA for minors (general IRA earned-income rules, not a distinct named benefit program); separate federal “baby bonds” (not enacted beyond Trump Accounts); closed SEED OK pilot; state baby-bond programs (CT/DC) left for a later state pass.
