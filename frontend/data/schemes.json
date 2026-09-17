@@ -41125,5 +41125,2104 @@
       "dhhs",
       "ofi"
     ]
+  },
+  {
+    "id": "nh-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – New Hampshire DHHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – New Hampshire DHHS",
+      "hi": "SNAP – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire Department of Health and Human Services administers SNAP. Eligible low-income households apply through NH EASY Gateway to Services for monthly food benefits on an EBT card.",
+      "ml": "New Hampshire Department of Health and Human Services administers SNAP. Eligible low-income households apply through NH EASY Gateway to Services for monthly food benefits on an EBT card.",
+      "hi": "New Hampshire Department of Health and Human Services administers SNAP. Eligible low-income households apply through NH EASY Gateway to Services for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH SNAP via DHHS/BFA: residency and income/resource rules; interview and ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via dhhs.nh.gov SNAP / NH EASY.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible New Hampshire households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible New Hampshire households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible New Hampshire households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Income and resource documentation",
+        "NH EASY / SNAP application"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Income and resource documentation",
+        "NH EASY / SNAP application"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Income and resource documentation",
+        "NH EASY / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at nheasy.nh.gov, by mail/paper Form 800 at a District Office, or call the Customer Service Center; see dhhs.nh.gov SNAP.",
+      "ml": "Apply online at nheasy.nh.gov, by mail/paper Form 800 at a District Office, or call the Customer Service Center; see dhhs.nh.gov SNAP.",
+      "hi": "Apply online at nheasy.nh.gov, by mail/paper Form 800 at a District Office, or call the Customer Service Center; see dhhs.nh.gov SNAP."
+    },
+    "apply_url": "https://nheasy.nh.gov/",
+    "official_source_url": "https://www.dhhs.nh.gov/programs-services/food-meals-assistance/supplemental-nutrition-assistance-program-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "New Hampshire Department of Health and Human Services / Bureau of Family Assistance",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "snap",
+      "food",
+      "dhhs",
+      "nh_easy"
+    ]
+  },
+  {
+    "id": "nh-fanf",
+    "scheme_name": {
+      "en": "FANF / TANF (Financial Assistance to Needy Families) – New Hampshire DHHS",
+      "ml": "FANF / TANF (Financial Assistance to Needy Families) – New Hampshire DHHS",
+      "hi": "FANF / TANF – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire’s TANF program is Financial Assistance to Needy Families (FANF), including pathways such as the New Hampshire Employment Program (NHEP) and Family Assistance Program (FAP). It provides cash assistance to eligible families with dependent children. Apply through NH EASY / DHHS.",
+      "ml": "New Hampshire’s TANF program is Financial Assistance to Needy Families (FANF), including pathways such as the New Hampshire Employment Program (NHEP) and Family Assistance Program (FAP). It provides cash assistance to eligible families with dependent children. Apply through NH EASY / DHHS.",
+      "hi": "New Hampshire’s TANF program is Financial Assistance to Needy Families (FANF), including pathways such as the New Hampshire Employment Program (NHEP) and Family Assistance Program (FAP). It provides cash assistance to eligible families with dependent children. Apply through NH EASY / DHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH FANF/TANF: residency, dependent children, income/resource limits, lifetime month limits, and NHEP work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and work rules change — verify=true via dhhs.nh.gov TANF/FANF / NH EASY.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance (EBT) for eligible New Hampshire families with children (FANF / TANF).",
+      "ml": "Monthly cash assistance (EBT) for eligible New Hampshire families with children (FANF / TANF).",
+      "hi": "Monthly cash assistance (EBT) for eligible New Hampshire families with children (FANF / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "NH EASY / FANF application"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "NH EASY / FANF application"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "NH EASY / FANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at nheasy.nh.gov or use DHHS Application for Assistance (Form 800); see dhhs.nh.gov Temporary Assistance for Needy Families (TANF/FANF).",
+      "ml": "Apply online at nheasy.nh.gov or use DHHS Application for Assistance (Form 800); see dhhs.nh.gov Temporary Assistance for Needy Families (TANF/FANF).",
+      "hi": "Apply online at nheasy.nh.gov or use DHHS Application for Assistance (Form 800); see dhhs.nh.gov Temporary Assistance for Needy Families (TANF/FANF)."
+    },
+    "apply_url": "https://nheasy.nh.gov/",
+    "official_source_url": "https://www.dhhs.nh.gov/temporary-assistance-needy-families-tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "New Hampshire Department of Health and Human Services / Bureau of Family Assistance",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "tanf",
+      "fanf",
+      "cash",
+      "dhhs",
+      "nhep"
+    ]
+  },
+  {
+    "id": "nh-medicaid",
+    "scheme_name": {
+      "en": "New Hampshire Medicaid (Medical Assistance) – NH DHHS",
+      "ml": "New Hampshire Medicaid (Medical Assistance) – NH DHHS",
+      "hi": "Medicaid – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire Medicaid provides medical assistance for eligible children, pregnant people, parents/caretakers, adults, elders, and people with disabilities. Apply through NH EASY or Form 800MA for health coverage.",
+      "ml": "New Hampshire Medicaid provides medical assistance for eligible children, pregnant people, parents/caretakers, adults, elders, and people with disabilities. Apply through NH EASY or Form 800MA for health coverage.",
+      "hi": "New Hampshire Medicaid provides medical assistance for eligible children, pregnant people, parents/caretakers, adults, elders, and people with disabilities. Apply through NH EASY or Form 800MA for health coverage."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH Medicaid: MAGI and non-MAGI pathways; FPL-based income tests by category (CM, PW, adults, etc.). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via dhhs.nh.gov Medicaid / NH EASY.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid / medical assistance health coverage for eligible New Hampshire residents.",
+      "ml": "Medicaid / medical assistance health coverage for eligible New Hampshire residents.",
+      "hi": "Medicaid / medical assistance health coverage for eligible New Hampshire residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Income documentation / household size",
+        "NH EASY or Form 800MA Medicaid application"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Income documentation / household size",
+        "NH EASY or Form 800MA Medicaid application"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Income documentation / household size",
+        "NH EASY or Form 800MA Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at nheasy.nh.gov, use Form 800MA (Medicaid-only), or contact DHHS; see dhhs.nh.gov Medicaid.",
+      "ml": "Apply online at nheasy.nh.gov, use Form 800MA (Medicaid-only), or contact DHHS; see dhhs.nh.gov Medicaid.",
+      "hi": "Apply online at nheasy.nh.gov, use Form 800MA (Medicaid-only), or contact DHHS; see dhhs.nh.gov Medicaid."
+    },
+    "apply_url": "https://nheasy.nh.gov/",
+    "official_source_url": "https://www.dhhs.nh.gov/programs-services/medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "New Hampshire Department of Health and Human Services / Division of Medicaid Services",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "medicaid",
+      "dhhs",
+      "nh_easy"
+    ]
+  },
+  {
+    "id": "nh-liheap",
+    "scheme_name": {
+      "en": "Fuel Assistance Program / LIHEAP (FAP) – New Hampshire Department of Energy",
+      "ml": "Fuel Assistance Program / LIHEAP (FAP) – New Hampshire Department of Energy",
+      "hi": "Fuel Assistance / LIHEAP – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire’s Fuel Assistance Program (FAP) is the state’s LIHEAP program administered by the NH Department of Energy and delivered by local Community Action Agencies. It helps eligible homeowners and renters with heating costs and heating emergencies.",
+      "ml": "New Hampshire’s Fuel Assistance Program (FAP) is the state’s LIHEAP program administered by the NH Department of Energy and delivered by local Community Action Agencies. It helps eligible homeowners and renters with heating costs and heating emergencies.",
+      "hi": "New Hampshire’s Fuel Assistance Program (FAP) is the state’s LIHEAP program administered by the NH Department of Energy and delivered by local Community Action Agencies. It helps eligible homeowners and renters with heating costs and heating emergencies."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH FAP/LIHEAP: income limits by household size (often tied to % of State Median Income); seasonal CAA application. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income charts change — verify=true via energy.nh.gov Fuel Assistance Program.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/fuel costs and related energy assistance for eligible New Hampshire households (FAP / LIHEAP).",
+      "ml": "Help paying heating/fuel costs and related energy assistance for eligible New Hampshire households (FAP / LIHEAP).",
+      "hi": "Help paying heating/fuel costs and related energy assistance for eligible New Hampshire households (FAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "FAP application via local Community Action Agency (seasonal window)"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "FAP application via local Community Action Agency (seasonal window)"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "FAP application via local Community Action Agency (seasonal window)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Community Action Agency (call 211 for referral); see energy.nh.gov Fuel Assistance Program. Official overview is on energy.nh.gov.",
+      "ml": "Apply through your local Community Action Agency (call 211 for referral); see energy.nh.gov Fuel Assistance Program. Official overview is on energy.nh.gov.",
+      "hi": "Apply through your local Community Action Agency (call 211 for referral); see energy.nh.gov Fuel Assistance Program. Official overview is on energy.nh.gov."
+    },
+    "apply_url": "https://www.energy.nh.gov/consumers/help-energy-and-utility-bills/fuel-assistance-program",
+    "official_source_url": "https://www.energy.nh.gov/consumers/help-energy-and-utility-bills/fuel-assistance-program",
+    "last_verified": "2026-09-17",
+    "office_type": "New Hampshire Department of Energy / Community Action Agencies (FAP)",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "liheap",
+      "fap",
+      "fuel",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "nh-eap",
+    "scheme_name": {
+      "en": "Electric Assistance Program (EAP) – New Hampshire Department of Energy",
+      "ml": "Electric Assistance Program (EAP) – New Hampshire Department of Energy",
+      "hi": "Electric Assistance Program – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire’s Electric Assistance Program (EAP) helps eligible residential electric customers of participating utilities (Eversource, Unitil, Liberty, NHEC) reduce monthly electric bills. The NH Department of Energy oversees the program; applications go through local Community Action Agencies.",
+      "ml": "New Hampshire’s Electric Assistance Program (EAP) helps eligible residential electric customers of participating utilities (Eversource, Unitil, Liberty, NHEC) reduce monthly electric bills. The NH Department of Energy oversees the program; applications go through local Community Action Agencies.",
+      "hi": "New Hampshire’s Electric Assistance Program (EAP) helps eligible residential electric customers of participating utilities (Eversource, Unitil, Liberty, NHEC) reduce monthly electric bills. The NH Department of Energy oversees the program; applications go through local Community Action Agencies."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH EAP: income limits by household size (often 60% of NH State Median Income); participating utility customer. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI charts and discount tiers change — verify=true via energy.nh.gov Electric Assistance Program.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Discount on monthly electric bills for eligible New Hampshire households (EAP).",
+      "ml": "Discount on monthly electric bills for eligible New Hampshire households (EAP).",
+      "hi": "Discount on monthly electric bills for eligible New Hampshire households (EAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Electric utility account with a participating NH utility",
+        "EAP application via local Community Action Agency"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Electric utility account with a participating NH utility",
+        "EAP application via local Community Action Agency"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Electric utility account with a participating NH utility",
+        "EAP application via local Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local Community Action Agency to apply; see energy.nh.gov Electric Assistance Program and assistance programs eligibility pages.",
+      "ml": "Contact your local Community Action Agency to apply; see energy.nh.gov Electric Assistance Program and assistance programs eligibility pages.",
+      "hi": "Contact your local Community Action Agency to apply; see energy.nh.gov Electric Assistance Program and assistance programs eligibility pages."
+    },
+    "apply_url": "https://www.energy.nh.gov/consumers/help-energy-and-utility-bills/electric-assistance-program",
+    "official_source_url": "https://www.energy.nh.gov/consumers/help-energy-and-utility-bills/electric-assistance-program",
+    "last_verified": "2026-09-17",
+    "office_type": "New Hampshire Department of Energy / Community Action Agencies (EAP)",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "eap",
+      "electric",
+      "utility",
+      "energy"
+    ]
+  },
+  {
+    "id": "ri-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Rhode Island DHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Rhode Island DHS",
+      "hi": "SNAP – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island Department of Human Services administers SNAP. Eligible low-income households apply through HealthyRhode / RIBridges for monthly food benefits on an EBT card.",
+      "ml": "Rhode Island Department of Human Services administers SNAP. Eligible low-income households apply through HealthyRhode / RIBridges for monthly food benefits on an EBT card.",
+      "hi": "Rhode Island Department of Human Services administers SNAP. Eligible low-income households apply through HealthyRhode / RIBridges for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI SNAP via DHS: residency and income/resource rules; interview may be required. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and COLA rules change — verify=true via dhs.ri.gov SNAP / HealthyRhode.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Rhode Island households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Rhode Island households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Rhode Island households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Income and resource documentation",
+        "HealthyRhode / SNAP application"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Income and resource documentation",
+        "HealthyRhode / SNAP application"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Income and resource documentation",
+        "HealthyRhode / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at healthyrhode.ri.gov, by mail/paper, phone (1-855-697-4347), or in person at a DHS office; see dhs.ri.gov SNAP.",
+      "ml": "Apply online at healthyrhode.ri.gov, by mail/paper, phone (1-855-697-4347), or in person at a DHS office; see dhs.ri.gov SNAP.",
+      "hi": "Apply online at healthyrhode.ri.gov, by mail/paper, phone (1-855-697-4347), or in person at a DHS office; see dhs.ri.gov SNAP."
+    },
+    "apply_url": "https://healthyrhode.ri.gov/",
+    "official_source_url": "https://dhs.ri.gov/programs-and-services/supplemental-nutrition-assistance-program-snap/supplemental-nutrition",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island Department of Human Services",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "snap",
+      "food",
+      "dhs",
+      "healthyrhode"
+    ]
+  },
+  {
+    "id": "ri-works",
+    "scheme_name": {
+      "en": "Rhode Island Works (RI Works / TANF) – Rhode Island DHS",
+      "ml": "Rhode Island Works (RI Works / TANF) – Rhode Island DHS",
+      "hi": "RI Works / TANF – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island Works (RI Works) is Rhode Island’s TANF cash and employment assistance program for low-income parents and families with children (including kinship guardians). Apply through HealthyRhode / DHS.",
+      "ml": "Rhode Island Works (RI Works) is Rhode Island’s TANF cash and employment assistance program for low-income parents and families with children (including kinship guardians). Apply through HealthyRhode / DHS.",
+      "hi": "Rhode Island Works (RI Works) is Rhode Island’s TANF cash and employment assistance program for low-income parents and families with children (including kinship guardians). Apply through HealthyRhode / DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI Works: residency, dependent children, income/asset limits, and employment-plan rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Benefit standards and work rules change — verify=true via dhs.ri.gov RI Works / HealthyRhode.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance and employment/support services for eligible Rhode Island families with children (RI Works).",
+      "ml": "Monthly cash assistance and employment/support services for eligible Rhode Island families with children (RI Works).",
+      "hi": "Monthly cash assistance and employment/support services for eligible Rhode Island families with children (RI Works)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "HealthyRhode / RI Works application"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "HealthyRhode / RI Works application"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "HealthyRhode / RI Works application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at healthyrhode.ri.gov, call 1-855-697-4347, or mail/visit DHS; see dhs.ri.gov Rhode Island Works.",
+      "ml": "Apply online at healthyrhode.ri.gov, call 1-855-697-4347, or mail/visit DHS; see dhs.ri.gov Rhode Island Works.",
+      "hi": "Apply online at healthyrhode.ri.gov, call 1-855-697-4347, or mail/visit DHS; see dhs.ri.gov Rhode Island Works."
+    },
+    "apply_url": "https://healthyrhode.ri.gov/",
+    "official_source_url": "https://dhs.ri.gov/programs-and-services/ri-works-program",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island Department of Human Services",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "tanf",
+      "ri_works",
+      "cash",
+      "dhs"
+    ]
+  },
+  {
+    "id": "ri-medicaid",
+    "scheme_name": {
+      "en": "Rhode Island Medicaid – Rhode Island DHS / EOHHS",
+      "ml": "Rhode Island Medicaid – Rhode Island DHS / EOHHS",
+      "hi": "Medicaid – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island DHS determines eligibility for publicly funded Medicaid pathways (including coverage for elders/adults with disabilities and related options). Apply through HealthyRhode; program details are coordinated with EOHHS.",
+      "ml": "Rhode Island DHS determines eligibility for publicly funded Medicaid pathways (including coverage for elders/adults with disabilities and related options). Apply through HealthyRhode; program details are coordinated with EOHHS.",
+      "hi": "Rhode Island DHS determines eligibility for publicly funded Medicaid pathways (including coverage for elders/adults with disabilities and related options). Apply through HealthyRhode; program details are coordinated with EOHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI Medicaid: multiple pathways (MAGI, EAD, etc.); FPL-based income tests by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and pathway rules change — verify=true via dhs.ri.gov Medicaid / HealthyRhode / staycovered.ri.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible Rhode Island residents (pathways vary by age/disability/family status).",
+      "ml": "Medicaid health coverage for eligible Rhode Island residents (pathways vary by age/disability/family status).",
+      "hi": "Medicaid health coverage for eligible Rhode Island residents (pathways vary by age/disability/family status)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at healthyrhode.ri.gov or via dhs.ri.gov Apply for DHS Benefits; see dhs.ri.gov Medicaid/Medicare Programs and staycovered.ri.gov.",
+      "ml": "Apply online at healthyrhode.ri.gov or via dhs.ri.gov Apply for DHS Benefits; see dhs.ri.gov Medicaid/Medicare Programs and staycovered.ri.gov.",
+      "hi": "Apply online at healthyrhode.ri.gov or via dhs.ri.gov Apply for DHS Benefits; see dhs.ri.gov Medicaid/Medicare Programs and staycovered.ri.gov."
+    },
+    "apply_url": "https://healthyrhode.ri.gov/",
+    "official_source_url": "https://dhs.ri.gov/programs-and-services/medicaid-medicare-programs",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island DHS / Executive Office of Health and Human Services",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "medicaid",
+      "dhs",
+      "eohhs",
+      "healthyrhode"
+    ]
+  },
+  {
+    "id": "ri-rite-care",
+    "scheme_name": {
+      "en": "RIte Care (Medicaid managed care for families/children) – Rhode Island EOHHS",
+      "ml": "RIte Care (Medicaid managed care for families/children) – Rhode Island EOHHS",
+      "hi": "RIte Care – रोड आइलैंड"
+    },
+    "description": {
+      "en": "RIte Care is Rhode Island’s Medicaid managed care program for families with children, pregnant women, and children under age 19. Families choose among participating health plans. Apply through HealthyRhode / DHS.",
+      "ml": "RIte Care is Rhode Island’s Medicaid managed care program for families with children, pregnant women, and children under age 19. Families choose among participating health plans. Apply through HealthyRhode / DHS.",
+      "hi": "RIte Care is Rhode Island’s Medicaid managed care program for families with children, pregnant women, and children under age 19. Families choose among participating health plans. Apply through HealthyRhode / DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RIte Care: income tests by category (parents, pregnant women, children under 19) expressed as % FPL on official pages. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL percentages and plan networks change — verify=true via eohhs.ri.gov RIte Care / HealthyRhode.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "RIte Care / Medicaid managed care health coverage for eligible Rhode Island families, pregnant people, and children under 19.",
+      "ml": "RIte Care / Medicaid managed care health coverage for eligible Rhode Island families, pregnant people, and children under 19.",
+      "hi": "RIte Care / Medicaid managed care health coverage for eligible Rhode Island families, pregnant people, and children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / RIte Care application"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / RIte Care application"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Income documentation / household size",
+        "HealthyRhode / RIte Care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via HealthyRhode, by phone (DHS Call Center 1-855-697-4347), mail, or in person; see eohhs.ri.gov RIte Care.",
+      "ml": "Apply online via HealthyRhode, by phone (DHS Call Center 1-855-697-4347), mail, or in person; see eohhs.ri.gov RIte Care.",
+      "hi": "Apply online via HealthyRhode, by phone (DHS Call Center 1-855-697-4347), mail, or in person; see eohhs.ri.gov RIte Care."
+    },
+    "apply_url": "https://healthyrhode.ri.gov/",
+    "official_source_url": "https://eohhs.ri.gov/Consumer/FamilieswithChildren/RIteCare.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island Executive Office of Health and Human Services / DHS",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "medicaid",
+      "rite_care",
+      "chip",
+      "children",
+      "eohhs"
+    ]
+  },
+  {
+    "id": "ri-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance Program) – Rhode Island DHS",
+      "ml": "LIHEAP (Low Income Home Energy Assistance Program) – Rhode Island DHS",
+      "hi": "LIHEAP – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island LIHEAP helps eligible homeowners and renters with heating costs. DHS administers the program; applications are taken by local Community Action Program (CAP) agencies (seasonal window).",
+      "ml": "Rhode Island LIHEAP helps eligible homeowners and renters with heating costs. DHS administers the program; applications are taken by local Community Action Program (CAP) agencies (seasonal window).",
+      "hi": "Rhode Island LIHEAP helps eligible homeowners and renters with heating costs. DHS administers the program; applications are taken by local Community Action Program (CAP) agencies (seasonal window)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI LIHEAP: gross household income typically at or below 60% of RI State Median Income; seasonal CAP intake. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and SMI charts change — verify=true via dhs.ri.gov LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating costs and related energy assistance for eligible Rhode Island households.",
+      "ml": "Help paying heating costs and related energy assistance for eligible Rhode Island households.",
+      "hi": "Help paying heating costs and related energy assistance for eligible Rhode Island households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local CAP agency (seasonal window)"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local CAP agency (seasonal window)"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Income documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local CAP agency (seasonal window)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Community Action Program agency during the open season (or online options published on the DHS LIHEAP page); see dhs.ri.gov LIHEAP.",
+      "ml": "Apply through your local Community Action Program agency during the open season (or online options published on the DHS LIHEAP page); see dhs.ri.gov LIHEAP.",
+      "hi": "Apply through your local Community Action Program agency during the open season (or online options published on the DHS LIHEAP page); see dhs.ri.gov LIHEAP."
+    },
+    "apply_url": "https://dhs.ri.gov/programs-and-services/energy-assistance-programs-heating/low-income-home-energy-assistance-program",
+    "official_source_url": "https://dhs.ri.gov/programs-and-services/energy-assistance-programs-heating/low-income-home-energy-assistance-program",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island Department of Human Services / Community Action Program agencies",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "liheap",
+      "energy",
+      "utility",
+      "dhs",
+      "cap"
+    ]
+  },
+  {
+    "id": "ri-child-care",
+    "scheme_name": {
+      "en": "Child Care Assistance – Rhode Island DHS",
+      "ml": "Child Care Assistance – Rhode Island DHS",
+      "hi": "Child Care Assistance – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island DHS Child Care Assistance helps eligible families with child care costs so parents/caretakers can work or participate in approved activities. Apply through HealthyRhode / DHS.",
+      "ml": "Rhode Island DHS Child Care Assistance helps eligible families with child care costs so parents/caretakers can work or participate in approved activities. Apply through HealthyRhode / DHS.",
+      "hi": "Rhode Island DHS Child Care Assistance helps eligible families with child care costs so parents/caretakers can work or participate in approved activities. Apply through HealthyRhode / DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI child care assistance: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dhs.ri.gov Child Care / HealthyRhode.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Rhode Island families.",
+      "ml": "Help paying for eligible child care costs for qualifying Rhode Island families.",
+      "hi": "Help paying for eligible child care costs for qualifying Rhode Island families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Rhode Island residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "HealthyRhode / Child Care application"
+      ],
+      "ml": [
+        "Identity and Rhode Island residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "HealthyRhode / Child Care application"
+      ],
+      "hi": [
+        "Identity and Rhode Island residency",
+        "Income and activity documentation",
+        "Child care need / provider information",
+        "HealthyRhode / Child Care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via healthyrhode.ri.gov or dhs.ri.gov Apply for DHS Benefits / Child Care pages; call 1-855-697-4347.",
+      "ml": "Apply via healthyrhode.ri.gov or dhs.ri.gov Apply for DHS Benefits / Child Care pages; call 1-855-697-4347.",
+      "hi": "Apply via healthyrhode.ri.gov or dhs.ri.gov Apply for DHS Benefits / Child Care pages; call 1-855-697-4347."
+    },
+    "apply_url": "https://healthyrhode.ri.gov/",
+    "official_source_url": "https://dhs.ri.gov/programs-and-services/child-care",
+    "last_verified": "2026-09-17",
+    "office_type": "Rhode Island Department of Human Services",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "child_care",
+      "ccdf",
+      "dhs"
+    ]
+  },
+  {
+    "id": "mt-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Montana DPHHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Montana DPHHS",
+      "hi": "SNAP – मोंटाना"
+    },
+    "description": {
+      "en": "Montana Department of Public Health and Human Services (DPHHS) Human & Community Services Division administers SNAP. Eligible low-income households apply through apply.mt.gov / Office of Public Assistance for monthly food benefits.",
+      "ml": "Montana Department of Public Health and Human Services (DPHHS) Human & Community Services Division administers SNAP. Eligible low-income households apply through apply.mt.gov / Office of Public Assistance for monthly food benefits.",
+      "hi": "Montana Department of Public Health and Human Services (DPHHS) Human & Community Services Division administers SNAP. Eligible low-income households apply through apply.mt.gov / Office of Public Assistance for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT SNAP via DPHHS: residency and income/resource rules; ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dphhs.mt.gov SNAP / apply.mt.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Montana households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Montana households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Montana households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "apply.mt.gov / SNAP application"
+      ],
+      "ml": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "apply.mt.gov / SNAP application"
+      ],
+      "hi": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "apply.mt.gov / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.mt.gov, call the Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov SNAP.",
+      "ml": "Apply online at apply.mt.gov, call the Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov SNAP.",
+      "hi": "Apply online at apply.mt.gov, call the Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov SNAP."
+    },
+    "apply_url": "https://apply.mt.gov/access/",
+    "official_source_url": "https://dphhs.mt.gov/hcsd/SNAP",
+    "last_verified": "2026-09-17",
+    "office_type": "Montana DPHHS Human & Community Services Division",
+    "tags": [
+      "united_states",
+      "montana",
+      "snap",
+      "food",
+      "dphhs"
+    ]
+  },
+  {
+    "id": "mt-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Montana DPHHS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Montana DPHHS",
+      "hi": "TANF – मोंटाना"
+    },
+    "description": {
+      "en": "Montana TANF provides monthly cash assistance to eligible low-income families with children who meet income and resource standards. Apply through apply.mt.gov / Office of Public Assistance.",
+      "ml": "Montana TANF provides monthly cash assistance to eligible low-income families with children who meet income and resource standards. Apply through apply.mt.gov / Office of Public Assistance.",
+      "hi": "Montana TANF provides monthly cash assistance to eligible low-income families with children who meet income and resource standards. Apply through apply.mt.gov / Office of Public Assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT TANF: residency, dependent children, income/resource limits, and work-program rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income standards and work rules change — verify=true via dphhs.mt.gov TANF / apply.mt.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Montana families with children (TANF).",
+      "ml": "Monthly cash assistance for eligible Montana families with children (TANF).",
+      "hi": "Monthly cash assistance for eligible Montana families with children (TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Montana residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "apply.mt.gov / TANF application"
+      ],
+      "ml": [
+        "Identity and Montana residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "apply.mt.gov / TANF application"
+      ],
+      "hi": [
+        "Identity and Montana residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "apply.mt.gov / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov TANF.",
+      "ml": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov TANF.",
+      "hi": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov TANF."
+    },
+    "apply_url": "https://apply.mt.gov/access/",
+    "official_source_url": "https://dphhs.mt.gov/hcsd/TANF",
+    "last_verified": "2026-09-17",
+    "office_type": "Montana DPHHS Human & Community Services Division",
+    "tags": [
+      "united_states",
+      "montana",
+      "tanf",
+      "cash",
+      "dphhs"
+    ]
+  },
+  {
+    "id": "mt-medicaid",
+    "scheme_name": {
+      "en": "Montana Medicaid / Montana Healthcare Programs – Montana DPHHS",
+      "ml": "Montana Medicaid / Montana Healthcare Programs – Montana DPHHS",
+      "hi": "Medicaid – मोंटाना"
+    },
+    "description": {
+      "en": "Montana Healthcare Programs / Medicaid provides health coverage for eligible children, pregnant people, adults, elders, and people with disabilities. Eligibility is determined by DPHHS; apply through apply.mt.gov.",
+      "ml": "Montana Healthcare Programs / Medicaid provides health coverage for eligible children, pregnant people, adults, elders, and people with disabilities. Eligibility is determined by DPHHS; apply through apply.mt.gov.",
+      "hi": "Montana Healthcare Programs / Medicaid provides health coverage for eligible children, pregnant people, adults, elders, and people with disabilities. Eligibility is determined by DPHHS; apply through apply.mt.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT Medicaid: multiple coverage groups; FPL-based income tests by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via dphhs.mt.gov Montana Healthcare Programs / apply.mt.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid / Montana Healthcare Programs health coverage for eligible Montana residents.",
+      "ml": "Medicaid / Montana Healthcare Programs health coverage for eligible Montana residents.",
+      "hi": "Medicaid / Montana Healthcare Programs health coverage for eligible Montana residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Montana residency",
+        "Income documentation / household size",
+        "apply.mt.gov / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Montana residency",
+        "Income documentation / household size",
+        "apply.mt.gov / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Montana residency",
+        "Income documentation / household size",
+        "apply.mt.gov / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit an Office of Public Assistance; see dphhs.mt.gov Montana Healthcare Programs.",
+      "ml": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit an Office of Public Assistance; see dphhs.mt.gov Montana Healthcare Programs.",
+      "hi": "Apply online at apply.mt.gov, call 1-888-706-1535, or visit an Office of Public Assistance; see dphhs.mt.gov Montana Healthcare Programs."
+    },
+    "apply_url": "https://apply.mt.gov/access/",
+    "official_source_url": "https://dphhs.mt.gov/MontanaHealthcarePrograms",
+    "last_verified": "2026-09-17",
+    "office_type": "Montana DPHHS / Montana Healthcare Programs",
+    "tags": [
+      "united_states",
+      "montana",
+      "medicaid",
+      "dphhs",
+      "healthcare"
+    ]
+  },
+  {
+    "id": "mt-hmk",
+    "scheme_name": {
+      "en": "Healthy Montana Kids (HMK / CHIP) – Montana DPHHS",
+      "ml": "Healthy Montana Kids (HMK / CHIP) – Montana DPHHS",
+      "hi": "Healthy Montana Kids – मोंटाना"
+    },
+    "description": {
+      "en": "Healthy Montana Kids (HMK) is Montana’s Children’s Health Insurance Program (CHIP), offering free or low-cost coverage for eligible children up to age 19. Apply through apply.mt.gov / Office of Public Assistance.",
+      "ml": "Healthy Montana Kids (HMK) is Montana’s Children’s Health Insurance Program (CHIP), offering free or low-cost coverage for eligible children up to age 19. Apply through apply.mt.gov / Office of Public Assistance.",
+      "hi": "Healthy Montana Kids (HMK) is Montana’s Children’s Health Insurance Program (CHIP), offering free or low-cost coverage for eligible children up to age 19. Apply through apply.mt.gov / Office of Public Assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT HMK/CHIP: children under 19; income tests as % FPL (HMK vs HMK Plus pathways). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and covered services change — verify=true via dphhs.mt.gov HMK / apply.mt.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "HMK / CHIP health coverage (medical, dental, vision, and related services) for eligible Montana children under 19.",
+      "ml": "HMK / CHIP health coverage (medical, dental, vision, and related services) for eligible Montana children under 19.",
+      "hi": "HMK / CHIP health coverage (medical, dental, vision, and related services) for eligible Montana children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Montana residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "apply.mt.gov / HMK application"
+      ],
+      "ml": [
+        "Identity and Montana residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "apply.mt.gov / HMK application"
+      ],
+      "hi": [
+        "Identity and Montana residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "apply.mt.gov / HMK application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.mt.gov, call Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov Healthy Montana Kids.",
+      "ml": "Apply online at apply.mt.gov, call Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov Healthy Montana Kids.",
+      "hi": "Apply online at apply.mt.gov, call Public Assistance Helpline 1-888-706-1535, or visit a local Office of Public Assistance; see dphhs.mt.gov Healthy Montana Kids."
+    },
+    "apply_url": "https://apply.mt.gov/access/",
+    "official_source_url": "https://dphhs.mt.gov/hmk",
+    "last_verified": "2026-09-17",
+    "office_type": "Montana DPHHS / Healthy Montana Kids",
+    "tags": [
+      "united_states",
+      "montana",
+      "chip",
+      "hmk",
+      "children",
+      "dphhs"
+    ]
+  },
+  {
+    "id": "mt-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance Program) – Montana DPHHS",
+      "ml": "LIHEAP (Low Income Home Energy Assistance Program) – Montana DPHHS",
+      "hi": "LIHEAP – मोंटाना"
+    },
+    "description": {
+      "en": "Montana LIHEAP helps eligible homeowners and renters pay part of winter energy bills and may assist with furnace emergencies. Apply through local/Tribal LIHEAP eligibility offices (heating season typically Oct 1–Apr 30). Weatherization is related but separate.",
+      "ml": "Montana LIHEAP helps eligible homeowners and renters pay part of winter energy bills and may assist with furnace emergencies. Apply through local/Tribal LIHEAP eligibility offices (heating season typically Oct 1–Apr 30). Weatherization is related but separate.",
+      "hi": "Montana LIHEAP helps eligible homeowners and renters pay part of winter energy bills and may assist with furnace emergencies. Apply through local/Tribal LIHEAP eligibility offices (heating season typically Oct 1–Apr 30). Weatherization is related but separate."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT LIHEAP: income/resource limits by household size; heating-season application window; SNAP/SSI/TANF households may have categorical pathways. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income/resource charts change — verify=true via dphhs.mt.gov energy assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/energy costs and related crisis assistance for eligible Montana households.",
+      "ml": "Help paying heating/energy costs and related crisis assistance for eligible Montana households.",
+      "hi": "Help paying heating/energy costs and related crisis assistance for eligible Montana households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local eligibility or Tribal LIHEAP office (seasonal window)"
+      ],
+      "ml": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local eligibility or Tribal LIHEAP office (seasonal window)"
+      ],
+      "hi": [
+        "Identity and Montana residency",
+        "Income and resource documentation",
+        "Heating fuel / utility responsibility",
+        "LIHEAP application via local eligibility or Tribal LIHEAP office (seasonal window)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local eligibility office or Tribal LIHEAP office; combined LIHEAP/Weatherization application guidance is on dphhs.mt.gov energy assistance. Public Assistance Helpline 1-888-706-1535 may help with related benefits.",
+      "ml": "Contact your local eligibility office or Tribal LIHEAP office; combined LIHEAP/Weatherization application guidance is on dphhs.mt.gov energy assistance. Public Assistance Helpline 1-888-706-1535 may help with related benefits.",
+      "hi": "Contact your local eligibility office or Tribal LIHEAP office; combined LIHEAP/Weatherization application guidance is on dphhs.mt.gov energy assistance. Public Assistance Helpline 1-888-706-1535 may help with related benefits."
+    },
+    "apply_url": "https://dphhs.mt.gov/hcsd/energyassistance",
+    "official_source_url": "https://dphhs.mt.gov/hcsd/energyassistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Montana DPHHS Human & Community Services Division / local LIHEAP offices",
+    "tags": [
+      "united_states",
+      "montana",
+      "liheap",
+      "energy",
+      "utility",
+      "dphhs"
+    ]
+  },
+  {
+    "id": "de-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program / Food Supplement) – Delaware DSS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program / Food Supplement) – Delaware DSS",
+      "hi": "SNAP – डेलावेयर"
+    },
+    "description": {
+      "en": "Delaware Division of Social Services (DSS) administers SNAP (Food Supplement Program). Eligible low-income households apply through Delaware ASSIST for monthly food benefits on an EBT card.",
+      "ml": "Delaware Division of Social Services (DSS) administers SNAP (Food Supplement Program). Eligible low-income households apply through Delaware ASSIST for monthly food benefits on an EBT card.",
+      "hi": "Delaware Division of Social Services (DSS) administers SNAP (Food Supplement Program). Eligible low-income households apply through Delaware ASSIST for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE SNAP via DSS: residency, citizenship/immigration rules, and income tests (gross limits published as % FPL). ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via dhss.delaware.gov SNAP / ASSIST.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Delaware households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Delaware households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Delaware households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Delaware residency",
+        "Income and household documentation",
+        "ASSIST / SNAP application"
+      ],
+      "ml": [
+        "Identity and Delaware residency",
+        "Income and household documentation",
+        "ASSIST / SNAP application"
+      ],
+      "hi": [
+        "Identity and Delaware residency",
+        "Income and household documentation",
+        "ASSIST / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at assist.dhss.delaware.gov or visit a Delaware State Service Center; see dhss.delaware.gov SNAP.",
+      "ml": "Apply online at assist.dhss.delaware.gov or visit a Delaware State Service Center; see dhss.delaware.gov SNAP.",
+      "hi": "Apply online at assist.dhss.delaware.gov or visit a Delaware State Service Center; see dhss.delaware.gov SNAP."
+    },
+    "apply_url": "https://assist.dhss.delaware.gov/",
+    "official_source_url": "https://dhss.delaware.gov/dss/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Delaware DHSS Division of Social Services",
+    "tags": [
+      "united_states",
+      "delaware",
+      "snap",
+      "food",
+      "dss",
+      "assist"
+    ]
+  },
+  {
+    "id": "de-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – Delaware DSS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – Delaware DSS",
+      "hi": "TANF – डेलावेयर"
+    },
+    "description": {
+      "en": "Delaware TANF is the state’s primary cash assistance program for eligible families with children, with work/activity requirements. Apply through Delaware ASSIST / DSS.",
+      "ml": "Delaware TANF is the state’s primary cash assistance program for eligible families with children, with work/activity requirements. Apply through Delaware ASSIST / DSS.",
+      "hi": "Delaware TANF is the state’s primary cash assistance program for eligible families with children, with work/activity requirements. Apply through Delaware ASSIST / DSS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE TANF: responsibility for a minor child (or late pregnancy pathways), income/resource guidelines, time limits, and work activities. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dhss.delaware.gov TANF / ASSIST.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Delaware families with children (TANF).",
+      "ml": "Monthly cash assistance for eligible Delaware families with children (TANF).",
+      "hi": "Monthly cash assistance for eligible Delaware families with children (TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Delaware residency",
+        "Proof of dependent children / pregnancy as applicable",
+        "Income and resource documentation",
+        "ASSIST / TANF application"
+      ],
+      "ml": [
+        "Identity and Delaware residency",
+        "Proof of dependent children / pregnancy as applicable",
+        "Income and resource documentation",
+        "ASSIST / TANF application"
+      ],
+      "hi": [
+        "Identity and Delaware residency",
+        "Proof of dependent children / pregnancy as applicable",
+        "Income and resource documentation",
+        "ASSIST / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at assist.dhss.delaware.gov, use a paper application, or visit a State Service Center; see dhss.delaware.gov TANF.",
+      "ml": "Apply online at assist.dhss.delaware.gov, use a paper application, or visit a State Service Center; see dhss.delaware.gov TANF.",
+      "hi": "Apply online at assist.dhss.delaware.gov, use a paper application, or visit a State Service Center; see dhss.delaware.gov TANF."
+    },
+    "apply_url": "https://assist.dhss.delaware.gov/",
+    "official_source_url": "https://dhss.delaware.gov/dss/division-of-social-services/temporary-assistance-for-needy-families-tanf/",
+    "last_verified": "2026-09-17",
+    "office_type": "Delaware DHSS Division of Social Services",
+    "tags": [
+      "united_states",
+      "delaware",
+      "tanf",
+      "cash",
+      "dss",
+      "assist"
+    ]
+  },
+  {
+    "id": "de-medicaid",
+    "scheme_name": {
+      "en": "Delaware Medicaid – Delaware DHSS / DMMA",
+      "ml": "Delaware Medicaid – Delaware DHSS / DMMA",
+      "hi": "Medicaid – डेलावेयर"
+    },
+    "description": {
+      "en": "Delaware Medicaid provides health coverage for eligible low-income adults, children, pregnant people, older adults, and people with disabilities. Apply through Delaware ASSIST; DSS/DMMA determine eligibility.",
+      "ml": "Delaware Medicaid provides health coverage for eligible low-income adults, children, pregnant people, older adults, and people with disabilities. Apply through Delaware ASSIST; DSS/DMMA determine eligibility.",
+      "hi": "Delaware Medicaid provides health coverage for eligible low-income adults, children, pregnant people, older adults, and people with disabilities. Apply through Delaware ASSIST; DSS/DMMA determine eligibility."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE Medicaid: multiple coverage groups; FPL-based income tests by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and category rules change — verify=true via dhss.delaware.gov Medicaid/CHIP / ASSIST.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible Delaware residents.",
+      "ml": "Medicaid health coverage for eligible Delaware residents.",
+      "hi": "Medicaid health coverage for eligible Delaware residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Delaware residency",
+        "Income documentation / household size",
+        "ASSIST / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Delaware residency",
+        "Income documentation / household size",
+        "ASSIST / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Delaware residency",
+        "Income documentation / household size",
+        "ASSIST / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at assist.dhss.delaware.gov or contact DSS/DMMA; see dhss.delaware.gov Medicaid/CHIP.",
+      "ml": "Apply online at assist.dhss.delaware.gov or contact DSS/DMMA; see dhss.delaware.gov Medicaid/CHIP.",
+      "hi": "Apply online at assist.dhss.delaware.gov or contact DSS/DMMA; see dhss.delaware.gov Medicaid/CHIP."
+    },
+    "apply_url": "https://assist.dhss.delaware.gov/",
+    "official_source_url": "https://dhss.delaware.gov/dss/services/medicaid-chip/",
+    "last_verified": "2026-09-17",
+    "office_type": "Delaware DHSS / Division of Medicaid & Medical Assistance",
+    "tags": [
+      "united_states",
+      "delaware",
+      "medicaid",
+      "dss",
+      "dmma",
+      "assist"
+    ]
+  },
+  {
+    "id": "de-chip",
+    "scheme_name": {
+      "en": "Delaware Healthy Children Program (DHCP / CHIP) – Delaware DMMA",
+      "ml": "Delaware Healthy Children Program (DHCP / CHIP) – Delaware DMMA",
+      "hi": "Delaware Healthy Children / CHIP – डेलावेयर"
+    },
+    "description": {
+      "en": "The Delaware Healthy Children Program (DHCP) is Delaware’s CHIP coverage for eligible uninsured children under age 19. Apply through Delaware ASSIST.",
+      "ml": "The Delaware Healthy Children Program (DHCP) is Delaware’s CHIP coverage for eligible uninsured children under age 19. Apply through Delaware ASSIST.",
+      "hi": "The Delaware Healthy Children Program (DHCP) is Delaware’s CHIP coverage for eligible uninsured children under age 19. Apply through Delaware ASSIST."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE DHCP/CHIP: uninsured children under 19 meeting income/residency rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and premiums (if any) change — verify=true via dhss.delaware.gov DHCP / ASSIST.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP / Delaware Healthy Children health coverage for eligible Delaware children under 19.",
+      "ml": "CHIP / Delaware Healthy Children health coverage for eligible Delaware children under 19.",
+      "hi": "CHIP / Delaware Healthy Children health coverage for eligible Delaware children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Delaware residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "ASSIST / DHCP application"
+      ],
+      "ml": [
+        "Identity and Delaware residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "ASSIST / DHCP application"
+      ],
+      "hi": [
+        "Identity and Delaware residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "ASSIST / DHCP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at assist.dhss.delaware.gov; see dhss.delaware.gov DMMA Delaware Healthy Children Program.",
+      "ml": "Apply online at assist.dhss.delaware.gov; see dhss.delaware.gov DMMA Delaware Healthy Children Program.",
+      "hi": "Apply online at assist.dhss.delaware.gov; see dhss.delaware.gov DMMA Delaware Healthy Children Program."
+    },
+    "apply_url": "https://assist.dhss.delaware.gov/",
+    "official_source_url": "https://dhss.delaware.gov/dmma/dhcp/",
+    "last_verified": "2026-09-17",
+    "office_type": "Delaware DHSS Division of Medicaid & Medical Assistance",
+    "tags": [
+      "united_states",
+      "delaware",
+      "chip",
+      "dhcp",
+      "children",
+      "dmma",
+      "assist"
+    ]
+  },
+  {
+    "id": "de-liheap",
+    "scheme_name": {
+      "en": "LIHEAP / DEAP (Delaware Energy Assistance Program) – Delaware DSS",
+      "ml": "LIHEAP / DEAP (Delaware Energy Assistance Program) – Delaware DSS",
+      "hi": "LIHEAP / DEAP – डेलावेयर"
+    },
+    "description": {
+      "en": "Delaware’s LIHEAP-funded Delaware Energy Assistance Program (DEAP) helps eligible households with heating and cooling energy costs. Apply through Delaware ASSIST; community partners help administer the program.",
+      "ml": "Delaware’s LIHEAP-funded Delaware Energy Assistance Program (DEAP) helps eligible households with heating and cooling energy costs. Apply through Delaware ASSIST; community partners help administer the program.",
+      "hi": "Delaware’s LIHEAP-funded Delaware Energy Assistance Program (DEAP) helps eligible households with heating and cooling energy costs. Apply through Delaware ASSIST; community partners help administer the program."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE LIHEAP/DEAP: income capped relative to State Median Income on official pages; seasonal/program rules. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and season rules change — verify=true via dhss.delaware.gov utility assistance / ASSIST.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/cooling energy costs for eligible Delaware households (LIHEAP / DEAP).",
+      "ml": "Help paying heating/cooling energy costs for eligible Delaware households (LIHEAP / DEAP).",
+      "hi": "Help paying heating/cooling energy costs for eligible Delaware households (LIHEAP / DEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Delaware residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "ASSIST / LIHEAP application"
+      ],
+      "ml": [
+        "Identity and Delaware residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "ASSIST / LIHEAP application"
+      ],
+      "hi": [
+        "Identity and Delaware residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "ASSIST / LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via assist.dhss.delaware.gov; DSS utility assistance info at dhss.delaware.gov (call 302-255-9875 for LIHEAP questions).",
+      "ml": "Apply via assist.dhss.delaware.gov; DSS utility assistance info at dhss.delaware.gov (call 302-255-9875 for LIHEAP questions).",
+      "hi": "Apply via assist.dhss.delaware.gov; DSS utility assistance info at dhss.delaware.gov (call 302-255-9875 for LIHEAP questions)."
+    },
+    "apply_url": "https://assist.dhss.delaware.gov/",
+    "official_source_url": "https://dhss.delaware.gov/dss/division-of-social-services/utility-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Delaware DHSS Division of Social Services / community partners (DEAP)",
+    "tags": [
+      "united_states",
+      "delaware",
+      "liheap",
+      "deap",
+      "energy",
+      "utility",
+      "dss"
+    ]
+  },
+  {
+    "id": "sd-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – South Dakota DSS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – South Dakota DSS",
+      "hi": "SNAP – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota Department of Social Services administers SNAP. Eligible low-income households apply through SD BEES (eaportal.sd.gov) or paper Economic Assistance applications for monthly food benefits.",
+      "ml": "South Dakota Department of Social Services administers SNAP. Eligible low-income households apply through SD BEES (eaportal.sd.gov) or paper Economic Assistance applications for monthly food benefits.",
+      "hi": "South Dakota Department of Social Services administers SNAP. Eligible low-income households apply through SD BEES (eaportal.sd.gov) or paper Economic Assistance applications for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD SNAP via DSS: residency and income/resource rules; ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dss.sd.gov SNAP / SD BEES.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible South Dakota households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible South Dakota households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible South Dakota households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Income and resource documentation",
+        "SD BEES / SNAP application"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Income and resource documentation",
+        "SD BEES / SNAP application"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Income and resource documentation",
+        "SD BEES / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at eaportal.sd.gov (SD BEES), at a local Social Services office, or by paper application; see dss.sd.gov SNAP.",
+      "ml": "Apply online at eaportal.sd.gov (SD BEES), at a local Social Services office, or by paper application; see dss.sd.gov SNAP.",
+      "hi": "Apply online at eaportal.sd.gov (SD BEES), at a local Social Services office, or by paper application; see dss.sd.gov SNAP."
+    },
+    "apply_url": "https://eaportal.sd.gov/",
+    "official_source_url": "https://dss.sd.gov/economicAssistance/snap.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "snap",
+      "food",
+      "dss",
+      "sd_bees"
+    ]
+  },
+  {
+    "id": "sd-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – South Dakota DSS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – South Dakota DSS",
+      "hi": "TANF – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota TANF provides temporary financial help and job support to eligible low-income families with children. Eligibility is handled by DSS; work components may involve DSS or Department of Labor and Regulation offices.",
+      "ml": "South Dakota TANF provides temporary financial help and job support to eligible low-income families with children. Eligibility is handled by DSS; work components may involve DSS or Department of Labor and Regulation offices.",
+      "hi": "South Dakota TANF provides temporary financial help and job support to eligible low-income families with children. Eligibility is handled by DSS; work components may involve DSS or Department of Labor and Regulation offices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD TANF: families with children under 18 (or under 19 in high school); deprivation/need and income rules; work program participation. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and work rules change — verify=true via dss.sd.gov TANF.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary monthly cash assistance and employment supports for eligible South Dakota families with children (TANF).",
+      "ml": "Temporary monthly cash assistance and employment supports for eligible South Dakota families with children (TANF).",
+      "hi": "Temporary monthly cash assistance and employment supports for eligible South Dakota families with children (TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "Economic Assistance / TANF application (interview required)"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "Economic Assistance / TANF application (interview required)"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "Economic Assistance / TANF application (interview required)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Use the Economic Assistance application (paper) and interview process described on dss.sd.gov TANF; SNAP/Medical may also use SD BEES at eaportal.sd.gov.",
+      "ml": "Use the Economic Assistance application (paper) and interview process described on dss.sd.gov TANF; SNAP/Medical may also use SD BEES at eaportal.sd.gov.",
+      "hi": "Use the Economic Assistance application (paper) and interview process described on dss.sd.gov TANF; SNAP/Medical may also use SD BEES at eaportal.sd.gov."
+    },
+    "apply_url": "https://eaportal.sd.gov/",
+    "official_source_url": "https://dss.sd.gov/economicassistance/tanf.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "tanf",
+      "cash",
+      "dss"
+    ]
+  },
+  {
+    "id": "sd-medicaid",
+    "scheme_name": {
+      "en": "South Dakota Medicaid – South Dakota DSS",
+      "ml": "South Dakota Medicaid – South Dakota DSS",
+      "hi": "Medicaid – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota Medicaid provides health care coverage for people who qualify under coverage groups such as Adult Expansion, low-income families, pregnant women, and other categories. Apply through SD BEES or Economic Assistance applications.",
+      "ml": "South Dakota Medicaid provides health care coverage for people who qualify under coverage groups such as Adult Expansion, low-income families, pregnant women, and other categories. Apply through SD BEES or Economic Assistance applications.",
+      "hi": "South Dakota Medicaid provides health care coverage for people who qualify under coverage groups such as Adult Expansion, low-income families, pregnant women, and other categories. Apply through SD BEES or Economic Assistance applications."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD Medicaid: multiple coverage groups with distinct income tests published as monthly charts by household size. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Coverage-group charts change — verify=true via dss.sd.gov medical programs / SD BEES.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible South Dakota residents (coverage group–specific rules).",
+      "ml": "Medicaid health coverage for eligible South Dakota residents (coverage group–specific rules).",
+      "hi": "Medicaid health coverage for eligible South Dakota residents (coverage group–specific rules)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Income documentation / household size",
+        "SD BEES / Medical Assistance application"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Income documentation / household size",
+        "SD BEES / Medical Assistance application"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Income documentation / household size",
+        "SD BEES / Medical Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at eaportal.sd.gov for Medical Assistance, or use DSS Economic Assistance applications; see dss.sd.gov medical programs.",
+      "ml": "Apply online at eaportal.sd.gov for Medical Assistance, or use DSS Economic Assistance applications; see dss.sd.gov medical programs.",
+      "hi": "Apply online at eaportal.sd.gov for Medical Assistance, or use DSS Economic Assistance applications; see dss.sd.gov medical programs."
+    },
+    "apply_url": "https://eaportal.sd.gov/",
+    "official_source_url": "https://dss.sd.gov/economicassistance/medical_programs.aspx/",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "medicaid",
+      "dss",
+      "sd_bees"
+    ]
+  },
+  {
+    "id": "sd-chip",
+    "scheme_name": {
+      "en": "South Dakota CHIP (Children’s Health Insurance Program) – South Dakota DSS",
+      "ml": "South Dakota CHIP (Children’s Health Insurance Program) – South Dakota DSS",
+      "hi": "CHIP – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota CHIP provides quality health care (including check-ups, dental, and vision) for eligible children and youth under age 19 who are residents of South Dakota. Income guidelines differ for children with vs without private insurance. Apply through SD BEES / DSS medical programs.",
+      "ml": "South Dakota CHIP provides quality health care (including check-ups, dental, and vision) for eligible children and youth under age 19 who are residents of South Dakota. Income guidelines differ for children with vs without private insurance. Apply through SD BEES / DSS medical programs.",
+      "hi": "South Dakota CHIP provides quality health care (including check-ups, dental, and vision) for eligible children and youth under age 19 who are residents of South Dakota. Income guidelines differ for children with vs without private insurance. Apply through SD BEES / DSS medical programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD CHIP: children under 19; separate income charts for insured vs uninsured children on official medical programs page. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts change — verify=true via dss.sd.gov medical programs / SD BEES.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible South Dakota children under 19.",
+      "ml": "CHIP health coverage for eligible South Dakota children under 19.",
+      "hi": "CHIP health coverage for eligible South Dakota children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "SD BEES / CHIP application"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "SD BEES / CHIP application"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Child age under 19",
+        "Income documentation / household size",
+        "SD BEES / CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at eaportal.sd.gov for Medical Assistance / CHIP pathways; see CHIP section on dss.sd.gov medical programs.",
+      "ml": "Apply online at eaportal.sd.gov for Medical Assistance / CHIP pathways; see CHIP section on dss.sd.gov medical programs.",
+      "hi": "Apply online at eaportal.sd.gov for Medical Assistance / CHIP pathways; see CHIP section on dss.sd.gov medical programs."
+    },
+    "apply_url": "https://eaportal.sd.gov/",
+    "official_source_url": "https://dss.sd.gov/economicassistance/medical_programs.aspx/",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "chip",
+      "children",
+      "dss",
+      "sd_bees"
+    ]
+  },
+  {
+    "id": "sd-lieap",
+    "scheme_name": {
+      "en": "LIEAP / Energy Assistance (LIHEAP) – South Dakota DSS",
+      "ml": "LIEAP / Energy Assistance (LIHEAP) – South Dakota DSS",
+      "hi": "LIEAP / Energy Assistance – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota’s Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible households with primary heating costs. Weatherization assistance may also be available through related energy programs. See DSS energy and weatherization assistance pages.",
+      "ml": "South Dakota’s Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible households with primary heating costs. Weatherization assistance may also be available through related energy programs. See DSS energy and weatherization assistance pages.",
+      "hi": "South Dakota’s Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible households with primary heating costs. Weatherization assistance may also be available through related energy programs. See DSS energy and weatherization assistance pages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD LIEAP: income-eligible households; payments often sent to energy suppliers; seasonal rules. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income charts change — verify=true via dss.sd.gov energy and weatherization assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/energy costs for eligible South Dakota households (LIEAP / LIHEAP).",
+      "ml": "Help paying heating/energy costs for eligible South Dakota households (LIEAP / LIHEAP).",
+      "hi": "Help paying heating/energy costs for eligible South Dakota households (LIEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Income documentation (e.g. recent gross income proof)",
+        "Heating bill / energy supplier information",
+        "LIEAP / energy assistance application"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Income documentation (e.g. recent gross income proof)",
+        "Heating bill / energy supplier information",
+        "LIEAP / energy assistance application"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Income documentation (e.g. recent gross income proof)",
+        "Heating bill / energy supplier information",
+        "LIEAP / energy assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow current application instructions on dss.sd.gov Energy and Weatherization Assistance; Energy Assistance helpline 800-233-8503.",
+      "ml": "Follow current application instructions on dss.sd.gov Energy and Weatherization Assistance; Energy Assistance helpline 800-233-8503.",
+      "hi": "Follow current application instructions on dss.sd.gov Energy and Weatherization Assistance; Energy Assistance helpline 800-233-8503."
+    },
+    "apply_url": "https://dss.sd.gov/economicAssistance/energy_weatherization_assistance.aspx",
+    "official_source_url": "https://dss.sd.gov/economicAssistance/energy_weatherization_assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services / Energy Assistance",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "liheap",
+      "lieap",
+      "energy",
+      "utility",
+      "dss"
+    ]
+  },
+  {
+    "id": "sd-child-care",
+    "scheme_name": {
+      "en": "Child Care Assistance – South Dakota DSS",
+      "ml": "Child Care Assistance – South Dakota DSS",
+      "hi": "Child Care Assistance – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota DSS Child Care Assistance helps eligible working or student parents with low income pay for child care. See dss.sd.gov child care for current eligibility and application guidance.",
+      "ml": "South Dakota DSS Child Care Assistance helps eligible working or student parents with low income pay for child care. See dss.sd.gov child care for current eligibility and application guidance.",
+      "hi": "South Dakota DSS Child Care Assistance helps eligible working or student parents with low income pay for child care. See dss.sd.gov child care for current eligibility and application guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD child care assistance: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dss.sd.gov Child Care.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying South Dakota families.",
+      "ml": "Help paying for eligible child care costs for qualifying South Dakota families.",
+      "hi": "Help paying for eligible child care costs for qualifying South Dakota families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Dakota residency",
+        "Income and work/school activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ],
+      "ml": [
+        "Identity and South Dakota residency",
+        "Income and work/school activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ],
+      "hi": [
+        "Identity and South Dakota residency",
+        "Income and work/school activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow instructions on dss.sd.gov Child Care; related economic assistance may also use local DSS offices / SD BEES for other benefits.",
+      "ml": "Follow instructions on dss.sd.gov Child Care; related economic assistance may also use local DSS offices / SD BEES for other benefits.",
+      "hi": "Follow instructions on dss.sd.gov Child Care; related economic assistance may also use local DSS offices / SD BEES for other benefits."
+    },
+    "apply_url": "https://dss.sd.gov/childcare/",
+    "official_source_url": "https://dss.sd.gov/childcare/",
+    "last_verified": "2026-09-17",
+    "office_type": "South Dakota Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "child_care",
+      "ccdf",
+      "dss"
+    ]
   }
 ]

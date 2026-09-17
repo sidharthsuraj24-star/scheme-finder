@@ -2308,3 +2308,85 @@ def test_catalogue_covers_us_wave8_states(schemes):
         "Maine",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 9 state deepen (NH / RI / MT / DE / SD)
+# ---------------------------------------------------------------------------
+
+
+def test_new_hampshire_profile_matches_nh_and_federal_us(schemes):
+    """New Hampshire low-income senior matches nh-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="New Hampshire",
+        district="Hillsborough",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "nh-snap" in ids
+    assert "nh-medicaid" in ids
+    assert "nh-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "ri-snap" not in ids
+    assert "mt-snap" not in ids
+    assert "de-snap" not in ids
+    assert "sd-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_rhode_island_profile_does_not_match_nh_schemes(schemes):
+    """Rhode Island profile must not match New Hampshire-only nh-* schemes; may match ri-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Rhode Island",
+        district="Providence",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    nh_ids = {s["id"] for s in schemes if s["id"].startswith("nh-")}
+    assert ids & nh_ids == set()
+    assert any(e.scheme_id == "nh-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "ri-snap" in ids or "ri-medicaid" in ids or "ri-works" in ids
+    assert "us-snap" in ids
+
+
+def test_catalogue_covers_us_wave9_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "New Hampshire",
+        "Rhode Island",
+        "Montana",
+        "Delaware",
+        "South Dakota",
+    ):
+        assert required in by_state, required

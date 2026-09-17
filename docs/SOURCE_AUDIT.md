@@ -22,6 +22,21 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+
+## United States Wave 9 state deepen (2026-09-17 IST)
+
+Added **27** state-tagged schemes for **New Hampshire, Rhode Island, Montana, Delaware, South Dakota** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (dhhs.nh.gov + energy.nh.gov; dhs.ri.gov + eohhs.ri.gov; dphhs.mt.gov; dhss.delaware.gov; dss.sd.gov). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/SMI notes only). IDs `nh-*`/`ri-*`/`mt-*`/`de-*`/`sd-*` — no India collisions.
+
+| State | IDs | Primary .gov hosts |
+| --- | --- | --- |
+| New Hampshire | nh-snap, nh-fanf, nh-medicaid, nh-liheap, nh-eap | dhhs.nh.gov, energy.nh.gov |
+| Rhode Island | ri-snap, ri-works, ri-medicaid, ri-rite-care, ri-liheap, ri-child-care | dhs.ri.gov, eohhs.ri.gov |
+| Montana | mt-snap, mt-tanf, mt-medicaid, mt-hmk, mt-liheap | dphhs.mt.gov |
+| Delaware | de-snap, de-tanf, de-medicaid, de-chip, de-liheap | dhss.delaware.gov |
+| South Dakota | sd-snap, sd-tanf, sd-medicaid, sd-chip, sd-lieap, sd-child-care | dss.sd.gov |
+
+**Skipped / deferred:** inventing energy-assistance dollar caps; standalone portal-only catalogue rows; non-`.gov` CAA apply microsites as `official_source_url`.
+
 ## United States Wave 8 state deepen (2026-09-17 IST)
 
 Added **25** state-tagged schemes for **New Mexico, Nebraska, Idaho, Hawaii, Maine** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (hca.nm.gov + yes.nm.gov apply; dhhs.ne.gov + iserve.nebraska.gov; healthandwelfare.idaho.gov + idalink.idaho.gov; humanservices.hawaii.gov + medquest.hawaii.gov + pais-benefits.dhs.hawaii.gov; maine.gov/dhhs/ofi + maine.gov/energy for HEAP). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL notes only). IDs `nm-*`/`ne-*`/`id-*`/`hi-*`/`me-*` — no India collisions.
