@@ -43224,5 +43224,2338 @@
       "ccdf",
       "dss"
     ]
+  },
+  {
+    "id": "nd-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – North Dakota HHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – North Dakota HHS",
+      "hi": "SNAP – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota Health and Human Services administers SNAP. Eligible low-income households apply through the Self-Service Portal (SSP) / applyforhelp.nd.gov for monthly food benefits on an EBT card.",
+      "ml": "North Dakota Health and Human Services administers SNAP. Eligible low-income households apply through the Self-Service Portal (SSP) / applyforhelp.nd.gov for monthly food benefits on an EBT card.",
+      "hi": "North Dakota Health and Human Services administers SNAP. Eligible low-income households apply through the Self-Service Portal (SSP) / applyforhelp.nd.gov for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND SNAP via HHS: residency and income/resource rules; interview and ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via hhs.nd.gov/snap / applyforhelp.nd.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible North Dakota households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible North Dakota households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible North Dakota households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and North Dakota residency",
+        "Income and household documentation",
+        "Self-Service Portal / SNAP application"
+      ],
+      "ml": [
+        "Identity and North Dakota residency",
+        "Income and household documentation",
+        "Self-Service Portal / SNAP application"
+      ],
+      "hi": [
+        "Identity and North Dakota residency",
+        "Income and household documentation",
+        "Self-Service Portal / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at applyforhelp.nd.gov (Self-Service Portal), by mail/paper at a Human Service Zone office, or contact the Customer Support Center; see hhs.nd.gov/snap.",
+      "ml": "Apply online at applyforhelp.nd.gov (Self-Service Portal), by mail/paper at a Human Service Zone office, or contact the Customer Support Center; see hhs.nd.gov/snap.",
+      "hi": "Apply online at applyforhelp.nd.gov (Self-Service Portal), by mail/paper at a Human Service Zone office, or contact the Customer Support Center; see hhs.nd.gov/snap."
+    },
+    "apply_url": "https://applyforhelp.nd.gov/",
+    "official_source_url": "https://www.hhs.nd.gov/snap",
+    "last_verified": "2026-09-17",
+    "office_type": "North Dakota Health and Human Services / Economic Assistance",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "snap",
+      "food",
+      "hhs",
+      "ssp"
+    ]
+  },
+  {
+    "id": "nd-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Assistance for Needy Families) – North Dakota HHS",
+      "ml": "TANF (Temporary Assistance for Needy Families) – North Dakota HHS",
+      "hi": "TANF – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota TANF provides cash assistance plus work readiness, training, and job placement (JOBS) for eligible families with dependent children or pregnant applicants. Benefits are issued on an Electronic Payment Card (EPC).",
+      "ml": "North Dakota TANF provides cash assistance plus work readiness, training, and job placement (JOBS) for eligible families with dependent children or pregnant applicants. Benefits are issued on an Electronic Payment Card (EPC).",
+      "hi": "North Dakota TANF provides cash assistance plus work readiness, training, and job placement (JOBS) for eligible families with dependent children or pregnant applicants. Benefits are issued on an Electronic Payment Card (EPC)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND TANF: residency, dependent children/pregnancy, income/resource limits, lifetime month limits, and JOBS work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and JOBS rules change — verify=true via hhs.nd.gov/tanf / applyforhelp.nd.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance (EPC) for eligible North Dakota families with children (TANF).",
+      "ml": "Monthly cash assistance (EPC) for eligible North Dakota families with children (TANF).",
+      "hi": "Monthly cash assistance (EPC) for eligible North Dakota families with children (TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and North Dakota residency",
+        "Proof of dependent children / pregnancy / household composition",
+        "Income and resource documentation",
+        "Self-Service Portal / TANF application"
+      ],
+      "ml": [
+        "Identity and North Dakota residency",
+        "Proof of dependent children / pregnancy / household composition",
+        "Income and resource documentation",
+        "Self-Service Portal / TANF application"
+      ],
+      "hi": [
+        "Identity and North Dakota residency",
+        "Proof of dependent children / pregnancy / household composition",
+        "Income and resource documentation",
+        "Self-Service Portal / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at applyforhelp.nd.gov or use a paper application at a Human Service Zone office / Customer Support Center; see hhs.nd.gov/tanf.",
+      "ml": "Apply online at applyforhelp.nd.gov or use a paper application at a Human Service Zone office / Customer Support Center; see hhs.nd.gov/tanf.",
+      "hi": "Apply online at applyforhelp.nd.gov or use a paper application at a Human Service Zone office / Customer Support Center; see hhs.nd.gov/tanf."
+    },
+    "apply_url": "https://applyforhelp.nd.gov/",
+    "official_source_url": "https://www.hhs.nd.gov/tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "North Dakota Health and Human Services / Economic Assistance",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "tanf",
+      "cash",
+      "jobs",
+      "hhs"
+    ]
+  },
+  {
+    "id": "nd-medicaid",
+    "scheme_name": {
+      "en": "North Dakota Medicaid / Medicaid Expansion – North Dakota HHS",
+      "ml": "North Dakota Medicaid / Medicaid Expansion – North Dakota HHS",
+      "hi": "Medicaid – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota Medicaid is a state and federally funded program that helps pay for health care for qualifying low-income adults, children, pregnant women, older adults, and people with disabilities, including Medicaid Expansion pathways.",
+      "ml": "North Dakota Medicaid is a state and federally funded program that helps pay for health care for qualifying low-income adults, children, pregnant women, older adults, and people with disabilities, including Medicaid Expansion pathways.",
+      "hi": "North Dakota Medicaid is a state and federally funded program that helps pay for health care for qualifying low-income adults, children, pregnant women, older adults, and people with disabilities, including Medicaid Expansion pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND Medicaid/Expansion: categorical and MAGI pathways; income/asset rules vary by group. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility groups and income charts change — verify=true via hhs.nd.gov/healthcare/medicaid.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage / help paying medical costs for eligible North Dakota residents (Medicaid).",
+      "ml": "Health coverage / help paying medical costs for eligible North Dakota residents (Medicaid).",
+      "hi": "Health coverage / help paying medical costs for eligible North Dakota residents (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and North Dakota residency",
+        "Income / household documentation as required",
+        "Medicaid / health coverage application"
+      ],
+      "ml": [
+        "Identity and North Dakota residency",
+        "Income / household documentation as required",
+        "Medicaid / health coverage application"
+      ],
+      "hi": [
+        "Identity and North Dakota residency",
+        "Income / household documentation as required",
+        "Medicaid / health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the Self-Service Portal at applyforhelp.nd.gov or use the Application for Health Care Coverage; see hhs.nd.gov/healthcare/medicaid.",
+      "ml": "Apply online via the Self-Service Portal at applyforhelp.nd.gov or use the Application for Health Care Coverage; see hhs.nd.gov/healthcare/medicaid.",
+      "hi": "Apply online via the Self-Service Portal at applyforhelp.nd.gov or use the Application for Health Care Coverage; see hhs.nd.gov/healthcare/medicaid."
+    },
+    "apply_url": "https://applyforhelp.nd.gov/",
+    "official_source_url": "https://www.hhs.nd.gov/healthcare/medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "North Dakota Health and Human Services / Medical Services",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "medicaid",
+      "health",
+      "hhs"
+    ]
+  },
+  {
+    "id": "nd-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance Program) – North Dakota HHS",
+      "ml": "LIHEAP (Low Income Home Energy Assistance Program) – North Dakota HHS",
+      "hi": "LIHEAP – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota LIHEAP helps eligible households with home heating and related energy costs (and may connect to weatherization, furnace help, cooling assistance, and emergency aid). Applications are accepted year-round via HHS.",
+      "ml": "North Dakota LIHEAP helps eligible households with home heating and related energy costs (and may connect to weatherization, furnace help, cooling assistance, and emergency aid). Applications are accepted year-round via HHS.",
+      "hi": "North Dakota LIHEAP helps eligible households with home heating and related energy costs (and may connect to weatherization, furnace help, cooling assistance, and emergency aid). Applications are accepted year-round via HHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND LIHEAP: income relative to state median income charts; homeowners and renters; tribal LIHEAP may apply on reservations. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and year-round benefit rules change — verify=true via hhs.nd.gov/liheap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/energy costs for eligible North Dakota households (LIHEAP).",
+      "ml": "Help paying heating/energy costs for eligible North Dakota households (LIHEAP).",
+      "hi": "Help paying heating/energy costs for eligible North Dakota households (LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and North Dakota residency",
+        "Income documentation",
+        "Heating bill / lease information as applicable",
+        "Self-Service Portal / LIHEAP application"
+      ],
+      "ml": [
+        "Identity and North Dakota residency",
+        "Income documentation",
+        "Heating bill / lease information as applicable",
+        "Self-Service Portal / LIHEAP application"
+      ],
+      "hi": [
+        "Identity and North Dakota residency",
+        "Income documentation",
+        "Heating bill / lease information as applicable",
+        "Self-Service Portal / LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at applyforhelp.nd.gov, by paper at a Human Service Zone office, or with outreach help (e.g. Community Options); see hhs.nd.gov/liheap.",
+      "ml": "Apply online at applyforhelp.nd.gov, by paper at a Human Service Zone office, or with outreach help (e.g. Community Options); see hhs.nd.gov/liheap.",
+      "hi": "Apply online at applyforhelp.nd.gov, by paper at a Human Service Zone office, or with outreach help (e.g. Community Options); see hhs.nd.gov/liheap."
+    },
+    "apply_url": "https://applyforhelp.nd.gov/",
+    "official_source_url": "https://www.hhs.nd.gov/liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "North Dakota Health and Human Services / Economic Assistance",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "liheap",
+      "energy",
+      "utility",
+      "hhs"
+    ]
+  },
+  {
+    "id": "nd-chip",
+    "scheme_name": {
+      "en": "North Dakota CHIP (Children’s Health Insurance Program) – North Dakota HHS",
+      "ml": "North Dakota CHIP (Children’s Health Insurance Program) – North Dakota HHS",
+      "hi": "CHIP – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota CHIP provides health coverage for uninsured children through the month they turn 19 who live in families with qualifying incomes above Medicaid levels (MAGI up to published FPL charts). Apply through HHS medical coverage applications / SSP.",
+      "ml": "North Dakota CHIP provides health coverage for uninsured children through the month they turn 19 who live in families with qualifying incomes above Medicaid levels (MAGI up to published FPL charts). Apply through HHS medical coverage applications / SSP.",
+      "hi": "North Dakota CHIP provides health coverage for uninsured children through the month they turn 19 who live in families with qualifying incomes above Medicaid levels (MAGI up to published FPL charts). Apply through HHS medical coverage applications / SSP."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND CHIP: uninsured children through month of 19th birthday; MAGI above Medicaid but within published FPL charts. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts change — verify=true via hhs.nd.gov/healthcare/chip.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible uninsured North Dakota children through age 18.",
+      "ml": "CHIP health coverage for eligible uninsured North Dakota children through age 18.",
+      "hi": "CHIP health coverage for eligible uninsured North Dakota children through age 18."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and North Dakota residency",
+        "Child age 18 or younger / uninsured status",
+        "Income documentation / household size",
+        "CHIP / health coverage application"
+      ],
+      "ml": [
+        "Identity and North Dakota residency",
+        "Child age 18 or younger / uninsured status",
+        "Income documentation / household size",
+        "CHIP / health coverage application"
+      ],
+      "hi": [
+        "Identity and North Dakota residency",
+        "Child age 18 or younger / uninsured status",
+        "Income documentation / household size",
+        "CHIP / health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via applyforhelp.nd.gov or Application for Health Care Coverage (SFN 1909) for medical-only; see hhs.nd.gov/healthcare/chip.",
+      "ml": "Apply via applyforhelp.nd.gov or Application for Health Care Coverage (SFN 1909) for medical-only; see hhs.nd.gov/healthcare/chip.",
+      "hi": "Apply via applyforhelp.nd.gov or Application for Health Care Coverage (SFN 1909) for medical-only; see hhs.nd.gov/healthcare/chip."
+    },
+    "apply_url": "https://applyforhelp.nd.gov/",
+    "official_source_url": "https://www.hhs.nd.gov/healthcare/chip",
+    "last_verified": "2026-09-17",
+    "office_type": "North Dakota Health and Human Services / Medical Services",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "chip",
+      "children",
+      "health",
+      "hhs"
+    ]
+  },
+  {
+    "id": "ak-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Alaska DPA",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Alaska DPA",
+      "hi": "SNAP – अलास्का"
+    },
+    "description": {
+      "en": "Alaska Division of Public Assistance administers SNAP. Eligible low-income households receive food benefits on an Alaska Quest card. Apply online through the Alaska Connect portal linked from health.alaska.gov DPA pages.",
+      "ml": "Alaska Division of Public Assistance administers SNAP. Eligible low-income households receive food benefits on an Alaska Quest card. Apply online through the Alaska Connect portal linked from health.alaska.gov DPA pages.",
+      "hi": "Alaska Division of Public Assistance administers SNAP. Eligible low-income households receive food benefits on an Alaska Quest card. Apply online through the Alaska Connect portal linked from health.alaska.gov DPA pages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK SNAP via DPA: residency, income/resource tests, work/ABAWD rules; rural benefit and subsistence rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD rules change — verify=true via health.alaska.gov DPA SNAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Alaska households (via Quest card).",
+      "ml": "Monthly SNAP food benefits for eligible Alaska households (via Quest card).",
+      "hi": "Monthly SNAP food benefits for eligible Alaska households (via Quest card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Income and resource documentation",
+        "Alaska Connect / SNAP application"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Income and resource documentation",
+        "Alaska Connect / SNAP application"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Income and resource documentation",
+        "Alaska Connect / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Alaska Connect (linked from health.alaska.gov DPA SNAP), or submit an Application for Services at a Public Assistance office; call DPA Virtual Contact Center 800-478-7778.",
+      "ml": "Apply online via Alaska Connect (linked from health.alaska.gov DPA SNAP), or submit an Application for Services at a Public Assistance office; call DPA Virtual Contact Center 800-478-7778.",
+      "hi": "Apply online via Alaska Connect (linked from health.alaska.gov DPA SNAP), or submit an Application for Services at a Public Assistance office; call DPA Virtual Contact Center 800-478-7778."
+    },
+    "apply_url": "https://health.alaska.gov/dpa/Pages/snap/default.aspx",
+    "official_source_url": "https://health.alaska.gov/dpa/Pages/snap/default.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Alaska Department of Health / Division of Public Assistance",
+    "tags": [
+      "united_states",
+      "alaska",
+      "snap",
+      "food",
+      "dpa",
+      "quest"
+    ]
+  },
+  {
+    "id": "ak-atap",
+    "scheme_name": {
+      "en": "ATAP / TANF (Alaska Temporary Assistance Program) – Alaska DPA",
+      "ml": "ATAP / TANF (Alaska Temporary Assistance Program) – Alaska DPA",
+      "hi": "ATAP / TANF – अलास्का"
+    },
+    "description": {
+      "en": "Alaska Temporary Assistance Program (ATAP) is Alaska’s TANF program. It provides cash assistance and work services for low-income families with children while they work toward self-sufficiency. Apply through Alaska Connect / DPA.",
+      "ml": "Alaska Temporary Assistance Program (ATAP) is Alaska’s TANF program. It provides cash assistance and work services for low-income families with children while they work toward self-sufficiency. Apply through Alaska Connect / DPA.",
+      "hi": "Alaska Temporary Assistance Program (ATAP) is Alaska’s TANF program. It provides cash assistance and work services for low-income families with children while they work toward self-sufficiency. Apply through Alaska Connect / DPA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK ATAP: countable resource and income limits by family type/size; work-first participation; 60-month limits may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "ATAP income standards and work rules change — verify=true via health.alaska.gov DPA ATAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance and work supports for eligible Alaska families with children (ATAP / TANF).",
+      "ml": "Monthly cash assistance and work supports for eligible Alaska families with children (ATAP / TANF).",
+      "hi": "Monthly cash assistance and work supports for eligible Alaska families with children (ATAP / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Alaska Connect / ATAP application"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Alaska Connect / ATAP application"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Alaska Connect / ATAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Alaska Connect linked from health.alaska.gov DPA ATAP, or at a Public Assistance office; see Temporary Assistance Income and Eligibility standards on the official page.",
+      "ml": "Apply online via Alaska Connect linked from health.alaska.gov DPA ATAP, or at a Public Assistance office; see Temporary Assistance Income and Eligibility standards on the official page.",
+      "hi": "Apply online via Alaska Connect linked from health.alaska.gov DPA ATAP, or at a Public Assistance office; see Temporary Assistance Income and Eligibility standards on the official page."
+    },
+    "apply_url": "https://health.alaska.gov/dpa/Pages/atap/default.aspx",
+    "official_source_url": "https://health.alaska.gov/dpa/Pages/atap/default.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Alaska Department of Health / Division of Public Assistance",
+    "tags": [
+      "united_states",
+      "alaska",
+      "tanf",
+      "atap",
+      "cash",
+      "dpa"
+    ]
+  },
+  {
+    "id": "ak-medicaid",
+    "scheme_name": {
+      "en": "Alaska Medicaid – Alaska DPA / Department of Health",
+      "ml": "Alaska Medicaid – Alaska DPA / Department of Health",
+      "hi": "Medicaid – अलास्का"
+    },
+    "description": {
+      "en": "Alaska Medicaid provides medical coverage to eligible low-income Alaskans, including children, pregnant women, families, adults 19–64 without dependents (expansion), older adults, and people who are blind or disabled. Apply via healthcare.gov or Alaska Connect.",
+      "ml": "Alaska Medicaid provides medical coverage to eligible low-income Alaskans, including children, pregnant women, families, adults 19–64 without dependents (expansion), older adults, and people who are blind or disabled. Apply via healthcare.gov or Alaska Connect.",
+      "hi": "Alaska Medicaid provides medical coverage to eligible low-income Alaskans, including children, pregnant women, families, adults 19–64 without dependents (expansion), older adults, and people who are blind or disabled. Apply via healthcare.gov or Alaska Connect."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK Medicaid: MAGI and non-MAGI pathways; income standards published by DPA. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility standards and community-engagement rules change — verify=true via health.alaska.gov DPA Medicaid.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Alaska residents (Medicaid).",
+      "ml": "Health coverage for eligible Alaska residents (Medicaid).",
+      "hi": "Health coverage for eligible Alaska residents (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Income / household documentation as required",
+        "Medicaid application (Alaska Connect or Healthcare.gov)"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Income / household documentation as required",
+        "Medicaid application (Alaska Connect or Healthcare.gov)"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Income / household documentation as required",
+        "Medicaid application (Alaska Connect or Healthcare.gov)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at healthcare.gov or online via Alaska Connect linked from health.alaska.gov DPA Medicaid; call DPA 800-478-7778 for help.",
+      "ml": "Apply at healthcare.gov or online via Alaska Connect linked from health.alaska.gov DPA Medicaid; call DPA 800-478-7778 for help.",
+      "hi": "Apply at healthcare.gov or online via Alaska Connect linked from health.alaska.gov DPA Medicaid; call DPA 800-478-7778 for help."
+    },
+    "apply_url": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
+    "official_source_url": "https://health.alaska.gov/dpa/Pages/medicaid/default.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Alaska Department of Health / Division of Public Assistance",
+    "tags": [
+      "united_states",
+      "alaska",
+      "medicaid",
+      "health",
+      "dpa"
+    ]
+  },
+  {
+    "id": "ak-hap",
+    "scheme_name": {
+      "en": "Heating Assistance Program (HAP / LIHEAP) – Alaska DPA",
+      "ml": "Heating Assistance Program (HAP / LIHEAP) – Alaska DPA",
+      "hi": "HAP / LIHEAP – अलास्का"
+    },
+    "description": {
+      "en": "Alaska DPA Heating Assistance Programs (HAP) help eligible residents offset home heating costs. Includes federal LIHEAP and the Alaska Affordable Heating Program (AAHP), plus crisis assistance pathways. Seasonal application windows apply.",
+      "ml": "Alaska DPA Heating Assistance Programs (HAP) help eligible residents offset home heating costs. Includes federal LIHEAP and the Alaska Affordable Heating Program (AAHP), plus crisis assistance pathways. Seasonal application windows apply.",
+      "hi": "Alaska DPA Heating Assistance Programs (HAP) help eligible residents offset home heating costs. Includes federal LIHEAP and the Alaska Affordable Heating Program (AAHP), plus crisis assistance pathways. Seasonal application windows apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK HAP/LIHEAP: out-of-pocket heating cost minimum and monthly income limits by household size; seasonal. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income guidelines change — verify=true via health.alaska.gov DPA HAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying home heating costs for eligible Alaska households (HAP / LIHEAP).",
+      "ml": "Help paying home heating costs for eligible Alaska households (HAP / LIHEAP).",
+      "hi": "Help paying home heating costs for eligible Alaska households (HAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Heating cost / fuel information",
+        "Heating Assistance application"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Heating cost / fuel information",
+        "Heating Assistance application"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Heating cost / fuel information",
+        "Heating Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the Heating Assistance Form in person/mail at a Public Assistance office, by fax, or email per health.alaska.gov DPA HAP instructions; seasonal windows typically open after September 1.",
+      "ml": "Submit the Heating Assistance Form in person/mail at a Public Assistance office, by fax, or email per health.alaska.gov DPA HAP instructions; seasonal windows typically open after September 1.",
+      "hi": "Submit the Heating Assistance Form in person/mail at a Public Assistance office, by fax, or email per health.alaska.gov DPA HAP instructions; seasonal windows typically open after September 1."
+    },
+    "apply_url": "https://health.alaska.gov/dpa/Pages/hap/default.aspx",
+    "official_source_url": "https://health.alaska.gov/dpa/Pages/hap/default.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Alaska Department of Health / Division of Public Assistance",
+    "tags": [
+      "united_states",
+      "alaska",
+      "liheap",
+      "hap",
+      "energy",
+      "utility",
+      "dpa"
+    ]
+  },
+  {
+    "id": "ak-child-care",
+    "scheme_name": {
+      "en": "Child Care Assistance – Alaska DPA",
+      "ml": "Child Care Assistance – Alaska DPA",
+      "hi": "Child Care Assistance – अलास्का"
+    },
+    "description": {
+      "en": "Alaska Division of Public Assistance Child Care Assistance helps eligible families with the cost of child care so parents can work or participate in approved activities. See DPA child care pages for current eligibility and how to apply.",
+      "ml": "Alaska Division of Public Assistance Child Care Assistance helps eligible families with the cost of child care so parents can work or participate in approved activities. See DPA child care pages for current eligibility and how to apply.",
+      "hi": "Alaska Division of Public Assistance Child Care Assistance helps eligible families with the cost of child care so parents can work or participate in approved activities. See DPA child care pages for current eligibility and how to apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK child care assistance: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via health.alaska.gov DPA Child Care Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Alaska families.",
+      "ml": "Help paying for eligible child care costs for qualifying Alaska families.",
+      "hi": "Help paying for eligible child care costs for qualifying Alaska families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "Child Care Assistance application as published"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow instructions on health.alaska.gov DPA Child Care Assistance; apply via Alaska Connect / Public Assistance offices as directed.",
+      "ml": "Follow instructions on health.alaska.gov DPA Child Care Assistance; apply via Alaska Connect / Public Assistance offices as directed.",
+      "hi": "Follow instructions on health.alaska.gov DPA Child Care Assistance; apply via Alaska Connect / Public Assistance offices as directed."
+    },
+    "apply_url": "https://health.alaska.gov/dpa/Pages/ccare/default.aspx",
+    "official_source_url": "https://health.alaska.gov/dpa/Pages/ccare/default.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Alaska Department of Health / Division of Public Assistance",
+    "tags": [
+      "united_states",
+      "alaska",
+      "child_care",
+      "ccdf",
+      "dpa"
+    ]
+  },
+  {
+    "id": "vt-snap",
+    "scheme_name": {
+      "en": "3SquaresVT (SNAP) – Vermont DCF",
+      "ml": "3SquaresVT (SNAP) – Vermont DCF",
+      "hi": "3SquaresVT / SNAP – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont’s SNAP program is called 3SquaresVT and is administered by the Department for Children and Families (DCF). Eligible households receive monthly food benefits (EBT or direct deposit for some older SSI households). Apply via myBenefits / DCF.",
+      "ml": "Vermont’s SNAP program is called 3SquaresVT and is administered by the Department for Children and Families (DCF). Eligible households receive monthly food benefits (EBT or direct deposit for some older SSI households). Apply via myBenefits / DCF.",
+      "hi": "Vermont’s SNAP program is called 3SquaresVT and is administered by the Department for Children and Families (DCF). Eligible households receive monthly food benefits (EBT or direct deposit for some older SSI households). Apply via myBenefits / DCF."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT 3SquaresVT: residency and income/resource rules (published FPL charts); interview may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts change — verify=true via dcf.vermont.gov/benefits/3SquaresVT.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly 3SquaresVT (SNAP) food benefits for eligible Vermont households.",
+      "ml": "Monthly 3SquaresVT (SNAP) food benefits for eligible Vermont households.",
+      "hi": "Monthly 3SquaresVT (SNAP) food benefits for eligible Vermont households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Income and household documentation",
+        "3SquaresVT / myBenefits application"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Income and household documentation",
+        "3SquaresVT / myBenefits application"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Income and household documentation",
+        "3SquaresVT / myBenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the myBenefits portal linked from dcf.vermont.gov/benefits/3SquaresVT, by mail, or in person at a district office; Benefits Service Center 1-800-479-6151.",
+      "ml": "Apply online via the myBenefits portal linked from dcf.vermont.gov/benefits/3SquaresVT, by mail, or in person at a district office; Benefits Service Center 1-800-479-6151.",
+      "hi": "Apply online via the myBenefits portal linked from dcf.vermont.gov/benefits/3SquaresVT, by mail, or in person at a district office; Benefits Service Center 1-800-479-6151."
+    },
+    "apply_url": "https://dcf.vermont.gov/benefits/3SquaresVT",
+    "official_source_url": "https://dcf.vermont.gov/benefits/3SquaresVT",
+    "last_verified": "2026-09-17",
+    "office_type": "Vermont Department for Children and Families / Economic Services Division",
+    "tags": [
+      "united_states",
+      "vermont",
+      "snap",
+      "3squaresvt",
+      "food",
+      "dcf"
+    ]
+  },
+  {
+    "id": "vt-reach-up",
+    "scheme_name": {
+      "en": "Reach Up (TANF) – Vermont DCF",
+      "ml": "Reach Up (TANF) – Vermont DCF",
+      "hi": "Reach Up / TANF – वर्मांट"
+    },
+    "description": {
+      "en": "Reach Up is Vermont’s TANF program. It provides monthly cash assistance plus case management to help families with minor dependent children reach education, employment, and stability goals. Apply through DCF / myBenefits.",
+      "ml": "Reach Up is Vermont’s TANF program. It provides monthly cash assistance plus case management to help families with minor dependent children reach education, employment, and stability goals. Apply through DCF / myBenefits.",
+      "hi": "Reach Up is Vermont’s TANF program. It provides monthly cash assistance plus case management to help families with minor dependent children reach education, employment, and stability goals. Apply through DCF / myBenefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT Reach Up: household income/expenses/resources and composition rules; work and child-support cooperation may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and program rules change — verify=true via dcf.vermont.gov/benefits/reachup.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance and case management for eligible Vermont families with children (Reach Up / TANF).",
+      "ml": "Monthly cash assistance and case management for eligible Vermont families with children (Reach Up / TANF).",
+      "hi": "Monthly cash assistance and case management for eligible Vermont families with children (Reach Up / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Reach Up / myBenefits application"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Reach Up / myBenefits application"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Proof of dependent children / household composition",
+        "Income and resource documentation",
+        "Reach Up / myBenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/reachup, by mail, or in person at a district office; interview required.",
+      "ml": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/reachup, by mail, or in person at a district office; interview required.",
+      "hi": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/reachup, by mail, or in person at a district office; interview required."
+    },
+    "apply_url": "https://dcf.vermont.gov/benefits/reachup",
+    "official_source_url": "https://dcf.vermont.gov/benefits/reachup",
+    "last_verified": "2026-09-17",
+    "office_type": "Vermont Department for Children and Families / Economic Services Division",
+    "tags": [
+      "united_states",
+      "vermont",
+      "tanf",
+      "reach_up",
+      "cash",
+      "dcf"
+    ]
+  },
+  {
+    "id": "vt-medicaid",
+    "scheme_name": {
+      "en": "Vermont Medicaid / Dr. Dynasaur – DVHA",
+      "ml": "Vermont Medicaid / Dr. Dynasaur – DVHA",
+      "hi": "Medicaid / Dr. Dynasaur – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont Medicaid (including Dr. Dynasaur for children and pregnant people, and MCA/MABD pathways) provides free or low-cost health coverage administered by the Department of Vermont Health Access (DVHA). Apply through Vermont Health Connect / DVHA.",
+      "ml": "Vermont Medicaid (including Dr. Dynasaur for children and pregnant people, and MCA/MABD pathways) provides free or low-cost health coverage administered by the Department of Vermont Health Access (DVHA). Apply through Vermont Health Connect / DVHA.",
+      "hi": "Vermont Medicaid (including Dr. Dynasaur for children and pregnant people, and MCA/MABD pathways) provides free or low-cost health coverage administered by the Department of Vermont Health Access (DVHA). Apply through Vermont Health Connect / DVHA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT Medicaid/Dr. Dynasaur: MAGI and aged/blind/disabled pathways; income by household size. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility charts change — verify=true via dvha.vermont.gov/members/medicaid / Vermont Health Connect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Vermonters (Medicaid / Dr. Dynasaur pathways).",
+      "ml": "Health coverage for eligible Vermonters (Medicaid / Dr. Dynasaur pathways).",
+      "hi": "Health coverage for eligible Vermonters (Medicaid / Dr. Dynasaur pathways)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Income / household documentation as required",
+        "Vermont Health Connect / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Income / household documentation as required",
+        "Vermont Health Connect / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Income / household documentation as required",
+        "Vermont Health Connect / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Vermont Health Connect (info.healthconnect.vermont.gov / dvha.vermont.gov/apply) or see dvha.vermont.gov/members/medicaid for pathway details; Customer Support 1-855-899-9600.",
+      "ml": "Apply via Vermont Health Connect (info.healthconnect.vermont.gov / dvha.vermont.gov/apply) or see dvha.vermont.gov/members/medicaid for pathway details; Customer Support 1-855-899-9600.",
+      "hi": "Apply via Vermont Health Connect (info.healthconnect.vermont.gov / dvha.vermont.gov/apply) or see dvha.vermont.gov/members/medicaid for pathway details; Customer Support 1-855-899-9600."
+    },
+    "apply_url": "https://dvha.vermont.gov/apply",
+    "official_source_url": "https://dvha.vermont.gov/members/medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "Department of Vermont Health Access (DVHA)",
+    "tags": [
+      "united_states",
+      "vermont",
+      "medicaid",
+      "dr_dynasaur",
+      "health",
+      "dvha"
+    ]
+  },
+  {
+    "id": "vt-fuel",
+    "scheme_name": {
+      "en": "Fuel Assistance (LIHEAP) – Vermont DCF",
+      "ml": "Fuel Assistance (LIHEAP) – Vermont DCF",
+      "hi": "Fuel Assistance / LIHEAP – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont Seasonal Fuel Assistance (LIHEAP-funded) helps eligible households pay part of home heating costs whether they own or rent. Weatherization may also be available for active Fuel Assistance households.",
+      "ml": "Vermont Seasonal Fuel Assistance (LIHEAP-funded) helps eligible households pay part of home heating costs whether they own or rent. Weatherization may also be available for active Fuel Assistance households.",
+      "hi": "Vermont Seasonal Fuel Assistance (LIHEAP-funded) helps eligible households pay part of home heating costs whether they own or rent. Weatherization may also be available for active Fuel Assistance households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT Fuel Assistance: gross income relative to published FPL charts; seasonal. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income charts change — verify=true via dcf.vermont.gov/benefits/fuel.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying home heating costs for eligible Vermont households (Fuel Assistance / LIHEAP).",
+      "ml": "Help paying home heating costs for eligible Vermont households (Fuel Assistance / LIHEAP).",
+      "hi": "Help paying home heating costs for eligible Vermont households (Fuel Assistance / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Heating / fuel household information",
+        "Fuel Assistance application"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Heating / fuel household information",
+        "Fuel Assistance application"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Heating / fuel household information",
+        "Fuel Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/fuel, by mail, or in person; returning households may receive an annual review form. Call 1-800-479-6151.",
+      "ml": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/fuel, by mail, or in person; returning households may receive an annual review form. Call 1-800-479-6151.",
+      "hi": "Apply online via myBenefits linked from dcf.vermont.gov/benefits/fuel, by mail, or in person; returning households may receive an annual review form. Call 1-800-479-6151."
+    },
+    "apply_url": "https://dcf.vermont.gov/benefits/fuel",
+    "official_source_url": "https://dcf.vermont.gov/benefits/fuel",
+    "last_verified": "2026-09-17",
+    "office_type": "Vermont Department for Children and Families / Economic Services Division",
+    "tags": [
+      "united_states",
+      "vermont",
+      "liheap",
+      "fuel",
+      "energy",
+      "utility",
+      "dcf"
+    ]
+  },
+  {
+    "id": "vt-ccfap",
+    "scheme_name": {
+      "en": "Child Care Financial Assistance (CCFAP) – Vermont DCF",
+      "ml": "Child Care Financial Assistance (CCFAP) – Vermont DCF",
+      "hi": "CCFAP – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont Child Care Financial Assistance Program (CCFAP) helps eligible families pay for child care so parents can work or participate in approved activities. Administered by DCF; see official CCFAP page for current eligibility.",
+      "ml": "Vermont Child Care Financial Assistance Program (CCFAP) helps eligible families pay for child care so parents can work or participate in approved activities. Administered by DCF; see official CCFAP page for current eligibility.",
+      "hi": "Vermont Child Care Financial Assistance Program (CCFAP) helps eligible families pay for child care so parents can work or participate in approved activities. Administered by DCF; see official CCFAP page for current eligibility."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT CCFAP: income and activity requirements; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dcf.vermont.gov/benefits/ccfap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying Vermont families (CCFAP).",
+      "ml": "Help paying for eligible child care costs for qualifying Vermont families (CCFAP).",
+      "hi": "Help paying for eligible child care costs for qualifying Vermont families (CCFAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "CCFAP application as published"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "CCFAP application as published"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Income and work/activity documentation",
+        "Child care need / provider information",
+        "CCFAP application as published"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow instructions on dcf.vermont.gov/benefits/ccfap; apply as directed by DCF Child Development Division.",
+      "ml": "Follow instructions on dcf.vermont.gov/benefits/ccfap; apply as directed by DCF Child Development Division.",
+      "hi": "Follow instructions on dcf.vermont.gov/benefits/ccfap; apply as directed by DCF Child Development Division."
+    },
+    "apply_url": "https://dcf.vermont.gov/benefits/ccfap",
+    "official_source_url": "https://dcf.vermont.gov/benefits/ccfap",
+    "last_verified": "2026-09-17",
+    "office_type": "Vermont Department for Children and Families / Child Development Division",
+    "tags": [
+      "united_states",
+      "vermont",
+      "child_care",
+      "ccfap",
+      "ccdf",
+      "dcf"
+    ]
+  },
+  {
+    "id": "wy-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – Wyoming DFS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – Wyoming DFS",
+      "hi": "SNAP – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming Department of Family Services administers SNAP. Eligible low-income households apply with a paper Application for Assistance submitted to a local DFS office (mail/fax/email accepted) for monthly food benefits.",
+      "ml": "Wyoming Department of Family Services administers SNAP. Eligible low-income households apply with a paper Application for Assistance submitted to a local DFS office (mail/fax/email accepted) for monthly food benefits.",
+      "hi": "Wyoming Department of Family Services administers SNAP. Eligible low-income households apply with a paper Application for Assistance submitted to a local DFS office (mail/fax/email accepted) for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY SNAP via DFS: residency and income/resource rules; interview required. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income guidelines change — verify=true via dfs.wyo.gov SNAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Wyoming households.",
+      "ml": "Monthly SNAP food benefits for eligible Wyoming households.",
+      "hi": "Monthly SNAP food benefits for eligible Wyoming households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Income and resource documentation",
+        "DFS Application for Assistance / SNAP"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Income and resource documentation",
+        "DFS Application for Assistance / SNAP"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Income and resource documentation",
+        "DFS Application for Assistance / SNAP"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Download the Application for Assistance from dfs.wyo.gov SNAP pages and submit to a local DFS office, by mail, fax, or email to snappowerservice@wyo.gov; interview required.",
+      "ml": "Download the Application for Assistance from dfs.wyo.gov SNAP pages and submit to a local DFS office, by mail, fax, or email to snappowerservice@wyo.gov; interview required.",
+      "hi": "Download the Application for Assistance from dfs.wyo.gov SNAP pages and submit to a local DFS office, by mail, fax, or email to snappowerservice@wyo.gov; interview required."
+    },
+    "apply_url": "https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/",
+    "official_source_url": "https://dfs.wyo.gov/assistance-programs/food-assistance/supplemental-nutrition-assistance-program-snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Wyoming Department of Family Services",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "snap",
+      "food",
+      "dfs"
+    ]
+  },
+  {
+    "id": "wy-power",
+    "scheme_name": {
+      "en": "POWER / TANF (Personal Opportunities with Employment Responsibilities) – Wyoming DFS",
+      "ml": "POWER / TANF (Personal Opportunities with Employment Responsibilities) – Wyoming DFS",
+      "hi": "POWER / TANF – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming’s TANF cash assistance program is POWER (Personal Opportunities with Employment Responsibilities), including POWER Work and POWER Caretaker Relative pathways for eligible families and relative caregivers. Apply through DFS.",
+      "ml": "Wyoming’s TANF cash assistance program is POWER (Personal Opportunities with Employment Responsibilities), including POWER Work and POWER Caretaker Relative pathways for eligible families and relative caregivers. Apply through DFS.",
+      "hi": "Wyoming’s TANF cash assistance program is POWER (Personal Opportunities with Employment Responsibilities), including POWER Work and POWER Caretaker Relative pathways for eligible families and relative caregivers. Apply through DFS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY POWER/TANF: Work and Caretaker Relative pathways; income/resource and work rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and eligibility rules change — verify=true via dfs.wyo.gov Cash Assistance / POWER.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Wyoming families (POWER / TANF).",
+      "ml": "Monthly cash assistance for eligible Wyoming families (POWER / TANF).",
+      "hi": "Monthly cash assistance for eligible Wyoming families (POWER / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Proof of dependent children / caretaker relative relationship",
+        "Income and resource documentation",
+        "DFS Application for Assistance / POWER"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Proof of dependent children / caretaker relative relationship",
+        "Income and resource documentation",
+        "DFS Application for Assistance / POWER"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Proof of dependent children / caretaker relative relationship",
+        "Income and resource documentation",
+        "DFS Application for Assistance / POWER"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Download the Application for Assistance from dfs.wyo.gov Cash Assistance / POWER pages and contact your local DFS office for an appointment/interview.",
+      "ml": "Download the Application for Assistance from dfs.wyo.gov Cash Assistance / POWER pages and contact your local DFS office for an appointment/interview.",
+      "hi": "Download the Application for Assistance from dfs.wyo.gov Cash Assistance / POWER pages and contact your local DFS office for an appointment/interview."
+    },
+    "apply_url": "https://dfs.wyo.gov/assistance-programs/cash-assistance/",
+    "official_source_url": "https://dfs.wyo.gov/assistance-programs/cash-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Wyoming Department of Family Services",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "tanf",
+      "power",
+      "cash",
+      "dfs"
+    ]
+  },
+  {
+    "id": "wy-medicaid",
+    "scheme_name": {
+      "en": "Wyoming Medicaid – Wyoming Department of Health",
+      "ml": "Wyoming Medicaid – Wyoming Department of Health",
+      "hi": "Medicaid – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming Medicaid helps eligible residents pay for medical services. Apply for Medicaid / Kid Care CHIP through the Wyoming Eligibility System (WES) / Department of Health pathways.",
+      "ml": "Wyoming Medicaid helps eligible residents pay for medical services. Apply for Medicaid / Kid Care CHIP through the Wyoming Eligibility System (WES) / Department of Health pathways.",
+      "hi": "Wyoming Medicaid helps eligible residents pay for medical services. Apply for Medicaid / Kid Care CHIP through the Wyoming Eligibility System (WES) / Department of Health pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY Medicaid: categorical and income pathways; renewals via WES. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility guidelines change — verify=true via health.wyo.gov Healthcare Financing Medicaid / WES.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage / help paying medical costs for eligible Wyoming residents (Medicaid).",
+      "ml": "Health coverage / help paying medical costs for eligible Wyoming residents (Medicaid).",
+      "hi": "Health coverage / help paying medical costs for eligible Wyoming residents (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Income / household documentation as required",
+        "WES / Medicaid application"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Income / household documentation as required",
+        "WES / Medicaid application"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Income / household documentation as required",
+        "WES / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wesystem.wyo.gov, call 1-855-294-2127, or follow instructions on health.wyo.gov Healthcare Financing Medicaid pages.",
+      "ml": "Apply online at wesystem.wyo.gov, call 1-855-294-2127, or follow instructions on health.wyo.gov Healthcare Financing Medicaid pages.",
+      "hi": "Apply online at wesystem.wyo.gov, call 1-855-294-2127, or follow instructions on health.wyo.gov Healthcare Financing Medicaid pages."
+    },
+    "apply_url": "https://health.wyo.gov/healthcarefin/medicaid/",
+    "official_source_url": "https://health.wyo.gov/healthcarefin/medicaid/",
+    "last_verified": "2026-09-17",
+    "office_type": "Wyoming Department of Health / Healthcare Financing",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "medicaid",
+      "health",
+      "wdh",
+      "wes"
+    ]
+  },
+  {
+    "id": "wy-chip",
+    "scheme_name": {
+      "en": "Kid Care CHIP – Wyoming Department of Health",
+      "ml": "Kid Care CHIP – Wyoming Department of Health",
+      "hi": "Kid Care CHIP – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming Kid Care CHIP provides health coverage for eligible children. Apply together with Medicaid pathways through the Wyoming Eligibility System (WES) / Department of Health.",
+      "ml": "Wyoming Kid Care CHIP provides health coverage for eligible children. Apply together with Medicaid pathways through the Wyoming Eligibility System (WES) / Department of Health.",
+      "hi": "Wyoming Kid Care CHIP provides health coverage for eligible children. Apply together with Medicaid pathways through the Wyoming Eligibility System (WES) / Department of Health."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY Kid Care CHIP: children; income charts on official pages. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts change — verify=true via health.wyo.gov Healthcare Financing CHIP / WES.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible Wyoming children (Kid Care CHIP).",
+      "ml": "CHIP health coverage for eligible Wyoming children (Kid Care CHIP).",
+      "hi": "CHIP health coverage for eligible Wyoming children (Kid Care CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WES / Kid Care CHIP application"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WES / Kid Care CHIP application"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WES / Kid Care CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wesystem.wyo.gov or call 1-855-294-2127; see health.wyo.gov Healthcare Financing CHIP pages.",
+      "ml": "Apply online at wesystem.wyo.gov or call 1-855-294-2127; see health.wyo.gov Healthcare Financing CHIP pages.",
+      "hi": "Apply online at wesystem.wyo.gov or call 1-855-294-2127; see health.wyo.gov Healthcare Financing CHIP pages."
+    },
+    "apply_url": "https://health.wyo.gov/healthcarefin/chip/",
+    "official_source_url": "https://health.wyo.gov/healthcarefin/chip/",
+    "last_verified": "2026-09-17",
+    "office_type": "Wyoming Department of Health / Healthcare Financing",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "chip",
+      "kid_care",
+      "children",
+      "wdh"
+    ]
+  },
+  {
+    "id": "wy-lieap",
+    "scheme_name": {
+      "en": "LIEAP / Energy Assistance (LIHEAP) – Wyoming DFS",
+      "ml": "LIEAP / Energy Assistance (LIHEAP) – Wyoming DFS",
+      "hi": "LIEAP – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible residents with winter heating bills, heating emergencies, and connections to weatherization. Seasonal application periods apply; administered by DFS.",
+      "ml": "Wyoming Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible residents with winter heating bills, heating emergencies, and connections to weatherization. Seasonal application periods apply; administered by DFS.",
+      "hi": "Wyoming Low Income Energy Assistance Program (LIEAP; LIHEAP-funded) helps eligible residents with winter heating bills, heating emergencies, and connections to weatherization. Seasonal application periods apply; administered by DFS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY LIEAP: income at or below published share of state median income; seasonal. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates and income charts change — verify=true via dfs.wyo.gov LIEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/energy costs for eligible Wyoming households (LIEAP / LIHEAP).",
+      "ml": "Help paying heating/energy costs for eligible Wyoming households (LIEAP / LIHEAP).",
+      "hi": "Help paying heating/energy costs for eligible Wyoming households (LIEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Income documentation",
+        "Utility / heating bills",
+        "LIEAP application"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Income documentation",
+        "Utility / heating bills",
+        "LIEAP application"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Income documentation",
+        "Utility / heating bills",
+        "LIEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow current season instructions on dfs.wyo.gov LIEAP pages; helpline 800-246-4221 / lieapinfo@wyo.gov. Prefer official .gov guidance over third-party short URLs.",
+      "ml": "Follow current season instructions on dfs.wyo.gov LIEAP pages; helpline 800-246-4221 / lieapinfo@wyo.gov. Prefer official .gov guidance over third-party short URLs.",
+      "hi": "Follow current season instructions on dfs.wyo.gov LIEAP pages; helpline 800-246-4221 / lieapinfo@wyo.gov. Prefer official .gov guidance over third-party short URLs."
+    },
+    "apply_url": "https://dfs.wyo.gov/assistance-programs/home-utilities-energy-assistance/low-income-energy-assistance-program-lieap/",
+    "official_source_url": "https://dfs.wyo.gov/assistance-programs/home-utilities-energy-assistance/low-income-energy-assistance-program-lieap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Wyoming Department of Family Services / LIEAP",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "liheap",
+      "lieap",
+      "energy",
+      "utility",
+      "dfs"
+    ]
+  },
+  {
+    "id": "wv-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – West Virginia BFA / DoHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – West Virginia BFA / DoHS",
+      "hi": "SNAP – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "West Virginia Department of Human Services Bureau for Family Assistance administers SNAP. Eligible households receive monthly food benefits. Apply online through WV PATH (wvpath.wv.gov).",
+      "ml": "West Virginia Department of Human Services Bureau for Family Assistance administers SNAP. Eligible households receive monthly food benefits. Apply online through WV PATH (wvpath.wv.gov).",
+      "hi": "West Virginia Department of Human Services Bureau for Family Assistance administers SNAP. Eligible households receive monthly food benefits. Apply online through WV PATH (wvpath.wv.gov)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV SNAP: household size, income, assets, and deductions per federal rules; ABAWD/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD rules change — verify=true via bfa.wv.gov/snap / WV PATH.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible West Virginia households.",
+      "ml": "Monthly SNAP food benefits for eligible West Virginia households.",
+      "hi": "Monthly SNAP food benefits for eligible West Virginia households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and West Virginia residency",
+        "Income and resource documentation",
+        "WV PATH / SNAP application"
+      ],
+      "ml": [
+        "Identity and West Virginia residency",
+        "Income and resource documentation",
+        "WV PATH / SNAP application"
+      ],
+      "hi": [
+        "Identity and West Virginia residency",
+        "Income and resource documentation",
+        "WV PATH / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wvpath.wv.gov, contact the DoHS Customer Service Center 1-877-716-1212, or visit a local DoHS county office; see bfa.wv.gov/snap.",
+      "ml": "Apply online at wvpath.wv.gov, contact the DoHS Customer Service Center 1-877-716-1212, or visit a local DoHS county office; see bfa.wv.gov/snap.",
+      "hi": "Apply online at wvpath.wv.gov, contact the DoHS Customer Service Center 1-877-716-1212, or visit a local DoHS county office; see bfa.wv.gov/snap."
+    },
+    "apply_url": "https://www.wvpath.wv.gov/application",
+    "official_source_url": "https://bfa.wv.gov/snap",
+    "last_verified": "2026-09-17",
+    "office_type": "West Virginia Department of Human Services / Bureau for Family Assistance",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "snap",
+      "food",
+      "bfa",
+      "wv_path"
+    ]
+  },
+  {
+    "id": "wv-works",
+    "scheme_name": {
+      "en": "WV WORKS (TANF) – West Virginia BFA / DoHS",
+      "ml": "WV WORKS (TANF) – West Virginia BFA / DoHS",
+      "hi": "WV WORKS / TANF – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "WV WORKS is West Virginia’s TANF program. It provides monthly cash assistance to eligible families with children and supports job preparation and self-sufficiency. Apply through WV PATH / DoHS.",
+      "ml": "WV WORKS is West Virginia’s TANF program. It provides monthly cash assistance to eligible families with children and supports job preparation and self-sufficiency. Apply through WV PATH / DoHS.",
+      "hi": "WV WORKS is West Virginia’s TANF program. It provides monthly cash assistance to eligible families with children and supports job preparation and self-sufficiency. Apply through WV PATH / DoHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV WORKS: child under 19 in household; orientation and face-to-face interview; work/participation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and work rules change — verify=true via bfa.wv.gov/wv-works / WV PATH.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible West Virginia families with children (WV WORKS / TANF).",
+      "ml": "Monthly cash assistance for eligible West Virginia families with children (WV WORKS / TANF).",
+      "hi": "Monthly cash assistance for eligible West Virginia families with children (WV WORKS / TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and West Virginia residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "WV PATH / WV WORKS application"
+      ],
+      "ml": [
+        "Identity and West Virginia residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "WV PATH / WV WORKS application"
+      ],
+      "hi": [
+        "Identity and West Virginia residency",
+        "Proof of dependent children / household composition",
+        "Income documentation",
+        "WV PATH / WV WORKS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wvpath.wv.gov or contact your local DoHS office; orientation and interview may be required. See bfa.wv.gov/wv-works.",
+      "ml": "Apply online at wvpath.wv.gov or contact your local DoHS office; orientation and interview may be required. See bfa.wv.gov/wv-works.",
+      "hi": "Apply online at wvpath.wv.gov or contact your local DoHS office; orientation and interview may be required. See bfa.wv.gov/wv-works."
+    },
+    "apply_url": "https://www.wvpath.wv.gov/application",
+    "official_source_url": "https://bfa.wv.gov/wv-works",
+    "last_verified": "2026-09-17",
+    "office_type": "West Virginia Department of Human Services / Bureau for Family Assistance",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "tanf",
+      "wv_works",
+      "cash",
+      "bfa"
+    ]
+  },
+  {
+    "id": "wv-medicaid",
+    "scheme_name": {
+      "en": "West Virginia Medicaid – BMS / DoHS",
+      "ml": "West Virginia Medicaid – BMS / DoHS",
+      "hi": "Medicaid – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "West Virginia Medicaid (Bureau for Medical Services) provides a medical card for eligible residents. Apply online through WV PATH for Medicaid/WVCHIP and other DoHS assistance programs, or via Healthcare.gov / local DoHS offices.",
+      "ml": "West Virginia Medicaid (Bureau for Medical Services) provides a medical card for eligible residents. Apply online through WV PATH for Medicaid/WVCHIP and other DoHS assistance programs, or via Healthcare.gov / local DoHS offices.",
+      "hi": "West Virginia Medicaid (Bureau for Medical Services) provides a medical card for eligible residents. Apply online through WV PATH for Medicaid/WVCHIP and other DoHS assistance programs, or via Healthcare.gov / local DoHS offices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV Medicaid: multiple categorical pathways (children, pregnancy, expansion adults, aged/blind/disabled, SSI). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility pathways change — verify=true via bms.wv.gov / WV PATH.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible West Virginia residents (Medicaid).",
+      "ml": "Health coverage for eligible West Virginia residents (Medicaid).",
+      "hi": "Health coverage for eligible West Virginia residents (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and West Virginia residency",
+        "Income / household documentation as required",
+        "WV PATH / Medicaid application"
+      ],
+      "ml": [
+        "Identity and West Virginia residency",
+        "Income / household documentation as required",
+        "WV PATH / Medicaid application"
+      ],
+      "hi": [
+        "Identity and West Virginia residency",
+        "Income / household documentation as required",
+        "WV PATH / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wvpath.wv.gov (recommended), at Healthcare.gov, or at a local DoHS county office; see bms.wv.gov applying for healthcare.",
+      "ml": "Apply online at wvpath.wv.gov (recommended), at Healthcare.gov, or at a local DoHS county office; see bms.wv.gov applying for healthcare.",
+      "hi": "Apply online at wvpath.wv.gov (recommended), at Healthcare.gov, or at a local DoHS county office; see bms.wv.gov applying for healthcare."
+    },
+    "apply_url": "https://www.wvpath.wv.gov/application",
+    "official_source_url": "https://bms.wv.gov/members/applying-healthcare",
+    "last_verified": "2026-09-17",
+    "office_type": "West Virginia Bureau for Medical Services / Department of Human Services",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "medicaid",
+      "health",
+      "bms",
+      "wv_path"
+    ]
+  },
+  {
+    "id": "wv-lieap",
+    "scheme_name": {
+      "en": "LIEAP / Utility Assistance (LIHEAP) – West Virginia BFA / DoHS",
+      "ml": "LIEAP / Utility Assistance (LIHEAP) – West Virginia BFA / DoHS",
+      "hi": "LIEAP – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "West Virginia LIEAP (LIHEAP-funded) assists eligible households with home heating costs through payments to households or vendors, with a crisis component when open. Seasonal; apply via WV PATH or local DoHS / partner sites.",
+      "ml": "West Virginia LIEAP (LIHEAP-funded) assists eligible households with home heating costs through payments to households or vendors, with a crisis component when open. Seasonal; apply via WV PATH or local DoHS / partner sites.",
+      "hi": "West Virginia LIEAP (LIHEAP-funded) assists eligible households with home heating costs through payments to households or vendors, with a crisis component when open. Seasonal; apply via WV PATH or local DoHS / partner sites."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV LIEAP: seasonal; countable income charts by household size; crisis component when announced. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season opening and income charts change — verify=true via bfa.wv.gov/utility-assistancelieap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/utility costs for eligible West Virginia households (LIEAP / LIHEAP).",
+      "ml": "Help paying heating/utility costs for eligible West Virginia households (LIEAP / LIHEAP).",
+      "hi": "Help paying heating/utility costs for eligible West Virginia households (LIEAP / LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and West Virginia residency",
+        "Income documentation",
+        "Heating / utility information",
+        "LIEAP application during open season"
+      ],
+      "ml": [
+        "Identity and West Virginia residency",
+        "Income documentation",
+        "Heating / utility information",
+        "LIEAP application during open season"
+      ],
+      "hi": [
+        "Identity and West Virginia residency",
+        "Income documentation",
+        "Heating / utility information",
+        "LIEAP application during open season"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wvpath.wv.gov when the season is open, or contact your local DoHS office / Community Action partners; see bfa.wv.gov/utility-assistancelieap.",
+      "ml": "Apply online at wvpath.wv.gov when the season is open, or contact your local DoHS office / Community Action partners; see bfa.wv.gov/utility-assistancelieap.",
+      "hi": "Apply online at wvpath.wv.gov when the season is open, or contact your local DoHS office / Community Action partners; see bfa.wv.gov/utility-assistancelieap."
+    },
+    "apply_url": "https://www.wvpath.wv.gov/application",
+    "official_source_url": "https://bfa.wv.gov/utility-assistancelieap",
+    "last_verified": "2026-09-17",
+    "office_type": "West Virginia Department of Human Services / Bureau for Family Assistance",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "liheap",
+      "lieap",
+      "energy",
+      "utility",
+      "bfa"
+    ]
+  },
+  {
+    "id": "wv-chip",
+    "scheme_name": {
+      "en": "WVCHIP (West Virginia Children’s Health Insurance Program) – BMS",
+      "ml": "WVCHIP (West Virginia Children’s Health Insurance Program) – BMS",
+      "hi": "WVCHIP – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "WVCHIP provides medical coverage for eligible children and related pathways in West Virginia. Apply through WV PATH alongside Medicaid, or see chip.wv.gov / BMS applying-for-healthcare guidance.",
+      "ml": "WVCHIP provides medical coverage for eligible children and related pathways in West Virginia. Apply through WV PATH alongside Medicaid, or see chip.wv.gov / BMS applying-for-healthcare guidance.",
+      "hi": "WVCHIP provides medical coverage for eligible children and related pathways in West Virginia. Apply through WV PATH alongside Medicaid, or see chip.wv.gov / BMS applying-for-healthcare guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WVCHIP: children/working families pathways; income charts on official pages. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts change — verify=true via chip.wv.gov / WV PATH.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible West Virginia children (WVCHIP).",
+      "ml": "CHIP health coverage for eligible West Virginia children (WVCHIP).",
+      "hi": "CHIP health coverage for eligible West Virginia children (WVCHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and West Virginia residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WV PATH / WVCHIP application"
+      ],
+      "ml": [
+        "Identity and West Virginia residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WV PATH / WVCHIP application"
+      ],
+      "hi": [
+        "Identity and West Virginia residency",
+        "Child age / household documentation",
+        "Income documentation",
+        "WV PATH / WVCHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at wvpath.wv.gov or follow chip.wv.gov / BMS instructions; Healthcare.gov is also an option for some pathways.",
+      "ml": "Apply online at wvpath.wv.gov or follow chip.wv.gov / BMS instructions; Healthcare.gov is also an option for some pathways.",
+      "hi": "Apply online at wvpath.wv.gov or follow chip.wv.gov / BMS instructions; Healthcare.gov is also an option for some pathways."
+    },
+    "apply_url": "https://www.wvpath.wv.gov/application",
+    "official_source_url": "https://chip.wv.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "West Virginia Bureau for Medical Services / WVCHIP",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "chip",
+      "wvchip",
+      "children",
+      "bms"
+    ]
+  },
+  {
+    "id": "dc-snap",
+    "scheme_name": {
+      "en": "SNAP (Supplemental Nutrition Assistance Program) – District of Columbia DHS",
+      "ml": "SNAP (Supplemental Nutrition Assistance Program) – District of Columbia DHS",
+      "hi": "SNAP – डिस्ट्रिक्ट ऑफ कोलंबिया"
+    },
+    "description": {
+      "en": "DC Department of Human Services administers SNAP (formerly Food Stamps). Eligible low-income individuals and families receive monthly benefits on an EBT card. Apply through District Direct / DHS ESA.",
+      "ml": "DC Department of Human Services administers SNAP (formerly Food Stamps). Eligible low-income individuals and families receive monthly benefits on an EBT card. Apply through District Direct / DHS ESA.",
+      "hi": "DC Department of Human Services administers SNAP (formerly Food Stamps). Eligible low-income individuals and families receive monthly benefits on an EBT card. Apply through District Direct / DHS ESA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC SNAP via DHS: residency and income/expense rules; ABAWD work requirements may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD rules change — verify=true via dhs.dc.gov SNAP / District Direct.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible District of Columbia households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible District of Columbia households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible District of Columbia households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and District of Columbia residency",
+        "Income and household documentation",
+        "District Direct / SNAP application"
+      ],
+      "ml": [
+        "Identity and District of Columbia residency",
+        "Income and household documentation",
+        "District Direct / SNAP application"
+      ],
+      "hi": [
+        "Identity and District of Columbia residency",
+        "Income and household documentation",
+        "District Direct / SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at districtdirect.dc.gov or via DHS ESA Service Centers / Public Benefits Call Center 202-727-5355; see dhs.dc.gov SNAP.",
+      "ml": "Apply online at districtdirect.dc.gov or via DHS ESA Service Centers / Public Benefits Call Center 202-727-5355; see dhs.dc.gov SNAP.",
+      "hi": "Apply online at districtdirect.dc.gov or via DHS ESA Service Centers / Public Benefits Call Center 202-727-5355; see dhs.dc.gov SNAP."
+    },
+    "apply_url": "https://districtdirect.dc.gov/",
+    "official_source_url": "https://dhs.dc.gov/service/supplemental-nutrition-assistance-program-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "District of Columbia Department of Human Services / Economic Security Administration",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "snap",
+      "food",
+      "dhs",
+      "district_direct"
+    ]
+  },
+  {
+    "id": "dc-tanf",
+    "scheme_name": {
+      "en": "TANF (Temporary Cash Assistance for Needy Families) – District of Columbia DHS",
+      "ml": "TANF (Temporary Cash Assistance for Needy Families) – District of Columbia DHS",
+      "hi": "TANF – डिस्ट्रिक्ट ऑफ कोलंबिया"
+    },
+    "description": {
+      "en": "DC TANF provides cash assistance and supportive services (employment/education coaching, child care subsidy pathways, and related supports) for income-eligible District families with a child in the home. Apply through District Direct / DHS.",
+      "ml": "DC TANF provides cash assistance and supportive services (employment/education coaching, child care subsidy pathways, and related supports) for income-eligible District families with a child in the home. Apply through District Direct / DHS.",
+      "hi": "DC TANF provides cash assistance and supportive services (employment/education coaching, child care subsidy pathways, and related supports) for income-eligible District families with a child in the home. Apply through District Direct / DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC TANF: DC residency, child/pregnancy, income and resource rules; work engagement / IRP unless exempt. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Payment standards and program reforms change — verify=true via dhs.dc.gov TANF / District Direct.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance and supportive services for eligible DC families with children (TANF).",
+      "ml": "Monthly cash assistance and supportive services for eligible DC families with children (TANF).",
+      "hi": "Monthly cash assistance and supportive services for eligible DC families with children (TANF)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and District of Columbia residency",
+        "Proof of pregnancy or child under 19 in the home",
+        "Income documentation",
+        "District Direct / TANF application"
+      ],
+      "ml": [
+        "Identity and District of Columbia residency",
+        "Proof of pregnancy or child under 19 in the home",
+        "Income documentation",
+        "District Direct / TANF application"
+      ],
+      "hi": [
+        "Identity and District of Columbia residency",
+        "Proof of pregnancy or child under 19 in the home",
+        "Income documentation",
+        "District Direct / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at districtdirect.dc.gov or at a DHS ESA Service Center; Office of Work Opportunity orientation/assessment and Individual Responsibility Plan may be required. See dhs.dc.gov TANF.",
+      "ml": "Apply online at districtdirect.dc.gov or at a DHS ESA Service Center; Office of Work Opportunity orientation/assessment and Individual Responsibility Plan may be required. See dhs.dc.gov TANF.",
+      "hi": "Apply online at districtdirect.dc.gov or at a DHS ESA Service Center; Office of Work Opportunity orientation/assessment and Individual Responsibility Plan may be required. See dhs.dc.gov TANF."
+    },
+    "apply_url": "https://districtdirect.dc.gov/",
+    "official_source_url": "https://dhs.dc.gov/service/temporary-cash-assistance-needy-families-tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "District of Columbia Department of Human Services / Economic Security Administration",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "tanf",
+      "cash",
+      "dhs",
+      "district_direct"
+    ]
+  },
+  {
+    "id": "dc-medicaid",
+    "scheme_name": {
+      "en": "DC Medicaid – Department of Health Care Finance (DHCF)",
+      "ml": "DC Medicaid – Department of Health Care Finance (DHCF)",
+      "hi": "Medicaid – डिस्ट्रिक्ट ऑफ कोलंबिया"
+    },
+    "description": {
+      "en": "DC Medicaid pays for medical services for qualified low-income and disabled District residents. Apply through DHS ESA / District Direct pathways and DHCF guidance.",
+      "ml": "DC Medicaid pays for medical services for qualified low-income and disabled District residents. Apply through DHS ESA / District Direct pathways and DHCF guidance.",
+      "hi": "DC Medicaid pays for medical services for qualified low-income and disabled District residents. Apply through DHS ESA / District Direct pathways and DHCF guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC Medicaid: multiple eligibility pathways; income rules vary by group. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility rules change — verify=true via dhcf.dc.gov/service/medicaid / District Direct.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible District of Columbia residents (DC Medicaid).",
+      "ml": "Health coverage for eligible District of Columbia residents (DC Medicaid).",
+      "hi": "Health coverage for eligible District of Columbia residents (DC Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and District of Columbia residency",
+        "Income / household documentation as required",
+        "District Direct / Medicaid application"
+      ],
+      "ml": [
+        "Identity and District of Columbia residency",
+        "Income / household documentation as required",
+        "District Direct / Medicaid application"
+      ],
+      "hi": [
+        "Identity and District of Columbia residency",
+        "Income / household documentation as required",
+        "District Direct / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via districtdirect.dc.gov or at a DHS ESA Service Center (call 202-727-5355 for locations); see dhcf.dc.gov/service/medicaid.",
+      "ml": "Apply via districtdirect.dc.gov or at a DHS ESA Service Center (call 202-727-5355 for locations); see dhcf.dc.gov/service/medicaid.",
+      "hi": "Apply via districtdirect.dc.gov or at a DHS ESA Service Center (call 202-727-5355 for locations); see dhcf.dc.gov/service/medicaid."
+    },
+    "apply_url": "https://districtdirect.dc.gov/",
+    "official_source_url": "https://dhcf.dc.gov/service/medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "District of Columbia Department of Health Care Finance / DHS ESA",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "medicaid",
+      "health",
+      "dhcf",
+      "dhs"
+    ]
+  },
+  {
+    "id": "dc-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low Income Home Energy Assistance Program) – DC DOEE",
+      "ml": "LIHEAP (Low Income Home Energy Assistance Program) – DC DOEE",
+      "hi": "LIHEAP – डिस्ट्रिक्ट ऑफ कोलंबिया"
+    },
+    "description": {
+      "en": "DC Department of Energy & Environment (DOEE) administers LIHEAP to help income-eligible District households with heating and cooling energy costs, including crisis/emergency pathways when available. Apply only through DOEE.",
+      "ml": "DC Department of Energy & Environment (DOEE) administers LIHEAP to help income-eligible District households with heating and cooling energy costs, including crisis/emergency pathways when available. Apply only through DOEE.",
+      "hi": "DC Department of Energy & Environment (DOEE) administers LIHEAP to help income-eligible District households with heating and cooling energy costs, including crisis/emergency pathways when available. Apply only through DOEE."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC LIHEAP via DOEE: income guidelines by household size; seasonal/fiscal-year open/close. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Open/close status and income guidelines change — verify=true via doee.dc.gov/liheap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying energy/utility costs for eligible DC households (LIHEAP).",
+      "ml": "Help paying energy/utility costs for eligible DC households (LIHEAP).",
+      "hi": "Help paying energy/utility costs for eligible DC households (LIHEAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Government-issued photo ID",
+        "Recent utility bills (e.g. Pepco / Washington Gas / DC Water)",
+        "Proof of income for household members",
+        "LIHEAP application to DOEE"
+      ],
+      "ml": [
+        "Government-issued photo ID",
+        "Recent utility bills (e.g. Pepco / Washington Gas / DC Water)",
+        "Proof of income for household members",
+        "LIHEAP application to DOEE"
+      ],
+      "hi": [
+        "Government-issued photo ID",
+        "Recent utility bills (e.g. Pepco / Washington Gas / DC Water)",
+        "Proof of income for household members",
+        "LIHEAP application to DOEE"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online or by mail to DOEE Utility Affordability Administration per doee.dc.gov/liheap; call 311 for Energy Center appointments when offered. Do not submit applications to unauthorized third parties.",
+      "ml": "Apply online or by mail to DOEE Utility Affordability Administration per doee.dc.gov/liheap; call 311 for Energy Center appointments when offered. Do not submit applications to unauthorized third parties.",
+      "hi": "Apply online or by mail to DOEE Utility Affordability Administration per doee.dc.gov/liheap; call 311 for Energy Center appointments when offered. Do not submit applications to unauthorized third parties."
+    },
+    "apply_url": "https://doee.dc.gov/liheap",
+    "official_source_url": "https://doee.dc.gov/liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "District of Columbia Department of Energy & Environment (DOEE)",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "liheap",
+      "energy",
+      "utility",
+      "doee"
+    ]
+  },
+  {
+    "id": "dc-child-care",
+    "scheme_name": {
+      "en": "Child Care Services / Subsidy – District of Columbia DHS",
+      "ml": "Child Care Services / Subsidy – District of Columbia DHS",
+      "hi": "Child Care Subsidy – डिस्ट्रिक्ट ऑफ कोलंबिया"
+    },
+    "description": {
+      "en": "DC Department of Human Services Child Care Services helps eligible families with child care fees based on need, income, and family size. See DHS Child Care Services for current eligibility and how to apply.",
+      "ml": "DC Department of Human Services Child Care Services helps eligible families with child care fees based on need, income, and family size. See DHS Child Care Services for current eligibility and how to apply.",
+      "hi": "DC Department of Human Services Child Care Services helps eligible families with child care fees based on need, income, and family size. See DHS Child Care Services for current eligibility and how to apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC child care subsidy: need, income, and family size; provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and activity rules change — verify=true via dhs.dc.gov Child Care Services.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying for eligible child care costs for qualifying District of Columbia families.",
+      "ml": "Help paying for eligible child care costs for qualifying District of Columbia families.",
+      "hi": "Help paying for eligible child care costs for qualifying District of Columbia families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and District of Columbia residency",
+        "Income and need/activity documentation",
+        "Child care need / provider information",
+        "Child Care Services application as published"
+      ],
+      "ml": [
+        "Identity and District of Columbia residency",
+        "Income and need/activity documentation",
+        "Child care need / provider information",
+        "Child Care Services application as published"
+      ],
+      "hi": [
+        "Identity and District of Columbia residency",
+        "Income and need/activity documentation",
+        "Child care need / provider information",
+        "Child Care Services application as published"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Follow instructions on dhs.dc.gov/service/child-care-services; related TANF customers may access child care subsidy pathways through DHS.",
+      "ml": "Follow instructions on dhs.dc.gov/service/child-care-services; related TANF customers may access child care subsidy pathways through DHS.",
+      "hi": "Follow instructions on dhs.dc.gov/service/child-care-services; related TANF customers may access child care subsidy pathways through DHS."
+    },
+    "apply_url": "https://dhs.dc.gov/service/child-care-services",
+    "official_source_url": "https://dhs.dc.gov/service/child-care-services",
+    "last_verified": "2026-09-17",
+    "office_type": "District of Columbia Department of Human Services / Child Care Services",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "child_care",
+      "ccdf",
+      "dhs"
+    ]
   }
 ]

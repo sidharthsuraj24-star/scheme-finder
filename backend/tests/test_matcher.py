@@ -2390,3 +2390,140 @@ def test_catalogue_covers_us_wave9_states(schemes):
         "South Dakota",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 10 (FINAL) state deepen (ND / AK / VT / WY / WV / DC)
+# ---------------------------------------------------------------------------
+
+
+def test_north_dakota_profile_matches_nd_and_federal_us(schemes):
+    """North Dakota low-income senior matches nd-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="North Dakota",
+        district="Cass",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "nd-snap" in ids
+    assert "nd-medicaid" in ids
+    assert "nd-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "ak-snap" not in ids
+    assert "vt-snap" not in ids
+    assert "wy-snap" not in ids
+    assert "wv-snap" not in ids
+    assert "dc-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_alaska_profile_does_not_match_nd_schemes(schemes):
+    """Alaska profile must not match North Dakota-only nd-* schemes; may match ak-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Alaska",
+        district="Anchorage",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    nd_ids = {s["id"] for s in schemes if s["id"].startswith("nd-")}
+    assert ids & nd_ids == set()
+    assert any(e.scheme_id == "nd-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "ak-snap" in ids or "ak-medicaid" in ids or "ak-atap" in ids
+    assert "us-snap" in ids
+
+
+def test_district_of_columbia_profile_matches_dc_and_federal_us(schemes):
+    """DC low-income profile matches dc-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=45,
+        gender="female",
+        state="District of Columbia",
+        district="Ward 7",
+        marital_status="single",
+        annual_income=14000,
+        monthly_household_income=1100,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "dc-snap" in ids
+    assert "dc-medicaid" in ids or "dc-tanf" in ids or "dc-liheap" in ids
+    assert "us-snap" in ids
+    assert "nd-snap" not in ids
+    assert "wv-snap" not in ids
+
+
+def test_catalogue_covers_us_wave10_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "North Dakota",
+        "Alaska",
+        "Vermont",
+        "Wyoming",
+        "West Virginia",
+        "District of Columbia",
+    ):
+        assert required in by_state, required
+
+
+def test_catalogue_covers_all_us_states_and_dc(schemes):
+    """After Wave 10 FINAL, every US state + DC should have ≥1 local (non-nationwide) scheme."""
+    required = {
+        "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
+        "Connecticut", "Delaware", "District of Columbia", "Florida", "Georgia",
+        "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+        "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota",
+        "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire",
+        "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota",
+        "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina",
+        "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia",
+        "Washington", "West Virginia", "Wisconsin", "Wyoming",
+    }
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    missing = sorted(required - by_state)
+    assert not missing, f"US states/DC missing local packs: {missing}"
+    assert len(required & by_state) == 51

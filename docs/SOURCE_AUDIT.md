@@ -23,6 +23,21 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+## United States Wave 10 (FINAL) state deepen (2026-09-17 IST)
+
+Added **30** state-tagged schemes for **North Dakota, Alaska, Vermont, Wyoming, West Virginia, District of Columbia** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (hhs.nd.gov; health.alaska.gov; dcf.vermont.gov + dvha.vermont.gov; dfs.wyo.gov + health.wyo.gov; bfa.wv.gov + bms.wv.gov + chip.wv.gov; dhs.dc.gov + dhcf.dc.gov + doee.dc.gov). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/SMI notes only). IDs `nd-*`/`ak-*`/`vt-*`/`wy-*`/`wv-*`/`dc-*` — no India collisions. **US deepen waves 1–10 complete** (all 50 states + DC).
+
+| State / District | IDs | Primary .gov hosts |
+| --- | --- | --- |
+| North Dakota | nd-snap, nd-tanf, nd-medicaid, nd-liheap, nd-chip | hhs.nd.gov, applyforhelp.nd.gov |
+| Alaska | ak-snap, ak-atap, ak-medicaid, ak-hap, ak-child-care | health.alaska.gov |
+| Vermont | vt-snap, vt-reach-up, vt-medicaid, vt-fuel, vt-ccfap | dcf.vermont.gov, dvha.vermont.gov |
+| Wyoming | wy-snap, wy-power, wy-medicaid, wy-chip, wy-lieap | dfs.wyo.gov, health.wyo.gov |
+| West Virginia | wv-snap, wv-works, wv-medicaid, wv-lieap, wv-chip | bfa.wv.gov, bms.wv.gov, chip.wv.gov |
+| District of Columbia | dc-snap, dc-tanf, dc-medicaid, dc-liheap, dc-child-care | dhs.dc.gov, dhcf.dc.gov, doee.dc.gov |
+
+**Skipped / deferred:** inventing energy-assistance dollar caps; non-`.gov` apply portals (Alaska Connect ilinx host; mylieapwyo.org) as `official_source_url`; standalone portal-only catalogue rows.
+
 ## United States Wave 9 state deepen (2026-09-17 IST)
 
 Added **27** state-tagged schemes for **New Hampshire, Rhode Island, Montana, Delaware, South Dakota** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (dhhs.nh.gov + energy.nh.gov; dhs.ri.gov + eohhs.ri.gov; dphhs.mt.gov; dhss.delaware.gov; dss.sd.gov). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/SMI notes only). IDs `nh-*`/`ri-*`/`mt-*`/`de-*`/`sd-*` — no India collisions.

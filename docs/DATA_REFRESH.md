@@ -1,6 +1,6 @@
 # Scheme catalogue data refresh
 
-**Stamp:** `updated_as_of` = **2026-09-15** (see `data/catalogue_meta.json`).  
+**Stamp:** `updated_as_of` = **2026-09-17** (US Wave 10 FINAL — all 50 states + DC local packs) (see `data/catalogue_meta.json`).  
 **Stale after:** `stale_after_days` = **30** (UI shows an amber warning when today − updated_as_of > 30).  
 **Scope:** Curated **multi-state + central** schemes — **not** a complete all-India catalogue (currently 64 schemes; Kerala fully curated; flagship starter sets across all 28 states + 8 UTs).  
 **Disclaimer (also in meta):** Confirm with the official source before applying.
