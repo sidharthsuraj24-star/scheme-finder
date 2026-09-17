@@ -29416,5 +29416,2012 @@
       "energy",
       "mi_bridges"
     ]
+  },
+  {
+    "id": "nj-snap",
+    "scheme_name": {
+      "en": "NJ SNAP (Food Assistance) – MyNJHelps / DHS",
+      "ml": "NJ SNAP (Food Assistance) – MyNJHelps / DHS",
+      "hi": "NJ SNAP – न्यू जर्सी"
+    },
+    "description": {
+      "en": "New Jersey Department of Human Services administers SNAP. Eligible low-income residents apply online through MyNJHelps.gov or via County Social Service Agencies for monthly food benefits on an EBT card.",
+      "ml": "New Jersey Department of Human Services administers SNAP. Eligible low-income residents apply online through MyNJHelps.gov or via County Social Service Agencies for monthly food benefits on an EBT card.",
+      "hi": "New Jersey Department of Human Services administers SNAP. Eligible low-income residents apply online through MyNJHelps.gov or via County Social Service Agencies for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NJ SNAP via MyNJHelps: NJ residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via nj.gov NJ SNAP / MyNJHelps.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible New Jersey households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible New Jersey households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible New Jersey households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Jersey residency",
+        "Income and resource documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "ml": [
+        "Identity and New Jersey residency",
+        "Income and resource documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "hi": [
+        "Identity and New Jersey residency",
+        "Income and resource documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyNJHelps.gov (linked from nj.gov NJ SNAP) or submit a paper application to your County Social Service Agency; SNAP Navigators can assist.",
+      "ml": "Apply online at MyNJHelps.gov (linked from nj.gov NJ SNAP) or submit a paper application to your County Social Service Agency; SNAP Navigators can assist.",
+      "hi": "Apply online at MyNJHelps.gov (linked from nj.gov NJ SNAP) or submit a paper application to your County Social Service Agency; SNAP Navigators can assist."
+    },
+    "apply_url": "https://mynjhelps.gov/home",
+    "official_source_url": "https://www.nj.gov/humanservices/njsnap/apply/ways/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Department of Human Services / Division of Family Development / County Social Service Agencies",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "snap",
+      "food",
+      "mynjhelps"
+    ]
+  },
+  {
+    "id": "nj-workfirst-tanf",
+    "scheme_name": {
+      "en": "Work First New Jersey / TANF (WFNJ/TANF)",
+      "ml": "Work First New Jersey / TANF (WFNJ/TANF)",
+      "hi": "Work First New Jersey / TANF – न्यू जर्सी"
+    },
+    "description": {
+      "en": "Work First New Jersey Temporary Assistance for Needy Families (WFNJ/TANF) provides monthly cash, child care, job search/readiness, and short-term housing support for eligible New Jersey families with dependent children.",
+      "ml": "Work First New Jersey Temporary Assistance for Needy Families (WFNJ/TANF) provides monthly cash, child care, job search/readiness, and short-term housing support for eligible New Jersey families with dependent children.",
+      "hi": "Work First New Jersey Temporary Assistance for Needy Families (WFNJ/TANF) provides monthly cash, child care, job search/readiness, and short-term housing support for eligible New Jersey families with dependent children."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WFNJ/TANF: low-income families with dependent children; residency, cooperation, and work rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via nj.gov WFNJ / MyNJHelps.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and related supports for eligible New Jersey families with children.",
+      "ml": "Temporary cash assistance and related supports for eligible New Jersey families with children.",
+      "hi": "Temporary cash assistance and related supports for eligible New Jersey families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MyNJHelps or County Social Service Agency application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyNJHelps.gov or through your County Social Service Agency; see nj.gov Work First New Jersey for program details.",
+      "ml": "Apply online at MyNJHelps.gov or through your County Social Service Agency; see nj.gov Work First New Jersey for program details.",
+      "hi": "Apply online at MyNJHelps.gov or through your County Social Service Agency; see nj.gov Work First New Jersey for program details."
+    },
+    "apply_url": "https://mynjhelps.gov/home",
+    "official_source_url": "https://www.nj.gov/humanservices/wfnj/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Department of Human Services / Work First New Jersey",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "tanf",
+      "cash_assistance",
+      "workfirst",
+      "mynjhelps"
+    ]
+  },
+  {
+    "id": "nj-workfirst-ga",
+    "scheme_name": {
+      "en": "Work First New Jersey / General Assistance (WFNJ/GA)",
+      "ml": "Work First New Jersey / General Assistance (WFNJ/GA)",
+      "hi": "Work First New Jersey / GA – न्यू जर्सी"
+    },
+    "description": {
+      "en": "Work First New Jersey General Assistance (WFNJ/GA) provides cash assistance for eligible single adults and couples without dependent children in New Jersey.",
+      "ml": "Work First New Jersey General Assistance (WFNJ/GA) provides cash assistance for eligible single adults and couples without dependent children in New Jersey.",
+      "hi": "Work First New Jersey General Assistance (WFNJ/GA) provides cash assistance for eligible single adults and couples without dependent children in New Jersey."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WFNJ/GA: eligible single adults and couples without dependent children; income/resource and participation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "GA vs TANF category rules and income tests — verify=true via nj.gov WFNJ / MyNJHelps.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible New Jersey adults without dependent children.",
+      "ml": "Temporary cash assistance for eligible New Jersey adults without dependent children.",
+      "hi": "Temporary cash assistance for eligible New Jersey adults without dependent children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Jersey residency",
+        "Income documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "ml": [
+        "Identity and New Jersey residency",
+        "Income documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ],
+      "hi": [
+        "Identity and New Jersey residency",
+        "Income documentation",
+        "MyNJHelps or County Social Service Agency application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyNJHelps.gov or through your County Social Service Agency; review WFNJ GA details on nj.gov.",
+      "ml": "Apply online at MyNJHelps.gov or through your County Social Service Agency; review WFNJ GA details on nj.gov.",
+      "hi": "Apply online at MyNJHelps.gov or through your County Social Service Agency; review WFNJ GA details on nj.gov."
+    },
+    "apply_url": "https://mynjhelps.gov/home",
+    "official_source_url": "https://www.nj.gov/humanservices/wfnj/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Department of Human Services / Work First New Jersey",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "general_assistance",
+      "cash_assistance",
+      "workfirst",
+      "mynjhelps"
+    ]
+  },
+  {
+    "id": "nj-familycare",
+    "scheme_name": {
+      "en": "NJ FamilyCare (Medicaid / CHIP)",
+      "ml": "NJ FamilyCare (Medicaid / CHIP)",
+      "hi": "NJ FamilyCare – न्यू जर्सी"
+    },
+    "description": {
+      "en": "NJ FamilyCare is New Jersey’s publicly funded health coverage program (Medicaid, CHIP, and related categories) for eligible residents of any age. Apply year-round through the NJ FamilyCare portal or Get Covered NJ pathways.",
+      "ml": "NJ FamilyCare is New Jersey’s publicly funded health coverage program (Medicaid, CHIP, and related categories) for eligible residents of any age. Apply year-round through the NJ FamilyCare portal or Get Covered NJ pathways.",
+      "hi": "NJ FamilyCare is New Jersey’s publicly funded health coverage program (Medicaid, CHIP, and related categories) for eligible residents of any age. Apply year-round through the NJ FamilyCare portal or Get Covered NJ pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NJ FamilyCare: income and household-size based categories (adults, children/CHIP, pregnant, ABD, etc.). Adult expansion commonly references ~138% FPL; do not encode a single annual ceiling.",
+      "verify": true,
+      "verify_notes": "Category-specific FPL charts and Fall 2026 federal rule changes — verify=true via nj.gov DMAHS / NJ FamilyCare.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage (doctor visits, prescriptions, hospital, dental/vision and other covered services by category).",
+      "ml": "Free or low-cost health coverage (doctor visits, prescriptions, hospital, dental/vision and other covered services by category).",
+      "hi": "Free or low-cost health coverage (doctor visits, prescriptions, hospital, dental/vision and other covered services by category)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Jersey residency",
+        "Income and household documentation",
+        "NJ FamilyCare online or printable application"
+      ],
+      "ml": [
+        "Identity and New Jersey residency",
+        "Income and household documentation",
+        "NJ FamilyCare online or printable application"
+      ],
+      "hi": [
+        "Identity and New Jersey residency",
+        "Income and household documentation",
+        "NJ FamilyCare online or printable application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at njfamilycare.dhs.state.nj.us or call 1-800-701-0710 (TTY 711); Get Covered NJ may also route eligible applicants to NJ FamilyCare.",
+      "ml": "Apply online at njfamilycare.dhs.state.nj.us or call 1-800-701-0710 (TTY 711); Get Covered NJ may also route eligible applicants to NJ FamilyCare.",
+      "hi": "Apply online at njfamilycare.dhs.state.nj.us or call 1-800-701-0710 (TTY 711); Get Covered NJ may also route eligible applicants to NJ FamilyCare."
+    },
+    "apply_url": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare/",
+    "official_source_url": "https://www.nj.gov/humanservices/dmahs/individuals-families/familycare/",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Division of Medical Assistance and Health Services (DMAHS) / NJ FamilyCare",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "medicaid",
+      "chip",
+      "familycare",
+      "health"
+    ]
+  },
+  {
+    "id": "nj-liheap",
+    "scheme_name": {
+      "en": "Low Income Home Energy Assistance (LIHEAP) – New Jersey DCA",
+      "ml": "Low Income Home Energy Assistance (LIHEAP) – New Jersey DCA",
+      "hi": "LIHEAP – न्यू जर्सी"
+    },
+    "description": {
+      "en": "New Jersey Department of Community Affairs administers LIHEAP to help eligible households with heating, cooling, emergency fuel, and related energy costs. Often applied together with the Universal Service Fund (USF).",
+      "ml": "New Jersey Department of Community Affairs administers LIHEAP to help eligible households with heating, cooling, emergency fuel, and related energy costs. Often applied together with the Universal Service Fund (USF).",
+      "hi": "New Jersey Department of Community Affairs administers LIHEAP to help eligible households with heating, cooling, emergency fuel, and related energy costs. Often applied together with the Universal Service Fund (USF)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NJ LIHEAP: households responsible for heating/cooling costs; income typically at or below ~60% State Median Income (published charts). Seasonal funding. No hard annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FFY income charts and USF combined application rules — verify=true via nj.gov DCA LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Heating/cooling and crisis energy assistance for eligible New Jersey households (benefit amounts vary by income, household size, fuel type, and region).",
+      "ml": "Heating/cooling and crisis energy assistance for eligible New Jersey households (benefit amounts vary by income, household size, fuel type, and region).",
+      "hi": "Heating/cooling and crisis energy assistance for eligible New Jersey households (benefit amounts vary by income, household size, fuel type, and region)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility / fuel cost information",
+        "DCA LIHEAP / USF application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility / fuel cost information",
+        "DCA LIHEAP / USF application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility / fuel cost information",
+        "DCA LIHEAP / USF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the DCA energy assistance application portal (dcaid.dca.nj.gov) or through local agencies; call 800-510-3102 for guidance. See nj.gov DCA LIHEAP.",
+      "ml": "Apply via the DCA energy assistance application portal (dcaid.dca.nj.gov) or through local agencies; call 800-510-3102 for guidance. See nj.gov DCA LIHEAP.",
+      "hi": "Apply via the DCA energy assistance application portal (dcaid.dca.nj.gov) or through local agencies; call 800-510-3102 for guidance. See nj.gov DCA LIHEAP."
+    },
+    "apply_url": "https://www.nj.gov/dca/dhcr/offices/hea.shtml",
+    "official_source_url": "https://www.nj.gov/dca/dhcr/offices/hea.shtml",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Department of Community Affairs (DCA) / Division of Housing and Community Resources",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "liheap",
+      "energy",
+      "dca"
+    ]
+  },
+  {
+    "id": "nj-usf",
+    "scheme_name": {
+      "en": "Universal Service Fund (USF) – New Jersey utility bill assistance",
+      "ml": "Universal Service Fund (USF) – New Jersey utility bill assistance",
+      "hi": "USF – न्यू जर्सी"
+    },
+    "description": {
+      "en": "New Jersey’s Universal Service Fund helps eligible low-income households with monthly electric or natural-gas bill credits. Administered by DCA and commonly applied with LIHEAP on one energy assistance application.",
+      "ml": "New Jersey’s Universal Service Fund helps eligible low-income households with monthly electric or natural-gas bill credits. Administered by DCA and commonly applied with LIHEAP on one energy assistance application.",
+      "hi": "New Jersey’s Universal Service Fund helps eligible low-income households with monthly electric or natural-gas bill credits. Administered by DCA and commonly applied with LIHEAP on one energy assistance application."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NJ USF: income-eligible households with electric/gas burden; often same application as LIHEAP. Charts and Fresh Start rules vary by program year. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Current SMI/% income charts and utility participation — verify=true via nj.gov DCA USF.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly utility bill credits (and related Fresh Start options where available) for eligible New Jersey households.",
+      "ml": "Monthly utility bill credits (and related Fresh Start options where available) for eligible New Jersey households.",
+      "hi": "Monthly utility bill credits (and related Fresh Start options where available) for eligible New Jersey households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Electric/gas account information",
+        "DCA USF / LIHEAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Electric/gas account information",
+        "DCA USF / LIHEAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Electric/gas account information",
+        "DCA USF / LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the DCA energy assistance portal linked from nj.gov USF / LIHEAP pages or through local agencies; call 800-510-3102.",
+      "ml": "Apply via the DCA energy assistance portal linked from nj.gov USF / LIHEAP pages or through local agencies; call 800-510-3102.",
+      "hi": "Apply via the DCA energy assistance portal linked from nj.gov USF / LIHEAP pages or through local agencies; call 800-510-3102."
+    },
+    "apply_url": "https://www.nj.gov/dca/dhcr/offices/usf.shtml",
+    "official_source_url": "https://www.nj.gov/dca/dhcr/offices/usf.shtml",
+    "last_verified": "2026-09-17",
+    "office_type": "New Jersey Department of Community Affairs (DCA)",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "usf",
+      "energy",
+      "utility",
+      "dca"
+    ]
+  },
+  {
+    "id": "va-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Virginia CommonHelp / DSS",
+      "ml": "SNAP (Food Assistance) – Virginia CommonHelp / DSS",
+      "hi": "SNAP – वर्जीनिया"
+    },
+    "description": {
+      "en": "Virginia Department of Social Services administers SNAP. Eligible low-income households apply online through CommonHelp, by phone, or at a local DSS office for food benefits on an EBT card.",
+      "ml": "Virginia Department of Social Services administers SNAP. Eligible low-income households apply online through CommonHelp, by phone, or at a local DSS office for food benefits on an EBT card.",
+      "hi": "Virginia Department of Social Services administers SNAP. Eligible low-income households apply online through CommonHelp, by phone, or at a local DSS office for food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA SNAP via CommonHelp: residency and income/resource rules; BBCE and household-size charts apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules — verify=true via dss.virginia.gov SNAP / CommonHelp.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Virginia households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Virginia households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Virginia households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Virginia residency",
+        "Income documentation",
+        "CommonHelp or local DSS application"
+      ],
+      "ml": [
+        "Identity and Virginia residency",
+        "Income documentation",
+        "CommonHelp or local DSS application"
+      ],
+      "hi": [
+        "Identity and Virginia residency",
+        "Income documentation",
+        "CommonHelp or local DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at commonhelp.virginia.gov, call the Enterprise Call Center (833-522-5582), or contact your local Department of Social Services.",
+      "ml": "Apply at commonhelp.virginia.gov, call the Enterprise Call Center (833-522-5582), or contact your local Department of Social Services.",
+      "hi": "Apply at commonhelp.virginia.gov, call the Enterprise Call Center (833-522-5582), or contact your local Department of Social Services."
+    },
+    "apply_url": "https://commonhelp.virginia.gov/",
+    "official_source_url": "https://www.dss.virginia.gov/relief/food-assistance/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Virginia Department of Social Services (VDSS) / local DSS",
+    "tags": [
+      "united_states",
+      "virginia",
+      "snap",
+      "food",
+      "commonhelp"
+    ]
+  },
+  {
+    "id": "va-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – Virginia",
+      "ml": "Temporary Assistance for Needy Families (TANF) – Virginia",
+      "hi": "TANF – वर्जीनिया"
+    },
+    "description": {
+      "en": "Virginia TANF provides temporary cash assistance to help eligible families with minor children move toward self-sufficiency. Apply through CommonHelp, by phone, or at local DSS.",
+      "ml": "Virginia TANF provides temporary cash assistance to help eligible families with minor children move toward self-sufficiency. Apply through CommonHelp, by phone, or at local DSS.",
+      "hi": "Virginia TANF provides temporary cash assistance to help eligible families with minor children move toward self-sufficiency. Apply through CommonHelp, by phone, or at local DSS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA TANF: needy families with minor children; participation and time-limit rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition and income tests — verify=true via dss.virginia.gov TANF / CommonHelp.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Virginia families with dependent children.",
+      "ml": "Temporary cash assistance for eligible Virginia families with dependent children.",
+      "hi": "Temporary cash assistance for eligible Virginia families with dependent children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CommonHelp or local DSS application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CommonHelp or local DSS application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CommonHelp or local DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via CommonHelp, call 855-635-4370, or submit a paper TANF application to your local department of social services.",
+      "ml": "Apply online via CommonHelp, call 855-635-4370, or submit a paper TANF application to your local department of social services.",
+      "hi": "Apply online via CommonHelp, call 855-635-4370, or submit a paper TANF application to your local department of social services."
+    },
+    "apply_url": "https://commonhelp.virginia.gov/",
+    "official_source_url": "https://www.dss.virginia.gov/relief/tanf/apply/",
+    "last_verified": "2026-09-17",
+    "office_type": "Virginia Department of Social Services (VDSS) / local DSS",
+    "tags": [
+      "united_states",
+      "virginia",
+      "tanf",
+      "cash_assistance",
+      "commonhelp"
+    ]
+  },
+  {
+    "id": "va-medicaid",
+    "scheme_name": {
+      "en": "Virginia Medicaid / Cardinal Care (CommonHelp)",
+      "ml": "Virginia Medicaid / Cardinal Care (CommonHelp)",
+      "hi": "Medicaid / Cardinal Care – वर्जीनिया"
+    },
+    "description": {
+      "en": "Virginia helps eligible children, families, and adults access health coverage through Medicaid (Cardinal Care). Apply for health coverage via CommonHelp or CoverVA.",
+      "ml": "Virginia helps eligible children, families, and adults access health coverage through Medicaid (Cardinal Care). Apply for health coverage via CommonHelp or CoverVA.",
+      "hi": "Virginia helps eligible children, families, and adults access health coverage through Medicaid (Cardinal Care). Apply for health coverage via CommonHelp or CoverVA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA Medicaid/Cardinal Care: MAGI and ABD categories with FPL-based limits by household type. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category-specific FPL and Cardinal Care managed-care rules — verify=true via dss.virginia.gov medical assistance / CoverVA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Virginians (doctor, hospital, prescriptions, and other Medicaid services by category).",
+      "ml": "Health coverage for eligible Virginians (doctor, hospital, prescriptions, and other Medicaid services by category).",
+      "hi": "Health coverage for eligible Virginians (doctor, hospital, prescriptions, and other Medicaid services by category)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income/household documentation",
+        "CommonHelp health coverage application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income/household documentation",
+        "CommonHelp health coverage application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income/household documentation",
+        "CommonHelp health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for health care coverage at commonhelp.virginia.gov or contact CoverVA at 855-242-8282; local DSS also assists.",
+      "ml": "Apply for health care coverage at commonhelp.virginia.gov or contact CoverVA at 855-242-8282; local DSS also assists.",
+      "hi": "Apply for health care coverage at commonhelp.virginia.gov or contact CoverVA at 855-242-8282; local DSS also assists."
+    },
+    "apply_url": "https://commonhelp.virginia.gov/",
+    "official_source_url": "https://www.dss.virginia.gov/relief/medical-assistance-programs/",
+    "last_verified": "2026-09-17",
+    "office_type": "Virginia Department of Social Services / Department of Medical Assistance Services (DMAS) / CoverVA",
+    "tags": [
+      "united_states",
+      "virginia",
+      "medicaid",
+      "cardinal_care",
+      "health",
+      "commonhelp"
+    ]
+  },
+  {
+    "id": "va-famis",
+    "scheme_name": {
+      "en": "FAMIS / FAMIS Plus (Virginia children’s health coverage)",
+      "ml": "FAMIS / FAMIS Plus (Virginia children’s health coverage)",
+      "hi": "FAMIS – वर्जीनिया"
+    },
+    "description": {
+      "en": "FAMIS and FAMIS Plus provide children’s health insurance coverage in Virginia (CHIP and related Medicaid for children). Apply through CommonHelp or CoverVA.",
+      "ml": "FAMIS and FAMIS Plus provide children’s health insurance coverage in Virginia (CHIP and related Medicaid for children). Apply through CommonHelp or CoverVA.",
+      "hi": "FAMIS and FAMIS Plus provide children’s health insurance coverage in Virginia (CHIP and related Medicaid for children). Apply through CommonHelp or CoverVA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FAMIS/FAMIS Plus: children under 19; income above Medicaid free coverage may still qualify for FAMIS. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age and FPL tier for FAMIS vs Medicaid — verify=true via CoverVA / CommonHelp.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Children’s health coverage for eligible Virginia kids (doctor visits, prescriptions, and other covered services).",
+      "ml": "Children’s health coverage for eligible Virginia kids (doctor visits, prescriptions, and other covered services).",
+      "hi": "Children’s health coverage for eligible Virginia kids (doctor visits, prescriptions, and other covered services)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Virginia residency",
+        "Household income documentation",
+        "CommonHelp / CoverVA application"
+      ],
+      "ml": [
+        "Child identity and Virginia residency",
+        "Household income documentation",
+        "CommonHelp / CoverVA application"
+      ],
+      "hi": [
+        "Child identity and Virginia residency",
+        "Household income documentation",
+        "CommonHelp / CoverVA application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via CommonHelp or CoverVA (coverva.dmas.virginia.gov); call CoverVA 855-242-8282 for help.",
+      "ml": "Apply via CommonHelp or CoverVA (coverva.dmas.virginia.gov); call CoverVA 855-242-8282 for help.",
+      "hi": "Apply via CommonHelp or CoverVA (coverva.dmas.virginia.gov); call CoverVA 855-242-8282 for help."
+    },
+    "apply_url": "https://commonhelp.virginia.gov/",
+    "official_source_url": "https://coverva.dmas.virginia.gov/learn/coverage-for-children/medicaid-for-children-and-famis/",
+    "last_verified": "2026-09-17",
+    "office_type": "Virginia CoverVA / DMAS / VDSS",
+    "tags": [
+      "united_states",
+      "virginia",
+      "famis",
+      "chip",
+      "children",
+      "health",
+      "commonhelp"
+    ]
+  },
+  {
+    "id": "va-energy-assistance",
+    "scheme_name": {
+      "en": "Energy Assistance Program (EAP / LIHEAP) – Virginia",
+      "ml": "Energy Assistance Program (EAP / LIHEAP) – Virginia",
+      "hi": "Energy Assistance – वर्जीनिया"
+    },
+    "description": {
+      "en": "Virginia’s Energy Assistance Program (Fuel, Crisis, Cooling, and related help) assists eligible low-income households with home energy costs. Federally funded LIHEAP supports these components.",
+      "ml": "Virginia’s Energy Assistance Program (Fuel, Crisis, Cooling, and related help) assists eligible low-income households with home energy costs. Federally funded LIHEAP supports these components.",
+      "hi": "Virginia’s Energy Assistance Program (Fuel, Crisis, Cooling, and related help) assists eligible low-income households with home energy costs. Federally funded LIHEAP supports these components."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA EAP: Fuel/Crisis/Cooling components; official page states gross monthly income at or below ~150% FPL for Fuel/Crisis/Cooling. Seasonal windows. No hard annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Open seasons and 150% FPL charts by household size — verify=true via dss.virginia.gov EAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Heating, crisis, and cooling energy assistance for eligible Virginia households (seasonal application windows).",
+      "ml": "Heating, crisis, and cooling energy assistance for eligible Virginia households (seasonal application windows).",
+      "hi": "Heating, crisis, and cooling energy assistance for eligible Virginia households (seasonal application windows)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating/cooling expense information",
+        "CommonHelp or local DSS EAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating/cooling expense information",
+        "CommonHelp or local DSS EAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating/cooling expense information",
+        "CommonHelp or local DSS EAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through CommonHelp, by phone (855-635-4370), or with a paper EAP application at your local DSS during open windows.",
+      "ml": "Apply online through CommonHelp, by phone (855-635-4370), or with a paper EAP application at your local DSS during open windows.",
+      "hi": "Apply online through CommonHelp, by phone (855-635-4370), or with a paper EAP application at your local DSS during open windows."
+    },
+    "apply_url": "https://commonhelp.virginia.gov/",
+    "official_source_url": "https://www.dss.virginia.gov/relief/ea/",
+    "last_verified": "2026-09-17",
+    "office_type": "Virginia Department of Social Services (VDSS) / local DSS",
+    "tags": [
+      "united_states",
+      "virginia",
+      "liheap",
+      "energy",
+      "eap",
+      "commonhelp"
+    ]
+  },
+  {
+    "id": "wa-basic-food",
+    "scheme_name": {
+      "en": "Basic Food (SNAP) – Washington DSHS / Washington Connection",
+      "ml": "Basic Food (SNAP) – Washington DSHS / Washington Connection",
+      "hi": "Basic Food – वाशिंगटन"
+    },
+    "description": {
+      "en": "Washington’s Basic Food program is the state’s SNAP (and related Food Assistance Program). Eligible low-income households apply via Washington Connection, phone, mail, or local Community Services Offices.",
+      "ml": "Washington’s Basic Food program is the state’s SNAP (and related Food Assistance Program). Eligible low-income households apply via Washington Connection, phone, mail, or local Community Services Offices.",
+      "hi": "Washington’s Basic Food program is the state’s SNAP (and related Food Assistance Program). Eligible low-income households apply via Washington Connection, phone, mail, or local Community Services Offices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WA Basic Food: live in Washington; income by household size; citizenship/immigration rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and interview/ABAWD rules — verify=true via dshs.wa.gov Basic Food / Washington Connection.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly food benefits on a Washington Quest EBT card for eligible households.",
+      "ml": "Monthly food benefits on a Washington Quest EBT card for eligible households.",
+      "hi": "Monthly food benefits on a Washington Quest EBT card for eligible households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Washington Connection or CSO application / interview"
+      ],
+      "ml": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Washington Connection or CSO application / interview"
+      ],
+      "hi": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Washington Connection or CSO application / interview"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at washingtonconnection.org, call 877-501-2233, or visit a local DSHS Community Services Office; an interview is required for Basic Food.",
+      "ml": "Apply at washingtonconnection.org, call 877-501-2233, or visit a local DSHS Community Services Office; an interview is required for Basic Food.",
+      "hi": "Apply at washingtonconnection.org, call 877-501-2233, or visit a local DSHS Community Services Office; an interview is required for Basic Food."
+    },
+    "apply_url": "https://www.washingtonconnection.org/home/",
+    "official_source_url": "https://www.dshs.wa.gov/esa/community-services-offices/basic-food/",
+    "last_verified": "2026-09-17",
+    "office_type": "Washington Department of Social and Health Services (DSHS) / ESA",
+    "tags": [
+      "united_states",
+      "washington",
+      "snap",
+      "basic_food",
+      "food",
+      "washington_connection"
+    ]
+  },
+  {
+    "id": "wa-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – Washington / WorkFirst",
+      "ml": "Temporary Assistance for Needy Families (TANF) – Washington / WorkFirst",
+      "hi": "TANF / WorkFirst – वाशिंगटन"
+    },
+    "description": {
+      "en": "Washington TANF provides temporary monthly cash assistance to eligible families with a pregnant person or minor child. Eligible adults may participate in WorkFirst employment and training supports.",
+      "ml": "Washington TANF provides temporary monthly cash assistance to eligible families with a pregnant person or minor child. Eligible adults may participate in WorkFirst employment and training supports.",
+      "hi": "Washington TANF provides temporary monthly cash assistance to eligible families with a pregnant person or minor child. Eligible adults may participate in WorkFirst employment and training supports."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WA TANF: families with pregnant person or minor child; WorkFirst participation and time limits may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Grant standards and participation rules — verify=true via dshs.wa.gov TANF.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and WorkFirst-related supports for eligible Washington families.",
+      "ml": "Temporary cash assistance and WorkFirst-related supports for eligible Washington families.",
+      "hi": "Temporary cash assistance and WorkFirst-related supports for eligible Washington families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "Washington Connection or CSO application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "Washington Connection or CSO application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "Washington Connection or CSO application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Washington Connection, call 877-501-2233, or visit a local DSHS CSO; see dshs.wa.gov TANF for details.",
+      "ml": "Apply via Washington Connection, call 877-501-2233, or visit a local DSHS CSO; see dshs.wa.gov TANF for details.",
+      "hi": "Apply via Washington Connection, call 877-501-2233, or visit a local DSHS CSO; see dshs.wa.gov TANF for details."
+    },
+    "apply_url": "https://www.washingtonconnection.org/home/",
+    "official_source_url": "https://www.dshs.wa.gov/esa/community-services-offices/temporary-assistance-needy-families/",
+    "last_verified": "2026-09-17",
+    "office_type": "Washington Department of Social and Health Services (DSHS) / WorkFirst",
+    "tags": [
+      "united_states",
+      "washington",
+      "tanf",
+      "workfirst",
+      "cash_assistance",
+      "washington_connection"
+    ]
+  },
+  {
+    "id": "wa-apple-health",
+    "scheme_name": {
+      "en": "Washington Apple Health (Medicaid)",
+      "ml": "Washington Apple Health (Medicaid)",
+      "hi": "Apple Health – वाशिंगटन"
+    },
+    "description": {
+      "en": "Apple Health is Washington’s Medicaid program offering free or low-cost medical, dental, vision, and behavioral health coverage. Apply via Washington Healthplanfinder, Washington Connection, or DSHS depending on category.",
+      "ml": "Apple Health is Washington’s Medicaid program offering free or low-cost medical, dental, vision, and behavioral health coverage. Apply via Washington Healthplanfinder, Washington Connection, or DSHS depending on category.",
+      "hi": "Apple Health is Washington’s Medicaid program offering free or low-cost medical, dental, vision, and behavioral health coverage. Apply via Washington Healthplanfinder, Washington Connection, or DSHS depending on category."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Apple Health: FPL-based MAGI and ABD/long-term care categories. Do not encode a single annual ceiling.",
+      "verify": true,
+      "verify_notes": "Income standards PDF and apply pathway by age/disability — verify=true via hca.wa.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Washington residents.",
+      "ml": "Free or low-cost health coverage for eligible Washington residents.",
+      "hi": "Free or low-cost health coverage for eligible Washington residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Washington residency",
+        "Income/household documentation",
+        "Healthplanfinder, Washington Connection, or DSHS application"
+      ],
+      "ml": [
+        "Identity and Washington residency",
+        "Income/household documentation",
+        "Healthplanfinder, Washington Connection, or DSHS application"
+      ],
+      "hi": [
+        "Identity and Washington residency",
+        "Income/household documentation",
+        "Healthplanfinder, Washington Connection, or DSHS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply year-round via pathways listed on hca.wa.gov (Healthplanfinder for most MAGI households; Washington Connection / DSHS for aged, blind, disabled, Medicare-related, or long-term care).",
+      "ml": "Apply year-round via pathways listed on hca.wa.gov (Healthplanfinder for most MAGI households; Washington Connection / DSHS for aged, blind, disabled, Medicare-related, or long-term care).",
+      "hi": "Apply year-round via pathways listed on hca.wa.gov (Healthplanfinder for most MAGI households; Washington Connection / DSHS for aged, blind, disabled, Medicare-related, or long-term care)."
+    },
+    "apply_url": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+    "official_source_url": "https://www.hca.wa.gov/free-or-low-cost-health-care/apply-or-renew-coverage",
+    "last_verified": "2026-09-17",
+    "office_type": "Washington State Health Care Authority (HCA) / DSHS",
+    "tags": [
+      "united_states",
+      "washington",
+      "medicaid",
+      "apple_health",
+      "health"
+    ]
+  },
+  {
+    "id": "wa-liheap",
+    "scheme_name": {
+      "en": "Low-Income Home Energy Assistance Program (LIHEAP) – Washington Commerce",
+      "ml": "Low-Income Home Energy Assistance Program (LIHEAP) – Washington Commerce",
+      "hi": "LIHEAP – वाशिंगटन"
+    },
+    "description": {
+      "en": "Washington LIHEAP helps eligible low-income households with home energy costs through local community action / provider agencies. Administered with state guidance from the Department of Commerce.",
+      "ml": "Washington LIHEAP helps eligible low-income households with home energy costs through local community action / provider agencies. Administered with state guidance from the Department of Commerce.",
+      "hi": "Washington LIHEAP helps eligible low-income households with home energy costs through local community action / provider agencies. Administered with state guidance from the Department of Commerce."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WA LIHEAP: income-eligible households with energy burden; delivered by local providers. Seasonal funding. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Local provider income charts and open seasons — verify=true via commerce.wa.gov LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Heating/cooling and crisis energy assistance through local WA LIHEAP providers (funding and seasons vary).",
+      "ml": "Heating/cooling and crisis energy assistance through local WA LIHEAP providers (funding and seasons vary).",
+      "hi": "Heating/cooling and crisis energy assistance through local WA LIHEAP providers (funding and seasons vary)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel bill information",
+        "Application with local LIHEAP provider"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel bill information",
+        "Application with local LIHEAP provider"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel bill information",
+        "Application with local LIHEAP provider"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Find and contact your local LIHEAP provider via commerce.wa.gov LIHEAP pages; appointments and open seasons vary by agency.",
+      "ml": "Find and contact your local LIHEAP provider via commerce.wa.gov LIHEAP pages; appointments and open seasons vary by agency.",
+      "hi": "Find and contact your local LIHEAP provider via commerce.wa.gov LIHEAP pages; appointments and open seasons vary by agency."
+    },
+    "apply_url": "https://www.commerce.wa.gov/community-opportunities/liheap/",
+    "official_source_url": "https://www.commerce.wa.gov/community-opportunities/liheap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Washington State Department of Commerce / local LIHEAP providers",
+    "tags": [
+      "united_states",
+      "washington",
+      "liheap",
+      "energy",
+      "commerce"
+    ]
+  },
+  {
+    "id": "wa-wccc",
+    "scheme_name": {
+      "en": "Working Connections Child Care (WCCC) – Washington",
+      "ml": "Working Connections Child Care (WCCC) – Washington",
+      "hi": "Working Connections Child Care – वाशिंगटन"
+    },
+    "description": {
+      "en": "Working Connections Child Care helps eligible Washington families pay for child care while working, in school/training, or in approved WorkFirst/BFET activities. Administered with DCYF / DSHS pathways.",
+      "ml": "Working Connections Child Care helps eligible Washington families pay for child care while working, in school/training, or in approved WorkFirst/BFET activities. Administered with DCYF / DSHS pathways.",
+      "hi": "Working Connections Child Care helps eligible Washington families pay for child care while working, in school/training, or in approved WorkFirst/BFET activities. Administered with DCYF / DSHS pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WCCC: Washington residency, qualifying activity, and income limits; approved providers required. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income and activity rules — verify=true via dcyf.wa.gov WCCC.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Child care subsidy assistance for eligible Washington families.",
+      "ml": "Child care subsidy assistance for eligible Washington families.",
+      "hi": "Child care subsidy assistance for eligible Washington families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income and activity (work/school) documentation",
+        "Child information",
+        "Washington Connection or DCYF/DSHS child care application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income and activity (work/school) documentation",
+        "Child information",
+        "Washington Connection or DCYF/DSHS child care application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income and activity (work/school) documentation",
+        "Child information",
+        "Washington Connection or DCYF/DSHS child care application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Washington Connection, call the child care subsidy line (844-626-8687), or follow dcyf.wa.gov Working Connections Child Care instructions.",
+      "ml": "Apply via Washington Connection, call the child care subsidy line (844-626-8687), or follow dcyf.wa.gov Working Connections Child Care instructions.",
+      "hi": "Apply via Washington Connection, call the child care subsidy line (844-626-8687), or follow dcyf.wa.gov Working Connections Child Care instructions."
+    },
+    "apply_url": "https://www.washingtonconnection.org/home/",
+    "official_source_url": "https://www.dcyf.wa.gov/services/earlylearning-childcare/getting-help/wccc",
+    "last_verified": "2026-09-17",
+    "office_type": "Washington Department of Children, Youth, and Families (DCYF) / DSHS",
+    "tags": [
+      "united_states",
+      "washington",
+      "child_care",
+      "wccc",
+      "washington_connection"
+    ]
+  },
+  {
+    "id": "az-nutrition-assistance",
+    "scheme_name": {
+      "en": "Nutrition Assistance (SNAP) – Arizona Health-e-Arizona Plus / DES",
+      "ml": "Nutrition Assistance (SNAP) – Arizona Health-e-Arizona Plus / DES",
+      "hi": "Nutrition Assistance – एरिज़ोना"
+    },
+    "description": {
+      "en": "Arizona Nutrition Assistance (SNAP) helps eligible low-income households buy food. Apply online through Health-e-Arizona Plus for Nutrition Assistance along with medical and cash programs.",
+      "ml": "Arizona Nutrition Assistance (SNAP) helps eligible low-income households buy food. Apply online through Health-e-Arizona Plus for Nutrition Assistance along with medical and cash programs.",
+      "hi": "Arizona Nutrition Assistance (SNAP) helps eligible low-income households buy food. Apply online through Health-e-Arizona Plus for Nutrition Assistance along with medical and cash programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AZ Nutrition Assistance via HEAplus: residency and income/resource rules; expedited processing may apply in low-resource cases. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and interview rules — verify=true via des.az.gov / Health-e-Arizona Plus.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly Nutrition Assistance food benefits for eligible Arizona households.",
+      "ml": "Monthly Nutrition Assistance food benefits for eligible Arizona households.",
+      "hi": "Monthly Nutrition Assistance food benefits for eligible Arizona households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arizona residency",
+        "Income documentation",
+        "Health-e-Arizona Plus application / interview"
+      ],
+      "ml": [
+        "Identity and Arizona residency",
+        "Income documentation",
+        "Health-e-Arizona Plus application / interview"
+      ],
+      "hi": [
+        "Identity and Arizona residency",
+        "Income documentation",
+        "Health-e-Arizona Plus application / interview"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at healthearizonaplus.gov (linked from des.az.gov Health-e-Arizona Plus pages) or contact DES; interviews may be required for Nutrition Assistance.",
+      "ml": "Apply at healthearizonaplus.gov (linked from des.az.gov Health-e-Arizona Plus pages) or contact DES; interviews may be required for Nutrition Assistance.",
+      "hi": "Apply at healthearizonaplus.gov (linked from des.az.gov Health-e-Arizona Plus pages) or contact DES; interviews may be required for Nutrition Assistance."
+    },
+    "apply_url": "https://www.healthearizonaplus.gov/Login/Default",
+    "official_source_url": "https://des.az.gov/services/basic-needs/food-assistance/nutrition-assistance/health-e-arizona-plus-application",
+    "last_verified": "2026-09-17",
+    "office_type": "Arizona Department of Economic Security (DES) / Health-e-Arizona Plus",
+    "tags": [
+      "united_states",
+      "arizona",
+      "snap",
+      "nutrition_assistance",
+      "food",
+      "hea_plus"
+    ]
+  },
+  {
+    "id": "az-cash-assistance",
+    "scheme_name": {
+      "en": "Cash Assistance (TANF) – Arizona DES",
+      "ml": "Cash Assistance (TANF) – Arizona DES",
+      "hi": "Cash Assistance – एरिज़ोना"
+    },
+    "description": {
+      "en": "Arizona Cash Assistance (TANF) provides temporary cash benefits and supportive services for eligible families with dependent children. Work-eligible adults usually participate in the TANF Jobs Program.",
+      "ml": "Arizona Cash Assistance (TANF) provides temporary cash benefits and supportive services for eligible families with dependent children. Work-eligible adults usually participate in the TANF Jobs Program.",
+      "hi": "Arizona Cash Assistance (TANF) provides temporary cash benefits and supportive services for eligible families with dependent children. Work-eligible adults usually participate in the TANF Jobs Program."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AZ Cash Assistance: families with dependent children; income/resource and Jobs Program rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Grant diversion, time limits, and income tests — verify=true via des.az.gov Cash Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Arizona families with children.",
+      "ml": "Temporary cash assistance for eligible Arizona families with children.",
+      "hi": "Temporary cash assistance for eligible Arizona families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "Health-e-Arizona Plus or DES Cash Assistance application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "Health-e-Arizona Plus or DES Cash Assistance application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "Health-e-Arizona Plus or DES Cash Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through Health-e-Arizona Plus or follow des.az.gov Cash Assistance (des.az.gov/ca); call 1-855-432-7587 for help.",
+      "ml": "Apply online through Health-e-Arizona Plus or follow des.az.gov Cash Assistance (des.az.gov/ca); call 1-855-432-7587 for help.",
+      "hi": "Apply online through Health-e-Arizona Plus or follow des.az.gov Cash Assistance (des.az.gov/ca); call 1-855-432-7587 for help."
+    },
+    "apply_url": "https://www.healthearizonaplus.gov/Login/Default",
+    "official_source_url": "https://des.az.gov/ca",
+    "last_verified": "2026-09-17",
+    "office_type": "Arizona Department of Economic Security (DES)",
+    "tags": [
+      "united_states",
+      "arizona",
+      "tanf",
+      "cash_assistance",
+      "hea_plus"
+    ]
+  },
+  {
+    "id": "az-ahcccs",
+    "scheme_name": {
+      "en": "AHCCCS Medical Assistance (Arizona Medicaid)",
+      "ml": "AHCCCS Medical Assistance (Arizona Medicaid)",
+      "hi": "AHCCCS – एरिज़ोना"
+    },
+    "description": {
+      "en": "AHCCCS provides Medicaid health coverage for eligible Arizona adults and children with limited income. DES determines eligibility for many AHCCCS categories; apply through Health-e-Arizona Plus.",
+      "ml": "AHCCCS provides Medicaid health coverage for eligible Arizona adults and children with limited income. DES determines eligibility for many AHCCCS categories; apply through Health-e-Arizona Plus.",
+      "hi": "AHCCCS provides Medicaid health coverage for eligible Arizona adults and children with limited income. DES determines eligibility for many AHCCCS categories; apply through Health-e-Arizona Plus."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AHCCCS Medicaid: income and household rules by category (adults, children, etc.). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category FPL charts — verify=true via des.az.gov / azahcccs.gov / HEAplus.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Arizonans (doctor visits, hospital care, prescriptions, and other AHCCCS services by category).",
+      "ml": "Health coverage for eligible Arizonans (doctor visits, hospital care, prescriptions, and other AHCCCS services by category).",
+      "hi": "Health coverage for eligible Arizonans (doctor visits, hospital care, prescriptions, and other AHCCCS services by category)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arizona residency",
+        "Income/household documentation",
+        "Health-e-Arizona Plus medical application"
+      ],
+      "ml": [
+        "Identity and Arizona residency",
+        "Income/household documentation",
+        "Health-e-Arizona Plus medical application"
+      ],
+      "hi": [
+        "Identity and Arizona residency",
+        "Income/household documentation",
+        "Health-e-Arizona Plus medical application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at Health-e-Arizona Plus; see des.az.gov how-to-apply for medical assistance and AHCCCS member pages.",
+      "ml": "Apply online at Health-e-Arizona Plus; see des.az.gov how-to-apply for medical assistance and AHCCCS member pages.",
+      "hi": "Apply online at Health-e-Arizona Plus; see des.az.gov how-to-apply for medical assistance and AHCCCS member pages."
+    },
+    "apply_url": "https://www.healthearizonaplus.gov/Login/Default",
+    "official_source_url": "https://des.az.gov/services/basic-needs/medical-assistance/how-to-apply",
+    "last_verified": "2026-09-17",
+    "office_type": "Arizona Health Care Cost Containment System (AHCCCS) / DES",
+    "tags": [
+      "united_states",
+      "arizona",
+      "medicaid",
+      "ahcccs",
+      "health",
+      "hea_plus"
+    ]
+  },
+  {
+    "id": "az-kidscare",
+    "scheme_name": {
+      "en": "KidsCare (Arizona CHIP)",
+      "ml": "KidsCare (Arizona CHIP)",
+      "hi": "KidsCare – एरिज़ोना"
+    },
+    "description": {
+      "en": "KidsCare is Arizona’s Children’s Health Insurance Program (CHIP) for uninsured children under 19 whose household income is above Medicaid limits but within KidsCare limits. Apply through Health-e-Arizona Plus.",
+      "ml": "KidsCare is Arizona’s Children’s Health Insurance Program (CHIP) for uninsured children under 19 whose household income is above Medicaid limits but within KidsCare limits. Apply through Health-e-Arizona Plus.",
+      "hi": "KidsCare is Arizona’s Children’s Health Insurance Program (CHIP) for uninsured children under 19 whose household income is above Medicaid limits but within KidsCare limits. Apply through Health-e-Arizona Plus."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KidsCare: uninsured children under 19; income above AHCCCS Medicaid free coverage but within CHIP range. Premium policy can change. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age, uninsured status, and income tiers — verify=true via azahcccs.gov KidsCare.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Children’s health coverage for eligible uninsured Arizona children (premiums may apply when in effect).",
+      "ml": "Children’s health coverage for eligible uninsured Arizona children (premiums may apply when in effect).",
+      "hi": "Children’s health coverage for eligible uninsured Arizona children (premiums may apply when in effect)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Arizona residency",
+        "Household income documentation",
+        "Health-e-Arizona Plus KidsCare / medical application"
+      ],
+      "ml": [
+        "Child identity and Arizona residency",
+        "Household income documentation",
+        "Health-e-Arizona Plus KidsCare / medical application"
+      ],
+      "hi": [
+        "Child identity and Arizona residency",
+        "Household income documentation",
+        "Health-e-Arizona Plus KidsCare / medical application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Health-e-Arizona Plus; review azahcccs.gov KidsCare for eligibility overview and current premium notices.",
+      "ml": "Apply via Health-e-Arizona Plus; review azahcccs.gov KidsCare for eligibility overview and current premium notices.",
+      "hi": "Apply via Health-e-Arizona Plus; review azahcccs.gov KidsCare for eligibility overview and current premium notices."
+    },
+    "apply_url": "https://www.healthearizonaplus.gov/Login/Default",
+    "official_source_url": "https://www.azahcccs.gov/Members/GetCovered/Categories/KidsCare.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Arizona Health Care Cost Containment System (AHCCCS) / DES",
+    "tags": [
+      "united_states",
+      "arizona",
+      "kidscare",
+      "chip",
+      "children",
+      "health",
+      "hea_plus"
+    ]
+  },
+  {
+    "id": "az-liheap",
+    "scheme_name": {
+      "en": "Low Income Home Energy Assistance Program (LIHEAP) – Arizona DES",
+      "ml": "Low Income Home Energy Assistance Program (LIHEAP) – Arizona DES",
+      "hi": "LIHEAP – एरिज़ोना"
+    },
+    "description": {
+      "en": "Arizona LIHEAP helps eligible low-income households pay heating/cooling bills and manage energy crises. Households already receiving DES Nutrition or Cash Assistance may be categorically income-eligible.",
+      "ml": "Arizona LIHEAP helps eligible low-income households pay heating/cooling bills and manage energy crises. Households already receiving DES Nutrition or Cash Assistance may be categorically income-eligible.",
+      "hi": "Arizona LIHEAP helps eligible low-income households pay heating/cooling bills and manage energy crises. Households already receiving DES Nutrition or Cash Assistance may be categorically income-eligible."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AZ LIHEAP: energy need, citizenship/immigration, and income guidelines; categorical eligibility if already on Nutrition/Cash Assistance. Funding limited. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income guidelines and seasonal availability — verify=true via des.az.gov/liheap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Energy bill and crisis assistance for eligible Arizona households (first-come, first-served funding).",
+      "ml": "Energy bill and crisis assistance for eligible Arizona households (first-come, first-served funding).",
+      "hi": "Energy bill and crisis assistance for eligible Arizona households (first-come, first-served funding)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation (or categorical eligibility proof)",
+        "Current utility bill / disconnection notice if any",
+        "A-to-Z Arizona Portal or paper LIHEAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation (or categorical eligibility proof)",
+        "Current utility bill / disconnection notice if any",
+        "A-to-Z Arizona Portal or paper LIHEAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation (or categorical eligibility proof)",
+        "Current utility bill / disconnection notice if any",
+        "A-to-Z Arizona Portal or paper LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the A-to-Z Arizona Portal linked from des.az.gov/liheap, a Community Action Agency, or call 1-866-494-1981.",
+      "ml": "Apply via the A-to-Z Arizona Portal linked from des.az.gov/liheap, a Community Action Agency, or call 1-866-494-1981.",
+      "hi": "Apply via the A-to-Z Arizona Portal linked from des.az.gov/liheap, a Community Action Agency, or call 1-866-494-1981."
+    },
+    "apply_url": "https://des.az.gov/liheap",
+    "official_source_url": "https://des.az.gov/liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "Arizona Department of Economic Security (DES) / Community Action Agencies",
+    "tags": [
+      "united_states",
+      "arizona",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "ma-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Massachusetts DTA",
+      "ml": "SNAP (Food Assistance) – Massachusetts DTA",
+      "hi": "SNAP – मैसाचुसेट्स"
+    },
+    "description": {
+      "en": "Massachusetts Department of Transitional Assistance (DTA) administers SNAP. Eligible residents apply online through DTA Connect, by phone, or at a local DTA office for monthly food benefits.",
+      "ml": "Massachusetts Department of Transitional Assistance (DTA) administers SNAP. Eligible residents apply online through DTA Connect, by phone, or at a local DTA office for monthly food benefits.",
+      "hi": "Massachusetts Department of Transitional Assistance (DTA) administers SNAP. Eligible residents apply online through DTA Connect, by phone, or at a local DTA office for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Massachusetts"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MA SNAP via DTA: residency and income/resource rules; household-size charts apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules — verify=true via mass.gov SNAP / DTA Connect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Massachusetts households.",
+      "ml": "Monthly SNAP food benefits for eligible Massachusetts households.",
+      "hi": "Monthly SNAP food benefits for eligible Massachusetts households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "DTA Connect or DTA office application"
+      ],
+      "ml": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "DTA Connect or DTA office application"
+      ],
+      "hi": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "DTA Connect or DTA office application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at DTA Connect (dtaconnect.eohhs.mass.gov) or follow mass.gov SNAP how-to; call 877-382-2363 for assistance.",
+      "ml": "Apply at DTA Connect (dtaconnect.eohhs.mass.gov) or follow mass.gov SNAP how-to; call 877-382-2363 for assistance.",
+      "hi": "Apply at DTA Connect (dtaconnect.eohhs.mass.gov) or follow mass.gov SNAP how-to; call 877-382-2363 for assistance."
+    },
+    "apply_url": "https://www.mass.gov/how-to/supplemental-nutrition-assistance-program-snap-formerly-known-as-food-stamps",
+    "official_source_url": "https://www.mass.gov/how-to/supplemental-nutrition-assistance-program-snap-formerly-known-as-food-stamps",
+    "last_verified": "2026-09-17",
+    "office_type": "Massachusetts Department of Transitional Assistance (DTA)",
+    "tags": [
+      "united_states",
+      "massachusetts",
+      "snap",
+      "food",
+      "dta"
+    ]
+  },
+  {
+    "id": "ma-tafdc",
+    "scheme_name": {
+      "en": "Transitional Aid to Families with Dependent Children (TAFDC) – Massachusetts",
+      "ml": "Transitional Aid to Families with Dependent Children (TAFDC) – Massachusetts",
+      "hi": "TAFDC – मैसाचुसेट्स"
+    },
+    "description": {
+      "en": "TAFDC is Massachusetts cash assistance for eligible families with dependent children. Benefits may include cash plus pathways to MassHealth, child care, transportation, and employment supports.",
+      "ml": "TAFDC is Massachusetts cash assistance for eligible families with dependent children. Benefits may include cash plus pathways to MassHealth, child care, transportation, and employment supports.",
+      "hi": "TAFDC is Massachusetts cash assistance for eligible families with dependent children. Benefits may include cash plus pathways to MassHealth, child care, transportation, and employment supports."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Massachusetts"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TAFDC: eligible families with dependent children; income and participation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Grant standards and work program rules — verify=true via mass.gov TAFDC / DTA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and related supports for eligible Massachusetts families with children.",
+      "ml": "Temporary cash assistance and related supports for eligible Massachusetts families with children.",
+      "hi": "Temporary cash assistance and related supports for eligible Massachusetts families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "DTA Connect or DTA office application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "DTA Connect or DTA office application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of dependent children",
+        "DTA Connect or DTA office application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via DTA Connect or follow mass.gov TAFDC how-to; call 877-382-2363.",
+      "ml": "Apply via DTA Connect or follow mass.gov TAFDC how-to; call 877-382-2363.",
+      "hi": "Apply via DTA Connect or follow mass.gov TAFDC how-to; call 877-382-2363."
+    },
+    "apply_url": "https://www.mass.gov/how-to/transitional-aid-to-families-with-dependent-children-tafdc",
+    "official_source_url": "https://www.mass.gov/how-to/transitional-aid-to-families-with-dependent-children-tafdc",
+    "last_verified": "2026-09-17",
+    "office_type": "Massachusetts Department of Transitional Assistance (DTA)",
+    "tags": [
+      "united_states",
+      "massachusetts",
+      "tafdc",
+      "tanf",
+      "cash_assistance",
+      "dta"
+    ]
+  },
+  {
+    "id": "ma-eaedc",
+    "scheme_name": {
+      "en": "Emergency Aid to the Elderly, Disabled and Children (EAEDC) – Massachusetts",
+      "ml": "Emergency Aid to the Elderly, Disabled and Children (EAEDC) – Massachusetts",
+      "hi": "EAEDC – मैसाचुसेट्स"
+    },
+    "description": {
+      "en": "EAEDC is Massachusetts DTA cash assistance for eligible elderly or disabled adults, certain caregivers, and children in specified living arrangements. Approved households may also receive MassHealth.",
+      "ml": "EAEDC is Massachusetts DTA cash assistance for eligible elderly or disabled adults, certain caregivers, and children in specified living arrangements. Approved households may also receive MassHealth.",
+      "hi": "EAEDC is Massachusetts DTA cash assistance for eligible elderly or disabled adults, certain caregivers, and children in specified living arrangements. Approved households may also receive MassHealth."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Massachusetts"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "EAEDC: elderly, disabled, or certain caregiver/child categories; income standards published in DTA tables. No single invented annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category and standards-of-assistance tables — verify=true via mass.gov EAEDC / DTA charts.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash assistance (typically twice-monthly) and related MassHealth pathway for eligible EAEDC households.",
+      "ml": "Cash assistance (typically twice-monthly) and related MassHealth pathway for eligible EAEDC households.",
+      "hi": "Cash assistance (typically twice-monthly) and related MassHealth pathway for eligible EAEDC households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Massachusetts residency",
+        "Age, disability, or caregiver documentation as applicable",
+        "Income documentation",
+        "DTA Connect or DTA office EAEDC application"
+      ],
+      "ml": [
+        "Identity and Massachusetts residency",
+        "Age, disability, or caregiver documentation as applicable",
+        "Income documentation",
+        "DTA Connect or DTA office EAEDC application"
+      ],
+      "hi": [
+        "Identity and Massachusetts residency",
+        "Age, disability, or caregiver documentation as applicable",
+        "Income documentation",
+        "DTA Connect or DTA office EAEDC application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via DTA Connect EAEDC pathway, call 877-382-2363, or visit a local DTA office; see mass.gov EAEDC info.",
+      "ml": "Apply via DTA Connect EAEDC pathway, call 877-382-2363, or visit a local DTA office; see mass.gov EAEDC info.",
+      "hi": "Apply via DTA Connect EAEDC pathway, call 877-382-2363, or visit a local DTA office; see mass.gov EAEDC info."
+    },
+    "apply_url": "https://www.mass.gov/info-details/emergency-aid-to-the-elderly-disabled-and-children-eaedc",
+    "official_source_url": "https://www.mass.gov/info-details/emergency-aid-to-the-elderly-disabled-and-children-eaedc",
+    "last_verified": "2026-09-17",
+    "office_type": "Massachusetts Department of Transitional Assistance (DTA)",
+    "tags": [
+      "united_states",
+      "massachusetts",
+      "eaedc",
+      "cash_assistance",
+      "disability",
+      "elderly",
+      "dta"
+    ]
+  },
+  {
+    "id": "ma-masshealth",
+    "scheme_name": {
+      "en": "MassHealth (Massachusetts Medicaid / CHIP)",
+      "ml": "MassHealth (Massachusetts Medicaid / CHIP)",
+      "hi": "MassHealth – मैसाचुसेट्स"
+    },
+    "description": {
+      "en": "MassHealth provides free or low-cost health coverage for eligible Massachusetts residents, including Medicaid and related children’s coverage pathways. Apply online, by phone, mail, fax, or in person.",
+      "ml": "MassHealth provides free or low-cost health coverage for eligible Massachusetts residents, including Medicaid and related children’s coverage pathways. Apply online, by phone, mail, fax, or in person.",
+      "hi": "MassHealth provides free or low-cost health coverage for eligible Massachusetts residents, including Medicaid and related children’s coverage pathways. Apply online, by phone, mail, fax, or in person."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Massachusetts"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MassHealth: income and category-based eligibility (families, adults, seniors, disability, long-term care). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category-specific forms and FPL charts — verify=true via mass.gov MassHealth.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Massachusetts residents (doctor, hospital, prescriptions, and other MassHealth services by category).",
+      "ml": "Health coverage for eligible Massachusetts residents (doctor, hospital, prescriptions, and other MassHealth services by category).",
+      "hi": "Health coverage for eligible Massachusetts residents (doctor, hospital, prescriptions, and other MassHealth services by category)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Massachusetts residency",
+        "Income/household documentation",
+        "MassHealth / Health Connector application (ACA-3 or category-specific form)"
+      ],
+      "ml": [
+        "Identity and Massachusetts residency",
+        "Income/household documentation",
+        "MassHealth / Health Connector application (ACA-3 or category-specific form)"
+      ],
+      "hi": [
+        "Identity and Massachusetts residency",
+        "Income/household documentation",
+        "MassHealth / Health Connector application (ACA-3 or category-specific form)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via pathways on mass.gov MassHealth how-to (MA Health Connector / MA Login for many under-65 applicants; other forms for seniors/long-term care).",
+      "ml": "Apply via pathways on mass.gov MassHealth how-to (MA Health Connector / MA Login for many under-65 applicants; other forms for seniors/long-term care).",
+      "hi": "Apply via pathways on mass.gov MassHealth how-to (MA Health Connector / MA Login for many under-65 applicants; other forms for seniors/long-term care)."
+    },
+    "apply_url": "https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan",
+    "official_source_url": "https://www.mass.gov/how-to/apply-for-masshealth-the-health-safety-net-or-the-childrens-medical-security-plan",
+    "last_verified": "2026-09-17",
+    "office_type": "Massachusetts MassHealth / Executive Office of Health and Human Services",
+    "tags": [
+      "united_states",
+      "massachusetts",
+      "masshealth",
+      "medicaid",
+      "chip",
+      "health"
+    ]
+  },
+  {
+    "id": "ma-heap",
+    "scheme_name": {
+      "en": "Home Energy Assistance Program (HEAP / Fuel Assistance) – Massachusetts",
+      "ml": "Home Energy Assistance Program (HEAP / Fuel Assistance) – Massachusetts",
+      "hi": "HEAP / Fuel Assistance – मैसाचुसेट्स"
+    },
+    "description": {
+      "en": "Massachusetts Home Energy Assistance (HEAP), formerly Fuel Assistance / LIHEAP, helps eligible homeowners and renters pay a portion of winter heating costs. Administered with EOHLC and local agencies.",
+      "ml": "Massachusetts Home Energy Assistance (HEAP), formerly Fuel Assistance / LIHEAP, helps eligible homeowners and renters pay a portion of winter heating costs. Administered with EOHLC and local agencies.",
+      "hi": "Massachusetts Home Energy Assistance (HEAP), formerly Fuel Assistance / LIHEAP, helps eligible homeowners and renters pay a portion of winter heating costs. Administered with EOHLC and local agencies."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Massachusetts"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MA HEAP: household income generally cannot exceed ~60% of estimated State Median Income; heating season Nov–Apr. No hard annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI charts and open season — verify=true via mass.gov Home Energy Assistance / HEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Fixed heating benefit toward primary fuel (oil, gas, electric, propane, wood, etc.) and possible utility discount rates for eligible households.",
+      "ml": "Fixed heating benefit toward primary fuel (oil, gas, electric, propane, wood, etc.) and possible utility discount rates for eligible households.",
+      "hi": "Fixed heating benefit toward primary fuel (oil, gas, electric, propane, wood, etc.) and possible utility discount rates for eligible households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "Heating cost / vendor information",
+        "Online HEAP or local agency application"
+      ],
+      "ml": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "Heating cost / vendor information",
+        "Online HEAP or local agency application"
+      ],
+      "hi": [
+        "Identity and Massachusetts residency",
+        "Income documentation",
+        "Heating cost / vendor information",
+        "Online HEAP or local agency application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the MA HEAP portal linked from mass.gov, by mail, or through your local administering agency; call 2-1-1 or 800-632-8175 for guidance.",
+      "ml": "Apply online via the MA HEAP portal linked from mass.gov, by mail, or through your local administering agency; call 2-1-1 or 800-632-8175 for guidance.",
+      "hi": "Apply online via the MA HEAP portal linked from mass.gov, by mail, or through your local administering agency; call 2-1-1 or 800-632-8175 for guidance."
+    },
+    "apply_url": "https://www.mass.gov/how-to/apply-for-home-heating-and-energy-assistance",
+    "official_source_url": "https://www.mass.gov/how-to/apply-for-home-heating-and-energy-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Massachusetts Executive Office of Housing and Livable Communities (EOHLC) / local HEAP agencies",
+    "tags": [
+      "united_states",
+      "massachusetts",
+      "liheap",
+      "heap",
+      "fuel_assistance",
+      "energy"
+    ]
   }
 ]

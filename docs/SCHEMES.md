@@ -1,13 +1,29 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 377 schemes
-**verify=true:** 369
+**Count:** 403 schemes
+**verify=true:** 395
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count).
 
 
+
+
+
+## US Wave 3 state deepen (2026-09-17 IST)
+
+Added **26** state-tagged US schemes (`nationwide:false`) for New Jersey, Virginia, Washington, Arizona, and Massachusetts. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `nj-*`, `va-*`, `wa-*`, `az-*`, `ma-*` (no bare `ga-`).
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| New Jersey | `nj-snap`, `nj-workfirst-tanf`, `nj-workfirst-ga`, `nj-familycare`, `nj-liheap`, `nj-usf` | nj.gov NJ SNAP / WFNJ / FamilyCare / DCA LIHEAP+USF; apply via MyNJHelps where noted |
+| Virginia | `va-snap`, `va-tanf`, `va-medicaid`, `va-famis`, `va-energy-assistance` | dss.virginia.gov + CoverVA; apply via CommonHelp |
+| Washington | `wa-basic-food`, `wa-tanf`, `wa-apple-health`, `wa-liheap`, `wa-wccc` | dshs.wa.gov, hca.wa.gov, commerce.wa.gov, dcyf.wa.gov; Washington Connection apply where noted |
+| Arizona | `az-nutrition-assistance`, `az-cash-assistance`, `az-ahcccs`, `az-kidscare`, `az-liheap` | des.az.gov + azahcccs.gov; Health-e-Arizona Plus apply |
+| Massachusetts | `ma-snap`, `ma-tafdc`, `ma-eaedc`, `ma-masshealth`, `ma-heap` | mass.gov DTA / MassHealth / HEAP |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (FPL/SMI notes only). Skipped portal-only meta rows (CommonHelp / Washington Connection / HEAplus / DTA Connect as standalone schemes).
 
 ## US Wave 2 state deepen (2026-09-17 IST)
 

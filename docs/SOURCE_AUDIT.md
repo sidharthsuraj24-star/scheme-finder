@@ -17,6 +17,22 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+
+
+## United States Wave 3 state deepen (2026-09-17 IST)
+
+Added **26** state-tagged schemes for **New Jersey, Virginia, Washington, Arizona, Massachusetts** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (nj.gov; dss.virginia.gov / coverva.dmas.virginia.gov / commonhelp.virginia.gov; dshs.wa.gov / hca.wa.gov / commerce.wa.gov / dcyf.wa.gov; des.az.gov / azahcccs.gov / healthearizonaplus.gov; mass.gov). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| New Jersey | nj-snap, nj-workfirst-tanf, nj-workfirst-ga, nj-familycare, nj-liheap, nj-usf | nj.gov (+ mynjhelps.gov apply) |
+| Virginia | va-snap, va-tanf, va-medicaid, va-famis, va-energy-assistance | dss.virginia.gov, coverva.dmas.virginia.gov (+ commonhelp.virginia.gov apply) |
+| Washington | wa-basic-food, wa-tanf, wa-apple-health, wa-liheap, wa-wccc | dshs.wa.gov, hca.wa.gov, commerce.wa.gov, dcyf.wa.gov (+ washingtonconnection.org apply) |
+| Arizona | az-nutrition-assistance, az-cash-assistance, az-ahcccs, az-kidscare, az-liheap | des.az.gov, azahcccs.gov (+ healthearizonaplus.gov apply) |
+| Massachusetts | ma-snap, ma-tafdc, ma-eaedc, ma-masshealth, ma-heap | mass.gov |
+
+**Skipped / deferred:** Portal-only catalogue rows for CommonHelp, Washington Connection, Health-e-Arizona Plus, and DTA Connect (covered as apply pathways on program rows); inventing LIHEAP/HEAP dollar caps; non-`.gov` aggregator mirrors.
+
 ## United States Wave 2 state deepen (2026-09-17 IST)
 
 Added **27** state-tagged schemes for **Pennsylvania, Ohio, Georgia, North Carolina, Michigan** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (pa.gov; benefits/medicaid/development.ohio.gov; gateway.ga.gov + dhs/dch/dfcs.georgia.gov; epass.nc.gov + ncdhhs.gov / medicaid.ncdhhs.gov; michigan.gov MDHHS / MI Bridges). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI/tier notes only).

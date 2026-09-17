@@ -1719,3 +1719,83 @@ def test_catalogue_covers_us_wave2_states(schemes):
     ):
         assert required in by_state, required
 
+
+
+# ---------------------------------------------------------------------------
+# US Wave 3 state deepen (NJ / VA / WA / AZ / MA)
+# ---------------------------------------------------------------------------
+
+
+def test_nj_profile_matches_nj_and_federal_us(schemes):
+    """New Jersey low-income senior matches nj-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="New Jersey",
+        district="Essex",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "nj-snap" in ids
+    assert "nj-familycare" in ids
+    assert "nj-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "va-snap" not in ids
+    assert "pa-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_va_profile_does_not_match_nj_schemes(schemes):
+    """Virginia profile must not match New Jersey-only schemes; may match va-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Virginia",
+        district="Fairfax",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    nj_ids = {s["id"] for s in schemes if s["id"].startswith("nj-")}
+    assert ids & nj_ids == set()
+    assert any(e.scheme_id == "nj-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "va-snap" in ids or "va-medicaid" in ids or "va-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_catalogue_covers_us_wave3_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "New Jersey",
+        "Virginia",
+        "Washington",
+        "Arizona",
+        "Massachusetts",
+    ):
+        assert required in by_state, required
