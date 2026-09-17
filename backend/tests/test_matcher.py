@@ -1637,3 +1637,85 @@ def test_catalogue_covers_us_wave1_states(schemes):
             by_state.add(st)
     for required in ("California", "New York", "Texas", "Florida", "Illinois"):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 2 state deepen (PA / OH / GA / NC / MI)
+# ---------------------------------------------------------------------------
+
+
+def test_pa_profile_matches_pa_and_federal_us(schemes):
+    """Pennsylvania low-income senior matches pa-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="Pennsylvania",
+        district="Philadelphia",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "pa-snap" in ids
+    assert "pa-medicaid" in ids
+    assert "pa-liheap" in ids
+    assert "pa-pace" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "oh-snap" not in ids
+    assert "ca-calfresh" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_oh_profile_does_not_match_pa_schemes(schemes):
+    """Ohio profile must not match Pennsylvania-only schemes; may match oh-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Ohio",
+        district="Franklin",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    pa_ids = {s["id"] for s in schemes if s["id"].startswith("pa-")}
+    assert ids & pa_ids == set()
+    assert any(e.scheme_id == "pa-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "oh-snap" in ids or "oh-medicaid" in ids or "oh-owf-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_catalogue_covers_us_wave2_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "Pennsylvania",
+        "Ohio",
+        "Georgia",
+        "North Carolina",
+        "Michigan",
+    ):
+        assert required in by_state, required
+

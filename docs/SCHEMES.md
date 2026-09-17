@@ -1,11 +1,27 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 350 schemes
-**verify=true:** 342
+**Count:** 377 schemes
+**verify=true:** 369
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois — state-tagged programs; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count).
+
+
+
+## US Wave 2 state deepen (2026-09-17 IST)
+
+Added **27** state-tagged US schemes (`nationwide:false`) for Pennsylvania, Ohio, Georgia, North Carolina, and Michigan. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `pa-*`, `oh-*`, `ga-*` (US Georgia; distinct from India Goa `ga-*` by `countries`/`states`), `nc-*`, `mi-*`.
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| Pennsylvania | `pa-snap`, `pa-tanf`, `pa-medicaid`, `pa-liheap`, `pa-chip`, `pa-pace` | pa.gov DHS COMPASS / Aging PACE |
+| Ohio | `oh-snap`, `oh-owf-tanf`, `oh-medicaid`, `oh-healthy-start`, `oh-heap` | benefits.ohio.gov, medicaid.ohio.gov, development.ohio.gov HEAP |
+| Georgia | `ga-snap`, `ga-tanf`, `ga-medicaid`, `ga-peachcare`, `ga-liheap` | gateway.ga.gov, dhs/dch/dfcs.georgia.gov |
+| North Carolina | `nc-snap`, `nc-work-first`, `nc-medicaid`, `nc-health-choice`, `nc-lieap` | epass.nc.gov, ncdhhs.gov, medicaid.ncdhhs.gov |
+| Michigan | `mi-snap`, `mi-fip`, `mi-medicaid`, `mi-michild`, `mi-ser`, `mi-liheap-energy` | michigan.gov MI Bridges / MDHHS |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (PACE/PACENET and HEAP/Healthy Start cite FPL or tiered limits in notes only).
 
 
 ## US Wave 1 state deepen (2026-09-17 IST)

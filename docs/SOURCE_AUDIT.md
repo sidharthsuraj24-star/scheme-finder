@@ -16,6 +16,21 @@
 Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.usda.gov, medicaid.gov, ssa.gov, acf.hhs.gov, hud.gov, dol.gov, medicare.gov, insurekidsnow.gov). Prefer federal framing; income ceilings left unstructured when state-variable (`verify=true`). Domain policy extended to include `*.gov` (US) alongside existing `*.gov.in` / neighbour TLDs.
 
 
+
+## United States Wave 2 state deepen (2026-09-17 IST)
+
+Added **27** state-tagged schemes for **Pennsylvania, Ohio, Georgia, North Carolina, Michigan** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (pa.gov; benefits/medicaid/development.ohio.gov; gateway.ga.gov + dhs/dch/dfcs.georgia.gov; epass.nc.gov + ncdhhs.gov / medicaid.ncdhhs.gov; michigan.gov MDHHS / MI Bridges). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI/tier notes only).
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| Pennsylvania | pa-snap, pa-tanf, pa-medicaid, pa-liheap, pa-chip, pa-pace | pa.gov |
+| Ohio | oh-snap, oh-owf-tanf, oh-medicaid, oh-healthy-start, oh-heap | benefits.ohio.gov, medicaid.ohio.gov, development.ohio.gov |
+| Georgia | ga-snap, ga-tanf, ga-medicaid, ga-peachcare, ga-liheap | dhs.georgia.gov, dch.georgia.gov, dfcs.georgia.gov (+ gateway.ga.gov apply) |
+| North Carolina | nc-snap, nc-work-first, nc-medicaid, nc-health-choice, nc-lieap | ncdhhs.gov, medicaid.ncdhhs.gov (+ epass.nc.gov apply) |
+| Michigan | mi-snap, mi-fip, mi-medicaid, mi-michild, mi-ser, mi-liheap-energy | michigan.gov |
+
+**Skipped / deferred:** Separate PACENET-only row (covered under `pa-pace` notes); Georgia Pathways-only adult expansion as standalone row (noted under `ga-medicaid`); non-`.gov` aggregator mirrors; inventing LIHEAP dollar caps.
+
 ## United States Wave 1 state deepen (2026-09-17 IST)
 
 Added **31** state-tagged schemes for **California, New York, Texas, Florida, Illinois** (`nationwide:false`, `states` matching COUNTRY_REGIONS exact names). Official sources are `.gov` only (cdss/dhcs/csd/ftb.ca.gov; otda/health/nyc.gov; hhs/tdhca.texas.gov; healthfinder/flsenate/floridahealth.gov; abe/hfs/dceo.illinois.gov). Federal `us-*` rows not duplicated or weakened. All new rows `verify=true`; income ceilings encoded only where clearly published (CalEITC TY2025 max $32,900).

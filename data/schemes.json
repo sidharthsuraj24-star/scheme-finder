@@ -27342,5 +27342,2079 @@
       "women",
       "children"
     ]
+  },
+  {
+    "id": "pa-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Stamps) – Pennsylvania COMPASS / DHS",
+      "ml": "SNAP (Food Stamps) – Pennsylvania COMPASS / DHS",
+      "hi": "SNAP – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania Department of Human Services administers SNAP. Eligible low-income residents can apply online through COMPASS, by mail, or at a County Assistance Office. Benefits help buy groceries.",
+      "ml": "Pennsylvania Department of Human Services administers SNAP. Eligible low-income residents can apply online through COMPASS, by mail, or at a County Assistance Office. Benefits help buy groceries.",
+      "hi": "Pennsylvania Department of Human Services administers SNAP. Eligible low-income residents can apply online through COMPASS, by mail, or at a County Assistance Office. Benefits help buy groceries."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA DHS SNAP via COMPASS: PA residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via pa.gov DHS SNAP / COMPASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Pennsylvania households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Pennsylvania households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Pennsylvania households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Pennsylvania residency",
+        "Income documentation",
+        "COMPASS or County Assistance Office application"
+      ],
+      "ml": [
+        "Identity and Pennsylvania residency",
+        "Income documentation",
+        "COMPASS or County Assistance Office application"
+      ],
+      "hi": [
+        "Identity and Pennsylvania residency",
+        "Income documentation",
+        "COMPASS or County Assistance Office application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via COMPASS (linked from pa.gov DHS SNAP) or at your County Assistance Office; call DHS customer service if needed.",
+      "ml": "Apply online via COMPASS (linked from pa.gov DHS SNAP) or at your County Assistance Office; call DHS customer service if needed.",
+      "hi": "Apply online via COMPASS (linked from pa.gov DHS SNAP) or at your County Assistance Office; call DHS customer service if needed."
+    },
+    "apply_url": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap",
+    "official_source_url": "https://www.pa.gov/services/dhs/apply-for-the-supplemental-nutrition-assistance-program-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Human Services (DHS) / County Assistance Offices",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "snap",
+      "food",
+      "compass"
+    ]
+  },
+  {
+    "id": "pa-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – Pennsylvania",
+      "ml": "Temporary Assistance for Needy Families (TANF) – Pennsylvania",
+      "hi": "TANF – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania TANF cash assistance for eligible low-income families, applied through COMPASS or a County Assistance Office under DHS.",
+      "ml": "Pennsylvania TANF cash assistance for eligible low-income families, applied through COMPASS or a County Assistance Office under DHS.",
+      "hi": "Pennsylvania TANF cash assistance for eligible low-income families, applied through COMPASS or a County Assistance Office under DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA TANF: low-income families with dependent children; residency and cooperation rules. Income tests are not a single published annual ceiling on the overview page.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via pa.gov TANF / COMPASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for basic needs for eligible Pennsylvania families.",
+      "ml": "Temporary cash assistance for basic needs for eligible Pennsylvania families.",
+      "hi": "Temporary cash assistance for basic needs for eligible Pennsylvania families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "COMPASS or CAO application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "COMPASS or CAO application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "COMPASS or CAO application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through COMPASS or in person at your County Assistance Office (CAO).",
+      "ml": "Apply online through COMPASS or in person at your County Assistance Office (CAO).",
+      "hi": "Apply online through COMPASS or in person at your County Assistance Office (CAO)."
+    },
+    "apply_url": "https://www.pa.gov/services/dhs/apply-for-temporary-assistance-for-needy-families-tanf",
+    "official_source_url": "https://www.pa.gov/services/dhs/apply-for-temporary-assistance-for-needy-families-tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Human Services (DHS)",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "tanf",
+      "cash_assistance",
+      "compass"
+    ]
+  },
+  {
+    "id": "pa-medicaid",
+    "scheme_name": {
+      "en": "Medical Assistance (Medicaid) – Pennsylvania",
+      "ml": "Medical Assistance (Medicaid) – Pennsylvania",
+      "hi": "Medical Assistance – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania Medical Assistance (Medicaid) health coverage for eligible residents. Apply via COMPASS, phone, mail, or County Assistance Office.",
+      "ml": "Pennsylvania Medical Assistance (Medicaid) health coverage for eligible residents. Apply via COMPASS, phone, mail, or County Assistance Office.",
+      "hi": "Pennsylvania Medical Assistance (Medicaid) health coverage for eligible residents. Apply via COMPASS, phone, mail, or County Assistance Office."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA Medical Assistance: MAGI and non-MAGI pathways; income/resource rules vary by category (children, pregnant people, aged/blind/disabled, etc.). No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category + MAGI/FPL and resource tests — verify=true via pa.gov Medicaid / COMPASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Pennsylvanians (doctor, hospital, prescriptions, and other MA services as determined by eligibility category).",
+      "ml": "Health coverage for eligible Pennsylvanians (doctor, hospital, prescriptions, and other MA services as determined by eligibility category).",
+      "hi": "Health coverage for eligible Pennsylvanians (doctor, hospital, prescriptions, and other MA services as determined by eligibility category)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "COMPASS or CAO Medical Assistance application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "COMPASS or CAO Medical Assistance application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "COMPASS or CAO Medical Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via COMPASS, call 1-866-550-4355, or visit your County Assistance Office.",
+      "ml": "Apply online via COMPASS, call 1-866-550-4355, or visit your County Assistance Office.",
+      "hi": "Apply online via COMPASS, call 1-866-550-4355, or visit your County Assistance Office."
+    },
+    "apply_url": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits",
+    "official_source_url": "https://www.pa.gov/services/dhs/apply-for-medicaid-benefits",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Human Services (DHS)",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "medicaid",
+      "health",
+      "compass"
+    ]
+  },
+  {
+    "id": "pa-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Heating Assistance) – Pennsylvania",
+      "ml": "LIHEAP (Heating Assistance) – Pennsylvania",
+      "hi": "LIHEAP – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania LIHEAP provides cash grants to help eligible households pay heating bills during the open season. Apply via COMPASS or County Assistance Office.",
+      "ml": "Pennsylvania LIHEAP provides cash grants to help eligible households pay heating bills during the open season. Apply via COMPASS or County Assistance Office.",
+      "hi": "Pennsylvania LIHEAP provides cash grants to help eligible households pay heating bills during the open season. Apply via COMPASS or County Assistance Office."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA LIHEAP: income limits by household size; seasonal application window (e.g. winter heating season). Renters and homeowners may qualify. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Seasonal income charts and crisis vs cash grants — verify=true via pa.gov LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time seasonal heating cash grant credited to utility/fuel provider (amount varies by household size, income, and fuel type).",
+      "ml": "One-time seasonal heating cash grant credited to utility/fuel provider (amount varies by household size, income, and fuel type).",
+      "hi": "One-time seasonal heating cash grant credited to utility/fuel provider (amount varies by household size, income, and fuel type)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating bill / fuel information",
+        "COMPASS or CAO LIHEAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating bill / fuel information",
+        "COMPASS or CAO LIHEAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Heating bill / fuel information",
+        "COMPASS or CAO LIHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through COMPASS during the LIHEAP season or contact your County Assistance Office; LIHEAP hotline 1-866-857-7095.",
+      "ml": "Apply online through COMPASS during the LIHEAP season or contact your County Assistance Office; LIHEAP hotline 1-866-857-7095.",
+      "hi": "Apply online through COMPASS during the LIHEAP season or contact your County Assistance Office; LIHEAP hotline 1-866-857-7095."
+    },
+    "apply_url": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+    "official_source_url": "https://www.pa.gov/services/dhs/apply-for-the-low-income-home-energy-assistance-program-liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Human Services (DHS)",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "pa-chip",
+    "scheme_name": {
+      "en": "Children’s Health Insurance Program (CHIP) – Pennsylvania",
+      "ml": "Children’s Health Insurance Program (CHIP) – Pennsylvania",
+      "hi": "CHIP – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania CHIP covers uninsured children and teens who are not eligible for Medical Assistance. Free or low-cost coverage depending on household income; apply via COMPASS.",
+      "ml": "Pennsylvania CHIP covers uninsured children and teens who are not eligible for Medical Assistance. Free or low-cost coverage depending on household income; apply via COMPASS.",
+      "hi": "Pennsylvania CHIP covers uninsured children and teens who are not eligible for Medical Assistance. Free or low-cost coverage depending on household income; apply via COMPASS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA CHIP: under 19; PA resident; uninsured and not eligible for Medical Assistance; income determines free vs low-cost CHIP. Charts published on DHS CHIP pages — no single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age, insurance status, and income-tier charts — verify=true via pa.gov CHIP eligibility.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health coverage for eligible uninsured children/teens (doctor, hospital, prescriptions, dental/vision as covered under CHIP).",
+      "ml": "Comprehensive health coverage for eligible uninsured children/teens (doctor, hospital, prescriptions, dental/vision as covered under CHIP).",
+      "hi": "Comprehensive health coverage for eligible uninsured children/teens (doctor, hospital, prescriptions, dental/vision as covered under CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Pennsylvania residency",
+        "Household income documentation",
+        "COMPASS CHIP application"
+      ],
+      "ml": [
+        "Child identity and Pennsylvania residency",
+        "Household income documentation",
+        "COMPASS CHIP application"
+      ],
+      "hi": [
+        "Child identity and Pennsylvania residency",
+        "Household income documentation",
+        "COMPASS CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via COMPASS or call 1-800-986-KIDS (5437).",
+      "ml": "Apply online via COMPASS or call 1-800-986-KIDS (5437).",
+      "hi": "Apply online via COMPASS or call 1-800-986-KIDS (5437)."
+    },
+    "apply_url": "https://www.pa.gov/services/dhs/apply-for-childrens-health-insurance-program-chip",
+    "official_source_url": "https://www.pa.gov/agencies/dhs/resources/chip/eligibility-and-benefits",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Human Services (DHS) / CHIP",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "pa-pace",
+    "scheme_name": {
+      "en": "PACE / PACENET (Pharmaceutical Assistance) – Pennsylvania",
+      "ml": "PACE / PACENET (Pharmaceutical Assistance) – Pennsylvania",
+      "hi": "PACE / PACENET – पेंसिल्वेनिया"
+    },
+    "description": {
+      "en": "Pennsylvania PACE and PACENET help qualified residents age 65+ lower out-of-pocket prescription costs. Programs work with Medicare Part D and other drug coverage. Funded in part by the Pennsylvania Lottery.",
+      "ml": "Pennsylvania PACE and PACENET help qualified residents age 65+ lower out-of-pocket prescription costs. Programs work with Medicare Part D and other drug coverage. Funded in part by the Pennsylvania Lottery.",
+      "hi": "Pennsylvania PACE and PACENET help qualified residents age 65+ lower out-of-pocket prescription costs. Programs work with Medicare Part D and other drug coverage. Funded in part by the Pennsylvania Lottery."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PACE/PACENET: age 65+; PA residency; prior-year income within PACE or PACENET published tiers (single vs married differ; PACENET higher than PACE). Not for those with full Medicaid Rx coverage. No single ceiling encoded because tiers differ by program and household.",
+      "verify": true,
+      "verify_notes": "Income tiers and Medicare Part D coordination — verify=true via pa.gov PACE / Aging.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Reduced out-of-pocket costs for eligible prescriptions for qualifying Pennsylvania seniors (PACE or PACENET tier).",
+      "ml": "Reduced out-of-pocket costs for eligible prescriptions for qualifying Pennsylvania seniors (PACE or PACENET tier).",
+      "hi": "Reduced out-of-pocket costs for eligible prescriptions for qualifying Pennsylvania seniors (PACE or PACENET tier)."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of age 65+",
+        "Pennsylvania residency",
+        "Income documentation for prior calendar year",
+        "PACE application"
+      ],
+      "ml": [
+        "Proof of age 65+",
+        "Pennsylvania residency",
+        "Income documentation for prior calendar year",
+        "PACE application"
+      ],
+      "hi": [
+        "Proof of age 65+",
+        "Pennsylvania residency",
+        "Income documentation for prior calendar year",
+        "PACE application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the PACE Application Center / Pennsylvania Department of Aging PACE program pages on pa.gov.",
+      "ml": "Apply through the PACE Application Center / Pennsylvania Department of Aging PACE program pages on pa.gov.",
+      "hi": "Apply through the PACE Application Center / Pennsylvania Department of Aging PACE program pages on pa.gov."
+    },
+    "apply_url": "https://www.pa.gov/agencies/aging/aging-programs-and-services/pace-program",
+    "official_source_url": "https://www.pa.gov/agencies/aging/aging-programs-and-services/pace-program",
+    "last_verified": "2026-09-17",
+    "office_type": "Pennsylvania Department of Aging (PACE)",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "pace",
+      "prescriptions",
+      "seniors"
+    ]
+  },
+  {
+    "id": "oh-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Ohio Benefits",
+      "ml": "SNAP (Food Assistance) – Ohio Benefits",
+      "hi": "SNAP – ओहियो"
+    },
+    "description": {
+      "en": "Ohio administers SNAP through Ohio Benefits / ODJFS. Low-income individuals and families can apply online via the Ohio Benefits Self-Service Portal for food assistance on an EBT card.",
+      "ml": "Ohio administers SNAP through Ohio Benefits / ODJFS. Low-income individuals and families can apply online via the Ohio Benefits Self-Service Portal for food assistance on an EBT card.",
+      "hi": "Ohio administers SNAP through Ohio Benefits / ODJFS. Low-income individuals and families can apply online via the Ohio Benefits Self-Service Portal for food assistance on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ohio"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Ohio SNAP via Ohio Benefits: income and household-size rules; work and noncitizen rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and county processing — verify=true via benefits.ohio.gov / ODJFS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Ohio households.",
+      "ml": "Monthly SNAP food benefits for eligible Ohio households.",
+      "hi": "Monthly SNAP food benefits for eligible Ohio households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Ohio residency",
+        "Income documentation",
+        "Ohio Benefits / county JFS application"
+      ],
+      "ml": [
+        "Identity and Ohio residency",
+        "Income documentation",
+        "Ohio Benefits / county JFS application"
+      ],
+      "hi": [
+        "Identity and Ohio residency",
+        "Income documentation",
+        "Ohio Benefits / county JFS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at benefits.ohio.gov (Ohio Benefits Self-Service Portal) or contact your county Job and Family Services office.",
+      "ml": "Apply at benefits.ohio.gov (Ohio Benefits Self-Service Portal) or contact your county Job and Family Services office.",
+      "hi": "Apply at benefits.ohio.gov (Ohio Benefits Self-Service Portal) or contact your county Job and Family Services office."
+    },
+    "apply_url": "https://benefits.ohio.gov/",
+    "official_source_url": "https://benefits.ohio.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "Ohio Department of Job and Family Services (ODJFS) / Ohio Benefits",
+    "tags": [
+      "united_states",
+      "ohio",
+      "snap",
+      "food",
+      "ohio_benefits"
+    ]
+  },
+  {
+    "id": "oh-owf-tanf",
+    "scheme_name": {
+      "en": "Ohio Works First (OWF / TANF Cash Assistance)",
+      "ml": "Ohio Works First (OWF / TANF Cash Assistance)",
+      "hi": "Ohio Works First – ओहियो TANF"
+    },
+    "description": {
+      "en": "Ohio Works First is Ohio’s TANF cash assistance program for eligible families, administered through Ohio Benefits / county Job and Family Services. Time-limited cash support with work participation rules.",
+      "ml": "Ohio Works First is Ohio’s TANF cash assistance program for eligible families, administered through Ohio Benefits / county Job and Family Services. Time-limited cash support with work participation rules.",
+      "hi": "Ohio Works First is Ohio’s TANF cash assistance program for eligible families, administered through Ohio Benefits / county Job and Family Services. Time-limited cash support with work participation rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ohio"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OWF: TANF cash for eligible families with children; deprivation/need and participation rules; time limits (e.g. up to 36 months noted on Ohio Benefits cash page). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income, assistance group, and time-limit rules — verify=true via benefits.ohio.gov cash / ODJFS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Time-limited monthly cash assistance for eligible Ohio families (OWF), with related support services as determined by ODJFS.",
+      "ml": "Time-limited monthly cash assistance for eligible Ohio families (OWF), with related support services as determined by ODJFS.",
+      "hi": "Time-limited monthly cash assistance for eligible Ohio families (OWF), with related support services as determined by ODJFS."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Ohio Benefits application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Ohio Benefits application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Ohio Benefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Ohio Benefits Self-Service Portal or your county Job and Family Services office.",
+      "ml": "Apply via the Ohio Benefits Self-Service Portal or your county Job and Family Services office.",
+      "hi": "Apply via the Ohio Benefits Self-Service Portal or your county Job and Family Services office."
+    },
+    "apply_url": "https://benefits.ohio.gov/home/resources/assistance-programs/02-cash",
+    "official_source_url": "https://benefits.ohio.gov/home/resources/assistance-programs/02-cash",
+    "last_verified": "2026-09-17",
+    "office_type": "Ohio Department of Job and Family Services (ODJFS)",
+    "tags": [
+      "united_states",
+      "ohio",
+      "tanf",
+      "owf",
+      "cash_assistance"
+    ]
+  },
+  {
+    "id": "oh-medicaid",
+    "scheme_name": {
+      "en": "Ohio Medicaid",
+      "ml": "Ohio Medicaid",
+      "hi": "Ohio Medicaid – ओहियो"
+    },
+    "description": {
+      "en": "Ohio Medicaid provides health coverage for eligible children, adults, seniors, and people with disabilities. Applications through Ohio Benefits / Medicaid pathways.",
+      "ml": "Ohio Medicaid provides health coverage for eligible children, adults, seniors, and people with disabilities. Applications through Ohio Benefits / Medicaid pathways.",
+      "hi": "Ohio Medicaid provides health coverage for eligible children, adults, seniors, and people with disabilities. Applications through Ohio Benefits / Medicaid pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ohio"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Ohio Medicaid: multiple eligibility groups (children, pregnant people, expansion adults, aged/blind/disabled, etc.) with FPL-based income tests. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category + FPL income tests — verify=true via medicaid.ohio.gov / Ohio Benefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Ohioans including doctor, hospital, prescriptions, and other Medicaid-covered services (often via managed care).",
+      "ml": "Health coverage for eligible Ohioans including doctor, hospital, prescriptions, and other Medicaid-covered services (often via managed care).",
+      "hi": "Health coverage for eligible Ohioans including doctor, hospital, prescriptions, and other Medicaid-covered services (often via managed care)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Ohio Benefits / Medicaid application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Ohio Benefits / Medicaid application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Ohio Benefits / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Ohio Benefits (benefits.ohio.gov) or follow medicaid.ohio.gov guidance.",
+      "ml": "Apply through Ohio Benefits (benefits.ohio.gov) or follow medicaid.ohio.gov guidance.",
+      "hi": "Apply through Ohio Benefits (benefits.ohio.gov) or follow medicaid.ohio.gov guidance."
+    },
+    "apply_url": "https://benefits.ohio.gov/",
+    "official_source_url": "https://medicaid.ohio.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "Ohio Department of Medicaid / ODJFS eligibility",
+    "tags": [
+      "united_states",
+      "ohio",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "oh-healthy-start",
+    "scheme_name": {
+      "en": "Healthy Start / CHIP – Ohio children and pregnant women",
+      "ml": "Healthy Start / CHIP – Ohio children and pregnant women",
+      "hi": "Healthy Start – ओहियो"
+    },
+    "description": {
+      "en": "Healthy Start covers Ohio Medicaid and CHIP pathways for eligible children (up to age 19) and pregnant women at published FPL percentages. Apply through Ohio Benefits.",
+      "ml": "Healthy Start covers Ohio Medicaid and CHIP pathways for eligible children (up to age 19) and pregnant women at published FPL percentages. Apply through Ohio Benefits.",
+      "hi": "Healthy Start covers Ohio Medicaid and CHIP pathways for eligible children (up to age 19) and pregnant women at published FPL percentages. Apply through Ohio Benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ohio"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Healthy Start: Medicaid for children up to 19 at up to ~156% FPL and pregnant women up to ~200% FPL; CHIP for uninsured children up to ~206% FPL (percentages cited on medicaid.ohio.gov). No single dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL percentage tiers and insurance status — verify=true via medicaid.ohio.gov Healthy Start.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid/CHIP health coverage for eligible Ohio children and pregnant women under Healthy Start.",
+      "ml": "Medicaid/CHIP health coverage for eligible Ohio children and pregnant women under Healthy Start.",
+      "hi": "Medicaid/CHIP health coverage for eligible Ohio children and pregnant women under Healthy Start."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Household income documentation",
+        "Ohio Benefits medical assistance application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Household income documentation",
+        "Ohio Benefits medical assistance application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Household income documentation",
+        "Ohio Benefits medical assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Ohio Benefits Self-Service Portal; see medicaid.ohio.gov children/families pages for Healthy Start details.",
+      "ml": "Apply via Ohio Benefits Self-Service Portal; see medicaid.ohio.gov children/families pages for Healthy Start details.",
+      "hi": "Apply via Ohio Benefits Self-Service Portal; see medicaid.ohio.gov children/families pages for Healthy Start details."
+    },
+    "apply_url": "https://benefits.ohio.gov/",
+    "official_source_url": "https://medicaid.ohio.gov/families-and-individuals/citizen-programs-and-initiatives/children-families-and-women",
+    "last_verified": "2026-09-17",
+    "office_type": "Ohio Department of Medicaid",
+    "tags": [
+      "united_states",
+      "ohio",
+      "healthy_start",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "oh-heap",
+    "scheme_name": {
+      "en": "Home Energy Assistance Program (HEAP) – Ohio",
+      "ml": "Home Energy Assistance Program (HEAP) – Ohio",
+      "hi": "HEAP – ओहियो"
+    },
+    "description": {
+      "en": "Ohio HEAP helps eligible households with home energy bills. Apply at energyhelp.ohio.gov or through a local energy assistance provider. Income generally at or below 175% of federal poverty guidelines for households of eight or fewer (per development.ohio.gov).",
+      "ml": "Ohio HEAP helps eligible households with home energy bills. Apply at energyhelp.ohio.gov or through a local energy assistance provider. Income generally at or below 175% of federal poverty guidelines for households of eight or fewer (per development.ohio.gov).",
+      "hi": "Ohio HEAP helps eligible households with home energy bills. Apply at energyhelp.ohio.gov or through a local energy assistance provider. Income generally at or below 175% of federal poverty guidelines for households of eight or fewer (per development.ohio.gov)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ohio"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Ohio HEAP: gross household income at or below 175% FPL for households of eight or less (per development.ohio.gov HEAP page); homeowners and renters. Seasonal/funding rules apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL income, fuel type, and seasonal funding — verify=true via development.ohio.gov HEAP / energyhelp.ohio.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Energy bill assistance credited to utility or bulk fuel accounts for eligible Ohio households.",
+      "ml": "Energy bill assistance credited to utility or bulk fuel accounts for eligible Ohio households.",
+      "hi": "Energy bill assistance credited to utility or bulk fuel accounts for eligible Ohio households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel account information",
+        "HEAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel account information",
+        "HEAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility/fuel account information",
+        "HEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at energyhelp.ohio.gov or contact your local energy assistance provider listed on development.ohio.gov HEAP pages.",
+      "ml": "Apply at energyhelp.ohio.gov or contact your local energy assistance provider listed on development.ohio.gov HEAP pages.",
+      "hi": "Apply at energyhelp.ohio.gov or contact your local energy assistance provider listed on development.ohio.gov HEAP pages."
+    },
+    "apply_url": "https://energyhelp.ohio.gov/",
+    "official_source_url": "https://development.ohio.gov/individual/energy-assistance/1-home-energy-assistance-program/",
+    "last_verified": "2026-09-17",
+    "office_type": "Ohio Department of Development / energy assistance network (transition notes to ODJFS on official page)",
+    "tags": [
+      "united_states",
+      "ohio",
+      "heap",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "us-ga-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Stamps) – Georgia Gateway",
+      "ml": "SNAP (Food Stamps) – Georgia Gateway",
+      "hi": "SNAP – जॉर्जिया"
+    },
+    "description": {
+      "en": "Georgia administers SNAP through Georgia Gateway (DFCS). Eligible low-income households apply online at gateway.ga.gov for food assistance.",
+      "ml": "Georgia administers SNAP through Georgia Gateway (DFCS). Eligible low-income households apply online at gateway.ga.gov for food assistance.",
+      "hi": "Georgia administers SNAP through Georgia Gateway (DFCS). Eligible low-income households apply online at gateway.ga.gov for food assistance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Georgia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "GA SNAP via Gateway: income/household rules; work and noncitizen rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and Gateway case rules — verify=true via gateway.ga.gov / dhs.georgia.gov Gateway.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Georgia households.",
+      "ml": "Monthly SNAP food benefits for eligible Georgia households.",
+      "hi": "Monthly SNAP food benefits for eligible Georgia households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Georgia residency",
+        "Income documentation",
+        "Georgia Gateway application"
+      ],
+      "ml": [
+        "Identity and Georgia residency",
+        "Income documentation",
+        "Georgia Gateway application"
+      ],
+      "hi": [
+        "Identity and Georgia residency",
+        "Income documentation",
+        "Georgia Gateway application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at gateway.ga.gov or call the Gateway help desk 1-877-423-4746; local DFCS offices also assist.",
+      "ml": "Apply at gateway.ga.gov or call the Gateway help desk 1-877-423-4746; local DFCS offices also assist.",
+      "hi": "Apply at gateway.ga.gov or call the Gateway help desk 1-877-423-4746; local DFCS offices also assist."
+    },
+    "apply_url": "https://gateway.ga.gov/",
+    "official_source_url": "https://dhs.georgia.gov/georgia-gateway",
+    "last_verified": "2026-09-17",
+    "office_type": "Georgia Division of Family and Children Services (DFCS) / Georgia Gateway",
+    "tags": [
+      "united_states",
+      "georgia",
+      "snap",
+      "food",
+      "gateway"
+    ]
+  },
+  {
+    "id": "us-ga-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – Georgia Gateway",
+      "ml": "Temporary Assistance for Needy Families (TANF) – Georgia Gateway",
+      "hi": "TANF – जॉर्जिया"
+    },
+    "description": {
+      "en": "Georgia TANF cash assistance for eligible families with children, applied through Georgia Gateway alongside other DFCS benefits.",
+      "ml": "Georgia TANF cash assistance for eligible families with children, applied through Georgia Gateway alongside other DFCS benefits.",
+      "hi": "Georgia TANF cash assistance for eligible families with children, applied through Georgia Gateway alongside other DFCS benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Georgia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "GA TANF via Gateway: families with dependent children; need and cooperation rules. No single annual ceiling encoded on Gateway overview.",
+      "verify": true,
+      "verify_notes": "Income and family composition — verify=true via Gateway / DFCS TANF materials.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Georgia families with children.",
+      "ml": "Temporary cash assistance for eligible Georgia families with children.",
+      "hi": "Temporary cash assistance for eligible Georgia families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Georgia Gateway application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Georgia Gateway application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Georgia Gateway application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at gateway.ga.gov or contact DFCS / Gateway help desk 1-877-423-4746.",
+      "ml": "Apply online at gateway.ga.gov or contact DFCS / Gateway help desk 1-877-423-4746.",
+      "hi": "Apply online at gateway.ga.gov or contact DFCS / Gateway help desk 1-877-423-4746."
+    },
+    "apply_url": "https://gateway.ga.gov/",
+    "official_source_url": "https://dhs.georgia.gov/georgia-gateway",
+    "last_verified": "2026-09-17",
+    "office_type": "Georgia Division of Family and Children Services (DFCS)",
+    "tags": [
+      "united_states",
+      "georgia",
+      "tanf",
+      "cash_assistance",
+      "gateway"
+    ]
+  },
+  {
+    "id": "us-ga-medicaid",
+    "scheme_name": {
+      "en": "Medicaid / Medical Assistance – Georgia Gateway",
+      "ml": "Medicaid / Medical Assistance – Georgia Gateway",
+      "hi": "Medicaid – जॉर्जिया"
+    },
+    "description": {
+      "en": "Georgia Medical Assistance (Medicaid), including pathways such as children, pregnant people, aged/blind/disabled, and Georgia Pathways where applicable. Apply through Georgia Gateway.",
+      "ml": "Georgia Medical Assistance (Medicaid), including pathways such as children, pregnant people, aged/blind/disabled, and Georgia Pathways where applicable. Apply through Georgia Gateway.",
+      "hi": "Georgia Medical Assistance (Medicaid), including pathways such as children, pregnant people, aged/blind/disabled, and Georgia Pathways where applicable. Apply through Georgia Gateway."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Georgia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "GA Medical Assistance via Gateway: multiple categories with FPL-based tests; Pathways noted for certain adults 19–64 up to 100% FPL on Gateway notices. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category + FPL / Pathways rules — verify=true via Gateway / DCH Medicaid pages.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Georgians under Medicaid / Medical Assistance categories.",
+      "ml": "Health coverage for eligible Georgians under Medicaid / Medical Assistance categories.",
+      "hi": "Health coverage for eligible Georgians under Medicaid / Medical Assistance categories."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Georgia Gateway Medical Assistance application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Georgia Gateway Medical Assistance application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Georgia Gateway Medical Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at gateway.ga.gov; PeachCare and Pathways options are also reached through Gateway where applicable.",
+      "ml": "Apply at gateway.ga.gov; PeachCare and Pathways options are also reached through Gateway where applicable.",
+      "hi": "Apply at gateway.ga.gov; PeachCare and Pathways options are also reached through Gateway where applicable."
+    },
+    "apply_url": "https://gateway.ga.gov/",
+    "official_source_url": "https://dhs.georgia.gov/georgia-gateway",
+    "last_verified": "2026-09-17",
+    "office_type": "Georgia Department of Community Health / DFCS eligibility via Gateway",
+    "tags": [
+      "united_states",
+      "georgia",
+      "medicaid",
+      "health",
+      "gateway"
+    ]
+  },
+  {
+    "id": "us-ga-peachcare",
+    "scheme_name": {
+      "en": "PeachCare for Kids (CHIP) – Georgia",
+      "ml": "PeachCare for Kids (CHIP) – Georgia",
+      "hi": "PeachCare for Kids – जॉर्जिया"
+    },
+    "description": {
+      "en": "PeachCare for Kids is Georgia’s CHIP program providing comprehensive health coverage for eligible uninsured children. Applications through Georgia Gateway; program information from Georgia Department of Community Health.",
+      "ml": "PeachCare for Kids is Georgia’s CHIP program providing comprehensive health coverage for eligible uninsured children. Applications through Georgia Gateway; program information from Georgia Department of Community Health.",
+      "hi": "PeachCare for Kids is Georgia’s CHIP program providing comprehensive health coverage for eligible uninsured children. Applications through Georgia Gateway; program information from Georgia Department of Community Health."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Georgia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PeachCare for Kids: uninsured children in Georgia meeting CHIP income guidelines (above Medicaid but within CHIP FPL tiers). No single dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age, insurance status, income tiers, premiums — verify=true via dch.georgia.gov PeachCare / Gateway.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health coverage for eligible uninsured Georgia children (primary, preventive, dental, vision, prescriptions, and related services via a care management organization).",
+      "ml": "Comprehensive health coverage for eligible uninsured Georgia children (primary, preventive, dental, vision, prescriptions, and related services via a care management organization).",
+      "hi": "Comprehensive health coverage for eligible uninsured Georgia children (primary, preventive, dental, vision, prescriptions, and related services via a care management organization)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Georgia residency",
+        "Household income documentation",
+        "Georgia Gateway / PeachCare application"
+      ],
+      "ml": [
+        "Child identity and Georgia residency",
+        "Household income documentation",
+        "Georgia Gateway / PeachCare application"
+      ],
+      "hi": [
+        "Child identity and Georgia residency",
+        "Household income documentation",
+        "Georgia Gateway / PeachCare application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Georgia Gateway (gateway.ga.gov). PeachCare premium payment and program details on dch.georgia.gov.",
+      "ml": "Apply through Georgia Gateway (gateway.ga.gov). PeachCare premium payment and program details on dch.georgia.gov.",
+      "hi": "Apply through Georgia Gateway (gateway.ga.gov). PeachCare premium payment and program details on dch.georgia.gov."
+    },
+    "apply_url": "https://gateway.ga.gov/",
+    "official_source_url": "https://dch.georgia.gov/peachcare-kids",
+    "last_verified": "2026-09-17",
+    "office_type": "Georgia Department of Community Health (DCH) / Gateway eligibility",
+    "tags": [
+      "united_states",
+      "georgia",
+      "peachcare",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "us-ga-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Energy Assistance) – Georgia DFCS",
+      "ml": "LIHEAP (Energy Assistance) – Georgia DFCS",
+      "hi": "LIHEAP – जॉर्जिया"
+    },
+    "description": {
+      "en": "Georgia LIHEAP helps eligible low-income households with heating or cooling energy costs. Applications are taken through local Community Action Agencies (not online via Gateway); DFCS publishes program guidance.",
+      "ml": "Georgia LIHEAP helps eligible low-income households with heating or cooling energy costs. Applications are taken through local Community Action Agencies (not online via Gateway); DFCS publishes program guidance.",
+      "hi": "Georgia LIHEAP helps eligible low-income households with heating or cooling energy costs. Applications are taken through local Community Action Agencies (not online via Gateway); DFCS publishes program guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Georgia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "GA LIHEAP: generally gross income at or below 60% of Georgia State Median Income; energy burden; citizenship/immigration rules; apply at local CAA (not online Gateway). Seasonal priority groups. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI income charts, season dates, CAA process — verify=true via dfcs.georgia.gov LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Seasonal heating/cooling energy assistance for eligible Georgia households (benefit amounts vary; subject to funding).",
+      "ml": "Seasonal heating/cooling energy assistance for eligible Georgia households (benefit amounts vary; subject to funding).",
+      "hi": "Seasonal heating/cooling energy assistance for eligible Georgia households (benefit amounts vary; subject to funding)."
+    },
+    "required_documents": {
+      "en": [
+        "Picture ID",
+        "SSN documentation for household members",
+        "Income proof (e.g. past 30 days)",
+        "Current energy bill",
+        "CAA appointment / application"
+      ],
+      "ml": [
+        "Picture ID",
+        "SSN documentation for household members",
+        "Income proof (e.g. past 30 days)",
+        "Current energy bill",
+        "CAA appointment / application"
+      ],
+      "hi": [
+        "Picture ID",
+        "SSN documentation for household members",
+        "Income proof (e.g. past 30 days)",
+        "Current energy bill",
+        "CAA appointment / application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local Community Action Agency to schedule intake (see DFCS LIHEAP page). Gateway help desk 1-877-423-4746 can help with referrals.",
+      "ml": "Contact your local Community Action Agency to schedule intake (see DFCS LIHEAP page). Gateway help desk 1-877-423-4746 can help with referrals.",
+      "hi": "Contact your local Community Action Agency to schedule intake (see DFCS LIHEAP page). Gateway help desk 1-877-423-4746 can help with referrals."
+    },
+    "apply_url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+    "official_source_url": "https://dfcs.georgia.gov/services/low-income-home-energy-assistance-program-liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "Georgia DFCS / local Community Action Agencies",
+    "tags": [
+      "united_states",
+      "georgia",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "nc-snap",
+    "scheme_name": {
+      "en": "Food and Nutrition Services (SNAP) – North Carolina ePASS",
+      "ml": "Food and Nutrition Services (SNAP) – North Carolina ePASS",
+      "hi": "FNS / SNAP – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "North Carolina Food and Nutrition Services (SNAP) is applied through ePASS or county Department of Social Services (DSS). Benefits help eligible low-income households buy food.",
+      "ml": "North Carolina Food and Nutrition Services (SNAP) is applied through ePASS or county Department of Social Services (DSS). Benefits help eligible low-income households buy food.",
+      "hi": "North Carolina Food and Nutrition Services (SNAP) is applied through ePASS or county Department of Social Services (DSS). Benefits help eligible low-income households buy food."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NC FNS/SNAP via ePASS: income and household rules; work requirements may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules — verify=true via ncdhhs.gov FNS / ePASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly FNS/SNAP food benefits for eligible North Carolina households.",
+      "ml": "Monthly FNS/SNAP food benefits for eligible North Carolina households.",
+      "hi": "Monthly FNS/SNAP food benefits for eligible North Carolina households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and NC residency",
+        "Income documentation",
+        "ePASS or county DSS application"
+      ],
+      "ml": [
+        "Identity and NC residency",
+        "Income documentation",
+        "ePASS or county DSS application"
+      ],
+      "hi": [
+        "Identity and NC residency",
+        "Income documentation",
+        "ePASS or county DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at epass.nc.gov or contact your county DSS; paper FNS applications are also available via ePASS/DSS.",
+      "ml": "Apply at epass.nc.gov or contact your county DSS; paper FNS applications are also available via ePASS/DSS.",
+      "hi": "Apply at epass.nc.gov or contact your county DSS; paper FNS applications are also available via ePASS/DSS."
+    },
+    "apply_url": "https://epass.nc.gov/",
+    "official_source_url": "https://www.ncdhhs.gov/divisions/child-and-family-well-being/food-and-nutrition-services-food-stamps",
+    "last_verified": "2026-09-17",
+    "office_type": "NCDHHS / county Departments of Social Services",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "snap",
+      "fns",
+      "food",
+      "epass"
+    ]
+  },
+  {
+    "id": "nc-work-first",
+    "scheme_name": {
+      "en": "Work First (TANF Cash Assistance) – North Carolina",
+      "ml": "Work First (TANF Cash Assistance) – North Carolina",
+      "hi": "Work First – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "North Carolina Work First is the state’s TANF cash assistance program for eligible families, applied through ePASS or county DSS.",
+      "ml": "North Carolina Work First is the state’s TANF cash assistance program for eligible families, applied through ePASS or county DSS.",
+      "hi": "North Carolina Work First is the state’s TANF cash assistance program for eligible families, applied through ePASS or county DSS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Work First: TANF cash for eligible families with children; participation and time-limit rules. No single annual ceiling encoded on overview materials.",
+      "verify": true,
+      "verify_notes": "Income, family composition, work requirements — verify=true via ncdhhs.gov Work First / ePASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work-focused services for eligible North Carolina families.",
+      "ml": "Temporary cash assistance and work-focused services for eligible North Carolina families.",
+      "hi": "Temporary cash assistance and work-focused services for eligible North Carolina families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ePASS or DSS Work First application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ePASS or DSS Work First application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "ePASS or DSS Work First application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ePASS (epass.nc.gov) or your county Department of Social Services.",
+      "ml": "Apply via ePASS (epass.nc.gov) or your county Department of Social Services.",
+      "hi": "Apply via ePASS (epass.nc.gov) or your county Department of Social Services."
+    },
+    "apply_url": "https://epass.nc.gov/",
+    "official_source_url": "https://www.ncdhhs.gov/divisions/social-services/work-first-cash-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "NCDHHS Division of Social Services / county DSS",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "work_first",
+      "tanf",
+      "cash_assistance",
+      "epass"
+    ]
+  },
+  {
+    "id": "nc-medicaid",
+    "scheme_name": {
+      "en": "NC Medicaid (Medical Assistance)",
+      "ml": "NC Medicaid (Medical Assistance)",
+      "hi": "NC Medicaid – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "NC Medicaid (called Medical Assistance on ePASS) provides health coverage for eligible children, adults, seniors, and people with disabilities. Apply anytime through ePASS or county DSS.",
+      "ml": "NC Medicaid (called Medical Assistance on ePASS) provides health coverage for eligible children, adults, seniors, and people with disabilities. Apply anytime through ePASS or county DSS.",
+      "hi": "NC Medicaid (called Medical Assistance on ePASS) provides health coverage for eligible children, adults, seniors, and people with disabilities. Apply anytime through ePASS or county DSS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NC Medicaid: multiple eligibility groups including expansion; income tests vary by category. Apply year-round. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category + income/resource tests — verify=true via medicaid.ncdhhs.gov / ePASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible North Carolinians under NC Medicaid categories.",
+      "ml": "Health coverage for eligible North Carolinians under NC Medicaid categories.",
+      "hi": "Health coverage for eligible North Carolinians under NC Medicaid categories."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "ePASS Medical Assistance application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "ePASS Medical Assistance application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "ePASS Medical Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through ePASS, in person/phone/mail with county DSS, or via HealthCare.gov pathways noted on medicaid.ncdhhs.gov.",
+      "ml": "Apply online through ePASS, in person/phone/mail with county DSS, or via HealthCare.gov pathways noted on medicaid.ncdhhs.gov.",
+      "hi": "Apply online through ePASS, in person/phone/mail with county DSS, or via HealthCare.gov pathways noted on medicaid.ncdhhs.gov."
+    },
+    "apply_url": "https://epass.nc.gov/",
+    "official_source_url": "https://medicaid.ncdhhs.gov/beneficiaries/get-started/apply-medicaid-or-health-choice",
+    "last_verified": "2026-09-17",
+    "office_type": "NC Medicaid (Division of Health Benefits) / county DSS",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "medicaid",
+      "health",
+      "epass"
+    ]
+  },
+  {
+    "id": "nc-health-choice",
+    "scheme_name": {
+      "en": "NC Health Choice (CHIP) – children",
+      "ml": "NC Health Choice (CHIP) – children",
+      "hi": "NC Health Choice – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "NC Health Choice is North Carolina’s Children’s Health Insurance Program for eligible uninsured children who do not qualify for Medicaid. Apply through ePASS / DSS with Medical Assistance options.",
+      "ml": "NC Health Choice is North Carolina’s Children’s Health Insurance Program for eligible uninsured children who do not qualify for Medicaid. Apply through ePASS / DSS with Medical Assistance options.",
+      "hi": "NC Health Choice is North Carolina’s Children’s Health Insurance Program for eligible uninsured children who do not qualify for Medicaid. Apply through ePASS / DSS with Medical Assistance options."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NC Health Choice: uninsured children who exceed Medicaid income but meet CHIP guidelines. Age and income charts on NC Medicaid materials — no single dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age, insurance status, CHIP vs Medicaid income tiers — verify=true via medicaid.ncdhhs.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost comprehensive health coverage for eligible uninsured North Carolina children under Health Choice / CHIP.",
+      "ml": "Low-cost comprehensive health coverage for eligible uninsured North Carolina children under Health Choice / CHIP.",
+      "hi": "Low-cost comprehensive health coverage for eligible uninsured North Carolina children under Health Choice / CHIP."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and NC residency",
+        "Household income documentation",
+        "ePASS / DSS application"
+      ],
+      "ml": [
+        "Child identity and NC residency",
+        "Household income documentation",
+        "ePASS / DSS application"
+      ],
+      "hi": [
+        "Child identity and NC residency",
+        "Household income documentation",
+        "ePASS / DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through ePASS selecting Medical Assistance pathways; county DSS and medicaid.ncdhhs.gov apply pages cover Health Choice with Medicaid.",
+      "ml": "Apply through ePASS selecting Medical Assistance pathways; county DSS and medicaid.ncdhhs.gov apply pages cover Health Choice with Medicaid.",
+      "hi": "Apply through ePASS selecting Medical Assistance pathways; county DSS and medicaid.ncdhhs.gov apply pages cover Health Choice with Medicaid."
+    },
+    "apply_url": "https://epass.nc.gov/",
+    "official_source_url": "https://medicaid.ncdhhs.gov/beneficiaries/get-started/apply-medicaid-or-health-choice",
+    "last_verified": "2026-09-17",
+    "office_type": "NC Medicaid / county DSS",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "health_choice",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "nc-lieap",
+    "scheme_name": {
+      "en": "Low Income Energy Assistance (LIEAP / CIP) – North Carolina",
+      "ml": "Low Income Energy Assistance (LIEAP / CIP) – North Carolina",
+      "hi": "LIEAP – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "North Carolina Low Income Energy Assistance Program (LIEAP) and Crisis Intervention Program (CIP) help eligible households with heating and energy crisis costs. Apply through ePASS Energy Assistance or county DSS during open periods.",
+      "ml": "North Carolina Low Income Energy Assistance Program (LIEAP) and Crisis Intervention Program (CIP) help eligible households with heating and energy crisis costs. Apply through ePASS Energy Assistance or county DSS during open periods.",
+      "hi": "North Carolina Low Income Energy Assistance Program (LIEAP) and Crisis Intervention Program (CIP) help eligible households with heating and energy crisis costs. Apply through ePASS Energy Assistance or county DSS during open periods."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NC LIEAP/CIP: income-eligible households; seasonal LIEAP windows and crisis CIP rules published by NCDHHS. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Season dates, income charts, crisis vs regular — verify=true via ncdhhs.gov energy assistance / ePASS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Energy assistance payments for eligible North Carolina households (LIEAP season and/or CIP crisis help, subject to funding).",
+      "ml": "Energy assistance payments for eligible North Carolina households (LIEAP season and/or CIP crisis help, subject to funding).",
+      "hi": "Energy assistance payments for eligible North Carolina households (LIEAP season and/or CIP crisis help, subject to funding)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Energy/utility information",
+        "ePASS Energy Assistance or DSS application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Energy/utility information",
+        "ePASS Energy Assistance or DSS application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Energy/utility information",
+        "ePASS Energy Assistance or DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for Energy Assistance via ePASS (epass.nc.gov) or contact your county DSS; see ncdhhs.gov energy assistance pages for season dates.",
+      "ml": "Apply for Energy Assistance via ePASS (epass.nc.gov) or contact your county DSS; see ncdhhs.gov energy assistance pages for season dates.",
+      "hi": "Apply for Energy Assistance via ePASS (epass.nc.gov) or contact your county DSS; see ncdhhs.gov energy assistance pages for season dates."
+    },
+    "apply_url": "https://epass.nc.gov/",
+    "official_source_url": "https://www.ncdhhs.gov/divisions/social-services/energy-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "NCDHHS / county Departments of Social Services",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "lieap",
+      "liheap",
+      "energy",
+      "epass"
+    ]
+  },
+  {
+    "id": "mi-snap",
+    "scheme_name": {
+      "en": "Food Assistance Program (SNAP) – Michigan MI Bridges",
+      "ml": "Food Assistance Program (SNAP) – Michigan MI Bridges",
+      "hi": "FAP / SNAP – मिशिगन"
+    },
+    "description": {
+      "en": "Michigan Food Assistance Program (SNAP) is administered by MDHHS. Apply online through MI Bridges for food benefits on a Bridge Card.",
+      "ml": "Michigan Food Assistance Program (SNAP) is administered by MDHHS. Apply online through MI Bridges for food benefits on a Bridge Card.",
+      "hi": "Michigan Food Assistance Program (SNAP) is administered by MDHHS. Apply online through MI Bridges for food benefits on a Bridge Card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MI FAP/SNAP via MI Bridges: income and household rules; work requirements may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules — verify=true via michigan.gov MDHHS food / MI Bridges.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly food assistance benefits for eligible Michigan households (Bridge Card).",
+      "ml": "Monthly food assistance benefits for eligible Michigan households (Bridge Card).",
+      "hi": "Monthly food assistance benefits for eligible Michigan households (Bridge Card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Michigan residency",
+        "Income documentation",
+        "MI Bridges or MDHHS-1171 application"
+      ],
+      "ml": [
+        "Identity and Michigan residency",
+        "Income documentation",
+        "MI Bridges or MDHHS-1171 application"
+      ],
+      "hi": [
+        "Identity and Michigan residency",
+        "Income documentation",
+        "MI Bridges or MDHHS-1171 application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at michigan.gov/mibridges (MI Bridges) or submit MDHHS-1171 to your local MDHHS office.",
+      "ml": "Apply at michigan.gov/mibridges (MI Bridges) or submit MDHHS-1171 to your local MDHHS office.",
+      "hi": "Apply at michigan.gov/mibridges (MI Bridges) or submit MDHHS-1171 to your local MDHHS office."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/food",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "snap",
+      "fap",
+      "food",
+      "mi_bridges"
+    ]
+  },
+  {
+    "id": "mi-fip",
+    "scheme_name": {
+      "en": "Family Independence Program (FIP / TANF) – Michigan",
+      "ml": "Family Independence Program (FIP / TANF) – Michigan",
+      "hi": "FIP – मिशिगन"
+    },
+    "description": {
+      "en": "Michigan Family Independence Program provides TANF cash assistance for eligible families with children. Apply through MI Bridges or local MDHHS.",
+      "ml": "Michigan Family Independence Program provides TANF cash assistance for eligible families with children. Apply through MI Bridges or local MDHHS.",
+      "hi": "Michigan Family Independence Program provides TANF cash assistance for eligible families with children. Apply through MI Bridges or local MDHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MI FIP: cash assistance for eligible families with dependent children; income/asset and participation rules. No single annual ceiling encoded on overview page.",
+      "verify": true,
+      "verify_notes": "Income, assets, and work requirements — verify=true via MDHHS cash / MI Bridges.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash assistance for eligible Michigan families meeting FIP rules.",
+      "ml": "Monthly cash assistance for eligible Michigan families meeting FIP rules.",
+      "hi": "Monthly cash assistance for eligible Michigan families meeting FIP rules."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MI Bridges application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MI Bridges application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MI Bridges application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via MI Bridges or at your local MDHHS office.",
+      "ml": "Apply online via MI Bridges or at your local MDHHS office.",
+      "hi": "Apply online via MI Bridges or at your local MDHHS office."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/cash",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "fip",
+      "tanf",
+      "cash_assistance",
+      "mi_bridges"
+    ]
+  },
+  {
+    "id": "mi-medicaid",
+    "scheme_name": {
+      "en": "Medicaid / Healthy Michigan Plan – Michigan",
+      "ml": "Medicaid / Healthy Michigan Plan – Michigan",
+      "hi": "Medicaid – मिशिगन"
+    },
+    "description": {
+      "en": "MDHHS determines eligibility for Michigan Medicaid health coverage programs, including coverage for children, adults (Healthy Michigan Plan for eligible adults 19–64 at or below ~133% FPL), seniors, and people with disabilities. Apply via MI Bridges.",
+      "ml": "MDHHS determines eligibility for Michigan Medicaid health coverage programs, including coverage for children, adults (Healthy Michigan Plan for eligible adults 19–64 at or below ~133% FPL), seniors, and people with disabilities. Apply via MI Bridges.",
+      "hi": "MDHHS determines eligibility for Michigan Medicaid health coverage programs, including coverage for children, adults (Healthy Michigan Plan for eligible adults 19–64 at or below ~133% FPL), seniors, and people with disabilities. Apply via MI Bridges."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MI Medicaid programs: U-19 children, caretaker relatives, ABD, Healthy Michigan Plan (19–64, MAGI ≤133% FPL per MDHHS page), etc. Income/asset tests vary. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Program category + MAGI/asset tests — verify=true via MDHHS health care programs eligibility / MI Bridges.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Michigan residents under Medicaid / Healthy Michigan Plan pathways.",
+      "ml": "Health coverage for eligible Michigan residents under Medicaid / Healthy Michigan Plan pathways.",
+      "hi": "Health coverage for eligible Michigan residents under Medicaid / Healthy Michigan Plan pathways."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income (and asset, if applicable) documentation",
+        "MI Bridges application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income (and asset, if applicable) documentation",
+        "MI Bridges application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income (and asset, if applicable) documentation",
+        "MI Bridges application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at michigan.gov/mibridges or contact your local MDHHS office.",
+      "ml": "Apply at michigan.gov/mibridges or contact your local MDHHS office.",
+      "hi": "Apply at michigan.gov/mibridges or contact your local MDHHS office."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/health-care-programs-eligibility",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "medicaid",
+      "healthy_michigan",
+      "health",
+      "mi_bridges"
+    ]
+  },
+  {
+    "id": "mi-michild",
+    "scheme_name": {
+      "en": "MIChild – Michigan children’s health coverage",
+      "ml": "MIChild – Michigan children’s health coverage",
+      "hi": "MIChild – मिशिगन"
+    },
+    "description": {
+      "en": "MIChild is Michigan’s health coverage program for uninsured children under 19 in working families with income above U-19 Medicaid limits but within MIChild guidelines. Apply via MI Bridges / MDHHS.",
+      "ml": "MIChild is Michigan’s health coverage program for uninsured children under 19 in working families with income above U-19 Medicaid limits but within MIChild guidelines. Apply via MI Bridges / MDHHS.",
+      "hi": "MIChild is Michigan’s health coverage program for uninsured children under 19 in working families with income above U-19 Medicaid limits but within MIChild guidelines. Apply via MI Bridges / MDHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MIChild: children under 19; income above U-19 Medicaid but within MIChild limits; uninsured working families. No single dollar ceiling encoded on the eligibility overview.",
+      "verify": true,
+      "verify_notes": "Age, insurance, and income tiers vs U-19 — verify=true via MDHHS MIChild / health care programs eligibility.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health and dental plan coverage for eligible Michigan children under MIChild.",
+      "ml": "Comprehensive health and dental plan coverage for eligible Michigan children under MIChild.",
+      "hi": "Comprehensive health and dental plan coverage for eligible Michigan children under MIChild."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Michigan residency",
+        "Household income documentation",
+        "MI Bridges / MIChild application"
+      ],
+      "ml": [
+        "Child identity and Michigan residency",
+        "Household income documentation",
+        "MI Bridges / MIChild application"
+      ],
+      "hi": [
+        "Child identity and Michigan residency",
+        "Household income documentation",
+        "MI Bridges / MIChild application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at michigan.gov/mibridges or contact local MDHHS; see MDHHS health care programs eligibility for MIChild.",
+      "ml": "Apply online at michigan.gov/mibridges or contact local MDHHS; see MDHHS health care programs eligibility for MIChild.",
+      "hi": "Apply online at michigan.gov/mibridges or contact local MDHHS; see MDHHS health care programs eligibility for MIChild."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/health-care-programs-eligibility",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "michild",
+      "chip",
+      "health",
+      "children",
+      "mi_bridges"
+    ]
+  },
+  {
+    "id": "mi-ser",
+    "scheme_name": {
+      "en": "State Emergency Relief (SER) – Michigan",
+      "ml": "State Emergency Relief (SER) – Michigan",
+      "hi": "State Emergency Relief – मिशिगन"
+    },
+    "description": {
+      "en": "Michigan State Emergency Relief helps eligible households with emergency needs such as home energy/utilities, relocation, and burial. Energy-related SER is Michigan’s pathway for LIHEAP-style crisis help. Apply through MI Bridges / MDHHS.",
+      "ml": "Michigan State Emergency Relief helps eligible households with emergency needs such as home energy/utilities, relocation, and burial. Energy-related SER is Michigan’s pathway for LIHEAP-style crisis help. Apply through MI Bridges / MDHHS.",
+      "hi": "Michigan State Emergency Relief helps eligible households with emergency needs such as home energy/utilities, relocation, and burial. Energy-related SER is Michigan’s pathway for LIHEAP-style crisis help. Apply through MI Bridges / MDHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MI SER: emergency need + income/eligibility rules; energy, relocation, burial and related services listed on MDHHS Emergency Relief pages. Not ongoing cash aid. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Covered emergency types, income, and required proofs — verify=true via MDHHS Emergency Relief / MI Bridges.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Emergency payments for eligible needs (e.g. utility shutoff prevention, heat, other SER-covered emergencies) subject to program rules and funding.",
+      "ml": "Emergency payments for eligible needs (e.g. utility shutoff prevention, heat, other SER-covered emergencies) subject to program rules and funding.",
+      "hi": "Emergency payments for eligible needs (e.g. utility shutoff prevention, heat, other SER-covered emergencies) subject to program rules and funding."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of emergency (e.g. shutoff notice, bill)",
+        "MI Bridges / SER application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of emergency (e.g. shutoff notice, bill)",
+        "MI Bridges / SER application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of emergency (e.g. shutoff notice, bill)",
+        "MI Bridges / SER application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MI Bridges or your local MDHHS office; see MDHHS Emergency Relief pages for covered services.",
+      "ml": "Apply via MI Bridges or your local MDHHS office; see MDHHS Emergency Relief pages for covered services.",
+      "hi": "Apply via MI Bridges or your local MDHHS office; see MDHHS Emergency Relief pages for covered services."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/emergency-relief",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "ser",
+      "emergency_relief",
+      "liheap",
+      "energy",
+      "mi_bridges"
+    ]
+  },
+  {
+    "id": "mi-liheap-energy",
+    "scheme_name": {
+      "en": "Energy Assistance / LIHEAP – Michigan MDHHS",
+      "ml": "Energy Assistance / LIHEAP – Michigan MDHHS",
+      "hi": "Energy Assistance – मिशिगन"
+    },
+    "description": {
+      "en": "Michigan MDHHS energy assistance helps eligible households with heat and electric costs, including LIHEAP-funded help delivered through SER and related energy programs. Apply through MI Bridges.",
+      "ml": "Michigan MDHHS energy assistance helps eligible households with heat and electric costs, including LIHEAP-funded help delivered through SER and related energy programs. Apply through MI Bridges.",
+      "hi": "Michigan MDHHS energy assistance helps eligible households with heat and electric costs, including LIHEAP-funded help delivered through SER and related energy programs. Apply through MI Bridges."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Michigan"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MI energy assistance / LIHEAP-related help via MDHHS: income-eligible households with energy burden; may route through SER. Seasonal funding. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Program year income charts and SER vs other energy components — verify=true via MDHHS energy assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help with home heating and electric costs for eligible Michigan households (program components and seasons vary).",
+      "ml": "Help with home heating and electric costs for eligible Michigan households (program components and seasons vary).",
+      "hi": "Help with home heating and electric costs for eligible Michigan households (program components and seasons vary)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account / shutoff information",
+        "MI Bridges energy/SER application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account / shutoff information",
+        "MI Bridges energy/SER application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account / shutoff information",
+        "MI Bridges energy/SER application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MI Bridges; review MDHHS energy assistance pages for current program openings and required documents.",
+      "ml": "Apply via MI Bridges; review MDHHS energy assistance pages for current program openings and required documents.",
+      "hi": "Apply via MI Bridges; review MDHHS energy assistance pages for current program openings and required documents."
+    },
+    "apply_url": "https://www.michigan.gov/mibridges",
+    "official_source_url": "https://www.michigan.gov/mdhhs/assistance-programs/cash/energy",
+    "last_verified": "2026-09-17",
+    "office_type": "Michigan Department of Health and Human Services (MDHHS)",
+    "tags": [
+      "united_states",
+      "michigan",
+      "liheap",
+      "energy",
+      "mi_bridges"
+    ]
   }
 ]
