@@ -45557,5 +45557,80 @@
       "ccdf",
       "dhs"
     ]
+  },
+  {
+    "id": "us-trump-accounts",
+    "scheme_name": {
+      "en": "Trump Accounts (federal IRA for children under 18) – United States",
+      "ml": "(EN — Malayalam review pending) Trump Accounts – United States",
+      "hi": "ट्रंप अकाउंट (18 वर्ष से कम आयु के बच्चों के लिए संघीय IRA) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal tax-advantaged investment accounts (a type of traditional IRA) that parents, guardians, or other authorized individuals can open for an eligible child under age 18. Created under the Working Families Tax Cuts. A one-time $1,000 Treasury pilot contribution is available for eligible U.S. citizen children born Jan 1, 2025–Dec 31, 2028. Contributions and account activation rules are administered by Treasury/IRS (see TrumpAccounts.gov and IRS Form 4547).",
+      "ml": "(EN — Malayalam review pending) Federal Trump Accounts for children under 18; optional $1,000 pilot for eligible kids born 2025–2028.",
+      "hi": "18 वर्ष से कम आयु के पात्र बच्चों के लिए संघीय कर-लाभ निवेश खाते। 1 जन 2025–31 दिस 2028 में जन्मे पात्र अमेरिकी नागरिक बच्चों के लिए एक बार $1,000 पायलट योगदान। विवरण: TrumpAccounts.gov / IRS Form 4547।"
+    },
+    "eligibility_rules": {
+      "min_age": 0,
+      "max_age": 17,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "IRS: account is for a child who has not turned age 18 before the end of the calendar year in which the election is made, with a valid SSN. Authorized adult (parent/guardian/etc.) files Form 4547. Not a means-tested welfare program — no federal income ceiling for opening the account. Pilot $1,000 Treasury contribution: U.S. citizen children born Jan 1, 2025–Dec 31, 2028 with valid SSN (election required). Wizard encodes beneficiary age as max_age=17; pilot birth-year window cannot be fully encoded from age alone — confirm on IRS / TrumpAccounts.gov. Source: https://www.irs.gov/trumpaccounts (reviewed 2026-09-17).",
+      "verify": true,
+      "verify_notes": "Confirm current election process (Form 4547 / TrumpAccounts.gov), SSN rules, pilot birth-year window, contribution limits, and activation dates on IRS and Treasury pages before applying. Profile age should be the child's age (beneficiary), not the parent's.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tax-advantaged long-term savings/investment account for the child; optional one-time $1,000 federal pilot seed for eligible children born 2025–2028; additional contributions subject to annual limits published by IRS/Treasury.",
+      "ml": "(EN — Malayalam review pending) Tax-advantaged child savings IRA; optional $1,000 pilot seed for eligible 2025–2028 births.",
+      "hi": "बच्चे के लिए कर-लाभ बचत/निवेश खाता; 2025–2028 में जन्मे पात्र बच्चों के लिए वैकल्पिक एक बार $1,000 संघीय पायलट।"
+    },
+    "required_documents": {
+      "en": [
+        "Child’s Social Security number",
+        "Child’s date of birth and address",
+        "Authorized adult IRS account (ID.me) to submit Form 4547"
+      ],
+      "ml": [
+        "Child’s Social Security number",
+        "Child’s date of birth and address",
+        "Authorized adult IRS account (ID.me) to submit Form 4547"
+      ],
+      "hi": [
+        "बच्चे का सोशल सिक्योरिटी नंबर",
+        "बच्चे की जन्मतिथि और पता",
+        "Form 4547 जमा करने के लिए अधिकृत वयस्क का IRS खाता (ID.me)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Sign in to an IRS account with ID.me and submit Form 4547 (Trump Account Election). Also see TrumpAccounts.gov for app/activation updates. Confirm latest steps on IRS before filing.",
+      "ml": "(EN — Malayalam review pending) IRS Form 4547 / TrumpAccounts.gov — confirm live IRS instructions.",
+      "hi": "IRS खाते में ID.me से साइन इन कर Form 4547 जमा करें। TrumpAccounts.gov भी देखें। फाइल करने से पहले IRS पर नवीनतम चरण पुष्टि करें।"
+    },
+    "official_source_url": "https://www.irs.gov/trumpaccounts",
+    "apply_url": "https://www.irs.gov/trumpaccounts",
+    "office_type": "federal",
+    "last_verified": "2026-09-17",
+    "tags": [
+      "united-states",
+      "federal",
+      "children",
+      "savings",
+      "ira",
+      "trump-accounts",
+      "tax"
+    ]
   }
 ]

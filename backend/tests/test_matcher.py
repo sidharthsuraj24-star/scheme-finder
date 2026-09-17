@@ -1475,6 +1475,7 @@ def test_catalogue_includes_non_india_countries(schemes):
         "mv-disability-allowance",
         "us-snap",
         "us-ssi",
+        "us-trump-accounts",
     ):
         assert sid in ids
     countries = set()
@@ -1540,6 +1541,48 @@ def test_us_disabled_matches_ssdi_not_india_disability(schemes):
     assert "us-snap" in ids
     assert "kerala-disability-pension-physical" not in ids
     assert "bd-disability-allowance" not in ids
+
+
+
+
+def test_us_child_matches_trump_accounts_adult_does_not(schemes):
+    """Trump Accounts: age is the child beneficiary under 18; adult parent age must not match."""
+    child = MatchProfile(
+        country="United States",
+        age=10,
+        gender="male",
+        state="California",
+        district="Los Angeles",
+        marital_status="single",
+        annual_income=80000,
+        monthly_household_income=6667,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    adult = MatchProfile(
+        country="United States",
+        age=35,
+        gender="female",
+        state="California",
+        district="Los Angeles",
+        marital_status="married",
+        annual_income=80000,
+        monthly_household_income=6667,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    child_ids = _matched_ids(match_schemes(schemes, child))
+    adult_ids = _matched_ids(match_schemes(schemes, adult))
+    assert "us-trump-accounts" in child_ids
+    assert "us-trump-accounts" not in adult_ids
+    trump = next(m for m in match_schemes(schemes, child).matched if m.scheme_id == "us-trump-accounts")
+    assert trump.verify is True
 
 
 def test_india_profile_does_not_match_us_schemes(schemes, profiles):

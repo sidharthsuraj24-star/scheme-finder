@@ -411,3 +411,6 @@ Added **37** verified local schemes for **Delhi, Chandigarh, Jammu and Kashmir, 
 | Lakshadweep | `ld-widow-pension`, `ld-disability-pension`, `ld-marriage-allowance-pwd`, `ld-adip-rvy-camps`, `ld-specialized-treatment-pwd`, `ld-daycare-pwd-children` |
 
 Skipped / stopped short: DNH&DD separate widow/disability pension pages with clear numeric eligibility not found on ddd.gov.in this pass (only existing `dh-old-age-pension` plus education/NSP notices); Puducherry WCD live pages intermittently unreachable (eligibility taken from official page content via search index + India.gov service listings); J&K Marriage Assistance / militancy pension left out (eligibility incomplete on Jan Sugam cards); Chandigarh income/rate numbers not printed on ServiceOnline enclosure HTML (encoded cautiously with verify=true).
+
+## US Trump Accounts (2026-09-17)
+- `us-trump-accounts` — https://www.irs.gov/trumpaccounts (also TrumpAccounts.gov / Form 4547). Federal IRA for children under 18; pilot $1,000 for eligible U.S. citizen children born 2025–2028. Not means-tested. Profile age = child beneficiary.

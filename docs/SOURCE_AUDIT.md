@@ -548,3 +548,6 @@ Final India UT deepen — Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducher
 | `ld-daycare-pwd-children` | https://lakshadweep.gov.in/departments/social-welfare-and-tribal-affairs/ | true |
 
 Skipped: DNH&DD dedicated widow/disability pension eligibility pages not published with clear ceilings on ddd.gov.in this pass; J&K Marriage Assistance (18750017) and militancy pensions (eligibility incomplete); Puducherry live WCD/socwelfare HTML often connection-closed from curator network (used official URL + indexed page content / India.gov); Chandigarh numeric ceilings inferred cautiously from ServiceOnline enclosure pattern + existing OAP encoding.
+
+## US Trump Accounts (2026-09-17)
+- `us-trump-accounts` — https://www.irs.gov/trumpaccounts (also TrumpAccounts.gov / Form 4547). Federal IRA for children under 18; pilot $1,000 for eligible U.S. citizen children born 2025–2028. Not means-tested. Profile age = child beneficiary.
