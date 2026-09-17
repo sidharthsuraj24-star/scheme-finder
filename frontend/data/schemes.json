@@ -24101,5 +24101,878 @@
       "lakshadweep"
     ],
     "last_verified": "2026-09-16"
+  },
+  {
+    "id": "us-snap",
+    "scheme_name": {
+      "en": "Supplemental Nutrition Assistance Program (SNAP) – United States",
+      "ml": "Supplemental Nutrition Assistance Program (SNAP) – United States",
+      "hi": "सप्लिमेंटल न्यूट्रिशन असिस्टेंस प्रोग्राम (SNAP) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "USDA Food and Nutrition Service federal–state program (formerly food stamps) that helps low-income households buy food via an EBT card. Apply through your state SNAP agency.",
+      "ml": "USDA Food and Nutrition Service federal–state program (formerly food stamps) that helps low-income households buy food via an EBT card. Apply through your state SNAP agency.",
+      "hi": "USDA Food and Nutrition Service federal–state program (formerly food stamps) that helps low-income households buy food via an EBT card. Apply through your state SNAP agency."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "FY2026 FNS tables publish gross (~130% FPL) and net (~100% FPL) monthly limits that vary by household size (and are higher in Alaska/Hawaii). Many states use Broad-Based Categorical Eligibility (BBCE). Citizenship/immigration and work rules also apply. Do not encode a single federal annual ceiling — state agency determines eligibility.",
+      "verify": true,
+      "verify_notes": "Income/resource limits vary by household size, state BBCE, and elderly/disabled household rules — verify=true. Confirm on fns.usda.gov/snap and your state SNAP office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP allotment loaded on an EBT card for eligible food purchases at authorized retailers.",
+      "ml": "Monthly SNAP allotment loaded on an EBT card for eligible food purchases at authorized retailers.",
+      "hi": "Monthly SNAP allotment loaded on an EBT card for eligible food purchases at authorized retailers."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of identity and residency",
+        "Income and resource documentation",
+        "State SNAP application / interview"
+      ],
+      "ml": [
+        "Proof of identity and residency",
+        "Income and resource documentation",
+        "State SNAP application / interview"
+      ],
+      "hi": [
+        "Proof of identity and residency",
+        "Income and resource documentation",
+        "State SNAP application / interview"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with your state SNAP agency (online, in person, mail, or fax). Find state contacts via USDA FNS / Benefits.gov.",
+      "ml": "Apply with your state SNAP agency (online, in person, mail, or fax). Find state contacts via USDA FNS / Benefits.gov.",
+      "hi": "Apply with your state SNAP agency (online, in person, mail, or fax). Find state contacts via USDA FNS / Benefits.gov."
+    },
+    "apply_url": "https://www.fns.usda.gov/snap/recipient/apply-for-benefits",
+    "official_source_url": "https://www.fns.usda.gov/snap/recipient/eligibility",
+    "last_verified": "2026-09-17",
+    "office_type": "USDA Food and Nutrition Service / state SNAP agencies",
+    "tags": [
+      "united_states",
+      "snap",
+      "food",
+      "usda",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-wic",
+    "scheme_name": {
+      "en": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) – United States",
+      "ml": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) – United States",
+      "hi": "विशेष अनुपूरक पोषण कार्यक्रम महिला, शिशु और बच्चे (WIC) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "USDA WIC provides nutritious foods, nutrition education, breastfeeding support, and referrals for pregnant, postpartum, and breastfeeding women, infants, and children under age 5 who meet income and nutritional-risk criteria.",
+      "ml": "USDA WIC provides nutritious foods, nutrition education, breastfeeding support, and referrals for pregnant, postpartum, and breastfeeding women, infants, and children under age 5 who meet income and nutritional-risk criteria.",
+      "hi": "USDA WIC provides nutritious foods, nutrition education, breastfeeding support, and referrals for pregnant, postpartum, and breastfeeding women, infants, and children under age 5 who meet income and nutritional-risk criteria."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "maternity_required": true,
+      "notes": "FNS WIC: categorical eligibility for pregnant/postpartum/breastfeeding women, infants, and children up to fifth birthday; income at or below WIC limits (or adjunctive eligibility via Medicaid/SNAP/TANF); nutritional risk determined by WIC clinic. Children under 5 without a maternity signal are not fully captured by structured fields — see verify_notes.",
+      "verify": true,
+      "verify_notes": "Income limits vary by household size; infants/children under 5 also qualify via caregiver even without maternity flag — verify with local WIC agency. Encoded maternity_required as primary wizard signal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "WIC food package (often via EBT), nutrition counseling, breastfeeding support, and health-care referrals.",
+      "ml": "WIC food package (often via EBT), nutrition counseling, breastfeeding support, and health-care referrals.",
+      "hi": "WIC food package (often via EBT), nutrition counseling, breastfeeding support, and health-care referrals."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of identity, residency, and income",
+        "Proof of pregnancy or child’s age",
+        "WIC clinic appointment"
+      ],
+      "ml": [
+        "Proof of identity, residency, and income",
+        "Proof of pregnancy or child’s age",
+        "WIC clinic appointment"
+      ],
+      "hi": [
+        "Proof of identity, residency, and income",
+        "Proof of pregnancy or child’s age",
+        "WIC clinic appointment"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact a local WIC agency in your state to schedule an appointment and apply.",
+      "ml": "Contact a local WIC agency in your state to schedule an appointment and apply.",
+      "hi": "Contact a local WIC agency in your state to schedule an appointment and apply."
+    },
+    "apply_url": "https://www.fns.usda.gov/wic/eligibility",
+    "official_source_url": "https://www.fns.usda.gov/wic/eligibility",
+    "last_verified": "2026-09-17",
+    "office_type": "USDA Food and Nutrition Service / state and local WIC agencies",
+    "tags": [
+      "united_states",
+      "wic",
+      "nutrition",
+      "maternity",
+      "usda",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – United States (federal–state)",
+      "ml": "Medicaid – United States (federal–state)",
+      "hi": "मेडिकेड – संयुक्त राज्य अमेरिका (संघीय–राज्य)"
+    },
+    "description": {
+      "en": "Joint federal–state health coverage for eligible low-income individuals and families. Mandatory groups include certain low-income families, pregnant women and children, and many SSI recipients; states set additional options and MAGI income rules.",
+      "ml": "Joint federal–state health coverage for eligible low-income individuals and families. Mandatory groups include certain low-income families, pregnant women and children, and many SSI recipients; states set additional options and MAGI income rules.",
+      "hi": "Joint federal–state health coverage for eligible low-income individuals and families. Mandatory groups include certain low-income families, pregnant women and children, and many SSI recipients; states set additional options and MAGI income rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Medicaid eligibility is heavily state-variable (MAGI FPL percentages, expansion status, aged/blind/disabled SSI methodologies). No single federal income ceiling is encoded. Apply via HealthCare.gov / state Medicaid agency.",
+      "verify": true,
+      "verify_notes": "State expansion, MAGI limits, and non-MAGI (aged/blind/disabled) rules differ — verify=true. Confirm on medicaid.gov and your state Medicaid agency.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for doctor visits, hospital care, prescriptions, and other services covered by your state’s Medicaid plan.",
+      "ml": "Health coverage for doctor visits, hospital care, prescriptions, and other services covered by your state’s Medicaid plan.",
+      "hi": "Health coverage for doctor visits, hospital care, prescriptions, and other services covered by your state’s Medicaid plan."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of identity and residency",
+        "Income documentation",
+        "State Medicaid / Marketplace application"
+      ],
+      "ml": [
+        "Proof of identity and residency",
+        "Income documentation",
+        "State Medicaid / Marketplace application"
+      ],
+      "hi": [
+        "Proof of identity and residency",
+        "Income documentation",
+        "State Medicaid / Marketplace application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your state Medicaid agency or HealthCare.gov (linked to state programs).",
+      "ml": "Apply through your state Medicaid agency or HealthCare.gov (linked to state programs).",
+      "hi": "Apply through your state Medicaid agency or HealthCare.gov (linked to state programs)."
+    },
+    "apply_url": "https://www.medicaid.gov/",
+    "official_source_url": "https://www.medicaid.gov/medicaid/eligibility-policy",
+    "last_verified": "2026-09-17",
+    "office_type": "Centers for Medicare & Medicaid Services (CMS) / state Medicaid agencies",
+    "tags": [
+      "united_states",
+      "medicaid",
+      "health",
+      "cms",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-chip",
+    "scheme_name": {
+      "en": "Children’s Health Insurance Program (CHIP) – United States",
+      "ml": "Children’s Health Insurance Program (CHIP) – United States",
+      "hi": "चिल्ड्रन्स हेल्थ इंश्योरेंस प्रोग्राम (CHIP) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal–state program providing low-cost health coverage for children in families who earn too much for Medicaid but still need help. Some states also cover pregnant women.",
+      "ml": "Federal–state program providing low-cost health coverage for children in families who earn too much for Medicaid but still need help. Some states also cover pregnant women.",
+      "hi": "Federal–state program providing low-cost health coverage for children in families who earn too much for Medicaid but still need help. Some states also cover pregnant women."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "CHIP serves uninsured children; upper age and income limits are state-set (often relative to FPL above Medicaid). Encoded max_age=18 as a conservative federal framing for children; pregnant-women CHIP expansions are state-optional.",
+      "verify": true,
+      "verify_notes": "Income ceilings and exact age cutoffs vary by state — verify=true. Confirm via InsureKidsNow.gov / state CHIP agency.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost or free health coverage for eligible children (doctor visits, immunizations, prescriptions, and other covered services per state plan).",
+      "ml": "Low-cost or free health coverage for eligible children (doctor visits, immunizations, prescriptions, and other covered services per state plan).",
+      "hi": "Low-cost or free health coverage for eligible children (doctor visits, immunizations, prescriptions, and other covered services per state plan)."
+    },
+    "required_documents": {
+      "en": [
+        "Child’s identity and age",
+        "Household income documentation",
+        "State CHIP / Medicaid application"
+      ],
+      "ml": [
+        "Child’s identity and age",
+        "Household income documentation",
+        "State CHIP / Medicaid application"
+      ],
+      "hi": [
+        "Child’s identity and age",
+        "Household income documentation",
+        "State CHIP / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your state CHIP/Medicaid agency or InsureKidsNow.gov.",
+      "ml": "Apply through your state CHIP/Medicaid agency or InsureKidsNow.gov.",
+      "hi": "Apply through your state CHIP/Medicaid agency or InsureKidsNow.gov."
+    },
+    "apply_url": "https://www.insurekidsnow.gov/",
+    "official_source_url": "https://www.medicaid.gov/chip/index.html",
+    "last_verified": "2026-09-17",
+    "office_type": "CMS / state CHIP agencies",
+    "tags": [
+      "united_states",
+      "chip",
+      "children",
+      "health",
+      "cms",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-ssi",
+    "scheme_name": {
+      "en": "Supplemental Security Income (SSI) – United States",
+      "ml": "Supplemental Security Income (SSI) – United States",
+      "hi": "सप्लिमेंटल सिक्योरिटी इनकम (SSI) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Social Security Administration needs-based monthly payments for people with little or no income/resources who are age 65 or older, blind, or disabled.",
+      "ml": "Social Security Administration needs-based monthly payments for people with little or no income/resources who are age 65 or older, blind, or disabled.",
+      "hi": "Social Security Administration needs-based monthly payments for people with little or no income/resources who are age 65 or older, blind, or disabled."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "SSA SSI: aged (65+), blind, or disabled with limited countable income and resources (resource limits commonly $2,000 individual / $3,000 couple — not encoded as annual income). Citizenship/residency rules apply. Structured min_age=65 covers the aged track; blind/disabled under 65 also qualify — see verify_notes.",
+      "verify": true,
+      "verify_notes": "Payment amount and countable income rules are complex; disabled/blind under 65 not matched by min_age=65 — apply via SSA if disabled. Always verify on ssa.gov/ssi.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SSI cash payment; amount depends on income, living situation, and other factors. May help link to Medicaid in many states.",
+      "ml": "Monthly SSI cash payment; amount depends on income, living situation, and other factors. May help link to Medicaid in many states.",
+      "hi": "Monthly SSI cash payment; amount depends on income, living situation, and other factors. May help link to Medicaid in many states."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security number / identity",
+        "Proof of age, income, and resources",
+        "Medical evidence if applying on disability/blindness"
+      ],
+      "ml": [
+        "Social Security number / identity",
+        "Proof of age, income, and resources",
+        "Medical evidence if applying on disability/blindness"
+      ],
+      "hi": [
+        "Social Security number / identity",
+        "Proof of age, income, and resources",
+        "Medical evidence if applying on disability/blindness"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online, by phone, or at a Social Security office via ssa.gov/ssi.",
+      "ml": "Apply online, by phone, or at a Social Security office via ssa.gov/ssi.",
+      "hi": "Apply online, by phone, or at a Social Security office via ssa.gov/ssi."
+    },
+    "apply_url": "https://www.ssa.gov/ssi",
+    "official_source_url": "https://www.ssa.gov/ssi/text-eligibility-ussi.htm",
+    "last_verified": "2026-09-17",
+    "office_type": "Social Security Administration (SSA)",
+    "tags": [
+      "united_states",
+      "ssi",
+      "ssa",
+      "old_age",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-ssdi",
+    "scheme_name": {
+      "en": "Social Security Disability Insurance (SSDI) – United States",
+      "ml": "Social Security Disability Insurance (SSDI) – United States",
+      "hi": "सोशल सिक्योरिटी डिसेबिलिटी इंश्योरेंस (SSDI) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "SSA disability insurance benefit for workers (and certain dependents) who are insured through Social Security contributions and meet SSA’s definition of disability.",
+      "ml": "SSA disability insurance benefit for workers (and certain dependents) who are insured through Social Security contributions and meet SSA’s definition of disability.",
+      "hi": "SSA disability insurance benefit for workers (and certain dependents) who are insured through Social Security contributions and meet SSA’s definition of disability."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "SSDI is insurance-based (work credits / insured status), not a simple means test. Disability must meet SSA medical criteria and generally prevent substantial gainful activity (SGA). Wizard only collects a disability flag/percent — insured status is not collected.",
+      "verify": true,
+      "verify_notes": "Work credits, medical listing, and SGA rules cannot be fully encoded — verify=true. Confirm on ssa.gov/benefits/disability."
+    },
+    "benefits": {
+      "en": "Monthly disability cash benefit based on earnings record; Medicare entitlement typically after 24 months of SSDI entitlement.",
+      "ml": "Monthly disability cash benefit based on earnings record; Medicare entitlement typically after 24 months of SSDI entitlement.",
+      "hi": "Monthly disability cash benefit based on earnings record; Medicare entitlement typically after 24 months of SSDI entitlement."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security number",
+        "Work history / W-2 information",
+        "Medical records supporting disability"
+      ],
+      "ml": [
+        "Social Security number",
+        "Work history / W-2 information",
+        "Medical records supporting disability"
+      ],
+      "hi": [
+        "Social Security number",
+        "Work history / W-2 information",
+        "Medical records supporting disability"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for disability benefits online or through SSA at ssa.gov/benefits/disability.",
+      "ml": "Apply for disability benefits online or through SSA at ssa.gov/benefits/disability.",
+      "hi": "Apply for disability benefits online or through SSA at ssa.gov/benefits/disability."
+    },
+    "apply_url": "https://www.ssa.gov/benefits/disability/",
+    "official_source_url": "https://www.ssa.gov/benefits/disability/qualify.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Social Security Administration (SSA)",
+    "tags": [
+      "united_states",
+      "ssdi",
+      "disability",
+      "ssa",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – United States",
+      "ml": "Temporary Assistance for Needy Families (TANF) – United States",
+      "hi": "टेम्पररी असिस्टेंस फॉर नीडी फैमिलीज़ (TANF) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal block grant administered by states to provide temporary cash assistance and work supports for low-income families with children. Rules, benefit levels, and time limits are set largely by each state.",
+      "ml": "Federal block grant administered by states to provide temporary cash assistance and work supports for low-income families with children. Rules, benefit levels, and time limits are set largely by each state.",
+      "hi": "Federal block grant administered by states to provide temporary cash assistance and work supports for low-income families with children. Rules, benefit levels, and time limits are set largely by each state."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "ACF OFA TANF: federal framing only — states define family composition, income/asset tests, work participation, and lifetime time limits (federal 60-month context). No single federal income ceiling encoded. Households with children are the typical target; child presence is not a structured wizard field.",
+      "verify": true,
+      "verify_notes": "State TANF rules vary widely; family-with-children requirement not fully captured — verify=true via state human services agency / acf.hhs.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and related work/support services as designed by your state TANF program.",
+      "ml": "Temporary cash assistance and related work/support services as designed by your state TANF program.",
+      "hi": "Temporary cash assistance and related work/support services as designed by your state TANF program."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household (state-specific)"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household (state-specific)"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household (state-specific)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your state or local human services / TANF office.",
+      "ml": "Apply through your state or local human services / TANF office.",
+      "hi": "Apply through your state or local human services / TANF office."
+    },
+    "apply_url": "https://www.acf.hhs.gov/ofa/programs/tanf",
+    "official_source_url": "https://www.acf.hhs.gov/ofa/programs/tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "HHS Administration for Children and Families (OFA) / state TANF agencies",
+    "tags": [
+      "united_states",
+      "tanf",
+      "cash_assistance",
+      "hhs",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-liheap",
+    "scheme_name": {
+      "en": "Low Income Home Energy Assistance Program (LIHEAP) – United States",
+      "ml": "Low Income Home Energy Assistance Program (LIHEAP) – United States",
+      "hi": "लो इनकम होम एनर्जी असिस्टेंस प्रोग्राम (LIHEAP) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "HHS ACF program that helps eligible low-income households with home energy bills, energy crises, weatherization, and energy-related home repairs. Delivered by state, territorial, and tribal grantees.",
+      "ml": "HHS ACF program that helps eligible low-income households with home energy bills, energy crises, weatherization, and energy-related home repairs. Delivered by state, territorial, and tribal grantees.",
+      "hi": "HHS ACF program that helps eligible low-income households with home energy bills, energy crises, weatherization, and energy-related home repairs. Delivered by state, territorial, and tribal grantees."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "LIHEAP income eligibility is set by grantees within federal parameters (often tied to FPL or state median income). No single nationwide dollar ceiling is encoded. Seasonal application windows are common.",
+      "verify": true,
+      "verify_notes": "State/territory income limits and benefit amounts vary — verify=true. Apply via EnergyHelp.us or state LIHEAP office (NEAR 1-866-674-6327).",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help with heating/cooling bills, crisis assistance, weatherization, and minor energy-related repairs as funded locally.",
+      "ml": "Help with heating/cooling bills, crisis assistance, weatherization, and minor energy-related repairs as funded locally.",
+      "hi": "Help with heating/cooling bills, crisis assistance, weatherization, and minor energy-related repairs as funded locally."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information (state-specific)"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information (state-specific)"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information (state-specific)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Find your local LIHEAP office via EnergyHelp.us or call the National Energy Assistance Referral hotline.",
+      "ml": "Find your local LIHEAP office via EnergyHelp.us or call the National Energy Assistance Referral hotline.",
+      "hi": "Find your local LIHEAP office via EnergyHelp.us or call the National Energy Assistance Referral hotline."
+    },
+    "apply_url": "https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap",
+    "official_source_url": "https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "HHS Administration for Children and Families (OCS) / state LIHEAP grantees",
+    "tags": [
+      "united_states",
+      "liheap",
+      "energy",
+      "hhs",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-housing-choice-voucher",
+    "scheme_name": {
+      "en": "Housing Choice Voucher Program (Section 8) – United States",
+      "ml": "Housing Choice Voucher Program (Section 8) – United States",
+      "hi": "हाउसिंग चॉइस वाउचर प्रोग्राम (सेक्शन 8) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "HUD program helping very low-income families, the elderly, and people with disabilities afford housing in the private market via vouchers administered by local Public Housing Agencies (PHAs).",
+      "ml": "HUD program helping very low-income families, the elderly, and people with disabilities afford housing in the private market via vouchers administered by local Public Housing Agencies (PHAs).",
+      "hi": "HUD program helping very low-income families, the elderly, and people with disabilities afford housing in the private market via vouchers administered by local Public Housing Agencies (PHAs)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "PHA determines eligibility based on annual gross income (typically very low / low income relative to area median income), family size, citizenship/eligible immigration status, and other HUD factors. Waitlists are common. No single national dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "AMI-based income limits and waitlists are PHA-specific — verify=true. Confirm with local PHA / hud.gov HCV pages.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Rental subsidy (voucher) so the household generally pays a portion of income toward rent; PHA pays the balance to the landlord within program rules.",
+      "ml": "Rental subsidy (voucher) so the household generally pays a portion of income toward rent; PHA pays the balance to the landlord within program rules.",
+      "hi": "Rental subsidy (voucher) so the household generally pays a portion of income toward rent; PHA pays the balance to the landlord within program rules."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and eligible immigration/citizenship status",
+        "Income documentation",
+        "PHA application (often waitlist)"
+      ],
+      "ml": [
+        "Identity and eligible immigration/citizenship status",
+        "Income documentation",
+        "PHA application (often waitlist)"
+      ],
+      "hi": [
+        "Identity and eligible immigration/citizenship status",
+        "Income documentation",
+        "PHA application (often waitlist)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Public Housing Agency when the Housing Choice Voucher waiting list is open.",
+      "ml": "Apply through your local Public Housing Agency when the Housing Choice Voucher waiting list is open.",
+      "hi": "Apply through your local Public Housing Agency when the Housing Choice Voucher waiting list is open."
+    },
+    "apply_url": "https://www.hud.gov/program_offices/public_indian_housing/programs/hcv",
+    "official_source_url": "https://www.hud.gov/program_offices/public_indian_housing/programs/hcv",
+    "last_verified": "2026-09-17",
+    "office_type": "U.S. Department of Housing and Urban Development (HUD) / local PHAs",
+    "tags": [
+      "united_states",
+      "section8",
+      "housing",
+      "hud",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-unemployment-insurance",
+    "scheme_name": {
+      "en": "Unemployment Insurance (UI) – United States",
+      "ml": "Unemployment Insurance (UI) – United States",
+      "hi": "बेरोज़गारी बीमा (UI) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal–state program providing temporary wage replacement to eligible workers who lose a job through no fault of their own and meet state monetary and non-monetary eligibility rules.",
+      "ml": "Federal–state program providing temporary wage replacement to eligible workers who lose a job through no fault of their own and meet state monetary and non-monetary eligibility rules.",
+      "hi": "Federal–state program providing temporary wage replacement to eligible workers who lose a job through no fault of their own and meet state monetary and non-monetary eligibility rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "unemployed"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "UI is not a low-income welfare program; eligibility depends on prior covered wages, separation reason, and ongoing work-search requirements set by each state. Encoded occupation=unemployed as a wizard proxy only.",
+      "verify": true,
+      "verify_notes": "State wage base, benefit amounts, and able-and-available rules vary — verify=true. File with your state unemployment agency (DOL overview)."
+    },
+    "benefits": {
+      "en": "Temporary weekly unemployment benefits for a limited duration as determined by your state program.",
+      "ml": "Temporary weekly unemployment benefits for a limited duration as determined by your state program.",
+      "hi": "Temporary weekly unemployment benefits for a limited duration as determined by your state program."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security number",
+        "Employment history / employer information",
+        "State UI claim"
+      ],
+      "ml": [
+        "Social Security number",
+        "Employment history / employer information",
+        "State UI claim"
+      ],
+      "hi": [
+        "Social Security number",
+        "Employment history / employer information",
+        "State UI claim"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a claim with your state unemployment insurance agency as soon as you become unemployed.",
+      "ml": "File a claim with your state unemployment insurance agency as soon as you become unemployed.",
+      "hi": "File a claim with your state unemployment insurance agency as soon as you become unemployed."
+    },
+    "apply_url": "https://www.dol.gov/general/topic/unemployment-insurance",
+    "official_source_url": "https://www.dol.gov/general/topic/unemployment-insurance",
+    "last_verified": "2026-09-17",
+    "office_type": "U.S. Department of Labor / state UI agencies",
+    "tags": [
+      "united_states",
+      "unemployment",
+      "dol",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-social-security-retirement",
+    "scheme_name": {
+      "en": "Social Security Retirement Benefits – United States",
+      "ml": "Social Security Retirement Benefits – United States",
+      "hi": "सोशल सिक्योरिटी रिटायरमेंट बेनिफिट्स – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "SSA retirement insurance benefits for workers who have earned enough Social Security credits. Reduced benefits may begin as early as age 62; full benefit at Full Retirement Age (FRA).",
+      "ml": "SSA retirement insurance benefits for workers who have earned enough Social Security credits. Reduced benefits may begin as early as age 62; full benefit at Full Retirement Age (FRA).",
+      "hi": "SSA retirement insurance benefits for workers who have earned enough Social Security credits. Reduced benefits may begin as early as age 62; full benefit at Full Retirement Age (FRA)."
+    },
+    "eligibility_rules": {
+      "min_age": 62,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Not means-tested. Requires sufficient work credits; benefit amount depends on earnings record and claiming age (62 to FRA and beyond). Spouse/survivor variants not separately encoded.",
+      "verify": true,
+      "verify_notes": "Work credits and FRA are not collected in the wizard — verify=true on ssa.gov/retirement."
+    },
+    "benefits": {
+      "en": "Monthly Social Security retirement benefit based on your earnings record and age when you claim.",
+      "ml": "Monthly Social Security retirement benefit based on your earnings record and age when you claim.",
+      "hi": "Monthly Social Security retirement benefit based on your earnings record and age when you claim."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security number",
+        "Proof of age/citizenship or lawful presence",
+        "Banking information for direct deposit"
+      ],
+      "ml": [
+        "Social Security number",
+        "Proof of age/citizenship or lawful presence",
+        "Banking information for direct deposit"
+      ],
+      "hi": [
+        "Social Security number",
+        "Proof of age/citizenship or lawful presence",
+        "Banking information for direct deposit"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for retirement benefits online or through SSA at ssa.gov/retirement.",
+      "ml": "Apply for retirement benefits online or through SSA at ssa.gov/retirement.",
+      "hi": "Apply for retirement benefits online or through SSA at ssa.gov/retirement."
+    },
+    "apply_url": "https://www.ssa.gov/retirement",
+    "official_source_url": "https://www.ssa.gov/retirement",
+    "last_verified": "2026-09-17",
+    "office_type": "Social Security Administration (SSA)",
+    "tags": [
+      "united_states",
+      "social_security",
+      "retirement",
+      "ssa",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-medicare",
+    "scheme_name": {
+      "en": "Medicare – United States",
+      "ml": "Medicare – United States",
+      "hi": "मेडिकेयर – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal health insurance primarily for people age 65 or older who meet citizenship/residency requirements. Earlier eligibility may apply for certain disabilities, ESRD, or ALS — not fully encoded here.",
+      "ml": "Federal health insurance primarily for people age 65 or older who meet citizenship/residency requirements. Earlier eligibility may apply for certain disabilities, ESRD, or ALS — not fully encoded here.",
+      "hi": "Federal health insurance primarily for people age 65 or older who meet citizenship/residency requirements. Earlier eligibility may apply for certain disabilities, ESRD, or ALS — not fully encoded here."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Medicare.gov: generally age 65+ with citizenship/residency; some people get Medicare earlier based on disability (after SSDI waiting period), ESRD, or ALS. Part A/B/C/D enrollment and premium details are not encoded — use official pages.",
+      "verify": true,
+      "verify_notes": "Part premiums, IRMAA, and under-65 disability paths not fully structured — verify=true on medicare.gov."
+    },
+    "benefits": {
+      "en": "Federal health insurance coverage (hospital, medical, and optional drug/Advantage plans depending on enrollment).",
+      "ml": "Federal health insurance coverage (hospital, medical, and optional drug/Advantage plans depending on enrollment).",
+      "hi": "Federal health insurance coverage (hospital, medical, and optional drug/Advantage plans depending on enrollment)."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security number / Medicare eligibility notice",
+        "Proof of age and citizenship or lawful presence"
+      ],
+      "ml": [
+        "Social Security number / Medicare eligibility notice",
+        "Proof of age and citizenship or lawful presence"
+      ],
+      "hi": [
+        "Social Security number / Medicare eligibility notice",
+        "Proof of age and citizenship or lawful presence"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enroll via Social Security / Medicare.gov during your Initial Enrollment Period or as directed if already receiving SSA benefits.",
+      "ml": "Enroll via Social Security / Medicare.gov during your Initial Enrollment Period or as directed if already receiving SSA benefits.",
+      "hi": "Enroll via Social Security / Medicare.gov during your Initial Enrollment Period or as directed if already receiving SSA benefits."
+    },
+    "apply_url": "https://www.medicare.gov/basics/get-started-with-medicare",
+    "official_source_url": "https://www.medicare.gov/basics/get-started-with-medicare",
+    "last_verified": "2026-09-17",
+    "office_type": "Centers for Medicare & Medicaid Services (CMS) / Social Security Administration",
+    "tags": [
+      "united_states",
+      "medicare",
+      "health",
+      "cms",
+      "federal"
+    ]
   }
 ]

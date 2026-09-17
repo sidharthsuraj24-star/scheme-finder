@@ -5,10 +5,15 @@
 
 ## Policy
 
-- Prefer official government domains: `*.gov.in`, `*.nic.in`, `*.gov.bd`, `*.gov.np`, `*.gov.lk`, `*.gov.mv`, ministry/department portals, myScheme.gov.in.
+- Prefer official government domains: `*.gov.in`, `*.nic.in`, `*.gov.bd`, `*.gov.np`, `*.gov.lk`, `*.gov.mv`, `*.gov` (US), ministry/department portals, myScheme.gov.in.
 - Replace blogs, aggregators, news mirrors, and broken/fragile URLs with stable official pages.
 - Eligibility age/income/gender/disability updated **only** when the official page clearly states them; otherwise `verify=true` with notes — never invent.
 - Domain type: `gov` = government TLD; `ok` = non-.gov but confirmed official programme portal; `other` = needs replacement.
+
+
+## United States federal starter set (2026-09-17 IST)
+
+Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.usda.gov, medicaid.gov, ssa.gov, acf.hhs.gov, hud.gov, dol.gov, medicare.gov, insurekidsnow.gov). Prefer federal framing; income ceilings left unstructured when state-variable (`verify=true`). Domain policy extended to include `*.gov` (US) alongside existing `*.gov.in` / neighbour TLDs.
 
 ## Summary
 

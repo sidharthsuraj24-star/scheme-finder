@@ -1473,6 +1473,8 @@ def test_catalogue_includes_non_india_countries(schemes):
         "np-senior-citizen-allowance",
         "lk-aswesuma",
         "mv-disability-allowance",
+        "us-snap",
+        "us-ssi",
     ):
         assert sid in ids
     countries = set()
@@ -1483,3 +1485,67 @@ def test_catalogue_includes_non_india_countries(schemes):
     assert "Bangladesh" in countries
     assert "Nepal" in countries
     assert "Sri Lanka" in countries
+    assert "United States" in countries
+
+
+def test_us_profile_matches_snap_and_ssi_not_india(schemes):
+    """US senior low-income profile matches SNAP/SSI-style federal rows, not India schemes."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="California",
+        district="Los Angeles",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "us-social-security-retirement" in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+    assert "bd-old-age-allowance" not in ids
+    snap = next(m for m in resp.matched if m.scheme_id == "us-snap")
+    assert "countries" in snap.matched_rules
+    assert snap.verify is True
+
+
+def test_us_disabled_matches_ssdi_not_india_disability(schemes):
+    profile = MatchProfile(
+        country="United States",
+        age=45,
+        gender="male",
+        state="Texas",
+        district="Harris",
+        marital_status="married",
+        annual_income=8000,
+        occupations=["other"],
+        categories=[],
+        disability=True,
+        disability_percent=60,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-ssdi" in ids
+    assert "us-snap" in ids
+    assert "kerala-disability-pension-physical" not in ids
+    assert "bd-disability-allowance" not in ids
+
+
+def test_india_profile_does_not_match_us_schemes(schemes, profiles):
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-snap" not in ids
+    assert "us-ssi" not in ids
+    assert "us-medicare" not in ids

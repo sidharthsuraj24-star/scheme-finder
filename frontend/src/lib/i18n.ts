@@ -75,7 +75,7 @@ const en: Dict = {
   qDistrictFreeHint: "Type your district / locality (free text; Kerala uses a district list).",
   qDistrictPlaceholder: "District name",
   qCountry: "Which country do you live in?",
-  qCountryHint: "Catalogue covers India plus a curated set of neighbouring countries — not worldwide.",
+  qCountryHint: "Catalogue covers India, neighbouring countries, and the United States (curated federal starter set) — not worldwide.",
   qRegion: "Which region / province do you live in?",
   qRegionHint: "Pick from the list or type your region / province.",
   qRegionPlaceholder: "Region / province",
@@ -119,8 +119,8 @@ const en: Dict = {
   qBreadwinner: "Has the main earning member of your household died?",
   qBreadwinnerHint: "Used for bereavement schemes such as NFBS",
   dataUpdated:
-    "Scheme data updated as of 16 Sep 2026 · India + selected other countries (curated; not worldwide)",
-  dataUpdatedShort: "Scheme data updated as of 16 Sep 2026",
+    "Scheme data updated as of 17 Sep 2026 · India + selected other countries incl. United States (curated; not worldwide)",
+  dataUpdatedShort: "Scheme data updated as of 17 Sep 2026",
   welcomeTitle: "Welcome",
   welcomeBody:
     "Pick your country (and region), then answer a few simple questions. We suggest curated welfare schemes that may help you.",
@@ -206,7 +206,7 @@ const ml: Dict = {
   qDistrictFreeHint: "ജില്ലയുടെ പേര് ടൈപ്പ് ചെയ്യുക (കേരളം ഒഴികെയുള്ള സംസ്ഥാനങ്ങൾക്ക്).",
   qDistrictPlaceholder: "ജില്ലയുടെ പേര്",
   qCountry: "നിങ്ങൾ താമസിക്കുന്ന രാജ്യം ഏത്?",
-  qCountryHint: "കാറ്റലോഗ് ഇന്ത്യയും തിരഞ്ഞെടുത്ത അയൽരാജ്യങ്ങളും ഉൾക്കൊള്ളുന്നു — ലോകവ്യാപകമല്ല.",
+  qCountryHint: "കാറ്റലോഗ് ഇന്ത്യ, അയൽരാജ്യങ്ങൾ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ് (ക്യൂറേറ്റഡ് ഫെഡറൽ സ്റ്റാർട്ടർ സെറ്റ്) ഉൾക്കൊള്ളുന്നു — ലോകവ്യാപകമല്ല.",
   qRegion: "നിങ്ങൾ താമസിക്കുന്ന പ്രദേശം / പ്രവിശ്യ ഏത്?",
   qRegionHint: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ടൈപ്പ് ചെയ്യുക.",
   qRegionPlaceholder: "പ്രദേശം / പ്രവിശ്യ",
@@ -250,8 +250,8 @@ const ml: Dict = {
   qBreadwinner: "കുടുംബത്തിലെ പ്രധാന വരുമാനദാതാവ് മരിച്ചിട്ടുണ്ടോ?",
   qBreadwinnerHint: "NFBS പോലുള്ള പദ്ധതികൾക്ക്",
   dataUpdated:
-    "പദ്ധതി വിവരങ്ങൾ 16 സെപ് 2026 വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ (ലോകവ്യാപകമല്ല)",
-  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 16 സെപ് 2026 വരെ പുതുക്കിയത്",
+    "പദ്ധതി വിവരങ്ങൾ 17 സെപ് 2026 വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ ഉൾപ്പെടെ യുണൈറ്റഡ് സ്റ്റേറ്റ്സ് (ലോകവ്യാപകമല്ല)",
+  dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 17 സെപ് 2026 വരെ പുതുക്കിയത്",
   welcomeTitle: "സ്വാഗതം",
   welcomeBody:
     "രാജ്യം (ഒപ്പം പ്രദേശം) തിരഞ്ഞെടുക്കുക, പിന്നെ കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. ക്ഷേമ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
@@ -337,7 +337,7 @@ const hi: Dict = {
   qDistrictFreeHint: "अपने ज़िले का नाम लिखें (केरल के अलावा अन्य राज्यों के लिए मुक्त पाठ)।",
   qDistrictPlaceholder: "ज़िले का नाम",
   qCountry: "आप किस देश में रहते हैं?",
-  qCountryHint: "कैटलॉग भारत और चुनिंदा पड़ोसी देशों को कवर करता है — पूरी दुनिया नहीं।",
+  qCountryHint: "कैटलॉग भारत, पड़ोसी देश और संयुक्त राज्य अमेरिका (क्यूरेटेड संघीय स्टार्टर सेट) को कवर करता है — पूरी दुनिया नहीं।",
   qRegion: "आप किस क्षेत्र / प्रांत में रहते हैं?",
   qRegionHint: "सूची से चुनें या अपना क्षेत्र / प्रांत टाइप करें।",
   qRegionPlaceholder: "क्षेत्र / प्रांत",
@@ -381,8 +381,8 @@ const hi: Dict = {
   qBreadwinner: "क्या आपके परिवार का मुख्य कमाने वाला सदस्य निधन हो गया है?",
   qBreadwinnerHint: "NFBS जैसी शोक-सहायता योजनाओं के लिए",
   dataUpdated:
-    "योजना डेटा 16 सितं 2026 तक अद्यतन · भारत + चुनिंदा अन्य देश (दुनियाभर नहीं)",
-  dataUpdatedShort: "योजना डेटा 16 सितं 2026 तक अद्यतन",
+    "योजना डेटा 17 सितं 2026 तक अद्यतन · भारत + चुनिंदा अन्य देश सहित संयुक्त राज्य अमेरिका (दुनियाभर नहीं)",
+  dataUpdatedShort: "योजना डेटा 17 सितं 2026 तक अद्यतन",
   welcomeTitle: "स्वागत है",
   welcomeBody:
     "अपना देश (और क्षेत्र) चुनें, फिर कुछ सरल प्रश्नों के उत्तर दें। हम चुनिंदा कल्याण योजनाएँ सुझाएँगे।",

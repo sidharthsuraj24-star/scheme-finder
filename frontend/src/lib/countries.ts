@@ -5,6 +5,7 @@ export const SUPPORTED_COUNTRIES = [
   "Nepal",
   "Sri Lanka",
   "Maldives",
+  "United States",
 ] as const;
 
 export type SupportedCountry = (typeof SUPPORTED_COUNTRIES)[number];
@@ -44,6 +45,59 @@ export const COUNTRY_REGIONS: Record<string, readonly string[]> = {
     "Sabaragamuwa",
   ],
   Maldives: ["Malé", "Addu", "Other atoll / island"],
+  "United States": [
+    "Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "District of Columbia",
+    "Florida",
+    "Georgia",
+    "Hawaii",
+    "Idaho",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Maryland",
+    "Massachusetts",
+    "Michigan",
+    "Minnesota",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nebraska",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New Mexico",
+    "New York",
+    "North Carolina",
+    "North Dakota",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "Rhode Island",
+    "South Carolina",
+    "South Dakota",
+    "Tennessee",
+    "Texas",
+    "Utah",
+    "Vermont",
+    "Virginia",
+    "Washington",
+    "West Virginia",
+    "Wisconsin",
+    "Wyoming",
+  ],
 };
 
 export function isSupportedCountry(name: string | null | undefined): boolean {
@@ -61,6 +115,8 @@ export function currencySymbol(country: string | null | undefined): string {
       return "Rs";
     case "Maldives":
       return "MVR";
+    case "United States":
+      return "$";
     default:
       return "₹";
   }

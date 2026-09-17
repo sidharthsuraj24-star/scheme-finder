@@ -1,11 +1,11 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 307 schemes
-**verify=true:** 299
+**Count:** 319 schemes
+**verify=true:** 311
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets.
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set (nationwide programs; state-administered levels often vary).
 
 | # | id | Name (EN) | Country / States | Official source | Key eligibility | verify |
 |---|----|-----------|------------------|-----------------|-----------------|--------|
@@ -211,6 +211,29 @@ All Wave 5 rows use `verify: true`, `countries: ["India"]`, `nationwide: false`,
 **Arunachal note:** Beyond CMAAY, reachable public pages with full numeric eligibility are scarce; CM-SEVA Social Welfare / Education service cards document application gateways (old-age/widow pension, BPL certificate, scholarship) without inventing age/income floors. Stopped at verified services rather than fabricating NSAP thresholds.
 
 **Skipped (quality / eligibility unclear on reachable official pages):** Manipur Unemployment Allowance PwD (PDF largely image/empty extract); Manipur disabled scholarship rate table outdated (₹40–120 era); Tripura occupational pensions (cobbler/rickshaw/bidi/etc.) listed on services/rates but occupation-specific eligibility text not fully verified beyond rate table; Nagaland SOAP / Blind-Invalid (DIPR payment lists only); Mizoram tribal students scholarship page body not fully extractable (403 live); Meghalaya CMYDS / housing (weaker matcher fit / guideline-only).
+
+
+
+## United States — federal starter set (2026-09-17 IST)
+
+Added **12** curated **federal** US benefit programs (`countries: ["United States"]`, `nationwide: true`, `last_verified: 2026-09-17`, EN + HI name stubs / EN body stubs for ml+hi). No invented hard income ceilings; state-variable or complex rules use `verify: true` and `implies_low_income` where means-tested.
+
+| id | Official source | Key structured eligibility |
+|----|-----------------|----------------------------|
+| `us-snap` | https://www.fns.usda.gov/snap/recipient/eligibility | implies_low_income; verify |
+| `us-wic` | https://www.fns.usda.gov/wic/eligibility | maternity_required; implies_low_income; verify |
+| `us-medicaid` | https://www.medicaid.gov/medicaid/eligibility-policy | implies_low_income; verify |
+| `us-chip` | https://www.medicaid.gov/chip/index.html | max_age=18; implies_low_income; verify |
+| `us-ssi` | https://www.ssa.gov/ssi/text-eligibility-ussi.htm | min_age=65; implies_low_income; verify |
+| `us-ssdi` | https://www.ssa.gov/benefits/disability/qualify.html | disability_required; verify |
+| `us-tanf` | https://www.acf.hhs.gov/ofa/programs/tanf | implies_low_income; verify |
+| `us-liheap` | https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap | implies_low_income; verify |
+| `us-housing-choice-voucher` | https://www.hud.gov/program_offices/public_indian_housing/programs/hcv | implies_low_income; verify |
+| `us-unemployment-insurance` | https://www.dol.gov/general/topic/unemployment-insurance | occupations=unemployed; verify |
+| `us-social-security-retirement` | https://www.ssa.gov/retirement | min_age=62; verify |
+| `us-medicare` | https://www.medicare.gov/basics/get-started-with-medicare | min_age=65; verify |
+
+**Skipped (quality / wizard fit):** EITC (tax-filer / filing-status not expressible in wizard); Head Start / CCDF child-care subsidy (age/household composition signals incomplete for a clean federal matcher row this pass).
 
 ## Country + nationwide matching
 
