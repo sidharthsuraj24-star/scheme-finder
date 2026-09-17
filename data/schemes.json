@@ -31423,5 +31423,1938 @@
       "fuel_assistance",
       "energy"
     ]
+  },
+  {
+    "id": "us-tn-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Tennessee One DHS",
+      "ml": "SNAP (Food Assistance) – Tennessee One DHS",
+      "hi": "SNAP – टेनेसी"
+    },
+    "description": {
+      "en": "Tennessee Department of Human Services administers SNAP. Eligible low-income households apply online through the One DHS Customer Portal for monthly food benefits on an EBT card.",
+      "ml": "Tennessee Department of Human Services administers SNAP. Eligible low-income households apply online through the One DHS Customer Portal for monthly food benefits on an EBT card.",
+      "hi": "Tennessee Department of Human Services administers SNAP. Eligible low-income households apply online through the One DHS Customer Portal for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tennessee"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TN SNAP via One DHS: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via tn.gov DHS SNAP / One DHS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Tennessee households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Tennessee households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Tennessee households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Tennessee residency",
+        "Income and resource documentation",
+        "One DHS Customer Portal application"
+      ],
+      "ml": [
+        "Identity and Tennessee residency",
+        "Income and resource documentation",
+        "One DHS Customer Portal application"
+      ],
+      "hi": [
+        "Identity and Tennessee residency",
+        "Income and resource documentation",
+        "One DHS Customer Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at onedhs.tn.gov (One DHS Customer Portal) or submit a paper SNAP application to TDHS; local DHS offices assist.",
+      "ml": "Apply online at onedhs.tn.gov (One DHS Customer Portal) or submit a paper SNAP application to TDHS; local DHS offices assist.",
+      "hi": "Apply online at onedhs.tn.gov (One DHS Customer Portal) or submit a paper SNAP application to TDHS; local DHS offices assist."
+    },
+    "apply_url": "https://onedhs.tn.gov/csp",
+    "official_source_url": "https://www.tn.gov/humanservices/for-families/supplemental-nutrition-assistance-program-snap.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Tennessee Department of Human Services (TDHS) / One DHS",
+    "tags": [
+      "united_states",
+      "tennessee",
+      "snap",
+      "food",
+      "one_dhs"
+    ]
+  },
+  {
+    "id": "us-tn-families-first",
+    "scheme_name": {
+      "en": "Families First (TANF) – Tennessee",
+      "ml": "Families First (TANF) – Tennessee",
+      "hi": "Families First (TANF) – टेनेसी"
+    },
+    "description": {
+      "en": "Families First is Tennessee’s Temporary Assistance for Needy Families (TANF) program. It provides temporary cash assistance plus work, training, child care, and related supports for eligible families with children.",
+      "ml": "Families First is Tennessee’s Temporary Assistance for Needy Families (TANF) program. It provides temporary cash assistance plus work, training, child care, and related supports for eligible families with children.",
+      "hi": "Families First is Tennessee’s Temporary Assistance for Needy Families (TANF) program. It provides temporary cash assistance plus work, training, child care, and related supports for eligible families with children."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tennessee"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Families First/TANF: low-income families with dependent children; Personal Responsibility Plan and work rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via tn.gov Families First / One DHS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment/support services for eligible Tennessee families with children.",
+      "ml": "Temporary cash assistance and employment/support services for eligible Tennessee families with children.",
+      "hi": "Temporary cash assistance and employment/support services for eligible Tennessee families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Proof of children / household",
+        "One DHS Families First application"
+      ],
+      "ml": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Proof of children / household",
+        "One DHS Families First application"
+      ],
+      "hi": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Proof of children / household",
+        "One DHS Families First application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through the One DHS Customer Portal or contact your local TDHS office; see tn.gov Families First for program details.",
+      "ml": "Apply online through the One DHS Customer Portal or contact your local TDHS office; see tn.gov Families First for program details.",
+      "hi": "Apply online through the One DHS Customer Portal or contact your local TDHS office; see tn.gov Families First for program details."
+    },
+    "apply_url": "https://onedhs.tn.gov/csp",
+    "official_source_url": "https://www.tn.gov/humanservices/for-families/families-first-tanf.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Tennessee Department of Human Services / Families First",
+    "tags": [
+      "united_states",
+      "tennessee",
+      "tanf",
+      "cash_assistance",
+      "families_first",
+      "one_dhs"
+    ]
+  },
+  {
+    "id": "us-tn-tenncare",
+    "scheme_name": {
+      "en": "TennCare (Medicaid) – Tennessee",
+      "ml": "TennCare (Medicaid) – Tennessee",
+      "hi": "TennCare (Medicaid) – टेनेसी"
+    },
+    "description": {
+      "en": "TennCare is Tennessee’s Medicaid program providing health coverage for eligible children, pregnant people, parents/caretakers, aged/blind/disabled individuals, and other qualifying groups under state MAGI and non-MAGI pathways.",
+      "ml": "TennCare is Tennessee’s Medicaid program providing health coverage for eligible children, pregnant people, parents/caretakers, aged/blind/disabled individuals, and other qualifying groups under state MAGI and non-MAGI pathways.",
+      "hi": "TennCare is Tennessee’s Medicaid program providing health coverage for eligible children, pregnant people, parents/caretakers, aged/blind/disabled individuals, and other qualifying groups under state MAGI and non-MAGI pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tennessee"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TennCare: category-specific MAGI/non-MAGI income and household rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and enrollment rules change — verify=true via tn.gov TennCare / TennCare Connect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Tennesseans under TennCare Medicaid categories.",
+      "ml": "Health coverage for eligible Tennesseans under TennCare Medicaid categories.",
+      "hi": "Health coverage for eligible Tennesseans under TennCare Medicaid categories."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "TennCare Connect application"
+      ],
+      "ml": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "TennCare Connect application"
+      ],
+      "hi": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "TennCare Connect application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at TennCareConnect.tn.gov, by phone at 855-259-0701, or with a paper application; see tn.gov TennCare how-to-apply.",
+      "ml": "Apply online at TennCareConnect.tn.gov, by phone at 855-259-0701, or with a paper application; see tn.gov TennCare how-to-apply.",
+      "hi": "Apply online at TennCareConnect.tn.gov, by phone at 855-259-0701, or with a paper application; see tn.gov TennCare how-to-apply."
+    },
+    "apply_url": "https://tenncareconnect.tn.gov/",
+    "official_source_url": "https://www.tn.gov/tenncare/members-applicants/how-do-i-apply-for-tenncare.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Tennessee TennCare / Division of TennCare",
+    "tags": [
+      "united_states",
+      "tennessee",
+      "medicaid",
+      "tenncare",
+      "health"
+    ]
+  },
+  {
+    "id": "us-tn-coverkids",
+    "scheme_name": {
+      "en": "CoverKids (CHIP) – Tennessee",
+      "ml": "CoverKids (CHIP) – Tennessee",
+      "hi": "CoverKids (CHIP) – टेनेसी"
+    },
+    "description": {
+      "en": "CoverKids is Tennessee’s Children’s Health Insurance Program (CHIP) for eligible uninsured children (and certain pregnant women) who do not qualify for TennCare Medicaid but meet CoverKids income and other rules.",
+      "ml": "CoverKids is Tennessee’s Children’s Health Insurance Program (CHIP) for eligible uninsured children (and certain pregnant women) who do not qualify for TennCare Medicaid but meet CoverKids income and other rules.",
+      "hi": "CoverKids is Tennessee’s Children’s Health Insurance Program (CHIP) for eligible uninsured children (and certain pregnant women) who do not qualify for TennCare Medicaid but meet CoverKids income and other rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tennessee"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CoverKids CHIP: uninsured children (and some pregnant women) above Medicaid limits within CHIP income bands. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income bands and insurance rules — verify=true via tn.gov CoverKids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health coverage for eligible uninsured Tennessee children (and qualifying pregnant women) under CoverKids.",
+      "ml": "Comprehensive health coverage for eligible uninsured Tennessee children (and qualifying pregnant women) under CoverKids.",
+      "hi": "Comprehensive health coverage for eligible uninsured Tennessee children (and qualifying pregnant women) under CoverKids."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Tennessee residency",
+        "Income documentation",
+        "Proof of no other qualifying coverage where required",
+        "TennCare Connect / CoverKids application"
+      ],
+      "ml": [
+        "Child identity and Tennessee residency",
+        "Income documentation",
+        "Proof of no other qualifying coverage where required",
+        "TennCare Connect / CoverKids application"
+      ],
+      "hi": [
+        "Child identity and Tennessee residency",
+        "Income documentation",
+        "Proof of no other qualifying coverage where required",
+        "TennCare Connect / CoverKids application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through TennCare Connect (same pathways as TennCare) or see tn.gov CoverKids application guidance; call 855-259-0701 for help.",
+      "ml": "Apply through TennCare Connect (same pathways as TennCare) or see tn.gov CoverKids application guidance; call 855-259-0701 for help.",
+      "hi": "Apply through TennCare Connect (same pathways as TennCare) or see tn.gov CoverKids application guidance; call 855-259-0701 for help."
+    },
+    "apply_url": "https://tenncareconnect.tn.gov/",
+    "official_source_url": "https://www.tn.gov/coverkids/coverkids.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Tennessee CoverKids / TennCare",
+    "tags": [
+      "united_states",
+      "tennessee",
+      "chip",
+      "coverkids",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "us-tn-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Home Energy Assistance) – Tennessee",
+      "ml": "LIHEAP (Home Energy Assistance) – Tennessee",
+      "hi": "LIHEAP – टेनेसी"
+    },
+    "description": {
+      "en": "Tennessee’s Low-Income Home Energy Assistance Program (LIHEAP) helps eligible households with heating and cooling costs through local agencies statewide. Program information is published on tn.gov; administration is coordinated with the Tennessee Housing Development Agency network.",
+      "ml": "Tennessee’s Low-Income Home Energy Assistance Program (LIHEAP) helps eligible households with heating and cooling costs through local agencies statewide. Program information is published on tn.gov; administration is coordinated with the Tennessee Housing Development Agency network.",
+      "hi": "Tennessee’s Low-Income Home Energy Assistance Program (LIHEAP) helps eligible households with heating and cooling costs through local agencies statewide. Program information is published on tn.gov; administration is coordinated with the Tennessee Housing Development Agency network."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tennessee"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TN LIHEAP: income typically tied to a share of state median income; seasonal funding. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI charts and open/close dates change by program year — verify=true via tn.gov LIHEAP page.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time or seasonal help toward home energy bills for eligible Tennessee households (payments typically to the energy supplier).",
+      "ml": "One-time or seasonal help toward home energy bills for eligible Tennessee households (payments typically to the energy supplier).",
+      "hi": "One-time or seasonal help toward home energy bills for eligible Tennessee households (payments typically to the energy supplier)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "Application via local LIHEAP agency / published portal for the program year"
+      ],
+      "ml": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "Application via local LIHEAP agency / published portal for the program year"
+      ],
+      "hi": [
+        "Identity and Tennessee residency",
+        "Income documentation",
+        "Utility / energy account information",
+        "Application via local LIHEAP agency / published portal for the program year"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the local LIHEAP agency serving your county when the program year opens (see tn.gov LIHEAP information); online portals and agency directories are linked from the official page.",
+      "ml": "Apply through the local LIHEAP agency serving your county when the program year opens (see tn.gov LIHEAP information); online portals and agency directories are linked from the official page.",
+      "hi": "Apply through the local LIHEAP agency serving your county when the program year opens (see tn.gov LIHEAP information); online portals and agency directories are linked from the official page."
+    },
+    "apply_url": "https://www.tn.gov/tpuc/main-footer-links/low-income-home-energy-assistance-program-liheap.html",
+    "official_source_url": "https://www.tn.gov/tpuc/main-footer-links/low-income-home-energy-assistance-program-liheap.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Tennessee LIHEAP / local community agencies (THDA network)",
+    "tags": [
+      "united_states",
+      "tennessee",
+      "liheap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "in-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Indiana FSSA / DFR",
+      "ml": "SNAP (Food Assistance) – Indiana FSSA / DFR",
+      "hi": "SNAP – इंडियाना"
+    },
+    "description": {
+      "en": "Indiana Family and Social Services Administration (FSSA) Division of Family Resources administers SNAP. Eligible low-income households apply online through the FSSA Benefits Portal for monthly food benefits.",
+      "ml": "Indiana Family and Social Services Administration (FSSA) Division of Family Resources administers SNAP. Eligible low-income households apply online through the FSSA Benefits Portal for monthly food benefits.",
+      "hi": "Indiana Family and Social Services Administration (FSSA) Division of Family Resources administers SNAP. Eligible low-income households apply online through the FSSA Benefits Portal for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Indiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IN SNAP via FSSA/DFR: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via in.gov FSSA SNAP / Benefits Portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Indiana households (via EBT / Hoosier Works card).",
+      "ml": "Monthly SNAP food benefits for eligible Indiana households (via EBT / Hoosier Works card).",
+      "hi": "Monthly SNAP food benefits for eligible Indiana households (via EBT / Hoosier Works card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Indiana residency",
+        "Income and resource documentation",
+        "FSSA Benefits Portal application"
+      ],
+      "ml": [
+        "Identity and Indiana residency",
+        "Income and resource documentation",
+        "FSSA Benefits Portal application"
+      ],
+      "hi": [
+        "Identity and Indiana residency",
+        "Income and resource documentation",
+        "FSSA Benefits Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office; see in.gov FSSA SNAP pages.",
+      "ml": "Apply online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office; see in.gov FSSA SNAP pages.",
+      "hi": "Apply online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office; see in.gov FSSA SNAP pages."
+    },
+    "apply_url": "https://fssabenefits.in.gov/",
+    "official_source_url": "https://www.in.gov/fssa/dfr/snap-food-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Indiana FSSA Division of Family Resources",
+    "tags": [
+      "united_states",
+      "indiana",
+      "snap",
+      "food",
+      "fssa"
+    ]
+  },
+  {
+    "id": "in-tanf",
+    "scheme_name": {
+      "en": "TANF (Cash Assistance) – Indiana FSSA / DFR",
+      "ml": "TANF (Cash Assistance) – Indiana FSSA / DFR",
+      "hi": "TANF – इंडियाना"
+    },
+    "description": {
+      "en": "Indiana Temporary Assistance for Needy Families (TANF) provides temporary cash assistance for eligible families with dependent children, administered by FSSA Division of Family Resources alongside SNAP and Medicaid eligibility.",
+      "ml": "Indiana Temporary Assistance for Needy Families (TANF) provides temporary cash assistance for eligible families with dependent children, administered by FSSA Division of Family Resources alongside SNAP and Medicaid eligibility.",
+      "hi": "Indiana Temporary Assistance for Needy Families (TANF) provides temporary cash assistance for eligible families with dependent children, administered by FSSA Division of Family Resources alongside SNAP and Medicaid eligibility."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Indiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IN TANF: low-income families with dependent children; work and cooperation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via in.gov FSSA TANF / Benefits Portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Indiana families with children.",
+      "ml": "Temporary cash assistance for eligible Indiana families with children.",
+      "hi": "Temporary cash assistance for eligible Indiana families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "FSSA Benefits Portal application"
+      ],
+      "ml": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "FSSA Benefits Portal application"
+      ],
+      "hi": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "FSSA Benefits Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at fssabenefits.in.gov for SNAP/Cash Assistance, call 800-403-0864, or visit a local DFR office.",
+      "ml": "Apply online at fssabenefits.in.gov for SNAP/Cash Assistance, call 800-403-0864, or visit a local DFR office.",
+      "hi": "Apply online at fssabenefits.in.gov for SNAP/Cash Assistance, call 800-403-0864, or visit a local DFR office."
+    },
+    "apply_url": "https://fssabenefits.in.gov/",
+    "official_source_url": "https://www.in.gov/fssa/dfr/tanf-cash-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Indiana FSSA Division of Family Resources",
+    "tags": [
+      "united_states",
+      "indiana",
+      "tanf",
+      "cash_assistance",
+      "fssa"
+    ]
+  },
+  {
+    "id": "in-medicaid",
+    "scheme_name": {
+      "en": "Medicaid / Health Coverage – Indiana FSSA",
+      "ml": "Medicaid / Health Coverage – Indiana FSSA",
+      "hi": "Medicaid – इंडियाना"
+    },
+    "description": {
+      "en": "Indiana Medicaid (through FSSA) provides health coverage pathways including children, pregnant people, parents/caretakers, aged/blind/disabled, Healthy Indiana Plan (HIP), and related categories. Apply via the FSSA Benefits Portal.",
+      "ml": "Indiana Medicaid (through FSSA) provides health coverage pathways including children, pregnant people, parents/caretakers, aged/blind/disabled, Healthy Indiana Plan (HIP), and related categories. Apply via the FSSA Benefits Portal.",
+      "hi": "Indiana Medicaid (through FSSA) provides health coverage pathways including children, pregnant people, parents/caretakers, aged/blind/disabled, Healthy Indiana Plan (HIP), and related categories. Apply via the FSSA Benefits Portal."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Indiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IN Medicaid/HIP: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and HIP premiums/cost-sharing — verify=true via in.gov Medicaid / Benefits Portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Hoosiers under Indiana Medicaid pathways.",
+      "ml": "Health coverage for eligible Hoosiers under Indiana Medicaid pathways.",
+      "hi": "Health coverage for eligible Hoosiers under Indiana Medicaid pathways."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "FSSA Benefits Portal health coverage application"
+      ],
+      "ml": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "FSSA Benefits Portal health coverage application"
+      ],
+      "hi": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "FSSA Benefits Portal health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for health coverage online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office.",
+      "ml": "Apply for health coverage online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office.",
+      "hi": "Apply for health coverage online at fssabenefits.in.gov, call 800-403-0864, or visit a local DFR office."
+    },
+    "apply_url": "https://fssabenefits.in.gov/",
+    "official_source_url": "https://www.in.gov/medicaid/members/",
+    "last_verified": "2026-09-17",
+    "office_type": "Indiana FSSA / Indiana Medicaid",
+    "tags": [
+      "united_states",
+      "indiana",
+      "medicaid",
+      "health",
+      "fssa",
+      "hip"
+    ]
+  },
+  {
+    "id": "in-hoosier-healthwise",
+    "scheme_name": {
+      "en": "Hoosier Healthwise (Medicaid/CHIP for children & pregnant people) – Indiana",
+      "ml": "Hoosier Healthwise (Medicaid/CHIP for children & pregnant people) – Indiana",
+      "hi": "Hoosier Healthwise – इंडियाना"
+    },
+    "description": {
+      "en": "Hoosier Healthwise is Indiana’s Medicaid/CHIP coverage for eligible children up to age 19 and pregnant individuals, offering comprehensive medical care with little or no cost under qualifying packages.",
+      "ml": "Hoosier Healthwise is Indiana’s Medicaid/CHIP coverage for eligible children up to age 19 and pregnant individuals, offering comprehensive medical care with little or no cost under qualifying packages.",
+      "hi": "Hoosier Healthwise is Indiana’s Medicaid/CHIP coverage for eligible children up to age 19 and pregnant individuals, offering comprehensive medical care with little or no cost under qualifying packages."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Indiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Hoosier Healthwise: children and pregnant people; package A/C and CHIP premium rules vary. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Package income bands and premiums — verify=true via in.gov Hoosier Healthwise.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health coverage for eligible Indiana children and pregnant people under Hoosier Healthwise packages.",
+      "ml": "Comprehensive health coverage for eligible Indiana children and pregnant people under Hoosier Healthwise packages.",
+      "hi": "Comprehensive health coverage for eligible Indiana children and pregnant people under Hoosier Healthwise packages."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "FSSA Benefits Portal health coverage application"
+      ],
+      "ml": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "FSSA Benefits Portal health coverage application"
+      ],
+      "hi": [
+        "Identity and Indiana residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "FSSA Benefits Portal health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for health coverage online at fssabenefits.in.gov or see in.gov Hoosier Healthwise member program pages; DFR can assist.",
+      "ml": "Apply for health coverage online at fssabenefits.in.gov or see in.gov Hoosier Healthwise member program pages; DFR can assist.",
+      "hi": "Apply for health coverage online at fssabenefits.in.gov or see in.gov Hoosier Healthwise member program pages; DFR can assist."
+    },
+    "apply_url": "https://fssabenefits.in.gov/",
+    "official_source_url": "https://www.in.gov/medicaid/members/member-programs/hoosier-healthwise/",
+    "last_verified": "2026-09-17",
+    "office_type": "Indiana Medicaid / Hoosier Healthwise",
+    "tags": [
+      "united_states",
+      "indiana",
+      "medicaid",
+      "chip",
+      "hoosier_healthwise",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "in-eap-liheap",
+    "scheme_name": {
+      "en": "Energy Assistance Program (EAP / LIHEAP) – Indiana IHCDA",
+      "ml": "Energy Assistance Program (EAP / LIHEAP) – Indiana IHCDA",
+      "hi": "Energy Assistance (LIHEAP) – इंडियाना"
+    },
+    "description": {
+      "en": "Indiana’s Energy Assistance Program (EAP), funded by federal LIHEAP, helps eligible households with home energy costs. Indiana Housing and Community Development Authority (IHCDA) partners with local service providers statewide.",
+      "ml": "Indiana’s Energy Assistance Program (EAP), funded by federal LIHEAP, helps eligible households with home energy costs. Indiana Housing and Community Development Authority (IHCDA) partners with local service providers statewide.",
+      "hi": "Indiana’s Energy Assistance Program (EAP), funded by federal LIHEAP, helps eligible households with home energy costs. Indiana Housing and Community Development Authority (IHCDA) partners with local service providers statewide."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Indiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IN EAP/LIHEAP: income typically at or below a share of state median income; seasonal open/close. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SMI charts and application windows change by program year — verify=true via in.gov IHCDA EAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward heating/energy bills for eligible Indiana households (via local service providers).",
+      "ml": "Help toward heating/energy bills for eligible Indiana households (via local service providers).",
+      "hi": "Help toward heating/energy bills for eligible Indiana households (via local service providers)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Indiana residency",
+        "Income documentation (often recent months)",
+        "Utility account information",
+        "Application through county local service provider / published EAP portal"
+      ],
+      "ml": [
+        "Identity and Indiana residency",
+        "Income documentation (often recent months)",
+        "Utility account information",
+        "Application through county local service provider / published EAP portal"
+      ],
+      "hi": [
+        "Identity and Indiana residency",
+        "Income documentation (often recent months)",
+        "Utility account information",
+        "Application through county local service provider / published EAP portal"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the local service provider for your county when EAP is open for the program year; see in.gov IHCDA Energy Assistance Program (LIHEAP) for maps, income guidance, and portal links.",
+      "ml": "Apply through the local service provider for your county when EAP is open for the program year; see in.gov IHCDA Energy Assistance Program (LIHEAP) for maps, income guidance, and portal links.",
+      "hi": "Apply through the local service provider for your county when EAP is open for the program year; see in.gov IHCDA Energy Assistance Program (LIHEAP) for maps, income guidance, and portal links."
+    },
+    "apply_url": "https://www.in.gov/ihcda/homeowners-and-renters/low-income-home-energy-assistance-program-liheap/",
+    "official_source_url": "https://www.in.gov/ihcda/homeowners-and-renters/low-income-home-energy-assistance-program-liheap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Indiana Housing and Community Development Authority (IHCDA) / Local Service Providers",
+    "tags": [
+      "united_states",
+      "indiana",
+      "liheap",
+      "eap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "mo-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Stamps) – Missouri myDSS / FSD",
+      "ml": "SNAP (Food Stamps) – Missouri myDSS / FSD",
+      "hi": "SNAP – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri Family Support Division administers SNAP. Eligible low-income households apply online through myDSS for monthly food benefits.",
+      "ml": "Missouri Family Support Division administers SNAP. Eligible low-income households apply online through myDSS for monthly food benefits.",
+      "hi": "Missouri Family Support Division administers SNAP. Eligible low-income households apply online through myDSS for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MO SNAP via myDSS/FSD: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via mydss.mo.gov / dss.mo.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Missouri households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Missouri households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Missouri households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "myDSS SNAP application"
+      ],
+      "ml": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "myDSS SNAP application"
+      ],
+      "hi": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "myDSS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mydss.mo.gov (Apply for SNAP), call 855-373-4636, or use local FSD options listed on myDSS.",
+      "ml": "Apply online at mydss.mo.gov (Apply for SNAP), call 855-373-4636, or use local FSD options listed on myDSS.",
+      "hi": "Apply online at mydss.mo.gov (Apply for SNAP), call 855-373-4636, or use local FSD options listed on myDSS."
+    },
+    "apply_url": "https://mydss.mo.gov/food-assistance/apply-for-snap",
+    "official_source_url": "https://mydss.mo.gov/food-assistance/apply-for-snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Missouri Department of Social Services / Family Support Division",
+    "tags": [
+      "united_states",
+      "missouri",
+      "snap",
+      "food",
+      "mydss"
+    ]
+  },
+  {
+    "id": "mo-temporary-assistance",
+    "scheme_name": {
+      "en": "Temporary Assistance (TANF) – Missouri myDSS",
+      "ml": "Temporary Assistance (TANF) – Missouri myDSS",
+      "hi": "Temporary Assistance (TANF) – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri Temporary Assistance provides monthly cash benefits for eligible families with children. Apply through myDSS alongside other Family Support Division programs.",
+      "ml": "Missouri Temporary Assistance provides monthly cash benefits for eligible families with children. Apply through myDSS alongside other Family Support Division programs.",
+      "hi": "Missouri Temporary Assistance provides monthly cash benefits for eligible families with children. Apply through myDSS alongside other Family Support Division programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MO Temporary Assistance/TANF: low-income families with dependent children; work and cooperation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via mydss.mo.gov Temporary Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Missouri families with children.",
+      "ml": "Temporary cash assistance for eligible Missouri families with children.",
+      "hi": "Temporary cash assistance for eligible Missouri families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myDSS Temporary Assistance application"
+      ],
+      "ml": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myDSS Temporary Assistance application"
+      ],
+      "hi": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "Proof of children / household",
+        "myDSS Temporary Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mydss.mo.gov (Apply for Temporary Assistance) or call 855-373-4636 for FSD help.",
+      "ml": "Apply online at mydss.mo.gov (Apply for Temporary Assistance) or call 855-373-4636 for FSD help.",
+      "hi": "Apply online at mydss.mo.gov (Apply for Temporary Assistance) or call 855-373-4636 for FSD help."
+    },
+    "apply_url": "https://mydss.mo.gov/temporary-assistance/apply",
+    "official_source_url": "https://mydss.mo.gov/temporary-assistance/apply",
+    "last_verified": "2026-09-17",
+    "office_type": "Missouri Department of Social Services / Family Support Division",
+    "tags": [
+      "united_states",
+      "missouri",
+      "tanf",
+      "cash_assistance",
+      "mydss"
+    ]
+  },
+  {
+    "id": "mo-healthnet",
+    "scheme_name": {
+      "en": "MO HealthNet (Medicaid) – Missouri",
+      "ml": "MO HealthNet (Medicaid) – Missouri",
+      "hi": "MO HealthNet (Medicaid) – मिसौरी"
+    },
+    "description": {
+      "en": "MO HealthNet is Missouri’s Medicaid program. Family Support Division determines eligibility; MO HealthNet Division manages coverage. Eligible residents apply through myDSS for health coverage.",
+      "ml": "MO HealthNet is Missouri’s Medicaid program. Family Support Division determines eligibility; MO HealthNet Division manages coverage. Eligible residents apply through myDSS for health coverage.",
+      "hi": "MO HealthNet is Missouri’s Medicaid program. Family Support Division determines eligibility; MO HealthNet Division manages coverage. Eligible residents apply through myDSS for health coverage."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MO HealthNet: category-specific MAGI/non-MAGI income and household rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and managed care rules — verify=true via mydss.mo.gov / dss.mo.gov MHD.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Missourians under MO HealthNet categories.",
+      "ml": "Health coverage for eligible Missourians under MO HealthNet categories.",
+      "hi": "Health coverage for eligible Missourians under MO HealthNet categories."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "myDSS MO HealthNet / healthcare application"
+      ],
+      "ml": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "myDSS MO HealthNet / healthcare application"
+      ],
+      "hi": [
+        "Identity and Missouri residency",
+        "Income documentation",
+        "myDSS MO HealthNet / healthcare application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mydss.mo.gov (Apply for Healthcare), by phone at 855-373-9994, or see myDSS healthcare apply guidance.",
+      "ml": "Apply online at mydss.mo.gov (Apply for Healthcare), by phone at 855-373-9994, or see myDSS healthcare apply guidance.",
+      "hi": "Apply online at mydss.mo.gov (Apply for Healthcare), by phone at 855-373-9994, or see myDSS healthcare apply guidance."
+    },
+    "apply_url": "https://mydss.mo.gov/healthcare/apply",
+    "official_source_url": "https://mydss.mo.gov/healthcare",
+    "last_verified": "2026-09-17",
+    "office_type": "Missouri DSS Family Support Division / MO HealthNet Division",
+    "tags": [
+      "united_states",
+      "missouri",
+      "medicaid",
+      "mo_healthnet",
+      "health",
+      "mydss"
+    ]
+  },
+  {
+    "id": "mo-chip",
+    "scheme_name": {
+      "en": "MO HealthNet Children’s Health Insurance Program (CHIP) – Missouri",
+      "ml": "MO HealthNet Children’s Health Insurance Program (CHIP) – Missouri",
+      "hi": "MO HealthNet CHIP – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri’s Children’s Health Insurance Program (CHIP) under MO HealthNet covers eligible uninsured children whose household income is above standard Medicaid limits within CHIP bands; premiums may apply by income tier.",
+      "ml": "Missouri’s Children’s Health Insurance Program (CHIP) under MO HealthNet covers eligible uninsured children whose household income is above standard Medicaid limits within CHIP bands; premiums may apply by income tier.",
+      "hi": "Missouri’s Children’s Health Insurance Program (CHIP) under MO HealthNet covers eligible uninsured children whose household income is above standard Medicaid limits within CHIP bands; premiums may apply by income tier."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MO CHIP: uninsured children within CHIP income bands; premiums vary by tier. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP premium tiers and income bands change — verify=true via dss.mo.gov CHIP chart / myDSS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible uninsured Missouri children under MO HealthNet CHIP (premiums may apply).",
+      "ml": "Health coverage for eligible uninsured Missouri children under MO HealthNet CHIP (premiums may apply).",
+      "hi": "Health coverage for eligible uninsured Missouri children under MO HealthNet CHIP (premiums may apply)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Missouri residency",
+        "Income documentation",
+        "myDSS healthcare / CHIP application"
+      ],
+      "ml": [
+        "Child identity and Missouri residency",
+        "Income documentation",
+        "myDSS healthcare / CHIP application"
+      ],
+      "hi": [
+        "Child identity and Missouri residency",
+        "Income documentation",
+        "myDSS healthcare / CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for healthcare through mydss.mo.gov; see dss.mo.gov CHIP premium chart and MO HealthNet guidance for current tiers.",
+      "ml": "Apply for healthcare through mydss.mo.gov; see dss.mo.gov CHIP premium chart and MO HealthNet guidance for current tiers.",
+      "hi": "Apply for healthcare through mydss.mo.gov; see dss.mo.gov CHIP premium chart and MO HealthNet guidance for current tiers."
+    },
+    "apply_url": "https://mydss.mo.gov/healthcare/apply",
+    "official_source_url": "https://dss.mo.gov/childrens-health-insurance-program-chip-premium-chart",
+    "last_verified": "2026-09-17",
+    "office_type": "Missouri DSS / MO HealthNet Division",
+    "tags": [
+      "united_states",
+      "missouri",
+      "chip",
+      "mo_healthnet",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "mo-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Utility Assistance) – Missouri DSS",
+      "ml": "LIHEAP (Utility Assistance) – Missouri DSS",
+      "hi": "LIHEAP – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri’s Low Income Home Energy Assistance Program (LIHEAP) helps eligible households pay home energy bills and may provide crisis assistance. DSS publishes program rules and contracted agency contacts.",
+      "ml": "Missouri’s Low Income Home Energy Assistance Program (LIHEAP) helps eligible households pay home energy bills and may provide crisis assistance. DSS publishes program rules and contracted agency contacts.",
+      "hi": "Missouri’s Low Income Home Energy Assistance Program (LIHEAP) helps eligible households pay home energy bills and may provide crisis assistance. DSS publishes program rules and contracted agency contacts."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MO LIHEAP: income guidelines by household size; resource limits may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income/resource charts and crisis rules — verify=true via dss.mo.gov LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy bills (and crisis assistance when available) for eligible Missouri households.",
+      "ml": "Help toward home energy bills (and crisis assistance when available) for eligible Missouri households.",
+      "hi": "Help toward home energy bills (and crisis assistance when available) for eligible Missouri households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "Utility account information",
+        "LIHEAP application via contracted agency / myDSS utility help pathway"
+      ],
+      "ml": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "Utility account information",
+        "LIHEAP application via contracted agency / myDSS utility help pathway"
+      ],
+      "hi": [
+        "Identity and Missouri residency",
+        "Income and resource documentation",
+        "Utility account information",
+        "LIHEAP application via contracted agency / myDSS utility help pathway"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the contracted agency for your area or via myDSS home utility assistance pathways; call 855-373-4636 for guidance. See dss.mo.gov LIHEAP.",
+      "ml": "Apply through the contracted agency for your area or via myDSS home utility assistance pathways; call 855-373-4636 for guidance. See dss.mo.gov LIHEAP.",
+      "hi": "Apply through the contracted agency for your area or via myDSS home utility assistance pathways; call 855-373-4636 for guidance. See dss.mo.gov LIHEAP."
+    },
+    "apply_url": "https://mydss.mo.gov/apply",
+    "official_source_url": "https://dss.mo.gov/utility-assistance/liheap",
+    "last_verified": "2026-09-17",
+    "office_type": "Missouri Department of Social Services / LIHEAP contracted agencies",
+    "tags": [
+      "united_states",
+      "missouri",
+      "liheap",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "md-snap",
+    "scheme_name": {
+      "en": "Food Supplement Program (SNAP) – Maryland myDHR / DHS",
+      "ml": "Food Supplement Program (SNAP) – Maryland myDHR / DHS",
+      "hi": "Food Supplement (SNAP) – मैरीलैंड"
+    },
+    "description": {
+      "en": "Maryland Department of Human Services administers the Food Supplement Program (SNAP). Eligible low-income households apply online through MarylandBenefits / myDHR for monthly food benefits.",
+      "ml": "Maryland Department of Human Services administers the Food Supplement Program (SNAP). Eligible low-income households apply online through MarylandBenefits / myDHR for monthly food benefits.",
+      "hi": "Maryland Department of Human Services administers the Food Supplement Program (SNAP). Eligible low-income households apply online through MarylandBenefits / myDHR for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maryland"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MD Food Supplement/SNAP via myDHR: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dhs.maryland.gov SNAP / MarylandBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP/Food Supplement benefits for eligible Maryland households (via EBT).",
+      "ml": "Monthly SNAP/Food Supplement benefits for eligible Maryland households (via EBT).",
+      "hi": "Monthly SNAP/Food Supplement benefits for eligible Maryland households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maryland residency",
+        "Income and resource documentation",
+        "MarylandBenefits / myDHR application"
+      ],
+      "ml": [
+        "Identity and Maryland residency",
+        "Income and resource documentation",
+        "MarylandBenefits / myDHR application"
+      ],
+      "hi": [
+        "Identity and Maryland residency",
+        "Income and resource documentation",
+        "MarylandBenefits / myDHR application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at benefits.maryland.gov (MarylandBenefits / myDHR), call 1-800-332-6347, or contact your local department of social services.",
+      "ml": "Apply online at benefits.maryland.gov (MarylandBenefits / myDHR), call 1-800-332-6347, or contact your local department of social services.",
+      "hi": "Apply online at benefits.maryland.gov (MarylandBenefits / myDHR), call 1-800-332-6347, or contact your local department of social services."
+    },
+    "apply_url": "https://benefits.maryland.gov/",
+    "official_source_url": "https://dhs.maryland.gov/supplemental-nutrition-assistance-program/",
+    "last_verified": "2026-09-17",
+    "office_type": "Maryland Department of Human Services / Family Investment Administration",
+    "tags": [
+      "united_states",
+      "maryland",
+      "snap",
+      "food",
+      "mydhr",
+      "maryland_benefits"
+    ]
+  },
+  {
+    "id": "md-tca",
+    "scheme_name": {
+      "en": "Temporary Cash Assistance (TCA / TANF) – Maryland",
+      "ml": "Temporary Cash Assistance (TCA / TANF) – Maryland",
+      "hi": "Temporary Cash Assistance (TCA) – मैरीलैंड"
+    },
+    "description": {
+      "en": "Temporary Cash Assistance (TCA) is Maryland’s TANF cash assistance for needy families with dependent children, with employment readiness activities toward independence through work.",
+      "ml": "Temporary Cash Assistance (TCA) is Maryland’s TANF cash assistance for needy families with dependent children, with employment readiness activities toward independence through work.",
+      "hi": "Temporary Cash Assistance (TCA) is Maryland’s TANF cash assistance for needy families with dependent children, with employment readiness activities toward independence through work."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maryland"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MD TCA/TANF: low-income families with dependent children; work participation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via dhs.maryland.gov TCA / MarylandBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and work supports for eligible Maryland families with children.",
+      "ml": "Temporary cash assistance and work supports for eligible Maryland families with children.",
+      "hi": "Temporary cash assistance and work supports for eligible Maryland families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MarylandBenefits / myDHR application"
+      ],
+      "ml": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MarylandBenefits / myDHR application"
+      ],
+      "hi": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MarylandBenefits / myDHR application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at benefits.maryland.gov or see dhs.maryland.gov Temporary Cash Assistance; local departments of social services assist.",
+      "ml": "Apply online at benefits.maryland.gov or see dhs.maryland.gov Temporary Cash Assistance; local departments of social services assist.",
+      "hi": "Apply online at benefits.maryland.gov or see dhs.maryland.gov Temporary Cash Assistance; local departments of social services assist."
+    },
+    "apply_url": "https://benefits.maryland.gov/",
+    "official_source_url": "https://dhs.maryland.gov/weathering-tough-times/temporary-cash-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Maryland Department of Human Services / Family Investment Administration",
+    "tags": [
+      "united_states",
+      "maryland",
+      "tanf",
+      "tca",
+      "cash_assistance",
+      "mydhr"
+    ]
+  },
+  {
+    "id": "md-medicaid",
+    "scheme_name": {
+      "en": "Medical Assistance (Medicaid) – Maryland",
+      "ml": "Medical Assistance (Medicaid) – Maryland",
+      "hi": "Medical Assistance (Medicaid) – मैरीलैंड"
+    },
+    "description": {
+      "en": "Maryland Medical Assistance (Medicaid) provides health coverage for eligible children, adults, pregnant people, aged/blind/disabled individuals, and other qualifying groups. Apply through MarylandBenefits or Maryland Health Connection pathways as directed.",
+      "ml": "Maryland Medical Assistance (Medicaid) provides health coverage for eligible children, adults, pregnant people, aged/blind/disabled individuals, and other qualifying groups. Apply through MarylandBenefits or Maryland Health Connection pathways as directed.",
+      "hi": "Maryland Medical Assistance (Medicaid) provides health coverage for eligible children, adults, pregnant people, aged/blind/disabled individuals, and other qualifying groups. Apply through MarylandBenefits or Maryland Health Connection pathways as directed."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maryland"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MD Medical Assistance: category-specific MAGI/non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits — verify=true via dhs.maryland.gov Medical Assistance / MarylandBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Maryland residents under Medical Assistance / Medicaid categories.",
+      "ml": "Health coverage for eligible Maryland residents under Medical Assistance / Medicaid categories.",
+      "hi": "Health coverage for eligible Maryland residents under Medical Assistance / Medicaid categories."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "MarylandBenefits or Health Connection application as applicable"
+      ],
+      "ml": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "MarylandBenefits or Health Connection application as applicable"
+      ],
+      "hi": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "MarylandBenefits or Health Connection application as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via benefits.maryland.gov and/or Maryland Health Connection as directed on dhs.maryland.gov Medical Assistance pages; call 1-800-332-6347 for DHS help.",
+      "ml": "Apply via benefits.maryland.gov and/or Maryland Health Connection as directed on dhs.maryland.gov Medical Assistance pages; call 1-800-332-6347 for DHS help.",
+      "hi": "Apply via benefits.maryland.gov and/or Maryland Health Connection as directed on dhs.maryland.gov Medical Assistance pages; call 1-800-332-6347 for DHS help."
+    },
+    "apply_url": "https://benefits.maryland.gov/",
+    "official_source_url": "https://dhs.maryland.gov/weathering-tough-times/medical-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Maryland Department of Human Services / Maryland Medicaid",
+    "tags": [
+      "united_states",
+      "maryland",
+      "medicaid",
+      "medical_assistance",
+      "health"
+    ]
+  },
+  {
+    "id": "md-mchp",
+    "scheme_name": {
+      "en": "Maryland Children’s Health Program (MCHP / CHIP)",
+      "ml": "Maryland Children’s Health Program (MCHP / CHIP)",
+      "hi": "MCHP (CHIP) – मैरीलैंड"
+    },
+    "description": {
+      "en": "The Maryland Children’s Health Program (MCHP) provides free or low-cost health coverage for eligible uninsured children whose families earn too much for standard Medicaid but qualify under CHIP rules.",
+      "ml": "The Maryland Children’s Health Program (MCHP) provides free or low-cost health coverage for eligible uninsured children whose families earn too much for standard Medicaid but qualify under CHIP rules.",
+      "hi": "The Maryland Children’s Health Program (MCHP) provides free or low-cost health coverage for eligible uninsured children whose families earn too much for standard Medicaid but qualify under CHIP rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maryland"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MCHP CHIP: uninsured children within CHIP income bands above Medicaid. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income bands and premiums — verify=true via health.maryland.gov MCHP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible uninsured Maryland children under MCHP.",
+      "ml": "Health coverage for eligible uninsured Maryland children under MCHP.",
+      "hi": "Health coverage for eligible uninsured Maryland children under MCHP."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Maryland residency",
+        "Income documentation",
+        "MCHP / Maryland Health Connection or MarylandBenefits application"
+      ],
+      "ml": [
+        "Child identity and Maryland residency",
+        "Income documentation",
+        "MCHP / Maryland Health Connection or MarylandBenefits application"
+      ],
+      "hi": [
+        "Child identity and Maryland residency",
+        "Income documentation",
+        "MCHP / Maryland Health Connection or MarylandBenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "See health.maryland.gov MCHP and Maryland.gov benefits guidance; apply through Maryland Health Connection or MarylandBenefits pathways as directed.",
+      "ml": "See health.maryland.gov MCHP and Maryland.gov benefits guidance; apply through Maryland Health Connection or MarylandBenefits pathways as directed.",
+      "hi": "See health.maryland.gov MCHP and Maryland.gov benefits guidance; apply through Maryland Health Connection or MarylandBenefits pathways as directed."
+    },
+    "apply_url": "https://benefits.maryland.gov/",
+    "official_source_url": "https://health.maryland.gov/mmcp/chp/Pages/Home.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Maryland Department of Health / Maryland Children’s Health Program",
+    "tags": [
+      "united_states",
+      "maryland",
+      "chip",
+      "mchp",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "md-ohep-liheap",
+    "scheme_name": {
+      "en": "Office of Home Energy Programs (OHEP / LIHEAP) – Maryland",
+      "ml": "Office of Home Energy Programs (OHEP / LIHEAP) – Maryland",
+      "hi": "OHEP / LIHEAP – मैरीलैंड"
+    },
+    "description": {
+      "en": "Maryland’s Office of Home Energy Programs (OHEP) administers federal LIHEAP-funded energy assistance, including heating (MEAP) and electric (EUSP) grants for eligible households.",
+      "ml": "Maryland’s Office of Home Energy Programs (OHEP) administers federal LIHEAP-funded energy assistance, including heating (MEAP) and electric (EUSP) grants for eligible households.",
+      "hi": "Maryland’s Office of Home Energy Programs (OHEP) administers federal LIHEAP-funded energy assistance, including heating (MEAP) and electric (EUSP) grants for eligible households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maryland"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MD OHEP/LIHEAP: income guidelines by household size; MEAP/EUSP components. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and seasonal rules — verify=true via dhs.maryland.gov OHEP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Grants toward heating and/or electric bills for eligible Maryland households.",
+      "ml": "Grants toward heating and/or electric bills for eligible Maryland households.",
+      "hi": "Grants toward heating and/or electric bills for eligible Maryland households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Utility account information",
+        "OHEP / MarylandBenefits energy assistance application"
+      ],
+      "ml": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Utility account information",
+        "OHEP / MarylandBenefits energy assistance application"
+      ],
+      "hi": [
+        "Identity and Maryland residency",
+        "Income documentation",
+        "Utility account information",
+        "OHEP / MarylandBenefits energy assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through MarylandBenefits.gov energy assistance, by mail, or at local office drop boxes; see dhs.maryland.gov OHEP how-to-apply.",
+      "ml": "Apply online through MarylandBenefits.gov energy assistance, by mail, or at local office drop boxes; see dhs.maryland.gov OHEP how-to-apply.",
+      "hi": "Apply online through MarylandBenefits.gov energy assistance, by mail, or at local office drop boxes; see dhs.maryland.gov OHEP how-to-apply."
+    },
+    "apply_url": "https://benefits.maryland.gov/",
+    "official_source_url": "https://dhs.maryland.gov/office-of-home-energy-programs/apply-energy-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Maryland DHS Office of Home Energy Programs (OHEP)",
+    "tags": [
+      "united_states",
+      "maryland",
+      "liheap",
+      "ohep",
+      "energy",
+      "utility",
+      "meap",
+      "eusp"
+    ]
+  },
+  {
+    "id": "wi-foodshare",
+    "scheme_name": {
+      "en": "FoodShare (SNAP) – Wisconsin ACCESS",
+      "ml": "FoodShare (SNAP) – Wisconsin ACCESS",
+      "hi": "FoodShare (SNAP) – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "FoodShare is Wisconsin’s SNAP program. Eligible low-income residents apply online through ACCESS for monthly food benefits.",
+      "ml": "FoodShare is Wisconsin’s SNAP program. Eligible low-income residents apply online through ACCESS for monthly food benefits.",
+      "hi": "FoodShare is Wisconsin’s SNAP program. Eligible low-income residents apply online through ACCESS for monthly food benefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WI FoodShare via ACCESS: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules change — verify=true via dhs.wisconsin.gov FoodShare / ACCESS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly FoodShare benefits for eligible Wisconsin households (via QUEST EBT card).",
+      "ml": "Monthly FoodShare benefits for eligible Wisconsin households (via QUEST EBT card).",
+      "hi": "Monthly FoodShare benefits for eligible Wisconsin households (via QUEST EBT card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation",
+        "ACCESS application"
+      ],
+      "ml": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation",
+        "ACCESS application"
+      ],
+      "hi": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation",
+        "ACCESS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at access.wisconsin.gov (ACCESS), call Member Services at 1-800-362-3002, or contact your local income maintenance agency; see dhs.wisconsin.gov FoodShare.",
+      "ml": "Apply online at access.wisconsin.gov (ACCESS), call Member Services at 1-800-362-3002, or contact your local income maintenance agency; see dhs.wisconsin.gov FoodShare.",
+      "hi": "Apply online at access.wisconsin.gov (ACCESS), call Member Services at 1-800-362-3002, or contact your local income maintenance agency; see dhs.wisconsin.gov FoodShare."
+    },
+    "apply_url": "https://access.wisconsin.gov/",
+    "official_source_url": "https://www.dhs.wisconsin.gov/foodshare/eligibility.htm",
+    "last_verified": "2026-09-17",
+    "office_type": "Wisconsin Department of Health Services / Income Maintenance agencies",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "snap",
+      "foodshare",
+      "food",
+      "access"
+    ]
+  },
+  {
+    "id": "wi-w2",
+    "scheme_name": {
+      "en": "Wisconsin Works (W-2 / TANF)",
+      "ml": "Wisconsin Works (W-2 / TANF)",
+      "hi": "Wisconsin Works (W-2) – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "Wisconsin Works (W-2) provides employment preparation services, case management, and cash assistance for eligible parents with low income and pregnant people, funded under TANF.",
+      "ml": "Wisconsin Works (W-2) provides employment preparation services, case management, and cash assistance for eligible parents with low income and pregnant people, funded under TANF.",
+      "hi": "Wisconsin Works (W-2) provides employment preparation services, case management, and cash assistance for eligible parents with low income and pregnant people, funded under TANF."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "W-2: low-income parents and pregnant people; placement and work rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Placement types, time limits, and income tests — verify=true via dcf.wisconsin.gov W-2.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Employment services, case management, and cash assistance for eligible Wisconsin parents / pregnant people.",
+      "ml": "Employment services, case management, and cash assistance for eligible Wisconsin parents / pregnant people.",
+      "hi": "Employment services, case management, and cash assistance for eligible Wisconsin parents / pregnant people."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Proof of children / pregnancy as applicable",
+        "W-2 application via local W-2 agency (ACCESS may support related pathways)"
+      ],
+      "ml": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Proof of children / pregnancy as applicable",
+        "W-2 application via local W-2 agency (ACCESS may support related pathways)"
+      ],
+      "hi": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Proof of children / pregnancy as applicable",
+        "W-2 application via local W-2 agency (ACCESS may support related pathways)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local W-2 agency to apply (see dcf.wisconsin.gov W-2 parents pages); ACCESS can help with related benefits screening.",
+      "ml": "Contact your local W-2 agency to apply (see dcf.wisconsin.gov W-2 parents pages); ACCESS can help with related benefits screening.",
+      "hi": "Contact your local W-2 agency to apply (see dcf.wisconsin.gov W-2 parents pages); ACCESS can help with related benefits screening."
+    },
+    "apply_url": "https://dcf.wisconsin.gov/w2/parents/w2",
+    "official_source_url": "https://dcf.wisconsin.gov/w2/parents/w2",
+    "last_verified": "2026-09-17",
+    "office_type": "Wisconsin Department of Children and Families / W-2 agencies",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "tanf",
+      "w2",
+      "cash_assistance",
+      "employment"
+    ]
+  },
+  {
+    "id": "wi-badgercare",
+    "scheme_name": {
+      "en": "BadgerCare Plus – Wisconsin",
+      "ml": "BadgerCare Plus – Wisconsin",
+      "hi": "BadgerCare Plus – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "BadgerCare Plus provides health care coverage for eligible Wisconsin residents with limited income, including children, pregnant people, and adults under program rules. Apply through ACCESS / ForwardHealth pathways.",
+      "ml": "BadgerCare Plus provides health care coverage for eligible Wisconsin residents with limited income, including children, pregnant people, and adults under program rules. Apply through ACCESS / ForwardHealth pathways.",
+      "hi": "BadgerCare Plus provides health care coverage for eligible Wisconsin residents with limited income, including children, pregnant people, and adults under program rules. Apply through ACCESS / ForwardHealth pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "BadgerCare Plus: MAGI income and household rules by group. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income limits by group change — verify=true via dhs.wisconsin.gov BadgerCare Plus / ACCESS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Wisconsinites under BadgerCare Plus.",
+      "ml": "Health coverage for eligible Wisconsinites under BadgerCare Plus.",
+      "hi": "Health coverage for eligible Wisconsinites under BadgerCare Plus."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "ACCESS / ForwardHealth application"
+      ],
+      "ml": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "ACCESS / ForwardHealth application"
+      ],
+      "hi": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "ACCESS / ForwardHealth application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov BadgerCare Plus and ForwardHealth apply pages; call 1-800-362-3002 for help.",
+      "ml": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov BadgerCare Plus and ForwardHealth apply pages; call 1-800-362-3002 for help.",
+      "hi": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov BadgerCare Plus and ForwardHealth apply pages; call 1-800-362-3002 for help."
+    },
+    "apply_url": "https://access.wisconsin.gov/",
+    "official_source_url": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
+    "last_verified": "2026-09-17",
+    "office_type": "Wisconsin Department of Health Services / ForwardHealth",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "medicaid",
+      "badgercare",
+      "health",
+      "access"
+    ]
+  },
+  {
+    "id": "wi-medicaid",
+    "scheme_name": {
+      "en": "Wisconsin Medicaid (Elderly, Blind, or Disabled and other pathways)",
+      "ml": "Wisconsin Medicaid (Elderly, Blind, or Disabled and other pathways)",
+      "hi": "Wisconsin Medicaid – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "Wisconsin Medicaid includes coverage pathways for people who are age 65 or older, blind, or have a disability, plus other Medicaid programs. Apply through ACCESS alongside BadgerCare Plus where applicable.",
+      "ml": "Wisconsin Medicaid includes coverage pathways for people who are age 65 or older, blind, or have a disability, plus other Medicaid programs. Apply through ACCESS alongside BadgerCare Plus where applicable.",
+      "hi": "Wisconsin Medicaid includes coverage pathways for people who are age 65 or older, blind, or have a disability, plus other Medicaid programs. Apply through ACCESS alongside BadgerCare Plus where applicable."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WI Medicaid EBD and other pathways: income/resource rules vary by category. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category-specific limits — verify=true via dhs.wisconsin.gov Medicaid / ACCESS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage and related services for eligible Wisconsinites under Medicaid pathways (including elderly/blind/disabled).",
+      "ml": "Health coverage and related services for eligible Wisconsinites under Medicaid pathways (including elderly/blind/disabled).",
+      "hi": "Health coverage and related services for eligible Wisconsinites under Medicaid pathways (including elderly/blind/disabled)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation as required by pathway",
+        "Disability/age documentation when applicable",
+        "ACCESS application"
+      ],
+      "ml": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation as required by pathway",
+        "Disability/age documentation when applicable",
+        "ACCESS application"
+      ],
+      "hi": [
+        "Identity and Wisconsin residency",
+        "Income and resource documentation as required by pathway",
+        "Disability/age documentation when applicable",
+        "ACCESS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov Medicaid and ForwardHealth apply guidance; call 1-800-362-3002.",
+      "ml": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov Medicaid and ForwardHealth apply guidance; call 1-800-362-3002.",
+      "hi": "Apply online at access.wisconsin.gov or see dhs.wisconsin.gov Medicaid and ForwardHealth apply guidance; call 1-800-362-3002."
+    },
+    "apply_url": "https://access.wisconsin.gov/",
+    "official_source_url": "https://www.dhs.wisconsin.gov/medicaid/index.htm",
+    "last_verified": "2026-09-17",
+    "office_type": "Wisconsin Department of Health Services / ForwardHealth",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "medicaid",
+      "health",
+      "disability",
+      "access"
+    ]
+  },
+  {
+    "id": "wi-wheap",
+    "scheme_name": {
+      "en": "Wisconsin Home Energy Assistance Program (WHEAP / LIHEAP)",
+      "ml": "Wisconsin Home Energy Assistance Program (WHEAP / LIHEAP)",
+      "hi": "WHEAP (LIHEAP) – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "The Wisconsin Home Energy Assistance Program (WHEAP) helps eligible households with heating and electric bills. It is funded by federal LIHEAP and state Public Benefits; apply through Home Energy Plus / energybenefit.wi.gov or local agencies.",
+      "ml": "The Wisconsin Home Energy Assistance Program (WHEAP) helps eligible households with heating and electric bills. It is funded by federal LIHEAP and state Public Benefits; apply through Home Energy Plus / energybenefit.wi.gov or local agencies.",
+      "hi": "The Wisconsin Home Energy Assistance Program (WHEAP) helps eligible households with heating and electric bills. It is funded by federal LIHEAP and state Public Benefits; apply through Home Energy Plus / energybenefit.wi.gov or local agencies."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WHEAP/LIHEAP: income guidelines by household size; seasonal heating-season rules. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and open dates change by program year — verify=true via energyandhousing.wi.gov WHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Seasonal help toward heating and electric costs for eligible Wisconsin households.",
+      "ml": "Seasonal help toward heating and electric costs for eligible Wisconsin households.",
+      "hi": "Seasonal help toward heating and electric costs for eligible Wisconsin households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Utility account information",
+        "Home Energy Plus / WHEAP application"
+      ],
+      "ml": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Utility account information",
+        "Home Energy Plus / WHEAP application"
+      ],
+      "hi": [
+        "Identity and Wisconsin residency",
+        "Income documentation",
+        "Utility account information",
+        "Home Energy Plus / WHEAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at energybenefit.wi.gov, by phone/mail/in person with your local agency, or call 1-866-HEATWIS (432-8947); see energyandhousing.wi.gov WHEAP pages.",
+      "ml": "Apply online at energybenefit.wi.gov, by phone/mail/in person with your local agency, or call 1-866-HEATWIS (432-8947); see energyandhousing.wi.gov WHEAP pages.",
+      "hi": "Apply online at energybenefit.wi.gov, by phone/mail/in person with your local agency, or call 1-866-HEATWIS (432-8947); see energyandhousing.wi.gov WHEAP pages."
+    },
+    "apply_url": "https://energybenefit.wi.gov/",
+    "official_source_url": "https://energyandhousing.wi.gov/Pages/AgencyResources/energy-assistance.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "Wisconsin Division of Energy, Housing and Community Resources (DEHCR) / local WHEAP agencies",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "liheap",
+      "wheap",
+      "energy",
+      "utility"
+    ]
   }
 ]

@@ -1799,3 +1799,109 @@ def test_catalogue_covers_us_wave3_states(schemes):
         "Massachusetts",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 4 state deepen (TN / IN / MO / MD / WI)
+# ---------------------------------------------------------------------------
+
+
+def test_tennessee_profile_matches_us_tn_and_federal_us(schemes):
+    """Tennessee low-income senior matches us-tn-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="Tennessee",
+        district="Davidson",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-tn-snap" in ids
+    assert "us-tn-tenncare" in ids
+    assert "us-tn-liheap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "in-snap" not in ids
+    assert "mo-snap" not in ids
+    assert "tn-pudhumai-penn" not in ids  # India Tamil Nadu
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_indiana_profile_does_not_match_us_tn_schemes(schemes):
+    """Indiana profile must not match Tennessee-only us-tn-* schemes; may match in-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Indiana",
+        district="Marion",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    us_tn_ids = {s["id"] for s in schemes if s["id"].startswith("us-tn-")}
+    assert ids & us_tn_ids == set()
+    assert any(e.scheme_id == "us-tn-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "in-snap" in ids or "in-medicaid" in ids or "in-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_india_tamil_nadu_matches_tn_not_us_tennessee(schemes, profiles):
+    """India Tamil Nadu must still match India tn-* and must NOT match US Tennessee us-tn-*."""
+    # Prefer sample profile if it is Tamil Nadu; otherwise build explicitly.
+    profile = MatchProfile(
+        country="India",
+        age=22,
+        gender="female",
+        state="Tamil Nadu",
+        district="Chennai",
+        marital_status="unmarried",
+        annual_income=50000,
+        occupations=["student"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "tn-pudhumai-penn" in ids or any(i.startswith("tn-") and not i.startswith("us-tn-") for i in ids)
+    us_tn_ids = {s["id"] for s in schemes if s["id"].startswith("us-tn-")}
+    assert ids & us_tn_ids == set()
+    assert "us-tn-snap" not in ids
+    assert "us-snap" not in ids
+
+
+def test_catalogue_covers_us_wave4_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "Tennessee",
+        "Indiana",
+        "Missouri",
+        "Maryland",
+        "Wisconsin",
+    ):
+        assert required in by_state, required

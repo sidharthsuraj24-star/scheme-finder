@@ -19,6 +19,21 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+
+## United States Wave 4 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged schemes for **Tennessee, Indiana, Missouri, Maryland, Wisconsin** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (tn.gov; in.gov FSSA/IHCDA + fssabenefits.in.gov apply; mydss.mo.gov / dss.mo.gov; dhs.maryland.gov / health.maryland.gov + benefits.maryland.gov apply; dhs/dcf/energyandhousing.wi.gov + access.wisconsin.gov / energybenefit.wi.gov apply). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| Tennessee | us-tn-snap, us-tn-families-first, us-tn-tenncare, us-tn-coverkids, us-tn-liheap | tn.gov (`us-tn-*` avoids India Tamil Nadu `tn-*`) |
+| Indiana | in-snap, in-tanf, in-medicaid, in-hoosier-healthwise, in-eap-liheap | in.gov |
+| Missouri | mo-snap, mo-temporary-assistance, mo-healthnet, mo-chip, mo-liheap | mydss.mo.gov, dss.mo.gov |
+| Maryland | md-snap, md-tca, md-medicaid, md-mchp, md-ohep-liheap | dhs.maryland.gov, health.maryland.gov |
+| Wisconsin | wi-foodshare, wi-w2, wi-badgercare, wi-medicaid, wi-wheap | dhs.wisconsin.gov, dcf.wisconsin.gov, energyandhousing.wi.gov |
+
+**Skipped / deferred:** Standalone portal-only rows for One DHS / FSSA Benefits / myDSS / MarylandBenefits / ACCESS (covered as apply pathways); THDA.org-only LIHEAP mirrors as `official_source_url` (used tn.gov LIHEAP page instead); inventing LIHEAP dollar caps; non-`.gov` aggregator mirrors.
+
 ## United States Wave 3 state deepen (2026-09-17 IST)
 
 Added **26** state-tagged schemes for **New Jersey, Virginia, Washington, Arizona, Massachusetts** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (nj.gov; dss.virginia.gov / coverva.dmas.virginia.gov / commonhelp.virginia.gov; dshs.wa.gov / hca.wa.gov / commerce.wa.gov / dcyf.wa.gov; des.az.gov / azahcccs.gov / healthearizonaplus.gov; mass.gov). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).

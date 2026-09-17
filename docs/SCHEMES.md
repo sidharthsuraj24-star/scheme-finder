@@ -1,15 +1,30 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 403 schemes
-**verify=true:** 395
+**Count:** 428 schemes
+**verify=true:** 420
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count).
 
 
 
 
+
+
+## US Wave 4 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged US schemes (`nationwide:false`) for Tennessee, Indiana, Missouri, Maryland, and Wisconsin. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `us-tn-*` (Tennessee; **not** bare `tn-*`, which is India Tamil Nadu), `in-*`, `mo-*`, `md-*`, `wi-*`.
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| Tennessee | `us-tn-snap`, `us-tn-families-first`, `us-tn-tenncare`, `us-tn-coverkids`, `us-tn-liheap` | tn.gov DHS One DHS / Families First / TennCare / CoverKids / LIHEAP |
+| Indiana | `in-snap`, `in-tanf`, `in-medicaid`, `in-hoosier-healthwise`, `in-eap-liheap` | in.gov FSSA/DFR + IHCDA EAP; apply via fssabenefits.in.gov |
+| Missouri | `mo-snap`, `mo-temporary-assistance`, `mo-healthnet`, `mo-chip`, `mo-liheap` | mydss.mo.gov / dss.mo.gov |
+| Maryland | `md-snap`, `md-tca`, `md-medicaid`, `md-mchp`, `md-ohep-liheap` | dhs.maryland.gov + health.maryland.gov MCHP; apply via benefits.maryland.gov |
+| Wisconsin | `wi-foodshare`, `wi-w2`, `wi-badgercare`, `wi-medicaid`, `wi-wheap` | dhs/dcf/energyandhousing.wi.gov; apply via ACCESS / energybenefit.wi.gov |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (FPL/SMI notes only). **Collision avoided:** India `tn-*` Tamil Nadu unchanged; US Tennessee uses `us-tn-*`.
 
 ## US Wave 3 state deepen (2026-09-17 IST)
 
