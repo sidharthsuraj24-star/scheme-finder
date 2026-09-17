@@ -1905,3 +1905,137 @@ def test_catalogue_covers_us_wave4_states(schemes):
         "Wisconsin",
     ):
         assert required in by_state, required
+
+
+# ---------------------------------------------------------------------------
+# US Wave 5 state deepen (CO / MN / SC / AL / LA)
+# ---------------------------------------------------------------------------
+
+
+def test_colorado_profile_matches_co_and_federal_us(schemes):
+    """Colorado low-income senior matches co-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="Colorado",
+        district="Denver",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "co-snap" in ids
+    assert "co-health-first-colorado" in ids
+    assert "co-leap" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "us-mn-snap" not in ids
+    assert "sc-snap" not in ids
+    assert "al-snap" not in ids
+    assert "us-la-snap" not in ids
+    assert "mn-old-age-pension" not in ids  # India Manipur
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_minnesota_profile_does_not_match_colorado_schemes(schemes):
+    """Minnesota profile must not match Colorado-only co-* schemes; may match us-mn-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Minnesota",
+        district="Hennepin",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    co_ids = {s["id"] for s in schemes if s["id"].startswith("co-")}
+    assert ids & co_ids == set()
+    assert any(e.scheme_id == "co-snap" and "states" in e.reasons for e in resp.excluded)
+    assert "us-mn-snap" in ids or "us-mn-medical-assistance" in ids or "us-mn-mfip" in ids
+    assert "us-snap" in ids
+    # Must not match India Manipur mn-* rows
+    india_mn = {s["id"] for s in schemes if s["id"].startswith("mn-") and not s["id"].startswith("us-mn-")}
+    assert ids & india_mn == set()
+
+
+def test_india_manipur_matches_mn_not_us_minnesota(schemes):
+    """India Manipur must still match India mn-* and must NOT match US Minnesota us-mn-*."""
+    profile = MatchProfile(
+        country="India",
+        age=70,
+        gender="female",
+        state="Manipur",
+        district="Imphal West",
+        marital_status="widow",
+        annual_income=30000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert any(i.startswith("mn-") and not i.startswith("us-mn-") for i in ids)
+    us_mn_ids = {s["id"] for s in schemes if s["id"].startswith("us-mn-")}
+    assert ids & us_mn_ids == set()
+    assert "us-mn-snap" not in ids
+    assert "us-snap" not in ids
+
+
+def test_india_ladakh_matches_la_not_us_louisiana(schemes):
+    """India Ladakh must still match India la-* and must NOT match US Louisiana us-la-*."""
+    profile = MatchProfile(
+        country="India",
+        age=70,
+        gender="female",
+        state="Ladakh",
+        district="Leh",
+        marital_status="widow",
+        annual_income=30000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert any(i.startswith("la-") and not i.startswith("us-la-") for i in ids)
+    us_la_ids = {s["id"] for s in schemes if s["id"].startswith("us-la-")}
+    assert ids & us_la_ids == set()
+    assert "us-la-snap" not in ids
+
+
+def test_catalogue_covers_us_wave5_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in (
+        "Colorado",
+        "Minnesota",
+        "South Carolina",
+        "Alabama",
+        "Louisiana",
+    ):
+        assert required in by_state, required
+

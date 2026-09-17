@@ -20,6 +20,20 @@ Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.us
 
 
 
+## United States Wave 5 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged schemes for **Colorado, Minnesota, South Carolina, Alabama, Louisiana** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (cdhs/hcpf.colorado.gov + colorado.gov/peak apply; dcyf.mn.gov / mn.gov DHS & Commerce + mnbenefits.mn.gov apply; dss.sc.gov / scdhhs.gov / oeo.sc.gov + Benefits Portal / apply.scdhhs.gov; dhr.alabama.gov / medicaid.alabama.gov / alabamapublichealth.gov / adeca.alabama.gov + MyDHR; ldh.la.gov / lhc.la.gov + CAFÉ / MyMedicaid). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).
+
+| State | ids | official_source_url hosts |
+| --- | --- | --- |
+| Colorado | co-snap, co-colorado-works, co-health-first-colorado, co-chp-plus, co-leap | cdhs.colorado.gov, hcpf.colorado.gov |
+| Minnesota | us-mn-snap, us-mn-mfip, us-mn-medical-assistance, us-mn-minnesotacare, us-mn-energy-assistance | dcyf.mn.gov, mn.gov (`us-mn-*` avoids India Manipur `mn-*`) |
+| South Carolina | sc-snap, sc-family-independence, sc-healthy-connections, sc-partners-healthy-children, sc-liheap | dss.sc.gov, scdhhs.gov, oeo.sc.gov |
+| Alabama | al-snap, al-family-assistance, al-medicaid, al-all-kids, al-liheap | dhr.alabama.gov, medicaid.alabama.gov, alabamapublichealth.gov, adeca.alabama.gov |
+| Louisiana | us-la-snap, us-la-fitap, us-la-medicaid, us-la-lachip, us-la-liheap | ldh.la.gov, lhc.la.gov (`us-la-*` avoids India Ladakh `la-*`) |
+
+**Skipped / deferred:** Standalone portal-only rows for PEAK / MNbenefits / DSS Benefits / MyDHR / CAFÉ / MyMedicaid (covered as apply pathways); inventing LEAP/LIHEAP dollar caps; non-`.gov` aggregator mirrors; bare `mn-*`/`la-*` US ids (India collision).
+
 ## United States Wave 4 state deepen (2026-09-17 IST)
 
 Added **25** state-tagged schemes for **Tennessee, Indiana, Missouri, Maryland, Wisconsin** (`nationwide:false`, exact `states` names). Official sources are `.gov` only (tn.gov; in.gov FSSA/IHCDA + fssabenefits.in.gov apply; mydss.mo.gov / dss.mo.gov; dhs.maryland.gov / health.maryland.gov + benefits.maryland.gov apply; dhs/dcf/energyandhousing.wi.gov + access.wisconsin.gov / energybenefit.wi.gov apply). Federal `us-*` rows not duplicated. All new rows `verify=true`; no hard income ceilings encoded (FPL/%SMI notes only).

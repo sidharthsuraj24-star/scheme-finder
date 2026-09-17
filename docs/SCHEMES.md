@@ -1,16 +1,30 @@
 # Scheme Finder — Seed Schemes
 Curated from official government sources. **Do not treat as legal advice.** Re-verify before production matching.
 
-**Count:** 428 schemes
-**verify=true:** 420
+**Count:** 453 schemes
+**verify=true:** 445
 **verify=false:** 8
 
-**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count).
+**Scope:** India + selected other countries (curated; not worldwide). Wave 1 deepen expanded Uttar Pradesh, Bihar, Madhya Pradesh, Rajasthan, and Odisha. Wave 2 deepen expanded Andhra Pradesh, Telangana, Assam, Chhattisgarh, and Jharkhand toward Kerala-level local depth. Wave 3 deepen expanded Tamil Nadu, Karnataka, Maharashtra, West Bengal, and Gujarat. Wave 4 deepen expanded Punjab, Haryana, Himachal Pradesh, Uttarakhand, and Goa. Wave 5 deepen expanded Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura (verified local pensions/welfare; quality over forced count). Wave 6 deepen (final India UT) expanded Delhi, Chandigarh, Jammu and Kashmir, Ladakh, Puducherry, Andaman and Nicobar Islands, Dadra and Nagar Haveli and Daman and Diu, and Lakshadweep — India deepen waves 1–6 complete (quality over forced count; smaller UTs may have fewer clearly documented schemes). Kerala remains fully curated within India; Bangladesh, Nepal, Sri Lanka, and Maldives have official starter sets; the United States has a curated federal starter set plus US Wave 1 state deepen (California, New York, Texas, Florida, Illinois) and US Wave 2 state deepen (Pennsylvania, Ohio, Georgia, North Carolina, Michigan — state-tagged programs; quality over forced count) and US Wave 3 state deepen (New Jersey, Virginia, Washington, Arizona, Massachusetts — state-tagged programs; quality over forced count) and US Wave 4 state deepen (Tennessee, Indiana, Missouri, Maryland, Wisconsin — state-tagged programs; Tennessee IDs `us-tn-*` to avoid India Tamil Nadu `tn-*`; quality over forced count) and US Wave 5 state deepen (Colorado, Minnesota, South Carolina, Alabama, Louisiana — state-tagged programs; Minnesota IDs `us-mn-*` to avoid India Manipur `mn-*`; Louisiana IDs `us-la-*` to avoid India Ladakh `la-*`; quality over forced count).
 
 
 
 
 
+
+## US Wave 5 state deepen (2026-09-17 IST)
+
+Added **25** state-tagged US schemes (`nationwide:false`) for Colorado, Minnesota, South Carolina, Alabama, and Louisiana. Federal `us-*` nationwide rows unchanged. All `official_source_url` hosts are `.gov`. IDs: `co-*`, `us-mn-*` (Minnesota; **not** bare `mn-*`, which is India Manipur), `sc-*`, `al-*`, `us-la-*` (Louisiana; **not** bare `la-*`, which is India Ladakh).
+
+| State | New ids | Official portals / sources |
+| --- | --- | --- |
+| Colorado | `co-snap`, `co-colorado-works`, `co-health-first-colorado`, `co-chp-plus`, `co-leap` | cdhs.colorado.gov / hcpf.colorado.gov; apply via colorado.gov/peak |
+| Minnesota | `us-mn-snap`, `us-mn-mfip`, `us-mn-medical-assistance`, `us-mn-minnesotacare`, `us-mn-energy-assistance` | dcyf.mn.gov / mn.gov DHS & Commerce; apply via mnbenefits.mn.gov |
+| South Carolina | `sc-snap`, `sc-family-independence`, `sc-healthy-connections`, `sc-partners-healthy-children`, `sc-liheap` | dss.sc.gov / scdhhs.gov / oeo.sc.gov; apply via Benefits Portal / apply.scdhhs.gov |
+| Alabama | `al-snap`, `al-family-assistance`, `al-medicaid`, `al-all-kids`, `al-liheap` | dhr.alabama.gov / medicaid.alabama.gov / alabamapublichealth.gov / adeca.alabama.gov; apply via MyDHR |
+| Louisiana | `us-la-snap`, `us-la-fitap`, `us-la-medicaid`, `us-la-lachip`, `us-la-liheap` | ldh.la.gov / lhc.la.gov; apply via CAFÉ / MyMedicaid |
+
+All rows use `verify:true`, `implies_low_income:true` (means-tested), and no invented hard income ceilings (FPL/SMI notes only). **Collisions avoided:** India `mn-*` Manipur and `la-*` Ladakh unchanged; US Minnesota/Louisiana use `us-mn-*` / `us-la-*`.
 
 ## US Wave 4 state deepen (2026-09-17 IST)
 

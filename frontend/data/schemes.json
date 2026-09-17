@@ -33356,5 +33356,1942 @@
       "energy",
       "utility"
     ]
+  },
+  {
+    "id": "co-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Colorado PEAK / CDHS",
+      "ml": "SNAP (Food Assistance) – Colorado PEAK / CDHS",
+      "hi": "SNAP – कोलोराडो"
+    },
+    "description": {
+      "en": "Colorado Department of Human Services administers SNAP. Eligible low-income households apply online through Colorado PEAK (or MyCOBenefits) for monthly food benefits on an EBT card; counties determine eligibility.",
+      "ml": "Colorado Department of Human Services administers SNAP. Eligible low-income households apply online through Colorado PEAK (or MyCOBenefits) for monthly food benefits on an EBT card; counties determine eligibility.",
+      "hi": "Colorado Department of Human Services administers SNAP. Eligible low-income households apply online through Colorado PEAK (or MyCOBenefits) for monthly food benefits on an EBT card; counties determine eligibility."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CO SNAP via PEAK: residency and income/resource rules; household-size charts and ABAWD/work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via cdhs.colorado.gov/snap / PEAK.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Colorado households (via EBT / Colorado Quest Card).",
+      "ml": "Monthly SNAP food benefits for eligible Colorado households (via EBT / Colorado Quest Card).",
+      "hi": "Monthly SNAP food benefits for eligible Colorado households (via EBT / Colorado Quest Card)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Colorado residency",
+        "Income and resource documentation",
+        "Colorado PEAK / county human services application"
+      ],
+      "ml": [
+        "Identity and Colorado residency",
+        "Income and resource documentation",
+        "Colorado PEAK / county human services application"
+      ],
+      "hi": [
+        "Identity and Colorado residency",
+        "Income and resource documentation",
+        "Colorado PEAK / county human services application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at colorado.gov/peak (Colorado PEAK), via the MyCOBenefits app, or submit a paper application to your county human services office; see cdhs.colorado.gov/snap.",
+      "ml": "Apply online at colorado.gov/peak (Colorado PEAK), via the MyCOBenefits app, or submit a paper application to your county human services office; see cdhs.colorado.gov/snap.",
+      "hi": "Apply online at colorado.gov/peak (Colorado PEAK), via the MyCOBenefits app, or submit a paper application to your county human services office; see cdhs.colorado.gov/snap."
+    },
+    "apply_url": "https://www.colorado.gov/peak",
+    "official_source_url": "https://cdhs.colorado.gov/snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Colorado Department of Human Services / County human services / PEAK",
+    "tags": [
+      "united_states",
+      "colorado",
+      "snap",
+      "food",
+      "peak"
+    ]
+  },
+  {
+    "id": "co-colorado-works",
+    "scheme_name": {
+      "en": "Colorado Works (TANF) – Colorado CDHS",
+      "ml": "Colorado Works (TANF) – Colorado CDHS",
+      "hi": "Colorado Works (TANF) – कोलोराडो"
+    },
+    "description": {
+      "en": "Colorado Works is Colorado’s Temporary Assistance for Needy Families (TANF) program. Eligible families can receive monthly cash assistance plus schooling, training, job supports, and related services through county human services.",
+      "ml": "Colorado Works is Colorado’s Temporary Assistance for Needy Families (TANF) program. Eligible families can receive monthly cash assistance plus schooling, training, job supports, and related services through county human services.",
+      "hi": "Colorado Works is Colorado’s Temporary Assistance for Needy Families (TANF) program. Eligible families can receive monthly cash assistance plus schooling, training, job supports, and related services through county human services."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Colorado Works/TANF: low-income families with dependent children; work and cooperation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via cdhs.colorado.gov/colorado-works / PEAK.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment/support services for eligible Colorado families with children.",
+      "ml": "Temporary cash assistance and employment/support services for eligible Colorado families with children.",
+      "hi": "Temporary cash assistance and employment/support services for eligible Colorado families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Colorado PEAK / county Colorado Works application"
+      ],
+      "ml": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Colorado PEAK / county Colorado Works application"
+      ],
+      "hi": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Proof of children / household",
+        "Colorado PEAK / county Colorado Works application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through Colorado PEAK or contact your county human or social services office; see cdhs.colorado.gov/colorado-works.",
+      "ml": "Apply online through Colorado PEAK or contact your county human or social services office; see cdhs.colorado.gov/colorado-works.",
+      "hi": "Apply online through Colorado PEAK or contact your county human or social services office; see cdhs.colorado.gov/colorado-works."
+    },
+    "apply_url": "https://www.colorado.gov/peak",
+    "official_source_url": "https://cdhs.colorado.gov/colorado-works",
+    "last_verified": "2026-09-17",
+    "office_type": "Colorado Department of Human Services / County Colorado Works",
+    "tags": [
+      "united_states",
+      "colorado",
+      "tanf",
+      "cash_assistance",
+      "colorado_works",
+      "peak"
+    ]
+  },
+  {
+    "id": "co-health-first-colorado",
+    "scheme_name": {
+      "en": "Health First Colorado (Medicaid) – HCPF",
+      "ml": "Health First Colorado (Medicaid) – HCPF",
+      "hi": "Health First Colorado (Medicaid) – कोलोराडो"
+    },
+    "description": {
+      "en": "Health First Colorado is Colorado’s Medicaid program, administered by the Department of Health Care Policy and Financing (HCPF). It covers eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Colorado PEAK.",
+      "ml": "Health First Colorado is Colorado’s Medicaid program, administered by the Department of Health Care Policy and Financing (HCPF). It covers eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Colorado PEAK.",
+      "hi": "Health First Colorado is Colorado’s Medicaid program, administered by the Department of Health Care Policy and Financing (HCPF). It covers eligible children, adults, pregnant people, seniors, and people with disabilities. Apply through Colorado PEAK."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Health First Colorado: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via hcpf.colorado.gov / PEAK.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Coloradans under Health First Colorado (Medicaid).",
+      "ml": "Health coverage for eligible Coloradans under Health First Colorado (Medicaid).",
+      "hi": "Health coverage for eligible Coloradans under Health First Colorado (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Colorado PEAK health coverage application"
+      ],
+      "ml": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Colorado PEAK health coverage application"
+      ],
+      "hi": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Colorado PEAK health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at colorado.gov/peak, by phone (Member Contact Center 1-800-221-3943), by mail, or in person at a county office / application assistance site; see hcpf.colorado.gov.",
+      "ml": "Apply online at colorado.gov/peak, by phone (Member Contact Center 1-800-221-3943), by mail, or in person at a county office / application assistance site; see hcpf.colorado.gov.",
+      "hi": "Apply online at colorado.gov/peak, by phone (Member Contact Center 1-800-221-3943), by mail, or in person at a county office / application assistance site; see hcpf.colorado.gov."
+    },
+    "apply_url": "https://www.colorado.gov/peak",
+    "official_source_url": "https://hcpf.colorado.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "Colorado Department of Health Care Policy and Financing (HCPF) / PEAK",
+    "tags": [
+      "united_states",
+      "colorado",
+      "medicaid",
+      "health",
+      "health_first_colorado",
+      "peak",
+      "hcpf"
+    ]
+  },
+  {
+    "id": "co-chp-plus",
+    "scheme_name": {
+      "en": "Child Health Plan Plus (CHP+) – Colorado",
+      "ml": "Child Health Plan Plus (CHP+) – Colorado",
+      "hi": "CHP+ – कोलोराडो"
+    },
+    "description": {
+      "en": "Child Health Plan Plus (CHP+) is Colorado’s low-cost public health insurance for certain children age 18 and under and pregnant people who earn too much for Health First Colorado but need coverage. One PEAK application screens for both programs.",
+      "ml": "Child Health Plan Plus (CHP+) is Colorado’s low-cost public health insurance for certain children age 18 and under and pregnant people who earn too much for Health First Colorado but need coverage. One PEAK application screens for both programs.",
+      "hi": "Child Health Plan Plus (CHP+) is Colorado’s low-cost public health insurance for certain children age 18 and under and pregnant people who earn too much for Health First Colorado but need coverage. One PEAK application screens for both programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CHP+: children ≤18 and pregnant people; income under a share of FPL when not Health First Colorado–eligible. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL charts and cost-sharing change — verify=true via hcpf.colorado.gov/chp.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost public health insurance for eligible Colorado children and pregnant people under CHP+.",
+      "ml": "Low-cost public health insurance for eligible Colorado children and pregnant people under CHP+.",
+      "hi": "Low-cost public health insurance for eligible Colorado children and pregnant people under CHP+."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Colorado PEAK health coverage application"
+      ],
+      "ml": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Colorado PEAK health coverage application"
+      ],
+      "hi": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Colorado PEAK health coverage application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at colorado.gov/peak or see hcpf.colorado.gov/chp for CHP+ details; Member Contact Center 1-800-221-3943 / CHP+ Customer Service 1-800-359-1991.",
+      "ml": "Apply online at colorado.gov/peak or see hcpf.colorado.gov/chp for CHP+ details; Member Contact Center 1-800-221-3943 / CHP+ Customer Service 1-800-359-1991.",
+      "hi": "Apply online at colorado.gov/peak or see hcpf.colorado.gov/chp for CHP+ details; Member Contact Center 1-800-221-3943 / CHP+ Customer Service 1-800-359-1991."
+    },
+    "apply_url": "https://www.colorado.gov/peak",
+    "official_source_url": "https://hcpf.colorado.gov/chp",
+    "last_verified": "2026-09-17",
+    "office_type": "Colorado HCPF / CHP+",
+    "tags": [
+      "united_states",
+      "colorado",
+      "chip",
+      "chp_plus",
+      "children",
+      "health",
+      "peak"
+    ]
+  },
+  {
+    "id": "co-leap",
+    "scheme_name": {
+      "en": "Low-income Energy Assistance Program (LEAP) – Colorado",
+      "ml": "Low-income Energy Assistance Program (LEAP) – Colorado",
+      "hi": "LEAP (energy) – कोलोराडो"
+    },
+    "description": {
+      "en": "Colorado LEAP helps eligible households pay a portion of winter home heating costs. It is federally funded (LIHEAP); applications are typically accepted November–April through PEAK or county contacts.",
+      "ml": "Colorado LEAP helps eligible households pay a portion of winter home heating costs. It is federally funded (LIHEAP); applications are typically accepted November–April through PEAK or county contacts.",
+      "hi": "Colorado LEAP helps eligible households pay a portion of winter home heating costs. It is federally funded (LIHEAP); applications are typically accepted November–April through PEAK or county contacts."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CO LEAP/LIHEAP: income guidelines by household size; seasonal heating-season rules. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and open dates change by program year — verify=true via cdhs.colorado.gov/leap.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Seasonal help toward winter heating costs for eligible Colorado households.",
+      "ml": "Seasonal help toward winter heating costs for eligible Colorado households.",
+      "hi": "Seasonal help toward winter heating costs for eligible Colorado households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Heating / utility account information",
+        "LEAP / PEAK application (when season is open)"
+      ],
+      "ml": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Heating / utility account information",
+        "LEAP / PEAK application (when season is open)"
+      ],
+      "hi": [
+        "Identity and Colorado residency",
+        "Income documentation",
+        "Heating / utility account information",
+        "LEAP / PEAK application (when season is open)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through Colorado PEAK when LEAP season opens (typically Nov 1), call 1-866-HEAT-HELP (1-866-432-8435), or use county mail/email options; see cdhs.colorado.gov/leap.",
+      "ml": "Apply online through Colorado PEAK when LEAP season opens (typically Nov 1), call 1-866-HEAT-HELP (1-866-432-8435), or use county mail/email options; see cdhs.colorado.gov/leap.",
+      "hi": "Apply online through Colorado PEAK when LEAP season opens (typically Nov 1), call 1-866-HEAT-HELP (1-866-432-8435), or use county mail/email options; see cdhs.colorado.gov/leap."
+    },
+    "apply_url": "https://www.colorado.gov/peak",
+    "official_source_url": "https://cdhs.colorado.gov/leap",
+    "last_verified": "2026-09-17",
+    "office_type": "Colorado Department of Human Services / County LEAP",
+    "tags": [
+      "united_states",
+      "colorado",
+      "liheap",
+      "leap",
+      "energy",
+      "utility",
+      "peak"
+    ]
+  },
+  {
+    "id": "us-mn-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Minnesota MNbenefits",
+      "ml": "SNAP (Food Assistance) – Minnesota MNbenefits",
+      "hi": "SNAP – मिनेसोटा"
+    },
+    "description": {
+      "en": "Minnesota administers SNAP (food support). Eligible low-income households apply online through MNbenefits for monthly food benefits on an EBT card; county and tribal agencies process cases.",
+      "ml": "Minnesota administers SNAP (food support). Eligible low-income households apply online through MNbenefits for monthly food benefits on an EBT card; county and tribal agencies process cases.",
+      "hi": "Minnesota administers SNAP (food support). Eligible low-income households apply online through MNbenefits for monthly food benefits on an EBT card; county and tribal agencies process cases."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN SNAP via MNbenefits: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via dcyf.mn.gov/snap / MNbenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Minnesota households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Minnesota households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Minnesota households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Minnesota residency",
+        "Income and resource documentation",
+        "MNbenefits application"
+      ],
+      "ml": [
+        "Identity and Minnesota residency",
+        "Income and resource documentation",
+        "MNbenefits application"
+      ],
+      "hi": [
+        "Identity and Minnesota residency",
+        "Income and resource documentation",
+        "MNbenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov/snap / mn.gov DHS MNbenefits pages; local county or tribal offices assist.",
+      "ml": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov/snap / mn.gov DHS MNbenefits pages; local county or tribal offices assist.",
+      "hi": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov/snap / mn.gov DHS MNbenefits pages; local county or tribal offices assist."
+    },
+    "apply_url": "https://mnbenefits.mn.gov/",
+    "official_source_url": "https://dcyf.mn.gov/snap",
+    "last_verified": "2026-09-17",
+    "office_type": "Minnesota Department of Children, Youth, and Families / DHS / counties / MNbenefits",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "snap",
+      "food",
+      "mnbenefits"
+    ]
+  },
+  {
+    "id": "us-mn-mfip",
+    "scheme_name": {
+      "en": "Minnesota Family Investment Program (MFIP) – TANF",
+      "ml": "Minnesota Family Investment Program (MFIP) – TANF",
+      "hi": "MFIP (TANF) – मिनेसोटा"
+    },
+    "description": {
+      "en": "MFIP is Minnesota’s Temporary Assistance for Needy Families (TANF) program for eligible families with children. It combines cash and food assistance with employment services. Apply through MNbenefits.",
+      "ml": "MFIP is Minnesota’s Temporary Assistance for Needy Families (TANF) program for eligible families with children. It combines cash and food assistance with employment services. Apply through MNbenefits.",
+      "hi": "MFIP is Minnesota’s Temporary Assistance for Needy Families (TANF) program for eligible families with children. It combines cash and food assistance with employment services. Apply through MNbenefits."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MFIP/TANF: low-income families with dependent children; employment plan and work rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via dcyf.mn.gov MFIP / MNbenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash and food assistance plus employment services for eligible Minnesota families with children.",
+      "ml": "Cash and food assistance plus employment services for eligible Minnesota families with children.",
+      "hi": "Cash and food assistance plus employment services for eligible Minnesota families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MNbenefits MFIP application"
+      ],
+      "ml": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MNbenefits MFIP application"
+      ],
+      "hi": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Proof of children / household",
+        "MNbenefits MFIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov MFIP program directory; county/tribal agencies assist.",
+      "ml": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov MFIP program directory; county/tribal agencies assist.",
+      "hi": "Apply online at mnbenefits.mn.gov or see dcyf.mn.gov MFIP program directory; county/tribal agencies assist."
+    },
+    "apply_url": "https://mnbenefits.mn.gov/",
+    "official_source_url": "https://dcyf.mn.gov/programs-directory/minnesota-family-investment-program-mfip",
+    "last_verified": "2026-09-17",
+    "office_type": "Minnesota DCYF / DHS / counties / MNbenefits",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "tanf",
+      "mfip",
+      "cash_assistance",
+      "mnbenefits"
+    ]
+  },
+  {
+    "id": "us-mn-medical-assistance",
+    "scheme_name": {
+      "en": "Medical Assistance (Medicaid) – Minnesota",
+      "ml": "Medical Assistance (Medicaid) – Minnesota",
+      "hi": "Medical Assistance – मिनेसोटा"
+    },
+    "description": {
+      "en": "Medical Assistance is Minnesota’s Medicaid program for Minnesotans with low incomes, including children and families, pregnant people, adults without children, seniors, and people who are blind or have a disability. Many people apply through MNsure.",
+      "ml": "Medical Assistance is Minnesota’s Medicaid program for Minnesotans with low incomes, including children and families, pregnant people, adults without children, seniors, and people who are blind or have a disability. Many people apply through MNsure.",
+      "hi": "Medical Assistance is Minnesota’s Medicaid program for Minnesotans with low incomes, including children and families, pregnant people, adults without children, seniors, and people who are blind or have a disability. Many people apply through MNsure."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Medical Assistance: category-specific MAGI and non-MAGI rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via mn.gov/dhs Medical Assistance / MNsure.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Minnesotans under Medical Assistance (Medicaid).",
+      "ml": "Health coverage for eligible Minnesotans under Medical Assistance (Medicaid).",
+      "hi": "Health coverage for eligible Minnesotans under Medical Assistance (Medicaid)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / health care application (or alternate path for seniors/disability)"
+      ],
+      "ml": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / health care application (or alternate path for seniors/disability)"
+      ],
+      "hi": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / health care application (or alternate path for seniors/disability)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through MNsure for most people, or see mn.gov/dhs Medical Assistance for seniors, people with disabilities, and other paths; free application help is available.",
+      "ml": "Apply online through MNsure for most people, or see mn.gov/dhs Medical Assistance for seniors, people with disabilities, and other paths; free application help is available.",
+      "hi": "Apply online through MNsure for most people, or see mn.gov/dhs Medical Assistance for seniors, people with disabilities, and other paths; free application help is available."
+    },
+    "apply_url": "https://mn.gov/dhs/health-care/medical-assistance/",
+    "official_source_url": "https://mn.gov/dhs/health-care/medical-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Minnesota Department of Human Services / MNsure",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "medicaid",
+      "medical_assistance",
+      "health",
+      "mnsure"
+    ]
+  },
+  {
+    "id": "us-mn-minnesotacare",
+    "scheme_name": {
+      "en": "MinnesotaCare – Minnesota DHS",
+      "ml": "MinnesotaCare – Minnesota DHS",
+      "hi": "MinnesotaCare – मिनेसोटा"
+    },
+    "description": {
+      "en": "MinnesotaCare is Minnesota’s subsidized health coverage program for eligible residents who generally do not qualify for Medical Assistance. It is a state program with premiums based on income; apply through MNsure / DHS health care pathways.",
+      "ml": "MinnesotaCare is Minnesota’s subsidized health coverage program for eligible residents who generally do not qualify for Medical Assistance. It is a state program with premiums based on income; apply through MNsure / DHS health care pathways.",
+      "hi": "MinnesotaCare is Minnesota’s subsidized health coverage program for eligible residents who generally do not qualify for Medical Assistance. It is a state program with premiums based on income; apply through MNsure / DHS health care pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MinnesotaCare: income and other program rules (often relative to FPL); premiums may apply. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income bands and premiums change — verify=true via mn.gov/dhs/MinnesotaCare.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Subsidized health coverage for eligible Minnesotans under MinnesotaCare.",
+      "ml": "Subsidized health coverage for eligible Minnesotans under MinnesotaCare.",
+      "hi": "Subsidized health coverage for eligible Minnesotans under MinnesotaCare."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / MinnesotaCare application"
+      ],
+      "ml": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / MinnesotaCare application"
+      ],
+      "hi": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "MNsure / MinnesotaCare application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through MNsure or see mn.gov/dhs/MinnesotaCare for program details and eligibility guidance.",
+      "ml": "Apply through MNsure or see mn.gov/dhs/MinnesotaCare for program details and eligibility guidance.",
+      "hi": "Apply through MNsure or see mn.gov/dhs/MinnesotaCare for program details and eligibility guidance."
+    },
+    "apply_url": "https://mn.gov/dhs/MinnesotaCare",
+    "official_source_url": "https://mn.gov/dhs/MinnesotaCare",
+    "last_verified": "2026-09-17",
+    "office_type": "Minnesota Department of Human Services / MNsure",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "minnesotacare",
+      "health",
+      "chip_adjacent",
+      "mnsure"
+    ]
+  },
+  {
+    "id": "us-mn-energy-assistance",
+    "scheme_name": {
+      "en": "Energy Assistance Program (LIHEAP) – Minnesota Commerce",
+      "ml": "Energy Assistance Program (LIHEAP) – Minnesota Commerce",
+      "hi": "Energy Assistance – मिनेसोटा"
+    },
+    "description": {
+      "en": "Minnesota’s Energy Assistance Program (federally funded LIHEAP) helps eligible households with heating and electric costs. The Minnesota Department of Commerce partners with local service providers; apply online or through your local provider.",
+      "ml": "Minnesota’s Energy Assistance Program (federally funded LIHEAP) helps eligible households with heating and electric costs. The Minnesota Department of Commerce partners with local service providers; apply online or through your local provider.",
+      "hi": "Minnesota’s Energy Assistance Program (federally funded LIHEAP) helps eligible households with heating and electric costs. The Minnesota Department of Commerce partners with local service providers; apply online or through your local provider."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN Energy Assistance/LIHEAP: income guidelines by household size; seasonal program-year rules. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and application windows change by program year — verify=true via mn.gov/commerce Energy Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward heating/electric bills for eligible Minnesota households (via local providers).",
+      "ml": "Help toward heating/electric bills for eligible Minnesota households (via local providers).",
+      "hi": "Help toward heating/electric bills for eligible Minnesota households (via local providers)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Utility account information",
+        "Energy Assistance application (online or local provider)"
+      ],
+      "ml": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Utility account information",
+        "Energy Assistance application (online or local provider)"
+      ],
+      "hi": [
+        "Identity and Minnesota residency",
+        "Income documentation",
+        "Utility account information",
+        "Energy Assistance application (online or local provider)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the Minnesota Commerce Energy Assistance pathways (online portal or local service provider); call 1-800-657-3710 for provider help; see mn.gov/commerce Energy Assistance Program pages.",
+      "ml": "Apply through the Minnesota Commerce Energy Assistance pathways (online portal or local service provider); call 1-800-657-3710 for provider help; see mn.gov/commerce Energy Assistance Program pages.",
+      "hi": "Apply through the Minnesota Commerce Energy Assistance pathways (online portal or local service provider); call 1-800-657-3710 for provider help; see mn.gov/commerce Energy Assistance Program pages."
+    },
+    "apply_url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/",
+    "official_source_url": "https://mn.gov/commerce/energy/consumer-assistance/energy-assistance-program/",
+    "last_verified": "2026-09-17",
+    "office_type": "Minnesota Department of Commerce / Local Energy Assistance providers",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "liheap",
+      "energy_assistance",
+      "energy",
+      "utility"
+    ]
+  },
+  {
+    "id": "sc-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – South Carolina DSS",
+      "ml": "SNAP (Food Assistance) – South Carolina DSS",
+      "hi": "SNAP – साउथ कैरोलिना"
+    },
+    "description": {
+      "en": "South Carolina Department of Social Services administers SNAP. Eligible low-income households apply online through the DSS Benefits Portal for monthly food benefits; county DSS offices also accept applications.",
+      "ml": "South Carolina Department of Social Services administers SNAP. Eligible low-income households apply online through the DSS Benefits Portal for monthly food benefits; county DSS offices also accept applications.",
+      "hi": "South Carolina Department of Social Services administers SNAP. Eligible low-income households apply online through the DSS Benefits Portal for monthly food benefits; county DSS offices also accept applications."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SC SNAP: residency and income/resource rules; household-size charts and ABAWD/work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via dss.sc.gov SNAP / Benefits Portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible South Carolina households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible South Carolina households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible South Carolina households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Carolina residency",
+        "Income and resource documentation",
+        "DSS Benefits Portal / county DSS application"
+      ],
+      "ml": [
+        "Identity and South Carolina residency",
+        "Income and resource documentation",
+        "DSS Benefits Portal / county DSS application"
+      ],
+      "hi": [
+        "Identity and South Carolina residency",
+        "Income and resource documentation",
+        "DSS Benefits Portal / county DSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov SNAP pages.",
+      "ml": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov SNAP pages.",
+      "hi": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov SNAP pages."
+    },
+    "apply_url": "https://benefitsportal.dss.sc.gov/",
+    "official_source_url": "https://dss.sc.gov/assistance-programs/snap",
+    "last_verified": "2026-09-17",
+    "office_type": "South Carolina Department of Social Services / DSS Benefits Portal",
+    "tags": [
+      "united_states",
+      "south_carolina",
+      "snap",
+      "food",
+      "dss"
+    ]
+  },
+  {
+    "id": "sc-family-independence",
+    "scheme_name": {
+      "en": "Family Independence (TANF) – South Carolina DSS",
+      "ml": "Family Independence (TANF) – South Carolina DSS",
+      "hi": "Family Independence (TANF) – साउथ कैरोलिना"
+    },
+    "description": {
+      "en": "Family Independence is South Carolina’s Temporary Assistance for Needy Families (TANF) program (also referred to as TANF). It provides temporary cash assistance plus employment training, child care, and related supports for eligible families with children.",
+      "ml": "Family Independence is South Carolina’s Temporary Assistance for Needy Families (TANF) program (also referred to as TANF). It provides temporary cash assistance plus employment training, child care, and related supports for eligible families with children.",
+      "hi": "Family Independence is South Carolina’s Temporary Assistance for Needy Families (TANF) program (also referred to as TANF). It provides temporary cash assistance plus employment training, child care, and related supports for eligible families with children."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SC Family Independence/TANF: low-income families with dependent children; employment and cooperation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via dss.sc.gov TANF / Benefits Portal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance and employment/support services for eligible South Carolina families with children.",
+      "ml": "Temporary cash assistance and employment/support services for eligible South Carolina families with children.",
+      "hi": "Temporary cash assistance and employment/support services for eligible South Carolina families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DSS Benefits Portal / TANF application"
+      ],
+      "ml": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DSS Benefits Portal / TANF application"
+      ],
+      "hi": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DSS Benefits Portal / TANF application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov TANF / Family Independence pages.",
+      "ml": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov TANF / Family Independence pages.",
+      "hi": "Apply online at benefitsportal.dss.sc.gov, call 1-800-616-1309, or apply at a county DSS office; see dss.sc.gov TANF / Family Independence pages."
+    },
+    "apply_url": "https://benefitsportal.dss.sc.gov/",
+    "official_source_url": "https://dss.sc.gov/assistance-programs/tanf",
+    "last_verified": "2026-09-17",
+    "office_type": "South Carolina Department of Social Services",
+    "tags": [
+      "united_states",
+      "south_carolina",
+      "tanf",
+      "family_independence",
+      "cash_assistance",
+      "dss"
+    ]
+  },
+  {
+    "id": "sc-healthy-connections",
+    "scheme_name": {
+      "en": "Healthy Connections (Medicaid) – South Carolina DHHS",
+      "ml": "Healthy Connections (Medicaid) – South Carolina DHHS",
+      "hi": "Healthy Connections (Medicaid) – साउथ कैरोलिना"
+    },
+    "description": {
+      "en": "Healthy Connections is South Carolina’s Medicaid program, administered by SCDHHS. It helps pay medical costs for eligible children, parents/caretakers, pregnant people, seniors, and people with disabilities. Apply online at apply.scdhhs.gov.",
+      "ml": "Healthy Connections is South Carolina’s Medicaid program, administered by SCDHHS. It helps pay medical costs for eligible children, parents/caretakers, pregnant people, seniors, and people with disabilities. Apply online at apply.scdhhs.gov.",
+      "hi": "Healthy Connections is South Carolina’s Medicaid program, administered by SCDHHS. It helps pay medical costs for eligible children, parents/caretakers, pregnant people, seniors, and people with disabilities. Apply online at apply.scdhhs.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Healthy Connections Medicaid: category-specific eligibility and income rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via scdhhs.gov / apply.scdhhs.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible South Carolinians under Healthy Connections Medicaid.",
+      "ml": "Health coverage for eligible South Carolinians under Healthy Connections Medicaid.",
+      "hi": "Health coverage for eligible South Carolinians under Healthy Connections Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "SCDHHS Healthy Connections application"
+      ],
+      "ml": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "SCDHHS Healthy Connections application"
+      ],
+      "hi": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "SCDHHS Healthy Connections application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.scdhhs.gov, call 1-888-549-0820, or apply in person at a county office / application site; see scdhhs.gov Getting Started.",
+      "ml": "Apply online at apply.scdhhs.gov, call 1-888-549-0820, or apply in person at a county office / application site; see scdhhs.gov Getting Started.",
+      "hi": "Apply online at apply.scdhhs.gov, call 1-888-549-0820, or apply in person at a county office / application site; see scdhhs.gov Getting Started."
+    },
+    "apply_url": "https://apply.scdhhs.gov/",
+    "official_source_url": "https://scdhhs.gov/members/getting-started",
+    "last_verified": "2026-09-17",
+    "office_type": "South Carolina Department of Health and Human Services (SCDHHS)",
+    "tags": [
+      "united_states",
+      "south_carolina",
+      "medicaid",
+      "healthy_connections",
+      "health"
+    ]
+  },
+  {
+    "id": "sc-partners-healthy-children",
+    "scheme_name": {
+      "en": "Partners for Healthy Children (CHIP) – South Carolina",
+      "ml": "Partners for Healthy Children (CHIP) – South Carolina",
+      "hi": "Partners for Healthy Children – साउथ कैरोलिना"
+    },
+    "description": {
+      "en": "Partners for Healthy Children is South Carolina’s Children’s Health Insurance Program (CHIP) pathway under SCDHHS Healthy Connections for eligible uninsured children whose household income is above standard Medicaid but within CHIP guidelines. Apply through the Healthy Connections application.",
+      "ml": "Partners for Healthy Children is South Carolina’s Children’s Health Insurance Program (CHIP) pathway under SCDHHS Healthy Connections for eligible uninsured children whose household income is above standard Medicaid but within CHIP guidelines. Apply through the Healthy Connections application.",
+      "hi": "Partners for Healthy Children is South Carolina’s Children’s Health Insurance Program (CHIP) pathway under SCDHHS Healthy Connections for eligible uninsured children whose household income is above standard Medicaid but within CHIP guidelines. Apply through the Healthy Connections application."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Partners for Healthy Children/CHIP: children; income bands above Medicaid MAGI in many cases. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts and cost-sharing — verify=true via scdhhs.gov eligibility pages.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible South Carolina children under Partners for Healthy Children (CHIP).",
+      "ml": "Health coverage for eligible South Carolina children under Partners for Healthy Children (CHIP).",
+      "hi": "Health coverage for eligible South Carolina children under Partners for Healthy Children (CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Child information",
+        "SCDHHS Healthy Connections / CHIP application"
+      ],
+      "ml": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Child information",
+        "SCDHHS Healthy Connections / CHIP application"
+      ],
+      "hi": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Child information",
+        "SCDHHS Healthy Connections / CHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at apply.scdhhs.gov for Healthy Connections (screens for Medicaid and CHIP pathways) or see scdhhs.gov member eligibility pages; call 1-888-549-0820.",
+      "ml": "Apply online at apply.scdhhs.gov for Healthy Connections (screens for Medicaid and CHIP pathways) or see scdhhs.gov member eligibility pages; call 1-888-549-0820.",
+      "hi": "Apply online at apply.scdhhs.gov for Healthy Connections (screens for Medicaid and CHIP pathways) or see scdhhs.gov member eligibility pages; call 1-888-549-0820."
+    },
+    "apply_url": "https://apply.scdhhs.gov/",
+    "official_source_url": "https://scdhhs.gov/members/program-eligibility-and-income-limits",
+    "last_verified": "2026-09-17",
+    "office_type": "South Carolina Department of Health and Human Services (SCDHHS)",
+    "tags": [
+      "united_states",
+      "south_carolina",
+      "chip",
+      "partners_healthy_children",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "sc-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Energy Assistance) – South Carolina OEO",
+      "ml": "LIHEAP (Energy Assistance) – South Carolina OEO",
+      "hi": "LIHEAP – साउथ कैरोलिना"
+    },
+    "description": {
+      "en": "South Carolina LIHEAP helps eligible households with heating and cooling costs and related energy needs. The Office of Economic Opportunity (OEO) funds local LIHEAP offices / Community Action Agencies that take applications; OEO does not process applications centrally.",
+      "ml": "South Carolina LIHEAP helps eligible households with heating and cooling costs and related energy needs. The Office of Economic Opportunity (OEO) funds local LIHEAP offices / Community Action Agencies that take applications; OEO does not process applications centrally.",
+      "hi": "South Carolina LIHEAP helps eligible households with heating and cooling costs and related energy needs. The Office of Economic Opportunity (OEO) funds local LIHEAP offices / Community Action Agencies that take applications; OEO does not process applications centrally."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SC LIHEAP: income guidelines by household size; local agencies may prioritize crises and limit benefits when funds are low. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and funding windows change — verify=true via oeo.sc.gov LIHEAP / local agency.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward heating/cooling energy costs for eligible South Carolina households (via local LIHEAP offices).",
+      "ml": "Help toward heating/cooling energy costs for eligible South Carolina households (via local LIHEAP offices).",
+      "hi": "Help toward heating/cooling energy costs for eligible South Carolina households (via local LIHEAP offices)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Utility account information",
+        "Application through local LIHEAP / Community Action Agency"
+      ],
+      "ml": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Utility account information",
+        "Application through local LIHEAP / Community Action Agency"
+      ],
+      "hi": [
+        "Identity and South Carolina residency",
+        "Income documentation",
+        "Utility account information",
+        "Application through local LIHEAP / Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local LIHEAP office / Community Action Agency to apply; see oeo.sc.gov LIHEAP pages for program description and local contacts. Do not mail applications to OEO.",
+      "ml": "Contact your local LIHEAP office / Community Action Agency to apply; see oeo.sc.gov LIHEAP pages for program description and local contacts. Do not mail applications to OEO.",
+      "hi": "Contact your local LIHEAP office / Community Action Agency to apply; see oeo.sc.gov LIHEAP pages for program description and local contacts. Do not mail applications to OEO."
+    },
+    "apply_url": "https://oeo.sc.gov/managedsites/prd/oeo/liheap.html",
+    "official_source_url": "https://oeo.sc.gov/managedsites/prd/oeo/liheap.html",
+    "last_verified": "2026-09-17",
+    "office_type": "South Carolina Office of Economic Opportunity / Local LIHEAP agencies",
+    "tags": [
+      "united_states",
+      "south_carolina",
+      "liheap",
+      "energy",
+      "utility",
+      "oeo"
+    ]
+  },
+  {
+    "id": "al-snap",
+    "scheme_name": {
+      "en": "SNAP / Food Assistance – Alabama DHR MyDHR",
+      "ml": "SNAP / Food Assistance – Alabama DHR MyDHR",
+      "hi": "SNAP – अलाबामा"
+    },
+    "description": {
+      "en": "Alabama Department of Human Resources Food Assistance Division administers SNAP. Eligible low-income households apply online through MyDHR for monthly food benefits on an EBT card; county DHR offices also accept applications.",
+      "ml": "Alabama Department of Human Resources Food Assistance Division administers SNAP. Eligible low-income households apply online through MyDHR for monthly food benefits on an EBT card; county DHR offices also accept applications.",
+      "hi": "Alabama Department of Human Resources Food Assistance Division administers SNAP. Eligible low-income households apply online through MyDHR for monthly food benefits on an EBT card; county DHR offices also accept applications."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AL SNAP/Food Assistance: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via dhr.alabama.gov Food Assistance / MyDHR.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Alabama households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Alabama households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Alabama households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alabama residency",
+        "Income and resource documentation",
+        "MyDHR / county DHR Food Assistance application"
+      ],
+      "ml": [
+        "Identity and Alabama residency",
+        "Income and resource documentation",
+        "MyDHR / county DHR Food Assistance application"
+      ],
+      "hi": [
+        "Identity and Alabama residency",
+        "Income and resource documentation",
+        "MyDHR / county DHR Food Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at mydhr.alabama.gov or fax/mail/bring a signed application to your county DHR Food Assistance office; see dhr.alabama.gov/food-assistance.",
+      "ml": "Apply online at mydhr.alabama.gov or fax/mail/bring a signed application to your county DHR Food Assistance office; see dhr.alabama.gov/food-assistance.",
+      "hi": "Apply online at mydhr.alabama.gov or fax/mail/bring a signed application to your county DHR Food Assistance office; see dhr.alabama.gov/food-assistance."
+    },
+    "apply_url": "https://mydhr.alabama.gov/",
+    "official_source_url": "https://dhr.alabama.gov/food-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Alabama Department of Human Resources / MyDHR",
+    "tags": [
+      "united_states",
+      "alabama",
+      "snap",
+      "food",
+      "mydhr",
+      "dhr"
+    ]
+  },
+  {
+    "id": "al-family-assistance",
+    "scheme_name": {
+      "en": "Family Assistance (TANF) – Alabama DHR",
+      "ml": "Family Assistance (TANF) – Alabama DHR",
+      "hi": "Family Assistance (TANF) – अलाबामा"
+    },
+    "description": {
+      "en": "Alabama’s Family Assistance Program (TANF) provides temporary cash assistance for basic needs for eligible low-income families with children under 18 (or 19 if a full-time secondary student). Benefits are issued on EBT cards.",
+      "ml": "Alabama’s Family Assistance Program (TANF) provides temporary cash assistance for basic needs for eligible low-income families with children under 18 (or 19 if a full-time secondary student). Benefits are issued on EBT cards.",
+      "hi": "Alabama’s Family Assistance Program (TANF) provides temporary cash assistance for basic needs for eligible low-income families with children under 18 (or 19 if a full-time secondary student). Benefits are issued on EBT cards."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AL Family Assistance/TANF: low-income families with dependent children; work and cooperation rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via dhr.alabama.gov Family Assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Alabama families with children.",
+      "ml": "Temporary cash assistance for eligible Alabama families with children.",
+      "hi": "Temporary cash assistance for eligible Alabama families with children."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DHR Family Assistance application"
+      ],
+      "ml": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DHR Family Assistance application"
+      ],
+      "hi": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Proof of children / household",
+        "DHR Family Assistance application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your county DHR Family Assistance office or pathways listed on dhr.alabama.gov/family-assistance; MyDHR supports related Food Assistance cases.",
+      "ml": "Apply through your county DHR Family Assistance office or pathways listed on dhr.alabama.gov/family-assistance; MyDHR supports related Food Assistance cases.",
+      "hi": "Apply through your county DHR Family Assistance office or pathways listed on dhr.alabama.gov/family-assistance; MyDHR supports related Food Assistance cases."
+    },
+    "apply_url": "https://dhr.alabama.gov/family-assistance/",
+    "official_source_url": "https://dhr.alabama.gov/family-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "Alabama Department of Human Resources / Family Assistance Division",
+    "tags": [
+      "united_states",
+      "alabama",
+      "tanf",
+      "family_assistance",
+      "cash_assistance",
+      "dhr"
+    ]
+  },
+  {
+    "id": "al-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Alabama Medicaid Agency",
+      "ml": "Medicaid – Alabama Medicaid Agency",
+      "hi": "Medicaid – अलाबामा"
+    },
+    "description": {
+      "en": "Alabama Medicaid provides health coverage pathways for eligible children, parents/caretakers, pregnant women, elderly and disabled individuals, and other categories. Apply online for many family pathways; joint applications may also screen for ALL Kids.",
+      "ml": "Alabama Medicaid provides health coverage pathways for eligible children, parents/caretakers, pregnant women, elderly and disabled individuals, and other categories. Apply online for many family pathways; joint applications may also screen for ALL Kids.",
+      "hi": "Alabama Medicaid provides health coverage pathways for eligible children, parents/caretakers, pregnant women, elderly and disabled individuals, and other categories. Apply online for many family pathways; joint applications may also screen for ALL Kids."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AL Medicaid: category-specific eligibility and income rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via medicaid.alabama.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Alabamians under Alabama Medicaid pathways.",
+      "ml": "Health coverage for eligible Alabamians under Alabama Medicaid pathways.",
+      "hi": "Health coverage for eligible Alabamians under Alabama Medicaid pathways."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Alabama Medicaid / joint application as applicable"
+      ],
+      "ml": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Alabama Medicaid / joint application as applicable"
+      ],
+      "hi": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Alabama Medicaid / joint application as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via Medicaid Agency apply pathways for pregnant women, children, parent/caretaker, or Plan First; see medicaid.alabama.gov Apply for Medicaid pages; call Medicaid 1-800-362-1504.",
+      "ml": "Apply online via Medicaid Agency apply pathways for pregnant women, children, parent/caretaker, or Plan First; see medicaid.alabama.gov Apply for Medicaid pages; call Medicaid 1-800-362-1504.",
+      "hi": "Apply online via Medicaid Agency apply pathways for pregnant women, children, parent/caretaker, or Plan First; see medicaid.alabama.gov Apply for Medicaid pages; call Medicaid 1-800-362-1504."
+    },
+    "apply_url": "https://medicaid.alabama.gov/",
+    "official_source_url": "https://medicaid.alabama.gov/",
+    "last_verified": "2026-09-17",
+    "office_type": "Alabama Medicaid Agency",
+    "tags": [
+      "united_states",
+      "alabama",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "al-all-kids",
+    "scheme_name": {
+      "en": "ALL Kids (CHIP) – Alabama Department of Public Health",
+      "ml": "ALL Kids (CHIP) – Alabama Department of Public Health",
+      "hi": "ALL Kids – अलाबामा"
+    },
+    "description": {
+      "en": "ALL Kids is Alabama’s Children’s Health Insurance Program (CHIP) for eligible children under 19. ALL Kids and SOBRA Medicaid share a joint application; if income is over Medicaid but within ALL Kids guidelines, the child may be enrolled in ALL Kids.",
+      "ml": "ALL Kids is Alabama’s Children’s Health Insurance Program (CHIP) for eligible children under 19. ALL Kids and SOBRA Medicaid share a joint application; if income is over Medicaid but within ALL Kids guidelines, the child may be enrolled in ALL Kids.",
+      "hi": "ALL Kids is Alabama’s Children’s Health Insurance Program (CHIP) for eligible children under 19. ALL Kids and SOBRA Medicaid share a joint application; if income is over Medicaid but within ALL Kids guidelines, the child may be enrolled in ALL Kids."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ALL Kids/CHIP: children under 19; income bands above Medicaid in many cases. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP income charts and premiums/cost-sharing — verify=true via alabamapublichealth.gov/allkids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Alabama children under ALL Kids (CHIP).",
+      "ml": "Health coverage for eligible Alabama children under ALL Kids (CHIP).",
+      "hi": "Health coverage for eligible Alabama children under ALL Kids (CHIP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Child information",
+        "ALL Kids / joint Medicaid application"
+      ],
+      "ml": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Child information",
+        "ALL Kids / joint Medicaid application"
+      ],
+      "hi": [
+        "Identity and Alabama residency",
+        "Income documentation",
+        "Child information",
+        "ALL Kids / joint Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via ALL Kids apply pathways, mail/fax a paper application, pick up at a county health department, or call 1-888-373-5437; see alabamapublichealth.gov/allkids.",
+      "ml": "Apply online via ALL Kids apply pathways, mail/fax a paper application, pick up at a county health department, or call 1-888-373-5437; see alabamapublichealth.gov/allkids.",
+      "hi": "Apply online via ALL Kids apply pathways, mail/fax a paper application, pick up at a county health department, or call 1-888-373-5437; see alabamapublichealth.gov/allkids."
+    },
+    "apply_url": "https://www.alabamapublichealth.gov/allkids/how-to-apply.html",
+    "official_source_url": "https://www.alabamapublichealth.gov/allkids/",
+    "last_verified": "2026-09-17",
+    "office_type": "Alabama Department of Public Health / ALL Kids",
+    "tags": [
+      "united_states",
+      "alabama",
+      "chip",
+      "all_kids",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "al-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Energy Assistance) – Alabama ADECA",
+      "ml": "LIHEAP (Energy Assistance) – Alabama ADECA",
+      "hi": "LIHEAP – अलाबामा"
+    },
+    "description": {
+      "en": "Alabama LIHEAP helps eligible low-income households with home heating and cooling costs. ADECA funds Community Action Agencies that accept and process applications; ADECA does not take applications directly.",
+      "ml": "Alabama LIHEAP helps eligible low-income households with home heating and cooling costs. ADECA funds Community Action Agencies that accept and process applications; ADECA does not take applications directly.",
+      "hi": "Alabama LIHEAP helps eligible low-income households with home heating and cooling costs. ADECA funds Community Action Agencies that accept and process applications; ADECA does not take applications directly."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AL LIHEAP: ADECA states household income must not exceed 150% of federal poverty level; local agencies deliver benefits. No single annual dollar ceiling encoded in catalogue.",
+      "verify": true,
+      "verify_notes": "FPL charts and program-year funding — verify=true via adeca.alabama.gov/liheap / local CAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward heating/cooling energy costs for eligible Alabama households (via local Community Action Agencies).",
+      "ml": "Help toward heating/cooling energy costs for eligible Alabama households (via local Community Action Agencies).",
+      "hi": "Help toward heating/cooling energy costs for eligible Alabama households (via local Community Action Agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alabama residency",
+        "Income documentation (typically ≤150% FPL per ADECA overview — verify current chart)",
+        "Utility account information",
+        "Application through county Community Action Agency"
+      ],
+      "ml": [
+        "Identity and Alabama residency",
+        "Income documentation (typically ≤150% FPL per ADECA overview — verify current chart)",
+        "Utility account information",
+        "Application through county Community Action Agency"
+      ],
+      "hi": [
+        "Identity and Alabama residency",
+        "Income documentation (typically ≤150% FPL per ADECA overview — verify current chart)",
+        "Utility account information",
+        "Application through county Community Action Agency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact the Community Action Agency for your county using the ADECA LIHEAP map/contact list; see adeca.alabama.gov/liheap. ADECA does not schedule appointments or process applications.",
+      "ml": "Contact the Community Action Agency for your county using the ADECA LIHEAP map/contact list; see adeca.alabama.gov/liheap. ADECA does not schedule appointments or process applications.",
+      "hi": "Contact the Community Action Agency for your county using the ADECA LIHEAP map/contact list; see adeca.alabama.gov/liheap. ADECA does not schedule appointments or process applications."
+    },
+    "apply_url": "https://adeca.alabama.gov/liheap/",
+    "official_source_url": "https://adeca.alabama.gov/liheap/",
+    "last_verified": "2026-09-17",
+    "office_type": "Alabama ADECA Energy Division / Local Community Action Agencies",
+    "tags": [
+      "united_states",
+      "alabama",
+      "liheap",
+      "energy",
+      "utility",
+      "adeca"
+    ]
+  },
+  {
+    "id": "us-la-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – Louisiana CAFÉ / Economic Stability",
+      "ml": "SNAP (Food Assistance) – Louisiana CAFÉ / Economic Stability",
+      "hi": "SNAP – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana Economic Stability (LDH Division of Family Support) administers SNAP. Eligible low-income households apply online through the CAFÉ Self-Service Portal for monthly food benefits on an EBT card.",
+      "ml": "Louisiana Economic Stability (LDH Division of Family Support) administers SNAP. Eligible low-income households apply online through the CAFÉ Self-Service Portal for monthly food benefits on an EBT card.",
+      "hi": "Louisiana Economic Stability (LDH Division of Family Support) administers SNAP. Eligible low-income households apply online through the CAFÉ Self-Service Portal for monthly food benefits on an EBT card."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA SNAP via CAFÉ: residency and income/resource rules; household-size charts and work rules apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and ABAWD/work rules change — verify=true via ldh.la.gov Family Support / CAFÉ.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits for eligible Louisiana households (via EBT).",
+      "ml": "Monthly SNAP food benefits for eligible Louisiana households (via EBT).",
+      "hi": "Monthly SNAP food benefits for eligible Louisiana households (via EBT)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Louisiana residency",
+        "Income and resource documentation",
+        "CAFÉ Self-Service Portal application"
+      ],
+      "ml": [
+        "Identity and Louisiana residency",
+        "Income and resource documentation",
+        "CAFÉ Self-Service Portal application"
+      ],
+      "hi": [
+        "Identity and Louisiana residency",
+        "Income and resource documentation",
+        "CAFÉ Self-Service Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the CAFÉ Self-Service Portal (sspweb.ie.dcfs.la.gov), call 888-LAHelp-U (888-524-3578), or submit a paper application; see ldh.la.gov Family Support.",
+      "ml": "Apply online via the CAFÉ Self-Service Portal (sspweb.ie.dcfs.la.gov), call 888-LAHelp-U (888-524-3578), or submit a paper application; see ldh.la.gov Family Support.",
+      "hi": "Apply online via the CAFÉ Self-Service Portal (sspweb.ie.dcfs.la.gov), call 888-LAHelp-U (888-524-3578), or submit a paper application; see ldh.la.gov Family Support."
+    },
+    "apply_url": "https://sspweb.ie.dcfs.la.gov/selfservice/",
+    "official_source_url": "https://www.ldh.la.gov/page/family-support",
+    "last_verified": "2026-09-17",
+    "office_type": "Louisiana Department of Health – Economic Stability / CAFÉ",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "snap",
+      "food",
+      "cafe"
+    ]
+  },
+  {
+    "id": "us-la-fitap",
+    "scheme_name": {
+      "en": "FITAP (Family Independence Temporary Assistance) – Louisiana",
+      "ml": "FITAP (Family Independence Temporary Assistance) – Louisiana",
+      "hi": "FITAP (TANF) – लुइसियाना"
+    },
+    "description": {
+      "en": "FITAP is Louisiana’s Temporary Assistance for Needy Families (TANF) cash program for eligible families with children. Work-eligible FITAP families may be required to participate in the STEP employment program. Apply through CAFÉ.",
+      "ml": "FITAP is Louisiana’s Temporary Assistance for Needy Families (TANF) cash program for eligible families with children. Work-eligible FITAP families may be required to participate in the STEP employment program. Apply through CAFÉ.",
+      "hi": "FITAP is Louisiana’s Temporary Assistance for Needy Families (TANF) cash program for eligible families with children. Work-eligible FITAP families may be required to participate in the STEP employment program. Apply through CAFÉ."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FITAP/TANF: low-income families with dependent children; STEP/work rules may apply. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, time limits, and income tests — verify=true via ldh.la.gov Family Support / CAFÉ.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for eligible Louisiana families with children (FITAP).",
+      "ml": "Temporary cash assistance for eligible Louisiana families with children (FITAP).",
+      "hi": "Temporary cash assistance for eligible Louisiana families with children (FITAP)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CAFÉ FITAP application"
+      ],
+      "ml": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CAFÉ FITAP application"
+      ],
+      "hi": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Proof of children / household",
+        "CAFÉ FITAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via the CAFÉ Self-Service Portal, call 888-524-3578, or submit a paper application; see ldh.la.gov Family Support for FITAP details.",
+      "ml": "Apply online via the CAFÉ Self-Service Portal, call 888-524-3578, or submit a paper application; see ldh.la.gov Family Support for FITAP details.",
+      "hi": "Apply online via the CAFÉ Self-Service Portal, call 888-524-3578, or submit a paper application; see ldh.la.gov Family Support for FITAP details."
+    },
+    "apply_url": "https://sspweb.ie.dcfs.la.gov/selfservice/",
+    "official_source_url": "https://www.ldh.la.gov/page/family-support",
+    "last_verified": "2026-09-17",
+    "office_type": "Louisiana Department of Health – Economic Stability / CAFÉ",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "tanf",
+      "fitap",
+      "cash_assistance",
+      "cafe"
+    ]
+  },
+  {
+    "id": "us-la-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Louisiana LDH / MyMedicaid",
+      "ml": "Medicaid – Louisiana LDH / MyMedicaid",
+      "hi": "Medicaid – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana Medicaid (Bureau of Health Services Financing) provides health coverage for eligible children, pregnant people, low-income adults, seniors, and people with disabilities. Apply online at MyMedicaid.LA.gov.",
+      "ml": "Louisiana Medicaid (Bureau of Health Services Financing) provides health coverage for eligible children, pregnant people, low-income adults, seniors, and people with disabilities. Apply online at MyMedicaid.LA.gov.",
+      "hi": "Louisiana Medicaid (Bureau of Health Services Financing) provides health coverage for eligible children, pregnant people, low-income adults, seniors, and people with disabilities. Apply online at MyMedicaid.LA.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA Medicaid: category-specific MAGI and non-MAGI rules including expansion adults. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category income limits and renewals — verify=true via ldh.la.gov/medicaid / MyMedicaid.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Louisianans under Louisiana Medicaid.",
+      "ml": "Health coverage for eligible Louisianans under Louisiana Medicaid.",
+      "hi": "Health coverage for eligible Louisianans under Louisiana Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "MyMedicaid Self-Service Portal application"
+      ],
+      "ml": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "MyMedicaid Self-Service Portal application"
+      ],
+      "hi": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "MyMedicaid Self-Service Portal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMedicaid.LA.gov, call 1-888-342-6207, by mail, or in person at a Medicaid office / application center; see ldh.la.gov/medicaid.",
+      "ml": "Apply online at MyMedicaid.LA.gov, call 1-888-342-6207, by mail, or in person at a Medicaid office / application center; see ldh.la.gov/medicaid.",
+      "hi": "Apply online at MyMedicaid.LA.gov, call 1-888-342-6207, by mail, or in person at a Medicaid office / application center; see ldh.la.gov/medicaid."
+    },
+    "apply_url": "https://mymedicaid.la.gov/",
+    "official_source_url": "https://ldh.la.gov/medicaid",
+    "last_verified": "2026-09-17",
+    "office_type": "Louisiana Department of Health / MyMedicaid",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "medicaid",
+      "health",
+      "mymedicaid"
+    ]
+  },
+  {
+    "id": "us-la-lachip",
+    "scheme_name": {
+      "en": "LaCHIP (Children’s Health Insurance) – Louisiana",
+      "ml": "LaCHIP (Children’s Health Insurance) – Louisiana",
+      "hi": "LaCHIP – लुइसियाना"
+    },
+    "description": {
+      "en": "LaCHIP (Louisiana Children’s Health Insurance Program) provides health coverage to eligible uninsured children under age 19. It covers doctor visits, hospital care, prescriptions, immunizations, dental, vision, and more. Apply through MyMedicaid.",
+      "ml": "LaCHIP (Louisiana Children’s Health Insurance Program) provides health coverage to eligible uninsured children under age 19. It covers doctor visits, hospital care, prescriptions, immunizations, dental, vision, and more. Apply through MyMedicaid.",
+      "hi": "LaCHIP (Louisiana Children’s Health Insurance Program) provides health coverage to eligible uninsured children under age 19. It covers doctor visits, hospital care, prescriptions, immunizations, dental, vision, and more. Apply through MyMedicaid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LaCHIP: children under 19 without current health insurance; household income below program limits. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "LaCHIP income charts — verify=true via ldh.la.gov/medicaid/lachip.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Louisiana children under LaCHIP.",
+      "ml": "Health coverage for eligible Louisiana children under LaCHIP.",
+      "hi": "Health coverage for eligible Louisiana children under LaCHIP."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Child information (uninsured under 19)",
+        "MyMedicaid / LaCHIP application"
+      ],
+      "ml": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Child information (uninsured under 19)",
+        "MyMedicaid / LaCHIP application"
+      ],
+      "hi": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Child information (uninsured under 19)",
+        "MyMedicaid / LaCHIP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMedicaid.LA.gov or call 1-888-342-6207; see ldh.la.gov/medicaid/lachip.",
+      "ml": "Apply online at MyMedicaid.LA.gov or call 1-888-342-6207; see ldh.la.gov/medicaid/lachip.",
+      "hi": "Apply online at MyMedicaid.LA.gov or call 1-888-342-6207; see ldh.la.gov/medicaid/lachip."
+    },
+    "apply_url": "https://mymedicaid.la.gov/",
+    "official_source_url": "https://ldh.la.gov/medicaid/lachip",
+    "last_verified": "2026-09-17",
+    "office_type": "Louisiana Department of Health / LaCHIP",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "chip",
+      "lachip",
+      "children",
+      "health"
+    ]
+  },
+  {
+    "id": "us-la-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Energy Assistance) – Louisiana Housing Corporation",
+      "ml": "LIHEAP (Energy Assistance) – Louisiana Housing Corporation",
+      "hi": "LIHEAP – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana LIHEAP helps eligible households with home energy expenses (heating/cooling bill assistance, crisis assistance, and/or equipment repair/replacement). Louisiana Housing Corporation (LHC) provides the statewide portal and local parish agencies deliver services.",
+      "ml": "Louisiana LIHEAP helps eligible households with home energy expenses (heating/cooling bill assistance, crisis assistance, and/or equipment repair/replacement). Louisiana Housing Corporation (LHC) provides the statewide portal and local parish agencies deliver services.",
+      "hi": "Louisiana LIHEAP helps eligible households with home energy expenses (heating/cooling bill assistance, crisis assistance, and/or equipment repair/replacement). Louisiana Housing Corporation (LHC) provides the statewide portal and local parish agencies deliver services."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA LIHEAP: income guidelines by household size; seasonal/funding windows. No single annual dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and portal open/close dates change — verify=true via lhc.la.gov/energy-assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help toward home energy costs for eligible Louisiana households (via LHC / local agencies).",
+      "ml": "Help toward home energy costs for eligible Louisiana households (via LHC / local agencies).",
+      "hi": "Help toward home energy costs for eligible Louisiana households (via LHC / local agencies)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application (LHC statewide portal or local agency)"
+      ],
+      "ml": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application (LHC statewide portal or local agency)"
+      ],
+      "hi": [
+        "Identity and Louisiana residency",
+        "Income documentation",
+        "Utility account information",
+        "LIHEAP application (LHC statewide portal or local agency)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the Louisiana Housing Corporation LIHEAP online portal when open, or contact your local parish energy assistance provider; see lhc.la.gov/energy-assistance.",
+      "ml": "Apply through the Louisiana Housing Corporation LIHEAP online portal when open, or contact your local parish energy assistance provider; see lhc.la.gov/energy-assistance.",
+      "hi": "Apply through the Louisiana Housing Corporation LIHEAP online portal when open, or contact your local parish energy assistance provider; see lhc.la.gov/energy-assistance."
+    },
+    "apply_url": "https://www.lhc.la.gov/energy-assistance",
+    "official_source_url": "https://www.lhc.la.gov/energy-assistance",
+    "last_verified": "2026-09-17",
+    "office_type": "Louisiana Housing Corporation / Local LIHEAP agencies",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "liheap",
+      "energy",
+      "utility",
+      "lhc"
+    ]
   }
 ]
