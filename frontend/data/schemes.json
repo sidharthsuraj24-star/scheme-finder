@@ -24974,5 +24974,2373 @@
       "cms",
       "federal"
     ]
+  },
+  {
+    "id": "ca-calworks",
+    "scheme_name": {
+      "en": "CalWORKs (California Work Opportunity and Responsibility to Kids)",
+      "ml": "CalWORKs (California Work Opportunity and Responsibility to Kids)",
+      "hi": "CalWORKs – कैलिफ़ोर्निया नकद सहायता"
+    },
+    "description": {
+      "en": "California’s TANF cash-aid program for eligible families with children, operated by county welfare departments. Provides monthly cash aid and services; income and family composition rules are county-administered under CDSS guidance.",
+      "ml": "California’s TANF cash-aid program for eligible families with children, operated by county welfare departments. Provides monthly cash aid and services; income and family composition rules are county-administered under CDSS guidance.",
+      "hi": "California’s TANF cash-aid program for eligible families with children, operated by county welfare departments. Provides monthly cash aid and services; income and family composition rules are county-administered under CDSS guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CDSS CalWORKs: families with child(ren) deprived of parental support/care, or two-parent households where principal earner is unemployed, or caretaker relatives of foster children. Income/property and Welfare-to-Work rules apply; payment amounts vary by assistance unit. No single statewide dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition, deprivation, IRT income tiers, and WTW requirements are complex and change by ACL — verify=true via CDSS / county / BenefitsCal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash aid and supportive services (housing, food, utilities, clothing, medical-related needs as determined by the county).",
+      "ml": "Monthly cash aid and supportive services (housing, food, utilities, clothing, medical-related needs as determined by the county).",
+      "hi": "Monthly cash aid and supportive services (housing, food, utilities, clothing, medical-related needs as determined by the county)."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of identity and California residency",
+        "Income and resource documentation",
+        "Proof of children / relationship in household",
+        "BenefitsCal or county application"
+      ],
+      "ml": [
+        "Proof of identity and California residency",
+        "Income and resource documentation",
+        "Proof of children / relationship in household",
+        "BenefitsCal or county application"
+      ],
+      "hi": [
+        "Proof of identity and California residency",
+        "Income and resource documentation",
+        "Proof of children / relationship in household",
+        "BenefitsCal or county application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at BenefitsCal.com or contact your county social services / welfare office.",
+      "ml": "Apply online at BenefitsCal.com or contact your county social services / welfare office.",
+      "hi": "Apply online at BenefitsCal.com or contact your county social services / welfare office."
+    },
+    "apply_url": "https://www.cdss.ca.gov/calworks",
+    "official_source_url": "https://www.cdss.ca.gov/calworks",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Social Services (CDSS) / county welfare departments",
+    "tags": [
+      "united_states",
+      "california",
+      "calworks",
+      "cash_assistance",
+      "tanf"
+    ]
+  },
+  {
+    "id": "ca-calfresh",
+    "scheme_name": {
+      "en": "CalFresh (California SNAP)",
+      "ml": "CalFresh (California SNAP)",
+      "hi": "CalFresh – कैलिफ़ोर्निया SNAP"
+    },
+    "description": {
+      "en": "California’s name for SNAP. State-supervised, county-operated monthly food benefits on an EBT card for low-income individuals and households who meet federal income eligibility rules.",
+      "ml": "California’s name for SNAP. State-supervised, county-operated monthly food benefits on an EBT card for low-income individuals and households who meet federal income eligibility rules.",
+      "hi": "California’s name for SNAP. State-supervised, county-operated monthly food benefits on an EBT card for low-income individuals and households who meet federal income eligibility rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CDSS CalFresh: federally SNAP; household size, countable income, and expenses determine benefit amount. SSI/SSP recipients may also qualify under California expansion rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Gross/net income limits and deductions vary by household — verify=true on cdss.ca.gov CalFresh and county / BenefitsCal.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly food benefits on an EBT card usable at authorized grocery stores and farmers markets.",
+      "ml": "Monthly food benefits on an EBT card usable at authorized grocery stores and farmers markets.",
+      "hi": "Monthly food benefits on an EBT card usable at authorized grocery stores and farmers markets."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income and expense documentation",
+        "County / BenefitsCal application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income and expense documentation",
+        "County / BenefitsCal application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income and expense documentation",
+        "County / BenefitsCal application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at BenefitsCal.com, getcalfresh.org, or contact your county social services agency / CalFresh Benefits Helpline 1-877-847-3663.",
+      "ml": "Apply online at BenefitsCal.com, getcalfresh.org, or contact your county social services agency / CalFresh Benefits Helpline 1-877-847-3663.",
+      "hi": "Apply online at BenefitsCal.com, getcalfresh.org, or contact your county social services agency / CalFresh Benefits Helpline 1-877-847-3663."
+    },
+    "apply_url": "https://benefitscal.com/",
+    "official_source_url": "https://www.cdss.ca.gov/inforesources/calfresh",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Social Services (CDSS) / county CalFresh offices",
+    "tags": [
+      "united_states",
+      "california",
+      "calfresh",
+      "snap",
+      "food"
+    ]
+  },
+  {
+    "id": "ca-medi-cal",
+    "scheme_name": {
+      "en": "Medi-Cal (California Medicaid)",
+      "ml": "Medi-Cal (California Medicaid)",
+      "hi": "Medi-Cal – कैलिफ़ोर्निया मेडिकेड"
+    },
+    "description": {
+      "en": "California’s Medicaid program offering no-cost or low-cost health coverage. DHCS partners with counties; MAGI income rules (often ~138% FPL for many adults) and non-MAGI pathways (aged/blind/disabled, etc.) apply.",
+      "ml": "California’s Medicaid program offering no-cost or low-cost health coverage. DHCS partners with counties; MAGI income rules (often ~138% FPL for many adults) and non-MAGI pathways (aged/blind/disabled, etc.) apply.",
+      "hi": "California’s Medicaid program offering no-cost or low-cost health coverage. DHCS partners with counties; MAGI income rules (often ~138% FPL for many adults) and non-MAGI pathways (aged/blind/disabled, etc.) apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DHCS Medi-Cal: California residency required. MAGI pathways use household size/income (e.g. 138% FPL chart published by DHCS); aged/blind/disabled and other programs may use different income/asset tests. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "MAGI vs non-MAGI pathways and FPL charts change — verify=true via DHCS / Covered California / county.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "No-cost or low-cost coverage for doctor visits, hospital care, prescriptions, dental, mental health, and other Medi-Cal benefits.",
+      "ml": "No-cost or low-cost coverage for doctor visits, hospital care, prescriptions, dental, mental health, and other Medi-Cal benefits.",
+      "hi": "No-cost or low-cost coverage for doctor visits, hospital care, prescriptions, dental, mental health, and other Medi-Cal benefits."
+    },
+    "required_documents": {
+      "en": [
+        "California residency and identity",
+        "Income / tax filing information",
+        "Immigration status documentation if required",
+        "Covered California or county application"
+      ],
+      "ml": [
+        "California residency and identity",
+        "Income / tax filing information",
+        "Immigration status documentation if required",
+        "Covered California or county application"
+      ],
+      "hi": [
+        "California residency and identity",
+        "Income / tax filing information",
+        "Immigration status documentation if required",
+        "Covered California or county application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply year-round via Covered California, BenefitsCal, phone, mail, or your county social services office.",
+      "ml": "Apply year-round via Covered California, BenefitsCal, phone, mail, or your county social services office.",
+      "hi": "Apply year-round via Covered California, BenefitsCal, phone, mail, or your county social services office."
+    },
+    "apply_url": "https://www.dhcs.ca.gov/services/medi-cal-resources/medi-cal-eligibility-division/apply-for-medi-cal-or-other-affordable-quality-health-coverage/",
+    "official_source_url": "https://www.dhcs.ca.gov/medi-cal-eligibility/",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Health Care Services (DHCS) / counties",
+    "tags": [
+      "united_states",
+      "california",
+      "medi_cal",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "ca-ihss",
+    "scheme_name": {
+      "en": "In-Home Supportive Services (IHSS) – California",
+      "ml": "In-Home Supportive Services (IHSS) – California",
+      "hi": "IHSS – कैलिफ़ोर्निया घरेलू देखभाल"
+    },
+    "description": {
+      "en": "CDSS program providing in-home assistance to eligible aged, blind, or disabled Californians as an alternative to out-of-home care. Requires Medi-Cal eligibility determination and health-care certification.",
+      "ml": "CDSS program providing in-home assistance to eligible aged, blind, or disabled Californians as an alternative to out-of-home care. Requires Medi-Cal eligibility determination and health-care certification.",
+      "hi": "CDSS program providing in-home assistance to eligible aged, blind, or disabled Californians as an alternative to out-of-home care. Requires Medi-Cal eligibility determination and health-care certification."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IHSS: California resident; Medi-Cal eligibility determination; live in own home (not acute/LTC/licensed community care as 'own home'); completed Health Care Certification (SOC 873). Aged/blind/disabled population; disability pathway encoded as disability_required — aged-only applicants without disability flag need county verification.",
+      "verify": true,
+      "verify_notes": "Needs assessment and Medi-Cal linkage not fully in wizard — verify=true via county IHSS / CDSS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Authorized hours for domestic, personal care, paramedical, and related in-home services based on county assessment.",
+      "ml": "Authorized hours for domestic, personal care, paramedical, and related in-home services based on county assessment.",
+      "hi": "Authorized hours for domestic, personal care, paramedical, and related in-home services based on county assessment."
+    },
+    "required_documents": {
+      "en": [
+        "Medi-Cal eligibility",
+        "SOC 295 application",
+        "Health Care Certification SOC 873",
+        "Identity and residency"
+      ],
+      "ml": [
+        "Medi-Cal eligibility",
+        "SOC 295 application",
+        "Health Care Certification SOC 873",
+        "Identity and residency"
+      ],
+      "hi": [
+        "Medi-Cal eligibility",
+        "SOC 295 application",
+        "Health Care Certification SOC 873",
+        "Identity and residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit SOC 295 to your county IHSS office; a social worker conducts a home assessment.",
+      "ml": "Submit SOC 295 to your county IHSS office; a social worker conducts a home assessment.",
+      "hi": "Submit SOC 295 to your county IHSS office; a social worker conducts a home assessment."
+    },
+    "apply_url": "https://cdss.ca.gov/in-home-supportive-services",
+    "official_source_url": "https://cdss.ca.gov/in-home-supportive-services",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Social Services (CDSS) / county IHSS offices",
+    "tags": [
+      "united_states",
+      "california",
+      "ihss",
+      "disability",
+      "elderly",
+      "home_care"
+    ]
+  },
+  {
+    "id": "ca-capi",
+    "scheme_name": {
+      "en": "Cash Assistance Program for Immigrants (CAPI) – California",
+      "ml": "Cash Assistance Program for Immigrants (CAPI) – California",
+      "hi": "CAPI – कैलिफ़ोर्निया अप्रवासी नकद सहायता"
+    },
+    "description": {
+      "en": "100% state-funded monthly cash benefits for aged (65+), blind, or disabled non-citizens who are ineligible for SSI/SSP solely due to immigration status. Payment standards track SSI/SSP.",
+      "ml": "100% state-funded monthly cash benefits for aged (65+), blind, or disabled non-citizens who are ineligible for SSI/SSP solely due to immigration status. Payment standards track SSI/SSP.",
+      "hi": "100% state-funded monthly cash benefits for aged (65+), blind, or disabled non-citizens who are ineligible for SSI/SSP solely due to immigration status. Payment standards track SSI/SSP."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CAPI: non-citizen meeting immigration criteria; 65+/blind/disabled; SSI denial solely for immigration status; California resident; income below CAPI standards; resources generally under $2,000 individual / $3,000 couple (per CDSS). Blind/disabled under 65 also eligible — min_age=65 encodes aged path; younger disabled applicants need verify.",
+      "verify": true,
+      "verify_notes": "Immigration status, SSI denial proof, and resource limits require documents — verify=true. Blind/disabled under 65 may still qualify.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash benefit roughly equivalent to SSI/SSP payment standards for the recipient’s living arrangement.",
+      "ml": "Monthly cash benefit roughly equivalent to SSI/SSP payment standards for the recipient’s living arrangement.",
+      "hi": "Monthly cash benefit roughly equivalent to SSI/SSP payment standards for the recipient’s living arrangement."
+    },
+    "required_documents": {
+      "en": [
+        "SOC 814 CAPI application",
+        "SSI denial / immigration documentation",
+        "Income and resource proof",
+        "California residency"
+      ],
+      "ml": [
+        "SOC 814 CAPI application",
+        "SSI denial / immigration documentation",
+        "Income and resource proof",
+        "California residency"
+      ],
+      "hi": [
+        "SOC 814 CAPI application",
+        "SSI denial / immigration documentation",
+        "Income and resource proof",
+        "California residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via SOC 814 with your county social services agency (phone, mail, fax, email, or in person).",
+      "ml": "Apply via SOC 814 with your county social services agency (phone, mail, fax, email, or in person).",
+      "hi": "Apply via SOC 814 with your county social services agency (phone, mail, fax, email, or in person)."
+    },
+    "apply_url": "https://www.cdss.ca.gov/capi",
+    "official_source_url": "https://www.cdss.ca.gov/capi",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Social Services (CDSS) / county agencies",
+    "tags": [
+      "united_states",
+      "california",
+      "capi",
+      "cash_assistance",
+      "immigrants",
+      "elderly",
+      "disability"
+    ]
+  },
+  {
+    "id": "ca-ssi-ssp",
+    "scheme_name": {
+      "en": "SSI/SSP – California State Supplementary Payment",
+      "ml": "SSI/SSP – California State Supplementary Payment",
+      "hi": "SSI/SSP – कैलिफ़ोर्निया राज्य अनुपूरक भुगतान"
+    },
+    "description": {
+      "en": "Federal SSI plus California’s State Supplementary Payment (SSP). SSA administers both; eligibility uses federal SSI criteria. California publishes SSP payment standards that augment SSI.",
+      "ml": "Federal SSI plus California’s State Supplementary Payment (SSP). SSA administers both; eligibility uses federal SSI criteria. California publishes SSP payment standards that augment SSI.",
+      "hi": "Federal SSI plus California’s State Supplementary Payment (SSP). SSA administers both; eligibility uses federal SSI criteria. California publishes SSP payment standards that augment SSI."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CDSS SSI/SSP: aged 65+, blind, or disabled; federal income/resource limits; U.S. citizen or eligible immigration status; reside in U.S.; not in a public institution. SSP augments SSI for California recipients. Blind/disabled under 65 also eligible — min_age encodes aged path.",
+      "verify": true,
+      "verify_notes": "SSA determines eligibility; SSP amounts change — verify=true via SSA and cdss.ca.gov SSI/SSP. Blind/disabled under 65 may qualify.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly federal SSI plus California SSP cash assistance administered by SSA.",
+      "ml": "Monthly federal SSI plus California SSP cash assistance administered by SSA.",
+      "hi": "Monthly federal SSI plus California SSP cash assistance administered by SSA."
+    },
+    "required_documents": {
+      "en": [
+        "SSA SSI application",
+        "Identity, immigration, income, and resource documentation"
+      ],
+      "ml": [
+        "SSA SSI application",
+        "Identity, immigration, income, and resource documentation"
+      ],
+      "hi": [
+        "SSA SSI application",
+        "Identity, immigration, income, and resource documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with the Social Security Administration (online, phone 1-800-772-1213, or local SSA office).",
+      "ml": "Apply with the Social Security Administration (online, phone 1-800-772-1213, or local SSA office).",
+      "hi": "Apply with the Social Security Administration (online, phone 1-800-772-1213, or local SSA office)."
+    },
+    "apply_url": "https://www.ssa.gov/ssi/",
+    "official_source_url": "https://www.cdss.ca.gov/inforesources/ssi-ssp",
+    "last_verified": "2026-09-17",
+    "office_type": "Social Security Administration / California Department of Social Services (SSP)",
+    "tags": [
+      "united_states",
+      "california",
+      "ssi",
+      "ssp",
+      "cash_assistance",
+      "elderly",
+      "disability"
+    ]
+  },
+  {
+    "id": "ca-liheap",
+    "scheme_name": {
+      "en": "LIHEAP – California Home Energy Assistance (CSD)",
+      "ml": "LIHEAP – California Home Energy Assistance (CSD)",
+      "hi": "LIHEAP – कैलिफ़ोर्निया ऊर्जा सहायता"
+    },
+    "description": {
+      "en": "California Department of Community Services and Development (CSD) Low Income Home Energy Assistance Program helps eligible low-income households with energy bills and weatherization via local providers.",
+      "ml": "California Department of Community Services and Development (CSD) Low Income Home Energy Assistance Program helps eligible low-income households with energy bills and weatherization via local providers.",
+      "hi": "California Department of Community Services and Development (CSD) Low Income Home Energy Assistance Program helps eligible low-income households with energy bills and weatherization via local providers."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CSD LIHEAP: income eligibility published by CSD (often monthly limits by household size); local provider availability and seasonal windows vary. No single fixed ceiling encoded in matcher.",
+      "verify": true,
+      "verify_notes": "Income charts and local funding vary — verify=true via csd.ca.gov LIHEAP / local provider.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "One-time or crisis energy-bill assistance and/or weatherization services through local CSD providers.",
+      "ml": "One-time or crisis energy-bill assistance and/or weatherization services through local CSD providers.",
+      "hi": "One-time or crisis energy-bill assistance and/or weatherization services through local CSD providers."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Utility account information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Use CSD Find Services in Your Area / contact your local LIHEAP provider (CSD helpline guidance on csd.ca.gov).",
+      "ml": "Use CSD Find Services in Your Area / contact your local LIHEAP provider (CSD helpline guidance on csd.ca.gov).",
+      "hi": "Use CSD Find Services in Your Area / contact your local LIHEAP provider (CSD helpline guidance on csd.ca.gov)."
+    },
+    "apply_url": "https://www.csd.ca.gov/Pages/LIHEAPProgram.aspx",
+    "official_source_url": "https://www.csd.ca.gov/Pages/LIHEAPProgram.aspx",
+    "last_verified": "2026-09-17",
+    "office_type": "California Department of Community Services and Development (CSD)",
+    "tags": [
+      "united_states",
+      "california",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "ca-caleitc",
+    "scheme_name": {
+      "en": "California Earned Income Tax Credit (CalEITC)",
+      "ml": "California Earned Income Tax Credit (CalEITC)",
+      "hi": "CalEITC – कैलिफ़ोर्निया अर्जित आय कर क्रेडिट"
+    },
+    "description": {
+      "en": "Refundable California state earned income tax credit for eligible low-to-moderate earners who live in California more than half the year and file a California return. Claimed with FTB Form 3514.",
+      "ml": "Refundable California state earned income tax credit for eligible low-to-moderate earners who live in California more than half the year and file a California return. Claimed with FTB Form 3514.",
+      "hi": "Refundable California state earned income tax credit for eligible low-to-moderate earners who live in California more than half the year and file a California return. Claimed with FTB Form 3514."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": 32900,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "California"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FTB CalEITC (tax year 2025 table on ftb.ca.gov): earned income and federal AGI between $1 and $32,900; age 18+ or have a qualifying child; valid SSN/ITIN; live in CA more than half the year; not claimed as qualifying child/dependent of another (unless you have a qualifying child). Younger filers with qualifying children may qualify under 18 — verify.",
+      "verify": true,
+      "verify_notes": "Tax-year tables and qualifying-child rules change annually — verify=true on FTB CalEITC pages. max_annual_income=32900 from TY2025 published table.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state tax credit (amount depends on income and number of qualifying children); may also pair with YCTC/FYTC per FTB tables.",
+      "ml": "Refundable state tax credit (amount depends on income and number of qualifying children); may also pair with YCTC/FYTC per FTB tables.",
+      "hi": "Refundable state tax credit (amount depends on income and number of qualifying children); may also pair with YCTC/FYTC per FTB tables."
+    },
+    "required_documents": {
+      "en": [
+        "California tax return (Form 540/540 2EZ/540NR)",
+        "FTB 3514",
+        "SSN or ITIN",
+        "Earned income records"
+      ],
+      "ml": [
+        "California tax return (Form 540/540 2EZ/540NR)",
+        "FTB 3514",
+        "SSN or ITIN",
+        "Earned income records"
+      ],
+      "hi": [
+        "California tax return (Form 540/540 2EZ/540NR)",
+        "FTB 3514",
+        "SSN or ITIN",
+        "Earned income records"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a California income tax return claiming CalEITC (CalFile, VITA, or tax preparer) with FTB 3514.",
+      "ml": "File a California income tax return claiming CalEITC (CalFile, VITA, or tax preparer) with FTB 3514.",
+      "hi": "File a California income tax return claiming CalEITC (CalFile, VITA, or tax preparer) with FTB 3514."
+    },
+    "apply_url": "https://www.ftb.ca.gov/file/personal/credits/caleitc/index.html",
+    "official_source_url": "https://www.ftb.ca.gov/file/personal/credits/caleitc/eligibility-and-credit-information.html",
+    "last_verified": "2026-09-17",
+    "office_type": "California Franchise Tax Board (FTB)",
+    "tags": [
+      "united_states",
+      "california",
+      "caleitc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "ny-temporary-assistance",
+    "scheme_name": {
+      "en": "Temporary Assistance (TA) / Family Assistance – New York OTDA",
+      "ml": "Temporary Assistance (TA) / Family Assistance – New York OTDA",
+      "hi": "Temporary Assistance – न्यूयॉर्क"
+    },
+    "description": {
+      "en": "New York OTDA Temporary Assistance includes Family Assistance (TANF-funded, generally for families with a minor child) and related Safety Net assistance. Cash help for basic needs; rules set by state/local districts.",
+      "ml": "New York OTDA Temporary Assistance includes Family Assistance (TANF-funded, generally for families with a minor child) and related Safety Net assistance. Cash help for basic needs; rules set by state/local districts.",
+      "hi": "New York OTDA Temporary Assistance includes Family Assistance (TANF-funded, generally for families with a minor child) and related Safety Net assistance. Cash help for basic needs; rules set by state/local districts."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OTDA Temporary Assistance / Family Assistance: typically needy families with a minor child living with a parent or caretaker relative; income/resource and work rules; federal 60-month context for Family Assistance. Exact district rules vary. No single income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Family composition and district rules vary — verify=true via myBenefits.ny.gov / local DSS / OTDA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Temporary cash assistance for food, shelter, and other basic needs as determined by the local social services district.",
+      "ml": "Temporary cash assistance for food, shelter, and other basic needs as determined by the local social services district.",
+      "hi": "Temporary cash assistance for food, shelter, and other basic needs as determined by the local social services district."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household",
+        "myBenefits or LDSS application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household",
+        "myBenefits or LDSS application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income/resource documentation",
+        "Proof of children in household",
+        "myBenefits or LDSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at myBenefits.ny.gov (ACCESS HRA in NYC) or contact your local Department of Social Services. OTDA hotline 1-800-342-3009.",
+      "ml": "Apply online at myBenefits.ny.gov (ACCESS HRA in NYC) or contact your local Department of Social Services. OTDA hotline 1-800-342-3009.",
+      "hi": "Apply online at myBenefits.ny.gov (ACCESS HRA in NYC) or contact your local Department of Social Services. OTDA hotline 1-800-342-3009."
+    },
+    "apply_url": "https://mybenefits.ny.gov/",
+    "official_source_url": "https://otda.ny.gov/programs/temporary-assistance/",
+    "last_verified": "2026-09-17",
+    "office_type": "NYS Office of Temporary and Disability Assistance (OTDA) / local DSS",
+    "tags": [
+      "united_states",
+      "new_york",
+      "temporary_assistance",
+      "family_assistance",
+      "tanf",
+      "cash_assistance"
+    ]
+  },
+  {
+    "id": "ny-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Assistance) – New York OTDA",
+      "ml": "SNAP (Food Assistance) – New York OTDA",
+      "hi": "SNAP – न्यूयॉर्क"
+    },
+    "description": {
+      "en": "New York’s SNAP program administered by OTDA and local districts. Monthly food benefits on an EBT card for eligible low-income households.",
+      "ml": "New York’s SNAP program administered by OTDA and local districts. Monthly food benefits on an EBT card for eligible low-income households.",
+      "hi": "New York’s SNAP program administered by OTDA and local districts. Monthly food benefits on an EBT card for eligible low-income households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NY SNAP via OTDA/myBenefits: federal SNAP income/resource frameworks with state options; household size and deductions matter. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income limits and categorical eligibility rules — verify=true via myBenefits / local DSS / OTDA SNAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP allotment on an EBT card for eligible food purchases.",
+      "ml": "Monthly SNAP allotment on an EBT card for eligible food purchases.",
+      "hi": "Monthly SNAP allotment on an EBT card for eligible food purchases."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "myBenefits or LDSS SNAP application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "myBenefits or LDSS SNAP application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "myBenefits or LDSS SNAP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at myBenefits.ny.gov or your local social services district.",
+      "ml": "Apply at myBenefits.ny.gov or your local social services district.",
+      "hi": "Apply at myBenefits.ny.gov or your local social services district."
+    },
+    "apply_url": "https://mybenefits.ny.gov/",
+    "official_source_url": "https://otda.ny.gov/programs/snap/",
+    "last_verified": "2026-09-17",
+    "office_type": "NYS OTDA / local social services districts",
+    "tags": [
+      "united_states",
+      "new_york",
+      "snap",
+      "food"
+    ]
+  },
+  {
+    "id": "ny-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – New York State",
+      "ml": "Medicaid – New York State",
+      "hi": "Medicaid – न्यूयॉर्क"
+    },
+    "description": {
+      "en": "New York Medicaid health coverage for eligible residents. MAGI applicants generally use NY State of Health; non-MAGI (disability, long-term care, spenddown) often go through local districts.",
+      "ml": "New York Medicaid health coverage for eligible residents. MAGI applicants generally use NY State of Health; non-MAGI (disability, long-term care, spenddown) often go through local districts.",
+      "hi": "New York Medicaid health coverage for eligible residents. MAGI applicants generally use NY State of Health; non-MAGI (disability, long-term care, spenddown) often go through local districts."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NYS DOH Medicaid: income limits vary by age/pregnancy/disability (e.g. adults often ~138% FPL; higher for children/pregnant people per NY State of Health charts). No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "MAGI vs non-MAGI pathways — verify=true via health.ny.gov / nystateofhealth.ny.gov / local DSS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for doctor visits, hospital care, prescriptions, and other Medicaid-covered services in New York.",
+      "ml": "Health coverage for doctor visits, hospital care, prescriptions, and other Medicaid-covered services in New York.",
+      "hi": "Health coverage for doctor visits, hospital care, prescriptions, and other Medicaid-covered services in New York."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "NY State of Health or LDSS application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "NY State of Health or LDSS application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "NY State of Health or LDSS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via NY State of Health (nystateofhealth.ny.gov) for most MAGI cases, or your local DSS for non-MAGI.",
+      "ml": "Apply via NY State of Health (nystateofhealth.ny.gov) for most MAGI cases, or your local DSS for non-MAGI.",
+      "hi": "Apply via NY State of Health (nystateofhealth.ny.gov) for most MAGI cases, or your local DSS for non-MAGI."
+    },
+    "apply_url": "https://nystateofhealth.ny.gov/",
+    "official_source_url": "https://www.health.ny.gov/health_care/medicaid/",
+    "last_verified": "2026-09-17",
+    "office_type": "NYS Department of Health / local districts / NY State of Health",
+    "tags": [
+      "united_states",
+      "new_york",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "ny-heap",
+    "scheme_name": {
+      "en": "Home Energy Assistance Program (HEAP) – New York",
+      "ml": "Home Energy Assistance Program (HEAP) – New York",
+      "hi": "HEAP – न्यूयॉर्क ऊर्जा सहायता"
+    },
+    "description": {
+      "en": "OTDA HEAP helps eligible New York households with heating/cooling costs, emergency energy assistance, and heating equipment repair/replacement. Seasonal application windows.",
+      "ml": "OTDA HEAP helps eligible New York households with heating/cooling costs, emergency energy assistance, and heating equipment repair/replacement. Seasonal application windows.",
+      "hi": "OTDA HEAP helps eligible New York households with heating/cooling costs, emergency energy assistance, and heating equipment repair/replacement. Seasonal application windows."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NY HEAP: income limits published seasonally by OTDA; Regular and Emergency HEAP opening dates change each program year. No single permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Seasonal income charts and open dates — verify=true on otda.ny.gov/programs/heap/.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/cooling bills, emergency energy assistance, and heating equipment services as funded.",
+      "ml": "Help paying heating/cooling bills, emergency energy assistance, and heating equipment services as funded.",
+      "hi": "Help paying heating/cooling bills, emergency energy assistance, and heating equipment services as funded."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Fuel/utility account information"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Fuel/utility account information"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Fuel/utility account information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via myBenefits.ny.gov (ACCESS HRA in NYC) or your local HEAP office when the program is open.",
+      "ml": "Apply via myBenefits.ny.gov (ACCESS HRA in NYC) or your local HEAP office when the program is open.",
+      "hi": "Apply via myBenefits.ny.gov (ACCESS HRA in NYC) or your local HEAP office when the program is open."
+    },
+    "apply_url": "https://mybenefits.ny.gov/",
+    "official_source_url": "https://otda.ny.gov/programs/heap/",
+    "last_verified": "2026-09-17",
+    "office_type": "NYS OTDA / local HEAP offices",
+    "tags": [
+      "united_states",
+      "new_york",
+      "heap",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "ny-child-health-plus",
+    "scheme_name": {
+      "en": "Child Health Plus – New York",
+      "ml": "Child Health Plus – New York",
+      "hi": "Child Health Plus – न्यूयॉर्क बाल स्वास्थ्य"
+    },
+    "description": {
+      "en": "New York State health insurance for children. Depending on family income, a child may qualify for Children’s Medicaid or Child Health Plus through NY State of Health.",
+      "ml": "New York State health insurance for children. Depending on family income, a child may qualify for Children’s Medicaid or Child Health Plus through NY State of Health.",
+      "hi": "New York State health insurance for children. Depending on family income, a child may qualify for Children’s Medicaid or Child Health Plus through NY State of Health."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NYS DOH Child Health Plus: children; income-based placement into Children’s Medicaid or CHPlus. Apply via NY State of Health marketplace. No single income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age/income tiering between Medicaid and CHPlus — verify=true via health.ny.gov / nystateofhealth.ny.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Comprehensive health coverage for eligible children (doctor, hospital, prescriptions, and related services via participating plans).",
+      "ml": "Comprehensive health coverage for eligible children (doctor, hospital, prescriptions, and related services via participating plans).",
+      "hi": "Comprehensive health coverage for eligible children (doctor, hospital, prescriptions, and related services via participating plans)."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and residency",
+        "Household income documentation",
+        "NY State of Health application"
+      ],
+      "ml": [
+        "Child identity and residency",
+        "Household income documentation",
+        "NY State of Health application"
+      ],
+      "hi": [
+        "Child identity and residency",
+        "Household income documentation",
+        "NY State of Health application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through NY State of Health (nystateofhealth.ny.gov) or call 1-800-698-4543.",
+      "ml": "Apply through NY State of Health (nystateofhealth.ny.gov) or call 1-800-698-4543.",
+      "hi": "Apply through NY State of Health (nystateofhealth.ny.gov) or call 1-800-698-4543."
+    },
+    "apply_url": "https://nystateofhealth.ny.gov/",
+    "official_source_url": "https://www.health.ny.gov/health_care/child_health_plus/",
+    "last_verified": "2026-09-17",
+    "office_type": "NYS Department of Health / NY State of Health",
+    "tags": [
+      "united_states",
+      "new_york",
+      "child_health_plus",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "ny-scrie-drie",
+    "scheme_name": {
+      "en": "NYC Rent Freeze Program (SCRIE / DRIE)",
+      "ml": "NYC Rent Freeze Program (SCRIE / DRIE)",
+      "hi": "SCRIE/DRIE – NYC किराया फ्रीज़"
+    },
+    "description": {
+      "en": "New York City Senior Citizen Rent Increase Exemption (SCRIE) and Disability Rent Increase Exemption (DRIE) freeze eligible tenants’ rent in qualifying rent-regulated housing. NYC Department of Finance administers most applications.",
+      "ml": "New York City Senior Citizen Rent Increase Exemption (SCRIE) and Disability Rent Increase Exemption (DRIE) freeze eligible tenants’ rent in qualifying rent-regulated housing. NYC Department of Finance administers most applications.",
+      "hi": "New York City Senior Citizen Rent Increase Exemption (SCRIE) and Disability Rent Increase Exemption (DRIE) freeze eligible tenants’ rent in qualifying rent-regulated housing. NYC Department of Finance administers most applications."
+    },
+    "eligibility_rules": {
+      "min_age": 62,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New York"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NYC Rent Freeze (SCRIE/DRIE): NYC tenants in eligible rent-regulated housing; SCRIE generally age 62+; DRIE for eligible tenants with disabilities (may be under 62 — disability path needs verify). Household income and rent-burden rules apply. Statewide state tag is New York; program is NYC-specific.",
+      "verify": true,
+      "verify_notes": "Housing type, income, and rent share rules; DRIE under-62 disability path — verify=true via nyc.gov/rentfreeze. min_age=62 encodes SCRIE path.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Rent frozen at an affordable amount; property tax abatement covers the difference from the legal rent.",
+      "ml": "Rent frozen at an affordable amount; property tax abatement covers the difference from the legal rent.",
+      "hi": "Rent frozen at an affordable amount; property tax abatement covers the difference from the legal rent."
+    },
+    "required_documents": {
+      "en": [
+        "Age or disability documentation",
+        "Income proof",
+        "Lease / rent-regulated housing proof",
+        "SCRIE or DRIE application"
+      ],
+      "ml": [
+        "Age or disability documentation",
+        "Income proof",
+        "Lease / rent-regulated housing proof",
+        "SCRIE or DRIE application"
+      ],
+      "hi": [
+        "Age or disability documentation",
+        "Income proof",
+        "Lease / rent-regulated housing proof",
+        "SCRIE or DRIE application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via NYC Rent Freeze / Tenant Access Portal or paper forms on nyc.gov; HDFC/Mitchell-Lama SCRIE via HPD.",
+      "ml": "Apply online via NYC Rent Freeze / Tenant Access Portal or paper forms on nyc.gov; HDFC/Mitchell-Lama SCRIE via HPD.",
+      "hi": "Apply online via NYC Rent Freeze / Tenant Access Portal or paper forms on nyc.gov; HDFC/Mitchell-Lama SCRIE via HPD."
+    },
+    "apply_url": "https://www.nyc.gov/site/rentfreeze/apply/apply-renew.page",
+    "official_source_url": "https://www.nyc.gov/site/rentfreeze/index.page",
+    "last_verified": "2026-09-17",
+    "office_type": "NYC Department of Finance (Rent Freeze) / HPD for certain housing",
+    "tags": [
+      "united_states",
+      "new_york",
+      "nyc",
+      "scrie",
+      "drie",
+      "housing",
+      "rent"
+    ]
+  },
+  {
+    "id": "tx-tanf",
+    "scheme_name": {
+      "en": "TANF Cash Help – Texas Works",
+      "ml": "TANF Cash Help – Texas Works",
+      "hi": "TANF – टेक्सास नकद सहायता"
+    },
+    "description": {
+      "en": "Texas Temporary Assistance for Needy Families provides monthly cash payments to eligible families with children ages 18 and younger who have little or no money. Administered by Texas HHSC (Your Texas Benefits).",
+      "ml": "Texas Temporary Assistance for Needy Families provides monthly cash payments to eligible families with children ages 18 and younger who have little or no money. Administered by Texas HHSC (Your Texas Benefits).",
+      "hi": "Texas Temporary Assistance for Needy Families provides monthly cash payments to eligible families with children ages 18 and younger who have little or no money. Administered by Texas HHSC (Your Texas Benefits)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HHSC TANF: families with children ≤18; income/resource and work/child-support rules. HHSC publishes maximum monthly income charts by family size (very low dollar amounts); amounts change — not hard-coded as a single ceiling.",
+      "verify": true,
+      "verify_notes": "Published monthly income charts and one-time TANF variants — verify=true via hhs.texas.gov / YourTexasBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly cash payments for food, clothing, housing, utilities, and other basic needs; one-time crisis and relative payments may also be available.",
+      "ml": "Monthly cash payments for food, clothing, housing, utilities, and other basic needs; one-time crisis and relative payments may also be available.",
+      "hi": "Monthly cash payments for food, clothing, housing, utilities, and other basic needs; one-time crisis and relative payments may also be available."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Texas residency",
+        "Income/resource documentation",
+        "Proof of children",
+        "YourTexasBenefits / Form H1010"
+      ],
+      "ml": [
+        "Identity and Texas residency",
+        "Income/resource documentation",
+        "Proof of children",
+        "YourTexasBenefits / Form H1010"
+      ],
+      "hi": [
+        "Identity and Texas residency",
+        "Income/resource documentation",
+        "Proof of children",
+        "YourTexasBenefits / Form H1010"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at YourTexasBenefits.com, Form H1010, local office, mail, fax, or by calling 2-1-1 option 2.",
+      "ml": "Apply at YourTexasBenefits.com, Form H1010, local office, mail, fax, or by calling 2-1-1 option 2.",
+      "hi": "Apply at YourTexasBenefits.com, Form H1010, local office, mail, fax, or by calling 2-1-1 option 2."
+    },
+    "apply_url": "https://www.yourtexasbenefits.com/",
+    "official_source_url": "https://www.hhs.texas.gov/services/financial/cash/tanf-cash-help",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Health and Human Services Commission (HHSC)",
+    "tags": [
+      "united_states",
+      "texas",
+      "tanf",
+      "cash_assistance",
+      "texas_works"
+    ]
+  },
+  {
+    "id": "tx-snap",
+    "scheme_name": {
+      "en": "SNAP Food Benefits – Texas",
+      "ml": "SNAP Food Benefits – Texas",
+      "hi": "SNAP – टेक्सास"
+    },
+    "description": {
+      "en": "Texas SNAP (food benefits) administered by HHSC through Your Texas Benefits / Texas Works. Monthly benefits on an EBT card for eligible low-income households.",
+      "ml": "Texas SNAP (food benefits) administered by HHSC through Your Texas Benefits / Texas Works. Monthly benefits on an EBT card for eligible low-income households.",
+      "hi": "Texas SNAP (food benefits) administered by HHSC through Your Texas Benefits / Texas Works. Monthly benefits on an EBT card for eligible low-income households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HHSC SNAP: gross/net income limits by household size (Texas Works Handbook); TSAP simplified path for some elderly/disabled households. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and work rules — verify=true via hhs.texas.gov SNAP / YourTexasBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits on Lone Star / EBT card at authorized retailers.",
+      "ml": "Monthly SNAP food benefits on Lone Star / EBT card at authorized retailers.",
+      "hi": "Monthly SNAP food benefits on Lone Star / EBT card at authorized retailers."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at YourTexasBenefits.com or with Form H1010 / local HHSC office.",
+      "ml": "Apply at YourTexasBenefits.com or with Form H1010 / local HHSC office.",
+      "hi": "Apply at YourTexasBenefits.com or with Form H1010 / local HHSC office."
+    },
+    "apply_url": "https://www.yourtexasbenefits.com/",
+    "official_source_url": "https://www.hhs.texas.gov/services/food/snap-food-benefits",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Health and Human Services Commission (HHSC)",
+    "tags": [
+      "united_states",
+      "texas",
+      "snap",
+      "food"
+    ]
+  },
+  {
+    "id": "tx-medicaid",
+    "scheme_name": {
+      "en": "Medicaid – Texas",
+      "ml": "Medicaid – Texas",
+      "hi": "Medicaid – टेक्सास"
+    },
+    "description": {
+      "en": "Texas Medicaid health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Texas has not expanded Medicaid to all low-income adults; eligibility is category-based.",
+      "ml": "Texas Medicaid health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Texas has not expanded Medicaid to all low-income adults; eligibility is category-based.",
+      "hi": "Texas Medicaid health coverage for eligible children, pregnant women, parents/caretakers, seniors, and people with disabilities. Texas has not expanded Medicaid to all low-income adults; eligibility is category-based."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HHSC Medicaid: category + income/asset rules; many adults without children/disability/pregnancy may not qualify. No single statewide adult ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Non-expansion state — category matters — verify=true via hhs.texas.gov Medicaid-CHIP / YourTexasBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Texans for doctor visits, hospital care, prescriptions, and other Medicaid services.",
+      "ml": "Health coverage for eligible Texans for doctor visits, hospital care, prescriptions, and other Medicaid services.",
+      "hi": "Health coverage for eligible Texans for doctor visits, hospital care, prescriptions, and other Medicaid services."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits / Medicaid application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits / Medicaid application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "YourTexasBenefits / Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at YourTexasBenefits.com or through HHSC.",
+      "ml": "Apply at YourTexasBenefits.com or through HHSC.",
+      "hi": "Apply at YourTexasBenefits.com or through HHSC."
+    },
+    "apply_url": "https://www.yourtexasbenefits.com/",
+    "official_source_url": "https://www.hhs.texas.gov/services/health/medicaid-chip",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Health and Human Services Commission (HHSC)",
+    "tags": [
+      "united_states",
+      "texas",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "tx-chip",
+    "scheme_name": {
+      "en": "Children’s Health Insurance Program (CHIP) – Texas",
+      "ml": "Children’s Health Insurance Program (CHIP) – Texas",
+      "hi": "CHIP – टेक्सास"
+    },
+    "description": {
+      "en": "Texas CHIP provides low-cost health coverage for uninsured children under 19 whose families meet income guidelines and who are not eligible for Medicaid. HHSC automatically tests CHIP when Medicaid is denied.",
+      "ml": "Texas CHIP provides low-cost health coverage for uninsured children under 19 whose families meet income guidelines and who are not eligible for Medicaid. HHSC automatically tests CHIP when Medicaid is denied.",
+      "hi": "Texas CHIP provides low-cost health coverage for uninsured children under 19 whose families meet income guidelines and who are not eligible for Medicaid. HHSC automatically tests CHIP when Medicaid is denied."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HHSC CHIP: uninsured children under 19; income guidelines; not eligible for Medicaid. Premiums/cost-sharing may apply by income tier.",
+      "verify": true,
+      "verify_notes": "Income tiers and insurance status — verify=true via hhs.texas.gov CHIP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low-cost comprehensive health coverage for eligible Texas children.",
+      "ml": "Low-cost comprehensive health coverage for eligible Texas children.",
+      "hi": "Low-cost comprehensive health coverage for eligible Texas children."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ],
+      "ml": [
+        "Child identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ],
+      "hi": [
+        "Child identity and residency",
+        "Income documentation",
+        "YourTexasBenefits application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at YourTexasBenefits.com (CHIP assessed if Medicaid denied).",
+      "ml": "Apply at YourTexasBenefits.com (CHIP assessed if Medicaid denied).",
+      "hi": "Apply at YourTexasBenefits.com (CHIP assessed if Medicaid denied)."
+    },
+    "apply_url": "https://www.yourtexasbenefits.com/",
+    "official_source_url": "https://www.hhs.texas.gov/services/health/medicaid-chip/medicaid-chip-members/chip",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Health and Human Services Commission (HHSC)",
+    "tags": [
+      "united_states",
+      "texas",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "tx-ceap-liheap",
+    "scheme_name": {
+      "en": "Comprehensive Energy Assistance Program (CEAP / LIHEAP) – Texas",
+      "ml": "Comprehensive Energy Assistance Program (CEAP / LIHEAP) – Texas",
+      "hi": "CEAP/LIHEAP – टेक्सास ऊर्जा सहायता"
+    },
+    "description": {
+      "en": "TDHCA Comprehensive Energy Assistance Program uses LIHEAP funds to help eligible low-income Texas households with utility bills. Apply through local providers (not directly to TDHCA).",
+      "ml": "TDHCA Comprehensive Energy Assistance Program uses LIHEAP funds to help eligible low-income Texas households with utility bills. Apply through local providers (not directly to TDHCA).",
+      "hi": "TDHCA Comprehensive Energy Assistance Program uses LIHEAP funds to help eligible low-income Texas households with utility bills. Apply through local providers (not directly to TDHCA)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TDHCA CEAP: typically gross income ≤150% FPL or categorical eligibility via SNAP/TANF/SSI/means-tested veterans benefits per state plan materials. Local provider capacity varies.",
+      "verify": true,
+      "verify_notes": "Income % FPL and local funding — verify=true via tdhca.texas.gov CEAP / Help for Texans.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Utility bill payment assistance and related energy help through local CEAP providers.",
+      "ml": "Utility bill payment assistance and related energy help through local CEAP providers.",
+      "hi": "Utility bill payment assistance and related energy help through local CEAP providers."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income or categorical eligibility proof",
+        "Utility bill"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income or categorical eligibility proof",
+        "Utility bill"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income or categorical eligibility proof",
+        "Utility bill"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Find a local provider via TDHCA Help for Texans (Utility Bill Payment Help) by county/city.",
+      "ml": "Find a local provider via TDHCA Help for Texans (Utility Bill Payment Help) by county/city.",
+      "hi": "Find a local provider via TDHCA Help for Texans (Utility Bill Payment Help) by county/city."
+    },
+    "apply_url": "https://www.tdhca.texas.gov/help-for-texans",
+    "official_source_url": "https://www.tdhca.texas.gov/comprehensive-energy-assistance-program-ceap",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Department of Housing and Community Affairs (TDHCA)",
+    "tags": [
+      "united_states",
+      "texas",
+      "liheap",
+      "ceap",
+      "energy"
+    ]
+  },
+  {
+    "id": "tx-healthy-texas-women",
+    "scheme_name": {
+      "en": "Healthy Texas Women (HTW)",
+      "ml": "Healthy Texas Women (HTW)",
+      "hi": "Healthy Texas Women – टेक्सास"
+    },
+    "description": {
+      "en": "Texas HHSC program providing women’s health and family-planning services for eligible Texas women who generally are not enrolled in full Medicaid, CHIP, or Medicare. Age and income rules apply.",
+      "ml": "Texas HHSC program providing women’s health and family-planning services for eligible Texas women who generally are not enrolled in full Medicaid, CHIP, or Medicare. Age and income rules apply.",
+      "hi": "Texas HHSC program providing women’s health and family-planning services for eligible Texas women who generally are not enrolled in full Medicaid, CHIP, or Medicare. Age and income rules apply."
+    },
+    "eligibility_rules": {
+      "min_age": 15,
+      "max_age": 44,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Texas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HTW (Texas Works Handbook W-110): women ages 15–44; Texas resident; income at or below published FPL percentage (handbook cites ~204.2% FPL); generally not pregnant and not receiving full Medicaid/CHIP/Medicare covering family planning. Minors 15–17 need parent/guardian to apply.",
+      "verify": true,
+      "verify_notes": "Income % FPL and insurance exclusions — verify=true via hhs.texas.gov / HealthyTexasWomen / YourTexasBenefits.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Women’s preventive and family-planning health services at participating providers at no or low cost.",
+      "ml": "Women’s preventive and family-planning health services at participating providers at no or low cost.",
+      "hi": "Women’s preventive and family-planning health services at participating providers at no or low cost."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Texas residency",
+        "Income documentation",
+        "Age proof",
+        "YourTexasBenefits or clinic application"
+      ],
+      "ml": [
+        "Identity and Texas residency",
+        "Income documentation",
+        "Age proof",
+        "YourTexasBenefits or clinic application"
+      ],
+      "hi": [
+        "Identity and Texas residency",
+        "Income documentation",
+        "Age proof",
+        "YourTexasBenefits or clinic application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at YourTexasBenefits.com or through a participating Healthy Texas Women clinic.",
+      "ml": "Apply at YourTexasBenefits.com or through a participating Healthy Texas Women clinic.",
+      "hi": "Apply at YourTexasBenefits.com or through a participating Healthy Texas Women clinic."
+    },
+    "apply_url": "https://www.yourtexasbenefits.com/",
+    "official_source_url": "https://www.hhs.texas.gov/handbooks/texas-works-handbook/w-110-healthy-texas-women-htw",
+    "last_verified": "2026-09-17",
+    "office_type": "Texas Health and Human Services Commission (HHSC)",
+    "tags": [
+      "united_states",
+      "texas",
+      "healthy_texas_women",
+      "health",
+      "women"
+    ]
+  },
+  {
+    "id": "fl-access-food-assistance",
+    "scheme_name": {
+      "en": "ACCESS Florida Food Assistance (SNAP)",
+      "ml": "ACCESS Florida Food Assistance (SNAP)",
+      "hi": "ACCESS Florida Food Assistance – SNAP"
+    },
+    "description": {
+      "en": "Florida Department of Children and Families ACCESS Florida program for SNAP food assistance. Apply through MyACCESS; documented on FloridaHealthFinder.gov consumer materials.",
+      "ml": "Florida Department of Children and Families ACCESS Florida program for SNAP food assistance. Apply through MyACCESS; documented on FloridaHealthFinder.gov consumer materials.",
+      "hi": "Florida Department of Children and Families ACCESS Florida program for SNAP food assistance. Apply through MyACCESS; documented on FloridaHealthFinder.gov consumer materials."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ACCESS Florida Food Assistance (SNAP): DCF MyACCESS application. Federal SNAP income frameworks with Florida administration. No single annual ceiling encoded. Official .gov framing via FloridaHealthFinder / AHCA consumer guide describing ACCESS food assistance.",
+      "verify": true,
+      "verify_notes": "Income/household rules — verify=true via MyACCESS / DCF and FloridaHealthFinder.gov program guide.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP food benefits via Florida EBT for eligible households.",
+      "ml": "Monthly SNAP food benefits via Florida EBT for eligible households.",
+      "hi": "Monthly SNAP food benefits via Florida EBT for eligible households."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Florida residency",
+        "Income documentation",
+        "MyACCESS application"
+      ],
+      "ml": [
+        "Identity and Florida residency",
+        "Income documentation",
+        "MyACCESS application"
+      ],
+      "hi": [
+        "Identity and Florida residency",
+        "Income documentation",
+        "MyACCESS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at myaccess.myflfamilies.com or call DCF 1-866-762-2237.",
+      "ml": "Apply at myaccess.myflfamilies.com or call DCF 1-866-762-2237.",
+      "hi": "Apply at myaccess.myflfamilies.com or call DCF 1-866-762-2237."
+    },
+    "apply_url": "https://myaccess.myflfamilies.com/",
+    "official_source_url": "https://quality.healthfinder.fl.gov/report-guides/consumer-guide-programs",
+    "last_verified": "2026-09-17",
+    "office_type": "Florida Department of Children and Families (DCF) ACCESS",
+    "tags": [
+      "united_states",
+      "florida",
+      "access",
+      "snap",
+      "food"
+    ]
+  },
+  {
+    "id": "fl-temporary-cash-assistance",
+    "scheme_name": {
+      "en": "Temporary Cash Assistance (TCA) – Florida",
+      "ml": "Temporary Cash Assistance (TCA) – Florida",
+      "hi": "Temporary Cash Assistance – फ़्लोरिडा"
+    },
+    "description": {
+      "en": "Florida’s TANF cash assistance program. Florida Statutes §414.095 sets eligibility: legal Florida resident, family with a minor child (or pregnant woman in late pregnancy), income/resource and work requirements.",
+      "ml": "Florida’s TANF cash assistance program. Florida Statutes §414.095 sets eligibility: legal Florida resident, family with a minor child (or pregnant woman in late pregnancy), income/resource and work requirements.",
+      "hi": "Florida’s TANF cash assistance program. Florida Statutes §414.095 sets eligibility: legal Florida resident, family with a minor child (or pregnant woman in late pregnancy), income/resource and work requirements."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Fla. Stat. §414.095: U.S. citizen or qualified noncitizen; Florida legal resident; family must have a minor child (or pregnant woman eligibility in last month/trimester per statute); income and resource requirements; work activities. Payment standards by family size/shelter tier published in statute. No single annual income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income/resource tests and work rules administered by DCF ACCESS — verify=true alongside statute.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly temporary cash assistance based on family size and shelter obligation tier under Florida statute.",
+      "ml": "Monthly temporary cash assistance based on family size and shelter obligation tier under Florida statute.",
+      "hi": "Monthly temporary cash assistance based on family size and shelter obligation tier under Florida statute."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "SSN or proof of SSN application",
+        "Income/resource documentation",
+        "Proof of minor child / pregnancy",
+        "MyACCESS application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "SSN or proof of SSN application",
+        "Income/resource documentation",
+        "Proof of minor child / pregnancy",
+        "MyACCESS application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "SSN or proof of SSN application",
+        "Income/resource documentation",
+        "Proof of minor child / pregnancy",
+        "MyACCESS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via MyACCESS (myaccess.myflfamilies.com) or DCF 1-866-762-2237.",
+      "ml": "Apply via MyACCESS (myaccess.myflfamilies.com) or DCF 1-866-762-2237.",
+      "hi": "Apply via MyACCESS (myaccess.myflfamilies.com) or DCF 1-866-762-2237."
+    },
+    "apply_url": "https://myaccess.myflfamilies.com/",
+    "official_source_url": "https://flsenate.gov/Laws/statutes/2025/414.095",
+    "last_verified": "2026-09-17",
+    "office_type": "Florida Department of Children and Families (DCF) ACCESS",
+    "tags": [
+      "united_states",
+      "florida",
+      "temporary_cash_assistance",
+      "tanf",
+      "cash_assistance"
+    ]
+  },
+  {
+    "id": "fl-medicaid",
+    "scheme_name": {
+      "en": "Florida Medicaid",
+      "ml": "Florida Medicaid",
+      "hi": "Florida Medicaid – फ़्लोरिडा"
+    },
+    "description": {
+      "en": "Florida Medicaid for eligible children and families, SSI recipients, and seniors/people who are blind or have a disability who meet income and asset requirements. Applications through DCF ACCESS.",
+      "ml": "Florida Medicaid for eligible children and families, SSI recipients, and seniors/people who are blind or have a disability who meet income and asset requirements. Applications through DCF ACCESS.",
+      "hi": "Florida Medicaid for eligible children and families, SSI recipients, and seniors/people who are blind or have a disability who meet income and asset requirements. Applications through DCF ACCESS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FloridaHealthFinder.gov: three basic groups — children/families including pregnant women; SSI recipients; seniors 65+ and people who are blind or have a disability — if income/asset rules met. Non-expansion adult coverage limited. No single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Category + income/asset tests — verify=true via FloridaHealthFinder / MyACCESS.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Floridians including doctor, hospital, prescriptions, and other Medicaid services (often via managed care).",
+      "ml": "Health coverage for eligible Floridians including doctor, hospital, prescriptions, and other Medicaid services (often via managed care).",
+      "hi": "Health coverage for eligible Floridians including doctor, hospital, prescriptions, and other Medicaid services (often via managed care)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income/asset documentation",
+        "MyACCESS Medicaid application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income/asset documentation",
+        "MyACCESS Medicaid application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income/asset documentation",
+        "MyACCESS Medicaid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through DCF MyACCESS or call 1-866-762-2237.",
+      "ml": "Apply through DCF MyACCESS or call 1-866-762-2237.",
+      "hi": "Apply through DCF MyACCESS or call 1-866-762-2237."
+    },
+    "apply_url": "https://myaccess.myflfamilies.com/",
+    "official_source_url": "https://quality.healthfinder.fl.gov/medicaid/florida-medicaid-general",
+    "last_verified": "2026-09-17",
+    "office_type": "Florida Agency for Health Care Administration (AHCA) / DCF eligibility",
+    "tags": [
+      "united_states",
+      "florida",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "fl-kidcare",
+    "scheme_name": {
+      "en": "Florida KidCare",
+      "ml": "Florida KidCare",
+      "hi": "Florida KidCare – फ़्लोरिडा"
+    },
+    "description": {
+      "en": "Florida’s children’s health insurance program (Medicaid + CHIP components including MediKids, Healthy Kids, CMS Health Plan) for children under 19, low or no cost depending on family income. Documented on FloridaHealthFinder.gov.",
+      "ml": "Florida’s children’s health insurance program (Medicaid + CHIP components including MediKids, Healthy Kids, CMS Health Plan) for children under 19, low or no cost depending on family income. Documented on FloridaHealthFinder.gov.",
+      "hi": "Florida’s children’s health insurance program (Medicaid + CHIP components including MediKids, Healthy Kids, CMS Health Plan) for children under 19, low or no cost depending on family income. Documented on FloridaHealthFinder.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Florida KidCare: children under 19; income-based premiums; interagency program (AHCA, DCF, DOH, Florida Healthy Kids Corporation). Families may apply via KidCare or ACCESS for children’s Medicaid.",
+      "verify": true,
+      "verify_notes": "Income guidelines and plan component (Medicaid vs CHIP) — verify=true via FloridaHealthFinder KidCare listing / floridakidcare.org apply path.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Low- or no-cost health and dental coverage for eligible Florida children under 19.",
+      "ml": "Low- or no-cost health and dental coverage for eligible Florida children under 19.",
+      "hi": "Low- or no-cost health and dental coverage for eligible Florida children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and residency",
+        "Household income documentation",
+        "KidCare or MyACCESS application"
+      ],
+      "ml": [
+        "Child identity and residency",
+        "Household income documentation",
+        "KidCare or MyACCESS application"
+      ],
+      "hi": [
+        "Child identity and residency",
+        "Household income documentation",
+        "KidCare or MyACCESS application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at floridakidcare.org or call 1-888-540-5437; children’s Medicaid also via MyACCESS.",
+      "ml": "Apply at floridakidcare.org or call 1-888-540-5437; children’s Medicaid also via MyACCESS.",
+      "hi": "Apply at floridakidcare.org or call 1-888-540-5437; children’s Medicaid also via MyACCESS."
+    },
+    "apply_url": "https://www.floridakidcare.org/",
+    "official_source_url": "https://quality.healthfinder.fl.gov/report-guides/consumer-guide-programs",
+    "last_verified": "2026-09-17",
+    "office_type": "Florida KidCare partner agencies (AHCA / DCF / DOH / Healthy Kids)",
+    "tags": [
+      "united_states",
+      "florida",
+      "kidcare",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "il-snap",
+    "scheme_name": {
+      "en": "SNAP (Food Stamps) – Illinois IDHS",
+      "ml": "SNAP (Food Stamps) – Illinois IDHS",
+      "hi": "SNAP – इलिनॉय"
+    },
+    "description": {
+      "en": "Illinois Department of Human Services administers SNAP via the ABE portal. Benefits on the Illinois Link Card. IDHS publishes gross monthly income charts (e.g. 165% FPL general; 200% FPL for elderly/disabled households) on program materials.",
+      "ml": "Illinois Department of Human Services administers SNAP via the ABE portal. Benefits on the Illinois Link Card. IDHS publishes gross monthly income charts (e.g. 165% FPL general; 200% FPL for elderly/disabled households) on program materials.",
+      "hi": "Illinois Department of Human Services administers SNAP via the ABE portal. Benefits on the Illinois Link Card. IDHS publishes gross monthly income charts (e.g. 165% FPL general; 200% FPL for elderly/disabled households) on program materials."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IDHS SNAP via ABE (abe.illinois.gov): income and household size; IDHS charts updated periodically. Work and noncitizen rules apply. Program detail also on dhs.state.il.us SNAP page. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Monthly FPL charts change — verify=true via ABE / IDHS SNAP materials.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly SNAP benefits on Illinois Link Card for grocery purchases.",
+      "ml": "Monthly SNAP benefits on Illinois Link Card for grocery purchases.",
+      "hi": "Monthly SNAP benefits on Illinois Link Card for grocery purchases."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Illinois residency",
+        "Income documentation",
+        "ABE or local FCRC application"
+      ],
+      "ml": [
+        "Identity and Illinois residency",
+        "Income documentation",
+        "ABE or local FCRC application"
+      ],
+      "hi": [
+        "Identity and Illinois residency",
+        "Income documentation",
+        "ABE or local FCRC application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at abe.illinois.gov or a Family Community Resource Center; DHS Help Line 1-800-843-6154.",
+      "ml": "Apply at abe.illinois.gov or a Family Community Resource Center; DHS Help Line 1-800-843-6154.",
+      "hi": "Apply at abe.illinois.gov or a Family Community Resource Center; DHS Help Line 1-800-843-6154."
+    },
+    "apply_url": "https://abe.illinois.gov/access/",
+    "official_source_url": "https://abe.illinois.gov/access/",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois Department of Human Services (IDHS)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "snap",
+      "food"
+    ]
+  },
+  {
+    "id": "il-tanf",
+    "scheme_name": {
+      "en": "Temporary Assistance for Needy Families (TANF) – Illinois",
+      "ml": "Temporary Assistance for Needy Families (TANF) – Illinois",
+      "hi": "TANF – इलिनॉय"
+    },
+    "description": {
+      "en": "IDHS TANF provides temporary financial assistance for pregnant women and families with one or more dependent children under 19 (18 if full-time high school student). Apply via ABE.",
+      "ml": "IDHS TANF provides temporary financial assistance for pregnant women and families with one or more dependent children under 19 (18 if full-time high school student). Apply via ABE.",
+      "hi": "IDHS TANF provides temporary financial assistance for pregnant women and families with one or more dependent children under 19 (18 if full-time high school student). Apply via ABE."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IDHS TANF: pregnant or have child under 19 living with them; Illinois resident (homeless OK); U.S. citizen or certain immigration status; self-sufficiency plan. Income limits not a single published annual ceiling on overview materials.",
+      "verify": true,
+      "verify_notes": "Income tests and time limits — verify=true via IDHS TANF / ABE.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Time-limited cash assistance for basic needs plus transitional employment and support services; may include medical assistance and SNAP if eligible.",
+      "ml": "Time-limited cash assistance for basic needs plus transitional employment and support services; may include medical assistance and SNAP if eligible.",
+      "hi": "Time-limited cash assistance for basic needs plus transitional employment and support services; may include medical assistance and SNAP if eligible."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "ABE application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "ABE application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "Proof of pregnancy or dependent children",
+        "ABE application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via ABE (abe.illinois.gov) or at a local Family Community Resource Center.",
+      "ml": "Apply online via ABE (abe.illinois.gov) or at a local Family Community Resource Center.",
+      "hi": "Apply online via ABE (abe.illinois.gov) or at a local Family Community Resource Center."
+    },
+    "apply_url": "https://abe.illinois.gov/access/",
+    "official_source_url": "https://abe.illinois.gov/access/",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois Department of Human Services (IDHS)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "tanf",
+      "cash_assistance"
+    ]
+  },
+  {
+    "id": "il-aabd",
+    "scheme_name": {
+      "en": "Aid to the Aged, Blind, and Disabled (AABD) – Illinois",
+      "ml": "Aid to the Aged, Blind, and Disabled (AABD) – Illinois",
+      "hi": "AABD – इलिनॉय"
+    },
+    "description": {
+      "en": "IDHS Aid to the Aged, Blind, and Disabled provides cash and/or medical assistance for eligible Illinois residents who are 65 or older, blind, or disabled. Apply via ABE.",
+      "ml": "IDHS Aid to the Aged, Blind, and Disabled provides cash and/or medical assistance for eligible Illinois residents who are 65 or older, blind, or disabled. Apply via ABE.",
+      "hi": "IDHS Aid to the Aged, Blind, and Disabled provides cash and/or medical assistance for eligible Illinois residents who are 65 or older, blind, or disabled. Apply via ABE."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "IDHS AABD: aged 65+, blind, or disabled; Illinois residency and financial eligibility. Blind/disabled under 65 also eligible — min_age encodes aged path; disability path needs verify. Detail pages also on dhs.state.il.us.",
+      "verify": true,
+      "verify_notes": "Financial eligibility and disability determinations — verify=true via IDHS AABD / ABE. Blind/disabled under 65 may qualify.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Cash assistance and/or medical benefits for eligible aged, blind, or disabled Illinois residents.",
+      "ml": "Cash assistance and/or medical benefits for eligible aged, blind, or disabled Illinois residents.",
+      "hi": "Cash assistance and/or medical benefits for eligible aged, blind, or disabled Illinois residents."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Age, blindness, or disability documentation",
+        "Income/resource proof",
+        "ABE application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Age, blindness, or disability documentation",
+        "Income/resource proof",
+        "ABE application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Age, blindness, or disability documentation",
+        "Income/resource proof",
+        "ABE application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ABE (abe.illinois.gov) or local IDHS office.",
+      "ml": "Apply via ABE (abe.illinois.gov) or local IDHS office.",
+      "hi": "Apply via ABE (abe.illinois.gov) or local IDHS office."
+    },
+    "apply_url": "https://abe.illinois.gov/access/",
+    "official_source_url": "https://abe.illinois.gov/access/",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois Department of Human Services (IDHS)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "aabd",
+      "cash_assistance",
+      "elderly",
+      "disability"
+    ]
+  },
+  {
+    "id": "il-all-kids",
+    "scheme_name": {
+      "en": "All Kids – Illinois children’s health coverage",
+      "ml": "All Kids – Illinois children’s health coverage",
+      "hi": "All Kids – इलिनॉय"
+    },
+    "description": {
+      "en": "Illinois All Kids provides comprehensive, affordable health insurance for children age 18 or younger who live in Illinois and meet income and insurance requirements, regardless of immigration status.",
+      "ml": "Illinois All Kids provides comprehensive, affordable health insurance for children age 18 or younger who live in Illinois and meet income and insurance requirements, regardless of immigration status.",
+      "hi": "Illinois All Kids provides comprehensive, affordable health insurance for children age 18 or younger who live in Illinois and meet income and insurance requirements, regardless of immigration status."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HFS All Kids: live in Illinois; age 18 or younger; meet insurance requirements and All Kids income limits (Assist/Share/Premium tiers; charts updated with FPL). Custodial parent must apply.",
+      "verify": true,
+      "verify_notes": "Income tier and cost-sharing charts — verify=true via hfs.illinois.gov All Kids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Complete health insurance for children including doctor, hospital, prescriptions, vision, dental, and eyeglasses; well-child visits free of co-pay.",
+      "ml": "Complete health insurance for children including doctor, hospital, prescriptions, vision, dental, and eyeglasses; well-child visits free of co-pay.",
+      "hi": "Complete health insurance for children including doctor, hospital, prescriptions, vision, dental, and eyeglasses; well-child visits free of co-pay."
+    },
+    "required_documents": {
+      "en": [
+        "Child identity and Illinois residency",
+        "Household income documentation",
+        "ABE / All Kids application"
+      ],
+      "ml": [
+        "Child identity and Illinois residency",
+        "Household income documentation",
+        "ABE / All Kids application"
+      ],
+      "hi": [
+        "Child identity and Illinois residency",
+        "Household income documentation",
+        "ABE / All Kids application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via ABE online, All Kids Application Agents, or call 1-866-255-5437.",
+      "ml": "Apply via ABE online, All Kids Application Agents, or call 1-866-255-5437.",
+      "hi": "Apply via ABE online, All Kids Application Agents, or call 1-866-255-5437."
+    },
+    "apply_url": "https://abe.illinois.gov/access/",
+    "official_source_url": "https://hfs.illinois.gov/medicalprograms/allkids/about.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois Department of Healthcare and Family Services (HFS)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "all_kids",
+      "chip",
+      "health",
+      "children"
+    ]
+  },
+  {
+    "id": "il-liheap",
+    "scheme_name": {
+      "en": "LIHEAP / Utility Bill Assistance – Illinois DCEO",
+      "ml": "LIHEAP / Utility Bill Assistance – Illinois DCEO",
+      "hi": "LIHEAP – इलिनॉय ऊर्जा सहायता"
+    },
+    "description": {
+      "en": "Illinois LIHEAP (utility bill assistance) administered through DCEO / Help Illinois Families. Helps eligible low-income households with heating and cooling costs; seasonal application windows.",
+      "ml": "Illinois LIHEAP (utility bill assistance) administered through DCEO / Help Illinois Families. Helps eligible low-income households with heating and cooling costs; seasonal application windows.",
+      "hi": "Illinois LIHEAP (utility bill assistance) administered through DCEO / Help Illinois Families. Helps eligible low-income households with heating and cooling costs; seasonal application windows."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DCEO utility bill assistance / LIHEAP: income-eligible households; priority groups and open dates (e.g. FY windows) published by DCEO. SNAP/TANF/AABD recipients often bring proof of those benefits.",
+      "verify": true,
+      "verify_notes": "Seasonal income limits and funding — verify=true via dceo.illinois.gov utility bill assistance.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying heating/cooling utility bills through the Illinois LIHEAP network.",
+      "ml": "Help paying heating/cooling utility bills through the Illinois LIHEAP network.",
+      "hi": "Help paying heating/cooling utility bills through the Illinois LIHEAP network."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income or benefit proof",
+        "Utility account information"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income or benefit proof",
+        "Utility account information"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income or benefit proof",
+        "Utility account information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Help Illinois Families / DCEO how-to-apply guidance or call numbers listed on dceo.illinois.gov.",
+      "ml": "Apply via Help Illinois Families / DCEO how-to-apply guidance or call numbers listed on dceo.illinois.gov.",
+      "hi": "Apply via Help Illinois Families / DCEO how-to-apply guidance or call numbers listed on dceo.illinois.gov."
+    },
+    "apply_url": "https://dceo.illinois.gov/communityservices/utilitybillassistance/howtoapply.html",
+    "official_source_url": "https://dceo.illinois.gov/communityservices/utilitybillassistance/howtoapply.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois Department of Commerce and Economic Opportunity (DCEO)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "liheap",
+      "energy"
+    ]
+  },
+  {
+    "id": "il-medicaid",
+    "scheme_name": {
+      "en": "Medicaid / Medical Assistance – Illinois",
+      "ml": "Medicaid / Medical Assistance – Illinois",
+      "hi": "Medicaid – इलिनॉय"
+    },
+    "description": {
+      "en": "Illinois medical assistance programs administered with HFS policy and IDHS eligibility (ABE). Covers eligible children, families, pregnant people, seniors, and people with disabilities based on income and category.",
+      "ml": "Illinois medical assistance programs administered with HFS policy and IDHS eligibility (ABE). Covers eligible children, families, pregnant people, seniors, and people with disabilities based on income and category.",
+      "hi": "Illinois medical assistance programs administered with HFS policy and IDHS eligibility (ABE). Covers eligible children, families, pregnant people, seniors, and people with disabilities based on income and category."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Illinois"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Illinois Medicaid/medical programs: multiple pathways (All Kids related, ACA adult, AABD medical, etc.). Apply via ABE. No single income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Program pathway and MAGI limits — verify=true via hfs.illinois.gov / ABE.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Health coverage for eligible Illinois residents under HFS medical programs.",
+      "ml": "Health coverage for eligible Illinois residents under HFS medical programs.",
+      "hi": "Health coverage for eligible Illinois residents under HFS medical programs."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income documentation",
+        "ABE medical application"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income documentation",
+        "ABE medical application"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income documentation",
+        "ABE medical application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at abe.illinois.gov for medical benefits / Medicaid.",
+      "ml": "Apply at abe.illinois.gov for medical benefits / Medicaid.",
+      "hi": "Apply at abe.illinois.gov for medical benefits / Medicaid."
+    },
+    "apply_url": "https://abe.illinois.gov/access/",
+    "official_source_url": "https://hfs.illinois.gov/medicalclients/medicalprograms.html",
+    "last_verified": "2026-09-17",
+    "office_type": "Illinois HFS / IDHS (ABE)",
+    "tags": [
+      "united_states",
+      "illinois",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "fl-wic",
+    "scheme_name": {
+      "en": "Florida WIC (Women, Infants, and Children)",
+      "ml": "Florida WIC (Women, Infants, and Children)",
+      "hi": "Florida WIC – फ़्लोरिडा"
+    },
+    "description": {
+      "en": "Florida Department of Health WIC program provides free healthy foods, breastfeeding support, nutrition education, and referrals for eligible pregnant/breastfeeding/postpartum women, infants, and children under 5 who live in Florida, have low or moderate income, and are at nutrition risk.",
+      "ml": "Florida Department of Health WIC program provides free healthy foods, breastfeeding support, nutrition education, and referrals for eligible pregnant/breastfeeding/postpartum women, infants, and children under 5 who live in Florida, have low or moderate income, and are at nutrition risk.",
+      "hi": "Florida Department of Health WIC program provides free healthy foods, breastfeeding support, nutrition education, and referrals for eligible pregnant/breastfeeding/postpartum women, infants, and children under 5 who live in Florida, have low or moderate income, and are at nutrition risk."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Florida DOH WIC: pregnant/breastfeeding/postpartum women, infants, and children under 5; Florida resident; nutrition risk; income at or below published WIC guidelines OR currently receiving Medicaid, TCA, or food assistance. No age hard-filter encoded because adult pregnant women and children under 5 are both eligible.",
+      "verify": true,
+      "verify_notes": "Target population (pregnancy/postpartum/child under 5) and nutrition-risk assessment not fully in wizard — verify=true via county WIC / floridahealth.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free healthy foods, breastfeeding support, nutrition education, and referrals to health care and community services.",
+      "ml": "Free healthy foods, breastfeeding support, nutrition education, and referrals to health care and community services.",
+      "hi": "Free healthy foods, breastfeeding support, nutrition education, and referrals to health care and community services."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of Florida address",
+        "Identity for applicant and children",
+        "Income proof or Medicaid/TCA/SNAP proof",
+        "County WIC certification appointment"
+      ],
+      "ml": [
+        "Proof of Florida address",
+        "Identity for applicant and children",
+        "Income proof or Medicaid/TCA/SNAP proof",
+        "County WIC certification appointment"
+      ],
+      "hi": [
+        "Proof of Florida address",
+        "Identity for applicant and children",
+        "Income proof or Medicaid/TCA/SNAP proof",
+        "County WIC certification appointment"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your county health department WIC office to schedule a certification appointment (State WIC Office 1-800-342-3556).",
+      "ml": "Contact your county health department WIC office to schedule a certification appointment (State WIC Office 1-800-342-3556).",
+      "hi": "Contact your county health department WIC office to schedule a certification appointment (State WIC Office 1-800-342-3556)."
+    },
+    "apply_url": "https://www.floridahealth.gov/individual-family-health/womens-health/wic/",
+    "official_source_url": "https://www.floridahealth.gov/individual-family-health/womens-health/wic/",
+    "last_verified": "2026-09-17",
+    "office_type": "Florida Department of Health / county WIC offices",
+    "tags": [
+      "united_states",
+      "florida",
+      "wic",
+      "food",
+      "nutrition",
+      "women",
+      "children"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 # Source audit — Scheme Finder catalogue
 
-**Audit date:** 2026-09-16 (Asia/Calcutta / IST)
+**Audit date:** 2026-09-17 (Asia/Calcutta / IST)
 **Schemes audited:** 225
 
 ## Policy
@@ -14,6 +14,14 @@
 ## United States federal starter set (2026-09-17 IST)
 
 Added 12 federal US catalogue rows (`us-*`) with `.gov` official sources (fns.usda.gov, medicaid.gov, ssa.gov, acf.hhs.gov, hud.gov, dol.gov, medicare.gov, insurekidsnow.gov). Prefer federal framing; income ceilings left unstructured when state-variable (`verify=true`). Domain policy extended to include `*.gov` (US) alongside existing `*.gov.in` / neighbour TLDs.
+
+
+## United States Wave 1 state deepen (2026-09-17 IST)
+
+Added **31** state-tagged schemes for **California, New York, Texas, Florida, Illinois** (`nationwide:false`, `states` matching COUNTRY_REGIONS exact names). Official sources are `.gov` only (cdss/dhcs/csd/ftb.ca.gov; otda/health/nyc.gov; hhs/tdhca.texas.gov; healthfinder/flsenate/floridahealth.gov; abe/hfs/dceo.illinois.gov). Federal `us-*` rows not duplicated or weakened. All new rows `verify=true`; income ceilings encoded only where clearly published (CalEITC TY2025 max $32,900).
+
+**Skipped (no clear `.gov` eligibility page or not a fit):** Covered California marketplace (private plans / careful); Florida LIHEAP primary pages on floridajobs.org (not `.gov`); Illinois IDHS narrative pages on `dhs.state.il.us` used as notes only with `abe.illinois.gov` / `hfs.illinois.gov` / `dceo.illinois.gov` as official_source_url.
+
 
 ## Summary
 

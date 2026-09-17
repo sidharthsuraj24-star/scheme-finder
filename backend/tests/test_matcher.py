@@ -1549,3 +1549,91 @@ def test_india_profile_does_not_match_us_schemes(schemes, profiles):
     assert "us-snap" not in ids
     assert "us-ssi" not in ids
     assert "us-medicare" not in ids
+
+
+# ---------------------------------------------------------------------------
+# US Wave 1 state deepen (CA / NY / TX / FL / IL)
+# ---------------------------------------------------------------------------
+
+
+def test_ca_profile_matches_ca_and_federal_us(schemes):
+    """California low-income senior matches ca-* state rows and federal us-* nationwide."""
+    profile = MatchProfile(
+        country="United States",
+        age=70,
+        gender="female",
+        state="California",
+        district="Los Angeles",
+        marital_status="widow",
+        annual_income=12000,
+        monthly_household_income=1000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        disability_percent=0,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "ca-calfresh" in ids
+    assert "ca-medi-cal" in ids
+    assert "ca-ssi-ssp" in ids
+    assert "us-snap" in ids
+    assert "us-ssi" in ids
+    assert "us-medicare" in ids
+    assert "tx-snap" not in ids
+    assert "ny-snap" not in ids
+    assert "kerala-old-age-pension" not in ids
+    assert "pm-kisan" not in ids
+
+
+def test_tx_profile_does_not_match_ca_schemes(schemes):
+    """Texas profile must not match California-only schemes; may match tx-* and federal us-*."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="female",
+        state="Texas",
+        district="Harris",
+        marital_status="married",
+        annual_income=15000,
+        occupations=["other"],
+        categories=[],
+        disability=False,
+        land_ownership="none",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    ca_ids = {s["id"] for s in schemes if s["id"].startswith("ca-")}
+    assert ids & ca_ids == set()
+    assert any(e.scheme_id == "ca-calfresh" and "states" in e.reasons for e in resp.excluded)
+    assert "tx-snap" in ids or "tx-medicaid" in ids or "tx-tanf" in ids
+    assert "us-snap" in ids
+
+
+def test_india_profile_does_not_match_us_or_ca_schemes(schemes, profiles):
+    """India Kerala profile must not match federal us-* or Wave 1 ca-* state schemes."""
+    profile = _profile_from_sample(profiles["profile-senior-destitute"])
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-snap" not in ids
+    assert "us-ssi" not in ids
+    assert "ca-calfresh" not in ids
+    assert "ca-calworks" not in ids
+    assert "tx-snap" not in ids
+    assert "il-snap" not in ids
+    assert "kerala-old-age-pension" in ids
+
+
+def test_catalogue_covers_us_wave1_states(schemes):
+    by_state = set()
+    for s in schemes:
+        rules = s.get("eligibility_rules") or {}
+        if rules.get("nationwide"):
+            continue
+        if "United States" not in (rules.get("countries") or []):
+            continue
+        for st in rules.get("states") or []:
+            by_state.add(st)
+    for required in ("California", "New York", "Texas", "Florida", "Illinois"):
+        assert required in by_state, required
