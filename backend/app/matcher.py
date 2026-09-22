@@ -480,17 +480,132 @@ def _score(result: RuleResult) -> float:
     return len(result.matched) / total
 
 
+# ---------------------------------------------------------------------------
+# Geo candidate index — prune schemes that hard-fail on country/state only.
+# Eligibility semantics unchanged: non-candidates are recorded as excluded
+# with the same geo reason evaluate_scheme would emit first.
+# ---------------------------------------------------------------------------
+
+
+def _scheme_geo_meta(scheme: dict[str, Any]) -> tuple[frozenset[str], frozenset[str], bool]:
+    """Return (countries_norm, states_norm, is_nationwide) matching evaluate_scheme."""
+    rules = scheme.get("eligibility_rules") or {}
+    raw_countries = rules.get("countries") or []
+    if not raw_countries:
+        raw_countries = ["India"]
+    countries = frozenset(_norm(c) for c in raw_countries if _norm(c))
+    scheme_states = rules.get("states") or []
+    states = frozenset(_norm(s) for s in scheme_states if _norm(s))
+    nationwide_flag = bool(rules.get("nationwide") or scheme.get("nationwide"))
+    is_nationwide = (
+        nationwide_flag
+        or not scheme_states
+        or "india" in states
+        or "all_india" in states
+    )
+    return countries, states, is_nationwide
+
+
+_GEO_REASON_COUNTRIES = ["countries"]
+_GEO_REASON_STATES = ["states"]
+
+
+class SchemeGeoIndex:
+    """Precomputed country / (country, state) indexes including nationwide schemes.
+
+    Built once per catalogue load. partition() returns candidates for full
+    evaluate_scheme plus cheap geo-only exclusions for the rest.
+    """
+
+    __slots__ = (
+        "schemes",
+        "_countries",
+        "_by_country",
+        "_nationwide_by_country",
+        "_by_country_state",
+    )
+
+    def __init__(self, schemes: list[dict[str, Any]]) -> None:
+        self.schemes = schemes
+        n = len(schemes)
+        self._countries: list[frozenset[str]] = [frozenset()] * n
+        self._by_country: dict[str, list[int]] = {}
+        self._nationwide_by_country: dict[str, list[int]] = {}
+        self._by_country_state: dict[tuple[str, str], list[int]] = {}
+
+        for i, scheme in enumerate(schemes):
+            countries, states, is_nationwide = _scheme_geo_meta(scheme)
+            self._countries[i] = countries
+            for c in countries:
+                self._by_country.setdefault(c, []).append(i)
+                if is_nationwide:
+                    self._nationwide_by_country.setdefault(c, []).append(i)
+                else:
+                    for st in states:
+                        self._by_country_state.setdefault((c, st), []).append(i)
+
+    def partition(
+        self, profile: MatchProfile
+    ) -> tuple[list[dict[str, Any]], list[ExcludedScheme]]:
+        """Split catalogue into geo-viable candidates and geo hard-fails."""
+        profile_country = _norm(
+            (getattr(profile, "country", None) or "India").strip() or "India"
+        )
+        profile_state = (profile.state or "").strip()
+        profile_state_n = _norm(profile_state) if profile_state else ""
+
+        if profile_state_n:
+            idx_list = list(self._nationwide_by_country.get(profile_country, ()))
+            idx_list.extend(self._by_country_state.get((profile_country, profile_state_n), ()))
+            # Catalogue order, unique
+            idx_list = sorted(set(idx_list))
+        else:
+            # Missing state → uncertain (miss), not hard-fail — keep all country schemes.
+            idx_list = list(self._by_country.get(profile_country, ()))
+
+        cand_set = set(idx_list)
+        candidates = [self.schemes[i] for i in idx_list]
+        # Shared reason lists — avoid per-scheme list alloc; model_construct skips validation.
+        geo_excluded: list[ExcludedScheme] = []
+        for i, scheme in enumerate(self.schemes):
+            if i in cand_set:
+                continue
+            reasons = (
+                _GEO_REASON_COUNTRIES
+                if profile_country not in self._countries[i]
+                else _GEO_REASON_STATES
+            )
+            geo_excluded.append(
+                ExcludedScheme.model_construct(
+                    scheme_id=scheme["id"],
+                    status="not_eligible",
+                    reasons=reasons,
+                )
+            )
+        return candidates, geo_excluded
+
+
 def match_schemes(
     schemes: list[dict[str, Any]],
     profile: MatchProfile,
     options: MatchOptions | None = None,
+    *,
+    geo_index: SchemeGeoIndex | None = None,
+    prune_geo: bool = True,
 ) -> MatchResponse:
     options = options or MatchOptions()
     matched: list[MatchedScheme] = []
     excluded: list[ExcludedScheme] = []
     needs_verification: list[NeedsVerificationItem] = []
 
-    for scheme in schemes:
+    if prune_geo:
+        index = geo_index if geo_index is not None else SchemeGeoIndex(schemes)
+        candidates, geo_excluded = index.partition(profile)
+        excluded.extend(geo_excluded)
+    else:
+        candidates = schemes
+
+    for scheme in candidates:
         rules = scheme.get("eligibility_rules") or {}
         verify = bool(rules.get("verify"))
         verify_notes = rules.get("verify_notes") or ""

@@ -119,6 +119,46 @@ cache, compose stack, and migration path. Capacity is a billing + ops problem.
 | `CORS_ORIGINS` | `*` (dev) / empty (prod) | Browser origins for dedicated API |
 | `NEXT_PUBLIC_API_URL` | empty | Frontend → dedicated API base |
 
+
+
+## Local multi-worker uvicorn (single machine)
+
+A single uvicorn worker is CPU-bound on `/match` (process holds the catalogue in
+memory; geo indexes prune candidates, but one event-loop still serializes
+CPU-heavy evaluation under high concurrency — p95 rises sharply around c=100).
+
+For **local scale** on one host, run multiple workers (each loads its own
+catalogue + geo index):
+
+```bash
+cd backend
+RATE_LIMIT_MAX=100000 MATCH_CACHE_TTL_SEC=0 \
+  .venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 4
+```
+
+Notes:
+
+- `--workers N` = N processes. In-memory rate limits are **per worker**; set
+  `REDIS_URL` for a shared limiter when using more than one worker.
+- Match cache (`MATCH_CACHE_TTL_SEC`) is Redis-only; leave at `0` for cold-path
+  load tests.
+- Tip: compare single-worker vs multi-worker with the same harness:
+
+```bash
+# Single worker baseline / regression
+RATE_LIMIT_MAX=100000 MATCH_CACHE_TTL_SEC=0 \
+  backend/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 20 --requests 200 --profile india
+python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 50 --requests 500 --profile india
+python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 100 --requests 1000 --profile india
+```
+
+Horizontal scale across machines still needs Redis + a load balancer (see
+compose / Fly / Render above). Geo candidate pruning (country / state indexes)
+cuts per-request scheme evaluations when `profile.country` / `state` are set;
+it does **not** invent or alter eligibility rules.
+
 ## Related
 
 - `docs/DEPLOY.md` — deploy paths and Phase 1 pointer

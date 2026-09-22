@@ -184,7 +184,7 @@ def match(request: MatchRequest) -> MatchResponse:
         return MatchResponse(**cached)
 
     store = get_store()
-    result = match_schemes(store.schemes, profile, options)
+    result = match_schemes(store.schemes, profile, options, geo_index=store.geo_index)
     set_cached_match(profile_dump, options_dump, result.model_dump())
     return result
 

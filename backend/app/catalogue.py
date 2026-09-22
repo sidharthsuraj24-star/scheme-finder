@@ -32,19 +32,28 @@ def catalogue_meta_path() -> Path:
     return candidates[0]
 
 
-def load_catalogue_meta() -> dict[str, Any]:
+_META_CACHE: dict[str, Any] | None = None
+
+
+def load_catalogue_meta(*, force_reload: bool = False) -> dict[str, Any]:
+    global _META_CACHE
+    if _META_CACHE is not None and not force_reload:
+        return _META_CACHE
     path = catalogue_meta_path()
     if not path.is_file():
-        return dict(_DEFAULT_META)
+        _META_CACHE = dict(_DEFAULT_META)
+        return _META_CACHE
     with path.open(encoding="utf-8") as fh:
         data = json.load(fh)
     if not isinstance(data, dict):
-        return dict(_DEFAULT_META)
+        _META_CACHE = dict(_DEFAULT_META)
+        return _META_CACHE
     out = dict(_DEFAULT_META)
     out.update(data)
     out.setdefault("stale_after_days", 30)
     out.setdefault("disclaimer", _DEFAULT_META["disclaimer"])
-    return out
+    _META_CACHE = out
+    return _META_CACHE
 
 
 def days_since_updated(as_of: str, today: date | None = None) -> int:

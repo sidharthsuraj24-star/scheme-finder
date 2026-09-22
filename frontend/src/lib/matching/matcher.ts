@@ -447,6 +447,116 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   return result;
 }
 
+
+/** Geo meta matching evaluateScheme country/state hard-fail rules. */
+function schemeGeoMeta(scheme: SchemeRecord): {
+  countries: Set<string>;
+  states: Set<string>;
+  isNationwide: boolean;
+} {
+  const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
+  let rawCountries = (rules.countries as string[] | undefined) || [];
+  if (!rawCountries.length) rawCountries = ["India"];
+  const countries = new Set(rawCountries.map(norm).filter(Boolean));
+  const schemeStates = (rules.states as string[] | undefined) || [];
+  const states = new Set(schemeStates.map(norm).filter(Boolean));
+  const nationwideFlag =
+    Boolean(rules.nationwide) || Boolean((scheme as { nationwide?: boolean }).nationwide);
+  const isNationwide =
+    nationwideFlag ||
+    schemeStates.length === 0 ||
+    states.has("india") ||
+    states.has("all_india");
+  return { countries, states, isNationwide };
+}
+
+/** Precomputed country / (country, state) indexes including nationwide schemes. */
+export class SchemeGeoIndex {
+  readonly schemes: SchemeRecord[];
+  private countries: Set<string>[];
+  private byCountry: Map<string, number[]> = new Map();
+  private nationwideByCountry: Map<string, number[]> = new Map();
+  private byCountryState: Map<string, number[]> = new Map();
+
+  constructor(schemes: SchemeRecord[]) {
+    this.schemes = schemes;
+    this.countries = new Array(schemes.length);
+    for (let i = 0; i < schemes.length; i++) {
+      const { countries, states, isNationwide } = schemeGeoMeta(schemes[i]);
+      this.countries[i] = countries;
+      for (const c of countries) {
+        let list = this.byCountry.get(c);
+        if (!list) {
+          list = [];
+          this.byCountry.set(c, list);
+        }
+        list.push(i);
+        if (isNationwide) {
+          let nw = this.nationwideByCountry.get(c);
+          if (!nw) {
+            nw = [];
+            this.nationwideByCountry.set(c, nw);
+          }
+          nw.push(i);
+        } else {
+          for (const st of states) {
+            const key = `${c}\0${st}`;
+            let bucket = this.byCountryState.get(key);
+            if (!bucket) {
+              bucket = [];
+              this.byCountryState.set(key, bucket);
+            }
+            bucket.push(i);
+          }
+        }
+      }
+    }
+  }
+
+  partition(profile: MatchProfile): {
+    candidates: SchemeRecord[];
+    geoExcluded: ExcludedScheme[];
+  } {
+    const profileCountry = norm((profile.country || "India").trim() || "India");
+    const profileState = (profile.state || "").trim();
+    const profileStateN = profileState ? norm(profileState) : "";
+
+    let idxList: number[];
+    if (profileStateN) {
+      const nw = this.nationwideByCountry.get(profileCountry) || [];
+      const st = this.byCountryState.get(`${profileCountry}\0${profileStateN}`) || [];
+      idxList = Array.from(new Set([...nw, ...st])).sort((a, b) => a - b);
+    } else {
+      idxList = [...(this.byCountry.get(profileCountry) || [])];
+    }
+
+    const candSet = new Set(idxList);
+    const candidates = idxList.map((i) => this.schemes[i]);
+    const geoExcluded: ExcludedScheme[] = [];
+    for (let i = 0; i < this.schemes.length; i++) {
+      if (candSet.has(i)) continue;
+      const reason = this.countries[i].has(profileCountry) ? "states" : "countries";
+      geoExcluded.push({
+        scheme_id: this.schemes[i].id,
+        status: "not_eligible",
+        reasons: [reason],
+      });
+    }
+    return { candidates, geoExcluded };
+  }
+}
+
+const _geoIndexCache = new WeakMap<SchemeRecord[], SchemeGeoIndex>();
+
+function geoIndexFor(schemes: SchemeRecord[]): SchemeGeoIndex {
+  let idx = _geoIndexCache.get(schemes);
+  if (!idx) {
+    idx = new SchemeGeoIndex(schemes);
+    _geoIndexCache.set(schemes, idx);
+  }
+  return idx;
+}
+
 function score(result: RuleResult): number {
   if (result.hard_fail) return 0;
   const total = result.matched.length + result.unmatched.length + result.missing.length;
@@ -469,7 +579,10 @@ export function matchSchemes(
   const excluded: ExcludedScheme[] = [];
   const needs_verification: NeedsVerificationItem[] = [];
 
-  for (const scheme of schemes) {
+  const { candidates, geoExcluded } = geoIndexFor(schemes).partition(profile);
+  excluded.push(...geoExcluded);
+
+  for (const scheme of candidates) {
     const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
     const verify = Boolean(rules.verify);
     const verify_notes = String(rules.verify_notes || "");

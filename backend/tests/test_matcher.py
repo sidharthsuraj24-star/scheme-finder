@@ -8,7 +8,7 @@ from pathlib import Path
 import pytest
 
 from app.db import SchemeStore, reset_store
-from app.matcher import evaluate_scheme, match_schemes, profile_has_land
+from app.matcher import SchemeGeoIndex, evaluate_scheme, match_schemes, profile_has_land
 from app.models import MatchOptions, MatchProfile, MatchRequest
 from app.schemes_loader import load_schemes
 
@@ -2633,3 +2633,55 @@ def test_catalogue_covers_all_us_states_and_dc(schemes):
     missing = sorted(required - by_state)
     assert not missing, f"US states/DC missing local packs: {missing}"
     assert len(required & by_state) == 51
+
+
+# ---------------------------------------------------------------------------
+# Geo candidate pruning — must preserve matched / excluded IDs vs full scan
+# ---------------------------------------------------------------------------
+
+
+def test_geo_pruning_same_ids_as_full_scan(schemes):
+    """Country/state pruning must return the same match and exclude IDs as a full scan."""
+    samples = [
+        MatchProfile(
+            age=68,
+            gender="female",
+            country="India",
+            state="Kerala",
+            district="Thiruvananthapuram",
+            monthly_household_income=4000,
+            occupations=["homemaker"],
+            categories=["general"],
+        ),
+        MatchProfile(
+            age=45,
+            gender="male",
+            country="United States",
+            state="California",
+            annual_income=35000,
+            occupations=["worker"],
+            categories=["general"],
+        ),
+        MatchProfile(
+            age=30,
+            gender="female",
+            country="India",
+            state="Tamil Nadu",
+            monthly_household_income=8000,
+            occupations=["student"],
+            categories=["sc"],
+        ),
+    ]
+    index = SchemeGeoIndex(schemes)
+    for profile in samples:
+        full = match_schemes(schemes, profile, prune_geo=False)
+        pruned = match_schemes(schemes, profile, geo_index=index, prune_geo=True)
+        assert {m.scheme_id for m in full.matched} == {m.scheme_id for m in pruned.matched}
+        assert {e.scheme_id for e in full.excluded} == {e.scheme_id for e in pruned.excluded}
+        # Status per matched id must match (eligibility semantics unchanged).
+        full_status = {m.scheme_id: m.status for m in full.matched}
+        pruned_status = {m.scheme_id: m.status for m in pruned.matched}
+        assert full_status == pruned_status
+        # Pruning must actually shrink the evaluate set when state is set.
+        cands, _ = index.partition(profile)
+        assert len(cands) < len(schemes)

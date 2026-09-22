@@ -12,6 +12,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+from .matcher import SchemeGeoIndex
 from .schemes_loader import index_by_id, load_schemes
 
 
@@ -21,10 +22,15 @@ class SchemeStore:
     def __init__(self, schemes: list[dict[str, Any]] | None = None) -> None:
         self._schemes: list[dict[str, Any]] = schemes if schemes is not None else load_schemes()
         self._by_id: dict[str, dict[str, Any]] = index_by_id(self._schemes)
+        self._geo_index = SchemeGeoIndex(self._schemes)
 
     @property
     def schemes(self) -> list[dict[str, Any]]:
         return self._schemes
+
+    @property
+    def geo_index(self) -> SchemeGeoIndex:
+        return self._geo_index
 
     def get(self, scheme_id: str) -> dict[str, Any] | None:
         return self._by_id.get(scheme_id)
