@@ -72,3 +72,19 @@ See `docs/DATA_REFRESH.md` and `data/catalogue_meta.json` (`updated_as_of: 2026-
 - Verified 2026-09-08: `GET /api/health` → ok · `POST /api/match` → matches (same-origin, empty `NEXT_PUBLIC_API_URL`)
 - **Prod auth blocker:** `Error: No existing credentials found. Run vercel deploy --temporary ... or vercel login`. Plain `npx vercel deploy --yes` and `--prod` fail without `VERCEL_TOKEN` / login. Anonymous path that works: `npx vercel@latest deploy --yes --temporary`.
 
+
+## Phase 1 scale foundation
+
+For horizontal scale (Redis rate limits, readiness, optional match cache, split
+frontend/API deploy), see **`docs/SCALE.md`**.
+
+Quick local stack:
+
+```bash
+docker compose -f docker-compose.scale.yml up --build
+curl -s http://127.0.0.1:8000/ready
+python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 20 --requests 200
+```
+
+Env highlights: `REDIS_URL`, `MATCH_CACHE_TTL_SEC`, frontend `UPSTASH_REDIS_REST_URL` +
+`UPSTASH_REDIS_REST_TOKEN` for Vercel multi-instance rate limits.

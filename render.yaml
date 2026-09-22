@@ -1,6 +1,8 @@
-# Render Blueprint — free web service for Scheme Finder API
+# Render Blueprint — web service for Scheme Finder API
 # Dashboard: New + > Blueprint > connect this repo
 # Free tier may sleep after inactivity; Render account login required.
+# Phase 1 scale: attach a Redis instance (or Upstash) and set REDIS_URL.
+# Optional: MATCH_CACHE_TTL_SEC (default 0=off). See docs/SCALE.md.
 services:
   - type: web
     name: scheme-finder-api
@@ -17,4 +19,12 @@ services:
       - key: LLM_API_KEY
         sync: false
       - key: CORS_ORIGINS
+        sync: false
+      - key: REDIS_URL
+        sync: false
+      - key: MATCH_CACHE_TTL_SEC
+        sync: false
+      - key: RATE_LIMIT_MAX
+        sync: false
+      - key: RATE_LIMIT_WINDOW_SEC
         sync: false

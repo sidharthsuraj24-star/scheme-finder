@@ -7,11 +7,13 @@ from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from . import __version__
 from .catalogue import catalogue_payload
 from .db import get_store
 from .explanations import DISCLAIMER_EN, build_explanation, generator_mode
+from .match_cache import get_cached_match, match_cache_ttl_sec, set_cached_match
 from .matcher import evaluate_scheme, match_schemes
 from .models import (
     ErrorBody,
@@ -24,6 +26,7 @@ from .models import (
     SchemeListResponse,
     SchemeSummary,
 )
+from .redis_client import ping_redis, rate_limit_backend
 from .security import (
     MatchRateLimitMiddleware,
     RequestSizeLimitMiddleware,
@@ -78,6 +81,29 @@ def health() -> HealthResponse:
         catalogue=freshness["catalogue"],
         is_stale=freshness["is_stale"],
     )
+
+
+@app.get("/ready")
+@app.get("/api/v1/ready")
+def ready() -> JSONResponse:
+    """Readiness: schemes loaded; Redis ping when REDIS_URL is set (optional)."""
+    store = get_store()
+    scheme_count = len(store.schemes)
+    schemes_ok = scheme_count > 0
+    redis_info = ping_redis()
+    backend = rate_limit_backend()
+    # Redis is optional: configured-but-down does not fail readiness (fail-to-memory).
+    ready_ok = schemes_ok
+    body: dict[str, Any] = {
+        "status": "ready" if ready_ok else "not_ready",
+        "version": __version__,
+        "schemes_loaded": schemes_ok,
+        "scheme_count": scheme_count,
+        "rate_limit_backend": backend,
+        "match_cache_ttl_sec": match_cache_ttl_sec(),
+        "redis": redis_info,
+    }
+    return JSONResponse(content=body, status_code=200 if ready_ok else 503)
 
 
 @app.get("/schemes", response_model=SchemeListResponse)
@@ -150,8 +176,17 @@ def get_scheme(scheme_id: str) -> dict[str, Any]:
 def match(request: MatchRequest) -> MatchResponse:
     profile = request.resolved_profile()
     options = request.resolved_options()
+    profile_dump = profile.model_dump()
+    options_dump = options.model_dump()
+
+    cached = get_cached_match(profile_dump, options_dump)
+    if cached is not None:
+        return MatchResponse(**cached)
+
     store = get_store()
-    return match_schemes(store.schemes, profile, options)
+    result = match_schemes(store.schemes, profile, options)
+    set_cached_match(profile_dump, options_dump, result.model_dump())
+    return result
 
 
 @app.post("/explain", response_model=ExplainResponse)

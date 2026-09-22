@@ -1,5 +1,9 @@
 # fly.io config (login required: fly auth login)
 # Deploy: fly launch --no-deploy && fly deploy
+# Scale (Phase 1): set secrets for Redis shared rate limits:
+#   fly secrets set REDIS_URL=redis://...
+# Optional match cache: fly secrets set MATCH_CACHE_TTL_SEC=60
+# Prod: prefer min_machines_running >= 1 so cold starts do not dominate p95.
 app = "scheme-finder-api"
 primary_region = "bom"
 
@@ -11,10 +15,12 @@ primary_region = "bom"
   force_https = true
   auto_stop_machines = "stop"
   auto_start_machines = true
+  # Demo may use 0; production should keep at least 1 warm machine.
   min_machines_running = 0
   processes = ["app"]
 
 [[vm]]
-  memory = "256mb"
+  # 512mb recommended once catalogue + uvicorn + redis client are in-process.
+  memory = "512mb"
   cpu_kind = "shared"
   cpus = 1

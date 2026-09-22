@@ -22,7 +22,7 @@ export async function POST(request: Request) {
   }
 
   const ip = clientIp(request);
-  if (!allowMatchRequest(ip)) {
+  if (!(await allowMatchRequest(ip))) {
     return jsonWithSecurity(
       {
         error: {

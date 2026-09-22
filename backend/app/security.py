@@ -1,7 +1,16 @@
-"""Security middleware: rate limiting, headers, request size caps."""
+"""Security middleware: rate limiting, headers, request size caps.
+
+Rate limit strategy (Phase 1 scale):
+- If REDIS_URL is set: Redis fixed-window counter (INCR + EXPIRE) per IP for
+  POST match paths. Shared across API instances.
+- Else: in-memory sliding-window deque (single-process / demo).
+- If Redis is briefly unavailable: fail-to-memory so the demo never hard-dies
+  (see docs/SCALE.md).
+"""
 
 from __future__ import annotations
 
+import logging
 import os
 import time
 from collections import defaultdict, deque
@@ -11,10 +20,16 @@ from starlette.middleware.base import BaseHTTPMiddleware
 from starlette.requests import Request
 from starlette.responses import JSONResponse, Response
 
+from .redis_client import get_redis, rate_limit_backend
+
+logger = logging.getLogger(__name__)
+
 # Default: 30 match requests / 60s / IP (in-memory; fine for single-process demo).
 RATE_LIMIT_WINDOW_SEC = float(os.environ.get("RATE_LIMIT_WINDOW_SEC", "60"))
 RATE_LIMIT_MAX = int(os.environ.get("RATE_LIMIT_MAX", "30"))
 MAX_BODY_BYTES = int(os.environ.get("MAX_BODY_BYTES", str(64 * 1024)))  # 64 KiB
+
+_REDIS_KEY_PREFIX = "sf:rl:"
 
 
 def _client_ip(request: Request) -> str:
@@ -75,7 +90,11 @@ class RequestSizeLimitMiddleware(BaseHTTPMiddleware):
 
 
 class MatchRateLimitMiddleware(BaseHTTPMiddleware):
-    """Simple in-memory sliding-window rate limit for POST /match (and /api/v1/match)."""
+    """Sliding/fixed-window rate limit for POST /match (and /api/v1/match).
+
+    Uses Redis when REDIS_URL is set; otherwise in-memory deque.
+    On Redis errors, falls back to in-memory so demos keep working.
+    """
 
     def __init__(self, app, *, max_requests: int | None = None, window_sec: float | None = None):
         super().__init__(app)
@@ -92,7 +111,7 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
         )
         return max_req, window
 
-    def _allow(self, ip: str) -> bool:
+    def _allow_memory(self, ip: str) -> bool:
         max_req, window = self._limits()
         now = time.monotonic()
         q = self._hits[ip]
@@ -103,6 +122,32 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
             return False
         q.append(now)
         return True
+
+    def _allow_redis(self, ip: str) -> bool | None:
+        """Return True/False if Redis handled it, or None to signal fallback to memory."""
+        client = get_redis()
+        if client is None:
+            return None
+        max_req, window = self._limits()
+        # Fixed window keyed by IP + window bucket (shared across instances).
+        bucket = int(time.time() // max(1, int(window)))
+        key = f"{_REDIS_KEY_PREFIX}{ip}:{bucket}"
+        try:
+            count = client.incr(key)
+            if count == 1:
+                client.expire(key, int(window) + 1)
+            return int(count) <= max_req
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Redis rate-limit error (%s); falling back to memory", exc)
+            return None
+
+    def _allow(self, ip: str) -> bool:
+        if rate_limit_backend() == "redis":
+            result = self._allow_redis(ip)
+            if result is not None:
+                return result
+            # Fail-to-memory when Redis briefly unavailable.
+        return self._allow_memory(ip)
 
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
         if request.method == "POST" and _is_match_path(request.url.path):

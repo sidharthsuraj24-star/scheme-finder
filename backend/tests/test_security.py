@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import importlib
 from pathlib import Path
+from unittest.mock import MagicMock
 
 import pytest
 from fastapi.testclient import TestClient
@@ -99,14 +100,154 @@ def test_match_rejects_invalid_profile(client):
 
 
 def test_match_rate_limit(client, monkeypatch):
+    """In-memory rate limit still works when REDIS_URL is unset."""
     from app import main as main_mod
 
+    monkeypatch.delenv("REDIS_URL", raising=False)
     monkeypatch.setenv("RATE_LIMIT_MAX", "3")
     _clear_rate_limits(main_mod.app)
     body = {"age": 68, "monthly_household_income": 4000, "state": "Kerala"}
     statuses = [client.post("/match", json=body).status_code for _ in range(6)]
     assert 429 in statuses, statuses
     assert any(s == 200 for s in statuses)
+
+
+def test_match_rate_limit_redis_mock(client, monkeypatch):
+    """When REDIS_URL is set, middleware uses Redis INCR; mock enforces limit."""
+    from app import main as main_mod
+    from app import redis_client as rc
+
+    monkeypatch.setenv("REDIS_URL", "redis://localhost:6379/0")
+    monkeypatch.setenv("RATE_LIMIT_MAX", "3")
+    monkeypatch.setenv("RATE_LIMIT_WINDOW_SEC", "60")
+    rc.reset_redis_client()
+
+    counters: dict[str, int] = {}
+
+    mock = MagicMock()
+
+    def incr(key: str) -> int:
+        counters[key] = counters.get(key, 0) + 1
+        return counters[key]
+
+    mock.incr.side_effect = incr
+    mock.expire.return_value = True
+    mock.ping.return_value = True
+
+    monkeypatch.setattr("app.security.get_redis", lambda: mock)
+    monkeypatch.setattr("app.security.rate_limit_backend", lambda: "redis")
+    _clear_rate_limits(main_mod.app)
+
+    body = {"age": 68, "monthly_household_income": 4000, "state": "Kerala"}
+    statuses = [client.post("/match", json=body).status_code for _ in range(6)]
+    assert 429 in statuses, statuses
+    assert any(s == 200 for s in statuses)
+    assert mock.incr.called
+
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    rc.reset_redis_client()
+
+
+def test_match_rate_limit_redis_fail_to_memory(client, monkeypatch):
+    """If Redis raises, middleware falls back to in-memory and still rate-limits."""
+    from app import main as main_mod
+    from app import redis_client as rc
+
+    monkeypatch.setenv("REDIS_URL", "redis://localhost:6379/0")
+    monkeypatch.setenv("RATE_LIMIT_MAX", "3")
+    rc.reset_redis_client()
+
+    mock = MagicMock()
+    mock.incr.side_effect = ConnectionError("redis down")
+    monkeypatch.setattr("app.security.get_redis", lambda: mock)
+    monkeypatch.setattr("app.security.rate_limit_backend", lambda: "redis")
+    _clear_rate_limits(main_mod.app)
+
+    body = {"age": 68, "monthly_household_income": 4000, "state": "Kerala"}
+    statuses = [client.post("/match", json=body).status_code for _ in range(6)]
+    assert 429 in statuses, statuses
+    assert any(s == 200 for s in statuses)
+
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    rc.reset_redis_client()
+
+
+def test_ready_endpoint(client, monkeypatch):
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    for path in ("/ready", "/api/v1/ready"):
+        r = client.get(path)
+        assert r.status_code == 200, path
+        data = r.json()
+        assert data["status"] == "ready"
+        assert data["schemes_loaded"] is True
+        assert data["scheme_count"] > 0
+        assert data["rate_limit_backend"] == "memory"
+        assert data["redis"]["configured"] is False
+
+
+def test_ready_reports_redis_when_configured(client, monkeypatch):
+    from app import redis_client as rc
+
+    monkeypatch.setenv("REDIS_URL", "redis://localhost:6379/0")
+    rc.reset_redis_client()
+    monkeypatch.setattr(
+        "app.main.ping_redis",
+        lambda: {"configured": True, "ok": True, "optional": True},
+    )
+    monkeypatch.setattr("app.main.rate_limit_backend", lambda: "redis")
+
+    r = client.get("/ready")
+    assert r.status_code == 200
+    data = r.json()
+    assert data["rate_limit_backend"] == "redis"
+    assert data["redis"]["configured"] is True
+
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    rc.reset_redis_client()
+
+
+def test_match_cache_off_by_default(client, monkeypatch):
+    monkeypatch.setenv("MATCH_CACHE_TTL_SEC", "0")
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    body = {"age": 68, "monthly_household_income": 4000, "state": "Kerala"}
+    r = client.post("/match", json=body)
+    assert r.status_code == 200
+
+
+def test_match_cache_uses_redis_when_ttl_set(client, monkeypatch):
+    from app import match_cache as mc
+    from app import redis_client as rc
+
+    monkeypatch.setenv("REDIS_URL", "redis://localhost:6379/0")
+    monkeypatch.setenv("MATCH_CACHE_TTL_SEC", "60")
+    rc.reset_redis_client()
+
+    store: dict[str, str] = {}
+    mock = MagicMock()
+
+    def get(key: str):
+        return store.get(key)
+
+    def setex(key: str, ttl: int, value: str):
+        store[key] = value
+        return True
+
+    mock.get.side_effect = get
+    mock.setex.side_effect = setex
+    mock.ping.return_value = True
+    monkeypatch.setattr("app.match_cache.get_redis", lambda: mock)
+
+    body = {"age": 68, "monthly_household_income": 4000, "state": "Kerala"}
+    r1 = client.post("/match", json=body)
+    assert r1.status_code == 200
+    assert store, "expected cache write"
+    r2 = client.post("/match", json=body)
+    assert r2.status_code == 200
+    assert r1.json() == r2.json()
+
+    monkeypatch.setenv("MATCH_CACHE_TTL_SEC", "0")
+    monkeypatch.delenv("REDIS_URL", raising=False)
+    rc.reset_redis_client()
 
 
 def test_payload_too_large(client):
