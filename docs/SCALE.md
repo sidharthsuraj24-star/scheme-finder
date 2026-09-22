@@ -164,3 +164,36 @@ it does **not** invent or alter eligibility rules.
 - `docs/DEPLOY.md` — deploy paths and Phase 1 pointer
 - `docker-compose.scale.yml` — local redis + api
 - `scripts/loadtest_match.py` — concurrency smoke tool
+
+
+## Measured local load tests (2026-09-22)
+
+Hardware: shared box (~8 vCPU). Catalogue: 589 schemes with geo pruning.
+Rate limit raised (`RATE_LIMIT_MAX=100000`); `MATCH_CACHE_TTL_SEC=0`; no Redis.
+
+### Single worker (after geo prune)
+
+| Concurrency | Requests | RPS | p50 / p95 (ms) |
+| ---: | ---: | ---: | --- |
+| 20 | 200 | ~250 | 66 / 176 |
+| 50 | 500 | ~219 | 177 / 558 |
+| 100 | 1000 | ~146 | 396 / 2109 |
+
+### Four workers (`uvicorn --workers 4` / `scripts/run_api_workers.sh`)
+
+| Concurrency | Requests | RPS | p50 / p95 (ms) | Errors |
+| ---: | ---: | ---: | --- | --- |
+| 20 | 200 | **488** | 22 / 170 | 0 |
+| 50 | 500 | **272** | 129 / 483 | 0 |
+| 100 | 1000 | **162** | 328 / 2032 | 0 |
+| 200 | 2000 | **194** | 512 / 4512 | 0 |
+
+Takeaway: multi-worker roughly **doubles** RPS at moderate concurrency (c=20: 250→488). At high concurrency (c≥100) p95 still climbs — need more CPU/replicas + Redis shared rate limits, not more local workers alone on a contended box.
+
+Local run:
+
+```bash
+./scripts/run_api_workers.sh          # WORKERS=4 PORT=8000
+python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 20 --requests 200
+```
+
