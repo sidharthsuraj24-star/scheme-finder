@@ -33196,7 +33196,7 @@
     },
     "apply_url": "https://access.wisconsin.gov/",
     "official_source_url": "https://www.dhs.wisconsin.gov/badgercareplus/index.htm",
-    "last_verified": "2026-09-17",
+    "last_verified": "2026-09-23",
     "office_type": "Wisconsin Department of Health Services / ForwardHealth",
     "tags": [
       "united_states",
@@ -33204,7 +33204,10 @@
       "medicaid",
       "badgercare",
       "health",
-      "access"
+      "access",
+      "chip",
+      "kids",
+      "children"
     ]
   },
   {
@@ -36684,7 +36687,7 @@
     },
     "apply_url": "https://connect.ct.gov/",
     "official_source_url": "https://portal.ct.gov/husky/how-to-qualify/",
-    "last_verified": "2026-09-17",
+    "last_verified": "2026-09-23",
     "office_type": "Connecticut DSS / HUSKY Health",
     "tags": [
       "united_states",
@@ -36693,7 +36696,9 @@
       "chip",
       "husky",
       "health",
-      "connect"
+      "connect",
+      "kids",
+      "children"
     ]
   },
   {
@@ -41820,7 +41825,7 @@
     },
     "apply_url": "https://healthyrhode.ri.gov/",
     "official_source_url": "https://eohhs.ri.gov/Consumer/FamilieswithChildren/RIteCare.aspx",
-    "last_verified": "2026-09-17",
+    "last_verified": "2026-09-23",
     "office_type": "Rhode Island Executive Office of Health and Human Services / DHS",
     "tags": [
       "united_states",
@@ -41829,7 +41834,8 @@
       "rite_care",
       "chip",
       "children",
-      "eohhs"
+      "eohhs",
+      "kids"
     ]
   },
   {
@@ -44229,7 +44235,7 @@
     },
     "apply_url": "https://dvha.vermont.gov/apply",
     "official_source_url": "https://dvha.vermont.gov/members/medicaid",
-    "last_verified": "2026-09-17",
+    "last_verified": "2026-09-23",
     "office_type": "Department of Vermont Health Access (DVHA)",
     "tags": [
       "united_states",
@@ -44237,7 +44243,10 @@
       "medicaid",
       "dr_dynasaur",
       "health",
-      "dvha"
+      "dvha",
+      "chip",
+      "kids",
+      "children"
     ]
   },
   {
@@ -49012,6 +49021,2498 @@
       "vita",
       "tce",
       "federal"
+    ]
+  },
+  {
+    "id": "fl-liheap",
+    "scheme_name": {
+      "en": "LIHEAP (Low-Income Home Energy Assistance) – FloridaCommerce",
+      "ml": "LIHEAP (Low-Income Home Energy Assistance) – FloridaCommerce",
+      "hi": "LIHEAP – फ्लोरिडा"
+    },
+    "description": {
+      "en": "FloridaCommerce administers LIHEAP through a network of local community action agencies. The program helps income-qualified Florida residents with home heating and cooling costs; payments go to the utility on the household’s behalf.",
+      "ml": "FloridaCommerce administers LIHEAP through a network of local community action agencies. The program helps income-qualified Florida residents with home heating and cooling costs; payments go to the utility on the household’s behalf.",
+      "hi": "FloridaCommerce administers LIHEAP through a network of local community action agencies. The program helps income-qualified Florida residents with home heating and cooling costs; payments go to the utility on the household’s behalf."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FL LIHEAP (FloridaCommerce): income generally at or below 60% Florida SMI or 150% FPL (charts published on floridajobs.org); responsible for heating/cooling bills; Florida resident; U.S. citizen/qualified alien/permanent resident. No single annual ceiling encoded — household-size charts and local agency rules apply.",
+      "verify": true,
+      "verify_notes": "Income charts, benefit ranges, and local agency application windows change — verify=true via floridajobs.org LIHEAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Help paying eligible home heating and/or cooling bills for qualifying Florida households (amounts and availability vary by county and funding).",
+      "ml": "Help paying eligible home heating and/or cooling bills for qualifying Florida households (amounts and availability vary by county and funding).",
+      "hi": "Help paying eligible home heating and/or cooling bills for qualifying Florida households (amounts and availability vary by county and funding)."
+    },
+    "required_documents": {
+      "en": [
+        "Most recent home energy bill",
+        "Proof of income for household members",
+        "Photo ID of applicant",
+        "Social Security numbers for household members",
+        "Proof of U.S. citizenship or permanent residence",
+        "Florida residency"
+      ],
+      "ml": [
+        "Most recent home energy bill",
+        "Proof of income for household members",
+        "Photo ID of applicant",
+        "Social Security numbers for household members",
+        "Proof of U.S. citizenship or permanent residence",
+        "Florida residency"
+      ],
+      "hi": [
+        "Most recent home energy bill",
+        "Proof of income for household members",
+        "Photo ID of applicant",
+        "Social Security numbers for household members",
+        "Proof of U.S. citizenship or permanent residence",
+        "Florida residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local LIHEAP / community action agency listed via FloridaCommerce, or use the Florida LIHEAP application path linked from floridajobs.org. Benefits and crisis help vary by local agency funding.",
+      "ml": "Contact your local LIHEAP / community action agency listed via FloridaCommerce, or use the Florida LIHEAP application path linked from floridajobs.org. Benefits and crisis help vary by local agency funding.",
+      "hi": "Contact your local LIHEAP / community action agency listed via FloridaCommerce, or use the Florida LIHEAP application path linked from floridajobs.org. Benefits and crisis help vary by local agency funding."
+    },
+    "apply_url": "https://liheapch.acf.gov/profiles/Florida.htm",
+    "official_source_url": "https://liheapch.acf.gov/profiles/Florida.htm",
+    "last_verified": "2026-09-23",
+    "office_type": "Florida Department of Commerce (FloridaCommerce) / local Community Action Agencies",
+    "tags": [
+      "united_states",
+      "florida",
+      "liheap",
+      "energy",
+      "utility",
+      "heat",
+      "cooling"
+    ]
+  },
+  {
+    "id": "ak-denali-kidcare",
+    "scheme_name": {
+      "en": "Denali KidCare (CHIP / children’s Medicaid) – Alaska",
+      "ml": "Denali KidCare (CHIP / children’s Medicaid) – Alaska",
+      "hi": "Denali KidCare – अलास्का"
+    },
+    "description": {
+      "en": "Denali KidCare is Alaska’s CHIP/children’s Medicaid coverage for eligible children from birth through age 18 and eligible pregnant people who meet income and other program rules. Administered by the Alaska Department of Health.",
+      "ml": "Denali KidCare is Alaska’s CHIP/children’s Medicaid coverage for eligible children from birth through age 18 and eligible pregnant people who meet income and other program rules. Administered by the Alaska Department of Health.",
+      "hi": "Denali KidCare is Alaska’s CHIP/children’s Medicaid coverage for eligible children from birth through age 18 and eligible pregnant people who meet income and other program rules. Administered by the Alaska Department of Health."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Denali KidCare: Alaska children (birth–18) and eligible pregnant people; income and citizenship/immigration rules; CHIP/Medicaid pathways. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income % FPL and pregnancy/child rules — verify=true via health.alaska.gov Denali KidCare.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Alaska children and pregnant people under Denali KidCare / Medicaid CHIP pathways.",
+      "ml": "Free or low-cost health coverage for eligible Alaska children and pregnant people under Denali KidCare / Medicaid CHIP pathways.",
+      "hi": "Free or low-cost health coverage for eligible Alaska children and pregnant people under Denali KidCare / Medicaid CHIP pathways."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Citizenship or immigration documentation as required"
+      ],
+      "ml": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Citizenship or immigration documentation as required"
+      ],
+      "hi": [
+        "Identity and Alaska residency",
+        "Income documentation",
+        "Child / pregnancy information",
+        "Citizenship or immigration documentation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Alaska Medicaid / Denali KidCare pathways on health.alaska.gov (Alaska Connect or Healthcare.gov as directed on the official page).",
+      "ml": "Apply through Alaska Medicaid / Denali KidCare pathways on health.alaska.gov (Alaska Connect or Healthcare.gov as directed on the official page).",
+      "hi": "Apply through Alaska Medicaid / Denali KidCare pathways on health.alaska.gov (Alaska Connect or Healthcare.gov as directed on the official page)."
+    },
+    "apply_url": "https://health.alaska.gov/en/services/denali-kidcare/",
+    "official_source_url": "https://health.alaska.gov/en/services/denali-kidcare/",
+    "last_verified": "2026-09-23",
+    "office_type": "Alaska Department of Health / Denali KidCare",
+    "tags": [
+      "united_states",
+      "alaska",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "denali_kidcare",
+      "health"
+    ]
+  },
+  {
+    "id": "hi-chip-children",
+    "scheme_name": {
+      "en": "Med-QUEST Children’s Coverage (Medicaid / CHIP) – Hawaii",
+      "ml": "Med-QUEST Children’s Coverage (Medicaid / CHIP) – Hawaii",
+      "hi": "Med-QUEST बच्चों का कवरेज – हवाई"
+    },
+    "description": {
+      "en": "Hawaii Med-QUEST covers eligible children under age 19 through Medicaid and CHIP pathways. Apply via Med-QUEST / myBenefits Hawaii for free or low-cost children’s health coverage.",
+      "ml": "Hawaii Med-QUEST covers eligible children under age 19 through Medicaid and CHIP pathways. Apply via Med-QUEST / myBenefits Hawaii for free or low-cost children’s health coverage.",
+      "hi": "Hawaii Med-QUEST covers eligible children under age 19 through Medicaid and CHIP pathways. Apply via Med-QUEST / myBenefits Hawaii for free or low-cost children’s health coverage."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Med-QUEST children’s Medicaid/CHIP: Hawaii children under 19; household income and other Med-QUEST rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age, income, and immigration pathways — verify=true via medquest.hawaii.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid/CHIP health coverage for eligible Hawaii children under 19.",
+      "ml": "Medicaid/CHIP health coverage for eligible Hawaii children under 19.",
+      "hi": "Medicaid/CHIP health coverage for eligible Hawaii children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Child information / birth records as required"
+      ],
+      "ml": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Child information / birth records as required"
+      ],
+      "hi": [
+        "Identity and Hawaii residency",
+        "Income documentation",
+        "Child information / birth records as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online through Med-QUEST myBenefits Hawaii or use the DHS health coverage application linked from medquest.hawaii.gov.",
+      "ml": "Apply online through Med-QUEST myBenefits Hawaii or use the DHS health coverage application linked from medquest.hawaii.gov.",
+      "hi": "Apply online through Med-QUEST myBenefits Hawaii or use the DHS health coverage application linked from medquest.hawaii.gov."
+    },
+    "apply_url": "https://medquest.hawaii.gov/en/members-applicants/get-started/how-to-apply.html",
+    "official_source_url": "https://medquest.hawaii.gov/content/medquest/en/about/what-is-medicaid.html",
+    "last_verified": "2026-09-23",
+    "office_type": "Hawaii Department of Human Services / Med-QUEST Division",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "medquest",
+      "health"
+    ]
+  },
+  {
+    "id": "nm-chip",
+    "scheme_name": {
+      "en": "New Mexico CHIP (Children’s Health Insurance) – HCA",
+      "ml": "New Mexico CHIP (Children’s Health Insurance) – HCA",
+      "hi": "न्यू मेक्सिको CHIP – बच्चों का स्वास्थ्य"
+    },
+    "description": {
+      "en": "New Mexico CHIP provides Medicaid-comparable health coverage for eligible uninsured children under 19 whose household income is above Medicaid limits but within CHIP category limits. Administered by the Health Care Authority.",
+      "ml": "New Mexico CHIP provides Medicaid-comparable health coverage for eligible uninsured children under 19 whose household income is above Medicaid limits but within CHIP category limits. Administered by the Health Care Authority.",
+      "hi": "New Mexico CHIP provides Medicaid-comparable health coverage for eligible uninsured children under 19 whose household income is above Medicaid limits but within CHIP category limits. Administered by the Health Care Authority."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM CHIP (categories for children under 19 above Medicaid income bands, within published FPL ranges; no resource test; generally no other insurance). Exact % FPL bands change — not encoded as a single ceiling.",
+      "verify": true,
+      "verify_notes": "CHIP vs Medicaid category income bands and insurance rules — verify=true via hca.nm.gov / YES NM.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Children’s health insurance (CHIP categories) for eligible New Mexico children under 19.",
+      "ml": "Children’s health insurance (CHIP categories) for eligible New Mexico children under 19.",
+      "hi": "Children’s health insurance (CHIP categories) for eligible New Mexico children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Child information",
+        "Proof child is uninsured (CHIP rules)"
+      ],
+      "ml": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Child information",
+        "Proof child is uninsured (CHIP rules)"
+      ],
+      "hi": [
+        "Identity and New Mexico residency",
+        "Income documentation",
+        "Child information",
+        "Proof child is uninsured (CHIP rules)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for Medicaid/CHIP through YES.NM.gov / HCA assistance application (HCA-100) as directed on hca.nm.gov.",
+      "ml": "Apply for Medicaid/CHIP through YES.NM.gov / HCA assistance application (HCA-100) as directed on hca.nm.gov.",
+      "hi": "Apply for Medicaid/CHIP through YES.NM.gov / HCA assistance application (HCA-100) as directed on hca.nm.gov."
+    },
+    "apply_url": "https://www.hca.nm.gov/",
+    "official_source_url": "https://www.hca.nm.gov/",
+    "last_verified": "2026-09-23",
+    "office_type": "New Mexico Health Care Authority / Medical Assistance Division",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "health",
+      "hca"
+    ]
+  },
+  {
+    "id": "ok-chip",
+    "scheme_name": {
+      "en": "SoonerCare Children / CHIP – Oklahoma Health Care Authority",
+      "ml": "SoonerCare Children / CHIP – Oklahoma Health Care Authority",
+      "hi": "SoonerCare बच्चों / CHIP – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma SoonerCare covers eligible children through Medicaid and CHIP pathways administered by the Oklahoma Health Care Authority. Children’s SoonerCare provides comprehensive health coverage for qualifying Oklahoma kids.",
+      "ml": "Oklahoma SoonerCare covers eligible children through Medicaid and CHIP pathways administered by the Oklahoma Health Care Authority. Children’s SoonerCare provides comprehensive health coverage for qualifying Oklahoma kids.",
+      "hi": "Oklahoma SoonerCare covers eligible children through Medicaid and CHIP pathways administered by the Oklahoma Health Care Authority. Children’s SoonerCare provides comprehensive health coverage for qualifying Oklahoma kids."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SoonerCare children/CHIP: Oklahoma children meeting age, income, and residency rules under OHCA. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income charts and CHIP updates — verify=true via oklahoma.gov/ohca.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid/CHIP health coverage for eligible Oklahoma children via SoonerCare.",
+      "ml": "Medicaid/CHIP health coverage for eligible Oklahoma children via SoonerCare.",
+      "hi": "Medicaid/CHIP health coverage for eligible Oklahoma children via SoonerCare."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "ml": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "hi": [
+        "Identity and Oklahoma residency",
+        "Income documentation",
+        "Child information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online via MySoonerCare / OKDHSLive pathways linked from oklahoma.gov OHCA, or follow Children’s Health Insurance Program updates on ohca pages.",
+      "ml": "Apply online via MySoonerCare / OKDHSLive pathways linked from oklahoma.gov OHCA, or follow Children’s Health Insurance Program updates on ohca pages.",
+      "hi": "Apply online via MySoonerCare / OKDHSLive pathways linked from oklahoma.gov OHCA, or follow Children’s Health Insurance Program updates on ohca pages."
+    },
+    "apply_url": "https://oklahoma.gov/ohca/individuals/mysoonercare.html",
+    "official_source_url": "https://oklahoma.gov/ohca/about/about-us/children-s-health-insurance-program--chip--updates.html",
+    "last_verified": "2026-09-23",
+    "office_type": "Oklahoma Health Care Authority (OHCA)",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "soonercare",
+      "health"
+    ]
+  },
+  {
+    "id": "wa-apple-health-kids",
+    "scheme_name": {
+      "en": "Apple Health for Kids (CHIP / children’s Medicaid) – Washington HCA",
+      "ml": "Apple Health for Kids (CHIP / children’s Medicaid) – Washington HCA",
+      "hi": "Apple Health for Kids – वाशिंगटन"
+    },
+    "description": {
+      "en": "Washington Apple Health for Kids provides free or low-cost health coverage for eligible children under 19. Coverage is free at lower income levels; premium tiers may apply at higher CHIP income bands.",
+      "ml": "Washington Apple Health for Kids provides free or low-cost health coverage for eligible children under 19. Coverage is free at lower income levels; premium tiers may apply at higher CHIP income bands.",
+      "hi": "Washington Apple Health for Kids provides free or low-cost health coverage for eligible children under 19. Coverage is free at lower income levels; premium tiers may apply at higher CHIP income bands."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Washington"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Apple Health for Kids: children under 19; free coverage generally at or below published FPL (HCA cites ~215% FPL free; premiums up to higher CHIP band ~317% FPL). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL bands and premium tiers — verify=true via hca.wa.gov Apple Health for Kids.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost Apple Health coverage for eligible Washington children under 19.",
+      "ml": "Free or low-cost Apple Health coverage for eligible Washington children under 19.",
+      "hi": "Free or low-cost Apple Health coverage for eligible Washington children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "ml": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "hi": [
+        "Identity and Washington residency",
+        "Income documentation",
+        "Child information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply or renew through Washington Healthplanfinder / HCA Apple Health pathways linked from hca.wa.gov children’s health pages.",
+      "ml": "Apply or renew through Washington Healthplanfinder / HCA Apple Health pathways linked from hca.wa.gov children’s health pages.",
+      "hi": "Apply or renew through Washington Healthplanfinder / HCA Apple Health pathways linked from hca.wa.gov children’s health pages."
+    },
+    "apply_url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/health-care-children",
+    "official_source_url": "https://www.hca.wa.gov/free-or-low-cost-health-care/i-help-others-apply-and-access-apple-health/health-care-children",
+    "last_verified": "2026-09-23",
+    "office_type": "Washington Health Care Authority (HCA)",
+    "tags": [
+      "united_states",
+      "washington",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "apple_health",
+      "health"
+    ]
+  },
+  {
+    "id": "ct-eitc",
+    "scheme_name": {
+      "en": "Connecticut Earned Income Tax Credit (CT EITC) – DRS",
+      "ml": "Connecticut Earned Income Tax Credit (CT EITC) – DRS",
+      "hi": "CT EITC – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Refundable Connecticut state earned income tax credit for full-year CT residents who qualify for the federal EITC. For recent tax years the state credit is 40% of the allowed federal EITC, plus an additional $250 if the filer has at least one qualifying child.",
+      "ml": "Refundable Connecticut state earned income tax credit for full-year CT residents who qualify for the federal EITC. For recent tax years the state credit is 40% of the allowed federal EITC, plus an additional $250 if the filer has at least one qualifying child.",
+      "hi": "Refundable Connecticut state earned income tax credit for full-year CT residents who qualify for the federal EITC. For recent tax years the state credit is 40% of the allowed federal EITC, plus an additional $250 if the filer has at least one qualifying child."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CT EITC: must qualify for federal EITC; full-year CT resident; valid SSNs; investment income within published limit; state credit = 40% of federal EITC for TY commencing on/after 2023, plus $250 with ≥1 qualifying child (current statute). AGI/earned-income federal limits apply — not encoded as one ceiling.",
+      "verify": true,
+      "verify_notes": "Federal EITC limits, investment-income cap, and CT rate/% — verify=true via portal.ct.gov/DRS CT EITC.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state tax credit (percentage of federal EITC; plus $250 with qualifying child under current law) claimed on Form CT-1040 with Schedule CT-EITC.",
+      "ml": "Refundable state tax credit (percentage of federal EITC; plus $250 with qualifying child under current law) claimed on Form CT-1040 with Schedule CT-EITC.",
+      "hi": "Refundable state tax credit (percentage of federal EITC; plus $250 with qualifying child under current law) claimed on Form CT-1040 with Schedule CT-EITC."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "Form CT-1040 / Schedule CT-EITC",
+        "Valid SSN for filer, spouse, and qualifying children",
+        "Full-year Connecticut residency documentation as needed"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "Form CT-1040 / Schedule CT-EITC",
+        "Valid SSN for filer, spouse, and qualifying children",
+        "Full-year Connecticut residency documentation as needed"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "Form CT-1040 / Schedule CT-EITC",
+        "Valid SSN for filer, spouse, and qualifying children",
+        "Full-year Connecticut residency documentation as needed"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form CT-1040 with Schedule CT-EITC through myConneCT / DRS. See portal.ct.gov DRS CT EITC information page.",
+      "ml": "File Form CT-1040 with Schedule CT-EITC through myConneCT / DRS. See portal.ct.gov DRS CT EITC information page.",
+      "hi": "File Form CT-1040 with Schedule CT-EITC through myConneCT / DRS. See portal.ct.gov DRS CT EITC information page."
+    },
+    "apply_url": "https://portal.ct.gov/drs/ct---eitc/ct-eitc-information/ct-earned-income-tax-credit/",
+    "official_source_url": "https://portal.ct.gov/drs/ct---eitc/ct-eitc-information/ct-earned-income-tax-credit/",
+    "last_verified": "2026-09-23",
+    "office_type": "Connecticut Department of Revenue Services (DRS)",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "eitc",
+      "tax_credit",
+      "refundable",
+      "drs"
+    ]
+  },
+  {
+    "id": "ct-rap",
+    "scheme_name": {
+      "en": "Connecticut Rental Assistance Program (RAP) – DOH",
+      "ml": "Connecticut Rental Assistance Program (RAP) – DOH",
+      "hi": "CT RAP किराया सहायता – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Connecticut’s state-funded Rental Assistance Program (RAP) helps eligible low-income households afford rent through the Department of Housing. Waiting lists open and close periodically.",
+      "ml": "Connecticut’s state-funded Rental Assistance Program (RAP) helps eligible low-income households afford rent through the Department of Housing. Waiting lists open and close periodically.",
+      "hi": "Connecticut’s state-funded Rental Assistance Program (RAP) helps eligible low-income households afford rent through the Department of Housing. Waiting lists open and close periodically."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CT RAP: low-income CT households; waiting list frequently closed; income and household rules apply when applications are accepted. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Waiting-list status and income limits — verify=true via portal.ct.gov/DOH RAP.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly rental assistance subsidy for eligible Connecticut households when the waiting list is open and a voucher is issued.",
+      "ml": "Monthly rental assistance subsidy for eligible Connecticut households when the waiting list is open and a voucher is issued.",
+      "hi": "Monthly rental assistance subsidy for eligible Connecticut households when the waiting list is open and a voucher is issued."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Housing / landlord information when selected"
+      ],
+      "ml": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Housing / landlord information when selected"
+      ],
+      "hi": [
+        "Identity and Connecticut residency",
+        "Income documentation",
+        "Housing / landlord information when selected"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Monitor portal.ct.gov/DOH Rental Assistance Program for waiting-list status and application instructions (list may be closed).",
+      "ml": "Monitor portal.ct.gov/DOH Rental Assistance Program for waiting-list status and application instructions (list may be closed).",
+      "hi": "Monitor portal.ct.gov/DOH Rental Assistance Program for waiting-list status and application instructions (list may be closed)."
+    },
+    "apply_url": "https://portal.ct.gov/doh/doh/programs/rental-assistance-program",
+    "official_source_url": "https://portal.ct.gov/doh/doh/programs/rental-assistance-program",
+    "last_verified": "2026-09-23",
+    "office_type": "Connecticut Department of Housing (DOH)",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "housing",
+      "rental_assistance",
+      "rap",
+      "doh"
+    ]
+  },
+  {
+    "id": "de-eitc",
+    "scheme_name": {
+      "en": "Delaware Earned Income Tax Credit (EITC) – Division of Revenue",
+      "ml": "Delaware Earned Income Tax Credit (EITC) – Division of Revenue",
+      "hi": "Delaware EITC – डेलावेयर"
+    },
+    "description": {
+      "en": "Delaware allows taxpayers who qualify for the federal EITC to claim a state EITC: either a refundable credit equal to a published percentage of the federal credit or a larger nonrefundable percentage, per Division of Revenue schedules.",
+      "ml": "Delaware allows taxpayers who qualify for the federal EITC to claim a state EITC: either a refundable credit equal to a published percentage of the federal credit or a larger nonrefundable percentage, per Division of Revenue schedules.",
+      "hi": "Delaware allows taxpayers who qualify for the federal EITC to claim a state EITC: either a refundable credit equal to a published percentage of the federal credit or a larger nonrefundable percentage, per Division of Revenue schedules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DE EITC: must qualify for federal EITC; Delaware resident return; choose refundable (~4.5% of federal) or nonrefundable (~20% of federal) per current PIT-RSS instructions. Percentages and options can change by tax year — verify.",
+      "verify": true,
+      "verify_notes": "Refundable vs nonrefundable percentages and federal EITC linkage — verify=true via revenue.delaware.gov PIT forms/instructions.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "State EITC reducing Delaware income tax (refundable or nonrefundable option per current PIT schedules).",
+      "ml": "State EITC reducing Delaware income tax (refundable or nonrefundable option per current PIT schedules).",
+      "hi": "State EITC reducing Delaware income tax (refundable or nonrefundable option per current PIT schedules)."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return with federal EITC",
+        "Delaware PIT-RES / PIT-RSS schedules",
+        "SSN / residency documentation as required"
+      ],
+      "ml": [
+        "Federal return with federal EITC",
+        "Delaware PIT-RES / PIT-RSS schedules",
+        "SSN / residency documentation as required"
+      ],
+      "hi": [
+        "Federal return with federal EITC",
+        "Delaware PIT-RES / PIT-RSS schedules",
+        "SSN / residency documentation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on Delaware personal income tax return schedules (PIT-RSS) available from revenue.delaware.gov; follow current-year instructions.",
+      "ml": "Claim on Delaware personal income tax return schedules (PIT-RSS) available from revenue.delaware.gov; follow current-year instructions.",
+      "hi": "Claim on Delaware personal income tax return schedules (PIT-RSS) available from revenue.delaware.gov; follow current-year instructions."
+    },
+    "apply_url": "https://revenue.delaware.gov/personal-income-tax-forms/",
+    "official_source_url": "https://revenue.delaware.gov/personal-income-tax-forms/",
+    "last_verified": "2026-09-23",
+    "office_type": "Delaware Division of Revenue",
+    "tags": [
+      "united_states",
+      "delaware",
+      "eitc",
+      "tax_credit",
+      "revenue"
+    ]
+  },
+  {
+    "id": "ri-eitc",
+    "scheme_name": {
+      "en": "Rhode Island Earned Income Tax Credit (EITC) – Division of Taxation",
+      "ml": "Rhode Island Earned Income Tax Credit (EITC) – Division of Taxation",
+      "hi": "Rhode Island EITC – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island provides a refundable earned income tax credit equal to a percentage of the federal EITC for qualifying filers. For tax years beginning on or after January 1, 2024, the RI EITC is 16% of the federal credit and is fully refundable.",
+      "ml": "Rhode Island provides a refundable earned income tax credit equal to a percentage of the federal EITC for qualifying filers. For tax years beginning on or after January 1, 2024, the RI EITC is 16% of the federal credit and is fully refundable.",
+      "hi": "Rhode Island provides a refundable earned income tax credit equal to a percentage of the federal EITC for qualifying filers. For tax years beginning on or after January 1, 2024, the RI EITC is 16% of the federal credit and is fully refundable."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI EITC: qualify for federal EITC; RI credit = 16% of federal for TY beginning 2024+; fully refundable. Federal income limits apply — not encoded as one RI ceiling.",
+      "verify": true,
+      "verify_notes": "Percentage and federal linkage — verify=true via tax.ri.gov RI-1040 / Schedule EIC instructions.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable Rhode Island tax credit equal to 16% of the federal EITC (current law for TY2024+).",
+      "ml": "Refundable Rhode Island tax credit equal to 16% of the federal EITC (current law for TY2024+).",
+      "hi": "Refundable Rhode Island tax credit equal to 16% of the federal EITC (current law for TY2024+)."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "RI-1040 with RI Schedule EIC",
+        "Rhode Island residency / filing documentation"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "RI-1040 with RI Schedule EIC",
+        "Rhode Island residency / filing documentation"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "RI-1040 with RI Schedule EIC",
+        "Rhode Island residency / filing documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File RI-1040 with Schedule EIC via tax.ri.gov forms and instructions.",
+      "ml": "File RI-1040 with Schedule EIC via tax.ri.gov forms and instructions.",
+      "hi": "File RI-1040 with Schedule EIC via tax.ri.gov forms and instructions."
+    },
+    "apply_url": "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
+    "official_source_url": "https://tax.ri.gov/forms/individual-tax-forms/personal-income-tax-forms",
+    "last_verified": "2026-09-23",
+    "office_type": "Rhode Island Division of Taxation",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "eitc",
+      "tax_credit",
+      "refundable"
+    ]
+  },
+  {
+    "id": "vt-dr-dynasaur",
+    "scheme_name": {
+      "en": "Dr. Dynasaur (CHIP / children’s Medicaid) – Vermont DVHA",
+      "ml": "Dr. Dynasaur (CHIP / children’s Medicaid) – Vermont DVHA",
+      "hi": "Dr. Dynasaur – वर्मांट"
+    },
+    "description": {
+      "en": "Dr. Dynasaur is Vermont’s low-cost or free health coverage for children and teenagers under age 19 (and eligible pregnant people). It is Vermont’s CHIP/children’s Medicaid pathway administered with Vermont Health Connect / DVHA.",
+      "ml": "Dr. Dynasaur is Vermont’s low-cost or free health coverage for children and teenagers under age 19 (and eligible pregnant people). It is Vermont’s CHIP/children’s Medicaid pathway administered with Vermont Health Connect / DVHA.",
+      "hi": "Dr. Dynasaur is Vermont’s low-cost or free health coverage for children and teenagers under age 19 (and eligible pregnant people). It is Vermont’s CHIP/children’s Medicaid pathway administered with Vermont Health Connect / DVHA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Dr. Dynasaur: children under 19 (official pages cite household income below ~312% FPL for children) and pregnant people (lower FPL band). Premiums for children may be suspended. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "FPL bands, pregnancy postpartum coverage, and premiums — verify=true via dvha.vermont.gov / Vermont Health Connect.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Vermont children under 19 and eligible pregnant people.",
+      "ml": "Free or low-cost health coverage for eligible Vermont children under 19 and eligible pregnant people.",
+      "hi": "Free or low-cost health coverage for eligible Vermont children under 19 and eligible pregnant people."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Child / pregnancy information"
+      ],
+      "ml": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Child / pregnancy information"
+      ],
+      "hi": [
+        "Identity and Vermont residency",
+        "Income documentation",
+        "Child / pregnancy information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Vermont Health Connect (VermontHealthConnect.gov) or DVHA apply pathways linked from dvha.vermont.gov Dr. Dynasaur pages.",
+      "ml": "Apply through Vermont Health Connect (VermontHealthConnect.gov) or DVHA apply pathways linked from dvha.vermont.gov Dr. Dynasaur pages.",
+      "hi": "Apply through Vermont Health Connect (VermontHealthConnect.gov) or DVHA apply pathways linked from dvha.vermont.gov Dr. Dynasaur pages."
+    },
+    "apply_url": "https://dvha.vermont.gov/members/dr-dynasaur",
+    "official_source_url": "https://dvha.vermont.gov/members/dr-dynasaur",
+    "last_verified": "2026-09-23",
+    "office_type": "Vermont Department of Vermont Health Access (DVHA) / Vermont Health Connect",
+    "tags": [
+      "united_states",
+      "vermont",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "dr_dynasaur",
+      "health"
+    ]
+  },
+  {
+    "id": "vt-eitc",
+    "scheme_name": {
+      "en": "Vermont Earned Income Tax Credit (EITC) – Department of Taxes",
+      "ml": "Vermont Earned Income Tax Credit (EITC) – Department of Taxes",
+      "hi": "Vermont EITC – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont offers a state earned income tax credit based on a percentage of the federal EITC for qualifying Vermont residents. Vermont also publishes guidance for claiming the credit (and Vermont CTC) in certain SSN/ITIN situations.",
+      "ml": "Vermont offers a state earned income tax credit based on a percentage of the federal EITC for qualifying Vermont residents. Vermont also publishes guidance for claiming the credit (and Vermont CTC) in certain SSN/ITIN situations.",
+      "hi": "Vermont offers a state earned income tax credit based on a percentage of the federal EITC for qualifying Vermont residents. Vermont also publishes guidance for claiming the credit (and Vermont CTC) in certain SSN/ITIN situations."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT EITC: percentage of federal EITC for qualifying Vermont residents (rate on current IN-112 instructions). Special SSN/ITIN filing paths exist per tax.vermont.gov. No single AGI ceiling encoded beyond federal EITC linkage.",
+      "verify": true,
+      "verify_notes": "State percentage of federal EITC and filing rules — verify=true via tax.vermont.gov IN-112 instructions.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "State EITC claimed on Vermont personal income tax return (Schedule IN-112 / related schedules).",
+      "ml": "State EITC claimed on Vermont personal income tax return (Schedule IN-112 / related schedules).",
+      "hi": "State EITC claimed on Vermont personal income tax return (Schedule IN-112 / related schedules)."
+    },
+    "required_documents": {
+      "en": [
+        "Federal EITC calculation / Schedule EIC as applicable",
+        "Vermont income tax return and credit schedules",
+        "Residency documentation"
+      ],
+      "ml": [
+        "Federal EITC calculation / Schedule EIC as applicable",
+        "Vermont income tax return and credit schedules",
+        "Residency documentation"
+      ],
+      "hi": [
+        "Federal EITC calculation / Schedule EIC as applicable",
+        "Vermont income tax return and credit schedules",
+        "Residency documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Vermont personal income tax forms and credit schedules available at tax.vermont.gov; see Department of Taxes credit guidance.",
+      "ml": "File Vermont personal income tax forms and credit schedules available at tax.vermont.gov; see Department of Taxes credit guidance.",
+      "hi": "File Vermont personal income tax forms and credit schedules available at tax.vermont.gov; see Department of Taxes credit guidance."
+    },
+    "apply_url": "https://tax.vermont.gov/individuals/personal-income-tax/tax-credits/no-ssn-itin",
+    "official_source_url": "https://tax.vermont.gov/individuals/personal-income-tax/tax-credits/no-ssn-itin",
+    "last_verified": "2026-09-23",
+    "office_type": "Vermont Department of Taxes",
+    "tags": [
+      "united_states",
+      "vermont",
+      "eitc",
+      "tax_credit",
+      "refundable"
+    ]
+  },
+  {
+    "id": "nh-childrens-medicaid",
+    "scheme_name": {
+      "en": "Children’s Medicaid / Expanded Children’s Medicaid (CHIP) – New Hampshire DHHS",
+      "ml": "Children’s Medicaid / Expanded Children’s Medicaid (CHIP) – New Hampshire DHHS",
+      "hi": "Children’s Medicaid – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire Children’s Medicaid (Expanded Children’s Medicaid) provides health coverage for eligible children under 19, including CHIP expansion pathways administered by DHHS. Apply through NH EASY.",
+      "ml": "New Hampshire Children’s Medicaid (Expanded Children’s Medicaid) provides health coverage for eligible children under 19, including CHIP expansion pathways administered by DHHS. Apply through NH EASY.",
+      "hi": "New Hampshire Children’s Medicaid (Expanded Children’s Medicaid) provides health coverage for eligible children under 19, including CHIP expansion pathways administered by DHHS. Apply through NH EASY."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH Children’s Medicaid / Expanded Children’s Medicaid: children under 19; income up to published FPL (DHHS materials cite expansion around ~323% FPL with disregard — verify current chart). No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Current FPL charts and continuous eligibility — verify=true via dhhs.nh.gov / NH EASY.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid/CHIP health coverage for eligible New Hampshire children under 19.",
+      "ml": "Medicaid/CHIP health coverage for eligible New Hampshire children under 19.",
+      "hi": "Medicaid/CHIP health coverage for eligible New Hampshire children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "ml": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "hi": [
+        "Identity and New Hampshire residency",
+        "Income documentation",
+        "Child information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at nheasy.nh.gov or follow DHHS Medicaid program pages.",
+      "ml": "Apply online at nheasy.nh.gov or follow DHHS Medicaid program pages.",
+      "hi": "Apply online at nheasy.nh.gov or follow DHHS Medicaid program pages."
+    },
+    "apply_url": "https://nheasy.nh.gov/",
+    "official_source_url": "https://www.dhhs.nh.gov/programs-services/medicaid",
+    "last_verified": "2026-09-23",
+    "office_type": "New Hampshire Department of Health and Human Services (DHHS)",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "dhhs",
+      "nh_easy"
+    ]
+  },
+  {
+    "id": "nh-child-care-scholarship",
+    "scheme_name": {
+      "en": "New Hampshire Child Care Scholarship – DHHS",
+      "ml": "New Hampshire Child Care Scholarship – DHHS",
+      "hi": "NH Child Care Scholarship – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire Child Care Scholarship helps eligible low-income working families pay for child care while parents work, attend school, or participate in approved activities. Funded through federal CCDF partnership administered by DHHS.",
+      "ml": "New Hampshire Child Care Scholarship helps eligible low-income working families pay for child care while parents work, attend school, or participate in approved activities. Funded through federal CCDF partnership administered by DHHS.",
+      "hi": "New Hampshire Child Care Scholarship helps eligible low-income working families pay for child care while parents work, attend school, or participate in approved activities. Funded through federal CCDF partnership administered by DHHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH Child Care Scholarship: low-income families with work/school/approved activities; income and provider rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income tiers and activity requirements — verify=true via dhhs.nh.gov child care / NH EASY.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Child care subsidy / scholarship payments for eligible New Hampshire families.",
+      "ml": "Child care subsidy / scholarship payments for eligible New Hampshire families.",
+      "hi": "Child care subsidy / scholarship payments for eligible New Hampshire families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residency",
+        "Income and work/school activity documentation",
+        "Child information / provider information"
+      ],
+      "ml": [
+        "Identity and residency",
+        "Income and work/school activity documentation",
+        "Child information / provider information"
+      ],
+      "hi": [
+        "Identity and residency",
+        "Income and work/school activity documentation",
+        "Child information / provider information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through NH EASY / DHHS child care scholarship pathways linked from dhhs.nh.gov.",
+      "ml": "Apply through NH EASY / DHHS child care scholarship pathways linked from dhhs.nh.gov.",
+      "hi": "Apply through NH EASY / DHHS child care scholarship pathways linked from dhhs.nh.gov."
+    },
+    "apply_url": "https://nheasy.nh.gov/",
+    "official_source_url": "https://www.dhhs.nh.gov/programs-services/childcare",
+    "last_verified": "2026-09-23",
+    "office_type": "New Hampshire Department of Health and Human Services (DHHS)",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "child_care",
+      "scholarship",
+      "ccdf",
+      "dhhs"
+    ]
+  },
+  {
+    "id": "me-chip-children",
+    "scheme_name": {
+      "en": "MaineCare / CHIP for Children (Cub Care pathway) – Maine DHHS",
+      "ml": "MaineCare / CHIP for Children (Cub Care pathway) – Maine DHHS",
+      "hi": "MaineCare / CHIP बच्चे – मेन"
+    },
+    "description": {
+      "en": "Maine provides free MaineCare or CHIP coverage for eligible children under 19 (historically branded Cub Care). Household income is generally up to published FPL percentages with no asset test for children’s coverage pathways.",
+      "ml": "Maine provides free MaineCare or CHIP coverage for eligible children under 19 (historically branded Cub Care). Household income is generally up to published FPL percentages with no asset test for children’s coverage pathways.",
+      "hi": "Maine provides free MaineCare or CHIP coverage for eligible children under 19 (historically branded Cub Care). Household income is generally up to published FPL percentages with no asset test for children’s coverage pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MaineCare/CHIP children: under 19; income generally up to ~300% FPL per OMS children pages; no asset test for children’s pathways. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income standards and CHIP rule updates — verify=true via maine.gov/dhhs OMS children.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free or low-cost health coverage for eligible Maine children under 19.",
+      "ml": "Free or low-cost health coverage for eligible Maine children under 19.",
+      "hi": "Free or low-cost health coverage for eligible Maine children under 19."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "ml": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Child information"
+      ],
+      "hi": [
+        "Identity and Maine residency",
+        "Income documentation",
+        "Child information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at MyMaineConnection.gov or follow maine.gov/dhhs OMS children MaineCare options pages.",
+      "ml": "Apply online at MyMaineConnection.gov or follow maine.gov/dhhs OMS children MaineCare options pages.",
+      "hi": "Apply online at MyMaineConnection.gov or follow maine.gov/dhhs OMS children MaineCare options pages."
+    },
+    "apply_url": "https://www.mymaineconnection.gov/",
+    "official_source_url": "https://www.maine.gov/dhhs/oms/mainecare-options/children",
+    "last_verified": "2026-09-23",
+    "office_type": "Maine Department of Health and Human Services / Office of MaineCare Services",
+    "tags": [
+      "united_states",
+      "maine",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "mainecare",
+      "cub_care"
+    ]
+  },
+  {
+    "id": "me-eitc",
+    "scheme_name": {
+      "en": "Maine Earned Income Credit (EIC) – Maine Revenue Services",
+      "ml": "Maine Earned Income Credit (EIC) – Maine Revenue Services",
+      "hi": "Maine EIC – मेन"
+    },
+    "description": {
+      "en": "Maine’s Earned Income Credit equals 25% of the federal EITC for taxpayers with qualifying children (50% for taxpayers with no qualifying children) for tax years beginning on or after January 1, 2022. Refundable for Maine residents and part-year residents.",
+      "ml": "Maine’s Earned Income Credit equals 25% of the federal EITC for taxpayers with qualifying children (50% for taxpayers with no qualifying children) for tax years beginning on or after January 1, 2022. Refundable for Maine residents and part-year residents.",
+      "hi": "Maine’s Earned Income Credit equals 25% of the federal EITC for taxpayers with qualifying children (50% for taxpayers with no qualifying children) for tax years beginning on or after January 1, 2022. Refundable for Maine residents and part-year residents."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Maine EIC: 25% of federal EITC with qualifying children / 50% with no qualifying children (TY2022+); refundable for residents and part-year residents; ITIN and age pathways described on MRS page. Federal EITC income limits apply.",
+      "verify": true,
+      "verify_notes": "Percentages and Form 1040ME worksheet — verify=true via maine.gov/revenue EIC page.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable Maine income tax credit based on a percentage of the federal EITC.",
+      "ml": "Refundable Maine income tax credit based on a percentage of the federal EITC.",
+      "hi": "Refundable Maine income tax credit based on a percentage of the federal EITC."
+    },
+    "required_documents": {
+      "en": [
+        "Federal EITC information",
+        "Form 1040ME, Schedule A, and Maine EITC worksheet"
+      ],
+      "ml": [
+        "Federal EITC information",
+        "Form 1040ME, Schedule A, and Maine EITC worksheet"
+      ],
+      "hi": [
+        "Federal EITC information",
+        "Form 1040ME, Schedule A, and Maine EITC worksheet"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on Form 1040ME with Schedule A and the Earned Income Tax Credit Worksheet from maine.gov/revenue.",
+      "ml": "Claim on Form 1040ME with Schedule A and the Earned Income Tax Credit Worksheet from maine.gov/revenue.",
+      "hi": "Claim on Form 1040ME with Schedule A and the Earned Income Tax Credit Worksheet from maine.gov/revenue."
+    },
+    "apply_url": "https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits/earned-income-credit",
+    "official_source_url": "https://www.maine.gov/revenue/taxes/tax-relief-credits-programs/income-tax-credits/earned-income-credit",
+    "last_verified": "2026-09-23",
+    "office_type": "Maine Revenue Services",
+    "tags": [
+      "united_states",
+      "maine",
+      "eitc",
+      "tax_credit",
+      "refundable",
+      "revenue"
+    ]
+  },
+  {
+    "id": "wv-family-tax-credit",
+    "scheme_name": {
+      "en": "West Virginia Family Tax Credit (Low-Income Family Tax Credit) – Tax Division",
+      "ml": "West Virginia Family Tax Credit (Low-Income Family Tax Credit) – Tax Division",
+      "hi": "WV Family Tax Credit – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "West Virginia’s Family Tax Credit (Schedule FTC-1) can reduce or eliminate West Virginia personal income tax for eligible low-income individuals and families based on modified federal AGI and family size. Zero-exemption filers and federal AMT payers do not qualify.",
+      "ml": "West Virginia’s Family Tax Credit (Schedule FTC-1) can reduce or eliminate West Virginia personal income tax for eligible low-income individuals and families based on modified federal AGI and family size. Zero-exemption filers and federal AMT payers do not qualify.",
+      "hi": "West Virginia’s Family Tax Credit (Schedule FTC-1) can reduce or eliminate West Virginia personal income tax for eligible low-income individuals and families based on modified federal AGI and family size. Zero-exemption filers and federal AMT payers do not qualify."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV Family Tax Credit (W. Va. Code §11-21-22): income and family-size tables on Schedule FTC-1; not available to zero-exemption filers or federal AMT payers. Tables change by tax year — not encoded as one ceiling.",
+      "verify": true,
+      "verify_notes": "FTC-1 income tables and exclusions — verify=true via tax.wv.gov PIT instructions / TSD 110.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Nonrefundable reduction or elimination of WV personal income tax for eligible low-income filers.",
+      "ml": "Nonrefundable reduction or elimination of WV personal income tax for eligible low-income filers.",
+      "hi": "Nonrefundable reduction or elimination of WV personal income tax for eligible low-income filers."
+    },
+    "required_documents": {
+      "en": [
+        "West Virginia IT-140 return",
+        "Schedule FTC-1",
+        "Income and exemption information"
+      ],
+      "ml": [
+        "West Virginia IT-140 return",
+        "Schedule FTC-1",
+        "Income and exemption information"
+      ],
+      "hi": [
+        "West Virginia IT-140 return",
+        "Schedule FTC-1",
+        "Income and exemption information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim Schedule FTC-1 with Form IT-140 using forms/instructions from tax.wv.gov.",
+      "ml": "Claim Schedule FTC-1 with Form IT-140 using forms/instructions from tax.wv.gov.",
+      "hi": "Claim Schedule FTC-1 with Form IT-140 using forms/instructions from tax.wv.gov."
+    },
+    "apply_url": "https://tax.wv.gov/Documents/PIT/2025/it140.PersonalIncomeTaxFormsAndInstructions.2025.pdf",
+    "official_source_url": "https://tax.wv.gov/Documents/TSD/tsd110.pdf",
+    "last_verified": "2026-09-23",
+    "office_type": "West Virginia Tax Division",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "tax_credit",
+      "family_tax_credit",
+      "low_income"
+    ]
+  },
+  {
+    "id": "ms-homestead-exemption",
+    "scheme_name": {
+      "en": "Mississippi Homestead Exemption – Department of Revenue",
+      "ml": "Mississippi Homestead Exemption – Department of Revenue",
+      "hi": "मिसिसिपी Homestead Exemption"
+    },
+    "description": {
+      "en": "Mississippi Homestead Exemption provides property tax relief for eligible owner-occupied primary residences. Additional age/disability tiers may increase relief. Applications are handled through the county tax assessor with DOR program rules.",
+      "ml": "Mississippi Homestead Exemption provides property tax relief for eligible owner-occupied primary residences. Additional age/disability tiers may increase relief. Applications are handled through the county tax assessor with DOR program rules.",
+      "hi": "Mississippi Homestead Exemption provides property tax relief for eligible owner-occupied primary residences. Additional age/disability tiers may increase relief. Applications are handled through the county tax assessor with DOR program rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MS Homestead Exemption: owner-occupied primary residence; standard and age/disability tiers per DOR. Not an income-tested cash benefit; some tiers have additional rules. Confirm current credit amounts with DOR/county.",
+      "verify": true,
+      "verify_notes": "Exemption amounts and age/disability tiers — verify=true via dor.ms.gov homestead exemption.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Property tax exemption / credit on an eligible Mississippi homestead (amount depends on tier).",
+      "ml": "Property tax exemption / credit on an eligible Mississippi homestead (amount depends on tier).",
+      "hi": "Property tax exemption / credit on an eligible Mississippi homestead (amount depends on tier)."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of ownership and occupancy of primary residence",
+        "Mississippi residency",
+        "Age or disability documentation if claiming enhanced tiers",
+        "County assessor homestead application"
+      ],
+      "ml": [
+        "Proof of ownership and occupancy of primary residence",
+        "Mississippi residency",
+        "Age or disability documentation if claiming enhanced tiers",
+        "County assessor homestead application"
+      ],
+      "hi": [
+        "Proof of ownership and occupancy of primary residence",
+        "Mississippi residency",
+        "Age or disability documentation if claiming enhanced tiers",
+        "County assessor homestead application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your county tax assessor following Mississippi Department of Revenue homestead exemption guidance at dor.ms.gov.",
+      "ml": "Apply through your county tax assessor following Mississippi Department of Revenue homestead exemption guidance at dor.ms.gov.",
+      "hi": "Apply through your county tax assessor following Mississippi Department of Revenue homestead exemption guidance at dor.ms.gov."
+    },
+    "apply_url": "https://www.dor.ms.gov/county-services/homestead-exemption",
+    "official_source_url": "https://www.dor.ms.gov/county-services/homestead-exemption",
+    "last_verified": "2026-09-23",
+    "office_type": "Mississippi Department of Revenue / County Tax Assessors",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "homestead",
+      "property_tax",
+      "housing",
+      "dor"
+    ]
+  },
+  {
+    "id": "us-ar-tea-work-supports",
+    "scheme_name": {
+      "en": "Arkansas TEA Work Supports / Transitional Employment Assistance supports – DHS",
+      "ml": "Arkansas TEA Work Supports / Transitional Employment Assistance supports – DHS",
+      "hi": "Arkansas TEA work supports – आर्कान्सा"
+    },
+    "description": {
+      "en": "Beyond basic TEA cash, Arkansas DHS Transitional Employment Assistance provides related work supports for eligible families moving toward employment (child care, transportation, and case management as authorized). Apply via Access Arkansas / DHS.",
+      "ml": "Beyond basic TEA cash, Arkansas DHS Transitional Employment Assistance provides related work supports for eligible families moving toward employment (child care, transportation, and case management as authorized). Apply via Access Arkansas / DHS.",
+      "hi": "Beyond basic TEA cash, Arkansas DHS Transitional Employment Assistance provides related work supports for eligible families moving toward employment (child care, transportation, and case management as authorized). Apply via Access Arkansas / DHS."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Arkansas TEA work supports: low-income families with dependent children meeting TEA/TANF rules; specific supports depend on approved employment plan. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "TEA eligibility, time limits, and support types — verify=true via humanservices.arkansas.gov TEA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Employment-related supports for eligible TEA / TANF families in Arkansas (services vary by case plan).",
+      "ml": "Employment-related supports for eligible TEA / TANF families in Arkansas (services vary by case plan).",
+      "hi": "Employment-related supports for eligible TEA / TANF families in Arkansas (services vary by case plan)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Arkansas residency",
+        "Income and household documentation",
+        "Proof of children / work activities as required"
+      ],
+      "ml": [
+        "Identity and Arkansas residency",
+        "Income and household documentation",
+        "Proof of children / work activities as required"
+      ],
+      "hi": [
+        "Identity and Arkansas residency",
+        "Income and household documentation",
+        "Proof of children / work activities as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Access Arkansas or county DHS offices; see humanservices.arkansas.gov TEA / TANF pages.",
+      "ml": "Apply through Access Arkansas or county DHS offices; see humanservices.arkansas.gov TEA / TANF pages.",
+      "hi": "Apply through Access Arkansas or county DHS offices; see humanservices.arkansas.gov TEA / TANF pages."
+    },
+    "apply_url": "https://access.arkansas.gov/Learn/Home",
+    "official_source_url": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/temporary-assistance-for-needy-families/transitional-employment-assistance/",
+    "last_verified": "2026-09-23",
+    "office_type": "Arkansas Department of Human Services / County Operations",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "tanf",
+      "tea",
+      "work_supports",
+      "employment",
+      "dhs"
+    ]
+  },
+  {
+    "id": "ia-eitc",
+    "scheme_name": {
+      "en": "Iowa Earned Income Tax Credit – Department of Revenue",
+      "ml": "Iowa Earned Income Tax Credit – Department of Revenue",
+      "hi": "Iowa EITC – आयोवा"
+    },
+    "description": {
+      "en": "Iowa’s refundable Earned Income Tax Credit equals 15% of the federal EITC for qualifying filers. Claimed on the Iowa individual income tax return.",
+      "ml": "Iowa’s refundable Earned Income Tax Credit equals 15% of the federal EITC for qualifying filers. Claimed on the Iowa individual income tax return.",
+      "hi": "Iowa’s refundable Earned Income Tax Credit equals 15% of the federal EITC for qualifying filers. Claimed on the Iowa individual income tax return."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Iowa EITC: 15% of federal EITC for qualifying filers (Iowa Administrative Code / Revenue guidance). Federal EITC income limits apply — not a separate Iowa AGI ceiling in catalogue.",
+      "verify": true,
+      "verify_notes": "Confirm current percentage and claim lines — verify=true via revenue.iowa.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable Iowa tax credit equal to 15% of the federal EITC.",
+      "ml": "Refundable Iowa tax credit equal to 15% of the federal EITC.",
+      "hi": "Refundable Iowa tax credit equal to 15% of the federal EITC."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "Iowa individual income tax return"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "Iowa individual income tax return"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "Iowa individual income tax return"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on the Iowa income tax return using forms/guidance from revenue.iowa.gov.",
+      "ml": "Claim on the Iowa income tax return using forms/guidance from revenue.iowa.gov.",
+      "hi": "Claim on the Iowa income tax return using forms/guidance from revenue.iowa.gov."
+    },
+    "apply_url": "https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/other-nonrefundable-iowa-credits",
+    "official_source_url": "https://revenue.iowa.gov/taxes/tax-guidance/individual-income-tax/1040-expanded-instructions/other-nonrefundable-iowa-credits",
+    "last_verified": "2026-09-23",
+    "office_type": "Iowa Department of Revenue",
+    "tags": [
+      "united_states",
+      "iowa",
+      "eitc",
+      "tax_credit",
+      "refundable"
+    ]
+  },
+  {
+    "id": "ia-rent-reimbursement",
+    "scheme_name": {
+      "en": "Iowa Rent Reimbursement – Iowa HHS",
+      "ml": "Iowa Rent Reimbursement – Iowa HHS",
+      "hi": "Iowa Rent Reimbursement – आयोवा"
+    },
+    "description": {
+      "en": "Iowa Rent Reimbursement helps eligible Iowa renters age 65+ or adults 18+ who are totally disabled with a refund based on rent paid, subject to income limits and property-taxable housing rules.",
+      "ml": "Iowa Rent Reimbursement helps eligible Iowa renters age 65+ or adults 18+ who are totally disabled with a refund based on rent paid, subject to income limits and property-taxable housing rules.",
+      "hi": "Iowa Rent Reimbursement helps eligible Iowa renters age 65+ or adults 18+ who are totally disabled with a refund based on rent paid, subject to income limits and property-taxable housing rules."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Iowa"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Iowa Rent Reimbursement: age 65+ or totally disabled age 18+; income within published annual limit for claim year (HHS publishes yearly; e.g. prior guidance cited mid-$20k range — verify current); reimbursement based on percentage of rent with caps. No single permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Annual income limit, disability definition, and reimbursement formula — verify=true via iowa.gov / HHS rent reimbursement.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Annual rent reimbursement payment for eligible Iowa senior or totally disabled renters (subject to income cap and formula).",
+      "ml": "Annual rent reimbursement payment for eligible Iowa senior or totally disabled renters (subject to income cap and formula).",
+      "hi": "Annual rent reimbursement payment for eligible Iowa senior or totally disabled renters (subject to income cap and formula)."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of rent paid",
+        "Age 65+ or total disability documentation",
+        "Income documentation",
+        "Iowa residency"
+      ],
+      "ml": [
+        "Proof of rent paid",
+        "Age 65+ or total disability documentation",
+        "Income documentation",
+        "Iowa residency"
+      ],
+      "hi": [
+        "Proof of rent paid",
+        "Age 65+ or total disability documentation",
+        "Income documentation",
+        "Iowa residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Iowa.gov Rent Reimbursement / Iowa HHS instructions for the claim year.",
+      "ml": "Apply via Iowa.gov Rent Reimbursement / Iowa HHS instructions for the claim year.",
+      "hi": "Apply via Iowa.gov Rent Reimbursement / Iowa HHS instructions for the claim year."
+    },
+    "apply_url": "https://www.iowa.gov/how-do-i-apply-rent-reimbursement",
+    "official_source_url": "https://www.iowa.gov/how-do-i-apply-rent-reimbursement",
+    "last_verified": "2026-09-23",
+    "office_type": "Iowa Department of Health and Human Services (HHS)",
+    "tags": [
+      "united_states",
+      "iowa",
+      "rent_reimbursement",
+      "housing",
+      "senior",
+      "disability"
+    ]
+  },
+  {
+    "id": "ks-chip",
+    "scheme_name": {
+      "en": "Kansas CHIP (Children’s Health Insurance under KanCare) – KDHE / DCF",
+      "ml": "Kansas CHIP (Children’s Health Insurance under KanCare) – KDHE / DCF",
+      "hi": "Kansas CHIP – कान्सास"
+    },
+    "description": {
+      "en": "Kansas CHIP covers uninsured children under 19 whose household income exceeds Medicaid limits but falls within CHIP bands. Coverage is delivered through KanCare; premiums may apply above certain FPL levels.",
+      "ml": "Kansas CHIP covers uninsured children under 19 whose household income exceeds Medicaid limits but falls within CHIP bands. Coverage is delivered through KanCare; premiums may apply above certain FPL levels.",
+      "hi": "Kansas CHIP covers uninsured children under 19 whose household income exceeds Medicaid limits but falls within CHIP bands. Coverage is delivered through KanCare; premiums may apply above certain FPL levels."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS CHIP: uninsured children under 19; income above Medicaid but within CHIP FPL bands; family premiums may apply above ~167% FPL per KDHE guidelines. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP premiums and FPL bands — verify=true via kdhe.ks.gov KanCare Eligibility Guidelines.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible Kansas children under 19 (KanCare).",
+      "ml": "CHIP health coverage for eligible Kansas children under 19 (KanCare).",
+      "hi": "CHIP health coverage for eligible Kansas children under 19 (KanCare)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child information",
+        "Proof of being uninsured as required"
+      ],
+      "ml": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child information",
+        "Proof of being uninsured as required"
+      ],
+      "hi": [
+        "Identity and Kansas residency",
+        "Income documentation",
+        "Child information",
+        "Proof of being uninsured as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through Medical KEES / KanCare eligibility pathways (cssp.kees.ks.gov) or DCF/KDHE guidance.",
+      "ml": "Apply through Medical KEES / KanCare eligibility pathways (cssp.kees.ks.gov) or DCF/KDHE guidance.",
+      "hi": "Apply through Medical KEES / KanCare eligibility pathways (cssp.kees.ks.gov) or DCF/KDHE guidance."
+    },
+    "apply_url": "https://cssp.kees.ks.gov/apspssp/",
+    "official_source_url": "https://www.kdhe.ks.gov/185/KanCare-Eligibility-Guidelines",
+    "last_verified": "2026-09-23",
+    "office_type": "Kansas Department of Health and Environment / DCF (KanCare)",
+    "tags": [
+      "united_states",
+      "kansas",
+      "chip",
+      "kids",
+      "children",
+      "kancare",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "ks-homestead",
+    "scheme_name": {
+      "en": "Kansas Homestead Property Tax Refund – Department of Revenue",
+      "ml": "Kansas Homestead Property Tax Refund – Department of Revenue",
+      "hi": "Kansas Homestead Refund – कान्सास"
+    },
+    "description": {
+      "en": "Kansas Homestead Property Tax Refund (Form K-40H) provides a refund to eligible homeowners who owned and occupied a qualifying Kansas homestead all year, meet income limits, and meet age, disability, or dependent-child requirements.",
+      "ml": "Kansas Homestead Property Tax Refund (Form K-40H) provides a refund to eligible homeowners who owned and occupied a qualifying Kansas homestead all year, meet income limits, and meet age, disability, or dependent-child requirements.",
+      "hi": "Kansas Homestead Property Tax Refund (Form K-40H) provides a refund to eligible homeowners who owned and occupied a qualifying Kansas homestead all year, meet income limits, and meet age, disability, or dependent-child requirements."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS Homestead (K-40H): full-year Kansas homeowner-occupant; household income within published annual limit (instruction booklet cites limit near low-$40k for recent year — verify current); age 55+/disability/dependent-child pathways; refund capped per tables.",
+      "verify": true,
+      "verify_notes": "Income limit, age/disability pathways, and refund caps — verify=true via ksrevenue.gov K-40H booklet.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Property tax refund for eligible Kansas homesteaders (amount per Form K-40H tables; subject to annual income limit).",
+      "ml": "Property tax refund for eligible Kansas homesteaders (amount per Form K-40H tables; subject to annual income limit).",
+      "hi": "Property tax refund for eligible Kansas homesteaders (amount per Form K-40H tables; subject to annual income limit)."
+    },
+    "required_documents": {
+      "en": [
+        "Form K-40H",
+        "Proof of homestead ownership/occupancy",
+        "Income documentation",
+        "Age, disability, or dependent-child documentation as applicable"
+      ],
+      "ml": [
+        "Form K-40H",
+        "Proof of homestead ownership/occupancy",
+        "Income documentation",
+        "Age, disability, or dependent-child documentation as applicable"
+      ],
+      "hi": [
+        "Form K-40H",
+        "Proof of homestead ownership/occupancy",
+        "Income documentation",
+        "Age, disability, or dependent-child documentation as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form K-40H with Kansas Department of Revenue using current instruction booklet at ksrevenue.gov.",
+      "ml": "File Form K-40H with Kansas Department of Revenue using current instruction booklet at ksrevenue.gov.",
+      "hi": "File Form K-40H with Kansas Department of Revenue using current instruction booklet at ksrevenue.gov."
+    },
+    "apply_url": "https://www.ksrevenue.gov/pdf/k-40hbook25.pdf",
+    "official_source_url": "https://www.ksrevenue.gov/pdf/k-40hbook25.pdf",
+    "last_verified": "2026-09-23",
+    "office_type": "Kansas Department of Revenue",
+    "tags": [
+      "united_states",
+      "kansas",
+      "homestead",
+      "property_tax",
+      "refund",
+      "housing"
+    ]
+  },
+  {
+    "id": "ne-kids-connection",
+    "scheme_name": {
+      "en": "Kids Connection (CHIP) – Nebraska DHHS",
+      "ml": "Kids Connection (CHIP) – Nebraska DHHS",
+      "hi": "Kids Connection CHIP – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska Kids Connection is the state’s CHIP program providing Medicaid-covered services to eligible uninsured children age 18 and younger who do not qualify for regular Medicaid. Apply through iServe Nebraska.",
+      "ml": "Nebraska Kids Connection is the state’s CHIP program providing Medicaid-covered services to eligible uninsured children age 18 and younger who do not qualify for regular Medicaid. Apply through iServe Nebraska.",
+      "hi": "Nebraska Kids Connection is the state’s CHIP program providing Medicaid-covered services to eligible uninsured children age 18 and younger who do not qualify for regular Medicaid. Apply through iServe Nebraska."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 18,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Kids Connection (CHIP): uninsured children ≤18 not eligible for regular Medicaid; income and residency rules. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "CHIP vs Medicaid income bands — verify=true via dhhs.ne.gov Medicaid Eligibility / iServe.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "CHIP health coverage for eligible Nebraska children 18 and under.",
+      "ml": "CHIP health coverage for eligible Nebraska children 18 and under.",
+      "hi": "CHIP health coverage for eligible Nebraska children 18 and under."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Nebraska residency",
+        "Income documentation",
+        "Child information",
+        "Uninsured status as required"
+      ],
+      "ml": [
+        "Identity and Nebraska residency",
+        "Income documentation",
+        "Child information",
+        "Uninsured status as required"
+      ],
+      "hi": [
+        "Identity and Nebraska residency",
+        "Income documentation",
+        "Child information",
+        "Uninsured status as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at iserve.nebraska.gov or follow dhhs.ne.gov Medicaid eligibility pages.",
+      "ml": "Apply online at iserve.nebraska.gov or follow dhhs.ne.gov Medicaid eligibility pages.",
+      "hi": "Apply online at iserve.nebraska.gov or follow dhhs.ne.gov Medicaid eligibility pages."
+    },
+    "apply_url": "https://iserve.nebraska.gov/",
+    "official_source_url": "https://dhhs.ne.gov/pages/Medicaid-Eligibility.aspx",
+    "last_verified": "2026-09-23",
+    "office_type": "Nebraska Department of Health and Human Services (DHHS)",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "chip",
+      "kids",
+      "children",
+      "kids_connection",
+      "medicaid",
+      "health"
+    ]
+  },
+  {
+    "id": "ne-eitc",
+    "scheme_name": {
+      "en": "Nebraska Earned Income Tax Credit – Department of Revenue",
+      "ml": "Nebraska Earned Income Tax Credit – Department of Revenue",
+      "hi": "Nebraska EITC – नेब्रास्का"
+    },
+    "description": {
+      "en": "Nebraska offers a refundable state earned income tax credit equal to a percentage of the federal EITC for qualifying Nebraska filers. Claimed on the Nebraska individual income tax return.",
+      "ml": "Nebraska offers a refundable state earned income tax credit equal to a percentage of the federal EITC for qualifying Nebraska filers. Claimed on the Nebraska individual income tax return.",
+      "hi": "Nebraska offers a refundable state earned income tax credit equal to a percentage of the federal EITC for qualifying Nebraska filers. Claimed on the Nebraska individual income tax return."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE EITC: refundable credit equal to 10% of federal EITC for Nebraska residents (and eligible partial-year residents with income ratio); nonresidents generally ineligible. Federal EITC limits apply.",
+      "verify": true,
+      "verify_notes": "Confirm current 10% rate and Schedule I lines — verify=true via revenue.nebraska.gov Individual Income Tax Booklet.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable Nebraska tax credit based on a percentage of the federal EITC.",
+      "ml": "Refundable Nebraska tax credit based on a percentage of the federal EITC.",
+      "hi": "Refundable Nebraska tax credit based on a percentage of the federal EITC."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "Nebraska individual income tax return"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "Nebraska individual income tax return"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "Nebraska individual income tax return"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on the Nebraska income tax return using forms from revenue.nebraska.gov.",
+      "ml": "Claim on the Nebraska income tax return using forms from revenue.nebraska.gov.",
+      "hi": "Claim on the Nebraska income tax return using forms from revenue.nebraska.gov."
+    },
+    "apply_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Individual_Income_Tax_Booklet.pdf",
+    "official_source_url": "https://revenue.nebraska.gov/sites/default/files/doc/tax-forms/2025/f_Individual_Income_Tax_Booklet.pdf",
+    "last_verified": "2026-09-23",
+    "office_type": "Nebraska Department of Revenue",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "eitc",
+      "tax_credit",
+      "refundable"
+    ]
+  },
+  {
+    "id": "nd-homestead-credit",
+    "scheme_name": {
+      "en": "North Dakota Homestead Property Tax Credit & Renter’s Refund – Tax Commissioner",
+      "ml": "North Dakota Homestead Property Tax Credit & Renter’s Refund – Tax Commissioner",
+      "hi": "ND Homestead Credit – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota Homestead Property Tax Credit helps eligible senior or permanently disabled homeowners reduce property taxes; eligible renters may qualify for a renter’s refund. Apply through the local assessor / Tax Commissioner program.",
+      "ml": "North Dakota Homestead Property Tax Credit helps eligible senior or permanently disabled homeowners reduce property taxes; eligible renters may qualify for a renter’s refund. Apply through the local assessor / Tax Commissioner program.",
+      "hi": "North Dakota Homestead Property Tax Credit helps eligible senior or permanently disabled homeowners reduce property taxes; eligible renters may qualify for a renter’s refund. Apply through the local assessor / Tax Commissioner program."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND Homestead Credit: homeowners 65+ or permanently disabled; household income within published limit (program materials cite up to $70,000 — verify current); renters may receive refunds up to published cap. Apply by local deadlines.",
+      "verify": true,
+      "verify_notes": "Income limits, disability definition, renter caps, deadlines — verify=true via tax.nd.gov homestead page.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Property tax credit for eligible ND homeowners and/or renter’s refund for eligible renters (subject to income and age/disability rules).",
+      "ml": "Property tax credit for eligible ND homeowners and/or renter’s refund for eligible renters (subject to income and age/disability rules).",
+      "hi": "Property tax credit for eligible ND homeowners and/or renter’s refund for eligible renters (subject to income and age/disability rules)."
+    },
+    "required_documents": {
+      "en": [
+        "Age 65+ or permanent disability documentation",
+        "Income documentation",
+        "Proof of homestead ownership or rent paid",
+        "North Dakota residency"
+      ],
+      "ml": [
+        "Age 65+ or permanent disability documentation",
+        "Income documentation",
+        "Proof of homestead ownership or rent paid",
+        "North Dakota residency"
+      ],
+      "hi": [
+        "Age 65+ or permanent disability documentation",
+        "Income documentation",
+        "Proof of homestead ownership or rent paid",
+        "North Dakota residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Homeowners apply through the local assessor by the published deadline; see tax.nd.gov Homestead Property Tax Credit and Renter’s Refund.",
+      "ml": "Homeowners apply through the local assessor by the published deadline; see tax.nd.gov Homestead Property Tax Credit and Renter’s Refund.",
+      "hi": "Homeowners apply through the local assessor by the published deadline; see tax.nd.gov Homestead Property Tax Credit and Renter’s Refund."
+    },
+    "apply_url": "https://www.tax.nd.gov/homestead-property-tax-credit-and-renters-refund",
+    "official_source_url": "https://www.tax.nd.gov/homestead-property-tax-credit-and-renters-refund",
+    "last_verified": "2026-09-23",
+    "office_type": "North Dakota Office of State Tax Commissioner / Local Assessors",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "homestead",
+      "property_tax",
+      "renters_refund",
+      "housing",
+      "senior"
+    ]
+  },
+  {
+    "id": "sd-tax-refund",
+    "scheme_name": {
+      "en": "South Dakota Sales or Property Tax Refund (Senior/Disabled) – DOR",
+      "ml": "South Dakota Sales or Property Tax Refund (Senior/Disabled) – DOR",
+      "hi": "SD Tax Refund – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota Department of Revenue administers an annual refund program for eligible senior citizens and citizens with disabilities that refunds part of prior-year sales tax paid, or property tax, whichever is greater (cannot receive both).",
+      "ml": "South Dakota Department of Revenue administers an annual refund program for eligible senior citizens and citizens with disabilities that refunds part of prior-year sales tax paid, or property tax, whichever is greater (cannot receive both).",
+      "hi": "South Dakota Department of Revenue administers an annual refund program for eligible senior citizens and citizens with disabilities that refunds part of prior-year sales tax paid, or property tax, whichever is greater (cannot receive both)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD senior/disabled tax refund: residency, age/disability, and income limits published annually (single vs household differ). Refund is sales tax or property tax component, not both. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Annual income limits, deadlines, and application form year — verify=true via dor.sd.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Annual sales-tax or property-tax refund for eligible SD seniors/disabled residents meeting income limits.",
+      "ml": "Annual sales-tax or property-tax refund for eligible SD seniors/disabled residents meeting income limits.",
+      "hi": "Annual sales-tax or property-tax refund for eligible SD seniors/disabled residents meeting income limits."
+    },
+    "required_documents": {
+      "en": [
+        "Age or disability documentation",
+        "Income documentation for prior year",
+        "South Dakota residency",
+        "DOR refund application for the claim year"
+      ],
+      "ml": [
+        "Age or disability documentation",
+        "Income documentation for prior year",
+        "South Dakota residency",
+        "DOR refund application for the claim year"
+      ],
+      "hi": [
+        "Age or disability documentation",
+        "Income documentation for prior year",
+        "South Dakota residency",
+        "DOR refund application for the claim year"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the DOR Sales or Property Tax Refund application by the published deadline (dor.sd.gov).",
+      "ml": "Submit the DOR Sales or Property Tax Refund application by the published deadline (dor.sd.gov).",
+      "hi": "Submit the DOR Sales or Property Tax Refund application by the published deadline (dor.sd.gov)."
+    },
+    "apply_url": "https://dor.sd.gov/newsroom/tax-refund-program-open-to-senior-citizens-and-citizens-with-disabilities/",
+    "official_source_url": "https://dor.sd.gov/newsroom/tax-refund-program-open-to-senior-citizens-and-citizens-with-disabilities/",
+    "last_verified": "2026-09-23",
+    "office_type": "South Dakota Department of Revenue (DOR)",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "tax_refund",
+      "senior",
+      "disability",
+      "property_tax",
+      "sales_tax"
+    ]
+  },
+  {
+    "id": "mt-eitc",
+    "scheme_name": {
+      "en": "Montana Earned Income Tax Credit – Department of Revenue",
+      "ml": "Montana Earned Income Tax Credit – Department of Revenue",
+      "hi": "Montana EITC – मोंटाना"
+    },
+    "description": {
+      "en": "Montana’s refundable Earned Income Tax Credit is generally 10% of the federal EITC for eligible Montana residents who claim the federal credit. File Montana Form 2; nonresidents do not qualify.",
+      "ml": "Montana’s refundable Earned Income Tax Credit is generally 10% of the federal EITC for eligible Montana residents who claim the federal credit. File Montana Form 2; nonresidents do not qualify.",
+      "hi": "Montana’s refundable Earned Income Tax Credit is generally 10% of the federal EITC for eligible Montana residents who claim the federal credit. File Montana Form 2; nonresidents do not qualify."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT EITC: generally 10% of federal EITC; Montana residents; nonresidents ineligible; part-year residents may receive proportional credit. Federal EITC limits apply.",
+      "verify": true,
+      "verify_notes": "Rate and residency proration — verify=true via revenue.mt.gov MT EITC / Form 2 instructions.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable Montana tax credit equal to 10% of the federal EITC for qualifying residents.",
+      "ml": "Refundable Montana tax credit equal to 10% of the federal EITC for qualifying residents.",
+      "hi": "Refundable Montana tax credit equal to 10% of the federal EITC for qualifying residents."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "Montana Form 2",
+        "Montana residency"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "Montana Form 2",
+        "Montana residency"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "Montana Form 2",
+        "Montana residency"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on Montana Form 2 using revenue.mt.gov EITC guidance and Form 2 instructions.",
+      "ml": "Claim on Montana Form 2 using revenue.mt.gov EITC guidance and Form 2 instructions.",
+      "hi": "Claim on Montana Form 2 using revenue.mt.gov EITC guidance and Form 2 instructions."
+    },
+    "apply_url": "https://revenue.mt.gov/taxes/tax-credits/mt-earned-income-tax-credit",
+    "official_source_url": "https://revenue.mt.gov/taxes/tax-credits/mt-earned-income-tax-credit",
+    "last_verified": "2026-09-23",
+    "office_type": "Montana Department of Revenue",
+    "tags": [
+      "united_states",
+      "montana",
+      "eitc",
+      "tax_credit",
+      "refundable"
+    ]
+  },
+  {
+    "id": "wy-child-care",
+    "scheme_name": {
+      "en": "Wyoming Child Care Subsidy / ECARES – DFS",
+      "ml": "Wyoming Child Care Subsidy / ECARES – DFS",
+      "hi": "Wyoming Child Care Subsidy – वायोमिंग"
+    },
+    "description": {
+      "en": "Wyoming Department of Family Services Child Care Subsidy helps eligible low-income families pay for child care while parents work, attend school, or participate in approved training. Provider and family enrollment runs through ECARES.",
+      "ml": "Wyoming Department of Family Services Child Care Subsidy helps eligible low-income families pay for child care while parents work, attend school, or participate in approved training. Provider and family enrollment runs through ECARES.",
+      "hi": "Wyoming Department of Family Services Child Care Subsidy helps eligible low-income families pay for child care while parents work, attend school, or participate in approved training. Provider and family enrollment runs through ECARES."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY Child Care Subsidy: low-income families with approved work/school/training activities; income and provider rules via DFS/ECARES. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income tiers and ECARES enrollment — verify=true via dfs.wyo.gov child care.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Child care subsidy payments for eligible Wyoming families.",
+      "ml": "Child care subsidy payments for eligible Wyoming families.",
+      "hi": "Child care subsidy payments for eligible Wyoming families."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and Wyoming residency",
+        "Income and work/school activity documentation",
+        "Child and provider information"
+      ],
+      "ml": [
+        "Identity and Wyoming residency",
+        "Income and work/school activity documentation",
+        "Child and provider information"
+      ],
+      "hi": [
+        "Identity and Wyoming residency",
+        "Income and work/school activity documentation",
+        "Child and provider information"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply / check eligibility through DFS Child Care Assistance and ECARES pathways on dfs.wyo.gov.",
+      "ml": "Apply / check eligibility through DFS Child Care Assistance and ECARES pathways on dfs.wyo.gov.",
+      "hi": "Apply / check eligibility through DFS Child Care Assistance and ECARES pathways on dfs.wyo.gov."
+    },
+    "apply_url": "https://dfs.wyo.gov/services/family-services/child-care/",
+    "official_source_url": "https://dfs.wyo.gov/services/family-services/child-care/",
+    "last_verified": "2026-09-23",
+    "office_type": "Wyoming Department of Family Services (DFS)",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "child_care",
+      "subsidy",
+      "ccdf",
+      "dfs"
+    ]
+  },
+  {
+    "id": "id-property-tax-reduction",
+    "scheme_name": {
+      "en": "Idaho Property Tax Reduction (Circuit Breaker) – State Tax Commission",
+      "ml": "Idaho Property Tax Reduction (Circuit Breaker) – State Tax Commission",
+      "hi": "Idaho Property Tax Reduction – आइडाहो"
+    },
+    "description": {
+      "en": "Idaho’s Property Tax Reduction (Circuit Breaker) program may reduce property taxes for eligible homeowners (age 65+, disabled, blind, widowed, and other listed statuses) with income at or below the published annual bracket.",
+      "ml": "Idaho’s Property Tax Reduction (Circuit Breaker) program may reduce property taxes for eligible homeowners (age 65+, disabled, blind, widowed, and other listed statuses) with income at or below the published annual bracket.",
+      "hi": "Idaho’s Property Tax Reduction (Circuit Breaker) program may reduce property taxes for eligible homeowners (age 65+, disabled, blind, widowed, and other listed statuses) with income at or below the published annual bracket."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Idaho Property Tax Reduction: eligible status categories (65+, disabled, blind, widowed, etc.); income at or below published bracket for claim year; reduction amount within published min/max. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income brackets, status categories, deadlines, reduction range — verify=true via tax.idaho.gov Property Tax Reduction.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Property tax reduction credit for eligible Idaho homeowners meeting status and income rules.",
+      "ml": "Property tax reduction credit for eligible Idaho homeowners meeting status and income rules.",
+      "hi": "Property tax reduction credit for eligible Idaho homeowners meeting status and income rules."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of homeownership and occupancy",
+        "Age/disability/widow/other qualifying status documentation",
+        "Income documentation for prior year",
+        "Property Tax Reduction application by deadline"
+      ],
+      "ml": [
+        "Proof of homeownership and occupancy",
+        "Age/disability/widow/other qualifying status documentation",
+        "Income documentation for prior year",
+        "Property Tax Reduction application by deadline"
+      ],
+      "hi": [
+        "Proof of homeownership and occupancy",
+        "Age/disability/widow/other qualifying status documentation",
+        "Income documentation for prior year",
+        "Property Tax Reduction application by deadline"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with the county / State Tax Commission Property Tax Reduction program by the published deadline (tax.idaho.gov).",
+      "ml": "Apply with the county / State Tax Commission Property Tax Reduction program by the published deadline (tax.idaho.gov).",
+      "hi": "Apply with the county / State Tax Commission Property Tax Reduction program by the published deadline (tax.idaho.gov)."
+    },
+    "apply_url": "https://tax.idaho.gov/taxes/property/homeowners/reduction/",
+    "official_source_url": "https://tax.idaho.gov/taxes/property/homeowners/reduction/",
+    "last_verified": "2026-09-23",
+    "office_type": "Idaho State Tax Commission / County Assessors",
+    "tags": [
+      "united_states",
+      "idaho",
+      "property_tax",
+      "circuit_breaker",
+      "housing",
+      "senior"
+    ]
+  },
+  {
+    "id": "dc-medicaid-children",
+    "scheme_name": {
+      "en": "DC Medicaid for Infants & Children (0–20) – DHCF",
+      "ml": "DC Medicaid for Infants & Children (0–20) – DHCF",
+      "hi": "DC Medicaid बच्चे – डीसी"
+    },
+    "description": {
+      "en": "District of Columbia Medicaid covers eligible infants and children ages 0–20 who are DC residents and meet income and citizenship/immigration rules. Apply through District Direct / DHCF.",
+      "ml": "District of Columbia Medicaid covers eligible infants and children ages 0–20 who are DC residents and meet income and citizenship/immigration rules. Apply through District Direct / DHCF.",
+      "hi": "District of Columbia Medicaid covers eligible infants and children ages 0–20 who are DC residents and meet income and citizenship/immigration rules. Apply through District Direct / DHCF."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 20,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC Medicaid Infants & Children (0–20): DC residency; income within published FPL bands (DHCF cites higher FPL for ages 0–18 than 19–20); citizenship or eligible immigration status. No single annual ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Age-band FPL charts and immigration pathways — verify=true via dhcf.dc.gov Infants & Children.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Medicaid health coverage for eligible DC children and youth ages 0–20.",
+      "ml": "Medicaid health coverage for eligible DC children and youth ages 0–20.",
+      "hi": "Medicaid health coverage for eligible DC children and youth ages 0–20."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Citizenship or immigration documentation as required"
+      ],
+      "ml": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Citizenship or immigration documentation as required"
+      ],
+      "hi": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Citizenship or immigration documentation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at District Direct or follow DHCF Infants & Children Medicaid guidance at dhcf.dc.gov.",
+      "ml": "Apply online at District Direct or follow DHCF Infants & Children Medicaid guidance at dhcf.dc.gov.",
+      "hi": "Apply online at District Direct or follow DHCF Infants & Children Medicaid guidance at dhcf.dc.gov."
+    },
+    "apply_url": "https://districtdirect.dc.gov/",
+    "official_source_url": "https://dhcf.dc.gov/service/infants-children-0-20",
+    "last_verified": "2026-09-23",
+    "office_type": "DC Department of Health Care Finance (DHCF) / DHS District Direct",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "chip",
+      "kids",
+      "children",
+      "medicaid",
+      "health",
+      "dhcf"
+    ]
+  },
+  {
+    "id": "dc-healthcare-alliance-children",
+    "scheme_name": {
+      "en": "DC Health Care Alliance for Children (formerly Immigrant Children’s Program) – DHCF",
+      "ml": "DC Health Care Alliance for Children (formerly Immigrant Children’s Program) – DHCF",
+      "hi": "DC Alliance for Children – डीसी"
+    },
+    "description": {
+      "en": "DC Health Care Alliance for Children (formerly Immigrant Children’s Program) provides health coverage for eligible District-resident children who do not qualify for Medicaid and meet income and uninsured rules.",
+      "ml": "DC Health Care Alliance for Children (formerly Immigrant Children’s Program) provides health coverage for eligible District-resident children who do not qualify for Medicaid and meet income and uninsured rules.",
+      "hi": "DC Health Care Alliance for Children (formerly Immigrant Children’s Program) provides health coverage for eligible District-resident children who do not qualify for Medicaid and meet income and uninsured rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 20,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC Health Care Alliance for Children: DC resident children generally under 21 who are ineligible for Medicaid; income and uninsured rules apply. Distinctive local coverage pathway alongside Medicaid for children.",
+      "verify": true,
+      "verify_notes": "Income limits and Alliance vs Medicaid rules — verify=true via dhcf.dc.gov Health Care Alliance for Children.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Local health coverage for eligible DC children not enrolled in Medicaid.",
+      "ml": "Local health coverage for eligible DC children not enrolled in Medicaid.",
+      "hi": "Local health coverage for eligible DC children not enrolled in Medicaid."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Proof of Medicaid ineligibility / uninsured status as required"
+      ],
+      "ml": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Proof of Medicaid ineligibility / uninsured status as required"
+      ],
+      "hi": [
+        "Identity and DC residency",
+        "Income documentation",
+        "Child information",
+        "Proof of Medicaid ineligibility / uninsured status as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through District Direct / DHCF Alliance for Children pathways linked from dhcf.dc.gov.",
+      "ml": "Apply through District Direct / DHCF Alliance for Children pathways linked from dhcf.dc.gov.",
+      "hi": "Apply through District Direct / DHCF Alliance for Children pathways linked from dhcf.dc.gov."
+    },
+    "apply_url": "https://districtdirect.dc.gov/",
+    "official_source_url": "https://dhcf.dc.gov/service/health-care-alliance-children-formerly-immigrant-childrens-program",
+    "last_verified": "2026-09-23",
+    "office_type": "DC Department of Health Care Finance (DHCF)",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "kids",
+      "children",
+      "health",
+      "alliance",
+      "immigrant_children",
+      "dhcf"
     ]
   }
 ]
