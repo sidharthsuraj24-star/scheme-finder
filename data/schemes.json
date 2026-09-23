@@ -47218,5 +47218,1800 @@
       "federal",
       "savers-credit"
     ]
+  },
+  {
+    "id": "in-pm-ujjwala",
+    "scheme_name": {
+      "en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "hi": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Ujjwala Yojana (PMUY)"
+    },
+    "description": {
+      "en": "Central scheme providing LPG connections to adult women from poor households who have no existing LPG connection in the household from any Oil Marketing Company (OMC).",
+      "hi": "गरीब परिवारों की वयस्क महिलाओं को एलपीजी कनेक्शन; परिवार में किसी भी ओएमसी से मौजूदा कनेक्शन नहीं होना चाहिए।",
+      "ml": "(EN — Malayalam review pending) Central scheme providing LPG connections to adult women from poor households who have no existing LPG connection in the household from any Oil Marketing Company (OMC)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "poor_household",
+        "no_lpg_connection"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Adult woman ≥18; no other LPG connection in the household from any OMC; belongs to a poor household based on signed deprivation declaration (prescribed format). Documents per portal FAQ: KYC, Aadhaar, ration/family composition (or migrant Annexure I), bank details, deprivation declaration, PoA if needed.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmuy.gov.in / ujjwala2 FAQs. Connection package inclusions and any CSC fee can vary — verify on live portal."
+    },
+    "benefits": {
+      "en": "Free/subsidized LPG connection package (security deposit of cylinder, regulator, hose, installation/admin; first refill and hot plate per OMC/KYC scheme text). Exact inclusions can vary by OMC/release — confirm on pmuy.gov.in.",
+      "hi": "मुफ्त/सब्सिडीयुक्त एलपीजी कनेक्शन पैकेज (सिलेंडर जमा, रेगुलेटर, होज़, इंस्टॉलेशन; पहली रिफिल व हॉट प्लेट ओएमसी/केवाईसी पाठानुसार)। सटीक समावेशन सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Free/subsidized LPG connection package (security deposit of cylinder, regulator, hose, installation/admin; first refill and hot plate per OMC/KYC scheme text). Exact inclusions can vary by OMC/release — confirm on pmuy.gov.in."
+    },
+    "required_documents": {
+      "en": [
+        "KYC documents",
+        "Aadhaar (applicant and adult family members as required on composition document)",
+        "Ration card / state family-composition document (or Annexure I self-declaration for migrants)",
+        "Bank account details",
+        "Signed deprivation declaration in prescribed format",
+        "Proof of address if Aadhaar address differs (PoA)"
+      ],
+      "hi": [
+        "KYC documents",
+        "Aadhaar (applicant and adult family members as required on composition document)",
+        "Ration card / state family-composition document (or Annexure I self-declaration for migrants)",
+        "Bank account details",
+        "Signed deprivation declaration in prescribed format",
+        "Proof of address if Aadhaar address differs (PoA)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC documents",
+        "(EN — Malayalam review pending) Aadhaar (applicant and adult family members as required on composition document)",
+        "(EN — Malayalam review pending) Ration card / state family-composition document (or Annexure I self-declaration for migrants)",
+        "(EN — Malayalam review pending) Bank account details",
+        "(EN — Malayalam review pending) Signed deprivation declaration in prescribed format",
+        "(EN — Malayalam review pending) Proof of address if Aadhaar address differs (PoA)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply online at https://pmuy.gov.in/ (ujjwala2) or via LPG distributor; CSC may charge ₹20 (FAQ).",
+      "hi": "pmuy.gov.in पर ऑनलाइन या एलपीजी वितरक के माध्यम से आवेदन; सीएससी शुल्क FAQ अनुसार।",
+      "ml": "(EN — Malayalam review pending) Apply online at https://pmuy.gov.in/ (ujjwala2) or via LPG distributor; CSC may charge ₹20 (FAQ)."
+    },
+    "apply_url": "https://pmuy.gov.in/ujjwala2.html",
+    "office_type": "Ministry of Petroleum and Natural Gas / OMCs / LPG distributors",
+    "official_source_url": "https://pmuy.gov.in/",
+    "tags": [
+      "lpg",
+      "ujjwala",
+      "women",
+      "energy",
+      "central",
+      "nationwide",
+      "subsidy"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pmay-u-2",
+    "scheme_name": {
+      "en": "Pradhan Mantri Awas Yojana – Urban 2.0 (PMAY-U 2.0)",
+      "hi": "प्रधानमंत्री आवास योजना – शहरी 2.0 (पीएमएवाई-यू 2.0)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Awas Yojana – Urban 2.0 (PMAY-U 2.0)"
+    },
+    "description": {
+      "en": "Urban housing assistance (2024–2029) for EWS/LIG/MIG families that do not own a pucca house anywhere in India, via BLC, AHP, ARH, and Interest Subsidy Scheme (ISS) verticals.",
+      "hi": "शहरी ईडब्ल्यूएस/एलआईजी/एमआईजी परिवारों हेतु आवास सहायता (2024–2029); भारत में कहीं भी पक्का मकान नहीं होना चाहिए।",
+      "ml": "(EN — Malayalam review pending) Urban housing assistance (2024–2029) for EWS/LIG/MIG families that do not own a pucca house anywhere in India, via BLC, AHP, ARH, and Interest Subsidy Scheme (ISS) verticals."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 900000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "ews",
+        "lig",
+        "mig",
+        "urban"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Urban EWS / LIG / MIG families with no pucca house in applicant’s or any family member’s name anywhere in India. Income bands (scheme FAQ): EWS up to ₹3 lakh; LIG ₹3–6 lakh; MIG ₹6–9 lakh annual household income. Not eligible if availed Central/State/ULB housing benefit in last 20 years. Implementation 2024–2029. Preference groups in guidelines (widows, PwD, SC/ST, street vendors under SVANidhi, Vishwakarma artisans, etc.). max_annual_income encodes MIG upper FAQ band only as a soft ceiling; actual band is category-specific — verify=true.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmay-urban.gov.in + pmaymis FAQ. Central assistance amounts and preference lists vary by vertical/State — confirm live FAQ/guidelines.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Central assistance for construct/purchase/rent varies by vertical and State/UT (e.g. BLC/AHP central share cited in FAQ tables around ₹1.50–2.50 lakh per unit); ISS interest subsidy up to ₹1.80 lakh. Confirm current FAQ/guidelines.",
+      "hi": "ऊर्ध्वाधर व राज्य/यूटी के अनुसार केंद्रीय सहायता; आईएसएस ब्याज सब्सिडी अधिकतम ₹1.80 लाख तक (FAQ)। सटीक राशि सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Central assistance for construct/purchase/rent varies by vertical and State/UT (e.g. BLC/AHP central share cited in FAQ tables around ₹1.50–2.50 lakh per unit); ISS interest subsidy up to ₹1.80 lakh. Confirm current FAQ/guidelines."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and residence proof",
+        "Income documents for EWS/LIG/MIG band",
+        "Self-declaration of no pucca house in India in applicant/family name",
+        "Bank details",
+        "Other documents as per Unified Web Portal / ULB"
+      ],
+      "hi": [
+        "Identity and residence proof",
+        "Income documents for EWS/LIG/MIG band",
+        "Self-declaration of no pucca house in India in applicant/family name",
+        "Bank details",
+        "Other documents as per Unified Web Portal / ULB"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity and residence proof",
+        "(EN — Malayalam review pending) Income documents for EWS/LIG/MIG band",
+        "(EN — Malayalam review pending) Self-declaration of no pucca house in India in applicant/family name",
+        "(EN — Malayalam review pending) Bank details",
+        "(EN — Malayalam review pending) Other documents as per Unified Web Portal / ULB"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via Unified Web Portal / CSC / Urban Local Body (ULB). See pmay-urban.gov.in and PMAY MIS FAQ.",
+      "hi": "एकीकृत वेब पोर्टल / सीएससी / नगर निकाय के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply via Unified Web Portal / CSC / Urban Local Body (ULB). See pmay-urban.gov.in and PMAY MIS FAQ."
+    },
+    "apply_url": "https://pmay-urban.gov.in/",
+    "office_type": "Ministry of Housing and Urban Affairs / ULBs",
+    "official_source_url": "https://pmay-urban.gov.in/pmay-u-2.0-guidelines",
+    "tags": [
+      "housing",
+      "urban",
+      "pmay",
+      "ews",
+      "lig",
+      "mig",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pmay-g",
+    "scheme_name": {
+      "en": "Pradhan Mantri Awaas Yojana – Gramin (PMAY-G)",
+      "hi": "प्रधानमंत्री आवास योजना – ग्रामीण (पीएमएवाई-जी)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Awaas Yojana – Gramin (PMAY-G)"
+    },
+    "description": {
+      "en": "Rural housing assistance for houseless households or those living in kutcha/dilapidated dwellings, identified via SECC/Awaas+ deprivation criteria with Gram Sabha verification and exclusion filters.",
+      "hi": "ग्रामीण बेघर या कच्चे/जीर्ण आवास वाले परिवारों हेतु सहायता; एसईसीसी/आवास+ व ग्राम सभा सत्यापन।",
+      "ml": "(EN — Malayalam review pending) Rural housing assistance for houseless households or those living in kutcha/dilapidated dwellings, identified via SECC/Awaas+ deprivation criteria with Gram Sabha verification and exclusion filters."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "rural",
+        "houseless",
+        "kutcha_dwelling"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Rural households that are houseless or live in kutcha/dilapidated dwellings, identified via SECC / Awaas+ deprivation criteria with Gram Sabha verification. Exclusion filters apply (e.g. government employment, income-tax payer, high KCC limit, specified assets — encode only from current DoRD framework). Distinct from PMAY-U; urban/rural jurisdiction decides.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmayg.dord.gov.in. Exact unit assistance ₹ amounts and exclusion list must be confirmed from current DoRD framework PDF/guidelines.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Unit assistance commonly cited in official materials as about ₹1.20 lakh (plains) / ₹1.30 lakh (hilly/difficult/NER) — confirm exact current figures from live DoRD guidelines before advising.",
+      "hi": "इकाई सहायता अक्सर मैदानी क्षेत्रों में लगभग ₹1.20 लाख / पहाड़ी-कठिन/पूर्वोत्तर में ₹1.30 लाख बताई जाती है — वर्तमान दिशानिर्देश से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Unit assistance commonly cited in official materials as about ₹1.20 lakh (plains) / ₹1.30 lakh (hilly/difficult/NER) — confirm exact current figures from live DoRD guidelines before advising."
+    },
+    "required_documents": {
+      "en": [
+        "Identity proof (Aadhaar as required by State)",
+        "SECC / Awaas+ survey recognition / Gram Sabha verification trail",
+        "Bank account for DBT",
+        "Land / house site details as required by State RD"
+      ],
+      "hi": [
+        "Identity proof (Aadhaar as required by State)",
+        "SECC / Awaas+ survey recognition / Gram Sabha verification trail",
+        "Bank account for DBT",
+        "Land / house site details as required by State RD"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity proof (Aadhaar as required by State)",
+        "(EN — Malayalam review pending) SECC / Awaas+ survey recognition / Gram Sabha verification trail",
+        "(EN — Malayalam review pending) Bank account for DBT",
+        "(EN — Malayalam review pending) Land / house site details as required by State RD"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through Gram Panchayat / Awaas+ survey / State rural development channels (not the urban PMAYMIS portal).",
+      "hi": "ग्राम पंचायत / आवास+ सर्वे / राज्य ग्रामीण विकास चैनलों के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Through Gram Panchayat / Awaas+ survey / State rural development channels (not the urban PMAYMIS portal)."
+    },
+    "apply_url": "https://pmayg.dord.gov.in/",
+    "office_type": "Ministry of Rural Development / State RD / Gram Panchayat",
+    "official_source_url": "https://pmayg.dord.gov.in/",
+    "tags": [
+      "housing",
+      "rural",
+      "pmay",
+      "central",
+      "nationwide",
+      "dbt"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-svanidhi",
+    "scheme_name": {
+      "en": "PM SVANidhi (Street Vendors’ AtmaNirbhar Nidhi)",
+      "hi": "पीएम स्वनिधि (स्ट्रीट वेंडर्स आत्मनिर्भर निधि)",
+      "ml": "(EN — Malayalam review pending) PM SVANidhi (Street Vendors’ AtmaNirbhar Nidhi)"
+    },
+    "description": {
+      "en": "Collateral-free working-capital loans for street vendors in ULBs / census towns / peri-urban areas, with UPI-linked incentives and lending extended through 31 Mar 2030 (Cabinet).",
+      "hi": "शहरी/पेरी-अर्बन स्ट्रीट वेंडर्स हेतु बिना जमानत कार्यशील पूंजी ऋण; यूपीआई प्रोत्साहन; ऋण अवधि 31 मार्च 2030 तक विस्तार।",
+      "ml": "(EN — Malayalam review pending) Collateral-free working-capital loans for street vendors in ULBs / census towns / peri-urban areas, with UPI-linked incentives and lending extended through 31 Mar 2030 (Cabinet)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "street_vendor"
+      ],
+      "categories": [
+        "street_vendor"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Street vendors in ULBs / census towns / peri-urban areas with valid CoV / ID card / digital LoR (LoR only via PMS Portal). LoR-cum-loan path for those without CoV/ID. Mandatory unique UPI ID linked to vendor bank account. Lending period extended through 31 Mar 2030 per Cabinet note. Lender assessment applies.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmsvanidhi.mohua.gov.in + MoHUA/Cabinet extension notes. Tranche amounts and cashback caps — confirm on live portal."
+    },
+    "benefits": {
+      "en": "Collateral-free working-capital tranches (restructured bands commonly up to ₹15,000 / ₹25,000 / ₹50,000 per MoHUA/app guidance); UPI-linked RuPay credit card after 2nd repayment; digital cashback incentives (Cabinet note has cited up to ₹1,600). Confirm live portal bands.",
+      "hi": "बिना जमानत कार्यशील पूंजी किश्तें (समान्यतः ₹15k/₹25k/₹50k बैंड); दूसरी चुकौती के बाद यूपीआई-रुपे कार्ड; डिजिटल कैशबैक — पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Collateral-free working-capital tranches (restructured bands commonly up to ₹15,000 / ₹25,000 / ₹50,000 per MoHUA/app guidance); UPI-linked RuPay credit card after 2nd repayment; digital cashback incentives (Cabinet note has cited up to ₹1,600). Confirm live portal bands."
+    },
+    "required_documents": {
+      "en": [
+        "Certificate of Vending (CoV) / vendor ID card / digital Letter of Recommendation (LoR via PMS Portal only; manual LoR invalid)",
+        "Bank account with mandatory unique UPI ID linked to vendor account",
+        "Identity / KYC as required by lending institution"
+      ],
+      "hi": [
+        "Certificate of Vending (CoV) / vendor ID card / digital Letter of Recommendation (LoR via PMS Portal only; manual LoR invalid)",
+        "Bank account with mandatory unique UPI ID linked to vendor account",
+        "Identity / KYC as required by lending institution"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Certificate of Vending (CoV) / vendor ID card / digital Letter of Recommendation (LoR via PMS Portal only; manual LoR invalid)",
+        "(EN — Malayalam review pending) Bank account with mandatory unique UPI ID linked to vendor account",
+        "(EN — Malayalam review pending) Identity / KYC as required by lending institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on PMS Portal / app / ULB / Block / CSC: https://pmsvanidhi.mohua.gov.in/",
+      "hi": "पीएमएस पोर्टल / ऐप / यूएलबी / ब्लॉक / सीएससी के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply on PMS Portal / app / ULB / Block / CSC: https://pmsvanidhi.mohua.gov.in/"
+    },
+    "apply_url": "https://pmsvanidhi.mohua.gov.in/",
+    "office_type": "Ministry of Housing and Urban Affairs / ULBs / lending institutions",
+    "official_source_url": "https://pmsvanidhi.mohua.gov.in/",
+    "tags": [
+      "street_vendor",
+      "loan",
+      "urban",
+      "svanidhi",
+      "central",
+      "nationwide",
+      "upi"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-mudra",
+    "scheme_name": {
+      "en": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "hi": "प्रधानमंत्री मुद्रा योजना (पीएमएमवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri MUDRA Yojana (PMMY)"
+    },
+    "description": {
+      "en": "Collateral-free institutional credit for micro enterprises for non-agricultural purposes (including agri-allied such as poultry, dairy, beekeeping), via banks/NBFCs/MFIs under Shishu/Kishore/Tarun/Tarun Plus categories.",
+      "hi": "सूक्ष्म उद्यमों हेतु बिना जमानत संस्थागत ऋण (गैर-कृषि व कृषि-संबद्ध); शिशु/किशोर/तरुण/तरुण प्लस श्रेणियाँ।",
+      "ml": "(EN — Malayalam review pending) Collateral-free institutional credit for micro enterprises for non-agricultural purposes (including agri-allied such as poultry, dairy, beekeeping), via banks/NBFCs/MFIs under Shishu/Kishore/Tarun/Tarun Plus categories."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "micro_enterprise",
+        "self_employed",
+        "agri_allied"
+      ],
+      "categories": [
+        "micro_enterprise"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Access to institutional collateral-free credit for micro enterprises; purposes non-agricultural including agri-allied (poultry, dairy, beekeeping, etc.); term loan + working capital. Lender credit assessment applies — do not invent personal eligibility beyond scheme purpose.",
+      "verify": true,
+      "verify_notes": "2026-09-23: financialservices.gov.in PMMY + mudra.org.in. Category ceilings and Tarun Plus rules — confirm current DFS/MUDRA pages."
+    },
+    "benefits": {
+      "en": "Category loan bands (DFS/MUDRA): Shishu ≤₹50,000; Kishore >₹50,000–₹5 lakh; Tarun >₹5–₹10 lakh; Tarun Plus >₹10–₹20 lakh after successful Tarun repayment (w.e.f. 24.10.2024). Amount subject to lender credit assessment.",
+      "hi": "शिशु ≤₹50,000; किशोर >₹50k–₹5 लाख; तरुण >₹5–₹10 लाख; तरुण प्लस >₹10–₹20 लाख (सफल तरुण चुकौती के बाद)। ऋणदाता मूल्यांकन लागू।",
+      "ml": "(EN — Malayalam review pending) Category loan bands (DFS/MUDRA): Shishu ≤₹50,000; Kishore >₹50,000–₹5 lakh; Tarun >₹5–₹10 lakh; Tarun Plus >₹10–₹20 lakh after successful Tarun repayment (w.e.f. 24.10.2024). Amount subject to lender credit assessment."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and address KYC",
+        "Business/purpose details for micro enterprise",
+        "Bank account",
+        "Documents as required by member lending institution / Jan Samarth / common MUDRA form"
+      ],
+      "hi": [
+        "Identity and address KYC",
+        "Business/purpose details for micro enterprise",
+        "Bank account",
+        "Documents as required by member lending institution / Jan Samarth / common MUDRA form"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity and address KYC",
+        "(EN — Malayalam review pending) Business/purpose details for micro enterprise",
+        "(EN — Malayalam review pending) Bank account",
+        "(EN — Malayalam review pending) Documents as required by member lending institution / Jan Samarth / common MUDRA form"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through member lending institutions, Jan Samarth, or mudra.org.in common form.",
+      "hi": "सदस्य ऋणदाता संस्था / जन समर्थ / mudra.org.in सामान्य फॉर्म के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Apply through member lending institutions, Jan Samarth, or mudra.org.in common form."
+    },
+    "apply_url": "https://www.mudra.org.in/",
+    "office_type": "Department of Financial Services / MUDRA / member banks-NBFCs-MFIs",
+    "official_source_url": "https://financialservices.gov.in/pradhan-mantri-mudra-yojana-pmmy",
+    "tags": [
+      "mudra",
+      "loan",
+      "micro_enterprise",
+      "central",
+      "nationwide",
+      "credit"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-nfsa-onorc",
+    "scheme_name": {
+      "en": "National Food Security Act / TPDS + One Nation One Ration Card (ONORC)",
+      "hi": "राष्ट्रीय खाद्य सुरक्षा अधिनियम / टीपीडीएस + वन नेशन वन राशन कार्ड (ओएनओआरसी)",
+      "ml": "(EN — Malayalam review pending) National Food Security Act / TPDS + One Nation One Ration Card (ONORC)"
+    },
+    "description": {
+      "en": "National food-security entitlement under NFSA (Priority / Antyodaya Anna Yojana households as identified by States/UTs) plus ONORC portability to draw entitled foodgrain at any ePoS Fair Price Shop nationwide.",
+      "hi": "एनएफएसए के अंतर्गत प्राथमिकता/अंत्योदय परिवारों हेतु खाद्यान्न पात्रता; ओएनओआरसी से देशभर किसी भी ईपीओएस एफपीएस पर पोर्टेबिलिटी।",
+      "ml": "(EN — Malayalam review pending) National food-security entitlement under NFSA (Priority / Antyodaya Anna Yojana households as identified by States/UTs) plus ONORC portability to draw entitled foodgrain at any ePoS Fair Price Shop nationwide."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "priority_household",
+        "aay",
+        "nfsa"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Priority / AAY households under NFSA as identified by States/UTs (state ration-card rules). ONORC: NFSA beneficiaries can draw entitled foodgrain at any ePoS FPS nationwide with ration card / Aadhaar authentication. Application for new ration cards is state-run; this national entry covers entitlement + ONORC portability + grievance channels.",
+      "verify": true,
+      "verify_notes": "2026-09-23: nfsa.gov.in + impds.nic.in. Issue prices/kg entitlements and state identification rules vary — verify with DoFPD/State food department.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Subsidised foodgrain entitlements under NFSA (AAY vs priority issue prices/kg as per DoFPD/NFSA). ONORC allows drawing entitled grain at any ePoS FPS with ration card / Aadhaar authentication. Exact kg rates vary — verify.",
+      "hi": "एनएफएसए के अंतर्गत सब्सिडीयुक्त खाद्यान्न; ओएनओआरसी से किसी भी ईपीओएस एफपीएस पर आहरण। किग्रा/दर राज्य-केंद्र नियमों से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Subsidised foodgrain entitlements under NFSA (AAY vs priority issue prices/kg as per DoFPD/NFSA). ONORC allows drawing entitled grain at any ePoS FPS with ration card / Aadhaar authentication. Exact kg rates vary — verify."
+    },
+    "required_documents": {
+      "en": [
+        "Valid NFSA ration card (issued by State/UT)",
+        "Aadhaar authentication at ePoS (as required)",
+        "Mera Ration app / IMPDS tools for portability as applicable"
+      ],
+      "hi": [
+        "Valid NFSA ration card (issued by State/UT)",
+        "Aadhaar authentication at ePoS (as required)",
+        "Mera Ration app / IMPDS tools for portability as applicable"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Valid NFSA ration card (issued by State/UT)",
+        "(EN — Malayalam review pending) Aadhaar authentication at ePoS (as required)",
+        "(EN — Malayalam review pending) Mera Ration app / IMPDS tools for portability as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "New ration cards are issued by State/UT food departments (not a single national application form). For ONORC portability and grievances see nfsa.gov.in, impds.nic.in, helpline 14445, and Mera Ration app.",
+      "hi": "नए राशन कार्ड राज्य/यूटी खाद्य विभाग जारी करते हैं। ओएनओआरसी/शिकायत: nfsa.gov.in, impds.nic.in, हेल्पलाइन 14445, मेरा राशन ऐप।",
+      "ml": "(EN — Malayalam review pending) New ration cards are issued by State/UT food departments (not a single national application form). For ONORC portability and grievances see nfsa.gov.in, impds.nic.in, helpline 14445, and Mera Ration app."
+    },
+    "apply_url": "https://nfsa.gov.in/",
+    "office_type": "Department of Food and Public Distribution / State Food Departments / FPS",
+    "official_source_url": "https://nfsa.gov.in/",
+    "tags": [
+      "food",
+      "ration",
+      "nfsa",
+      "onorc",
+      "tpds",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pmsby",
+    "scheme_name": {
+      "en": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "hi": "प्रधानमंत्री सुरक्षा बीमा योजना (पीएमएसबीवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+    },
+    "description": {
+      "en": "Government-backed accidental death and disability insurance for bank/Post Office account holders aged 18–70, with annual auto-debit premium.",
+      "hi": "बैंक/डाकघर खाताधारकों (18–70 वर्ष) हेतु दुर्घटना मृत्यु/विकलांगता बीमा; वार्षिक ऑटो-डेबिट प्रीमियम।",
+      "ml": "(EN — Malayalam review pending) Government-backed accidental death and disability insurance for bank/Post Office account holders aged 18–70, with annual auto-debit premium."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Individual bank/Post Office account holders age 18–70; one enrolment despite multiple accounts; consent to auto-debit. Premium and sum assured per current Jan Suraksha / DFS FAQ.",
+      "verify": true,
+      "verify_notes": "2026-09-23: jansuraksha.gov.in + DFS PMSBY. Premium ₹20 and cover amounts — confirm current FAQ PDF."
+    },
+    "benefits": {
+      "en": "Accidental death/disability cover commonly ₹2 lakh (death/total disability) / ₹1 lakh (partial) per FAQ; premium commonly ₹20/year (or as revised). Confirm current FAQ on jansuraksha.gov.in.",
+      "hi": "दुर्घटना कवर सामान्यतः ₹2 लाख / आंशिक ₹1 लाख; प्रीमियम सामान्यतः ₹20/वर्ष — जानसुरक्षा FAQ से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Accidental death/disability cover commonly ₹2 lakh (death/total disability) / ₹1 lakh (partial) per FAQ; premium commonly ₹20/year (or as revised). Confirm current FAQ on jansuraksha.gov.in."
+    },
+    "required_documents": {
+      "en": [
+        "Individual bank or Post Office savings account",
+        "Consent for auto-debit of premium",
+        "KYC / nomination as required by bank/PO"
+      ],
+      "hi": [
+        "Individual bank or Post Office savings account",
+        "Consent for auto-debit of premium",
+        "KYC / nomination as required by bank/PO"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Individual bank or Post Office savings account",
+        "(EN — Malayalam review pending) Consent for auto-debit of premium",
+        "(EN — Malayalam review pending) KYC / nomination as required by bank/PO"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol at bank branch / Business Correspondent / Post Office or via bank website. One enrolment despite multiple accounts.",
+      "hi": "बैंक शाखा / बीसी / डाकघर या बैंक वेबसाइट से नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol at bank branch / Business Correspondent / Post Office or via bank website. One enrolment despite multiple accounts."
+    },
+    "apply_url": "https://jansuraksha.gov.in/",
+    "office_type": "Department of Financial Services / banks / Post Offices",
+    "official_source_url": "https://financialservices.gov.in/pmsby",
+    "tags": [
+      "insurance",
+      "accident",
+      "pmsby",
+      "jansuraksha",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pmjjby",
+    "scheme_name": {
+      "en": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना (पीएमजेजेबीवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+    },
+    "description": {
+      "en": "Government-backed life insurance for bank/Post Office account holders who join between ages 18–50; risk cover can continue to 55 with premiums if joined before 50.",
+      "hi": "बैंक/डाकघर खाताधारकों हेतु जीवन बीमा; प्रवेश आयु 18–50; प्रीमियम के साथ कवर 55 तक जारी रह सकता है।",
+      "ml": "(EN — Malayalam review pending) Government-backed life insurance for bank/Post Office account holders who join between ages 18–50; risk cover can continue to 55 with premiums if joined before 50."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 50,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Individual bank/PO account holders age 18–50 at join; risk cover can continue to 55 with premiums if joined before 50; one account only; auto-debit. Life cover and premium per current FAQ.",
+      "verify": true,
+      "verify_notes": "2026-09-23: jansuraksha.gov.in PMJJBY FAQ. Confirm current annual premium (FAQ has cited ₹436) and cover terms."
+    },
+    "benefits": {
+      "en": "Life cover commonly ₹2 lakh; annual premium cited in FAQ (e.g. ₹436) — confirm current premium on jansuraksha / DFS FAQ before advising.",
+      "hi": "जीवन कवर सामान्यतः ₹2 लाख; वार्षिक प्रीमियम FAQ अनुसार (उदा. ₹436) — वर्तमान दर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Life cover commonly ₹2 lakh; annual premium cited in FAQ (e.g. ₹436) — confirm current premium on jansuraksha / DFS FAQ before advising."
+    },
+    "required_documents": {
+      "en": [
+        "Individual bank or Post Office savings account",
+        "Consent for auto-debit",
+        "KYC / nomination as required",
+        "Age proof showing join age 18–50"
+      ],
+      "hi": [
+        "Individual bank or Post Office savings account",
+        "Consent for auto-debit",
+        "KYC / nomination as required",
+        "Age proof showing join age 18–50"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Individual bank or Post Office savings account",
+        "(EN — Malayalam review pending) Consent for auto-debit",
+        "(EN — Malayalam review pending) KYC / nomination as required",
+        "(EN — Malayalam review pending) Age proof showing join age 18–50"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol at bank / BC / Post Office. One account only for cover.",
+      "hi": "बैंक / बीसी / डाकघर से नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol at bank / BC / Post Office. One account only for cover."
+    },
+    "apply_url": "https://jansuraksha.gov.in/",
+    "office_type": "Department of Financial Services / banks / Post Offices / life insurers",
+    "official_source_url": "https://jansuraksha.gov.in/",
+    "tags": [
+      "insurance",
+      "life",
+      "pmjjby",
+      "jansuraksha",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-apy",
+    "scheme_name": {
+      "en": "Atal Pension Yojana (APY)",
+      "hi": "अटल पेंशन योजना (एपीवाई)",
+      "ml": "(EN — Malayalam review pending) Atal Pension Yojana (APY)"
+    },
+    "description": {
+      "en": "Guaranteed pension scheme for bank account holders aged 18–40 who are not income-tax payers; contribution varies by chosen pension amount; pension starts at age 60.",
+      "hi": "18–40 वर्ष के बैंक खाताधारक जो आयकरदाता नहीं; चुनी पेंशन राशि के अनुसार अंशदान; 60 वर्ष पर गारंटीकृत पेंशन।",
+      "ml": "(EN — Malayalam review pending) Guaranteed pension scheme for bank account holders aged 18–40 who are not income-tax payers; contribution varies by chosen pension amount; pension starts at age 60."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 40,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "non_income_tax_payer"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Bank account holders age 18–40 who are not income-tax payers; contribution varies by chosen pension amount. Distinct from NPS All Citizen Model.",
+      "verify": true,
+      "verify_notes": "2026-09-23: PIB/PFRDA/Jan Suraksha APY. Contribution and pension slabs — verify current PFRDA/DFS tables."
+    },
+    "benefits": {
+      "en": "Guaranteed pension at age 60 per chosen contribution slab (PFRDA/DFS tables). Exact monthly contribution and pension amounts — verify on PFRDA/Jan Suraksha.",
+      "hi": "60 वर्ष पर गारंटीकृत पेंशन (अंशदान स्लैब अनुसार)। सटीक राशि पीएफआरडीए/जानसुरक्षा से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Guaranteed pension at age 60 per chosen contribution slab (PFRDA/DFS tables). Exact monthly contribution and pension amounts — verify on PFRDA/Jan Suraksha."
+    },
+    "required_documents": {
+      "en": [
+        "Bank savings account",
+        "Aadhaar / KYC",
+        "Self-declaration of not being an income-tax payer (as required)",
+        "Nomination details"
+      ],
+      "hi": [
+        "Bank savings account",
+        "Aadhaar / KYC",
+        "Self-declaration of not being an income-tax payer (as required)",
+        "Nomination details"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Bank savings account",
+        "(EN — Malayalam review pending) Aadhaar / KYC",
+        "(EN — Malayalam review pending) Self-declaration of not being an income-tax payer (as required)",
+        "(EN — Malayalam review pending) Nomination details"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol through bank / Jan Suraksha channels; see jansuraksha.gov.in and pfrda.org.in.",
+      "hi": "बैंक / जानसुरक्षा चैनलों से नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol through bank / Jan Suraksha channels; see jansuraksha.gov.in and pfrda.org.in."
+    },
+    "apply_url": "https://jansuraksha.gov.in/",
+    "office_type": "PFRDA / Department of Financial Services / banks",
+    "official_source_url": "https://www.pfrda.org.in/",
+    "tags": [
+      "pension",
+      "apy",
+      "retirement",
+      "central",
+      "nationwide",
+      "jansuraksha"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-sukanya-samriddhi",
+    "scheme_name": {
+      "en": "Sukanya Samriddhi Account (Sukanya Samriddhi Yojana)",
+      "hi": "सुकन्या समृद्धि खाता (सुकन्या समृद्धि योजना)",
+      "ml": "(EN — Malayalam review pending) Sukanya Samriddhi Account (Sukanya Samriddhi Yojana)"
+    },
+    "description": {
+      "en": "Small-savings account for a girl child below 10 years, opened by natural/legal guardian at Post Office or authorised bank; deposits ₹250–₹1.5 lakh per financial year under scheme rules.",
+      "hi": "10 वर्ष से कम आयु की बालिका हेतु लघु बचत खाता; अभिभावक द्वारा डाकघर/अधिकृत बैंक में; वार्षिक जमा ₹250–₹1.5 लाख।",
+      "ml": "(EN — Malayalam review pending) Small-savings account for a girl child below 10 years, opened by natural/legal guardian at Post Office or authorised bank; deposits ₹250–₹1.5 lakh per financial year under scheme rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 10,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "girl_child"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Account for girl child below 10; opened by natural/legal guardian; generally max two girls per family (twins/triplets exceptions per rules). Deposits ₹250–₹1.5 lakh per FY; deposit period 15 years; maturity 21 years from opening (per scheme rules).",
+      "verify": true,
+      "verify_notes": "2026-09-23: nsiindia.gov.in / India Post scheme rules. Interest rate and any rule amendments — confirm current MoF/NSI notification."
+    },
+    "benefits": {
+      "en": "Tax-favoured small-savings account: deposit period commonly 15 years; maturity commonly 21 years from opening (per scheme rules). Interest rate notified periodically by MoF — verify current rate.",
+      "hi": "कर-लाभयुक्त लघु बचत; जमा अवधि सामान्यतः 15 वर्ष; परिपक्वता सामान्यतः खोलने से 21 वर्ष। ब्याज दर अधिसूचना से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Tax-favoured small-savings account: deposit period commonly 15 years; maturity commonly 21 years from opening (per scheme rules). Interest rate notified periodically by MoF — verify current rate."
+    },
+    "required_documents": {
+      "en": [
+        "Girl child’s birth certificate",
+        "Guardian KYC / identity and address proof",
+        "Photos and account-opening form as required by Post Office / bank"
+      ],
+      "hi": [
+        "Girl child’s birth certificate",
+        "Guardian KYC / identity and address proof",
+        "Photos and account-opening form as required by Post Office / bank"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Girl child’s birth certificate",
+        "(EN — Malayalam review pending) Guardian KYC / identity and address proof",
+        "(EN — Malayalam review pending) Photos and account-opening form as required by Post Office / bank"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open at India Post or authorised bank branches under POSB/NSI scheme rules.",
+      "hi": "भारत डाक या अधिकृत बैंक शाखा में खाता खोलें।",
+      "ml": "(EN — Malayalam review pending) Open at India Post or authorised bank branches under POSB/NSI scheme rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute / authorised banks",
+    "official_source_url": "https://www.nsiindia.gov.in/",
+    "tags": [
+      "savings",
+      "girl_child",
+      "sukanya",
+      "post_office",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-nps-all-citizen",
+    "scheme_name": {
+      "en": "National Pension System — All Citizen Model (Tier I)",
+      "hi": "राष्ट्रीय पेंशन प्रणाली — ऑल सिटीजन मॉडल (टियर I)",
+      "ml": "(EN — Malayalam review pending) National Pension System — All Citizen Model (Tier I)"
+    },
+    "description": {
+      "en": "Voluntary Tier I NPS for Indian citizens / NRI / OCI meeting KYC (not HUF/PIO), distinct from Atal Pension Yojana; age band per current PFRDA/eNPS (commonly 18–70 on eNPS — confirm live page).",
+      "hi": "भारतीय नागरिक / एनआरआई / ओसीआई हेतु स्वैच्छिक टियर I एनपीएस (एपीवाई से अलग); आयु बैंड वर्तमान पीएफआरडीए/ईएनपीएस अनुसार।",
+      "ml": "(EN — Malayalam review pending) Voluntary Tier I NPS for Indian citizens / NRI / OCI meeting KYC (not HUF/PIO), distinct from Atal Pension Yojana; age band per current PFRDA/eNPS (commonly 18–70 on eNPS — confirm live page)."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Indian citizens / NRI / OCI meeting KYC; age band per current PFRDA/eNPS (commonly 18–70 on eNPS — confirm live page); voluntary Tier I. Not HUF/PIO. Distinct from APY.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pfrda.org.in All Citizen Model + eNPS. Confirm live age band, contribution minima, and exit rules before advising."
+    },
+    "benefits": {
+      "en": "Market-linked retirement corpus under PFRDA-regulated NPS; contribution and exit rules per PFRDA/eNPS. Not a fixed guaranteed pension like APY.",
+      "hi": "पीएफआरडीए-विनियमित एनपीएस के अंतर्गत बाजार-संबद्ध सेवानिवृत्ति कोष; अंशदान/निकासी नियम ईएनपीएस अनुसार।",
+      "ml": "(EN — Malayalam review pending) Market-linked retirement corpus under PFRDA-regulated NPS; contribution and exit rules per PFRDA/eNPS. Not a fixed guaranteed pension like APY."
+    },
+    "required_documents": {
+      "en": [
+        "KYC as required by eNPS / Point of Presence",
+        "Bank account for contributions",
+        "PAN / Aadhaar as applicable"
+      ],
+      "hi": [
+        "KYC as required by eNPS / Point of Presence",
+        "Bank account for contributions",
+        "PAN / Aadhaar as applicable"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC as required by eNPS / Point of Presence",
+        "(EN — Malayalam review pending) Bank account for contributions",
+        "(EN — Malayalam review pending) PAN / Aadhaar as applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol via eNPS (NSDL CRA) or authorised Points of Presence; see PFRDA All Citizen Model page.",
+      "hi": "ईएनपीएस (एनएसडीएल सीआरए) या अधिकृत पीओपी के माध्यम से नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol via eNPS (NSDL CRA) or authorised Points of Presence; see PFRDA All Citizen Model page."
+    },
+    "apply_url": "https://enps.nsdl.com/",
+    "office_type": "PFRDA / NSDL CRA / Points of Presence",
+    "official_source_url": "https://www.pfrda.org.in/schemes/national-pension-system/nps-for-all-citizen-models",
+    "tags": [
+      "pension",
+      "nps",
+      "retirement",
+      "central",
+      "nationwide",
+      "pfrda"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-standup-india",
+    "scheme_name": {
+      "en": "Stand-Up India",
+      "hi": "स्टैंड-अप इंडिया",
+      "ml": "(EN — Malayalam review pending) Stand-Up India"
+    },
+    "description": {
+      "en": "Bank loans for SC/ST or woman entrepreneurs (age >18) for greenfield enterprises in manufacturing, services, trading, or agri-allied; composite loan commonly ₹10 lakh–₹1 crore.",
+      "hi": "एससी/एसटी या महिला उद्यमियों (>18) हेतु ग्रीनफील्ड उद्यम ऋण; संयोजन ऋण सामान्यतः ₹10 लाख–₹1 करोड़।",
+      "ml": "(EN — Malayalam review pending) Bank loans for SC/ST or woman entrepreneurs (age >18) for greenfield enterprises in manufacturing, services, trading, or agri-allied; composite loan commonly ₹10 lakh–₹1 crore."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "entrepreneur",
+        "greenfield_enterprise"
+      ],
+      "categories": [
+        "sc",
+        "st",
+        "woman_entrepreneur"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "SC/ST or woman entrepreneur >18; loan for greenfield enterprise in manufacturing / services / trading / agri-allied; non-individual: ≥51% SC/ST/woman shareholding & control; composite loan ₹10 lakh–₹1 crore; ~15% margin; CGFSIL cover. Not a bank defaulter (standard lender rules).",
+      "verify": true,
+      "verify_notes": "2026-09-23: standupmitra.in + PIB scheme notes. Loan ceiling/margin/CGFSIL — confirm current portal terms."
+    },
+    "benefits": {
+      "en": "Composite loan typically ₹10 lakh to ₹1 crore; ~15% margin money; CGFSIL cover per scheme. Exact terms subject to bank appraisal.",
+      "hi": "संयोजन ऋण सामान्यतः ₹10 लाख से ₹1 करोड़; लगभग 15% मार्जिन; सीजीएफएसआईएल कवर। बैंक मूल्यांकन लागू।",
+      "ml": "(EN — Malayalam review pending) Composite loan typically ₹10 lakh to ₹1 crore; ~15% margin money; CGFSIL cover per scheme. Exact terms subject to bank appraisal."
+    },
+    "required_documents": {
+      "en": [
+        "Identity proving SC/ST or woman entrepreneur status as applicable",
+        "Project / business plan for greenfield enterprise",
+        "KYC and bank documents",
+        "For non-individual entities: evidence of ≥51% SC/ST/woman shareholding and control"
+      ],
+      "hi": [
+        "Identity proving SC/ST or woman entrepreneur status as applicable",
+        "Project / business plan for greenfield enterprise",
+        "KYC and bank documents",
+        "For non-individual entities: evidence of ≥51% SC/ST/woman shareholding and control"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity proving SC/ST or woman entrepreneur status as applicable",
+        "(EN — Malayalam review pending) Project / business plan for greenfield enterprise",
+        "(EN — Malayalam review pending) KYC and bank documents",
+        "(EN — Malayalam review pending) For non-individual entities: evidence of ≥51% SC/ST/woman shareholding and control"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at standupmitra.in / bank branch / Lead District Manager (LDM).",
+      "hi": "standupmitra.in / बैंक शाखा / एलडीएम के माध्यम से आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply at standupmitra.in / bank branch / Lead District Manager (LDM)."
+    },
+    "apply_url": "https://www.standupmitra.in/",
+    "office_type": "Department of Financial Services / banks / LDM",
+    "official_source_url": "https://www.standupmitra.in/",
+    "tags": [
+      "loan",
+      "sc",
+      "st",
+      "women",
+      "entrepreneur",
+      "standup_india",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-eshram",
+    "scheme_name": {
+      "en": "e-Shram (National Database of Unorganised Workers)",
+      "hi": "ई-श्रम (असंगठित श्रमिक राष्ट्रीय डेटाबेस)",
+      "ml": "(EN — Malayalam review pending) e-Shram (National Database of Unorganised Workers)"
+    },
+    "description": {
+      "en": "Free national registration for unorganised workers (age 16+) who are not ESIC/EPFO members and not income-tax payees; issues a permanent Universal Account Number (UAN). FAQ states registration facilitates social-security delivery; currently registration-focused (not automatic cash).",
+      "hi": "असंगठित श्रमिकों (16+) का निःशुल्क पंजीकरण जो ईएसआईसी/ईपीएफओ सदस्य व आयकरदाता नहीं; स्थायी यूएएन। वर्तमान में मुख्यतः पंजीकरण।",
+      "ml": "(EN — Malayalam review pending) Free national registration for unorganised workers (age 16+) who are not ESIC/EPFO members and not income-tax payees; issues a permanent Universal Account Number (UAN). FAQ states registration facilitates social-security delivery; currently registration-focused (not automatic cash)."
+    },
+    "eligibility_rules": {
+      "min_age": 16,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "unorganised_worker",
+        "home_based",
+        "self_employed",
+        "wage_worker"
+      ],
+      "categories": [
+        "unorganised_worker",
+        "non_income_tax_payer"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Unorganised worker (home-based / self-employed / wage; not ESIC/EPFO member); age 16+; not income-tax payee; Aadhaar (+ linked mobile preferred; else CSC biometric). Free registration; UAN permanent. FAQ: right now only registration is being done for direct cash — still catalogue-worthy as apply-facing national ID.",
+      "verify": true,
+      "verify_notes": "2026-09-23: eshram.gov.in FAQs. Any future linked benefits — confirm official FAQ; do not invent cash entitlements."
+    },
+    "benefits": {
+      "en": "Free registration and permanent UAN. Does not by itself guarantee cash transfers; FAQ notes registration facilitates future social-security delivery.",
+      "hi": "निःशुल्क पंजीकरण व स्थायी यूएएन। स्वतः नकद लाभ की गारंटी नहीं; भविष्य की सामाजिक सुरक्षा हेतु सुविधा।",
+      "ml": "(EN — Malayalam review pending) Free registration and permanent UAN. Does not by itself guarantee cash transfers; FAQ notes registration facilitates future social-security delivery."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Aadhaar-linked mobile preferred (else CSC biometric)",
+        "Occupation / unorganised worker category details as on portal"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Aadhaar-linked mobile preferred (else CSC biometric)",
+        "Occupation / unorganised worker category details as on portal"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Aadhaar",
+        "(EN — Malayalam review pending) Aadhaar-linked mobile preferred (else CSC biometric)",
+        "(EN — Malayalam review pending) Occupation / unorganised worker category details as on portal"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register free on https://eshram.gov.in/ (self or via CSC biometric if mobile not linked).",
+      "hi": "eshram.gov.in पर निःशुल्क पंजीकरण (या सीएससी बायोमेट्रिक)।",
+      "ml": "(EN — Malayalam review pending) Register free on https://eshram.gov.in/ (self or via CSC biometric if mobile not linked)."
+    },
+    "apply_url": "https://eshram.gov.in/",
+    "office_type": "Ministry of Labour and Employment / CSC",
+    "official_source_url": "https://eshram.gov.in/faqs",
+    "tags": [
+      "unorganised_worker",
+      "eshram",
+      "uan",
+      "registration",
+      "central",
+      "nationwide",
+      "labour"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pmfby",
+    "scheme_name": {
+      "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "hi": "प्रधानमंत्री फसल बीमा योजना (पीएमएफबीवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Fasal Bima Yojana (PMFBY)"
+    },
+    "description": {
+      "en": "Crop insurance for farmers cultivating a notified crop in a notified area with insurable interest (owners, tenants, sharecroppers). Loanee/KCC and non-loanee paths per state operational rules.",
+      "hi": "अधिसूचित फसल/क्षेत्र में बीमायोग्य हित वाले किसानों हेतु फसल बीमा; ऋणकर्ता/गैर-ऋणकर्ता मार्ग राज्य नियमों अनुसार।",
+      "ml": "(EN — Malayalam review pending) Crop insurance for farmers cultivating a notified crop in a notified area with insurable interest (owners, tenants, sharecroppers). Loanee/KCC and non-loanee paths per state operational rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "tenant_farmer",
+        "sharecropper"
+      ],
+      "categories": [
+        "farmer"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "insurable_interest_notified_crop",
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Farmers cultivating notified crop in notified area with insurable interest (owners, tenants, sharecroppers). Loanee/KCC farmers may be covered per state rules; non-loanee voluntary with land/tenancy/sowing docs. Farmer premium caps commonly 2% Kharif / 1.5% Rabi foodgrain-oilseed / 5% commercial-horticulture — verify season.",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmfby.gov.in operational guidelines. Notified crops/areas, premium caps, and cut-offs vary by State/season — verify=true."
+    },
+    "benefits": {
+      "en": "Yield/weather-related claim settlement per operational guidelines. Farmer premium caps commonly cited as 2% Kharif / 1.5% Rabi for foodgrain-oilseed and 5% for commercial-horticulture (PIB/guidelines) — verify season and state.",
+      "hi": "दावा निपटान दिशानिर्देश अनुसार। किसान प्रीमियम सीमा सामान्यतः खरीफ 2% / रबी 1.5% / वाणिज्यिक-बागवानी 5% — मौसम व राज्य सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Yield/weather-related claim settlement per operational guidelines. Farmer premium caps commonly cited as 2% Kharif / 1.5% Rabi for foodgrain-oilseed and 5% for commercial-horticulture (PIB/guidelines) — verify season and state."
+    },
+    "required_documents": {
+      "en": [
+        "Land / tenancy / sowing documents as required for non-loanee",
+        "KCC / loan details if loanee path",
+        "Bank account for premium/claims",
+        "Aadhaar / KYC as required by State / insurer"
+      ],
+      "hi": [
+        "Land / tenancy / sowing documents as required for non-loanee",
+        "KCC / loan details if loanee path",
+        "Bank account for premium/claims",
+        "Aadhaar / KYC as required by State / insurer"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Land / tenancy / sowing documents as required for non-loanee",
+        "(EN — Malayalam review pending) KCC / loan details if loanee path",
+        "(EN — Malayalam review pending) Bank account for premium/claims",
+        "(EN — Malayalam review pending) Aadhaar / KYC as required by State / insurer"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol via pmfby.gov.in / bank / PACS / CSC / insurer before seasonal cut-off.",
+      "hi": "pmfby.gov.in / बैंक / पैक्स / सीएससी / बीमाकर्ता के माध्यम से मौसमी कट-ऑफ से पहले।",
+      "ml": "(EN — Malayalam review pending) Enrol via pmfby.gov.in / bank / PACS / CSC / insurer before seasonal cut-off."
+    },
+    "apply_url": "https://pmfby.gov.in/",
+    "office_type": "Ministry of Agriculture / State agriculture / banks / insurers",
+    "official_source_url": "https://pmfby.gov.in/",
+    "tags": [
+      "crop_insurance",
+      "farmer",
+      "pmfby",
+      "agriculture",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-kisan-credit-card",
+    "scheme_name": {
+      "en": "Kisan Credit Card (KCC)",
+      "hi": "किसान क्रेडिट कार्ड (केसीसी)",
+      "ml": "(EN — Malayalam review pending) Kisan Credit Card (KCC)"
+    },
+    "description": {
+      "en": "Short-term agricultural credit facility for farmers including owner-cultivators, tenant farmers, oral lessees, sharecroppers, and SHGs/JLGs; expanded KCC also covers allied activities (animal husbandry, fisheries) per RBI/GoI circulars.",
+      "hi": "किसानों (मालिक/किरायेदार/मौखिक पट्टेदार/बटाईदार/एसएचजी-जेएलजी) हेतु अल्पकालिक कृषि ऋण; विस्तारित केसीसी में पशुपालन/मत्स्य भी।",
+      "ml": "(EN — Malayalam review pending) Short-term agricultural credit facility for farmers including owner-cultivators, tenant farmers, oral lessees, sharecroppers, and SHGs/JLGs; expanded KCC also covers allied activities (animal husbandry, fisheries) per RBI/GoI circulars."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "tenant_farmer",
+        "sharecropper",
+        "animal_husbandry",
+        "fisheries"
+      ],
+      "categories": [
+        "farmer",
+        "shg",
+        "jlg"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Farmers including owner-cultivators, tenant farmers, oral lessees, sharecroppers, SHGs/JLGs; also allied activities (animal husbandry, fisheries) under expanded KCC. Credit limit/interest subvention per RBI/GoI circulars — verify=true for numbers.",
+      "verify": true,
+      "verify_notes": "2026-09-23: RBI Master Directions/circulars on KCC. Limit and interest subvention figures change — confirm current circular and bank product page."
+    },
+    "benefits": {
+      "en": "Revolving credit limit and interest subvention as per current RBI/GoI circulars — amounts and rates vary; verify with lending bank. Do not invent a single national ceiling.",
+      "hi": "परिसंचारी ऋण सीमा व ब्याज अनुदान वर्तमान आरबीआई/भारत सरकार परिपत्र अनुसार — बैंक से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Revolving credit limit and interest subvention as per current RBI/GoI circulars — amounts and rates vary; verify with lending bank. Do not invent a single national ceiling."
+    },
+    "required_documents": {
+      "en": [
+        "Identity and land / tenancy / cultivation proof as required by bank",
+        "KYC and bank account",
+        "For allied activities: activity proof per bank checklist"
+      ],
+      "hi": [
+        "Identity and land / tenancy / cultivation proof as required by bank",
+        "KYC and bank account",
+        "For allied activities: activity proof per bank checklist"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity and land / tenancy / cultivation proof as required by bank",
+        "(EN — Malayalam review pending) KYC and bank account",
+        "(EN — Malayalam review pending) For allied activities: activity proof per bank checklist"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at participating commercial / cooperative / RRB / Small Finance banks.",
+      "hi": "वाणिज्यिक / सहकारी / आरआरबी / एसएफबी बैंकों में आवेदन।",
+      "ml": "(EN — Malayalam review pending) Apply at participating commercial / cooperative / RRB / Small Finance banks."
+    },
+    "apply_url": "https://www.rbi.org.in/",
+    "office_type": "RBI / commercial-cooperative-RRB-SFB banks",
+    "official_source_url": "https://www.rbi.org.in/",
+    "tags": [
+      "kcc",
+      "farmer",
+      "credit",
+      "agriculture",
+      "central",
+      "nationwide",
+      "loan"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-janani-suraksha",
+    "scheme_name": {
+      "en": "Janani Suraksha Yojana (JSY) – National",
+      "hi": "जननी सुरक्षा योजना (जेएसवाई) – राष्ट्रीय",
+      "ml": "(EN — Malayalam review pending) Janani Suraksha Yojana (JSY) – National"
+    },
+    "description": {
+      "en": "National NHM cash-assistance scheme to promote institutional delivery. Low-performing vs high-performing state (LPS/HPS) rules differ; state-specific variants (e.g. Kerala, Rajasthan) also exist in this catalogue.",
+      "hi": "संस्थागत प्रसव प्रोत्साहन हेतु राष्ट्रीय नकद सहायता; एलपीएस/एचपीएस राज्य नियम भिन्न; राज्य-विशिष्ट प्रविष्टियाँ भी कैटलॉग में हैं।",
+      "ml": "(EN — Malayalam review pending) National NHM cash-assistance scheme to promote institutional delivery. Low-performing vs high-performing state (LPS/HPS) rules differ; state-specific variants (e.g. Kerala, Rajasthan) also exist in this catalogue."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "pregnant_woman",
+        "institutional_delivery"
+      ],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Cash assistance to promote institutional delivery. LPS vs HPS state rules differ (broader in low-performing states; BPL/SC/ST conditions often apply in HPS). Must pull current MoHFW guidelines — do not invent rupee amounts. Catalogue also has Kerala and Rajasthan state variants.",
+      "verify": true,
+      "verify_notes": "2026-09-23: NHM/MoHFW JSY materials. National amounts and LPS/HPS eligibility need MoHFW guideline lock before quoting rupees."
+    },
+    "benefits": {
+      "en": "Cash assistance for institutional delivery; amounts and beneficiary categories differ for LPS vs HPS states per MoHFW/NHM guidelines — do not invent rupee amounts; confirm current MoHFW guideline.",
+      "hi": "संस्थागत प्रसव हेतु नकद सहायता; एलपीएस/एचपीएस में राशि व पात्रता भिन्न — वर्तमान मोएचएफडब्ल्यू दिशानिर्देश से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Cash assistance for institutional delivery; amounts and beneficiary categories differ for LPS vs HPS states per MoHFW/NHM guidelines — do not invent rupee amounts; confirm current MoHFW guideline."
+    },
+    "required_documents": {
+      "en": [
+        "Pregnancy / ANC records as required by State NHM",
+        "Identity / BPL or category proof where HPS rules require",
+        "Bank account for DBT where applicable",
+        "Institutional delivery documentation"
+      ],
+      "hi": [
+        "Pregnancy / ANC records as required by State NHM",
+        "Identity / BPL or category proof where HPS rules require",
+        "Bank account for DBT where applicable",
+        "Institutional delivery documentation"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Pregnancy / ANC records as required by State NHM",
+        "(EN — Malayalam review pending) Identity / BPL or category proof where HPS rules require",
+        "(EN — Malayalam review pending) Bank account for DBT where applicable",
+        "(EN — Malayalam review pending) Institutional delivery documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Through government health facilities / ASHA / State NHM channels under JSY. See nhm.gov.in scheme materials; confirm LPS/HPS status of your State.",
+      "hi": "सरकारी स्वास्थ्य संस्थान / आशा / राज्य एनएचएम जेएसवाई चैनलों के माध्यम से।",
+      "ml": "(EN — Malayalam review pending) Through government health facilities / ASHA / State NHM channels under JSY. See nhm.gov.in scheme materials; confirm LPS/HPS status of your State."
+    },
+    "apply_url": "https://nhm.gov.in/",
+    "office_type": "Ministry of Health and Family Welfare / NHM / State Health Departments",
+    "official_source_url": "https://nhm.gov.in/",
+    "tags": [
+      "maternity",
+      "jsy",
+      "institutional_delivery",
+      "nhm",
+      "central",
+      "nationwide",
+      "women"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-rahat",
+    "scheme_name": {
+      "en": "PM RAHAT (cashless treatment for road accident victims)",
+      "hi": "पीएम राहत (सड़क दुर्घटना पीड़ितों हेतु कैशलेस उपचार)",
+      "ml": "(EN — Malayalam review pending) PM RAHAT (cashless treatment for road accident victims)"
+    },
+    "description": {
+      "en": "Cashless trauma care for victims of motor-vehicle road accidents at designated hospitals (including compliant AB-PM-JAY hospitals), with police authentication. Hospital-mediated pathway (not a citizen DBT application portal).",
+      "hi": "मोटर वाहन सड़क दुर्घटना पीड़ितों हेतु नामित अस्पतालों में कैशलेस ट्रॉमा केयर; पुलिस प्रमाणीकरण। अस्पताल-माध्यम मार्ग।",
+      "ml": "(EN — Malayalam review pending) Cashless trauma care for victims of motor-vehicle road accidents at designated hospitals (including compliant AB-PM-JAY hospitals), with police authentication. Hospital-mediated pathway (not a citizen DBT application portal)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "road_accident_victim"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Victims of motor-vehicle road accidents needing trauma care; cashless treatment up to ₹1.5 lakh for up to 7 days; hospitalization generally within 24 hours; police authentication; designated hospitals (incl. compliant AB-PM-JAY hospitals). Applies regardless of nationality per scheme text. Hospital-mediated — not a DBT apply portal.",
+      "verify": true,
+      "verify_notes": "2026-09-23: PIB nationwide launch messaging (e.g. Feb 2026) + MoRTH scheme materials. State rollout uneven — verify=true; confirm designated hospital list locally."
+    },
+    "benefits": {
+      "en": "Cashless treatment commonly up to ₹1.5 lakh for up to 7 days; hospitalization generally within 24 hours of accident per scheme text. Implementation can be uneven by state — verify.",
+      "hi": "कैशलेस उपचार सामान्यतः अधिकतम ₹1.5 लाख / 7 दिन तक; सामान्यतः दुर्घटना के 24 घंटे के भीतर अस्पताल प्रवेश। राज्य कार्यान्वयन भिन्न हो सकता है।",
+      "ml": "(EN — Malayalam review pending) Cashless treatment commonly up to ₹1.5 lakh for up to 7 days; hospitalization generally within 24 hours of accident per scheme text. Implementation can be uneven by state — verify."
+    },
+    "required_documents": {
+      "en": [
+        "Police authentication / accident documentation as required by hospital protocol",
+        "Identity of victim as required",
+        "Treatment at designated / compliant hospital"
+      ],
+      "hi": [
+        "Police authentication / accident documentation as required by hospital protocol",
+        "Identity of victim as required",
+        "Treatment at designated / compliant hospital"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Police authentication / accident documentation as required by hospital protocol",
+        "(EN — Malayalam review pending) Identity of victim as required",
+        "(EN — Malayalam review pending) Treatment at designated / compliant hospital"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Hospital-mediated: seek care at designated hospitals under the scheme; police authentication supports cashless processing. Not a self-serve DBT portal application.",
+      "hi": "नामित अस्पताल में उपचार; पुलिस प्रमाणीकरण से कैशलेस प्रक्रिया। स्वयं-सेवा डीबीटी पोर्टल नहीं।",
+      "ml": "(EN — Malayalam review pending) Hospital-mediated: seek care at designated hospitals under the scheme; police authentication supports cashless processing. Not a self-serve DBT portal application."
+    },
+    "apply_url": "https://pib.gov.in/",
+    "office_type": "Ministry of Road Transport and Highways / designated hospitals / police",
+    "official_source_url": "https://pib.gov.in/",
+    "tags": [
+      "road_safety",
+      "trauma",
+      "cashless",
+      "emergency",
+      "central",
+      "nationwide",
+      "health"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "us-summer-ebt",
+    "scheme_name": {
+      "en": "Summer EBT / SUN Bucks – United States",
+      "ml": "Summer EBT / SUN Bucks – United States",
+      "hi": "समर ईबीटी / सन बक्स – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "USDA grocery benefit for eligible school-age children during summer in participating states, Tribes, and territories. Often called SUN Bucks. Availability is not universal in all jurisdictions.",
+      "ml": "USDA grocery benefit for eligible school-age children during summer in participating states, Tribes, and territories. Often called SUN Bucks. Availability is not universal in all jurisdictions.",
+      "hi": "USDA grocery benefit for eligible school-age children during summer in participating states, Tribes, and territories. Often called SUN Bucks. Availability is not universal in all jurisdictions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "school_age_child"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "$120 grocery benefit per eligible school-age child for summer in participating states/Tribes/territories. Auto paths via SNAP/TANF/FDPIR/Medicaid/foster/homeless/migrant/free-reduced meals; others apply via state/Tribe. Not available in all jurisdictions — check FNS map.",
+      "verify": true,
+      "verify_notes": "2026-09-23: fns.usda.gov/sebt. Confirm current per-child amount, participating jurisdictions, and state application windows.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "About $120 grocery benefit per eligible school-age child for the summer in participating jurisdictions (confirm current FNS amount). Delivered via EBT or similar state mechanism.",
+      "ml": "About $120 grocery benefit per eligible school-age child for the summer in participating jurisdictions (confirm current FNS amount). Delivered via EBT or similar state mechanism.",
+      "hi": "About $120 grocery benefit per eligible school-age child for the summer in participating jurisdictions (confirm current FNS amount). Delivered via EBT or similar state mechanism."
+    },
+    "required_documents": {
+      "en": [
+        "Child school-age eligibility and residency in a participating state/Tribe/territory",
+        "Auto path via SNAP/TANF/FDPIR/Medicaid/foster/homeless/migrant/free-reduced meals where applicable; otherwise state/Tribe application"
+      ],
+      "ml": [
+        "Child school-age eligibility and residency in a participating state/Tribe/territory",
+        "Auto path via SNAP/TANF/FDPIR/Medicaid/foster/homeless/migrant/free-reduced meals where applicable; otherwise state/Tribe application"
+      ],
+      "hi": [
+        "Child school-age eligibility and residency in a participating state/Tribe/territory",
+        "Auto path via SNAP/TANF/FDPIR/Medicaid/foster/homeless/migrant/free-reduced meals where applicable; otherwise state/Tribe application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check FNS Summer EBT page for participating jurisdictions and your state/Tribe application or automatic enrolment path: https://www.fns.usda.gov/sebt",
+      "ml": "Check FNS Summer EBT page for participating jurisdictions and your state/Tribe application or automatic enrolment path: https://www.fns.usda.gov/sebt",
+      "hi": "Check FNS Summer EBT page for participating jurisdictions and your state/Tribe application or automatic enrolment path: https://www.fns.usda.gov/sebt"
+    },
+    "apply_url": "https://www.fns.usda.gov/sebt",
+    "official_source_url": "https://www.fns.usda.gov/sebt",
+    "last_verified": "2026-09-23",
+    "office_type": "USDA Food and Nutrition Service / state or Tribal Summer EBT agency",
+    "tags": [
+      "united_states",
+      "food",
+      "children",
+      "summer",
+      "ebt",
+      "usda",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-va-disability",
+    "scheme_name": {
+      "en": "VA Disability Compensation – United States",
+      "ml": "VA Disability Compensation – United States",
+      "hi": "वीए डिसेबिलिटी कंपंसेशन – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Tax-free monthly VA compensation for Veterans with a current illness or injury connected to active duty, active duty for training, or inactive duty training (or presumptive/PACT Act pathways). Discharge generally other than dishonorable.",
+      "ml": "Tax-free monthly VA compensation for Veterans with a current illness or injury connected to active duty, active duty for training, or inactive duty training (or presumptive/PACT Act pathways). Discharge generally other than dishonorable.",
+      "hi": "Tax-free monthly VA compensation for Veterans with a current illness or injury connected to active duty, active duty for training, or inactive duty training (or presumptive/PACT Act pathways). Discharge generally other than dishonorable."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "veteran"
+      ],
+      "categories": [
+        "veteran",
+        "service_connected"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": true,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Current illness/injury AND service on active duty / ADT / IADT; plus in-service / aggravation / post-service service-connected claim (or presumptive). Discharge generally other than dishonorable. PACT Act expands toxic-exposure pathways.",
+      "verify": true,
+      "verify_notes": "2026-09-23: va.gov disability eligibility + how-to-file. Rating percentages and monthly rates change — confirm current VA rate tables."
+    },
+    "benefits": {
+      "en": "Tax-free monthly disability compensation based on VA disability rating and dependents. Amounts published in VA compensation rate tables — verify current rates.",
+      "ml": "Tax-free monthly disability compensation based on VA disability rating and dependents. Amounts published in VA compensation rate tables — verify current rates.",
+      "hi": "Tax-free monthly disability compensation based on VA disability rating and dependents. Amounts published in VA compensation rate tables — verify current rates."
+    },
+    "required_documents": {
+      "en": [
+        "DD214 or equivalent service records",
+        "Medical evidence of current disability and nexus to service (or presumptive basis)",
+        "VA claim forms / online claim submission materials"
+      ],
+      "ml": [
+        "DD214 or equivalent service records",
+        "Medical evidence of current disability and nexus to service (or presumptive basis)",
+        "VA claim forms / online claim submission materials"
+      ],
+      "hi": [
+        "DD214 or equivalent service records",
+        "Medical evidence of current disability and nexus to service (or presumptive basis)",
+        "VA claim forms / online claim submission materials"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a claim online or with help from an accredited representative: https://www.va.gov/disability/how-to-file-claim/ — review eligibility at https://www.va.gov/disability/eligibility/",
+      "ml": "File a claim online or with help from an accredited representative: https://www.va.gov/disability/how-to-file-claim/ — review eligibility at https://www.va.gov/disability/eligibility/",
+      "hi": "File a claim online or with help from an accredited representative: https://www.va.gov/disability/how-to-file-claim/ — review eligibility at https://www.va.gov/disability/eligibility/"
+    },
+    "apply_url": "https://www.va.gov/disability/how-to-file-claim/",
+    "official_source_url": "https://www.va.gov/disability/eligibility/",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Veterans Affairs (VA)",
+    "tags": [
+      "united_states",
+      "veteran",
+      "disability",
+      "va",
+      "federal",
+      "compensation"
+    ]
+  },
+  {
+    "id": "us-ssa-survivors",
+    "scheme_name": {
+      "en": "Social Security Survivors Benefits – United States",
+      "ml": "Social Security Survivors Benefits – United States",
+      "hi": "सोशल सिक्योरिटी सर्वाइवर्स बेनिफिट्स – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Monthly Social Security benefits for eligible spouses, ex-spouses, children, and dependent parents of a deceased worker who paid Social Security taxes.",
+      "ml": "Monthly Social Security benefits for eligible spouses, ex-spouses, children, and dependent parents of a deceased worker who paid Social Security taxes.",
+      "hi": "Monthly Social Security benefits for eligible spouses, ex-spouses, children, and dependent parents of a deceased worker who paid Social Security taxes."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "surviving_spouse",
+        "surviving_child",
+        "dependent_parent"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Spouse/ex-spouse/child/dependent parent of deceased worker who paid SS taxes. Spouses: typically 60+ (or 50–59 if disabled), marriage duration rules, remarriage limits; or any age caring for child. Children: unmarried, ≤17, or 18–19 in K–12 full-time, or disabled before 22. Dependent parents 62+ with financial support rules.",
+      "verify": true,
+      "verify_notes": "2026-09-23: ssa.gov/survivor/eligibility. Age/marriage/disability rules have nuance — verify with SSA before advising."
+    },
+    "benefits": {
+      "en": "Monthly survivors benefits based on the deceased worker’s earnings record. Exact amounts from SSA — verify.",
+      "ml": "Monthly survivors benefits based on the deceased worker’s earnings record. Exact amounts from SSA — verify.",
+      "hi": "Monthly survivors benefits based on the deceased worker’s earnings record. Exact amounts from SSA — verify."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of death and relationship to the deceased worker",
+        "SSN of deceased and claimant",
+        "Birth/marriage/divorce records as applicable",
+        "Citizenship/immigration documents as required by SSA"
+      ],
+      "ml": [
+        "Proof of death and relationship to the deceased worker",
+        "SSN of deceased and claimant",
+        "Birth/marriage/divorce records as applicable",
+        "Citizenship/immigration documents as required by SSA"
+      ],
+      "hi": [
+        "Proof of death and relationship to the deceased worker",
+        "SSN of deceased and claimant",
+        "Birth/marriage/divorce records as applicable",
+        "Citizenship/immigration documents as required by SSA"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with SSA (online where available, phone, or field office). Review https://www.ssa.gov/survivor/eligibility",
+      "ml": "Apply with SSA (online where available, phone, or field office). Review https://www.ssa.gov/survivor/eligibility",
+      "hi": "Apply with SSA (online where available, phone, or field office). Review https://www.ssa.gov/survivor/eligibility"
+    },
+    "apply_url": "https://www.ssa.gov/survivor/eligibility",
+    "official_source_url": "https://www.ssa.gov/survivor/eligibility",
+    "last_verified": "2026-09-23",
+    "office_type": "Social Security Administration (SSA)",
+    "tags": [
+      "united_states",
+      "social_security",
+      "survivors",
+      "ssa",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-fema-ia",
+    "scheme_name": {
+      "en": "FEMA Individual Assistance – United States",
+      "ml": "FEMA Individual Assistance – United States",
+      "hi": "फेमा इंडिविजुअल असिस्टेंस – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Federal disaster assistance for individuals and households in a presidentially declared disaster area with damage to a primary residence or other serious unmet disaster-caused needs, when uninsured or underinsured.",
+      "ml": "Federal disaster assistance for individuals and households in a presidentially declared disaster area with damage to a primary residence or other serious unmet disaster-caused needs, when uninsured or underinsured.",
+      "hi": "Federal disaster assistance for individuals and households in a presidentially declared disaster area with damage to a primary residence or other serious unmet disaster-caused needs, when uninsured or underinsured."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "disaster_survivor"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Declared disaster area; damaged primary residence or serious unmet disaster need; uninsured/underinsured; qualifying citizenship/immigration + SSN rules per FEMA. Apply online / app / phone / DRC.",
+      "verify": true,
+      "verify_notes": "2026-09-23: disasterassistance.gov + fema.gov IA eligibility. Only available after a qualifying declaration — confirm your county is included."
+    },
+    "benefits": {
+      "en": "Grants and other Individual Assistance help for temporary housing, home repairs, and other serious disaster-caused needs per FEMA program rules — not a substitute for insurance. Amounts case-specific.",
+      "ml": "Grants and other Individual Assistance help for temporary housing, home repairs, and other serious disaster-caused needs per FEMA program rules — not a substitute for insurance. Amounts case-specific.",
+      "hi": "Grants and other Individual Assistance help for temporary housing, home repairs, and other serious disaster-caused needs per FEMA program rules — not a substitute for insurance. Amounts case-specific."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of identity, occupancy, and ownership/tenancy as required",
+        "Insurance information (or lack thereof)",
+        "Damage documentation",
+        "SSN and qualifying citizenship/immigration status per FEMA rules"
+      ],
+      "ml": [
+        "Proof of identity, occupancy, and ownership/tenancy as required",
+        "Insurance information (or lack thereof)",
+        "Damage documentation",
+        "SSN and qualifying citizenship/immigration status per FEMA rules"
+      ],
+      "hi": [
+        "Proof of identity, occupancy, and ownership/tenancy as required",
+        "Insurance information (or lack thereof)",
+        "Damage documentation",
+        "SSN and qualifying citizenship/immigration status per FEMA rules"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at DisasterAssistance.gov, FEMA app, phone, or Disaster Recovery Center after a declaration covering your area: https://www.disasterassistance.gov/",
+      "ml": "Apply at DisasterAssistance.gov, FEMA app, phone, or Disaster Recovery Center after a declaration covering your area: https://www.disasterassistance.gov/",
+      "hi": "Apply at DisasterAssistance.gov, FEMA app, phone, or Disaster Recovery Center after a declaration covering your area: https://www.disasterassistance.gov/"
+    },
+    "apply_url": "https://www.disasterassistance.gov/",
+    "official_source_url": "https://www.fema.gov/assistance/individual/program/eligibility",
+    "last_verified": "2026-09-23",
+    "office_type": "FEMA / DisasterAssistance.gov",
+    "tags": [
+      "united_states",
+      "disaster",
+      "fema",
+      "housing",
+      "federal",
+      "emergency"
+    ]
+  },
+  {
+    "id": "us-free-file-vita",
+    "scheme_name": {
+      "en": "IRS Free File + VITA/TCE – United States",
+      "ml": "IRS Free File + VITA/TCE – United States",
+      "hi": "आईआरएस फ्री फाइल + वीआईटीए/टीसीई – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Free federal tax-return pathways: IRS Free File guided software (AGI limit), Free File Fillable Forms (any income), Volunteer Income Tax Assistance (VITA), and Tax Counseling for the Elderly (TCE).",
+      "ml": "Free federal tax-return pathways: IRS Free File guided software (AGI limit), Free File Fillable Forms (any income), Volunteer Income Tax Assistance (VITA), and Tax Counseling for the Elderly (TCE).",
+      "hi": "Free federal tax-return pathways: IRS Free File guided software (AGI limit), Free File Fillable Forms (any income), Volunteer Income Tax Assistance (VITA), and Tax Counseling for the Elderly (TCE)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 89000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Free File guided software: AGI ≤ $89,000 (TY2025 / filing season 2026 per IRS newsroom); Fillable Forms any income. VITA: generally ≤ $69,000, disability, limited English. TCE: age 60+ focus. max_annual_income encodes Free File guided AGI ceiling only; VITA/TCE have different gates — verify=true.",
+      "verify": true,
+      "verify_notes": "2026-09-23: IRS Free File + VITA pages / newsroom AGI $89,000 for FS2026. Confirm each filing season’s Free File AGI limit and local VITA eligibility.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free preparation and e-file of federal returns (and often state, where offered) via Free File partners or IRS-certified VITA/TCE volunteers. Complements EITC/CTC claiming.",
+      "ml": "Free preparation and e-file of federal returns (and often state, where offered) via Free File partners or IRS-certified VITA/TCE volunteers. Complements EITC/CTC claiming.",
+      "hi": "Free preparation and e-file of federal returns (and often state, where offered) via Free File partners or IRS-certified VITA/TCE volunteers. Complements EITC/CTC claiming."
+    },
+    "required_documents": {
+      "en": [
+        "Income documents (W-2, 1099, etc.)",
+        "Identity / SSN or ITIN for filers and dependents",
+        "Bank account for direct deposit if desired",
+        "For VITA/TCE: appointment and intake forms as required by site"
+      ],
+      "ml": [
+        "Income documents (W-2, 1099, etc.)",
+        "Identity / SSN or ITIN for filers and dependents",
+        "Bank account for direct deposit if desired",
+        "For VITA/TCE: appointment and intake forms as required by site"
+      ],
+      "hi": [
+        "Income documents (W-2, 1099, etc.)",
+        "Identity / SSN or ITIN for filers and dependents",
+        "Bank account for direct deposit if desired",
+        "For VITA/TCE: appointment and intake forms as required by site"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Free File: https://www.irs.gov/e-file-do-your-taxes-for-free — VITA/TCE locator: https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers",
+      "ml": "Free File: https://www.irs.gov/e-file-do-your-taxes-for-free — VITA/TCE locator: https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers",
+      "hi": "Free File: https://www.irs.gov/e-file-do-your-taxes-for-free — VITA/TCE locator: https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers"
+    },
+    "apply_url": "https://www.irs.gov/e-file-do-your-taxes-for-free",
+    "official_source_url": "https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers",
+    "last_verified": "2026-09-23",
+    "office_type": "Internal Revenue Service (IRS) / VITA-TCE partner sites",
+    "tags": [
+      "united_states",
+      "tax",
+      "irs",
+      "free_file",
+      "vita",
+      "tce",
+      "federal"
+    ]
   }
 ]
