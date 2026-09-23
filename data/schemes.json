@@ -15097,7 +15097,7 @@
       "haryana",
       "dbt"
     ],
-    "last_verified": "2026-09-16"
+    "last_verified": "2026-09-23"
   },
   {
     "id": "hr-widower-unmarried-assist",
@@ -21283,21 +21283,21 @@
     "last_verified": "2026-09-16"
   },
   {
-    "id": "dl-ladli-scheme",
+    "id": "dl-lakhpati-bitiya",
     "scheme_name": {
-      "en": "Delhi Ladli Scheme (2008)",
-      "hi": "दिल्ली लाड़ली योजना (2008)",
-      "ml": "(EN — Malayalam review pending) Delhi Ladli Scheme (2008)"
+      "en": "Delhi Lakhpati Bitiya Scheme",
+      "hi": "दिल्ली लखपति बिटिया योजना",
+      "ml": "(EN — Malayalam review pending) Delhi Lakhpati Bitiya Scheme"
     },
     "description": {
-      "en": "Girl-child savings / financial assistance scheme of GNCTD Women & Child Development for eligible Delhi-born girls (up to two surviving girls per family).",
-      "hi": "दिल्ली में जन्मी पात्र बालिकाओं हेतु लाड़ली बचत/वित्तीय सहायता (प्रति परिवार अधिकतम दो जीवित बालिकाएँ)।",
-      "ml": "(EN — Malayalam review pending) Girl-child savings / financial assistance scheme of GNCTD Women & Child Development for eligible Delhi-born girls (up to two surviving girls per family)."
+      "en": "GNCTD girl-child milestone savings scheme superseding Delhi Ladli Scheme 2008 from 1 Apr 2026; phased deposits redeemable at 18/21 with education conditions (gazette 30 Mar 2026).",
+      "hi": "1 अप्रैल 2026 से दिल्ली लाड़ली योजना 2008 के स्थान पर GNCTD बालिका बचत योजना; 18/21 वर्ष पर शिक्षा शर्तों सहित चरणबद्ध जमा।",
+      "ml": "(EN — Malayalam review pending) GNCTD girl-child milestone savings scheme superseding Delhi Ladli Scheme 2008 from 1 Apr 2026; phased deposits redeemable at 18/21 with education conditions (gazette 30 Mar 2026)."
     },
     "eligibility_rules": {
       "min_age": 0,
-      "max_age": 18,
-      "max_annual_income": 100000,
+      "max_age": 21,
+      "max_annual_income": 120000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -21306,49 +21306,55 @@
       "disability_required": false,
       "min_disability_percent": null,
       "land_ownership": null,
-      "nationwide": false,
+      "states": [
+        "Delhi"
+      ],
       "countries": [
         "India"
       ],
+      "nationwide": false,
+      "notes": "English gazette (30 Mar 2026; in force 1 Apr 2026): girl born in Delhi (birth certificate from Registrar Births & Deaths); applicant bonafide NCT Delhi resident ≥3 years before application; annual family income ≤ ₹1,20,000; benefit limited to two girls per family; studying in Govt/MCD/NDMC or Govt-recognised Delhi school (school-going path); not married before age 18; immunization as per norms for new beneficiaries from 01.04.2026; existing Ladli beneficiaries eligible for further higher-education milestones if unmarried till 18; CCI exemptions for residence/income/birth place (State as guardian). Supersedes Delhi Ladli Scheme 2008 (former catalogue id dl-ladli-scheme).",
       "verify": true,
-      "notes": "WCD Delhi Ladli pages/FAQ: girl born in Delhi; family residence in Delhi commonly cited as at least 3 years; combined annual family income not exceeding ₹1 lakh; benefit limited to two surviving girls; school-going girls must attend a recognised Delhi school; staged payments for births on/after 01/01/2008 (commonly cited ₹10,000 at birth / ₹11,000 for institutional birth toward ~₹1 lakh maturity path) — confirm current slabs on WCD FAQ.",
-      "verify_notes": "2026-09-16: https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme-2008 ; https://wcd.delhi.gov.in/wcd/delhi-ladli-scheme ; WCD FAQs — exact maturity/stage amounts and application windows re-confirm on live FAQ.",
-      "states": [
-        "Delhi"
-      ]
+      "verify_notes": "2026-09-23: Gazette PDF (District North CDN) + WCD notification dated 01-04-2026. dmnorth scheme card metadata looked stale — treat gazette + WCD as authoritative. Confirm live apply service name on e-District/WCD."
     },
     "benefits": {
-      "en": "Staged financial assistance toward girl-child maturity amount as published on WCD Ladli / FAQ pages — confirm current stage amounts.",
-      "hi": "चरणबद्ध वित्तीय सहायता (WCD लाड़ली/FAQ) — वर्तमान किस्तें पुष्टि करें।",
-      "ml": "(EN — Malayalam review pending) Staged financial assistance toward girl-child maturity amount as published on WCD Ladli / FAQ pages — confirm current stage amounts."
+      "en": "Phased payments redeemable at 18/21 (as applicable): Birth ₹11,000; Class 1 ₹5,000; Class 6 ₹5,000; Class 9 ₹5,000; Class 11 or Polytechnic/ITI after Class 10 ₹5,000; Class 12 ₹5,000; then diploma/graduation path amounts (1-yr diploma ₹10,000; 2-yr ₹20,000; 3-yr diploma or 3-yr graduation ₹20,000 structured; 4-yr graduation ₹25,000 structured). Encashable only after Class XII (or polytechnic/ITI) + age 18, or after graduation/diploma + age 21, as applicable. Non-transferable; no loan against deposit; marriage before 18 disqualifies maturity. Do not treat marketing 'matures to ₹1.20 lakh' as a fixed gazette lump sum.",
+      "hi": "18/21 वर्ष पर भुनाई योग्य चरणबद्ध राशि (राजपत्र अनुसार): जन्म ₹11,000; कक्षा 1/6/9/11 या पॉली/ITI/12 पर ₹5,000 इत्यादि; डिप्लोमा/स्नातक पथ अलग। 18 से पहले विवाह पर परिपक्वता अयोग्य। विपणन '₹1.20 लाख' को निश्चित राजपत्र राशि न मानें।",
+      "ml": "(EN — Malayalam review pending) Phased payments redeemable at 18/21 (as applicable): Birth ₹11,000; Class 1 ₹5,000; Class 6 ₹5,000; Class 9 ₹5,000; Class 11 or Polytechnic/ITI after Class 10 ₹5,000; Class 12 ₹5,000; then diploma/graduation path amounts (1-yr diploma ₹10,000; 2-yr ₹20,000; 3-yr diploma or 3-yr graduation ₹20,000 structured; 4-yr graduation ₹25,000 structured). Encashable only after Class XII (or polytechnic/ITI) + age 18, or after graduation/diploma + age 21, as applicable. Non-transferable; no loan against deposit; marriage before 18 disqualifies maturity. Do not treat marketing 'matures to ₹1.20 lakh' as a fixed gazette lump sum."
     },
     "required_documents": {
       "en": [
-        "Birth certificate (Delhi)",
-        "Aadhaar (child/parent)",
-        "Residence proof (Delhi)",
-        "Income proof",
-        "School admission proof (where applicable)",
-        "Bank account details"
+        "Residence proof (≥3 years in NCT Delhi)",
+        "Birth certificate (Registrar of Births & Deaths, Delhi)",
+        "Joint photograph of parent and child",
+        "Self-declaration of income and marital status",
+        "Admission / bonafide school certificate (where applicable)",
+        "Immunization certificate (new beneficiaries from 01.04.2026)",
+        "Private-school cases: DEO verification as required"
       ],
       "hi": [
-        "Birth certificate (Delhi)",
-        "Aadhaar (child/parent)",
-        "Residence proof (Delhi)",
-        "Income proof",
-        "School admission proof (where applicable)",
-        "Bank account details"
+        "Residence proof (≥3 years in NCT Delhi)",
+        "Birth certificate (Registrar of Births & Deaths, Delhi)",
+        "Joint photograph of parent and child",
+        "Self-declaration of income and marital status",
+        "Admission / bonafide school certificate (where applicable)",
+        "Immunization certificate (new beneficiaries from 01.04.2026)",
+        "Private-school cases: DEO verification as required"
       ],
       "ml": [
-        "Birth certificate (Delhi)",
-        "Aadhaar (child/parent)",
-        "Residence proof (Delhi)"
+        "(EN — Malayalam review pending) Residence proof (≥3 years in NCT Delhi)",
+        "(EN — Malayalam review pending) Birth certificate (Registrar of Births & Deaths, Delhi)",
+        "(EN — Malayalam review pending) Joint photograph of parent and child",
+        "(EN — Malayalam review pending) Self-declaration of income and marital status",
+        "(EN — Malayalam review pending) Admission / bonafide school certificate (where applicable)",
+        "(EN — Malayalam review pending) Immunization certificate (new beneficiaries from 01.04.2026)",
+        "(EN — Malayalam review pending) Private-school cases: DEO verification as required"
       ]
     },
     "how_to_apply": {
-      "en": "Apply online via e-District Delhi / WCD Ladli service within notified timelines. https://edistrict.delhigovt.nic.in/",
-      "hi": "ई-डिस्ट्रिक्ट दिल्ली / WCD लाड़ली सेवा पर अधिसूचित समय में आवेदन।",
-      "ml": "(EN — Malayalam review pending) Apply online via e-District Delhi / WCD Ladli service within notified timelines. https://edistrict.delhigovt.nic.in/"
+      "en": "Apply online via the dedicated portal to the District Women & Child Development Officer (per gazette). Confirm current e-District / WCD service name after rename from Ladli. https://edistrict.delhigovt.nic.in/",
+      "hi": "राजपत्र अनुसार जिला महिला एवं बाल विकास अधिकारी को समर्पित पोर्टल पर ऑनलाइन आवेदन; लाड़ली नाम परिवर्तन के बाद ई-डिस्ट्रिक्ट/WCD सेवा नाम पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Apply online via the dedicated portal to the District Women & Child Development Officer (per gazette). Confirm current e-District / WCD service name after rename from Ladli. https://edistrict.delhigovt.nic.in/"
     },
     "apply_url": "https://edistrict.delhigovt.nic.in/",
     "office_type": "Department of Women and Child Development, Government of NCT of Delhi",
@@ -21358,9 +21364,11 @@
       "women",
       "education",
       "delhi",
-      "dbt"
+      "dbt",
+      "savings"
     ],
-    "last_verified": "2026-09-16"
+    "last_verified": "2026-09-23",
+    "nationwide": false
   },
   {
     "id": "dl-sugamya-sahayak",
@@ -45856,6 +45864,1359 @@
       "savings",
       "able",
       "tax"
+    ]
+  },
+  {
+    "id": "in-pm-surya-ghar",
+    "scheme_name": {
+      "en": "PM Surya Ghar: Muft Bijli Yojana",
+      "hi": "पीएम सूर्य घर: मुफ्त बिजली योजना",
+      "ml": "(EN — Malayalam review pending) PM Surya Ghar: Muft Bijli Yojana"
+    },
+    "description": {
+      "en": "Central CFA for grid-connected residential rooftop solar via the National Portal; target 1 crore households through FY 2026-27 (implementation till 31 Mar 2027).",
+      "hi": "राष्ट्रीय पोर्टल के माध्यम से ग्रिड-कनेक्टेड आवासीय रूफटॉप सोलर हेतु केंद्रीय CFA; FY 2026-27 तक लगभग 1 करोड़ परिवार (31 मार्च 2027 तक)।",
+      "ml": "(EN — Malayalam review pending) Central CFA for grid-connected residential rooftop solar via the National Portal; target 1 crore households through FY 2026-27 (implementation till 31 Mar 2027)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Residential consumer with valid DISCOM Consumer Account Number / equivalent; grid-connected RTS on roof/terrace/balcony/elevated structure (BiPV also eligible). Not for non-residential (commercial/industrial/govt) CFA under this component. DCR (domestically manufactured modules/cells) required; off-grid not eligible. No income gate stated for residential CFA. GHS/RWA common facilities covered under separate CFA row.",
+      "verify": true,
+      "verify_notes": "2026-09-23: MNRE Capex CFA guidelines + PIB Cabinet; CFA disbursement confirmed in PIB (e.g. as of 19.03.2026). Exact portal document field list may vary — verify on pmsuryaghar.gov.in."
+    },
+    "benefits": {
+      "en": "CFA: ₹30,000/kWp for first 2 kWp; ₹18,000/kWp for additional 1 kWp; no additional CFA beyond 3 kWp (max ₹78,000 for ≥3 kW). Special-category States/UTs: ₹33,000/kWp and ₹19,800/kWp. GHS/RWA common facilities: ₹18,000/kWp (special ₹19,800) up to 500 kWp @3 kWp/house. Collateral-free low-interest loan products (~7% / repo+50 bps band per guidelines) for systems up to 3 kW via National Portal / Jan Samarth. Scheme messaging includes free/low-cost electricity framing up to ~300 units/month via RTS generation (outcome framing, not a separate tariff entitlement).",
+      "hi": "CFA: प्रथम 2 kWp पर ₹30,000/kWp; अतिरिक्त 1 kWp पर ₹18,000/kWp; 3 kWp से अधिक CFA नहीं (अधिकतम ₹78,000)। विशेष श्रेणी राज्य/UT उच्च दरें। 3 kW तक कम ब्याज ऋण विकल्प।",
+      "ml": "(EN — Malayalam review pending) CFA: ₹30,000/kWp for first 2 kWp; ₹18,000/kWp for additional 1 kWp; no additional CFA beyond 3 kWp (max ₹78,000 for ≥3 kW). Special-category States/UTs: ₹33,000/kWp and ₹19,800/kWp. GHS/RWA common facilities: ₹18,000/kWp (special ₹19,800) up to 500 kWp @3 kWp/house. Collateral-free low-interest loan products (~7% / repo+50 bps band per guidelines) for systems up to 3 kW via National Portal / Jan Samarth. Scheme messaging includes free/low-cost electricity framing up to ~300 units/month via RTS generation (outcome framing, not a separate tariff entitlement)."
+    },
+    "required_documents": {
+      "en": [
+        "DISCOM Consumer Account Number / residential connection ID",
+        "Bank account proof (cancelled cheque / e-statement / passbook)",
+        "Identity as required by National Portal",
+        "Geo-tagged installation photos; DISCOM inspection & net-metering agreement",
+        "Portal-registered vendor selection"
+      ],
+      "hi": [
+        "DISCOM Consumer Account Number / residential connection ID",
+        "Bank account proof (cancelled cheque / e-statement / passbook)",
+        "Identity as required by National Portal",
+        "Geo-tagged installation photos; DISCOM inspection & net-metering agreement",
+        "Portal-registered vendor selection"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) DISCOM Consumer Account Number / residential connection ID",
+        "(EN — Malayalam review pending) Bank account proof (cancelled cheque / e-statement / passbook)",
+        "(EN — Malayalam review pending) Identity as required by National Portal",
+        "(EN — Malayalam review pending) Geo-tagged installation photos; DISCOM inspection & net-metering agreement",
+        "(EN — Malayalam review pending) Portal-registered vendor selection"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply only on the National Portal https://pmsuryaghar.gov.in/ ; choose a portal-registered vendor; complete DISCOM net-metering; CFA via e-token to bank/loan account.",
+      "hi": "केवल राष्ट्रीय पोर्टल pmsuryaghar.gov.in पर आवेदन; पोर्टल-पंजीकृत विक्रेता चुनें; DISCOM नेट-मीटरिंग; CFA बैंक/ऋण खाते में।",
+      "ml": "(EN — Malayalam review pending) Apply only on the National Portal https://pmsuryaghar.gov.in/ ; choose a portal-registered vendor; complete DISCOM net-metering; CFA via e-token to bank/loan account."
+    },
+    "apply_url": "https://pmsuryaghar.gov.in/",
+    "office_type": "MNRE / Local DISCOM / National Portal",
+    "official_source_url": "https://mnre.gov.in/en/notice/guidelines-for-pm-surya-ghar-muft-bijli-yojana/",
+    "tags": [
+      "solar",
+      "rooftop",
+      "renewable",
+      "energy",
+      "subsidy",
+      "central",
+      "nationwide",
+      "housing"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "dl-rooftop-solar-subsidy",
+    "scheme_name": {
+      "en": "Delhi Rooftop Solar Capital Subsidy (Delhi Solar Energy Policy / PM Surya Ghar ULA)",
+      "hi": "दिल्ली रूफटॉप सोलर पूंजी सब्सिडी (दिल्ली सोलर ऊर्जा नीति / पीएम सूर्य घर ULA)",
+      "ml": "(EN — Malayalam review pending) Delhi Rooftop Solar Capital Subsidy (Delhi Solar Energy Policy / PM Surya Ghar ULA)"
+    },
+    "description": {
+      "en": "GNCTD additional capital subsidy for residential rooftop solar, combined with PM Surya Ghar CFA; Utility Led Aggregation (ULA) free-install path for eligible low-consumption households.",
+      "hi": "आवासीय रूफटॉप सोलर हेतु GNCTD अतिरिक्त पूंजी सब्सिडी (पीएम सूर्य घर CFA के साथ); पात्र कम-खपत परिवारों हेतु ULA निःशुल्क स्थापना मार्ग।",
+      "ml": "(EN — Malayalam review pending) GNCTD additional capital subsidy for residential rooftop solar, combined with PM Surya Ghar CFA; Utility Led Aggregation (ULA) free-install path for eligible low-consumption households."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delhi"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Residential consumer in Delhi under amended Solar Energy Policy. ULA free path: average monthly consumption ≤400 units (priority). No separate income ceiling stated in the Power Department PDF for the capital subsidy. Complements PM Surya Ghar CFA.",
+      "verify": true,
+      "verify_notes": "2026-09-23: Amounts from official Power Department GNCTD PDF (solar.delhi.gov.in). ULA availability and unit-band incentives: confirm on live portal/PDF before advising a household."
+    },
+    "benefits": {
+      "en": "Delhi enhanced capital subsidy up to ₹78,000 for residential installations. GHS: @₹11,000/kW. Under ULA (IPGCL), eligible consumers averaging up to 400 units/month can get free rooftop solar up to 3 kW (subject to technical feasibility, programme availability, first-come-first-serve; initial phase target cited up to 1.10 lakh ULA installs to 28 Feb 2027). Consumer pays net cost after PM Surya Ghar CFA (up to ₹78,000) + Delhi state capital subsidy (up to ₹78,000).",
+      "hi": "आवासीय प्रतिष्ठानों हेतु दिल्ली पूंजी सब्सिडी अधिकतम ₹78,000; GHS @₹11,000/kW; ULA में ≤400 यूनिट/माह औसत पर 3 kW तक निःशुल्क (तकनीकी व्यवहार्यता/उपलब्धता अधीन)।",
+      "ml": "(EN — Malayalam review pending) Delhi enhanced capital subsidy up to ₹78,000 for residential installations. GHS: @₹11,000/kW. Under ULA (IPGCL), eligible consumers averaging up to 400 units/month can get free rooftop solar up to 3 kW (subject to technical feasibility, programme availability, first-come-first-serve; initial phase target cited up to 1.10 lakh ULA installs to 28 Feb 2027). Consumer pays net cost after PM Surya Ghar CFA (up to ₹78,000) + Delhi state capital subsidy (up to ₹78,000)."
+    },
+    "required_documents": {
+      "en": [
+        "Delhi residential DISCOM connection / consumer ID",
+        "Consent / capacity request via DISCOM online or barcode as directed",
+        "PM Surya Ghar National Portal application for central CFA",
+        "Identity and bank details as required by Delhi Solar Portal / DISCOM"
+      ],
+      "hi": [
+        "Delhi residential DISCOM connection / consumer ID",
+        "Consent / capacity request via DISCOM online or barcode as directed",
+        "PM Surya Ghar National Portal application for central CFA",
+        "Identity and bank details as required by Delhi Solar Portal / DISCOM"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Delhi residential DISCOM connection / consumer ID",
+        "(EN — Malayalam review pending) Consent / capacity request via DISCOM online or barcode as directed",
+        "(EN — Malayalam review pending) PM Surya Ghar National Portal application for central CFA",
+        "(EN — Malayalam review pending) Identity and bank details as required by Delhi Solar Portal / DISCOM"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Central CFA via https://pmsuryaghar.gov.in/ ; Delhi state processing via Delhi Solar Portal / DISCOM consent flow. See https://solar.delhi.gov.in/",
+      "hi": "केंद्रीय CFA pmsuryaghar.gov.in पर; दिल्ली राज्य प्रसंस्करण सोलर पोर्टल/DISCOM सहमति से।",
+      "ml": "(EN — Malayalam review pending) Central CFA via https://pmsuryaghar.gov.in/ ; Delhi state processing via Delhi Solar Portal / DISCOM consent flow. See https://solar.delhi.gov.in/"
+    },
+    "apply_url": "https://solar.delhi.gov.in/page/state-subsidy",
+    "office_type": "Power Department / EEREM / DISCOM / IPGCL (ULA), GNCTD",
+    "official_source_url": "https://solar.delhi.gov.in/page/central-subsidy",
+    "tags": [
+      "solar",
+      "rooftop",
+      "delhi",
+      "subsidy",
+      "energy",
+      "state"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": false
+  },
+  {
+    "id": "in-vb-g-ram-g",
+    "scheme_name": {
+      "en": "Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G Act, 2025)",
+      "hi": "विकसित भारत – गारंटी फॉर रोजगार एंड आजीविका मिशन (ग्रामीण) (वीबी-जी राम जी अधिनियम, 2025)",
+      "ml": "(EN — Malayalam review pending) Viksit Bharat – Guarantee for Rozgar and Ajeevika Mission (Gramin) (VB-G RAM G Act, 2025)"
+    },
+    "description": {
+      "en": "Statutory rural employment guarantee succeeding MGNREGA from 1 Jul 2026: up to 125 days unskilled wage work per eligible rural household per financial year.",
+      "hi": "1 जुलाई 2026 से मनरेगा के स्थान पर वैधानिक ग्रामीण रोजगार गारंटी: पात्र ग्रामीण परिवार को प्रति वित्त वर्ष अधिकतम 125 दिन अकुशल मजदूरी कार्य।",
+      "ml": "(EN — Malayalam review pending) Statutory rural employment guarantee succeeding MGNREGA from 1 Jul 2026: up to 125 days unskilled wage work per eligible rural household per financial year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "rural_household"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Every rural household whose adult members volunteer for unskilled manual work. Live for citizens from 1 Jul 2026 (PIB 30 Jun 2026); MGNREGA repealed same day. Do not hard-code a single nationwide daily wage — rates are notified and may vary by state/date.",
+      "verify": true,
+      "verify_notes": "2026-09-23: PIB rollout + FAQ; Haryana RD summary updated 01 Jul 2026. Haryana RD cited MoRD minimum ₹409/manday w.e.f. 30 Jun 2026 — confirm all-India notification before encoding as universal."
+    },
+    "benefits": {
+      "en": "Guarantee of 125 days wage employment per FY (was 100 under MGNREGA). Wages weekly/fortnightly via DBT; delay compensation 0.05%/day if unpaid >15 days after muster close. Until new rates notified, existing MGNREGA wage rates continue (state pages may cite notified minima — confirm all-India notification before treating any single rupee wage as universal). Peak agri season: States may notify up to 60-day pause; 125 days still apply in the remaining period.",
+      "hi": "प्रति वित्त वर्ष 125 दिन मजदूरी रोजगार की गारंटी; DBT से साप्ताहिक/पाक्षिक मजदूरी; विलंब मुआवजा नियम लागू। अखिल भारतीय मजदूरी दर एक संख्या के रूप में न मानें — अधिसूचना पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Guarantee of 125 days wage employment per FY (was 100 under MGNREGA). Wages weekly/fortnightly via DBT; delay compensation 0.05%/day if unpaid >15 days after muster close. Until new rates notified, existing MGNREGA wage rates continue (state pages may cite notified minima — confirm all-India notification before treating any single rupee wage as universal). Peak agri season: States may notify up to 60-day pause; 125 days still apply in the remaining period."
+    },
+    "required_documents": {
+      "en": [
+        "Household member names, ages, and address for registration",
+        "Aadhaar / e-KYC as typically required in practice",
+        "Gram Panchayat registration / job card (e-KYC cards remain valid until Gramin Rozgar Guarantee Cards issued)"
+      ],
+      "hi": [
+        "Household member names, ages, and address for registration",
+        "Aadhaar / e-KYC as typically required in practice",
+        "Gram Panchayat registration / job card (e-KYC cards remain valid until Gramin Rozgar Guarantee Cards issued)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Household member names, ages, and address for registration",
+        "(EN — Malayalam review pending) Aadhaar / e-KYC as typically required in practice",
+        "(EN — Malayalam review pending) Gram Panchayat registration / job card (e-KYC cards remain valid until Gramin Rozgar Guarantee Cards issued)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register / demand work at Gram Panchayat or Programme Officer (oral/writing/digital). Employment within 15 days or unemployment allowance. Citizen MIS: vbgramg.dord.gov.in (access may vary); legacy nrega.dord.gov.in for older records.",
+      "hi": "ग्राम पंचायत / कार्यक्रम अधिकारी के पास पंजीकरण व कार्य मांग; 15 दिनों में रोजगार या बेरोजगारी भत्ता।",
+      "ml": "(EN — Malayalam review pending) Register / demand work at Gram Panchayat or Programme Officer (oral/writing/digital). Employment within 15 days or unemployment allowance. Citizen MIS: vbgramg.dord.gov.in (access may vary); legacy nrega.dord.gov.in for older records."
+    },
+    "apply_url": "https://www.pib.gov.in/PressReleasePage.aspx?lang=1&PRID=2279446&reg=3",
+    "office_type": "Ministry of Rural Development / Gram Panchayat / Programme Officer",
+    "official_source_url": "https://www.pib.gov.in/FaqDetails.aspx?ModuleId=4&NoteId=158511&lang=1&reg=3",
+    "tags": [
+      "employment",
+      "rural",
+      "wage",
+      "central",
+      "nationwide",
+      "dbt",
+      "livelihood"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-vishwakarma",
+    "scheme_name": {
+      "en": "PM Vishwakarma",
+      "hi": "पीएम विश्वकर्मा",
+      "ml": "(EN — Malayalam review pending) PM Vishwakarma"
+    },
+    "description": {
+      "en": "Central holistic support for traditional artisans and craftspeople in 18 notified trades: toolkit incentive, training stipend, and collateral-free credit with interest subvention.",
+      "hi": "18 अधिसूचित व्यवसायों में पारंपरिक कारीगरों हेतु केंद्रीय सहायता: टूलकिट प्रोत्साहन, प्रशिक्षण वृत्ति, और ब्याज अनुदान सहित बिना गिरवी ऋण।",
+      "ml": "(EN — Malayalam review pending) Central holistic support for traditional artisans and craftspeople in 18 notified trades: toolkit incentive, training stipend, and collateral-free credit with interest subvention."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "artisan",
+        "craftsperson",
+        "self_employed_unorganised"
+      ],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Age ≥18; self-employed unorganised sector in one of 18 notified trades; one member per family; not a government employee/family. Generally no similar credit-scheme loan in past 5 years (MUDRA/PM SVANidhi fully repaid may be eligible per Sep 2026 PIB note — confirm on portal guidelines).",
+      "verify": true,
+      "verify_notes": "2026-09-23: pmvishwakarma.gov.in + PIB. Confirm current trade list, credit look-back, and exclusion rules on live portal guidelines."
+    },
+    "benefits": {
+      "en": "Toolkit incentive ₹15,000; training stipend ₹500/day; collateral-free loans up to ₹3 lakh (₹1L + ₹2L tranches) at 5% with GoI interest subvention up to 8%.",
+      "hi": "टूलकिट प्रोत्साहन ₹15,000; प्रशिक्षण वृत्ति ₹500/दिन; बिना गिरवी ऋण अधिकतम ₹3 लाख (₹1 लाख + ₹2 लाख किस्तें) 5% पर, सरकार ब्याज अनुदान अधिकतम 8% तक।",
+      "ml": "(EN — Malayalam review pending) Toolkit incentive ₹15,000; training stipend ₹500/day; collateral-free loans up to ₹3 lakh (₹1L + ₹2L tranches) at 5% with GoI interest subvention up to 8%."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar (biometric enrolment at CSC)",
+        "Proof of trade / artisan activity as required by portal",
+        "Bank account details",
+        "Family / eligibility declarations per guidelines"
+      ],
+      "hi": [
+        "Aadhaar (biometric enrolment at CSC)",
+        "Proof of trade / artisan activity as required by portal",
+        "Bank account details",
+        "Family / eligibility declarations per guidelines"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Aadhaar (biometric enrolment at CSC)",
+        "(EN — Malayalam review pending) Proof of trade / artisan activity as required by portal",
+        "(EN — Malayalam review pending) Bank account details",
+        "(EN — Malayalam review pending) Family / eligibility declarations per guidelines"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Free CSC enrolment with Aadhaar biometric on https://pmvishwakarma.gov.in/ ; GP/ULB → District → Screening Committee. Helpline 18002677777.",
+      "hi": "निःशुल्क CSC नामांकन (आधार बायोमेट्रिक) pmvishwakarma.gov.in पर; ग्राम पंचायत/ULB → जिला → स्क्रीनिंग समिति। हेल्पलाइन 18002677777।",
+      "ml": "(EN — Malayalam review pending) Free CSC enrolment with Aadhaar biometric on https://pmvishwakarma.gov.in/ ; GP/ULB → District → Screening Committee. Helpline 18002677777."
+    },
+    "apply_url": "https://pmvishwakarma.gov.in/",
+    "office_type": "Ministry of Micro, Small and Medium Enterprises / CSC / District Administration",
+    "official_source_url": "https://pmvishwakarma.gov.in/",
+    "tags": [
+      "artisan",
+      "skill",
+      "credit",
+      "msme",
+      "central",
+      "nationwide",
+      "livelihood"
+    ],
+    "last_verified": "2026-09-23",
+    "nationwide": true
+  },
+  {
+    "id": "us-eitc",
+    "scheme_name": {
+      "en": "Earned Income Tax Credit (EITC) – United States",
+      "ml": "Earned Income Tax Credit (EITC) – United States",
+      "hi": "अर्जित आय कर क्रेडिट (EITC) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Refundable IRS tax credit for eligible workers with earned income. Often the largest refundable credit for low- and moderate-income workers; claim on Form 1040 (Free File / VITA available).",
+      "ml": "Refundable IRS tax credit for eligible workers with earned income. Often the largest refundable credit for low- and moderate-income workers; claim on Form 1040 (Free File / VITA available).",
+      "hi": "Refundable IRS tax credit for eligible workers with earned income. Often the largest refundable credit for low- and moderate-income workers; claim on Form 1040 (Free File / VITA available)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Must have earned income; investment income below the annual limit; valid SSN by return due date (incl. extensions) for filer/spouse/qualifying child; U.S. citizen or resident alien all year; not Form 2555; filing-status rules apply (incl. MFS exceptions). Without a qualifying child: live in U.S. more than half the year; not another’s dependent/qualifying child; age at least 25 and under 65 (one spouse on a joint return). Amounts and income thresholds change each tax year.",
+      "verify": true,
+      "verify_notes": "2026-09-23: IRS who-qualifies + EITC overview. Encode year-specific max credit/income tables with verify=true; IRS newsroom has cited TY2026 maxima (e.g. for 3+ children) — confirm on current IRS pages before advising a dollar amount.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable credit; amount depends on filing status, earned income, and number of qualifying children. TY2026 maximums and income phaseouts are set annually by the IRS — do not treat any single figure as permanent.",
+      "ml": "Refundable credit; amount depends on filing status, earned income, and number of qualifying children. TY2026 maximums and income phaseouts are set annually by the IRS — do not treat any single figure as permanent.",
+      "hi": "Refundable credit; amount depends on filing status, earned income, and number of qualifying children. TY2026 maximums and income phaseouts are set annually by the IRS — do not treat any single figure as permanent."
+    },
+    "required_documents": {
+      "en": [
+        "Valid SSN by return due date (filer/spouse/qualifying child as required)",
+        "Earned income records (W-2, self-employment)",
+        "Form 1040 (and Schedule EIC if applicable)"
+      ],
+      "ml": [
+        "Valid SSN by return due date (filer/spouse/qualifying child as required)",
+        "Earned income records (W-2, self-employment)",
+        "Form 1040 (and Schedule EIC if applicable)"
+      ],
+      "hi": [
+        "Valid SSN by return due date (filer/spouse/qualifying child as required)",
+        "Earned income records (W-2, self-employment)",
+        "Form 1040 (and Schedule EIC if applicable)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on your federal income tax return (Form 1040). Free File, VITA, or a tax preparer. See IRS EITC pages for current-year limits.",
+      "ml": "Claim on your federal income tax return (Form 1040). Free File, VITA, or a tax preparer. See IRS EITC pages for current-year limits.",
+      "hi": "Claim on your federal income tax return (Form 1040). Free File, VITA, or a tax preparer. See IRS EITC pages for current-year limits."
+    },
+    "apply_url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc",
+    "official_source_url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit/who-qualifies-for-the-earned-income-tax-credit-eitc",
+    "last_verified": "2026-09-23",
+    "office_type": "Internal Revenue Service (IRS)",
+    "tags": [
+      "united_states",
+      "tax",
+      "refundable",
+      "irs",
+      "federal",
+      "eitc"
+    ]
+  },
+  {
+    "id": "us-child-tax-credit",
+    "scheme_name": {
+      "en": "Child Tax Credit (CTC) / Additional Child Tax Credit (ACTC) – United States",
+      "ml": "Child Tax Credit (CTC) / Additional Child Tax Credit (ACTC) – United States",
+      "hi": "चाइल्ड टैक्स क्रेडिट (CTC) / अतिरिक्त CTC – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "IRS family tax credit for qualifying children under 17; ACTC may be refundable. Claim on Form 1040 with Schedule 8812. Other Dependent Credit (ODC) may apply for other dependents.",
+      "ml": "IRS family tax credit for qualifying children under 17; ACTC may be refundable. Claim on Form 1040 with Schedule 8812. Other Dependent Credit (ODC) may apply for other dependents.",
+      "hi": "IRS family tax credit for qualifying children under 17; ACTC may be refundable. Claim on Form 1040 with Schedule 8812. Other Dependent Credit (ODC) may apply for other dependents."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Qualifying child generally under 17 at year-end; relationship, residency, support, dependent, joint-return, and citizenship tests apply. Dollar amounts and phaseouts are tax-year specific.",
+      "verify": true,
+      "verify_notes": "2026-09-23: IRS Child Tax Credit page. Confirm TY amounts on current IRS instructions before quoting ceilings."
+    },
+    "benefits": {
+      "en": "CTC up to $2,200 per qualifying child; ACTC up to $1,700 refundable with earned income ≥ $2,500 (amounts per IRS; confirm tax year). Full CTC generally if income ≤ $200,000 ($400,000 MFJ); phaseout above. ODC up to $500 for other dependents (separate rules).",
+      "ml": "CTC up to $2,200 per qualifying child; ACTC up to $1,700 refundable with earned income ≥ $2,500 (amounts per IRS; confirm tax year). Full CTC generally if income ≤ $200,000 ($400,000 MFJ); phaseout above. ODC up to $500 for other dependents (separate rules).",
+      "hi": "CTC up to $2,200 per qualifying child; ACTC up to $1,700 refundable with earned income ≥ $2,500 (amounts per IRS; confirm tax year). Full CTC generally if income ≤ $200,000 ($400,000 MFJ); phaseout above. ODC up to $500 for other dependents (separate rules)."
+    },
+    "required_documents": {
+      "en": [
+        "SSN valid for employment for filer (or spouse if MFJ) and each qualifying child, issued before return due date",
+        "Form 1040 + Schedule 8812",
+        "Proof of relationship / residency / support as required"
+      ],
+      "ml": [
+        "SSN valid for employment for filer (or spouse if MFJ) and each qualifying child, issued before return due date",
+        "Form 1040 + Schedule 8812",
+        "Proof of relationship / residency / support as required"
+      ],
+      "hi": [
+        "SSN valid for employment for filer (or spouse if MFJ) and each qualifying child, issued before return due date",
+        "Form 1040 + Schedule 8812",
+        "Proof of relationship / residency / support as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on Form 1040 with Schedule 8812 when you file your federal return. See IRS Child Tax Credit page for current-year rules.",
+      "ml": "Claim on Form 1040 with Schedule 8812 when you file your federal return. See IRS Child Tax Credit page for current-year rules.",
+      "hi": "Claim on Form 1040 with Schedule 8812 when you file your federal return. See IRS Child Tax Credit page for current-year rules."
+    },
+    "apply_url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+    "official_source_url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit",
+    "last_verified": "2026-09-23",
+    "office_type": "Internal Revenue Service (IRS)",
+    "tags": [
+      "united_states",
+      "tax",
+      "children",
+      "irs",
+      "federal",
+      "ctc"
+    ]
+  },
+  {
+    "id": "us-child-dependent-care-credit",
+    "scheme_name": {
+      "en": "Child and Dependent Care Credit (CDCC) – United States",
+      "ml": "Child and Dependent Care Credit (CDCC) – United States",
+      "hi": "बाल एवं आश्रित देखभाल क्रेडिट (CDCC) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "IRS credit for child/dependent care expenses so the taxpayer (and spouse if filing jointly) can work or look for work. Notably expanded beginning tax year 2026. Claim on Form 2441.",
+      "ml": "IRS credit for child/dependent care expenses so the taxpayer (and spouse if filing jointly) can work or look for work. Notably expanded beginning tax year 2026. Claim on Form 2441.",
+      "hi": "IRS credit for child/dependent care expenses so the taxpayer (and spouse if filing jointly) can work or look for work. Notably expanded beginning tax year 2026. Claim on Form 2441."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Credit for care expenses enabling work or job search; qualifying person and earned-income rules apply. 2026 expansion confirmed on IRS draft 2026 Form 2441 instructions — confirm final instructions at filing time.",
+      "verify": true,
+      "verify_notes": "2026-09-23: IRS draft 2026 Form 2441 instructions. Expense caps and edge cases: verify on final Form 2441 / Pub. 503."
+    },
+    "benefits": {
+      "en": "Percentage of eligible work-related care expenses (Form 2441 / Pub. 503). Beginning 2026: max percentage 50% (was 35%), floors at 20%; 20% floor applies only after AGI exceeds $206,000 MFJ / $103,000 other filers (vs $43,000 previously). Employer dependent-care exclusion max raised to $7,500 (2026). Exact expense caps: follow Form 2441.",
+      "ml": "Percentage of eligible work-related care expenses (Form 2441 / Pub. 503). Beginning 2026: max percentage 50% (was 35%), floors at 20%; 20% floor applies only after AGI exceeds $206,000 MFJ / $103,000 other filers (vs $43,000 previously). Employer dependent-care exclusion max raised to $7,500 (2026). Exact expense caps: follow Form 2441.",
+      "hi": "Percentage of eligible work-related care expenses (Form 2441 / Pub. 503). Beginning 2026: max percentage 50% (was 35%), floors at 20%; 20% floor applies only after AGI exceeds $206,000 MFJ / $103,000 other filers (vs $43,000 previously). Employer dependent-care exclusion max raised to $7,500 (2026). Exact expense caps: follow Form 2441."
+    },
+    "required_documents": {
+      "en": [
+        "Form 2441",
+        "Care provider information (TIN/SSN as required)",
+        "Records of qualifying care expenses"
+      ],
+      "ml": [
+        "Form 2441",
+        "Care provider information (TIN/SSN as required)",
+        "Records of qualifying care expenses"
+      ],
+      "hi": [
+        "Form 2441",
+        "Care provider information (TIN/SSN as required)",
+        "Records of qualifying care expenses"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form 2441 with your Form 1040. Review IRS 2026 Instructions for Form 2441 and Publication 503.",
+      "ml": "File Form 2441 with your Form 1040. Review IRS 2026 Instructions for Form 2441 and Publication 503.",
+      "hi": "File Form 2441 with your Form 1040. Review IRS 2026 Instructions for Form 2441 and Publication 503."
+    },
+    "apply_url": "https://www.irs.gov/forms-pubs/about-form-2441",
+    "official_source_url": "https://www.irs.gov/pub/irs-dft/i2441--dft.pdf",
+    "last_verified": "2026-09-23",
+    "office_type": "Internal Revenue Service (IRS)",
+    "tags": [
+      "united_states",
+      "tax",
+      "childcare",
+      "irs",
+      "federal",
+      "cdcc"
+    ]
+  },
+  {
+    "id": "us-premium-tax-credit",
+    "scheme_name": {
+      "en": "Premium Tax Credit (PTC) – ACA Marketplace (United States)",
+      "ml": "Premium Tax Credit (PTC) – ACA Marketplace (United States)",
+      "hi": "प्रीमियम टैक्स क्रेडिट (PTC) – ACA मार्केटप्लेस"
+    },
+    "description": {
+      "en": "IRS / Healthcare.gov credit that lowers monthly Marketplace health insurance premiums. Advance PTC is reconciled on Form 8962. Cost-sharing reductions (CSR) may further lower out-of-pocket costs on Silver plans when income qualifies — see Healthcare.gov.",
+      "ml": "IRS / Healthcare.gov credit that lowers monthly Marketplace health insurance premiums. Advance PTC is reconciled on Form 8962. Cost-sharing reductions (CSR) may further lower out-of-pocket costs on Silver plans when income qualifies — see Healthcare.gov.",
+      "hi": "IRS / Healthcare.gov credit that lowers monthly Marketplace health insurance premiums. Advance PTC is reconciled on Form 8962. Cost-sharing reductions (CSR) may further lower out-of-pocket costs on Silver plans when income qualifies — see Healthcare.gov."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Marketplace enrollment; not eligible for affordable employer coverage providing minimum value or other government coverage (Medicare/Medicaid/TRICARE etc.) for the month; premiums paid by return due date; generally household income at least 100% FPL and (for years other than temporary ARPA expansions) no more than 400% FPL; generally cannot file MFS (limited exceptions); cannot be another’s dependent. Enhanced PTC expansions were temporary — confirm TY2026 Form 8962 / Healthcare.gov materials.",
+      "verify": true,
+      "verify_notes": "2026-09-23: Healthcare.gov + IRS PTC eligibility. Confirm current-year FPL band and any temporary expansions on Form 8962 TY2026 instructions before encoding hard caps. CSR income bands: confirm on Healthcare.gov Open Enrollment materials (not separately invented here).",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Monthly premium subsidy (advance) and/or year-end credit. Exact savings depend on household income, location, and plan. CSR (related): additional deductible/copay savings generally require a Silver plan when Marketplace results show CSR eligibility.",
+      "ml": "Monthly premium subsidy (advance) and/or year-end credit. Exact savings depend on household income, location, and plan. CSR (related): additional deductible/copay savings generally require a Silver plan when Marketplace results show CSR eligibility.",
+      "hi": "Monthly premium subsidy (advance) and/or year-end credit. Exact savings depend on household income, location, and plan. CSR (related): additional deductible/copay savings generally require a Silver plan when Marketplace results show CSR eligibility."
+    },
+    "required_documents": {
+      "en": [
+        "Marketplace application / eligibility determination",
+        "Form 1095-A (if advance PTC)",
+        "Form 8962 with Form 1040 to reconcile"
+      ],
+      "ml": [
+        "Marketplace application / eligibility determination",
+        "Form 1095-A (if advance PTC)",
+        "Form 8962 with Form 1040 to reconcile"
+      ],
+      "hi": [
+        "Marketplace application / eligibility determination",
+        "Form 1095-A (if advance PTC)",
+        "Form 8962 with Form 1040 to reconcile"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for coverage and savings at HealthCare.gov (or your state Marketplace) during Open Enrollment or a Special Enrollment Period. Reconcile advance PTC on Form 8962 when you file taxes.",
+      "ml": "Apply for coverage and savings at HealthCare.gov (or your state Marketplace) during Open Enrollment or a Special Enrollment Period. Reconcile advance PTC on Form 8962 when you file taxes.",
+      "hi": "Apply for coverage and savings at HealthCare.gov (or your state Marketplace) during Open Enrollment or a Special Enrollment Period. Reconcile advance PTC on Form 8962 when you file taxes."
+    },
+    "apply_url": "https://www.healthcare.gov/lower-costs/save-on-monthly-premiums/",
+    "official_source_url": "https://www.irs.gov/individuals-and-families/eligibility-for-the-premium-tax-credit",
+    "last_verified": "2026-09-23",
+    "office_type": "Centers for Medicare & Medicaid Services (CMS) / IRS / HealthCare.gov",
+    "tags": [
+      "united_states",
+      "health",
+      "aca",
+      "marketplace",
+      "tax",
+      "federal",
+      "ptc"
+    ]
+  },
+  {
+    "id": "us-medicare-savings-programs",
+    "scheme_name": {
+      "en": "Medicare Savings Programs (QMB / SLMB / QI / QDWI) – United States",
+      "ml": "Medicare Savings Programs (QMB / SLMB / QI / QDWI) – United States",
+      "hi": "मेडिकेयर बचत कार्यक्रम (QMB / SLMB / QI / QDWI)"
+    },
+    "description": {
+      "en": "State Medicaid programs that help pay Medicare Part A/B premiums and, for QMB, deductibles/coinsurance/copays. Apply through your state Medicaid office.",
+      "ml": "State Medicaid programs that help pay Medicare Part A/B premiums and, for QMB, deductibles/coinsurance/copays. Apply through your state Medicaid office.",
+      "hi": "State Medicaid programs that help pay Medicare Part A/B premiums and, for QMB, deductibles/coinsurance/copays. Apply through your state Medicaid office."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "2026 federal limits (Medicare.gov; states may be more generous): QMB individual/couple monthly income $1,350 / $1,824; SLMB $1,616 / $2,184; QI $1,816 / $2,455; resources $9,950 / $14,910 (indiv/couple) for QMB/SLMB/QI; QDWI $5,405 / $7,299 income and $4,000 / $6,000 resources. Alaska/Hawaii slightly higher.",
+      "verify": true,
+      "verify_notes": "2026-09-23: medicare.gov MSP page. Confirm current-year limits and state expansions at application time.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "QMB: Part A/B premiums + deductibles/coinsurance/copays. SLMB/QI: Part B premiums (QI is first-come, annual apply). QDWI: Part A premiums for certain working disabled who lost premium-free Part A. 2026 federal monthly income/resource limits published on Medicare.gov (states may be more generous; AK/HI slightly higher).",
+      "ml": "QMB: Part A/B premiums + deductibles/coinsurance/copays. SLMB/QI: Part B premiums (QI is first-come, annual apply). QDWI: Part A premiums for certain working disabled who lost premium-free Part A. 2026 federal monthly income/resource limits published on Medicare.gov (states may be more generous; AK/HI slightly higher).",
+      "hi": "QMB: Part A/B premiums + deductibles/coinsurance/copays. SLMB/QI: Part B premiums (QI is first-come, annual apply). QDWI: Part A premiums for certain working disabled who lost premium-free Part A. 2026 federal monthly income/resource limits published on Medicare.gov (states may be more generous; AK/HI slightly higher)."
+    },
+    "required_documents": {
+      "en": [
+        "Medicare information",
+        "Income and resource documentation",
+        "State Medicaid / MSP application"
+      ],
+      "ml": [
+        "Medicare information",
+        "Income and resource documentation",
+        "State Medicaid / MSP application"
+      ],
+      "hi": [
+        "Medicare information",
+        "Income and resource documentation",
+        "State Medicaid / MSP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your state Medicaid agency (Medicare Savings Programs). See medicare.gov for federal limits and state contacts.",
+      "ml": "Apply through your state Medicaid agency (Medicare Savings Programs). See medicare.gov for federal limits and state contacts.",
+      "hi": "Apply through your state Medicaid agency (Medicare Savings Programs). See medicare.gov for federal limits and state contacts."
+    },
+    "apply_url": "https://www.medicare.gov/basics/costs/help/medicare-savings-programs",
+    "official_source_url": "https://www.medicare.gov/basics/costs/help/medicare-savings-programs",
+    "last_verified": "2026-09-23",
+    "office_type": "State Medicaid agencies / CMS Medicare",
+    "tags": [
+      "united_states",
+      "medicare",
+      "medicaid",
+      "health",
+      "federal",
+      "msp"
+    ]
+  },
+  {
+    "id": "us-extra-help",
+    "scheme_name": {
+      "en": "Extra Help (Medicare Part D Low-Income Subsidy) – United States",
+      "ml": "Extra Help (Medicare Part D Low-Income Subsidy) – United States",
+      "hi": "एक्स्ट्रा हेल्प (मेडिकेयर पार्ट D लो-इनकम सब्सिडी)"
+    },
+    "description": {
+      "en": "SSA / Medicare program that lowers Part D prescription drug premiums, deductibles, and copays for people with limited income and resources. Automatic if full Medicaid, certain MSPs, or SSI.",
+      "ml": "SSA / Medicare program that lowers Part D prescription drug premiums, deductibles, and copays for people with limited income and resources. Automatic if full Medicaid, certain MSPs, or SSI.",
+      "hi": "SSA / Medicare program that lowers Part D prescription drug premiums, deductibles, and copays for people with limited income and resources. Automatic if full Medicaid, certain MSPs, or SSI."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 23940,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "2026 income ≤ $23,940 individual / $32,460 couple; resources ≤ $18,090 / $36,100 (medicare.gov / SSA). Automatic if full Medicaid, MSP (state pays Part B), or SSI. Couple figures and exclusions (burial funds etc.) follow official rules.",
+      "verify": true,
+      "verify_notes": "2026-09-23: medicare.gov drug-costs + SSA Extra Help. Copays and exact resource exclusions: verify on live pages annually.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Lower or $0 Part D premiums/deductibles and reduced drug copays. Exact copay amounts change by year — see medicare.gov. Not available in Puerto Rico / some territories (local alternatives).",
+      "ml": "Lower or $0 Part D premiums/deductibles and reduced drug copays. Exact copay amounts change by year — see medicare.gov. Not available in Puerto Rico / some territories (local alternatives).",
+      "hi": "Lower or $0 Part D premiums/deductibles and reduced drug copays. Exact copay amounts change by year — see medicare.gov. Not available in Puerto Rico / some territories (local alternatives)."
+    },
+    "required_documents": {
+      "en": [
+        "Social Security / Medicare information",
+        "Income and resource documentation (unless automatic eligibility)",
+        "SSA Extra Help application (Form SSA-1020) if not automatic"
+      ],
+      "ml": [
+        "Social Security / Medicare information",
+        "Income and resource documentation (unless automatic eligibility)",
+        "SSA Extra Help application (Form SSA-1020) if not automatic"
+      ],
+      "hi": [
+        "Social Security / Medicare information",
+        "Income and resource documentation (unless automatic eligibility)",
+        "SSA Extra Help application (Form SSA-1020) if not automatic"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply anytime with Social Security (ssa.gov/medicare/part-d-extra-help) or see medicare.gov drug-cost help. Automatic enrollment if you have full Medicaid, MSP paying Part B, or SSI.",
+      "ml": "Apply anytime with Social Security (ssa.gov/medicare/part-d-extra-help) or see medicare.gov drug-cost help. Automatic enrollment if you have full Medicaid, MSP paying Part B, or SSI.",
+      "hi": "Apply anytime with Social Security (ssa.gov/medicare/part-d-extra-help) or see medicare.gov drug-cost help. Automatic enrollment if you have full Medicaid, MSP paying Part B, or SSI."
+    },
+    "apply_url": "https://www.ssa.gov/medicare/part-d-extra-help",
+    "official_source_url": "https://www.medicare.gov/basics/costs/help/drug-costs",
+    "last_verified": "2026-09-23",
+    "office_type": "Social Security Administration / CMS Medicare",
+    "tags": [
+      "united_states",
+      "medicare",
+      "prescriptions",
+      "ssa",
+      "federal",
+      "extra-help"
+    ]
+  },
+  {
+    "id": "us-pell-grant",
+    "scheme_name": {
+      "en": "Federal Pell Grant – United States",
+      "ml": "Federal Pell Grant – United States",
+      "hi": "संघीय पेल ग्रांट – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Need-based federal grant for eligible undergraduates who demonstrate financial need via the FAFSA. Primary free college aid for many low- and moderate-income students.",
+      "ml": "Need-based federal grant for eligible undergraduates who demonstrate financial need via the FAFSA. Primary free college aid for many low- and moderate-income students.",
+      "hi": "Need-based federal grant for eligible undergraduates who demonstrate financial need via the FAFSA. Primary free college aid for many low- and moderate-income students."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Generally for undergraduates without a bachelor’s/graduate/professional degree who show need via FAFSA; citizenship/eligible noncitizen, eligible program enrollment, and SAP rules apply. Award varies — do not invent a single household income ceiling.",
+      "verify": true,
+      "verify_notes": "2026-09-23: studentaid.gov Pell + award-year announcements. Confirm current award-year maximum before quoting a dollar figure.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Grant amount depends on Student Aid Index, cost of attendance, and enrollment intensity. Maximum award is set by award year (confirm current maximum on StudentAid.gov; recent announcements have cited ~$7,395 — verify before quoting).",
+      "ml": "Grant amount depends on Student Aid Index, cost of attendance, and enrollment intensity. Maximum award is set by award year (confirm current maximum on StudentAid.gov; recent announcements have cited ~$7,395 — verify before quoting).",
+      "hi": "Grant amount depends on Student Aid Index, cost of attendance, and enrollment intensity. Maximum award is set by award year (confirm current maximum on StudentAid.gov; recent announcements have cited ~$7,395 — verify before quoting)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA (Free Application for Federal Student Aid)",
+        "Citizenship / eligible noncitizen documentation as required",
+        "School enrollment in an eligible program; Satisfactory Academic Progress"
+      ],
+      "ml": [
+        "FAFSA (Free Application for Federal Student Aid)",
+        "Citizenship / eligible noncitizen documentation as required",
+        "School enrollment in an eligible program; Satisfactory Academic Progress"
+      ],
+      "hi": [
+        "FAFSA (Free Application for Federal Student Aid)",
+        "Citizenship / eligible noncitizen documentation as required",
+        "School enrollment in an eligible program; Satisfactory Academic Progress"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete the FAFSA at studentaid.gov. Your school packages Pell if you qualify. Check FAFSA deadlines on StudentAid.gov.",
+      "ml": "Complete the FAFSA at studentaid.gov. Your school packages Pell if you qualify. Check FAFSA deadlines on StudentAid.gov.",
+      "hi": "Complete the FAFSA at studentaid.gov. Your school packages Pell if you qualify. Check FAFSA deadlines on StudentAid.gov."
+    },
+    "apply_url": "https://studentaid.gov/apply-for-aid/fafsa/fafsa-deadlines/",
+    "official_source_url": "https://studentaid.gov/understand-aid/types/grants/pell",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Education / Federal Student Aid",
+    "tags": [
+      "united_states",
+      "education",
+      "grant",
+      "pell",
+      "fafsa",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-weatherization-assistance",
+    "scheme_name": {
+      "en": "Weatherization Assistance Program (WAP) – United States",
+      "ml": "Weatherization Assistance Program (WAP) – United States",
+      "hi": "वेदरराइजेशन असिस्टेंस प्रोग्राम (WAP)"
+    },
+    "description": {
+      "en": "DOE program that funds free or low-cost home energy efficiency upgrades (insulation, air sealing, etc.) for income-eligible households — distinct from LIHEAP bill payment. Apply via local WAP agency.",
+      "ml": "DOE program that funds free or low-cost home energy efficiency upgrades (insulation, air sealing, etc.) for income-eligible households — distinct from LIHEAP bill payment. Apply via local WAP agency.",
+      "hi": "DOE program that funds free or low-cost home energy efficiency upgrades (insulation, air sealing, etc.) for income-eligible households — distinct from LIHEAP bill payment. Apply via local WAP agency."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Households at or below 200% of poverty guidelines, or receiving SSI; states may use LIHEAP criteria (up to 60% state median income). Categorical expansions exist for certain HUD/USDA means-tested participants (WPN guidance). Priority: elderly, disability, children, high energy use/burden.",
+      "verify": true,
+      "verify_notes": "2026-09-23: energy.gov WAP how-to-apply. Local agency income rules and waitlists vary — verify with the local provider.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "No-cost or low-cost weatherization measures that permanently reduce energy use/bills. Local waitlists common. Homeowners and renters (with landlord permission) may qualify.",
+      "ml": "No-cost or low-cost weatherization measures that permanently reduce energy use/bills. Local waitlists common. Homeowners and renters (with landlord permission) may qualify.",
+      "hi": "No-cost or low-cost weatherization measures that permanently reduce energy use/bills. Local waitlists common. Homeowners and renters (with landlord permission) may qualify."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of income or categorical eligibility (e.g. SSI / LIHEAP criteria where used)",
+        "Proof of residence / ownership or landlord permission for renters",
+        "Local WAP agency application"
+      ],
+      "ml": [
+        "Proof of income or categorical eligibility (e.g. SSI / LIHEAP criteria where used)",
+        "Proof of residence / ownership or landlord permission for renters",
+        "Local WAP agency application"
+      ],
+      "hi": [
+        "Proof of income or categorical eligibility (e.g. SSI / LIHEAP criteria where used)",
+        "Proof of residence / ownership or landlord permission for renters",
+        "Local WAP agency application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact your local Weatherization Assistance agency (see energy.gov how-to-apply). Priority often given to elderly, disability, children, and high energy burden households.",
+      "ml": "Contact your local Weatherization Assistance agency (see energy.gov how-to-apply). Priority often given to elderly, disability, children, and high energy burden households.",
+      "hi": "Contact your local Weatherization Assistance agency (see energy.gov how-to-apply). Priority often given to elderly, disability, children, and high energy burden households."
+    },
+    "apply_url": "https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance",
+    "official_source_url": "https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Energy / state & local WAP grantees",
+    "tags": [
+      "united_states",
+      "energy",
+      "weatherization",
+      "doe",
+      "federal",
+      "housing"
+    ]
+  },
+  {
+    "id": "us-home-energy-rebates",
+    "scheme_name": {
+      "en": "Home Energy Rebates (HOMES + HEEHR / HEEHRA) – United States",
+      "ml": "Home Energy Rebates (HOMES + HEEHR / HEEHRA) – United States",
+      "hi": "होम एनर्जी रिबेट्स (HOMES + HEEHR) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "IRA federal home energy rebate programs administered by states/Tribes: HOMES whole-home upgrades and High-Efficiency Electric Home Rebates (point-of-sale appliances/envelope/wiring/HVAC). Availability and rules are state-dependent.",
+      "ml": "IRA federal home energy rebate programs administered by states/Tribes: HOMES whole-home upgrades and High-Efficiency Electric Home Rebates (point-of-sale appliances/envelope/wiring/HVAC). Availability and rules are state-dependent.",
+      "hi": "IRA federal home energy rebate programs administered by states/Tribes: HOMES whole-home upgrades and High-Efficiency Electric Home Rebates (point-of-sale appliances/envelope/wiring/HVAC). Availability and rules are state-dependent."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Available in select states; state/Tribal energy office sets products, income rules, and launch status. Do not assume nationwide open enrollment. IRA §50121 HOMES and §50122 HEEHR.",
+      "verify": true,
+      "verify_notes": "2026-09-23: energy.gov Home Energy Rebates. Confirm state launch status and income tiers with the state energy office before advising a household.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "HOMES: whole-home upgrades (modeled savings path, minimum ~20% savings); rebates up to $8,000 (grantees may increase for <80% AMI). HEEHR: point-of-sale rebates up to $14,000 for eligible measures. Funding authority through Sept 30, 2031. Exact products and income rules set by state/Tribal energy office.",
+      "ml": "HOMES: whole-home upgrades (modeled savings path, minimum ~20% savings); rebates up to $8,000 (grantees may increase for <80% AMI). HEEHR: point-of-sale rebates up to $14,000 for eligible measures. Funding authority through Sept 30, 2031. Exact products and income rules set by state/Tribal energy office.",
+      "hi": "HOMES: whole-home upgrades (modeled savings path, minimum ~20% savings); rebates up to $8,000 (grantees may increase for <80% AMI). HEEHR: point-of-sale rebates up to $14,000 for eligible measures. Funding authority through Sept 30, 2031. Exact products and income rules set by state/Tribal energy office."
+    },
+    "required_documents": {
+      "en": [
+        "State/Tribal energy office rebate application",
+        "Income documentation if required by the state program",
+        "Contractor / project documentation as required"
+      ],
+      "ml": [
+        "State/Tribal energy office rebate application",
+        "Income documentation if required by the state program",
+        "Contractor / project documentation as required"
+      ],
+      "hi": [
+        "State/Tribal energy office rebate application",
+        "Income documentation if required by the state program",
+        "Contractor / project documentation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check your state or Tribal energy office and energy.gov/save / Home Energy Rebates program pages for launch status and how to apply. Not all states have opened applications yet.",
+      "ml": "Check your state or Tribal energy office and energy.gov/save / Home Energy Rebates program pages for launch status and how to apply. Not all states have opened applications yet.",
+      "hi": "Check your state or Tribal energy office and energy.gov/save / Home Energy Rebates program pages for launch status and how to apply. Not all states have opened applications yet."
+    },
+    "apply_url": "https://www.energy.gov/cmei/scep/home-energy-rebates-program",
+    "official_source_url": "https://www.energy.gov/cmei/scep/home-energy-rebates-program",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Energy / state & Tribal energy offices",
+    "tags": [
+      "united_states",
+      "ira",
+      "energy",
+      "rebate",
+      "doe",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-lifeline",
+    "scheme_name": {
+      "en": "Lifeline (phone/internet discount) – United States",
+      "ml": "Lifeline (phone/internet discount) – United States",
+      "hi": "लाइफलाइन (फोन/इंटरनेट छूट) – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "FCC affordability program providing a monthly discount on phone or internet service for qualifying low-income households. The Affordable Connectivity Program (ACP) ended June 1, 2024 — Lifeline is the remaining national FCC program.",
+      "ml": "FCC affordability program providing a monthly discount on phone or internet service for qualifying low-income households. The Affordable Connectivity Program (ACP) ended June 1, 2024 — Lifeline is the remaining national FCC program.",
+      "hi": "FCC affordability program providing a monthly discount on phone or internet service for qualifying low-income households. The Affordable Connectivity Program (ACP) ended June 1, 2024 — Lifeline is the remaining national FCC program."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Income ≤ 135% FPL (see current LifelineSupport.org table), OR household participates in Medicaid, SNAP, SSI, Federal Public Housing Assistance (incl. HCV, PBRA, Public Housing), Veterans Pension/Survivors Benefit; Tribal and survivor pathways exist. One benefit per household. ACP is ended — do not present ACP as live.",
+      "verify": true,
+      "verify_notes": "2026-09-23: FCC Lifeline + LifelineSupport.org. Confirm current FPL table and provider list at application time.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Discount up to $9.25/month ($34.25 on Tribal lands) per FCC. One benefit per household.",
+      "ml": "Discount up to $9.25/month ($34.25 on Tribal lands) per FCC. One benefit per household.",
+      "hi": "Discount up to $9.25/month ($34.25 on Tribal lands) per FCC. One benefit per household."
+    },
+    "required_documents": {
+      "en": [
+        "Proof of income ≤ 135% FPL or proof of qualifying program participation (Medicaid, SNAP, SSI, Federal Public Housing Assistance, Veterans Pension/Survivors Benefit, Tribal pathways, etc.)",
+        "Lifeline application via company or National Verifier"
+      ],
+      "ml": [
+        "Proof of income ≤ 135% FPL or proof of qualifying program participation (Medicaid, SNAP, SSI, Federal Public Housing Assistance, Veterans Pension/Survivors Benefit, Tribal pathways, etc.)",
+        "Lifeline application via company or National Verifier"
+      ],
+      "hi": [
+        "Proof of income ≤ 135% FPL or proof of qualifying program participation (Medicaid, SNAP, SSI, Federal Public Housing Assistance, Veterans Pension/Survivors Benefit, Tribal pathways, etc.)",
+        "Lifeline application via company or National Verifier"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through a participating Lifeline provider or the National Verifier. See fcc.gov/lifeline-consumers and lifelinesupport.org.",
+      "ml": "Apply through a participating Lifeline provider or the National Verifier. See fcc.gov/lifeline-consumers and lifelinesupport.org.",
+      "hi": "Apply through a participating Lifeline provider or the National Verifier. See fcc.gov/lifeline-consumers and lifelinesupport.org."
+    },
+    "apply_url": "https://www.lifelinesupport.org/how-to-apply/",
+    "official_source_url": "https://www.fcc.gov/lifeline-consumers",
+    "last_verified": "2026-09-23",
+    "office_type": "Federal Communications Commission (FCC) / Universal Service Administrative Company",
+    "tags": [
+      "united_states",
+      "broadband",
+      "phone",
+      "fcc",
+      "federal",
+      "lifeline"
+    ]
+  },
+  {
+    "id": "us-public-housing",
+    "scheme_name": {
+      "en": "HUD Public Housing – United States",
+      "ml": "HUD Public Housing – United States",
+      "hi": "HUD सार्वजनिक आवास – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "HUD program in which local Public Housing Agencies (PHAs) own/operate affordable rental housing for low-income families, elderly, and persons with disabilities. Distinct from Housing Choice Vouchers (Section 8).",
+      "ml": "HUD program in which local Public Housing Agencies (PHAs) own/operate affordable rental housing for low-income families, elderly, and persons with disabilities. Distinct from Housing Choice Vouchers (Section 8).",
+      "hi": "HUD program in which local Public Housing Agencies (PHAs) own/operate affordable rental housing for low-income families, elderly, and persons with disabilities. Distinct from Housing Choice Vouchers (Section 8)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "PHA determines eligibility based on (1) annual gross income, (2) elderly/disability/family qualification, (3) U.S. citizenship or eligible immigration status; references/screening apply. HUD income limits: low-income 80% AMI, very low-income 50% AMI (vary by area). Do not encode a single national dollar ceiling.",
+      "verify": true,
+      "verify_notes": "2026-09-23: hud.gov public housing. Confirm local PHA income limits and waitlist status.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Affordable rent typically based on Total Tenant Payment (~30% of adjusted income under HUD formula). Waitlists often long or closed — contact your local PHA.",
+      "ml": "Affordable rent typically based on Total Tenant Payment (~30% of adjusted income under HUD formula). Waitlists often long or closed — contact your local PHA.",
+      "hi": "Affordable rent typically based on Total Tenant Payment (~30% of adjusted income under HUD formula). Waitlists often long or closed — contact your local PHA."
+    },
+    "required_documents": {
+      "en": [
+        "PHA application",
+        "Income documentation",
+        "Citizenship or eligible immigration status documentation",
+        "Screening / references as required by the PHA"
+      ],
+      "ml": [
+        "PHA application",
+        "Income documentation",
+        "Citizenship or eligible immigration status documentation",
+        "Screening / references as required by the PHA"
+      ],
+      "hi": [
+        "PHA application",
+        "Income documentation",
+        "Citizenship or eligible immigration status documentation",
+        "Screening / references as required by the PHA"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local Public Housing Agency. Find PHA contacts via HUD. Waitlist status varies by locality.",
+      "ml": "Apply through your local Public Housing Agency. Find PHA contacts via HUD. Waitlist status varies by locality.",
+      "hi": "Apply through your local Public Housing Agency. Find PHA contacts via HUD. Waitlist status varies by locality."
+    },
+    "apply_url": "https://www.hud.gov/helping-americans/public-housing",
+    "official_source_url": "https://www.hud.gov/helping-americans/public-housing",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Housing and Urban Development / local PHAs",
+    "tags": [
+      "united_states",
+      "housing",
+      "hud",
+      "public-housing",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-head-start",
+    "scheme_name": {
+      "en": "Head Start / Early Head Start – United States",
+      "ml": "Head Start / Early Head Start – United States",
+      "hi": "हेड स्टार्ट / अर्ली हेड स्टार्ट – संयुक्त राज्य अमेरिका"
+    },
+    "description": {
+      "en": "Free early learning and family support for eligible children ages birth to 5 (Early Head Start may include prenatal services). Apply via local Head Start programs.",
+      "ml": "Free early learning and family support for eligible children ages birth to 5 (Early Head Start may include prenatal services). Apply via local Head Start programs.",
+      "hi": "Free early learning and family support for eligible children ages birth to 5 (Early Head Start may include prenatal services). Apply via local Head Start programs."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 5,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Household income at or below poverty guidelines; OR family receives TANF, SSI, or SNAP; OR child in foster care / experiencing homelessness — qualify regardless of income. Ages birth to 5; some Early Head Start prenatal services.",
+      "verify": true,
+      "verify_notes": "2026-09-23: headstart.gov how-apply. Confirm local program slots and any additional eligibility priorities.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Free early childhood education and related family services. Waitlists possible.",
+      "ml": "Free early childhood education and related family services. Waitlists possible.",
+      "hi": "Free early childhood education and related family services. Waitlists possible."
+    },
+    "required_documents": {
+      "en": [
+        "Local Head Start / Early Head Start application",
+        "Proof of income or categorical eligibility (TANF, SSI, SNAP, foster care, homelessness)",
+        "Child age / birth documentation as required"
+      ],
+      "ml": [
+        "Local Head Start / Early Head Start application",
+        "Proof of income or categorical eligibility (TANF, SSI, SNAP, foster care, homelessness)",
+        "Child age / birth documentation as required"
+      ],
+      "hi": [
+        "Local Head Start / Early Head Start application",
+        "Proof of income or categorical eligibility (TANF, SSI, SNAP, foster care, homelessness)",
+        "Child age / birth documentation as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Find and apply to a local program via headstart.gov how-to-apply / program locator.",
+      "ml": "Find and apply to a local program via headstart.gov how-to-apply / program locator.",
+      "hi": "Find and apply to a local program via headstart.gov how-to-apply / program locator."
+    },
+    "apply_url": "https://headstart.gov/how-apply",
+    "official_source_url": "https://headstart.gov/how-apply",
+    "last_verified": "2026-09-23",
+    "office_type": "U.S. Department of Health and Human Services / local Head Start grantees",
+    "tags": [
+      "united_states",
+      "education",
+      "children",
+      "head-start",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-school-meals",
+    "scheme_name": {
+      "en": "Free and Reduced-Price School Meals (NSLP / SBP) – United States",
+      "ml": "Free and Reduced-Price School Meals (NSLP / SBP) – United States",
+      "hi": "निःशुल्क व रियायती स्कूल भोजन (NSLP / SBP)"
+    },
+    "description": {
+      "en": "USDA National School Lunch Program and School Breakfast Program: free or reduced-price meals for eligible schoolchildren. Many children are directly certified via SNAP (and often TANF).",
+      "ml": "USDA National School Lunch Program and School Breakfast Program: free or reduced-price meals for eligible schoolchildren. Many children are directly certified via SNAP (and often TANF).",
+      "hi": "USDA National School Lunch Program and School Breakfast Program: free or reduced-price meals for eligible schoolchildren. Many children are directly certified via SNAP (and often TANF)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Eligibility via current Income Eligibility Guidelines on the school application; automatic free meals if household receives SNAP (and often TANF). WIC/unemployment may indicate possible eligibility — contact the school. Do not invent a single national annual income ceiling (IEGs vary by household size and year).",
+      "verify": true,
+      "verify_notes": "2026-09-23: fns.usda.gov NSLP household + Income Eligibility Guidelines FR notice. Confirm current IEG table for the school year.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Daily free or reduced-price breakfast and/or lunch at participating schools during the school year (and sometimes summer options via related programs).",
+      "ml": "Daily free or reduced-price breakfast and/or lunch at participating schools during the school year (and sometimes summer options via related programs).",
+      "hi": "Daily free or reduced-price breakfast and/or lunch at participating schools during the school year (and sometimes summer options via related programs)."
+    },
+    "required_documents": {
+      "en": [
+        "School / district meal application (unless directly certified)",
+        "Income information or case number for SNAP/TANF if applicable"
+      ],
+      "ml": [
+        "School / district meal application (unless directly certified)",
+        "Income information or case number for SNAP/TANF if applicable"
+      ],
+      "hi": [
+        "School / district meal application (unless directly certified)",
+        "Income information or case number for SNAP/TANF if applicable"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through your local school or school district anytime. Households receiving SNAP are often directly certified for free meals. See FNS NSLP household page.",
+      "ml": "Apply through your local school or school district anytime. Households receiving SNAP are often directly certified for free meals. See FNS NSLP household page.",
+      "hi": "Apply through your local school or school district anytime. Households receiving SNAP are often directly certified for free meals. See FNS NSLP household page."
+    },
+    "apply_url": "https://www.fns.usda.gov/nslp/household",
+    "official_source_url": "https://www.fns.usda.gov/nslp/household",
+    "last_verified": "2026-09-23",
+    "office_type": "USDA Food and Nutrition Service / local school food authorities",
+    "tags": [
+      "united_states",
+      "food",
+      "children",
+      "school",
+      "usda",
+      "federal"
+    ]
+  },
+  {
+    "id": "us-savers-credit",
+    "scheme_name": {
+      "en": "Retirement Savings Contributions Credit (Saver’s Credit) – United States",
+      "ml": "Retirement Savings Contributions Credit (Saver’s Credit) – United States",
+      "hi": "रिटायरमेंट सेविंग्स कंट्रीब्यूशन क्रेडिट (सेवर्स क्रेडिट)"
+    },
+    "description": {
+      "en": "IRS nonrefundable credit for eligible contributions to an IRA, workplace retirement plan, or ABLE account (rules on IRS pages). Form 8880. Note: Saver’s Match is scheduled to replace the credit for retirement contributions starting with 2027 contributions (claimed on the 2027 return filed 2028); ABLE contributions may still use a credit path per IRS notices.",
+      "ml": "IRS nonrefundable credit for eligible contributions to an IRA, workplace retirement plan, or ABLE account (rules on IRS pages). Form 8880. Note: Saver’s Match is scheduled to replace the credit for retirement contributions starting with 2027 contributions (claimed on the 2027 return filed 2028); ABLE contributions may still use a credit path per IRS notices.",
+      "hi": "IRS nonrefundable credit for eligible contributions to an IRA, workplace retirement plan, or ABLE account (rules on IRS pages). Form 8880. Note: Saver’s Match is scheduled to replace the credit for retirement contributions starting with 2027 contributions (claimed on the 2027 return filed 2028); ABLE contributions may still use a credit path per IRS notices."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": true,
+      "notes": "Eligible contributions to IRA/workplace plan/ABLE subject to IRS rules; income/age/dependency/student/tax-liability limits apply. Saver’s Match scheduled to replace the credit for retirement contributions starting with 2027 contributions — encode carefully until regulations finalize.",
+      "verify": true,
+      "verify_notes": "2026-09-23: IRS Saver’s Credit + Topic 610 + Saver’s Match page. Confirm Form 8880 current-year income bands and Match implementation details before advising.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Credit for a percentage of eligible contributions; commonly described as up to $1,000 ($2,000 joint) — confirm on current Form 8880. Income, age, dependency, student, and tax-liability limits apply.",
+      "ml": "Credit for a percentage of eligible contributions; commonly described as up to $1,000 ($2,000 joint) — confirm on current Form 8880. Income, age, dependency, student, and tax-liability limits apply.",
+      "hi": "Credit for a percentage of eligible contributions; commonly described as up to $1,000 ($2,000 joint) — confirm on current Form 8880. Income, age, dependency, student, and tax-liability limits apply."
+    },
+    "required_documents": {
+      "en": [
+        "Form 8880 with Form 1040",
+        "Records of eligible retirement / ABLE contributions"
+      ],
+      "ml": [
+        "Form 8880 with Form 1040",
+        "Records of eligible retirement / ABLE contributions"
+      ],
+      "hi": [
+        "Form 8880 with Form 1040",
+        "Records of eligible retirement / ABLE contributions"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim on Form 8880 when you file your federal return. Review IRS Saver’s Credit and Tax Topic 610. Watch for Saver’s Match transition starting with 2027 contributions.",
+      "ml": "Claim on Form 8880 when you file your federal return. Review IRS Saver’s Credit and Tax Topic 610. Watch for Saver’s Match transition starting with 2027 contributions.",
+      "hi": "Claim on Form 8880 when you file your federal return. Review IRS Saver’s Credit and Tax Topic 610. Watch for Saver’s Match transition starting with 2027 contributions."
+    },
+    "apply_url": "https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-savings-contributions-credit-savers-credit",
+    "official_source_url": "https://www.irs.gov/taxtopics/tc610",
+    "last_verified": "2026-09-23",
+    "office_type": "Internal Revenue Service (IRS)",
+    "tags": [
+      "united_states",
+      "tax",
+      "retirement",
+      "irs",
+      "federal",
+      "savers-credit"
     ]
   }
 ]
