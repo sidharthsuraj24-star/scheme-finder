@@ -34,6 +34,8 @@ export interface SharePayloadV1 {
   m: string;
   mat: "pregnant" | "lactating" | "neither" | null;
   bw: "yes" | "no";
+  /** Finding for self (omit/self) or child dependent. */
+  ff?: "self" | "child";
 }
 
 const MAX_PARAM_CHARS = 2048;
@@ -146,6 +148,7 @@ export function answersToSharePayload(
     m: answers.marital_status,
     mat: answers.gender === "female" ? answers.maternity : null,
     bw: answers.primary_breadwinner_deceased,
+    ff: answers.finding_for === "child" ? "child" : "self",
   };
 }
 
@@ -169,6 +172,7 @@ export function sharePayloadToAnswers(p: SharePayloadV1): ProfileAnswers {
     marital_status: p.m,
     maternity: p.g === "female" ? p.mat : null,
     primary_breadwinner_deceased: p.bw,
+    finding_for: p.ff === "child" ? "child" : "self",
   };
 }
 
@@ -218,6 +222,11 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
     return null;
   }
   if (o.bw !== "yes" && o.bw !== "no") return null;
+  let ff: "self" | "child" | undefined;
+  if (o.ff != null) {
+    if (o.ff !== "self" && o.ff !== "child") return null;
+    ff = o.ff;
+  }
 
   return {
     v: 1,
@@ -236,6 +245,7 @@ function validatePayload(raw: unknown): SharePayloadV1 | null {
     m: o.m,
     mat,
     bw: o.bw,
+    ...(ff ? { ff } : {}),
   };
 }
 

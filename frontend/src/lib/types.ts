@@ -30,6 +30,11 @@ export interface ProfileAnswers {
   /** female-only: pregnant | lactating | neither */
   maternity: "pregnant" | "lactating" | "neither" | null;
   primary_breadwinner_deceased: "yes" | "no" | null;
+  /**
+   * Who the wizard answers describe.
+   * "child" = parent/guardian finding benefits for a dependent (age/disability = child's).
+   */
+  finding_for: "self" | "child" | null;
 }
 
 export interface LocalizedText {
@@ -105,6 +110,7 @@ export interface MatchRequestBody {
     is_pregnant?: boolean;
     is_lactating?: boolean;
     primary_breadwinner_deceased?: boolean;
+    child_age_months?: number;
   };
   options: {
     include_verify_uncertain: boolean;

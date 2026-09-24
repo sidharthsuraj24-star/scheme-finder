@@ -15,6 +15,7 @@ interface Props {
   shareUrl?: string | null;
   /** Annual income used for matching (local currency units), when the user provided income. */
   filteredAnnualIncome?: number | null;
+  findingFor?: "self" | "child" | null;
 }
 
 function ShareButtons({
@@ -72,14 +73,33 @@ function ShareButtons({
   );
 }
 
-export default function Results({ lang, data, onRestart, shareUrl, filteredAnnualIncome }: Props) {
+export default function Results({
+  lang,
+  data,
+  onRestart,
+  shareUrl,
+  filteredAnnualIncome,
+  findingFor,
+}: Props) {
   const matched = data.matched || [];
+  const parentMode = findingFor === "child";
 
   if (matched.length === 0) {
     return (
       <div className="space-y-4">
-        <h2 className="text-2xl font-bold text-slate-900">{t(lang, "zeroTitle")}</h2>
+        <h2 className="text-2xl font-bold text-slate-900">
+          {t(lang, parentMode ? "resultsTitleChild" : "zeroTitle")}
+        </h2>
         <p className="text-base leading-relaxed text-slate-700">{t(lang, "zeroBody")}</p>
+
+      {parentMode ? (
+        <p
+          className="rounded-xl border border-violet-200 bg-violet-50 px-4 py-3 text-sm font-medium leading-relaxed text-violet-950"
+          role="note"
+        >
+          {t(lang, "resultsParentModeBanner")}
+        </p>
+      ) : null}
         {filteredAnnualIncome != null && filteredAnnualIncome >= 0 ? (
           <p className="mt-1 text-sm text-slate-500">
             {t(lang, "resultsIncomeFilter", {
@@ -113,10 +133,21 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
   return (
     <div className="space-y-4">
       <div>
-        <h2 className="text-2xl font-bold text-slate-900">{t(lang, "resultsTitle")}</h2>
+        <h2 className="text-2xl font-bold text-slate-900">
+          {t(lang, parentMode ? "resultsTitleChild" : "resultsTitle")}
+        </h2>
         <p className="mt-1 text-base text-slate-600">
           {t(lang, "resultsCount", { count: matched.length })}
         </p>
+
+      {parentMode ? (
+        <p
+          className="rounded-xl border border-violet-200 bg-violet-50 px-4 py-3 text-sm font-medium leading-relaxed text-violet-950"
+          role="note"
+        >
+          {t(lang, "resultsParentModeBanner")}
+        </p>
+      ) : null}
         {data.country || data.state ? (
           <p className="mt-1 text-sm text-slate-500">
             {data.country ? `${t(lang, "resultsCountry")}: ${data.country}` : ""}

@@ -55,6 +55,12 @@ npm run build
 - Audit log: `data/catalogue_audit.jsonl` (append-only)
 - See docs/TRUST.md
 
+## Product surface (Phase 3 foundation)
+
+- Device-only saved profiles, parent-for-child wizard mode, `/ops` read-only dashboard
+- Aggregate analytics (`POST /analytics/event`) — never invents eligibility
+- See docs/PRODUCT.md, docs/ANALYTICS.md, docs/PRIVACY.md
+
 ## Matching notes
 
 - Hard filters only from structured eligibility_rules (structured catalogue; see docs/SCHEMES.md).

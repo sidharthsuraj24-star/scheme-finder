@@ -82,6 +82,13 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
       ? { annual_income: Math.min(100_000_000, raw) }
       : { monthly_household_income: Math.min(10_000_000, raw) };
 
+  // Parent-for-child: profile age is the child's age (catalogue US savings expect beneficiary age).
+  // Soft: when age < 18 years, also set child_age_months for maternity/recent-child rules if applicable.
+  const childAgeMonths =
+    answers.finding_for === "child" && age <= 18
+      ? Math.min(216, Math.max(0, Math.floor(age * 12)))
+      : undefined;
+
   return {
     profile: {
       age,
@@ -101,10 +108,11 @@ export function answersToRequest(answers: ProfileAnswers, lang: Lang): MatchRequ
             ? 0
             : undefined,
       land_ownership: land,
-      is_student: answers.occupation === "student",
+      is_student: answers.occupation === "student" || (answers.finding_for === "child" && age < 18),
       is_pregnant: answers.gender === "female" ? is_pregnant : false,
       is_lactating: answers.gender === "female" ? is_lactating : false,
       primary_breadwinner_deceased: answers.primary_breadwinner_deceased === "yes",
+      ...(childAgeMonths != null ? { child_age_months: childAgeMonths } : {}),
     },
     options: {
       include_verify_uncertain: true,

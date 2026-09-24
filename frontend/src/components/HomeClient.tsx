@@ -9,11 +9,13 @@ import {
   encodeShareParam,
   replaceShareQuery,
 } from "@/lib/shareProfile";
+import { postAnalyticsEvent } from "@/lib/analytics";
 import type { Lang, MatchResponse, ProfileAnswers } from "@/lib/types";
 import CatalogueBadge from "./CatalogueBadge";
 import Disclaimer from "./Disclaimer";
 import LanguageToggle from "./LanguageToggle";
 import Results from "./Results";
+import SavedProfiles from "./SavedProfiles";
 import Wizard from "./Wizard";
 
 const LANG_KEY = "scheme-finder-lang";
@@ -37,6 +39,8 @@ export default function HomeClient() {
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const [lastAnswers, setLastAnswers] = useState<ProfileAnswers | null>(null);
   const [shareUrl, setShareUrl] = useState<string | null>(null);
+  const [draftAnswers, setDraftAnswers] = useState<ProfileAnswers | null>(null);
+  const [wizardKey, setWizardKey] = useState(0);
   const bootstrapped = useRef(false);
 
   const changeLang = useCallback((next: Lang) => {
@@ -58,6 +62,12 @@ export default function HomeClient() {
         const data = await postMatch(body);
         setResult(data);
         setPhase("results");
+        void postAnalyticsEvent({
+          event: "match_ok",
+          country: answers.country,
+          scheme_ids: (data.matched || []).slice(0, 10).map((m) => m.scheme_id),
+          result_count: data.count ?? (data.matched || []).length,
+        });
         const encoded = encodeShareParam(answers, language);
         if (encoded) {
           const url = buildShareUrl(encoded);
@@ -130,7 +140,25 @@ export default function HomeClient() {
     setErrorMsg(null);
     setLastAnswers(null);
     setShareUrl(null);
+    setDraftAnswers(null);
+    setWizardKey((k) => k + 1);
     setPhase("wizard");
+    replaceShareQuery(null);
+  };
+
+  const loadSaved = (answers: ProfileAnswers, savedLang: Lang) => {
+    setLang(savedLang);
+    try {
+      localStorage.setItem(LANG_KEY, savedLang);
+    } catch {
+      /* ignore */
+    }
+    setDraftAnswers(answers);
+    setWizardKey((k) => k + 1);
+    setPhase("wizard");
+    setResult(null);
+    setErrorMsg(null);
+    setShareUrl(null);
     replaceShareQuery(null);
   };
 
@@ -158,7 +186,21 @@ export default function HomeClient() {
 
       <CatalogueBadge lang={lang} />
 
-      {phase === "wizard" ? <Wizard lang={lang} onSubmit={onSubmit} /> : null}
+      {phase === "wizard" ? (
+        <>
+          <SavedProfiles
+            lang={lang}
+            answers={lastAnswers || draftAnswers}
+            onLoad={loadSaved}
+          />
+          <Wizard
+            key={wizardKey}
+            lang={lang}
+            onSubmit={onSubmit}
+            initialAnswers={draftAnswers}
+          />
+        </>
+      ) : null}
 
       {phase === "loading" ? (
         <div
@@ -201,13 +243,21 @@ export default function HomeClient() {
       ) : null}
 
       {phase === "results" && result ? (
-        <Results
-          lang={lang}
-          data={result}
-          onRestart={restart}
-          shareUrl={shareUrl}
-          filteredAnnualIncome={annualFromAnswers(lastAnswers)}
-        />
+        <>
+          <Results
+            lang={lang}
+            data={result}
+            onRestart={restart}
+            shareUrl={shareUrl}
+            filteredAnnualIncome={annualFromAnswers(lastAnswers)}
+            findingFor={lastAnswers?.finding_for ?? null}
+          />
+          <SavedProfiles
+            lang={lang}
+            answers={lastAnswers}
+            onLoad={loadSaved}
+          />
+        </>
       ) : null}
 
       {phase === "wizard" ? <Disclaimer lang={lang} /> : null}

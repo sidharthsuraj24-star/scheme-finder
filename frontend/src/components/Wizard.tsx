@@ -39,16 +39,21 @@ const emptyAnswers = (): ProfileAnswers => ({
   marital_status: null,
   maternity: null,
   primary_breadwinner_deceased: null,
+  finding_for: null,
 });
 
 interface Props {
   lang: Lang;
   onSubmit: (answers: ProfileAnswers) => void;
+  /** Prefill from a device-saved profile (does not auto-submit). */
+  initialAnswers?: ProfileAnswers | null;
 }
 
-export default function Wizard({ lang, onSubmit }: Props) {
+export default function Wizard({ lang, onSubmit, initialAnswers }: Props) {
   const [step, setStep] = useState(0); // 0 = welcome
-  const [answers, setAnswers] = useState<ProfileAnswers>(emptyAnswers);
+  const [answers, setAnswers] = useState<ProfileAnswers>(() =>
+    initialAnswers ? { ...emptyAnswers(), ...initialAnswers } : emptyAnswers(),
+  );
   const [error, setError] = useState<string | null>(null);
 
   const isIndia = (answers.country || DEFAULT_COUNTRY) === "India";
@@ -104,6 +109,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
 
   const goNext = () => {
     if (step === 0) {
+      setAnswers((a) => ({ ...a, finding_for: a.finding_for || "self" }));
       setStep(1);
       setError(null);
       return;
@@ -116,6 +122,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
     if (step >= TOTAL_STEPS) {
       onSubmit({
         ...answers,
+        finding_for: answers.finding_for || "self",
         district: answers.district ? answers.district.trim() : null,
         country: answers.country || DEFAULT_COUNTRY,
         state: answers.state || (isIndia ? DEFAULT_STATE : answers.state),
@@ -280,13 +287,16 @@ export default function Wizard({ lang, onSubmit }: Props) {
           </div>
         );
       }
-      case 3:
+      case 3: {
+        const forChild = answers.finding_for === "child";
         return (
           <div className="space-y-3">
             <label htmlFor="age" className="block text-xl font-bold text-slate-900">
-              {t(lang, "qAge")}
+              {t(lang, forChild ? "qAgeChild" : "qAge")}
             </label>
-            <p className="text-sm text-slate-600">{t(lang, "qAgeHint")}</p>
+            <p className="text-sm text-slate-600">
+              {t(lang, forChild ? "qAgeChildHint" : "qAgeHint")}
+            </p>
             <input
               id="age"
               name="age"
@@ -306,6 +316,7 @@ export default function Wizard({ lang, onSubmit }: Props) {
             <AgeLifeStage age={answers.age} lang={lang} />
           </div>
         );
+      }
       case 4: {
         const mode = answers.income_mode === "monthly" ? "monthly" : "yearly";
         const amount = answers.income_amount;
@@ -656,6 +667,11 @@ export default function Wizard({ lang, onSubmit }: Props) {
   }, [step, answers, lang, isKerala, currency]);
 
   if (step === 0) {
+    const startAs = (mode: "self" | "child") => {
+      setAnswers((a) => ({ ...a, finding_for: mode }));
+      setError(null);
+      setStep(1);
+    };
     return (
       <div className="space-y-6 animate-pop-in">
         <div className="wizard-card bg-gradient-to-br from-brand-50 via-white to-brand-100/60">
@@ -663,9 +679,24 @@ export default function Wizard({ lang, onSubmit }: Props) {
           <p className="mt-3 text-base leading-relaxed text-brand-900">
             {t(lang, "welcomeBody")}
           </p>
+          <p className="mt-4 text-sm font-semibold text-brand-900">{t(lang, "findingForTitle")}</p>
+          <p className="mt-1 text-sm leading-relaxed text-brand-800/90">
+            {t(lang, "findingForHint")}
+          </p>
         </div>
-        <button type="button" onClick={goNext} className="primary-btn w-full text-lg">
-          {t(lang, "start")}
+        <button
+          type="button"
+          onClick={() => startAs("self")}
+          className="primary-btn w-full text-lg"
+        >
+          {t(lang, "findingForSelf")}
+        </button>
+        <button
+          type="button"
+          onClick={() => startAs("child")}
+          className="min-h-tap w-full rounded-xl border-2 border-brand-700 bg-white px-4 py-3 text-lg font-bold text-brand-900 transition active:scale-95"
+        >
+          {t(lang, "findingForChild")}
         </button>
       </div>
     );

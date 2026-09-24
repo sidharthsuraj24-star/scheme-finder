@@ -42,7 +42,8 @@ def _client_ip(request: Request) -> str:
 
 
 def _is_match_path(path: str) -> bool:
-    return path.rstrip("/").endswith("/match")
+    p = path.rstrip("/")
+    return p.endswith("/match") or p.endswith("/analytics/event")
 
 
 class SecurityHeadersMiddleware(BaseHTTPMiddleware):
@@ -165,3 +166,22 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
                     headers={"Retry-After": str(int(window))},
                 )
         return await call_next(request)
+
+
+def ops_authorized(request: Request) -> bool:
+    """Allow ops when token matches, or open demo when NEXT_PUBLIC_SHOW_OPS=1 and no token set.
+
+    If OPS_DASHBOARD_TOKEN is set, require Authorization: Bearer <token>.
+    If unset: allow when NEXT_PUBLIC_SHOW_OPS is 1/true/yes (demo), else deny.
+    """
+    token = os.environ.get("OPS_DASHBOARD_TOKEN", "").strip()
+    if token:
+        auth = (request.headers.get("authorization") or "").strip()
+        if auth.lower().startswith("bearer "):
+            got = auth[7:].strip()
+            return got == token and bool(got)
+        # Also accept X-Ops-Token for simple demos
+        alt = (request.headers.get("x-ops-token") or "").strip()
+        return alt == token
+    show = os.environ.get("NEXT_PUBLIC_SHOW_OPS", "").strip().lower()
+    return show in ("1", "true", "yes")

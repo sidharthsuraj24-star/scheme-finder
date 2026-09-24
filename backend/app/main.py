@@ -1,4 +1,4 @@
-"""FastAPI application — Scheme Finder Phase 2."""
+"""FastAPI application — Scheme Finder Phase 3 foundation."""
 
 from __future__ import annotations
 
@@ -13,12 +13,14 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from . import __version__
+from .analytics import record_event
 from .catalogue import catalogue_payload, load_catalogue_release
 from .db import get_store
 from .explanations import DISCLAIMER_EN, build_explanation, generator_mode
 from .match_cache import get_cached_match, match_cache_ttl_sec, set_cached_match
 from .matcher import evaluate_scheme, match_schemes
 from .models import (
+    AnalyticsEventRequest,
     ErrorBody,
     ErrorResponse,
     ExplainRequest,
@@ -29,11 +31,13 @@ from .models import (
     SchemeListResponse,
     SchemeSummary,
 )
+from .ops import build_ops_summary
 from .redis_client import ping_redis, rate_limit_backend
 from .security import (
     MatchRateLimitMiddleware,
     RequestSizeLimitMiddleware,
     SecurityHeadersMiddleware,
+    ops_authorized,
 )
 
 _ENV = os.environ.get("ENV", os.environ.get("ENVIRONMENT", "development")).strip().lower()
@@ -226,12 +230,32 @@ def match(request: MatchRequest, http_request: Request) -> MatchResponse:
             cache_hit = True
             result = MatchResponse(**cached)
             match_count = result.count
+            try:
+                top_ids = [m.scheme_id for m in (result.matched or [])[:10]]
+                record_event(
+                    "match_ok",
+                    country=str(country) if country else None,
+                    scheme_ids=top_ids,
+                    result_count=match_count,
+                )
+            except Exception:  # noqa: BLE001 — analytics must fail open
+                pass
             return result
 
         store = get_store()
         result = match_schemes(store.schemes, profile, options, geo_index=store.geo_index)
         set_cached_match(profile_dump, options_dump, result.model_dump())
         match_count = result.count
+        try:
+            top_ids = [m.scheme_id for m in (result.matched or [])[:10]]
+            record_event(
+                "match_ok",
+                country=str(country) if country else None,
+                scheme_ids=top_ids,
+                result_count=match_count,
+            )
+        except Exception:  # noqa: BLE001
+            pass
         return result
     except Exception:
         status_code = 500
@@ -306,3 +330,48 @@ def sources() -> dict[str, Any]:
             }
         )
     return {"count": len(items), "sources": items}
+
+
+@app.post("/analytics/event")
+@app.post("/api/v1/analytics/event")
+def analytics_event(body: AnalyticsEventRequest) -> dict[str, Any]:
+    """Privacy-preserving aggregate counter. Never stores profile PII."""
+    result = record_event(
+        body.event,
+        country=body.country,
+        scheme_ids=body.scheme_ids,
+        result_count=body.result_count,
+        result_count_bucket=body.result_count_bucket,
+    )
+    if not result.get("ok"):
+        raise HTTPException(
+            status_code=400,
+            detail=ErrorResponse(
+                error=ErrorBody(
+                    code="invalid_analytics_event",
+                    message=str(result.get("error") or "invalid event"),
+                )
+            ).model_dump(),
+        )
+    return result
+
+
+@app.get("/ops/summary")
+@app.get("/api/v1/ops/summary")
+def ops_summary(
+    http_request: Request,
+    days: int = Query(default=1, ge=1, le=7),
+) -> dict[str, Any]:
+    """Read-only ops dashboard payload. Optional bearer OPS_DASHBOARD_TOKEN."""
+    if not ops_authorized(http_request):
+        raise HTTPException(
+            status_code=401,
+            detail=ErrorResponse(
+                error=ErrorBody(
+                    code="ops_unauthorized",
+                    message="Ops dashboard requires Authorization: Bearer <OPS_DASHBOARD_TOKEN> "
+                    "when OPS_DASHBOARD_TOKEN is set; or NEXT_PUBLIC_SHOW_OPS=1 for open demo.",
+                )
+            ).model_dump(),
+        )
+    return build_ops_summary(analytics_days=days)

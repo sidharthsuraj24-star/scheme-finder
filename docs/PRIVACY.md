@@ -13,8 +13,13 @@
    on the client — treat shared URLs as sensitive.
 3. **Confirm on the official portal.** Matching is a helper only; eligibility and
    applications happen on government / official sites.
-4. **Retention = none by default.** We do not keep match request bodies. Optional
-   encrypted saved profiles are a later Phase 2 item — not implemented here.
+4. **Retention = none by default on the server.** We do not keep match request bodies.
+5. **Device-only saved profiles (Phase 3 foundation).** Optional “Save on this device”
+   stores ProfileAnswers + language in the browser `localStorage` (cap 5). These stay
+   on the device unless the user shares a `?p=` link. Not uploaded to a profile database.
+6. **Aggregate analytics only.** Counters may record match_ok volume, country, result
+   buckets, and scheme_id hits — never profile PII. Analytics must never invent
+   eligibility (see `docs/ANALYTICS.md`).
 
 ## Access logging (structured, minimal)
 
@@ -30,5 +35,5 @@ occupation lists, flags, or full JSON bodies.
 
 ## Contact / changes
 
-If retention or analytics are added later, update this file and `docs/TRUST.md`
-before enabling.
+Encrypted cloud profiles, OTP/DigiLocker accounts, and richer retention require
+updating this file and `docs/TRUST.md` before enabling.

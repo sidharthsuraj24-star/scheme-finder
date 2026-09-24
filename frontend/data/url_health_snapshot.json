@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-09-24T16:28:16+05:30",
+  "timezone": "Asia/Kolkata",
+  "checked_count": 0,
+  "ok_count": 0,
+  "flaky_hosts": [],
+  "note": "Sample/ops snapshot. Default run writes empty flaky list (no live probes). Use --probe-sample for a short allowlist, or --from-freshness-json after scripts/scheme_freshness_check.py. Never hammers full catalogue from CI."
+}

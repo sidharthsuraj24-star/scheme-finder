@@ -108,3 +108,25 @@ or enterprise certification.
 
 **Not done:** CMS auth UI, encrypted profiles, DigiLocker, SOC2/pentest engagement,
 claiming enterprise-ready, Phase 1 Fly deploy (still credential-blocked).
+
+## 2026-09-24 — Phase 3 product surface foundation
+
+**Decision:** Ship a product-surface foundation without claiming Phase 3 complete,
+OTP/DigiLocker auth, white-label tenants, or a CMS publisher UI.
+
+1. **Saved profiles = localStorage only** (cap 5). Documented in PRIVACY.md; no
+   server PII by default.
+2. **Parent-for-child UX** uses existing profile `age` / `disability` / soft
+   `is_student` + `child_age_months` — no new eligibility fields or invented
+   `max_annual_income`. US Trump Accounts / Coverdell / 529 / ABLE already match
+   when beneficiary age (and disability for ABLE) is on the profile.
+3. **Ops dashboard** is read-only, env-gated (`NEXT_PUBLIC_SHOW_OPS` /
+   `OPS_DASHBOARD_TOKEN`). Surfaces catalogue meta, checksum, coverage, URL health
+   snapshot, aggregate analytics.
+4. **Analytics** = aggregates only; never feeds matcher eligibility
+   (`docs/ANALYTICS.md`).
+5. **URL health** = checked-in snapshot + script; do not hammer full catalogue
+   from CI in this pass.
+
+**Not done:** OTP, DigiLocker, multi-tenant white-label, CMS login, Fly/Vercel
+credential deploy (may still be blocked), claiming enterprise product-complete.

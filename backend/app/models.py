@@ -332,3 +332,28 @@ class ExplainResponse(BaseModel):
         "Not legal advice."
     )
     generator: Literal["template", "llm"] = "template"
+
+
+class AnalyticsEventRequest(BaseModel):
+    """Aggregate-only analytics event — no profile bodies or PII fields."""
+
+    event: Literal["match_ok", "match_error", "share_copy", "ops_view"]
+    country: str | None = Field(default=None, max_length=_STR_MAX)
+    scheme_ids: list[str] | None = None
+    result_count: int | None = Field(default=None, ge=0, le=500)
+    result_count_bucket: str | None = Field(default=None, max_length=16)
+
+    @field_validator("scheme_ids", mode="before")
+    @classmethod
+    def _cap_scheme_ids(cls, v: Any) -> list[str] | None:
+        if v is None:
+            return None
+        if not isinstance(v, list):
+            raise ValueError("scheme_ids must be a list")
+        out: list[str] = []
+        for item in v[:10]:
+            s = str(item).strip()
+            if not s or len(s) > 64:
+                continue
+            out.append(s)
+        return out

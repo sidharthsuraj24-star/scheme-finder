@@ -128,6 +128,34 @@ const en: Dict = {
   welcomeBody:
     "Pick your country (and region), then answer a few simple questions. We suggest curated welfare schemes that may help you.",
   start: "Start",
+
+  findingForTitle: "Who are you finding schemes for?",
+  findingForHint:
+    "If you choose your child or dependent, age and disability answers should describe them (needed for US child savings such as Trump Accounts, Coverdell, 529, and ABLE).",
+  findingForSelf: "For myself",
+  findingForChild: "For my child / dependent",
+  findingForChildShort: "child",
+  qAgeChild: "How old is your child / dependent?",
+  qAgeChildHint: "Enter their age in years (beneficiary age for child savings schemes)",
+  qDisabilityChild: "Does your child / dependent have a disability?",
+  resultsTitleChild: "Schemes that may fit your child / dependent",
+  resultsParentModeBanner:
+    "Parent / guardian mode: matches below are based on the child or dependent’s details you entered. Still confirm eligibility on each official portal before applying.",
+  savedTitle: "Saved on this device",
+  savedPrivacy:
+    "Profiles stay in this browser’s local storage (up to 5). They are not uploaded unless you share a link. See Privacy.",
+  savedNamePlaceholder: "Optional name (e.g. My profile)",
+  savedSave: "Save on this device",
+  savedLoad: "Load",
+  savedDelete: "Delete",
+  savedClearAll: "Clear all saved",
+  savedClearConfirm: "Delete all device-saved profiles?",
+  savedEmpty: "No saved profiles yet.",
+  savedUnnamed: "Untitled profile",
+  savedOk: "Saved on this device",
+  savedFailed: "Could not save (storage full or blocked)",
+  savedNeedAnswers: "Complete a search first, then save",
+
   stage_baby: "Baby",
   stage_child: "Child",
   stage_teen: "Teen",
@@ -262,6 +290,34 @@ const ml: Dict = {
   welcomeBody:
     "രാജ്യം (ഒപ്പം പ്രദേശം) തിരഞ്ഞെടുക്കുക, പിന്നെ കുറച്ച് ലളിതമായ ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകൂ. ക്ഷേമ പദ്ധതികൾ ഞങ്ങൾ നിർദ്ദേശിക്കും.",
   start: "തുടങ്ങുക",
+
+  findingForTitle: "ആർക്കുവേണ്ടിയാണ് പദ്ധതികൾ തിരയുന്നത്?",
+  findingForHint:
+    "കുട്ടി / ആശ്രിതന് വേണ്ടിയാണെങ്കിൽ പ്രായവും വൈകല്യ വിവരങ്ങളും അവരുടേതായിരിക്കണം (യുഎസ് കുട്ടി സേവിംഗ്‌സ് പദ്ധതികൾക്ക്).",
+  findingForSelf: "എനിക്ക് വേണ്ടി",
+  findingForChild: "എന്റെ കുട്ടി / ആശ്രിതന് വേണ്ടി",
+  findingForChildShort: "കുട്ടി",
+  qAgeChild: "കുട്ടി / ആശ്രിതന്റെ പ്രായം എത്ര?",
+  qAgeChildHint: "വയസ്സ് നൽകുക (കുട്ടി സേവിംഗ്‌സ് പദ്ധതികൾക്ക് ഗുണഭോക്താവിന്റെ പ്രായം)",
+  qDisabilityChild: "കുട്ടി / ആശ്രിതന് വൈകല്യമുണ്ടോ?",
+  resultsTitleChild: "കുട്ടി / ആശ്രിതന് യോജിച്ചേക്കാവുന്ന പദ്ധതികൾ",
+  resultsParentModeBanner:
+    "രക്ഷിതാവ് മോഡ്: താഴെയുള്ള പൊരുത്തങ്ങൾ നൽകിയ കുട്ടി / ആശ്രിത വിവരങ്ങളെ അടിസ്ഥാനമാക്കിയതാണ്. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഓരോ ഔദ്യോഗിക പോർട്ടലിലും യോഗ്യത ഉറപ്പാക്കുക.",
+  savedTitle: "ഈ ഉപകരണത്തിൽ സേവ് ചെയ്തത്",
+  savedPrivacy:
+    "പ്രൊഫൈലുകൾ ഈ ബ്രൗസറിന്റെ local storage-ൽ മാത്രം (പരമാവധി 5). ലിങ്ക് പങ്കിടാതെ അപ്‌ലോഡ് ചെയ്യില്ല. സ്വകാര്യത കാണുക.",
+  savedNamePlaceholder: "ഓപ്ഷണൽ പേര്",
+  savedSave: "ഈ ഉപകരണത്തിൽ സേവ് ചെയ്യുക",
+  savedLoad: "ലോഡ്",
+  savedDelete: "ഇല്ലാതാക്കുക",
+  savedClearAll: "എല്ലാം മായ്ക്കുക",
+  savedClearConfirm: "ഉപകരണത്തിലെ എല്ലാ സേവ് ചെയ്ത പ്രൊഫൈലുകളും ഇല്ലാതാക്കണോ?",
+  savedEmpty: "സേവ് ചെയ്ത പ്രൊഫൈലുകളില്ല.",
+  savedUnnamed: "പേരില്ലാത്ത പ്രൊഫൈൽ",
+  savedOk: "ഈ ഉപകരണത്തിൽ സേവ് ചെയ്തു",
+  savedFailed: "സേവ് ചെയ്യാനായില്ല",
+  savedNeedAnswers: "ആദ്യം തിരച്ചിൽ പൂർത്തിയാക്കി പിന്നീട് സേവ് ചെയ്യുക",
+
   stage_baby: "കുഞ്ഞ്",
   stage_child: "കുട്ടി",
   stage_teen: "കൗമാരം",
@@ -396,6 +452,34 @@ const hi: Dict = {
   welcomeBody:
     "अपना देश (और क्षेत्र) चुनें, फिर कुछ सरल प्रश्नों के उत्तर दें। हम चुनिंदा कल्याण योजनाएँ सुझाएँगे।",
   start: "शुरू करें",
+
+  findingForTitle: "आप किसके लिए योजनाएँ खोज रहे हैं?",
+  findingForHint:
+    "यदि बच्चे / आश्रित के लिए चुनें, तो आयु और विकलांगता उनके बारे में बताएँ (अमेरिकी बाल बचत योजनाओं जैसे Trump Accounts, Coverdell, 529, ABLE के लिए).",
+  findingForSelf: "मेरे लिए",
+  findingForChild: "मेरे बच्चे / आश्रित के लिए",
+  findingForChildShort: "बच्चा",
+  qAgeChild: "आपके बच्चे / आश्रित की आयु कितनी है?",
+  qAgeChildHint: "वर्षों में आयु दर्ज करें (बाल बचत योजनाओं के लिए लाभार्थी की आयु)",
+  qDisabilityChild: "क्या आपके बच्चे / आश्रित को विकलांगता है?",
+  resultsTitleChild: "योजनाएँ जो आपके बच्चे / आश्रित के लिए उपयुक्त हो सकती हैं",
+  resultsParentModeBanner:
+    "अभिभावक मोड: नीचे दिए मिलान आपके द्वारा दर्ज बच्चे / आश्रित विवरण पर आधारित हैं। आवेदन से पहले प्रत्येक आधिकारिक पोर्टल पर पात्रता की पुष्टि करें।",
+  savedTitle: "इस डिवाइस पर सहेजा गया",
+  savedPrivacy:
+    "प्रोफ़ाइल केवल इस ब्राउज़र की local storage में रहती हैं (अधिकतम 5)। लिंक साझा करने तक अपलोड नहीं होतीं। गोपनीयता देखें।",
+  savedNamePlaceholder: "वैकल्पिक नाम",
+  savedSave: "इस डिवाइस पर सहेजें",
+  savedLoad: "लोड",
+  savedDelete: "हटाएँ",
+  savedClearAll: "सभी साफ़ करें",
+  savedClearConfirm: "सभी डिवाइस-सहेजी प्रोफ़ाइल हटाएँ?",
+  savedEmpty: "अभी कोई सहेजी प्रोफ़ाइल नहीं।",
+  savedUnnamed: "बिना नाम की प्रोफ़ाइल",
+  savedOk: "इस डिवाइस पर सहेजा गया",
+  savedFailed: "सेव नहीं हो सका",
+  savedNeedAnswers: "पहले खोज पूरी करें, फिर सेव करें",
+
   stage_baby: "शिशु",
   stage_child: "बच्चा",
   stage_teen: "किशोर",
