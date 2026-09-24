@@ -38,10 +38,13 @@ npm run build
 
 ## Env vars
 
-- NEXT_PUBLIC_API_URL (frontend): API base URL, no trailing slash (default http://127.0.0.1:8000)
+- NEXT_PUBLIC_API_URL (frontend): empty = same-origin `/api`; set to FastAPI base (no trailing slash) for dedicated API mode
 - DATABASE_URL (backend optional): empty = in-memory JSON
 - LLM_API_KEY (backend optional): empty = template explanations
-- CORS_ORIGINS (backend): default * for demo; set to Vercel origin in prod
+- CORS_ORIGINS (backend): default * for demo; set to Vercel origin in prod (e.g. `https://YOUR-APP.vercel.app` when using dedicated API)
+- REDIS_URL (backend): enable shared rate limits + optional match cache
+- MATCH_CACHE_TTL_SEC (backend): 0=off; 60 for warm-cache demos
+- WEB_CONCURRENCY (backend/Docker/Fly): uvicorn workers (default 2 in image)
 - SCHEMES_PATH (backend optional): path to schemes.json
 - PORT (hosting): Render/Railway/Fly inject this
 
@@ -73,6 +76,7 @@ See docs/DEPLOY.md for steps and blockers.
 
 ## Docs
 
+- docs/SCALE.md — Phase 1 dedicated API + Redis + load evidence
 - docs/API_CONTRACT.md, docs/SCHEMES.md, docs/SOURCES.md, docs/DECISIONS.md
 - docs/TEST_LOG.md, docs/DEPLOY.md, docs/FINAL_REPORT.md
 

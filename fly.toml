@@ -1,26 +1,54 @@
-# fly.io config (login required: fly auth login)
-# Deploy: fly launch --no-deploy && fly deploy
-# Scale (Phase 1): set secrets for Redis shared rate limits:
-#   fly secrets set REDIS_URL=redis://...
-# Optional match cache: fly secrets set MATCH_CACHE_TTL_SEC=60
-# Prod: prefer min_machines_running >= 1 so cold starts do not dominate p95.
+# fly.io — Scheme Finder dedicated match API (Phase 1 scale)
+#
+# Auth (one-time on your machine):
+#   fly auth login
+#   fly apps create scheme-finder-api --org personal   # if app does not exist
+#
+# Secrets (required for shared rate limits / optional cache):
+#   fly secrets set REDIS_URL=rediss://default:...@....upstash.io:6379
+#   fly secrets set MATCH_CACHE_TTL_SEC=60             # optional warm cache
+#   fly secrets set CORS_ORIGINS=https://YOUR-VERCEL-HOST
+#   fly secrets set ENV=production
+#
+# Deploy:
+#   fly deploy
+#
+# Production profile: set min_machines_running = 1 (below) so cold starts do
+# not dominate p95. Demo/free can keep 0 (auto-stop) but expect cold latency.
+# Health check hits GET /ready (schemes_loaded + redis status when configured).
+
 app = "scheme-finder-api"
 primary_region = "bom"
 
 [build]
   dockerfile = "backend/Dockerfile"
 
+[env]
+  ENV = "production"
+  # Override after create if needed; secrets win for REDIS_URL.
+  MATCH_CACHE_TTL_SEC = "0"
+  WEB_CONCURRENCY = "2"
+  RATE_LIMIT_MAX = "60"
+  RATE_LIMIT_WINDOW_SEC = "60"
+
 [http_service]
   internal_port = 8000
   force_https = true
   auto_stop_machines = "stop"
   auto_start_machines = true
-  # Demo may use 0; production should keep at least 1 warm machine.
+  # Demo/free: 0. Production SLOs: change to 1 (keep at least one warm machine).
   min_machines_running = 0
   processes = ["app"]
 
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "5s"
+    grace_period = "20s"
+    method = "GET"
+    path = "/ready"
+
 [[vm]]
-  # 512mb recommended once catalogue + uvicorn + redis client are in-process.
+  # 512mb recommended once catalogue + uvicorn workers + redis client are in-process.
   memory = "512mb"
   cpu_kind = "shared"
   cpus = 1

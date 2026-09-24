@@ -197,3 +197,67 @@ Local run:
 python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 20 --requests 200
 ```
 
+
+## Load test results (2026-09-24)
+
+Hardware: shared box (~8 vCPU, ~16 GiB). Catalogue: **822** schemes. Stack:
+`redis-server` on `127.0.0.1:6379` + `scripts/run_api_workers.sh` with
+`WEB_CONCURRENCY=2`, `REDIS_URL=redis://127.0.0.1:6379/0`,
+`RATE_LIMIT_MAX=100000`. (`docker compose` / `docker.io` **not installed** on
+the build box — same env as `docker-compose.scale.yml`; compose files still
+shipped for Suraj's machine.)
+
+`GET /ready` confirmed: `rate_limit_backend: "redis"`, `redis.ok: true`,
+`schemes_loaded: true`.
+
+Harness: `scripts/loadtest_match.py` (India sample profile). Match JSON body
+≈ **227 KB** — transfer dominates under high concurrency even on cache hits.
+
+### A) Redis on, `MATCH_CACHE_TTL_SEC=0` (cache-miss / compute path)
+
+| Concurrency | Requests | RPS | p50 / p95 / p99 (ms) | Error rate | vs SLO p95 &lt;200ms (miss) |
+| ---: | ---: | ---: | --- | ---: | --- |
+| 20 | 200 | **268.4** | 70.0 / **109.4** / 121.2 | 0.000% | **PASS** |
+| 50 | 500 | 186.7 | 197.5 / 661.4 / 940.6 | 0.000% | FAIL (saturated) |
+| 100 | 1000 | 129.1 | 420.4 / 2494.8 / 4450.7 | 0.000% | FAIL (saturated) |
+
+### B) Redis on, `MATCH_CACHE_TTL_SEC=60` (warm match cache)
+
+| Concurrency | Requests | RPS | p50 / p95 / p99 (ms) | Error rate | vs SLO p95 &lt;50ms (hit) |
+| ---: | ---: | ---: | --- | ---: | --- |
+| 5 | 100 | **323.8** | 14.1 / **20.3** / 39.8 | 0.000% | **PASS** |
+| 10 | 200 | 325.9 | 26.8 / 51.6 / 67.5 | 0.000% | FAIL (borderline) |
+| 20 | 200 | 306.4 | 52.3 / 119.8 / 125.3 | 0.000% | FAIL (payload×c) |
+| 50 | 500 | 194.4 | 181.1 / 684.7 / 980.7 | 0.000% | FAIL (saturated) |
+| 100 | 1000 | 118.7 | 495.1 / 2385.8 / 3868.3 | 0.000% | FAIL (saturated) |
+
+### Error-rate SLO (&lt; 0.1%)
+
+**PASS** on all runs above (0 transport / 0 5xx).
+
+### C) Two API replicas
+
+**Skipped on this box** — no Docker Engine for
+`docker-compose.scale.replicas.yml --scale api=2`. Override file +
+`scripts/nginx-scale.conf` are ready for Suraj's Docker host. Local substitute
+was `WEB_CONCURRENCY=2` (two uvicorn processes, shared Redis).
+
+### Verdict (honest)
+
+| SLO | Result |
+|-----|--------|
+| p95 miss &lt;200ms | **PASS** at c=20 on this box; fails when concurrency saturates CPU |
+| p95 hit &lt;50ms | **PASS** at c≤5; large ~227KB responses push p95 over 50ms by c=10–20 |
+| Error rate &lt;0.1% | **PASS** |
+| 500k–1M concurrent | **Not claimed** — needs paid multi-region API + Redis capacity |
+
+### Deploy path status (2026-09-24)
+
+| Check | Result |
+|-------|--------|
+| `fly auth whoami` | **Blocked** — no access token (`fly auth login` required) |
+| `REDIS_URL` / Upstash in env | **Unset** (no secret values present) |
+| `FLY_API_TOKEN` / `VERCEL_TOKEN` | **Unset** |
+| `docker` / compose | **Not installed** on build box |
+| Live dedicated API URL | **None yet** — see deploy checklist in `docs/DEPLOY.md` |
+

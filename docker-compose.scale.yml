@@ -4,9 +4,16 @@
 # API:  http://localhost:8000
 # Redis: localhost:6379  (REDIS_URL=redis://redis:6379/0 inside api)
 #
-# Optional cache: MATCH_CACHE_TTL_SEC=60 docker compose -f docker-compose.scale.yml up --build
-# Scale API replicas: docker compose -f docker-compose.scale.yml up --build --scale api=2
-#   (publish only one host port when scaling, or use a reverse proxy)
+# Warm match-cache scenario (TTL=60s):
+#   docker compose -f docker-compose.scale.yml -f docker-compose.scale.cache.yml up --build
+#   # or: MATCH_CACHE_TTL_SEC=60 docker compose -f docker-compose.scale.yml up --build
+#
+# Two API replicas (shared Redis). Fixed host port 8000 conflicts when scaled;
+# use the replicas override (nginx on :8000 → api:8000):
+#   docker compose -f docker-compose.scale.yml -f docker-compose.scale.replicas.yml \
+#     up --build --scale api=2
+#
+# Expect GET /ready → rate_limit_backend: "redis"
 
 services:
   redis:
@@ -27,9 +34,10 @@ services:
       - "8000:8000"
     environment:
       REDIS_URL: redis://redis:6379/0
-      RATE_LIMIT_MAX: "60"
+      RATE_LIMIT_MAX: "100000"
       RATE_LIMIT_WINDOW_SEC: "60"
       MATCH_CACHE_TTL_SEC: "0"
+      WEB_CONCURRENCY: "2"
       ENV: development
       CORS_ORIGINS: "*"
     depends_on:

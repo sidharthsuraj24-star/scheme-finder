@@ -123,7 +123,14 @@ async def run(args: argparse.Namespace) -> int:
     for code, n in sorted(statuses.items()):
         label = "transport_error" if code == 0 else str(code)
         print(f"  {label}: {n}")
-    return 0 if statuses.get(0, 0) == 0 and all(c < 500 for c in statuses) else 1
+    total = sum(statuses.values()) or 1
+    err_5xx = sum(n for c, n in statuses.items() if c >= 500)
+    err_transport = statuses.get(0, 0)
+    err_rate = 100.0 * (err_5xx + err_transport) / total
+    print(f"Error rate:   {err_rate:.3f}%  (5xx={err_5xx}, transport={err_transport}, total={total})")
+    ok_2xx = sum(n for c, n in statuses.items() if 200 <= c < 300)
+    print(f"Success 2xx:  {ok_2xx}/{total}")
+    return 0 if err_transport == 0 and err_5xx == 0 else 1
 
 
 def main() -> None:

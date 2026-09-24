@@ -1,0 +1,22 @@
+# Override: 2+ API replicas behind nginx (shared Redis).
+# Usage:
+#   docker compose -f docker-compose.scale.yml -f docker-compose.scale.replicas.yml \
+#     up --build --scale api=2
+#
+# Note: stop any prior single-api stack first. This file maps nginx→:8000 and
+# clears the api host port list so --scale api=2 does not bind-conflict.
+
+services:
+  api:
+    ports: []
+    expose:
+      - "8000"
+
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "8000:80"
+    volumes:
+      - ./scripts/nginx-scale.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - api

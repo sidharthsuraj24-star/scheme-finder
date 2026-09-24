@@ -9,8 +9,8 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r backend/requirements.txt
-    startCommand: bash -c "cd backend && uvicorn app.main:app --host 0.0.0.0 --port \$PORT"
-    healthCheckPath: /health
+    startCommand: bash -c "HOST=0.0.0.0 PORT=\$PORT WEB_CONCURRENCY=\${WEB_CONCURRENCY:-2} bash scripts/run_api_workers.sh"
+    healthCheckPath: /ready
     envVars:
       - key: PYTHON_VERSION
         value: "3.12.0"

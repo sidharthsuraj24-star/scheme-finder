@@ -73,6 +73,55 @@ See `docs/DATA_REFRESH.md` and `data/catalogue_meta.json` (`updated_as_of: 2026-
 - **Prod auth blocker:** `Error: No existing credentials found. Run vercel deploy --temporary ... or vercel login`. Plain `npx vercel deploy --yes` and `--prod` fail without `VERCEL_TOKEN` / login. Anonymous path that works: `npx vercel@latest deploy --yes --temporary`.
 
 
+
+## Dedicated API + Redis deploy checklist (Phase 1 — 2026-09-24)
+
+One-command path after secrets exist (Fly preferred, region `bom`):
+
+```bash
+# 0) Auth (blocker if missing)
+fly auth login
+# optional: fly auth whoami
+
+# 1) Upstash (or Fly Redis) — copy REDIS_URL (rediss://...)
+#    https://console.upstash.com → Create Redis → region near bom/Singapore/Mumbai
+
+# 2) App + secrets
+fly apps create scheme-finder-api --org personal   # skip if exists
+fly secrets set REDIS_URL='rediss://default:TOKEN@HOST:6379'
+fly secrets set ENV=production
+fly secrets set CORS_ORIGINS='https://YOUR-APP.vercel.app'
+# optional warm cache:
+fly secrets set MATCH_CACHE_TTL_SEC=60
+# production warm machines (edit fly.toml or):
+#   fly scale count 1   # and set min_machines_running=1 in fly.toml
+
+# 3) Deploy
+fly deploy
+fly status
+curl -sS https://scheme-finder-api.fly.dev/ready
+# expect: "rate_limit_backend":"redis", "schemes_loaded":true
+
+# 4) Load evidence
+RATE_LIMIT_MAX=100000  # already on server via secret if set
+python scripts/loadtest_match.py --url https://scheme-finder-api.fly.dev \
+  --concurrency 20 --requests 200 --profile india
+
+# 5) Point Vercel frontend at dedicated API
+#    Vercel project → Settings → Environment Variables:
+#      NEXT_PUBLIC_API_URL=https://scheme-finder-api.fly.dev
+#    Redeploy frontend.
+```
+
+**Build-box status (2026-09-24):** `fly auth whoami` → no access token;
+`REDIS_URL` / `FLY_API_TOKEN` / `VERCEL_TOKEN` unset; `docker` not installed.
+Local evidence uses `redis-server` + `scripts/run_api_workers.sh` (same env as compose).
+Suraj must run `fly auth login` (and create Upstash) on a machine with a browser.
+
+Render alternative: Blueprint `render.yaml`, attach Redis, set `REDIS_URL` + `CORS_ORIGINS`,
+health path `/ready`.
+
+
 ## Phase 1 scale foundation
 
 For horizontal scale (Redis rate limits, readiness, optional match cache, split

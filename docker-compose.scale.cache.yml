@@ -1,0 +1,7 @@
+# Override: enable Redis match-response cache (warm-path load tests).
+# Usage:
+#   docker compose -f docker-compose.scale.yml -f docker-compose.scale.cache.yml up --build
+services:
+  api:
+    environment:
+      MATCH_CACHE_TTL_SEC: "60"
