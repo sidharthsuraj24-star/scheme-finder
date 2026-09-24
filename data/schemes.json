@@ -9918,9 +9918,10 @@
       "health",
       "insurance",
       "assam",
-      "atal-amrit"
+      "atal-amrit",
+      "middle-class"
     ],
-    "last_verified": "2026-09-16"
+    "last_verified": "2026-09-24"
   },
   {
     "id": "as-ayushman-asom-mmjay",
@@ -10082,9 +10083,12 @@
       "women",
       "assam",
       "dbt",
-      "nijut-moina"
+      "nijut-moina",
+      "middle-class",
+      "universal",
+      "scholarship"
     ],
-    "last_verified": "2026-09-16"
+    "last_verified": "2026-09-24"
   },
   {
     "id": "cg-ignoaps",
@@ -61955,5 +61959,816 @@
       "middle-class",
       "housing"
     ]
+  },
+  {
+    "id": "hr-ev-motor-vehicle-tax-exemption",
+    "scheme_name": {
+      "en": "Haryana EV Policy – Motor Vehicle Tax Exemption",
+      "hi": "हरियाणा ईवी नीति – मोटर वाहन कर छूट",
+      "ml": "(EN — Malayalam review pending) Haryana EV Policy – Motor Vehicle Tax Exemption"
+    },
+    "description": {
+      "en": "Haryana Electric Vehicle Policy-2022 (Industries & Commerce / Transport pathway; gazette 8 Jul 2022, effective 10 Jul 2022 for five years) exempts Motor Vehicle Tax under the Haryana Motor Vehicle Tax Act, 2016 for eligible EVs purchased and registered in Haryana during the policy period within notified first-vehicle quotas (policy text: 100% for e-2W first 30,000 and e-3W first 15,000; 75% for e-4W/FCEV first 10,000; 25% for hybrid e-4W first 2,500; 75% for e-buses first 1,000 — VERIFY live remaining quota). Discounted registration fees are also notified. Middle-class private buyers — not a BPL scheme. Distinct from skipped HWDCL education-loan (non-.gov.in host).",
+      "hi": "हरियाणा ईवी नीति-2022 के तहत राज्य में खरीदे/पंजीकृत पात्र ईवी पर मोटर वाहन कर छूट (कोटा/दरें अधिसूचनानुसार सत्यापित करें)। बीपीएल योजना नहीं।",
+      "ml": "(EN — Malayalam review pending) Haryana Electric Vehicle Policy-2022 (Industries & Commerce / Transport pathway; gazette 8 Jul 2022, effective 10 Jul 2022 for five years) exempts Motor Vehicle Tax under the Haryana Motor Vehicle Tax Act, 2016 for eligible EVs purchased and registered in Haryana during the policy period within notified first-vehicle quotas (policy text: 100% for e-2W first 30,000 and e-3W first 15,000; 75% for e-4W/FCEV first 10,000; 25% for hybrid e-4W first 2,500; 75% for e-buses first 1,000 — VERIFY live remaining quota). Discounted registration fees are also notified. Middle-class private buyers — not a BPL scheme. Distinct from skipped HWDCL education-loan (non-.gov.in host)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Haryana"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Haryana EV Policy-2022 MV-tax exemption: category %, first-N vehicle caps, and policy sunset are notification-based — do not treat quota figures as permanently open. max_annual_income null; implies_low_income false. Purchase incentives are separate clause — confirm on live Transport / Industries materials before quoting ₹ amounts.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live remaining first-N quotas, eligible categories, and registration-fee schedule on haryanatransport.gov.in / Industries EV Policy-2022 gazette before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Notified Motor Vehicle Tax exemption (and discounted registration fee) for eligible EVs registered in Haryana within policy-period first-vehicle caps.",
+      "hi": "नीति अवधि/कोटा में पात्र ईवी पर अधिसूचित मोटर वाहन कर छूट व रियायती पंजीकरण शुल्क।",
+      "ml": "(EN — Malayalam review pending) Notified Motor Vehicle Tax exemption (and discounted registration fee) for eligible EVs registered in Haryana within policy-period first-vehicle caps."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Purchase and register an eligible EV in Haryana through the Transport Department / Vahan registration workflow; claim MV-tax exemption as implemented for the notified category and remaining quota.",
+      "hi": "हरियाणा में पात्र ईवी खरीदकर परिवहन/वाहन पंजीकरण प्रक्रिया में अधिसूचित छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Purchase and register an eligible EV in Haryana through the Transport Department / Vahan registration workflow; claim MV-tax exemption as implemented for the notified category and remaining quota."
+    },
+    "apply_url": "https://haryanatransport.gov.in/",
+    "office_type": "Transport Department / Industries & Commerce, Government of Haryana",
+    "official_source_url": "https://beeindia.gov.in/sites/default/files/Haryana.pdf",
+    "tags": [
+      "haryana",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "hr-ulb-property-tax-interest-waiver",
+    "scheme_name": {
+      "en": "Haryana ULB Property Tax Arrears – One-time Interest Waiver",
+      "hi": "हरियाणा यूएलबी संपत्ति कर बकाया – एकमुश्त ब्याज माफी",
+      "ml": "(EN — Malayalam review pending) Haryana ULB Property Tax Arrears – One-time Interest Waiver"
+    },
+    "description": {
+      "en": "Department of Urban Local Bodies, Haryana, notifies a one-time 100% waiver of interest on property-tax arrears pending for assessment years 2010-11 to 2024-25 for taxpayers who pay the arrears and self-certify property information on the Property Tax Dues Payment and No Dues Certificate Management System portal by the notified deadline (portal banner cites 30 Jun 2026 — VERIFY live). Applies to general municipal property taxpayers — not a BPL welfare pension. Distinct from Haryana EV MV-tax row.",
+      "hi": "यूएलबी हरियाणा: अधिसूचित तिथि तक बकाया संपत्ति कर भुगतान व स्व-प्रमाणन पर ब्याज की एकमुश्त माफी; बीपीएल पेंशन नहीं।",
+      "ml": "(EN — Malayalam review pending) Department of Urban Local Bodies, Haryana, notifies a one-time 100% waiver of interest on property-tax arrears pending for assessment years 2010-11 to 2024-25 for taxpayers who pay the arrears and self-certify property information on the Property Tax Dues Payment and No Dues Certificate Management System portal by the notified deadline (portal banner cites 30 Jun 2026 — VERIFY live). Applies to general municipal property taxpayers — not a BPL welfare pension. Distinct from Haryana EV MV-tax row."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Haryana"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Haryana ULB property-tax interest waiver: coverage years, 100% interest waiver, self-certification, and deadline are circular/notification-based — verify live on property.ulbharyana.gov.in / ulbharyana.gov.in before quoting the end date. max_annual_income null; implies_low_income false. Principal tax remains payable.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live waiver end date, covered years, and self-certification steps on property.ulbharyana.gov.in and DULB Property Tax notices before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Waiver of interest on eligible municipal property-tax arrears when principal is paid and portal self-certification is completed within the notified window.",
+      "hi": "अधिसूचित अवधि में बकाया मूल कर भुगतान व पोर्टल स्व-प्रमाणन पर ब्याज माफी।",
+      "ml": "(EN — Malayalam review pending) Waiver of interest on eligible municipal property-tax arrears when principal is paid and portal self-certification is completed within the notified window."
+    },
+    "required_documents": {
+      "en": [
+        "Property ID / PID as on the Haryana ULB property-tax portal",
+        "Ownership / occupancy proof as required by the municipality",
+        "Online payment of eligible arrears on property.ulbharyana.gov.in",
+        "Self-certification of property information on the dues portal"
+      ],
+      "hi": [
+        "Property ID / PID as on the Haryana ULB property-tax portal",
+        "Ownership / occupancy proof as required by the municipality",
+        "Online payment of eligible arrears on property.ulbharyana.gov.in",
+        "Self-certification of property information on the dues portal"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Property ID / PID as on the Haryana ULB property-tax portal",
+        "(EN — Malayalam review pending) Ownership / occupancy proof as required by the municipality",
+        "(EN — Malayalam review pending) Online payment of eligible arrears on property.ulbharyana.gov.in",
+        "(EN — Malayalam review pending) Self-certification of property information on the dues portal"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Log in to property.ulbharyana.gov.in, pay eligible arrears, and complete self-certification within the notified waiver window; follow DULB circular instructions.",
+      "hi": "property.ulbharyana.gov.in पर बकाया चुकाएँ और अधिसूचित अवधि में स्व-प्रमाणन पूरा करें।",
+      "ml": "(EN — Malayalam review pending) Log in to property.ulbharyana.gov.in, pay eligible arrears, and complete self-certification within the notified waiver window; follow DULB circular instructions."
+    },
+    "apply_url": "https://property.ulbharyana.gov.in/",
+    "office_type": "Department of Urban Local Bodies, Haryana",
+    "official_source_url": "https://ulbharyana.gov.in/Home/PropertyTax",
+    "tags": [
+      "haryana",
+      "property_tax",
+      "tax",
+      "universal",
+      "middle-class",
+      "municipal",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "as-ev-road-tax-registration-exemption",
+    "scheme_name": {
+      "en": "Assam EV Policy – Road Tax & Registration Charge Exemption",
+      "hi": "असम ईवी नीति – सड़क कर व पंजीकरण शुल्क छूट",
+      "ml": "(EN — Malayalam review pending) Assam EV Policy – Road Tax & Registration Charge Exemption"
+    },
+    "description": {
+      "en": "Electric Vehicle Policy of Assam, 2021 (Industries & Commerce) provides exemption of registration charges and road tax on eligible 2-, 3- and 4-wheeler electric vehicles for five years, plus related early-adoption incentives (demand incentive table and parking-charge waiver also appear in the policy — VERIFY live operational guidelines). Aimed at private and other eligible buyers registering EVs in Assam — not BPL-targeted. Distinct from existing Assam Orunodoi / Nijut Moina / Atal Amrit rows.",
+      "hi": "असम ईवी नीति 2021: पात्र 2/3/4 पहिया ईवी पर पाँच वर्ष के लिए पंजीकरण शुल्क व सड़क कर छूट; परिचालन दिशानिर्देश सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Electric Vehicle Policy of Assam, 2021 (Industries & Commerce) provides exemption of registration charges and road tax on eligible 2-, 3- and 4-wheeler electric vehicles for five years, plus related early-adoption incentives (demand incentive table and parking-charge waiver also appear in the policy — VERIFY live operational guidelines). Aimed at private and other eligible buyers registering EVs in Assam — not BPL-targeted. Distinct from existing Assam Orunodoi / Nijut Moina / Atal Amrit rows."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Assam"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Assam EV Policy 2021: road-tax/registration exemption for 5 years on eligible 2/3/4W EVs; demand-incentive ₹/kWh caps and parking waiver are separate clauses — confirm Operational Guidelines before quoting subsidy ₹. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live exemption mechanics and any remaining early-adoption caps on industries.assam.gov.in EV Policy 2021 + Operational Guidelines PDFs.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Exemption from registration charges and road tax for five years on eligible e-2W/e-3W/e-4W registered under the Assam EV Policy, subject to live operational rules.",
+      "hi": "पात्र ईवी पर पाँच वर्ष तक पंजीकरण शुल्क व सड़क कर से छूट (लाइव नियमों के अधीन)।",
+      "ml": "(EN — Malayalam review pending) Exemption from registration charges and road tax for five years on eligible e-2W/e-3W/e-4W registered under the Assam EV Policy, subject to live operational rules."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV in Assam through Transport / Vahan processes and follow Industries & Commerce early-adoption / operational-guideline steps for notified exemptions and any demand incentive.",
+      "hi": "असम में पात्र ईवी पंजीकृत करें और उद्योग विभाग की परिचालन दिशानिर्देश प्रक्रिया अपनाएँ।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV in Assam through Transport / Vahan processes and follow Industries & Commerce early-adoption / operational-guideline steps for notified exemptions and any demand incentive."
+    },
+    "apply_url": "https://industries.assam.gov.in/portlet-innerpage/electric-vehicle-policy-of-assam-2021",
+    "office_type": "Industries & Commerce / Transport, Government of Assam",
+    "official_source_url": "https://industries.assam.gov.in/portlet-innerpage/electric-vehicle-policy-of-assam-2021",
+    "tags": [
+      "assam",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "jh-ev-road-tax-registration-exemption",
+    "scheme_name": {
+      "en": "Jharkhand EV Policy – Road Tax & Registration Fee Exemption",
+      "hi": "झारखंड ईवी नीति – सड़क कर व पंजीकरण शुल्क छूट",
+      "ml": "(EN — Malayalam review pending) Jharkhand EV Policy – Road Tax & Registration Fee Exemption"
+    },
+    "description": {
+      "en": "Jharkhand Electric Vehicle Policy 2022 (state gazette pathway) notifies road-tax and vehicle-registration-fee exemptions for eligible EV buyers: for vehicles manufactured in Jharkhand, 100% for the first 10,000 buyers, 75% for buyers 10,001–15,000, then 25% for the remainder of the policy period; vehicles manufactured outside Jharkhand receive 25% through the policy period (VERIFY live). Private middle-class buyers are in scope — not a BPL pension. Distinct from existing Jharkhand Maiya Samman / NSAP rows.",
+      "hi": "झारखंड ईवी नीति 2022: पात्र खरीदारों के लिए सड़क कर/पंजीकरण शुल्क छूट (कोटा व विनिर्माण स्थान के अनुसार); बीपीएल पेंशन नहीं।",
+      "ml": "(EN — Malayalam review pending) Jharkhand Electric Vehicle Policy 2022 (state gazette pathway) notifies road-tax and vehicle-registration-fee exemptions for eligible EV buyers: for vehicles manufactured in Jharkhand, 100% for the first 10,000 buyers, 75% for buyers 10,001–15,000, then 25% for the remainder of the policy period; vehicles manufactured outside Jharkhand receive 25% through the policy period (VERIFY live). Private middle-class buyers are in scope — not a BPL pension. Distinct from existing Jharkhand Maiya Samman / NSAP rows."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Jharkhand"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Jharkhand EV Policy 2022 road-tax/registration exemptions: in-state vs out-of-state manufacture tiers and first-N buyer caps are notification-based — verify remaining quota before advising. max_annual_income null; implies_low_income false. 100% interest-free advance for government employees is a separate clause — not this citizen row’s core benefit.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live buyer-cap counters and registration practice on jharkhand.gov.in EV Policy gazette / Transport before advising percentages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Road-tax and registration-fee exemption at notified percentages for eligible EVs registered in Jharkhand during the policy period.",
+      "hi": "नीति अवधि में पात्र ईवी पर अधिसूचित प्रतिशत पर सड़क कर व पंजीकरण शुल्क छूट।",
+      "ml": "(EN — Malayalam review pending) Road-tax and registration-fee exemption at notified percentages for eligible EVs registered in Jharkhand during the policy period."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Purchase and register an eligible EV in Jharkhand via Transport / Vahan; claim road-tax and registration-fee exemption as implemented for the vehicle’s manufacture origin and remaining buyer tier.",
+      "hi": "झारखंड में पात्र ईवी पंजीकृत कर अधिसूचित स्लैब के अनुसार छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Purchase and register an eligible EV in Jharkhand via Transport / Vahan; claim road-tax and registration-fee exemption as implemented for the vehicle’s manufacture origin and remaining buyer tier."
+    },
+    "apply_url": "https://jharkhand.gov.in/PDepartment/ViewDocument?id=D014DO002SD00206022023112330748",
+    "office_type": "Transport / Industries, Government of Jharkhand",
+    "official_source_url": "https://jharkhand.gov.in/PDepartment/ViewDocument?id=D014DO002SD00206022023112330748",
+    "tags": [
+      "jharkhand",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "ch-ev-road-tax-registration-waiver",
+    "scheme_name": {
+      "en": "Chandigarh EV Policy – Road Tax & Registration Fee Waiver",
+      "hi": "चंडीगढ़ ईवी नीति – सड़क कर व पंजीकरण शुल्क माफी",
+      "ml": "(EN — Malayalam review pending) Chandigarh EV Policy – Road Tax & Registration Fee Waiver"
+    },
+    "description": {
+      "en": "Chandigarh Administration Electric Vehicle Policy, 2022 (Science & Technology / Renewable Energy – CREST pathway; Transport notifications) waives road tax and registration fees for eligible electric vehicles purchased and registered in Chandigarh during the policy period. Transport Department notice also clarifies that tax exemption treatment is the same for Pure EV and Battery Operated Vehicles (BOV). Early-bird purchase incentives may apply separately — VERIFY live. Universal to eligible UT EV registrants — not BPL-targeted.",
+      "hi": "चंडीगढ़ ईवी नीति 2022: नीति अवधि में पात्र ईवी पर सड़क कर व पंजीकरण शुल्क माफी; Pure EV/BOV समान व्यवहार।",
+      "ml": "(EN — Malayalam review pending) Chandigarh Administration Electric Vehicle Policy, 2022 (Science & Technology / Renewable Energy – CREST pathway; Transport notifications) waives road tax and registration fees for eligible electric vehicles purchased and registered in Chandigarh during the policy period. Transport Department notice also clarifies that tax exemption treatment is the same for Pure EV and Battery Operated Vehicles (BOV). Early-bird purchase incentives may apply separately — VERIFY live. Universal to eligible UT EV registrants — not BPL-targeted."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Chandigarh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Chandigarh EV Policy 2022: road-tax and registration-fee waiver for eligible EVs registered in the UT during the policy period; early-bird ₹ incentives and FAME stacking are separate — confirm CREST/Transport operational guidelines. max_annual_income null; implies_low_income false. Policy period commonly cited through Sep 2027 in administration materials — VERIFY live.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live waiver categories and policy end date on chdtransport.gov.in / chandigarh.gov.in EV Policy materials before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Waiver of road tax and registration fees for eligible EVs registered in Chandigarh during the notified policy period.",
+      "hi": "अधिसूचित नीति अवधि में चंडीगढ़ में पंजीकृत पात्र ईवी पर सड़क कर व पंजीकरण शुल्क माफी।",
+      "ml": "(EN — Malayalam review pending) Waiver of road tax and registration fees for eligible EVs registered in Chandigarh during the notified policy period."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV with Chandigarh Transport / RLA processes; claim road-tax and registration-fee waiver as implemented under the EV Policy and related Transport notifications.",
+      "hi": "चंडीगढ़ परिवहन/आरएलए प्रक्रिया में पात्र ईवी पंजीकृत कर छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV with Chandigarh Transport / RLA processes; claim road-tax and registration-fee waiver as implemented under the EV Policy and related Transport notifications."
+    },
+    "apply_url": "https://www.chdtransport.gov.in/",
+    "office_type": "Transport Department / CREST, Chandigarh Administration",
+    "official_source_url": "https://www.chdtransport.gov.in/node/6038",
+    "tags": [
+      "chandigarh",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "universal",
+      "transport",
+      "ut"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "la-ev-road-tax-exemption",
+    "scheme_name": {
+      "en": "Ladakh EV Policy – Road Tax Exemption",
+      "hi": "लद्दाख ईवी नीति – सड़क कर छूट",
+      "ml": "(EN — Malayalam review pending) Ladakh EV Policy – Road Tax Exemption"
+    },
+    "description": {
+      "en": "Ladakh Electric Vehicle and Allied Infrastructure Policy, 2022 (Transport Department, UT Administration) states that all e-vehicles will be exempted from payment of road taxes, continuing the approach of S.O.08 dated 26 Mar 2021, alongside capital subsidy / early-bird purchase incentives for eligible private and commercial buyers (VERIFY live subsidy tables and any extension such as early-bird through Mar 2027). Middle-class private EV buyers — not a BPL pension clone.",
+      "hi": "लद्दाख ईवी नीति 2022: सभी ई-वाहनों पर सड़क कर से छूट; खरीद प्रोत्साहन अलग से सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Ladakh Electric Vehicle and Allied Infrastructure Policy, 2022 (Transport Department, UT Administration) states that all e-vehicles will be exempted from payment of road taxes, continuing the approach of S.O.08 dated 26 Mar 2021, alongside capital subsidy / early-bird purchase incentives for eligible private and commercial buyers (VERIFY live subsidy tables and any extension such as early-bird through Mar 2027). Middle-class private EV buyers — not a BPL pension clone."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Ladakh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Ladakh EV Policy 2022: road-tax exemption for e-vehicles; demand/early-bird capital subsidies are separate tables with ex-showroom ceilings — do not invent ₹ figures. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live road-tax practice and any early-bird subsidy extension on ladakh.gov.in Transport / EV Policy materials before advising amounts.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Exemption from road tax for electric vehicles registered in UT Ladakh under the notified EV policy, plus any separately notified purchase incentives.",
+      "hi": "लद्दाख में पंजीकृत ईवी पर सड़क कर छूट; खरीद प्रोत्साहन अधिसूचनानुसार।",
+      "ml": "(EN — Malayalam review pending) Exemption from road tax for electric vehicles registered in UT Ladakh under the notified EV policy, plus any separately notified purchase incentives."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV with UT Ladakh Transport / RTO processes; road-tax exemption is applied per policy, and purchase-subsidy claims follow the notified dealer/authority workflow.",
+      "hi": "लद्दाख परिवहन/आरटीओ में पात्र ईवी पंजीकृत करें; कर छूट व प्रोत्साहन अधिसूचित प्रक्रिया से।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV with UT Ladakh Transport / RTO processes; road-tax exemption is applied per policy, and purchase-subsidy claims follow the notified dealer/authority workflow."
+    },
+    "apply_url": "https://ladakh.gov.in/ladakh-joins-e-vehicle-revolution-in-india/",
+    "office_type": "Transport Department, Administration of UT Ladakh",
+    "official_source_url": "https://ladakh.gov.in/ladakh-joins-e-vehicle-revolution-in-india/",
+    "tags": [
+      "ladakh",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "ut"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "tr-ev-road-tax-exemption",
+    "scheme_name": {
+      "en": "Tripura EV Policy – Road Tax Exemption",
+      "hi": "त्रिपुरा ईवी नीति – सड़क कर छूट",
+      "ml": "(EN — Malayalam review pending) Tripura EV Policy – Road Tax Exemption"
+    },
+    "description": {
+      "en": "Tripura Electric Vehicle Policy, 2022 (Government of Tripura; policy PDF on tripura.gov.in) provides a 25% exemption on applicable road tax for eligible electric vehicles during the policy period (commonly described as five years from mid-2022 — VERIFY live), alongside other ecosystem measures. Open to private EV registrants meeting policy definitions — not a BPL-only welfare scheme.",
+      "hi": "त्रिपुरा ईवी नीति 2022: पात्र ईवी पर लागू सड़क कर में 25% छूट (नीति अवधि सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Tripura Electric Vehicle Policy, 2022 (Government of Tripura; policy PDF on tripura.gov.in) provides a 25% exemption on applicable road tax for eligible electric vehicles during the policy period (commonly described as five years from mid-2022 — VERIFY live), alongside other ecosystem measures. Open to private EV registrants meeting policy definitions — not a BPL-only welfare scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tripura"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Tripura EV Policy 2022: 25% road-tax exemption for eligible EVs during the policy period — confirm vehicle categories and whether exemption is still active on Transport notices. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live 25% road-tax exemption status and eligible categories on tripura.gov.in EV Policy PDF / Transport Department before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "25% exemption on applicable road tax for eligible EVs registered in Tripura during the notified policy period.",
+      "hi": "नीति अवधि में त्रिपुरा में पंजीकृत पात्र ईवी पर लागू सड़क कर में 25% छूट।",
+      "ml": "(EN — Malayalam review pending) 25% exemption on applicable road tax for eligible EVs registered in Tripura during the notified policy period."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV in Tripura through Transport / Vahan processes and claim the notified road-tax exemption at registration as implemented by the registering authority.",
+      "hi": "त्रिपुरा में पात्र ईवी पंजीकृत कर अधिसूचित सड़क कर छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV in Tripura through Transport / Vahan processes and claim the notified road-tax exemption at registration as implemented by the registering authority."
+    },
+    "apply_url": "https://tripura.gov.in/sites/default/files/Tripura_Electric_Vehicle_Policy_2022.pdf",
+    "office_type": "Transport Department, Government of Tripura",
+    "official_source_url": "https://tripura.gov.in/sites/default/files/Tripura_Electric_Vehicle_Policy_2022.pdf",
+    "tags": [
+      "tripura",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "mn-ev-motor-vehicle-tax-waiver",
+    "scheme_name": {
+      "en": "Manipur Electric Mobility Policy – Motor Vehicle Tax Waiver",
+      "hi": "मणिपुर इलेक्ट्रिक मोबिलिटी नीति – मोटर वाहन कर छूट",
+      "ml": "(EN — Malayalam review pending) Manipur Electric Mobility Policy – Motor Vehicle Tax Waiver"
+    },
+    "description": {
+      "en": "Manipur Electric Mobility Policy, 2022 (Transport Department pathway; policy PDF hosted on manipurtransport.gov.in and listed by BEE) notifies Motor Vehicle tax waivers for eligible EVs registered in the state during the policy period (commonly summarised as about 30% for e-2W/e-3W and about 20% for e-4W/hybrids, plus registration-fee relief and time-limited free parking — VERIFY exact clauses on the live policy PDF). Middle-class private buyers — not BPL-only.",
+      "hi": "मणिपुर इलेक्ट्रिक मोबिलिटी नीति 2022: पात्र ईवी पर मोटर वाहन कर छूट (दरें लाइव पीडीएफ से सत्यापित करें)।",
+      "ml": "(EN — Malayalam review pending) Manipur Electric Mobility Policy, 2022 (Transport Department pathway; policy PDF hosted on manipurtransport.gov.in and listed by BEE) notifies Motor Vehicle tax waivers for eligible EVs registered in the state during the policy period (commonly summarised as about 30% for e-2W/e-3W and about 20% for e-4W/hybrids, plus registration-fee relief and time-limited free parking — VERIFY exact clauses on the live policy PDF). Middle-class private buyers — not BPL-only."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Manipur"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Manipur Electric Mobility Policy 2022: MV-tax waiver percentages and registration/parking concessions are as in the notified policy — treat “~30%/~~20%” summaries as VERIFY-only until confirmed on the live PDF. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm exact MV-tax waiver %, vehicle categories, and policy end date on manipurtransport.gov.in Electric Mobility Policy 2022 PDF before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Notified Motor Vehicle tax waiver (and related registration/parking concessions) for eligible EVs registered in Manipur during the policy period.",
+      "hi": "नीति अवधि में मणिपुर में पंजीकृत पात्र ईवी पर अधिसूचित मोटर वाहन कर छूट।",
+      "ml": "(EN — Malayalam review pending) Notified Motor Vehicle tax waiver (and related registration/parking concessions) for eligible EVs registered in Manipur during the policy period."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV in Manipur through Transport / Vahan processes; claim MV-tax waiver as implemented under the Electric Mobility Policy.",
+      "hi": "मणिपुर में पात्र ईवी पंजीकृत कर नीति के अनुसार कर छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV in Manipur through Transport / Vahan processes; claim MV-tax waiver as implemented under the Electric Mobility Policy."
+    },
+    "apply_url": "https://manipurtransport.gov.in/",
+    "office_type": "Transport Department, Government of Manipur",
+    "official_source_url": "https://manipurtransport.gov.in/",
+    "tags": [
+      "manipur",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "uk-ev-motor-yan-tax-exemption",
+    "scheme_name": {
+      "en": "Uttarakhand EV Policy – Motor Vehicle Tax Exemption",
+      "hi": "उत्तराखंड ईवी नीति – मोटर यान कर छूट",
+      "ml": "(EN — Malayalam review pending) Uttarakhand EV Policy – Motor Vehicle Tax Exemption"
+    },
+    "description": {
+      "en": "Uttarakhand Electric Vehicle manufacturing, EV Usage Promotion and Related Infrastructure Policy pathway (state incentive materials mirrored on Invest India / Transport) provides 100% exemption from Motor Yan (motor vehicle) tax for five years from the date of registration for eligible EVs, alongside related commercial permit relief. Applies to EV registrants in Uttarakhand — middle-class private buyers included; not a BPL pension. Confirm continuity alongside the newer Clean Mobility Transition Policy, 2024 (bus/CNG focus) on transport.uk.gov.in.",
+      "hi": "उत्तराखंड ईवी उपयोग प्रोत्साहन: पंजीकरण से पाँच वर्ष तक मोटर यान कर से 100% छूट; लाइव स्थिति सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Uttarakhand Electric Vehicle manufacturing, EV Usage Promotion and Related Infrastructure Policy pathway (state incentive materials mirrored on Invest India / Transport) provides 100% exemption from Motor Yan (motor vehicle) tax for five years from the date of registration for eligible EVs, alongside related commercial permit relief. Applies to EV registrants in Uttarakhand — middle-class private buyers included; not a BPL pension. Confirm continuity alongside the newer Clean Mobility Transition Policy, 2024 (bus/CNG focus) on transport.uk.gov.in."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttarakhand"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Uttarakhand EV usage-promotion pathway: 100% Motor Yan Tax exemption for 5 years from registration for eligible EVs — confirm whether still applied at RTOs alongside Clean Mobility Transition Policy 2024. max_annual_income null; implies_low_income false. Do not confuse manufacturing-unit incentives with citizen road-tax relief.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live Motor Yan Tax exemption practice on transport.uk.gov.in notifications / RTO guidance before advising; Clean Mobility 2024 is primarily fleet/CNG transition.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "100% exemption from Motor Yan Tax for five years from registration for eligible EVs in Uttarakhand, subject to live Transport practice.",
+      "hi": "पात्र ईवी पर पंजीकरण से पाँच वर्ष तक मोटर यान कर से 100% छूट (लाइव परिवहन अभ्यास के अधीन)।",
+      "ml": "(EN — Malayalam review pending) 100% exemption from Motor Yan Tax for five years from registration for eligible EVs in Uttarakhand, subject to live Transport practice."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV in Uttarakhand through Transport / Vahan; claim Motor Yan Tax exemption as implemented by the registering authority under the EV usage-promotion notifications.",
+      "hi": "उत्तराखंड में पात्र ईवी पंजीकृत कर मोटर यान कर छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV in Uttarakhand through Transport / Vahan; claim Motor Yan Tax exemption as implemented by the registering authority under the EV usage-promotion notifications."
+    },
+    "apply_url": "https://transport.uk.gov.in/",
+    "office_type": "Transport Department, Government of Uttarakhand",
+    "official_source_url": "https://transport.uk.gov.in/document-category/policies-guidelines/",
+    "tags": [
+      "uttarakhand",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "hp-ev-registration-token-tax-exemption",
+    "scheme_name": {
+      "en": "Himachal Pradesh EV Policy – Registration Fee & Token Tax Exemption",
+      "hi": "हिमाचल प्रदेश ईवी नीति – पंजीकरण शुल्क व टोकन कर छूट",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh EV Policy – Registration Fee & Token Tax Exemption"
+    },
+    "description": {
+      "en": "Himachal Pradesh Electric Vehicles Policy, 2022 (Transport Department; reiterated in official Himachal Pradesh Government Press Information Bureau releases) provides 100% exemption in registration fee and token tax at the time of registration of electric vehicles. Open to private EV buyers registering in the state — middle-class / universal taxpayer benefit, not BPL-targeted. Distinct from existing HP NSAP/pension rows and from Medha Protsahan (income-capped coaching aid — not added as middle/universal this wave).",
+      "hi": "हिमाचल ईवी नीति 2022: ईवी पंजीकरण पर पंजीकरण शुल्क व टोकन कर में 100% छूट।",
+      "ml": "(EN — Malayalam review pending) Himachal Pradesh Electric Vehicles Policy, 2022 (Transport Department; reiterated in official Himachal Pradesh Government Press Information Bureau releases) provides 100% exemption in registration fee and token tax at the time of registration of electric vehicles. Open to private EV buyers registering in the state — middle-class / universal taxpayer benefit, not BPL-targeted. Distinct from existing HP NSAP/pension rows and from Medha Protsahan (income-capped coaching aid — not added as middle/universal this wave)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Himachal Pradesh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "HP EV Policy 2022: 100% registration-fee and token-tax exemption at EV registration — confirm vehicle categories and any time limits on transport.hp.gov.in / live PIB/Transport notices. max_annual_income null; implies_low_income false. State highway toll / permit concessions, if any, are separate.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live registration-fee and token-tax exemption practice on Transport HP / himachalpr.gov.in EV Policy communications before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "100% exemption from registration fee and token tax when registering an eligible electric vehicle in Himachal Pradesh.",
+      "hi": "हिमाचल में पात्र ईवी पंजीकरण पर पंजीकरण शुल्क व टोकन कर से 100% छूट।",
+      "ml": "(EN — Malayalam review pending) 100% exemption from registration fee and token tax when registering an eligible electric vehicle in Himachal Pradesh."
+    },
+    "required_documents": {
+      "en": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "hi": [
+        "Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "Identity and address proof as required by the registering RTO",
+        "Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "Any additional declarations listed in the live policy / RTO notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Vehicle invoice / sale certificate for an eligible electric vehicle",
+        "(EN — Malayalam review pending) Identity and address proof as required by the registering RTO",
+        "(EN — Malayalam review pending) Registration application through the state/UT transport workflow (e.g. Vahan)",
+        "(EN — Malayalam review pending) Any additional declarations listed in the live policy / RTO notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register an eligible EV in Himachal Pradesh through Transport / Vahan processes; registration fee and token tax exemptions are applied at registration under the EV Policy.",
+      "hi": "हिमाचल में पात्र ईवी पंजीकृत कर नीति के अनुसार शुल्क/टोकन कर छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Register an eligible EV in Himachal Pradesh through Transport / Vahan processes; registration fee and token tax exemptions are applied at registration under the EV Policy."
+    },
+    "apply_url": "https://himachalpr.gov.in/",
+    "office_type": "Transport Department, Government of Himachal Pradesh",
+    "official_source_url": "http://himachalpr.gov.in/OnePressRelease.aspx?ID=26189&Language=1",
+    "tags": [
+      "himachal-pradesh",
+      "ev",
+      "electric_vehicle",
+      "tax",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
   }
 ]
