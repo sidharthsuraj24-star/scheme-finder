@@ -1,0 +1,1593 @@
+[
+  {
+    "id": "dc-eitc",
+    "scheme_name": {
+      "en": "District of Columbia Earned Income Tax Credit (DC EITC)",
+      "ml": "District of Columbia Earned Income Tax Credit (DC EITC)",
+      "hi": "DC EITC – डिस्ट्रिक्ट ऑफ़ कोलंबिया"
+    },
+    "description": {
+      "en": "Refundable District of Columbia Earned Income Tax Credit for low- and moderate-income workers. For Tax Year 2025, the DC EITC generally equals 100% of the federal EITC for qualifying filers; certain ITIN filers and DC-specific expansions may also qualify per D-40 instructions.",
+      "ml": "Refundable District of Columbia Earned Income Tax Credit for low- and moderate-income workers. For Tax Year 2025, the DC EITC generally equals 100% of the federal EITC for qualifying filers; certain ITIN filers and DC-specific expansions may also qualify per D-40 instructions.",
+      "hi": "Refundable District of Columbia Earned Income Tax Credit for low- and moderate-income workers. For Tax Year 2025, the DC EITC generally equals 100% of the federal EITC for qualifying filers; certain ITIN filers and DC-specific expansions may also qualify per D-40 instructions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "District of Columbia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "DC EITC: generally mirrors federal EITC eligibility; TY2025 credit equals 100% of federal EITC for many filers; ITIN and DC-specific expansions per D-40 instructions. Income/credit tables follow federal EITC and change by tax year — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Tax-year percentage, ITIN/DC expansions, and monthly-payment rules change — verify=true via otr.cfo.dc.gov DC EITC / D-40 booklet.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable DC tax credit (TY2025: generally 100% of federal EITC for qualifying returns); optional monthly installment path when the DC EITC portion is $1,200 or more.",
+      "ml": "Refundable DC tax credit (TY2025: generally 100% of federal EITC for qualifying returns); optional monthly installment path when the DC EITC portion is $1,200 or more.",
+      "hi": "Refundable DC tax credit (TY2025: generally 100% of federal EITC for qualifying returns); optional monthly installment path when the DC EITC portion is $1,200 or more."
+    },
+    "required_documents": {
+      "en": [
+        "DC Form D-40",
+        "Federal return / federal EITC amount (when claimed)",
+        "SSN or valid ITIN as required",
+        "MyTax.DC.gov account recommended"
+      ],
+      "ml": [
+        "DC Form D-40",
+        "Federal return / federal EITC amount (when claimed)",
+        "SSN or valid ITIN as required",
+        "MyTax.DC.gov account recommended"
+      ],
+      "hi": [
+        "DC Form D-40",
+        "Federal return / federal EITC amount (when claimed)",
+        "SSN or valid ITIN as required",
+        "MyTax.DC.gov account recommended"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a DC Individual Income Tax Return (Form D-40) claiming the DC EITC via MyTax.DC.gov, paper, or tax software. See otr.cfo.dc.gov DC EITC.",
+      "ml": "File a DC Individual Income Tax Return (Form D-40) claiming the DC EITC via MyTax.DC.gov, paper, or tax software. See otr.cfo.dc.gov DC EITC.",
+      "hi": "File a DC Individual Income Tax Return (Form D-40) claiming the DC EITC via MyTax.DC.gov, paper, or tax software. See otr.cfo.dc.gov DC EITC."
+    },
+    "apply_url": "https://mytax.dc.gov/",
+    "official_source_url": "https://otr.cfo.dc.gov/page/dc-eitc",
+    "last_verified": "2026-09-24",
+    "office_type": "DC Office of Tax and Revenue (OTR)",
+    "tags": [
+      "united_states",
+      "district_of_columbia",
+      "dc",
+      "eitc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "hi-eitc",
+    "scheme_name": {
+      "en": "Hawaiʻi Earned Income Tax Credit (Form N-356)",
+      "ml": "Hawaiʻi Earned Income Tax Credit (Form N-356)",
+      "hi": "Hawaiʻi EITC – हवाई"
+    },
+    "description": {
+      "en": "Refundable Hawaiʻi earned income tax credit equal to 40% of the federal EITC claimed on the taxpayer’s federal return (part-year/nonresident amounts prorated by Hawaiʻi AGI / federal AGI). Claimed on Form N-356 with Schedule CR.",
+      "ml": "Refundable Hawaiʻi earned income tax credit equal to 40% of the federal EITC claimed on the taxpayer’s federal return (part-year/nonresident amounts prorated by Hawaiʻi AGI / federal AGI). Claimed on Form N-356 with Schedule CR.",
+      "hi": "Refundable Hawaiʻi earned income tax credit equal to 40% of the federal EITC claimed on the taxpayer’s federal return (part-year/nonresident amounts prorated by Hawaiʻi AGI / federal AGI). Claimed on Form N-356 with Schedule CR."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "HI EITC (HRS §235-55.75): must claim federal EITC and file HI return with same filing status/dependents; credit = 40% of federal EITC (prorated for part-year/NR). Claim deadline generally 12 months after tax year close. No separate HI income ceiling beyond federal EITC tables.",
+      "verify": true,
+      "verify_notes": "Federal EITC tables and HI form instructions change by tax year; statute sunset/reenactment notes may apply — verify=true via tax.hawaii.gov / Form N-356.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state credit equal to 40% of federal EITC (prorated for part-year/nonresidents); unused carryover rules may apply for certain prior years.",
+      "ml": "Refundable state credit equal to 40% of federal EITC (prorated for part-year/nonresidents); unused carryover rules may apply for certain prior years.",
+      "hi": "Refundable state credit equal to 40% of federal EITC (prorated for part-year/nonresidents); unused carryover rules may apply for certain prior years."
+    },
+    "required_documents": {
+      "en": [
+        "Federal return claiming federal EITC",
+        "Hawaiʻi Form N-11 or N-15",
+        "Form N-356",
+        "Schedule CR"
+      ],
+      "ml": [
+        "Federal return claiming federal EITC",
+        "Hawaiʻi Form N-11 or N-15",
+        "Form N-356",
+        "Schedule CR"
+      ],
+      "hi": [
+        "Federal return claiming federal EITC",
+        "Hawaiʻi Form N-11 or N-15",
+        "Form N-356",
+        "Schedule CR"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a Hawaiʻi income tax return with Form N-356 and Schedule CR. See tax.hawaii.gov individual tax information / EITC flyer.",
+      "ml": "File a Hawaiʻi income tax return with Form N-356 and Schedule CR. See tax.hawaii.gov individual tax information / EITC flyer.",
+      "hi": "File a Hawaiʻi income tax return with Form N-356 and Schedule CR. See tax.hawaii.gov individual tax information / EITC flyer."
+    },
+    "apply_url": "https://tax.hawaii.gov/geninfo/",
+    "official_source_url": "https://tax.hawaii.gov/geninfo/",
+    "last_verified": "2026-09-24",
+    "office_type": "Hawaiʻi Department of Taxation",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "eitc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "us-ar-homestead-credit",
+    "scheme_name": {
+      "en": "Arkansas Homestead Property Tax Credit",
+      "ml": "Arkansas Homestead Property Tax Credit",
+      "hi": "Arkansas Homestead Tax Credit – अर्कांसस"
+    },
+    "description": {
+      "en": "Arkansas homeowners may receive a homestead property tax credit on their principal residence (up to $500; the General Assembly authorized an increase up to $600 beginning with 2026 tax bills). Apply with the county assessor. Separate age-65+/disabled assessed-value freeze may also be available.",
+      "ml": "Arkansas homeowners may receive a homestead property tax credit on their principal residence (up to $500; the General Assembly authorized an increase up to $600 beginning with 2026 tax bills). Apply with the county assessor. Separate age-65+/disabled assessed-value freeze may also be available.",
+      "hi": "Arkansas homeowners may receive a homestead property tax credit on their principal residence (up to $500; the General Assembly authorized an increase up to $600 beginning with 2026 tax bills). Apply with the county assessor. Separate age-65+/disabled assessed-value freeze may also be available."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AR Homestead Tax Credit: principal residence homestead; one credit per homeowner per year; max amount set by statute/General Assembly ($500; up to $600 beginning 2026 bills per DFA). No general income ceiling for the base credit. Age 65+/disabled freeze is separate and does not freeze millage-driven tax changes.",
+      "verify": true,
+      "verify_notes": "Credit maximum and county application deadlines change — verify=true via dfa.arkansas.gov Property Tax Relief.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual homestead property tax credit reducing the tax bill on a qualifying principal residence (published max; $600 path for 2026 bills per DFA).",
+      "ml": "Annual homestead property tax credit reducing the tax bill on a qualifying principal residence (published max; $600 path for 2026 bills per DFA).",
+      "hi": "Annual homestead property tax credit reducing the tax bill on a qualifying principal residence (published max; $600 path for 2026 bills per DFA)."
+    },
+    "required_documents": {
+      "en": [
+        "County homestead credit application",
+        "Proof of ownership / life estate / recorded contract as applicable",
+        "Principal-residence documentation",
+        "Age or disability proof if also seeking the assessed-value freeze"
+      ],
+      "ml": [
+        "County homestead credit application",
+        "Proof of ownership / life estate / recorded contract as applicable",
+        "Principal-residence documentation",
+        "Age or disability proof if also seeking the assessed-value freeze"
+      ],
+      "hi": [
+        "County homestead credit application",
+        "Proof of ownership / life estate / recorded contract as applicable",
+        "Principal-residence documentation",
+        "Age or disability proof if also seeking the assessed-value freeze"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for the homestead tax credit (and optional age-65/disabled freeze) with your county assessor’s office. See dfa.arkansas.gov Property Tax Relief.",
+      "ml": "Apply for the homestead tax credit (and optional age-65/disabled freeze) with your county assessor’s office. See dfa.arkansas.gov Property Tax Relief.",
+      "hi": "Apply for the homestead tax credit (and optional age-65/disabled freeze) with your county assessor’s office. See dfa.arkansas.gov Property Tax Relief."
+    },
+    "apply_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief/",
+    "official_source_url": "https://www.dfa.arkansas.gov/office/arkansas-assessment-coordination-division/real-property/property-tax-relief/",
+    "last_verified": "2026-09-24",
+    "office_type": "Arkansas Assessment Coordination Division / County Assessors",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "homestead",
+      "property_tax",
+      "tax_credit",
+      "housing"
+    ]
+  },
+  {
+    "id": "ak-senior-property-exemption",
+    "scheme_name": {
+      "en": "Alaska Senior Citizen / Disabled Veteran Property Tax Exemption",
+      "ml": "Alaska Senior Citizen / Disabled Veteran Property Tax Exemption",
+      "hi": "Alaska Senior Property Tax Exemption – अलास्का"
+    },
+    "description": {
+      "en": "Alaska law (AS 29.45.030) requires municipalities that levy property tax to exempt up to the first $150,000 of assessed value of a primary residence owned and occupied by a resident age 65 or older (and provides related paths for eligible disabled veterans and certain widows/widowers). Apply through the local municipal/borough assessor by the local deadline.",
+      "ml": "Alaska law (AS 29.45.030) requires municipalities that levy property tax to exempt up to the first $150,000 of assessed value of a primary residence owned and occupied by a resident age 65 or older (and provides related paths for eligible disabled veterans and certain widows/widowers). Apply through the local municipal/borough assessor by the local deadline.",
+      "hi": "Alaska law (AS 29.45.030) requires municipalities that levy property tax to exempt up to the first $150,000 of assessed value of a primary residence owned and occupied by a resident age 65 or older (and provides related paths for eligible disabled veterans and certain widows/widowers). Apply through the local municipal/borough assessor by the local deadline."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AK senior exemption: municipal mandatory exemption up to $150,000 assessed value for qualifying age-65+ primary residence occupants (AS 29.45.030); disabled-veteran and widow/widower paths exist. Application deadlines and extra local options vary by municipality. No statewide income ceiling for the base statutory exemption.",
+      "verify": true,
+      "verify_notes": "Local deadlines, forms, and any optional local add-ons vary — verify=true via commerce.alaska.gov / your assessor.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Exemption of up to $150,000 of assessed value on a qualifying primary residence (municipal administration; local deadlines apply).",
+      "ml": "Exemption of up to $150,000 of assessed value on a qualifying primary residence (municipal administration; local deadlines apply).",
+      "hi": "Exemption of up to $150,000 of assessed value on a qualifying primary residence (municipal administration; local deadlines apply)."
+    },
+    "required_documents": {
+      "en": [
+        "Local senior / disabled-veteran exemption application",
+        "Proof of age 65+ or disabled-veteran status",
+        "Ownership and primary-residence occupancy proof",
+        "PFD eligibility or local residency docs if required by municipality"
+      ],
+      "ml": [
+        "Local senior / disabled-veteran exemption application",
+        "Proof of age 65+ or disabled-veteran status",
+        "Ownership and primary-residence occupancy proof",
+        "PFD eligibility or local residency docs if required by municipality"
+      ],
+      "hi": [
+        "Local senior / disabled-veteran exemption application",
+        "Proof of age 65+ or disabled-veteran status",
+        "Ownership and primary-residence occupancy proof",
+        "PFD eligibility or local residency docs if required by municipality"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with your municipal or borough assessor by the local deadline (often March). See commerce.alaska.gov Property Tax Exemptions in Alaska guidance.",
+      "ml": "Apply with your municipal or borough assessor by the local deadline (often March). See commerce.alaska.gov Property Tax Exemptions in Alaska guidance.",
+      "hi": "Apply with your municipal or borough assessor by the local deadline (often March). See commerce.alaska.gov Property Tax Exemptions in Alaska guidance."
+    },
+    "apply_url": "https://www.commerce.alaska.gov/web/dcra/LocalGovernmentResourceDesk/TaxationAssessment/PropertyTaxExemptionsinAlaska.aspx",
+    "official_source_url": "https://www.commerce.alaska.gov/web/dcra/LocalGovernmentResourceDesk/TaxationAssessment/PropertyTaxExemptionsinAlaska.aspx",
+    "last_verified": "2026-09-24",
+    "office_type": "Alaska DCRA / Municipal Assessors",
+    "tags": [
+      "united_states",
+      "alaska",
+      "senior",
+      "property_tax",
+      "exemption",
+      "housing",
+      "homestead"
+    ]
+  },
+  {
+    "id": "wy-property-tax-refund",
+    "scheme_name": {
+      "en": "Wyoming Property Tax Refund Program",
+      "ml": "Wyoming Property Tax Refund Program",
+      "hi": "Wyoming Property Tax Refund – वायोमिंग"
+    },
+    "description": {
+      "en": "State of Wyoming property tax refund for eligible residential taxpayers who paid property taxes timely, meet household income and asset screens, and have been Wyoming residents for the past five years. Administered by the Department of Revenue; apply via county treasurer or DOR by the published deadline (commonly first Monday in June).",
+      "ml": "State of Wyoming property tax refund for eligible residential taxpayers who paid property taxes timely, meet household income and asset screens, and have been Wyoming residents for the past five years. Administered by the Department of Revenue; apply via county treasurer or DOR by the published deadline (commonly first Monday in June).",
+      "hi": "State of Wyoming property tax refund for eligible residential taxpayers who paid property taxes timely, meet household income and asset screens, and have been Wyoming residents for the past five years. Administered by the Department of Revenue; apply via county treasurer or DOR by the published deadline (commonly first Monday in June)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WY Property Tax Refund: timely paid residential taxes; household income under greater of 145% of county or state median; assets (excluding house, one car per adult, IRA/pension) under published per-adult limit; 5-year WY residency. Amount and screens published annually — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income/asset caps, refund formula, and deadline change by year — verify=true via wyo-prop-div.wyo.gov Tax Relief.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refund of up to one-half of the median residential property tax amount or 75% of the property tax bill, whichever is less (per DOR program description).",
+      "ml": "Refund of up to one-half of the median residential property tax amount or 75% of the property tax bill, whichever is less (per DOR program description).",
+      "hi": "Refund of up to one-half of the median residential property tax amount or 75% of the property tax bill, whichever is less (per DOR program description)."
+    },
+    "required_documents": {
+      "en": [
+        "Property Tax Refund application",
+        "Proof of timely property tax payment",
+        "Income and asset documentation",
+        "Wyoming residency proof (5 years)"
+      ],
+      "ml": [
+        "Property Tax Refund application",
+        "Proof of timely property tax payment",
+        "Income and asset documentation",
+        "Wyoming residency proof (5 years)"
+      ],
+      "hi": [
+        "Property Tax Refund application",
+        "Proof of timely property tax payment",
+        "Income and asset documentation",
+        "Wyoming residency proof (5 years)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at your county treasurer’s office or through the Wyoming Department of Revenue Property Tax Refund path by the published deadline. See wyo-prop-div.wyo.gov Tax Relief.",
+      "ml": "Apply at your county treasurer’s office or through the Wyoming Department of Revenue Property Tax Refund path by the published deadline. See wyo-prop-div.wyo.gov Tax Relief.",
+      "hi": "Apply at your county treasurer’s office or through the Wyoming Department of Revenue Property Tax Refund path by the published deadline. See wyo-prop-div.wyo.gov Tax Relief."
+    },
+    "apply_url": "https://wyo-prop-div.wyo.gov/tax-relief",
+    "official_source_url": "https://wyo-prop-div.wyo.gov/tax-relief",
+    "last_verified": "2026-09-24",
+    "office_type": "Wyoming Department of Revenue – Property Tax Division",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "property_tax",
+      "tax_refund",
+      "housing",
+      "income_support"
+    ]
+  },
+  {
+    "id": "nh-property-tax-relief",
+    "scheme_name": {
+      "en": "New Hampshire Low & Moderate Income Homeowners Property Tax Relief",
+      "ml": "New Hampshire Low & Moderate Income Homeowners Property Tax Relief",
+      "hi": "NH Low & Moderate Property Tax Relief – न्यू हैम्पशायर"
+    },
+    "description": {
+      "en": "New Hampshire program helping eligible low- and moderate-income homeowners offset the state education property tax. Claimants must own and have resided in a NH homestead on April 1 and meet household income screens. File Form DP-8 (online via Granite Tax Connect or mail) between May 1 and June 30 following the final tax bill.",
+      "ml": "New Hampshire program helping eligible low- and moderate-income homeowners offset the state education property tax. Claimants must own and have resided in a NH homestead on April 1 and meet household income screens. File Form DP-8 (online via Granite Tax Connect or mail) between May 1 and June 30 following the final tax bill.",
+      "hi": "New Hampshire program helping eligible low- and moderate-income homeowners offset the state education property tax. Claimants must own and have resided in a NH homestead on April 1 and meet household income screens. File Form DP-8 (online via Granite Tax Connect or mail) between May 1 and June 30 following the final tax bill."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Hampshire"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NH LMI Homeowners Property Tax Relief (RSA 198:57): own/occupy NH homestead on April 1; household income ≤ $37,000 single or ≤ $47,000 married/HoH per DRA FAQ (amounts can change). Relief is for state education property tax component. No permanent ceiling encoded beyond published annual screens.",
+      "verify": true,
+      "verify_notes": "Income limits, filing window, and relief formula — verify=true via revenue.nh.gov LMI Property Tax Relief FAQ.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "State education property tax relief payment calculated from homestead assessed value, tax rate, and income (amount varies yearly).",
+      "ml": "State education property tax relief payment calculated from homestead assessed value, tax rate, and income (amount varies yearly).",
+      "hi": "State education property tax relief payment calculated from homestead assessed value, tax rate, and income (amount varies yearly)."
+    },
+    "required_documents": {
+      "en": [
+        "Form DP-8",
+        "Final property tax bill (net assessed value / map-lot)",
+        "Federal tax return(s) for adult household members",
+        "Deed if ownership names differ"
+      ],
+      "ml": [
+        "Form DP-8",
+        "Final property tax bill (net assessed value / map-lot)",
+        "Federal tax return(s) for adult household members",
+        "Deed if ownership names differ"
+      ],
+      "hi": [
+        "Form DP-8",
+        "Final property tax bill (net assessed value / map-lot)",
+        "Federal tax return(s) for adult household members",
+        "Deed if ownership names differ"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit Form DP-8 on Granite Tax Connect (gtc.revenue.nh.gov) or mail to NH DRA between May 1 and June 30. See revenue.nh.gov Low & Moderate Property Tax Relief FAQ.",
+      "ml": "Submit Form DP-8 on Granite Tax Connect (gtc.revenue.nh.gov) or mail to NH DRA between May 1 and June 30. See revenue.nh.gov Low & Moderate Property Tax Relief FAQ.",
+      "hi": "Submit Form DP-8 on Granite Tax Connect (gtc.revenue.nh.gov) or mail to NH DRA between May 1 and June 30. See revenue.nh.gov Low & Moderate Property Tax Relief FAQ."
+    },
+    "apply_url": "https://gtc.revenue.nh.gov/",
+    "official_source_url": "https://www.revenue.nh.gov/resource-center/frequently-asked-questions/low-moderate-property-tax-relief",
+    "last_verified": "2026-09-24",
+    "office_type": "New Hampshire Department of Revenue Administration",
+    "tags": [
+      "united_states",
+      "new_hampshire",
+      "property_tax",
+      "tax_relief",
+      "housing",
+      "income_support"
+    ]
+  },
+  {
+    "id": "nm-working-families-tax-credit",
+    "scheme_name": {
+      "en": "New Mexico Working Families Tax Credit (WFTC)",
+      "ml": "New Mexico Working Families Tax Credit (WFTC)",
+      "hi": "New Mexico WFTC – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "Refundable New Mexico Working Families Tax Credit claimed on Form PIT-1. For recent tax years the credit has been a published percentage of the federal EITC (e.g. 25% cited for TY2023+ on TRD overview); certain filers missing an ID number or ages 18–24 who would otherwise qualify may still claim under NM rules. Legislative changes may rename/reshape the credit for later years — verify current PIT instructions.",
+      "ml": "Refundable New Mexico Working Families Tax Credit claimed on Form PIT-1. For recent tax years the credit has been a published percentage of the federal EITC (e.g. 25% cited for TY2023+ on TRD overview); certain filers missing an ID number or ages 18–24 who would otherwise qualify may still claim under NM rules. Legislative changes may rename/reshape the credit for later years — verify current PIT instructions.",
+      "hi": "Refundable New Mexico Working Families Tax Credit claimed on Form PIT-1. For recent tax years the credit has been a published percentage of the federal EITC (e.g. 25% cited for TY2023+ on TRD overview); certain filers missing an ID number or ages 18–24 who would otherwise qualify may still claim under NM rules. Legislative changes may rename/reshape the credit for later years — verify current PIT instructions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM WFTC: refundable credit historically a % of federal EITC on PIT-1; NM expansions for certain ITIN/age cases. Percentage and program name may change by tax year (e.g. legislative EITC redesign) — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Credit percentage, expansions, and any rename to a state EITC — verify=true via tax.newmexico.gov PIT-1 instructions for the filing year.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state credit tied to federal EITC percentage (and NM expansions) reducing/refunding New Mexico income tax.",
+      "ml": "Refundable state credit tied to federal EITC percentage (and NM expansions) reducing/refunding New Mexico income tax.",
+      "hi": "Refundable state credit tied to federal EITC percentage (and NM expansions) reducing/refunding New Mexico income tax."
+    },
+    "required_documents": {
+      "en": [
+        "New Mexico Form PIT-1",
+        "Federal return / EITC information",
+        "SSN or ITIN as required",
+        "PIT schedules as instructed"
+      ],
+      "ml": [
+        "New Mexico Form PIT-1",
+        "Federal return / EITC information",
+        "SSN or ITIN as required",
+        "PIT schedules as instructed"
+      ],
+      "hi": [
+        "New Mexico Form PIT-1",
+        "Federal return / EITC information",
+        "SSN or ITIN as required",
+        "PIT schedules as instructed"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a New Mexico PIT-1 claiming the Working Families Tax Credit (and related schedules). Online filing via Taxpayer Access Point (TAP). See tax.newmexico.gov personal income tax overview.",
+      "ml": "File a New Mexico PIT-1 claiming the Working Families Tax Credit (and related schedules). Online filing via Taxpayer Access Point (TAP). See tax.newmexico.gov personal income tax overview.",
+      "hi": "File a New Mexico PIT-1 claiming the Working Families Tax Credit (and related schedules). Online filing via Taxpayer Access Point (TAP). See tax.newmexico.gov personal income tax overview."
+    },
+    "apply_url": "https://www.tax.newmexico.gov/individuals/personal-income-tax-information-overview/",
+    "official_source_url": "https://www.tax.newmexico.gov/individuals/personal-income-tax-information-overview/",
+    "last_verified": "2026-09-24",
+    "office_type": "New Mexico Taxation and Revenue Department",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "eitc",
+      "wftc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "sd-assessment-freeze",
+    "scheme_name": {
+      "en": "South Dakota Assessment Freeze for the Elderly & Disabled",
+      "ml": "South Dakota Assessment Freeze for the Elderly & Disabled",
+      "hi": "SD Assessment Freeze – साउथ डकोटा"
+    },
+    "description": {
+      "en": "South Dakota program that can reduce the assessed value of an owner-occupied single-family dwelling for qualifying homeowners age 65+ or disabled (Social Security definition), with residency, occupancy, income, and property-value screens. Apply annually with the county treasurer by April 1. Distinct from the Sales/Property Tax Refund already catalogued.",
+      "ml": "South Dakota program that can reduce the assessed value of an owner-occupied single-family dwelling for qualifying homeowners age 65+ or disabled (Social Security definition), with residency, occupancy, income, and property-value screens. Apply annually with the county treasurer by April 1. Distinct from the Sales/Property Tax Refund already catalogued.",
+      "hi": "South Dakota program that can reduce the assessed value of an owner-occupied single-family dwelling for qualifying homeowners age 65+ or disabled (Social Security definition), with residency, occupancy, income, and property-value screens. Apply annually with the county treasurer by April 1. Distinct from the Sales/Property Tax Refund already catalogued."
+    },
+    "eligibility_rules": {
+      "min_age": 65,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "South Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SD Assessment Freeze: age 65+ or disabled; owner-occupied single-family dwelling; generally 5-year SD residency/ownership unless prior-year freeze; ≥200 days occupancy prior year; income and property value limits apply. Separate from sales/property tax refund and homestead deferral programs.",
+      "verify": true,
+      "verify_notes": "Income/value limits and forms update annually — verify=true via dor.sd.gov Relief Programs.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Reduction in assessed value of the qualifying dwelling (house, garage, and lot up to one acre), lowering property taxes while eligible.",
+      "ml": "Reduction in assessed value of the qualifying dwelling (house, garage, and lot up to one acre), lowering property taxes while eligible.",
+      "hi": "Reduction in assessed value of the qualifying dwelling (house, garage, and lot up to one acre), lowering property taxes while eligible."
+    },
+    "required_documents": {
+      "en": [
+        "County assessment freeze application",
+        "Proof of age 65+ or disability",
+        "Income documentation within published limits",
+        "Ownership / occupancy / residency evidence"
+      ],
+      "ml": [
+        "County assessment freeze application",
+        "Proof of age 65+ or disability",
+        "Income documentation within published limits",
+        "Ownership / occupancy / residency evidence"
+      ],
+      "hi": [
+        "County assessment freeze application",
+        "Proof of age 65+ or disability",
+        "Income documentation within published limits",
+        "Ownership / occupancy / residency evidence"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply annually with your county treasurer by April 1 (forms available from January). See dor.sd.gov property tax relief programs.",
+      "ml": "Apply annually with your county treasurer by April 1 (forms available from January). See dor.sd.gov property tax relief programs.",
+      "hi": "Apply annually with your county treasurer by April 1 (forms available from January). See dor.sd.gov property tax relief programs."
+    },
+    "apply_url": "https://dor.sd.gov/individuals/taxes/property-tax/relief-programs/",
+    "official_source_url": "https://dor.sd.gov/individuals/taxes/property-tax/relief-programs/",
+    "last_verified": "2026-09-24",
+    "office_type": "South Dakota Department of Revenue / County Treasurers",
+    "tags": [
+      "united_states",
+      "south_dakota",
+      "property_tax",
+      "assessment_freeze",
+      "senior",
+      "disability",
+      "housing"
+    ]
+  },
+  {
+    "id": "al-student-assistance",
+    "scheme_name": {
+      "en": "Alabama Student Assistance Program (ASAP)",
+      "ml": "Alabama Student Assistance Program (ASAP)",
+      "hi": "Alabama ASAP – अलाबामा"
+    },
+    "description": {
+      "en": "Need-based Alabama Student Assistance Program grant for eligible undergraduate Alabama residents attending participating Alabama institutions. Awards are campus-administered from state allocations; schools typically prioritize students with documented need after FAFSA.",
+      "ml": "Need-based Alabama Student Assistance Program grant for eligible undergraduate Alabama residents attending participating Alabama institutions. Awards are campus-administered from state allocations; schools typically prioritize students with documented need after FAFSA.",
+      "hi": "Need-based Alabama Student Assistance Program grant for eligible undergraduate Alabama residents attending participating Alabama institutions. Awards are campus-administered from state allocations; schools typically prioritize students with documented need after FAFSA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alabama"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AL ASAP: Alabama resident undergraduates at participating AL schools; financial need via FAFSA; award amounts and priority set by institution within state rules. No single permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award ranges, participating schools, and packaging priority change by year — verify=true via Alabama Admin Code 300-4-2 / campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid (commonly cited range on ACHE materials about $300–$5,000 per academic year, subject to funding and enrollment intensity).",
+      "ml": "Need-based grant aid (commonly cited range on ACHE materials about $300–$5,000 per academic year, subject to funding and enrollment intensity).",
+      "hi": "Need-based grant aid (commonly cited range on ACHE materials about $300–$5,000 per academic year, subject to funding and enrollment intensity)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Alabama residency documentation as required by school",
+        "Enrollment at a participating Alabama institution",
+        "Satisfactory academic progress documentation"
+      ],
+      "ml": [
+        "FAFSA",
+        "Alabama residency documentation as required by school",
+        "Enrollment at a participating Alabama institution",
+        "Satisfactory academic progress documentation"
+      ],
+      "hi": [
+        "FAFSA",
+        "Alabama residency documentation as required by school",
+        "Enrollment at a participating Alabama institution",
+        "Satisfactory academic progress documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete the FAFSA listing your Alabama school; contact the campus financial-aid office (no separate statewide ASAP form). Program rules: Alabama Administrative Code ch. 300-4-2.",
+      "ml": "Complete the FAFSA listing your Alabama school; contact the campus financial-aid office (no separate statewide ASAP form). Program rules: Alabama Administrative Code ch. 300-4-2.",
+      "hi": "Complete the FAFSA listing your Alabama school; contact the campus financial-aid office (no separate statewide ASAP form). Program rules: Alabama Administrative Code ch. 300-4-2."
+    },
+    "apply_url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+    "official_source_url": "https://admincode.legislature.state.al.us/api/chapter/300-4-2",
+    "last_verified": "2026-09-24",
+    "office_type": "Alabama Commission on Higher Education (ASAP) / Campus Financial Aid",
+    "tags": [
+      "united_states",
+      "alabama",
+      "asap",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "fl-bright-futures",
+    "scheme_name": {
+      "en": "Florida Bright Futures Scholarship Program",
+      "ml": "Florida Bright Futures Scholarship Program",
+      "hi": "Florida Bright Futures – फ़्लोरिडा"
+    },
+    "description": {
+      "en": "Florida lottery-funded merit scholarship for eligible Florida high-school graduates attending approved Florida postsecondary institutions. Award paths include Florida Academic Scholars (FAS), Florida Medallion Scholars (FMS), Gold Seal CAPE, and Gold Seal Vocational, each with GPA, coursework, service/work hours, and (where required) test-score rules published in the Bright Futures handbook.",
+      "ml": "Florida lottery-funded merit scholarship for eligible Florida high-school graduates attending approved Florida postsecondary institutions. Award paths include Florida Academic Scholars (FAS), Florida Medallion Scholars (FMS), Gold Seal CAPE, and Gold Seal Vocational, each with GPA, coursework, service/work hours, and (where required) test-score rules published in the Bright Futures handbook.",
+      "hi": "Florida lottery-funded merit scholarship for eligible Florida high-school graduates attending approved Florida postsecondary institutions. Award paths include Florida Academic Scholars (FAS), Florida Medallion Scholars (FMS), Gold Seal CAPE, and Gold Seal Vocational, each with GPA, coursework, service/work hours, and (where required) test-score rules published in the Bright Futures handbook."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Florida"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "FL Bright Futures: Florida graduate; meet FAS/FMS/Gold Seal path requirements (GPA, 16 prep credits or CTE rules, service/work hours, test scores where required); enroll at eligible FL institution. Merit-based — not a low-income screen. Exact cut scores and award percentages change by cohort year.",
+      "verify": true,
+      "verify_notes": "GPA/test/service thresholds and award percentages change — verify=true via floridabrightfutures.gov handbook.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Scholarship covering a published share of tuition/fees (and related educational costs per award type) at eligible Florida institutions — amounts vary by FAS/FMS/Gold Seal path and year.",
+      "ml": "Scholarship covering a published share of tuition/fees (and related educational costs per award type) at eligible Florida institutions — amounts vary by FAS/FMS/Gold Seal path and year.",
+      "hi": "Scholarship covering a published share of tuition/fees (and related educational costs per award type) at eligible Florida institutions — amounts vary by FAS/FMS/Gold Seal path and year."
+    },
+    "required_documents": {
+      "en": [
+        "Florida Financial Aid Application (FFAA)",
+        "Florida high school transcript / GPA",
+        "Service or paid-work hours documentation",
+        "ACT/CLT/SAT or other required test scores if applicable to award type"
+      ],
+      "ml": [
+        "Florida Financial Aid Application (FFAA)",
+        "Florida high school transcript / GPA",
+        "Service or paid-work hours documentation",
+        "ACT/CLT/SAT or other required test scores if applicable to award type"
+      ],
+      "hi": [
+        "Florida Financial Aid Application (FFAA)",
+        "Florida high school transcript / GPA",
+        "Service or paid-work hours documentation",
+        "ACT/CLT/SAT or other required test scores if applicable to award type"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Create a student account and submit the Florida Financial Aid Application (FFAA) by the published deadline (commonly no later than August 31 after high-school graduation). Track status on the Bright Futures / OSFA student portal.",
+      "ml": "Create a student account and submit the Florida Financial Aid Application (FFAA) by the published deadline (commonly no later than August 31 after high-school graduation). Track status on the Bright Futures / OSFA student portal.",
+      "hi": "Create a student account and submit the Florida Financial Aid Application (FFAA) by the published deadline (commonly no later than August 31 after high-school graduation). Track status on the Bright Futures / OSFA student portal."
+    },
+    "apply_url": "https://www.floridabrightfutures.gov/",
+    "official_source_url": "https://www.floridabrightfutures.gov/",
+    "last_verified": "2026-09-24",
+    "office_type": "Florida Department of Education / Bright Futures",
+    "tags": [
+      "united_states",
+      "florida",
+      "bright_futures",
+      "scholarship",
+      "college",
+      "merit",
+      "education"
+    ]
+  },
+  {
+    "id": "co-student-grant",
+    "scheme_name": {
+      "en": "Colorado Student Grant (CSG)",
+      "ml": "Colorado Student Grant (CSG)",
+      "hi": "Colorado Student Grant – कोलोराडो"
+    },
+    "description": {
+      "en": "Need-based Colorado Student Grant for eligible Colorado resident undergraduates (and related state need-based aid) allocated to participating institutions and packaged by campus financial-aid offices. Students are considered after filing FAFSA or the Colorado Application for State Financial Aid (CASFA) when FAFSA-ineligible. Distinct from the College Opportunity Fund (COF) stipend already catalogued.",
+      "ml": "Need-based Colorado Student Grant for eligible Colorado resident undergraduates (and related state need-based aid) allocated to participating institutions and packaged by campus financial-aid offices. Students are considered after filing FAFSA or the Colorado Application for State Financial Aid (CASFA) when FAFSA-ineligible. Distinct from the College Opportunity Fund (COF) stipend already catalogued.",
+      "hi": "Need-based Colorado Student Grant for eligible Colorado resident undergraduates (and related state need-based aid) allocated to participating institutions and packaged by campus financial-aid offices. Students are considered after filing FAFSA or the Colorado Application for State Financial Aid (CASFA) when FAFSA-ineligible. Distinct from the College Opportunity Fund (COF) stipend already catalogued."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Colorado"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CO Student Grant: Colorado residents at participating institutions; need via FAFSA/CASFA federal methodology; institutions package awards under CDHE guidelines (levels/maxima for proprietary schools published in annual guidelines). No single permanent income ceiling encoded. Separate from COF stipend.",
+      "verify": true,
+      "verify_notes": "Institution packaging, SAI levels, and maxima change by academic year — verify=true via cdhe.colorado.gov / campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward educational costs at participating Colorado colleges (award size set by institution within CDHE guidelines and available funds).",
+      "ml": "Need-based grant aid toward educational costs at participating Colorado colleges (award size set by institution within CDHE guidelines and available funds).",
+      "hi": "Need-based grant aid toward educational costs at participating Colorado colleges (award size set by institution within CDHE guidelines and available funds)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or CASFA",
+        "Colorado residency documentation as required",
+        "Enrollment at a participating Colorado institution",
+        "Any campus financial-aid forms"
+      ],
+      "ml": [
+        "FAFSA or CASFA",
+        "Colorado residency documentation as required",
+        "Enrollment at a participating Colorado institution",
+        "Any campus financial-aid forms"
+      ],
+      "hi": [
+        "FAFSA or CASFA",
+        "Colorado residency documentation as required",
+        "Enrollment at a participating Colorado institution",
+        "Any campus financial-aid forms"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA (or CASFA if not FAFSA-eligible) and complete your college’s financial-aid process. See cdhe.colorado.gov Financial Aid for Students.",
+      "ml": "File FAFSA (or CASFA if not FAFSA-eligible) and complete your college’s financial-aid process. See cdhe.colorado.gov Financial Aid for Students.",
+      "hi": "File FAFSA (or CASFA if not FAFSA-eligible) and complete your college’s financial-aid process. See cdhe.colorado.gov Financial Aid for Students."
+    },
+    "apply_url": "https://cdhe.colorado.gov/financial-aid-for-students",
+    "official_source_url": "https://cdhe.colorado.gov/financial-aid-for-students",
+    "last_verified": "2026-09-24",
+    "office_type": "Colorado Department of Higher Education / Campus Financial Aid",
+    "tags": [
+      "united_states",
+      "colorado",
+      "colorado_student_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "ct-willis-scholarship",
+    "scheme_name": {
+      "en": "Connecticut Roberta B. Willis Scholarship Program",
+      "ml": "Connecticut Roberta B. Willis Scholarship Program",
+      "hi": "Roberta B. Willis Scholarship – कनेक्टिकट"
+    },
+    "description": {
+      "en": "Connecticut Office of Higher Education scholarship/grant aid for eligible Connecticut residents pursuing a first associate or bachelor’s degree at eligible in-state public or nonprofit private colleges. Includes need-merit scholarship and need-based grant components; FAFSA and published need/merit screens apply.",
+      "ml": "Connecticut Office of Higher Education scholarship/grant aid for eligible Connecticut residents pursuing a first associate or bachelor’s degree at eligible in-state public or nonprofit private colleges. Includes need-merit scholarship and need-based grant components; FAFSA and published need/merit screens apply.",
+      "hi": "Connecticut Office of Higher Education scholarship/grant aid for eligible Connecticut residents pursuing a first associate or bachelor’s degree at eligible in-state public or nonprofit private colleges. Includes need-merit scholarship and need-based grant components; FAFSA and published need/merit screens apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Connecticut"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "CT Roberta B. Willis: CT residents in first associate/bachelor’s at eligible CT schools; need and/or merit screens (FAFSA SAI cutoffs, class rank/SAT/ACT for need-merit) published by OHE each year. No permanent single ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SAI cutoffs, award maxima, and deadlines change by FY — verify=true via portal.ct.gov OHE Willis materials.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "State scholarship/grant aid toward tuition and educational costs (published annual maxima differ for need-merit vs need-based paths and two-year vs four-year programs).",
+      "ml": "State scholarship/grant aid toward tuition and educational costs (published annual maxima differ for need-merit vs need-based paths and two-year vs four-year programs).",
+      "hi": "State scholarship/grant aid toward tuition and educational costs (published annual maxima differ for need-merit vs need-based paths and two-year vs four-year programs)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Connecticut residency documentation",
+        "High school counselor merit application materials if seeking need-merit path",
+        "Enrollment at an eligible CT institution"
+      ],
+      "ml": [
+        "FAFSA",
+        "Connecticut residency documentation",
+        "High school counselor merit application materials if seeking need-merit path",
+        "Enrollment at an eligible CT institution"
+      ],
+      "hi": [
+        "FAFSA",
+        "Connecticut residency documentation",
+        "High school counselor merit application materials if seeking need-merit path",
+        "Enrollment at an eligible CT institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit FAFSA by the published CT priority date and follow OHE Roberta B. Willis instructions (counselor submission for need-merit). See portal.ct.gov OHE student aid programs.",
+      "ml": "Submit FAFSA by the published CT priority date and follow OHE Roberta B. Willis instructions (counselor submission for need-merit). See portal.ct.gov OHE student aid programs.",
+      "hi": "Submit FAFSA by the published CT priority date and follow OHE Roberta B. Willis instructions (counselor submission for need-merit). See portal.ct.gov OHE student aid programs."
+    },
+    "apply_url": "https://portal.ct.gov/ohe/knowledge-base/articles/for-students/connecticut-student-aid-programs",
+    "official_source_url": "https://portal.ct.gov/ohe/knowledge-base/articles/for-students/connecticut-student-aid-programs",
+    "last_verified": "2026-09-24",
+    "office_type": "Connecticut Office of Higher Education",
+    "tags": [
+      "united_states",
+      "connecticut",
+      "willis",
+      "scholarship",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "ks-comprehensive-grant",
+    "scheme_name": {
+      "en": "Kansas Comprehensive Grant",
+      "ml": "Kansas Comprehensive Grant",
+      "hi": "Kansas Comprehensive Grant – कैनसस"
+    },
+    "description": {
+      "en": "Need-based State of Kansas Comprehensive Grant for Kansas resident undergraduates enrolled full-time at eligible Kansas public and private colleges. There is no separate application — students are considered after filing the FAFSA listing an eligible institution. Funding is limited (about 1 in 3 eligible students assisted per KBOR materials).",
+      "ml": "Need-based State of Kansas Comprehensive Grant for Kansas resident undergraduates enrolled full-time at eligible Kansas public and private colleges. There is no separate application — students are considered after filing the FAFSA listing an eligible institution. Funding is limited (about 1 in 3 eligible students assisted per KBOR materials).",
+      "hi": "Need-based State of Kansas Comprehensive Grant for Kansas resident undergraduates enrolled full-time at eligible Kansas public and private colleges. There is no separate application — students are considered after filing the FAFSA listing an eligible institution. Funding is limited (about 1 in 3 eligible students assisted per KBOR materials)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KS Comprehensive Grant: KS resident; full-time at eligible KS public/private colleges; financial need via FAFSA; limited funds. No separate application. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Priority dates, eligible schools, and award ranges change — verify=true via kansasregents.gov Scholarships and Grants.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid (KBOR cites approximate ranges such as $100–$4,000 at public institutions and $200–$10,000 at private institutions, subject to funding).",
+      "ml": "Need-based grant aid (KBOR cites approximate ranges such as $100–$4,000 at public institutions and $200–$10,000 at private institutions, subject to funding).",
+      "hi": "Need-based grant aid (KBOR cites approximate ranges such as $100–$4,000 at public institutions and $200–$10,000 at private institutions, subject to funding)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA listing an eligible Kansas institution",
+        "Kansas residency documentation as required",
+        "Full-time undergraduate enrollment"
+      ],
+      "ml": [
+        "FAFSA listing an eligible Kansas institution",
+        "Kansas residency documentation as required",
+        "Full-time undergraduate enrollment"
+      ],
+      "hi": [
+        "FAFSA listing an eligible Kansas institution",
+        "Kansas residency documentation as required",
+        "Full-time undergraduate enrollment"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete and submit the FAFSA listing one or more eligible Kansas colleges; meet the Kansas FAFSA priority date. See kansasregents.gov Scholarships and Grants.",
+      "ml": "Complete and submit the FAFSA listing one or more eligible Kansas colleges; meet the Kansas FAFSA priority date. See kansasregents.gov Scholarships and Grants.",
+      "hi": "Complete and submit the FAFSA listing one or more eligible Kansas colleges; meet the Kansas FAFSA priority date. See kansasregents.gov Scholarships and Grants."
+    },
+    "apply_url": "https://kansasregents.gov/students/student_financial_aid/scholarships_and_grants",
+    "official_source_url": "https://kansasregents.gov/students/student_financial_aid/scholarships_and_grants",
+    "last_verified": "2026-09-24",
+    "office_type": "Kansas Board of Regents",
+    "tags": [
+      "united_states",
+      "kansas",
+      "comprehensive_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "ne-opportunity-grant",
+    "scheme_name": {
+      "en": "Nebraska Opportunity Grant (NOG)",
+      "ml": "Nebraska Opportunity Grant (NOG)",
+      "hi": "Nebraska Opportunity Grant – नेब्रास्का"
+    },
+    "description": {
+      "en": "Need-based Nebraska Opportunity Grant (formerly Nebraska State Grant) for Nebraska residents attending eligible Nebraska postsecondary institutions who meet Student Aid Index screens via FAFSA. Awards are made through institutions; some schools also require a campus aid application.",
+      "ml": "Need-based Nebraska Opportunity Grant (formerly Nebraska State Grant) for Nebraska residents attending eligible Nebraska postsecondary institutions who meet Student Aid Index screens via FAFSA. Awards are made through institutions; some schools also require a campus aid application.",
+      "hi": "Need-based Nebraska Opportunity Grant (formerly Nebraska State Grant) for Nebraska residents attending eligible Nebraska postsecondary institutions who meet Student Aid Index screens via FAFSA. Awards are made through institutions; some schools also require a campus aid application."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nebraska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NE NOG: Nebraska resident at eligible NE institution; minimum SAI / need via FAFSA; awarded by campus. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "SAI screens, funding, and campus deadlines change — verify=true via ccpe.nebraska.gov NOG.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward educational costs (average award illustrated in CCPE year-end reports; actual amounts vary by school and funding).",
+      "ml": "Need-based grant aid toward educational costs (average award illustrated in CCPE year-end reports; actual amounts vary by school and funding).",
+      "hi": "Need-based grant aid toward educational costs (average award illustrated in CCPE year-end reports; actual amounts vary by school and funding)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Nebraska residency documentation",
+        "Admission/enrollment at an eligible Nebraska institution",
+        "Any institutional financial-aid application"
+      ],
+      "ml": [
+        "FAFSA",
+        "Nebraska residency documentation",
+        "Admission/enrollment at an eligible Nebraska institution",
+        "Any institutional financial-aid application"
+      ],
+      "hi": [
+        "FAFSA",
+        "Nebraska residency documentation",
+        "Admission/enrollment at an eligible Nebraska institution",
+        "Any institutional financial-aid application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply to your Nebraska college and complete the FAFSA (plus any campus forms). See ccpe.nebraska.gov Nebraska Opportunity Grant.",
+      "ml": "Apply to your Nebraska college and complete the FAFSA (plus any campus forms). See ccpe.nebraska.gov Nebraska Opportunity Grant.",
+      "hi": "Apply to your Nebraska college and complete the FAFSA (plus any campus forms). See ccpe.nebraska.gov Nebraska Opportunity Grant."
+    },
+    "apply_url": "https://ccpe.nebraska.gov/nebraska-opportunity-grant-nog",
+    "official_source_url": "https://ccpe.nebraska.gov/nebraska-opportunity-grant-nog",
+    "last_verified": "2026-09-24",
+    "office_type": "Nebraska Coordinating Commission for Postsecondary Education / Campus Aid Offices",
+    "tags": [
+      "united_states",
+      "nebraska",
+      "opportunity_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "nj-tag",
+    "scheme_name": {
+      "en": "New Jersey Tuition Aid Grant (TAG)",
+      "ml": "New Jersey Tuition Aid Grant (TAG)",
+      "hi": "New Jersey TAG – न्यू जर्सी"
+    },
+    "description": {
+      "en": "Need-based New Jersey Tuition Aid Grant helping eligible New Jersey residents pay tuition at approved in-state colleges and universities. Students apply via FAFSA (or the NJ Alternative Financial Aid Application for eligible NJ Dreamers), then create/monitor an NJFAMS account for state aid.",
+      "ml": "Need-based New Jersey Tuition Aid Grant helping eligible New Jersey residents pay tuition at approved in-state colleges and universities. Students apply via FAFSA (or the NJ Alternative Financial Aid Application for eligible NJ Dreamers), then create/monitor an NJFAMS account for state aid.",
+      "hi": "Need-based New Jersey Tuition Aid Grant helping eligible New Jersey residents pay tuition at approved in-state colleges and universities. Students apply via FAFSA (or the NJ Alternative Financial Aid Application for eligible NJ Dreamers), then create/monitor an NJFAMS account for state aid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Jersey"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NJ TAG: NJ residents at approved in-state colleges; need-based; FAFSA or NJ Alternative Application + NJFAMS. Deadlines differ for renewals vs new/spring starts. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Deadlines, award charts, and Dreamer rules change — verify=true via nj.gov College For You / HESAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant covering a portion of tuition at eligible New Jersey institutions (award varies by need, school type, enrollment, and funding).",
+      "ml": "Need-based grant covering a portion of tuition at eligible New Jersey institutions (award varies by need, school type, enrollment, and funding).",
+      "hi": "Need-based grant covering a portion of tuition at eligible New Jersey institutions (award varies by need, school type, enrollment, and funding)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or NJ Alternative Financial Aid Application",
+        "NJFAMS account",
+        "New Jersey residency / Dreamer documentation as required",
+        "Enrollment at an approved NJ institution"
+      ],
+      "ml": [
+        "FAFSA or NJ Alternative Financial Aid Application",
+        "NJFAMS account",
+        "New Jersey residency / Dreamer documentation as required",
+        "Enrollment at an approved NJ institution"
+      ],
+      "hi": [
+        "FAFSA or NJ Alternative Financial Aid Application",
+        "NJFAMS account",
+        "New Jersey residency / Dreamer documentation as required",
+        "Enrollment at an approved NJ institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA or the NJ Alternative Application by the applicable HESAA deadline, create your NJFAMS account, and complete any To-Do List items. See nj.gov College For You financial aid.",
+      "ml": "File FAFSA or the NJ Alternative Application by the applicable HESAA deadline, create your NJFAMS account, and complete any To-Do List items. See nj.gov College For You financial aid.",
+      "hi": "File FAFSA or the NJ Alternative Application by the applicable HESAA deadline, create your NJFAMS account, and complete any To-Do List items. See nj.gov College For You financial aid."
+    },
+    "apply_url": "https://www.nj.gov/highereducation/CollegeForYou/financial-aid.shtml",
+    "official_source_url": "https://www.nj.gov/highereducation/CollegeForYou/financial-aid.shtml",
+    "last_verified": "2026-09-24",
+    "office_type": "NJ Office of the Secretary of Higher Education / HESAA",
+    "tags": [
+      "united_states",
+      "new_jersey",
+      "tag",
+      "tuition_aid_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "pa-state-grant",
+    "scheme_name": {
+      "en": "Pennsylvania State Grant Program (PHEAA)",
+      "ml": "Pennsylvania State Grant Program (PHEAA)",
+      "hi": "PA State Grant – पेन्सिलवेनिया"
+    },
+    "description": {
+      "en": "Need-based Pennsylvania State Grant administered with PHEAA for eligible Pennsylvania residents attending approved undergraduate programs. Students file the FAFSA (and complete any required PA State Grant Form / GrantUs steps). PDE/PHEAA publish annual maxima and school-type deadlines (often May 1 for many four-year programs; later dates for some two-year/open-admission paths).",
+      "ml": "Need-based Pennsylvania State Grant administered with PHEAA for eligible Pennsylvania residents attending approved undergraduate programs. Students file the FAFSA (and complete any required PA State Grant Form / GrantUs steps). PDE/PHEAA publish annual maxima and school-type deadlines (often May 1 for many four-year programs; later dates for some two-year/open-admission paths).",
+      "hi": "Need-based Pennsylvania State Grant administered with PHEAA for eligible Pennsylvania residents attending approved undergraduate programs. Students file the FAFSA (and complete any required PA State Grant Form / GrantUs steps). PDE/PHEAA publish annual maxima and school-type deadlines (often May 1 for many four-year programs; later dates for some two-year/open-admission paths)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Pennsylvania"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "PA State Grant: PA residents in approved undergraduate programs; financial need; FAFSA + any State Grant Form. Award maxima and deadlines published yearly. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Max awards, deadlines by school type, and GrantUs steps change — verify=true via pa.gov financial-aid guide / PHEAA.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward eligible educational costs (maximum award published annually; actual award depends on need, school, and enrollment).",
+      "ml": "Need-based grant aid toward eligible educational costs (maximum award published annually; actual award depends on need, school, and enrollment).",
+      "hi": "Need-based grant aid toward eligible educational costs (maximum award published annually; actual award depends on need, school, and enrollment)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "PA State Grant Form / GrantUs account as required",
+        "Pennsylvania residency documentation",
+        "Enrollment at an approved institution"
+      ],
+      "ml": [
+        "FAFSA",
+        "PA State Grant Form / GrantUs account as required",
+        "Pennsylvania residency documentation",
+        "Enrollment at an approved institution"
+      ],
+      "hi": [
+        "FAFSA",
+        "PA State Grant Form / GrantUs account as required",
+        "Pennsylvania residency documentation",
+        "Enrollment at an approved institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the FAFSA by the applicable PA deadline and complete any PHEAA GrantUs / State Grant Form requirements. See pa.gov PA FAFSA Go! / PDE financial-aid materials.",
+      "ml": "Submit the FAFSA by the applicable PA deadline and complete any PHEAA GrantUs / State Grant Form requirements. See pa.gov PA FAFSA Go! / PDE financial-aid materials.",
+      "hi": "Submit the FAFSA by the applicable PA deadline and complete any PHEAA GrantUs / State Grant Form requirements. See pa.gov PA FAFSA Go! / PDE financial-aid materials."
+    },
+    "apply_url": "https://www.pa.gov/agencies/education/resources/student/empoweru/resources-for-institutions/campaigns/pa-fafsa-go",
+    "official_source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/resources/fafsago/pa-state-financial-aid-guide.pdf",
+    "last_verified": "2026-09-24",
+    "office_type": "Pennsylvania Higher Education Assistance Agency (PHEAA) / PDE",
+    "tags": [
+      "united_states",
+      "pennsylvania",
+      "pa_state_grant",
+      "pheaa",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "me-state-grant",
+    "scheme_name": {
+      "en": "Maine State Grant Program",
+      "ml": "Maine State Grant Program",
+      "hi": "Maine State Grant – मेन"
+    },
+    "description": {
+      "en": "Need-based Maine State Grant for eligible Maine undergraduate residents enrolled in eligible programs who demonstrate financial need under FAME authority (Title 20-A). Students generally apply by filing the FAFSA by the published Maine priority date; award amounts and SAI cutoffs are set annually.",
+      "ml": "Need-based Maine State Grant for eligible Maine undergraduate residents enrolled in eligible programs who demonstrate financial need under FAME authority (Title 20-A). Students generally apply by filing the FAFSA by the published Maine priority date; award amounts and SAI cutoffs are set annually.",
+      "hi": "Need-based Maine State Grant for eligible Maine undergraduate residents enrolled in eligible programs who demonstrate financial need under FAME authority (Title 20-A). Students generally apply by filing the FAFSA by the published Maine priority date; award amounts and SAI cutoffs are set annually."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maine"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ME State Grant: Maine residents; undergraduate at eligible programs; financial need per FAME criteria; FAFSA by priority date. Annual SAI cutoffs and award caps — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Priority dates, SAI cutoffs, and award maxima change — verify=true via legislature.maine.gov §11612 / FAME MSGP guidelines.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward educational costs at eligible institutions (full-time and part-time maxima published in annual MSGP guidelines).",
+      "ml": "Need-based grant toward educational costs at eligible institutions (full-time and part-time maxima published in annual MSGP guidelines).",
+      "hi": "Need-based grant toward educational costs at eligible institutions (full-time and part-time maxima published in annual MSGP guidelines)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Maine residency documentation",
+        "Enrollment as undergraduate in an eligible program",
+        "No prior bachelor’s degree (per statute/guidelines)"
+      ],
+      "ml": [
+        "FAFSA",
+        "Maine residency documentation",
+        "Enrollment as undergraduate in an eligible program",
+        "No prior bachelor’s degree (per statute/guidelines)"
+      ],
+      "hi": [
+        "FAFSA",
+        "Maine residency documentation",
+        "Enrollment as undergraduate in an eligible program",
+        "No prior bachelor’s degree (per statute/guidelines)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File the FAFSA by the Maine State Grant priority deadline and monitor FAME/school award notices. Statutory eligibility: legislature.maine.gov Title 20-A §11612.",
+      "ml": "File the FAFSA by the Maine State Grant priority deadline and monitor FAME/school award notices. Statutory eligibility: legislature.maine.gov Title 20-A §11612.",
+      "hi": "File the FAFSA by the Maine State Grant priority deadline and monitor FAME/school award notices. Statutory eligibility: legislature.maine.gov Title 20-A §11612."
+    },
+    "apply_url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+    "official_source_url": "https://www.legislature.maine.gov/legis/statutes/20-A/title20-Asec11612.html",
+    "last_verified": "2026-09-24",
+    "office_type": "Finance Authority of Maine (FAME) / Maine State Grant",
+    "tags": [
+      "united_states",
+      "maine",
+      "maine_state_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  },
+  {
+    "id": "ok-promise",
+    "scheme_name": {
+      "en": "Oklahoma’s Promise Scholarship",
+      "ml": "Oklahoma’s Promise Scholarship",
+      "hi": "Oklahoma's Promise – ओक्लाहोमा"
+    },
+    "description": {
+      "en": "Oklahoma’s Promise college tuition scholarship for students who enroll in middle/high school (grades 8–11, or by Dec 31 of senior year), meet income, coursework, GPA, and conduct requirements, and later complete college eligibility rules. Award generally covers qualifying tuition at eligible Oklahoma institutions (not fees/books/housing).",
+      "ml": "Oklahoma’s Promise college tuition scholarship for students who enroll in middle/high school (grades 8–11, or by Dec 31 of senior year), meet income, coursework, GPA, and conduct requirements, and later complete college eligibility rules. Award generally covers qualifying tuition at eligible Oklahoma institutions (not fees/books/housing).",
+      "hi": "Oklahoma’s Promise college tuition scholarship for students who enroll in middle/high school (grades 8–11, or by Dec 31 of senior year), meet income, coursework, GPA, and conduct requirements, and later complete college eligibility rules. Award generally covers qualifying tuition at eligible Oklahoma institutions (not fees/books/housing)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Oklahoma"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "OK Promise: early commitment scholarship with household AGI limits (standard and teacher-track variants), 15 college-prep units, GPA/conduct rules, and college-year requirements. Income limits and document deadlines change — no permanent ceiling encoded. Merit/conduct + income screen; not purely low-income-only.",
+      "verify": true,
+      "verify_notes": "Income caps, deadlines, and college claim rules change — verify=true via digitalprairie.ok.gov Promise materials / okpromise.org.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Scholarship covering qualifying Oklahoma college tuition for eligible Promise scholars (duration/credit-hour limits apply per program rules).",
+      "ml": "Scholarship covering qualifying Oklahoma college tuition for eligible Promise scholars (duration/credit-hour limits apply per program rules).",
+      "hi": "Scholarship covering qualifying Oklahoma college tuition for eligible Promise scholars (duration/credit-hour limits apply per program rules)."
+    },
+    "required_documents": {
+      "en": [
+        "Oklahoma’s Promise application during grades 8–11 (or senior-year deadline)",
+        "Household income documentation within published limits",
+        "Required high-school coursework / GPA / conduct certifications",
+        "FAFSA and college enrollment documentation when claiming"
+      ],
+      "ml": [
+        "Oklahoma’s Promise application during grades 8–11 (or senior-year deadline)",
+        "Household income documentation within published limits",
+        "Required high-school coursework / GPA / conduct certifications",
+        "FAFSA and college enrollment documentation when claiming"
+      ],
+      "hi": [
+        "Oklahoma’s Promise application during grades 8–11 (or senior-year deadline)",
+        "Household income documentation within published limits",
+        "Required high-school coursework / GPA / conduct certifications",
+        "FAFSA and college enrollment documentation when claiming"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at okpromise.org by the enrollment deadline; complete required documents by senior-year deadlines; file FAFSA when attending college. Official program materials also archived on digitalprairie.ok.gov.",
+      "ml": "Apply at okpromise.org by the enrollment deadline; complete required documents by senior-year deadlines; file FAFSA when attending college. Official program materials also archived on digitalprairie.ok.gov.",
+      "hi": "Apply at okpromise.org by the enrollment deadline; complete required documents by senior-year deadlines; file FAFSA when attending college. Official program materials also archived on digitalprairie.ok.gov."
+    },
+    "apply_url": "https://www.okpromise.org/",
+    "official_source_url": "https://digitalprairie.ok.gov/digital/api/collection/stgovpub/id/708076/download",
+    "last_verified": "2026-09-24",
+    "office_type": "Oklahoma State Regents for Higher Education – Oklahoma’s Promise",
+    "tags": [
+      "united_states",
+      "oklahoma",
+      "okpromise",
+      "scholarship",
+      "college",
+      "education"
+    ]
+  },
+  {
+    "id": "ri-promise",
+    "scheme_name": {
+      "en": "Rhode Island Promise Scholarship",
+      "ml": "Rhode Island Promise Scholarship",
+      "hi": "Rhode Island Promise – रोड आइलैंड"
+    },
+    "description": {
+      "en": "Rhode Island Promise provides last-dollar tuition support for eligible recent Rhode Island high-school graduates pursuing an associate degree at the Community College of Rhode Island (CCRI), covering remaining tuition/mandatory fees after other non-loan aid for up to two years when statutory/program conditions are met.",
+      "ml": "Rhode Island Promise provides last-dollar tuition support for eligible recent Rhode Island high-school graduates pursuing an associate degree at the Community College of Rhode Island (CCRI), covering remaining tuition/mandatory fees after other non-loan aid for up to two years when statutory/program conditions are met.",
+      "hi": "Rhode Island Promise provides last-dollar tuition support for eligible recent Rhode Island high-school graduates pursuing an associate degree at the Community College of Rhode Island (CCRI), covering remaining tuition/mandatory fees after other non-loan aid for up to two years when statutory/program conditions are met."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rhode Island"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "RI Promise: recent RI graduate path to CCRI associate degree; in-state tuition eligibility; FAFSA/alt app; full-time enrollment and progress rules; last-dollar after other non-loan aid. Not a general low-income-only grant — open to qualifying recent grads meeting program rules.",
+      "verify": true,
+      "verify_notes": "Enrollment timing, GPA/progress, and last-dollar stacking rules — verify=true via RI Gen. Laws 16-107 / CCRI Promise FAQs.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Last-dollar coverage of remaining CCRI tuition and mandatory fees (after other grants) for up to two years for qualifying students.",
+      "ml": "Last-dollar coverage of remaining CCRI tuition and mandatory fees (after other grants) for up to two years for qualifying students.",
+      "hi": "Last-dollar coverage of remaining CCRI tuition and mandatory fees (after other grants) for up to two years for qualifying students."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or RI Alternative Financial Aid Application",
+        "Rhode Island residency / recent high-school or GED completion evidence",
+        "CCRI admission and full-time enrollment in an associate program",
+        "Satisfactory academic progress as required"
+      ],
+      "ml": [
+        "FAFSA or RI Alternative Financial Aid Application",
+        "Rhode Island residency / recent high-school or GED completion evidence",
+        "CCRI admission and full-time enrollment in an associate program",
+        "Satisfactory academic progress as required"
+      ],
+      "hi": [
+        "FAFSA or RI Alternative Financial Aid Application",
+        "Rhode Island residency / recent high-school or GED completion evidence",
+        "CCRI admission and full-time enrollment in an associate program",
+        "Satisfactory academic progress as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enroll at CCRI, file FAFSA (or RI alternative application if applicable), and complete MyCCRI Promise documentation. Statutory framework: R.I. Gen. Laws Title 16, Chapter 107.",
+      "ml": "Enroll at CCRI, file FAFSA (or RI alternative application if applicable), and complete MyCCRI Promise documentation. Statutory framework: R.I. Gen. Laws Title 16, Chapter 107.",
+      "hi": "Enroll at CCRI, file FAFSA (or RI alternative application if applicable), and complete MyCCRI Promise documentation. Statutory framework: R.I. Gen. Laws Title 16, Chapter 107."
+    },
+    "apply_url": "https://www.ccri.edu/ripromise/",
+    "official_source_url": "https://webserver.rilegislature.gov/Statutes/TITLE16/16-107/16-107-5.htm",
+    "last_verified": "2026-09-24",
+    "office_type": "Rhode Island Office of the Postsecondary Commissioner / CCRI",
+    "tags": [
+      "united_states",
+      "rhode_island",
+      "ri_promise",
+      "scholarship",
+      "college",
+      "education"
+    ]
+  },
+  {
+    "id": "vt-incentive-grant",
+    "scheme_name": {
+      "en": "Vermont Incentive Grant (VSAC)",
+      "ml": "Vermont Incentive Grant (VSAC)",
+      "hi": "Vermont Incentive Grant – वर्मांट"
+    },
+    "description": {
+      "en": "Need-based Vermont Incentive Grant administered by the Vermont Student Assistance Corporation under Vermont law for Vermont residents enrolled in eligible undergraduate degree or certificate programs (including certain approved out-of-state schools). Apply annually through VSAC (typically with FAFSA); awards are first-come, first-served while funds remain.",
+      "ml": "Need-based Vermont Incentive Grant administered by the Vermont Student Assistance Corporation under Vermont law for Vermont residents enrolled in eligible undergraduate degree or certificate programs (including certain approved out-of-state schools). Apply annually through VSAC (typically with FAFSA); awards are first-come, first-served while funds remain.",
+      "hi": "Need-based Vermont Incentive Grant administered by the Vermont Student Assistance Corporation under Vermont law for Vermont residents enrolled in eligible undergraduate degree or certificate programs (including certain approved out-of-state schools). Apply annually through VSAC (typically with FAFSA); awards are first-come, first-served while funds remain."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT Incentive Grant: Vermont residents in eligible undergraduate programs; need-based; VSAC administers under Title 16 ch. 87. Award ranges and immigration/residency documentation rules can change by legislation/year. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award ranges, deadlines, and eligibility expansions — verify=true via legislature.vermont.gov §2844 / VSAC grants.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward educational costs (award ranges published by VSAC each year; depend on need, cost of attendance, and enrollment).",
+      "ml": "Need-based grant aid toward educational costs (award ranges published by VSAC each year; depend on need, cost of attendance, and enrollment).",
+      "hi": "Need-based grant aid toward educational costs (award ranges published by VSAC each year; depend on need, cost of attendance, and enrollment)."
+    },
+    "required_documents": {
+      "en": [
+        "Vermont Grant Application via MyVSAC",
+        "FAFSA (generally)",
+        "Vermont residency documentation",
+        "Enrollment in an eligible undergraduate program"
+      ],
+      "ml": [
+        "Vermont Grant Application via MyVSAC",
+        "FAFSA (generally)",
+        "Vermont residency documentation",
+        "Enrollment in an eligible undergraduate program"
+      ],
+      "hi": [
+        "Vermont Grant Application via MyVSAC",
+        "FAFSA (generally)",
+        "Vermont residency documentation",
+        "Enrollment in an eligible undergraduate program"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Create/login to MyVSAC, submit the Vermont Grant Application, and file the FAFSA. Statutory authority: Vermont Statutes Title 16, Chapter 87.",
+      "ml": "Create/login to MyVSAC, submit the Vermont Grant Application, and file the FAFSA. Statutory authority: Vermont Statutes Title 16, Chapter 87.",
+      "hi": "Create/login to MyVSAC, submit the Vermont Grant Application, and file the FAFSA. Statutory authority: Vermont Statutes Title 16, Chapter 87."
+    },
+    "apply_url": "https://www.vsac.org/pay/student-aid-options/grants",
+    "official_source_url": "https://legislature.vermont.gov/statutes/section/16/087/02844",
+    "last_verified": "2026-09-24",
+    "office_type": "Vermont Student Assistance Corporation (VSAC)",
+    "tags": [
+      "united_states",
+      "vermont",
+      "incentive_grant",
+      "college",
+      "grant",
+      "need_based",
+      "education"
+    ]
+  }
+]
