@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mt-homestead-reduced-rate",
+    "scheme_name": {
+      "en": "Montana Homestead Reduced Property Tax Rate",
+      "ml": "Montana Homestead Reduced Property Tax Rate",
+      "hi": "Montana Homestead Reduced Rate – मोंटाना"
+    },
+    "description": {
+      "en": "Montana Department of Revenue Homestead Reduced Tax Rate lowers the classification rate for owners who occupy a Montana home as their principal residence for at least seven months per year, own it personally or through a grantor revocable trust, stay current on property taxes, and enroll for the tax year. Distinct from a homestead declaration filed with a county clerk. No income ceiling for the standard homestead reduced rate.",
+      "ml": "Montana Department of Revenue Homestead Reduced Tax Rate lowers the classification rate for owners who occupy a Montana home as their principal residence for at least seven months per year, own it personally or through a grantor revocable trust, stay current on property taxes, and enroll for the tax year. Distinct from a homestead declaration filed with a county clerk. No income ceiling for the standard homestead reduced rate.",
+      "hi": "Montana Department of Revenue Homestead Reduced Tax Rate lowers the classification rate for owners who occupy a Montana home as their principal residence for at least seven months per year, own it personally or through a grantor revocable trust, stay current on property taxes, and enroll for the tax year. Distinct from a homestead declaration filed with a county clerk. No income ceiling for the standard homestead reduced rate."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MT Homestead Reduced Rate (MCA 15-6-405 / revenue.mt.gov): principal residence ≥7 months; owner or grantor revocable trust; current on taxes; one homestead claim. Tiered rates by market-value band are published for the tax year — do not hard-code brackets. max_annual_income null; implies_low_income false. Separate from income-tested PTAP.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm enrollment window and live rate brackets on homestead.mt.gov and revenue.mt.gov Homestead FAQs before advising amounts.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Lower property-tax classification rate on the enrolled principal residence compared with standard Class 4 residential rates (tiered brackets as notified for the tax year).",
+      "ml": "Lower property-tax classification rate on the enrolled principal residence compared with standard Class 4 residential rates (tiered brackets as notified for the tax year).",
+      "hi": "Lower property-tax classification rate on the enrolled principal residence compared with standard Class 4 residential rates (tiered brackets as notified for the tax year)."
+    },
+    "required_documents": {
+      "en": [
+        "Homestead reduced-rate enrollment / application",
+        "Property geocode / ownership information",
+        "Attestation of principal-residence use (≥7 months)",
+        "Proof taxes are current"
+      ],
+      "ml": [
+        "Homestead reduced-rate enrollment / application",
+        "Property geocode / ownership information",
+        "Attestation of principal-residence use (≥7 months)",
+        "Proof taxes are current"
+      ],
+      "hi": [
+        "Homestead reduced-rate enrollment / application",
+        "Property geocode / ownership information",
+        "Attestation of principal-residence use (≥7 months)",
+        "Proof taxes are current"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enroll or verify at homestead.mt.gov (or paper application linked from revenue.mt.gov) during the published enrollment window for the tax year.",
+      "ml": "Enroll or verify at homestead.mt.gov (or paper application linked from revenue.mt.gov) during the published enrollment window for the tax year.",
+      "hi": "Enroll or verify at homestead.mt.gov (or paper application linked from revenue.mt.gov) during the published enrollment window for the tax year."
+    },
+    "apply_url": "https://homestead.mt.gov/",
+    "official_source_url": "https://revenue.mt.gov/property/property-tax-changes/homestead-faqs",
+    "last_verified": "2026-09-24",
+    "office_type": "Montana Department of Revenue",
+    "tags": [
+      "united_states",
+      "montana",
+      "homestead",
+      "property_tax",
+      "housing",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "mt-mus-honor-scholarship",
+    "scheme_name": {
+      "en": "Montana University System Honor Scholarship (MUSHS)",
+      "ml": "Montana University System Honor Scholarship (MUSHS)",
+      "hi": "MUS Honor Scholarship – मोंटाना"
+    },
+    "description": {
+      "en": "Montana University System Honor Scholarship is a renewable tuition-waiver scholarship for eligible Montana high-school graduates attending an eligible MUS / community-college campus. Official MUS pages describe a multi-year tuition waiver (average value commonly cited around $5,000/year at four-year campuses — VERIFY live), merit criteria (GPA, rigorous core/IB, ACT/SAT), Montana residency, and application via Award Montana / scholarships.mus.edu. No family-income ceiling.",
+      "ml": "Montana University System Honor Scholarship is a renewable tuition-waiver scholarship for eligible Montana high-school graduates attending an eligible MUS / community-college campus. Official MUS pages describe a multi-year tuition waiver (average value commonly cited around $5,000/year at four-year campuses — VERIFY live), merit criteria (GPA, rigorous core/IB, ACT/SAT), Montana residency, and application via Award Montana / scholarships.mus.edu. No family-income ceiling.",
+      "hi": "Montana University System Honor Scholarship is a renewable tuition-waiver scholarship for eligible Montana high-school graduates attending an eligible MUS / community-college campus. Official MUS pages describe a multi-year tuition waiver (average value commonly cited around $5,000/year at four-year campuses — VERIFY live), merit criteria (GPA, rigorous core/IB, ACT/SAT), Montana residency, and application via Award Montana / scholarships.mus.edu. No family-income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Montana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MUSHS: Montana resident high-school graduate meeting published GPA/rigorous-core/test and campus-acceptance rules; apply the graduation year. Award counts are limited — meeting minima does not guarantee selection. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm application open/close dates, GPA/test rules, and campus list on mus.edu MUS Honor Scholarship + scholarships.mus.edu before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Renewable tuition waiver at eligible Montana campuses for selected recipients (fees generally not covered — confirm campus fee list).",
+      "ml": "Renewable tuition waiver at eligible Montana campuses for selected recipients (fees generally not covered — confirm campus fee list).",
+      "hi": "Renewable tuition waiver at eligible Montana campuses for selected recipients (fees generally not covered — confirm campus fee list)."
+    },
+    "required_documents": {
+      "en": [
+        "Award Montana / scholarships.mus.edu application",
+        "Official 7th-semester transcript",
+        "College acceptance letter",
+        "ACT/SAT score documentation",
+        "Rigorous Core/IB/Attendance certification signed by counselor"
+      ],
+      "ml": [
+        "Award Montana / scholarships.mus.edu application",
+        "Official 7th-semester transcript",
+        "College acceptance letter",
+        "ACT/SAT score documentation",
+        "Rigorous Core/IB/Attendance certification signed by counselor"
+      ],
+      "hi": [
+        "Award Montana / scholarships.mus.edu application",
+        "Official 7th-semester transcript",
+        "College acceptance letter",
+        "ACT/SAT score documentation",
+        "Rigorous Core/IB/Attendance certification signed by counselor"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete ACT/SAT by the published deadline, gain acceptance at an eligible campus, and apply on scholarships.mus.edu / Award Montana with transcript and counselor certification as required.",
+      "ml": "Complete ACT/SAT by the published deadline, gain acceptance at an eligible campus, and apply on scholarships.mus.edu / Award Montana with transcript and counselor certification as required.",
+      "hi": "Complete ACT/SAT by the published deadline, gain acceptance at an eligible campus, and apply on scholarships.mus.edu / Award Montana with transcript and counselor certification as required."
+    },
+    "apply_url": "https://scholarships.mus.edu/",
+    "official_source_url": "https://mus.edu/Prepare/Pay/Scholarships/MUS_Honor_Scholarship.html",
+    "last_verified": "2026-09-24",
+    "office_type": "Montana University System / Office of the Commissioner of Higher Education",
+    "tags": [
+      "united_states",
+      "montana",
+      "scholarship",
+      "tuition_waiver",
+      "higher_education",
+      "middle-class",
+      "merit"
+    ]
+  },
+  {
+    "id": "vt-property-tax-credit",
+    "scheme_name": {
+      "en": "Vermont Property Tax Credit",
+      "ml": "Vermont Property Tax Credit",
+      "hi": "Vermont Property Tax Credit – वर्मांट"
+    },
+    "description": {
+      "en": "Vermont Department of Taxes Property Tax Credit helps eligible homestead owners with property taxes. Filers must declare a homestead, meet domicile/ownership/occupancy rules, and have household income within the annually published maximum (Tax Year 2025 maximum household income $115,400 on tax.vermont.gov — VERIFY live for the claim year). Credit caps for education and municipal portions are published annually.",
+      "ml": "Vermont Department of Taxes Property Tax Credit helps eligible homestead owners with property taxes. Filers must declare a homestead, meet domicile/ownership/occupancy rules, and have household income within the annually published maximum (Tax Year 2025 maximum household income $115,400 on tax.vermont.gov — VERIFY live for the claim year). Credit caps for education and municipal portions are published annually.",
+      "hi": "Vermont Department of Taxes Property Tax Credit helps eligible homestead owners with property taxes. Filers must declare a homestead, meet domicile/ownership/occupancy rules, and have household income within the annually published maximum (Tax Year 2025 maximum household income $115,400 on tax.vermont.gov — VERIFY live for the claim year). Credit caps for education and municipal portions are published annually."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 115400,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Vermont"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VT Property Tax Credit: homestead declaration + household income ≤ published annual maximum. Encoded max_annual_income 115400 for TY2025 figure shown on tax.vermont.gov WITH verify=true (updates each year). implies_low_income false — ceiling sits in middle-income homeowner range, not a poverty-only program. File HS-122 + HI-144.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live household-income maximum and credit caps on tax.vermont.gov Property Tax Credit for the claim year before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Property tax credit toward education and municipal homestead taxes within published annual credit caps for eligible income-qualified homestead owners.",
+      "ml": "Property tax credit toward education and municipal homestead taxes within published annual credit caps for eligible income-qualified homestead owners.",
+      "hi": "Property tax credit toward education and municipal homestead taxes within published annual credit caps for eligible income-qualified homestead owners."
+    },
+    "required_documents": {
+      "en": [
+        "Form HS-122 Homestead Declaration and Property Tax Credit Claim",
+        "Schedule HI-144 Household Income",
+        "Vermont domicile and homestead ownership/occupancy documentation"
+      ],
+      "ml": [
+        "Form HS-122 Homestead Declaration and Property Tax Credit Claim",
+        "Schedule HI-144 Household Income",
+        "Vermont domicile and homestead ownership/occupancy documentation"
+      ],
+      "hi": [
+        "Form HS-122 Homestead Declaration and Property Tax Credit Claim",
+        "Schedule HI-144 Household Income",
+        "Vermont domicile and homestead ownership/occupancy documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form HS-122 (Homestead Declaration and Property Tax Credit Claim) and Schedule HI-144 via myVTax or paper by the published due date.",
+      "ml": "File Form HS-122 (Homestead Declaration and Property Tax Credit Claim) and Schedule HI-144 via myVTax or paper by the published due date.",
+      "hi": "File Form HS-122 (Homestead Declaration and Property Tax Credit Claim) and Schedule HI-144 via myVTax or paper by the published due date."
+    },
+    "apply_url": "https://tax.vermont.gov/property/property-tax-credit",
+    "official_source_url": "https://tax.vermont.gov/property/property-tax-credit",
+    "last_verified": "2026-09-24",
+    "office_type": "Vermont Department of Taxes",
+    "tags": [
+      "united_states",
+      "vermont",
+      "property_tax",
+      "tax_credit",
+      "homestead",
+      "middle-class",
+      "housing"
+    ]
+  }
+]

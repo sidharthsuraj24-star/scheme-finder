@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "br-student-credit-card",
+    "scheme_name": {
+      "en": "Bihar Student Credit Card Yojana",
+      "hi": "बिहार स्टूडेंट क्रेडिट कार्ड योजना",
+      "ml": "(EN — Malayalam review pending) Bihar Student Credit Card Yojana"
+    },
+    "description": {
+      "en": "Bihar’s Student Credit Card (under Nishchay – Aarthik Hal, Yuvao Ko Bal) provides education loans for eligible Bihar-resident students pursuing recognised higher-education courses. Official Bihar Vikas Mission materials describe loan sanctions up to a notified ceiling (commonly ₹4 lakh — VERIFY live), concessional simple interest, and online application via the 7 Nishchay Yuva Upmission portal. Not a BPL-only grant — middle-class students without an income gate on the scheme page can apply when other eligibility rules are met.",
+      "hi": "बिहार निश्चय के अंतर्गत पात्र छात्रों को उच्च शिक्षा हेतु शैक्षिक ऋण; ऑनलाइन आवेदन। बीपीएल-मात्र अनुदान नहीं।",
+      "ml": "(EN — Malayalam review pending) Bihar’s Student Credit Card (under Nishchay – Aarthik Hal, Yuvao Ko Bal) provides education loans for eligible Bihar-resident students pursuing recognised higher-education courses. Official Bihar Vikas Mission materials describe loan sanctions up to a notified ceiling (commonly ₹4 lakh — VERIFY live), concessional simple interest, and online application via the 7 Nishchay Yuva Upmission portal. Not a BPL-only grant — middle-class students without an income gate on the scheme page can apply when other eligibility rules are met."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 30,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Bihar"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Bihar Student Credit Card: domicile/residence and Class 12 (or Class 10 for polytechnic) rules per Bihar Vikas Mission; age caps commonly 25 (UG) / 30 (eligible PG) — VERIFY live. Loan ceiling and interest (commonly ~4% simple, lower for women/PwD/transgender) are notification-based — do not treat brochure figures as permanent. No personal max_annual_income on the official Nishchay description — leave null; do not set implies_low_income.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live loan ceiling, interest, age, and course list on bvm.bihar.gov.in Nishchay-1 and 7nishchay-yuvaupmission.bihar.gov.in before advising amounts."
+    },
+    "benefits": {
+      "en": "Education loan for recognised courses with concessional interest and portal-based sanction/disbursement (amounts and rates as notified).",
+      "hi": "अधिसूचित सीमा में रियायती ब्याज पर शिक्षा ऋण।",
+      "ml": "(EN — Malayalam review pending) Education loan for recognised courses with concessional interest and portal-based sanction/disbursement (amounts and rates as notified)."
+    },
+    "required_documents": {
+      "en": [
+        "Bihar residence / domicile proof",
+        "Class 10 / 12 mark sheets and certificates (as applicable)",
+        "Admission / fee structure from recognised institution",
+        "Aadhaar, bank passbook, PAN of applicant/co-applicant as required",
+        "Affidavit that admission is not under management quota (as applicable)"
+      ],
+      "hi": [
+        "Bihar residence / domicile proof",
+        "Class 10 / 12 mark sheets and certificates (as applicable)",
+        "Admission / fee structure from recognised institution",
+        "Aadhaar, bank passbook, PAN of applicant/co-applicant as required",
+        "Affidavit that admission is not under management quota (as applicable)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Bihar residence / domicile proof",
+        "(EN — Malayalam review pending) Class 10 / 12 mark sheets and certificates (as applicable)",
+        "(EN — Malayalam review pending) Admission / fee structure from recognised institution",
+        "(EN — Malayalam review pending) Aadhaar, bank passbook, PAN of applicant/co-applicant as required",
+        "(EN — Malayalam review pending) Affidavit that admission is not under management quota (as applicable)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register and apply on the 7 Nishchay Yuva Upmission portal, then complete District Registration & Counseling Centre (DRCC) document verification as instructed.",
+      "hi": "7 निश्चय युवा अपमिशन पोर्टल पर आवेदन करें और जिला DRCC सत्यापन पूरा करें।",
+      "ml": "(EN — Malayalam review pending) Register and apply on the 7 Nishchay Yuva Upmission portal, then complete District Registration & Counseling Centre (DRCC) document verification as instructed."
+    },
+    "apply_url": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+    "office_type": "Bihar Vikas Mission / Education Department / Bihar State Education Finance Corporation",
+    "official_source_url": "https://bvm.bihar.gov.in/submission/nc/nishchay-1-aarthik-hal-yuvao-ko-bal/",
+    "tags": [
+      "bihar",
+      "student_credit_card",
+      "education_loan",
+      "middle-class",
+      "youth",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "wb-student-credit-card",
+    "scheme_name": {
+      "en": "West Bengal Student Credit Card Scheme",
+      "hi": "पश्चिम बंगाल स्टूडेंट क्रेडिट कार्ड योजना",
+      "ml": "(EN — Malayalam review pending) West Bengal Student Credit Card Scheme"
+    },
+    "description": {
+      "en": "Higher Education Department, Government of West Bengal scheme providing collateral-free education loans for eligible West Bengal students (including studies in India and, as notified, abroad) through cooperative and other participating banks. Official WBSCC portal describes loans up to ₹10 lakh at a notified nominal simple interest (commonly 4% p.a., with an additional concession if interest is serviced during study — VERIFY live), upper age commonly 40 at application, and repayment including moratorium up to 15 years.",
+      "hi": "पश्चिम बंगाल उच्च शिक्षा विभाग की रियायती शिक्षा-ऋण योजना; पोर्टल wbscc.wb.gov.in।",
+      "ml": "(EN — Malayalam review pending) Higher Education Department, Government of West Bengal scheme providing collateral-free education loans for eligible West Bengal students (including studies in India and, as notified, abroad) through cooperative and other participating banks. Official WBSCC portal describes loans up to ₹10 lakh at a notified nominal simple interest (commonly 4% p.a., with an additional concession if interest is serviced during study — VERIFY live), upper age commonly 40 at application, and repayment including moratorium up to 15 years."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": 40,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Bengal"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "WBSCC: West Bengal student eligibility (including long-term residence rules as notified); no BPL-only gate on the official portal narrative. Loan/interest/age figures are from the live Higher Education / WBSCC page — encode no hard income ceiling (max_annual_income null); do not set implies_low_income. Confirm collateral-free limit and interest concessions on wbscc.wb.gov.in before quoting numbers.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Re-confirm ₹10 lakh / interest / age-40 terms on wbscc.wb.gov.in scheme text — terms may be revised by notification."
+    },
+    "benefits": {
+      "en": "Collateral-free education loan up to the notified ceiling at concessional simple interest for eligible West Bengal students.",
+      "hi": "पात्र छात्रों को अधिसूचित सीमा तक रियायती ब्याज पर बिना जमानत शिक्षा ऋण।",
+      "ml": "(EN — Malayalam review pending) Collateral-free education loan up to the notified ceiling at concessional simple interest for eligible West Bengal students."
+    },
+    "required_documents": {
+      "en": [
+        "West Bengal student / residence eligibility proof as per scheme",
+        "Admission proof and fee structure",
+        "KYC of student and co-borrower",
+        "Institution verification through Head of Institution as required"
+      ],
+      "hi": [
+        "West Bengal student / residence eligibility proof as per scheme",
+        "Admission proof and fee structure",
+        "KYC of student and co-borrower",
+        "Institution verification through Head of Institution as required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) West Bengal student / residence eligibility proof as per scheme",
+        "(EN — Malayalam review pending) Admission proof and fee structure",
+        "(EN — Malayalam review pending) KYC of student and co-borrower",
+        "(EN — Malayalam review pending) Institution verification through Head of Institution as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Register as a student on wbscc.wb.gov.in (also linked from banglaruchchashiksha.wb.gov.in), complete the loan application, and follow Head of Institution / bank processing steps.",
+      "hi": "wbscc.wb.gov.in पर पंजीकरण कर आवेदन पूरा करें।",
+      "ml": "(EN — Malayalam review pending) Register as a student on wbscc.wb.gov.in (also linked from banglaruchchashiksha.wb.gov.in), complete the loan application, and follow Head of Institution / bank processing steps."
+    },
+    "apply_url": "https://wbscc.wb.gov.in/",
+    "office_type": "Higher Education Department, Government of West Bengal",
+    "official_source_url": "https://wbscc.wb.gov.in/",
+    "tags": [
+      "west_bengal",
+      "student_credit_card",
+      "education_loan",
+      "middle-class",
+      "youth",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "od-kalinga-sikhya-sathi",
+    "scheme_name": {
+      "en": "Odisha Kalinga Sikhya Sathi Yojana (KSSY)",
+      "hi": "ओडिशा कलिंग शिक्षा साथी योजना (KSSY)",
+      "ml": "(EN — Malayalam review pending) Odisha Kalinga Sikhya Sathi Yojana (KSSY)"
+    },
+    "description": {
+      "en": "Odisha Higher Education Department interest-subvention scheme for eligible students who take education loans for recognised professional courses. Official DHE comparison materials list annual family income up to ₹6 lakh; interest during moratorium and a large share of post-moratorium interest are subsidised so the student pays a residual notified rate (commonly described as interest-free in moratorium then ~1% for a limited repayment window — VERIFY live).",
+      "hi": "ओडिशा उच्च शिक्षा विभाग की शिक्षा-ऋण ब्याज अनुदान योजना; पारिवारिक आय सीमा अधिसूचनानुसार।",
+      "ml": "(EN — Malayalam review pending) Odisha Higher Education Department interest-subvention scheme for eligible students who take education loans for recognised professional courses. Official DHE comparison materials list annual family income up to ₹6 lakh; interest during moratorium and a large share of post-moratorium interest are subsidised so the student pays a residual notified rate (commonly described as interest-free in moratorium then ~1% for a limited repayment window — VERIFY live)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 600000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Odisha"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "KSSY: Odisha domicile/student + sanctioned education loan for eligible professional courses. Official DHE CSIS-vs-KSSY page cites family income up to ₹6 lakh/year — encoded max_annual_income 600000 WITH verify=true. implies_low_income true as income-capped student aid (still serves lower-middle band, not SECC/BPL-only). Confirm residual interest %, course list, and portal steps on dhe.odisha.gov.in / scholarship.odisha.gov.in before advising.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Income ceiling and subsidy mechanics from dhe.odisha.gov.in KSSY comparison materials; some secondary pages cite ₹8 lakh — treat 600000 as verify=true and re-check live GR.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Interest subvention on eligible education loans so students pay only the residual notified interest after state subsidy.",
+      "hi": "पात्र शिक्षा ऋण पर राज्य ब्याज अनुदान; शेष अधिसूचित ब्याज छात्र देय।",
+      "ml": "(EN — Malayalam review pending) Interest subvention on eligible education loans so students pay only the residual notified interest after state subsidy."
+    },
+    "required_documents": {
+      "en": [
+        "Odisha domicile / student eligibility proof",
+        "Family income certificate within notified ceiling",
+        "Education loan sanction letter from eligible bank",
+        "Admission / course documents for recognised professional programme"
+      ],
+      "hi": [
+        "Odisha domicile / student eligibility proof",
+        "Family income certificate within notified ceiling",
+        "Education loan sanction letter from eligible bank",
+        "Admission / course documents for recognised professional programme"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Odisha domicile / student eligibility proof",
+        "(EN — Malayalam review pending) Family income certificate within notified ceiling",
+        "(EN — Malayalam review pending) Education loan sanction letter from eligible bank",
+        "(EN — Malayalam review pending) Admission / course documents for recognised professional programme"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Obtain an eligible bank education loan, then apply for KSSY interest subvention through the Odisha Higher Education / State Scholarship pathways linked from dhe.odisha.gov.in.",
+      "hi": "पात्र बैंक ऋण के बाद ओडिशा उच्च शिक्षा/छात्रवृत्ति मार्ग से KSSY हेतु आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Obtain an eligible bank education loan, then apply for KSSY interest subvention through the Odisha Higher Education / State Scholarship pathways linked from dhe.odisha.gov.in."
+    },
+    "apply_url": "https://dhe.odisha.gov.in/schemes-and-scholarship/online-application-module-for-scholarship-and-loan/kalinga-sikhya-sathi-yojna/csis-kssy",
+    "office_type": "Higher Education Department, Government of Odisha",
+    "official_source_url": "https://dhe.odisha.gov.in/schemes-and-scholarship/online-application-module-for-scholarship-and-loan/kalinga-sikhya-sathi-yojna/csis-kssy",
+    "tags": [
+      "odisha",
+      "education_loan",
+      "interest_subsidy",
+      "middle-class",
+      "student",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "ka-bbmp-property-tax-rebate",
+    "scheme_name": {
+      "en": "Bengaluru BBMP Property Tax Early-Payment Rebate",
+      "hi": "बेंगलुरु बीबीएमपी संपत्ति कर शीघ्र-भुगतान छूट",
+      "ml": "(EN — Malayalam review pending) Bengaluru BBMP Property Tax Early-Payment Rebate"
+    },
+    "description": {
+      "en": "Bruhat Bengaluru Mahanagara Palike (BBMP) property-tax portal publishes an early-payment rebate window for the assessment year (portal Dates to Remember for AY 2026–27 lists rebate from 01-04-2026 to 30-04-2026). Universal to assessed property taxpayers who pay within the notified window — not a BPL scheme. Rebate percentage is as shown on the live BBMP tax system for the year.",
+      "hi": "बीबीएमपी पोर्टल पर अधिसूचित अवधि में संपत्ति कर भुगतान पर छूट; बीपीएल योजना नहीं।",
+      "ml": "(EN — Malayalam review pending) Bruhat Bengaluru Mahanagara Palike (BBMP) property-tax portal publishes an early-payment rebate window for the assessment year (portal Dates to Remember for AY 2026–27 lists rebate from 01-04-2026 to 30-04-2026). Universal to assessed property taxpayers who pay within the notified window — not a BPL scheme. Rebate percentage is as shown on the live BBMP tax system for the year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Karnataka"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "BBMP/Bengaluru City Corporations property-tax early rebate: timing per FY/AY circular on bbmptax.karnataka.gov.in. Do not hard-code rebate %. max_annual_income null; implies_low_income false. Applies to property taxpayers in BBMP jurisdiction.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live rebate % and Dates to Remember on bbmptax.karnataka.gov.in before citing percentages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Reduction in payable property tax when the full tax for the assessment year is paid within the published early-payment window.",
+      "hi": "अधिसूचित शीघ्र-भुगतान अवधि में पूर्ण कर चुकाने पर देय कर में कमी।",
+      "ml": "(EN — Malayalam review pending) Reduction in payable property tax when the full tax for the assessment year is paid within the published early-payment window."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Log in to bbmptax.karnataka.gov.in with PID/Application number, compute dues, and pay within the rebate dates published for the assessment year.",
+      "hi": "bbmptax.karnataka.gov.in पर लॉगिन कर छूट अवधि में भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Log in to bbmptax.karnataka.gov.in with PID/Application number, compute dues, and pay within the rebate dates published for the assessment year."
+    },
+    "apply_url": "https://bbmptax.karnataka.gov.in/",
+    "office_type": "Bruhat Bengaluru Mahanagara Palike (BBMP) / Bengaluru City Corporations",
+    "official_source_url": "https://bbmptax.karnataka.gov.in/",
+    "tags": [
+      "karnataka",
+      "bengaluru",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "tn-gcc-property-tax-rebate",
+    "scheme_name": {
+      "en": "Greater Chennai Corporation Property Tax Early-Payment Incentive",
+      "hi": "ग्रेटर चेन्नई निगम संपत्ति कर शीघ्र-भुगतान प्रोत्साहन",
+      "ml": "(EN — Malayalam review pending) Greater Chennai Corporation Property Tax Early-Payment Incentive"
+    },
+    "description": {
+      "en": "Greater Chennai Corporation (GCC) Revenue Department grants an early-payment incentive on property tax when the half-yearly tax is paid within the first 30 days of the half year (April / October windows under Tamil Nadu Urban Local Bodies Rules, 2023 — commonly described as 5% of the general tax component subject to a cap — VERIFY live circular). Universal to assessed property taxpayers — not BPL-targeted.",
+      "hi": "जीसीसी में अधिसूचित अवधि में संपत्ति कर भुगतान पर प्रोत्साहन/छूट; बीपीएल लक्षित नहीं।",
+      "ml": "(EN — Malayalam review pending) Greater Chennai Corporation (GCC) Revenue Department grants an early-payment incentive on property tax when the half-yearly tax is paid within the first 30 days of the half year (April / October windows under Tamil Nadu Urban Local Bodies Rules, 2023 — commonly described as 5% of the general tax component subject to a cap — VERIFY live circular). Universal to assessed property taxpayers — not BPL-targeted."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Tamil Nadu"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "GCC property-tax early-payment incentive per TN Urban Local Bodies Rules / GCC Revenue pages. Do not hard-code % or rupee cap. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live incentive %/cap and half-year deadlines on chennaicorporation.gov.in Revenue / property-tax payment pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Early-payment incentive reducing the property-tax amount due when paid within the notified half-year window.",
+      "hi": "अधिसूचित अर्धवार्षिक अवधि में भुगतान पर संपत्ति कर प्रोत्साहन।",
+      "ml": "(EN — Malayalam review pending) Early-payment incentive reducing the property-tax amount due when paid within the notified half-year window."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Pay current half-year property tax via the GCC online property-tax payment channels within the early-payment window published for that half year.",
+      "hi": "जीसीसी ऑनलाइन संपत्ति कर भुगतान चैनल पर शीघ्र-भुगतान अवधि में भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Pay current half-year property tax via the GCC online property-tax payment channels within the early-payment window published for that half year."
+    },
+    "apply_url": "https://chennaicorporation.gov.in/gcc/online-payment/property-tax/",
+    "office_type": "Greater Chennai Corporation (Revenue Department)",
+    "official_source_url": "https://www.chennaicorporation.gov.in/gcc/department/revenue",
+    "tags": [
+      "tamil_nadu",
+      "chennai",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "mh-ev-policy-incentive",
+    "scheme_name": {
+      "en": "Maharashtra Electric Vehicle Policy 2025 – Purchase / Registration Incentives",
+      "hi": "महाराष्ट्र इलेक्ट्रिक वाहन नीति 2025 – खरीद/पंजीकरण प्रोत्साहन",
+      "ml": "(EN — Malayalam review pending) Maharashtra Electric Vehicle Policy 2025 – Purchase / Registration Incentives"
+    },
+    "description": {
+      "en": "Maharashtra EV Policy 2025 (Transport Department GR, policy period commonly cited 1 Apr 2025–31 Mar 2030) provides demand incentives for eligible electric vehicles sold and registered in Maharashtra, including a notified purchase incentive for private/non-transport cars (M1) that OEMs claim and pass to buyers, plus motor-vehicle tax / registration-fee exemptions as set out in the GR. Serves middle-class vehicle buyers — not a BPL welfare scheme.",
+      "hi": "महाराष्ट्र ईवी नीति 2025 के अधीन पात्र ईवी पर खरीद प्रोत्साहन और कर/पंजीकरण छूट; बीपीएल कल्याण योजना नहीं।",
+      "ml": "(EN — Malayalam review pending) Maharashtra EV Policy 2025 (Transport Department GR, policy period commonly cited 1 Apr 2025–31 Mar 2030) provides demand incentives for eligible electric vehicles sold and registered in Maharashtra, including a notified purchase incentive for private/non-transport cars (M1) that OEMs claim and pass to buyers, plus motor-vehicle tax / registration-fee exemptions as set out in the GR. Serves middle-class vehicle buyers — not a BPL welfare scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Maharashtra"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "MH EV Policy 2025: vehicle category, incentive %, caps (e.g. M1 purchase incentive commonly described as ~10% of ex-factory price capped around ₹1.5 lakh for a limited volume — VERIFY live GR), and tax exemptions are notification-based. max_annual_income null; implies_low_income false. Buyer typically receives incentive via OEM/dealer; confirm live process on Transport / MahaDISCOM EV portals.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live M1/other category incentives, caps, and OEM claim flow on transport.maharashtra.gov.in EV Policy 2025 GR (and related MahaDISCOM EV documentation) before quoting rupee figures.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Notified purchase incentive and/or MV tax & registration-fee exemptions for eligible EVs registered in Maharashtra under EV Policy 2025.",
+      "hi": "पात्र ईवी पर अधिसूचित खरीद प्रोत्साहन और/या मोटर वाहन कर व पंजीकरण शुल्क छूट।",
+      "ml": "(EN — Malayalam review pending) Notified purchase incentive and/or MV tax & registration-fee exemptions for eligible EVs registered in Maharashtra under EV Policy 2025."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Purchase an eligible EV from a participating OEM/dealer in Maharashtra; incentive is generally claimed by the OEM under the policy GR and passed through in the invoice. Confirm category eligibility on the Transport GR / MahaDISCOM EV documentation.",
+      "hi": "पात्र ईवी महाराष्ट्र में अधिकृत डीलर से खरीदें; ओईएम नीति के तहत प्रोत्साहन क्लेम करता है।",
+      "ml": "(EN — Malayalam review pending) Purchase an eligible EV from a participating OEM/dealer in Maharashtra; incentive is generally claimed by the OEM under the policy GR and passed through in the invoice. Confirm category eligibility on the Transport GR / MahaDISCOM EV documentation."
+    },
+    "apply_url": "https://transport.maharashtra.gov.in/",
+    "office_type": "Transport Department / Environment Department, Government of Maharashtra",
+    "official_source_url": "https://transport.maharashtra.gov.in/",
+    "tags": [
+      "maharashtra",
+      "ev",
+      "electric_vehicle",
+      "subsidy",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "up-rooftop-solar-state-subsidy",
+    "scheme_name": {
+      "en": "Uttar Pradesh Residential Rooftop Solar State Subsidy (UPNEDA top-up)",
+      "hi": "उत्तर प्रदेश आवासीय रूफटॉप सोलर राज्य सब्सिडी (यूपीएनईडीए)",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh Residential Rooftop Solar State Subsidy (UPNEDA top-up)"
+    },
+    "description": {
+      "en": "Uttar Pradesh New & Renewable Energy Development Agency (UPNEDA) documents a state capital subsidy for residential grid-connected rooftop solar in addition to central CFA under PM Surya Ghar (commonly ₹15,000/kW up to a ₹30,000 state cap — VERIFY live). Applications are routed through the national PM Surya Ghar portal with UPNEDA as state implementing agency. Serves middle-class homeowners — no BPL gate on the residential brochure narrative.",
+      "hi": "यूपीएनईडीए आवासीय रूफटॉप सोलर हेतु राज्य पूंजी सब्सिडी (केंद्रीय पीएम सूर्य घर CFA के अतिरिक्त)।",
+      "ml": "(EN — Malayalam review pending) Uttar Pradesh New & Renewable Energy Development Agency (UPNEDA) documents a state capital subsidy for residential grid-connected rooftop solar in addition to central CFA under PM Surya Ghar (commonly ₹15,000/kW up to a ₹30,000 state cap — VERIFY live). Applications are routed through the national PM Surya Ghar portal with UPNEDA as state implementing agency. Serves middle-class homeowners — no BPL gate on the residential brochure narrative."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Uttar Pradesh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "UP residential RTS state top-up: amounts from UPNEDA consumer brochure / Solar Policy materials — encode no invented permanent ceiling beyond verify notes; max_annual_income null; implies_low_income false. Complements in-pm-surya-ghar central CFA. Confirm whether the state component is still open for new capacity in the current FY before advising.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live state ₹/kW, cap, and capacity window on invest.up.gov.in Solar Policy 2022 / UPNEDA materials and pmsuryaghar.gov.in before quoting amounts.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "State capital subsidy stacked with central CFA for eligible residential rooftop solar installations in Uttar Pradesh.",
+      "hi": "पात्र आवासीय रूफटॉप सोलर पर राज्य पूंजी सब्सिडी (केंद्रीय CFA के साथ)।",
+      "ml": "(EN — Malayalam review pending) State capital subsidy stacked with central CFA for eligible residential rooftop solar installations in Uttar Pradesh."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on the PM Surya Ghar national portal selecting Uttar Pradesh / UPNEDA pathways; choose an empanelled vendor and complete DISCOM net-metering / inspection steps for subsidy disbursal.",
+      "hi": "पीएम सूर्य घर पोर्टल पर उत्तर प्रदेश/यूपीएनईडीए मार्ग से आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply on the PM Surya Ghar national portal selecting Uttar Pradesh / UPNEDA pathways; choose an empanelled vendor and complete DISCOM net-metering / inspection steps for subsidy disbursal."
+    },
+    "apply_url": "https://pmsuryaghar.gov.in/",
+    "office_type": "Uttar Pradesh New and Renewable Energy Development Agency (UPNEDA)",
+    "official_source_url": "https://invest.up.gov.in/solar-energy-policy-2022/",
+    "tags": [
+      "uttar_pradesh",
+      "rooftop_solar",
+      "subsidy",
+      "middle-class",
+      "homeowner",
+      "state",
+      "energy"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "tg-ghmc-property-tax-rebate",
+    "scheme_name": {
+      "en": "GHMC Property Tax Early-Bird / Prompt-Payment Rebate",
+      "hi": "जीएचएमसी संपत्ति कर अर्ली-बर्ड / शीघ्र-भुगतान छूट",
+      "ml": "(EN — Malayalam review pending) GHMC Property Tax Early-Bird / Prompt-Payment Rebate"
+    },
+    "description": {
+      "en": "Greater Hyderabad Municipal Corporation (GHMC) periodically notifies an early-bird / prompt-payment rebate on current-year property tax when paid in full within the published window (FY 2026–27 coverage in official and municipal communications commonly cites a 5% early-bird discount — VERIFY live demand notice). Universal to assessed taxpayers who clear current dues as required — not a BPL scheme.",
+      "hi": "जीएचएमसी में अधिसूचित अवधि में चालू वर्ष का संपत्ति कर चुकाने पर छूट; बीपीएल योजना नहीं।",
+      "ml": "(EN — Malayalam review pending) Greater Hyderabad Municipal Corporation (GHMC) periodically notifies an early-bird / prompt-payment rebate on current-year property tax when paid in full within the published window (FY 2026–27 coverage in official and municipal communications commonly cites a 5% early-bird discount — VERIFY live demand notice). Universal to assessed taxpayers who clear current dues as required — not a BPL scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Telangana"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "GHMC property-tax early-bird rebate: % and deadline per annual demand / citizen notice on ghmc.gov.in / onlinepayments.ghmc.gov.in. Do not hard-code 5%. max_annual_income null; implies_low_income false. Telangana state prefix tg-*.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live early-bird % and deadline on ghmc.gov.in Property Tax / onlinepayments.ghmc.gov.in before citing figures.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Rebate on current-year GHMC property tax when paid in full within the notified early-bird window.",
+      "hi": "अधिसूचित अर्ली-बर्ड अवधि में पूर्ण भुगतान पर चालू वर्ष के कर में छूट।",
+      "ml": "(EN — Malayalam review pending) Rebate on current-year GHMC property tax when paid in full within the notified early-bird window."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Pay current-year property tax via onlinepayments.ghmc.gov.in or GHMC citizen channels within the early-bird window published for the financial year.",
+      "hi": "onlinepayments.ghmc.gov.in या जीएचएमसी चैनलों पर अर्ली-बर्ड अवधि में भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Pay current-year property tax via onlinepayments.ghmc.gov.in or GHMC citizen channels within the early-bird window published for the financial year."
+    },
+    "apply_url": "https://onlinepayments.ghmc.gov.in/",
+    "office_type": "Greater Hyderabad Municipal Corporation (GHMC)",
+    "official_source_url": "https://www.ghmc.gov.in/Propertytax.aspx",
+    "tags": [
+      "telangana",
+      "hyderabad",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "ap-property-tax-early-rebate",
+    "scheme_name": {
+      "en": "Andhra Pradesh Municipal Property Tax Early-Payment Rebate",
+      "hi": "आंध्र प्रदेश नगरपालिका संपत्ति कर शीघ्र-भुगतान छूट",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh Municipal Property Tax Early-Payment Rebate"
+    },
+    "description": {
+      "en": "Andhra Pradesh urban local bodies under the Commissioner & Director of Municipal Administration (CDMA) framework offer early-payment rebates on current property / vacant-land tax when paid in full by the notified date for the financial year (municipal communications for 2026–27 commonly cite ~5% on current tax if paid by 30 April — VERIFY live CDMA / ULB notice). Applies to general assessed taxpayers — not BPL-targeted.",
+      "hi": "एपी सीडीएमए/नगर निकायों में अधिसूचित तिथि तक संपत्ति कर भुगतान पर शीघ्र-भुगतान छूट।",
+      "ml": "(EN — Malayalam review pending) Andhra Pradesh urban local bodies under the Commissioner & Director of Municipal Administration (CDMA) framework offer early-payment rebates on current property / vacant-land tax when paid in full by the notified date for the financial year (municipal communications for 2026–27 commonly cite ~5% on current tax if paid by 30 April — VERIFY live CDMA / ULB notice). Applies to general assessed taxpayers — not BPL-targeted."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Andhra Pradesh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "AP municipal property-tax early rebate: % and deadline vary by FY notice via cdma.ap.gov.in / ULB portals. max_annual_income null; implies_low_income false. Do not hard-code 5%.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live rebate % and deadline on cdma.ap.gov.in Know-Your-Dues / ULB property-tax notices before citing figures.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Early-payment rebate on current municipal property tax when paid in full by the published deadline.",
+      "hi": "अधिसूचित अंतिम तिथि तक पूर्ण भुगतान पर नगर संपत्ति कर छूट।",
+      "ml": "(EN — Malayalam review pending) Early-payment rebate on current municipal property tax when paid in full by the published deadline."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Check dues on the CDMA / ULB property-tax services and pay the current-year tax in full before the early-rebate deadline published for the FY.",
+      "hi": "सीडीएमए/यूएलबी पोर्टल पर बकाया देखकर छूट तिथि से पहले भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Check dues on the CDMA / ULB property-tax services and pay the current-year tax in full before the early-rebate deadline published for the FY."
+    },
+    "apply_url": "https://cdma.ap.gov.in/",
+    "office_type": "Commissioner & Director of Municipal Administration, Government of Andhra Pradesh",
+    "official_source_url": "https://cdma.ap.gov.in/",
+    "tags": [
+      "andhra_pradesh",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "mp-mmvy-medhavi",
+    "scheme_name": {
+      "en": "Madhya Pradesh Mukhyamantri Medhavi Vidyarthi Yojana (MMVY)",
+      "hi": "मध्य प्रदेश मुख्यमंत्री मेधावी विद्यार्थी योजना (MMVY)",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh Mukhyamantri Medhavi Vidyarthi Yojana (MMVY)"
+    },
+    "description": {
+      "en": "Madhya Pradesh merit scholarship / fee-support scheme for eligible MP-domicile students who meet Class 12 merit thresholds and secure admission to notified courses. Family-income ceilings are published on scholarship portal materials and have been cited in the ₹6–8 lakh band across years — VERIFY live; do not invent a single permanent ceiling. Distinct from Ladli Behna / pension rows already in catalogue.",
+      "hi": "मध्य प्रदेश मेधावी विद्यार्थियों हेतु राज्य छात्रवृत्ति/शुल्क सहायता; आय सीमा पोर्टल पर सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Madhya Pradesh merit scholarship / fee-support scheme for eligible MP-domicile students who meet Class 12 merit thresholds and secure admission to notified courses. Family-income ceilings are published on scholarship portal materials and have been cited in the ₹6–8 lakh band across years — VERIFY live; do not invent a single permanent ceiling. Distinct from Ladli Behna / pension rows already in catalogue."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Madhya Pradesh"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "MMVY: MP domicile + merit marks + eligible course/admission. Income ceilings vary by year/notification — leave max_annual_income null rather than invent; verify=true. Middle-class tagged when income caps sit in the lower-middle band, but implies_low_income omitted until a single official ceiling is confirmed for the admission year.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live income ceiling, merit %, and course list on MP scholarship / Medhavi Kalyan portals before advising eligibility."
+    },
+    "benefits": {
+      "en": "Merit-based scholarship or fee support for qualifying MP students in notified courses (amounts per live portal).",
+      "hi": "पात्र मेधावी विद्यार्थियों को अधिसूचित पाठ्यक्रमों में छात्रवृत्ति/शुल्क सहायता।",
+      "ml": "(EN — Malayalam review pending) Merit-based scholarship or fee support for qualifying MP students in notified courses (amounts per live portal)."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the Madhya Pradesh scholarship / Medhavi Kalyan online pathways with Samagra ID and institute verification as required for the admission year.",
+      "hi": "मध्य प्रदेश छात्रवृत्ति/मेधावी कल्याण पोर्टल पर समग्र आईडी के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply through the Madhya Pradesh scholarship / Medhavi Kalyan online pathways with Samagra ID and institute verification as required for the admission year."
+    },
+    "apply_url": "https://scholarshipportal.mp.nic.in/",
+    "office_type": "Higher Education / Technical Education Department, Government of Madhya Pradesh",
+    "official_source_url": "https://scholarshipportal.mp.nic.in/",
+    "tags": [
+      "madhya_pradesh",
+      "scholarship",
+      "merit",
+      "education",
+      "middle-class",
+      "student",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "in-post-office-time-deposit",
+    "scheme_name": {
+      "en": "Post Office Time Deposit (National Savings Time Deposit)",
+      "hi": "डाकघर सावधि जमा (नेशनल सेविंग्स टाइम डिपॉजिट)",
+      "ml": "(EN — Malayalam review pending) Post Office Time Deposit (National Savings Time Deposit)"
+    },
+    "description": {
+      "en": "Government small-savings Time Deposit accounts available at India Post (and authorised channels) for 1, 2, 3, and 5-year tenures under the National Savings Time Deposit Scheme. No personal income ceiling to open an account. Interest rates are notified by the Ministry of Finance each quarter; the 5-year TD commonly qualifies for Income-tax Act section 80C when claimed under the applicable tax regime — confirm live IT/NSI rules.",
+      "hi": "डाकघर सावधि जमा खाता (1/2/3/5 वर्ष); व्यक्तिगत आय सीमा नहीं; ब्याज वित्त मंत्रालय द्वारा अधिसूचित।",
+      "ml": "(EN — Malayalam review pending) Government small-savings Time Deposit accounts available at India Post (and authorised channels) for 1, 2, 3, and 5-year tenures under the National Savings Time Deposit Scheme. No personal income ceiling to open an account. Interest rates are notified by the Ministry of Finance each quarter; the 5-year TD commonly qualifies for Income-tax Act section 80C when claimed under the applicable tax regime — confirm live IT/NSI rules."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "National Savings Time Deposit: resident individuals (and eligible guardians) may open TD accounts; no max_annual_income — leave null; do not set implies_low_income. Distinct from PPF, NSC, MIS, KVP, SCSS, RD already catalogued. Benefits middle-class and higher-income savers equally.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF quarterly interest notification and 80C treatment on India Post / NSI pages before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Fixed-tenure small-savings deposits at MoF-notified interest; 5-year TD often eligible for section 80C under the applicable tax regime — confirm live rules.",
+      "hi": "अधिसूचित ब्याज पर सावधि जमा; 5-वर्षीय खाता प्रायः धारा 80C — लागू कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Fixed-tenure small-savings deposits at MoF-notified interest; 5-year TD often eligible for section 80C under the applicable tax regime — confirm live rules."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open a Time Deposit at an India Post counter (or authorised channel) with KYC under National Savings Time Deposit rules.",
+      "hi": "डाकघर में केवाईसी के साथ सावधि जमा खाता खोलें।",
+      "ml": "(EN — Malayalam review pending) Open a Time Deposit at an India Post counter (or authorised channel) with KYC under National Savings Time Deposit rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute / Ministry of Finance",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "savings",
+      "time_deposit",
+      "post_office",
+      "tax",
+      "middle-class",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-post-office-recurring-deposit",
+    "scheme_name": {
+      "en": "Post Office Recurring Deposit (National Savings Recurring Deposit)",
+      "hi": "डाकघर आवर्ती जमा (नेशनल सेविंग्स आरडी)",
+      "ml": "(EN — Malayalam review pending) Post Office Recurring Deposit (National Savings Recurring Deposit)"
+    },
+    "description": {
+      "en": "Government small-savings Recurring Deposit under the National Savings Recurring Deposit Scheme, 2019 — monthly deposits at India Post with MoF-notified interest and a 5-year maturity (premature closure / loan against deposit rules as notified). No personal income ceiling. Distinct from PPF, NSC, MIS, KVP, Time Deposit, and Sukanya already in the catalogue.",
+      "hi": "डाकघर आवर्ती जमा (मासिक जमा, सामान्यतः 5 वर्ष); व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Government small-savings Recurring Deposit under the National Savings Recurring Deposit Scheme, 2019 — monthly deposits at India Post with MoF-notified interest and a 5-year maturity (premature closure / loan against deposit rules as notified). No personal income ceiling. Distinct from PPF, NSC, MIS, KVP, Time Deposit, and Sukanya already in the catalogue."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "NS RD: monthly deposit product for resident individuals / guardians; no max_annual_income — leave null; do not set implies_low_income. Interest and premature-closure rules follow MoF/NSI notifications — verify live. Universal middle/high saver product.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF interest rate and RD Scheme 2019 premature-closure/loan rules on India Post / NSI before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Monthly recurring small-savings deposits at MoF-notified interest with scheme-rule maturity and limited premature-closure / loan facilities.",
+      "hi": "अधिसूचित ब्याज पर मासिक आवर्ती जमा; परिपक्वता/आंशिक निकासी नियम योजना अनुसार।",
+      "ml": "(EN — Malayalam review pending) Monthly recurring small-savings deposits at MoF-notified interest with scheme-rule maturity and limited premature-closure / loan facilities."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open an RD account at India Post with KYC and start monthly deposits per National Savings RD rules.",
+      "hi": "डाकघर में आरडी खाता खोलकर मासिक जमा शुरू करें।",
+      "ml": "(EN — Malayalam review pending) Open an RD account at India Post with KYC and start monthly deposits per National Savings RD rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute / Ministry of Finance",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "savings",
+      "recurring_deposit",
+      "post_office",
+      "middle-class",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "dl-ev-road-tax-exemption",
+    "scheme_name": {
+      "en": "Delhi EV Policy – Road Tax & Registration Fee Exemption",
+      "hi": "दिल्ली ईवी नीति – सड़क कर व पंजीकरण शुल्क छूट",
+      "ml": "(EN — Malayalam review pending) Delhi EV Policy – Road Tax & Registration Fee Exemption"
+    },
+    "description": {
+      "en": "Government of NCT of Delhi EV Policy pathways (Transport Department) provide exemption from road tax and registration fees for eligible electric cars registered in Delhi within notified ex-showroom price and policy-period limits (communications around the 2026 policy commonly cite 100% exemption for electric cars up to ₹30 lakh ex-showroom until a notified end date such as 31 Mar 2030 — VERIFY live). Distinct from existing Delhi MCD rebate, rooftop solar, and Lakhpati Bitiya rows. Middle-class vehicle buyers — not BPL-targeted.",
+      "hi": "दिल्ली में पात्र ईवी पर सड़क कर/पंजीकरण शुल्क छूट; मूल्य व अवधि अधिसूचनानुसार सत्यापित करें।",
+      "ml": "(EN — Malayalam review pending) Government of NCT of Delhi EV Policy pathways (Transport Department) provide exemption from road tax and registration fees for eligible electric cars registered in Delhi within notified ex-showroom price and policy-period limits (communications around the 2026 policy commonly cite 100% exemption for electric cars up to ₹30 lakh ex-showroom until a notified end date such as 31 Mar 2030 — VERIFY live). Distinct from existing Delhi MCD rebate, rooftop solar, and Lakhpati Bitiya rows. Middle-class vehicle buyers — not BPL-targeted."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delhi"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Delhi EV road-tax/registration exemption: price cap, vehicle categories, and sunset date are notification-based — do not treat ₹30 lakh / 2030 as permanent without verify. max_annual_income null; implies_low_income false. Scrapping incentives, if any, are separate — confirm on transport.delhi.gov.in.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live price cap, eligible categories, and policy end date on transport.delhi.gov.in Delhi EV Policy page before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Exemption from Delhi road tax and registration fees for eligible EVs within notified price and policy-period limits.",
+      "hi": "अधिसूचित मूल्य/अवधि में पात्र ईवी पर दिल्ली सड़क कर व पंजीकरण शुल्क से छूट।",
+      "ml": "(EN — Malayalam review pending) Exemption from Delhi road tax and registration fees for eligible EVs within notified price and policy-period limits."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Purchase and register an eligible EV in Delhi through Transport Department processes; claim exemptions as implemented in the registration workflow under the notified EV Policy.",
+      "hi": "दिल्ली में पात्र ईवी खरीदकर परिवहन विभाग पंजीकरण प्रक्रिया में छूट प्राप्त करें।",
+      "ml": "(EN — Malayalam review pending) Purchase and register an eligible EV in Delhi through Transport Department processes; claim exemptions as implemented in the registration workflow under the notified EV Policy."
+    },
+    "apply_url": "https://transport.delhi.gov.in/transport/delhi-ev-policy",
+    "office_type": "Transport Department, Government of NCT of Delhi",
+    "official_source_url": "https://transport.delhi.gov.in/transport/delhi-ev-policy",
+    "tags": [
+      "delhi",
+      "ev",
+      "electric_vehicle",
+      "tax_exemption",
+      "middle-class",
+      "transport",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "rj-rajiv-gandhi-scholarship-excellence",
+    "scheme_name": {
+      "en": "Rajasthan Rajiv Gandhi Scholarship for Academic Excellence",
+      "hi": "राजस्थान राजीव गांधी अकादमिक उत्कृष्टता छात्रवृत्ति",
+      "ml": "(EN — Malayalam review pending) Rajasthan Rajiv Gandhi Scholarship for Academic Excellence"
+    },
+    "description": {
+      "en": "Rajasthan Higher & Technical Education scholarship supporting eligible domicile students with offers from notified top-ranked Indian or foreign universities. Official FAQ / scheme materials describe income bands including an E2 middle/upper-middle band (commonly gross family income ₹8–25 lakh — VERIFY live) considered after E1, plus merit and age conditions. Not a BPL-only programme.",
+      "hi": "राजस्थान के पात्र छात्रों हेतु शीर्ष संस्थानों में अध्ययन के लिए राज्य छात्रवृत्ति; आय बैंड ई1/ई2 अधिसूचनानुसार।",
+      "ml": "(EN — Malayalam review pending) Rajasthan Higher & Technical Education scholarship supporting eligible domicile students with offers from notified top-ranked Indian or foreign universities. Official FAQ / scheme materials describe income bands including an E2 middle/upper-middle band (commonly gross family income ₹8–25 lakh — VERIFY live) considered after E1, plus merit and age conditions. Not a BPL-only programme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Rajasthan"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "RG Scholarship for Academic Excellence: Rajasthan domicile, offer from eligible institutions, marks/age as notified. Income bands E1/E2 are published in HTE materials — do NOT invent a single max_annual_income; leave null with verify=true. implies_low_income false (explicit middle/upper-middle E2 pathway). Confirm seat limits and benefit ceilings on scholarship.rajasthan.gov.in / hte.rajasthan.gov.in for the current year.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live E1/E2 income bands, eligible university lists, and benefit caps on HTE / Rajasthan Scholarship Portal FAQs before advising.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "State scholarship support toward tuition / living costs at notified top institutions within published caps for the income band and year.",
+      "hi": "अधिसूचित शीर्ष संस्थानों में आय बैंड के अनुसार ट्यूशन/निर्वाह सहायता।",
+      "ml": "(EN — Malayalam review pending) State scholarship support toward tuition / living costs at notified top institutions within published caps for the income band and year."
+    },
+    "required_documents": {
+      "en": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "hi": [
+        "Identity / domicile proof as required by the administering portal",
+        "Scheme-specific application form or online registration",
+        "Bank account / KYC details where DBT or refund is involved",
+        "Supporting certificates listed on the live official notice"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identity / domicile proof as required by the administering portal",
+        "(EN — Malayalam review pending) Scheme-specific application form or online registration",
+        "(EN — Malayalam review pending) Bank account / KYC details where DBT or refund is involved",
+        "(EN — Malayalam review pending) Supporting certificates listed on the live official notice"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Rajasthan Higher & Technical Education / Scholarship Portal pathways when the year’s RGSAE window is open; upload offer letter, income, and domicile documents as listed.",
+      "hi": "राजस्थान छात्रवृत्ति/एचटीई पोर्टल पर निर्धारित अवधि में आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via the Rajasthan Higher & Technical Education / Scholarship Portal pathways when the year’s RGSAE window is open; upload offer letter, income, and domicile documents as listed."
+    },
+    "apply_url": "https://scholarship.rajasthan.gov.in/",
+    "office_type": "Higher & Technical Education Department, Government of Rajasthan",
+    "official_source_url": "https://hte.rajasthan.gov.in/",
+    "tags": [
+      "rajasthan",
+      "scholarship",
+      "higher_education",
+      "middle-class",
+      "student",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  }
+]
