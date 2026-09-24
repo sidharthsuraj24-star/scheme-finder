@@ -47353,7 +47353,7 @@
         "India"
       ],
       "nationwide": true,
-      "notes": "Urban EWS / LIG / MIG families with no pucca house in applicant’s or any family member’s name anywhere in India. Income bands (scheme FAQ): EWS up to ₹3 lakh; LIG ₹3–6 lakh; MIG ₹6–9 lakh annual household income. Not eligible if availed Central/State/ULB housing benefit in last 20 years. Implementation 2024–2029. Preference groups in guidelines (widows, PwD, SC/ST, street vendors under SVANidhi, Vishwakarma artisans, etc.). max_annual_income encodes MIG upper FAQ band only as a soft ceiling; actual band is category-specific — verify=true.",
+      "notes": "Urban EWS / LIG / MIG families with no pucca house in applicant’s or any family member’s name anywhere in India. Income bands (scheme FAQ): EWS up to ₹3 lakh; LIG ₹3–6 lakh; MIG ₹6–9 lakh annual household income. Not eligible if availed Central/State/ULB housing benefit in last 20 years. Implementation 2024–2029. Preference groups in guidelines (widows, PwD, SC/ST, street vendors under SVANidhi, Vishwakarma artisans, etc.). max_annual_income encodes MIG upper FAQ band only as a soft ceiling; actual band is category-specific — verify=true. MIG (₹6–9 lakh household income FAQ band) is included in this single PMAY-U 2.0 row via ISS/other verticals — do not add a separate historical CLSS duplicate.",
       "verify": true,
       "verify_notes": "2026-09-23: pmay-urban.gov.in + pmaymis FAQ. Central assistance amounts and preference lists vary by vertical/State — confirm live FAQ/guidelines.",
       "implies_low_income": true
@@ -47402,9 +47402,10 @@
       "lig",
       "mig",
       "central",
-      "nationwide"
+      "nationwide",
+      "middle-class"
     ],
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-09-24",
     "nationwide": true
   },
   {
@@ -48008,7 +48009,7 @@
         "India"
       ],
       "nationwide": true,
-      "notes": "Account for girl child below 10; opened by natural/legal guardian; generally max two girls per family (twins/triplets exceptions per rules). Deposits ₹250–₹1.5 lakh per FY; deposit period 15 years; maturity 21 years from opening (per scheme rules).",
+      "notes": "Account for girl child below 10; opened by natural/legal guardian; generally max two girls per family (twins/triplets exceptions per rules). Deposits ₹250–₹1.5 lakh per FY; deposit period 15 years; maturity 21 years from opening (per scheme rules). Deposits commonly qualify under section 80C under applicable tax regime. No personal income ceiling — middle-class and higher-income families with an eligible girl child may open (subject to two-girl rule).",
       "verify": true,
       "verify_notes": "2026-09-23: nsiindia.gov.in / India Post scheme rules. Interest rate and any rule amendments — confirm current MoF/NSI notification."
     },
@@ -48048,9 +48049,11 @@
       "sukanya",
       "post_office",
       "central",
-      "nationwide"
+      "nationwide",
+      "tax",
+      "middle-class"
     ],
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-09-24",
     "nationwide": true
   },
   {
@@ -48084,9 +48087,9 @@
         "India"
       ],
       "nationwide": true,
-      "notes": "Indian citizens / NRI / OCI meeting KYC; age band per current PFRDA/eNPS (commonly 18–70 on eNPS — confirm live page); voluntary Tier I. Not HUF/PIO. Distinct from APY.",
+      "notes": "Indian citizens / NRI / OCI meeting KYC; age band per current PFRDA/eNPS (commonly 18–70 on eNPS — confirm live page); voluntary Tier I. Not HUF/PIO. Distinct from APY. Tax: Tier I contributions may attract deductions under sections 80CCD(1)/80CCD(1B) when claimed under a tax regime that allows them (confirm live IT/PFRDA rules). Tier II is a separate voluntary account without the same general tax deduction — see catalogue id in-nps-tier-ii. No income ceiling — middle-class and higher-income citizens may join All Citizen Model.",
       "verify": true,
-      "verify_notes": "2026-09-23: pfrda.org.in All Citizen Model + eNPS. Confirm live age band, contribution minima, and exit rules before advising."
+      "verify_notes": "2026-09-23: pfrda.org.in All Citizen Model + eNPS. Confirm live age band, contribution minima, and exit rules before advising. 2026-09-24 all-band: tax regime / Tier II clarity cross-check."
     },
     "benefits": {
       "en": "Market-linked retirement corpus under PFRDA-regulated NPS; contribution and exit rules per PFRDA/eNPS. Not a fixed guaranteed pension like APY.",
@@ -48124,9 +48127,12 @@
       "retirement",
       "central",
       "nationwide",
-      "pfrda"
+      "pfrda",
+      "tax",
+      "middle-class",
+      "universal"
     ],
-    "last_verified": "2026-09-23",
+    "last_verified": "2026-09-24",
     "nationwide": true
   },
   {
@@ -56794,5 +56800,1219 @@
       "investment",
       "opportunity-zones"
     ]
+  },
+  {
+    "id": "in-ppf",
+    "scheme_name": {
+      "en": "Public Provident Fund (PPF)",
+      "hi": "पब्लिक प्रोविडेंट फंड (पीपीएफ)",
+      "ml": "(EN — Malayalam review pending) Public Provident Fund (PPF)"
+    },
+    "description": {
+      "en": "Government small-savings account under the Public Provident Fund Scheme, 2019, available at India Post and authorised banks; long-horizon retirement/savings vehicle with no personal income ceiling.",
+      "hi": "सार्वजनिक भविष्य निधि योजना, 2019 के तहत डाकघर/अधिकृत बैंकों में दीर्घकालिक बचत खाता; व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Government small-savings account under the Public Provident Fund Scheme, 2019, available at India Post and authorised banks; long-horizon retirement/savings vehicle with no personal income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Resident Indian adult may open a single PPF account; guardian may open one account per minor/person of unsound mind (combined annual deposit ceiling ₹1.5 lakh across own + minor accounts). Joint accounts not permitted. NRIs cannot open new PPF accounts under scheme rules. No personal max_annual_income ceiling — do not set implies_low_income. Benefits middle-class and higher-income resident savers who can deposit within the ₹1.5 lakh/FY cap. Tax treatment (EEE / 80C) depends on the tax regime chosen for the year — confirm Income Tax Department guidance.",
+      "verify": true,
+      "verify_notes": "2026-09-24: India Post Post Office Saving Schemes + PPF Scheme 2019 (G.S.R. 915(E)). Confirm current MoF interest notification and live IT regime interaction before advising."
+    },
+    "benefits": {
+      "en": "Deposits ₹500–₹1.5 lakh per financial year (multiples of ₹50); one account per adult plus guardian accounts for minors within the combined ₹1.5 lakh annual ceiling; interest notified by MoF; deposits commonly qualify under Income-tax Act section 80C when claimed under the applicable tax regime — confirm live IT/NSI rules. Benefits middle-class and higher-income savers equally (no income gate).",
+      "hi": "वित्तीय वर्ष में ₹500–₹1.5 लाख जमा; वयस्क एक खाता + अभिभावक खाते संयुक्त सीमा के भीतर; ब्याज वित्त मंत्रालय द्वारा अधिसूचित; सामान्यतः धारा 80C — लागू कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Deposits ₹500–₹1.5 lakh per financial year (multiples of ₹50); one account per adult plus guardian accounts for minors within the combined ₹1.5 lakh annual ceiling; interest notified by MoF; deposits commonly qualify under Income-tax Act section 80C when claimed under the applicable tax regime — confirm live IT/NSI rules. Benefits middle-class and higher-income savers equally (no income gate)."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof of account holder / guardian",
+        "PAN as required by accounts office",
+        "Birth proof for minor accounts",
+        "Account-opening Form-1 as per scheme"
+      ],
+      "hi": [
+        "KYC identity and address proof of account holder / guardian",
+        "PAN as required by accounts office",
+        "Birth proof for minor accounts",
+        "Account-opening Form-1 as per scheme"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof of account holder / guardian",
+        "(EN — Malayalam review pending) PAN as required by accounts office",
+        "(EN — Malayalam review pending) Birth proof for minor accounts",
+        "(EN — Malayalam review pending) Account-opening Form-1 as per scheme"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open at India Post or authorised bank branches under POSB/NSI PPF rules.",
+      "hi": "भारत डाक या अधिकृत बैंक शाखा में पीपीएफ खाता खोलें।",
+      "ml": "(EN — Malayalam review pending) Open at India Post or authorised bank branches under POSB/NSI PPF rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute / authorised banks",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "savings",
+      "ppf",
+      "tax",
+      "middle-class",
+      "universal",
+      "central",
+      "nationwide",
+      "post_office"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-nsc",
+    "scheme_name": {
+      "en": "National Savings Certificate (NSC) — VIII Issue",
+      "hi": "राष्ट्रीय बचत प्रमाणपत्र (एनएससी) — VIII अंक",
+      "ml": "(EN — Malayalam review pending) National Savings Certificate (NSC) — VIII Issue"
+    },
+    "description": {
+      "en": "Five-year National Savings Certificate (VIII Issue) sold through India Post / authorised channels; popular tax-saving small-savings instrument with no maximum deposit and no personal income ceiling.",
+      "hi": "पाँच वर्षीय राष्ट्रीय बचत प्रमाणपत्र (VIII); अधिकतम जमा सीमा नहीं; व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Five-year National Savings Certificate (VIII Issue) sold through India Post / authorised channels; popular tax-saving small-savings instrument with no maximum deposit and no personal income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Eligible: resident individuals (single adult; joint up to three adults; guardian for minor/unsound mind; minor ≥10 in own name) per India Post / NSI scheme features. NRIs / HUF / trusts generally cannot open new NSC per scheme notes. No personal income ceiling — leave max_annual_income null; do not set implies_low_income. Benefits middle-class and higher-income resident investors; no deposit maximum.",
+      "verify": true,
+      "verify_notes": "2026-09-24: India Post NSC features + NSI NSC VIII materials. Confirm live interest rate and 80C interaction under chosen tax regime."
+    },
+    "benefits": {
+      "en": "Minimum deposit commonly ₹1,000 in multiples of ₹100; no maximum; 5-year maturity; interest notified periodically; deposits commonly qualify under section 80C (applicable tax regime). Accrued interest treatment per IT rules. Useful for middle-class and higher-income savers.",
+      "hi": "न्यूनतम सामान्यतः ₹1,000; अधिकतम सीमा नहीं; 5 वर्ष परिपक्वता; सामान्यतः धारा 80C।",
+      "ml": "(EN — Malayalam review pending) Minimum deposit commonly ₹1,000 in multiples of ₹100; no maximum; 5-year maturity; interest notified periodically; deposits commonly qualify under section 80C (applicable tax regime). Accrued interest treatment per IT rules. Useful for middle-class and higher-income savers."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Application Form as prescribed by Post Office / bank"
+      ],
+      "hi": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Application Form as prescribed by Post Office / bank"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN as required",
+        "(EN — Malayalam review pending) Application Form as prescribed by Post Office / bank"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Purchase at India Post or authorised outlets under NSC VIII Issue rules.",
+      "hi": "भारत डाक / अधिकृत केंद्र पर एनएससी खरीदें।",
+      "ml": "(EN — Malayalam review pending) Purchase at India Post or authorised outlets under NSC VIII Issue rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "savings",
+      "nsc",
+      "tax",
+      "middle-class",
+      "universal",
+      "central",
+      "nationwide",
+      "post_office"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-scss",
+    "scheme_name": {
+      "en": "Senior Citizens Savings Scheme (SCSS)",
+      "hi": "वरिष्ठ नागरिक बचत योजना (एससीएसएस)",
+      "ml": "(EN — Malayalam review pending) Senior Citizens Savings Scheme (SCSS)"
+    },
+    "description": {
+      "en": "Five-year (extendable) small-savings deposit for senior citizens at Post Offices and authorised banks under the Senior Citizens’ Savings Scheme, 2019 (as amended); no personal income ceiling.",
+      "hi": "वरिष्ठ नागरिकों के लिए पाँच वर्षीय (विस्तार योग्य) बचत जमा; व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Five-year (extendable) small-savings deposit for senior citizens at Post Offices and authorised banks under the Senior Citizens’ Savings Scheme, 2019 (as amended); no personal income ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": 60,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Primary gate: attained age 60 on opening date. Also: age 55–59 who retired on superannuation/otherwise and open within the scheme’s stated window after receipt of retirement benefits with employer certificate (confirm live rule text — historically one month in 2019 notification; verify current amendment). Retired Defence Services personnel (excluding civilian defence employees) may open from age 50 subject to specified conditions. Individual or joint with spouse (first holder must meet age). Deposit min ₹1,000 multiples; maximum ₹30 lakh. HUF/NRI not eligible per scheme history/PIB. No personal income ceiling — leave max_annual_income null; do not set implies_low_income. Higher-income seniors meeting age rules are eligible.",
+      "verify": true,
+      "verify_notes": "2026-09-24: SCSS 2019 + ₹30 lakh amendment G.S.R. 240(E); India Post scheme pages. Confirm live interest rate, retirement-window timing, and tax regime interaction."
+    },
+    "benefits": {
+      "en": "Quarterly interest at MoF-notified SCSS rate (interest is taxable). Deposit commonly qualifies under section 80C when claimed under the applicable regime. Maximum deposit ₹30 lakh per individual across accounts (G.S.R. 240(E) 31.03.2023). Benefits middle- and higher-income seniors who meet age/retirement gates.",
+      "hi": "त्रैमासिक ब्याज (कर योग्य); अधिकतम जमा ₹30 लाख; सामान्यतः धारा 80C — लागू व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Quarterly interest at MoF-notified SCSS rate (interest is taxable). Deposit commonly qualifies under section 80C when claimed under the applicable regime. Maximum deposit ₹30 lakh per individual across accounts (G.S.R. 240(E) 31.03.2023). Benefits middle- and higher-income seniors who meet age/retirement gates."
+    },
+    "required_documents": {
+      "en": [
+        "Age / retirement proof as applicable (60+, or retired 55–59 / defence rules)",
+        "KYC identity and address proof",
+        "PAN",
+        "Deposit funds (min ₹1,000 multiples) within scheme ceiling"
+      ],
+      "hi": [
+        "Age / retirement proof as applicable (60+, or retired 55–59 / defence rules)",
+        "KYC identity and address proof",
+        "PAN",
+        "Deposit funds (min ₹1,000 multiples) within scheme ceiling"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Age / retirement proof as applicable (60+, or retired 55–59 / defence rules)",
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN",
+        "(EN — Malayalam review pending) Deposit funds (min ₹1,000 multiples) within scheme ceiling"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open at India Post or authorised bank under SCSS 2019 rules.",
+      "hi": "भारत डाक या अधिकृत बैंक में एससीएसएस खाता खोलें।",
+      "ml": "(EN — Malayalam review pending) Open at India Post or authorised bank under SCSS 2019 rules."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "Department of Posts / National Savings Institute / authorised banks",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "savings",
+      "scss",
+      "tax",
+      "middle-class",
+      "senior",
+      "central",
+      "nationwide",
+      "post_office"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80c-deductions",
+    "scheme_name": {
+      "en": "Income-tax Section 80C deductions (savings & specified payments)",
+      "hi": "आयकर धारा 80C कटौतियाँ (बचत और निर्दिष्ट भुगतान)",
+      "ml": "(EN — Malayalam review pending) Income-tax Section 80C deductions (savings & specified payments)"
+    },
+    "description": {
+      "en": "Citizen-facing Income Tax Department framework for deduction under section 80C of the Income-tax Act for specified investments and payments (e.g. life insurance premium, PPF, NSC, SCSS, ELSS, tuition fees, principal repayment of housing loan) subject to the overall Chapter VIA ceiling and the tax regime chosen.",
+      "hi": "आयकर अधिनियम धारा 80C के तहत निर्दिष्ट निवेश/भुगतान पर कटौती — लागू कर व्यवस्था और समग्र सीमा के अधीन।",
+      "ml": "(EN — Malayalam review pending) Citizen-facing Income Tax Department framework for deduction under section 80C of the Income-tax Act for specified investments and payments (e.g. life insurance premium, PPF, NSC, SCSS, ELSS, tuition fees, principal repayment of housing loan) subject to the overall Chapter VIA ceiling and the tax regime chosen."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Not a welfare cash transfer — a statutory tax deduction. No income ceiling to ‘qualify’ for 80C itself; usefulness rises with taxable income under a regime that allows Chapter VIA. Leave max_annual_income null; do not set implies_low_income. Concrete products PPF/NSC/SCSS/Sukanya/NPS also catalogued separately. ELSS and other market products are SEBI-regulated — catalogue points to IT Act deduction framing only.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Income Tax e-Filing portal + ITD tutorials referencing section 80C. Confirm AY-specific regime rules and ₹1.5 lakh combined ceiling before advising."
+    },
+    "benefits": {
+      "en": "Combined deduction under sections 80C, 80CCC and 80CCD(1) commonly capped at ₹1.5 lakh per year when claimed under the old/optional regime that allows Chapter VIA deductions. New/default tax regime generally does not allow most 80C-type deductions — confirm live ITR help for the assessment year. Benefits middle-class and higher-income taxpayers who have eligible outflows and choose a regime that permits the deduction.",
+      "hi": "सामान्यतः 80C/80CCC/80CCD(1) संयुक्त सीमा ₹1.5 लाख (पुरानी/वैकल्पिक व्यवस्था); नई व्यवस्था में प्रायः अनुपलब्ध — जीवंत आईटीआर सहायता देखें।",
+      "ml": "(EN — Malayalam review pending) Combined deduction under sections 80C, 80CCC and 80CCD(1) commonly capped at ₹1.5 lakh per year when claimed under the old/optional regime that allows Chapter VIA deductions. New/default tax regime generally does not allow most 80C-type deductions — confirm live ITR help for the assessment year. Benefits middle-class and higher-income taxpayers who have eligible outflows and choose a regime that permits the deduction."
+    },
+    "required_documents": {
+      "en": [
+        "PAN and ITR as applicable",
+        "Proof of eligible investments/payments (PPF passbook, NSC, insurance premium receipts, housing-loan principal certificate, etc.)"
+      ],
+      "hi": [
+        "PAN and ITR as applicable",
+        "Proof of eligible investments/payments (PPF passbook, NSC, insurance premium receipts, housing-loan principal certificate, etc.)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) PAN and ITR as applicable",
+        "(EN — Malayalam review pending) Proof of eligible investments/payments (PPF passbook, NSC, insurance premium receipts, housing-loan principal certificate, etc.)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim while filing Income Tax Return on the Income Tax e-Filing portal; invest via Post Office/banks/AMCs as applicable.",
+      "hi": "आयकर ई-फाइलिंग पोर्टल पर आईटीआर दाखिल करते समय दावा करें।",
+      "ml": "(EN — Malayalam review pending) Claim while filing Income Tax Return on the Income Tax e-Filing portal; invest via Post Office/banks/AMCs as applicable."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometax.gov.in/iec/foportal/",
+    "tags": [
+      "tax",
+      "80c",
+      "middle-class",
+      "savings",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-24b-home-loan-interest",
+    "scheme_name": {
+      "en": "Home-loan interest deduction — Income-tax Section 24(b)",
+      "hi": "गृह ऋण ब्याज कटौती — आयकर धारा 24(b)",
+      "ml": "(EN — Malayalam review pending) Home-loan interest deduction — Income-tax Section 24(b)"
+    },
+    "description": {
+      "en": "Deduction of interest on capital borrowed for acquisition/construction/repair of house property under section 24(b) of the Income-tax Act, as explained by the Income Tax Department house-property guidance.",
+      "hi": "गृह संपत्ति हेतु उधार पूंजी पर ब्याज की धारा 24(b) कटौती।",
+      "ml": "(EN — Malayalam review pending) Deduction of interest on capital borrowed for acquisition/construction/repair of house property under section 24(b) of the Income-tax Act, as explained by the Income Tax Department house-property guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory tax deduction, not a subsidy payout. No max_annual_income ceiling on claiming 24(b) itself — leave null; do not set implies_low_income. Higher-income homeowners with eligible interest can benefit. Interaction with new vs old tax regime and with sections 80EE/80EEA — confirm live ITD guidance for the assessment year.",
+      "verify": true,
+      "verify_notes": "2026-09-24: ITD ‘Income from house property’ page (§24(b) limits). Confirm AY regime rules and exact monetary caps before advising."
+    },
+    "benefits": {
+      "en": "Self-occupied residential property: interest on capital borrowed for acquisition/construction commonly deductible up to ₹2 lakh (conditions include loan on/after 01-04-1999 and completion within 5 years per ITD guidance). Let-out property: actual interest generally allowable. Pre-construction interest in five equal instalments after completion. Benefits middle-class and higher-income homeowners with housing loans — no scheme income ceiling.",
+      "hi": "स्व-अध्यसित संपत्ति पर सामान्यतः अधिकतम ₹2 लाख ब्याज कटौती (शर्तों सहित); किराए पर दी संपत्ति पर वास्तविक ब्याज — आयकर विभाग मार्गदर्शन देखें।",
+      "ml": "(EN — Malayalam review pending) Self-occupied residential property: interest on capital borrowed for acquisition/construction commonly deductible up to ₹2 lakh (conditions include loan on/after 01-04-1999 and completion within 5 years per ITD guidance). Let-out property: actual interest generally allowable. Pre-construction interest in five equal instalments after completion. Benefits middle-class and higher-income homeowners with housing loans — no scheme income ceiling."
+    },
+    "required_documents": {
+      "en": [
+        "Housing loan interest certificate from lender",
+        "Property and loan documents",
+        "PAN / ITR filing credentials"
+      ],
+      "hi": [
+        "Housing loan interest certificate from lender",
+        "Property and loan documents",
+        "PAN / ITR filing credentials"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Housing loan interest certificate from lender",
+        "(EN — Malayalam review pending) Property and loan documents",
+        "(EN — Malayalam review pending) PAN / ITR filing credentials"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim in the Income Tax Return under Income from House Property on the e-Filing portal.",
+      "hi": "ई-फाइलिंग पोर्टल पर गृह संपत्ति आय के अंतर्गत आईटीआर में दावा करें।",
+      "ml": "(EN — Malayalam review pending) Claim in the Income Tax Return under Income from House Property on the e-Filing portal."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://incometaxindia.gov.in/Documents/Left%20Menu/income-from-house-property.htm",
+    "tags": [
+      "tax",
+      "housing",
+      "home_loan",
+      "middle-class",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80eea",
+    "scheme_name": {
+      "en": "Additional affordable home-loan interest deduction — Section 80EEA",
+      "hi": "किफायती गृह ऋण अतिरिक्त ब्याज कटौती — धारा 80EEA",
+      "ml": "(EN — Malayalam review pending) Additional affordable home-loan interest deduction — Section 80EEA"
+    },
+    "description": {
+      "en": "Additional deduction (over section 24(b)) of up to ₹1.5 lakh for interest on loan taken for affordable residential house property under section 80EEA, for individuals meeting stamp-duty, first-home, and loan-sanction window conditions.",
+      "hi": "धारा 80EEA के तहत किफायती आवास ऋण ब्याज पर अतिरिक्त कटौती (अधिकतम ₹1.5 लाख) — स्वीकृति खिड़की और शर्तों सहित।",
+      "ml": "(EN — Malayalam review pending) Additional deduction (over section 24(b)) of up to ₹1.5 lakh for interest on loan taken for affordable residential house property under section 80EEA, for individuals meeting stamp-duty, first-home, and loan-sanction window conditions."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Sanction window closed 31-03-2022 — no new loans after that date qualify; existing eligible borrowers may continue claiming while interest is paid and conditions hold. Not for high-value homes above stamp ₹45 lakh. Leave max_annual_income null (no separate income ceiling in section text beyond property value); do not set implies_low_income. Tag middle-class: targets affordable first homes.",
+      "verify": true,
+      "verify_notes": "2026-09-24: ITD section 80EEA page + e-Filing AY help (sanction 1 Apr 2019–31 Mar 2022). Confirm regime availability each AY."
+    },
+    "benefits": {
+      "en": "Deduction up to ₹1,50,000 for interest, typically after exhausting section 24(b), when conditions are met. Loan must have been sanctioned by a financial institution between 01-04-2019 and 31-03-2022; stamp duty value ≤ ₹45 lakh; assessee owned no residential house on sanction date; not eligible to claim section 80EE. New tax regime generally disallows this Chapter VIA deduction — confirm live ITR help. Still relevant for middle-income buyers who took qualifying loans in the window.",
+      "hi": "अधिकतम ₹1.5 लाख; ऋण स्वीकृति 01-04-2019 से 31-03-2022; स्टांप ≤₹45 लाख; प्रथम आवास; 80EE नहीं — जीवंत नियम देखें।",
+      "ml": "(EN — Malayalam review pending) Deduction up to ₹1,50,000 for interest, typically after exhausting section 24(b), when conditions are met. Loan must have been sanctioned by a financial institution between 01-04-2019 and 31-03-2022; stamp duty value ≤ ₹45 lakh; assessee owned no residential house on sanction date; not eligible to claim section 80EE. New tax regime generally disallows this Chapter VIA deduction — confirm live ITR help. Still relevant for middle-income buyers who took qualifying loans in the window."
+    },
+    "required_documents": {
+      "en": [
+        "Loan sanction letter showing date within 01-04-2019 to 31-03-2022",
+        "Stamp duty value evidence ≤ ₹45 lakh",
+        "Interest certificate; declaration of no other residential house on sanction date",
+        "ITR / PAN"
+      ],
+      "hi": [
+        "Loan sanction letter showing date within 01-04-2019 to 31-03-2022",
+        "Stamp duty value evidence ≤ ₹45 lakh",
+        "Interest certificate; declaration of no other residential house on sanction date",
+        "ITR / PAN"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Loan sanction letter showing date within 01-04-2019 to 31-03-2022",
+        "(EN — Malayalam review pending) Stamp duty value evidence ≤ ₹45 lakh",
+        "(EN — Malayalam review pending) Interest certificate; declaration of no other residential house on sanction date",
+        "(EN — Malayalam review pending) ITR / PAN"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim in ITR Schedule VIA on the Income Tax e-Filing portal if conditions met (old/optional regime).",
+      "hi": "शर्तें पूर्ण होने पर ई-फाइलिंग पोर्टल पर आईटीआर में दावा करें।",
+      "ml": "(EN — Malayalam review pending) Claim in ITR Schedule VIA on the Income Tax e-Filing portal if conditions met (old/optional regime)."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometaxindia.gov.in/w/section-80eea-2",
+    "tags": [
+      "tax",
+      "housing",
+      "home_loan",
+      "middle-class",
+      "80eea",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-nps-tier-ii",
+    "scheme_name": {
+      "en": "National Pension System — Tier II (voluntary)",
+      "hi": "राष्ट्रीय पेंशन प्रणाली — टियर II (स्वैच्छिक)",
+      "ml": "(EN — Malayalam review pending) National Pension System — Tier II (voluntary)"
+    },
+    "description": {
+      "en": "Optional NPS Tier II investment account available to subscribers who already hold an active NPS Tier I account; flexible withdrawals; distinct from Tier I tax-advantaged retirement account and from Atal Pension Yojana.",
+      "hi": "सक्रिय टियर I वाले अभिदाताओं के लिए वैकल्पिक टियर II खाता; लचीली निकासी; टियर I कर लाभ से भिन्न।",
+      "ml": "(EN — Malayalam review pending) Optional NPS Tier II investment account available to subscribers who already hold an active NPS Tier I account; flexible withdrawals; distinct from Tier I tax-advantaged retirement account and from Atal Pension Yojana."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 70,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Requires active Tier I. Age band commonly aligned with All Citizen Model (often 18–70 on eNPS — confirm live). PFRDA materials: NRI/OCI generally cannot activate Tier II even with Tier I — verify current FAQ. No personal income ceiling — leave max_annual_income null; do not set implies_low_income. Tax clarity: Tier II is NOT a substitute for Tier I section 80CCD benefits for most subscribers.",
+      "verify": true,
+      "verify_notes": "2026-09-24: PFRDA All Citizen Model pages/FAQs. Confirm live Tier II eligibility for NRI/OCI and tax treatment before advising."
+    },
+    "benefits": {
+      "en": "Market-linked voluntary investments with unrestricted withdrawals per PFRDA rules. Per PFRDA All Citizen Model FAQs, Tier II contributions generally do not get the special tax deductions available to Tier I (80CCD / 80CCD(1B)) — confirm live PFRDA/IT guidance. Useful liquidity sleeve for middle-class and higher-income NPS subscribers; no income ceiling.",
+      "hi": "लचीली निकासी; सामान्यतः टियर II पर 80CCD-प्रकार कटौती नहीं (टियर I से भिन्न) — पीएफआरडीए/आयकर पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Market-linked voluntary investments with unrestricted withdrawals per PFRDA rules. Per PFRDA All Citizen Model FAQs, Tier II contributions generally do not get the special tax deductions available to Tier I (80CCD / 80CCD(1B)) — confirm live PFRDA/IT guidance. Useful liquidity sleeve for middle-class and higher-income NPS subscribers; no income ceiling."
+    },
+    "required_documents": {
+      "en": [
+        "Active NPS Tier I PRAN",
+        "KYC as required by eNPS / PoP",
+        "Bank account for contributions"
+      ],
+      "hi": [
+        "Active NPS Tier I PRAN",
+        "KYC as required by eNPS / PoP",
+        "Bank account for contributions"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Active NPS Tier I PRAN",
+        "(EN — Malayalam review pending) KYC as required by eNPS / PoP",
+        "(EN — Malayalam review pending) Bank account for contributions"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Activate via eNPS / Point of Presence after Tier I is active (resident citizens per PFRDA; NRI/OCI Tier II limits — confirm live FAQ).",
+      "hi": "सक्रिय टियर I के बाद ईएनपीएस / पीओपी के माध्यम से सक्रिय करें।",
+      "ml": "(EN — Malayalam review pending) Activate via eNPS / Point of Presence after Tier I is active (resident citizens per PFRDA; NRI/OCI Tier II limits — confirm live FAQ)."
+    },
+    "apply_url": "https://pfrda.org.in/schemes/national-pension-system/nps-for-all-citizen-models",
+    "office_type": "PFRDA / NPS Trust / Points of Presence",
+    "official_source_url": "https://pfrda.org.in/schemes/national-pension-system/nps-for-all-citizen-models",
+    "tags": [
+      "pension",
+      "nps",
+      "tier-ii",
+      "middle-class",
+      "savings",
+      "central",
+      "nationwide",
+      "pfrda"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-e-drive",
+    "scheme_name": {
+      "en": "PM E-DRIVE — electric two-wheeler demand incentive",
+      "hi": "पीएम ई-ड्राइव — इलेक्ट्रिक दोपहिया मांग प्रोत्साहन",
+      "ml": "(EN — Malayalam review pending) PM E-DRIVE — electric two-wheeler demand incentive"
+    },
+    "description": {
+      "en": "Ministry of Heavy Industries demand incentive under PM Electric Drive Revolution in Innovative Vehicle Enhancement (PM E-DRIVE) for eligible advanced-battery electric two-wheelers; e-voucher via Aadhaar face authentication at purchase.",
+      "hi": "भारी उद्योग मंत्रालय की पीएम ई-ड्राइव योजना के तहत पात्र ई-दोपहिया पर मांग प्रोत्साहन; खरीद पर ई-वाउचर।",
+      "ml": "(EN — Malayalam review pending) Ministry of Heavy Industries demand incentive under PM Electric Drive Revolution in Innovative Vehicle Enhancement (PM E-DRIVE) for eligible advanced-battery electric two-wheelers; e-voucher via Aadhaar face authentication at purchase."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Citizen retail path focuses on e-2W: both commercial and privately/corporately owned registered e-2Ws with advanced batteries. e-3W incentives are for commercial use only — not private passenger cars. e-ambulances/trucks/buses are institutional. Portal notice (fetched 2026-09-24): terminal date for e-2Ws extended till 31.03.2028 (amendment notification 10.08.2026 referenced on portal). One beneficiary per category rules per FAQs — confirm live. No personal max_annual_income — leave null; do not set implies_low_income. Higher-income private e-2W buyers are not excluded by an income gate.",
+      "verify": true,
+      "verify_notes": "2026-09-24: pmedrive.heavyindustries.gov.in home + operational guidelines. Confirm live e-2W end date, incentive ₹/kWh caps, and e-voucher steps before advising."
+    },
+    "benefits": {
+      "en": "Upfront reduction in vehicle price via dealer e-voucher for eligible e-2Ws fitted with advanced batteries. Privately or corporately owned registered e-2Ws are eligible (as well as commercial). Exact incentive formula/caps per operational guidelines — verify live portal. No personal income ceiling stated for the retail e-2W path — middle-class and higher-income buyers can benefit while stock/quota lasts.",
+      "hi": "पात्र उन्नत-बैटरी ई-2W पर डीलर ई-वाउचर से अग्रिम छूट; निजी/कॉर्पोरेट पंजीकृत ई-2W पात्र; व्यक्तिगत आय सीमा नहीं बताई गई।",
+      "ml": "(EN — Malayalam review pending) Upfront reduction in vehicle price via dealer e-voucher for eligible e-2Ws fitted with advanced batteries. Privately or corporately owned registered e-2Ws are eligible (as well as commercial). Exact incentive formula/caps per operational guidelines — verify live portal. No personal income ceiling stated for the retail e-2W path — middle-class and higher-income buyers can benefit while stock/quota lasts."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar for face-authenticated e-voucher",
+        "Eligible OEM/model with advanced battery as per scheme",
+        "Vehicle registration as required"
+      ],
+      "hi": [
+        "Aadhaar for face-authenticated e-voucher",
+        "Eligible OEM/model with advanced battery as per scheme",
+        "Vehicle registration as required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Aadhaar for face-authenticated e-voucher",
+        "(EN — Malayalam review pending) Eligible OEM/model with advanced battery as per scheme",
+        "(EN — Malayalam review pending) Vehicle registration as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Generate e-voucher on the PM E-DRIVE portal at time of purchase; incentive deducted by dealer per guidelines.",
+      "hi": "खरीद के समय पीएम ई-ड्राइव पोर्टल पर ई-वाउचर बनाएँ; डीलर छूट लागू करता है।",
+      "ml": "(EN — Malayalam review pending) Generate e-voucher on the PM E-DRIVE portal at time of purchase; incentive deducted by dealer per guidelines."
+    },
+    "apply_url": "https://pmedrive.heavyindustries.gov.in/",
+    "office_type": "Ministry of Heavy Industries",
+    "official_source_url": "https://pmedrive.heavyindustries.gov.in/",
+    "tags": [
+      "ev",
+      "subsidy",
+      "electric_vehicle",
+      "universal",
+      "middle-class",
+      "central",
+      "nationwide",
+      "transport"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-startup-india",
+    "scheme_name": {
+      "en": "Startup India — DPIIT recognition & founder benefits",
+      "hi": "स्टार्टअप इंडिया — डीपीआईआईटी मान्यता एवं लाभ",
+      "ml": "(EN — Malayalam review pending) Startup India — DPIIT recognition & founder benefits"
+    },
+    "description": {
+      "en": "DPIIT recognition under the Startup India initiative for eligible private limited companies, LLPs, registered partnerships, or cooperative societies meeting age, turnover, originality, and innovation/scalability criteria — gateway to compliance relief, IPR facilitation, public procurement easing, and possible section 80-IAC tax exemption pathway.",
+      "hi": "पात्र संस्थाओं के लिए डीपीआईआईटी स्टार्टअप मान्यता — अनुपालन राहत, आईपीआर सुविधा, खरीद सरलीकरण, और संभावित 80-IAC मार्ग।",
+      "ml": "(EN — Malayalam review pending) DPIIT recognition under the Startup India initiative for eligible private limited companies, LLPs, registered partnerships, or cooperative societies meeting age, turnover, originality, and innovation/scalability criteria — gateway to compliance relief, IPR facilitation, public procurement easing, and possible section 80-IAC tax exemption pathway."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "entrepreneur",
+        "startup_founder"
+      ],
+      "categories": [
+        "startup"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Entity-level scheme: existence ≤10 years (≤20 deeptech track per portal), turnover ≤₹200 crore (≤₹300 crore deeptech) in any FY since incorporation, not formed by splitting/reconstructing existing business, innovative/scalable. No personal founder income ceiling — leave max_annual_income null; do not set implies_low_income. Notes must reflect that higher-income founders of eligible startups can benefit. 80-IAC is a separate approval, not automatic with recognition.",
+      "verify": true,
+      "verify_notes": "2026-09-24: startupindia.gov.in Startup Scheme / recognition page. Confirm live turnover/age tracks and 80-IAC conditions before advising."
+    },
+    "benefits": {
+      "en": "Recognition benefits may include labour/environment self-certification windows, patent/trademark facilitation support, GeM/procurement relaxations, and—for separately approved eligible Pvt Ltd/LLP incorporated on/after 01-04-2016—section 80-IAC income-tax deduction for 3 consecutive years within first 10 years (subject to Inter-Ministerial Board approval). Founders may be middle- or high-income; entity turnover ceilings apply (commonly ≤₹200 crore any FY for normal recognition; deeptech track differs) — confirm live portal.",
+      "hi": "मान्यता लाभ: स्व-प्रमाणन, आईपीआर सहायता, खरीद छूट; अलग स्वीकृति पर 80-IAC संभव। संस्था टर्नओवर सीमाएँ — पोर्टल देखें।",
+      "ml": "(EN — Malayalam review pending) Recognition benefits may include labour/environment self-certification windows, patent/trademark facilitation support, GeM/procurement relaxations, and—for separately approved eligible Pvt Ltd/LLP incorporated on/after 01-04-2016—section 80-IAC income-tax deduction for 3 consecutive years within first 10 years (subject to Inter-Ministerial Board approval). Founders may be middle- or high-income; entity turnover ceilings apply (commonly ≤₹200 crore any FY for normal recognition; deeptech track differs) — confirm live portal."
+    },
+    "required_documents": {
+      "en": [
+        "Certificate of incorporation / LLP deed / partnership registration",
+        "Details proving innovation/scalability and that entity was not formed by splitting/reconstructing an existing business",
+        "Financials/ITR as required for recognition or 80-IAC application"
+      ],
+      "hi": [
+        "Certificate of incorporation / LLP deed / partnership registration",
+        "Details proving innovation/scalability and that entity was not formed by splitting/reconstructing an existing business",
+        "Financials/ITR as required for recognition or 80-IAC application"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Certificate of incorporation / LLP deed / partnership registration",
+        "(EN — Malayalam review pending) Details proving innovation/scalability and that entity was not formed by splitting/reconstructing an existing business",
+        "(EN — Malayalam review pending) Financials/ITR as required for recognition or 80-IAC application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply for DPIIT recognition on startupindia.gov.in (or NSWS); optionally apply for section 80-IAC after recognition via the portal form.",
+      "hi": "startupindia.gov.in पर डीपीआईआईटी मान्यता हेतु आवेदन करें; तत्पश्चात वैकल्पिक 80-IAC।",
+      "ml": "(EN — Malayalam review pending) Apply for DPIIT recognition on startupindia.gov.in (or NSWS); optionally apply for section 80-IAC after recognition via the portal form."
+    },
+    "apply_url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme.html",
+    "office_type": "DPIIT / Startup India",
+    "official_source_url": "https://www.startupindia.gov.in/content/sih/en/startup-scheme.html",
+    "tags": [
+      "startup",
+      "tax",
+      "middle-class",
+      "entrepreneur",
+      "dpiit",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-usp-csss",
+    "scheme_name": {
+      "en": "PM-USP Central Sector Scheme of Scholarship for College and University Students",
+      "hi": "पीएम-यूएसपी केंद्रीय क्षेत्र छात्रवृत्ति (कॉलेज/विश्वविद्यालय)",
+      "ml": "(EN — Malayalam review pending) PM-USP Central Sector Scheme of Scholarship for College and University Students"
+    },
+    "description": {
+      "en": "Merit-cum-means scholarship under Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) for Class XII board pass-outs above the 80th percentile in their stream who pursue regular degree courses, with gross parental/family income up to ₹4.5 lakh per annum.",
+      "hi": "कक्षा 12 में संबंधित स्ट्रीम में 80वें प्रतिशतक से ऊपर; नियमित डिग्री; पारिवारिक आय अधिकतम ₹4.5 लाख।",
+      "ml": "(EN — Malayalam review pending) Merit-cum-means scholarship under Pradhan Mantri Uchchatar Shiksha Protsahan (PM-USP) for Class XII board pass-outs above the 80th percentile in their stream who pursue regular degree courses, with gross parental/family income up to ₹4.5 lakh per annum."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 450000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "student",
+        "merit"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Above 80th percentile of successful candidates in relevant Class XII stream; regular degree (not correspondence/distance/diploma); AICTE/regulatory-recognised institution; not already availing another specified merit/state fee-waiver scheme; gross parental/family income ≤ ₹4.5 lakh (income certificate for fresh). Renewal: ≥50% marks and ≥75% attendance typical gates. max_annual_income encodes the ₹4.5 lakh family-income ceiling.",
+      "verify": true,
+      "verify_notes": "2026-09-24: PM-USP CSSS guidelines PDF on scholarships.gov.in (AY 2022-23 onwards rates). Confirm NSP open/close dates each year.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹12,000 per annum for first three years of graduation-level study; ₹20,000 per annum at postgraduate level (professional/integrated rules per guidelines — e.g. B.Tech up to graduation year 4 amounts as specified). DBT to student bank account. About 82,000 fresh scholarships per year; 50% for girls. Not a BPL-only scheme — covers lower-middle / middle-income families up to ₹4.5 lakh.",
+      "hi": "स्नातक प्रथम तीन वर्ष ₹12,000/वर्ष; स्नातकोत्तर ₹20,000/वर्ष (दिशानिर्देशानुसार)।",
+      "ml": "(EN — Malayalam review pending) ₹12,000 per annum for first three years of graduation-level study; ₹20,000 per annum at postgraduate level (professional/integrated rules per guidelines — e.g. B.Tech up to graduation year 4 amounts as specified). DBT to student bank account. About 82,000 fresh scholarships per year; 50% for girls. Not a BPL-only scheme — covers lower-middle / middle-income families up to ₹4.5 lakh."
+    },
+    "required_documents": {
+      "en": [
+        "Class XII marksheet / board percentile evidence",
+        "Family income certificate (fresh applicants; ≤ ₹4.5 lakh)",
+        "Admission proof in eligible regular course / AISHE-coded institution",
+        "Aadhaar / bank account for DBT; NSP application"
+      ],
+      "hi": [
+        "Class XII marksheet / board percentile evidence",
+        "Family income certificate (fresh applicants; ≤ ₹4.5 lakh)",
+        "Admission proof in eligible regular course / AISHE-coded institution",
+        "Aadhaar / bank account for DBT; NSP application"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Class XII marksheet / board percentile evidence",
+        "(EN — Malayalam review pending) Family income certificate (fresh applicants; ≤ ₹4.5 lakh)",
+        "(EN — Malayalam review pending) Admission proof in eligible regular course / AISHE-coded institution",
+        "(EN — Malayalam review pending) Aadhaar / bank account for DBT; NSP application"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply on National Scholarships Portal (scholarships.gov.in) within NSP timelines; institute and state verification required.",
+      "hi": "राष्ट्रीय छात्रवृत्ति पोर्टल (scholarships.gov.in) पर आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply on National Scholarships Portal (scholarships.gov.in) within NSP timelines; institute and state verification required."
+    },
+    "apply_url": "https://scholarships.gov.in/",
+    "office_type": "Department of Higher Education / National Scholarship Portal",
+    "official_source_url": "https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf",
+    "tags": [
+      "scholarship",
+      "education",
+      "middle-class",
+      "pm-usp",
+      "central",
+      "nationwide",
+      "nsp"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-nmms",
+    "scheme_name": {
+      "en": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "hi": "राष्ट्रीय मीन्स-कम-मेरिट छात्रवृत्ति योजना (एनएमएमएसएस)",
+      "ml": "(EN — Malayalam review pending) National Means-cum-Merit Scholarship Scheme (NMMSS)"
+    },
+    "description": {
+      "en": "Central sector scholarship to reduce dropout after Class VIII for meritorious students from economically weaker families, with parental income not more than ₹3.5 lakh per annum, studying in government / government-aided / local-body schools.",
+      "hi": "कक्षा 8 के बाद ड्रॉपआउट रोकने हेतु मेधावी विद्यार्थियों के लिए; पैतृक आय अधिकतम ₹3.5 लाख; सरकारी/सहायता प्राप्त/स्थानीय निकाय विद्यालय।",
+      "ml": "(EN — Malayalam review pending) Central sector scholarship to reduce dropout after Class VIII for meritorious students from economically weaker families, with parental income not more than ₹3.5 lakh per annum, studying in government / government-aided / local-body schools."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 350000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [
+        "student",
+        "merit"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Parental income ≤ ₹3.5 lakh from all sources at selection. Regular student entering Class IX in Government, Government-aided, or local-body school. Not entitled: Kendriya Vidyalayas, Jawahar Navodaya Vidyalayas, residential schools with boarding/lodging provided, private schools. Selection via State MAT+SAT; pass aggregates and Class VIII marks per guidelines (relaxations for SC/ST). max_annual_income encodes ₹3.5 lakh parental ceiling. NSP timelines referenced into AY 2026-27 in PIB/NSP notices — confirm live each year.",
+      "verify": true,
+      "verify_notes": "2026-09-24: NMMSS revised guidelines PDF on scholarships.gov.in; PIB/NSP activity into 2026-27. Confirm continuation circulars and State exam schedule.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "₹12,000 per annum (₹1,000/month) for Classes IX–XII (maximum four years) via DBT after State selection test (MAT+SAT) and NSP processing. 1,00,000 fresh scholarships per year with State/UT quotas. Covers families above extreme poverty up to ₹3.5 lakh — middle/lower-middle band, not BPL-only.",
+      "hi": "कक्षा 9–12 के लिए ₹12,000 प्रति वर्ष; राज्य चयन परीक्षा + एनएसपी।",
+      "ml": "(EN — Malayalam review pending) ₹12,000 per annum (₹1,000/month) for Classes IX–XII (maximum four years) via DBT after State selection test (MAT+SAT) and NSP processing. 1,00,000 fresh scholarships per year with State/UT quotas. Covers families above extreme poverty up to ₹3.5 lakh — middle/lower-middle band, not BPL-only."
+    },
+    "required_documents": {
+      "en": [
+        "Parental income proof ≤ ₹3.5 lakh",
+        "Class VII/VIII mark criteria for appearing/selection as per guidelines",
+        "Enrolment in eligible government/aided/local-body school (not KV/JNV/central-state residential with full boarding, not private schools)",
+        "Bank account; NSP application after selection"
+      ],
+      "hi": [
+        "Parental income proof ≤ ₹3.5 lakh",
+        "Class VII/VIII mark criteria for appearing/selection as per guidelines",
+        "Enrolment in eligible government/aided/local-body school (not KV/JNV/central-state residential with full boarding, not private schools)",
+        "Bank account; NSP application after selection"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Parental income proof ≤ ₹3.5 lakh",
+        "(EN — Malayalam review pending) Class VII/VIII mark criteria for appearing/selection as per guidelines",
+        "(EN — Malayalam review pending) Enrolment in eligible government/aided/local-body school (not KV/JNV/central-state residential with full boarding, not private schools)",
+        "(EN — Malayalam review pending) Bank account; NSP application after selection"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Appear in State/UT NMMSS selection test at Class VIII stage; then apply/renew on scholarships.gov.in (NSP) as directed.",
+      "hi": "राज्य/केंद्रशासित प्रदेश की एनएमएमएसएस परीक्षा दें; फिर एनएसपी पर आवेदन/नवीकरण।",
+      "ml": "(EN — Malayalam review pending) Appear in State/UT NMMSS selection test at Class VIII stage; then apply/renew on scholarships.gov.in (NSP) as directed."
+    },
+    "apply_url": "https://scholarships.gov.in/",
+    "office_type": "Department of School Education & Literacy / National Scholarship Portal",
+    "official_source_url": "https://scholarships.gov.in/public/schemeGuidelines/NMMSSGuidelines.pdf",
+    "tags": [
+      "scholarship",
+      "education",
+      "middle-class",
+      "nmms",
+      "central",
+      "nationwide",
+      "nsp"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-usp-csis",
+    "scheme_name": {
+      "en": "PM-USP Central Sector Interest Subsidy (CSIS) on education loans",
+      "hi": "पीएम-यूएसपी शिक्षा ऋण ब्याज सब्सिडी (सीएसआईएस)",
+      "ml": "(EN — Malayalam review pending) PM-USP Central Sector Interest Subsidy (CSIS) on education loans"
+    },
+    "description": {
+      "en": "Interest subsidy during the moratorium period on eligible education loans for students from families with income up to ₹4.5 lakh per annum, under the PM-USP CSIS component administered with banks (portal: PM Vidyalaxmi / MoE pages).",
+      "hi": "पारिवारिक आय अधिकतम ₹4.5 लाख वाले पात्र शिक्षा ऋणों पर अधिस्थगन अवधि में ब्याज सब्सिडी।",
+      "ml": "(EN — Malayalam review pending) Interest subsidy during the moratorium period on eligible education loans for students from families with income up to ₹4.5 lakh per annum, under the PM-USP CSIS component administered with banks (portal: PM Vidyalaxmi / MoE pages)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 450000,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "student"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Family income up to ₹4.5 lakh per annum (MoE CSIS framing). Eligible professional/technical courses and IBA model education loan from participating bank. Subsidy during moratorium; typically available only once. max_annual_income encodes the ₹4.5 lakh ceiling. Not limited to BPL — covers middle-income households under the cap. Exact loan ceiling and course list — verify live MoE guidelines / bank circulars (do not invent).",
+      "verify": true,
+      "verify_notes": "2026-09-24: education.gov.in CSIS page + pmvidyalaxmi.co.in. Confirm current loan ceiling, course eligibility, and claim workflow with lending bank.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Full simple interest subsidy during moratorium (course period + one year, per MoE scheme framing) on eligible IBA-model education loans for approved professional/technical courses in India, commonly up to the loan limit stated in current guidelines (often cited up to ₹10 lakh — confirm live MoE/bank page). Benefit generally once. Supports non-poor middle-income students below the ₹4.5 lakh family-income gate.",
+      "hi": "अधिस्थगन में साधारण ब्याज सब्सिडी; पात्र व्यावसायिक/तकनीकी पाठ्यक्रम; आय ≤₹4.5 लाख — बैंक/एमओई से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Full simple interest subsidy during moratorium (course period + one year, per MoE scheme framing) on eligible IBA-model education loans for approved professional/technical courses in India, commonly up to the loan limit stated in current guidelines (often cited up to ₹10 lakh — confirm live MoE/bank page). Benefit generally once. Supports non-poor middle-income students below the ₹4.5 lakh family-income gate."
+    },
+    "required_documents": {
+      "en": [
+        "Family income certificate ≤ ₹4.5 lakh",
+        "Sanctioned education loan from eligible bank under IBA model scheme",
+        "Admission/course documents for approved professional/technical programme in India",
+        "Aadhaar / bank details; claim via bank / PM Vidyalaxmi as directed"
+      ],
+      "hi": [
+        "Family income certificate ≤ ₹4.5 lakh",
+        "Sanctioned education loan from eligible bank under IBA model scheme",
+        "Admission/course documents for approved professional/technical programme in India",
+        "Aadhaar / bank details; claim via bank / PM Vidyalaxmi as directed"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Family income certificate ≤ ₹4.5 lakh",
+        "(EN — Malayalam review pending) Sanctioned education loan from eligible bank under IBA model scheme",
+        "(EN — Malayalam review pending) Admission/course documents for approved professional/technical programme in India",
+        "(EN — Malayalam review pending) Aadhaar / bank details; claim via bank / PM Vidyalaxmi as directed"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Take an eligible education loan; subsidy is claimed/processed through the lending bank and MoE/PM Vidyalaxmi channels (pmvidyalaxmi.co.in).",
+      "hi": "पात्र शिक्षा ऋण लें; बैंक और पीएम विद्यालक्ष्मी / शिक्षा मंत्रालय प्रक्रिया से सब्सिडी।",
+      "ml": "(EN — Malayalam review pending) Take an eligible education loan; subsidy is claimed/processed through the lending bank and MoE/PM Vidyalaxmi channels (pmvidyalaxmi.co.in)."
+    },
+    "apply_url": "https://pmvidyalaxmi.co.in/",
+    "office_type": "Department of Higher Education / member banks",
+    "official_source_url": "https://www.education.gov.in/central-scheme-provide-interest-subsidy-csis-educational-loans",
+    "tags": [
+      "education",
+      "loan",
+      "interest_subsidy",
+      "middle-class",
+      "pm-usp",
+      "csis",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-kmy",
+    "scheme_name": {
+      "en": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "hi": "प्रधानमंत्री किसान मानधन योजना (पीएम-केएमवाई)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)"
+    },
+    "description": {
+      "en": "Voluntary contributory old-age pension for landholding small and marginal farmers (cultivable land up to 2 hectares) aged 18–40, administered with LIC, providing assured monthly pension on attaining age 60 subject to exclusions.",
+      "hi": "2 हेक्टेयर तक भूमि वाले लघु/सीमांत किसान (प्रवेश आयु 18–40) के लिए अंशदायी पेंशन; 60 वर्ष पर सुनिश्चित मासिक पेंशन।",
+      "ml": "(EN — Malayalam review pending) Voluntary contributory old-age pension for landholding small and marginal farmers (cultivable land up to 2 hectares) aged 18–40, administered with LIC, providing assured monthly pension on attaining age 60 subject to exclusions."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 40,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "farmer",
+        "small_marginal_farmer"
+      ],
+      "categories": [
+        "smf"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": "cultivable_landholding_upto_2_ha",
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Small/Marginal Farmer owning cultivable land up to 2 hectare as per State/UT land records; entry age 18–40. Exclusions include: covered under NPS/ESIC/EPFO etc.; opted PM-SYM or PM-LVM; institutional landholders; constitutional post holders; ministers/MPs/MLAs etc.; serving/retired govt/PSE/local-body officers (excl. MTS/Class IV/Group D); persons who paid income tax in last assessment year; registered professionals (doctors, engineers, lawyers, CAs, architects) in practice. Not a high-income scheme — income-tax payers excluded. Leave max_annual_income null (no rupee ceiling stated beyond exclusions); do not set implies_low_income true solely from farmer status — exclusions already bar IT payers.",
+      "verify": true,
+      "verify_notes": "2026-09-24: PM-KMY Operational Guidelines PDF on pmkisan.gov.in; myscheme.gov.in/schemes/pmkmy. Confirm live enrolment portal URL (maandhan.in intermittent from box)."
+    },
+    "benefits": {
+      "en": "Assured ₹3,000 per month pension at age 60; equal matching contribution by Central Government; monthly subscriber contribution ₹55–₹200 by entry age. Family pension 50% to spouse after vesting as per guidelines. Option to auto-debit from PM-KISAN benefit.",
+      "hi": "60 वर्ष पर ₹3,000/माह; केंद्र का समतुल्य योगदान; प्रवेश आयु अनुसार ₹55–₹200/माह।",
+      "ml": "(EN — Malayalam review pending) Assured ₹3,000 per month pension at age 60; equal matching contribution by Central Government; monthly subscriber contribution ₹55–₹200 by entry age. Family pension 50% to spouse after vesting as per guidelines. Option to auto-debit from PM-KISAN benefit."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Bank passbook / account details (PM-KISAN account if using that mandate)",
+        "Landholding evidence as small/marginal farmer (≤2 ha) per State land records",
+        "Enrolment-cum-auto-debit mandate at CSC / SNO"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Bank passbook / account details (PM-KISAN account if using that mandate)",
+        "Landholding evidence as small/marginal farmer (≤2 ha) per State land records",
+        "Enrolment-cum-auto-debit mandate at CSC / SNO"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Aadhaar",
+        "(EN — Malayalam review pending) Bank passbook / account details (PM-KISAN account if using that mandate)",
+        "(EN — Malayalam review pending) Landholding evidence as small/marginal farmer (≤2 ha) per State land records",
+        "(EN — Malayalam review pending) Enrolment-cum-auto-debit mandate at CSC / SNO"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol at Common Service Centre (CSC) or via State Nodal Officer / designated online links with Aadhaar and bank details.",
+      "hi": "सीएससी या राज्य नोडल अधिकारी / निर्दिष्ट ऑनलाइन लिंक से नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol at Common Service Centre (CSC) or via State Nodal Officer / designated online links with Aadhaar and bank details."
+    },
+    "apply_url": "https://www.myscheme.gov.in/schemes/pmkmy",
+    "office_type": "Department of Agriculture & Farmers Welfare / LIC / CSC",
+    "official_source_url": "https://www.pmkisan.gov.in/Documents/PM-KMY%20-%20Operational%20Guidelines.pdf",
+    "tags": [
+      "pension",
+      "farmer",
+      "pm-kmy",
+      "maandhan",
+      "central",
+      "nationwide",
+      "agriculture"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-pm-sym",
+    "scheme_name": {
+      "en": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+      "hi": "प्रधानमंत्री श्रम योगी मानधन (पीएम-एसवाईएम)",
+      "ml": "(EN — Malayalam review pending) Pradhan Mantri Shram Yogi Maandhan (PM-SYM)"
+    },
+    "description": {
+      "en": "Voluntary contributory pension for unorganised workers aged 18–40 with monthly income ≤ ₹15,000 who are not income-tax payers and not covered under NPS, ESIC, or EPFO.",
+      "hi": "असंगठित कर्मकारों (मासिक आय ≤₹15,000; आयु 18–40) के लिए अंशदायी पेंशन; आयकरदाता/एनपीएस/ईएसआईसी/ईपीएफओ नहीं।",
+      "ml": "(EN — Malayalam review pending) Voluntary contributory pension for unorganised workers aged 18–40 with monthly income ≤ ₹15,000 who are not income-tax payers and not covered under NPS, ESIC, or EPFO."
+    },
+    "eligibility_rules": {
+      "min_age": 18,
+      "max_age": 40,
+      "max_annual_income": null,
+      "max_monthly_household_income": 15000,
+      "occupations": [
+        "unorganised_worker",
+        "self_employed"
+      ],
+      "categories": [
+        "unorganised_worker"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Unorganised workers (home-based, street vendors, construction, agri workers, etc.) with monthly income ₹15,000 or less; entry age 18–40. Must not be covered under NPS, ESIC, or EPFO; must not be an income-tax payer. max_monthly_household_income encodes the ₹15,000 monthly income gate (scheme text: monthly income). Not for wealthy / IT-paying professionals.",
+      "verify": true,
+      "verify_notes": "2026-09-24: labour.gov.in PM-SYM page (contribution chart and exclusions). Confirm live CSC enrolment and any portal URL changes."
+    },
+    "benefits": {
+      "en": "Minimum assured pension ₹3,000 per month after age 60; 50:50 matching contribution by Central Government; subscriber monthly contribution ₹55–₹200 by entry age. Family pension 50% to spouse during receipt as per scheme.",
+      "hi": "60 वर्ष के बाद ₹3,000/माह सुनिश्चित पेंशन; केंद्र का 50:50 योगदान।",
+      "ml": "(EN — Malayalam review pending) Minimum assured pension ₹3,000 per month after age 60; 50:50 matching contribution by Central Government; subscriber monthly contribution ₹55–₹200 by entry age. Family pension 50% to spouse during receipt as per scheme."
+    },
+    "required_documents": {
+      "en": [
+        "Aadhaar",
+        "Savings / Jan Dhan bank account",
+        "Mobile phone",
+        "Self-certification of unorganised-worker eligibility at CSC"
+      ],
+      "hi": [
+        "Aadhaar",
+        "Savings / Jan Dhan bank account",
+        "Mobile phone",
+        "Self-certification of unorganised-worker eligibility at CSC"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Aadhaar",
+        "(EN — Malayalam review pending) Savings / Jan Dhan bank account",
+        "(EN — Malayalam review pending) Mobile phone",
+        "(EN — Malayalam review pending) Self-certification of unorganised-worker eligibility at CSC"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Enrol at nearest CSC with Aadhaar and bank account (self-certification); facilitation via LIC/ESIC/EPFO/Labour offices directing to CSC.",
+      "hi": "आधार और बैंक खाते के साथ निकटतम सीएससी पर नामांकन।",
+      "ml": "(EN — Malayalam review pending) Enrol at nearest CSC with Aadhaar and bank account (self-certification); facilitation via LIC/ESIC/EPFO/Labour offices directing to CSC."
+    },
+    "apply_url": "https://www.labour.gov.in/offerings/schemes-and-services/details/pm-sym-QTOzATMtQWa",
+    "office_type": "Ministry of Labour & Employment / LIC / CSC",
+    "official_source_url": "https://www.labour.gov.in/offerings/schemes-and-services/details/pm-sym-QTOzATMtQWa",
+    "tags": [
+      "pension",
+      "unorganised_worker",
+      "pm-sym",
+      "maandhan",
+      "central",
+      "nationwide",
+      "labour"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-namaste",
+    "scheme_name": {
+      "en": "NAMASTE — National Action for Mechanised Sanitation Ecosystem",
+      "hi": "नमस्ते — यांत्रिक स्वच्छता पारिस्थितिकी तंत्र हेतु राष्ट्रीय कार्रवाई",
+      "ml": "(EN — Malayalam review pending) NAMASTE — National Action for Mechanised Sanitation Ecosystem"
+    },
+    "description": {
+      "en": "Joint MoSJE–MoHUA programme for sewer and septic tank workers (SSWs) and related sanitation workers (waste pickers included per revised guidelines), delivering profiling, occupational safety, health cover, skilling, and livelihood/PPE support via Urban Local Bodies — not a general middle-class cash scheme.",
+      "hi": "सीवर/सेप्टिक टैंक कर्मियों हेतु प्रोफाइलिंग, सुरक्षा, स्वास्थ्य कवर, कौशल और आजीविका सहायता — सामान्य मध्यमवर्गीय योजना नहीं।",
+      "ml": "(EN — Malayalam review pending) Joint MoSJE–MoHUA programme for sewer and septic tank workers (SSWs) and related sanitation workers (waste pickers included per revised guidelines), delivering profiling, occupational safety, health cover, skilling, and livelihood/PPE support via Urban Local Bodies — not a general middle-class cash scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [
+        "sanitation_worker",
+        "sewer_septic_worker",
+        "waste_picker"
+      ],
+      "categories": [
+        "sanitation_worker"
+      ],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Citizen path exists via ULB profiling of sewer/septic tank workers (and waste pickers per revised guidelines) — independent, ULB/parastatal, or private-organisation workers as defined. Not an open universal middle-class benefit and not for high-income general public. Leave max_annual_income null (no general income ceiling published as a simple rupee gate); do not mis-tag as middle-class/wealthy. verify=true for exact benefit packages which vary by component/guidelines edition.",
+      "verify": true,
+      "verify_notes": "2026-09-24: socialjustice.gov.in/schemes/37 + bmsnamaste.dosje.gov.in. Confirm live profiling process and waste-picker inclusion details in latest guidelines."
+    },
+    "benefits": {
+      "en": "Intended outcomes include zero fatalities in sanitation work, formalisation and skilling, PPE and safety training, Ayushman Bharat-PMJAY health coverage pathway for identified workers, SHG/entrepreneurship and alternate livelihood support, and capital subsidy / concessional loans for mechanisation as per guidelines. Access is typically through ULB identification/profiling camps rather than open self-registration alone.",
+      "hi": "पहचाने गए कर्मियों के लिए सुरक्षा प्रशिक्षण, पीपीई, स्वास्थ्य कवर, आजीविका/मशीनीकरण सहायता — यूएलबी प्रोफाइलिंग।",
+      "ml": "(EN — Malayalam review pending) Intended outcomes include zero fatalities in sanitation work, formalisation and skilling, PPE and safety training, Ayushman Bharat-PMJAY health coverage pathway for identified workers, SHG/entrepreneurship and alternate livelihood support, and capital subsidy / concessional loans for mechanisation as per guidelines. Access is typically through ULB identification/profiling camps rather than open self-registration alone."
+    },
+    "required_documents": {
+      "en": [
+        "Identification as SSW / eligible sanitation worker via ULB profiling",
+        "Aadhaar and bank details as required by ULB / NAMASTE BMS",
+        "Documents sought in profiling camp / guidelines"
+      ],
+      "hi": [
+        "Identification as SSW / eligible sanitation worker via ULB profiling",
+        "Aadhaar and bank details as required by ULB / NAMASTE BMS",
+        "Documents sought in profiling camp / guidelines"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Identification as SSW / eligible sanitation worker via ULB profiling",
+        "(EN — Malayalam review pending) Aadhaar and bank details as required by ULB / NAMASTE BMS",
+        "(EN — Malayalam review pending) Documents sought in profiling camp / guidelines"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Contact Urban Local Body / State NAMASTE nodal officer for profiling; see MoSJE scheme page and NAMASTE BMS portal.",
+      "hi": "शहरी स्थानीय निकाय / राज्य नमास्ते नोडल से प्रोफाइलिंग हेतु संपर्क करें।",
+      "ml": "(EN — Malayalam review pending) Contact Urban Local Body / State NAMASTE nodal officer for profiling; see MoSJE scheme page and NAMASTE BMS portal."
+    },
+    "apply_url": "https://bmsnamaste.dosje.gov.in/home",
+    "office_type": "Department of Social Justice & Empowerment / MoHUA / ULBs",
+    "official_source_url": "https://socialjustice.gov.in/schemes/37",
+    "tags": [
+      "sanitation",
+      "livelihood",
+      "namaste",
+      "occupational_safety",
+      "central",
+      "nationwide",
+      "urban"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
   }
 ]
