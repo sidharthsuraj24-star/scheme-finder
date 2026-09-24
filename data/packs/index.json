@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "default_version": "1.0.0",
+  "pack_count": 49,
+  "packs": [
+    {
+      "pack_id": "india-andhra-pradesh",
+      "version": "1.0.0",
+      "full_id": "india-andhra-pradesh@1.0.0",
+      "file": "india-andhra-pradesh@1.0.0.json",
+      "country": "India",
+      "region": "Andhra Pradesh",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-assam",
+      "version": "1.0.0",
+      "full_id": "india-assam@1.0.0",
+      "file": "india-assam@1.0.0.json",
+      "country": "India",
+      "region": "Assam",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-bihar",
+      "version": "1.0.0",
+      "full_id": "india-bihar@1.0.0",
+      "file": "india-bihar@1.0.0.json",
+      "country": "India",
+      "region": "Bihar",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-central",
+      "version": "1.0.0",
+      "full_id": "india-central@1.0.0",
+      "file": "india-central@1.0.0.json",
+      "country": "India",
+      "region": "Central / nationwide",
+      "kind": "country_central",
+      "scheme_count": 49
+    },
+    {
+      "pack_id": "india-chandigarh",
+      "version": "1.0.0",
+      "full_id": "india-chandigarh@1.0.0",
+      "file": "india-chandigarh@1.0.0.json",
+      "country": "India",
+      "region": "Chandigarh",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-chhattisgarh",
+      "version": "1.0.0",
+      "full_id": "india-chhattisgarh@1.0.0",
+      "file": "india-chhattisgarh@1.0.0.json",
+      "country": "India",
+      "region": "Chhattisgarh",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "india-delhi",
+      "version": "1.0.0",
+      "full_id": "india-delhi@1.0.0",
+      "file": "india-delhi@1.0.0.json",
+      "country": "India",
+      "region": "Delhi",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "india-goa",
+      "version": "1.0.0",
+      "full_id": "india-goa@1.0.0",
+      "file": "india-goa@1.0.0.json",
+      "country": "India",
+      "region": "Goa",
+      "kind": "state",
+      "scheme_count": 11
+    },
+    {
+      "pack_id": "india-gujarat",
+      "version": "1.0.0",
+      "full_id": "india-gujarat@1.0.0",
+      "file": "india-gujarat@1.0.0.json",
+      "country": "India",
+      "region": "Gujarat",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-haryana",
+      "version": "1.0.0",
+      "full_id": "india-haryana@1.0.0",
+      "file": "india-haryana@1.0.0.json",
+      "country": "India",
+      "region": "Haryana",
+      "kind": "state",
+      "scheme_count": 13
+    },
+    {
+      "pack_id": "india-jharkhand",
+      "version": "1.0.0",
+      "full_id": "india-jharkhand@1.0.0",
+      "file": "india-jharkhand@1.0.0.json",
+      "country": "India",
+      "region": "Jharkhand",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-karnataka",
+      "version": "1.0.0",
+      "full_id": "india-karnataka@1.0.0",
+      "file": "india-karnataka@1.0.0.json",
+      "country": "India",
+      "region": "Karnataka",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-kerala",
+      "version": "1.0.0",
+      "full_id": "india-kerala@1.0.0",
+      "file": "india-kerala@1.0.0.json",
+      "country": "India",
+      "region": "Kerala",
+      "kind": "state",
+      "scheme_count": 13
+    },
+    {
+      "pack_id": "india-ladakh",
+      "version": "1.0.0",
+      "full_id": "india-ladakh@1.0.0",
+      "file": "india-ladakh@1.0.0.json",
+      "country": "India",
+      "region": "Ladakh",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-lakshadweep",
+      "version": "1.0.0",
+      "full_id": "india-lakshadweep@1.0.0",
+      "file": "india-lakshadweep@1.0.0.json",
+      "country": "India",
+      "region": "Lakshadweep",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-madhya-pradesh",
+      "version": "1.0.0",
+      "full_id": "india-madhya-pradesh@1.0.0",
+      "file": "india-madhya-pradesh@1.0.0.json",
+      "country": "India",
+      "region": "Madhya Pradesh",
+      "kind": "state",
+      "scheme_count": 1
+    },
+    {
+      "pack_id": "india-maharashtra",
+      "version": "1.0.0",
+      "full_id": "india-maharashtra@1.0.0",
+      "file": "india-maharashtra@1.0.0.json",
+      "country": "India",
+      "region": "Maharashtra",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-manipur",
+      "version": "1.0.0",
+      "full_id": "india-manipur@1.0.0",
+      "file": "india-manipur@1.0.0.json",
+      "country": "India",
+      "region": "Manipur",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-meghalaya",
+      "version": "1.0.0",
+      "full_id": "india-meghalaya@1.0.0",
+      "file": "india-meghalaya@1.0.0.json",
+      "country": "India",
+      "region": "Meghalaya",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-mizoram",
+      "version": "1.0.0",
+      "full_id": "india-mizoram@1.0.0",
+      "file": "india-mizoram@1.0.0.json",
+      "country": "India",
+      "region": "Mizoram",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "india-nagaland",
+      "version": "1.0.0",
+      "full_id": "india-nagaland@1.0.0",
+      "file": "india-nagaland@1.0.0.json",
+      "country": "India",
+      "region": "Nagaland",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-odisha",
+      "version": "1.0.0",
+      "full_id": "india-odisha@1.0.0",
+      "file": "india-odisha@1.0.0.json",
+      "country": "India",
+      "region": "Odisha",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-puducherry",
+      "version": "1.0.0",
+      "full_id": "india-puducherry@1.0.0",
+      "file": "india-puducherry@1.0.0.json",
+      "country": "India",
+      "region": "Puducherry",
+      "kind": "state",
+      "scheme_count": 6
+    },
+    {
+      "pack_id": "india-punjab",
+      "version": "1.0.0",
+      "full_id": "india-punjab@1.0.0",
+      "file": "india-punjab@1.0.0.json",
+      "country": "India",
+      "region": "Punjab",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "india-rajasthan",
+      "version": "1.0.0",
+      "full_id": "india-rajasthan@1.0.0",
+      "file": "india-rajasthan@1.0.0.json",
+      "country": "India",
+      "region": "Rajasthan",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-sikkim",
+      "version": "1.0.0",
+      "full_id": "india-sikkim@1.0.0",
+      "file": "india-sikkim@1.0.0.json",
+      "country": "India",
+      "region": "Sikkim",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "india-tamil-nadu",
+      "version": "1.0.0",
+      "full_id": "india-tamil-nadu@1.0.0",
+      "file": "india-tamil-nadu@1.0.0.json",
+      "country": "India",
+      "region": "Tamil Nadu",
+      "kind": "state",
+      "scheme_count": 12
+    },
+    {
+      "pack_id": "india-telangana",
+      "version": "1.0.0",
+      "full_id": "india-telangana@1.0.0",
+      "file": "india-telangana@1.0.0.json",
+      "country": "India",
+      "region": "Telangana",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "india-tripura",
+      "version": "1.0.0",
+      "full_id": "india-tripura@1.0.0",
+      "file": "india-tripura@1.0.0.json",
+      "country": "India",
+      "region": "Tripura",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "india-uttar-pradesh",
+      "version": "1.0.0",
+      "full_id": "india-uttar-pradesh@1.0.0",
+      "file": "india-uttar-pradesh@1.0.0.json",
+      "country": "India",
+      "region": "Uttar Pradesh",
+      "kind": "state",
+      "scheme_count": 1
+    },
+    {
+      "pack_id": "india-uttarakhand",
+      "version": "1.0.0",
+      "full_id": "india-uttarakhand@1.0.0",
+      "file": "india-uttarakhand@1.0.0.json",
+      "country": "India",
+      "region": "Uttarakhand",
+      "kind": "state",
+      "scheme_count": 11
+    },
+    {
+      "pack_id": "india-west-bengal",
+      "version": "1.0.0",
+      "full_id": "india-west-bengal@1.0.0",
+      "file": "india-west-bengal@1.0.0.json",
+      "country": "India",
+      "region": "West Bengal",
+      "kind": "state",
+      "scheme_count": 1
+    },
+    {
+      "pack_id": "us-arizona",
+      "version": "1.0.0",
+      "full_id": "us-arizona@1.0.0",
+      "file": "us-arizona@1.0.0.json",
+      "country": "United States",
+      "region": "Arizona",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "us-california",
+      "version": "1.0.0",
+      "full_id": "us-california@1.0.0",
+      "file": "us-california@1.0.0.json",
+      "country": "United States",
+      "region": "California",
+      "kind": "state",
+      "scheme_count": 11
+    },
+    {
+      "pack_id": "us-colorado",
+      "version": "1.0.0",
+      "full_id": "us-colorado@1.0.0",
+      "file": "us-colorado@1.0.0.json",
+      "country": "United States",
+      "region": "Colorado",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "us-federal",
+      "version": "1.0.0",
+      "full_id": "us-federal@1.0.0",
+      "file": "us-federal@1.0.0.json",
+      "country": "United States",
+      "region": "Federal",
+      "kind": "country_federal",
+      "scheme_count": 48
+    },
+    {
+      "pack_id": "us-florida",
+      "version": "1.0.0",
+      "full_id": "us-florida@1.0.0",
+      "file": "us-florida@1.0.0.json",
+      "country": "United States",
+      "region": "Florida",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "us-georgia",
+      "version": "1.0.0",
+      "full_id": "us-georgia@1.0.0",
+      "file": "us-georgia@1.0.0.json",
+      "country": "United States",
+      "region": "Georgia",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "us-illinois",
+      "version": "1.0.0",
+      "full_id": "us-illinois@1.0.0",
+      "file": "us-illinois@1.0.0.json",
+      "country": "United States",
+      "region": "Illinois",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "us-massachusetts",
+      "version": "1.0.0",
+      "full_id": "us-massachusetts@1.0.0",
+      "file": "us-massachusetts@1.0.0.json",
+      "country": "United States",
+      "region": "Massachusetts",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "us-michigan",
+      "version": "1.0.0",
+      "full_id": "us-michigan@1.0.0",
+      "file": "us-michigan@1.0.0.json",
+      "country": "United States",
+      "region": "Michigan",
+      "kind": "state",
+      "scheme_count": 8
+    },
+    {
+      "pack_id": "us-new-jersey",
+      "version": "1.0.0",
+      "full_id": "us-new-jersey@1.0.0",
+      "file": "us-new-jersey@1.0.0.json",
+      "country": "United States",
+      "region": "New Jersey",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "us-new-york",
+      "version": "1.0.0",
+      "full_id": "us-new-york@1.0.0",
+      "file": "us-new-york@1.0.0.json",
+      "country": "United States",
+      "region": "New York",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "us-north-carolina",
+      "version": "1.0.0",
+      "full_id": "us-north-carolina@1.0.0",
+      "file": "us-north-carolina@1.0.0.json",
+      "country": "United States",
+      "region": "North Carolina",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "us-ohio",
+      "version": "1.0.0",
+      "full_id": "us-ohio@1.0.0",
+      "file": "us-ohio@1.0.0.json",
+      "country": "United States",
+      "region": "Ohio",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "us-pennsylvania",
+      "version": "1.0.0",
+      "full_id": "us-pennsylvania@1.0.0",
+      "file": "us-pennsylvania@1.0.0.json",
+      "country": "United States",
+      "region": "Pennsylvania",
+      "kind": "state",
+      "scheme_count": 10
+    },
+    {
+      "pack_id": "us-texas",
+      "version": "1.0.0",
+      "full_id": "us-texas@1.0.0",
+      "file": "us-texas@1.0.0.json",
+      "country": "United States",
+      "region": "Texas",
+      "kind": "state",
+      "scheme_count": 9
+    },
+    {
+      "pack_id": "us-virginia",
+      "version": "1.0.0",
+      "full_id": "us-virginia@1.0.0",
+      "file": "us-virginia@1.0.0.json",
+      "country": "United States",
+      "region": "Virginia",
+      "kind": "state",
+      "scheme_count": 7
+    },
+    {
+      "pack_id": "us-washington",
+      "version": "1.0.0",
+      "full_id": "us-washington@1.0.0",
+      "file": "us-washington@1.0.0.json",
+      "country": "United States",
+      "region": "Washington",
+      "kind": "state",
+      "scheme_count": 9
+    }
+  ],
+  "note": "Versioned catalogue packs (membership manifests). See docs/CATALOGUE_OPS.md."
+}

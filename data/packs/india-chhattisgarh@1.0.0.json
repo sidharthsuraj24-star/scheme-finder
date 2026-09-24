@@ -1,0 +1,23 @@
+{
+  "pack_id": "india-chhattisgarh",
+  "version": "1.0.0",
+  "full_id": "india-chhattisgarh@1.0.0",
+  "country": "India",
+  "region": "Chhattisgarh",
+  "kind": "state",
+  "scheme_ids": [
+    "cg-cm-pension-old-age",
+    "cg-cm-pension-widow",
+    "cg-disabled-scholarship",
+    "cg-ignoaps",
+    "cg-mahtari-vandan",
+    "cg-rg-landless-labour",
+    "cg-ssp-disability",
+    "cg-sukhad-sahara"
+  ],
+  "scheme_count": 8,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

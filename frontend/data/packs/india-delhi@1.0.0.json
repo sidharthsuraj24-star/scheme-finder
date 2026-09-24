@@ -1,0 +1,23 @@
+{
+  "pack_id": "india-delhi",
+  "version": "1.0.0",
+  "full_id": "india-delhi@1.0.0",
+  "country": "India",
+  "region": "Delhi",
+  "kind": "state",
+  "scheme_ids": [
+    "dl-ev-road-tax-exemption",
+    "dl-fapsn-disability",
+    "dl-lakhpati-bitiya",
+    "dl-mcd-property-tax-rebate",
+    "dl-old-age-pension",
+    "dl-rooftop-solar-subsidy",
+    "dl-sugamya-sahayak",
+    "dl-women-distress-pension"
+  ],
+  "scheme_count": 8,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

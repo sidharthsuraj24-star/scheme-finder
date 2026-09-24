@@ -1,0 +1,22 @@
+{
+  "pack_id": "us-georgia",
+  "version": "1.0.0",
+  "full_id": "us-georgia@1.0.0",
+  "country": "United States",
+  "region": "Georgia",
+  "kind": "state",
+  "scheme_ids": [
+    "us-ga-homestead",
+    "us-ga-hope",
+    "us-ga-liheap",
+    "us-ga-medicaid",
+    "us-ga-peachcare",
+    "us-ga-snap",
+    "us-ga-tanf"
+  ],
+  "scheme_count": 7,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

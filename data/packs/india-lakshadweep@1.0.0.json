@@ -1,0 +1,22 @@
+{
+  "pack_id": "india-lakshadweep",
+  "version": "1.0.0",
+  "full_id": "india-lakshadweep@1.0.0",
+  "country": "India",
+  "region": "Lakshadweep",
+  "kind": "state",
+  "scheme_ids": [
+    "ld-adip-rvy-camps",
+    "ld-daycare-pwd-children",
+    "ld-disability-pension",
+    "ld-marriage-allowance-pwd",
+    "ld-old-age-pension",
+    "ld-specialized-treatment-pwd",
+    "ld-widow-pension"
+  ],
+  "scheme_count": 7,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

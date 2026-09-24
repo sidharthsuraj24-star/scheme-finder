@@ -1,0 +1,26 @@
+{
+  "pack_id": "us-california",
+  "version": "1.0.0",
+  "full_id": "us-california@1.0.0",
+  "country": "United States",
+  "region": "California",
+  "kind": "state",
+  "scheme_ids": [
+    "ca-cal-grant",
+    "ca-caleitc",
+    "ca-calfresh",
+    "ca-calworks",
+    "ca-capi",
+    "ca-care-fera",
+    "ca-ihss",
+    "ca-liheap",
+    "ca-medi-cal",
+    "ca-ssi-ssp",
+    "ca-yctc"
+  ],
+  "scheme_count": 11,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

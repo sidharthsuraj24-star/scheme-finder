@@ -1,0 +1,22 @@
+{
+  "pack_id": "us-arizona",
+  "version": "1.0.0",
+  "full_id": "us-arizona@1.0.0",
+  "country": "United States",
+  "region": "Arizona",
+  "kind": "state",
+  "scheme_ids": [
+    "az-ahcccs",
+    "az-cash-assistance",
+    "az-kidscare",
+    "az-leap",
+    "az-liheap",
+    "az-nutrition-assistance",
+    "az-property-tax-credit"
+  ],
+  "scheme_count": 7,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

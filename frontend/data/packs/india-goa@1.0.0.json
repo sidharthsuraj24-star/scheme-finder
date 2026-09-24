@@ -1,0 +1,26 @@
+{
+  "pack_id": "india-goa",
+  "version": "1.0.0",
+  "full_id": "india-goa@1.0.0",
+  "country": "India",
+  "region": "Goa",
+  "kind": "state",
+  "scheme_ids": [
+    "ga-bachpan",
+    "ga-dsss-disability",
+    "ga-dsss-senior",
+    "ga-dsss-single-widow",
+    "ga-griha-aadhar",
+    "ga-laadli-laxmi",
+    "ga-marriage-award-disabled",
+    "ga-scholarship-differently-abled",
+    "ga-severe-disability-fa",
+    "ga-stipend-disabled-students",
+    "ga-traditional-occupation-assist"
+  ],
+  "scheme_count": 11,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

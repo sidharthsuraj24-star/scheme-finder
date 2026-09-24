@@ -16,6 +16,21 @@ type OpsSummary = {
     flaky_hosts?: { host?: string; status?: string; scheme_id?: string }[];
     checked_count?: number;
     ok_count?: number;
+    open_url_tickets?: number;
+  };
+  url_tickets?: {
+    open_count?: number;
+    by_status?: Record<string, number>;
+  };
+  candidates?: {
+    total?: number;
+    by_status?: Record<string, number>;
+    queued?: number;
+    deferred?: number;
+  };
+  packs?: {
+    pack_count?: number;
+    default_version?: string;
   };
   analytics?: {
     match_volume?: number;
@@ -25,6 +40,7 @@ type OpsSummary = {
     note?: string;
   };
   trust_checklist_doc?: string;
+  catalogue_ops_doc?: string;
   error?: { code?: string; message?: string };
 };
 
@@ -63,7 +79,8 @@ export default function OpsPage() {
       <header>
         <h1 className="text-2xl font-extrabold text-slate-900">Ops dashboard</h1>
         <p className="mt-1 text-sm text-slate-600">
-          Read-only catalogue / URL health / aggregate analytics. No CMS publisher UI. No PII.
+          Read-only catalogue / URL tickets / candidates / packs / analytics. No CMS publisher UI. No
+          PII. Phase 4 foundation — not Phase 4 complete.
         </p>
       </header>
 
@@ -131,6 +148,62 @@ export default function OpsPage() {
             ) : null}
             <p className="mt-3 text-xs text-slate-500">
               Publish checklist: <code>{data.trust_checklist_doc || "docs/TRUST.md"}</code>
+              {" · "}
+              Ops: <code>{data.catalogue_ops_doc || "docs/CATALOGUE_OPS.md"}</code>
+            </p>
+          </section>
+
+          <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <h2 className="font-bold text-slate-900">URL tickets</h2>
+            <p className="mt-1 text-slate-700">
+              <strong>open:</strong>{" "}
+              {data.url_tickets?.open_count ?? data.url_health?.open_url_tickets ?? "—"}
+            </p>
+            {data.url_tickets?.by_status ? (
+              <ul className="mt-1 list-inside list-disc text-xs">
+                {Object.entries(data.url_tickets.by_status).map(([k, v]) => (
+                  <li key={k}>
+                    {k}: {v}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+            <p className="mt-2 text-xs text-slate-500">
+              Append-only <code>data/url_tickets.jsonl</code> — list via{" "}
+              <code>scripts/list_url_tickets.py</code>
+            </p>
+          </section>
+
+          <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <h2 className="font-bold text-slate-900">Candidate queue</h2>
+            <p className="mt-1 text-slate-700">
+              total {data.candidates?.total ?? "—"} · queued {data.candidates?.queued ?? "—"} ·
+              deferred {data.candidates?.deferred ?? "—"}
+            </p>
+            {data.candidates?.by_status ? (
+              <ul className="mt-1 list-inside list-disc text-xs">
+                {Object.entries(data.candidates.by_status).map(([k, v]) => (
+                  <li key={k}>
+                    {k}: {v}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+            <p className="mt-2 text-xs text-slate-500">
+              Never invent eligibility. Feed from daily freshness / human paste — see{" "}
+              <code>docs/CATALOGUE_OPS.md</code>
+            </p>
+          </section>
+
+          <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
+            <h2 className="font-bold text-slate-900">Packs</h2>
+            <p className="mt-1 text-slate-700">
+              <strong>pack_count:</strong> {data.packs?.pack_count ?? "—"}
+              {data.packs?.default_version ? ` · version ${data.packs.default_version}` : ""}
+            </p>
+            <p className="mt-2 text-xs text-slate-500">
+              Membership manifests in <code>data/packs/</code> — regenerate with{" "}
+              <code>scripts/generate_pack_manifests.py</code>
             </p>
           </section>
 

@@ -1,0 +1,23 @@
+{
+  "pack_id": "us-michigan",
+  "version": "1.0.0",
+  "full_id": "us-michigan@1.0.0",
+  "country": "United States",
+  "region": "Michigan",
+  "kind": "state",
+  "scheme_ids": [
+    "mi-fip",
+    "mi-homestead-property-tax-credit",
+    "mi-liheap-energy",
+    "mi-medicaid",
+    "mi-michild",
+    "mi-ser",
+    "mi-snap",
+    "mi-tuition-incentive-program"
+  ],
+  "scheme_count": 8,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

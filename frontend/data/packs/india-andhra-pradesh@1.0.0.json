@@ -1,0 +1,25 @@
+{
+  "pack_id": "india-andhra-pradesh",
+  "version": "1.0.0",
+  "full_id": "india-andhra-pradesh@1.0.0",
+  "country": "India",
+  "region": "Andhra Pradesh",
+  "kind": "state",
+  "scheme_ids": [
+    "ap-ntr-bharosa-disability",
+    "ap-ntr-bharosa-fishermen",
+    "ap-ntr-bharosa-oap",
+    "ap-ntr-bharosa-single-women",
+    "ap-ntr-bharosa-transgender",
+    "ap-ntr-bharosa-weavers",
+    "ap-ntr-bharosa-widow",
+    "ap-ntr-vaidya-seva",
+    "ap-property-tax-early-rebate",
+    "ap-talliki-vandanam"
+  ],
+  "scheme_count": 10,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

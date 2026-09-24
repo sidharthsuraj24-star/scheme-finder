@@ -1,0 +1,22 @@
+{
+  "pack_id": "india-chandigarh",
+  "version": "1.0.0",
+  "full_id": "india-chandigarh@1.0.0",
+  "country": "India",
+  "region": "Chandigarh",
+  "kind": "state",
+  "scheme_ids": [
+    "ch-aids-disabled",
+    "ch-dependent-children-widows",
+    "ch-disability-pension",
+    "ch-ev-road-tax-registration-waiver",
+    "ch-marriage-sc-widows-daughter",
+    "ch-old-age-pension",
+    "ch-widow-pension"
+  ],
+  "scheme_count": 7,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

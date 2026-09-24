@@ -90,6 +90,8 @@ See docs/DEPLOY.md for steps and blockers.
 ## Docs
 
 - docs/TRUST.md — Phase 2 trust foundation (roles, signed releases, audit)
+- docs/CATALOGUE_OPS.md — Phase 4 catalogue ops foundation (candidates, URL tickets, packs)
+- docs/PRODUCT.md — Phase 3 product surface + ops dashboard
 - docs/PRIVACY.md — no account PII by default; ephemeral match profiles
 
 - docs/SCALE.md — Phase 1 dedicated API + Redis + load evidence

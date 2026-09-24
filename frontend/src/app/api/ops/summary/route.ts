@@ -46,6 +46,104 @@ function dataCandidates(name: string): string[] {
   ];
 }
 
+
+function loadUrlTicketsSummary(): {
+  open_count: number;
+  by_status: Record<string, number>;
+  unique_tickets: number;
+  rows_total: number;
+} {
+  const cwd = process.cwd();
+  const candidates = [
+    join(cwd, "data", "url_tickets.jsonl"),
+    join(cwd, "..", "data", "url_tickets.jsonl"),
+    join(cwd, "frontend", "data", "url_tickets.jsonl"),
+  ];
+  let raw = "";
+  for (const p of candidates) {
+    try {
+      if (existsSync(p)) {
+        raw = readFileSync(p, "utf8");
+        break;
+      }
+    } catch {
+      /* next */
+    }
+  }
+  const byKey = new Map<string, Record<string, unknown>>();
+  for (const line of raw.split("\n")) {
+    const t = line.trim();
+    if (!t) continue;
+    try {
+      const row = JSON.parse(t) as Record<string, unknown>;
+      const key = `${row.scheme_id || ""}|${row.url || ""}`;
+      byKey.set(key, row);
+    } catch {
+      /* skip */
+    }
+  }
+  const by_status: Record<string, number> = {};
+  for (const row of byKey.values()) {
+    const st = String(row.status || "unknown");
+    by_status[st] = (by_status[st] || 0) + 1;
+  }
+  const open_count = (by_status.open || 0) + (by_status.investigating || 0);
+  return { open_count, by_status, unique_tickets: byKey.size, rows_total: raw ? raw.split("\n").filter(Boolean).length : 0 };
+}
+
+function loadCandidatesSummary(): {
+  total: number;
+  by_status: Record<string, number>;
+  queued: number;
+  researching: number;
+  deferred: number;
+  verified_add: number;
+  rejected: number;
+} {
+  const raw = loadJson(dataCandidates("catalogue_candidates.json"));
+  const list = Array.isArray(raw?.candidates)
+    ? (raw!.candidates as Record<string, unknown>[])
+    : Array.isArray(raw)
+      ? (raw as Record<string, unknown>[])
+      : [];
+  const by_status: Record<string, number> = {};
+  for (const c of list) {
+    if (!c || typeof c !== "object") continue;
+    const st = String((c as { status?: string }).status || "unknown");
+    by_status[st] = (by_status[st] || 0) + 1;
+  }
+  return {
+    total: list.length,
+    by_status,
+    queued: by_status.queued || 0,
+    researching: by_status.researching || 0,
+    deferred: by_status.deferred || 0,
+    verified_add: by_status.verified_add || 0,
+    rejected: by_status.rejected || 0,
+  };
+}
+
+function loadPacksSummary(): {
+  pack_count: number;
+  default_version?: string;
+  index_generated_at?: string;
+} {
+  const cwd = process.cwd();
+  const candidates = [
+    join(cwd, "data", "packs", "index.json"),
+    join(cwd, "..", "data", "packs", "index.json"),
+    join(cwd, "frontend", "data", "packs", "index.json"),
+  ];
+  const idx = loadJson(candidates);
+  if (!idx) return { pack_count: 0 };
+  return {
+    pack_count: Number(idx.pack_count || (Array.isArray(idx.packs) ? idx.packs.length : 0)),
+    default_version: typeof idx.default_version === "string" ? idx.default_version : undefined,
+    index_generated_at: typeof idx.generated_at === "string" ? idx.generated_at : undefined,
+  };
+}
+
+
 export async function GET(request: Request) {
   if (!opsAllowed(request)) {
     return jsonWithSecurity(
@@ -102,6 +200,10 @@ export async function GET(request: Request) {
     }
   }
 
+  const urlTickets = loadUrlTicketsSummary();
+  const candidates = loadCandidatesSummary();
+  const packs = loadPacksSummary();
+
   return jsonWithSecurity({
     scheme_count: schemeCount(),
     updated_as_of: catalogueMeta.updated_as_of || release.updated_as_of,
@@ -118,13 +220,18 @@ export async function GET(request: Request) {
       flaky_hosts: Array.isArray(urlHealth?.flaky_hosts) ? urlHealth.flaky_hosts : [],
       checked_count: urlHealth?.checked_count,
       ok_count: urlHealth?.ok_count,
+      open_url_tickets: urlTickets.open_count,
     },
+    url_tickets: urlTickets,
+    candidates,
+    packs,
     analytics: {
       note: "Aggregates only — never used for eligibility. Use FastAPI /ops/summary for live counters when API is deployed.",
       match_volume_24h: null,
     },
     trust_checklist_doc: "docs/TRUST.md",
     product_doc: "docs/PRODUCT.md",
+    catalogue_ops_doc: "docs/CATALOGUE_OPS.md",
     catalogue: freshness.catalogue,
   });
 }

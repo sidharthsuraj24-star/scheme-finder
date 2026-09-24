@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-09-24T16:28:16+05:30",
+  "generated_at": "2026-09-24T16:35:21+05:30",
   "timezone": "Asia/Kolkata",
-  "checked_count": 0,
+  "checked_count": 3,
   "ok_count": 0,
-  "flaky_hosts": [],
-  "note": "Sample/ops snapshot. Default run writes empty flaky list (no live probes). Use --probe-sample for a short allowlist, or --from-freshness-json after scripts/scheme_freshness_check.py. Never hammers full catalogue from CI."
+  "flaky_hosts": [
+    {
+      "host": "nsap.nic.in",
+      "status": "SEED historically flaky",
+      "scheme_id": "nsap-nfbs",
+      "url": "https://nsap.nic.in/"
+    },
+    {
+      "host": "sspensions.ap.gov.in",
+      "status": "SEED historically flaky",
+      "scheme_id": "ap-ntr-bharosa-oap",
+      "url": "https://sspensions.ap.gov.in/SSP/Home"
+    },
+    {
+      "host": "pensionscheme.sikkim.gov.in",
+      "status": "SEED historically flaky",
+      "scheme_id": "sk-unmarried-women-pension",
+      "url": "https://pensionscheme.sikkim.gov.in/"
+    }
+  ],
+  "open_url_tickets": 3,
+  "ticket_updates": {
+    "upserted_failures": 0,
+    "resolved_fixed": 0
+  },
+  "note": "Ops snapshot. Default run writes empty flaky list (no live probes). Use --probe-sample / --probe-known-flaky (short allowlist) or --from-freshness-json after scripts/scheme_freshness_check.py. Failures upsert data/url_tickets.jsonl; recoveries set status fixed. Never hammers full catalogue from CI."
 }

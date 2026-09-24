@@ -46,3 +46,12 @@ Fly/Vercel credential deploy may still be blocked (see `docs/DEPLOY.md`). Local 
 - `docs/ANALYTICS.md` — never invent eligibility from analytics  
 - `docs/TRUST.md` — publish checklist  
 - `docs/DECISIONS.md` — Phase 3 decision log
+
+## Phase 4 ops data plane (foundation)
+
+Catalogue ops foundation (candidates, URL tickets, versioned packs, ops hooks)
+lives in **`docs/CATALOGUE_OPS.md`**. That slice is **not** Phase 4 complete and
+does not replace this Phase 3 product surface doc.
+
+Related: `docs/DATA_REFRESH.md`, `docs/DECISIONS.md`.
+

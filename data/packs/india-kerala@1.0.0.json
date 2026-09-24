@@ -1,0 +1,28 @@
+{
+  "pack_id": "india-kerala",
+  "version": "1.0.0",
+  "full_id": "india-kerala@1.0.0",
+  "country": "India",
+  "region": "Kerala",
+  "kind": "state",
+  "scheme_ids": [
+    "ayyankali-uegs",
+    "janani-suraksha-yojana-kerala",
+    "kerala-agri-labour-pension",
+    "kerala-disability-pension-mental",
+    "kerala-disability-pension-physical",
+    "kerala-egrantz",
+    "kerala-karunya-benevolent-fund",
+    "kerala-kasp-pmjay",
+    "kerala-life-mission",
+    "kerala-matru-jyothi",
+    "kerala-old-age-pension",
+    "kerala-unmarried-women-pension",
+    "kerala-widow-pension"
+  ],
+  "scheme_count": 13,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

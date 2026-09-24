@@ -1,0 +1,24 @@
+{
+  "pack_id": "us-florida",
+  "version": "1.0.0",
+  "full_id": "us-florida@1.0.0",
+  "country": "United States",
+  "region": "Florida",
+  "kind": "state",
+  "scheme_ids": [
+    "fl-access-food-assistance",
+    "fl-bright-futures",
+    "fl-healthy-start",
+    "fl-homestead-exemption",
+    "fl-kidcare",
+    "fl-liheap",
+    "fl-medicaid",
+    "fl-temporary-cash-assistance",
+    "fl-wic"
+  ],
+  "scheme_count": 9,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

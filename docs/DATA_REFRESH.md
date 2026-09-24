@@ -113,3 +113,21 @@ python3 scripts/check_catalogue_publish_ready.py
 
 Commit the release file + audit JSONL with the catalogue change. See `docs/TRUST.md`.
 
+
+---
+
+## Phase 4 — catalogue ops data plane (foundation)
+
+See **`docs/CATALOGUE_OPS.md`**. Extends freshness tooling so the daily routine
+(~6:09 AM IST external) and humans can use:
+
+- **Candidates:** `data/catalogue_candidates.json` + `scripts/list_catalogue_candidates.py` /
+  `scripts/update_catalogue_candidate.py` — paste new programmes only after confirming
+  they are absent from `schemes.json`. Never invent eligibility.
+- **URL tickets:** failures from `write_url_health_snapshot.py` upsert
+  `data/url_tickets.jsonl`; recoveries mark `fixed`. List with
+  `scripts/list_url_tickets.py`.
+- **Packs:** versioned membership manifests in `data/packs/` via
+  `scripts/generate_pack_manifests.py`.
+
+Ops UI (`/ops`) surfaces open ticket count, candidate status counts, and pack count.

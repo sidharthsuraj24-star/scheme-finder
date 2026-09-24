@@ -1,0 +1,16 @@
+{
+  "pack_id": "india-west-bengal",
+  "version": "1.0.0",
+  "full_id": "india-west-bengal@1.0.0",
+  "country": "India",
+  "region": "West Bengal",
+  "kind": "state",
+  "scheme_ids": [
+    "wb-student-credit-card"
+  ],
+  "scheme_count": 1,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

@@ -1,0 +1,25 @@
+{
+  "pack_id": "india-gujarat",
+  "version": "1.0.0",
+  "full_id": "india-gujarat@1.0.0",
+  "country": "India",
+  "region": "Gujarat",
+  "kind": "state",
+  "scheme_ids": [
+    "gj-divyang-marriage-assist",
+    "gj-education-loan-interest-subsidy",
+    "gj-ganga-swarupa",
+    "gj-ignoaps-vayvandana",
+    "gj-mukhyamantri-amrutum",
+    "gj-namo-lakshmi",
+    "gj-nfbs-sankatmochan",
+    "gj-niradhar-vriddha-pension",
+    "gj-sant-surdas",
+    "gj-vahli-dikri"
+  ],
+  "scheme_count": 10,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

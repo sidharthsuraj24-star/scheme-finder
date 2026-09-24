@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-24T16:34:16+05:30",
+  "timezone": "Asia/Kolkata",
+  "note": "Human-verify candidate queue. Never invent eligibility. Daily freshness (6:09 AM IST external) or humans may paste new candidates here after checking schemes.json. Honest empty open queue is OK; deferred rows document historical clearance of PM-KMY / PM-SYM / NAMASTE.",
+  "candidates": [
+    {
+      "id": "cand-in-pm-kmy",
+      "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "country": "India",
+      "official_source_url": "https://maandhan.in/",
+      "status": "deferred",
+      "reason": "Already present in catalogue as in-pm-kmy; kept as deferred example documenting historical queue clearance.",
+      "noted_at": "2026-09-24T16:34:16+05:30",
+      "actor": "phase4-foundation",
+      "notes": "Do not re-add. Human-verify pipeline should skip ids already in schemes.json.",
+      "scheme_id_if_present": "in-pm-kmy"
+    },
+    {
+      "id": "cand-in-pm-sym",
+      "name": "Pradhan Mantri Shram Yogi Maandhan (PM-SYM)",
+      "country": "India",
+      "official_source_url": "https://maandhan.in/",
+      "status": "deferred",
+      "reason": "Already present as in-pm-sym; deferred example for ops queue UX.",
+      "noted_at": "2026-09-24T16:34:16+05:30",
+      "actor": "phase4-foundation",
+      "notes": "Historical leftover cleared. Open queue intentionally empty of new unverified schemes.",
+      "scheme_id_if_present": "in-pm-sym"
+    },
+    {
+      "id": "cand-in-namaste",
+      "name": "NAMASTE (National Action for Mechanised Sanitation Ecosystem)",
+      "country": "India",
+      "official_source_url": "https://namaste.dosje.gov.in/",
+      "status": "deferred",
+      "reason": "Already present as in-namaste; deferred documentation row.",
+      "noted_at": "2026-09-24T16:34:16+05:30",
+      "actor": "phase4-foundation",
+      "notes": "Phase 4 foundation seeds deferred history only — no fabricated eligibility.",
+      "scheme_id_if_present": "in-namaste"
+    }
+  ]
+}

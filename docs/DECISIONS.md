@@ -130,3 +130,22 @@ OTP/DigiLocker auth, white-label tenants, or a CMS publisher UI.
 
 **Not done:** OTP, DigiLocker, multi-tenant white-label, CMS login, Fly/Vercel
 credential deploy (may still be blocked), claiming enterprise product-complete.
+
+## 2026-09-24 — Phase 4 catalogue ops foundation
+
+**Decision:** Ship an ops **data plane** (candidates, URL tickets, versioned packs,
+ops hooks) without claiming Phase 4 complete, a full CMS, pager, or 500k scale.
+
+1. **Candidate queue** is human-verify only. Historical PM-KMY / PM-SYM / NAMASTE
+   already live in `schemes.json` → seeded as `deferred` documentation rows;
+   empty open queue is honest and OK.
+2. **URL tickets** are append-only JSONL; probes upsert open / resolve fixed.
+   Known flaky hosts may be pre-seeded; never DOS gov sites (short timeout,
+   limited concurrency).
+3. **Packs** are versioned membership manifests derived from tags — no duplicated
+   scheme bodies; regenerate with `generate_pack_manifests.py`.
+4. **Ops dashboard** extends Phase 3 env gate to show ticket / candidate / pack
+   counts. Full CMS + pager remain later.
+
+**Not done:** CMS UI, pager, auto-adding schemes from candidates, claiming Phase 4
+complete, Fly/Vercel credential deploy.

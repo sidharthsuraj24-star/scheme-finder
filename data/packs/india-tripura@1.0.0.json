@@ -1,0 +1,25 @@
+{
+  "pack_id": "india-tripura",
+  "version": "1.0.0",
+  "full_id": "india-tripura@1.0.0",
+  "country": "India",
+  "region": "Tripura",
+  "kind": "state",
+  "scheme_ids": [
+    "tr-blind-handicap-pension",
+    "tr-disability-60-allowance",
+    "tr-ev-road-tax-exemption",
+    "tr-igndps",
+    "tr-ignoaps",
+    "tr-ignwps",
+    "tr-mssp-old-infirm",
+    "tr-state-old-age-pension",
+    "tr-unmarried-women-pension",
+    "tr-widow-deserted-pension"
+  ],
+  "scheme_count": 10,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

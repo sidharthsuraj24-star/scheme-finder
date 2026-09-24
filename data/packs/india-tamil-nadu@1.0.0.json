@@ -1,0 +1,27 @@
+{
+  "pack_id": "india-tamil-nadu",
+  "version": "1.0.0",
+  "full_id": "india-tamil-nadu@1.0.0",
+  "country": "India",
+  "region": "Tamil Nadu",
+  "kind": "state",
+  "scheme_ids": [
+    "tn-cmchis",
+    "tn-cmupt-oap",
+    "tn-deserted-wives-pension",
+    "tn-destitute-disabled-pension",
+    "tn-destitute-widow-pension",
+    "tn-gcc-property-tax-rebate",
+    "tn-igndps",
+    "tn-ignoaps",
+    "tn-ignwps",
+    "tn-magalir-urimai-thogai",
+    "tn-pudhumai-penn",
+    "tn-unmarried-women-pension"
+  ],
+  "scheme_count": 12,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

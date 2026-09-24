@@ -1,0 +1,28 @@
+{
+  "pack_id": "india-haryana",
+  "version": "1.0.0",
+  "full_id": "india-haryana@1.0.0",
+  "country": "India",
+  "region": "Haryana",
+  "kind": "state",
+  "scheme_ids": [
+    "hr-acid-attack-assist",
+    "hr-allowance-eunuchs",
+    "hr-cancer-stage-iii-iv",
+    "hr-ddlly",
+    "hr-destitute-children",
+    "hr-divyang-pension",
+    "hr-ev-motor-vehicle-tax-exemption",
+    "hr-ladli-social-security",
+    "hr-nonschool-disabled-children",
+    "hr-old-age-samman",
+    "hr-ulb-property-tax-interest-waiver",
+    "hr-widow-destitute-pension",
+    "hr-widower-unmarried-assist"
+  ],
+  "scheme_count": 13,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

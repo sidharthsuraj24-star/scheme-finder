@@ -51,3 +51,21 @@ python3 scripts/check_catalogue_publish_ready.py
 
 See `docs/TRUST.md`. Does **not** edit eligibility rules.
 
+
+## Catalogue ops (Phase 4 foundation)
+
+```bash
+# Candidates
+python3 scripts/list_catalogue_candidates.py
+python3 scripts/update_catalogue_candidate.py --id cand-in-example --status researching \
+  --reason "Checking official portal"
+
+# URL tickets + health snapshot
+python3 scripts/write_url_health_snapshot.py --probe-known-flaky   # short allowlist only
+python3 scripts/list_url_tickets.py
+
+# Versioned pack manifests (membership only)
+python3 scripts/generate_pack_manifests.py --version 1.0.0
+```
+
+See `docs/CATALOGUE_OPS.md`. Does **not** invent eligibility or auto-edit schemes.

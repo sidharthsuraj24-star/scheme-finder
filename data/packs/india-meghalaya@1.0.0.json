@@ -1,0 +1,22 @@
+{
+  "pack_id": "india-meghalaya",
+  "version": "1.0.0",
+  "full_id": "india-meghalaya@1.0.0",
+  "country": "India",
+  "region": "Meghalaya",
+  "kind": "state",
+  "scheme_ids": [
+    "ml-border-areas-scholarship",
+    "ml-igndps",
+    "ml-ignwps",
+    "ml-nfbs",
+    "ml-nsap-old-age-pension",
+    "ml-primary-upper-scholarship",
+    "ml-rehab-disabled"
+  ],
+  "scheme_count": 7,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

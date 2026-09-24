@@ -1,0 +1,25 @@
+{
+  "pack_id": "us-pennsylvania",
+  "version": "1.0.0",
+  "full_id": "us-pennsylvania@1.0.0",
+  "country": "United States",
+  "region": "Pennsylvania",
+  "kind": "state",
+  "scheme_ids": [
+    "pa-chip",
+    "pa-liheap",
+    "pa-medicaid",
+    "pa-pace",
+    "pa-property-tax-rent-rebate",
+    "pa-snap",
+    "pa-state-grant",
+    "pa-tanf",
+    "pa-tax-forgiveness",
+    "pa-whole-home-repairs"
+  ],
+  "scheme_count": 10,
+  "generated_at": "2026-09-24T16:35:18+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}
