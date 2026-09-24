@@ -2804,3 +2804,123 @@ def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
     result = evaluate_scheme(fake, high)
     assert not result.hard_fail
     assert "implies_low_income" not in result.unmatched
+
+
+# ---------------------------------------------------------------------------
+# PRICE ICE 360° India income bands (UX / soft ranking — not GoI statutory)
+# ---------------------------------------------------------------------------
+
+
+def test_india_income_band_edges():
+    """Band edges: 499999 aspirer … 1500000 striver … 3000000 near_rich."""
+    from app.income_bands import classify_india_annual_income
+
+    cases = [
+        (499_999, "aspirer"),
+        (500_000, "seeker"),
+        (1_499_999, "seeker"),
+        (1_500_000, "striver"),
+        (2_999_999, "striver"),
+        (3_000_000, "near_rich"),
+        (124_999, "destitute"),
+        (125_000, "aspirer"),
+        (20_000_000, "super_rich"),
+        (None, None),
+    ]
+    for annual, expected in cases:
+        result = classify_india_annual_income(annual, country="India")
+        assert result["band_id"] == expected, (annual, result)
+        if expected in {"seeker", "striver"}:
+            assert result["income_class"] == "middle_class"
+        if expected in {"near_rich", "clear_rich", "sheer_rich", "super_rich"}:
+            assert result["income_class"] == "rich"
+        if expected:
+            assert "PRICE ICE 360" in (result["source"] or "")
+            assert "not" in (result["note"] or "").lower()
+
+
+def test_income_band_null_for_non_india():
+    from app.income_bands import classify_india_annual_income
+
+    us = classify_india_annual_income(80_000, country="United States")
+    assert us["band_id"] is None
+    assert us["income_class"] is None
+
+
+def test_kerala_12l_seeker_matches_ppf_80c_excludes_nsap(schemes):
+    """India Kerala annual 12L → seeker; matches PPF/80C; excludes NSAP implies_low."""
+    profile = MatchProfile(
+        country="India",
+        age=35,
+        gender="male",
+        state="Kerala",
+        annual_income=1_200_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    assert resp.income_band == "seeker"
+    assert resp.income_class == "middle_class"
+    assert "Seeker" in (resp.income_band_label or "")
+    assert resp.income_band_source and "PRICE ICE 360" in resp.income_band_source
+    ids = _matched_ids(resp)
+    for sid in ("in-ppf", "in-section-80c-deductions"):
+        assert sid in ids, f"expected {sid} for seeker 12L"
+    assert "nsap-nfbs" not in ids
+    assert any(
+        e.scheme_id == "nsap-nfbs" and "implies_low_income" in e.reasons for e in resp.excluded
+    )
+
+
+def test_kerala_18l_striver_matches_ppf_80c_excludes_nsap(schemes):
+    """India Kerala annual 18L → striver; matches PPF/80C; excludes NSAP implies_low."""
+    profile = MatchProfile(
+        country="India",
+        age=35,
+        gender="male",
+        state="Kerala",
+        annual_income=1_800_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    assert resp.income_band == "striver"
+    assert resp.income_class == "middle_class"
+    assert "Striver" in (resp.income_band_label or "")
+    ids = _matched_ids(resp)
+    for sid in ("in-ppf", "in-section-80c-deductions"):
+        assert sid in ids, f"expected {sid} for striver 18L"
+    assert "nsap-nfbs" not in ids
+    assert any(
+        e.scheme_id == "nsap-nfbs" and "implies_low_income" in e.reasons for e in resp.excluded
+    )
+
+
+def test_seeker_band_boosts_middle_class_tagged_schemes(schemes):
+    """Soft ranking: seeker bumps middle-class/tax tags; hard gates unchanged."""
+    from app.income_bands import income_band_score_boost
+
+    assert income_band_score_boost("seeker", ["middle-class", "tax"]) == 0.08
+    assert income_band_score_boost("striver", ["upper-middle-class"]) == 0.10
+    assert income_band_score_boost("destitute", ["welfare"], implies_low_income=True) == 0.04
+    assert income_band_score_boost("aspirer", []) == 0.0
+
+    profile = MatchProfile(
+        country="India",
+        age=35,
+        gender="male",
+        state="Kerala",
+        annual_income=1_200_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    ppf = next(m for m in resp.matched if m.scheme_id == "in-ppf")
+    assert ppf.score >= 1.0
+    assert "upper-middle-class" in (ppf.tags or []) or "middle-class" in (ppf.tags or [])

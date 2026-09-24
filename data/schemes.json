@@ -48056,7 +48056,8 @@
       "central",
       "nationwide",
       "tax",
-      "middle-class"
+      "middle-class",
+      "upper-middle-class"
     ],
     "last_verified": "2026-09-24",
     "nationwide": true
@@ -48135,6 +48136,7 @@
       "pfrda",
       "tax",
       "middle-class",
+      "upper-middle-class",
       "universal"
     ],
     "last_verified": "2026-09-24",
@@ -56879,6 +56881,7 @@
       "ppf",
       "tax",
       "middle-class",
+      "upper-middle-class",
       "universal",
       "central",
       "nationwide",
@@ -56957,6 +56960,7 @@
       "nsc",
       "tax",
       "middle-class",
+      "upper-middle-class",
       "universal",
       "central",
       "nationwide",
@@ -57038,6 +57042,7 @@
       "scss",
       "tax",
       "middle-class",
+      "upper-middle-class",
       "senior",
       "central",
       "nationwide",
@@ -57112,6 +57117,7 @@
       "tax",
       "80c",
       "middle-class",
+      "upper-middle-class",
       "savings",
       "central",
       "nationwide"
@@ -57189,6 +57195,7 @@
       "housing",
       "home_loan",
       "middle-class",
+      "upper-middle-class",
       "central",
       "nationwide"
     ],
@@ -57268,6 +57275,7 @@
       "housing",
       "home_loan",
       "middle-class",
+      "upper-middle-class",
       "80eea",
       "central",
       "nationwide"
@@ -57345,6 +57353,7 @@
       "nps",
       "tier-ii",
       "middle-class",
+      "upper-middle-class",
       "savings",
       "central",
       "nationwide",
@@ -60014,6 +60023,7 @@
       "kvp",
       "post_office",
       "middle-class",
+      "upper-middle-class",
       "high-income-eligible",
       "universal",
       "central",
@@ -60096,6 +60106,7 @@
       "pomis",
       "post_office",
       "middle-class",
+      "upper-middle-class",
       "senior_friendly",
       "universal",
       "central",
@@ -60177,6 +60188,7 @@
       "80d",
       "health_insurance",
       "middle-class",
+      "upper-middle-class",
       "high-income-eligible",
       "central",
       "nationwide"
@@ -60257,6 +60269,7 @@
       "80e",
       "education_loan",
       "middle-class",
+      "upper-middle-class",
       "central",
       "nationwide"
     ],
@@ -60337,6 +60350,7 @@
       "donation",
       "charitable",
       "middle-class",
+      "upper-middle-class",
       "high-income-eligible",
       "central",
       "nationwide"
@@ -60577,6 +60591,7 @@
       "mssc",
       "women",
       "middle-class",
+      "upper-middle-class",
       "central",
       "nationwide"
     ],
@@ -61472,6 +61487,7 @@
       "post_office",
       "tax",
       "middle-class",
+      "upper-middle-class",
       "universal",
       "central",
       "nationwide"
@@ -61553,6 +61569,7 @@
       "recurring_deposit",
       "post_office",
       "middle-class",
+      "upper-middle-class",
       "universal",
       "central",
       "nationwide"

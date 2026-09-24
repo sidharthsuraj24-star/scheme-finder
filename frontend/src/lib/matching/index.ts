@@ -5,3 +5,4 @@ export * from "./explanations";
 export * from "./schemes";
 export * from "./security";
 export * from "./catalogue";
+export * from "./incomeBands";

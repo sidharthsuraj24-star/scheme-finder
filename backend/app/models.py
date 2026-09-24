@@ -280,6 +280,12 @@ class MatchResponse(BaseModel):
     country: str | None = None
     catalogue: dict[str, Any] | None = None
     is_stale: bool | None = None
+    # PRICE ICE 360° household bands (India only; UX/ranking — not GoI statutory).
+    # See backend/app/income_bands.py. Never used to invent max_annual_income.
+    income_band: str | None = None
+    income_band_label: str | None = None
+    income_class: str | None = None
+    income_band_source: str | None = None
 
 
 class SchemeSummary(BaseModel):

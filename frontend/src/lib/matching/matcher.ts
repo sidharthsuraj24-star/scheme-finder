@@ -2,6 +2,10 @@
 
 import { cataloguePayload, resolveLastVerified } from "./catalogue";
 import { buildExplanation } from "./explanations";
+import {
+  classifyIndiaAnnualIncome,
+  incomeBandScoreBoost,
+} from "./incomeBands";
 import type {
   ExcludedScheme,
   MatchOptions,
@@ -607,6 +611,17 @@ export function matchSchemes(
   const { candidates, geoExcluded } = geoIndexFor(schemes).partition(profile);
   excluded.push(...geoExcluded);
 
+  // India PRICE ICE 360° band (UX + soft ranking). Null for non-India / unknown income.
+  let annualForBand = profile.annual_income;
+  if (annualForBand == null && profile.monthly_household_income != null) {
+    annualForBand = Number(profile.monthly_household_income) * 12;
+  }
+  const bandInfo = classifyIndiaAnnualIncome(
+    annualForBand,
+    profile.country || "India",
+  );
+  const profileBandId = bandInfo.band_id;
+
   for (const scheme of candidates) {
     const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
     const verify = Boolean(rules.verify);
@@ -643,9 +658,17 @@ export function matchSchemes(
       status,
     });
 
+    const baseScore = score(result);
+    // Soft PRICE-band ranking bump — secondary to hard eligibility; never invents ceilings.
+    const rulesObj = (scheme.eligibility_rules || {}) as Record<string, unknown>;
+    const bandBoost = incomeBandScoreBoost(
+      profileBandId,
+      scheme.tags || [],
+      Boolean(rulesObj.implies_low_income),
+    );
     matched.push({
       scheme_id: scheme.id,
-      score: Math.round(score(result) * 10000) / 10000,
+      score: Math.round((baseScore + bandBoost) * 10000) / 10000,
       status,
       matched_rules: unique(result.matched),
       unmatched_rules: unique(result.unmatched),
@@ -703,5 +726,9 @@ export function matchSchemes(
     country: profile.country || "India",
     catalogue: freshness.catalogue,
     is_stale: freshness.is_stale,
+    income_band: bandInfo.band_id,
+    income_band_label: bandInfo.band_label,
+    income_class: bandInfo.income_class,
+    income_band_source: bandInfo.source,
   };
 }

@@ -87,6 +87,11 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
             })}
           </p>
         ) : null}
+        {data.income_band && data.income_band_label ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t(lang, "resultsIncomeBand", { label: data.income_band_label })}
+          </p>
+        ) : null}
         {data.message ? (
           <p className="rounded-xl bg-slate-50 p-3 text-sm text-slate-600">{data.message}</p>
         ) : null}
@@ -128,6 +133,11 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
               currency: currencySymbol(data.country),
               amount: Math.round(filteredAnnualIncome).toLocaleString("en-IN"),
             })}
+          </p>
+        ) : null}
+        {data.income_band && data.income_band_label ? (
+          <p className="mt-1 text-sm text-slate-500">
+            {t(lang, "resultsIncomeBand", { label: data.income_band_label })}
           </p>
         ) : null}
       </div>

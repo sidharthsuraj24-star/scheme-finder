@@ -11,6 +11,7 @@ from typing import Any
 
 from .catalogue import catalogue_payload, resolve_last_verified
 from .explanations import build_explanation
+from .income_bands import classify_india_annual_income, income_band_score_boost
 from .models import (
     ExcludedScheme,
     MatchedScheme,
@@ -637,6 +638,17 @@ def match_schemes(
     else:
         candidates = schemes
 
+    # India PRICE ICE 360° band (UX + soft ranking). Null for non-India / unknown income.
+    # Derive annual from monthly*12 when needed (MatchProfile usually already derives).
+    _annual_for_band = profile.annual_income
+    if _annual_for_band is None and profile.monthly_household_income is not None:
+        _annual_for_band = float(profile.monthly_household_income) * 12
+    _band_info = classify_india_annual_income(
+        _annual_for_band,
+        country=getattr(profile, "country", None) or "India",
+    )
+    _profile_band_id = _band_info.get("band_id")
+
     for scheme in candidates:
         rules = scheme.get("eligibility_rules") or {}
         verify = bool(rules.get("verify"))
@@ -678,9 +690,17 @@ def match_schemes(
             status=status,
         )
 
+        base_score = _score(result)
+        # Soft PRICE-band ranking bump (India seeker/striver/rich or destitute/aspirer).
+        # Secondary to hard eligibility — never changes max_annual_income / implies_low gates.
+        band_boost = income_band_score_boost(
+            _profile_band_id,
+            scheme.get("tags") or [],
+            implies_low_income=bool(rules.get("implies_low_income")),
+        )
         item = MatchedScheme(
             scheme_id=scheme["id"],
-            score=round(_score(result), 4),
+            score=round(base_score + band_boost, 4),  # band boost may exceed 1.0 for ranking
             status=status,
             matched_rules=list(dict.fromkeys(result.matched)),
             unmatched_rules=list(dict.fromkeys(result.unmatched)),
@@ -740,4 +760,8 @@ def match_schemes(
         country=(getattr(profile, "country", None) or "India"),
         catalogue=freshness["catalogue"],
         is_stale=freshness["is_stale"],
+        income_band=_band_info.get("band_id"),
+        income_band_label=_band_info.get("band_label"),
+        income_class=_band_info.get("income_class"),
+        income_band_source=_band_info.get("source"),
     )

@@ -79,6 +79,11 @@ export interface MatchResponse {
     [key: string]: unknown;
   };
   is_stale?: boolean;
+  /** PRICE ICE 360° household band (India only; UX/ranking — not GoI statutory). */
+  income_band?: string | null;
+  income_band_label?: string | null;
+  income_class?: string | null;
+  income_band_source?: string | null;
 }
 
 export interface MatchRequestBody {
