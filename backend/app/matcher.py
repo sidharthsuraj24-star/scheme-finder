@@ -88,6 +88,27 @@ def _norm_set(values: list[str] | None) -> set[str]:
     return {_norm(v) for v in (values or []) if _norm(v)}
 
 
+
+# Soft annual gates for implies_low_income when no numeric max is encoded.
+# Named constants — currency/country aware. Do NOT treat USD gate as official FPL.
+IMPLIES_LOW_INCOME_ANNUAL_GATE_INR = 500_000
+IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000
+
+
+def implies_low_income_annual_gate(country: str | None) -> float | None:
+    """Return soft annual gate for implies_low_income, or None to skip soft gate.
+
+    India (default): INR 500_000. United States: USD 60_000 (soft catalogue
+    heuristic for BPL-style US rows lacking FPL tables — not an official FPL).
+    Other countries: None (require numeric max_annual_income / max_monthly).
+    """
+    c = _norm((country or "India").strip() or "India")
+    if c in {"india"}:
+        return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_INR)
+    if c in {"united_states", "usa", "us"}:
+        return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_USD)
+    return None
+
 def profile_has_land(land_ownership: bool | str | None) -> bool | None:
     """Return True/False if known, None if unknown."""
     if land_ownership is None:
@@ -235,16 +256,27 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
 
     # Soft gate for BPL/destitute schemes with no numeric ceiling encoded.
     # Prefer real max_annual_income / max_monthly when known; this only applies when both are null.
-    # Documented threshold: annual >= ₹5,00,000 → hard exclude (implies_low_income).
-    IMPLIES_LOW_INCOME_ANNUAL_GATE = 500_000
+    # Country-aware soft heuristics (NOT official FPL / poverty-line figures):
+    # - India (default): ₹500,000 annual (documented BPL-style soft gate)
+    # - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
+    #   tables / numeric max; NOT an official Federal Poverty Level figure
+    # - Other countries: skip soft gate unless a numeric max is encoded
     implies_low = bool(rules.get("implies_low_income"))
     if implies_low and max_annual is None and max_monthly is None:
+        gate = implies_low_income_annual_gate(profile_country)
         annual = profile.annual_income
         if annual is None and profile.monthly_household_income is not None:
             annual = float(profile.monthly_household_income) * 12
-        if annual is None:
+        if gate is None:
+            # Non-IN/US catalogue row with implies_low_income but no numeric max:
+            # do not apply INR/USD heuristics; leave uncertain if income unknown,
+            # otherwise skip soft exclude (require encoded max to hard-gate).
+            if annual is None:
+                result.miss("annual_income")
+            # else: no soft gate for this country
+        elif annual is None:
             result.miss("annual_income")
-        elif float(annual) >= float(IMPLIES_LOW_INCOME_ANNUAL_GATE):
+        elif float(annual) >= float(gate):
             result.fail("implies_low_income")
         else:
             result.ok("implies_low_income")

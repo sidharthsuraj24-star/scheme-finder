@@ -62,6 +62,20 @@ function norm(value: string | null | undefined): string {
   return String(value).trim().toLowerCase().replace(/-/g, "_").replace(/ /g, "_");
 }
 
+/** Soft annual gates for implies_low_income when no numeric max is encoded.
+ *  Country/currency aware. USD gate is NOT an official FPL figure. */
+export const IMPLIES_LOW_INCOME_ANNUAL_GATE_INR = 500_000;
+export const IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000;
+
+export function impliesLowIncomeAnnualGate(country: string | null | undefined): number | null {
+  const c = norm((country || "India").trim() || "India");
+  if (c === "india") return IMPLIES_LOW_INCOME_ANNUAL_GATE_INR;
+  if (c === "united_states" || c === "usa" || c === "us") return IMPLIES_LOW_INCOME_ANNUAL_GATE_USD;
+  return null;
+}
+
+
+
 function normSet(values: string[] | null | undefined): Set<string> {
   const out = new Set<string>();
   for (const v of values || []) {
@@ -211,17 +225,28 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
 
   // Soft gate for BPL/destitute schemes with no numeric ceiling encoded.
   // Prefer real max_annual_income / max_monthly when known; this only applies when both are null.
-  // Documented threshold: annual >= ₹5,00,000 → hard exclude (implies_low_income).
-  const IMPLIES_LOW_INCOME_ANNUAL_GATE = 500_000;
+  // Country-aware soft heuristics (NOT official FPL / poverty-line figures):
+  // - India (default): ₹500,000 annual
+  // - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
+  //   tables / numeric max; NOT an official Federal Poverty Level figure
+  // - Other countries: skip soft gate unless a numeric max is encoded
   const impliesLow = Boolean(rules.implies_low_income);
   if (impliesLow && maxAnnual == null && maxMonthly == null) {
+    const gate = impliesLowIncomeAnnualGate(profileCountry);
     let annual = profile.annual_income;
     if (annual == null && profile.monthly_household_income != null) {
       annual = Number(profile.monthly_household_income) * 12;
     }
-    if (annual == null) result.miss("annual_income");
-    else if (Number(annual) >= IMPLIES_LOW_INCOME_ANNUAL_GATE) result.fail("implies_low_income");
-    else result.ok("implies_low_income");
+    if (gate == null) {
+      if (annual == null) result.miss("annual_income");
+      // else: no soft gate for this country
+    } else if (annual == null) {
+      result.miss("annual_income");
+    } else if (Number(annual) >= gate) {
+      result.fail("implies_low_income");
+    } else {
+      result.ok("implies_low_income");
+    }
   }
 
   // --- disability ---

@@ -2685,3 +2685,122 @@ def test_geo_pruning_same_ids_as_full_scan(schemes):
         # Pruning must actually shrink the evaluate set when state is set.
         cands, _ = index.partition(profile)
         assert len(cands) < len(schemes)
+
+
+# ---------------------------------------------------------------------------
+# Country-aware implies_low_income soft gate + middle/high income bands
+# ---------------------------------------------------------------------------
+
+
+def test_india_high_income_matches_middle_tax_schemes_not_bpl(schemes):
+    """India annual 25L Kerala: PPF/80C/NSC match; NSAP-style implies_low null-max do not."""
+    profile = MatchProfile(
+        country="India",
+        age=35,
+        gender="male",
+        state="Kerala",
+        annual_income=2_500_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    for sid in ("in-ppf", "in-section-80c-deductions", "in-nsc"):
+        assert sid in ids, f"expected middle/tax scheme {sid} to match at 25L"
+    # Typical nationwide BPL / implies_low_income null-max must hard-fail soft gate at 25L
+    assert "nsap-nfbs" not in ids
+    assert any(
+        e.scheme_id == "nsap-nfbs" and "implies_low_income" in e.reasons for e in resp.excluded
+    )
+    # APY encodes non_income_tax_payer + implies_low_income → soft gate excludes 25L
+    assert "in-apy" not in ids
+    assert any(
+        e.scheme_id == "in-apy" and "implies_low_income" in e.reasons for e in resp.excluded
+    )
+    # Startup India requires entrepreneur occupation — justified hard fail, not income bug
+    assert "in-startup-india" not in ids
+    assert any(
+        e.scheme_id == "in-startup-india" and "occupations" in e.reasons for e in resp.excluded
+    )
+
+
+def test_us_california_high_earner_excludes_implies_low_via_usd_gate(schemes):
+    """US CA $250k: mortgage/QBI/SALT match; EITC/CalFresh fail implies_low USD soft gate."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="male",
+        state="California",
+        annual_income=250_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-mortgage-interest-deduction" in ids
+    assert "us-qbi-199a" in ids or "us-salt-deduction" in ids
+    for sid in ("us-eitc", "ca-calfresh", "ca-calworks"):
+        assert sid not in ids, f"{sid} must not match high US earner via INR gate bug"
+        assert any(
+            e.scheme_id == sid and "implies_low_income" in e.reasons for e in resp.excluded
+        ), f"{sid} should fail implies_low_income"
+
+
+def test_us_california_low_earner_eitc_may_match(schemes):
+    """US CA $20k: us-eitc may match via implies_low_income soft path when under USD gate."""
+    profile = MatchProfile(
+        country="United States",
+        age=35,
+        gender="female",
+        state="California",
+        annual_income=20_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="none",
+        marital_status="single",
+    )
+    resp = match_schemes(schemes, profile)
+    ids = _matched_ids(resp)
+    assert "us-eitc" in ids
+    hit = next(m for m in resp.matched if m.scheme_id == "us-eitc")
+    assert "implies_low_income" in hit.matched_rules
+
+
+def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
+    """Non-IN/US: implies_low_income with null max does not apply INR/USD soft exclude."""
+    # Synthetic evaluate: reuse a US implies_low scheme but profile country that has no gate.
+    # Country hard-fails first on real US schemes — unit-test the gate helper + evaluate path
+    # by temporarily using India scheme rules shape via evaluate on a cloned dict.
+    from app.matcher import implies_low_income_annual_gate
+
+    assert implies_low_income_annual_gate("India") == 500_000
+    assert implies_low_income_annual_gate("United States") == 60_000
+    assert implies_low_income_annual_gate("Canada") is None
+    assert implies_low_income_annual_gate("United Kingdom") is None
+
+    fake = {
+        "id": "fake-other-bpl",
+        "eligibility_rules": {
+            "countries": ["Canada"],
+            "states": ["Ontario"],
+            "nationwide": False,
+            "implies_low_income": True,
+            "max_annual_income": None,
+            "max_monthly_household_income": None,
+        },
+    }
+    high = MatchProfile(
+        country="Canada",
+        age=40,
+        state="Ontario",
+        annual_income=250_000,
+        occupations=["other"],
+        categories=[],
+    )
+    result = evaluate_scheme(fake, high)
+    assert not result.hard_fail
+    assert "implies_low_income" not in result.unmatched

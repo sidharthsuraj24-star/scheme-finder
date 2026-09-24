@@ -18,6 +18,17 @@ DISCLAIMER_ML = (
 )
 
 
+
+def _implies_low_gate_label(country: str | None) -> str:
+    """Currency-appropriate soft-gate label mirroring matcher.implies_low_income_annual_gate."""
+    c = (country or "India").strip().lower().replace("-", "_").replace(" ", "_") or "india"
+    if c in {"united_states", "usa", "us"}:
+        return "$60,000"  # soft US catalogue heuristic — not official FPL
+    if c in {"india", ""}:
+        return "Rs.5,00,000"
+    return "n/a (no soft gate for this country)"
+
+
 def _fmt_income(value: float | None) -> str:
     if value is None:
         return "n/a"
@@ -45,9 +56,10 @@ def _rule_phrase_en(
             f"within cap {_fmt_income(rules.get('max_monthly_household_income'))}"
         )
     if rule == "implies_low_income":
+        gate_label = _implies_low_gate_label(getattr(profile, "country", None))
         return (
             f"annual income {_fmt_income(profile.annual_income)} within soft low-income gate "
-            f"(scheme implies BPL/destitute; no numeric ceiling encoded; gate Rs.5,00,000)"
+            f"(scheme implies BPL/destitute; no numeric ceiling encoded; gate {gate_label})"
         )
     if rule == "gender":
         return f"gender '{profile.gender}' matches required '{rules.get('gender')}'"
@@ -108,9 +120,10 @@ def _rule_phrase_ml(
             f"പരിധിക്കുള്ളിൽ"
         )
     if rule == "implies_low_income":
+        gate_label = _implies_low_gate_label(getattr(profile, "country", None))
         return (
             f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income)} "
-            f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; Rs.5,00,000)"
+            f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; {gate_label})"
         )
     if rule == "gender":
         return f"ലിംഗം '{profile.gender}' യോജിക്കുന്നു"

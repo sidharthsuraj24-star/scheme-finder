@@ -12,6 +12,14 @@ function fmtIncome(value: number | null | undefined): string {
   return `Rs.${Math.trunc(value).toLocaleString("en-IN")}`;
 }
 
+function impliesLowGateLabel(country: string | null | undefined): string {
+  const c = (country || "India").trim().toLowerCase().replace(/-/g, "_").replace(/ /g, "_") || "india";
+  if (c === "united_states" || c === "usa" || c === "us") return "$60,000"; // soft US heuristic — not official FPL
+  if (c === "india" || c === "") return "Rs.5,00,000";
+  return "n/a (no soft gate for this country)";
+}
+
+
 function rulePhraseEn(rule: string, scheme: SchemeRecord, profile: MatchProfile): string {
   const rules = (scheme.eligibility_rules || {}) as Record<string, unknown>;
   switch (rule) {
@@ -24,7 +32,7 @@ function rulePhraseEn(rule: string, scheme: SchemeRecord, profile: MatchProfile)
     case "max_monthly_household_income":
       return `monthly household income ${fmtIncome(profile.monthly_household_income)} within cap ${fmtIncome(rules.max_monthly_household_income as number)}`;
     case "implies_low_income":
-      return `annual income ${fmtIncome(profile.annual_income)} within soft low-income gate (BPL/destitute; gate Rs.5,00,000)`;
+      return `annual income ${fmtIncome(profile.annual_income)} within soft low-income gate (BPL/destitute; gate ${impliesLowGateLabel(profile.country)})`;
     case "gender":
       return `gender '${profile.gender}' matches required '${rules.gender}'`;
     case "marital_status":
@@ -70,7 +78,7 @@ function rulePhraseMl(rule: string, scheme: SchemeRecord, profile: MatchProfile)
     case "max_monthly_household_income":
       return `മാസ വരുമാനം ${fmtIncome(profile.monthly_household_income)} പരിധിക്കുള്ളിൽ`;
     case "implies_low_income":
-      return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income)} താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; Rs.5,00,000)`;
+      return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income)} താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; ${impliesLowGateLabel(profile.country)})`;
     case "gender":
       return `ലിംഗം '${profile.gender}' യോജിക്കുന്നു`;
     case "marital_status":
