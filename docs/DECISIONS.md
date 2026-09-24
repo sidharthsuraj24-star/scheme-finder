@@ -59,14 +59,22 @@ LLM_API_KEY=           # empty → templates only
 
 ## 2026-09-24 — India PRICE ICE 360° household income bands (UX / ranking only)
 
-**Decision:** Classify India annual household income into PRICE ICE 360° bands
-(Seekers ₹5–15L, Strivers ₹15–30L, etc.) for MatchResponse labels and a small
-deterministic ranking boost on `middle-class` / `upper-middle-class` / `tax` /
-`savings` / `universal` / `high-income-eligible` tags.
+**Decision:** Classify **India-only** annual household income into PRICE ICE 360°
+bands (Seekers ₹5–15L, Strivers ₹15–30L, etc.) for MatchResponse labels and a
+small deterministic ranking boost on `middle-class` / `upper-middle-class` /
+`tax` / `savings` / `universal` / `high-income-eligible` tags.
+
+**Country scope (hard rule):** PRICE bands, `income_band` / `income_band_label` /
+`income_class` / `income_band_source` on MatchResponse, Results UI Seekers/Strivers
+sentence, and seeker/striver/*_rich soft ranking boosts apply **only when
+`country` is India**. United States, Bangladesh, Nepal, Sri Lanka, Maldives, and
+any future country must **not** map local currency onto PRICE INR thresholds.
+US keeps its own currency-aware soft gate (`implies_low_income` at USD $60k) —
+do not invent US Census / Pew / OECD bands here.
 
 **Not done:** Inventing `max_annual_income` from PRICE bands; replacing the
 ₹5L `implies_low_income` BPL soft gate with ₹15L; claiming PRICE bands are
-official GoI policy.
+official GoI policy; applying India bands to non-India profiles.
 
 **Source:** PRICE ICE 360° / “The Rise of India's Middle Class” (2020–21 prices).
 PDF: https://www.price360.in/Executive_Summary_Middle_Class.pdf

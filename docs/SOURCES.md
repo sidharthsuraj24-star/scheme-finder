@@ -75,6 +75,6 @@ Full structured write-up: `docs/BROWSER_SEVANA_NOTES.md`.
 - Ambak / Outlook Money / aggregator blogs for LIFE Mission income numbers
 - Non-govt ADIP explainers when conflicting with ARJUN FAQ income slabs
 
-## PRICE ICE 360° (non-statutory UX bands)
+## PRICE ICE 360° (non-statutory UX bands — India only)
 
-| https://www.price360.in/Executive_Summary_Middle_Class.pdf | India income-band UX labels (Seekers/Strivers) | PRICE ICE 360° household bands 2020–21 prices — **not** GoI statutory; used for MatchResponse labels + soft ranking only |
+| https://www.price360.in/Executive_Summary_Middle_Class.pdf | India income-band UX labels (Seekers/Strivers) | PRICE ICE 360° household bands 2020–21 prices — **not** GoI statutory; **India-only** MatchResponse labels + soft ranking. Do **not** apply INR bands to US/other countries. |

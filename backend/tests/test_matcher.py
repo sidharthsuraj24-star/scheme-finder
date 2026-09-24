@@ -2840,11 +2840,76 @@ def test_india_income_band_edges():
 
 
 def test_income_band_null_for_non_india():
-    from app.income_bands import classify_india_annual_income
+    """PRICE INR bands must not classify USD or other-country incomes."""
+    from app.income_bands import classify_india_annual_income, income_band_score_boost
 
-    us = classify_india_annual_income(80_000, country="United States")
-    assert us["band_id"] is None
-    assert us["income_class"] is None
+    for country, annual in (
+        ("United States", 80_000),
+        ("United States", 250_000),
+        ("Bangladesh", 500_000),
+        ("Nepal", 1_200_000),
+        ("Sri Lanka", 1_800_000),
+    ):
+        result = classify_india_annual_income(annual, country=country)
+        assert result["band_id"] is None, (country, annual, result)
+        assert result["band_label"] is None
+        assert result["income_class"] is None
+        assert result["source"] is None
+        assert result["note"] is None
+        # No soft boost when band is absent (do not map foreign currency onto PRICE).
+        assert income_band_score_boost(
+            result["band_id"],
+            ["middle-class", "tax", "upper-middle-class", "welfare"],
+            implies_low_income=True,
+        ) == 0.0
+
+
+def test_us_80k_match_response_omits_price_bands(schemes):
+    """US CA $80k: MatchResponse must omit PRICE fields; USD soft gate still applies."""
+    profile = MatchProfile(
+        country="United States",
+        age=40,
+        gender="male",
+        state="California",
+        annual_income=80_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    assert resp.country == "United States"
+    assert resp.income_band is None
+    assert resp.income_band_label is None
+    assert resp.income_class is None
+    assert resp.income_band_source is None
+    # Above USD $60k implies_low soft gate — EITC-style schemes stay excluded.
+    ids = _matched_ids(resp)
+    assert "us-eitc" not in ids
+    assert any(
+        e.scheme_id == "us-eitc" and "implies_low_income" in e.reasons for e in resp.excluded
+    )
+
+
+def test_bangladesh_match_response_omits_price_bands(schemes):
+    """Bangladesh profiles must not receive India PRICE Seekers/Strivers labels."""
+    profile = MatchProfile(
+        country="Bangladesh",
+        age=35,
+        gender="male",
+        state="Dhaka",
+        annual_income=500_000,
+        occupations=["other"],
+        categories=[],
+        land_ownership="owned",
+        marital_status="married",
+    )
+    resp = match_schemes(schemes, profile)
+    assert resp.country == "Bangladesh"
+    assert resp.income_band is None
+    assert resp.income_band_label is None
+    assert resp.income_class is None
+    assert resp.income_band_source is None
 
 
 def test_kerala_12l_seeker_matches_ppf_80c_excludes_nsap(schemes):

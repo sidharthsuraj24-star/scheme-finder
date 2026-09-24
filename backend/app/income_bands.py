@@ -7,6 +7,8 @@ Primary PDF: https://www.price360.in/Executive_Summary_Middle_Class.pdf
 ₹15 lakh is the Seekers → Strivers cut (Strivers are ₹15–30 lakh annual).
 These bands are for UX labels and soft ranking only — NEVER invent scheme
 eligibility ceilings (max_annual_income) from PRICE bands.
+INDIA-ONLY: never map USD (or other currencies) onto these INR thresholds;
+non-India countries must return null band fields and skip PRICE boosts.
 """
 
 from __future__ import annotations
@@ -17,10 +19,11 @@ from typing import Any, TypedDict
 INCOME_BAND_SOURCE = "PRICE ICE 360° (2020–21 prices; not official GoI)"
 
 INCOME_BAND_NOTE = (
-    "Household income bands from PRICE ICE 360° / The Rise of India's Middle Class "
+    "India-only household income bands from PRICE ICE 360° / The Rise of India's Middle Class "
     "(2020–21 prices). Not a Government of India statutory classification. "
     "Used for UX labels and soft ranking only — does not change scheme eligibility rules. "
-    "₹15 lakh is the Seekers→Strivers boundary (Strivers: ₹15–30 lakh)."
+    "₹15 lakh is the Seekers→Strivers boundary (Strivers: ₹15–30 lakh). "
+    "Do not apply these INR bands to United States or other countries."
 )
 
 # (min_inclusive, max_inclusive_or_None, band_id, band_label)
@@ -96,6 +99,7 @@ def classify_india_annual_income(
         "source": None,
         "note": None,
     }
+    # Hard country gate — PRICE INR thresholds must never run for US/others.
     if not is_india_country(country):
         return empty
     if annual is None:

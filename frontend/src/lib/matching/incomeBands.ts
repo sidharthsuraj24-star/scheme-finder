@@ -8,6 +8,8 @@
  * ₹15 lakh is the Seekers → Strivers cut (Strivers are ₹15–30 lakh annual).
  * These bands are for UX labels and soft ranking only — NEVER invent scheme
  * eligibility ceilings (max_annual_income) from PRICE bands.
+ * INDIA-ONLY: never map USD (or other currencies) onto these INR thresholds;
+ * non-India countries must return null band fields and skip PRICE boosts.
  *
  * Mirror of backend/app/income_bands.py — keep thresholds/labels in sync.
  */
@@ -16,10 +18,11 @@ export const INCOME_BAND_SOURCE =
   "PRICE ICE 360° (2020–21 prices; not official GoI)";
 
 export const INCOME_BAND_NOTE =
-  "Household income bands from PRICE ICE 360° / The Rise of India's Middle Class " +
+  "India-only household income bands from PRICE ICE 360° / The Rise of India's Middle Class " +
   "(2020–21 prices). Not a Government of India statutory classification. " +
   "Used for UX labels and soft ranking only — does not change scheme eligibility rules. " +
-  "₹15 lakh is the Seekers→Strivers boundary (Strivers: ₹15–30 lakh).";
+  "₹15 lakh is the Seekers→Strivers boundary (Strivers: ₹15–30 lakh). " +
+  "Do not apply these INR bands to United States or other countries.";
 
 export interface IncomeBandResult {
   band_id: string | null;
@@ -107,6 +110,7 @@ export function classifyIndiaAnnualIncome(
   annual: number | null | undefined,
   country: string | null | undefined = "India",
 ): IncomeBandResult {
+  // Hard country gate — PRICE INR thresholds must never run for US/others.
   if (!isIndiaCountry(country)) return { ...EMPTY };
   if (annual == null) return { ...EMPTY };
   const value = Number(annual);
