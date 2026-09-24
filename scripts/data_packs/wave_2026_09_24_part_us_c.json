@@ -1,0 +1,643 @@
+[
+  {
+    "id": "nm-opportunity-scholarship",
+    "scheme_name": {
+      "en": "New Mexico Opportunity Scholarship",
+      "ml": "New Mexico Opportunity Scholarship",
+      "hi": "NM Opportunity Scholarship – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students.",
+      "ml": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students.",
+      "hi": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM Opportunity Scholarship: established NM resident; ≥6 credits toward eligible credential at public NM institution; GPA/credit-hour continuing rules apply. Not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Participating institutions and continuing-eligibility GPA/credit caps — verify=true via hed.nm.gov Opportunity Scholarship pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents.",
+      "ml": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents.",
+      "hi": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents."
+    },
+    "required_documents": {
+      "en": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ],
+      "ml": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ],
+      "hi": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship.",
+      "ml": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship.",
+      "hi": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship."
+    },
+    "apply_url": "https://hed.nm.gov/free-college-for-new-mexico",
+    "official_source_url": "https://hed.nm.gov/free-college-for-new-mexico",
+    "last_verified": "2026-09-24",
+    "office_type": "New Mexico Higher Education Department",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "opportunity_scholarship",
+      "college",
+      "tuition_free",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "id-opportunity-scholarship",
+    "scheme_name": {
+      "en": "Idaho Opportunity Scholarship",
+      "ml": "Idaho Opportunity Scholarship",
+      "hi": "Idaho Opportunity Scholarship – आयडाहो"
+    },
+    "description": {
+      "en": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply.",
+      "ml": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply.",
+      "hi": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Idaho Opportunity Scholarship: Idaho students meeting Board academic/need and enrollment rules; renewable when continuing criteria met. Confirm live award maximum on Board site — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award max, GPA, and deadlines change — verify=true via boardofed.idaho.gov Opportunity Scholarship.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum).",
+      "ml": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum).",
+      "hi": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum)."
+    },
+    "required_documents": {
+      "en": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ],
+      "ml": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ],
+      "hi": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship.",
+      "ml": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship.",
+      "hi": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship."
+    },
+    "apply_url": "https://boardofed.idaho.gov/scholarships/idaho-opportunity-scholarship/",
+    "official_source_url": "https://boardofed.idaho.gov/scholarships/idaho-opportunity-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "Idaho State Board of Education",
+    "tags": [
+      "united_states",
+      "idaho",
+      "opportunity_scholarship",
+      "college",
+      "scholarship",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "hi-promise",
+    "scheme_name": {
+      "en": "Hawaiʻi Promise Scholarship – UH Community Colleges",
+      "ml": "Hawaiʻi Promise Scholarship – UH Community Colleges",
+      "hi": "Hawaiʻi Promise – हवाई"
+    },
+    "description": {
+      "en": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College.",
+      "ml": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College.",
+      "hi": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Hawaiʻi Promise: HI residents at UH Community Colleges; last-dollar after other grants/scholarships toward direct costs. Need analysis via FAFSA/alternate. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Covered cost components and residency rules — verify=true via hawaii.edu/promise.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid.",
+      "ml": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid.",
+      "hi": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise.",
+      "ml": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise.",
+      "hi": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise."
+    },
+    "apply_url": "https://www.hawaii.edu/promise/",
+    "official_source_url": "https://www.hawaii.edu/promise/",
+    "last_verified": "2026-09-24",
+    "office_type": "University of Hawaiʻi Community Colleges",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "hawaii_promise",
+      "college",
+      "scholarship",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "de-seed",
+    "scheme_name": {
+      "en": "Delaware SEED Scholarship",
+      "ml": "Delaware SEED Scholarship",
+      "hi": "Delaware SEED – डेलावेयर"
+    },
+    "description": {
+      "en": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply.",
+      "ml": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply.",
+      "hi": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SEED (14 Del. C. Subchapter XIV): Delaware residents meeting academic and enrollment rules at Delaware Tech or qualifying UD associate pathways; FAFSA required. Not a SNAP/Medicaid clone. No income ceiling encoded on the statutory tuition-scholarship baseline — confirm any need screens live.",
+      "verify": true,
+      "verify_notes": "Continuing GPA, semester caps, and dual-enrollment rules — verify=true via delcode + Delaware Tech/UD SEED pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps).",
+      "ml": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps).",
+      "hi": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ],
+      "ml": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ],
+      "hi": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED.",
+      "ml": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED.",
+      "hi": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED."
+    },
+    "apply_url": "https://education.delaware.gov/families/college-career-life/college-scholarship-financial-aid/scholarships-and-financial-aid-resources/",
+    "official_source_url": "https://delcode.delaware.gov/title14/c034/sc14/",
+    "last_verified": "2026-09-24",
+    "office_type": "Delaware Department of Education / Delaware Tech / University of Delaware",
+    "tags": [
+      "united_states",
+      "delaware",
+      "seed",
+      "scholarship",
+      "college",
+      "tuition",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "nd-scholarship",
+    "scheme_name": {
+      "en": "North Dakota Scholarship",
+      "ml": "North Dakota Scholarship",
+      "hi": "North Dakota Scholarship – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline.",
+      "ml": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline.",
+      "hi": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND Scholarship: Essential Skills + 2 of 3 Choice Ready–aligned components; $6,000 total; continuing 2.75 GPA and full-time progress rules after award. Merit/readiness-based — not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Application deadline and Choice Ready indicator rules — verify=true via nd.gov/dpi North Dakota Scholarship.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students.",
+      "ml": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students.",
+      "hi": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students."
+    },
+    "required_documents": {
+      "en": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ],
+      "ml": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ],
+      "hi": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship.",
+      "ml": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship.",
+      "hi": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship."
+    },
+    "apply_url": "https://www.nd.gov/dpi/familiescommunity/students/north-dakota-scholarship",
+    "official_source_url": "https://www.nd.gov/dpi/familiescommunity/students/north-dakota-scholarship",
+    "last_verified": "2026-09-24",
+    "office_type": "North Dakota Department of Public Instruction / NDUS",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "nd_scholarship",
+      "scholarship",
+      "college",
+      "merit",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "ak-permanent-fund-dividend",
+    "scheme_name": {
+      "en": "Alaska Permanent Fund Dividend (PFD)",
+      "ml": "Alaska Permanent Fund Dividend (PFD)",
+      "hi": "Alaska PFD – अलास्का"
+    },
+    "description": {
+      "en": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested.",
+      "ml": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested.",
+      "hi": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Alaska PFD: eligible Alaska residents who timely apply; criminal-conviction and residency rules apply. Amount set annually. Universal — do NOT set implies_low_income. No income ceiling.",
+      "verify": true,
+      "verify_notes": "Annual amount, application window, and eligibility disqualifiers — verify=true via pfd.alaska.gov.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants.",
+      "ml": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants.",
+      "hi": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants."
+    },
+    "required_documents": {
+      "en": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ],
+      "ml": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ],
+      "hi": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online.",
+      "ml": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online.",
+      "hi": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online."
+    },
+    "apply_url": "https://pfd.alaska.gov/",
+    "official_source_url": "https://pfd.alaska.gov/",
+    "last_verified": "2026-09-24",
+    "office_type": "Alaska Department of Revenue – Permanent Fund Dividend Division",
+    "tags": [
+      "united_states",
+      "alaska",
+      "pfd",
+      "permanent_fund",
+      "universal",
+      "dividend",
+      "middle-class",
+      "high-income-eligible"
+    ]
+  },
+  {
+    "id": "wy-hathaway-scholarship",
+    "scheme_name": {
+      "en": "Wyoming Hathaway Scholarship",
+      "ml": "Wyoming Hathaway Scholarship",
+      "hi": "Hathaway Scholarship – वायोमिंग"
+    },
+    "description": {
+      "en": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA.",
+      "ml": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA.",
+      "hi": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Hathaway: Wyoming resident students meeting academic requirements for merit tiers; need awards require FAFSA unmet need. Merit path is not poverty-only. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Semester award amounts by tier and continuing GPA — verify=true via communitycolleges.wy.edu Hathaway + campus pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs.",
+      "ml": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs.",
+      "hi": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs."
+    },
+    "required_documents": {
+      "en": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ],
+      "ml": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ],
+      "hi": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program.",
+      "ml": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program.",
+      "hi": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program."
+    },
+    "apply_url": "https://communitycolleges.wy.edu/wyoming-hathaway-scholarship-program",
+    "official_source_url": "https://communitycolleges.wy.edu/wyoming-hathaway-scholarship-program",
+    "last_verified": "2026-09-24",
+    "office_type": "Wyoming Community College Commission / University of Wyoming",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "hathaway",
+      "scholarship",
+      "college",
+      "merit",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "wv-promise",
+    "scheme_name": {
+      "en": "West Virginia PROMISE Scholarship",
+      "ml": "West Virginia PROMISE Scholarship",
+      "hi": "WV PROMISE – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year.",
+      "ml": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year.",
+      "hi": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV PROMISE: merit GPA/test minima and WV residency/high-school rules; FAFSA typically required for processing; continuing eligibility rules apply. Not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Annual max award, GPA/ACT cutoffs, and deadlines — verify=true via wvhepc.edu PROMISE.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum).",
+      "ml": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum).",
+      "hi": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum)."
+    },
+    "required_documents": {
+      "en": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ],
+      "ml": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ],
+      "hi": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages.",
+      "ml": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages.",
+      "hi": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages."
+    },
+    "apply_url": "https://www.wvhepc.edu/inside-the-commission/academic-affairs/promise/",
+    "official_source_url": "https://www.wvhepc.edu/inside-the-commission/academic-affairs/promise/",
+    "last_verified": "2026-09-24",
+    "office_type": "West Virginia Higher Education Policy Commission (WVHEPC)",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "promise",
+      "scholarship",
+      "merit",
+      "college",
+      "middle-class"
+    ]
+  }
+]

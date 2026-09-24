@@ -58014,5 +58014,2568 @@
     ],
     "last_verified": "2026-09-24",
     "nationwide": true
+  },
+  {
+    "id": "us-mn-working-family-credit",
+    "scheme_name": {
+      "en": "Minnesota Working Family Credit",
+      "ml": "Minnesota Working Family Credit",
+      "hi": "MN Working Family Credit – मिनेसोटा"
+    },
+    "description": {
+      "en": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue.",
+      "ml": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue.",
+      "hi": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN Working Family Credit (Minn. Stat. §290.0671): working individuals with earned income below published phaseout; generally aligned with federal EITC eligibility with state-specific exceptions. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Credit %, max amount, and phaseout thresholds change by tax year — verify=true via revenue.state.mn.us Working Family Credit / Schedule M1CWFC.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually).",
+      "ml": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually).",
+      "hi": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually)."
+    },
+    "required_documents": {
+      "en": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ],
+      "ml": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ],
+      "hi": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit.",
+      "ml": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit.",
+      "hi": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit."
+    },
+    "apply_url": "https://www.revenue.state.mn.us/working-family-credit",
+    "official_source_url": "https://www.revenue.state.mn.us/working-family-credit",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Department of Revenue",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "working_family_credit",
+      "eitc",
+      "tax_credit",
+      "income_support",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-mn-homestead-credit-refund",
+    "scheme_name": {
+      "en": "Minnesota Homestead Credit Refund (Form M1PR)",
+      "ml": "Minnesota Homestead Credit Refund (Form M1PR)",
+      "hi": "MN Homestead Credit Refund – मिनेसोटा"
+    },
+    "description": {
+      "en": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit.",
+      "ml": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit.",
+      "hi": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN Homestead Credit Refund: own and occupy homestead; regular path uses published household-income limit (verify annually); special path uses % increase rules. Middle-income homeowners may qualify depending on taxes vs income. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income limit, refund tables, and deadlines change by refund year — verify=true via revenue.state.mn.us Homestead Credit Refund / Form M1PR.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths).",
+      "ml": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths).",
+      "hi": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths)."
+    },
+    "required_documents": {
+      "en": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ],
+      "ml": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ],
+      "hi": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund.",
+      "ml": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund.",
+      "hi": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund."
+    },
+    "apply_url": "https://www.revenue.state.mn.us/homeowners-homestead-credit-refund",
+    "official_source_url": "https://www.revenue.state.mn.us/homeowners-homestead-credit-refund",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Department of Revenue",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "homestead",
+      "property_tax",
+      "refund",
+      "circuit_breaker",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-mn-state-grant",
+    "scheme_name": {
+      "en": "Minnesota State Grant – Office of Higher Education",
+      "ml": "Minnesota State Grant – Office of Higher Education",
+      "hi": "Minnesota State Grant – मिनेसोटा"
+    },
+    "description": {
+      "en": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible).",
+      "ml": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible).",
+      "hi": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN State Grant: Minnesota residents at eligible MN institutions; financial need via FAFSA/alternative app; award rules set by OHE. No single permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Deadlines, eligible schools, and award formulas change by academic year — verify=true via ohe.mn.gov Minnesota State Grant.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need).",
+      "ml": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need).",
+      "hi": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ],
+      "ml": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ],
+      "hi": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant.",
+      "ml": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant.",
+      "hi": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant."
+    },
+    "apply_url": "https://ohe.mn.gov/grant-scholarship/minnesota-state-grant",
+    "official_source_url": "https://ohe.mn.gov/grant-scholarship/minnesota-state-grant",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Office of Higher Education",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "state_grant",
+      "college",
+      "education",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-la-eitc",
+    "scheme_name": {
+      "en": "Louisiana Earned Income Tax Credit",
+      "ml": "Louisiana Earned Income Tax Credit",
+      "hi": "Louisiana EITC – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return.",
+      "ml": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return.",
+      "hi": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA EITC (R.S. 47:297.8): individuals eligible for federal EITC; state credit = statutory % of federal credit (5% for TY 2019–2030). Refundable. No separate permanent LA dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Confirm live LDR form/instructions and any legislative change after 2030 sunset path — verify=true via legis.la.gov + revenue.louisiana.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute).",
+      "ml": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute).",
+      "hi": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute)."
+    },
+    "required_documents": {
+      "en": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ],
+      "ml": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ],
+      "hi": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov.",
+      "ml": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov.",
+      "hi": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov."
+    },
+    "apply_url": "https://www.revenue.louisiana.gov/",
+    "official_source_url": "https://www.legis.la.gov/legis/Law.aspx?d=453085",
+    "last_verified": "2026-09-24",
+    "office_type": "Louisiana Department of Revenue / Legislature (R.S. 47:297.8)",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "eitc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "us-la-tops",
+    "scheme_name": {
+      "en": "TOPS – Taylor Opportunity Program for Students (Louisiana)",
+      "ml": "TOPS – Taylor Opportunity Program for Students (Louisiana)",
+      "hi": "TOPS Scholarship – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA.",
+      "ml": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA.",
+      "hi": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TOPS: LA residency, citizenship/permanent-resident rules, TOPS/TOPS Tech core, minimum Core GPA and ACT (or concordant) by award level; full-time freshman timing rules. Merit-based — not a poverty-only program. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award amounts, core curricula, and test minima change by graduating cohort — verify=true via mylosfa.la.gov TOPS.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools.",
+      "ml": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools.",
+      "hi": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ],
+      "ml": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ],
+      "hi": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages.",
+      "ml": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages.",
+      "hi": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages."
+    },
+    "apply_url": "https://mylosfa.la.gov/tops/applying-for-tops/",
+    "official_source_url": "https://mylosfa.la.gov/tops/",
+    "last_verified": "2026-09-24",
+    "office_type": "Louisiana Office of Student Financial Assistance (LOSFA)",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "tops",
+      "scholarship",
+      "merit",
+      "college",
+      "education",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "us-la-homestead-exemption",
+    "scheme_name": {
+      "en": "Louisiana Homestead Exemption (Ad Valorem)",
+      "ml": "Louisiana Homestead Exemption (Ad Valorem)",
+      "hi": "Louisiana Homestead Exemption – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor.",
+      "ml": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor.",
+      "hi": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA homestead exemption: bona fide homestead owned and occupied; assessed-value exclusion per Const. Art. VII §20; municipal-tax carve-outs apply. Not income-tested at the constitutional baseline — leave implies_low_income false. Parish application details vary.",
+      "verify": true,
+      "verify_notes": "Parish assessor procedures and any local add-ons (e.g., disabled-veteran extras) vary — verify=true via parish assessor + legis.la.gov.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value.",
+      "ml": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value.",
+      "hi": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value."
+    },
+    "required_documents": {
+      "en": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ],
+      "ml": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ],
+      "hi": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20.",
+      "ml": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20.",
+      "hi": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20."
+    },
+    "apply_url": "https://www.legis.la.gov/legis/Law.aspx?d=206550",
+    "official_source_url": "https://www.legis.la.gov/legis/Law.aspx?d=206550",
+    "last_verified": "2026-09-24",
+    "office_type": "Parish Assessor / Louisiana Constitution Art. VII §20",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "homestead",
+      "property_tax",
+      "exemption",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "nc-next-scholarship",
+    "scheme_name": {
+      "en": "Next NC Scholarship – North Carolina",
+      "ml": "Next NC Scholarship – North Carolina",
+      "hi": "Next NC Scholarship – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways.",
+      "ml": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways.",
+      "hi": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Next NC: NC residents at participating public institutions; need screens (AGI/SAI) published by CFNC for the academic year; FAFSA required. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "AGI/SAI screens, award floors, and deadlines change by academic year — verify=true via cfnc.org Next NC (official apply host; not a .gov domain).",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners).",
+      "ml": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners).",
+      "hi": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ],
+      "ml": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ],
+      "hi": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host).",
+      "ml": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host).",
+      "hi": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host)."
+    },
+    "apply_url": "https://www.cfnc.org/pay-for-college/next-nc-scholarship/",
+    "official_source_url": "https://www.cfnc.org/pay-for-college/next-nc-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "College Foundation of North Carolina (CFNC) / NC state student aid",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "next_nc",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "va-commonwealth-award",
+    "scheme_name": {
+      "en": "Virginia Commonwealth Award – SCHEV",
+      "ml": "Virginia Commonwealth Award – SCHEV",
+      "hi": "Virginia Commonwealth Award – वर्जीनिया"
+    },
+    "description": {
+      "en": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates.",
+      "ml": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates.",
+      "hi": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA Commonwealth Award (VSFAP): Virginia student status, financial need, FAFSA/VASA by campus deadline; undergraduate awards proportional to need and capped at tuition/fees. No single statewide dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Institutional deadlines and award amounts vary — verify=true via schev.edu Commonwealth Award + campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding).",
+      "ml": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding).",
+      "hi": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award.",
+      "ml": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award.",
+      "hi": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award."
+    },
+    "apply_url": "https://www.schev.edu/financial-aid/financial-aid/federal-state-financial-aid/virginia-commonwealth-award",
+    "official_source_url": "https://www.schev.edu/financial-aid/financial-aid/federal-state-financial-aid/virginia-commonwealth-award",
+    "last_verified": "2026-09-24",
+    "office_type": "State Council of Higher Education for Virginia (SCHEV)",
+    "tags": [
+      "united_states",
+      "virginia",
+      "commonwealth_award",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "az-leap",
+    "scheme_name": {
+      "en": "AzLEAP – Arizona Leveraging Educational Assistance Partnership",
+      "ml": "AzLEAP – Arizona Leveraging Educational Assistance Partnership",
+      "hi": "AzLEAP – एरिज़ोना"
+    },
+    "description": {
+      "en": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway).",
+      "ml": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway).",
+      "hi": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AzLEAP (A.R.S. §15-1703): AZ resident, substantial financial need per ABOR criteria, ≥ half-time at accredited AZ postsecondary school. Award maxima published by ABOR/institutions. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Participating schools and award caps change by academic year — verify=true via azleg.gov §15-1703 and campus aid/ABOR materials.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges.",
+      "ml": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges.",
+      "hi": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ],
+      "ml": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ],
+      "hi": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703.",
+      "ml": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703.",
+      "hi": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703."
+    },
+    "apply_url": "https://www.azleg.gov/ars/15/01703.htm",
+    "official_source_url": "https://www.azleg.gov/ars/15/01703.htm",
+    "last_verified": "2026-09-24",
+    "office_type": "Arizona Board of Regents / Arizona Legislature (A.R.S. §15-1703)",
+    "tags": [
+      "united_states",
+      "arizona",
+      "azleap",
+      "college",
+      "grant",
+      "need_based"
+    ]
+  },
+  {
+    "id": "mo-access-missouri",
+    "scheme_name": {
+      "en": "Access Missouri Financial Assistance Program",
+      "ml": "Access Missouri Financial Assistance Program",
+      "hi": "Access Missouri – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector.",
+      "ml": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector.",
+      "hi": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Access Missouri: MO residents at eligible schools; need-based EFC/SAI bands and award amounts published annually; FAFSA timing critical. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Deadlines and award chart change by academic year — verify=true via dhewd.mo.gov Access Missouri.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD).",
+      "ml": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD).",
+      "hi": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri.",
+      "ml": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri.",
+      "hi": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri."
+    },
+    "apply_url": "https://dhewd.mo.gov/ppc/grants-scholarships/access-mo",
+    "official_source_url": "https://dhewd.mo.gov/ppc/grants-scholarships/access-mo",
+    "last_verified": "2026-09-24",
+    "office_type": "Missouri Department of Higher Education & Workforce Development",
+    "tags": [
+      "united_states",
+      "missouri",
+      "access_missouri",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "wi-wisconsin-grant",
+    "scheme_name": {
+      "en": "Wisconsin Grant (HEAB)",
+      "ml": "Wisconsin Grant (HEAB)",
+      "hi": "Wisconsin Grant – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment.",
+      "ml": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment.",
+      "hi": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Wisconsin Grant: WI resident undergraduates at eligible nonprofit/tribal/UW/tech colleges; need via FAFSA; up to ten semesters; Child Support Lien Docket restrictions apply. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award min/max and sector rules set annually — verify=true via heab.state.wi.us programs page.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates.",
+      "ml": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates.",
+      "hi": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs.",
+      "ml": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs.",
+      "hi": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs."
+    },
+    "apply_url": "https://heab.state.wi.us/programs.html",
+    "official_source_url": "https://heab.state.wi.us/programs.html",
+    "last_verified": "2026-09-24",
+    "office_type": "Wisconsin Higher Educational Aids Board (HEAB)",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "wisconsin_grant",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "ky-kees",
+    "scheme_name": {
+      "en": "KEES – Kentucky Educational Excellence Scholarship",
+      "ml": "KEES – Kentucky Educational Excellence Scholarship",
+      "hi": "KEES – केंटकी"
+    },
+    "description": {
+      "en": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education.",
+      "ml": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education.",
+      "hi": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KEES: KY students meeting GPA (≥2.5 for base path per KDE summary) and optional ACT supplemental awards; home-school/GED alternate paths exist. Merit-based — not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Base/supplemental award tables and eligible schools — verify=true via education.ky.gov KEES + KHEAA.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs.",
+      "ml": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs.",
+      "hi": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs."
+    },
+    "required_documents": {
+      "en": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ],
+      "ml": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ],
+      "hi": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES.",
+      "ml": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES.",
+      "hi": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES."
+    },
+    "apply_url": "https://www.education.ky.gov/districts/fin/Pages/Kentucky%20Educational%20Excellence%20Scholarship.aspx",
+    "official_source_url": "https://www.education.ky.gov/districts/fin/Pages/Kentucky%20Educational%20Excellence%20Scholarship.aspx",
+    "last_verified": "2026-09-24",
+    "office_type": "Kentucky Department of Education / KHEAA",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "kees",
+      "scholarship",
+      "merit",
+      "college",
+      "education",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "ut-promise-grant",
+    "scheme_name": {
+      "en": "Utah Promise Grant",
+      "ml": "Utah Promise Grant",
+      "hi": "Utah Promise Grant – यूटा"
+    },
+    "description": {
+      "en": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy.",
+      "ml": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy.",
+      "hi": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Utah Promise Grant: Utah residents at participating USHE institutions; need-based packaging after other aid; institutional administration under USHE policy. No permanent statewide ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Campus rules and funding levels vary — verify=true via ushe.edu Utah Promise Grant + campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need).",
+      "ml": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need).",
+      "hi": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page.",
+      "ml": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page.",
+      "hi": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page."
+    },
+    "apply_url": "https://ushe.edu/utah-promise-grant/",
+    "official_source_url": "https://ushe.edu/utah-promise-grant/",
+    "last_verified": "2026-09-24",
+    "office_type": "Utah System of Higher Education (USHE)",
+    "tags": [
+      "united_states",
+      "utah",
+      "promise_grant",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "nv-silver-state-opportunity-grant",
+    "scheme_name": {
+      "en": "Silver State Opportunity Grant (SSOG) – Nevada",
+      "ml": "Silver State Opportunity Grant (SSOG) – Nevada",
+      "hi": "SSOG – नेवादा"
+    },
+    "description": {
+      "en": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima.",
+      "ml": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima.",
+      "hi": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SSOG: NSHE resident, ≥12 credits, college-ready, SAI ≤ published SSOG cap (materials cite ≤8500), no prior bachelor’s. Award via shared-responsibility model; funds limited. No permanent ceiling encoded beyond verify notes.",
+      "verify": true,
+      "verify_notes": "SAI cap, COA averages, and max award change by year — verify=true via nshe.nevada.edu SSOG.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12).",
+      "ml": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12).",
+      "hi": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ],
+      "ml": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ],
+      "hi": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant.",
+      "ml": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant.",
+      "hi": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant."
+    },
+    "apply_url": "https://nshe.nevada.edu/system-administration/departments/asa/students/financial-aid/silver-state-opportunity-grant/",
+    "official_source_url": "https://nshe.nevada.edu/system-administration/departments/asa/students/financial-aid/silver-state-opportunity-grant/",
+    "last_verified": "2026-09-24",
+    "office_type": "Nevada System of Higher Education (NSHE)",
+    "tags": [
+      "united_states",
+      "nevada",
+      "ssog",
+      "college",
+      "grant",
+      "need_based"
+    ]
+  },
+  {
+    "id": "us-ar-academic-challenge",
+    "scheme_name": {
+      "en": "Arkansas Academic Challenge Scholarship",
+      "ml": "Arkansas Academic Challenge Scholarship",
+      "hi": "Arkansas Academic Challenge – आर्केंसास"
+    },
+    "description": {
+      "en": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS).",
+      "ml": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS).",
+      "hi": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Academic Challenge: AR students meeting ADHE academic/enrollment rules at approved schools; lottery-funded. Confirm current GPA/ACT and deadline tables on ADHE — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility table and award amounts change by cohort — verify=true via portal.arkansas.gov / ADHE SAMS.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year).",
+      "ml": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year).",
+      "hi": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year)."
+    },
+    "required_documents": {
+      "en": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ],
+      "ml": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ],
+      "hi": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge.",
+      "ml": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge.",
+      "hi": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge."
+    },
+    "apply_url": "https://portal.arkansas.gov/service/ar-academic-challenge-scholarship/",
+    "official_source_url": "https://portal.arkansas.gov/service/ar-academic-challenge-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "Arkansas Department of Higher Education (ADHE)",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "academic_challenge",
+      "scholarship",
+      "college",
+      "education",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "ms-mtag",
+    "scheme_name": {
+      "en": "Mississippi Tuition Assistance Grant (MTAG)",
+      "ml": "Mississippi Tuition Assistance Grant (MTAG)",
+      "hi": "MTAG – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid.",
+      "ml": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid.",
+      "hi": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MTAG: full-time undergraduates meeting MS state-aid rules; award amounts published by OSA ($500/$1,000 by level per ms.gov summary). Broader than HELP’s full-tuition need path. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Exact GPA/ACT/residency screens and deadlines — verify=true via ms.gov OSA / program pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students.",
+      "ml": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students.",
+      "hi": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ],
+      "ml": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ],
+      "hi": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid.",
+      "ml": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid.",
+      "hi": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid."
+    },
+    "apply_url": "https://www.ms.gov/agencies/office-student-financial-aid",
+    "official_source_url": "https://www.ms.gov/agencies/office-student-financial-aid",
+    "last_verified": "2026-09-24",
+    "office_type": "Mississippi Office of Student Financial Aid",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "mtag",
+      "college",
+      "grant",
+      "education",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "nm-opportunity-scholarship",
+    "scheme_name": {
+      "en": "New Mexico Opportunity Scholarship",
+      "ml": "New Mexico Opportunity Scholarship",
+      "hi": "NM Opportunity Scholarship – न्यू मेक्सिको"
+    },
+    "description": {
+      "en": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students.",
+      "ml": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students.",
+      "hi": "New Mexico tuition-and-required-fees scholarship for established NM residents enrolled in at least six credit hours toward a credit-bearing certificate, associate, or bachelor’s degree at a public NM college or university. No separate scholarship application — campus financial aid awards eligible students."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "New Mexico"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "NM Opportunity Scholarship: established NM resident; ≥6 credits toward eligible credential at public NM institution; GPA/credit-hour continuing rules apply. Not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Participating institutions and continuing-eligibility GPA/credit caps — verify=true via hed.nm.gov Opportunity Scholarship pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents.",
+      "ml": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents.",
+      "hi": "Up to 100% of tuition and required fees at participating New Mexico public colleges and universities for eligible residents."
+    },
+    "required_documents": {
+      "en": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ],
+      "ml": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ],
+      "hi": [
+        "Enrollment ≥6 credits at a participating NM public institution",
+        "New Mexico residency per HED standards",
+        "FAFSA recommended for other aid stacking",
+        "Campus financial aid office packaging (no separate Opportunity application)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship.",
+      "ml": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship.",
+      "hi": "Apply/enroll at a participating NM public college and complete FAFSA; the campus aid office awards Opportunity if eligible. See hed.nm.gov free-college / Opportunity Scholarship."
+    },
+    "apply_url": "https://hed.nm.gov/free-college-for-new-mexico",
+    "official_source_url": "https://hed.nm.gov/free-college-for-new-mexico",
+    "last_verified": "2026-09-24",
+    "office_type": "New Mexico Higher Education Department",
+    "tags": [
+      "united_states",
+      "new_mexico",
+      "opportunity_scholarship",
+      "college",
+      "tuition_free",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "id-opportunity-scholarship",
+    "scheme_name": {
+      "en": "Idaho Opportunity Scholarship",
+      "ml": "Idaho Opportunity Scholarship",
+      "hi": "Idaho Opportunity Scholarship – आयडाहो"
+    },
+    "description": {
+      "en": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply.",
+      "ml": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply.",
+      "hi": "Idaho undergraduate scholarship administered via the State Board of Education. Eligible Idaho students pursue awards renewable for multiple years when academic and enrollment conditions are met; FAFSA and state application steps apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Idaho"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Idaho Opportunity Scholarship: Idaho students meeting Board academic/need and enrollment rules; renewable when continuing criteria met. Confirm live award maximum on Board site — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award max, GPA, and deadlines change — verify=true via boardofed.idaho.gov Opportunity Scholarship.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum).",
+      "ml": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum).",
+      "hi": "Annual scholarship toward eligible Idaho college costs (confirm live Board award maximum)."
+    },
+    "required_documents": {
+      "en": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ],
+      "ml": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ],
+      "hi": [
+        "State Opportunity Scholarship application",
+        "FAFSA",
+        "Idaho residency / high school documentation",
+        "Enrollment at an eligible Idaho institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship.",
+      "ml": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship.",
+      "hi": "Apply through the State Board of Education Opportunity Scholarship process and file FAFSA. See boardofed.idaho.gov Idaho Opportunity Scholarship."
+    },
+    "apply_url": "https://boardofed.idaho.gov/scholarships/idaho-opportunity-scholarship/",
+    "official_source_url": "https://boardofed.idaho.gov/scholarships/idaho-opportunity-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "Idaho State Board of Education",
+    "tags": [
+      "united_states",
+      "idaho",
+      "opportunity_scholarship",
+      "college",
+      "scholarship",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "hi-promise",
+    "scheme_name": {
+      "en": "Hawaiʻi Promise Scholarship – UH Community Colleges",
+      "ml": "Hawaiʻi Promise Scholarship – UH Community Colleges",
+      "hi": "Hawaiʻi Promise – हवाई"
+    },
+    "description": {
+      "en": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College.",
+      "ml": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College.",
+      "hi": "University of Hawaiʻi Community Colleges last-dollar scholarship covering unmet direct educational costs (tuition, fees, and textbooks) for eligible Hawaiʻi residents after other scholarships/grants. Students file FAFSA (or alternate) and enroll at a UH Community College."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Hawaii"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Hawaiʻi Promise: HI residents at UH Community Colleges; last-dollar after other grants/scholarships toward direct costs. Need analysis via FAFSA/alternate. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Covered cost components and residency rules — verify=true via hawaii.edu/promise.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid.",
+      "ml": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid.",
+      "hi": "Last-dollar aid covering remaining eligible direct educational costs at UH Community Colleges after other gift aid."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA or UH alternate need application",
+        "Hawaiʻi residency documentation",
+        "Enrollment at a University of Hawaiʻi Community College",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise.",
+      "ml": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise.",
+      "hi": "File FAFSA and complete UHCC financial aid requirements. See hawaii.edu/promise."
+    },
+    "apply_url": "https://www.hawaii.edu/promise/",
+    "official_source_url": "https://www.hawaii.edu/promise/",
+    "last_verified": "2026-09-24",
+    "office_type": "University of Hawaiʻi Community Colleges",
+    "tags": [
+      "united_states",
+      "hawaii",
+      "hawaii_promise",
+      "college",
+      "scholarship",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "de-seed",
+    "scheme_name": {
+      "en": "Delaware SEED Scholarship",
+      "ml": "Delaware SEED Scholarship",
+      "hi": "Delaware SEED – डेलावेयर"
+    },
+    "description": {
+      "en": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply.",
+      "ml": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply.",
+      "hi": "Student Excellence Equals Degree (SEED) scholarship providing tuition support for eligible Delaware residents at Delaware Technical Community College and qualifying University of Delaware associate pathways. Codified in Delaware Code Title 14; FAFSA and academic/residency requirements apply."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delaware"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SEED (14 Del. C. Subchapter XIV): Delaware residents meeting academic and enrollment rules at Delaware Tech or qualifying UD associate pathways; FAFSA required. Not a SNAP/Medicaid clone. No income ceiling encoded on the statutory tuition-scholarship baseline — confirm any need screens live.",
+      "verify": true,
+      "verify_notes": "Continuing GPA, semester caps, and dual-enrollment rules — verify=true via delcode + Delaware Tech/UD SEED pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps).",
+      "ml": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps).",
+      "hi": "Tuition scholarship support for eligible Delaware students in SEED-participating associate pathways (confirm live semester caps)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ],
+      "ml": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ],
+      "hi": [
+        "FAFSA",
+        "Delaware residency documentation",
+        "High school diploma / academic eligibility evidence",
+        "Enrollment at Delaware Tech or qualifying UD SEED pathway"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED.",
+      "ml": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED.",
+      "hi": "File FAFSA and apply through Delaware Tech / UD SEED admissions-financial-aid pathways. See education.delaware.gov scholarship resources and delcode.delaware.gov Title 14 SEED."
+    },
+    "apply_url": "https://education.delaware.gov/families/college-career-life/college-scholarship-financial-aid/scholarships-and-financial-aid-resources/",
+    "official_source_url": "https://delcode.delaware.gov/title14/c034/sc14/",
+    "last_verified": "2026-09-24",
+    "office_type": "Delaware Department of Education / Delaware Tech / University of Delaware",
+    "tags": [
+      "united_states",
+      "delaware",
+      "seed",
+      "scholarship",
+      "college",
+      "tuition",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "nd-scholarship",
+    "scheme_name": {
+      "en": "North Dakota Scholarship",
+      "ml": "North Dakota Scholarship",
+      "hi": "North Dakota Scholarship – नॉर्थ डकोटा"
+    },
+    "description": {
+      "en": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline.",
+      "ml": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline.",
+      "hi": "North Dakota Scholarship (Choice Ready–aligned) worth $6,000 for students who meet Essential Skills plus two of three readiness components (Post-Secondary, Workforce, Military). Usable at approved ND colleges, universities, professional schools, and registered apprenticeships. Apply via NDDPI scholarship application by the published senior deadline."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Dakota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "ND Scholarship: Essential Skills + 2 of 3 Choice Ready–aligned components; $6,000 total; continuing 2.75 GPA and full-time progress rules after award. Merit/readiness-based — not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Application deadline and Choice Ready indicator rules — verify=true via nd.gov/dpi North Dakota Scholarship.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students.",
+      "ml": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students.",
+      "hi": "$6,000 scholarship disbursed through NDUS/campus aid after enrollment verification for eligible North Dakota students."
+    },
+    "required_documents": {
+      "en": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ],
+      "ml": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ],
+      "hi": [
+        "NDDPI online Scholarship Application by deadline",
+        "Choice Ready / verification indicators from school (or home-ed forms)",
+        "ACT/WorkKeys/ASVAB evidence as applicable",
+        "Enrollment at an approved ND institution or apprenticeship"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship.",
+      "ml": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship.",
+      "hi": "Submit the NDDPI Scholarship Application by the published deadline. See nd.gov/dpi North Dakota Scholarship."
+    },
+    "apply_url": "https://www.nd.gov/dpi/familiescommunity/students/north-dakota-scholarship",
+    "official_source_url": "https://www.nd.gov/dpi/familiescommunity/students/north-dakota-scholarship",
+    "last_verified": "2026-09-24",
+    "office_type": "North Dakota Department of Public Instruction / NDUS",
+    "tags": [
+      "united_states",
+      "north_dakota",
+      "nd_scholarship",
+      "scholarship",
+      "college",
+      "merit",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "ak-permanent-fund-dividend",
+    "scheme_name": {
+      "en": "Alaska Permanent Fund Dividend (PFD)",
+      "ml": "Alaska Permanent Fund Dividend (PFD)",
+      "hi": "Alaska PFD – अलास्का"
+    },
+    "description": {
+      "en": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested.",
+      "ml": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested.",
+      "hi": "Annual dividend paid by the State of Alaska Permanent Fund Dividend Division to eligible Alaska residents who apply each year. Amount is set annually (published on pfd.alaska.gov). Universal resident benefit — not means-tested."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Alaska"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Alaska PFD: eligible Alaska residents who timely apply; criminal-conviction and residency rules apply. Amount set annually. Universal — do NOT set implies_low_income. No income ceiling.",
+      "verify": true,
+      "verify_notes": "Annual amount, application window, and eligibility disqualifiers — verify=true via pfd.alaska.gov.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants.",
+      "ml": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants.",
+      "hi": "Annual cash dividend at the amount declared for the program year to eligible Alaska resident applicants."
+    },
+    "required_documents": {
+      "en": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ],
+      "ml": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ],
+      "hi": [
+        "Annual PFD application (online via myPFD / myAlaska or paper)",
+        "Proof of Alaska residency and eligibility as required",
+        "Identity documentation",
+        "Direct deposit or payment preference setup"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online.",
+      "ml": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online.",
+      "hi": "Apply during the annual application window on pfd.alaska.gov (myPFD). Check status and update address online."
+    },
+    "apply_url": "https://pfd.alaska.gov/",
+    "official_source_url": "https://pfd.alaska.gov/",
+    "last_verified": "2026-09-24",
+    "office_type": "Alaska Department of Revenue – Permanent Fund Dividend Division",
+    "tags": [
+      "united_states",
+      "alaska",
+      "pfd",
+      "permanent_fund",
+      "universal",
+      "dividend",
+      "middle-class",
+      "high-income-eligible"
+    ]
+  },
+  {
+    "id": "wy-hathaway-scholarship",
+    "scheme_name": {
+      "en": "Wyoming Hathaway Scholarship",
+      "ml": "Wyoming Hathaway Scholarship",
+      "hi": "Hathaway Scholarship – वायोमिंग"
+    },
+    "description": {
+      "en": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA.",
+      "ml": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA.",
+      "hi": "State of Wyoming scholarship for eligible Wyoming students attending Wyoming community colleges or the University of Wyoming. Provides merit awards (program materials cite roughly $800–$1,600 per semester by level) plus need-based awards above merit for students with unmet need via FAFSA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wyoming"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Hathaway: Wyoming resident students meeting academic requirements for merit tiers; need awards require FAFSA unmet need. Merit path is not poverty-only. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Semester award amounts by tier and continuing GPA — verify=true via communitycolleges.wy.edu Hathaway + campus pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs.",
+      "ml": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs.",
+      "hi": "Merit (and optional need-based) scholarship payments toward eligible Wyoming public college/university costs."
+    },
+    "required_documents": {
+      "en": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ],
+      "ml": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ],
+      "hi": [
+        "High school / residency eligibility documentation",
+        "FAFSA (for need-based Hathaway component)",
+        "Enrollment at a Wyoming community college or University of Wyoming",
+        "Campus financial aid / Hathaway certification"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program.",
+      "ml": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program.",
+      "hi": "Work with your high school counselor and the Wyoming college financial aid office; file FAFSA for need awards. See communitycolleges.wy.edu Hathaway Scholarship Program."
+    },
+    "apply_url": "https://communitycolleges.wy.edu/wyoming-hathaway-scholarship-program",
+    "official_source_url": "https://communitycolleges.wy.edu/wyoming-hathaway-scholarship-program",
+    "last_verified": "2026-09-24",
+    "office_type": "Wyoming Community College Commission / University of Wyoming",
+    "tags": [
+      "united_states",
+      "wyoming",
+      "hathaway",
+      "scholarship",
+      "college",
+      "merit",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "wv-promise",
+    "scheme_name": {
+      "en": "West Virginia PROMISE Scholarship",
+      "ml": "West Virginia PROMISE Scholarship",
+      "hi": "WV PROMISE – वेस्ट वर्जीनिया"
+    },
+    "description": {
+      "en": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year.",
+      "ml": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year.",
+      "hi": "Merit-based West Virginia PROMISE Scholarship for eligible high-school graduates meeting GPA and test-score requirements. Helps cover tuition and mandatory fees at eligible WV institutions up to the published annual maximum. Application and FAFSA deadlines are published by WVHEPC each year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "West Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "WV PROMISE: merit GPA/test minima and WV residency/high-school rules; FAFSA typically required for processing; continuing eligibility rules apply. Not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Annual max award, GPA/ACT cutoffs, and deadlines — verify=true via wvhepc.edu PROMISE.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum).",
+      "ml": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum).",
+      "hi": "Merit scholarship toward tuition and mandatory fees at eligible West Virginia colleges (up to published annual maximum)."
+    },
+    "required_documents": {
+      "en": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ],
+      "ml": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ],
+      "hi": [
+        "PROMISE / state scholarship application by deadline",
+        "FAFSA by published deadline",
+        "High school GPA and ACT/SAT evidence meeting PROMISE minima",
+        "Enrollment at an eligible WV institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages.",
+      "ml": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages.",
+      "hi": "Submit the PROMISE application and FAFSA by WVHEPC-published deadlines. See wvhepc.edu PROMISE pages."
+    },
+    "apply_url": "https://www.wvhepc.edu/inside-the-commission/academic-affairs/promise/",
+    "official_source_url": "https://www.wvhepc.edu/inside-the-commission/academic-affairs/promise/",
+    "last_verified": "2026-09-24",
+    "office_type": "West Virginia Higher Education Policy Commission (WVHEPC)",
+    "tags": [
+      "united_states",
+      "west_virginia",
+      "promise",
+      "scholarship",
+      "merit",
+      "college",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "in-kvp",
+    "scheme_name": {
+      "en": "Kisan Vikas Patra (KVP)",
+      "hi": "किसान विकास पत्र (केवीपी)",
+      "ml": "(EN — Malayalam review pending) Kisan Vikas Patra (KVP)"
+    },
+    "description": {
+      "en": "Government small-savings certificate available through India Post / authorised banks under the Kisan Vikas Patra scheme. Investment doubles at maturity per notified tenure/interest; no personal income ceiling to invest. Interest is taxable as applicable — confirm live IT treatment.",
+      "hi": "डाकघर/अधिकृत बैंकों में किसान विकास पत्र; परिपक्वता पर अधिसूचित अवधि के अनुसार राशि दोगुनी; व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Government small-savings certificate available through India Post / authorised banks under the Kisan Vikas Patra scheme. Investment doubles at maturity per notified tenure/interest; no personal income ceiling to invest. Interest is taxable as applicable — confirm live IT treatment."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "KVP: resident investors via Post Office/authorised banks under KVP scheme rules; no personal max_annual_income — leave null; do not set implies_low_income. Interest taxable — confirm IT. Maturity doubling tenure follows MoF notification (verify live).",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF interest/maturity notification and NSI KVP page before advising amounts."
+    },
+    "benefits": {
+      "en": "Lump-sum investment that doubles at maturity per MoF/NSI notified rate and tenure; transferable as per scheme rules; no income gate — usable by middle-class and higher-income savers within scheme limits.",
+      "hi": "परिपक्वता पर अधिसूचित दर/अवधि के अनुसार राशि दोगुनी; आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Lump-sum investment that doubles at maturity per MoF/NSI notified rate and tenure; transferable as per scheme rules; no income gate — usable by middle-class and higher-income savers within scheme limits."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof",
+        "PAN as required by accounts office",
+        "Application form for KVP purchase at Post Office / authorised bank",
+        "Payment for certificate purchase"
+      ],
+      "hi": [
+        "KYC identity and address proof",
+        "PAN as required by accounts office",
+        "Application form for KVP purchase at Post Office / authorised bank",
+        "Payment for certificate purchase"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN as required by accounts office",
+        "(EN — Malayalam review pending) Application form for KVP purchase at Post Office / authorised bank",
+        "(EN — Malayalam review pending) Payment for certificate purchase"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Buy KVP at an India Post counter or authorised bank; confirm current maturity tenure and interest on NSI / India Post notices.",
+      "hi": "डाकघर या अधिकृत बैंक से केवीपी खरीदें; वर्तमान ब्याज/अवधि एनएसआई/डाकघर से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Buy KVP at an India Post counter or authorised bank; confirm current maturity tenure and interest on NSI / India Post notices."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "kvp",
+      "post_office",
+      "middle-class",
+      "high-income-eligible",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-post-office-mis",
+    "scheme_name": {
+      "en": "Post Office Monthly Income Scheme (MIS / POMIS)",
+      "hi": "डाकघर मासिक आय योजना (एमआईएस)",
+      "ml": "(EN — Malayalam review pending) Post Office Monthly Income Scheme (MIS / POMIS)"
+    },
+    "description": {
+      "en": "National Savings (Monthly Income Account) Scheme available at India Post: deposit earns notified interest paid monthly; account tenure commonly five years under the 2019 scheme rules. Deposit ceilings apply per single/joint account (confirm live NSI/India Post limits). No personal income eligibility ceiling.",
+      "hi": "डाकघर मासिक आय खाता: अधिसूचित मासिक ब्याज; सामान्यतः पाँच वर्ष; खाता सीमाएँ लागू; व्यक्तिगत आय पात्रता सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) National Savings (Monthly Income Account) Scheme available at India Post: deposit earns notified interest paid monthly; account tenure commonly five years under the 2019 scheme rules. Deposit ceilings apply per single/joint account (confirm live NSI/India Post limits). No personal income eligibility ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "POMIS / National Savings Monthly Income Account: deposit ceilings (commonly cited in scheme materials — VERIFY live) and 5-year tenure; no personal income gate — max_annual_income null; do not set implies_low_income. Interest taxable.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF interest notification and exact deposit ceilings on NSI Monthly Income Account page before citing rupee limits in advice."
+    },
+    "benefits": {
+      "en": "Monthly interest payout at MoF-notified rate on deposits within scheme ceilings; suitable for middle-class savers seeking regular income; interest taxable as applicable.",
+      "hi": "अधिसूचित दर पर मासिक ब्याज; योजना की जमा सीमाओं के भीतर; आयकर नियम लागू।",
+      "ml": "(EN — Malayalam review pending) Monthly interest payout at MoF-notified rate on deposits within scheme ceilings; suitable for middle-class savers seeking regular income; interest taxable as applicable."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Account-opening form for Monthly Income Account",
+        "Initial deposit within scheme limits"
+      ],
+      "hi": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Account-opening form for Monthly Income Account",
+        "Initial deposit within scheme limits"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN as required",
+        "(EN — Malayalam review pending) Account-opening form for Monthly Income Account",
+        "(EN — Malayalam review pending) Initial deposit within scheme limits"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open a Monthly Income Account at an India Post savings counter; confirm current interest rate and single/joint deposit ceilings on NSI/India Post.",
+      "hi": "डाकघर में मासिक आय खाता खोलें; वर्तमान ब्याज और जमा सीमाएँ एनएसआई/डाकघर से जाँचें।",
+      "ml": "(EN — Malayalam review pending) Open a Monthly Income Account at an India Post savings counter; confirm current interest rate and single/joint deposit ceilings on NSI/India Post."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "mis",
+      "pomis",
+      "post_office",
+      "middle-class",
+      "senior_friendly",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80d",
+    "scheme_name": {
+      "en": "Income Tax Section 80D – Health Insurance Deduction",
+      "hi": "आयकर धारा 80डी – स्वास्थ्य बीमा कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80D – Health Insurance Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80D for eligible health-insurance premiums (and specified preventive health check-up / medical expenditure paths for seniors) paid for self, family, and parents. Availability and quantum depend on the tax regime chosen for the year and on notified limits — commonly claimed under the old regime; confirm live IT guidance.",
+      "hi": "धारा 80डी के तहत पात्र स्वास्थ्य बीमा प्रीमियम आदि की कटौती; कर व्यवस्था और अधिसूचित सीमाओं पर निर्भर।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80D for eligible health-insurance premiums (and specified preventive health check-up / medical expenditure paths for seniors) paid for self, family, and parents. Availability and quantum depend on the tax regime chosen for the year and on notified limits — commonly claimed under the old regime; confirm live IT guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory tax deduction, not a cash subsidy. No income ceiling to ‘qualify’ for 80D itself — leave max_annual_income null; do not set implies_low_income. Deduction often unavailable or limited under the new tax regime — encode honestly with verify=true. Do not invent rupee caps in eligibility_rules.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live 80D monetary limits and new-vs-old regime interaction on Income Tax Department pages before advising."
+    },
+    "benefits": {
+      "en": "Deduction from taxable income for eligible medical insurance premiums / specified health expenditure within notified section 80D limits (regime-conditional).",
+      "hi": "पात्र स्वास्थ्य बीमा प्रीमियम/निर्दिष्ट व्यय पर अधिसूचित 80डी सीमा तक कटौती (कर व्यवस्था के अधीन)।",
+      "ml": "(EN — Malayalam review pending) Deduction from taxable income for eligible medical insurance premiums / specified health expenditure within notified section 80D limits (regime-conditional)."
+    },
+    "required_documents": {
+      "en": [
+        "Health insurance premium payment proof / policy documents",
+        "PAN and income-tax return",
+        "Details of insured family members / parents as claimed",
+        "Bank statements evidencing payment where required"
+      ],
+      "hi": [
+        "Health insurance premium payment proof / policy documents",
+        "PAN and income-tax return",
+        "Details of insured family members / parents as claimed",
+        "Bank statements evidencing payment where required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Health insurance premium payment proof / policy documents",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Details of insured family members / parents as claimed",
+        "(EN — Malayalam review pending) Bank statements evidencing payment where required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim section 80D while filing the ITR on the Income Tax e-filing portal for a year in which the chosen regime allows the deduction. Confirm limits on incometaxindia.gov.in / incometax.gov.in.",
+      "hi": "जिस वर्ष चुनी गई कर व्यवस्था अनुमति दे, आईटीआर में धारा 80डी का दावा करें; सीमाएँ आयकर पोर्टल से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Claim section 80D while filing the ITR on the Income Tax e-filing portal for a year in which the chosen regime allows the deduction. Confirm limits on incometaxindia.gov.in / incometax.gov.in."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://incometaxindia.gov.in/Pages/tools/deduction-under-section-80d.aspx",
+    "tags": [
+      "tax",
+      "80d",
+      "health_insurance",
+      "middle-class",
+      "high-income-eligible",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80e",
+    "scheme_name": {
+      "en": "Income Tax Section 80E – Education Loan Interest Deduction",
+      "hi": "आयकर धारा 80ई – शिक्षा ऋण ब्याज कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80E – Education Loan Interest Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80E for interest paid on an eligible education loan taken for higher education of self, spouse, or children (or student for whom the taxpayer is legal guardian) from an approved financial institution / charitable institution. Available for a limited number of years from the start of interest repayment — confirm live Act/IT guidance. Regime-conditional.",
+      "hi": "पात्र शिक्षा ऋण पर चुकाए गए ब्याज की धारा 80ई कटौती; अवधि और कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80E for interest paid on an eligible education loan taken for higher education of self, spouse, or children (or student for whom the taxpayer is legal guardian) from an approved financial institution / charitable institution. Available for a limited number of years from the start of interest repayment — confirm live Act/IT guidance. Regime-conditional."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory interest deduction on eligible education loans. No max_annual_income gate — leave null; do not set implies_low_income. Often old-regime / Chapter VIA conditional. Do not invent a rupee cap (80E is interest-amount based with a year-count limit).",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm eligible lender definitions, claim-window length, and regime interaction on official IT pages before advising."
+    },
+    "benefits": {
+      "en": "Deduction of eligible education-loan interest from taxable income for the permitted claim window (no fixed rupee cap in the Act for 80E interest — confirm live).",
+      "hi": "पात्र शिक्षा ऋण ब्याज की कटौती (अधिनियम में ब्याज पर निश्चित रुपये की ऊपरी सीमा नहीं — पुष्टि करें)।",
+      "ml": "(EN — Malayalam review pending) Deduction of eligible education-loan interest from taxable income for the permitted claim window (no fixed rupee cap in the Act for 80E interest — confirm live)."
+    },
+    "required_documents": {
+      "en": [
+        "Education loan account statement showing interest paid",
+        "Loan sanction letter from eligible institution",
+        "PAN and income-tax return",
+        "Proof of higher-education course as required"
+      ],
+      "hi": [
+        "Education loan account statement showing interest paid",
+        "Loan sanction letter from eligible institution",
+        "PAN and income-tax return",
+        "Proof of higher-education course as required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Education loan account statement showing interest paid",
+        "(EN — Malayalam review pending) Loan sanction letter from eligible institution",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Proof of higher-education course as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim section 80E in the ITR for years within the permitted window when the chosen regime allows Chapter VIA deductions. Use incometax.gov.in e-filing.",
+      "hi": "अनुमत वर्षों में आईटीआर में धारा 80ई का दावा करें; ई-फाइलिंग पोर्टल का उपयोग करें।",
+      "ml": "(EN — Malayalam review pending) Claim section 80E in the ITR for years within the permitted window when the chosen regime allows Chapter VIA deductions. Use incometax.gov.in e-filing."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometax.gov.in/iec/foportal/",
+    "tags": [
+      "tax",
+      "80e",
+      "education_loan",
+      "middle-class",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80g",
+    "scheme_name": {
+      "en": "Income Tax Section 80G – Donations Deduction",
+      "hi": "आयकर धारा 80जी – दान कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80G – Donations Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80G for donations to specified funds and charitable institutions at 50% or 100% (with or without qualifying limits) as notified. Claim requires proper donation receipts / Form 10BE as applicable. Regime-conditional — confirm whether the chosen tax regime allows 80G for the year.",
+      "hi": "निर्दिष्ट निधियों/संस्थाओं को दान पर धारा 80जी कटौती; रसीद/फॉर्म और कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80G for donations to specified funds and charitable institutions at 50% or 100% (with or without qualifying limits) as notified. Claim requires proper donation receipts / Form 10BE as applicable. Regime-conditional — confirm whether the chosen tax regime allows 80G for the year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory donations deduction. No income ceiling to claim 80G itself — leave max_annual_income null; do not set implies_low_income. Percentage and qualifying-limit rules depend on donee category; often unavailable under new regime — verify=true.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live 80G donee lists / percentages and new-regime interaction on incometaxindia.gov.in before advising."
+    },
+    "benefits": {
+      "en": "Deduction from taxable income for eligible donations at the notified percentage and qualifying-limit rules for the donee category.",
+      "hi": "पात्र दान पर अधिसूचित प्रतिशत/सीमा नियमों के अनुसार कटौती।",
+      "ml": "(EN — Malayalam review pending) Deduction from taxable income for eligible donations at the notified percentage and qualifying-limit rules for the donee category."
+    },
+    "required_documents": {
+      "en": [
+        "Donation receipt from eligible fund/institution",
+        "Form 10BE / donor reporting as applicable for the year",
+        "PAN and income-tax return",
+        "Payment proof (bank / digital)"
+      ],
+      "hi": [
+        "Donation receipt from eligible fund/institution",
+        "Form 10BE / donor reporting as applicable for the year",
+        "PAN and income-tax return",
+        "Payment proof (bank / digital)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Donation receipt from eligible fund/institution",
+        "(EN — Malayalam review pending) Form 10BE / donor reporting as applicable for the year",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Payment proof (bank / digital)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Donate to an 80G-eligible entity, retain receipts/10BE, and claim in ITR when the regime allows. Confirm donee eligibility on Income Tax Department resources.",
+      "hi": "80जी-पात्र संस्था को दान दें; रसीद रखें; लागू कर व्यवस्था में आईटीआर में दावा करें।",
+      "ml": "(EN — Malayalam review pending) Donate to an 80G-eligible entity, retain receipts/10BE, and claim in ITR when the regime allows. Confirm donee eligibility on Income Tax Department resources."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometaxindia.gov.in/w/section-80g",
+    "tags": [
+      "tax",
+      "80g",
+      "donation",
+      "charitable",
+      "middle-class",
+      "high-income-eligible",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "dl-mcd-property-tax-rebate",
+    "scheme_name": {
+      "en": "Delhi MCD Property Tax Early-Payment / Online Rebate",
+      "hi": "दिल्ली एमसीडी संपत्ति कर शीघ्र भुगतान / ऑनलाइन छूट",
+      "ml": "(EN — Malayalam review pending) Delhi MCD Property Tax Early-Payment / Online Rebate"
+    },
+    "description": {
+      "en": "Municipal Corporation of Delhi property-tax rebate pathways for eligible property taxpayers who pay within published early-payment windows and/or via online channels (rebate percentages and caps are set in the annual MCD property-tax / SUNIYO circulars). Universal to assessed property taxpayers who meet payment-timing rules — not a BPL scheme.",
+      "hi": "निर्धारित अवधि में/ऑनलाइन संपत्ति कर भुगतान पर एमसीडी छूट; वार्षिक परिपत्र की दरें लागू।",
+      "ml": "(EN — Malayalam review pending) Municipal Corporation of Delhi property-tax rebate pathways for eligible property taxpayers who pay within published early-payment windows and/or via online channels (rebate percentages and caps are set in the annual MCD property-tax / SUNIYO circulars). Universal to assessed property taxpayers who meet payment-timing rules — not a BPL scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delhi"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "MCD property-tax rebates: timing/online rebates per FY circular — do not hard-code percentages. Not means-tested BPL. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live FY rebate % and SUNIYO/amnesty terms on mcdonline.nic.in before citing percentages."
+    },
+    "benefits": {
+      "en": "Reduction in payable property tax via early-payment and/or online-payment rebates as notified for the financial year.",
+      "hi": "वित्तीय वर्ष के लिए अधिसूचित शीघ्र/ऑनलाइन भुगतान छूट से देय कर में कमी।",
+      "ml": "(EN — Malayalam review pending) Reduction in payable property tax via early-payment and/or online-payment rebates as notified for the financial year."
+    },
+    "required_documents": {
+      "en": [
+        "MCD property tax account / Property ID",
+        "Ownership proof as required by MCD portal",
+        "Payment via MCD online or authorised channel within rebate window",
+        "Prior-year dues clearance if demanded by circular"
+      ],
+      "hi": [
+        "MCD property tax account / Property ID",
+        "Ownership proof as required by MCD portal",
+        "Payment via MCD online or authorised channel within rebate window",
+        "Prior-year dues clearance if demanded by circular"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) MCD property tax account / Property ID",
+        "(EN — Malayalam review pending) Ownership proof as required by MCD portal",
+        "(EN — Malayalam review pending) Payment via MCD online or authorised channel within rebate window",
+        "(EN — Malayalam review pending) Prior-year dues clearance if demanded by circular"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Log in to the MCD property-tax citizen portal (mcdonline.nic.in), compute tax, and pay within the rebate window published for the FY.",
+      "hi": "एमसीडी संपत्ति कर पोर्टल पर लॉगिन करें और छूट अवधि में भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Log in to the MCD property-tax citizen portal (mcdonline.nic.in), compute tax, and pay within the rebate window published for the FY."
+    },
+    "apply_url": "https://mcdonline.nic.in/rbd/",
+    "office_type": "Municipal Corporation of Delhi (MCD)",
+    "official_source_url": "https://mcdonline.nic.in/rbd/",
+    "tags": [
+      "delhi",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "gj-education-loan-interest-subsidy",
+    "scheme_name": {
+      "en": "Gujarat Interest Subsidy on Education Loan (KCG / ISEL)",
+      "hi": "गुजरात शिक्षा ऋण ब्याज अनुदान (केसीजी)",
+      "ml": "(EN — Malayalam review pending) Gujarat Interest Subsidy on Education Loan (KCG / ISEL)"
+    },
+    "description": {
+      "en": "Gujarat state interest-subsidy scheme on eligible education loans for students whose family income is within the published ceiling (commonly cited up to ₹6 lakh/year on KCG materials — VERIFY live) and loan amount within notified limits. Apply through the Gujarat Knowledge Consortium / ISEL portal pathways.",
+      "hi": "पात्र शिक्षा ऋण पर राज्य ब्याज अनुदान; पारिवारिक आय और ऋण सीमाएँ अधिसूचनानुसार।",
+      "ml": "(EN — Malayalam review pending) Gujarat state interest-subsidy scheme on eligible education loans for students whose family income is within the published ceiling (commonly cited up to ₹6 lakh/year on KCG materials — VERIFY live) and loan amount within notified limits. Apply through the Gujarat Knowledge Consortium / ISEL portal pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 600000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Gujarat"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Gujarat education-loan interest subsidy: family income ceiling commonly published around ₹6 lakh/year on KCG pages — encoded max_annual_income 600000 WITH verify=true; confirm live notification before relying on the figure. Middle-class tagged; implies_low_income true as income-capped student aid.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Re-confirm live income/loan ceilings and portal status on kcg.gujarat.gov.in / isel.guj.nic.in — figures may change by G.R.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Interest subsidy on eligible education loans for qualifying Gujarat students within notified income and loan caps.",
+      "hi": "अधिसूचित आय/ऋण सीमाओं में पात्र शिक्षा ऋण पर ब्याज अनुदान।",
+      "ml": "(EN — Malayalam review pending) Interest subsidy on eligible education loans for qualifying Gujarat students within notified income and loan caps."
+    },
+    "required_documents": {
+      "en": [
+        "Education loan sanction documents from eligible bank",
+        "Family income certificate within notified ceiling",
+        "Domicile / Gujarat student eligibility proof",
+        "Online application on KCG / ISEL portal"
+      ],
+      "hi": [
+        "Education loan sanction documents from eligible bank",
+        "Family income certificate within notified ceiling",
+        "Domicile / Gujarat student eligibility proof",
+        "Online application on KCG / ISEL portal"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Education loan sanction documents from eligible bank",
+        "(EN — Malayalam review pending) Family income certificate within notified ceiling",
+        "(EN — Malayalam review pending) Domicile / Gujarat student eligibility proof",
+        "(EN — Malayalam review pending) Online application on KCG / ISEL portal"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Gujarat KCG Interest Subsidy / ISEL portal with loan and income documents. Confirm live ceilings on kcg.gujarat.gov.in.",
+      "hi": "केसीजी/आईएसईएल पोर्टल पर आय और ऋण दस्तावेज़ों के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via the Gujarat KCG Interest Subsidy / ISEL portal with loan and income documents. Confirm live ceilings on kcg.gujarat.gov.in."
+    },
+    "apply_url": "https://kcg.gujarat.gov.in/interest-subsidy-scheme-education-loan",
+    "office_type": "Knowledge Consortium of Gujarat (Education Department)",
+    "official_source_url": "https://kcg.gujarat.gov.in/interest-subsidy-scheme-education-loan",
+    "tags": [
+      "gujarat",
+      "education_loan",
+      "interest_subsidy",
+      "middle-class",
+      "student",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "in-mahila-samman-savings-certificate",
+    "scheme_name": {
+      "en": "Mahila Samman Savings Certificate (MSSC)",
+      "hi": "महिला सम्मान बचत प्रमाणपत्र",
+      "ml": "(EN — Malayalam review pending) Mahila Samman Savings Certificate (MSSC)"
+    },
+    "description": {
+      "en": "Time-limited Government small-savings scheme for women (and girls via guardian) notified by MoF / India Post — deposit with notified interest and tenure, within a maximum investment ceiling per holder. No personal income eligibility ceiling. Confirm whether the scheme window is still open before applying.",
+      "hi": "महिलाओं (अभिभावक के माध्यम से बालिकाओं) के लिए अधिसूचित छोटी बचत प्रमाणपत्र; आय पात्रता सीमा नहीं; योजना अवधि की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Time-limited Government small-savings scheme for women (and girls via guardian) notified by MoF / India Post — deposit with notified interest and tenure, within a maximum investment ceiling per holder. No personal income eligibility ceiling. Confirm whether the scheme window is still open before applying."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "MSSC: women/girl-child (guardian) investors; no income gate — max_annual_income null; do not set implies_low_income. Scheme was introduced as a limited-window product — VERIFY it is still open before recommending. Do not invent interest % or ceiling in structured fields.",
+      "verify": true,
+      "verify_notes": "2026-09-24: CRITICAL — confirm on India Post/NSI whether MSSC subscription window is still open; if closed, treat as historical and do not push applicants."
+    },
+    "benefits": {
+      "en": "Interest at notified MSSC rate for the scheme tenure; investment up to the notified per-holder ceiling while the scheme remains open.",
+      "hi": "अधिसूचित अवधि/दर पर ब्याज; धारक सीमा तक निवेश (योजना खुली होने पर)।",
+      "ml": "(EN — Malayalam review pending) Interest at notified MSSC rate for the scheme tenure; investment up to the notified per-holder ceiling while the scheme remains open."
+    },
+    "required_documents": {
+      "en": [
+        "Woman account holder KYC (or girl child + guardian KYC)",
+        "PAN as required",
+        "MSSC application at India Post while scheme is open",
+        "Deposit within notified ceiling"
+      ],
+      "hi": [
+        "Woman account holder KYC (or girl child + guardian KYC)",
+        "PAN as required",
+        "MSSC application at India Post while scheme is open",
+        "Deposit within notified ceiling"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Woman account holder KYC (or girl child + guardian KYC)",
+        "(EN — Malayalam review pending) PAN as required",
+        "(EN — Malayalam review pending) MSSC application at India Post while scheme is open",
+        "(EN — Malayalam review pending) Deposit within notified ceiling"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at India Post only while MoF/India Post show the scheme as open; confirm interest, tenure, and ceiling on current NSI/India Post notices.",
+      "hi": "योजना खुली होने पर ही डाकघर में आवेदन करें; ब्याज/अवधि/सीमा की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Apply at India Post only while MoF/India Post show the scheme as open; confirm interest, tenure, and ceiling on current NSI/India Post notices."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "mssc",
+      "women",
+      "middle-class",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
   }
 ]

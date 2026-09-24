@@ -1,0 +1,482 @@
+[
+  {
+    "id": "us-mn-working-family-credit",
+    "scheme_name": {
+      "en": "Minnesota Working Family Credit",
+      "ml": "Minnesota Working Family Credit",
+      "hi": "MN Working Family Credit – मिनेसोटा"
+    },
+    "description": {
+      "en": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue.",
+      "ml": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue.",
+      "hi": "Refundable Minnesota income-tax credit for working individuals similar to the federal EITC. Claimed with Schedule M1CWFC on the Minnesota return. Credit computation and phaseouts are published annually by the Department of Revenue."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN Working Family Credit (Minn. Stat. §290.0671): working individuals with earned income below published phaseout; generally aligned with federal EITC eligibility with state-specific exceptions. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Credit %, max amount, and phaseout thresholds change by tax year — verify=true via revenue.state.mn.us Working Family Credit / Schedule M1CWFC.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually).",
+      "ml": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually).",
+      "hi": "Refundable state working-family credit combined with Minnesota child credits on Schedule M1CWFC (maximum and phaseouts published annually)."
+    },
+    "required_documents": {
+      "en": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ],
+      "ml": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ],
+      "hi": [
+        "Minnesota individual income tax return",
+        "Schedule M1CWFC",
+        "Earned-income / AGI documentation",
+        "SSN or ITIN documentation as required by instructions"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit.",
+      "ml": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit.",
+      "hi": "File a Minnesota return claiming the Working Family Credit on Schedule M1CWFC. See revenue.state.mn.us Working Family Credit."
+    },
+    "apply_url": "https://www.revenue.state.mn.us/working-family-credit",
+    "official_source_url": "https://www.revenue.state.mn.us/working-family-credit",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Department of Revenue",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "working_family_credit",
+      "eitc",
+      "tax_credit",
+      "income_support",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-mn-homestead-credit-refund",
+    "scheme_name": {
+      "en": "Minnesota Homestead Credit Refund (Form M1PR)",
+      "ml": "Minnesota Homestead Credit Refund (Form M1PR)",
+      "hi": "MN Homestead Credit Refund – मिनेसोटा"
+    },
+    "description": {
+      "en": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit.",
+      "ml": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit.",
+      "hi": "Minnesota property-tax refund for qualifying homeowners (regular refund based on household income and property taxes; special refund based on large year-over-year tax increases). File Form M1PR. Household income for the regular path is compared to an annually published limit."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN Homestead Credit Refund: own and occupy homestead; regular path uses published household-income limit (verify annually); special path uses % increase rules. Middle-income homeowners may qualify depending on taxes vs income. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Income limit, refund tables, and deadlines change by refund year — verify=true via revenue.state.mn.us Homestead Credit Refund / Form M1PR.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths).",
+      "ml": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths).",
+      "hi": "Refund reducing net property-tax burden for qualifying homestead homeowners (regular and/or special refund paths)."
+    },
+    "required_documents": {
+      "en": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ],
+      "ml": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ],
+      "hi": [
+        "Form M1PR Homestead Credit Refund",
+        "County property tax statement",
+        "Household income documentation",
+        "Homestead classification / ownership and occupancy proof"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund.",
+      "ml": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund.",
+      "hi": "File Form M1PR online, via software, or by paper with Minnesota Revenue. See revenue.state.mn.us Homeowner's Homestead Credit Refund."
+    },
+    "apply_url": "https://www.revenue.state.mn.us/homeowners-homestead-credit-refund",
+    "official_source_url": "https://www.revenue.state.mn.us/homeowners-homestead-credit-refund",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Department of Revenue",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "homestead",
+      "property_tax",
+      "refund",
+      "circuit_breaker",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-mn-state-grant",
+    "scheme_name": {
+      "en": "Minnesota State Grant – Office of Higher Education",
+      "ml": "Minnesota State Grant – Office of Higher Education",
+      "hi": "Minnesota State Grant – मिनेसोटा"
+    },
+    "description": {
+      "en": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible).",
+      "ml": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible).",
+      "hi": "Need-based Minnesota State Grant helping low- and moderate-income Minnesota residents pay educational expenses at eligible Minnesota colleges and universities. Students apply via FAFSA (or the Minnesota Alternative State Financial Aid Application when FAFSA-ineligible)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Minnesota"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MN State Grant: Minnesota residents at eligible MN institutions; financial need via FAFSA/alternative app; award rules set by OHE. No single permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Deadlines, eligible schools, and award formulas change by academic year — verify=true via ohe.mn.gov Minnesota State Grant.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need).",
+      "ml": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need).",
+      "hi": "Need-based grant toward educational expenses at eligible Minnesota institutions (amount varies by school and need)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ],
+      "ml": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ],
+      "hi": [
+        "FAFSA or Minnesota Alternative State Financial Aid Application",
+        "Minnesota residency documentation as required",
+        "Enrollment at an eligible Minnesota institution",
+        "Financial aid office packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant.",
+      "ml": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant.",
+      "hi": "Submit FAFSA (studentaid.gov) or the MN Alternative application; meet term deadlines. Confirm with campus financial aid. See ohe.mn.gov Minnesota State Grant."
+    },
+    "apply_url": "https://ohe.mn.gov/grant-scholarship/minnesota-state-grant",
+    "official_source_url": "https://ohe.mn.gov/grant-scholarship/minnesota-state-grant",
+    "last_verified": "2026-09-24",
+    "office_type": "Minnesota Office of Higher Education",
+    "tags": [
+      "united_states",
+      "minnesota",
+      "state_grant",
+      "college",
+      "education",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "us-la-eitc",
+    "scheme_name": {
+      "en": "Louisiana Earned Income Tax Credit",
+      "ml": "Louisiana Earned Income Tax Credit",
+      "hi": "Louisiana EITC – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return.",
+      "ml": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return.",
+      "hi": "Louisiana refundable earned income tax credit equal to a percentage of the federal EITC for which the individual is eligible (5% of federal EITC for tax years beginning on or after January 1, 2019 through December 31, 2030 under R.S. 47:297.8). Claimed on the Louisiana individual income tax return."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA EITC (R.S. 47:297.8): individuals eligible for federal EITC; state credit = statutory % of federal credit (5% for TY 2019–2030). Refundable. No separate permanent LA dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Confirm live LDR form/instructions and any legislative change after 2030 sunset path — verify=true via legis.la.gov + revenue.louisiana.gov.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute).",
+      "ml": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute).",
+      "hi": "Refundable state EITC equal to the statutory percentage of the federal EITC for the tax year (currently 5% through TY 2030 per statute)."
+    },
+    "required_documents": {
+      "en": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ],
+      "ml": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ],
+      "hi": [
+        "Louisiana individual income tax return",
+        "Federal EITC computation / Form 1040 Schedule EIC as applicable",
+        "SSN documentation as required",
+        "Louisiana residency / filing status documentation"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov.",
+      "ml": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov.",
+      "hi": "File a Louisiana return claiming the state EITC per LDR instructions. Statute: legis.la.gov R.S. 47:297.8; filing via revenue.louisiana.gov."
+    },
+    "apply_url": "https://www.revenue.louisiana.gov/",
+    "official_source_url": "https://www.legis.la.gov/legis/Law.aspx?d=453085",
+    "last_verified": "2026-09-24",
+    "office_type": "Louisiana Department of Revenue / Legislature (R.S. 47:297.8)",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "eitc",
+      "tax_credit",
+      "income_support"
+    ]
+  },
+  {
+    "id": "us-la-tops",
+    "scheme_name": {
+      "en": "TOPS – Taylor Opportunity Program for Students (Louisiana)",
+      "ml": "TOPS – Taylor Opportunity Program for Students (Louisiana)",
+      "hi": "TOPS Scholarship – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA.",
+      "ml": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA.",
+      "hi": "Louisiana’s primary state merit-based scholarship for residents who meet TOPS core curriculum, GPA, and ACT/test requirements and enroll at approved Louisiana public or participating private colleges. Award levels include Opportunity, Performance, Honors, Excellence, and TOPS Tech. Administered by LOSFA."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "TOPS: LA residency, citizenship/permanent-resident rules, TOPS/TOPS Tech core, minimum Core GPA and ACT (or concordant) by award level; full-time freshman timing rules. Merit-based — not a poverty-only program. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award amounts, core curricula, and test minima change by graduating cohort — verify=true via mylosfa.la.gov TOPS.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools.",
+      "ml": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools.",
+      "hi": "Merit scholarship toward tuition (and related award amounts by level/institution) at approved Louisiana postsecondary schools."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ],
+      "ml": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ],
+      "hi": [
+        "FAFSA or TOPS Online Application as directed by LOSFA",
+        "Louisiana high school transcript / TOPS core completion",
+        "ACT/SAT/CLT scores meeting award-level minimums",
+        "LOSFA Student Hub account to track status"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages.",
+      "ml": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages.",
+      "hi": "Complete FAFSA or TOPS Online Application; create a LOSFA Student Hub account to track eligibility. See mylosfa.la.gov TOPS pages."
+    },
+    "apply_url": "https://mylosfa.la.gov/tops/applying-for-tops/",
+    "official_source_url": "https://mylosfa.la.gov/tops/",
+    "last_verified": "2026-09-24",
+    "office_type": "Louisiana Office of Student Financial Assistance (LOSFA)",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "tops",
+      "scholarship",
+      "merit",
+      "college",
+      "education",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "us-la-homestead-exemption",
+    "scheme_name": {
+      "en": "Louisiana Homestead Exemption (Ad Valorem)",
+      "ml": "Louisiana Homestead Exemption (Ad Valorem)",
+      "hi": "Louisiana Homestead Exemption – लुइसियाना"
+    },
+    "description": {
+      "en": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor.",
+      "ml": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor.",
+      "hi": "Louisiana constitutional homestead exemption excludes a portion of assessed valuation of a bona fide homestead (generally $7,500 of assessed valuation under Const. Art. VII §20) from state, parish, and special ad valorem taxes (municipal taxes generally not covered, with stated exceptions). Apply through the parish assessor."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Louisiana"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "LA homestead exemption: bona fide homestead owned and occupied; assessed-value exclusion per Const. Art. VII §20; municipal-tax carve-outs apply. Not income-tested at the constitutional baseline — leave implies_low_income false. Parish application details vary.",
+      "verify": true,
+      "verify_notes": "Parish assessor procedures and any local add-ons (e.g., disabled-veteran extras) vary — verify=true via parish assessor + legis.la.gov.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value.",
+      "ml": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value.",
+      "hi": "Reduction in ad valorem property tax on a qualifying primary homestead via constitutional exemption of assessed value."
+    },
+    "required_documents": {
+      "en": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ],
+      "ml": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ],
+      "hi": [
+        "Parish assessor homestead exemption application",
+        "Proof of ownership and occupancy as primary residence",
+        "Photo ID / residency documentation as required by parish",
+        "Any additional parish-specific forms"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20.",
+      "ml": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20.",
+      "hi": "Apply with your parish assessor (ownership/occupancy deadlines are parish-administered). Constitutional text: legis.la.gov Art. VII §20."
+    },
+    "apply_url": "https://www.legis.la.gov/legis/Law.aspx?d=206550",
+    "official_source_url": "https://www.legis.la.gov/legis/Law.aspx?d=206550",
+    "last_verified": "2026-09-24",
+    "office_type": "Parish Assessor / Louisiana Constitution Art. VII §20",
+    "tags": [
+      "united_states",
+      "louisiana",
+      "homestead",
+      "property_tax",
+      "exemption",
+      "middle-class",
+      "universal"
+    ]
+  }
+]

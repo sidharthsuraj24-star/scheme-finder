@@ -1,0 +1,802 @@
+[
+  {
+    "id": "nc-next-scholarship",
+    "scheme_name": {
+      "en": "Next NC Scholarship – North Carolina",
+      "ml": "Next NC Scholarship – North Carolina",
+      "hi": "Next NC Scholarship – नॉर्थ कैरोलिना"
+    },
+    "description": {
+      "en": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways.",
+      "ml": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways.",
+      "hi": "North Carolina need-based college aid that combines prior state grant programs into a single Next NC Scholarship award for eligible residents. Students are considered after filing the FAFSA; CFNC publishes eligibility screens and award floors for community college and UNC System pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "North Carolina"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Next NC: NC residents at participating public institutions; need screens (AGI/SAI) published by CFNC for the academic year; FAFSA required. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "AGI/SAI screens, award floors, and deadlines change by academic year — verify=true via cfnc.org Next NC (official apply host; not a .gov domain).",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners).",
+      "ml": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners).",
+      "hi": "Need-based grant aid toward eligible North Carolina public college costs (award floors and packaging rules published by CFNC/state aid partners)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ],
+      "ml": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ],
+      "hi": [
+        "FAFSA",
+        "North Carolina residency documentation as required",
+        "Enrollment at a participating NC community college or UNC System institution",
+        "CFNC / campus financial aid follow-up"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host).",
+      "ml": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host).",
+      "hi": "File the FAFSA early; CFNC and campus aid offices package Next NC for eligible students. See cfnc.org Next NC Scholarship (official NC aid apply host)."
+    },
+    "apply_url": "https://www.cfnc.org/pay-for-college/next-nc-scholarship/",
+    "official_source_url": "https://www.cfnc.org/pay-for-college/next-nc-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "College Foundation of North Carolina (CFNC) / NC state student aid",
+    "tags": [
+      "united_states",
+      "north_carolina",
+      "next_nc",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "va-commonwealth-award",
+    "scheme_name": {
+      "en": "Virginia Commonwealth Award – SCHEV",
+      "ml": "Virginia Commonwealth Award – SCHEV",
+      "hi": "Virginia Commonwealth Award – वर्जीनिया"
+    },
+    "description": {
+      "en": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates.",
+      "ml": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates.",
+      "hi": "Need-based Virginia Student Financial Assistance Program grant for eligible Virginia undergraduate residents at public institutions (and graduate awards/assistantships as funded). Funds are appropriated to institutions; students are considered after FAFSA or VASA. Awards may not exceed tuition and required fees for undergraduates."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Virginia"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "VA Commonwealth Award (VSFAP): Virginia student status, financial need, FAFSA/VASA by campus deadline; undergraduate awards proportional to need and capped at tuition/fees. No single statewide dollar ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Institutional deadlines and award amounts vary — verify=true via schev.edu Commonwealth Award + campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding).",
+      "ml": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding).",
+      "hi": "Need-based grant toward tuition/required fees at Virginia public colleges (amount varies by institution and funding)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA or Virginia Alternative State Aid (VASA) application",
+        "Virginia domicile / tuition-equity documentation as required",
+        "Enrollment in an approved program at a Virginia public institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award.",
+      "ml": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award.",
+      "hi": "Complete FAFSA or VASA by the institution’s deadline; contact the campus financial aid office. See schev.edu Virginia Commonwealth Award."
+    },
+    "apply_url": "https://www.schev.edu/financial-aid/financial-aid/federal-state-financial-aid/virginia-commonwealth-award",
+    "official_source_url": "https://www.schev.edu/financial-aid/financial-aid/federal-state-financial-aid/virginia-commonwealth-award",
+    "last_verified": "2026-09-24",
+    "office_type": "State Council of Higher Education for Virginia (SCHEV)",
+    "tags": [
+      "united_states",
+      "virginia",
+      "commonwealth_award",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "az-leap",
+    "scheme_name": {
+      "en": "AzLEAP – Arizona Leveraging Educational Assistance Partnership",
+      "ml": "AzLEAP – Arizona Leveraging Educational Assistance Partnership",
+      "hi": "AzLEAP – एरिज़ोना"
+    },
+    "description": {
+      "en": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway).",
+      "ml": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway).",
+      "hi": "Arizona need-based grant program (A.R.S. §15-1703) administered by the Arizona Board of Regents providing grants to Arizona-resident undergraduates with substantial financial need enrolled at least half-time at participating accredited Arizona postsecondary institutions. Institutions match state funds and select recipients (often via FAFSA/Pell pathway)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arizona"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "AzLEAP (A.R.S. §15-1703): AZ resident, substantial financial need per ABOR criteria, ≥ half-time at accredited AZ postsecondary school. Award maxima published by ABOR/institutions. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Participating schools and award caps change by academic year — verify=true via azleg.gov §15-1703 and campus aid/ABOR materials.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges.",
+      "ml": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges.",
+      "hi": "Need-based grant (program materials cite maximums around $2,500/year with typical awards lower) at participating Arizona colleges."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ],
+      "ml": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ],
+      "hi": [
+        "FAFSA",
+        "Arizona residency documentation",
+        "Enrollment at least half-time at a participating Arizona institution",
+        "Campus financial aid packaging / institutional match process"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703.",
+      "ml": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703.",
+      "hi": "File FAFSA and contact the financial aid office at ASU, NAU, UArizona, or another participating institution. Statute: azleg.gov A.R.S. §15-1703."
+    },
+    "apply_url": "https://www.azleg.gov/ars/15/01703.htm",
+    "official_source_url": "https://www.azleg.gov/ars/15/01703.htm",
+    "last_verified": "2026-09-24",
+    "office_type": "Arizona Board of Regents / Arizona Legislature (A.R.S. §15-1703)",
+    "tags": [
+      "united_states",
+      "arizona",
+      "azleap",
+      "college",
+      "grant",
+      "need_based"
+    ]
+  },
+  {
+    "id": "mo-access-missouri",
+    "scheme_name": {
+      "en": "Access Missouri Financial Assistance Program",
+      "ml": "Access Missouri Financial Assistance Program",
+      "hi": "Access Missouri – मिसौरी"
+    },
+    "description": {
+      "en": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector.",
+      "ml": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector.",
+      "hi": "Missouri need-based undergraduate grant administered by the Department of Higher Education & Workforce Development. Eligible Missouri residents file the FAFSA by published priority/final deadlines; award amounts depend on Expected Family Contribution / SAI band and school sector."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Missouri"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Access Missouri: MO residents at eligible schools; need-based EFC/SAI bands and award amounts published annually; FAFSA timing critical. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Deadlines and award chart change by academic year — verify=true via dhewd.mo.gov Access Missouri.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD).",
+      "ml": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD).",
+      "hi": "Need-based grant toward eligible Missouri college costs (award chart published annually by DHEWD)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA filed by Access Missouri deadline",
+        "Missouri residency documentation",
+        "Enrollment at an eligible Missouri institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri.",
+      "ml": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri.",
+      "hi": "Submit FAFSA by the Access Missouri deadline (confirm live priority/final dates). See dhewd.mo.gov Access Missouri."
+    },
+    "apply_url": "https://dhewd.mo.gov/ppc/grants-scholarships/access-mo",
+    "official_source_url": "https://dhewd.mo.gov/ppc/grants-scholarships/access-mo",
+    "last_verified": "2026-09-24",
+    "office_type": "Missouri Department of Higher Education & Workforce Development",
+    "tags": [
+      "united_states",
+      "missouri",
+      "access_missouri",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "wi-wisconsin-grant",
+    "scheme_name": {
+      "en": "Wisconsin Grant (HEAB)",
+      "ml": "Wisconsin Grant (HEAB)",
+      "hi": "Wisconsin Grant – विस्कॉन्सिन"
+    },
+    "description": {
+      "en": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment.",
+      "ml": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment.",
+      "hi": "Wisconsin’s primary need-based undergraduate grant for residents enrolled in degree/certificate programs at University of Wisconsin, Wisconsin Technical College, Tribal, or eligible private nonprofit institutions. Administered by the Higher Educational Aids Board; FAFSA determines need; awards prorated by enrollment."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Wisconsin"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Wisconsin Grant: WI resident undergraduates at eligible nonprofit/tribal/UW/tech colleges; need via FAFSA; up to ten semesters; Child Support Lien Docket restrictions apply. No permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Award min/max and sector rules set annually — verify=true via heab.state.wi.us programs page.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates.",
+      "ml": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates.",
+      "hi": "Need-based grant aid (min/max set annually by HEAB) for eligible Wisconsin undergraduates."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA",
+        "Wisconsin residency documentation",
+        "Enrollment in an eligible undergraduate program",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs.",
+      "ml": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs.",
+      "hi": "File FAFSA; campus aid offices package Wisconsin Grant for eligible students. See heab.state.wi.us Financial Aid Programs."
+    },
+    "apply_url": "https://heab.state.wi.us/programs.html",
+    "official_source_url": "https://heab.state.wi.us/programs.html",
+    "last_verified": "2026-09-24",
+    "office_type": "Wisconsin Higher Educational Aids Board (HEAB)",
+    "tags": [
+      "united_states",
+      "wisconsin",
+      "wisconsin_grant",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "ky-kees",
+    "scheme_name": {
+      "en": "KEES – Kentucky Educational Excellence Scholarship",
+      "ml": "KEES – Kentucky Educational Excellence Scholarship",
+      "hi": "KEES – केंटकी"
+    },
+    "description": {
+      "en": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education.",
+      "ml": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education.",
+      "hi": "Merit scholarship funded by Kentucky Lottery proceeds for Kentucky high school (and eligible home school/GED) students who earn base awards from GPA and supplemental awards from ACT scores. Administered by KHEAA; described by the Kentucky Department of Education."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Kentucky"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "KEES: KY students meeting GPA (≥2.5 for base path per KDE summary) and optional ACT supplemental awards; home-school/GED alternate paths exist. Merit-based — not poverty-only. No income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Base/supplemental award tables and eligible schools — verify=true via education.ky.gov KEES + KHEAA.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs.",
+      "ml": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs.",
+      "hi": "Merit scholarship amounts based on high-school GPA base awards and ACT supplemental awards toward eligible Kentucky postsecondary costs."
+    },
+    "required_documents": {
+      "en": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ],
+      "ml": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ],
+      "hi": [
+        "Kentucky high school transcript / home-school or GED pathway documentation",
+        "ACT scores as applicable for supplemental awards",
+        "Enrollment at an eligible Kentucky postsecondary institution",
+        "KHEAA KEES tracking as directed"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES.",
+      "ml": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES.",
+      "hi": "Earn KEES base/supplemental awards in high school; KHEAA administers payment after college enrollment. See education.ky.gov KEES."
+    },
+    "apply_url": "https://www.education.ky.gov/districts/fin/Pages/Kentucky%20Educational%20Excellence%20Scholarship.aspx",
+    "official_source_url": "https://www.education.ky.gov/districts/fin/Pages/Kentucky%20Educational%20Excellence%20Scholarship.aspx",
+    "last_verified": "2026-09-24",
+    "office_type": "Kentucky Department of Education / KHEAA",
+    "tags": [
+      "united_states",
+      "kentucky",
+      "kees",
+      "scholarship",
+      "merit",
+      "college",
+      "education",
+      "middle-class",
+      "universal"
+    ]
+  },
+  {
+    "id": "ut-promise-grant",
+    "scheme_name": {
+      "en": "Utah Promise Grant",
+      "ml": "Utah Promise Grant",
+      "hi": "Utah Promise Grant – यूटा"
+    },
+    "description": {
+      "en": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy.",
+      "ml": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy.",
+      "hi": "Statewide need-based Utah Promise Grant administered through Utah System of Higher Education institutions to help eligible Utah residents cover remaining educational costs after other aid. Students generally file the FAFSA and are packaged by the campus financial aid office under USHE policy."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Utah"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Utah Promise Grant: Utah residents at participating USHE institutions; need-based packaging after other aid; institutional administration under USHE policy. No permanent statewide ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Campus rules and funding levels vary — verify=true via ushe.edu Utah Promise Grant + campus aid office.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need).",
+      "ml": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need).",
+      "hi": "Need-based grant toward remaining eligible educational costs at participating Utah institutions (amounts vary by campus funding and need)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ],
+      "ml": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ],
+      "hi": [
+        "FAFSA",
+        "Utah residency documentation",
+        "Enrollment at a participating Utah institution",
+        "Campus financial aid packaging"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page.",
+      "ml": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page.",
+      "hi": "File FAFSA and work with your Utah campus financial aid office. See ushe.edu Utah Promise Grant policy page."
+    },
+    "apply_url": "https://ushe.edu/utah-promise-grant/",
+    "official_source_url": "https://ushe.edu/utah-promise-grant/",
+    "last_verified": "2026-09-24",
+    "office_type": "Utah System of Higher Education (USHE)",
+    "tags": [
+      "united_states",
+      "utah",
+      "promise_grant",
+      "college",
+      "grant",
+      "need_based",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "nv-silver-state-opportunity-grant",
+    "scheme_name": {
+      "en": "Silver State Opportunity Grant (SSOG) – Nevada",
+      "ml": "Silver State Opportunity Grant (SSOG) – Nevada",
+      "hi": "SSOG – नेवादा"
+    },
+    "description": {
+      "en": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima.",
+      "ml": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima.",
+      "hi": "Nevada’s state-supported need-based grant (created by 2015 SB227) for college-ready, low-income Nevada residents enrolled in at least 12 program-applicable credits at NSHE community colleges or Nevada State University. FAFSA (or alternate) with SAI at or below the published SSOG threshold; shared-responsibility award calculation up to published annual maxima."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Nevada"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "SSOG: NSHE resident, ≥12 credits, college-ready, SAI ≤ published SSOG cap (materials cite ≤8500), no prior bachelor’s. Award via shared-responsibility model; funds limited. No permanent ceiling encoded beyond verify notes.",
+      "verify": true,
+      "verify_notes": "SAI cap, COA averages, and max award change by year — verify=true via nshe.nevada.edu SSOG.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12).",
+      "ml": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12).",
+      "hi": "Need-based grant toward cost of attendance after student/family/federal shares (program materials cite annual maxima such as $5,500 at 15 credits / prorated at 12)."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ],
+      "ml": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ],
+      "hi": [
+        "FAFSA (or institution alternate application)",
+        "Nevada residency for tuition purposes",
+        "Enrollment ≥12 program credits at an eligible NSHE college",
+        "College-ready math/English placement or coursework evidence"
+      ]
+    },
+    "how_to_apply": {
+      "en": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant.",
+      "ml": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant.",
+      "hi": "File FAFSA early and contact financial aid at CSN, GBC, NSU, TMCC, or WNC. See nshe.nevada.edu Silver State Opportunity Grant."
+    },
+    "apply_url": "https://nshe.nevada.edu/system-administration/departments/asa/students/financial-aid/silver-state-opportunity-grant/",
+    "official_source_url": "https://nshe.nevada.edu/system-administration/departments/asa/students/financial-aid/silver-state-opportunity-grant/",
+    "last_verified": "2026-09-24",
+    "office_type": "Nevada System of Higher Education (NSHE)",
+    "tags": [
+      "united_states",
+      "nevada",
+      "ssog",
+      "college",
+      "grant",
+      "need_based"
+    ]
+  },
+  {
+    "id": "us-ar-academic-challenge",
+    "scheme_name": {
+      "en": "Arkansas Academic Challenge Scholarship",
+      "ml": "Arkansas Academic Challenge Scholarship",
+      "hi": "Arkansas Academic Challenge – आर्केंसास"
+    },
+    "description": {
+      "en": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS).",
+      "ml": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS).",
+      "hi": "Arkansas lottery-funded scholarship for eligible Arkansas students pursuing higher education at approved institutions. Application is managed through the Arkansas Department of Higher Education scholarship systems (portal.arkansas.gov / SAMS)."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Arkansas"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "Academic Challenge: AR students meeting ADHE academic/enrollment rules at approved schools; lottery-funded. Confirm current GPA/ACT and deadline tables on ADHE — no permanent ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Eligibility table and award amounts change by cohort — verify=true via portal.arkansas.gov / ADHE SAMS.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year).",
+      "ml": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year).",
+      "hi": "Scholarship payments toward eligible Arkansas postsecondary costs (award amounts published by ADHE for the year)."
+    },
+    "required_documents": {
+      "en": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ],
+      "ml": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ],
+      "hi": [
+        "ADHE scholarship application via official portal",
+        "Arkansas residency / high school documentation",
+        "FAFSA if required for the award year",
+        "Enrollment at an approved Arkansas institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge.",
+      "ml": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge.",
+      "hi": "Apply via the Arkansas.gov Academic Challenge service / ADHE SAMS and complete any FAFSA requirement. See portal.arkansas.gov Academic Challenge."
+    },
+    "apply_url": "https://portal.arkansas.gov/service/ar-academic-challenge-scholarship/",
+    "official_source_url": "https://portal.arkansas.gov/service/ar-academic-challenge-scholarship/",
+    "last_verified": "2026-09-24",
+    "office_type": "Arkansas Department of Higher Education (ADHE)",
+    "tags": [
+      "united_states",
+      "arkansas",
+      "academic_challenge",
+      "scholarship",
+      "college",
+      "education",
+      "middle-class"
+    ]
+  },
+  {
+    "id": "ms-mtag",
+    "scheme_name": {
+      "en": "Mississippi Tuition Assistance Grant (MTAG)",
+      "ml": "Mississippi Tuition Assistance Grant (MTAG)",
+      "hi": "MTAG – मिसिसिपी"
+    },
+    "description": {
+      "en": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid.",
+      "ml": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid.",
+      "hi": "Mississippi undergraduate grant providing published annual amounts for eligible full-time students (state materials cite $500/year for freshmen/sophomores and $1,000/year for juniors/seniors). Administered with other state grants (HELP, MESG) via the Mississippi Office of Student Financial Aid."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Mississippi"
+      ],
+      "countries": [
+        "United States"
+      ],
+      "nationwide": false,
+      "notes": "MTAG: full-time undergraduates meeting MS state-aid rules; award amounts published by OSA ($500/$1,000 by level per ms.gov summary). Broader than HELP’s full-tuition need path. No permanent income ceiling encoded.",
+      "verify": true,
+      "verify_notes": "Exact GPA/ACT/residency screens and deadlines — verify=true via ms.gov OSA / program pages.",
+      "implies_low_income": false
+    },
+    "benefits": {
+      "en": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students.",
+      "ml": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students.",
+      "hi": "Annual undergraduate grant at the published MTAG amount by class level for eligible full-time Mississippi students."
+    },
+    "required_documents": {
+      "en": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ],
+      "ml": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ],
+      "hi": [
+        "FAFSA",
+        "Mississippi Office of Student Financial Aid application as required",
+        "Mississippi residency documentation",
+        "Full-time enrollment at an eligible institution"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid.",
+      "ml": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid.",
+      "hi": "Complete FAFSA and the state aid application via the Mississippi Office of Student Financial Aid. See ms.gov Office of Student Financial Aid."
+    },
+    "apply_url": "https://www.ms.gov/agencies/office-student-financial-aid",
+    "official_source_url": "https://www.ms.gov/agencies/office-student-financial-aid",
+    "last_verified": "2026-09-24",
+    "office_type": "Mississippi Office of Student Financial Aid",
+    "tags": [
+      "united_states",
+      "mississippi",
+      "mtag",
+      "college",
+      "grant",
+      "education",
+      "middle-class"
+    ]
+  }
+]

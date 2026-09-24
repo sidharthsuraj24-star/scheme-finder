@@ -1,0 +1,644 @@
+[
+  {
+    "id": "in-kvp",
+    "scheme_name": {
+      "en": "Kisan Vikas Patra (KVP)",
+      "hi": "किसान विकास पत्र (केवीपी)",
+      "ml": "(EN — Malayalam review pending) Kisan Vikas Patra (KVP)"
+    },
+    "description": {
+      "en": "Government small-savings certificate available through India Post / authorised banks under the Kisan Vikas Patra scheme. Investment doubles at maturity per notified tenure/interest; no personal income ceiling to invest. Interest is taxable as applicable — confirm live IT treatment.",
+      "hi": "डाकघर/अधिकृत बैंकों में किसान विकास पत्र; परिपक्वता पर अधिसूचित अवधि के अनुसार राशि दोगुनी; व्यक्तिगत आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Government small-savings certificate available through India Post / authorised banks under the Kisan Vikas Patra scheme. Investment doubles at maturity per notified tenure/interest; no personal income ceiling to invest. Interest is taxable as applicable — confirm live IT treatment."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "KVP: resident investors via Post Office/authorised banks under KVP scheme rules; no personal max_annual_income — leave null; do not set implies_low_income. Interest taxable — confirm IT. Maturity doubling tenure follows MoF notification (verify live).",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF interest/maturity notification and NSI KVP page before advising amounts."
+    },
+    "benefits": {
+      "en": "Lump-sum investment that doubles at maturity per MoF/NSI notified rate and tenure; transferable as per scheme rules; no income gate — usable by middle-class and higher-income savers within scheme limits.",
+      "hi": "परिपक्वता पर अधिसूचित दर/अवधि के अनुसार राशि दोगुनी; आय सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) Lump-sum investment that doubles at maturity per MoF/NSI notified rate and tenure; transferable as per scheme rules; no income gate — usable by middle-class and higher-income savers within scheme limits."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof",
+        "PAN as required by accounts office",
+        "Application form for KVP purchase at Post Office / authorised bank",
+        "Payment for certificate purchase"
+      ],
+      "hi": [
+        "KYC identity and address proof",
+        "PAN as required by accounts office",
+        "Application form for KVP purchase at Post Office / authorised bank",
+        "Payment for certificate purchase"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN as required by accounts office",
+        "(EN — Malayalam review pending) Application form for KVP purchase at Post Office / authorised bank",
+        "(EN — Malayalam review pending) Payment for certificate purchase"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Buy KVP at an India Post counter or authorised bank; confirm current maturity tenure and interest on NSI / India Post notices.",
+      "hi": "डाकघर या अधिकृत बैंक से केवीपी खरीदें; वर्तमान ब्याज/अवधि एनएसआई/डाकघर से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Buy KVP at an India Post counter or authorised bank; confirm current maturity tenure and interest on NSI / India Post notices."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "kvp",
+      "post_office",
+      "middle-class",
+      "high-income-eligible",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-post-office-mis",
+    "scheme_name": {
+      "en": "Post Office Monthly Income Scheme (MIS / POMIS)",
+      "hi": "डाकघर मासिक आय योजना (एमआईएस)",
+      "ml": "(EN — Malayalam review pending) Post Office Monthly Income Scheme (MIS / POMIS)"
+    },
+    "description": {
+      "en": "National Savings (Monthly Income Account) Scheme available at India Post: deposit earns notified interest paid monthly; account tenure commonly five years under the 2019 scheme rules. Deposit ceilings apply per single/joint account (confirm live NSI/India Post limits). No personal income eligibility ceiling.",
+      "hi": "डाकघर मासिक आय खाता: अधिसूचित मासिक ब्याज; सामान्यतः पाँच वर्ष; खाता सीमाएँ लागू; व्यक्तिगत आय पात्रता सीमा नहीं।",
+      "ml": "(EN — Malayalam review pending) National Savings (Monthly Income Account) Scheme available at India Post: deposit earns notified interest paid monthly; account tenure commonly five years under the 2019 scheme rules. Deposit ceilings apply per single/joint account (confirm live NSI/India Post limits). No personal income eligibility ceiling."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "POMIS / National Savings Monthly Income Account: deposit ceilings (commonly cited in scheme materials — VERIFY live) and 5-year tenure; no personal income gate — max_annual_income null; do not set implies_low_income. Interest taxable.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live MoF interest notification and exact deposit ceilings on NSI Monthly Income Account page before citing rupee limits in advice."
+    },
+    "benefits": {
+      "en": "Monthly interest payout at MoF-notified rate on deposits within scheme ceilings; suitable for middle-class savers seeking regular income; interest taxable as applicable.",
+      "hi": "अधिसूचित दर पर मासिक ब्याज; योजना की जमा सीमाओं के भीतर; आयकर नियम लागू।",
+      "ml": "(EN — Malayalam review pending) Monthly interest payout at MoF-notified rate on deposits within scheme ceilings; suitable for middle-class savers seeking regular income; interest taxable as applicable."
+    },
+    "required_documents": {
+      "en": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Account-opening form for Monthly Income Account",
+        "Initial deposit within scheme limits"
+      ],
+      "hi": [
+        "KYC identity and address proof",
+        "PAN as required",
+        "Account-opening form for Monthly Income Account",
+        "Initial deposit within scheme limits"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) KYC identity and address proof",
+        "(EN — Malayalam review pending) PAN as required",
+        "(EN — Malayalam review pending) Account-opening form for Monthly Income Account",
+        "(EN — Malayalam review pending) Initial deposit within scheme limits"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Open a Monthly Income Account at an India Post savings counter; confirm current interest rate and single/joint deposit ceilings on NSI/India Post.",
+      "hi": "डाकघर में मासिक आय खाता खोलें; वर्तमान ब्याज और जमा सीमाएँ एनएसआई/डाकघर से जाँचें।",
+      "ml": "(EN — Malayalam review pending) Open a Monthly Income Account at an India Post savings counter; confirm current interest rate and single/joint deposit ceilings on NSI/India Post."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "mis",
+      "pomis",
+      "post_office",
+      "middle-class",
+      "senior_friendly",
+      "universal",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80d",
+    "scheme_name": {
+      "en": "Income Tax Section 80D – Health Insurance Deduction",
+      "hi": "आयकर धारा 80डी – स्वास्थ्य बीमा कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80D – Health Insurance Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80D for eligible health-insurance premiums (and specified preventive health check-up / medical expenditure paths for seniors) paid for self, family, and parents. Availability and quantum depend on the tax regime chosen for the year and on notified limits — commonly claimed under the old regime; confirm live IT guidance.",
+      "hi": "धारा 80डी के तहत पात्र स्वास्थ्य बीमा प्रीमियम आदि की कटौती; कर व्यवस्था और अधिसूचित सीमाओं पर निर्भर।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80D for eligible health-insurance premiums (and specified preventive health check-up / medical expenditure paths for seniors) paid for self, family, and parents. Availability and quantum depend on the tax regime chosen for the year and on notified limits — commonly claimed under the old regime; confirm live IT guidance."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory tax deduction, not a cash subsidy. No income ceiling to ‘qualify’ for 80D itself — leave max_annual_income null; do not set implies_low_income. Deduction often unavailable or limited under the new tax regime — encode honestly with verify=true. Do not invent rupee caps in eligibility_rules.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live 80D monetary limits and new-vs-old regime interaction on Income Tax Department pages before advising."
+    },
+    "benefits": {
+      "en": "Deduction from taxable income for eligible medical insurance premiums / specified health expenditure within notified section 80D limits (regime-conditional).",
+      "hi": "पात्र स्वास्थ्य बीमा प्रीमियम/निर्दिष्ट व्यय पर अधिसूचित 80डी सीमा तक कटौती (कर व्यवस्था के अधीन)।",
+      "ml": "(EN — Malayalam review pending) Deduction from taxable income for eligible medical insurance premiums / specified health expenditure within notified section 80D limits (regime-conditional)."
+    },
+    "required_documents": {
+      "en": [
+        "Health insurance premium payment proof / policy documents",
+        "PAN and income-tax return",
+        "Details of insured family members / parents as claimed",
+        "Bank statements evidencing payment where required"
+      ],
+      "hi": [
+        "Health insurance premium payment proof / policy documents",
+        "PAN and income-tax return",
+        "Details of insured family members / parents as claimed",
+        "Bank statements evidencing payment where required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Health insurance premium payment proof / policy documents",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Details of insured family members / parents as claimed",
+        "(EN — Malayalam review pending) Bank statements evidencing payment where required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim section 80D while filing the ITR on the Income Tax e-filing portal for a year in which the chosen regime allows the deduction. Confirm limits on incometaxindia.gov.in / incometax.gov.in.",
+      "hi": "जिस वर्ष चुनी गई कर व्यवस्था अनुमति दे, आईटीआर में धारा 80डी का दावा करें; सीमाएँ आयकर पोर्टल से पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Claim section 80D while filing the ITR on the Income Tax e-filing portal for a year in which the chosen regime allows the deduction. Confirm limits on incometaxindia.gov.in / incometax.gov.in."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://incometaxindia.gov.in/Pages/tools/deduction-under-section-80d.aspx",
+    "tags": [
+      "tax",
+      "80d",
+      "health_insurance",
+      "middle-class",
+      "high-income-eligible",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80e",
+    "scheme_name": {
+      "en": "Income Tax Section 80E – Education Loan Interest Deduction",
+      "hi": "आयकर धारा 80ई – शिक्षा ऋण ब्याज कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80E – Education Loan Interest Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80E for interest paid on an eligible education loan taken for higher education of self, spouse, or children (or student for whom the taxpayer is legal guardian) from an approved financial institution / charitable institution. Available for a limited number of years from the start of interest repayment — confirm live Act/IT guidance. Regime-conditional.",
+      "hi": "पात्र शिक्षा ऋण पर चुकाए गए ब्याज की धारा 80ई कटौती; अवधि और कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80E for interest paid on an eligible education loan taken for higher education of self, spouse, or children (or student for whom the taxpayer is legal guardian) from an approved financial institution / charitable institution. Available for a limited number of years from the start of interest repayment — confirm live Act/IT guidance. Regime-conditional."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory interest deduction on eligible education loans. No max_annual_income gate — leave null; do not set implies_low_income. Often old-regime / Chapter VIA conditional. Do not invent a rupee cap (80E is interest-amount based with a year-count limit).",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm eligible lender definitions, claim-window length, and regime interaction on official IT pages before advising."
+    },
+    "benefits": {
+      "en": "Deduction of eligible education-loan interest from taxable income for the permitted claim window (no fixed rupee cap in the Act for 80E interest — confirm live).",
+      "hi": "पात्र शिक्षा ऋण ब्याज की कटौती (अधिनियम में ब्याज पर निश्चित रुपये की ऊपरी सीमा नहीं — पुष्टि करें)।",
+      "ml": "(EN — Malayalam review pending) Deduction of eligible education-loan interest from taxable income for the permitted claim window (no fixed rupee cap in the Act for 80E interest — confirm live)."
+    },
+    "required_documents": {
+      "en": [
+        "Education loan account statement showing interest paid",
+        "Loan sanction letter from eligible institution",
+        "PAN and income-tax return",
+        "Proof of higher-education course as required"
+      ],
+      "hi": [
+        "Education loan account statement showing interest paid",
+        "Loan sanction letter from eligible institution",
+        "PAN and income-tax return",
+        "Proof of higher-education course as required"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Education loan account statement showing interest paid",
+        "(EN — Malayalam review pending) Loan sanction letter from eligible institution",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Proof of higher-education course as required"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Claim section 80E in the ITR for years within the permitted window when the chosen regime allows Chapter VIA deductions. Use incometax.gov.in e-filing.",
+      "hi": "अनुमत वर्षों में आईटीआर में धारा 80ई का दावा करें; ई-फाइलिंग पोर्टल का उपयोग करें।",
+      "ml": "(EN — Malayalam review pending) Claim section 80E in the ITR for years within the permitted window when the chosen regime allows Chapter VIA deductions. Use incometax.gov.in e-filing."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometax.gov.in/iec/foportal/",
+    "tags": [
+      "tax",
+      "80e",
+      "education_loan",
+      "middle-class",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "in-section-80g",
+    "scheme_name": {
+      "en": "Income Tax Section 80G – Donations Deduction",
+      "hi": "आयकर धारा 80जी – दान कटौती",
+      "ml": "(EN — Malayalam review pending) Income Tax Section 80G – Donations Deduction"
+    },
+    "description": {
+      "en": "Statutory deduction under Income-tax Act section 80G for donations to specified funds and charitable institutions at 50% or 100% (with or without qualifying limits) as notified. Claim requires proper donation receipts / Form 10BE as applicable. Regime-conditional — confirm whether the chosen tax regime allows 80G for the year.",
+      "hi": "निर्दिष्ट निधियों/संस्थाओं को दान पर धारा 80जी कटौती; रसीद/फॉर्म और कर व्यवस्था की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Statutory deduction under Income-tax Act section 80G for donations to specified funds and charitable institutions at 50% or 100% (with or without qualifying limits) as notified. Claim requires proper donation receipts / Form 10BE as applicable. Regime-conditional — confirm whether the chosen tax regime allows 80G for the year."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "Statutory donations deduction. No income ceiling to claim 80G itself — leave max_annual_income null; do not set implies_low_income. Percentage and qualifying-limit rules depend on donee category; often unavailable under new regime — verify=true.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live 80G donee lists / percentages and new-regime interaction on incometaxindia.gov.in before advising."
+    },
+    "benefits": {
+      "en": "Deduction from taxable income for eligible donations at the notified percentage and qualifying-limit rules for the donee category.",
+      "hi": "पात्र दान पर अधिसूचित प्रतिशत/सीमा नियमों के अनुसार कटौती।",
+      "ml": "(EN — Malayalam review pending) Deduction from taxable income for eligible donations at the notified percentage and qualifying-limit rules for the donee category."
+    },
+    "required_documents": {
+      "en": [
+        "Donation receipt from eligible fund/institution",
+        "Form 10BE / donor reporting as applicable for the year",
+        "PAN and income-tax return",
+        "Payment proof (bank / digital)"
+      ],
+      "hi": [
+        "Donation receipt from eligible fund/institution",
+        "Form 10BE / donor reporting as applicable for the year",
+        "PAN and income-tax return",
+        "Payment proof (bank / digital)"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Donation receipt from eligible fund/institution",
+        "(EN — Malayalam review pending) Form 10BE / donor reporting as applicable for the year",
+        "(EN — Malayalam review pending) PAN and income-tax return",
+        "(EN — Malayalam review pending) Payment proof (bank / digital)"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Donate to an 80G-eligible entity, retain receipts/10BE, and claim in ITR when the regime allows. Confirm donee eligibility on Income Tax Department resources.",
+      "hi": "80जी-पात्र संस्था को दान दें; रसीद रखें; लागू कर व्यवस्था में आईटीआर में दावा करें।",
+      "ml": "(EN — Malayalam review pending) Donate to an 80G-eligible entity, retain receipts/10BE, and claim in ITR when the regime allows. Confirm donee eligibility on Income Tax Department resources."
+    },
+    "apply_url": "https://www.incometax.gov.in/iec/foportal/",
+    "office_type": "Income Tax Department / CBDT",
+    "official_source_url": "https://www.incometaxindia.gov.in/w/section-80g",
+    "tags": [
+      "tax",
+      "80g",
+      "donation",
+      "charitable",
+      "middle-class",
+      "high-income-eligible",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  },
+  {
+    "id": "dl-mcd-property-tax-rebate",
+    "scheme_name": {
+      "en": "Delhi MCD Property Tax Early-Payment / Online Rebate",
+      "hi": "दिल्ली एमसीडी संपत्ति कर शीघ्र भुगतान / ऑनलाइन छूट",
+      "ml": "(EN — Malayalam review pending) Delhi MCD Property Tax Early-Payment / Online Rebate"
+    },
+    "description": {
+      "en": "Municipal Corporation of Delhi property-tax rebate pathways for eligible property taxpayers who pay within published early-payment windows and/or via online channels (rebate percentages and caps are set in the annual MCD property-tax / SUNIYO circulars). Universal to assessed property taxpayers who meet payment-timing rules — not a BPL scheme.",
+      "hi": "निर्धारित अवधि में/ऑनलाइन संपत्ति कर भुगतान पर एमसीडी छूट; वार्षिक परिपत्र की दरें लागू।",
+      "ml": "(EN — Malayalam review pending) Municipal Corporation of Delhi property-tax rebate pathways for eligible property taxpayers who pay within published early-payment windows and/or via online channels (rebate percentages and caps are set in the annual MCD property-tax / SUNIYO circulars). Universal to assessed property taxpayers who meet payment-timing rules — not a BPL scheme."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Delhi"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "MCD property-tax rebates: timing/online rebates per FY circular — do not hard-code percentages. Not means-tested BPL. max_annual_income null; implies_low_income false.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Confirm live FY rebate % and SUNIYO/amnesty terms on mcdonline.nic.in before citing percentages."
+    },
+    "benefits": {
+      "en": "Reduction in payable property tax via early-payment and/or online-payment rebates as notified for the financial year.",
+      "hi": "वित्तीय वर्ष के लिए अधिसूचित शीघ्र/ऑनलाइन भुगतान छूट से देय कर में कमी।",
+      "ml": "(EN — Malayalam review pending) Reduction in payable property tax via early-payment and/or online-payment rebates as notified for the financial year."
+    },
+    "required_documents": {
+      "en": [
+        "MCD property tax account / Property ID",
+        "Ownership proof as required by MCD portal",
+        "Payment via MCD online or authorised channel within rebate window",
+        "Prior-year dues clearance if demanded by circular"
+      ],
+      "hi": [
+        "MCD property tax account / Property ID",
+        "Ownership proof as required by MCD portal",
+        "Payment via MCD online or authorised channel within rebate window",
+        "Prior-year dues clearance if demanded by circular"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) MCD property tax account / Property ID",
+        "(EN — Malayalam review pending) Ownership proof as required by MCD portal",
+        "(EN — Malayalam review pending) Payment via MCD online or authorised channel within rebate window",
+        "(EN — Malayalam review pending) Prior-year dues clearance if demanded by circular"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Log in to the MCD property-tax citizen portal (mcdonline.nic.in), compute tax, and pay within the rebate window published for the FY.",
+      "hi": "एमसीडी संपत्ति कर पोर्टल पर लॉगिन करें और छूट अवधि में भुगतान करें।",
+      "ml": "(EN — Malayalam review pending) Log in to the MCD property-tax citizen portal (mcdonline.nic.in), compute tax, and pay within the rebate window published for the FY."
+    },
+    "apply_url": "https://mcdonline.nic.in/rbd/",
+    "office_type": "Municipal Corporation of Delhi (MCD)",
+    "official_source_url": "https://mcdonline.nic.in/rbd/",
+    "tags": [
+      "delhi",
+      "property_tax",
+      "rebate",
+      "municipal",
+      "middle-class",
+      "universal",
+      "homeowner"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "gj-education-loan-interest-subsidy",
+    "scheme_name": {
+      "en": "Gujarat Interest Subsidy on Education Loan (KCG / ISEL)",
+      "hi": "गुजरात शिक्षा ऋण ब्याज अनुदान (केसीजी)",
+      "ml": "(EN — Malayalam review pending) Gujarat Interest Subsidy on Education Loan (KCG / ISEL)"
+    },
+    "description": {
+      "en": "Gujarat state interest-subsidy scheme on eligible education loans for students whose family income is within the published ceiling (commonly cited up to ₹6 lakh/year on KCG materials — VERIFY live) and loan amount within notified limits. Apply through the Gujarat Knowledge Consortium / ISEL portal pathways.",
+      "hi": "पात्र शिक्षा ऋण पर राज्य ब्याज अनुदान; पारिवारिक आय और ऋण सीमाएँ अधिसूचनानुसार।",
+      "ml": "(EN — Malayalam review pending) Gujarat state interest-subsidy scheme on eligible education loans for students whose family income is within the published ceiling (commonly cited up to ₹6 lakh/year on KCG materials — VERIFY live) and loan amount within notified limits. Apply through the Gujarat Knowledge Consortium / ISEL portal pathways."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": 600000,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": null,
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "Gujarat"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": false,
+      "notes": "Gujarat education-loan interest subsidy: family income ceiling commonly published around ₹6 lakh/year on KCG pages — encoded max_annual_income 600000 WITH verify=true; confirm live notification before relying on the figure. Middle-class tagged; implies_low_income true as income-capped student aid.",
+      "verify": true,
+      "verify_notes": "2026-09-24: Re-confirm live income/loan ceilings and portal status on kcg.gujarat.gov.in / isel.guj.nic.in — figures may change by G.R.",
+      "implies_low_income": true
+    },
+    "benefits": {
+      "en": "Interest subsidy on eligible education loans for qualifying Gujarat students within notified income and loan caps.",
+      "hi": "अधिसूचित आय/ऋण सीमाओं में पात्र शिक्षा ऋण पर ब्याज अनुदान।",
+      "ml": "(EN — Malayalam review pending) Interest subsidy on eligible education loans for qualifying Gujarat students within notified income and loan caps."
+    },
+    "required_documents": {
+      "en": [
+        "Education loan sanction documents from eligible bank",
+        "Family income certificate within notified ceiling",
+        "Domicile / Gujarat student eligibility proof",
+        "Online application on KCG / ISEL portal"
+      ],
+      "hi": [
+        "Education loan sanction documents from eligible bank",
+        "Family income certificate within notified ceiling",
+        "Domicile / Gujarat student eligibility proof",
+        "Online application on KCG / ISEL portal"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Education loan sanction documents from eligible bank",
+        "(EN — Malayalam review pending) Family income certificate within notified ceiling",
+        "(EN — Malayalam review pending) Domicile / Gujarat student eligibility proof",
+        "(EN — Malayalam review pending) Online application on KCG / ISEL portal"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply via the Gujarat KCG Interest Subsidy / ISEL portal with loan and income documents. Confirm live ceilings on kcg.gujarat.gov.in.",
+      "hi": "केसीजी/आईएसईएल पोर्टल पर आय और ऋण दस्तावेज़ों के साथ आवेदन करें।",
+      "ml": "(EN — Malayalam review pending) Apply via the Gujarat KCG Interest Subsidy / ISEL portal with loan and income documents. Confirm live ceilings on kcg.gujarat.gov.in."
+    },
+    "apply_url": "https://kcg.gujarat.gov.in/interest-subsidy-scheme-education-loan",
+    "office_type": "Knowledge Consortium of Gujarat (Education Department)",
+    "official_source_url": "https://kcg.gujarat.gov.in/interest-subsidy-scheme-education-loan",
+    "tags": [
+      "gujarat",
+      "education_loan",
+      "interest_subsidy",
+      "middle-class",
+      "student",
+      "state"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": false
+  },
+  {
+    "id": "in-mahila-samman-savings-certificate",
+    "scheme_name": {
+      "en": "Mahila Samman Savings Certificate (MSSC)",
+      "hi": "महिला सम्मान बचत प्रमाणपत्र",
+      "ml": "(EN — Malayalam review pending) Mahila Samman Savings Certificate (MSSC)"
+    },
+    "description": {
+      "en": "Time-limited Government small-savings scheme for women (and girls via guardian) notified by MoF / India Post — deposit with notified interest and tenure, within a maximum investment ceiling per holder. No personal income eligibility ceiling. Confirm whether the scheme window is still open before applying.",
+      "hi": "महिलाओं (अभिभावक के माध्यम से बालिकाओं) के लिए अधिसूचित छोटी बचत प्रमाणपत्र; आय पात्रता सीमा नहीं; योजना अवधि की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Time-limited Government small-savings scheme for women (and girls via guardian) notified by MoF / India Post — deposit with notified interest and tenure, within a maximum investment ceiling per holder. No personal income eligibility ceiling. Confirm whether the scheme window is still open before applying."
+    },
+    "eligibility_rules": {
+      "min_age": null,
+      "max_age": null,
+      "max_annual_income": null,
+      "max_monthly_household_income": null,
+      "occupations": [],
+      "categories": [],
+      "gender": "female",
+      "marital_status": [],
+      "disability_required": false,
+      "min_disability_percent": null,
+      "land_ownership": null,
+      "states": [
+        "All India"
+      ],
+      "countries": [
+        "India"
+      ],
+      "nationwide": true,
+      "notes": "MSSC: women/girl-child (guardian) investors; no income gate — max_annual_income null; do not set implies_low_income. Scheme was introduced as a limited-window product — VERIFY it is still open before recommending. Do not invent interest % or ceiling in structured fields.",
+      "verify": true,
+      "verify_notes": "2026-09-24: CRITICAL — confirm on India Post/NSI whether MSSC subscription window is still open; if closed, treat as historical and do not push applicants."
+    },
+    "benefits": {
+      "en": "Interest at notified MSSC rate for the scheme tenure; investment up to the notified per-holder ceiling while the scheme remains open.",
+      "hi": "अधिसूचित अवधि/दर पर ब्याज; धारक सीमा तक निवेश (योजना खुली होने पर)।",
+      "ml": "(EN — Malayalam review pending) Interest at notified MSSC rate for the scheme tenure; investment up to the notified per-holder ceiling while the scheme remains open."
+    },
+    "required_documents": {
+      "en": [
+        "Woman account holder KYC (or girl child + guardian KYC)",
+        "PAN as required",
+        "MSSC application at India Post while scheme is open",
+        "Deposit within notified ceiling"
+      ],
+      "hi": [
+        "Woman account holder KYC (or girl child + guardian KYC)",
+        "PAN as required",
+        "MSSC application at India Post while scheme is open",
+        "Deposit within notified ceiling"
+      ],
+      "ml": [
+        "(EN — Malayalam review pending) Woman account holder KYC (or girl child + guardian KYC)",
+        "(EN — Malayalam review pending) PAN as required",
+        "(EN — Malayalam review pending) MSSC application at India Post while scheme is open",
+        "(EN — Malayalam review pending) Deposit within notified ceiling"
+      ]
+    },
+    "how_to_apply": {
+      "en": "Apply at India Post only while MoF/India Post show the scheme as open; confirm interest, tenure, and ceiling on current NSI/India Post notices.",
+      "hi": "योजना खुली होने पर ही डाकघर में आवेदन करें; ब्याज/अवधि/सीमा की पुष्टि करें।",
+      "ml": "(EN — Malayalam review pending) Apply at India Post only while MoF/India Post show the scheme as open; confirm interest, tenure, and ceiling on current NSI/India Post notices."
+    },
+    "apply_url": "https://www.indiapost.gov.in/",
+    "office_type": "India Post / National Savings Institute (MoF)",
+    "official_source_url": "https://www.indiapost.gov.in/",
+    "tags": [
+      "small_savings",
+      "mssc",
+      "women",
+      "middle-class",
+      "central",
+      "nationwide"
+    ],
+    "last_verified": "2026-09-24",
+    "nationwide": true
+  }
+]
