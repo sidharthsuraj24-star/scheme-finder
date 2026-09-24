@@ -99,3 +99,17 @@ Do not inflate `scheme_count` with invented schemes. Add schemes only with citab
 | `last_verified` | each scheme in `schemes.json` | ISO date; defaults to catalogue stamp if missing |
 | `official_source_url` | each scheme | **Required** |
 | `is_stale` | `/api/health` + match responses | `today - updated_as_of > stale_after_days` |
+
+
+## Signed release (Phase 2 foundation)
+
+After updating both `data/schemes.json` and `frontend/data/schemes.json` and
+bumping `catalogue_meta.json`, run:
+
+```bash
+python3 scripts/sign_catalogue_release.py --changelog "YYYY-MM-DD: summary of changes"
+python3 scripts/check_catalogue_publish_ready.py
+```
+
+Commit the release file + audit JSONL with the catalogue change. See `docs/TRUST.md`.
+

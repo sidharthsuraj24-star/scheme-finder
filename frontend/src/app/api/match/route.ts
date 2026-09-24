@@ -69,18 +69,44 @@ export async function POST(request: Request) {
     );
   }
 
+  const t0 = Date.now();
   try {
     const { profile, options } = resolveMatchRequest(parsed);
     const result = matchSchemes(getAllSchemes(), profile, options);
+    // Privacy: structured access log only — never log full profiles / PII fields.
+    console.info(
+      JSON.stringify({
+        event: "match_access",
+        status: 200,
+        latency_ms: Date.now() - t0,
+        country: profile.country ?? null,
+        match_count: result.count ?? (result.matched?.length ?? 0),
+      }),
+    );
     return jsonWithSecurity(result);
   } catch (err) {
     if (err instanceof ValidationError) {
+      console.info(
+        JSON.stringify({
+          event: "match_access",
+          status: 422,
+          latency_ms: Date.now() - t0,
+          code: err.code,
+        }),
+      );
       return jsonWithSecurity(
         { error: { code: err.code, message: err.message } },
         { status: 422 },
       );
     }
-    console.error("match error", err);
+    console.error("match error", err instanceof Error ? err.message : "unknown");
+    console.info(
+      JSON.stringify({
+        event: "match_access",
+        status: 500,
+        latency_ms: Date.now() - t0,
+      }),
+    );
     return jsonWithSecurity(
       { error: { code: "internal_error", message: "Match failed" } },
       { status: 500 },

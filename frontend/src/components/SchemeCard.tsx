@@ -37,6 +37,7 @@ export default function SchemeCard({ lang, scheme }: Props) {
         className="flex w-full items-start gap-3 p-4 text-left min-h-tap"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
+        aria-label={`${name} — ${open ? t(lang, "collapse") : t(lang, "expand")}`}
       >
         <div className="flex-1">
           <div className="mb-2 flex flex-wrap items-center gap-2">
@@ -114,6 +115,9 @@ export default function SchemeCard({ lang, scheme }: Props) {
               >
                 {t(lang, "officialSourceConfirm")}
               </a>
+            ) : null}
+            {confirmUrl ? (
+              <p className="text-xs text-slate-500">{t(lang, "dataFreshConfirm")}</p>
             ) : null}
             {applyUrl && sourceUrl && applyUrl !== sourceUrl ? (
               <a

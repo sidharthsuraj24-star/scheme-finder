@@ -2,15 +2,18 @@
 
 from __future__ import annotations
 
+import hashlib
+import logging
 import os
+import time
 from typing import Any
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from . import __version__
-from .catalogue import catalogue_payload
+from .catalogue import catalogue_payload, load_catalogue_release
 from .db import get_store
 from .explanations import DISCLAIMER_EN, build_explanation, generator_mode
 from .match_cache import get_cached_match, match_cache_ttl_sec, set_cached_match
@@ -46,6 +49,21 @@ elif _IS_PROD:
 else:
     _cors = ["*"]
 _allow_creds = bool(_cors) and "*" not in _cors
+
+logger = logging.getLogger("scheme_finder.access")
+
+
+def _client_ip_hash(request: Request) -> str | None:
+    """Optional non-reversible IP hint for access logs; omit raw IP/PII."""
+    if os.environ.get("ACCESS_LOG_IP_HASH", "1").strip().lower() in ("0", "false", "no"):
+        return None
+    forwarded = (request.headers.get("x-forwarded-for") or "").split(",")[0].strip()
+    ip = forwarded or (request.client.host if request.client else "") or ""
+    if not ip:
+        return None
+    salt = os.environ.get("ACCESS_LOG_IP_SALT", "scheme-finder")
+    return hashlib.sha256(f"{salt}:{ip}".encode()).hexdigest()[:16]
+
 
 app = FastAPI(
     title="Scheme Finder API",
@@ -103,7 +121,24 @@ def ready() -> JSONResponse:
         "match_cache_ttl_sec": match_cache_ttl_sec(),
         "redis": redis_info,
     }
+    release = load_catalogue_release()
+    if release:
+        body["schemes_sha256"] = release.get("schemes_sha256")
+        body["catalogue_updated_as_of"] = release.get("updated_as_of")
+        body["release_generated_at"] = release.get("generated_at")
     return JSONResponse(content=body, status_code=200 if ready_ok else 503)
+
+
+@app.get("/catalogue/meta")
+@app.get("/api/v1/catalogue/meta")
+def catalogue_meta() -> dict[str, Any]:
+    """Read-only public catalogue + signed-release metadata (checksum is not a secret)."""
+    freshness = catalogue_payload()
+    return {
+        "catalogue": freshness["catalogue"],
+        "is_stale": freshness["is_stale"],
+        "release": freshness.get("release"),
+    }
 
 
 @app.get("/schemes", response_model=SchemeListResponse)
@@ -173,20 +208,46 @@ def get_scheme(scheme_id: str) -> dict[str, Any]:
 
 @app.post("/match", response_model=MatchResponse)
 @app.post("/api/v1/match", response_model=MatchResponse)
-def match(request: MatchRequest) -> MatchResponse:
+def match(request: MatchRequest, http_request: Request) -> MatchResponse:
+    """Match schemes. Structured access log: status, latency, country, optional IP hash — never full profiles."""
+    t0 = time.perf_counter()
     profile = request.resolved_profile()
     options = request.resolved_options()
     profile_dump = profile.model_dump()
     options_dump = options.model_dump()
+    country = getattr(profile, "country", None) or profile_dump.get("country")
+    status_code = 200
+    cache_hit = False
+    match_count: int | None = None
 
-    cached = get_cached_match(profile_dump, options_dump)
-    if cached is not None:
-        return MatchResponse(**cached)
+    try:
+        cached = get_cached_match(profile_dump, options_dump)
+        if cached is not None:
+            cache_hit = True
+            result = MatchResponse(**cached)
+            match_count = result.count
+            return result
 
-    store = get_store()
-    result = match_schemes(store.schemes, profile, options, geo_index=store.geo_index)
-    set_cached_match(profile_dump, options_dump, result.model_dump())
-    return result
+        store = get_store()
+        result = match_schemes(store.schemes, profile, options, geo_index=store.geo_index)
+        set_cached_match(profile_dump, options_dump, result.model_dump())
+        match_count = result.count
+        return result
+    except Exception:
+        status_code = 500
+        raise
+    finally:
+        # Privacy: do NOT log age, income, district, flags, or full profile bodies.
+        latency_ms = int((time.perf_counter() - t0) * 1000)
+        logger.info(
+            "match_access status=%s latency_ms=%s country=%s cache_hit=%s match_count=%s ip_hash=%s",
+            status_code,
+            latency_ms,
+            country or "-",
+            cache_hit,
+            match_count if match_count is not None else "-",
+            _client_ip_hash(http_request) or "-",
+        )
 
 
 @app.post("/explain", response_model=ExplainResponse)

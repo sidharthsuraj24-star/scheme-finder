@@ -34,9 +34,9 @@ const en: Dict = {
   benefits: "Benefits",
   documents: "Documents needed",
   howToApply: "How to apply",
-  applyLink: "Open apply / official page",
+  applyLink: "Open official apply page",
   officialSource: "Official source",
-  officialSourceConfirm: "Official source — confirm here",
+  officialSourceConfirm: "Confirm on the official portal before applying",
   lastVerified: "Last verified: {date}",
   dataFreshConfirm:
     "Confirm eligibility on the official source before you apply.",
@@ -44,14 +44,16 @@ const en: Dict = {
     "Scheme data may be outdated (last updated {date}). Always confirm on the official site before applying.",
   dataFreshBanner:
     "Scheme data updated as of {date} · India + selected other countries (curated; not worldwide). Confirm eligibility on the official source before you apply.",
+  resultsConfirmBanner:
+    "Before applying: confirm eligibility on the official portal for each scheme below.",
   resultsFooterDisclaimer:
-    "This tool does not guarantee eligibility. Always confirm on the official source and with your local body before applying. Needs-verification matches are uncertain — never treat them as approved.",
+    "This tool does not guarantee eligibility. Before you apply, confirm eligibility on the official portal for each scheme and with your local body. Needs-verification matches are uncertain — never treat them as approved.",
 
   reason: "Why this may fit",
   expand: "Show details",
   collapse: "Hide details",
   disclaimer:
-    "This is not legal advice and does not guarantee eligibility. Always confirm with your local body (panchayat / municipality / corporation) and the official portal before applying.",
+    "This is not legal advice and does not guarantee eligibility. Always confirm with your local body (panchayat / municipality / corporation) and on the official portal before applying.",
   qAge: "How old are you?",
   qAgeHint: "Enter your age in years",
   qIncome: "What is your household income?",
@@ -166,9 +168,9 @@ const ml: Dict = {
   benefits: "ആനുകൂല്യങ്ങൾ",
   documents: "വേണ്ട രേഖകൾ",
   howToApply: "എങ്ങനെ അപേക്ഷിക്കാം",
-  applyLink: "അപേക്ഷ / ഔദ്യോഗിക പേജ് തുറക്കുക",
+  applyLink: "ഔദ്യോഗിക അപേക്ഷാ പേജ് തുറക്കുക",
   officialSource: "ഔദ്യോഗിക ഉറവിടം",
-  officialSourceConfirm: "ഔദ്യോഗിക ഉറവിടം — ഇവിടെ സ്ഥിരീകരിക്കുക",
+  officialSourceConfirm: "അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക പോർട്ടലിൽ സ്ഥിരീകരിക്കുക",
   lastVerified: "അവസാനം സ്ഥിരീകരിച്ചത്: {date}",
   dataFreshConfirm:
     "അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത സ്ഥിരീകരിക്കുക.",
@@ -176,8 +178,10 @@ const ml: Dict = {
     "പദ്ധതി വിവരങ്ങൾ കാലഹരണപ്പെട്ടിരിക്കാം (അവസാനം പുതുക്കിയത് {date}). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക സൈറ്റിൽ എല്ലായ്പ്പോഴും ഉറപ്പാക്കുക.",
   dataFreshBanner:
     "പദ്ധതി വിവരങ്ങൾ {date} വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ (ലോകവ്യാപകമല്ല). അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിൽ യോഗ്യത ഉറപ്പാക്കുക.",
+  resultsConfirmBanner:
+    "അപേക്ഷിക്കുന്നതിന് മുമ്പ്: താഴെയുള്ള ഓരോ പദ്ധതിയുടെയും ഔദ്യോഗിക പോർട്ടലിൽ യോഗ്യത സ്ഥിരീകരിക്കുക.",
   resultsFooterDisclaimer:
-    "ഈ ഉപകരണം യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഔദ്യോഗിക ഉറവിടത്തിലും തദ്ദേശ സ്ഥാപനത്തിലും ഉറപ്പാക്കുക. «സ്ഥിരീകരണം വേണം» എന്ന പൊരുത്തങ്ങൾ അനിശ്ചിതമാണ് — അംഗീകരിച്ചതായി കരുതരുത്.",
+    "ഈ ഉപകരണം യോഗ്യത ഉറപ്പ് നൽകുന്നില്ല. അപേക്ഷിക്കുന്നതിന് മുമ്പ് ഓരോ പദ്ധതിയുടെയും ഔദ്യോഗിക പോർട്ടലിലും തദ്ദേശ സ്ഥാപനത്തിലും യോഗ്യത ഉറപ്പാക്കുക. «സ്ഥിരീകരണം വേണം» എന്ന പൊരുത്തങ്ങൾ അനിശ്ചിതമാണ് — അംഗീകരിച്ചതായി കരുതരുത്.",
 
   reason: "എന്തുകൊണ്ട് ഇത് യോജിച്ചേക്കാം",
   expand: "വിശദാംശങ്ങൾ കാണുക",
@@ -298,9 +302,9 @@ const hi: Dict = {
   benefits: "लाभ",
   documents: "आवश्यक दस्तावेज़",
   howToApply: "आवेदन कैसे करें",
-  applyLink: "आवेदन / आधिकारिक पृष्ठ खोलें",
+  applyLink: "आधिकारिक आवेदन पृष्ठ खोलें",
   officialSource: "आधिकारिक स्रोत",
-  officialSourceConfirm: "आधिकारिक स्रोत — यहाँ पुष्टि करें",
+  officialSourceConfirm: "आवेदन से पहले आधिकारिक पोर्टल पर पुष्टि करें",
   lastVerified: "अंतिम सत्यापन: {date}",
   dataFreshConfirm:
     "आवेदन करने से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
@@ -308,8 +312,10 @@ const hi: Dict = {
     "योजना डेटा पुराना हो सकता है (अंतिम अद्यतन {date})। आवेदन से पहले हमेशा आधिकारिक साइट पर पुष्टि करें।",
   dataFreshBanner:
     "योजना डेटा {date} तक अद्यतन · भारत + चुनिंदा अन्य देश (दुनियाभर नहीं)। आवेदन से पहले आधिकारिक स्रोत पर पात्रता की पुष्टि करें।",
+  resultsConfirmBanner:
+    "आवेदन से पहले: नीचे दी गई प्रत्येक योजना के आधिकारिक पोर्टल पर पात्रता की पुष्टि करें।",
   resultsFooterDisclaimer:
-    "यह उपकरण पात्रता की गारंटी नहीं देता। आवेदन से पहले आधिकारिक स्रोत और स्थानीय निकाय से पुष्टि करें। «सत्यापन आवश्यक» मिलान अनिश्चित हैं — उन्हें स्वीकृत न समझें।",
+    "यह उपकरण पात्रता की गारंटी नहीं देता। आवेदन से पहले प्रत्येक योजना के आधिकारिक पोर्टल और स्थानीय निकाय पर पात्रता की पुष्टि करें। «सत्यापन आवश्यक» मिलान अनिश्चित हैं — उन्हें स्वीकृत न समझें।",
 
   reason: "यह क्यों उपयुक्त हो सकता है",
   expand: "विवरण दिखाएँ",

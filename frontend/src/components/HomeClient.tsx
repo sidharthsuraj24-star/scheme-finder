@@ -143,7 +143,7 @@ export default function HomeClient() {
   }
 
   return (
-    <main className="space-y-5">
+    <main id="main-content" className="space-y-5" tabIndex={-1}>
       <header className="flex items-start justify-between gap-3">
         <div>
           <h1 className="text-2xl font-extrabold tracking-tight text-brand-900 sm:text-3xl">

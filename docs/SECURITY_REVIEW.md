@@ -72,3 +72,25 @@ Hardening removes the easy abuse paths (DoS via spam/`/match`, absurd payloads, 
 - **No authentication** on `/match` — intentional for a public eligibility helper; document that profiles may be sensitive and should only be sent over HTTPS.
 - **Rate limit is per-process memory** — fine for a single free-tier dyno; not a hard DoS guarantee.
 - **Trust of seed JSON** — compromise of `schemes.json` or the deploy artifact could change eligibility copy/links; protect the repo and deploy pipeline.
+
+
+---
+
+## Phase 2 foundation residual update (2026-09-24 IST)
+
+Foundation slice (not a full re-audit):
+
+| Area | Status |
+|------|--------|
+| Signed catalogue release + public checksum | **Added** (`catalogue_release.json`, `/catalogue/meta`, `/ready`) |
+| Append-only catalogue audit log | **Added** (`data/catalogue_audit.jsonl`) |
+| Match access logging | **Hardened note** — status/latency/country/optional IP hash only; no full profile bodies by default |
+| Privacy doc | **Added** `docs/PRIVACY.md` |
+| Security headers / rate limits | Unchanged from 2026-09-08 hardening |
+| CMS role auth / SOC2 / pentest / WCAG 2.2 AA full audit | **Still open** — see `docs/TRUST.md` |
+
+Residual risks from the 2026-09-08 review remain accepted for the public demo
+(unauthenticated `/match`, per-process rate limits unless Redis). Trust of seed
+JSON is improved by signed releases + audit trail but still depends on protecting
+the git repo and deploy pipeline.
+

@@ -81,3 +81,30 @@ PDF: https://www.price360.in/Executive_Summary_Middle_Class.pdf
 
 **Code:** `backend/app/income_bands.py`, `frontend/src/lib/matching/incomeBands.ts`.
 
+
+## 2026-09-24 — Phase 2 trust & compliance foundation
+
+**Decision:** Ship a concrete trust foundation without claiming Phase 2 complete
+or enterprise certification.
+
+1. **Signed catalogue releases.** `scripts/sign_catalogue_release.py` hashes
+   dual-tree `schemes.json` (SHA-256), writes `data/catalogue_release.json`
+   (+ frontend sync) with `updated_as_of`, `scheme_count`, `schemes_sha256`,
+   `generated_at` (IST), and changelog. Public metadata via `/catalogue/meta`
+   and `/ready` — checksum is integrity metadata, not a secret.
+2. **Immutable audit log.** Append-only `data/catalogue_audit.jsonl` via
+   `scripts/append_catalogue_audit.py`. Actor from `CATALOGUE_ACTOR` or git.
+   Never rewrite past lines. Full CMS roles come later; git + audit is the trail.
+3. **Roles scaffold.** Curator / reviewer / publisher defined in `docs/TRUST.md`.
+   Publisher checklist = signed release + audit + `check_catalogue_publish_ready.py`
+   + main push. No admin CMS UI in this slice.
+4. **Privacy.** Match path must not log full profiles; structured access logs
+   only (status, latency, country, optional IP hash). See `docs/PRIVACY.md`.
+5. **Disclaimer UX.** Strengthen results copy (EN/ML/HI) so every results view
+   requires confirm-on-official-portal; per-scheme official link labels emphasize
+   official site. No new legal claims.
+6. **A11y partial.** Skip-to-content + main landmark now; full WCAG 2.2 AA +
+   pentest + SOC2 logging = later Phase 2 milestones (documented in TRUST.md).
+
+**Not done:** CMS auth UI, encrypted profiles, DigiLocker, SOC2/pentest engagement,
+claiming enterprise-ready, Phase 1 Fly deploy (still credential-blocked).

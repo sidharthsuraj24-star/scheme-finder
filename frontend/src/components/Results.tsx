@@ -97,6 +97,7 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
           <p className="rounded-xl bg-slate-50 p-3 text-sm text-slate-600">{data.message}</p>
         ) : null}
         {shareUrl ? <ShareButtons lang={lang} shareUrl={shareUrl} /> : null}
+        <p className="rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm font-medium leading-relaxed text-sky-950" role="note">{t(lang, "resultsConfirmBanner")}</p>
         <Disclaimer lang={lang} variant="results" />
         <button
           type="button"
@@ -144,6 +145,13 @@ export default function Results({ lang, data, onRestart, shareUrl, filteredAnnua
       </div>
 
       {shareUrl ? <ShareButtons lang={lang} shareUrl={shareUrl} /> : null}
+
+      <p
+        className="rounded-xl border border-sky-200 bg-sky-50 px-4 py-3 text-sm font-medium leading-relaxed text-sky-950"
+        role="note"
+      >
+        {t(lang, "resultsConfirmBanner")}
+      </p>
 
       <div className="space-y-3">
         {matched.map((s) => (

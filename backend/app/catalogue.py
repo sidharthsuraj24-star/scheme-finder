@@ -1,4 +1,4 @@
-"""Catalogue meta + freshness for health/match responses."""
+"""Catalogue meta + freshness + signed release metadata for health/match responses."""
 
 from __future__ import annotations
 
@@ -32,7 +32,20 @@ def catalogue_meta_path() -> Path:
     return candidates[0]
 
 
+def catalogue_release_path() -> Path:
+    candidates = [
+        _REPO_ROOT / "data" / "catalogue_release.json",
+        Path("/app/data/catalogue_release.json"),
+        Path("/workspace/scheme-finder-repo/data/catalogue_release.json"),
+    ]
+    for path in candidates:
+        if path.is_file():
+            return path
+    return candidates[0]
+
+
 _META_CACHE: dict[str, Any] | None = None
+_RELEASE_CACHE: dict[str, Any] | None = None
 
 
 def load_catalogue_meta(*, force_reload: bool = False) -> dict[str, Any]:
@@ -56,6 +69,33 @@ def load_catalogue_meta(*, force_reload: bool = False) -> dict[str, Any]:
     return _META_CACHE
 
 
+def load_catalogue_release(*, force_reload: bool = False) -> dict[str, Any] | None:
+    """Public signed-release metadata (checksum is not a secret)."""
+    global _RELEASE_CACHE
+    if _RELEASE_CACHE is not None and not force_reload:
+        return _RELEASE_CACHE
+    path = catalogue_release_path()
+    if not path.is_file():
+        _RELEASE_CACHE = None
+        return None
+    with path.open(encoding="utf-8") as fh:
+        data = json.load(fh)
+    if not isinstance(data, dict):
+        _RELEASE_CACHE = None
+        return None
+    public = {
+        "updated_as_of": data.get("updated_as_of"),
+        "scheme_count": data.get("scheme_count"),
+        "schemes_sha256": data.get("schemes_sha256"),
+        "generated_at": data.get("generated_at"),
+        "timezone": data.get("timezone", "Asia/Kolkata"),
+        "latest_changelog": data.get("latest_changelog"),
+        "commit_sha": data.get("commit_sha"),
+    }
+    _RELEASE_CACHE = {k: v for k, v in public.items() if v is not None}
+    return _RELEASE_CACHE
+
+
 def days_since_updated(as_of: str, today: date | None = None) -> int:
     today = today or datetime.now(timezone.utc).date()
     try:
@@ -73,7 +113,15 @@ def is_catalogue_stale(meta: dict[str, Any] | None = None, today: date | None = 
 
 def catalogue_payload(today: date | None = None) -> dict[str, Any]:
     meta = load_catalogue_meta()
-    return {"catalogue": meta, "is_stale": is_catalogue_stale(meta, today)}
+    out: dict[str, Any] = {"catalogue": meta, "is_stale": is_catalogue_stale(meta, today)}
+    release = load_catalogue_release()
+    if release:
+        merged = dict(meta)
+        merged["schemes_sha256"] = release.get("schemes_sha256")
+        merged["release_generated_at"] = release.get("generated_at")
+        out["catalogue"] = merged
+        out["release"] = release
+    return out
 
 
 def resolve_last_verified(scheme: dict[str, Any], meta: dict[str, Any] | None = None) -> str | None:

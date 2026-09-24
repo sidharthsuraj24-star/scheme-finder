@@ -48,6 +48,13 @@ npm run build
 - SCHEMES_PATH (backend optional): path to schemes.json
 - PORT (hosting): Render/Railway/Fly inject this
 
+## Catalogue trust (Phase 2 foundation)
+
+- Signed releases: `python3 scripts/sign_catalogue_release.py` → `data/catalogue_release.json`
+- Publish gate: `python3 scripts/check_catalogue_publish_ready.py`
+- Audit log: `data/catalogue_audit.jsonl` (append-only)
+- See docs/TRUST.md
+
 ## Matching notes
 
 - Hard filters only from structured eligibility_rules (structured catalogue; see docs/SCHEMES.md).
@@ -75,6 +82,9 @@ See docs/DEPLOY.md for steps and blockers.
 - See docs/TEST_LOG.md for Phase 4 results.
 
 ## Docs
+
+- docs/TRUST.md — Phase 2 trust foundation (roles, signed releases, audit)
+- docs/PRIVACY.md — no account PII by default; ephemeral match profiles
 
 - docs/SCALE.md — Phase 1 dedicated API + Redis + load evidence
 - docs/API_CONTRACT.md, docs/SCHEMES.md, docs/SOURCES.md, docs/DECISIONS.md

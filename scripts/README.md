@@ -32,3 +32,22 @@ python scripts/loadtest_match.py --url http://127.0.0.1:8000 --concurrency 20 --
 
 Worker formula: `WEB_CONCURRENCY = max(1, min(8, nproc))`; Fly 1 shared CPU → 2.
 See `docs/SCALE.md`.
+
+
+## Catalogue trust (Phase 2 foundation)
+
+```bash
+# Sign release after schemes.json changes (both trees must match)
+python3 scripts/sign_catalogue_release.py --changelog "Describe catalogue change"
+python3 scripts/sign_catalogue_release.py --verify
+
+# Append audit line (also done automatically by sign script on release)
+CATALOGUE_ACTOR="suraj" python3 scripts/append_catalogue_audit.py \
+  --action update --scheme-ids id1,id2 --notes "Why"
+
+# Publisher gate before main push
+python3 scripts/check_catalogue_publish_ready.py
+```
+
+See `docs/TRUST.md`. Does **not** edit eligibility rules.
+

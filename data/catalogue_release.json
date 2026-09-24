@@ -1,0 +1,20 @@
+{
+  "updated_as_of": "2026-09-24",
+  "scheme_count": 822,
+  "schemes_sha256": "510c41ff38224f856c4c560066e0e2a25ef2759b61d29ae696f0d02f43c0784e",
+  "generated_at": "2026-09-24T15:27:30+05:30",
+  "timezone": "Asia/Kolkata",
+  "changelog": [
+    {
+      "at": "2026-09-24T15:27:30+05:30",
+      "text": "Phase 2 foundation: initial signed catalogue release (2026-09-24)",
+      "schemes_sha256": "510c41ff38224f856c4c560066e0e2a25ef2759b61d29ae696f0d02f43c0784e",
+      "scheme_count": 822,
+      "updated_as_of": "2026-09-24",
+      "commit_sha": "b9ab0b5870e1fc7165ba9f2c6211b593b3c77794"
+    }
+  ],
+  "latest_changelog": "Phase 2 foundation: initial signed catalogue release (2026-09-24)",
+  "commit_sha": "b9ab0b5870e1fc7165ba9f2c6211b593b3c77794",
+  "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated."
+}
