@@ -10,6 +10,7 @@ Rate limit strategy (Phase 1 scale):
 
 from __future__ import annotations
 
+import hmac
 import logging
 import os
 import time
@@ -46,6 +47,14 @@ def _is_match_path(path: str) -> bool:
     return p.endswith("/match") or p.endswith("/analytics/event")
 
 
+def _is_ops_path(path: str) -> bool:
+    return path.rstrip("/").endswith("/ops/summary")
+
+
+# Ops auth attempts: 30 / 60s / IP (memory; blunts token guessing).
+OPS_RATE_LIMIT_MAX = int(os.environ.get("OPS_RATE_LIMIT_MAX", "30"))
+
+
 class SecurityHeadersMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
         response = await call_next(request)
@@ -58,6 +67,15 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
             "default-src 'none'; frame-ancestors 'none'; base-uri 'none'",
         )
         response.headers.setdefault("X-XSS-Protection", "0")
+        response.headers.setdefault(
+            "Strict-Transport-Security", "max-age=63072000; includeSubDomains; preload"
+        )
+        response.headers.setdefault(
+            "Permissions-Policy", "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        )
+        response.headers.setdefault("Cross-Origin-Opener-Policy", "same-origin")
+        # JSON may carry profile-derived results or ops metrics: never cache.
+        response.headers.setdefault("Cache-Control", "no-store")
         return response
 
 
@@ -65,6 +83,19 @@ class RequestSizeLimitMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
         limit = int(os.environ.get("MAX_BODY_BYTES", str(MAX_BODY_BYTES)))
         cl = request.headers.get("content-length")
+        if cl is None and request.method in ("POST", "PUT", "PATCH") and (
+            "chunked" in (request.headers.get("transfer-encoding") or "").lower()
+        ):
+            # Chunked bodies bypass the Content-Length cap; require a length.
+            return JSONResponse(
+                status_code=411,
+                content={
+                    "error": {
+                        "code": "length_required",
+                        "message": "Content-Length header is required",
+                    }
+                },
+            )
         if cl is not None:
             try:
                 if int(cl) > limit:
@@ -102,6 +133,20 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
         self._max_override = max_requests
         self._window_override = window_sec
         self._hits: dict[str, deque[float]] = defaultdict(deque)
+        self._ops_hits: dict[str, deque[float]] = defaultdict(deque)
+
+    def _allow_ops(self, ip: str) -> bool:
+        now = time.monotonic()
+        # Bound memory under unique-IP floods.
+        if len(self._ops_hits) > 10_000:
+            self._ops_hits.clear()
+        q = self._ops_hits[ip]
+        while q and q[0] < now - 60:
+            q.popleft()
+        if len(q) >= int(os.environ.get("OPS_RATE_LIMIT_MAX", str(OPS_RATE_LIMIT_MAX))):
+            return False
+        q.append(now)
+        return True
 
     def _limits(self) -> tuple[int, float]:
         max_req = self._max_override if self._max_override is not None else int(
@@ -115,6 +160,10 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
     def _allow_memory(self, ip: str) -> bool:
         max_req, window = self._limits()
         now = time.monotonic()
+        if len(self._hits) > 10_000:
+            # Bound memory: drop idle buckets (unique-IP flood protection).
+            for k in [k for k, v in self._hits.items() if not v or v[-1] < now - window]:
+                del self._hits[k]
         q = self._hits[ip]
         cutoff = now - window
         while q and q[0] < cutoff:
@@ -151,6 +200,18 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
         return self._allow_memory(ip)
 
     async def dispatch(self, request: Request, call_next: Callable) -> Response:
+        if request.method == "GET" and _is_ops_path(request.url.path):
+            if not self._allow_ops(_client_ip(request)):
+                return JSONResponse(
+                    status_code=429,
+                    content={
+                        "error": {
+                            "code": "rate_limited",
+                            "message": "Too many requests; try again shortly.",
+                        }
+                    },
+                    headers={"Retry-After": "60"},
+                )
         if request.method == "POST" and _is_match_path(request.url.path):
             ip = _client_ip(request)
             if not self._allow(ip):
@@ -171,7 +232,9 @@ class MatchRateLimitMiddleware(BaseHTTPMiddleware):
 def ops_authorized(request: Request) -> bool:
     """Allow ops when token matches, or open demo when NEXT_PUBLIC_SHOW_OPS=1 and no token set.
 
-    If OPS_DASHBOARD_TOKEN is set, require Authorization: Bearer <token>.
+    If OPS_DASHBOARD_TOKEN is set, require Authorization: Bearer <token>
+    (or X-Ops-Token). Headers only: query-string tokens are never accepted, and
+    the token is never logged. Comparison is constant-time (hmac.compare_digest).
     If unset: allow when NEXT_PUBLIC_SHOW_OPS is 1/true/yes (demo), else deny.
     """
     token = os.environ.get("OPS_DASHBOARD_TOKEN", "").strip()
@@ -179,9 +242,11 @@ def ops_authorized(request: Request) -> bool:
         auth = (request.headers.get("authorization") or "").strip()
         if auth.lower().startswith("bearer "):
             got = auth[7:].strip()
-            return got == token and bool(got)
-        # Also accept X-Ops-Token for simple demos
-        alt = (request.headers.get("x-ops-token") or "").strip()
-        return alt == token
+        else:
+            # Also accept X-Ops-Token for simple demos
+            got = (request.headers.get("x-ops-token") or "").strip()
+        if not got:
+            return False
+        return hmac.compare_digest(got.encode("utf-8"), token.encode("utf-8"))
     show = os.environ.get("NEXT_PUBLIC_SHOW_OPS", "").strip().lower()
     return show in ("1", "true", "yes")

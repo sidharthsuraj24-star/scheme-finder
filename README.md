@@ -91,6 +91,7 @@ See docs/DEPLOY.md for steps and blockers.
 
 - docs/TRUST.md — Phase 2 trust foundation (roles, signed releases, audit)
 - docs/ACCESSIBILITY.md — WCAG 2.2 AA audit, a11y regression suite (`cd frontend && npm run test:a11y`)
+- docs/SECURITY.md — free security pass (ZAP, npm audit, pip-audit, gitleaks), headers/CSP, threat model, disclosure (`bash scripts/security_audit.sh`, `cd frontend && npm run test:security`)
 - docs/CATALOGUE_OPS.md — Phase 4 catalogue ops foundation (candidates, URL tickets, packs)
 - docs/PRODUCT.md — Phase 3 product surface + ops dashboard
 - docs/PRIVACY.md — no account PII by default; ephemeral match profiles

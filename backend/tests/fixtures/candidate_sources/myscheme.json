@@ -1,0 +1,38 @@
+{
+  "statusCode": 200,
+  "data": {
+    "hits": {
+      "page": {"total": 3},
+      "items": [
+        {
+          "id": "fixture-1",
+          "fields": {
+            "schemeName": "Pradhan Mantri Kisan Samman Nidhi",
+            "slug": "pm-kisan-fixture",
+            "briefDescription": "Income support to farmer families.",
+            "nodalMinistryName": "Ministry of Agriculture and Farmers Welfare",
+            "level": "Central",
+            "schemeCategory": ["Agriculture"],
+            "beneficiaryState": ["All"]
+          }
+        },
+        {
+          "id": "fixture-2",
+          "fields": {
+            "schemeName": "Example State Weavers Assistance Scheme",
+            "slug": "eswas",
+            "briefDescription": "Financial assistance for handloom weavers (fixture text).",
+            "nodalMinistryName": "Department of Handlooms (fixture)",
+            "level": "State",
+            "schemeCategory": ["Business & Entrepreneurship"],
+            "beneficiaryState": ["Kerala"]
+          }
+        },
+        {
+          "id": "fixture-3",
+          "fields": {"slug": "no-name"}
+        }
+      ]
+    }
+  }
+}

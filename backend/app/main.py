@@ -52,7 +52,10 @@ elif _IS_PROD:
     _cors = []
 else:
     _cors = ["*"]
-_allow_creds = bool(_cors) and "*" not in _cors
+# The API is stateless (no cookies / sessions), so credentialed CORS is never
+# needed. Keeping it off means a misconfigured origin list cannot be used to
+# read authenticated responses cross-site.
+_allow_creds = False
 
 logger = logging.getLogger("scheme_finder.access")
 
@@ -85,6 +88,7 @@ app.add_middleware(
     allow_credentials=_allow_creds,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Accept", "Authorization"],
+    max_age=600,
 )
 app.add_middleware(MatchRateLimitMiddleware)
 app.add_middleware(RequestSizeLimitMiddleware)
@@ -369,9 +373,10 @@ def ops_summary(
             detail=ErrorResponse(
                 error=ErrorBody(
                     code="ops_unauthorized",
-                    message="Ops dashboard requires Authorization: Bearer <OPS_DASHBOARD_TOKEN> "
-                    "when OPS_DASHBOARD_TOKEN is set; or NEXT_PUBLIC_SHOW_OPS=1 for open demo.",
+                    # Generic on purpose: don't reveal auth modes / env var names.
+                    message="Unauthorized",
                 )
             ).model_dump(),
+            headers={"WWW-Authenticate": 'Bearer realm="ops"'},
         )
     return build_ops_summary(analytics_days=days)

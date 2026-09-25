@@ -8,6 +8,7 @@ import {
   matchSchemes,
   maxBodyBytes,
   rateLimitWindowSec,
+  readBodyLimited,
   resolveMatchRequest,
 } from "@/lib/matching";
 
@@ -37,9 +38,10 @@ export async function POST(request: Request) {
     );
   }
 
-  let rawText: string;
+  let rawText: string | null;
   try {
-    rawText = await request.text();
+    // Streamed + capped: chunked bodies without Content-Length cannot exceed the limit.
+    rawText = await readBodyLimited(request);
   } catch {
     return jsonWithSecurity(
       { error: { code: "bad_body", message: "Could not read request body" } },
@@ -47,7 +49,7 @@ export async function POST(request: Request) {
     );
   }
 
-  if (rawText.length > maxBodyBytes()) {
+  if (rawText === null) {
     return jsonWithSecurity(
       {
         error: {

@@ -60,7 +60,7 @@ def test_catalogue_candidates_schema():
     assert isinstance(cands, list)
     schemes = json.loads((DATA / "schemes.json").read_text(encoding="utf-8"))
     ids = {s["id"] for s in schemes}
-    valid = {"queued", "researching", "verified_add", "rejected", "deferred"}
+    valid = {"needs_review", "queued", "researching", "verified_add", "rejected", "deferred"}
     for c in cands:
         assert c["id"] and c["name"] and c["official_source_url"]
         assert c["status"] in valid

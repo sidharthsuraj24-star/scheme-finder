@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <subtitle>Canada News Centre (fixture)</subtitle>
+  <entry>
+    <title>Government of Canada launches the Example Youth Apprenticeship Grant</title>
+    <id>https://www.canada.ca/en/employment-social-development/news/2026/09/example-youth-apprenticeship-grant.html</id>
+    <summary type="html">&lt;p&gt;Applications open today.&lt;/p&gt;</summary>
+    <category term="news releases"/>
+    <updated>2026-09-24T10:00:00-04:00</updated>
+    <link href="https://www.canada.ca/en/employment-social-development/news/2026/09/example-youth-apprenticeship-grant.html"/>
+  </entry>
+  <entry>
+    <title>Minister to announce new funding program in Halifax</title>
+    <id>https://www.canada.ca/en/news/2026/09/media-advisory.html</id>
+    <summary type="html">Media are invited.</summary>
+    <category term="media advisories"/>
+    <updated>2026-09-24T09:00:00-04:00</updated>
+    <link href="https://www.canada.ca/en/news/2026/09/media-advisory.html"/>
+  </entry>
+</feed>

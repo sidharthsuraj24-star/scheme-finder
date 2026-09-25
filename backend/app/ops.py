@@ -106,6 +106,7 @@ def candidates_summary() -> dict[str, Any]:
     return {
         "total": len([c for c in cands if isinstance(c, dict)]),
         "by_status": dict(by_status),
+        "needs_review": by_status.get("needs_review", 0),
         "queued": by_status.get("queued", 0),
         "researching": by_status.get("researching", 0),
         "deferred": by_status.get("deferred", 0),

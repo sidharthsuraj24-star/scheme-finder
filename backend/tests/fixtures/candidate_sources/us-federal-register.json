@@ -1,0 +1,21 @@
+{
+  "count": 2,
+  "results": [
+    {
+      "title": "Farmer Bridge Assistance (FBA) Program; Correction",
+      "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-00001/farmer-bridge-assistance-fba-program-correction",
+      "publication_date": "2026-09-24",
+      "abstract": "Correction notice.",
+      "document_number": "2026-00001",
+      "agencies": [{"name": "Agriculture Department"}]
+    },
+    {
+      "title": "Establishment of the Example Rural Broadband Grant Program",
+      "html_url": "https://www.federalregister.gov/documents/2026/09/24/2026-00002/establishment-of-the-example-rural-broadband-grant-program",
+      "publication_date": "2026-09-24",
+      "abstract": "This final rule establishes a new grant program.",
+      "document_number": "2026-00002",
+      "agencies": [{"name": "Rural Utilities Service"}, {"raw_name": "AGRICULTURE DEPARTMENT"}]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ Never invent scheme eligibility. Official sources only. Dual-tree
 | Piece | Path / script | Purpose |
 |-------|----------------|---------|
 | Human-verify candidate queue | `data/catalogue_candidates.json` | Statused queue before catalogue add |
+| Auto-draft candidates (2026-09-25) | `scripts/draft_candidates_from_sources.py` | Official feeds → `needs_review` leads + daily digest |
 | List / update candidates | `scripts/list_catalogue_candidates.py`, `scripts/update_catalogue_candidate.py` | Transitions + audit via `append_catalogue_audit.py` |
 | URL ticket queue | `data/url_tickets.jsonl` | Append-only tickets for DNS/404/5xx/SSL |
 | Ticket list | `scripts/list_url_tickets.py` | Latest open/investigating/fixed view |
@@ -26,15 +27,84 @@ Never invent scheme eligibility. Official sources only. Dual-tree
 Schema (each row in `candidates[]`):
 
 - `id`, `name`, `country`, `official_source_url`
-- `status`: `queued` \| `researching` \| `verified_add` \| `rejected` \| `deferred`
+- `status`: `needs_review` \| `queued` \| `researching` \| `verified_add` \| `rejected` \| `deferred`
+  (`needs_review` = auto-drafted lead, nobody has looked at it yet)
 - `reason`, `noted_at`, `actor`, `notes`
 - optional `scheme_id_if_present` when already curated
+- auto-drafted rows add: `auto_drafted: true`, `verified: false`, `candidate_kind`
+  (`scheme_listing` \| `press_release_lead` \| `notice_lead`), `source`
+  (`id`, `label`, `feed_url`, `lang`), `source_url`, `found_at` (YYYY-MM-DD IST) and
+  `extracted` — each field `{ "value", "verified": false, "source_field" }`, copied
+  verbatim from the feed/listing. **No eligibility is ever extracted or inferred.**
 
 **Honesty:** Historical India leftovers (PM-KMY, PM-SYM, NAMASTE) are already in
 `schemes.json` (`in-pm-kmy`, `in-pm-sym`, `in-namaste`). Phase 4 seeds **deferred**
 documentation rows only — open queue may be empty. That is intentional.
 
-### Daily freshness → candidates
+### Daily freshness → candidates (automated drafting, 2026-09-25)
+
+`scripts/draft_candidates_from_sources.py` turns the "paste a candidate" step into
+an automatic **draft** step. It never touches `schemes.json` and never invents
+eligibility; everything it writes is `status: "needs_review"` and unverified.
+
+Sources (official only; polite: robots.txt honoured, ≥2 s between requests per
+host, 15 s timeout, 5 MB cap, ≤50 items per source, ≤20 new rows per run):
+
+| id | Source | Notes |
+|----|--------|-------|
+| `pib-en`, `pib-hi` | PIB press-release RSS (English, Hindi) | Leads only (press releases, not scheme pages). **Akamai returns 403 to the box/CI network** — reported as `blocked`; works from Indian networks |
+| `myscheme` | myScheme listing | The listing is client-rendered behind a keyed search API, so it is **opt-in**: pass `--myscheme-json FILE` (a saved search-API JSON response) or set `MYSCHEME_API_KEY` only if you are authorised to use a key. Skipped otherwise |
+| `gov-uk` | GOV.UK news Atom (keyword "scheme") | Leads |
+| `canada-news` | Canada News Centre Atom (news releases only) | Leads |
+| `us-federal-register` | Federal Register API (final rules, term "program") | Leads |
+
+Filtering and dedupe:
+
+- Feed items need a scheme/programme term **and** a launch/new/opens signal in the
+  title (Hindi: योजना/मिशन/अभियान… + शुभारंभ/शुरू/घोषणा…); routine items
+  (corrections, statements, media advisories, seizures…) are dropped; items older
+  than `--since-days` (default 3) are ignored.
+- A row is a duplicate if its id, normalised URL (scheme/`www`/trailing slash/
+  `utm_*`-insensitive) or fuzzy name (difflib ≥ 0.88 after `Pradhan Mantri→PM`
+  aliasing and stop-words, EN/HI/ML names, or the same explicit acronym such as
+  `PM-KISAN`) matches a scheme in `schemes.json` **or** any row already in the queue.
+  Re-runs are idempotent (ids are derived from the source URL).
+- Headlines naming a scheme we already carry (e.g. "…PM-KISAN instalment…") are
+  **not** drafted; they are listed under "Existing schemes in the news" in the
+  digest as a re-verification prompt.
+
+#### Daily routine (run after the 6:09 AM IST freshness check)
+
+```bash
+cd <repo> && git pull --ff-only
+python3 scripts/draft_candidates_from_sources.py \
+  --digest-md /tmp/candidate-digest.md \
+  --summary-json /tmp/candidate-digest.json
+# optional: --myscheme-json /path/to/myscheme-search.json
+python3 scripts/list_catalogue_candidates.py --status needs_review
+```
+
+Report in the daily digest (paste `/tmp/candidate-digest.md` as-is). It contains:
+
+1. The count of new `needs_review` candidates, each with name, source and URL.
+2. Duplicates skipped, plus "existing schemes in the news" (re-verify those).
+3. The per-source status table. Call out any `blocked`/`error` source (PIB 403
+   from non-Indian networks is expected) so a human can check it by hand.
+4. If new rows were written, commit **only** `data/catalogue_candidates.json`,
+   `frontend/data/catalogue_candidates.json` and `data/catalogue_audit.jsonl`
+   (message: `catalogue: auto-draft N needs_review candidates (YYYY-MM-DD)`).
+   Never commit a `schemes.json` change from this step.
+
+Preview without writing anything: add `--dry-run --digest`. Offline/test mode:
+`--offline-dir backend/tests/fixtures/candidate_sources --today 2026-09-25`.
+Tests: `backend/tests/test_draft_candidates.py` (fixtures only, network disabled).
+
+Human triage of a `needs_review` row: open `source_url`, find the official scheme
+page, then `update_catalogue_candidate.py --id <id> --status researching|rejected
+--reason "..."`. Only after human verification does anything go to a
+`schemes.json` PR.
+
+### Manual path (still supported)
 
 External daily freshness (~**6:09 AM IST**) already runs outside this slice.
 Enhance the human loop as:
@@ -148,7 +218,9 @@ Env gate unchanged: `NEXT_PUBLIC_SHOW_OPS=1` **or** `OPS_DASHBOARD_TOKEN`.
 
 - Full human CMS + reviewer/publisher UI
 - Pager / on-call for ticket SLA
-- Automated candidate extraction from freshness Markdown (still human paste OK)
+- ~~Automated candidate extraction~~ → drafting shipped 2026-09-25 (`draft_candidates_from_sources.py`);
+  still open: myScheme without a key/export, PIB from non-Indian networks, and
+  extracting fields beyond feed metadata (deliberately not attempted: no eligibility parsing)
 - Claiming Phase 4 complete or enterprise “500k” catalogue scale
 - Fly/Vercel deploy without credentials
 

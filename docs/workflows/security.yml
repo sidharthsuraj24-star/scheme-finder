@@ -1,0 +1,74 @@
+# Copy to .github/workflows/security.yml (needs a token with the `workflow`
+# scope — see docs/DATA_REFRESH.md for why workflow files live under
+# docs/workflows/). Free tooling only; this is not a penetration test.
+name: Security (deps, secrets, headers, ZAP baseline)
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "30 2 * * 1" # Mondays 08:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Dependency + secret audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history for gitleaks
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+        working-directory: frontend
+      - run: pip install pip-audit
+      - name: Install gitleaks
+        run: |
+          curl -sSL https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz \
+            | tar -xz -C /usr/local/bin gitleaks
+      # npm audit (>= moderate) + pip-audit + gitleaks over all refs.
+      - run: bash scripts/security_audit.sh
+
+  headers:
+    name: Security headers + CSP (Playwright)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+      # Header assertions, nonce CSP with zero violations across real flows,
+      # API body caps / validation / generic errors, ops token gate.
+      - run: npx playwright test e2e/security-headers.spec.ts
+
+  zap-baseline:
+    name: OWASP ZAP baseline (passive) against production
+    # Passive only: spiders + observes responses, no attack payloads.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: zaproxy/action-baseline@v0.14.0
+        with:
+          target: "https://frontend-theta-wheat-82.vercel.app"
+          allow_issue_writing: false
+          fail_action: false
+          cmd_options: "-m 1"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:www.gov.uk,2005:/search/news-and-communications</id>
+  <title>News and communications (fixture)</title>
+  <entry>
+    <id>https://www.gov.uk/government/news/example-carers-grant-opens</id>
+    <updated>2026-09-24T09:30:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.gov.uk/government/news/example-carers-grant-opens"/>
+    <title>New Example Carers Grant scheme opens for applications</title>
+    <summary type="html">Unpaid carers in England can now apply.</summary>
+  </entry>
+  <entry>
+    <id>https://www.gov.uk/government/news/minister-visit</id>
+    <updated>2026-09-24T08:00:00+01:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.gov.uk/government/news/minister-visit"/>
+    <title>Minister visits flood defence scheme</title>
+    <summary type="html">A visit, not a new offer.</summary>
+  </entry>
+</feed>

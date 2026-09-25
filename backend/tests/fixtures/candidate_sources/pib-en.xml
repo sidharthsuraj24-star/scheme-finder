@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PIB - Press Releases (fixture)</title>
+    <link>https://www.pib.gov.in/</link>
+    <item>
+      <title>Cabinet approves new Pradhan Mantri Example Artisan Yojana for traditional artisans</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990001</link>
+      <pubDate>Thu, 24 Sep 2026 18:30:00 +0530</pubDate>
+      <description>&lt;p&gt;The Union Cabinet today approved the Pradhan Mantri Example Artisan Yojana.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>21st instalment under PM-KISAN released to farmers</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990002</link>
+      <pubDate>Thu, 24 Sep 2026 12:00:00 +0530</pubDate>
+      <description>Instalment update for an existing scheme.</description>
+    </item>
+    <item>
+      <title>Statement by Minister on new scheme proposals in Parliament</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990003</link>
+      <pubDate>Thu, 24 Sep 2026 11:00:00 +0530</pubDate>
+      <description>Routine statement.</description>
+    </item>
+    <item>
+      <title>Government launches Old Example Scholarship Scheme</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9980000</link>
+      <pubDate>Mon, 01 Jun 2026 10:00:00 +0530</pubDate>
+      <description>Too old for the since-days window.</description>
+    </item>
+    <item>
+      <title>Launch of Example Queue Duplicate Mission</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990004</link>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0530</pubDate>
+      <description>Same URL as a row already in the candidate queue.</description>
+    </item>
+    <item>
+      <title>Vice President addresses convocation</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990005</link>
+      <pubDate>Thu, 24 Sep 2026 08:00:00 +0530</pubDate>
+      <description>Not a scheme.</description>
+    </item>
+  </channel>
+</rss>

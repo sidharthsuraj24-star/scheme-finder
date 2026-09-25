@@ -200,3 +200,10 @@ India, Bangladesh, Nepal, Sri Lanka, Maldives and the United States. Conventions
 - Wizard focus moves to the new question heading on every step change; errors focus the first invalid control.
 - Choice answers stay as `aria-pressed` toggle buttons (visible ✓ indicator added) rather than native radios — revisit after human screen-reader testing.
 - Regression gate: Playwright + axe (`npm run test:a11y`) fails on serious/critical WCAG violations; CI template in `docs/workflows/a11y.yml`.
+
+## 2026-09-25 — Free security pass (Phase 2) + auto-drafted candidates (Phase 4)
+
+- Security: strict **nonce-based CSP** (pages rendered dynamically for per-request nonces), full header set via `next.config.mjs` + `src/lib/securityHeaders.mjs`, `/backend` rewrite dev-only, constant-time header-only ops token, streamed body caps, analytics sanitised before forwarding. Scans + before/after in `docs/SECURITY.md`. Explicitly **not** a pentest / SOC 2.
+- `postcss` advisory in Next 15's bundled copy fixed with an npm `overrides` entry rather than a Next 16 major upgrade.
+- Vercel's `Access-Control-Allow-Origin: *` on public static/HTML accepted (no credentials).
+- Candidate queue gains status **`needs_review`** for machine-drafted leads (`scripts/draft_candidates_from_sources.py`). Drafts copy feed metadata verbatim, each field `verified: false`; never eligibility, never `schemes.json`. myScheme is opt-in (keyed API / export) and PIB is 403 from non-Indian networks — both reported as source status, not silently skipped.

@@ -21,6 +21,12 @@ import {
   type Lang,
 } from "./helpers";
 
+// These specs audit accessibility, not CSP: they inject helper <style> tags
+// (contrast flattening, WCAG 1.4.12 text-spacing override) that the strict
+// production CSP would rightly block. CSP itself is covered, without bypass,
+// by e2e/security-headers.spec.ts.
+test.use({ bypassCSP: true });
+
 const LANGS: Lang[] = ["en", "hi", "ml"];
 
 async function check(page: Page, state: string, lang: string, project: string) {

@@ -24,6 +24,7 @@ def _clear_rate_limits(app) -> None:
         seen.add(id(obj))
         if isinstance(obj, MatchRateLimitMiddleware):
             obj._hits.clear()
+            obj._ops_hits.clear()
         for attr in ("app", "application"):
             walk(getattr(obj, attr, None))
 
@@ -274,3 +275,69 @@ def test_docs_disabled_in_production(monkeypatch):
     finally:
         monkeypatch.setenv("ENV", "development")
         importlib.reload(main_mod)
+
+
+# --- Phase 2 security pass (2026-09-25) -----------------------------------
+
+
+def test_hardening_headers_on_api(client):
+    r = client.get("/health")
+    assert r.headers["strict-transport-security"].startswith("max-age=63072000")
+    assert r.headers["cache-control"] == "no-store"
+    assert r.headers["cross-origin-opener-policy"] == "same-origin"
+    assert "camera=()" in r.headers["permissions-policy"]
+
+
+def test_ops_401_is_generic_and_constant_time(monkeypatch):
+    monkeypatch.setenv("OPS_DASHBOARD_TOKEN", "phase2-secret-token")
+    monkeypatch.delenv("NEXT_PUBLIC_SHOW_OPS", raising=False)
+    from app import main as main_mod
+    from app import security as sec
+
+    with TestClient(main_mod.app) as c:
+        _clear_rate_limits(main_mod.app)
+        r = c.get("/ops/summary", headers={"Authorization": "Bearer wrong"})
+        assert r.status_code == 401
+        body = r.text
+        # No env-var names / auth-mode hints and never the configured token.
+        assert "OPS_DASHBOARD_TOKEN" not in body
+        assert "NEXT_PUBLIC_SHOW_OPS" not in body
+        assert "phase2-secret-token" not in body
+        assert r.json()["detail"]["error"]["message"] == "Unauthorized"
+        # Token in the query string is never accepted.
+        assert c.get("/ops/summary?token=phase2-secret-token").status_code == 401
+        assert c.get("/ops/summary", headers={"X-Ops-Token": "phase2-secret-token"}).status_code == 200
+        # Prefix of the token must not pass.
+        assert c.get("/ops/summary", headers={"Authorization": "Bearer phase2-secret"}).status_code == 401
+    import inspect
+
+    assert "compare_digest" in inspect.getsource(sec.ops_authorized)
+
+
+def test_ops_auth_is_rate_limited(monkeypatch):
+    monkeypatch.setenv("OPS_DASHBOARD_TOKEN", "phase2-secret-token")
+    monkeypatch.setenv("OPS_RATE_LIMIT_MAX", "3")
+    from app import main as main_mod
+
+    with TestClient(main_mod.app) as c:
+        _clear_rate_limits(main_mod.app)
+        codes = [c.get("/ops/summary", headers={"Authorization": "Bearer nope"}).status_code for _ in range(5)]
+        assert codes[:3] == [401, 401, 401]
+        assert codes[3:] == [429, 429]
+        _clear_rate_limits(main_mod.app)
+
+
+def test_chunked_post_without_length_rejected(client):
+    def gen():
+        yield b'{"age": 30}'
+
+    r = client.post("/match", content=gen(), headers={"Content-Type": "application/json"})
+    assert r.status_code == 411
+
+
+def test_cors_never_allows_credentials(client):
+    r = client.options(
+        "/match",
+        headers={"Origin": "https://evil.example", "Access-Control-Request-Method": "POST"},
+    )
+    assert r.headers.get("access-control-allow-credentials") != "true"

@@ -76,6 +76,13 @@ language / viewport + scripted keyboard checks + Lighthouse) done and fixes ship
 see **`docs/ACCESSIBILITY.md`**. Not a formal certification; human screen-reader
 testing still recommended.
 
+**2026-09-25 (security):** free security pass — OWASP ZAP baseline (passive) on
+production + full ZAP scan on a local production build, `npm audit`, `pip-audit`,
+gitleaks over all git history. Fixes shipped: strict nonce-based CSP, HSTS, COOP,
+Permissions-Policy, X-Frame-Options, API body caps / rate limits / generic errors,
+constant-time ops token. See **`docs/SECURITY.md`**. This is **not** a penetration
+test or SOC 2; both are still needed.
+
 **Later Phase 2 milestones (not claimed done here):**
 
 - External **pentest**

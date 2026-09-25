@@ -25,6 +25,7 @@ type OpsSummary = {
   candidates?: {
     total?: number;
     by_status?: Record<string, number>;
+    needs_review?: number;
     queued?: number;
     deferred?: number;
   };
@@ -97,7 +98,10 @@ export default function OpsPage() {
 
       {/* 3.3.8 Accessible Authentication: a pasteable token field with a real
           label, password-manager friendly autocomplete, Enter submits. No
-          cognitive function test / CAPTCHA. */}
+          cognitive function test / CAPTCHA.
+          Security: the input deliberately has no `name`, so a pre-hydration
+          native submit can never serialise the token into the URL; the token
+          only ever travels in the Authorization header. */}
       <form
         className="flex flex-col gap-2 rounded-xl border border-slate-300 bg-white p-3"
         onSubmit={(e) => {
@@ -111,7 +115,6 @@ export default function OpsPage() {
         <div className="flex flex-col gap-2 sm:flex-row">
           <input
             id="ops-token"
-            name="ops-token"
             type="password"
             autoComplete="current-password"
             className="min-h-tap flex-1 rounded-lg border-2 border-slate-500 px-3 text-base"
@@ -211,7 +214,8 @@ export default function OpsPage() {
           <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
             <h2 className="font-bold text-slate-900">Candidate queue</h2>
             <p className="mt-1 text-slate-700">
-              total {data.candidates?.total ?? "—"} · queued {data.candidates?.queued ?? "—"} ·
+              total {data.candidates?.total ?? "—"} · needs review (auto-drafted){" "}
+              {data.candidates?.needs_review ?? 0} · queued {data.candidates?.queued ?? "—"} ·
               deferred {data.candidates?.deferred ?? "—"}
             </p>
             {data.candidates?.by_status ? (

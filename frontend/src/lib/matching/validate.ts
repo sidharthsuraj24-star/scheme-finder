@@ -13,6 +13,8 @@ import {
   type MatchProfile,
 } from "./types";
 
+const SUPPORTED_LANGS = new Set(["en", "hi", "ml"]);
+
 function coerceStrList(v: unknown): string[] {
   if (v == null) return [];
   let items: string[];
@@ -166,7 +168,9 @@ export function buildProfile(raw: Record<string, unknown>): MatchProfile {
     disability,
     disability_percent,
     land_ownership: landOwnership(raw.land_ownership),
-    language: optStr(raw.language, "language", 16),
+    // UI language only (never a path / lookup key): allow-list, else null.
+    language:
+      typeof raw.language === "string" && SUPPORTED_LANGS.has(raw.language) ? raw.language : null,
     is_student,
     is_pregnant: optBool(raw.is_pregnant),
     pregnancy_order: optNumber(raw.pregnancy_order, "pregnancy_order", {
@@ -262,7 +266,9 @@ export function resolveMatchRequest(body: unknown): {
     optsRaw.include_verify_uncertain == null
       ? true
       : Boolean(optsRaw.include_verify_uncertain);
-  const lang = typeof optsRaw.lang === "string" ? optsRaw.lang.slice(0, 8) : "en";
+  // Allow-list: unknown languages fall back to English (never used as a path).
+  const lang =
+    typeof optsRaw.lang === "string" && SUPPORTED_LANGS.has(optsRaw.lang) ? optsRaw.lang : "en";
   let max_results = 50;
   if (optsRaw.max_results != null) {
     const n = Number(optsRaw.max_results);

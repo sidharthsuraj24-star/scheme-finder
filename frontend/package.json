@@ -9,10 +9,12 @@
     "lint": "next lint",
     "test:a11y": "playwright test",
     "test:a11y:report": "A11Y_REPORT_DIR=a11y-report playwright test e2e/a11y-axe.spec.ts; node scripts/a11y-summarize.mjs a11y-report",
-    "test:a11y:install": "playwright install --with-deps chromium"
+    "test:a11y:install": "playwright install --with-deps chromium",
+    "test:security": "playwright test e2e/security-headers.spec.ts",
+    "audit:deps": "bash ../scripts/security_audit.sh"
   },
   "dependencies": {
-    "next": "^15.1.0",
+    "next": "^15.5.26",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -24,9 +26,14 @@
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
-    "eslint-config-next": "^15.1.0",
-    "postcss": "^8.4.49",
+    "eslint-config-next": "^15.5.26",
+    "postcss": "^8.5.28",
     "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.28"
+    }
   }
 }

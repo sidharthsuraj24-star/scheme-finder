@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>पीआईबी (fixture)</title>
+    <item>
+      <title>प्रधानमंत्री ने उदाहरण कौशल योजना का शुभारंभ किया</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990101</link>
+      <pubDate>Thu, 24 Sep 2026 17:00:00 +0530</pubDate>
+      <description>नई योजना का शुभारंभ।</description>
+    </item>
+    <item>
+      <title>राष्ट्रपति का संबोधन</title>
+      <link>https://www.pib.gov.in/PressReleasePage.aspx?PRID=9990102</link>
+      <pubDate>Thu, 24 Sep 2026 16:00:00 +0530</pubDate>
+      <description>कोई योजना नहीं।</description>
+    </item>
+  </channel>
+</rss>

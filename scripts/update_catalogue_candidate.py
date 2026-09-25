@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Update a catalogue candidate status and append audit trail.
 
-Status transitions: queued|researching|verified_add|rejected|deferred
+Status transitions: needs_review|queued|researching|verified_add|rejected|deferred
+(`needs_review` = auto-drafted by scripts/draft_candidates_from_sources.py; a
+human moves it to queued/researching/rejected after checking the source).
 Never invents eligibility. Prefer queue plumbing over adding schemes here.
 """
 
@@ -20,7 +22,7 @@ FE_DEFAULT = REPO_ROOT / "frontend" / "data" / "catalogue_candidates.json"
 SCHEMES = REPO_ROOT / "data" / "schemes.json"
 IST = ZoneInfo("Asia/Kolkata")
 
-VALID = frozenset({"queued", "researching", "verified_add", "rejected", "deferred"})
+VALID = frozenset({"needs_review", "queued", "researching", "verified_add", "rejected", "deferred"})
 
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from append_catalogue_audit import append_audit, resolve_actor  # noqa: E402

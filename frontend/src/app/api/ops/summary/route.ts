@@ -3,27 +3,16 @@ import {
   cataloguePayload,
   getAllSchemes,
   isCatalogueStale,
+  allowRequest,
+  clientIp,
   jsonWithSecurity,
+  opsAuthorized,
   schemeCount,
 } from "@/lib/matching";
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 
 export const runtime = "nodejs";
-
-function opsAllowed(request: Request): boolean {
-  const token = (process.env.OPS_DASHBOARD_TOKEN || "").trim();
-  if (token) {
-    const auth = (request.headers.get("authorization") || "").trim();
-    if (auth.toLowerCase().startsWith("bearer ") && auth.slice(7).trim() === token) {
-      return true;
-    }
-    const alt = (request.headers.get("x-ops-token") || "").trim();
-    return alt === token;
-  }
-  const show = (process.env.NEXT_PUBLIC_SHOW_OPS || "").trim().toLowerCase();
-  return show === "1" || show === "true" || show === "yes";
-}
 
 function loadJson(candidates: string[]): Record<string, unknown> | null {
   for (const path of candidates) {
@@ -94,6 +83,7 @@ function loadUrlTicketsSummary(): {
 function loadCandidatesSummary(): {
   total: number;
   by_status: Record<string, number>;
+  needs_review: number;
   queued: number;
   researching: number;
   deferred: number;
@@ -115,6 +105,7 @@ function loadCandidatesSummary(): {
   return {
     total: list.length,
     by_status,
+    needs_review: by_status.needs_review || 0,
     queued: by_status.queued || 0,
     researching: by_status.researching || 0,
     deferred: by_status.deferred || 0,
@@ -145,16 +136,18 @@ function loadPacksSummary(): {
 
 
 export async function GET(request: Request) {
-  if (!opsAllowed(request)) {
+  // Throttle before checking the token so guessing is rate-limited too.
+  if (!allowRequest("ops", clientIp(request), Number(process.env.OPS_RATE_LIMIT_MAX || 30), 60)) {
     return jsonWithSecurity(
-      {
-        error: {
-          code: "ops_unauthorized",
-          message:
-            "Set NEXT_PUBLIC_SHOW_OPS=1 for demo, or send Authorization: Bearer <OPS_DASHBOARD_TOKEN>.",
-        },
-      },
-      { status: 401 },
+      { error: { code: "rate_limited", message: "Too many requests; try again shortly." } },
+      { status: 429, headers: { "Retry-After": "60" } },
+    );
+  }
+  if (!opsAuthorized(request)) {
+    // Generic message: do not reveal which env vars / auth modes exist.
+    return jsonWithSecurity(
+      { error: { code: "ops_unauthorized", message: "Unauthorized" } },
+      { status: 401, headers: { "WWW-Authenticate": 'Bearer realm="ops"' } },
     );
   }
 
@@ -194,7 +187,11 @@ export async function GET(request: Request) {
       const headers: Record<string, string> = { Accept: "application/json" };
       const token = (process.env.OPS_DASHBOARD_TOKEN || "").trim();
       if (token) headers.Authorization = `Bearer ${token}`;
-      const r = await fetch(`${api}/api/v1/ops/summary`, { headers, cache: "no-store" });
+      const r = await fetch(`${api}/api/v1/ops/summary`, {
+        headers,
+        cache: "no-store",
+        signal: AbortSignal.timeout(5000),
+      });
       if (r.ok) {
         return jsonWithSecurity(await r.json());
       }

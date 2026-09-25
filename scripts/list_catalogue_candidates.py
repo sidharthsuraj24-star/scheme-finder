@@ -20,7 +20,7 @@ def main() -> int:
     ap.add_argument(
         "--status",
         default="",
-        help="Filter by status (queued|researching|verified_add|rejected|deferred)",
+        help="Filter by status (needs_review|queued|researching|verified_add|rejected|deferred)",
     )
     ap.add_argument("--json", action="store_true", help="Print raw JSON array")
     args = ap.parse_args()
