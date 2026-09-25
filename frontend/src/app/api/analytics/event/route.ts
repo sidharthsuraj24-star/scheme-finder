@@ -73,8 +73,3 @@ export async function POST(request: Request) {
   }
   return jsonWithSecurity({ ok: true, backend: api ? "forward+memory" : "memory" });
 }
-
-/** Test/ops helper — not public docs; returns aggregates only. */
-export function __memorySnapshotForTests(): Record<string, number> {
-  return { ...memory };
-}
