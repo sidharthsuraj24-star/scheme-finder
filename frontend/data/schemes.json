@@ -64551,7 +64551,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 200000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -64565,9 +64565,9 @@
         "United Kingdom"
       ],
       "nationwide": true,
-      "notes": "Child aged 11 or under (16 or under if disabled). You (and your partner) must be working and expect to earn at least the minimum threshold (about 16 hours a week at National Minimum/Living Wage) over the next 3 months, and each of you must have adjusted net income of £100,000 or less. Cannot be used at the same time as Universal Credit childcare costs or childcare vouchers.",
+      "notes": "Child aged 11 or under (16 or under if disabled). You (and your partner) must be working and expect to earn at least the minimum threshold (about 16 hours a week at National Minimum/Living Wage) over the next 3 months, and each of you must have adjusted net income of £100,000 or less. Cannot be used at the same time as Universal Credit childcare costs or childcare vouchers. Catalogue cap £200,000: you cannot get Tax-Free Childcare if you or your partner expects adjusted net income over £100,000, so no eligible two-parent household has more than 2 × £100,000 (single parents: £100,000).",
       "verify": true,
-      "verify_notes": "£100,000 is a per-parent adjusted-net-income limit, not a household cap — left in notes (max_annual_income null). Middle- and higher-income working families qualify.",
+      "verify_notes": "max_annual_income = household maximum implied by the official per-parent £100,000 adjusted-net-income limit (GOV.UK Tax-Free Childcare eligibility). Adjusted net income is after pension contributions, so check gross incomes near the limit.",
       "implies_low_income": false
     },
     "benefits": {
@@ -66628,7 +66628,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 200000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -66644,9 +66644,9 @@
         "United Kingdom"
       ],
       "nationwide": false,
-      "notes": "Child aged 9 months to 4 years (until school). You (and your partner) usually work and each expect to earn at least the minimum threshold (about 16 hours a week at National Minimum/Living Wage) over the next 3 months, and each has adjusted net income of £100,000 or less.",
+      "notes": "Child aged 9 months to 4 years (until school). You (and your partner) usually work and each expect to earn at least the minimum threshold (about 16 hours a week at National Minimum/Living Wage) over the next 3 months, and each has adjusted net income of £100,000 or less. Catalogue cap £200,000: each parent must expect adjusted net income of £100,000 or less, so no eligible two-parent household has more than 2 × £100,000.",
       "verify": true,
-      "verify_notes": "£100,000 is per parent, not a household cap — max_annual_income null.",
+      "verify_notes": "max_annual_income = household maximum implied by the official per-parent £100,000 limit (GOV.UK childcare for working parents).",
       "implies_low_income": false
     },
     "benefits": {
@@ -68338,7 +68338,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 200000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -68354,9 +68354,9 @@
         "United Kingdom"
       ],
       "nationwide": false,
-      "notes": "Live in Wales; each parent's gross income £100,000 or less; each parent employed and earning at least the equivalent of 16 hours a week at National Minimum/Living Wage, on statutory leave, or enrolled on a further or higher education course of at least 10 weeks. Child aged 3-4 (from the term after turning 3, per local admissions).",
+      "notes": "Live in Wales; each parent's gross income £100,000 or less; each parent employed and earning at least the equivalent of 16 hours a week at National Minimum/Living Wage, on statutory leave, or enrolled on a further or higher education course of at least 10 weeks. Child aged 3-4 (from the term after turning 3, per local admissions). Catalogue cap £200,000: each parent's gross income must be £100,000 or less, so no eligible two-parent household has more than 2 × £100,000.",
       "verify": true,
-      "verify_notes": "£100,000 per-parent gross limit — not a household cap (max_annual_income null).",
+      "verify_notes": "max_annual_income = household maximum implied by the official per-parent £100,000 gross income limit (gov.wales Childcare Offer).",
       "implies_low_income": false
     },
     "benefits": {
@@ -69045,7 +69045,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 318300,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -69059,9 +69059,9 @@
         "Canada"
       ],
       "nationwide": true,
-      "notes": "You live with a child under 18, are primarily responsible for their care and upbringing, and are a resident of Canada for tax purposes; you or your spouse/partner is a Canadian citizen, permanent resident, protected person, temporary resident who has lived in Canada for the previous 18 months (with a valid permit in the 19th month), or registered under the Indian Act. No hard income ceiling: phase-out starts at AFNI C$38,237 (second tier C$82,847); families with several young children can still get a partial amount at high incomes.",
+      "notes": "You live with a child under 18, are primarily responsible for their care and upbringing, and are a resident of Canada for tax purposes; you or your spouse/partner is a Canadian citizen, permanent resident, protected person, temporary resident who has lived in Canada for the previous 18 months (with a valid permit in the 19th month), or registered under the Indian Act. No hard income ceiling: phase-out starts at AFNI C$38,237 (second tier C$82,847); families with several young children can still get a partial amount at high incomes. Catalogue cap C$318,300 = where the CCB reaches zero for 4 children under 6 (July 2026 – June 2027): max 4 × C$8,157 = C$32,628, reduced by C$10,260 + 9.5% of AFNI over C$82,847 (CRA formula for 4+ children). Smaller or older families reach zero earlier (e.g. 1 child under 6: about C$240,160).",
       "verify": true,
-      "verify_notes": "No income cut-off: max_annual_income null and implies_low_income false by design (official phase-out, not a ceiling). Rates from CRA 'How much you can get' (July 2026 – June 2027).",
+      "verify_notes": "max_annual_income = official zero-point for 4 children under 6 (largest family size CRA tabulates as '4 or more'); computed from CRA 'How much you can get' (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html). Still reaches middle and upper-middle incomes.",
       "implies_low_income": false
     },
     "benefits": {
@@ -69104,7 +69104,6 @@
       "children",
       "cash",
       "tax",
-      "universal",
       "middle-class",
       "upper-middle-class",
       "high-income-eligible"
@@ -69125,7 +69124,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 266005,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -69139,9 +69138,9 @@
         "Canada"
       ],
       "nationwide": true,
-      "notes": "You are eligible for the Canada Child Benefit and the child is under 18 and eligible for the disability tax credit. The disability is the child's — the parent does not need a disability.",
+      "notes": "You are eligible for the Canada Child Benefit and the child is under 18 and eligible for the disability tax credit. The disability is the child's — the parent does not need a disability. Catalogue cap C$266,005 = where the CDB reaches zero for 3 DTC-eligible children (largest size in CRA's guideline table): 3 × C$3,480 reduced by 5.7% of AFNI over C$82,847. CRA's July 2026 table shows C$0.00 at C$270,000 for three dependants; one dependant reaches zero at about C$191,597.",
       "verify": true,
-      "verify_notes": "Reduced above C$82,847 AFNI but no single zero-out ceiling (depends on children) — max_annual_income null. disability_required false because the child, not the applicant, must be DTC-eligible.",
+      "verify_notes": "max_annual_income = official zero-point for 3 eligible dependants from CRA CDB guideline table July 2026 – June 2027 (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/cdb-table-july-2026.html).",
       "implies_low_income": false
     },
     "benefits": {
@@ -71326,7 +71325,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 70143,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -71342,9 +71341,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "Alberta resident eligible for the CCB with children under 18. Base component reduced when AFNI exceeds C$28,116 (partial between C$28,116 and C$47,115); working component reduced above C$47,115.",
+      "notes": "Alberta resident eligible for the CCB with children under 18. Base component reduced when AFNI exceeds C$28,116 (partial between C$28,116 and C$47,115); working component reduced above C$47,115. Catalogue cap C$70,143 = where the ACFB reaches zero for 4+ children: the base component (C$3,821) is reduced by 20.11% of AFNI over C$28,116 (zero at about C$47,115) and the working component (max C$2,061) by 8.95% of AFNI over C$47,115 (2026–27 amounts: CRA/alberta.ca; rates: Alberta Personal Income Tax Act s. 30.2). Every family size reaches zero at about C$70,100–70,150.",
       "verify": true,
-      "verify_notes": "Zero-out depends on number of children — max_annual_income null; phase-out reaches middle incomes so implies_low_income false.",
+      "verify_notes": "max_annual_income = official zero-point for 4 or more children. Amounts/thresholds: CRA Alberta page (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html) and alberta.ca; reduction rates: Alberta Personal Income Tax Act, RSA 2000 c A-30, s. 30.2 (kings-printer.alberta.ca).",
       "implies_low_income": false
     },
     "benefits": {
@@ -71557,7 +71556,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 170937,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -71573,9 +71572,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "BC resident eligible for the CCB. Reduced by 4% of AFNI over C$30,176 down to the floor amounts; reduced by a further 4% of AFNI over C$96,562.",
+      "notes": "BC resident eligible for the CCB. Reduced by 4% of AFNI over C$30,176 down to the floor amounts; reduced by a further 4% of AFNI over C$96,562. Catalogue cap C$170,937 = where the BC family benefit reaches zero for 4 children: the guaranteed minimums (C$775 + C$750 + C$725 + C$725 = C$2,975) are reduced by 4% of AFNI over C$96,562 until zero (July 2026 – June 2027, gov.bc.ca).",
       "verify": true,
-      "verify_notes": "Phase-out reaches middle/upper-middle incomes and depends on children — max_annual_income null, implies_low_income false.",
+      "verify_notes": "max_annual_income = official zero-point for 4 children from the BC government page (https://www2.gov.bc.ca/gov/content/family-social-supports/affordability/family-benefit); the single-parent supplement is reduced in the first phase, so it does not raise the zero-point.",
       "implies_low_income": false
     },
     "benefits": {
@@ -72156,7 +72155,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 85000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -72172,9 +72171,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "New Brunswick resident eligible for the CGEB. Reduced by 2% of AFNI over C$35,000.",
+      "notes": "New Brunswick resident eligible for the CGEB. Reduced by 2% of AFNI over C$35,000. Catalogue cap C$85,000 = where the NB HST credit reaches zero for a couple with 4 children: C$300 + C$300 + 4 × C$100 = C$1,000, reduced by 2% of AFNI over C$35,000 (CRA New Brunswick page).",
       "verify": true,
-      "verify_notes": "Zero-out depends on family size — catalogue Canada soft gate (C$58,523) via implies_low_income.",
+      "verify_notes": "max_annual_income = official zero-point for a couple with 4 children (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html); replaces the catalogue soft gate.",
       "implies_low_income": true
     },
     "benefits": {
@@ -72677,7 +72676,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 39900,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -72693,9 +72692,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "Nova Scotia resident eligible for the CGEB; reduced by 5% of AFNI over C$30,000.",
+      "notes": "Nova Scotia resident eligible for the CGEB; reduced by 5% of AFNI over C$30,000. Catalogue cap C$39,900 = where the NS affordable living tax credit reaches zero for a couple with 4 children: C$255 + 4 × C$60 = C$495, reduced by 5% of AFNI over C$30,000 (CRA Nova Scotia page, July 2026 – June 2027).",
       "verify": true,
-      "verify_notes": "Zero-out depends on family size — catalogue Canada soft gate (C$58,523) via implies_low_income.",
+      "verify_notes": "max_annual_income = official zero-point for a family with 4 children (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html); replaces the catalogue soft gate.",
       "implies_low_income": true
     },
     "benefits": {
@@ -73192,7 +73191,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 80000,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -73208,9 +73207,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "NWT resident eligible for the CCB; partial benefit when AFNI is above C$30,000.",
+      "notes": "NWT resident eligible for the CCB; partial benefit when AFNI is above C$30,000. Catalogue cap C$80,000: CRA states the NWT child benefit is eliminated when adjusted family net income reaches C$80,000.",
       "verify": true,
-      "verify_notes": "Zero-out depends on number of children — catalogue Canada soft gate (C$58,523) via implies_low_income.",
+      "verify_notes": "max_annual_income = official elimination point stated by CRA (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html and T4114); replaces the catalogue soft gate.",
       "implies_low_income": true
     },
     "benefits": {
@@ -73419,7 +73418,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 117971,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -73435,9 +73434,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "Ontario resident on December 31, 2025 who applied on Form ON-BEN. Sales tax credit reduced by 4% of adjusted net income over C$29,047 (single, no children) or of AFNI over C$36,309 (families).",
+      "notes": "Ontario resident on December 31, 2025 who applied on Form ON-BEN. Sales tax credit reduced by 4% of adjusted net income over C$29,047 (single, no children) or of AFNI over C$36,309 (families). Catalogue cap C$117,971 = highest zero-point of the OTB components (2026 benefit year, 2025 income): OEPTC for a senior couple (max C$290 energy + C$1,198 property tax = C$1,488, reduced by 2% of AFNI over C$43,571). Other components end earlier: OEPTC non-senior family about C$101,659; OSTC for 2 adults + 4 children (6 × C$378, 4% over C$37,273 seniors' threshold) about C$93,973; NOEC family C$94,356.",
       "verify": true,
-      "verify_notes": "Components and thresholds vary by household — max_annual_income null; phase-out reaches middle-income families (implies_low_income false).",
+      "verify_notes": "max_annual_income = largest official zero-point across OTB components, from CRA 2026 OEPTC calculation sheet for married or common-law seniors, the CRA NOEC family calculation sheet, the CRA OSTC seniors' threshold Q&A and the CRA Ontario page (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html).",
       "implies_low_income": false
     },
     "benefits": {
@@ -73500,7 +73499,7 @@
     "eligibility_rules": {
       "min_age": null,
       "max_age": null,
-      "max_annual_income": null,
+      "max_annual_income": 114861,
       "max_monthly_household_income": null,
       "occupations": [],
       "categories": [],
@@ -73516,9 +73515,9 @@
         "Canada"
       ],
       "nationwide": false,
-      "notes": "Ontario resident eligible for the CCB; partial benefit when AFNI is above C$26,865 (zero-out rises with the number of children).",
+      "notes": "Ontario resident eligible for the CCB; partial benefit when AFNI is above C$26,865 (zero-out rises with the number of children). Catalogue cap C$114,861 = where the OCB reaches zero for 4 children: 4 × C$1,759.92 (C$146.66/month, July 2026 – June 2027, CRA) reduced by 8% of AFNI over C$26,865 (8% rate: Ontario Taxation Act, 2007 s. 104(5)). A 1-child family reaches zero at about C$48,864.",
       "verify": true,
-      "verify_notes": "Phase-out reaches middle incomes for larger families — max_annual_income null, implies_low_income false.",
+      "verify_notes": "max_annual_income = official zero-point for 4 children. Amount and threshold: CRA Ontario page (https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html); 8% reduction rate: https://www.ontario.ca/laws/statute/07t11 (Taxation Act, 2007, s. 104(5)).",
       "implies_low_income": false
     },
     "benefits": {

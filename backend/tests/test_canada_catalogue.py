@@ -122,10 +122,12 @@ def test_canada_rows_present_and_well_formed(ca_rows):
                 assert prov.lower().replace(" ", "_") in s["tags"]
         else:
             assert federal and er["nationwide"] is True, s["id"]
-        # Non-means-tested rows must not carry implies_low_income or an income cap
+        # Non-means-tested rows must not carry implies_low_income; an income cap is only
+        # allowed when it is an official zero-point that still reaches high incomes.
         if {"universal", "high-income-eligible"} & set(s["tags"]):
             assert er["implies_low_income"] is False, s["id"]
-            assert er["max_annual_income"] is None, s["id"]
+            cap = er["max_annual_income"]
+            assert cap is None or cap >= 150_000, (s["id"], cap)
         # Canada amounts are C$ — never bare "$"
         assert "C$" in s["benefits"]["en"] or "$" not in s["benefits"]["en"], s["id"]
 

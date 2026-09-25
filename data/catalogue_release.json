@@ -1,8 +1,8 @@
 {
   "updated_as_of": "2026-09-25",
   "scheme_count": 950,
-  "schemes_sha256": "996721dec1971177465e77dd4627ec6b3ae58fca47f2f0bfe5f9d2fd60c58e98",
-  "generated_at": "2026-09-25T15:48:28+05:30",
+  "schemes_sha256": "93d7e936032ffe9ba5c2e6f767fe03be34e63752193147b26fbb140b3af6eec8",
+  "generated_at": "2026-09-25T16:10:37+05:30",
   "timezone": "Asia/Kolkata",
   "changelog": [
     {
@@ -28,9 +28,17 @@
       "scheme_count": 950,
       "updated_as_of": "2026-09-25",
       "commit_sha": "d204c174d6528a18d8910fd0ce6f3037d0977f90"
+    },
+    {
+      "at": "2026-09-25T16:10:37+05:30",
+      "text": "2026-09-25: official phase-out zero-points as max_annual_income — CCB C$318,300, CDB C$266,005, OCB C$114,861, BCFB C$170,937, ACFB C$70,143, OTB C$117,971, NB HST credit C$85,000, NWT CB C$80,000, NS ALTC C$39,900; UK Tax-Free Childcare / England working-parent childcare / Wales Childcare Offer £200,000 (2 x per-parent £100k). 950 schemes.",
+      "schemes_sha256": "93d7e936032ffe9ba5c2e6f767fe03be34e63752193147b26fbb140b3af6eec8",
+      "scheme_count": 950,
+      "updated_as_of": "2026-09-25",
+      "commit_sha": "2aa5cf95c2341fb09efba6c906b10a90664845be"
     }
   ],
-  "latest_changelog": "2026-09-25: Canada added as catalogue country (67 can-* schemes: 29 federal + 38 provincial/territorial; canada-* packs; C$ currency; Canada C$58,523 soft gate; India bands and US gate never applied); India freshness candidates: PM-JANMAN added (in-pm-janman), PM-KUSUM + SVAMITVA deferred, Jal Jeevan Mission / PM SHRI / PM e-Bus Sewa rejected as infrastructure. 950 schemes.",
-  "commit_sha": "d204c174d6528a18d8910fd0ce6f3037d0977f90",
+  "latest_changelog": "2026-09-25: official phase-out zero-points as max_annual_income — CCB C$318,300, CDB C$266,005, OCB C$114,861, BCFB C$170,937, ACFB C$70,143, OTB C$117,971, NB HST credit C$85,000, NWT CB C$80,000, NS ALTC C$39,900; UK Tax-Free Childcare / England working-parent childcare / Wales Childcare Offer £200,000 (2 x per-parent £100k). 950 schemes.",
+  "commit_sha": "2aa5cf95c2341fb09efba6c906b10a90664845be",
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated."
 }

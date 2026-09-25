@@ -19,7 +19,7 @@
     "tr-widow-deserted-pension"
   ],
   "scheme_count": 11,
-  "generated_at": "2026-09-25T15:46:03+05:30",
+  "generated_at": "2026-09-25T16:10:20+05:30",
   "timezone": "Asia/Kolkata",
   "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
   "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"

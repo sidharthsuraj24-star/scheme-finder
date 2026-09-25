@@ -77,5 +77,8 @@ see docs/COUNTRY_CANADA.md).
 India candidates (2026-09-25): `python3 scripts/india_candidates_2026_09_25.py` (adds
 `in-pm-janman`; queue transitions via `update_catalogue_candidate.py`).
 URL ticket fixes (2026-09-25): `python3 scripts/url_ticket_fixes_2026_09_25.py` (idempotent).
+Phase-out zero-points (2026-09-25): `python3 scripts/phaseout_caps_2026_09_25.py` (caps in
+`phaseout_caps_2026_09_25_rows.py`; official zero-point for 4 children / largest tabulated family;
+idempotent; see docs/COUNTRY_CANADA.md).
 
 See `docs/CATALOGUE_OPS.md`. Does **not** invent eligibility or auto-edit schemes.

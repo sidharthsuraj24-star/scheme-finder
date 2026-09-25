@@ -351,9 +351,13 @@ function check(name: string, ok: boolean, detail = "") {
 
   const rich = matchSchemes(schemes, ukBase({ age: 30, annual_income: 250_000 }), opts);
   check("uk_rich_excludes_uc", !ids(rich).has("gb-universal-credit"));
-  for (const id of ["gb-lifetime-isa", "gb-child-benefit", "gb-tax-free-childcare"]) {
+  for (const id of ["gb-lifetime-isa", "gb-child-benefit", "gb-isa-allowance"]) {
     check(`uk_rich_keeps_${id}`, ids(rich).has(id));
   }
+  // Per-parent £100k childcare limits imply a £200k household maximum
+  check("uk_rich_excludes_tfc", !ids(rich).has("gb-tax-free-childcare"));
+  const ukUpper = matchSchemes(schemes, ukBase({ age: 30, annual_income: 150_000 }), opts);
+  check("uk_upper_keeps_tfc", ids(ukUpper).has("gb-tax-free-childcare"));
   check("uk_rich_excludes_shared_ownership", !ids(rich).has("gb-eng-shared-ownership"));
 
   const scot = matchSchemes(schemes, ukBase({ state: "Scotland", annual_income: 15_000 }), opts);
@@ -451,6 +455,15 @@ function check(name: string, ok: boolean, detail = "") {
   }
   check("ca_rich_excludes_cgeb", !ids(rich).has("can-groceries-essentials-benefit"));
   check("ca_rich_excludes_cdcp", !ids(rich).has("can-canada-dental-care-plan"));
+  // Official phase-out zero-points (2026-09-25): C$250k Ontario family no longer sees OCB
+  const onRich = matchSchemes(schemes, caBase({ state: "Ontario", age: 38, annual_income: 250_000 }), opts);
+  check("ca_on_rich_no_ocb", !ids(onRich).has("can-on-child-benefit"));
+  check("ca_on_rich_no_otb", !ids(onRich).has("can-on-trillium-benefit"));
+  check("ca_on_rich_keeps_ccb", ids(onRich).has("can-canada-child-benefit"));
+  const onLow = matchSchemes(schemes, caBase({ state: "Ontario", age: 30, annual_income: 45_000 }), opts);
+  check("ca_on_45k_keeps_ocb", ids(onLow).has("can-on-child-benefit"));
+  const onTop = matchSchemes(schemes, caBase({ state: "Ontario", age: 38, annual_income: 330_000 }), opts);
+  check("ca_330k_no_ccb", !ids(onTop).has("can-canada-child-benefit"));
 
   const qc = matchSchemes(schemes, caBase({ state: "Quebec", age: 30, annual_income: 60_000 }), opts);
   check("ca_quebec_qpip", ids(qc).has("can-qc-qpip"));

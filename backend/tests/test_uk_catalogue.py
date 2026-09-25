@@ -100,10 +100,12 @@ def test_uk_rows_present_and_well_formed(uk_rows):
                 assert nation.lower().replace(" ", "_") in s["tags"]
         else:
             assert er["nationwide"] is True
-        # Non-means-tested rows must not carry implies_low_income
+        # Non-means-tested rows must not carry implies_low_income; a cap is only allowed
+        # when it is an official limit that still reaches high incomes (e.g. 2 x £100k).
         if {"universal", "high-income-eligible"} & set(s["tags"]):
             assert er["implies_low_income"] is False, s["id"]
-            assert er["max_annual_income"] is None, s["id"]
+            cap = er["max_annual_income"]
+            assert cap is None or cap >= 150_000, (s["id"], cap)
 
 
 def test_uk_ids_do_not_collide_with_uttarakhand(schemes):
@@ -247,17 +249,23 @@ def test_wealthy_uk_profile_still_sees_non_means_tested_schemes(schemes):
         "gb-isa-allowance",
         "gb-junior-isa",
         "gb-child-benefit",
-        "gb-tax-free-childcare",
         "gb-pension-tax-relief",
         "gb-sdlt-first-time-buyer-relief",
         "gb-boiler-upgrade-scheme",
     ):
         r = evaluate_scheme(by_id[sid], rich)
         assert not r.hard_fail, (sid, r.unmatched)
-    for sid in ("gb-universal-credit", "gb-help-to-save", "gb-eng-shared-ownership", "gb-eng-first-homes"):
+    for sid in (
+        "gb-universal-credit", "gb-help-to-save", "gb-eng-shared-ownership", "gb-eng-first-homes",
+        # per-parent £100k limit: no eligible household has more than £200k
+        "gb-tax-free-childcare", "gb-eng-free-childcare-working-parents",
+    ):
         assert evaluate_scheme(by_id[sid], rich).hard_fail, sid
     ids = _ids(match_schemes(schemes, rich, OPTS))
-    assert {"gb-lifetime-isa", "gb-child-benefit", "gb-tax-free-childcare"} <= ids
+    assert {"gb-lifetime-isa", "gb-child-benefit", "gb-isa-allowance"} <= ids
+    # A two-earner £150k household can still be under £100k per parent
+    upper = _ids(match_schemes(schemes, _uk(state="England", age=30, annual_income=150_000), OPTS))
+    assert "gb-tax-free-childcare" in upper
     assert "gb-universal-credit" not in ids
 
 

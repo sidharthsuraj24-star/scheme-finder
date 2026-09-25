@@ -278,3 +278,12 @@ an audit line.
 - `postcss` advisory in Next 15's bundled copy fixed with an npm `overrides` entry rather than a Next 16 major upgrade.
 - Vercel's `Access-Control-Allow-Origin: *` on public static/HTML accepted (no credentials).
 - Candidate queue gains status **`needs_review`** for machine-drafted leads (`scripts/draft_candidates_from_sources.py`). Drafts copy feed metadata verbatim, each field `verified: false`; never eligibility, never `schemes.json`. myScheme is opt-in (keyed API / export) and PIB is 403 from non-Indian networks — both reported as source status, not silently skipped.
+
+## 2026-09-25 — Official zero-points for phase-out benefits
+
+- Trigger: production smoke showed a C$250k Ontario family still seeing the Ontario Child Benefit (uncertain) because phase-out rows were ungated.
+- Decision: gradual phase-out benefits carry `max_annual_income` = the income where the benefit reaches **zero** for a generous but realistic family (4 children, or the largest size the official page tabulates), from official formulas only (CRA, provincial pages/statutes, GOV.UK/gov.wales), rounded up; basis in `notes`, `verify: true`. Caps: CCB C$318,300; CDB C$266,005; OCB C$114,861; BCFB C$170,937; ACFB C$70,143; OTB C$117,971; NB HST credit C$85,000, NWT child benefit C$80,000 and NS affordable living tax credit C$39,900 (these three replace the C$58,523 soft gate). UK: per-parent £100k childcare limits → £200k household maximum (Tax-Free Childcare, England working-parent childcare, Wales Childcare Offer).
+- No official zero-point → stays ungated: Quebec Family Allowance (minimum at all incomes), OAS (individual recovery tax), RESP/CESG and RDSP (basic grant at all incomes), UK Child Benefit, Marriage Allowance, Winter Fuel. Reduction rate unpublished → stays on the soft gate: NB child tax benefit, NL child benefit / income supplement, NU and YT child benefits.
+- Caveat: programme tests use net income (AFNI / adjusted net income) while the profile asks for annual income; caps are generous (largest family) and every row stays `verify: true`.
+- Tag rule in tests relaxed: rows tagged `universal` / `high-income-eligible` may carry a cap only if it is ≥ 150,000 (still reaches high incomes). CCB loses the `universal` tag (it is a phase-out).
+

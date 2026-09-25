@@ -44,10 +44,17 @@ Payment, etc.
   Shared Ownership and First Homes use £90,000 (London cap; £80,000 elsewhere, noted in
   verify_notes), NI Education Maintenance Allowance uses £22,500, and NI Discretionary
   Support uses £29,741.
-- **Per-person limits are NOT household caps.** Tax-Free Childcare, 30 hours (England)
-  and the Wales Childcare Offer use £100k per parent. Marriage Allowance uses tax bands,
-  HICBC uses £60k/£80k, and Winter Fuel / Pension Age Winter Heating Payment are
-  recovered above £35k. All of these stay in `notes` with `max_annual_income: null`.
+- **Per-parent childcare limits imply a household maximum (2026-09-25).** Tax-Free
+  Childcare, childcare for working parents (England) and the Wales Childcare Offer require
+  **each** parent to be at or under £100,000 (adjusted net income on GOV.UK; gross income in
+  Wales), so no eligible household has more than 2 × £100,000: these carry
+  `max_annual_income: 200000` with the basis in notes. A £250k household no longer sees them;
+  a £150k two-earner household still does.
+- **Other per-person limits are NOT household caps.** Marriage Allowance uses tax bands on
+  taxable income ("usually" £12,571–£50,270, moved by pension contributions / Gift Aid),
+  HICBC uses £60k/£80k (Child Benefit stays universal), and Winter Fuel / Pension Age
+  Winter Heating Payment are recovered above £35k of an individual's income. These stay in
+  `notes` with `max_annual_income: null`.
 - Non-means-tested rows (Child Benefit, State Pension, ISAs / LISA / JISA, pension
   relief, SDLT relief, Boiler Upgrade Scheme, PIP / ADP / AA / PADP, universal meals and
   childcare, free bus travel) have `implies_low_income: false` and `max_annual_income: null`.

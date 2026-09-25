@@ -641,8 +641,8 @@ Official sources only, checked 2026-09-25: canada.ca (CRA, ESDC / Service Canada
 
 | scheme | official_source_url | region | max_annual_income (C$) | implies_low_income |
 |--------|---------------------|--------|------------------------|--------------------|
-| `can-canada-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html | Federal | null | false |
-| `can-child-disability-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-disability-benefit.html | Federal | null | false |
+| `can-canada-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html | Federal | 318,300 | false |
+| `can-child-disability-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-disability-benefit.html | Federal | 266,005 | false |
 | `can-groceries-essentials-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/who-eligible.html | Federal | 82,952 | false |
 | `can-canada-workers-benefit` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html | Federal | 60,629 | false |
 | `can-old-age-security` | https://www.canada.ca/en/services/benefits/publicpensions/old-age-security.html | Federal | null | false |
@@ -670,10 +670,10 @@ Official sources only, checked 2026-09-25: canada.ca (CRA, ESDC / Service Canada
 | `can-canada-student-grant-full-time` | https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans/full-time.html | Federal (excl. Northwest Territories, Nunavut, Quebec) | 161,321 | false |
 | `can-canada-student-grant-part-time` | https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans/part-time.html | Federal (excl. Northwest Territories, Nunavut, Quebec) | 161,321 | false |
 | `can-canada-caregiver-credit` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/canada-caregiver-amount.html | Federal | null | false |
-| `can-ab-child-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html | Alberta | null | false |
+| `can-ab-child-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html | Alberta | 70,143 | false |
 | `can-ab-seniors-benefit` | https://www.alberta.ca/alberta-seniors-benefit | Alberta | 53,800 | false |
 | `can-ab-aish` | https://www.alberta.ca/aish | Alberta | null | true |
-| `can-bc-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-british-columbia.html | British Columbia | null | false |
+| `can-bc-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-british-columbia.html | British Columbia | 170,937 | false |
 | `can-bc-renters-tax-credit` | https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/renters-tax-credit | British Columbia | 86,189 | false |
 | `can-bc-seniors-supplement` | https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/financial-legal-matters/income-security-programs/seniors-supplement | British Columbia | null | true |
 | `can-bc-training-education-savings-grant` | https://www2.gov.bc.ca/gov/content/education-training/k-12/support/scholarships/bc-training-and-education-savings-grant | British Columbia | null | false |
@@ -681,25 +681,25 @@ Official sources only, checked 2026-09-25: canada.ca (CRA, ESDC / Service Canada
 | `can-mb-rent-assist` | https://www.gov.mb.ca/fs/eia/non_rentassist_facts.html | Manitoba | 60,768 | false |
 | `can-mb-child-benefit` | https://www.gov.mb.ca/fs/eia/mcb.html | Manitoba | null | true |
 | `can-nb-child-tax-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html | New Brunswick | null | true |
-| `can-nb-hst-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html | New Brunswick | null | true |
+| `can-nb-hst-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html | New Brunswick | 85,000 | true |
 | `can-nb-low-income-seniors-benefit` | https://www2.gnb.ca/content/gnb/en/corporate/promo/new-brunswick-low-income-seniors-benefit.html | New Brunswick | null | true |
 | `can-nl-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | null | true |
 | `can-nl-income-supplement` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | null | true |
 | `can-nl-seniors-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | 46,549 | false |
 | `can-nl-disability-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | 55,404 | false |
 | `can-ns-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html | Nova Scotia | 34,000 | false |
-| `can-ns-affordable-living-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html | Nova Scotia | null | true |
+| `can-ns-affordable-living-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html | Nova Scotia | 39,900 | true |
 | `can-ns-poverty-reduction-credit` | https://novascotia.ca/coms/PovertyReductionCredit.html | Nova Scotia | 16,000 | false |
 | `can-pe-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-prince-edward-island.html | Prince Edward Island | 80,000 | false |
 | `can-pe-sales-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-prince-edward-island.html | Prince Edward Island | null | true |
 | `can-sk-low-income-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-saskatchewan.html | Saskatchewan | 81,668 | false |
 | `can-sk-seniors-income-plan` | https://www.saskatchewan.ca/residents/family-and-social-support/seniors-services/seniors-income-plan | Saskatchewan | null | true |
 | `can-sk-said` | https://www.saskatchewan.ca/said | Saskatchewan | null | true |
-| `can-nt-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html | Northwest Territories | null | true |
+| `can-nt-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html | Northwest Territories | 80,000 | true |
 | `can-nt-senior-home-heating-subsidy` | https://www.ece.gov.nt.ca/en/services/income-security-programs/senior-home-heating-subsidy | Northwest Territories | 87,000 | false |
 | `can-nu-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/nunavut.html | Nunavut | null | true |
-| `can-on-trillium-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | null | false |
-| `can-on-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | null | false |
+| `can-on-trillium-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | 117,971 | false |
+| `can-on-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | 114,861 | false |
 | `can-on-seniors-dental-care` | https://www.ontario.ca/page/dental-care-seniors | Ontario | 42,290 | false |
 | `can-on-odsp` | https://www.ontario.ca/page/ontario-disability-support-program | Ontario | null | true |
 | `can-qc-family-allowance` | https://www.retraitequebec.gouv.qc.ca/en/benefits-amounts-key-data | Quebec | null | false |
@@ -716,6 +716,27 @@ Skipped:
 - Nunavut Senior Fuel Subsidy: gov.nu.ca returns 403, and the application form states no thresholds.
 - Nova Scotia HARP: 2026–27 terms not published; applications open 1 Oct 2026.
 - Ontario GAINS: verified, but deferred by the 4-per-province cap.
+
+## Phase-out zero-points (2026-09-25 IST)
+
+Production smoke: a C$250k Ontario family still saw the Ontario Child Benefit. Gradual phase-out benefits now carry `max_annual_income` = the official zero-point for a generous family (4 children, or the largest size tabulated). Sources checked 2026-09-25 (rendered in headless Chromium where needed):
+
+| scheme | cap | official source |
+|--------|-----|-----------------|
+| `can-canada-child-benefit` | C$318,300 | CRA CCB "How much you can get" (Jul 2026–Jun 2027): C$8,157 under 6; 4+ children reduced by C$10,260 + 9.5% over C$82,847 |
+| `can-child-disability-benefit` | C$266,005 | CRA CDB page + CDB guideline table effective July 2026 (3 dependants: C$0 at C$270,000) |
+| `can-on-child-benefit` | C$114,861 | CRA Ontario page (C$146.66/month, C$26,865) + Ontario Taxation Act, 2007 s. 104(5) (8% reduction) |
+| `can-bc-family-benefit` | C$170,937 | gov.bc.ca B.C. family benefit (minimums C$775/750/725; 4% over C$96,562 "until they are reduced to zero") |
+| `can-ab-child-family-benefit` | C$70,143 | CRA Alberta page + alberta.ca (2026–27 amounts/thresholds) + Alberta Personal Income Tax Act s. 30.2 (20.11% / 8.95% rates for 4+ children) |
+| `can-on-trillium-benefit` | C$117,971 | CRA 2026 OEPTC calculation sheet (senior couple: C$290 + C$581 + C$617; 2% over C$43,571), CRA 2026 NOEC family sheet (zero at C$94,356), CRA OSTC seniors' threshold Q&A (C$378/person, 4% over C$37,273) |
+| `can-nb-hst-credit` | C$85,000 | CRA New Brunswick page (C$300 + C$300 + C$100/child; 2% over C$35,000) |
+| `can-nt-child-benefit` | C$80,000 | CRA NWT page / T4114 ("eliminated when your adjusted family income reaches $80,000") |
+| `can-ns-affordable-living-tax-credit` | C$39,900 | CRA Nova Scotia page (C$255 + C$60/child; 5% over C$30,000) |
+| `gb-tax-free-childcare` | £200,000 | GOV.UK: not eligible if you or your partner expects adjusted net income over £100,000 |
+| `gb-eng-free-childcare-working-parents` | £200,000 | GOV.UK: each parent's adjusted net income under £100,000 |
+| `gb-wls-childcare-offer` | £200,000 | gov.wales eligibility: each parent's gross income £100,000 or less |
+
+Reviewed, left ungated: Quebec Family Allowance (minimum C$1,221/child at any income, Retraite Québec 2026); OAS (individual recovery tax); RESP/CESG and RDSP (basic grant at all incomes); UK Child Benefit (HICBC), Marriage Allowance (tax-band test), Winter Fuel / Pension Age Winter Heating (individual £35k recovery). Left on the Canada soft gate because official pages do not publish the reduction rate: NB child tax benefit, NL child benefit, NL income supplement, Nunavut and Yukon child benefits.
 
 ## India freshness candidates (2026-09-25 IST)
 

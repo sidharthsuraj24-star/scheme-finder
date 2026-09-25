@@ -37,8 +37,10 @@ that higher earners can use within their real limits.
   - It applies **only** to rows with `implies_low_income: true` **and** no numeric max.
     These are genuinely low-income programmes with no single published figure: Canada
     Disability Benefit, AISH, ODSP, SAID, BC Senior's Supplement, MB 55 PLUS / Child
-    Benefit, NB / NL / NS / NT / NU / YT child benefits and credits, SK SIP, NB seniors'
-    benefit, PE sales tax credit, and the Quebec solidarity tax credit.
+    Benefit, NB child tax benefit, NL child benefit / income supplement, NU / YT child
+    benefits, SK SIP, NB seniors' benefit, PE sales tax credit, and the Quebec solidarity
+    tax credit. (NB HST credit, NT child benefit and NS affordable living tax credit moved
+    to official zero-points on 2026-09-25 — see below.)
   - Boundary: income ≥ C$58,523 fails the soft gate. A test proves C$59,000 is excluded
     even though it is under the US $60k gate.
 - **Official ceilings are encoded as `max_annual_income`.** Where the ceiling varies by
@@ -68,10 +70,35 @@ that higher earners can use within their real limits.
   | SK Low-Income Tax Credit | C$81,668 | |
   | YT Pioneer Utility Grant | C$217,470 couple | |
 
-- **Phase-outs that reach middle incomes are not gated.** These keep
-  `implies_low_income: false` and `max_annual_income: null`, with the phase-out explained
-  in notes: CCB, Child Disability Benefit, BC Family Benefit, Alberta Child and Family
-  Benefit, Ontario Trillium Benefit, and Ontario Child Benefit.
+- **Gradual phase-outs use their official zero-point (2026-09-25).** Production smoke
+  found a C$250k Ontario family still seeing the Ontario Child Benefit. Phase-out benefits
+  now carry `max_annual_income` = the income at which the benefit reaches **zero** for a
+  generous but realistic family (**4 children**, or the largest size the official page
+  tabulates), computed only from official formulas for the current benefit year and
+  rounded up. `implies_low_income` stays false for the middle-income phase-outs;
+  `verify: true` everywhere; the basis sentence is in each row's `notes`.
+  Script: `scripts/phaseout_caps_2026_09_25.py` (+ `_rows.py`).
+
+  | Programme | Cap | Basis (official) |
+  |-----------|-----|------------------|
+  | CCB | C$318,300 | 4 children under 6: 4 × C$8,157 − (C$10,260 + 9.5% over C$82,847) — CRA "How much you can get" (Jul 2026–Jun 2027). 1 child under 6 ≈ C$240,160 |
+  | Child Disability Benefit | C$266,005 | 3 eligible children (largest in CRA guideline table): 3 × C$3,480 at 5.7% over C$82,847; table shows C$0 at C$270k |
+  | Ontario Child Benefit | C$114,861 | 4 × C$1,759.92 at 8% over C$26,865 (amounts: CRA; 8%: Ontario Taxation Act, 2007 s. 104(5)). 1 child ≈ C$48,864 |
+  | BC Family Benefit | C$170,937 | 4-child minimums C$2,975 at 4% over C$96,562 (gov.bc.ca) |
+  | Alberta Child and Family Benefit | C$70,143 | 4+ children: working component C$2,061 at 8.95% over C$47,115; base C$3,821 at 20.11% over C$28,116 ends ≈ C$47,115 (CRA/alberta.ca amounts; rates: Alberta Personal Income Tax Act s. 30.2) |
+  | Ontario Trillium Benefit | C$117,971 | Largest component zero-point: senior-couple OEPTC C$1,488 at 2% over C$43,571 (CRA 2026 calculation sheet); OSTC 2 adults + 4 children ≈ C$93,973; NOEC family C$94,356 |
+  | NB HST credit | C$85,000 | Couple + 4 children: C$1,000 at 2% over C$35,000 (CRA NB page); replaces soft gate |
+  | NWT Child Benefit | C$80,000 | CRA: "eliminated when adjusted family income reaches $80,000"; replaces soft gate |
+  | NS Affordable Living Tax Credit | C$39,900 | C$255 + 4 × C$60 at 5% over C$30,000 (CRA NS page); replaces soft gate |
+
+  **Reviewed and left ungated (no official zero-point):** Quebec Family Allowance
+  (Retraite Québec pays a minimum C$1,221 per child at every income); OAS (recovery tax is
+  on individual income, so a household figure cannot rule a couple out); RESP / CESG and
+  RDSP (basic grant paid at all incomes). **Left on the soft gate (reduction rate not
+  published on official pages):** NB child tax benefit, NL child benefit, NL income
+  supplement, Nunavut and Yukon child benefits. **Follow-up:** the PEI sales tax credit
+  becomes the PEI essentials benefit in November 2026 with a C$175 minimum at every income —
+  re-check then.
 - **Non-means-tested rows** have `implies_low_income: false` and `max_annual_income: null`.
   These are OAS (the recovery-tax clawback is a note, not a cap), CPP / QPP, EI, QPIP,
   DTC, RDSP, RESP / CESG, TFSA, RRSP, FHSA, HBP, home buyers' amount, caregiver credit,
