@@ -144,6 +144,8 @@ def coverage_summary(schemes: list[dict[str, Any]]) -> dict[str, Any]:
             by_country["United States"] += 1
         elif "united_kingdom" in tags or (s.get("id") or "").startswith("gb-"):
             by_country["United Kingdom"] += 1
+        elif "canada" in tags or (s.get("id") or "").startswith("can-"):
+            by_country["Canada"] += 1
         elif any(t in ("bangladesh", "nepal", "sri-lanka", "maldives") for t in tags) or (
             s.get("id") or ""
         ).startswith(("bd-", "np-", "lk-", "mv-")):

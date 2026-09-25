@@ -49,6 +49,7 @@ def test_country_display_aliases():
     assert _country_display("united_kingdom") == "United Kingdom"
     assert _country_display("UK") == "United Kingdom"
     assert _country_display("usa") == "United States"
+    assert _country_display("canada") == "Canada"
     assert _country_display(None) == "India"
     assert _country_display("Nepal") == "Nepal"
 
@@ -58,6 +59,7 @@ def test_country_display_aliases():
     [
         ("United Kingdom", "England", 18_000, "United Kingdom"),
         ("United States", "California", 20_000, "United States"),
+        ("Canada", "Ontario", 20_000, "Canada"),
         ("India", "Kerala", 45_000, "India"),
     ],
 )
@@ -82,6 +84,21 @@ def test_uk_low_income_wording_neutral_and_gbp(schemes):
         assert "low-income / means-tested" in m.explanation.en
         assert "£18,000" in m.explanation.en and "£60,000" in m.explanation.en
         assert "Rs." not in m.explanation.en and "$" not in m.explanation.en
+
+
+def test_canada_low_income_wording_neutral_and_cad(schemes):
+    import re
+
+    resp = match_schemes(schemes, _profile("Canada", "Ontario", 20_000, disability=True, disability_percent=60), OPTS)
+    hits = _low_income_hits(resp)
+    assert any(m.scheme_id == "can-canada-disability-benefit" for m in hits)
+    for m in hits:
+        assert "BPL" not in m.explanation.en and "destitute" not in m.explanation.en
+        assert "low-income / means-tested" in m.explanation.en
+        assert "C$20,000" in m.explanation.en and "C$58,523" in m.explanation.en
+        # never a bare USD "$" (only the C$ prefix) and never Rs. / £
+        assert not re.search(r"(?<!C)\$", m.explanation.en)
+        assert "Rs." not in m.explanation.en and "£" not in m.explanation.en
 
 
 def test_us_low_income_wording_neutral_and_usd(schemes):

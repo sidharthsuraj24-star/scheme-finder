@@ -157,6 +157,7 @@ export async function GET(request: Request) {
     "India / other": 0,
     "United States": 0,
     "United Kingdom": 0,
+    Canada: 0,
     "Neighbours (BD/NP/LK/MV)": 0,
   };
   for (const s of schemes) {
@@ -167,6 +168,8 @@ export async function GET(request: Request) {
       byCountry["United States"] += 1;
     } else if (tags.includes("united_kingdom") || /^gb-/.test(String(s.id || ""))) {
       byCountry["United Kingdom"] += 1;
+    } else if (tags.includes("canada") || /^can-/.test(String(s.id || ""))) {
+      byCountry["Canada"] += 1;
     } else if (
       tags.some((t) => ["bangladesh", "nepal", "sri-lanka", "maldives"].includes(t)) ||
       /^(bd|np|lk|mv)-/.test(String(s.id || ""))

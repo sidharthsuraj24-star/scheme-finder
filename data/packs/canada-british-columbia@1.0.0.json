@@ -1,0 +1,19 @@
+{
+  "pack_id": "canada-british-columbia",
+  "version": "1.0.0",
+  "full_id": "canada-british-columbia@1.0.0",
+  "country": "Canada",
+  "region": "British Columbia",
+  "kind": "province",
+  "scheme_ids": [
+    "can-bc-family-benefit",
+    "can-bc-renters-tax-credit",
+    "can-bc-seniors-supplement",
+    "can-bc-training-education-savings-grant"
+  ],
+  "scheme_count": 4,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

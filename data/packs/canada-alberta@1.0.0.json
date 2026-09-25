@@ -1,0 +1,18 @@
+{
+  "pack_id": "canada-alberta",
+  "version": "1.0.0",
+  "full_id": "canada-alberta@1.0.0",
+  "country": "Canada",
+  "region": "Alberta",
+  "kind": "province",
+  "scheme_ids": [
+    "can-ab-aish",
+    "can-ab-child-family-benefit",
+    "can-ab-seniors-benefit"
+  ],
+  "scheme_count": 3,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

@@ -634,3 +634,96 @@ Skipped: Help to Buy Equity Loan (closed 2023); Help to Buy ISA (closed to new s
 | `nsap-nfbs` | https://nsap.nic.in/ (NXDOMAIN) | https://nsap.dord.gov.in/ | NIC DNS → 164.100.54.176; HTTP 200 from check-host.net India nodes (Mumbai, Rajpura); geo-fenced outside India; listed as NSAP-PPS in MoRD material on s3waas.gov.in |
 | `ap-ntr-bharosa-oap` | https://sspensions.ap.gov.in/SSP/Home (official_source) | https://sspensions.ap.gov.in/ssp/home/about (official_source; apply_url unchanged) | GET 200 on both; HEAD 500 → probe artefact + intermittent 5xx; mirror abdg.aptonline.in/SSP noted |
 | `sk-unmarried-women-pension` | https://pensionscheme.sikkim.gov.in/ | unchanged | GET 200 (Women & Child Welfare Dept; SUWPS age 45+, Rs 2000/month listed); HEAD 404 (IIS) false positive |
+
+## Canada starter pack (2026-09-25 IST)
+
+Official sources only, checked 2026-09-25: canada.ca (CRA, ESDC / Service Canada) and provincial/territorial government sites. canada.ca blocks plain HTTP clients from the box, so pages were rendered in headless Chromium. Figures are July 2026 – June 2027 (benefit year) or 2026 rates. All rows have `verify: true`. Amounts are C$ (CAD).
+
+| scheme | official_source_url | region | max_annual_income (C$) | implies_low_income |
+|--------|---------------------|--------|------------------------|--------------------|
+| `can-canada-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html | Federal | null | false |
+| `can-child-disability-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/child-disability-benefit.html | Federal | null | false |
+| `can-groceries-essentials-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-groceries-essentials-benefit/who-eligible.html | Federal | 82,952 | false |
+| `can-canada-workers-benefit` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-45300-canada-workers-benefit-cwb/who-is-eligible.html | Federal | 60,629 | false |
+| `can-old-age-security` | https://www.canada.ca/en/services/benefits/publicpensions/old-age-security.html | Federal | null | false |
+| `can-guaranteed-income-supplement` | https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement.html | Federal | 54,624 | false |
+| `can-oas-allowance` | https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/allowance.html | Federal | 42,144 | false |
+| `can-oas-allowance-survivor` | https://www.canada.ca/en/services/benefits/publicpensions/old-age-security/guaranteed-income-supplement/allowance-survivor.html | Federal | 30,696 | false |
+| `can-cpp-retirement` | https://www.canada.ca/en/services/benefits/publicpensions/cpp.html | Federal (excl. Quebec) | null | false |
+| `can-cpp-disability` | https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-disability-benefit.html | Federal (excl. Quebec) | null | false |
+| `can-cpp-survivor` | https://www.canada.ca/en/services/benefits/publicpensions/cpp/cpp-survivor-pension.html | Federal (excl. Quebec) | null | false |
+| `can-ei-regular` | https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit.html | Federal | null | false |
+| `can-ei-maternity-parental` | https://www.canada.ca/en/services/benefits/ei/ei-maternity-parental.html | Federal (excl. Quebec) | null | false |
+| `can-ei-sickness` | https://www.canada.ca/en/services/benefits/ei/ei-sickness.html | Federal | null | false |
+| `can-ei-caregiving` | https://www.canada.ca/en/services/benefits/ei/caregiving.html | Federal | null | false |
+| `can-canada-disability-benefit` | https://www.canada.ca/en/services/benefits/disability/canada-disability-benefit.html | Federal | null | true |
+| `can-disability-tax-credit` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/tax-credits-deductions-persons-disabilities/disability-tax-credit.html | Federal | null | false |
+| `can-rdsp` | https://www.canada.ca/en/employment-social-development/programs/disability/savings/how-much.html | Federal | null | false |
+| `can-resp-cesg` | https://www.canada.ca/en/services/benefits/education/education-savings/estimating-amounts.html | Federal | null | false |
+| `can-canada-learning-bond` | https://www.canada.ca/en/services/benefits/education/education-savings/canada-learning-bond.html | Federal | 73,577 | false |
+| `can-tfsa` | https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html | Federal | null | false |
+| `can-rrsp` | https://www.canada.ca/en/revenue-agency/services/tax/registered-plans-administrators/pspa/mp-rrsp-dpsp-tfsa-limits-ympe.html | Federal | null | false |
+| `can-fhsa` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account/opening-your-fhsas.html | Federal | null | false |
+| `can-home-buyers-plan` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans/what-home-buyers-plan.html | Federal | null | false |
+| `can-home-buyers-amount` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-31270-home-buyers-amount.html | Federal | null | false |
+| `can-canada-dental-care-plan` | https://www.canada.ca/en/services/benefits/dental/dental-care-plan/qualify.html | Federal | 89,999 | false |
+| `can-canada-student-grant-full-time` | https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans/full-time.html | Federal (excl. Northwest Territories, Nunavut, Quebec) | 161,321 | false |
+| `can-canada-student-grant-part-time` | https://www.canada.ca/en/services/benefits/education/student-aid/grants-loans/part-time.html | Federal (excl. Northwest Territories, Nunavut, Quebec) | 161,321 | false |
+| `can-canada-caregiver-credit` | https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/canada-caregiver-amount.html | Federal | null | false |
+| `can-ab-child-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html | Alberta | null | false |
+| `can-ab-seniors-benefit` | https://www.alberta.ca/alberta-seniors-benefit | Alberta | 53,800 | false |
+| `can-ab-aish` | https://www.alberta.ca/aish | Alberta | null | true |
+| `can-bc-family-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-british-columbia.html | British Columbia | null | false |
+| `can-bc-renters-tax-credit` | https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/renters-tax-credit | British Columbia | 86,189 | false |
+| `can-bc-seniors-supplement` | https://www2.gov.bc.ca/gov/content/family-social-supports/seniors/financial-legal-matters/income-security-programs/seniors-supplement | British Columbia | null | true |
+| `can-bc-training-education-savings-grant` | https://www2.gov.bc.ca/gov/content/education-training/k-12/support/scholarships/bc-training-and-education-savings-grant | British Columbia | null | false |
+| `can-mb-55-plus` | https://www.gov.mb.ca/fs/eia/55plus.html | Manitoba | null | true |
+| `can-mb-rent-assist` | https://www.gov.mb.ca/fs/eia/non_rentassist_facts.html | Manitoba | 60,768 | false |
+| `can-mb-child-benefit` | https://www.gov.mb.ca/fs/eia/mcb.html | Manitoba | null | true |
+| `can-nb-child-tax-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html | New Brunswick | null | true |
+| `can-nb-hst-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html | New Brunswick | null | true |
+| `can-nb-low-income-seniors-benefit` | https://www2.gnb.ca/content/gnb/en/corporate/promo/new-brunswick-low-income-seniors-benefit.html | New Brunswick | null | true |
+| `can-nl-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | null | true |
+| `can-nl-income-supplement` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | null | true |
+| `can-nl-seniors-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | 46,549 | false |
+| `can-nl-disability-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-newfoundland-labrador.html | Newfoundland and Labrador | 55,404 | false |
+| `can-ns-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html | Nova Scotia | 34,000 | false |
+| `can-ns-affordable-living-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html | Nova Scotia | null | true |
+| `can-ns-poverty-reduction-credit` | https://novascotia.ca/coms/PovertyReductionCredit.html | Nova Scotia | 16,000 | false |
+| `can-pe-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-prince-edward-island.html | Prince Edward Island | 80,000 | false |
+| `can-pe-sales-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-prince-edward-island.html | Prince Edward Island | null | true |
+| `can-sk-low-income-tax-credit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-saskatchewan.html | Saskatchewan | 81,668 | false |
+| `can-sk-seniors-income-plan` | https://www.saskatchewan.ca/residents/family-and-social-support/seniors-services/seniors-income-plan | Saskatchewan | null | true |
+| `can-sk-said` | https://www.saskatchewan.ca/said | Saskatchewan | null | true |
+| `can-nt-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html | Northwest Territories | null | true |
+| `can-nt-senior-home-heating-subsidy` | https://www.ece.gov.nt.ca/en/services/income-security-programs/senior-home-heating-subsidy | Northwest Territories | 87,000 | false |
+| `can-nu-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/nunavut.html | Nunavut | null | true |
+| `can-on-trillium-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | null | false |
+| `can-on-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-ontario.html | Ontario | null | false |
+| `can-on-seniors-dental-care` | https://www.ontario.ca/page/dental-care-seniors | Ontario | 42,290 | false |
+| `can-on-odsp` | https://www.ontario.ca/page/ontario-disability-support-program | Ontario | null | true |
+| `can-qc-family-allowance` | https://www.retraitequebec.gouv.qc.ca/en/benefits-amounts-key-data | Quebec | null | false |
+| `can-qc-qpip` | https://www.quebec.ca/en/family-and-support-for-individuals/pregnancy-parenthood/financial-support-pregnant-women-families/quebec-parental-insurance-plan/pregnancy-childbirth/choice-plan | Quebec | null | false |
+| `can-qc-solidarity-tax-credit` | https://www.revenuquebec.ca/en/citizens/tax-credits/solidarity-tax-credit/ | Quebec | null | true |
+| `can-qc-qpp-retirement` | https://www.retraitequebec.gouv.qc.ca/en/benefits-amounts-key-data | Quebec | null | false |
+| `can-yt-child-benefit` | https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/yukon.html | Yukon | null | true |
+| `can-yt-pioneer-utility-grant` | https://yukon.ca/en/pioneer-utility-grant | Yukon | 217,470 | false |
+
+Skipped:
+- Canada Carbon Rebate: ended; the last payment was April 2025.
+- GST/HST credit: renamed CGEB in July 2026 and added as CGEB.
+- BC Climate Action Tax Credit: ended.
+- Nunavut Senior Fuel Subsidy: gov.nu.ca returns 403, and the application form states no thresholds.
+- Nova Scotia HARP: 2026–27 terms not published; applications open 1 Oct 2026.
+- Ontario GAINS: verified, but deferred by the 4-per-province cap.
+
+## India freshness candidates (2026-09-25 IST)
+
+| candidate | outcome | official evidence |
+|-----------|---------|-------------------|
+| PM-JANMAN | added `in-pm-janman` (verify) | myscheme.gov.in/schemes/pm-janman (official; geo-fenced from the box); PIB, Ministry of Tribal Affairs, 11 Feb and 12 Mar 2026 (mission 2023-24 to 2025-26; relaxed PMAY-G exclusions); Lok Sabha unstarred Q1879 and Q2031, answered 30.07.2026 (progress to 30.06.2026) |
+| PM-KUSUM | deferred | pmkusum.mnre.gov.in: MNRE OM F.No.32/645/2017-SPV dated 28.03.2026 (scheme timeline ended 31.03.2026; PM KUSUM 2.0 in proposal stage; extension to 31.03.2027 only for PPAs/NTPs issued by 31.12.2025) |
+| SVAMITVA | deferred | svamitva.nic.in; Lok Sabha Q2553 answered 04.08.2026 (3.30 of 3.38 lakh villages surveyed; 2.72 crore cards distributed). Delivered by village-wide survey; no individual application |
+| Jal Jeevan Mission | rejected (infrastructure) | jaljeevanmission.gov.in: State and village water-supply schemes |
+| PM SHRI | rejected (infrastructure) | pmshrischools.education.gov.in: upgrades to selected schools |
+| PM e-Bus Sewa | rejected (infrastructure) | mohua.gov.in: city e-bus fleet and depot funding |

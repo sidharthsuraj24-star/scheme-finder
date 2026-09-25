@@ -77,12 +77,22 @@ export const IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000;
  */
 export const IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP = 60_000;
 const UK_COUNTRY_ALIASES = new Set(["united_kingdom", "uk", "gb", "great_britain"]);
+/**
+ * Canada soft gate (CAD) — catalogue heuristic anchored on the 2026 top of the lowest
+ * federal tax bracket (C$58,523), also ESDC's Canada Learning Bond low-income line.
+ * NOT an official means test; only for Canada rows flagged implies_low_income with no
+ * numeric max. The US $60k gate and India PRICE bands never apply to Canada.
+ * "ca" is deliberately not an alias (ca-* ids are California).
+ */
+export const IMPLIES_LOW_INCOME_ANNUAL_GATE_CAD = 58_523;
+const CANADA_COUNTRY_ALIASES = new Set(["canada", "can"]);
 
 export function impliesLowIncomeAnnualGate(country: string | null | undefined): number | null {
   const c = norm((country || "India").trim() || "India");
   if (c === "india") return IMPLIES_LOW_INCOME_ANNUAL_GATE_INR;
   if (c === "united_states" || c === "usa" || c === "us") return IMPLIES_LOW_INCOME_ANNUAL_GATE_USD;
   if (UK_COUNTRY_ALIASES.has(c)) return IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP;
+  if (CANADA_COUNTRY_ALIASES.has(c)) return IMPLIES_LOW_INCOME_ANNUAL_GATE_CAD;
   return null;
 }
 
@@ -242,6 +252,7 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   // - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
   //   tables / numeric max; NOT an official Federal Poverty Level figure
   // - United Kingdom: £60,000 annual — catalogue heuristic (HICBC anchor), NOT official
+  // - Canada: C$58,523 annual — catalogue heuristic (lowest federal bracket / CLB line)
   // - Other countries: skip soft gate unless a numeric max is encoded
   const impliesLow = Boolean(rules.implies_low_income);
   if (impliesLow && maxAnnual == null && maxMonthly == null) {

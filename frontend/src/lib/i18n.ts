@@ -78,9 +78,9 @@ const en: Dict = {
   qDistrictFreeHint: "Type your district / locality (free text; Kerala uses a district list).",
   qDistrictPlaceholder: "District name",
   qCountry: "Which country do you live in?",
-  qCountryHint: "Catalogue covers India, neighbouring countries, the United States (federal + all states) and the United Kingdom (UK-wide + England, Scotland, Wales, Northern Ireland) — curated, not yet worldwide.",
+  qCountryHint: "Catalogue covers India, neighbouring countries, the United States (federal + all states), the United Kingdom (UK-wide + England, Scotland, Wales, Northern Ireland) and Canada (federal + all 13 provinces and territories; amounts in C$ / CAD) — curated, not yet worldwide.",
   qRegion: "Which region / province do you live in?",
-  qRegionHint: "Pick from the list or type your region / province (UK: pick your nation — England, Scotland, Wales or Northern Ireland).",
+  qRegionHint: "Pick from the list or type your region / province (UK: pick your nation — England, Scotland, Wales or Northern Ireland; Canada: pick your province or territory).",
   qRegionPlaceholder: "Region / province",
   qRegionOrType: "You can pick a listed region or type another name below.",
   qState: "Which state or UT do you live in?",
@@ -123,7 +123,7 @@ const en: Dict = {
   qBreadwinner: "Has the main earning member of your household died?",
   qBreadwinnerHint: "Used for bereavement schemes such as NFBS",
   dataUpdated:
-    "Scheme data updated as of 25 Sep 2026 · India + selected other countries incl. United States and United Kingdom (curated; not worldwide)",
+    "Scheme data updated as of 25 Sep 2026 · India + selected other countries incl. United States, United Kingdom and Canada (curated; not worldwide)",
   dataUpdatedShort: "Scheme data updated as of 25 Sep 2026",
   welcomeTitle: "Welcome",
   welcomeBody:
@@ -240,9 +240,9 @@ const ml: Dict = {
   qDistrictFreeHint: "ജില്ലയുടെ പേര് ടൈപ്പ് ചെയ്യുക (കേരളം ഒഴികെയുള്ള സംസ്ഥാനങ്ങൾക്ക്).",
   qDistrictPlaceholder: "ജില്ലയുടെ പേര്",
   qCountry: "നിങ്ങൾ താമസിക്കുന്ന രാജ്യം ഏത്?",
-  qCountryHint: "കാറ്റലോഗ് ഇന്ത്യ, അയൽരാജ്യങ്ങൾ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ് (ഫെഡറൽ + എല്ലാ സംസ്ഥാനങ്ങളും), യുണൈറ്റഡ് കിംഗ്ഡം (യുകെ മുഴുവൻ + ഇംഗ്ലണ്ട്, സ്കോട്ട്‌ലൻഡ്, വെയിൽസ്, നോർത്തേൺ അയർലൻഡ്) ഉൾക്കൊള്ളുന്നു — ക്യൂറേറ്റഡ്, ഇനിയും ലോകവ്യാപകമല്ല.",
+  qCountryHint: "കാറ്റലോഗ് ഇന്ത്യ, അയൽരാജ്യങ്ങൾ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ് (ഫെഡറൽ + എല്ലാ സംസ്ഥാനങ്ങളും), യുണൈറ്റഡ് കിംഗ്ഡം (യുകെ മുഴുവൻ + ഇംഗ്ലണ്ട്, സ്കോട്ട്‌ലൻഡ്, വെയിൽസ്, നോർത്തേൺ അയർലൻഡ്), കാനഡ (ഫെഡറൽ + 13 പ്രവിശ്യകളും ടെറിട്ടറികളും; തുക C$ / CAD-ൽ) ഉൾക്കൊള്ളുന്നു — ക്യൂറേറ്റഡ്, ഇനിയും ലോകവ്യാപകമല്ല.",
   qRegion: "നിങ്ങൾ താമസിക്കുന്ന പ്രദേശം / പ്രവിശ്യ ഏത്?",
-  qRegionHint: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ടൈപ്പ് ചെയ്യുക (യുകെ: ഇംഗ്ലണ്ട്, സ്കോട്ട്‌ലൻഡ്, വെയിൽസ് അല്ലെങ്കിൽ നോർത്തേൺ അയർലൻഡ്).",
+  qRegionHint: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കുക അല്ലെങ്കിൽ ടൈപ്പ് ചെയ്യുക (യുകെ: ഇംഗ്ലണ്ട്, സ്കോട്ട്‌ലൻഡ്, വെയിൽസ് അല്ലെങ്കിൽ നോർത്തേൺ അയർലൻഡ്; കാനഡ: നിങ്ങളുടെ പ്രവിശ്യ അല്ലെങ്കിൽ ടെറിട്ടറി).",
   qRegionPlaceholder: "പ്രദേശം / പ്രവിശ്യ",
   qRegionOrType: "പട്ടികയിൽ നിന്ന് തിരഞ്ഞെടുക്കാം അല്ലെങ്കിൽ താഴെ മറ്റൊരു പേര് ടൈപ്പ് ചെയ്യാം.",
   qState: "നിങ്ങൾ താമസിക്കുന്ന സംസ്ഥാനം / കേന്ദ്രഭരണ പ്രദേശം ഏത്?",
@@ -285,7 +285,7 @@ const ml: Dict = {
   qBreadwinner: "കുടുംബത്തിലെ പ്രധാന വരുമാനദാതാവ് മരിച്ചിട്ടുണ്ടോ?",
   qBreadwinnerHint: "NFBS പോലുള്ള പദ്ധതികൾക്ക്",
   dataUpdated:
-    "പദ്ധതി വിവരങ്ങൾ 25 സെപ് 2026 വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ ഉൾപ്പെടെ യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്, യുണൈറ്റഡ് കിംഗ്ഡം (ലോകവ്യാപകമല്ല)",
+    "പദ്ധതി വിവരങ്ങൾ 25 സെപ് 2026 വരെ പുതുക്കിയത് · ഇന്ത്യ + തിരഞ്ഞെടുത്ത മറ്റ് രാജ്യങ്ങൾ ഉൾപ്പെടെ യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്, യുണൈറ്റഡ് കിംഗ്ഡം, കാനഡ (ലോകവ്യാപകമല്ല)",
   dataUpdatedShort: "പദ്ധതി വിവരങ്ങൾ 25 സെപ് 2026 വരെ പുതുക്കിയത്",
   welcomeTitle: "സ്വാഗതം",
   welcomeBody:
@@ -402,9 +402,9 @@ const hi: Dict = {
   qDistrictFreeHint: "अपने ज़िले का नाम लिखें (केरल के अलावा अन्य राज्यों के लिए मुक्त पाठ)।",
   qDistrictPlaceholder: "ज़िले का नाम",
   qCountry: "आप किस देश में रहते हैं?",
-  qCountryHint: "कैटलॉग भारत, पड़ोसी देश, संयुक्त राज्य अमेरिका (संघीय + सभी राज्य) और यूनाइटेड किंगडम (पूरा यूके + इंग्लैंड, स्कॉटलैंड, वेल्स, नॉर्दर्न आयरलैंड) को कवर करता है — क्यूरेटेड, अभी पूरी दुनिया नहीं।",
+  qCountryHint: "कैटलॉग भारत, पड़ोसी देश, संयुक्त राज्य अमेरिका (संघीय + सभी राज्य), यूनाइटेड किंगडम (पूरा यूके + इंग्लैंड, स्कॉटलैंड, वेल्स, नॉर्दर्न आयरलैंड) और कनाडा (संघीय + सभी 13 प्रांत व क्षेत्र; राशि C$ / CAD में) को कवर करता है — क्यूरेटेड, अभी पूरी दुनिया नहीं।",
   qRegion: "आप किस क्षेत्र / प्रांत में रहते हैं?",
-  qRegionHint: "सूची से चुनें या अपना क्षेत्र / प्रांत टाइप करें (यूके: इंग्लैंड, स्कॉटलैंड, वेल्स या नॉर्दर्न आयरलैंड चुनें)।",
+  qRegionHint: "सूची से चुनें या अपना क्षेत्र / प्रांत टाइप करें (यूके: इंग्लैंड, स्कॉटलैंड, वेल्स या नॉर्दर्न आयरलैंड चुनें; कनाडा: अपना प्रांत या क्षेत्र चुनें)।",
   qRegionPlaceholder: "क्षेत्र / प्रांत",
   qRegionOrType: "सूची से चुन सकते हैं या नीचे दूसरा नाम टाइप कर सकते हैं।",
   qState: "आप किस राज्य या केंद्र शासित प्रदेश में रहते हैं?",
@@ -447,7 +447,7 @@ const hi: Dict = {
   qBreadwinner: "क्या आपके परिवार का मुख्य कमाने वाला सदस्य निधन हो गया है?",
   qBreadwinnerHint: "NFBS जैसी शोक-सहायता योजनाओं के लिए",
   dataUpdated:
-    "योजना डेटा 25 सितं 2026 तक अद्यतन · भारत + चुनिंदा अन्य देश सहित संयुक्त राज्य अमेरिका और यूनाइटेड किंगडम (दुनियाभर नहीं)",
+    "योजना डेटा 25 सितं 2026 तक अद्यतन · भारत + चुनिंदा अन्य देश सहित संयुक्त राज्य अमेरिका, यूनाइटेड किंगडम और कनाडा (दुनियाभर नहीं)",
   dataUpdatedShort: "योजना डेटा 25 सितं 2026 तक अद्यतन",
   welcomeTitle: "स्वागत है",
   welcomeBody:

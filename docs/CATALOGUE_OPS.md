@@ -123,6 +123,22 @@ Enhance the human loop as:
    this script never writes eligibility into `schemes.json`) or `rejected` /
    `deferred`.
 4. Never invent income caps, ages, or category lists to clear the queue.
+5. When the candidate is not an individual/household entitlement (e.g. village
+   infrastructure), use `rejected` with a reason starting "Out of scope: infrastructure,
+   not an individual entitlement". The queue has no separate out-of-scope status.
+
+**2026-09-25 freshness candidates:**
+
+| Candidate | Outcome | Notes |
+|-----------|---------|-------|
+| PM-JANMAN | `verified_add` | Added as `in-pm-janman` |
+| PM-KUSUM | `deferred` | Scheme period ended 31.03.2026; 2.0 in proposal stage |
+| SVAMITVA | `deferred` | Household property card, but no individual application route |
+| Jal Jeevan Mission | `rejected` | Out of scope: infrastructure |
+| PM SHRI | `rejected` | Out of scope: infrastructure |
+| PM e-Bus Sewa | `rejected` | Out of scope: infrastructure |
+
+Reasons are in `data/catalogue_candidates.json`.
 
 ## 2. URL probe → ticket queue
 
@@ -181,7 +197,8 @@ allowlists. User-Agent is set; keep timeouts short.
 Manifests under `data/packs/` (mirrored to `frontend/data/packs/`):
 
 - Example ids: `india-kerala@1.0.0`, `india-central@1.0.0`, `us-federal@1.0.0`,
-  `us-california@1.0.0`, `uk-wide@1.0.0`, `uk-scotland@1.0.0`
+  `us-california@1.0.0`, `uk-wide@1.0.0`, `uk-scotland@1.0.0`, `canada-federal@1.0.0`,
+  `canada-ontario@1.0.0`
 - United Kingdom (2026-09-25):
   - UK rows are detected by the `united_kingdom` tag, a `gb-` id, or
     `countries: ["United Kingdom"]`. They are handled before the India fallback.
@@ -189,6 +206,15 @@ Manifests under `data/packs/` (mirrored to `frontend/data/packs/`):
   - `uk-england` / `uk-scotland` / `uk-wales` / `uk-northern-ireland` (kind `nation`)
     come from `eligibility_rules.states`.
   - See `docs/COUNTRY_UK.md`.
+- Canada (2026-09-25):
+  - Canada rows are detected by the `canada` tag, a `can-` id, or
+    `countries: ["Canada"]`. They are handled before the UK / US / India branches.
+    (`ca-*` ids are California and stay US.)
+  - `canada-federal` (kind `country_federal`) holds rows tagged `canada_federal`. That
+    includes federal rows that exclude a province, such as CPP outside Quebec.
+  - The 13 `canada-<province>` packs (kind `province`) come from
+    `eligibility_rules.states` on provincial/territorial rows.
+  - See `docs/COUNTRY_CANADA.md`.
 - Contents: `scheme_ids[]` membership only — **no** duplicated scheme bodies
 - Regenerated from tags in `schemes.json`:
 
@@ -231,3 +257,4 @@ Env gate unchanged: `NEXT_PUBLIC_SHOW_OPS=1` **or** `OPS_DASHBOARD_TOKEN`.
 - `docs/PRODUCT.md` — Phase 3 product surface; links here for ops data plane
 - `docs/DECISIONS.md` — Phase 4 decision entry
 - `docs/COUNTRY_UK.md` — United Kingdom conventions (gb-* ids, nations, £ soft gate)
+- `docs/COUNTRY_CANADA.md` — Canada conventions (can-* ids, 13 provinces/territories, C$ soft gate)

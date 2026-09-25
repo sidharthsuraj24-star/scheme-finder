@@ -20,6 +20,8 @@ const COUNTRY_DISPLAY: Record<string, string> = {
   uk: "United Kingdom",
   gb: "United Kingdom",
   great_britain: "United Kingdom",
+  canada: "Canada",
+  can: "Canada",
 };
 
 /** Human-readable country name for explanations (aliases → canonical display name). */
@@ -39,6 +41,7 @@ function fmtIncome(value: number | null | undefined, country?: string | null): s
   if (c === "united_kingdom" || c === "uk" || c === "gb" || c === "great_britain") {
     return `£${n.toLocaleString("en-GB")}`;
   }
+  if (c === "canada" || c === "can") return `C$${n.toLocaleString("en-CA")}`; // CAD, never bare "$"
   return `Rs.${n.toLocaleString("en-IN")}`;
 }
 
@@ -46,6 +49,7 @@ function impliesLowGateLabel(country: string | null | undefined): string {
   const c = (country || "India").trim().toLowerCase().replace(/-/g, "_").replace(/ /g, "_") || "india";
   if (c === "united_states" || c === "usa" || c === "us") return "$60,000"; // soft US heuristic — not official FPL
   if (c === "united_kingdom" || c === "uk" || c === "gb" || c === "great_britain") return "£60,000"; // soft UK heuristic (HICBC anchor)
+  if (c === "canada" || c === "can") return "C$58,523"; // soft Canada heuristic (lowest federal bracket / CLB line)
   if (c === "india" || c === "") return "Rs.5,00,000";
   return "n/a (no soft gate for this country)";
 }

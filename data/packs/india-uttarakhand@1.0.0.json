@@ -6,6 +6,7 @@
   "region": "Uttarakhand",
   "kind": "state",
   "scheme_ids": [
+    "in-pm-janman",
     "uk-bauna-pension",
     "uk-disability-pension",
     "uk-divyang-bharan-poshan",
@@ -18,8 +19,8 @@
     "uk-teelu-rauteli-pension",
     "uk-widow-pension"
   ],
-  "scheme_count": 11,
-  "generated_at": "2026-09-25T12:08:25+05:30",
+  "scheme_count": 12,
+  "generated_at": "2026-09-25T15:46:03+05:30",
   "timezone": "Asia/Kolkata",
   "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
   "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"

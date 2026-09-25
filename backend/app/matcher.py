@@ -101,6 +101,16 @@ IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000
 # thresholds (e.g. Shared Ownership £80k/£90k) are encoded as max_annual_income.
 IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP = 60_000
 UK_COUNTRY_ALIASES = frozenset({"united_kingdom", "uk", "gb", "great_britain"})
+# Canada: CAD 58_523 annual (adjusted family net) income — catalogue soft heuristic
+# anchored on the 2026 top of the lowest federal income-tax bracket (C$58,523), which
+# ESDC also uses as the Canada Learning Bond low-income line (1-3 children, July 2026 -
+# June 2027) and the upper bound of the 20% additional-CESG tier. NOT an official
+# means-test line; applies only to Canada rows flagged implies_low_income with no
+# numeric max. Official ceilings (GIS, CDCP C$90k, CWB, etc.) are encoded as
+# max_annual_income. The US $60k gate and India bands never apply to Canada.
+IMPLIES_LOW_INCOME_ANNUAL_GATE_CAD = 58_523
+# "ca" is deliberately NOT an alias: catalogue ids ca-* are California (US).
+CANADA_COUNTRY_ALIASES = frozenset({"canada", "can"})
 
 
 def implies_low_income_annual_gate(country: str | None) -> float | None:
@@ -110,6 +120,8 @@ def implies_low_income_annual_gate(country: str | None) -> float | None:
     heuristic for BPL-style US rows lacking FPL tables — not an official FPL).
     United Kingdom: GBP 60_000 (soft heuristic anchored on the HMRC HICBC £60k
     threshold — not an official means test; India PRICE bands never apply).
+    Canada: CAD 58_523 (soft heuristic = 2026 lowest federal bracket top / ESDC CLB
+    low-income line — not an official means test; US gate and India bands never apply).
     Other countries: None (require numeric max_annual_income / max_monthly).
     """
     c = _norm((country or "India").strip() or "India")
@@ -119,6 +131,8 @@ def implies_low_income_annual_gate(country: str | None) -> float | None:
         return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_USD)
     if c in UK_COUNTRY_ALIASES:
         return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP)
+    if c in CANADA_COUNTRY_ALIASES:
+        return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_CAD)
     return None
 
 def profile_has_land(land_ownership: bool | str | None) -> bool | None:
@@ -273,6 +287,7 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
     # - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
     #   tables / numeric max; NOT an official Federal Poverty Level figure
     # - United Kingdom: £60,000 annual — catalogue heuristic (HICBC anchor), NOT official
+    # - Canada: C$58,523 annual — catalogue heuristic (lowest federal bracket / CLB line)
     # - Other countries: skip soft gate unless a numeric max is encoded
     implies_low = bool(rules.get("implies_low_income"))
     if implies_low and max_annual is None and max_monthly is None:

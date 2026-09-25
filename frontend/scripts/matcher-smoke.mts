@@ -415,6 +415,57 @@ function check(name: string, ok: boolean, detail = "") {
   }
 }
 
+// Canada (2026-09-25): CAD soft gate, province filtering, no India bands / US gate
+{
+  const caBase = (partial: Partial<MatchProfile>) =>
+    base({
+      country: "Canada",
+      state: "Ontario",
+      age: 35,
+      gender: "female",
+      occupations: ["other"],
+      annual_income: 45_000,
+      disability: false,
+      disability_percent: 0,
+      ...partial,
+    } as Partial<MatchProfile>);
+  const opts = { max_results: 100 };
+
+  const lowDis = matchSchemes(schemes, caBase({ annual_income: 20_000, disability: true, disability_percent: 60 }), opts);
+  check("ca_low_income_cdb", ids(lowDis).has("can-canada-disability-benefit"));
+  check("ca_no_india_band", lowDis.income_band == null);
+  const cdb = lowDis.matched.find((m) => m.scheme_id === "can-canada-disability-benefit");
+  const cdbText = cdb?.explanation.en ?? "";
+  check(
+    "ca_explanation_cad",
+    cdbText.includes("C$58,523") && cdbText.includes("C$20,000") && !/(^|[^C])\$/.test(cdbText) && !cdbText.includes("Rs."),
+    cdbText.slice(0, 200),
+  );
+  // C$59,000 is under the US $60k gate but over the Canada gate: USD gate must not be reused
+  const mid = matchSchemes(schemes, caBase({ annual_income: 59_000, disability: true, disability_percent: 60 }), opts);
+  check("ca_gate_not_usd", !ids(mid).has("can-canada-disability-benefit"));
+
+  const rich = matchSchemes(schemes, caBase({ state: "Alberta", age: 32, annual_income: 250_000 }), opts);
+  for (const id of ["can-tfsa", "can-rrsp", "can-fhsa"]) {
+    check(`ca_rich_keeps_${id}`, ids(rich).has(id));
+  }
+  check("ca_rich_excludes_cgeb", !ids(rich).has("can-groceries-essentials-benefit"));
+  check("ca_rich_excludes_cdcp", !ids(rich).has("can-canada-dental-care-plan"));
+
+  const qc = matchSchemes(schemes, caBase({ state: "Quebec", age: 30, annual_income: 60_000 }), opts);
+  check("ca_quebec_qpip", ids(qc).has("can-qc-qpip"));
+  check("ca_quebec_no_ei_parental", !ids(qc).has("can-ei-maternity-parental"));
+  const on = matchSchemes(schemes, caBase({ state: "Ontario", annual_income: 30_000 }), opts);
+  check("ca_ontario_otb", ids(on).has("can-on-trillium-benefit"));
+  check("ca_ontario_no_bc_rows", ![...ids(on)].some((i) => i.startsWith("can-bc-") || i.startsWith("can-qc-")));
+  check(
+    "ca_no_india_us_uk_rows",
+    ![...ids(on)].some((i) => i.startsWith("us-") || i.startsWith("ca-") || i.startsWith("gb-") || i.startsWith("kerala-")),
+  );
+  const us = matchSchemes(schemes, base({ country: "United States", state: "California", age: 35, annual_income: 30_000 } as Partial<MatchProfile>), opts);
+  check("us_no_canada_rows", ![...ids(us)].some((i) => i.startsWith("can-")));
+}
+
 if (failed) {
   console.error(`\n${failed} failed`);
   process.exit(1);

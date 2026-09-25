@@ -7,6 +7,7 @@
   "kind": "state",
   "scheme_ids": [
     "ayyankali-uegs",
+    "in-pm-janman",
     "janani-suraksha-yojana-kerala",
     "kerala-agri-labour-pension",
     "kerala-disability-pension-mental",
@@ -20,8 +21,8 @@
     "kerala-unmarried-women-pension",
     "kerala-widow-pension"
   ],
-  "scheme_count": 13,
-  "generated_at": "2026-09-25T12:08:25+05:30",
+  "scheme_count": 14,
+  "generated_at": "2026-09-25T15:46:03+05:30",
   "timezone": "Asia/Kolkata",
   "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
   "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"

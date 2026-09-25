@@ -66,11 +66,16 @@ python3 scripts/list_url_tickets.py
 python3 scripts/resolve_url_ticket.py --scheme-id <id> --url <ticket url> [--new-url <url>] --probe
 
 # Versioned pack manifests (membership only)
-python3 scripts/generate_pack_manifests.py --version 1.0.0   # india-*, us-*, uk-* packs
+python3 scripts/generate_pack_manifests.py --version 1.0.0   # india-*, us-*, uk-*, canada-* packs
 ```
 
 United Kingdom starter pack (2026-09-25): `python3 scripts/uk_starter_pack_2026_09_25.py`
 (rows in `uk_starter_pack_2026_09_25_rows.py`; idempotent; ids `gb-*`; see docs/COUNTRY_UK.md).
+Canada starter pack (2026-09-25): `python3 scripts/canada_starter_pack_2026_09_25.py`
+(rows in `canada_starter_pack_2026_09_25_{rows,federal,provincial}.py`; idempotent; ids `can-*`;
+see docs/COUNTRY_CANADA.md).
+India candidates (2026-09-25): `python3 scripts/india_candidates_2026_09_25.py` (adds
+`in-pm-janman`; queue transitions via `update_catalogue_candidate.py`).
 URL ticket fixes (2026-09-25): `python3 scripts/url_ticket_fixes_2026_09_25.py` (idempotent).
 
 See `docs/CATALOGUE_OPS.md`. Does **not** invent eligibility or auto-edit schemes.

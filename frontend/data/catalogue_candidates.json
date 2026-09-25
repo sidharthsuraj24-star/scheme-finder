@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-24T16:34:16+05:30",
+  "updated_at": "2026-09-25T15:39:48+05:30",
   "timezone": "Asia/Kolkata",
   "note": "Human-verify candidate queue. Never invent eligibility. Daily freshness (6:09 AM IST external) or humans may paste new candidates here after checking schemes.json. Honest empty open queue is OK; deferred rows document historical clearance of PM-KMY / PM-SYM / NAMASTE.",
   "candidates": [
@@ -39,6 +39,79 @@
       "actor": "phase4-foundation",
       "notes": "Phase 4 foundation seeds deferred history only — no fabricated eligibility.",
       "scheme_id_if_present": "in-namaste"
+    },
+    {
+      "id": "cand-in-pm-kusum",
+      "name": "PM-KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan)",
+      "country": "India",
+      "official_source_url": "https://mnre.gov.in/en/solar-schemes/",
+      "status": "deferred",
+      "reason": "Deferred (not added): MNRE Office Memorandum F.No.32/645/2017-SPV dated 28 Mar 2026 (on pmkusum.mnre.gov.in) says the PM-KUSUM scheme timeline ended 31.03.2026; committed liabilities will be subsumed into PM KUSUM 2.0, which is 'in the proposal stage'; the extension to 31.03.2027 covers only projects with PPAs/NTPs issued on or before 31.12.2025. No official new-farmer application route as of 2026-09-25. Re-queue when MNRE publishes PM-KUSUM 2.0 guidelines.",
+      "noted_at": "2026-09-25T15:39:47+05:30",
+      "actor": "suraj",
+      "notes": "Portal still live (achievements as of 31.08.2026). Component B / C-IPS gave 30% central (50% NE/hill/islands) subsidy on individual pumps — real household benefit, but closed to new sanctions. Revisit on 2.0 notification.",
+      "previous_status": "researching"
+    },
+    {
+      "id": "cand-in-pm-janman",
+      "name": "PM-JANMAN (Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan)",
+      "country": "India",
+      "official_source_url": "https://www.myscheme.gov.in/schemes/pm-janman",
+      "status": "verified_add",
+      "reason": "Verified add: current (Lok Sabha unstarred Q1879 and Q2031 answered 30.07.2026 report ongoing progress to 30.06.2026; PIB Feb/Mar 2026). Clear household benefit: pucca house under PMAY-G (Rs 2 lakh; Rs 2.39 lakh with convergence) for PVTG households in kaccha houses, plus electricity/water/LPG/health/education convergence. Eligibility: PVTG households in the 18 states + A&N Islands identified via PM Gati Shakti habitation survey; exclusion only if already has pucca house or a government-employee member (PIB Feb 2026). Added as in-pm-janman with verify:true.",
+      "noted_at": "2026-09-25T15:39:48+05:30",
+      "actor": "suraj",
+      "notes": "Official mission period 2023-24 to 2025-26 (PIB); extension to March 2027 reported only in press — kept verify:true. | verified_add means human approved adding via PR — this script does not mutate schemes.json",
+      "previous_status": "researching",
+      "scheme_id_if_present": "in-pm-janman"
+    },
+    {
+      "id": "cand-in-jal-jeevan-mission",
+      "name": "Jal Jeevan Mission (Har Ghar Jal)",
+      "country": "India",
+      "official_source_url": "https://jaljeevanmission.gov.in/",
+      "status": "rejected",
+      "reason": "Out of scope: infrastructure, not an individual entitlement. Jal Jeevan Mission funds village/State piped-water supply schemes (Functional Household Tap Connections) implemented by State water departments and Gram Panchayat committees; there is no individual application, eligibility test or benefit a person can claim.",
+      "noted_at": "2026-09-25T15:39:48+05:30",
+      "actor": "suraj",
+      "notes": "",
+      "previous_status": "researching"
+    },
+    {
+      "id": "cand-in-pm-shri",
+      "name": "PM SHRI (PM Schools for Rising India)",
+      "country": "India",
+      "official_source_url": "https://pmshrischools.education.gov.in/",
+      "status": "rejected",
+      "reason": "Out of scope: infrastructure, not an individual entitlement. PM SHRI upgrades selected existing government schools (institutional selection via challenge mode, funds to schools/UTs); students get no individual scheme benefit to apply for.",
+      "noted_at": "2026-09-25T15:39:48+05:30",
+      "actor": "suraj",
+      "notes": "",
+      "previous_status": "researching"
+    },
+    {
+      "id": "cand-in-pm-ebus-sewa",
+      "name": "PM e-Bus Sewa",
+      "country": "India",
+      "official_source_url": "https://mohua.gov.in/",
+      "status": "rejected",
+      "reason": "Out of scope: infrastructure, not an individual entitlement. PM e-Bus Sewa funds e-bus deployment and depot/charging infrastructure for cities on a PPP (gross cost contract) basis; no individual beneficiary or application.",
+      "noted_at": "2026-09-25T15:39:48+05:30",
+      "actor": "suraj",
+      "notes": "",
+      "previous_status": "researching"
+    },
+    {
+      "id": "cand-in-svamitva",
+      "name": "SVAMITVA (Survey of Villages and Mapping with Improvised Technology in Village Areas)",
+      "country": "India",
+      "official_source_url": "https://svamitva.nic.in/",
+      "status": "deferred",
+      "reason": "Deferred (not added, not rejected): SVAMITVA gives rural abadi households a property card / Record of Rights usable for bank loans (a genuine household benefit), but it is delivered by a village-wide drone survey by Survey of India with States distributing cards — there is no individual application, eligibility test or claim route on svamitva.nic.in / MoPR. Lok Sabha Q2553 (04.08.2026): 3.30 of 3.38 lakh notified villages surveyed; 3.24 crore cards prepared, 2.72 crore distributed; survey phase is close to complete. Revisit only if MoPR or a State publishes a household request/claim route for cards.",
+      "noted_at": "2026-09-25T15:39:48+05:30",
+      "actor": "suraj",
+      "notes": "",
+      "previous_status": "researching"
     }
   ]
 }

@@ -2779,7 +2779,10 @@ def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
 
     assert implies_low_income_annual_gate("India") == 500_000
     assert implies_low_income_annual_gate("United States") == 60_000
-    assert implies_low_income_annual_gate("Canada") is None
+    # Canada joined 2026-09-25 with its own CAD soft gate (C$58,523 — 2026 lowest federal
+    # bracket / ESDC CLB line; see docs/DECISIONS.md) — never the US $60k gate.
+    assert implies_low_income_annual_gate("Canada") == 58_523
+    assert implies_low_income_annual_gate("ca") is None  # "ca" is not a Canada alias (California ids)
     # UK joined the catalogue 2026-09-25 with its own GBP soft gate (£60,000, HICBC
     # anchor — see docs/DECISIONS.md); it is NOT the INR or USD gate reused.
     assert implies_low_income_annual_gate("United Kingdom") == 60_000
@@ -2788,8 +2791,8 @@ def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
     fake = {
         "id": "fake-other-bpl",
         "eligibility_rules": {
-            "countries": ["Canada"],
-            "states": ["Ontario"],
+            "countries": ["Maldives"],
+            "states": ["Male"],
             "nationwide": False,
             "implies_low_income": True,
             "max_annual_income": None,
@@ -2797,9 +2800,9 @@ def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
         },
     }
     high = MatchProfile(
-        country="Canada",
+        country="Maldives",
         age=40,
-        state="Ontario",
+        state="Male",
         annual_income=250_000,
         occupations=["other"],
         categories=[],

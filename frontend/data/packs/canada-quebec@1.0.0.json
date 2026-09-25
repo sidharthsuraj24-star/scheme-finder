@@ -1,0 +1,19 @@
+{
+  "pack_id": "canada-quebec",
+  "version": "1.0.0",
+  "full_id": "canada-quebec@1.0.0",
+  "country": "Canada",
+  "region": "Quebec",
+  "kind": "province",
+  "scheme_ids": [
+    "can-qc-family-allowance",
+    "can-qc-qpip",
+    "can-qc-qpp-retirement",
+    "can-qc-solidarity-tax-credit"
+  ],
+  "scheme_count": 4,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

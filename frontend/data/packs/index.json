@@ -1,10 +1,150 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T12:08:25+05:30",
+  "generated_at": "2026-09-25T15:46:03+05:30",
   "timezone": "Asia/Kolkata",
   "default_version": "1.0.0",
-  "pack_count": 54,
+  "pack_count": 68,
   "packs": [
+    {
+      "pack_id": "canada-alberta",
+      "version": "1.0.0",
+      "full_id": "canada-alberta@1.0.0",
+      "file": "canada-alberta@1.0.0.json",
+      "country": "Canada",
+      "region": "Alberta",
+      "kind": "province",
+      "scheme_count": 3
+    },
+    {
+      "pack_id": "canada-british-columbia",
+      "version": "1.0.0",
+      "full_id": "canada-british-columbia@1.0.0",
+      "file": "canada-british-columbia@1.0.0.json",
+      "country": "Canada",
+      "region": "British Columbia",
+      "kind": "province",
+      "scheme_count": 4
+    },
+    {
+      "pack_id": "canada-federal",
+      "version": "1.0.0",
+      "full_id": "canada-federal@1.0.0",
+      "file": "canada-federal@1.0.0.json",
+      "country": "Canada",
+      "region": "Federal",
+      "kind": "country_federal",
+      "scheme_count": 29
+    },
+    {
+      "pack_id": "canada-manitoba",
+      "version": "1.0.0",
+      "full_id": "canada-manitoba@1.0.0",
+      "file": "canada-manitoba@1.0.0.json",
+      "country": "Canada",
+      "region": "Manitoba",
+      "kind": "province",
+      "scheme_count": 3
+    },
+    {
+      "pack_id": "canada-new-brunswick",
+      "version": "1.0.0",
+      "full_id": "canada-new-brunswick@1.0.0",
+      "file": "canada-new-brunswick@1.0.0.json",
+      "country": "Canada",
+      "region": "New Brunswick",
+      "kind": "province",
+      "scheme_count": 3
+    },
+    {
+      "pack_id": "canada-newfoundland-and-labrador",
+      "version": "1.0.0",
+      "full_id": "canada-newfoundland-and-labrador@1.0.0",
+      "file": "canada-newfoundland-and-labrador@1.0.0.json",
+      "country": "Canada",
+      "region": "Newfoundland and Labrador",
+      "kind": "province",
+      "scheme_count": 4
+    },
+    {
+      "pack_id": "canada-northwest-territories",
+      "version": "1.0.0",
+      "full_id": "canada-northwest-territories@1.0.0",
+      "file": "canada-northwest-territories@1.0.0.json",
+      "country": "Canada",
+      "region": "Northwest Territories",
+      "kind": "province",
+      "scheme_count": 2
+    },
+    {
+      "pack_id": "canada-nova-scotia",
+      "version": "1.0.0",
+      "full_id": "canada-nova-scotia@1.0.0",
+      "file": "canada-nova-scotia@1.0.0.json",
+      "country": "Canada",
+      "region": "Nova Scotia",
+      "kind": "province",
+      "scheme_count": 3
+    },
+    {
+      "pack_id": "canada-nunavut",
+      "version": "1.0.0",
+      "full_id": "canada-nunavut@1.0.0",
+      "file": "canada-nunavut@1.0.0.json",
+      "country": "Canada",
+      "region": "Nunavut",
+      "kind": "province",
+      "scheme_count": 1
+    },
+    {
+      "pack_id": "canada-ontario",
+      "version": "1.0.0",
+      "full_id": "canada-ontario@1.0.0",
+      "file": "canada-ontario@1.0.0.json",
+      "country": "Canada",
+      "region": "Ontario",
+      "kind": "province",
+      "scheme_count": 4
+    },
+    {
+      "pack_id": "canada-prince-edward-island",
+      "version": "1.0.0",
+      "full_id": "canada-prince-edward-island@1.0.0",
+      "file": "canada-prince-edward-island@1.0.0.json",
+      "country": "Canada",
+      "region": "Prince Edward Island",
+      "kind": "province",
+      "scheme_count": 2
+    },
+    {
+      "pack_id": "canada-quebec",
+      "version": "1.0.0",
+      "full_id": "canada-quebec@1.0.0",
+      "file": "canada-quebec@1.0.0.json",
+      "country": "Canada",
+      "region": "Quebec",
+      "kind": "province",
+      "scheme_count": 4
+    },
+    {
+      "pack_id": "canada-saskatchewan",
+      "version": "1.0.0",
+      "full_id": "canada-saskatchewan@1.0.0",
+      "file": "canada-saskatchewan@1.0.0.json",
+      "country": "Canada",
+      "region": "Saskatchewan",
+      "kind": "province",
+      "scheme_count": 3
+    },
+    {
+      "pack_id": "canada-yukon",
+      "version": "1.0.0",
+      "full_id": "canada-yukon@1.0.0",
+      "file": "canada-yukon@1.0.0.json",
+      "country": "Canada",
+      "region": "Yukon",
+      "kind": "province",
+      "scheme_count": 2
+    },
     {
       "pack_id": "india-andhra-pradesh",
       "version": "1.0.0",
@@ -13,7 +153,7 @@
       "country": "India",
       "region": "Andhra Pradesh",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-assam",
@@ -33,7 +173,7 @@
       "country": "India",
       "region": "Bihar",
       "kind": "state",
-      "scheme_count": 9
+      "scheme_count": 10
     },
     {
       "pack_id": "india-central",
@@ -63,7 +203,7 @@
       "country": "India",
       "region": "Chhattisgarh",
       "kind": "state",
-      "scheme_count": 8
+      "scheme_count": 9
     },
     {
       "pack_id": "india-delhi",
@@ -93,7 +233,7 @@
       "country": "India",
       "region": "Gujarat",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-haryana",
@@ -113,7 +253,7 @@
       "country": "India",
       "region": "Jharkhand",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-karnataka",
@@ -123,7 +263,7 @@
       "country": "India",
       "region": "Karnataka",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-kerala",
@@ -133,7 +273,7 @@
       "country": "India",
       "region": "Kerala",
       "kind": "state",
-      "scheme_count": 13
+      "scheme_count": 14
     },
     {
       "pack_id": "india-ladakh",
@@ -163,7 +303,7 @@
       "country": "India",
       "region": "Madhya Pradesh",
       "kind": "state",
-      "scheme_count": 1
+      "scheme_count": 2
     },
     {
       "pack_id": "india-maharashtra",
@@ -173,7 +313,7 @@
       "country": "India",
       "region": "Maharashtra",
       "kind": "state",
-      "scheme_count": 9
+      "scheme_count": 10
     },
     {
       "pack_id": "india-manipur",
@@ -183,7 +323,7 @@
       "country": "India",
       "region": "Manipur",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-meghalaya",
@@ -223,7 +363,7 @@
       "country": "India",
       "region": "Odisha",
       "kind": "state",
-      "scheme_count": 9
+      "scheme_count": 10
     },
     {
       "pack_id": "india-puducherry",
@@ -253,7 +393,7 @@
       "country": "India",
       "region": "Rajasthan",
       "kind": "state",
-      "scheme_count": 9
+      "scheme_count": 10
     },
     {
       "pack_id": "india-sikkim",
@@ -273,7 +413,7 @@
       "country": "India",
       "region": "Tamil Nadu",
       "kind": "state",
-      "scheme_count": 12
+      "scheme_count": 13
     },
     {
       "pack_id": "india-telangana",
@@ -283,7 +423,7 @@
       "country": "India",
       "region": "Telangana",
       "kind": "state",
-      "scheme_count": 9
+      "scheme_count": 10
     },
     {
       "pack_id": "india-tripura",
@@ -293,7 +433,7 @@
       "country": "India",
       "region": "Tripura",
       "kind": "state",
-      "scheme_count": 10
+      "scheme_count": 11
     },
     {
       "pack_id": "india-uttar-pradesh",
@@ -303,7 +443,7 @@
       "country": "India",
       "region": "Uttar Pradesh",
       "kind": "state",
-      "scheme_count": 1
+      "scheme_count": 2
     },
     {
       "pack_id": "india-uttarakhand",
@@ -313,7 +453,7 @@
       "country": "India",
       "region": "Uttarakhand",
       "kind": "state",
-      "scheme_count": 11
+      "scheme_count": 12
     },
     {
       "pack_id": "india-west-bengal",
@@ -323,7 +463,7 @@
       "country": "India",
       "region": "West Bengal",
       "kind": "state",
-      "scheme_count": 1
+      "scheme_count": 2
     },
     {
       "pack_id": "uk-england",

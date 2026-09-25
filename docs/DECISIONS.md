@@ -181,6 +181,77 @@ India, Bangladesh, Nepal, Sri Lanka, Maldives and the United States. Conventions
 - A separate child-disability profile field.
 - NI-specific rows where the nidirect page was not confirmed.
 
+## 2026-09-25 — Canada country + CAD soft gate
+
+**Decision:** Add Canada as a catalogue country with 67 `can-*` rows (29 federal + 38
+provincial/territorial). All 13 provinces and territories are regions, amounts use
+`C$` / CAD, and packs are `canada-federal` plus `canada-<province>`. Conventions are in
+`docs/COUNTRY_CANADA.md`.
+
+1. **IDs `can-*`.** `ca-*` is already taken by US/California rows. Country aliases are
+   `canada` / `can`, and deliberately **not** `ca`.
+2. **Currency:** `C$` everywhere (wizard `currencySymbol`, backend `_currency_prefix`,
+   frontend `fmtIncome`, scheme text), so Canadian amounts are never read as USD.
+3. **Income:**
+   - India PRICE bands never apply to Canada, and the US $60k gate is never reused.
+   - New `IMPLIES_LOW_INCOME_ANNUAL_GATE_CAD = 58_523` is used only for
+     `implies_low_income` rows with no numeric max. It is a catalogue heuristic,
+     anchored on the 2026 top of the lowest federal tax bracket, which ESDC also uses as
+     the CLB low-income line and the additional-CESG tier.
+   - Official ceilings are encoded as `max_annual_income`. Where the ceiling varies by
+     household we use the highest published cut-off, with the other figures in notes
+     (e.g. CGEB C$82,952, GIS C$54,624, CDCP < C$90k, CLB C$73,577).
+   - Phase-outs that reach middle incomes (CCB, BC Family Benefit, ACFB, OTB, OCB) are
+     not gated.
+   - `test_matcher.py` previously asserted that Canada had no gate. It now asserts
+     C$58,523, and the "no gate" synthetic case moved to Maldives.
+4. **Federal rows that exclude a province:** CPP and EI maternity/parental exclude
+   Quebec (QPP / QPIP). Canada Student Grants exclude QC / NT / NU. These rows list the
+   eligible provinces explicitly but stay in `canada-federal`.
+5. **Verified status as of Sep 2026:**
+   - Canada Disability Benefit is active (C$204.20/month).
+   - CDCP is open to all eligible ages for 2026–27.
+   - The GST/HST credit was renamed the Canada Groceries and Essentials Benefit (CGEB)
+     in July 2026.
+   - The Canada Carbon Rebate ended April 2025 and is skipped.
+
+**Not done:**
+- Translating scheme bodies to ML/HI (EN copies, as for US/UK rows).
+- Nunavut Senior Fuel Subsidy (gov.nu.ca is unreachable).
+- Nova Scotia HARP (2026–27 terms are unpublished).
+- Ontario GAINS (held back by the 4-per-province cap).
+- Provincial student grants and child-care subsidies.
+
+## 2026-09-25 — India freshness candidates (PM-KUSUM, PM-JANMAN + 4)
+
+Each candidate was moved through `data/catalogue_candidates.json` (queued →
+researching → final) with `scripts/update_catalogue_candidate.py`. Every transition has
+an audit line.
+
+- **PM-JANMAN → `verified_add`, added as `in-pm-janman` (`verify: true`).**
+  - Benefit: PVTG households get a pucca house under PMAY-G norms (Rs 2 lakh) plus
+    convergence services.
+  - Coverage: 18 States + A&N Islands. Categories `ST` / `PVTG`, and
+    `max_annual_income: null` because there is no income test.
+  - No `central` tag, because it is not nationwide; the row goes into the 18 state packs.
+  - Sources: PIB (Ministry of Tribal Affairs, Feb/Mar 2026) and Lok Sabha answers of
+    30.07.2026 report it as ongoing. The extension to March 2027 is press-only, hence
+    `verify: true`.
+- **PM-KUSUM → `deferred`.**
+  - MNRE OM dated 28 Mar 2026 says the scheme timeline ended 31.03.2026, and
+    PM KUSUM 2.0 is "in the proposal stage".
+  - Only projects with PPAs/NTPs issued by 31.12.2025 were extended.
+  - There is no current new-farmer application route. Re-queue when the 2.0
+    guidelines are published.
+- **SVAMITVA → `deferred`, after careful judgement.**
+  - The property card is a genuine household benefit.
+  - But there is no individual application or eligibility test: cards are delivered
+    through a village-wide drone survey and state distribution.
+  - Revisit if MoPR or a state publishes a claim route.
+- **Jal Jeevan Mission, PM SHRI, PM e-Bus Sewa → `rejected`,** with reasons prefixed
+  "Out of scope: infrastructure, not an individual entitlement". They fund village water
+  schemes, school upgrades and city bus fleets respectively.
+
 ## 2026-09-25 — URL ticket fixes + HEAD→GET probe
 
 - `nsap-nfbs` now points to `https://nsap.dord.gov.in/` (MoRD NSAP portal).

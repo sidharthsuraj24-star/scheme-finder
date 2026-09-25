@@ -1,0 +1,19 @@
+{
+  "pack_id": "canada-ontario",
+  "version": "1.0.0",
+  "full_id": "canada-ontario@1.0.0",
+  "country": "Canada",
+  "region": "Ontario",
+  "kind": "province",
+  "scheme_ids": [
+    "can-on-child-benefit",
+    "can-on-odsp",
+    "can-on-seniors-dental-care",
+    "can-on-trillium-benefit"
+  ],
+  "scheme_count": 4,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

@@ -6,10 +6,11 @@
   "region": "Madhya Pradesh",
   "kind": "state",
   "scheme_ids": [
+    "in-pm-janman",
     "mp-mmvy-medhavi"
   ],
-  "scheme_count": 1,
-  "generated_at": "2026-09-25T12:08:25+05:30",
+  "scheme_count": 2,
+  "generated_at": "2026-09-25T15:46:03+05:30",
   "timezone": "Asia/Kolkata",
   "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
   "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"

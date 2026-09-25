@@ -9,6 +9,11 @@ United Kingdom (scheme ids gb-*; uk-* ids are India/Uttarakhand):
 - uk-wide: rows with countries ["United Kingdom"] and nationwide / empty states
 - uk-england / uk-scotland / uk-wales / uk-northern-ireland: nation-scoped rows
   (a row valid in several nations, e.g. PIP for England+Wales+NI, is in each pack)
+
+Canada (scheme ids can-*; ca-* ids are US/California):
+- canada-federal: rows tagged canada_federal (incl. federal rows that exclude a
+  province, e.g. CPP / EI maternity-parental outside Quebec)
+- canada-<province>: provincial / territorial rows (from eligibility_rules.states)
 """
 
 from __future__ import annotations
@@ -99,6 +104,23 @@ UK_NATIONS: dict[str, tuple[str, str]] = {
 }
 
 
+CANADA_PROVINCES: dict[str, tuple[str, str]] = {
+    "alberta": ("canada-alberta", "Alberta"),
+    "british_columbia": ("canada-british-columbia", "British Columbia"),
+    "manitoba": ("canada-manitoba", "Manitoba"),
+    "new_brunswick": ("canada-new-brunswick", "New Brunswick"),
+    "newfoundland_and_labrador": ("canada-newfoundland-and-labrador", "Newfoundland and Labrador"),
+    "northwest_territories": ("canada-northwest-territories", "Northwest Territories"),
+    "nova_scotia": ("canada-nova-scotia", "Nova Scotia"),
+    "nunavut": ("canada-nunavut", "Nunavut"),
+    "ontario": ("canada-ontario", "Ontario"),
+    "prince_edward_island": ("canada-prince-edward-island", "Prince Edward Island"),
+    "quebec": ("canada-quebec", "Quebec"),
+    "saskatchewan": ("canada-saskatchewan", "Saskatchewan"),
+    "yukon": ("canada-yukon", "Yukon"),
+}
+
+
 def slugify_file(pack_id: str, version: str) -> str:
     return f"{pack_id}@{version}.json"
 
@@ -118,6 +140,28 @@ def is_uk(scheme: dict) -> bool:
         or sid.startswith("gb-")
         or "United Kingdom" in countries
     )
+
+
+def is_canada(scheme: dict) -> bool:
+    tags = [str(t).lower() for t in (scheme.get("tags") or [])]
+    sid = str(scheme.get("id") or "")
+    countries = (scheme.get("eligibility_rules") or {}).get("countries") or []
+    return "canada" in tags or sid.startswith("can-") or "Canada" in countries
+
+
+def canada_pack_ids(scheme: dict) -> list[tuple[str, str, str]]:
+    """(pack_id, region label, kind) for a Canada scheme."""
+    tags = [str(t).lower() for t in (scheme.get("tags") or [])]
+    er = scheme.get("eligibility_rules") or {}
+    if "canada_federal" in tags or er.get("nationwide") or not (er.get("states") or []):
+        return [("canada-federal", "Federal", "country_federal")]
+    out: list[tuple[str, str, str]] = []
+    for st in er.get("states") or []:
+        key = str(st).strip().lower().replace(" ", "_").replace("-", "_")
+        if key in CANADA_PROVINCES:
+            pid, label = CANADA_PROVINCES[key]
+            out.append((pid, label, "province"))
+    return out
 
 
 def uk_pack_ids(scheme: dict) -> list[tuple[str, str, str]]:
@@ -172,6 +216,12 @@ def main() -> int:
         sid = s["id"]
         tags = [str(t).lower() for t in (s.get("tags") or [])]
         us = is_us(s)
+
+        if is_canada(s):
+            for pid, label, kind in canada_pack_ids(s):
+                ensure(pid, country="Canada", region=label, kind=kind)
+                membership[pid].add(sid)
+            continue
 
         if is_uk(s):
             for pid, label, kind in uk_pack_ids(s):

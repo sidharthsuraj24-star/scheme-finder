@@ -1,0 +1,17 @@
+{
+  "pack_id": "canada-yukon",
+  "version": "1.0.0",
+  "full_id": "canada-yukon@1.0.0",
+  "country": "Canada",
+  "region": "Yukon",
+  "kind": "province",
+  "scheme_ids": [
+    "can-yt-child-benefit",
+    "can-yt-pioneer-utility-grant"
+  ],
+  "scheme_count": 2,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

@@ -6,6 +6,7 @@
   "region": "Manipur",
   "kind": "state",
   "scheme_ids": [
+    "in-pm-janman",
     "mn-caregiver-allowance-pwd",
     "mn-cmwps",
     "mn-disability-pension-cmst",
@@ -17,8 +18,8 @@
     "mn-nfbs",
     "mn-old-age-pension"
   ],
-  "scheme_count": 10,
-  "generated_at": "2026-09-25T12:08:25+05:30",
+  "scheme_count": 11,
+  "generated_at": "2026-09-25T15:46:03+05:30",
   "timezone": "Asia/Kolkata",
   "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
   "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"

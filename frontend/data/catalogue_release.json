@@ -1,8 +1,8 @@
 {
   "updated_as_of": "2026-09-25",
-  "scheme_count": 882,
-  "schemes_sha256": "5e67cd645b65ed74235aa0f3026a33f0742bc62bb39dcbf3e70f9e81fd84ca60",
-  "generated_at": "2026-09-25T12:11:24+05:30",
+  "scheme_count": 950,
+  "schemes_sha256": "996721dec1971177465e77dd4627ec6b3ae58fca47f2f0bfe5f9d2fd60c58e98",
+  "generated_at": "2026-09-25T15:48:28+05:30",
   "timezone": "Asia/Kolkata",
   "changelog": [
     {
@@ -20,9 +20,17 @@
       "scheme_count": 882,
       "updated_as_of": "2026-09-25",
       "commit_sha": "34f74711711167a7433a1a425cc87de3c3bc5c5b"
+    },
+    {
+      "at": "2026-09-25T15:48:28+05:30",
+      "text": "2026-09-25: Canada added as catalogue country (67 can-* schemes: 29 federal + 38 provincial/territorial; canada-* packs; C$ currency; Canada C$58,523 soft gate; India bands and US gate never applied); India freshness candidates: PM-JANMAN added (in-pm-janman), PM-KUSUM + SVAMITVA deferred, Jal Jeevan Mission / PM SHRI / PM e-Bus Sewa rejected as infrastructure. 950 schemes.",
+      "schemes_sha256": "996721dec1971177465e77dd4627ec6b3ae58fca47f2f0bfe5f9d2fd60c58e98",
+      "scheme_count": 950,
+      "updated_as_of": "2026-09-25",
+      "commit_sha": "d204c174d6528a18d8910fd0ce6f3037d0977f90"
     }
   ],
-  "latest_changelog": "2026-09-25: United Kingdom added as catalogue country (60 gb-* schemes, uk-* packs, £ currency, UK £60k soft gate; India bands India-only); URL tickets fixed (nsap-nfbs -> nsap.dord.gov.in; AP NTR Bharosa + Sikkim SUWPS re-verified). 882 schemes.",
-  "commit_sha": "34f74711711167a7433a1a425cc87de3c3bc5c5b",
+  "latest_changelog": "2026-09-25: Canada added as catalogue country (67 can-* schemes: 29 federal + 38 provincial/territorial; canada-* packs; C$ currency; Canada C$58,523 soft gate; India bands and US gate never applied); India freshness candidates: PM-JANMAN added (in-pm-janman), PM-KUSUM + SVAMITVA deferred, Jal Jeevan Mission / PM SHRI / PM e-Bus Sewa rejected as infrastructure. 950 schemes.",
+  "commit_sha": "d204c174d6528a18d8910fd0ce6f3037d0977f90",
   "disclaimer": "Confirm eligibility with the official source before applying. This catalogue is curated and may be incomplete or outdated."
 }

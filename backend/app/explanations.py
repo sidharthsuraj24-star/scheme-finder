@@ -26,6 +26,8 @@ def _implies_low_gate_label(country: str | None) -> str:
         return "$60,000"  # soft US catalogue heuristic — not official FPL
     if c in {"united_kingdom", "uk", "gb", "great_britain"}:
         return "£60,000"  # soft UK catalogue heuristic (HICBC anchor) — not official
+    if c in {"canada", "can"}:
+        return "C$58,523"  # soft Canada heuristic (lowest federal bracket / CLB line) — not official
     if c in {"india", ""}:
         return "Rs.5,00,000"
     return "n/a (no soft gate for this country)"
@@ -40,6 +42,8 @@ _COUNTRY_DISPLAY = {
     "uk": "United Kingdom",
     "gb": "United Kingdom",
     "great_britain": "United Kingdom",
+    "canada": "Canada",
+    "can": "Canada",
 }
 
 
@@ -63,6 +67,8 @@ def _currency_prefix(country: str | None) -> str:
         return "$"
     if c in {"united_kingdom", "uk", "gb", "great_britain"}:
         return "£"
+    if c in {"canada", "can"}:
+        return "C$"  # Canadian dollars — never bare "$" (USD)
     return "Rs."
 
 

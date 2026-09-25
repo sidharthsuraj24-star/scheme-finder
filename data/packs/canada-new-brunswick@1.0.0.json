@@ -1,0 +1,18 @@
+{
+  "pack_id": "canada-new-brunswick",
+  "version": "1.0.0",
+  "full_id": "canada-new-brunswick@1.0.0",
+  "country": "Canada",
+  "region": "New Brunswick",
+  "kind": "province",
+  "scheme_ids": [
+    "can-nb-child-tax-benefit",
+    "can-nb-hst-credit",
+    "can-nb-low-income-seniors-benefit"
+  ],
+  "scheme_count": 3,
+  "generated_at": "2026-09-25T15:46:03+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}
