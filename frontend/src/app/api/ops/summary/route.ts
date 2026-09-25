@@ -163,6 +163,7 @@ export async function GET(request: Request) {
   const byCountry: Record<string, number> = {
     "India / other": 0,
     "United States": 0,
+    "United Kingdom": 0,
     "Neighbours (BD/NP/LK/MV)": 0,
   };
   for (const s of schemes) {
@@ -171,6 +172,8 @@ export async function GET(request: Request) {
     if (er.verify) verifyTrue += 1;
     if (tags.includes("united_states") || tags.includes("united-states")) {
       byCountry["United States"] += 1;
+    } else if (tags.includes("united_kingdom") || /^gb-/.test(String(s.id || ""))) {
+      byCountry["United Kingdom"] += 1;
     } else if (
       tags.some((t) => ["bangladesh", "nepal", "sri-lanka", "maldives"].includes(t)) ||
       /^(bd|np|lk|mv)-/.test(String(s.id || ""))

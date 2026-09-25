@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T16:35:18+05:30",
+  "generated_at": "2026-09-25T12:08:25+05:30",
   "timezone": "Asia/Kolkata",
   "default_version": "1.0.0",
-  "pack_count": 49,
+  "pack_count": 54,
   "packs": [
     {
       "pack_id": "india-andhra-pradesh",
@@ -324,6 +324,56 @@
       "region": "West Bengal",
       "kind": "state",
       "scheme_count": 1
+    },
+    {
+      "pack_id": "uk-england",
+      "version": "1.0.0",
+      "full_id": "uk-england@1.0.0",
+      "file": "uk-england@1.0.0.json",
+      "country": "United Kingdom",
+      "region": "England",
+      "kind": "nation",
+      "scheme_count": 25
+    },
+    {
+      "pack_id": "uk-northern-ireland",
+      "version": "1.0.0",
+      "full_id": "uk-northern-ireland@1.0.0",
+      "file": "uk-northern-ireland@1.0.0.json",
+      "country": "United Kingdom",
+      "region": "Northern Ireland",
+      "kind": "nation",
+      "scheme_count": 11
+    },
+    {
+      "pack_id": "uk-scotland",
+      "version": "1.0.0",
+      "full_id": "uk-scotland@1.0.0",
+      "file": "uk-scotland@1.0.0.json",
+      "country": "United Kingdom",
+      "region": "Scotland",
+      "kind": "nation",
+      "scheme_count": 20
+    },
+    {
+      "pack_id": "uk-wales",
+      "version": "1.0.0",
+      "full_id": "uk-wales@1.0.0",
+      "file": "uk-wales@1.0.0.json",
+      "country": "United Kingdom",
+      "region": "Wales",
+      "kind": "nation",
+      "scheme_count": 21
+    },
+    {
+      "pack_id": "uk-wide",
+      "version": "1.0.0",
+      "full_id": "uk-wide@1.0.0",
+      "file": "uk-wide@1.0.0.json",
+      "country": "United Kingdom",
+      "region": "UK-wide",
+      "kind": "country_national",
+      "scheme_count": 12
     },
     {
       "pack_id": "us-arizona",

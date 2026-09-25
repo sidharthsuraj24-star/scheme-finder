@@ -94,6 +94,13 @@ def _norm_set(values: list[str] | None) -> set[str]:
 # Named constants — currency/country aware. Do NOT treat USD gate as official FPL.
 IMPLIES_LOW_INCOME_ANNUAL_GATE_INR = 500_000
 IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000
+# United Kingdom: GBP 60_000 individual/household annual income — catalogue soft
+# heuristic anchored on HMRC's High Income Child Benefit Charge threshold (£60,000
+# adjusted net income, 2024-25 onward). NOT an official means-test line; applies only
+# to UK rows flagged implies_low_income with no numeric max encoded. Real official
+# thresholds (e.g. Shared Ownership £80k/£90k) are encoded as max_annual_income.
+IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP = 60_000
+UK_COUNTRY_ALIASES = frozenset({"united_kingdom", "uk", "gb", "great_britain"})
 
 
 def implies_low_income_annual_gate(country: str | None) -> float | None:
@@ -101,6 +108,8 @@ def implies_low_income_annual_gate(country: str | None) -> float | None:
 
     India (default): INR 500_000. United States: USD 60_000 (soft catalogue
     heuristic for BPL-style US rows lacking FPL tables — not an official FPL).
+    United Kingdom: GBP 60_000 (soft heuristic anchored on the HMRC HICBC £60k
+    threshold — not an official means test; India PRICE bands never apply).
     Other countries: None (require numeric max_annual_income / max_monthly).
     """
     c = _norm((country or "India").strip() or "India")
@@ -108,6 +117,8 @@ def implies_low_income_annual_gate(country: str | None) -> float | None:
         return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_INR)
     if c in {"united_states", "usa", "us"}:
         return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_USD)
+    if c in UK_COUNTRY_ALIASES:
+        return float(IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP)
     return None
 
 def profile_has_land(land_ownership: bool | str | None) -> bool | None:
@@ -261,6 +272,7 @@ def evaluate_scheme(scheme: dict[str, Any], profile: MatchProfile) -> RuleResult
     # - India (default): ₹500,000 annual (documented BPL-style soft gate)
     # - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
     #   tables / numeric max; NOT an official Federal Poverty Level figure
+    # - United Kingdom: £60,000 annual — catalogue heuristic (HICBC anchor), NOT official
     # - Other countries: skip soft gate unless a numeric max is encoded
     implies_low = bool(rules.get("implies_low_income"))
     if implies_low and max_annual is None and max_monthly is None:

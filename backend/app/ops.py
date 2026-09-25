@@ -141,6 +141,8 @@ def coverage_summary(schemes: list[dict[str, Any]]) -> dict[str, Any]:
             verify_true += 1
         if "united_states" in tags or "united-states" in tags:
             by_country["United States"] += 1
+        elif "united_kingdom" in tags or (s.get("id") or "").startswith("gb-"):
+            by_country["United Kingdom"] += 1
         elif any(t in ("bangladesh", "nepal", "sri-lanka", "maldives") for t in tags) or (
             s.get("id") or ""
         ).startswith(("bd-", "np-", "lk-", "mv-")):
@@ -153,6 +155,7 @@ def coverage_summary(schemes: list[dict[str, Any]]) -> dict[str, Any]:
                 "california",
                 "texas",
                 "new_york",
+                "united_kingdom",
                 "federal",
                 "nationwide",
                 "central",

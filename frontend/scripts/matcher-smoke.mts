@@ -325,6 +325,48 @@ function check(name: string, ok: boolean, detail = "") {
 }
 
 
+
+// United Kingdom (2026-09-25): GBP soft gate, nation filtering, no India bands / US gate
+{
+  const ukBase = (partial: Partial<MatchProfile>) =>
+    base({
+      country: "United Kingdom",
+      state: "England",
+      age: 35,
+      gender: "female",
+      occupations: ["other"],
+      annual_income: 30_000,
+      disability: false,
+      disability_percent: 0,
+      ...partial,
+    } as Partial<MatchProfile>);
+  const opts = { max_results: 100 };
+
+  const low = matchSchemes(schemes, ukBase({ annual_income: 18_000 }), opts);
+  check("uk_low_income_uc", ids(low).has("gb-universal-credit"));
+  check("uk_no_india_band", low.income_band == null);
+  const uc = low.matched.find((m) => m.scheme_id === "gb-universal-credit");
+  const ucText = JSON.stringify(uc ?? {});
+  check("uk_explanation_pounds", ucText.includes("£60,000") && !ucText.includes("$60,000"), ucText.slice(0, 200));
+
+  const rich = matchSchemes(schemes, ukBase({ age: 30, annual_income: 250_000 }), opts);
+  check("uk_rich_excludes_uc", !ids(rich).has("gb-universal-credit"));
+  for (const id of ["gb-lifetime-isa", "gb-child-benefit", "gb-tax-free-childcare"]) {
+    check(`uk_rich_keeps_${id}`, ids(rich).has(id));
+  }
+  check("uk_rich_excludes_shared_ownership", !ids(rich).has("gb-eng-shared-ownership"));
+
+  const scot = matchSchemes(schemes, ukBase({ state: "Scotland", annual_income: 15_000 }), opts);
+  check("uk_scotland_scp", ids(scot).has("gb-sct-scottish-child-payment"));
+  check("uk_scotland_no_eng_childcare", !ids(scot).has("gb-eng-free-childcare-working-parents"));
+  const eng = matchSchemes(schemes, ukBase({ state: "England", annual_income: 15_000 }), opts);
+  check("uk_england_no_scp", !ids(eng).has("gb-sct-scottish-child-payment"));
+  check(
+    "uk_no_india_or_us_rows",
+    ![...ids(eng)].some((i) => i.startsWith("us-") || i.startsWith("kerala-") || i.startsWith("uk-")),
+  );
+}
+
 if (failed) {
   console.error(`\n${failed} failed`);
   process.exit(1);

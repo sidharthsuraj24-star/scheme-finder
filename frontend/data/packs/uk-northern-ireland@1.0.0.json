@@ -1,0 +1,26 @@
+{
+  "pack_id": "uk-northern-ireland",
+  "version": "1.0.0",
+  "full_id": "uk-northern-ireland@1.0.0",
+  "country": "United Kingdom",
+  "region": "Northern Ireland",
+  "kind": "nation",
+  "scheme_ids": [
+    "gb-attendance-allowance",
+    "gb-carers-allowance",
+    "gb-disabled-facilities-grant",
+    "gb-dla-children",
+    "gb-healthy-start",
+    "gb-ni-discretionary-support",
+    "gb-ni-education-maintenance-allowance",
+    "gb-ni-lone-pensioner-allowance",
+    "gb-personal-independence-payment",
+    "gb-sdlt-first-time-buyer-relief",
+    "gb-winter-fuel-payment"
+  ],
+  "scheme_count": 11,
+  "generated_at": "2026-09-25T12:08:25+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

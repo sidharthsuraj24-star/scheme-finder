@@ -18,6 +18,7 @@ Never invent scheme eligibility. Official sources only. Dual-tree
 | Health → tickets | `scripts/write_url_health_snapshot.py` | Upserts failures; fixes on recovery |
 | Versioned packs | `data/packs/*@1.0.0.json` + `index.json` | Membership manifests by state/country |
 | Pack generator | `scripts/generate_pack_manifests.py` | Derive ids from scheme tags |
+| Resolve ticket | `scripts/resolve_url_ticket.py` | Mark a ticket fixed after a URL fix (+ frontend sync) |
 | Ops dashboard | `/ops`, `/ops/summary` | Open tickets, candidate counts, pack count |
 
 ## 1. Human-verify candidate queue
@@ -72,11 +73,35 @@ python3 scripts/write_url_health_snapshot.py --from-freshness-json path/to/resul
 python3 scripts/list_url_tickets.py
 ```
 
-Known historically flaky hosts (pre-seeded open tickets if still relevant):
+Resolve a ticket after fixing the catalogue URL (appends a `fixed` row and syncs
+`frontend/data/url_tickets.jsonl`, which must stay byte-identical):
 
-- `nsap.nic.in` (DNS)
-- `sspensions.ap.gov.in` (5xx)
-- `pensionscheme.sikkim.gov.in` (404)
+```bash
+python3 scripts/resolve_url_ticket.py --scheme-id <id> --url <ticket url> \
+    [--new-url <replacement>] --probe [--force] --notes "evidence"
+```
+
+`--probe` re-checks with the same HEAD→GET probe; `--force` is only for hosts verified
+from another network (say so in `--notes`).
+
+**Probe behaviour (2026-09-25):** HEAD first. On HEAD 400/403/404/405/5xx/501 the probe
+retries with GET. Some official portals answer HEAD wrongly: pensionscheme.sikkim.gov.in
+(IIS) gives HEAD 404 and sspensions.ap.gov.in gives HEAD 500, while GET returns 200 on
+both. Those HEAD answers caused the original false "broken" tickets.
+
+**Geo-fenced hosts:** `_GEOFENCED_INDIA_HOSTS` in `write_url_health_snapshot.py`
+(currently `nsap.dord.gov.in`) block non-Indian networks with a TLS EOF or timeout. A
+failed probe from CI or the box is reported as `GEO-FENCED …` and never opens or resolves
+a ticket. Verify from India instead, e.g. the public check-host.net India nodes.
+
+Known historically flaky hosts (probed by `--probe-known-flaky`):
+
+- `nsap.dord.gov.in`: the NSAP portal. Legacy `nsap.nic.in` is NXDOMAIN and was
+  replaced 2026-09-25. The new host is geo-fenced to India.
+- `sspensions.ap.gov.in`: intermittent 5xx; HEAD returns 500.
+- `pensionscheme.sikkim.gov.in`: HEAD returns 404, GET returns 200.
+
+All three 2026-09-24 pre-seeded tickets were resolved `fixed` on 2026-09-25.
 
 Do **not** hammer the full catalogue from CI. Prefer the daily routine + small
 allowlists. User-Agent is set; keep timeouts short.
@@ -86,7 +111,14 @@ allowlists. User-Agent is set; keep timeouts short.
 Manifests under `data/packs/` (mirrored to `frontend/data/packs/`):
 
 - Example ids: `india-kerala@1.0.0`, `india-central@1.0.0`, `us-federal@1.0.0`,
-  `us-california@1.0.0`
+  `us-california@1.0.0`, `uk-wide@1.0.0`, `uk-scotland@1.0.0`
+- United Kingdom (2026-09-25):
+  - UK rows are detected by the `united_kingdom` tag, a `gb-` id, or
+    `countries: ["United Kingdom"]`. They are handled before the India fallback.
+  - `uk-wide` (kind `country_national`) holds rows with no nations listed.
+  - `uk-england` / `uk-scotland` / `uk-wales` / `uk-northern-ireland` (kind `nation`)
+    come from `eligibility_rules.states`.
+  - See `docs/COUNTRY_UK.md`.
 - Contents: `scheme_ids[]` membership only — **no** duplicated scheme bodies
 - Regenerated from tags in `schemes.json`:
 
@@ -126,3 +158,4 @@ Env gate unchanged: `NEXT_PUBLIC_SHOW_OPS=1` **or** `OPS_DASHBOARD_TOKEN`.
 - `docs/TRUST.md` — signed releases + audit
 - `docs/PRODUCT.md` — Phase 3 product surface; links here for ops data plane
 - `docs/DECISIONS.md` — Phase 4 decision entry
+- `docs/COUNTRY_UK.md` — United Kingdom conventions (gb-* ids, nations, £ soft gate)

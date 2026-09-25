@@ -1,29 +1,17 @@
 {
-  "generated_at": "2026-09-24T16:35:21+05:30",
+  "generated_at": "2026-09-25T12:00:46+05:30",
   "timezone": "Asia/Kolkata",
   "checked_count": 3,
-  "ok_count": 0,
+  "ok_count": 2,
   "flaky_hosts": [
     {
-      "host": "nsap.nic.in",
-      "status": "SEED historically flaky",
+      "host": "nsap.dord.gov.in",
+      "status": "GEO-FENCED (India-only host; verify from India) — FAIL <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
       "scheme_id": "nsap-nfbs",
-      "url": "https://nsap.nic.in/"
-    },
-    {
-      "host": "sspensions.ap.gov.in",
-      "status": "SEED historically flaky",
-      "scheme_id": "ap-ntr-bharosa-oap",
-      "url": "https://sspensions.ap.gov.in/SSP/Home"
-    },
-    {
-      "host": "pensionscheme.sikkim.gov.in",
-      "status": "SEED historically flaky",
-      "scheme_id": "sk-unmarried-women-pension",
-      "url": "https://pensionscheme.sikkim.gov.in/"
+      "url": "https://nsap.dord.gov.in/"
     }
   ],
-  "open_url_tickets": 3,
+  "open_url_tickets": 0,
   "ticket_updates": {
     "upserted_failures": 0,
     "resolved_fixed": 0

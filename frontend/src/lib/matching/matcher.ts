@@ -70,11 +70,19 @@ function norm(value: string | null | undefined): string {
  *  Country/currency aware. USD gate is NOT an official FPL figure. */
 export const IMPLIES_LOW_INCOME_ANNUAL_GATE_INR = 500_000;
 export const IMPLIES_LOW_INCOME_ANNUAL_GATE_USD = 60_000;
+/**
+ * United Kingdom soft gate (GBP) — catalogue heuristic anchored on HMRC's High Income
+ * Child Benefit Charge £60,000 threshold. NOT an official means test; only for UK rows
+ * flagged implies_low_income with no numeric max. India PRICE bands never apply to UK.
+ */
+export const IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP = 60_000;
+const UK_COUNTRY_ALIASES = new Set(["united_kingdom", "uk", "gb", "great_britain"]);
 
 export function impliesLowIncomeAnnualGate(country: string | null | undefined): number | null {
   const c = norm((country || "India").trim() || "India");
   if (c === "india") return IMPLIES_LOW_INCOME_ANNUAL_GATE_INR;
   if (c === "united_states" || c === "usa" || c === "us") return IMPLIES_LOW_INCOME_ANNUAL_GATE_USD;
+  if (UK_COUNTRY_ALIASES.has(c)) return IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP;
   return null;
 }
 
@@ -233,6 +241,7 @@ export function evaluateScheme(scheme: SchemeRecord, profile: MatchProfile): Rul
   // - India (default): ₹500,000 annual
   // - United States: $60,000 annual — catalogue heuristic for US rows lacking FPL
   //   tables / numeric max; NOT an official Federal Poverty Level figure
+  // - United Kingdom: £60,000 annual — catalogue heuristic (HICBC anchor), NOT official
   // - Other countries: skip soft gate unless a numeric max is encoded
   const impliesLow = Boolean(rules.implies_low_income);
   if (impliesLow && maxAnnual == null && maxMonthly == null) {

@@ -63,9 +63,14 @@ python3 scripts/update_catalogue_candidate.py --id cand-in-example --status rese
 # URL tickets + health snapshot
 python3 scripts/write_url_health_snapshot.py --probe-known-flaky   # short allowlist only
 python3 scripts/list_url_tickets.py
+python3 scripts/resolve_url_ticket.py --scheme-id <id> --url <ticket url> [--new-url <url>] --probe
 
 # Versioned pack manifests (membership only)
-python3 scripts/generate_pack_manifests.py --version 1.0.0
+python3 scripts/generate_pack_manifests.py --version 1.0.0   # india-*, us-*, uk-* packs
 ```
+
+United Kingdom starter pack (2026-09-25): `python3 scripts/uk_starter_pack_2026_09_25.py`
+(rows in `uk_starter_pack_2026_09_25_rows.py`; idempotent; ids `gb-*`; see docs/COUNTRY_UK.md).
+URL ticket fixes (2026-09-25): `python3 scripts/url_ticket_fixes_2026_09_25.py` (idempotent).
 
 See `docs/CATALOGUE_OPS.md`. Does **not** invent eligibility or auto-edit schemes.

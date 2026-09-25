@@ -557,3 +557,80 @@ Skipped: DNH&DD dedicated widow/disability pension eligibility pages not publish
 - `us-529-qtp` — https://www.irs.gov/taxtopics/tc313 — Federal §529 QTP / 529 plan framework (state-administered plans).
 - `us-able-accounts` — https://www.irs.gov/instructions/i1099qa (+ Pub. 907 / SSA ABLE) — ABLE §529A; disability/blindness onset before age 46 for tax years beginning after Dec. 31, 2025.
 - Skipped: custodial Roth/traditional IRA for minors (general IRA earned-income rules, not a distinct named benefit program); separate federal “baby bonds” (not enacted beyond Trump Accounts); closed SEED OK pilot; state baby-bond programs (CT/DC) left for a later state pass.
+
+## United Kingdom starter pack (2026-09-25 IST)
+
+Added **60** `gb-*` rows (UK-wide + England / Scotland / Wales / Northern Ireland). Official hosts only: gov.uk, mygov.scot (Scottish Government citizen portal used by Social Security Scotland), gov.scot, transport.gov.scot, gov.wales, nidirect.gov.uk; Healthy Start apply link = NHS BSA service linked from gov.uk. Every URL returned HTTP 200 on GET from the curator box on 2026-09-25 (mygov.scot/gov.scot need a browser User-Agent; plain scripted requests get HTTP 202 bot challenge). Conventions: `docs/COUNTRY_UK.md`.
+
+| id | official_source_url | nations | verify |
+|----|---------------------|---------|--------|
+| `gb-universal-credit` | https://www.gov.uk/universal-credit | UK-wide | true |
+| `gb-child-benefit` | https://www.gov.uk/child-benefit | UK-wide | true |
+| `gb-tax-free-childcare` | https://www.gov.uk/tax-free-childcare | UK-wide | true |
+| `gb-new-state-pension` | https://www.gov.uk/new-state-pension | UK-wide | true |
+| `gb-pension-credit` | https://www.gov.uk/pension-credit | UK-wide | true |
+| `gb-help-to-save` | https://www.gov.uk/get-help-savings-low-income | UK-wide | true |
+| `gb-lifetime-isa` | https://www.gov.uk/lifetime-isa | UK-wide | true |
+| `gb-junior-isa` | https://www.gov.uk/junior-individual-savings-accounts | UK-wide | true |
+| `gb-isa-allowance` | https://www.gov.uk/individual-savings-accounts | UK-wide | true |
+| `gb-marriage-allowance` | https://www.gov.uk/marriage-allowance | UK-wide | true |
+| `gb-maternity-allowance` | https://www.gov.uk/maternity-allowance | UK-wide | true |
+| `gb-pension-tax-relief` | https://www.gov.uk/tax-on-your-private-pension | UK-wide | true |
+| `gb-personal-independence-payment` | https://www.gov.uk/pip | England, Wales, Northern Ireland | true |
+| `gb-dla-children` | https://www.gov.uk/disability-living-allowance-children | England, Wales, Northern Ireland | true |
+| `gb-carers-allowance` | https://www.gov.uk/carers-allowance | England, Wales, Northern Ireland | true |
+| `gb-attendance-allowance` | https://www.gov.uk/attendance-allowance | England, Wales, Northern Ireland | true |
+| `gb-winter-fuel-payment` | https://www.gov.uk/winter-fuel-payment | England, Wales, Northern Ireland | true |
+| `gb-cold-weather-payment` | https://www.gov.uk/cold-weather-payment | England, Wales | true |
+| `gb-sure-start-maternity-grant` | https://www.gov.uk/sure-start-maternity-grant | England, Wales | true |
+| `gb-healthy-start` | https://www.gov.uk/healthy-start | England, Wales, Northern Ireland | true |
+| `gb-warm-home-discount` | https://www.gov.uk/the-warm-home-discount-scheme | England, Wales, Scotland | true |
+| `gb-disabled-facilities-grant` | https://www.gov.uk/disabled-facilities-grants | England, Wales, Northern Ireland | true |
+| `gb-access-to-work` | https://www.gov.uk/access-to-work | England, Wales, Scotland | true |
+| `gb-blue-badge` | https://www.gov.uk/apply-blue-badge | England, Scotland, Wales | true |
+| `gb-council-tax-reduction` | https://www.gov.uk/apply-council-tax-reduction | England, Scotland, Wales | true |
+| `gb-council-tax-single-person-discount` | https://www.gov.uk/council-tax | England, Wales | true |
+| `gb-budgeting-loan` | https://www.gov.uk/budgeting-help-benefits | England, Scotland, Wales | true |
+| `gb-sdlt-first-time-buyer-relief` | https://www.gov.uk/stamp-duty-land-tax | England, Northern Ireland | true |
+| `gb-boiler-upgrade-scheme` | https://www.gov.uk/apply-boiler-upgrade-scheme | England, Wales | true |
+| `gb-eng-free-childcare-working-parents` | https://www.gov.uk/free-childcare-if-working | England | true |
+| `gb-eng-15-hours-3-4-year-olds` | https://www.gov.uk/help-with-childcare-costs/free-childcare-and-education-for-3-to-4-year-olds | England | true |
+| `gb-eng-free-school-meals` | https://www.gov.uk/apply-free-school-meals | England | true |
+| `gb-eng-shared-ownership` | https://www.gov.uk/shared-ownership-scheme | England | true |
+| `gb-eng-first-homes` | https://www.gov.uk/first-homes-scheme | England | true |
+| `gb-eng-right-to-buy` | https://www.gov.uk/right-to-buy-buying-your-council-home | England | true |
+| `gb-eng-student-finance` | https://www.gov.uk/student-finance | England | true |
+| `gb-eng-older-persons-bus-pass` | https://www.gov.uk/apply-for-elderly-person-bus-pass | England | true |
+| `gb-sct-scottish-child-payment` | https://www.mygov.scot/scottish-child-payment | Scotland | true |
+| `gb-sct-best-start-grant` | https://www.mygov.scot/best-start-grant-best-start-foods | Scotland | true |
+| `gb-sct-best-start-foods` | https://www.mygov.scot/best-start-grant-best-start-foods | Scotland | true |
+| `gb-sct-adult-disability-payment` | https://www.mygov.scot/adult-disability-payment | Scotland | true |
+| `gb-sct-child-disability-payment` | https://www.mygov.scot/child-disability-payment | Scotland | true |
+| `gb-sct-carer-support-payment` | https://www.mygov.scot/carer-support-payment | Scotland | true |
+| `gb-sct-pension-age-disability-payment` | https://www.mygov.scot/pension-age-disability-payment | Scotland | true |
+| `gb-sct-pension-age-winter-heating-payment` | https://www.mygov.scot/pension-age-winter-heating-payment | Scotland | true |
+| `gb-sct-winter-heating-payment` | https://www.mygov.scot/winter-heating-payment | Scotland | true |
+| `gb-sct-young-carer-grant` | https://www.mygov.scot/young-carer-grant | Scotland | true |
+| `gb-sct-job-start-payment` | https://www.mygov.scot/job-start-payment | Scotland | true |
+| `gb-sct-funded-elc-1140` | https://www.gov.scot/policies/early-education-and-care/early-learning-and-childcare/ | Scotland | true |
+| `gb-sct-free-school-lunches-p1-p5` | https://www.mygov.scot/primary-school-meals | Scotland | true |
+| `gb-sct-under-22-free-bus` | https://www.transport.gov.scot/concessionary-travel/under-22s-free-bus-travel/ | Scotland | true |
+| `gb-sct-60-plus-disabled-free-bus` | https://www.transport.gov.scot/concessionary-travel/60plus-or-disabled-free-bus-travel/ | Scotland | true |
+| `gb-wls-childcare-offer` | https://www.gov.wales/get-30-hours-childcare-3-and-4-year-olds/eligibility | Wales | true |
+| `gb-wls-universal-primary-free-school-meals` | https://www.gov.wales/universal-primary-free-school-meals-upfsm | Wales | true |
+| `gb-wls-school-essentials-grant` | https://www.gov.wales/school-essentials-grant-help-school-costs | Wales | true |
+| `gb-wls-discretionary-assistance-fund` | https://www.gov.wales/discretionary-assistance-fund-daf | Wales | true |
+| `gb-wls-free-prescriptions` | https://www.gov.wales/free-prescriptions | Wales | true |
+| `gb-ni-education-maintenance-allowance` | https://www.nidirect.gov.uk/articles/education-maintenance-allowance-explained | Northern Ireland | true |
+| `gb-ni-discretionary-support` | https://www.nidirect.gov.uk/articles/discretionary-support | Northern Ireland | true |
+| `gb-ni-lone-pensioner-allowance` | https://www.nidirect.gov.uk/articles/lone-pensioner-allowance | Northern Ireland | true |
+
+Skipped: Help to Buy Equity Loan (closed 2023); Help to Buy ISA (closed to new savers 2019); tax credits (ended April 2025); Child Trust Fund (closed); Nest Wales (eligibility unclear); NI rate relief / free school meals / Affordable Warmth and NI variants of Cold Weather Payment, Sure Start Maternity Grant, Access to Work, Blue Badge (official nidirect page not confirmed); Scottish free prescriptions and Funeral Support Payment (page not confirmed this pass).
+
+## URL ticket fixes (2026-09-25 IST)
+
+| scheme | old URL | new URL | evidence |
+|--------|---------|---------|----------|
+| `nsap-nfbs` | https://nsap.nic.in/ (NXDOMAIN) | https://nsap.dord.gov.in/ | NIC DNS → 164.100.54.176; HTTP 200 from check-host.net India nodes (Mumbai, Rajpura); geo-fenced outside India; listed as NSAP-PPS in MoRD material on s3waas.gov.in |
+| `ap-ntr-bharosa-oap` | https://sspensions.ap.gov.in/SSP/Home (official_source) | https://sspensions.ap.gov.in/ssp/home/about (official_source; apply_url unchanged) | GET 200 on both; HEAD 500 → probe artefact + intermittent 5xx; mirror abdg.aptonline.in/SSP noted |
+| `sk-unmarried-women-pension` | https://pensionscheme.sikkim.gov.in/ | unchanged | GET 200 (Women & Child Welfare Dept; SUWPS age 45+, Rs 2000/month listed); HEAD 404 (IIS) false positive |

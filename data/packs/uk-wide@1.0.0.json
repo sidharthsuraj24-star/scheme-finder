@@ -1,0 +1,27 @@
+{
+  "pack_id": "uk-wide",
+  "version": "1.0.0",
+  "full_id": "uk-wide@1.0.0",
+  "country": "United Kingdom",
+  "region": "UK-wide",
+  "kind": "country_national",
+  "scheme_ids": [
+    "gb-child-benefit",
+    "gb-help-to-save",
+    "gb-isa-allowance",
+    "gb-junior-isa",
+    "gb-lifetime-isa",
+    "gb-marriage-allowance",
+    "gb-maternity-allowance",
+    "gb-new-state-pension",
+    "gb-pension-credit",
+    "gb-pension-tax-relief",
+    "gb-tax-free-childcare",
+    "gb-universal-credit"
+  ],
+  "scheme_count": 12,
+  "generated_at": "2026-09-25T12:08:25+05:30",
+  "timezone": "Asia/Kolkata",
+  "source": "derived from data/schemes.json tags — membership only, no scheme bodies",
+  "note": "Bump version when membership rules change; regenerate via scripts/generate_pack_manifests.py"
+}

@@ -1,6 +1,6 @@
 # Scheme Finder
 
-Trilingual (EN/ML/HI) mobile-first welfare scheme wizard — India + selected other countries incl. United States (curated; not worldwide). Deterministic rules only. Hindi UI complete; scheme body Hindi may fall back to English pending native review.
+Trilingual (EN/ML/HI) mobile-first welfare scheme wizard — India + selected other countries incl. United States and United Kingdom (curated; not worldwide; see docs/COUNTRY_UK.md). Deterministic rules only. Hindi UI complete; scheme body Hindi may fall back to English pending native review.
 
 Repo: https://github.com/sidharthsuraj24-star/scheme-finder
 

@@ -6,6 +6,7 @@ export const SUPPORTED_COUNTRIES = [
   "Sri Lanka",
   "Maldives",
   "United States",
+  "United Kingdom",
 ] as const;
 
 export type SupportedCountry = (typeof SUPPORTED_COUNTRIES)[number];
@@ -98,6 +99,8 @@ export const COUNTRY_REGIONS: Record<string, readonly string[]> = {
     "Wisconsin",
     "Wyoming",
   ],
+  /** UK nations — devolved benefits (e.g. Scottish Child Payment) are nation-tagged. */
+  "United Kingdom": ["England", "Scotland", "Wales", "Northern Ireland"],
 };
 
 export function isSupportedCountry(name: string | null | undefined): boolean {
@@ -117,6 +120,8 @@ export function currencySymbol(country: string | null | undefined): string {
       return "MVR";
     case "United States":
       return "$";
+    case "United Kingdom":
+      return "£";
     default:
       return "₹";
   }

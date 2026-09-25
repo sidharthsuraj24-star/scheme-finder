@@ -24,15 +24,27 @@ def _implies_low_gate_label(country: str | None) -> str:
     c = (country or "India").strip().lower().replace("-", "_").replace(" ", "_") or "india"
     if c in {"united_states", "usa", "us"}:
         return "$60,000"  # soft US catalogue heuristic — not official FPL
+    if c in {"united_kingdom", "uk", "gb", "great_britain"}:
+        return "£60,000"  # soft UK catalogue heuristic (HICBC anchor) — not official
     if c in {"india", ""}:
         return "Rs.5,00,000"
     return "n/a (no soft gate for this country)"
 
 
-def _fmt_income(value: float | None) -> str:
+def _currency_prefix(country: str | None) -> str:
+    """Currency prefix for explanation strings (India default keeps legacy 'Rs.')."""
+    c = (country or "India").strip().lower().replace("-", "_").replace(" ", "_") or "india"
+    if c in {"united_states", "usa", "us"}:
+        return "$"
+    if c in {"united_kingdom", "uk", "gb", "great_britain"}:
+        return "£"
+    return "Rs."
+
+
+def _fmt_income(value: float | None, country: str | None = None) -> str:
     if value is None:
         return "n/a"
-    return f"Rs.{int(value):,}"
+    return f"{_currency_prefix(country)}{int(value):,}"
 
 
 def _rule_phrase_en(
@@ -47,18 +59,18 @@ def _rule_phrase_en(
         return f"age {profile.age} within maximum age {rules.get('max_age')}"
     if rule == "max_annual_income":
         return (
-            f"annual income {_fmt_income(profile.annual_income)} "
-            f"within cap {_fmt_income(rules.get('max_annual_income'))}"
+            f"annual income {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} "
+            f"within cap {_fmt_income(rules.get('max_annual_income'), getattr(profile, 'country', None))}"
         )
     if rule == "max_monthly_household_income":
         return (
-            f"monthly household income {_fmt_income(profile.monthly_household_income)} "
-            f"within cap {_fmt_income(rules.get('max_monthly_household_income'))}"
+            f"monthly household income {_fmt_income(profile.monthly_household_income, getattr(profile, 'country', None))} "
+            f"within cap {_fmt_income(rules.get('max_monthly_household_income'), getattr(profile, 'country', None))}"
         )
     if rule == "implies_low_income":
         gate_label = _implies_low_gate_label(getattr(profile, "country", None))
         return (
-            f"annual income {_fmt_income(profile.annual_income)} within soft low-income gate "
+            f"annual income {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} within soft low-income gate "
             f"(scheme implies BPL/destitute; no numeric ceiling encoded; gate {gate_label})"
         )
     if rule == "gender":
@@ -111,18 +123,18 @@ def _rule_phrase_ml(
         return f"പ്രായം {profile.age} ഏറ്റവും കുറഞ്ഞ പ്രായം {rules.get('min_age')} നിറവേറ്റുന്നു"
     if rule == "max_annual_income":
         return (
-            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income)} "
-            f"പരിധി {_fmt_income(rules.get('max_annual_income'))} യിൽ ഉൾപ്പെടുന്നു"
+            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} "
+            f"പരിധി {_fmt_income(rules.get('max_annual_income'), getattr(profile, 'country', None))} യിൽ ഉൾപ്പെടുന്നു"
         )
     if rule == "max_monthly_household_income":
         return (
-            f"മാസ വരുമാനം {_fmt_income(profile.monthly_household_income)} "
+            f"മാസ വരുമാനം {_fmt_income(profile.monthly_household_income, getattr(profile, 'country', None))} "
             f"പരിധിക്കുള്ളിൽ"
         )
     if rule == "implies_low_income":
         gate_label = _implies_low_gate_label(getattr(profile, "country", None))
         return (
-            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income)} "
+            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} "
             f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; {gate_label})"
         )
     if rule == "gender":

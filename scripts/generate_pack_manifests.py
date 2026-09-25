@@ -2,7 +2,13 @@
 """Generate versioned state/country pack manifests from schemes.json.
 
 Packs list scheme_id membership only — they do not duplicate scheme bodies.
-Ids look like india-kerala@1.0.0, us-federal@1.0.0. Never invents eligibility.
+Ids look like india-kerala@1.0.0, us-federal@1.0.0, uk-wide@1.0.0,
+uk-scotland@1.0.0. Never invents eligibility.
+
+United Kingdom (scheme ids gb-*; uk-* ids are India/Uttarakhand):
+- uk-wide: rows with countries ["United Kingdom"] and nationwide / empty states
+- uk-england / uk-scotland / uk-wales / uk-northern-ireland: nation-scoped rows
+  (a row valid in several nations, e.g. PIP for England+Wales+NI, is in each pack)
 """
 
 from __future__ import annotations
@@ -85,6 +91,14 @@ US_STATE_TAGS: dict[str, tuple[str, str]] = {
 }
 
 
+UK_NATIONS: dict[str, tuple[str, str]] = {
+    "england": ("uk-england", "England"),
+    "scotland": ("uk-scotland", "Scotland"),
+    "wales": ("uk-wales", "Wales"),
+    "northern_ireland": ("uk-northern-ireland", "Northern Ireland"),
+}
+
+
 def slugify_file(pack_id: str, version: str) -> str:
     return f"{pack_id}@{version}.json"
 
@@ -93,6 +107,32 @@ def is_us(scheme: dict) -> bool:
     tags = [str(t).lower() for t in (scheme.get("tags") or [])]
     sid = str(scheme.get("id") or "")
     return "united_states" in tags or "united-states" in tags or sid.startswith("us-")
+
+
+def is_uk(scheme: dict) -> bool:
+    tags = [str(t).lower() for t in (scheme.get("tags") or [])]
+    sid = str(scheme.get("id") or "")
+    countries = (scheme.get("eligibility_rules") or {}).get("countries") or []
+    return (
+        "united_kingdom" in tags
+        or sid.startswith("gb-")
+        or "United Kingdom" in countries
+    )
+
+
+def uk_pack_ids(scheme: dict) -> list[tuple[str, str, str]]:
+    """(pack_id, region label, kind) for a UK scheme — from eligibility_rules.states."""
+    er = scheme.get("eligibility_rules") or {}
+    states = [str(x).strip().lower().replace(" ", "_").replace("-", "_") for x in (er.get("states") or [])]
+    states = [s for s in states if s]
+    if er.get("nationwide") or not states:
+        return [("uk-wide", "UK-wide", "country_national")]
+    out: list[tuple[str, str, str]] = []
+    for st in states:
+        if st in UK_NATIONS:
+            pid, label = UK_NATIONS[st]
+            out.append((pid, label, "nation"))
+    return out
 
 
 def main() -> int:
@@ -132,6 +172,12 @@ def main() -> int:
         sid = s["id"]
         tags = [str(t).lower() for t in (s.get("tags") or [])]
         us = is_us(s)
+
+        if is_uk(s):
+            for pid, label, kind in uk_pack_ids(s):
+                ensure(pid, country="United Kingdom", region=label, kind=kind)
+                membership[pid].add(sid)
+            continue
 
         if us:
             if "federal" in tags or (sid.startswith("us-") and not any(t in US_STATE_TAGS for t in tags)):

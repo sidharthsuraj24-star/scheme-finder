@@ -4,8 +4,16 @@
 Default: sample/empty-safe snapshot (no live gov probes) for UI wiring.
 Optional --probe-sample: HEAD a short allowlisted .gov set (max ~8 URLs).
 Optional --probe-known-flaky: short probe of historically flaky hosts only
-(nsap.nic.in, sspensions.ap.gov.in, pensionscheme.sikkim.gov.in) — small
+(nsap.dord.gov.in, sspensions.ap.gov.in, pensionscheme.sikkim.gov.in) — small
 timeout, low concurrency, User-Agent set. Never invents eligibility.
+
+HEAD is tried first; on HEAD 400/403/404/405/5xx/501 the probe retries with GET,
+because some official IIS portals (e.g. pensionscheme.sikkim.gov.in) answer HEAD
+with 404 while GET returns 200.
+
+Hosts in _GEOFENCED_INDIA_HOSTS block non-Indian networks (TLS EOF / timeout from
+US CI/box). A failed probe there is reported as "GEO-FENCED …" and does NOT open a
+ticket; verify from an Indian network (e.g. check-host.net India nodes) instead.
 
 On failure statuses, upserts open tickets in data/url_tickets.jsonl; on OK,
 resolves matching open tickets to fixed.
@@ -45,10 +53,18 @@ _PROBE_SAMPLE_IDS = (
 
 # Known historically flaky hosts — probe at most one URL per host.
 _KNOWN_FLAKY_HOST_MARKERS = (
-    "nsap.nic.in",
+    # nsap.nic.in retired (NXDOMAIN) — NSAP portal moved to nsap.dord.gov.in (2026-09-25)
+    "nsap.dord.gov.in",
     "sspensions.ap.gov.in",
     "pensionscheme.sikkim.gov.in",
 )
+
+# Official hosts that geo-restrict non-Indian networks (verified 2026-09-25 via
+# check-host.net: HTTP 200 from India nodes, timeout/TLS EOF elsewhere).
+_GEOFENCED_INDIA_HOSTS = frozenset({"nsap.dord.gov.in"})
+
+# HEAD statuses that warrant a GET retry before declaring failure.
+_HEAD_RETRY_WITH_GET = frozenset({400, 403, 404, 405, 500, 501, 502, 503, 504})
 
 
 def ist_now() -> str:
@@ -56,29 +72,27 @@ def ist_now() -> str:
 
 
 def probe(url: str, timeout: float = 6.0) -> str:
-    req = urllib.request.Request(
-        url,
-        method="HEAD",
-        headers={"User-Agent": "scheme-finder-url-health/0.1"},
-    )
+    headers = {"User-Agent": "scheme-finder-url-health/0.1"}
+    req = urllib.request.Request(url, method="HEAD", headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return f"HEAD {resp.status}"
     except urllib.error.HTTPError as e:
-        if e.code in (403, 405, 501):
+        if e.code in _HEAD_RETRY_WITH_GET:
             try:
-                get_req = urllib.request.Request(
-                    url,
-                    method="GET",
-                    headers={"User-Agent": "scheme-finder-url-health/0.1"},
-                )
+                get_req = urllib.request.Request(url, method="GET", headers=headers)
                 with urllib.request.urlopen(get_req, timeout=timeout) as resp:
                     return f"GET {resp.status} (HEAD {e.code})"
+            except urllib.error.HTTPError as e2:
+                return f"FAIL HEAD {e.code}; GET HTTP {e2.code}"
             except Exception as e2:  # noqa: BLE001
                 return f"FAIL HEAD {e.code}; GET {e2}"
         return f"FAIL HTTP {e.code}"
     except Exception as e:  # noqa: BLE001
-        return f"FAIL {e}"
+        status = f"FAIL {e}"
+        if host_of(url) in _GEOFENCED_INDIA_HOSTS:
+            return f"GEO-FENCED (India-only host; verify from India) — {status}"
+        return status
 
 
 def host_of(url: str) -> str:
@@ -106,6 +120,9 @@ def apply_ticket_updates(results: list[dict]) -> dict:
             continue
         status = str(item.get("status") or "")
         sid = item.get("scheme_id")
+        if status.startswith("GEO-FENCED"):
+            # Cannot judge from a non-Indian network — never open/resolve tickets.
+            continue
         if tickets.is_failure_status(status) or not _ok(status):
             if tickets.is_failure_status(status):
                 tickets.upsert_failure(

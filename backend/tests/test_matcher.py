@@ -2780,7 +2780,10 @@ def test_implies_low_income_other_country_skips_soft_gate_without_max(schemes):
     assert implies_low_income_annual_gate("India") == 500_000
     assert implies_low_income_annual_gate("United States") == 60_000
     assert implies_low_income_annual_gate("Canada") is None
-    assert implies_low_income_annual_gate("United Kingdom") is None
+    # UK joined the catalogue 2026-09-25 with its own GBP soft gate (£60,000, HICBC
+    # anchor — see docs/DECISIONS.md); it is NOT the INR or USD gate reused.
+    assert implies_low_income_annual_gate("United Kingdom") == 60_000
+    assert implies_low_income_annual_gate("Maldives") is None
 
     fake = {
         "id": "fake-other-bpl",

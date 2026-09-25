@@ -87,7 +87,60 @@ def test_url_tickets_jsonl_and_open_count():
         assert r.get("url", "").startswith("http")
         assert r.get("status") in {"open", "investigating", "fixed", "wontfix"}
     summary = ut.summarize(path)
-    assert summary["open_count"] >= 1  # known flaky pre-seed
+    # Pre-seeded known-flaky tickets were all resolved 2026-09-25 (URL fixes);
+    # open_count is data-dependent, so only check it is consistent.
+    assert summary["open_count"] >= 0
+    assert sum(summary["by_status"].values()) == summary["unique_keys"]
+
+
+def test_url_tickets_dual_tree_identical():
+    assert (DATA / "url_tickets.jsonl").read_bytes() == (FE_DATA / "url_tickets.jsonl").read_bytes()
+
+
+def test_url_ticket_fixes_2026_09_25_resolved_in_catalogue():
+    sys.path.insert(0, str(SCRIPTS))
+    import url_tickets as ut  # noqa: WPS433
+
+    latest = ut.latest_by_key(ut.read_tickets(DATA / "url_tickets.jsonl"))
+    for key in (
+        ("nsap-nfbs", "https://nsap.nic.in/"),
+        ("ap-ntr-bharosa-oap", "https://sspensions.ap.gov.in/SSP/Home"),
+        ("sk-unmarried-women-pension", "https://pensionscheme.sikkim.gov.in/"),
+    ):
+        assert latest[key]["status"] == "fixed"
+    by_id = {s["id"]: s for s in json.loads((DATA / "schemes.json").read_text(encoding="utf-8"))}
+    nfbs = by_id["nsap-nfbs"]
+    assert nfbs["official_source_url"] == "https://nsap.dord.gov.in/"
+    assert nfbs["apply_url"] == "https://nsap.dord.gov.in/"
+    assert "nsap.nic.in/" not in (nfbs["apply_url"] + nfbs["official_source_url"])
+    for sid in ("nsap-nfbs", "ap-ntr-bharosa-oap", "sk-unmarried-women-pension"):
+        assert by_id[sid]["last_verified"] >= "2026-09-25"
+        assert by_id[sid]["eligibility_rules"]["verify"] is True
+
+
+def test_url_probe_retries_get_after_head_404(monkeypatch: pytest.MonkeyPatch):
+    sys.path.insert(0, str(SCRIPTS))
+    import urllib.error
+    import write_url_health_snapshot as w  # noqa: WPS433
+
+    class _Resp:
+        status = 200
+
+        def __enter__(self):
+            return self
+
+        def __exit__(self, *a):
+            return False
+
+    def fake_urlopen(req, timeout=0):
+        if req.get_method() == "HEAD":
+            raise urllib.error.HTTPError(req.full_url, 404, "nf", {}, None)
+        return _Resp()
+
+    monkeypatch.setattr(w.urllib.request, "urlopen", fake_urlopen)
+    status = w.probe("https://pensionscheme.sikkim.gov.in/")
+    assert status == "GET 200 (HEAD 404)"
+    assert w._ok(status)
 
 
 def test_url_ticket_upsert_and_resolve(tmp_path: Path):
@@ -154,7 +207,7 @@ def test_ops_summary_exposes_phase4_counts(client: TestClient):
     assert r.status_code == 200
     body = r.json()
     assert "url_tickets" in body
-    assert body["url_tickets"]["open_count"] >= 1
+    assert body["url_tickets"]["open_count"] >= 0
     assert "candidates" in body
     assert body["candidates"]["total"] >= 1
     assert "deferred" in (body["candidates"].get("by_status") or {})

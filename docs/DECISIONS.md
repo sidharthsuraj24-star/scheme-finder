@@ -70,7 +70,8 @@ sentence, and seeker/striver/*_rich soft ranking boosts apply **only when
 `country` is India**. United States, Bangladesh, Nepal, Sri Lanka, Maldives, and
 any future country must **not** map local currency onto PRICE INR thresholds.
 US keeps its own currency-aware soft gate (`implies_low_income` at USD $60k) —
-do not invent US Census / Pew / OECD bands here.
+do not invent US Census / Pew / OECD bands here. United Kingdom (added 2026-09-25)
+likewise has its own GBP gate — see the 2026-09-25 UK entry below.
 
 **Not done:** Inventing `max_annual_income` from PRICE bands; replacing the
 ₹5L `implies_low_income` BPL soft gate with ₹15L; claiming PRICE bands are
@@ -149,3 +150,46 @@ ops hooks) without claiming Phase 4 complete, a full CMS, pager, or 500k scale.
 
 **Not done:** CMS UI, pager, auto-adding schemes from candidates, claiming Phase 4
 complete, Fly/Vercel credential deploy.
+
+## 2026-09-25 — United Kingdom country + GBP soft gate
+
+**Decision:** Add the United Kingdom as a catalogue country: 60 `gb-*` rows, the four
+nations as regions, `£` currency, and `uk-*` packs. It is the 7th catalogue country after
+India, Bangladesh, Nepal, Sri Lanka, Maldives and the United States. Conventions are in
+`docs/COUNTRY_UK.md`.
+
+1. **IDs `gb-*`.** `uk-*` is already taken by India/Uttarakhand rows.
+2. **Income:**
+   - India PRICE bands never apply to UK profiles, and the US $60k gate is not reused.
+   - New `IMPLIES_LOW_INCOME_ANNUAL_GATE_GBP = 60_000` for `implies_low_income` rows
+     with no numeric max.
+   - This is a catalogue heuristic, not an official line. It is anchored on HMRC's
+     £60,000 High Income Child Benefit Charge threshold.
+   - The earlier test that asserted "UK has no gate" was updated on purpose.
+3. **Hard caps only for official household ceilings:** Shared Ownership and First Homes
+   (£90k London / £80k elsewhere), NI EMA (£22.5k), NI Discretionary Support (£29,741).
+   Per-parent £100k childcare limits, Marriage Allowance tax bands, HICBC and the £35k
+   Winter Fuel recovery stay in notes.
+4. **All-income coverage:** universal, tax and savings rows (Child Benefit, State
+   Pension, ISA/LISA/JISA, pension relief, SDLT relief, Boiler Upgrade Scheme, Tax-Free
+   Childcare) never set `implies_low_income`, so wealthy profiles still see them.
+5. **Explanation currency:** `_fmt_income` / `fmtIncome` now prefix `$` for the US and
+   `£` for the UK. India and other countries keep the legacy `Rs.` prefix.
+
+**Not done:**
+- Translating scheme bodies to ML/HI (EN copies, as for US rows).
+- A separate child-disability profile field.
+- NI-specific rows where the nidirect page was not confirmed.
+
+## 2026-09-25 — URL ticket fixes + HEAD→GET probe
+
+- `nsap-nfbs` now points to `https://nsap.dord.gov.in/` (MoRD NSAP portal).
+  `nsap.nic.in` is NXDOMAIN at NIC DNS. The new host returns 200 from India
+  (check-host.net) but is geo-fenced elsewhere. It is listed in `_GEOFENCED_INDIA_HOSTS`
+  so non-Indian probes never open tickets for it.
+- `ap-ntr-bharosa-oap` and `sk-unmarried-women-pension`: portals are live. Their false
+  tickets came from HEAD 500 / HEAD 404 answers, so the probe now retries GET on
+  HEAD 400/403/404/405/5xx.
+- All three tickets were resolved via `scripts/resolve_url_ticket.py`. The URL ticket
+  tests now accept `open_count >= 0`.
+
