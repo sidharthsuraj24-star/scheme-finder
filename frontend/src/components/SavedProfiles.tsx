@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { t } from "@/lib/i18n";
 import {
   MAX_SAVED_PROFILES,
@@ -17,6 +17,8 @@ interface Props {
   /** Current wizard/results answers — enable Save when present. */
   answers: ProfileAnswers | null;
   onLoad: (answers: ProfileAnswers, lang: Lang) => void;
+  /** Announce via the page live region (4.1.3). */
+  onStatus?: (msg: string) => void;
 }
 
 function formatSavedAt(iso: string): string {
@@ -29,10 +31,11 @@ function formatSavedAt(iso: string): string {
   }
 }
 
-export default function SavedProfiles({ lang, answers, onLoad }: Props) {
+export default function SavedProfiles({ lang, answers, onLoad, onStatus }: Props) {
   const [items, setItems] = useState<SavedProfile[]>([]);
   const [name, setName] = useState("");
   const [msg, setMsg] = useState<string | null>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
 
   const refresh = useCallback(() => {
     setItems(listSavedProfiles());
@@ -55,18 +58,26 @@ export default function SavedProfiles({ lang, answers, onLoad }: Props) {
     setName("");
     setMsg(t(lang, "savedOk"));
     refresh();
-    window.setTimeout(() => setMsg(null), 2500);
+    window.setTimeout(() => setMsg(null), 4000);
   };
 
+  // The activated button disappears after delete/clear, so move focus to the
+  // section heading (2.4.3) and announce the outcome (4.1.3).
   const onDelete = (id: string) => {
     deleteSavedProfile(id);
     refresh();
+    setMsg(t(lang, "savedDeleted"));
+    onStatus?.(t(lang, "savedDeleted"));
+    headingRef.current?.focus();
   };
 
   const onClear = () => {
     if (!window.confirm(t(lang, "savedClearConfirm"))) return;
     clearSavedProfiles();
     refresh();
+    setMsg(t(lang, "savedCleared"));
+    onStatus?.(t(lang, "savedCleared"));
+    headingRef.current?.focus();
   };
 
   return (
@@ -74,38 +85,55 @@ export default function SavedProfiles({ lang, answers, onLoad }: Props) {
       className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
       aria-labelledby="saved-profiles-heading"
     >
-      <h2 id="saved-profiles-heading" className="text-lg font-bold text-slate-900">
+      <h2
+        id="saved-profiles-heading"
+        ref={headingRef}
+        tabIndex={-1}
+        data-focus-target=""
+        className="text-lg font-bold text-slate-900"
+      >
         {t(lang, "savedTitle")}
       </h2>
-      <p className="mt-1 text-xs leading-relaxed text-slate-600">{t(lang, "savedPrivacy")}</p>
+      <p id="saved-privacy" className="mt-1 text-xs leading-relaxed text-slate-700">
+        {t(lang, "savedPrivacy")}
+      </p>
 
-      <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+      <label htmlFor="saved-profile-name" className="mt-3 block text-sm font-semibold text-slate-800">
+        {t(lang, "savedNameLabel")}
+      </label>
+      <div className="mt-1 flex flex-col gap-2 sm:flex-row">
         <input
+          id="saved-profile-name"
           type="text"
           maxLength={64}
+          autoComplete="off"
           placeholder={t(lang, "savedNamePlaceholder")}
-          className="min-h-tap flex-1 rounded-xl border-2 border-slate-300 px-3 text-sm"
+          className="min-h-tap flex-1 rounded-xl border-2 border-slate-500 bg-white px-3 text-base"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          aria-label={t(lang, "savedNamePlaceholder")}
+          aria-describedby={!answers ? "saved-need-answers" : undefined}
         />
         <button
           type="button"
           onClick={onSave}
           disabled={!answers}
-          className="min-h-tap rounded-xl bg-brand-700 px-4 py-2 text-sm font-bold text-white disabled:opacity-40"
+          className="min-h-tap rounded-xl bg-brand-700 px-4 py-2 text-sm font-bold text-white disabled:bg-slate-500 disabled:opacity-70"
         >
           {t(lang, "savedSave")}
         </button>
       </div>
-      {msg ? (
-        <p className="mt-2 text-xs font-medium text-brand-800" role="status">
-          {msg}
+      {!answers ? (
+        <p id="saved-need-answers" className="mt-1 text-xs text-slate-700">
+          {t(lang, "savedNeedAnswers")}
         </p>
       ) : null}
+      {/* Always-mounted live region so "Saved" is reliably announced. */}
+      <p className="mt-2 min-h-[1rem] text-xs font-medium text-brand-800" role="status" aria-live="polite">
+        {msg}
+      </p>
 
       {items.length === 0 ? (
-        <p className="mt-3 text-sm text-slate-500">{t(lang, "savedEmpty")}</p>
+        <p className="mt-1 text-sm text-slate-700">{t(lang, "savedEmpty")}</p>
       ) : (
         <ul className="mt-3 space-y-2">
           {items.map((p) => (
@@ -114,15 +142,15 @@ export default function SavedProfiles({ lang, answers, onLoad }: Props) {
               className="flex flex-col gap-2 rounded-xl border border-slate-100 bg-slate-50 px-3 py-2 sm:flex-row sm:items-center sm:justify-between"
             >
               <div className="min-w-0">
-                <p className="truncate text-sm font-semibold text-slate-900">
+                <p className="break-words text-sm font-semibold text-slate-900">
                   {p.name || t(lang, "savedUnnamed")}
                   {p.answers.finding_for === "child" ? (
-                    <span className="ml-2 text-xs font-medium text-sky-800">
+                    <span className="ml-2 text-xs font-medium text-sky-900">
                       ({t(lang, "findingForChildShort")})
                     </span>
                   ) : null}
                 </p>
-                <p className="text-[11px] text-slate-500">
+                <p className="text-xs text-slate-700">
                   {formatSavedAt(p.saved_at)} · {p.answers.country || "—"} ·{" "}
                   {p.answers.age != null ? `${p.answers.age}y` : "—"}
                 </p>
@@ -130,17 +158,19 @@ export default function SavedProfiles({ lang, answers, onLoad }: Props) {
               <div className="flex gap-2">
                 <button
                   type="button"
-                  className="min-h-tap flex-1 rounded-lg border border-brand-600 px-3 py-1.5 text-xs font-bold text-brand-800 sm:flex-none"
+                  className="min-h-tap flex-1 rounded-lg border-2 border-brand-700 bg-white px-3 py-1.5 text-sm font-bold text-brand-800 sm:flex-none"
                   onClick={() => onLoad(p.answers, p.lang)}
                 >
                   {t(lang, "savedLoad")}
+                  <span className="sr-only">: {p.name || t(lang, "savedUnnamed")}</span>
                 </button>
                 <button
                   type="button"
-                  className="min-h-tap flex-1 rounded-lg border border-red-300 px-3 py-1.5 text-xs font-bold text-red-800 sm:flex-none"
+                  className="min-h-tap flex-1 rounded-lg border-2 border-red-700 bg-white px-3 py-1.5 text-sm font-bold text-red-800 sm:flex-none"
                   onClick={() => onDelete(p.id)}
                 >
                   {t(lang, "savedDelete")}
+                  <span className="sr-only">: {p.name || t(lang, "savedUnnamed")}</span>
                 </button>
               </div>
             </li>
@@ -152,7 +182,7 @@ export default function SavedProfiles({ lang, answers, onLoad }: Props) {
         <button
           type="button"
           onClick={onClear}
-          className="mt-3 text-xs font-medium text-slate-500 underline"
+          className="mt-3 inline-flex min-h-[44px] items-center px-1 text-sm font-medium text-slate-700 underline"
         >
           {t(lang, "savedClearAll")} ({items.length}/{MAX_SAVED_PROFILES})
         </button>

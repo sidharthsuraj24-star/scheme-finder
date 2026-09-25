@@ -30,7 +30,7 @@ export default function CatalogueBadge({ lang }: { lang: Lang }) {
     return (
       <div
         className="rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-xs leading-snug text-amber-950"
-        role="status"
+        role="note"
       >
         {t(lang, "dataStaleBanner", { date: dateLabel })}
       </div>
@@ -40,7 +40,7 @@ export default function CatalogueBadge({ lang }: { lang: Lang }) {
   return (
     <div
       className="rounded-xl border border-emerald-200 bg-emerald-50 px-3 py-2 text-xs leading-snug text-emerald-950"
-      role="status"
+      role="note"
     >
       <p>{t(lang, "dataFreshBanner", { date: dateLabel })}</p>
       <p className="mt-1 font-medium">{t(lang, "dataFreshConfirm")}</p>

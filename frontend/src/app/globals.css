@@ -41,7 +41,7 @@ select {
   }
 
   .choice-btn {
-    @apply min-h-tap w-full rounded-xl border-2 px-4 py-3 text-left text-base font-semibold;
+    @apply flex min-h-tap w-full items-center gap-3 rounded-xl border-2 px-4 py-3 text-left text-base font-semibold;
     transition:
       transform 0.22s cubic-bezier(0.34, 1.56, 0.64, 1),
       background-color 0.15s ease,
@@ -54,12 +54,50 @@ select {
     transform: scale(0.95);
   }
 
+  /* 1.4.11: idle boundary ≥3:1 against white (slate-500 ≈ 4.8:1). */
   .choice-btn--idle {
-    @apply border-slate-200 bg-white text-slate-800 hover:border-brand-500;
+    @apply border-slate-500 bg-white text-slate-800 hover:border-brand-700 hover:bg-brand-50;
   }
 
   .choice-btn--active {
     @apply scale-[1.02] border-brand-700 bg-brand-100 text-brand-900 shadow-sm;
+  }
+
+  /*
+   * Selected state is shown by shape (filled tick / dot), not just a subtle
+   * green tint, so it meets 1.4.1 Use of Color + 1.4.11 Non-text Contrast.
+   */
+  .choice-indicator {
+    @apply inline-flex h-6 w-6 shrink-0 items-center justify-center border-2 border-slate-500 bg-white text-sm font-black leading-none text-white;
+  }
+
+  .choice-indicator--radio {
+    @apply rounded-full;
+  }
+
+  .choice-indicator--check {
+    @apply rounded-md;
+  }
+
+  .choice-btn--active .choice-indicator {
+    @apply border-brand-700 bg-brand-700;
+  }
+
+  /* Text inputs / selects: 3:1 boundary + clear invalid state. */
+  .field-input {
+    @apply min-h-tap w-full rounded-xl border-2 border-slate-500 bg-white px-4 text-lg transition focus:border-brand-700;
+  }
+
+  .field-input[aria-invalid="true"] {
+    @apply border-red-700 bg-red-50;
+  }
+
+  fieldset[aria-invalid="true"] .choice-btn--idle {
+    @apply border-red-700;
+  }
+
+  .field-error {
+    @apply rounded-lg border-l-4 border-red-700 bg-red-50 px-3 py-2 text-sm font-semibold text-red-800;
   }
 
   .primary-btn {
@@ -155,26 +193,67 @@ select {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-pop-in,
-  .animate-stage-pop,
-  .animate-number-fade {
-    animation: none !important;
+  /* WCAG 2.3.3 (AAA, best effort) + vestibular safety: kill all motion,
+     including Tailwind animate-spin, transitions and hover/active scaling. */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 
-  .choice-btn,
-  .primary-btn,
-  .scheme-card {
-    transition: none !important;
+  .animate-pop-in,
+  .animate-stage-pop,
+  .animate-number-fade,
+  .animate-spin {
+    animation: none !important;
   }
 
   .choice-btn:active,
   .primary-btn:active,
   .choice-btn--active,
-  .scheme-card:hover {
+  .scheme-card:hover,
+  .active\:scale-95:active {
     transform: none !important;
   }
 }
 
+/* Programmatic focus targets that are containers should not draw a giant ring. */
+main[tabindex="-1"]:focus {
+  outline: none;
+}
+
+/* Headings that receive focus after navigation: subtle but visible ring. */
+[data-focus-target]:focus-visible {
+  outline: 3px solid #15803d;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Skip link: off-screen until focused, then a high-contrast pill (2.4.1, 2.4.7). */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 50;
+  border-radius: 0.5rem;
+  background: #15803d;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.skip-link:focus {
+  top: 1rem;
+  outline: 3px solid #14532d;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px #fff;
+}
 
 /* Accessibility: visually hidden until focused (skip link) */
 .sr-only {

@@ -1,4 +1,5 @@
 import type { Lang } from "./types";
+import { a11yEn, a11yHi, a11yMl } from "./i18nA11y";
 
 type Dict = Record<string, string>;
 
@@ -488,11 +489,15 @@ const hi: Dict = {
   stage_senior: "वरिष्ठ नागरिक",
 };
 
-const TABLES: Record<Lang, Dict> = { en, ml, hi };
+const TABLES: Record<Lang, Dict> = {
+  en: { ...a11yEn, ...en },
+  ml: { ...a11yMl, ...ml },
+  hi: { ...a11yHi, ...hi },
+};
 
 export function t(lang: Lang, key: string, vars?: Record<string, string | number>): string {
   const table = TABLES[lang] || en;
-  let s = table[key] ?? en[key] ?? key;
+  let s = table[key] ?? TABLES.en[key] ?? key;
   if (vars) {
     for (const [k, v] of Object.entries(vars)) {
       s = s.replace(`{${k}}`, String(v));
@@ -521,6 +526,28 @@ export function pickLocalized(
   return String(value);
 }
 
+/**
+ * Like pickLocalized, but also reports which language the returned text is in,
+ * so fallback English inside a Hindi/Malayalam page can be marked lang="en"
+ * (WCAG 3.1.2 Language of Parts).
+ */
+export function pickLocalizedWithLang(
+  lang: Lang,
+  value: LocalizedFields | string | string[] | null | undefined,
+): { text: string; lang: Lang } {
+  if (value == null) return { text: "", lang };
+  if (typeof value === "object" && !Array.isArray(value)) {
+    const o = value as LocalizedFields;
+    if (o[lang]) return { text: o[lang] as string, lang };
+    if (o.en) return { text: o.en, lang: "en" };
+    if (o.ml) return { text: o.ml, lang: "ml" };
+    if (o.hi) return { text: o.hi, lang: "hi" };
+    return { text: "", lang };
+  }
+  // Plain strings in the catalogue are English source text.
+  return { text: pickLocalized(lang, value), lang: "en" };
+}
+
 export function pickLocalizedList(
   lang: Lang,
   value: unknown,
@@ -537,4 +564,21 @@ export function pickLocalizedList(
   }
   if (typeof value === "string") return [value];
   return [];
+}
+
+/** List variant of pickLocalizedWithLang (3.1.2 Language of Parts). */
+export function pickLocalizedListWithLang(
+  lang: Lang,
+  value: unknown,
+): { items: string[]; lang: Lang } {
+  if (value && typeof value === "object" && !Array.isArray(value)) {
+    const o = value as Record<string, unknown>;
+    for (const code of [lang, "en", "ml", "hi"] as Lang[]) {
+      const list = o[code];
+      if (Array.isArray(list) && list.length) return { items: list.map(String), lang: code };
+      if (typeof list === "string" && list) return { items: [list], lang: code };
+    }
+    return { items: [], lang };
+  }
+  return { items: pickLocalizedList(lang, value), lang: "en" };
 }

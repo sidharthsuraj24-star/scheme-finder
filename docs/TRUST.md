@@ -71,9 +71,13 @@ the file to “clean up” history.
 **This slice:** skip-to-content link, `main` landmark, existing button labels /
 `aria-expanded` on scheme cards, security headers (prior hardening).
 
+**2026-09-25:** WCAG 2.2 AA audit (automated axe sweep over every route / step /
+language / viewport + scripted keyboard checks + Lighthouse) done and fixes shipped —
+see **`docs/ACCESSIBILITY.md`**. Not a formal certification; human screen-reader
+testing still recommended.
+
 **Later Phase 2 milestones (not claimed done here):**
 
-- Full **WCAG 2.2 AA** audit
 - External **pentest**
 - **SOC2-ready** logging/retention program
 - Encrypted saved profiles / DigiLocker

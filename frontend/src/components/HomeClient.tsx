@@ -41,7 +41,13 @@ export default function HomeClient() {
   const [shareUrl, setShareUrl] = useState<string | null>(null);
   const [draftAnswers, setDraftAnswers] = useState<ProfileAnswers | null>(null);
   const [wizardKey, setWizardKey] = useState(0);
+  /** Text for the persistent polite live region (4.1.3 Status Messages). */
+  const [status, setStatus] = useState("");
+  /** Element id to focus after the next render (focus management on phase change). */
+  const [focusId, setFocusId] = useState<string | null>(null);
   const bootstrapped = useRef(false);
+  const langRef = useRef<Lang>("en");
+  langRef.current = lang;
 
   const changeLang = useCallback((next: Lang) => {
     setLang(next);
@@ -57,11 +63,18 @@ export default function HomeClient() {
       setPhase("loading");
       setErrorMsg(null);
       setLastAnswers(answers);
+      setStatus(t(language, "loading"));
+      setFocusId("loading-status");
       try {
         const body = answersToRequest(answers, language);
         const data = await postMatch(body);
         setResult(data);
         setPhase("results");
+        const n = (data.matched || []).length;
+        setStatus(
+          n > 0 ? t(langRef.current, "resultsCount", { count: n }) : t(langRef.current, "zeroTitle"),
+        );
+        setFocusId("results-heading");
         void postAnalyticsEvent({
           event: "match_ok",
           country: answers.country,
@@ -80,6 +93,8 @@ export default function HomeClient() {
         setErrorMsg(err instanceof Error ? err.message : String(err));
         setPhase("error");
         setShareUrl(null);
+        setStatus(t(langRef.current, "errorTitle"));
+        setFocusId("error-heading");
       }
     },
     [],
@@ -121,6 +136,37 @@ export default function HomeClient() {
     setReady(true);
   }, [runMatch]);
 
+  // 3.1.1 Language of Page: keep <html lang> in sync with the UI language so
+  // screen readers switch voice (Hindi / Malayalam) and hyphenation is right.
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
+  // 2.4.2 Page Titled: title reflects language + phase.
+  useEffect(() => {
+    const app = t(lang, "appTitle");
+    const sub =
+      phase === "results" && result
+        ? (result.matched || []).length
+          ? t(lang, "resultsTitle")
+          : t(lang, "zeroTitle")
+        : phase === "error"
+          ? t(lang, "errorTitle")
+          : phase === "loading"
+            ? t(lang, "loading")
+            : "";
+    document.title = sub ? `${sub} · ${app}` : app;
+  }, [lang, phase, result]);
+
+  useEffect(() => {
+    if (!focusId) return;
+    const el = document.getElementById(focusId);
+    if (el) {
+      el.focus();
+      setFocusId(null);
+    }
+  }, [focusId, phase]);
+
   // Keep share URL in sync when user toggles language on results.
   useEffect(() => {
     if (phase !== "results" || !lastAnswers) return;
@@ -143,6 +189,22 @@ export default function HomeClient() {
     setDraftAnswers(null);
     setWizardKey((k) => k + 1);
     setPhase("wizard");
+    setStatus("");
+    setFocusId("welcome-heading");
+    replaceShareQuery(null);
+  };
+
+  /** 3.3.7 Redundant Entry: go back to the wizard with previous answers filled in. */
+  const editAnswers = () => {
+    if (!lastAnswers) return restart();
+    setDraftAnswers(lastAnswers);
+    setWizardKey((k) => k + 1);
+    setPhase("wizard");
+    setResult(null);
+    setErrorMsg(null);
+    setShareUrl(null);
+    setStatus("");
+    setFocusId("welcome-heading");
     replaceShareQuery(null);
   };
 
@@ -159,112 +221,155 @@ export default function HomeClient() {
     setResult(null);
     setErrorMsg(null);
     setShareUrl(null);
+    setStatus(t(savedLang, "savedLoaded"));
+    setFocusId("welcome-heading");
     replaceShareQuery(null);
   };
 
   if (!ready) {
     return (
-      <div className="flex min-h-[50vh] items-center justify-center text-slate-500">
-        …
+      <div
+        className="flex min-h-[50vh] items-center justify-center text-slate-600"
+        aria-busy="true"
+      >
+        <span aria-hidden="true">…</span>
       </div>
     );
   }
 
   return (
-    <main id="main-content" className="space-y-5" tabIndex={-1}>
-      <header className="flex items-start justify-between gap-3">
-        <div>
+    <>
+      {/* banner landmark: title + language switch (bypassed by the skip link) */}
+      <header className="flex flex-wrap items-start justify-between gap-3">
+        <div className="min-w-0 flex-1">
           <h1 className="text-2xl font-extrabold tracking-tight text-brand-900 sm:text-3xl">
             {t(lang, "appTitle")}
           </h1>
-          <p className="mt-1 text-sm leading-snug text-slate-600 sm:text-base">
+          <p className="mt-1 text-sm leading-snug text-slate-700 sm:text-base">
             {t(lang, "appSubtitle")}
           </p>
         </div>
         <LanguageToggle lang={lang} onChange={changeLang} />
       </header>
 
-      <CatalogueBadge lang={lang} />
+      {/* Persistent polite live region: loading / result count / errors / saves. */}
+      <p id="sr-status" className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+        {status}
+      </p>
 
-      {phase === "wizard" ? (
-        <>
-          <SavedProfiles
-            lang={lang}
-            answers={lastAnswers || draftAnswers}
-            onLoad={loadSaved}
-          />
-          <Wizard
-            key={wizardKey}
-            lang={lang}
-            onSubmit={onSubmit}
-            initialAnswers={draftAnswers}
-          />
-        </>
-      ) : null}
+      <main id="main-content" className="mt-5 space-y-5" tabIndex={-1}>
+        <CatalogueBadge lang={lang} />
 
-      {phase === "loading" ? (
-        <div
-          className="flex min-h-[40vh] flex-col items-center justify-center gap-4 rounded-2xl bg-white p-6 shadow-sm"
-          role="status"
-          aria-live="polite"
-        >
-          <div className="h-12 w-12 animate-spin rounded-full border-4 border-brand-200 border-t-brand-700" />
-          <p className="text-lg font-semibold text-slate-800">{t(lang, "loading")}</p>
-        </div>
-      ) : null}
+        {phase === "wizard" ? (
+          <>
+            <SavedProfiles
+              lang={lang}
+              answers={lastAnswers || draftAnswers}
+              onLoad={loadSaved}
+              onStatus={setStatus}
+            />
+            <Wizard
+              key={wizardKey}
+              lang={lang}
+              onSubmit={onSubmit}
+              initialAnswers={draftAnswers}
+            />
+          </>
+        ) : null}
 
-      {phase === "error" ? (
-        <div className="space-y-4 rounded-2xl border border-red-200 bg-white p-5 shadow-sm">
-          <h2 className="text-xl font-bold text-red-800">{t(lang, "errorTitle")}</h2>
-          <p className="text-sm text-slate-700">{t(lang, "errorHint")}</p>
-          {errorMsg ? (
-            <pre className="overflow-x-auto rounded-lg bg-slate-50 p-3 text-xs text-slate-600">
-              {errorMsg}
-            </pre>
-          ) : null}
-          <div className="flex flex-col gap-2">
-            <button
-              type="button"
-              className="min-h-tap w-full rounded-xl bg-brand-700 px-4 py-3 text-base font-bold text-white"
-              onClick={() => lastAnswers && void runMatch(lastAnswers, lang)}
-              disabled={!lastAnswers}
-            >
-              {t(lang, "errorRetry")}
-            </button>
-            <button
-              type="button"
-              className="min-h-tap w-full rounded-xl border-2 border-slate-300 px-4 py-3 text-base font-bold text-slate-800"
-              onClick={restart}
-            >
-              {t(lang, "startOver")}
-            </button>
+        {phase === "loading" ? (
+          <div
+            id="loading-status"
+            tabIndex={-1}
+            className="flex min-h-[40vh] flex-col items-center justify-center gap-4 rounded-2xl bg-white p-6 shadow-sm"
+            aria-busy="true"
+          >
+            <div
+              className="h-12 w-12 animate-spin rounded-full border-4 border-brand-200 border-t-brand-700"
+              aria-hidden="true"
+            />
+            <p className="text-lg font-semibold text-slate-800">{t(lang, "loading")}</p>
           </div>
-        </div>
-      ) : null}
+        ) : null}
 
-      {phase === "results" && result ? (
-        <>
-          <Results
-            lang={lang}
-            data={result}
-            onRestart={restart}
-            shareUrl={shareUrl}
-            filteredAnnualIncome={annualFromAnswers(lastAnswers)}
-            findingFor={lastAnswers?.finding_for ?? null}
-          />
-          <SavedProfiles
-            lang={lang}
-            answers={lastAnswers}
-            onLoad={loadSaved}
-          />
-        </>
-      ) : null}
+        {phase === "error" ? (
+          <div className="space-y-4 rounded-2xl border border-red-200 bg-white p-5 shadow-sm">
+            <h2
+              id="error-heading"
+              tabIndex={-1}
+              data-focus-target=""
+              className="text-xl font-bold text-red-800"
+            >
+              {t(lang, "errorTitle")}
+            </h2>
+            <p className="text-sm text-slate-700">{t(lang, "errorHint")}</p>
+            {errorMsg ? (
+              <div>
+                <p className="text-xs font-semibold text-slate-700">{t(lang, "errorDetails")}</p>
+                {/* Wraps instead of scrolling (1.4.10 reflow; no unfocusable scroll region). */}
+                <pre
+                  lang="en"
+                  className="mt-1 whitespace-pre-wrap break-words rounded-lg bg-slate-50 p-3 text-xs text-slate-700"
+                >
+                  {errorMsg}
+                </pre>
+              </div>
+            ) : null}
+            <div className="flex flex-col gap-2">
+              <button
+                type="button"
+                className="min-h-tap w-full rounded-xl bg-brand-700 px-4 py-3 text-base font-bold text-white"
+                onClick={() => lastAnswers && void runMatch(lastAnswers, lang)}
+                disabled={!lastAnswers}
+              >
+                {t(lang, "errorRetry")}
+              </button>
+              <button
+                type="button"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-500 bg-white px-4 py-3 text-base font-bold text-slate-800"
+                onClick={editAnswers}
+              >
+                {t(lang, "changeAnswers")}
+              </button>
+              <button
+                type="button"
+                className="min-h-tap w-full rounded-xl border-2 border-slate-500 bg-white px-4 py-3 text-base font-bold text-slate-800"
+                onClick={restart}
+              >
+                {t(lang, "startOver")}
+              </button>
+            </div>
+          </div>
+        ) : null}
 
-      {phase === "wizard" ? <Disclaimer lang={lang} /> : null}
+        {phase === "results" && result ? (
+          <>
+            <Results
+              lang={lang}
+              data={result}
+              onRestart={restart}
+              onEdit={editAnswers}
+              shareUrl={shareUrl}
+              filteredAnnualIncome={annualFromAnswers(lastAnswers)}
+              findingFor={lastAnswers?.finding_for ?? null}
+              onStatus={setStatus}
+            />
+            <SavedProfiles
+              lang={lang}
+              answers={lastAnswers}
+              onLoad={loadSaved}
+              onStatus={setStatus}
+            />
+          </>
+        ) : null}
 
-      <footer className="pt-2 text-center text-[11px] text-slate-400">
+        {phase === "wizard" ? <Disclaimer lang={lang} /> : null}
+      </main>
+
+      {/* contentinfo landmark — same position in every phase (3.2.3 / 3.2.6) */}
+      <footer className="pt-4 text-center text-xs text-slate-700">
         {t(lang, "dataUpdatedShort")}
       </footer>
-    </main>
+    </>
   );
 }

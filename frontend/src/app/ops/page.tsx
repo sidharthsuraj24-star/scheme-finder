@@ -48,6 +48,7 @@ export default function OpsPage() {
   const [data, setData] = useState<OpsSummary | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [token, setToken] = useState("");
+  const [status, setStatus] = useState("Loading ops summary…");
 
   const load = async (bearer?: string) => {
     setErr(null);
@@ -60,18 +61,28 @@ export default function OpsPage() {
       if (!r.ok) {
         setErr(body?.error?.message || `HTTP ${r.status}`);
         setData(null);
+        setStatus("");
         return;
       }
       setData(body);
+      setStatus(`Ops summary updated at ${new Date().toLocaleTimeString("en-IN")}`);
     } catch (e) {
       setErr(e instanceof Error ? e.message : String(e));
       setData(null);
+      setStatus("");
     }
   };
 
   useEffect(() => {
     void load();
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Ops UI is English-only: reset <html lang> in case we arrived from a
+  // Hindi / Malayalam session (3.1.1) and give the page its own title (2.4.2).
+  useEffect(() => {
+    document.documentElement.lang = "en";
+    document.title = "Ops dashboard · Scheme Finder";
   }, []);
 
   return (
@@ -84,22 +95,45 @@ export default function OpsPage() {
         </p>
       </header>
 
-      <div className="flex flex-col gap-2 rounded-xl border border-slate-200 bg-white p-3 sm:flex-row">
-        <input
-          type="password"
-          className="min-h-tap flex-1 rounded-lg border border-slate-300 px-3 text-sm"
-          placeholder="OPS_DASHBOARD_TOKEN (if required)"
-          value={token}
-          onChange={(e) => setToken(e.target.value)}
-        />
-        <button
-          type="button"
-          className="min-h-tap rounded-lg bg-slate-800 px-4 text-sm font-bold text-white"
-          onClick={() => void load()}
-        >
-          Refresh
-        </button>
-      </div>
+      {/* 3.3.8 Accessible Authentication: a pasteable token field with a real
+          label, password-manager friendly autocomplete, Enter submits. No
+          cognitive function test / CAPTCHA. */}
+      <form
+        className="flex flex-col gap-2 rounded-xl border border-slate-300 bg-white p-3"
+        onSubmit={(e) => {
+          e.preventDefault();
+          void load();
+        }}
+      >
+        <label htmlFor="ops-token" className="text-sm font-semibold text-slate-800">
+          Ops dashboard token <span className="font-normal">(only if required)</span>
+        </label>
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <input
+            id="ops-token"
+            name="ops-token"
+            type="password"
+            autoComplete="current-password"
+            className="min-h-tap flex-1 rounded-lg border-2 border-slate-500 px-3 text-base"
+            placeholder="OPS_DASHBOARD_TOKEN"
+            aria-describedby="ops-token-hint"
+            value={token}
+            onChange={(e) => setToken(e.target.value)}
+          />
+          <button
+            type="submit"
+            className="min-h-tap rounded-lg bg-slate-800 px-4 text-sm font-bold text-white"
+          >
+            Refresh
+          </button>
+        </div>
+        <p id="ops-token-hint" className="text-xs text-slate-700">
+          Paste the token (password managers work). Leave empty for the open demo gate.
+        </p>
+      </form>
+      <p className="sr-only" role="status" aria-live="polite">
+        {status}
+      </p>
 
       {err ? (
         <p className="rounded-xl border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-950" role="alert">
@@ -146,7 +180,7 @@ export default function OpsPage() {
                 </ul>
               </div>
             ) : null}
-            <p className="mt-3 text-xs text-slate-500">
+            <p className="mt-3 text-xs text-slate-700">
               Publish checklist: <code>{data.trust_checklist_doc || "docs/TRUST.md"}</code>
               {" · "}
               Ops: <code>{data.catalogue_ops_doc || "docs/CATALOGUE_OPS.md"}</code>
@@ -168,7 +202,7 @@ export default function OpsPage() {
                 ))}
               </ul>
             ) : null}
-            <p className="mt-2 text-xs text-slate-500">
+            <p className="mt-2 text-xs text-slate-700">
               Append-only <code>data/url_tickets.jsonl</code> — list via{" "}
               <code>scripts/list_url_tickets.py</code>
             </p>
@@ -189,7 +223,7 @@ export default function OpsPage() {
                 ))}
               </ul>
             ) : null}
-            <p className="mt-2 text-xs text-slate-500">
+            <p className="mt-2 text-xs text-slate-700">
               Never invent eligibility. Feed from daily freshness / human paste — see{" "}
               <code>docs/CATALOGUE_OPS.md</code>
             </p>
@@ -201,7 +235,7 @@ export default function OpsPage() {
               <strong>pack_count:</strong> {data.packs?.pack_count ?? "—"}
               {data.packs?.default_version ? ` · version ${data.packs.default_version}` : ""}
             </p>
-            <p className="mt-2 text-xs text-slate-500">
+            <p className="mt-2 text-xs text-slate-700">
               Membership manifests in <code>data/packs/</code> — regenerate with{" "}
               <code>scripts/generate_pack_manifests.py</code>
             </p>
@@ -209,16 +243,16 @@ export default function OpsPage() {
 
           <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
             <h2 className="font-bold text-slate-900">URL health</h2>
-            <p className="mt-1 text-xs text-slate-500">{data.url_health?.note}</p>
+            <p className="mt-1 text-xs text-slate-700">{data.url_health?.note}</p>
             <p className="mt-1 text-slate-700">
               Generated: {String(data.url_health?.generated_at || "—")} · checked{" "}
               {String(data.url_health?.checked_count ?? "—")} · ok{" "}
               {String(data.url_health?.ok_count ?? "—")}
             </p>
             {(data.url_health?.flaky_hosts || []).length === 0 ? (
-              <p className="mt-2 text-slate-500">No flaky hosts in snapshot.</p>
+              <p className="mt-2 text-slate-700">No flaky hosts in snapshot.</p>
             ) : (
-              <ul className="mt-2 max-h-48 space-y-1 overflow-y-auto text-xs">
+              <ul className="mt-2 space-y-1 text-xs">
                 {(data.url_health?.flaky_hosts || []).map((h, i) => (
                   <li key={`${h.host}-${i}`} className="rounded bg-slate-50 px-2 py-1">
                     <strong>{h.host || "host"}</strong> — {h.status}{" "}
@@ -231,7 +265,7 @@ export default function OpsPage() {
 
           <section className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
             <h2 className="font-bold text-slate-900">Analytics (aggregates)</h2>
-            <p className="mt-1 text-xs text-slate-500">{data.analytics?.note}</p>
+            <p className="mt-1 text-xs text-slate-700">{data.analytics?.note}</p>
             <p className="mt-2">
               match_volume_24h:{" "}
               {data.analytics?.match_volume_24h ?? data.analytics?.match_volume ?? "—"}

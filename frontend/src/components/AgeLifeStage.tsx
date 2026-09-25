@@ -106,26 +106,26 @@ export default function AgeLifeStage({ age, lang }: Props) {
   if (!valid) return null;
 
   const stage = getLifeStage(displayAge);
+  const finalStage = getLifeStage(age as number);
 
+  // Not an aria-live region: the counter animates 0→age every keystroke and
+  // would flood screen readers. The age is already in the labelled input; we
+  // expose only the final life stage as static text (1.3.1 / 4.1.3).
   return (
-    <div
-      className="age-life-stage mt-3 flex flex-col items-center rounded-2xl border border-brand-200 bg-gradient-to-b from-brand-50 to-white px-4 py-5 shadow-sm animate-pop-in"
-      aria-live="polite"
-      aria-atomic="true"
-    >
-      <div
-        key={`${stage.key}-${popNonce}`}
-        className={`text-5xl leading-none ${stagePop ? "animate-stage-pop" : ""}`}
-        aria-hidden
-      >
-        {stage.emoji}
+    <div className="age-life-stage mt-3 flex flex-col items-center rounded-2xl border border-brand-200 bg-gradient-to-b from-brand-50 to-white px-4 py-5 shadow-sm animate-pop-in">
+      <div aria-hidden="true" className="flex flex-col items-center">
+        <div
+          key={`${stage.key}-${popNonce}`}
+          className={`text-5xl leading-none ${stagePop ? "animate-stage-pop" : ""}`}
+        >
+          {stage.emoji}
+        </div>
+        <div className="mt-2 animate-number-fade text-4xl font-extrabold tabular-nums tracking-tight text-brand-900">
+          {displayAge}
+        </div>
+        <p className="mt-1 text-sm font-semibold text-brand-800">{t(lang, stage.key)}</p>
       </div>
-      <div className="mt-2 animate-number-fade text-4xl font-extrabold tabular-nums tracking-tight text-brand-900">
-        {displayAge}
-      </div>
-      <p className="mt-1 text-sm font-semibold text-brand-800">
-        {t(lang, stage.key)}
-      </p>
+      <p className="sr-only">{t(lang, "lifeStageSr", { stage: t(lang, finalStage.key) })}</p>
     </div>
   );
 }

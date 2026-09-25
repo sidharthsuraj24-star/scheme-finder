@@ -38,3 +38,9 @@ frontend/.env*.local
 frontend/*.tsbuildinfo
 frontend/.vercel/
 scripts/.freshness-report.md
+
+# Playwright / a11y audit artefacts
+frontend/test-results/
+frontend/playwright-report/
+frontend/a11y-report/
+frontend/blob-report/

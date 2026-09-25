@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:a11y": "playwright test",
+    "test:a11y:report": "A11Y_REPORT_DIR=a11y-report playwright test e2e/a11y-axe.spec.ts; node scripts/a11y-summarize.mjs a11y-report",
+    "test:a11y:install": "playwright install --with-deps chromium"
   },
   "dependencies": {
     "next": "^15.1.0",
@@ -14,6 +17,8 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
     "@types/node": "^20.17.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

@@ -193,3 +193,10 @@ India, Bangladesh, Nepal, Sri Lanka, Maldives and the United States. Conventions
 - All three tickets were resolved via `scripts/resolve_url_ticket.py`. The URL ticket
   tests now accept `open_count >= 0`.
 
+## 2026-09-25 — WCAG 2.2 AA audit (Phase 2 trust)
+
+- Target WCAG 2.2 **AA**; results and gaps in `docs/ACCESSIBILITY.md` — no certification claimed.
+- a11y strings live in `frontend/src/lib/i18nA11y.ts` and are merged into the main i18n tables (keeps catalogue/UI copy edits in `i18n.ts` conflict-free).
+- Wizard focus moves to the new question heading on every step change; errors focus the first invalid control.
+- Choice answers stay as `aria-pressed` toggle buttons (visible ✓ indicator added) rather than native radios — revisit after human screen-reader testing.
+- Regression gate: Playwright + axe (`npm run test:a11y`) fails on serious/critical WCAG violations; CI template in `docs/workflows/a11y.yml`.
