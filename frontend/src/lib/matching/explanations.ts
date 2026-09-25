@@ -11,6 +11,26 @@ function normCountry(country: string | null | undefined): string {
   return (country || "India").trim().toLowerCase().replace(/-/g, "_").replace(/ /g, "_") || "india";
 }
 
+const COUNTRY_DISPLAY: Record<string, string> = {
+  india: "India",
+  united_states: "United States",
+  usa: "United States",
+  us: "United States",
+  united_kingdom: "United Kingdom",
+  uk: "United Kingdom",
+  gb: "United Kingdom",
+  great_britain: "United Kingdom",
+};
+
+/** Human-readable country name for explanations (aliases → canonical display name). */
+export function countryDisplay(country: string | null | undefined): string {
+  return COUNTRY_DISPLAY[normCountry(country)] || (country || "India").trim();
+}
+
+function isIndia(country: string | null | undefined): boolean {
+  return normCountry(country) === "india";
+}
+
 function fmtIncome(value: number | null | undefined, country?: string | null): string {
   if (value == null) return "n/a";
   const c = normCountry(country);
@@ -42,8 +62,11 @@ function rulePhraseEn(rule: string, scheme: SchemeRecord, profile: MatchProfile)
       return `annual income ${fmtIncome(profile.annual_income, profile.country)} within cap ${fmtIncome(rules.max_annual_income as number, profile.country)}`;
     case "max_monthly_household_income":
       return `monthly household income ${fmtIncome(profile.monthly_household_income, profile.country)} within cap ${fmtIncome(rules.max_monthly_household_income as number, profile.country)}`;
+    case "countries":
+      return `available in ${countryDisplay(profile.country)}`;
     case "implies_low_income":
-      return `annual income ${fmtIncome(profile.annual_income, profile.country)} within soft low-income gate (BPL/destitute; gate ${impliesLowGateLabel(profile.country)})`;
+      // "BPL/destitute" is Indian terminology — neutral wording elsewhere.
+      return `annual income ${fmtIncome(profile.annual_income, profile.country)} within soft low-income gate (${isIndia(profile.country) ? "BPL/destitute" : "low-income / means-tested"}; gate ${impliesLowGateLabel(profile.country)})`;
     case "gender":
       return `gender '${profile.gender}' matches required '${rules.gender}'`;
     case "marital_status":
@@ -88,8 +111,10 @@ function rulePhraseMl(rule: string, scheme: SchemeRecord, profile: MatchProfile)
       return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income, profile.country)} പരിധി ${fmtIncome(rules.max_annual_income as number, profile.country)} യിൽ ഉൾപ്പെടുന്നു`;
     case "max_monthly_household_income":
       return `മാസ വരുമാനം ${fmtIncome(profile.monthly_household_income, profile.country)} പരിധിക്കുള്ളിൽ`;
+    case "countries":
+      return `${countryDisplay(profile.country)} ൽ ലഭ്യമാണ്`;
     case "implies_low_income":
-      return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income, profile.country)} താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; ${impliesLowGateLabel(profile.country)})`;
+      return `വാർഷിക വരുമാനം ${fmtIncome(profile.annual_income, profile.country)} താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (${isIndia(profile.country) ? "BPL/destitute" : "താഴ്ന്ന വരുമാനം / വരുമാന പരിശോധന"}; ${impliesLowGateLabel(profile.country)})`;
     case "gender":
       return `ലിംഗം '${profile.gender}' യോജിക്കുന്നു`;
     case "marital_status":

@@ -31,6 +31,31 @@ def _implies_low_gate_label(country: str | None) -> str:
     return "n/a (no soft gate for this country)"
 
 
+_COUNTRY_DISPLAY = {
+    "india": "India",
+    "united_states": "United States",
+    "usa": "United States",
+    "us": "United States",
+    "united_kingdom": "United Kingdom",
+    "uk": "United Kingdom",
+    "gb": "United Kingdom",
+    "great_britain": "United Kingdom",
+}
+
+
+def _norm_country(country: str | None) -> str:
+    return (country or "India").strip().lower().replace("-", "_").replace(" ", "_") or "india"
+
+
+def _country_display(country: str | None) -> str:
+    """Human-readable country name for explanations (aliases → canonical display name)."""
+    return _COUNTRY_DISPLAY.get(_norm_country(country)) or (country or "India").strip()
+
+
+def _is_india(country: str | None) -> bool:
+    return _norm_country(country) == "india"
+
+
 def _currency_prefix(country: str | None) -> str:
     """Currency prefix for explanation strings (India default keeps legacy 'Rs.')."""
     c = (country or "India").strip().lower().replace("-", "_").replace(" ", "_") or "india"
@@ -67,11 +92,16 @@ def _rule_phrase_en(
             f"monthly household income {_fmt_income(profile.monthly_household_income, getattr(profile, 'country', None))} "
             f"within cap {_fmt_income(rules.get('max_monthly_household_income'), getattr(profile, 'country', None))}"
         )
+    if rule == "countries":
+        return f"available in {_country_display(getattr(profile, 'country', None))}"
     if rule == "implies_low_income":
-        gate_label = _implies_low_gate_label(getattr(profile, "country", None))
+        country = getattr(profile, "country", None)
+        gate_label = _implies_low_gate_label(country)
+        # "BPL/destitute" is Indian terminology — neutral wording elsewhere.
+        implies = "BPL/destitute" if _is_india(country) else "low-income / means-tested"
         return (
-            f"annual income {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} within soft low-income gate "
-            f"(scheme implies BPL/destitute; no numeric ceiling encoded; gate {gate_label})"
+            f"annual income {_fmt_income(profile.annual_income, country)} within soft low-income gate "
+            f"(scheme implies {implies}; no numeric ceiling encoded; gate {gate_label})"
         )
     if rule == "gender":
         return f"gender '{profile.gender}' matches required '{rules.get('gender')}'"
@@ -131,11 +161,15 @@ def _rule_phrase_ml(
             f"മാസ വരുമാനം {_fmt_income(profile.monthly_household_income, getattr(profile, 'country', None))} "
             f"പരിധിക്കുള്ളിൽ"
         )
+    if rule == "countries":
+        return f"{_country_display(getattr(profile, 'country', None))} ൽ ലഭ്യമാണ്"
     if rule == "implies_low_income":
-        gate_label = _implies_low_gate_label(getattr(profile, "country", None))
+        country = getattr(profile, "country", None)
+        gate_label = _implies_low_gate_label(country)
+        implies = "BPL/destitute" if _is_india(country) else "താഴ്ന്ന വരുമാനം / വരുമാന പരിശോധന"
         return (
-            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income, getattr(profile, 'country', None))} "
-            f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ (BPL/destitute; {gate_label})"
+            f"വാർഷിക വരുമാനം {_fmt_income(profile.annual_income, country)} "
+            f"താഴ്ന്ന വരുമാന സോഫ്റ്റ് ഗേറ്റിനുള്ളിൽ ({implies}; {gate_label})"
         )
     if rule == "gender":
         return f"ലിംഗം '{profile.gender}' യോജിക്കുന്നു"

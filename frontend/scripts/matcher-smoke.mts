@@ -367,6 +367,54 @@ function check(name: string, ok: boolean, detail = "") {
   );
 }
 
+// Explanation text: readable countries rule; BPL/destitute wording India-only; right currency
+{
+  const opts = { max_results: 100 };
+  const lowHits = (resp: ReturnType<typeof matchSchemes>) =>
+    resp.matched.filter((m) => m.matched_rules.includes("implies_low_income"));
+  const cases: [string, Partial<MatchProfile>, string][] = [
+    ["uk", { country: "United Kingdom", state: "England", age: 35, annual_income: 18_000 }, "United Kingdom"],
+    ["us", { country: "United States", state: "California", age: 35, annual_income: 20_000, occupations: ["unemployed"] }, "United States"],
+    ["in", { age: 68, gender: "male", annual_income: 45_000, categories: ["BPL"] }, "India"],
+  ];
+  for (const [tag, partial, display] of cases) {
+    const resp = matchSchemes(schemes, base(partial), opts);
+    const withCountry = resp.matched.filter((m) => m.matched_rules.includes("countries"));
+    check(
+      `expl_countries_readable_${tag}`,
+      withCountry.length > 0 &&
+        withCountry.every(
+          (m) =>
+            m.explanation.en.includes(`available in ${display}`) &&
+            !m.explanation.en.includes(" countries;") &&
+            m.explanation.ml.includes(`${display} ൽ ലഭ്യമാണ്`),
+        ),
+    );
+    const low = lowHits(resp);
+    if (tag === "in") {
+      check(
+        "expl_india_keeps_bpl",
+        low.length > 0 && low.every((m) => m.explanation.en.includes("BPL/destitute") && m.explanation.en.includes("Rs.45,000")),
+      );
+    } else {
+      const cur = tag === "uk" ? "£18,000" : "$20,000";
+      check(
+        `expl_${tag}_neutral_low_income`,
+        low.length > 0 &&
+          low.every(
+            (m) =>
+              !m.explanation.en.includes("BPL") &&
+              !m.explanation.en.includes("destitute") &&
+              !m.explanation.ml.includes("BPL") &&
+              m.explanation.en.includes("low-income / means-tested") &&
+              m.explanation.en.includes(cur) &&
+              !m.explanation.en.includes("Rs."),
+          ),
+      );
+    }
+  }
+}
+
 if (failed) {
   console.error(`\n${failed} failed`);
   process.exit(1);
