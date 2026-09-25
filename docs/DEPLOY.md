@@ -24,6 +24,46 @@ npx vercel deploy --yes
 
 Requires `vercel login` or `VERCEL_TOKEN`. If CLI is logged out, that is the blocker (see below).
 
+### Auto-deploy on push to `main` (status 2026-09-25 — pending one-time user clicks)
+
+Goal: every push to `main` → Vercel **production** (Hobby, $0); other branches / PRs → **preview** only.
+Vercel project: `frontend` (scope `no-team-74fe`, `prj_lbqhAwqH8vTndCprrzwfi4kvTW3D`), prod alias
+https://frontend-theta-wheat-82.vercel.app. Until this is done, production only changes on manual
+`cd frontend && npx vercel deploy --prod --yes` (no GitHub Actions, no Git integration).
+
+**Why it isn't automatic yet**
+
+- `npx vercel git connect` → `Failed to link sidharthsuraj24-star/scheme-finder. You need to add a
+  Login Connection to your GitHub account first. (400)`; Vercel API lists **zero** GitHub namespaces
+  for the account, i.e. no GitHub login connection / Vercel GitHub App access yet.
+- Fallback (GitHub Actions `vercel deploy --prod`) needs `.github/workflows/*`, which the box `gh`
+  token (`gist`, `read:org`, `repo` — no `workflow` scope) cannot push (see DATA_REFRESH.md).
+
+**One-time human steps (Option 1 — native Git integration, preferred)**
+
+1. Vercel → avatar → Settings → **Authentication** (https://vercel.com/account/settings/authentication)
+   → *Add New* → **GitHub** → authorize as `sidharthsuraj24-star`.
+2. Install the Vercel GitHub App on `sidharthsuraj24-star` with access to `scheme-finder`:
+   https://github.com/apps/vercel/installations/new (pick *Only select repositories* → `scheme-finder`).
+3. Either click **Connect Git Repository** at https://vercel.com/no-team-74fe/frontend/settings/git
+   (production branch `main`), or tell the agent to run `npx vercel git connect --yes` from `frontend/`.
+
+**Settings the agent applies right after connecting** (must match today's working manual deploys):
+
+- Root Directory `frontend` (API `PATCH /v9/projects/frontend {"rootDirectory":"frontend"}`), framework
+  Next.js, build `npm run build`, install `npm install`, Node 24.x, no env vars required
+  (`NEXT_PUBLIC_API_URL` unset = same-origin `/api`). Production branch `main`.
+- Previews: non-`main` pushes/PRs get protected preview URLs (Vercel Authentication, `ssoProtection`
+  all-except-custom-domains); they never touch the production alias.
+- Once Root Directory = `frontend`, manual CLI deploys must run from the **repo root** (link there with
+  `npx vercel link --yes --project frontend`), otherwise the CLI looks for `frontend/frontend`.
+
+**Alternative (Option 2 — GitHub Actions)**: run `gh auth refresh -h github.com -s workflow` (browser
+device-code approval by the account owner), then add `.github/workflows/vercel-prod.yml`
+(`vercel pull/build/deploy --prebuilt --prod`) with repo secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID`
+(`team_g1a24Y2VXWLBisE8tmVzEJr5`), `VERCEL_PROJECT_ID` (`prj_lbqhAwqH8vTndCprrzwfi4kvTW3D`), and move
+`docs/workflows/*.yml` into `.github/workflows/`.
+
 ## Auth / CLI blockers (build box)
 
 | Tool | Auth | Notes |
