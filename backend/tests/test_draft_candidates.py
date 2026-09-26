@@ -163,7 +163,13 @@ def test_write_appends_needs_review_rows_verbatim_unverified(queue):
     assert dc.main(_argv(queue, "--summary-json", str(queue["tmp"] / "s.json"))) == 0
     data = json.loads(queue["cands"].read_text(encoding="utf-8"))
     assert queue["cands"].read_bytes() == queue["fe"].read_bytes(), "dual-tree copies must stay identical"
-    new = [c for c in data["candidates"] if c.get("auto_drafted")]
+    # Only rows appended by this offline run (found_at pinned to --today), so a
+    # live auto-draft already in the repo queue does not inflate the count.
+    new = [
+        c
+        for c in data["candidates"]
+        if c.get("auto_drafted") and c.get("found_at") == "2026-09-25"
+    ]
     assert len(data["candidates"]) == n_before + len(new) == n_before + 6
     for c in new:
         assert c["status"] == "needs_review"

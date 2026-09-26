@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-25T15:39:48+05:30",
+  "updated_at": "2026-09-26T06:20:10+05:30",
   "timezone": "Asia/Kolkata",
   "note": "Human-verify candidate queue. Never invent eligibility. Daily freshness (6:09 AM IST external) or humans may paste new candidates here after checking schemes.json. Honest empty open queue is OK; deferred rows document historical clearance of PM-KMY / PM-SYM / NAMASTE.",
   "candidates": [
@@ -112,6 +112,50 @@
       "actor": "suraj",
       "notes": "",
       "previous_status": "researching"
+    },
+    {
+      "id": "cand-auto-canada-news-minister-valdez-launches-call-for-pr-f95e8281",
+      "name": "Minister Valdez launches call for proposals for the Women Entrepreneurship Strategy Ecosystem Fund",
+      "country": "Canada",
+      "official_source_url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/minister-valdez-launches-call-for-proposals-for-the-women-entrepreneurship-strategy-ecosystem-fund.html",
+      "status": "needs_review",
+      "reason": "Auto-drafted from Canada News Centre (Atom) on 2026-09-26. Unverified lead — human review required.",
+      "noted_at": "2026-09-26T06:19:58+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "canada-news",
+        "label": "Canada News Centre (Atom)",
+        "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=50&format=atom",
+        "lang": "en"
+      },
+      "source_url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/09/minister-valdez-launches-call-for-proposals-for-the-women-entrepreneurship-strategy-ecosystem-fund.html",
+      "found_at": "2026-09-26",
+      "extracted": {
+        "title": {
+          "value": "Minister Valdez launches call for proposals for the Women Entrepreneurship Strategy Ecosystem Fund",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-09-24",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "Building the strongest economy in the G7 requires the full and equal participation of women. Through the Women Entrepreneurship Strategy (WES), the federal government is helping more women entrepreneurs access the financing, training and networks they need to succeed as we build a stronger, more competitive Canada.",
+          "verified": false,
+          "source_field": "atom:entry/summary"
+        },
+        "category": {
+          "value": "news releases",
+          "verified": false,
+          "source_field": "atom:entry/category@term"
+        }
+      }
     }
   ]
 }
