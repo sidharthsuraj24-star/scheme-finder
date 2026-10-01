@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-27T06:20:03+05:30",
+  "updated_at": "2026-10-01T06:11:32+05:30",
   "timezone": "Asia/Kolkata",
   "note": "Human-verify candidate queue. Never invent eligibility. Daily freshness (6:09 AM IST external) or humans may paste new candidates here after checking schemes.json. Honest empty open queue is OK; deferred rows document historical clearance of PM-KMY / PM-SYM / NAMASTE.",
   "candidates": [
@@ -237,6 +237,123 @@
           "value": "news releases",
           "verified": false,
           "source_field": "atom:entry/category@term"
+        }
+      }
+    },
+    {
+      "id": "cand-auto-gov-uk-applications-open-for-scheme-to-slas-a851f5f4",
+      "name": "Applications Open for Scheme to Slash Electricity Bills for Over 10,000 Manufacturers",
+      "country": "United Kingdom",
+      "official_source_url": "https://www.gov.uk/government/news/applications-open-for-scheme-to-slash-electricity-bills-for-over-10000-manufacturers",
+      "status": "needs_review",
+      "reason": "Auto-drafted from GOV.UK news and communications (Atom, keyword: scheme) on 2026-10-01. Unverified lead — human review required.",
+      "noted_at": "2026-10-01T06:11:19+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "gov-uk",
+        "label": "GOV.UK news and communications (Atom, keyword: scheme)",
+        "feed_url": "https://www.gov.uk/search/news-and-communications.atom?keywords=scheme&order=updated-newest",
+        "lang": "en"
+      },
+      "source_url": "https://www.gov.uk/government/news/applications-open-for-scheme-to-slash-electricity-bills-for-over-10000-manufacturers",
+      "found_at": "2026-10-01",
+      "extracted": {
+        "title": {
+          "value": "Applications Open for Scheme to Slash Electricity Bills for Over 10,000 Manufacturers",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-10-01",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "More than 10,000 businesses across Great Britain are a step closer to vital government support to slash their electricity bills, as applications open today for the British Industrial Competitiveness Scheme (BICS).",
+          "verified": false,
+          "source_field": "atom:entry/summary"
+        }
+      }
+    },
+    {
+      "id": "cand-auto-gov-uk-new-flood-scheme-opens-to-protect-to-3678f6bc",
+      "name": "New flood scheme opens to protect Tonbridge and Hildenborough",
+      "country": "United Kingdom",
+      "official_source_url": "https://www.gov.uk/government/news/new-flood-scheme-opens-to-protect-tonbridge-and-hildenborough",
+      "status": "needs_review",
+      "reason": "Auto-drafted from GOV.UK news and communications (Atom, keyword: scheme) on 2026-10-01. Unverified lead — human review required.",
+      "noted_at": "2026-10-01T06:11:19+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "gov-uk",
+        "label": "GOV.UK news and communications (Atom, keyword: scheme)",
+        "feed_url": "https://www.gov.uk/search/news-and-communications.atom?keywords=scheme&order=updated-newest",
+        "lang": "en"
+      },
+      "source_url": "https://www.gov.uk/government/news/new-flood-scheme-opens-to-protect-tonbridge-and-hildenborough",
+      "found_at": "2026-10-01",
+      "extracted": {
+        "title": {
+          "value": "New flood scheme opens to protect Tonbridge and Hildenborough",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-09-30",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "Expanded Leigh flood storage area and new Hildenborough defences will reduce flood-risk to 1,870 homes and 575 businesses.",
+          "verified": false,
+          "source_field": "atom:entry/summary"
+        }
+      }
+    },
+    {
+      "id": "cand-auto-gov-uk-uk-resettlement-scheme-reopens-for-n-71a3159e",
+      "name": "UK Resettlement Scheme reopens for new referrals",
+      "country": "United Kingdom",
+      "official_source_url": "https://www.gov.uk/government/news/uk-resettlement-scheme-reopens-for-new-referrals",
+      "status": "needs_review",
+      "reason": "Auto-drafted from GOV.UK news and communications (Atom, keyword: scheme) on 2026-10-01. Unverified lead — human review required.",
+      "noted_at": "2026-10-01T06:11:19+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "gov-uk",
+        "label": "GOV.UK news and communications (Atom, keyword: scheme)",
+        "feed_url": "https://www.gov.uk/search/news-and-communications.atom?keywords=scheme&order=updated-newest",
+        "lang": "en"
+      },
+      "source_url": "https://www.gov.uk/government/news/uk-resettlement-scheme-reopens-for-new-referrals",
+      "found_at": "2026-10-01",
+      "extracted": {
+        "title": {
+          "value": "UK Resettlement Scheme reopens for new referrals",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-09-28",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "The Home Secretary has reopened the UK Resettlement Scheme , with around a quarter of referrals expected to be Afghan women and girls and Palestinian refugees.",
+          "verified": false,
+          "source_field": "atom:entry/summary"
         }
       }
     }
