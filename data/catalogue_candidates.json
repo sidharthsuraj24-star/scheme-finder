@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T06:11:32+05:30",
+  "updated_at": "2026-10-02T06:12:49+05:30",
   "timezone": "Asia/Kolkata",
   "note": "Human-verify candidate queue. Never invent eligibility. Daily freshness (6:09 AM IST external) or humans may paste new candidates here after checking schemes.json. Honest empty open queue is OK; deferred rows document historical clearance of PM-KMY / PM-SYM / NAMASTE.",
   "candidates": [
@@ -354,6 +354,94 @@
           "value": "The Home Secretary has reopened the UK Resettlement Scheme , with around a quarter of referrals expected to be Afghan women and girls and Palestinian refugees.",
           "verified": false,
           "source_field": "atom:entry/summary"
+        }
+      }
+    },
+    {
+      "id": "cand-auto-canada-news-national-film-board-of-canada-featur-79af6a81",
+      "name": "National Film Board of Canada featured in the Lucas Museum of Narrative Art’s inaugural film program. Landmark films by Norman McLaren, Arthur Lipsett, Jean-Claude Labrecque and Theodore Ushev are among 19 NFB titles selected for stunning new museum experience in Los Angeles.",
+      "country": "Canada",
+      "official_source_url": "https://www.canada.ca/en/national-film-board/news/2026/10/national-film-board-of-canada-featured-in-the-lucas-museum-of-narrative-arts-inaugural-film-program-landmark-films-by-norman-mclaren-arthur-lipsett.html",
+      "status": "needs_review",
+      "reason": "Auto-drafted from Canada News Centre (Atom) on 2026-10-02. Unverified lead — human review required.",
+      "noted_at": "2026-10-02T06:12:37+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "canada-news",
+        "label": "Canada News Centre (Atom)",
+        "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=50&format=atom",
+        "lang": "en"
+      },
+      "source_url": "https://www.canada.ca/en/national-film-board/news/2026/10/national-film-board-of-canada-featured-in-the-lucas-museum-of-narrative-arts-inaugural-film-program-landmark-films-by-norman-mclaren-arthur-lipsett.html",
+      "found_at": "2026-10-02",
+      "extracted": {
+        "title": {
+          "value": "National Film Board of Canada featured in the Lucas Museum of Narrative Art’s inaugural film program. Landmark films by Norman McLaren, Arthur Lipsett, Jean-Claude Labrecque and Theodore Ushev are among 19 NFB titles selected for stunning new museum experience in Los Angeles.",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-10-01",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "The National Film Board of Canada (NFB) has been chosen to be part of the inaugural film program at the new Lucas Museum of Narrative Art in Los Angeles, where 19 NFB works will be featured in continuous screenings in the museum’s two theatres. Founded by George Lucas and Mellody Hobson, the museum opened its doors on September 22.",
+          "verified": false,
+          "source_field": "atom:entry/summary"
+        },
+        "category": {
+          "value": "news releases",
+          "verified": false,
+          "source_field": "atom:entry/category@term"
+        }
+      }
+    },
+    {
+      "id": "cand-auto-canada-news-ccohs-adds-new-speakers-and-workplac-1885835d",
+      "name": "CCOHS Adds New Speakers and Workplace Safety Innovations to Finalize Forum 2026 Program",
+      "country": "Canada",
+      "official_source_url": "https://www.canada.ca/en/centre-occupational-health-safety/news/2026/10/ccohs-adds-new-speakers-and-workplace-safety-innovations-to-finalize-forum-2026-program.html",
+      "status": "needs_review",
+      "reason": "Auto-drafted from Canada News Centre (Atom) on 2026-10-02. Unverified lead — human review required.",
+      "noted_at": "2026-10-02T06:12:37+05:30",
+      "actor": "draft_candidates_from_sources",
+      "notes": "AUTO-DRAFT: every extracted field is unverified and copied verbatim from the source. No eligibility was inferred. Verify on the official scheme page before any schemes.json PR; reject if this is not a citizen-facing scheme.",
+      "auto_drafted": true,
+      "verified": false,
+      "candidate_kind": "press_release_lead",
+      "source": {
+        "id": "canada-news",
+        "label": "Canada News Centre (Atom)",
+        "feed_url": "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=50&format=atom",
+        "lang": "en"
+      },
+      "source_url": "https://www.canada.ca/en/centre-occupational-health-safety/news/2026/10/ccohs-adds-new-speakers-and-workplace-safety-innovations-to-finalize-forum-2026-program.html",
+      "found_at": "2026-10-02",
+      "extracted": {
+        "title": {
+          "value": "CCOHS Adds New Speakers and Workplace Safety Innovations to Finalize Forum 2026 Program",
+          "verified": false,
+          "source_field": "atom:entry/title"
+        },
+        "published": {
+          "value": "2026-10-01",
+          "verified": false,
+          "source_field": "atom:entry/updated"
+        },
+        "summary": {
+          "value": "The Canadian Centre for Occupational Health and Safety (CCOHS) has announced updates to the Forum 2026: The Changing World of Work (Forum 2026) program.",
+          "verified": false,
+          "source_field": "atom:entry/summary"
+        },
+        "category": {
+          "value": "news releases",
+          "verified": false,
+          "source_field": "atom:entry/category@term"
         }
       }
     }
